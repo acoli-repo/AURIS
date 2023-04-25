@@ -8,25 +8,25 @@
 
 Texts for annotation should be automatically pre-annotated for nominal referring expressions. This document contains the guidelines for the algorithm. Normally, this is irrelevant for manual annotation and can be skipped.
 
+We provide a pre-annotation routine 
+
 ## Markables
 
 The annotation task is to process each text in reading order and annotate/verify all markables (automatically pre-annotated) and their antecedents (including cases in which these are not pre-annotated).
 
 We distinguish between two types of markables, which are also to be marked as such:
 
--   **primary markable** (PM) are candidate anaphors, i.e., noun phrases whose grammatical features suggest that their discourse referent is or could be identifiable by the hearer. For German and English, these are definite NPs and pronouns. For languages without grammatical marking of definiteness, these are all nominals and pronouns. 
+-   **primary markable** (PM, automatically annotated as `?OLD`) are candidate anaphors, i.e., noun phrases whose grammatical features suggest that their discourse referent is or could be identifiable by the hearer. For German and English, these are definite NPs and pronouns. For languages without grammatical marking of definiteness, these are all nominals and pronouns. 
 
 	Primary markables are automatically extracted. The task of annotation is to assign every primary markable either an antecedent or a flag that marks them as new or non-referential.
 
 	> Note: This definition follows Krasavina and Chiarcos (2007). Chiarcos et al. (2016) singled out non-referential markables (NM)  from primary markables as they do not rely on automated pre-annotation.
 
--   **secondary markables** (SM) are antecedents for anaphoric expressions which have not been detected as primary markable.
+-   **secondary markables** (SM, automatically annotated as `?NEW`) are antecedents for anaphoric expressions which have not been detected as primary markable.
 
-	Typical secondary markables are  indefinite expressions (NP with indefinite article, *a dog*) or without article (*good weather*). Secondary markables are not automatically annotated.
+	Typical secondary markables are  indefinite expressions (NP with indefinite article, *a dog*) or without article (*good weather*). 
 
-	> Note: In Chiarcos et al. (2016), this is restricted to noun phrases. Here,  it is extended to all words, so that we cover event anaphora.
-
-In automated pre-annotation, all primary markables are assigned the referentiality `?OLD`. The task of manual annotation is defined as annotating all primary markables and their antecedent from beginning to end, so that the presence of `?OLD` indicates that a text has not been fully annotated.
+In automated pre-annotation, all primary markables are assigned the referentiality `?OLD`, all secondary markables `?NEW`. The task of manual annotation is defined as annotating all primary markables and their antecedent from beginning to end, so that the presence of `?OLD` or `?NEW` indicates that a text has not been fully annotated.
 
 Word forms that are confirmed to be syntactically bound are not to be annotated. Forms that are ambiguous between bound and anaphoric pronouns are annotated as primary markables and to be disambiguated manually.
 
@@ -44,13 +44,15 @@ We only annotate the syntactic heads of markables according to the Universal Dep
 > (2.a) English: *\[<u>Hans</u> -- who always had \[a soft <u>spot</u>\] \[for <u>Susanne</u>\]  -- \]  was also there.*
 > (2.b) German: *\[<u>Hans</u> -- der immer schon \[eine <u>Schwäche</u>\] \[für <u>Susanne</u>\] hatte -- \] war auch da.*
 
-## Primary Markables ( referentiality `?OLD`)
+## Primary Markables (referentiality `?OLD`)
 
 Primary markables are automatically extracted from a syntactic analysis. The following criteria define the algorithm. Normally, annotators do not have to annotate PMs and they can skip this section. However, if you feel there may be an anaphoric expression that was missed in automated extraction, please resort to these definitions. 
 
 > Notes: 
 > - Incorrect PM prediction can result from parser errors. Annotators should mark manually introduced PMs with the comment `manual PM`.
 > - Annotators must never delete an incorrectly extracted PM annotation, but you can mark it as non-referential and add the comment `parser error` to the annotation.
+> - From UD annotation, we cannot extract times and dates reliably. So, these receive no special handling (different from Stede et al. 2015).
+> - Our pre-annotation predicts types of referring expressions, following Chiarcos and Krasavina (2005).
 
 ### a.  Pronouns
 
@@ -60,9 +62,7 @@ Personal, demonstrative, possessive pronouns and pronominal adverbs (e.g. German
 
 Reflexive pronouns (English *herself*, etc.) are not PM. Pronouns that are formally ambiguous as to whether they are reflexive or personal pronouns (e.g., German *mich* "me; myself"), are PM, and should be marked as `bound` in the annotation. Analoguously for other non-referring pronouns (e.g., expletive *it* or generic *you* in the sense of "anyone").
 
-The demonstrative pronoun *such* (German *solch*) is considered as indefinite. Refererring expressions with *such* should not be annotated as primary markables.
-
-### b.  Definite Descriptions
+### b.  Definite and Possessive Descriptions
 
 -   With definite article: 
 
@@ -85,7 +85,13 @@ The demonstrative pronoun *such* (German *solch*) is considered as indefinite. R
 	> d. *\[this man's <u>house</u>\]*
 	> **but not** e. *\[a man's house\]*
 
-### c.  Proper Names and Titles
+### c. Demonstratives
+
+NPs with demonstrative determiner (English *this NP*, *that NP*, German *diese NP*, *jene NP*), and demonstrative pronouns (German *dieser*, English *this*, *that* [if not used as relative pronoun]) are primary markables.
+
+The demonstrative pronoun *such* (German *solch*) is considered as indefinite. Refererring expressions with *such* should not be annotated as primary markables.
+
+### d.  Proper Names and Titles
 
 Typical types of proper nouns are geographic locations, people, societies, names of newspapers and magazines, and names of various social, political, and financial institutions.
 
@@ -109,17 +115,6 @@ Complex proper names are only treated as a single markable and are not further d
 Standalone titles are also assigned to the \'proper noun\' category and receive the appropriate attribute 
 
 > (10) \[the graduate <u>engineer</u>\] didn\'t like it.
-
-### d.  Times and Dates
-
-These relate to a point in time or a time interval and can be resumed anaphorically in the text; so we treat them as PM.
-These include dates, days of the week and month names, year numbers, etc.
-
-> (11.a)  \[<u>12.3.2012</u>\] (single token)
-
-If the structure is syntactically intransparent, annotate the first word not clearly recognizable as a modifier. If the structure is semantically transparent, annotate the most specific designator as head, e.g., the day in a date (not the year). This allows to create additional anaphoric links between multiple mentions of the same year without confusing it with different dates in the same year.
-
-> (11.b)  \[<u>12</u> . 3 . 2012\] (.-based tokenization)
 
 ## Secondary Markables (referentiality `NEW`)
 
