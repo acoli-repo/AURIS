@@ -1,0 +1,136 @@
+PREFIX conll: <http://ufal.mff.cuni.cz/conll2009-st/task-description.html#> 
+PREFIX nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> 
+PREFIX powla: <http://purl.org/powla/powla.owl#> 
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX terms: <http://purl.org/acoli/open-ie/> 
+PREFIX x:     <http://purl.org/acoli/conll-rdf/xml#> 
+
+# non-markables (REF=_)
+INSERT { ?w conll:REF "_" } 
+WHERE { 
+	# Reflexive pronouns (English *herself*, etc.) are not PM.
+	{ ?w conll:FEATS ?f FILTER(contains(?f,"Reflex=Yes")) } UNION
+	# expletives
+	{ ?w conll:EDGE "expl" } UNION
+	# dependent nouns
+	{ ?w conll:EDGE "flat"} UNION
+	{ ?w conll:EDGE "compound"} UNION
+	# relatve pronouns
+	{ ?w conll:EDGE "mark"} UNION
+	{ ?w conll:UPOS "SCONJ" } UNION
+	{ ?w conll:FEATS ?f FILTER(contains(?f,"PronType=Rel"))} UNION
+	{ ?w conll:FEATS ?f FILTER(contains(?f,"PronType=Int"))} UNION
+	# non-nominals
+	{ ?w conll:EDGE "amod"} UNION
+	{ ?w conll:EDGE "advmod"} 
+};
+
+# REF_EXP (based on Chiarcos & Krasavina 2005)
+# - NAME proper names => ?OLD ("primary markable")
+# - DEF_NP definite NP => ?OLD
+# - DEM_NP demonstrative NP => ?OLD
+# - POSS_NP possessive NP => ?NEW
+# - INDEF_NP indefinite NP => ?NEW (secondary markable)
+# - PPER personal pronouns => ?OLD
+# - PPOSS possessive pronouns => ?OLD
+# - PDEM substitutive demonstrative pronouns => ?OLD
+# - PADV pronominal adverbs => ?OLD
+# - PIND indefinite pronoun => ?NEW (secondary markable)
+
+# - PPOSS possessive pronouns => ?OLD
+INSERT {
+	?w conll:REF_EXP "PPOSS"; conll:REF "?OLD"
+} WHERE {
+	?w conll:EDGE "nmod:poss"; conll:UPOS "PRON".
+	MINUS { ?w conll:REF [] }
+};
+
+# - PDEM substitutive demonstrative pronouns => ?OLD
+INSERT {
+	?w conll:REF_EXP "PDEM"; conll:REF "?OLD"
+} WHERE {
+	?w conll:UPOS "PRON"; conll:FEATS ?f.
+	FILTER(contains(?f,"PronType=Dem"))
+	MINUS { ?w conll:REF [] }
+};
+
+# - PADV pronominal adverbs => ?OLD
+# no examples in English
+
+# - PIND indefinite pronoun => ?NEW (secondary markable)
+INSERT {
+	?w conll:REF_EXP "PIND"; conll:REF "?NEW"
+} WHERE {
+	?w conll:LEMMA ?l; conll:UPOS "PRON"
+	FILTER(contains(?l,"one"))
+	MINUS { ?w conll:REF [] }
+};
+
+# - PPER personal pronouns => ?OLD
+INSERT {
+	?w conll:REF_EXP "PPER"; conll:REF "?OLD"
+} WHERE {
+	?w conll:UPOS "PRON".
+	MINUS { ?w conll:REF [] }
+};
+
+INSERT {
+	?w conll:REF_EXP "NAME"; conll:REF "?OLD"
+} WHERE {
+	?w conll:UPOS "PROPN".
+	MINUS { ?w conll:EDGE "compound" }
+	MINUS { ?w conll:EDGE "flat" }
+	MINUS { ?w conll:REF [] }
+};
+
+INSERT {
+	?w conll:REF_EXP "DEF_NP"; conll:REF "?OLD"
+} WHERE {
+	?def conll:FEATS ?f; conll:EDGE "det"; conll:HEAD ?w.
+	FILTER(contains(?f,"Definite=Def"))
+	?w conll:UPOS "NOUN"
+	MINUS { ?w conll:REF [] }
+};
+
+INSERT {
+	?w conll:REF_EXP "DEM_NP"; conll:REF "?OLD"
+} WHERE {
+	?def conll:FEATS ?f; conll:EDGE "det"; conll:HEAD ?w.
+	FILTER(contains(?f,"PronType=Dem"))
+	?w conll:UPOS "NOUN"
+	MINUS { ?w conll:REF [] }
+};
+
+INSERT {
+	?w conll:REF_EXP "POSS_NP"; conll:REF "?OLD"
+} WHERE {
+	?def conll:EDGE "nmod:poss"; conll:HEAD ?w.
+	?w conll:UPOS "NOUN"
+	MINUS { ?w conll:REF [] }
+};
+
+INSERT {
+	?w conll:REF_EXP "POSS_NP"; conll:REF "?OLD"
+} WHERE {
+	?of conll:LEMMA "of"; conll:HEAD ?dep.
+	?dep conll:EDGE "nmod"; conll:HEAD ?w; conll:REF "?OLD"
+	MINUS { ?w conll:REF [] }
+};
+
+INSERT {
+	?w conll:REF_EXP "INDEF_NP"; conll:REF "?NEW"
+} WHERE {
+	?w conll:UPOS "NOUN".
+	MINUS { ?w conll:REF [] }
+};
+
+
+INSERT {
+	?w conll:REF_EXP "other"; conll:REF "?NEW"
+} WHERE {
+	?w conll:EDGE ?e.
+	FILTER(?e in ("nmod", "nsubj", "nsubj:pass", "obj", "dobj", "iobj", "obl"))
+	MINUS { ?w conll:REF [] }
+};
+
