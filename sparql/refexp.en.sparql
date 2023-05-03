@@ -38,6 +38,8 @@ WHERE {
 # - PADV pronominal adverbs => ?OLD
 # - PIND indefinite pronoun => ?NEW (secondary markable)
 
+# Note: to facilitate navigation during spreadsheet-based annotation, we remove `?NEW` in a final processing step.
+
 # - PPOSS possessive pronouns => ?OLD
 INSERT {
 	?w conll:REF_EXP "PPOSS"; conll:REF "?OLD"
@@ -134,3 +136,14 @@ INSERT {
 	MINUS { ?w conll:REF [] }
 };
 
+
+
+# remove `?NEW`
+# note: this is to facilitate spreadsheet-based annotation, so people can use <CTRL>+<DOWN> to jump to the next primary markable
+#       for doing the same for secondary markables, annotators should use the `REF_EXP` column. 
+
+DELETE {
+	?w conll:REF "?NEW"
+} WHERE {
+	?w conll:REF "?NEW"
+};

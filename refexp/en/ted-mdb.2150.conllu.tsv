@@ -1,5 +1,5 @@
 # text = talkid: 2150
-talkid	INDEF_NP	?NEW	
+talkid	INDEF_NP		
 :			
 2150		
 
@@ -8,15 +8,15 @@ Dave	NAME	?OLD
 Troy			
 :			
 Social			
-maps	INDEF_NP	?NEW	
+maps	INDEF_NP		
 that			
 reveal			
 a			
-city	INDEF_NP	?NEW	
+city	INDEF_NP		
 's			
 intersections	POSS_NP	?OLD	
 and			
-separations	INDEF_NP	?NEW
+separations	INDEF_NP	
 
 # text = When we think about mapping cities, we tend to think about roads and streets and buildings, and the settlement narrative that led to their creation, or you might think about the bold vision of an urban designer, but there's other ways to think about mapping cities and how they got to be made.
 When			
@@ -24,18 +24,18 @@ we	PPER	?OLD
 think			
 about			
 mapping			
-cities	INDEF_NP	?NEW	
+cities	INDEF_NP		
 ,			
 we	PPER	?OLD	
 tend			
 to			
 think			
 about			
-roads	INDEF_NP	?NEW	
+roads	INDEF_NP		
 and			
-streets	INDEF_NP	?NEW	
+streets	INDEF_NP		
 and			
-buildings	INDEF_NP	?NEW	
+buildings	INDEF_NP		
 ,			
 and			
 the			
@@ -58,18 +58,18 @@ vision	DEF_NP	?OLD
 of			
 an			
 urban			
-designer	INDEF_NP	?NEW	
+designer	INDEF_NP		
 ,			
 but			
 there			
 's			
 other			
-ways	INDEF_NP	?NEW	
+ways	INDEF_NP		
 to			
 think			
 about			
 mapping			
-cities	INDEF_NP	?NEW	
+cities	INDEF_NP		
 and			
 how			
 they	PPER	?OLD	
@@ -80,7 +80,7 @@ made
 .		
 
 # text = Today, I want to show you a new kind of map.
-Today	INDEF_NP	?NEW	
+Today	INDEF_NP		
 ,			
 I	PPER	?OLD	
 want			
@@ -89,9 +89,9 @@ show
 you	PPER	?OLD	
 a			
 new			
-kind	INDEF_NP	?NEW	
+kind	INDEF_NP		
 of			
-map	INDEF_NP	?NEW	
+map	INDEF_NP		
 .		
 
 # text = This is not a geographic map.
@@ -100,7 +100,7 @@ is
 not			
 a			
 geographic			
-map	INDEF_NP	?NEW	
+map	INDEF_NP		
 .		
 
 # text = This is a map of the relationships between people in my hometown of Baltimore, Maryland, and what you can see here is that each dot represents a person, each line represents a relationship between those people, and each color represents a community within the network.
@@ -112,7 +112,7 @@ of
 the			
 relationships	DEF_NP	?OLD	
 between			
-people	INDEF_NP	?NEW	
+people	INDEF_NP		
 in			
 my	PPOSS	?OLD	
 hometown	POSS_NP	?OLD	
@@ -130,26 +130,26 @@ here
 is			
 that			
 each			
-dot	INDEF_NP	?NEW	
+dot	INDEF_NP		
 represents			
 a			
-person	INDEF_NP	?NEW	
+person	INDEF_NP		
 ,			
 each			
-line	INDEF_NP	?NEW	
+line	INDEF_NP		
 represents			
 a			
-relationship	INDEF_NP	?NEW	
+relationship	INDEF_NP		
 between			
 those			
 people	DEM_NP	?OLD	
 ,			
 and			
 each			
-color	INDEF_NP	?NEW	
+color	INDEF_NP		
 represents			
 a			
-community	INDEF_NP	?NEW	
+community	INDEF_NP		
 within			
 the			
 network	DEF_NP	?OLD	
@@ -184,7 +184,7 @@ down
 on			
 the			
 far			
-right	other	?NEW	
+right	other		
 .		
 
 # text = (Laughter)
@@ -213,7 +213,7 @@ _
 American			
 and			
 Latino			
-folks	INDEF_NP	?NEW	
+folks	INDEF_NP		
 who			
 are			
 really			
@@ -221,7 +221,7 @@ concerned
 about			
 somewhat			
 different			
-things	INDEF_NP	?NEW	
+things	INDEF_NP		
 than			
 the			
 geeks	DEF_NP	?OLD	
@@ -232,7 +232,7 @@ just
 to			
 give			
 some			
-sense	INDEF_NP	?NEW	
+sense	INDEF_NP		
 ,			
 the			
 green			
@@ -264,7 +264,7 @@ in
 a			
 very			
 small			
-town	INDEF_NP	?NEW	
+town	INDEF_NP		
 .		
 
 # text = We see the same people over and over again, but that's because we're not really exploring the full depth and breadth of the city.
@@ -291,7 +291,7 @@ the
 full			
 depth	DEF_NP	?OLD	
 and			
-breadth	INDEF_NP	?NEW	
+breadth	INDEF_NP		
 of			
 the			
 city	DEF_NP	?OLD	
@@ -308,17 +308,17 @@ network	DEF_NP	?OLD
 ,			
 you	PPER	?OLD	
 have			
-folks	INDEF_NP	?NEW	
+folks	INDEF_NP		
 who			
 are			
 interested			
 in			
-things	INDEF_NP	?NEW	
+things	INDEF_NP		
 like			
 hip			
 _			
 hop			
-music	INDEF_NP	?NEW	
+music	INDEF_NP		
 and			
 they	PPER	?OLD	
 even			
@@ -366,7 +366,7 @@ together
 and			
 that	PDEM	?OLD	
 's			
-sports	INDEF_NP	?NEW	
+sports	INDEF_NP		
 .		
 
 # text = We have the Baltimore Orioles, the Baltimore Ravens football team, Michael Phelps, the Olympian.
@@ -397,19 +397,19 @@ you	PPER	?OLD
 may			
 have			
 heard			
-of	other	?NEW	
+of	other		
 ,			
 is			
 a			
 Baltimore			
-company	INDEF_NP	?NEW	
+company	INDEF_NP		
 ,			
 and			
 that			
 community	DEM_NP	?OLD	
 of			
 sports			
-acts	INDEF_NP	?NEW	
+acts	INDEF_NP		
 as			
 the			
 only			
@@ -428,7 +428,7 @@ Let
 's	PPER	?OLD	
 take			
 a			
-look	INDEF_NP	?NEW	
+look	INDEF_NP		
 at			
 San	NAME	?OLD	
 Francisco			
@@ -440,7 +440,7 @@ see
 something	PPER	?OLD	
 a			
 little			
-bit	INDEF_NP	?NEW	
+bit	INDEF_NP		
 different			
 happening			
 in			
@@ -460,10 +460,10 @@ have
 the			
 media	DEF_NP	?OLD	
 ,			
-politics	INDEF_NP	?NEW	
+politics	INDEF_NP		
 and			
 news			
-lobe	INDEF_NP	?NEW	
+lobe	INDEF_NP		
 that			
 tends			
 to			
@@ -472,7 +472,7 @@ in
 Baltimore	NAME	?OLD	
 and			
 other			
-cities	INDEF_NP	?NEW	
+cities	INDEF_NP		
 ,			
 but			
 you	PPER	?OLD	
@@ -481,14 +481,14 @@ have
 this	PDEM	?OLD	
 very			
 predominant			
-group	INDEF_NP	?NEW	
+group	INDEF_NP		
 of			
-geeks	INDEF_NP	?NEW	
+geeks	INDEF_NP		
 and			
-techies	INDEF_NP	?NEW	
+techies	INDEF_NP		
 that			
 are			
-sort	INDEF_NP	?NEW	
+sort	INDEF_NP		
 of			
 taking			
 over			
@@ -504,7 +504,7 @@ there
 's			
 even			
 a			
-group	INDEF_NP	?NEW	
+group	INDEF_NP		
 that			
 's			
 so			
@@ -518,7 +518,7 @@ identify
 it	PPER	?OLD	
 as			
 Twitter			
-employees	INDEF_NP	?NEW	
+employees	INDEF_NP		
 ,			
 next			
 to			
@@ -542,7 +542,7 @@ the
 hip	DEF_NP	?OLD	
 _			
 hop			
-spectrum	INDEF_NP	?NEW	
+spectrum	INDEF_NP		
 .		
 
 # text = So you can see, though, that the tensions that we've heard about in San Francisco in terms of people being concerned about gentrification and all the new tech companies that are bringing new wealth and settlement into the city are real, and you can actually see that documented here.
@@ -565,13 +565,13 @@ in
 San	NAME	?OLD	
 Francisco			
 in			
-terms	INDEF_NP	?NEW	
+terms	INDEF_NP		
 of			
-people	INDEF_NP	?NEW	
+people	INDEF_NP		
 being			
 concerned			
 about			
-gentrification	INDEF_NP	?NEW	
+gentrification	INDEF_NP		
 and			
 all			
 the			
@@ -582,9 +582,9 @@ that
 are			
 bringing			
 new			
-wealth	INDEF_NP	?NEW	
+wealth	INDEF_NP		
 and			
-settlement	INDEF_NP	?NEW	
+settlement	INDEF_NP		
 into			
 the			
 city	DEF_NP	?OLD	
@@ -635,7 +635,7 @@ so
 it	PPER	?OLD	
 leads			
 to			
-things	INDEF_NP	?NEW	
+things	INDEF_NP		
 like			
 this	PDEM	?OLD	
 .		
@@ -657,7 +657,7 @@ this
 photo	DEM_NP	?OLD	
 a			
 few			
-weeks	INDEF_NP	?NEW	
+weeks	INDEF_NP		
 ago			
 ,			
 and			
@@ -687,7 +687,7 @@ through
 looking			
 at			
 a			
-map	INDEF_NP	?NEW	
+map	INDEF_NP		
 like			
 this	PDEM	?OLD	
 .		
@@ -697,7 +697,7 @@ Let
 's	PPER	?OLD	
 take			
 a			
-look	INDEF_NP	?NEW	
+look	INDEF_NP		
 at			
 Rio			
 de			
@@ -712,7 +712,7 @@ last
 few			
 weeks	DEF_NP	?OLD	
 gathering			
-data	INDEF_NP	?NEW	
+data	INDEF_NP		
 about			
 Rio	NAME	?OLD	
 ,			
@@ -746,10 +746,10 @@ It	PPER	?OLD
 a			
 very			
 heterogenous			
-city	INDEF_NP	?NEW	
+city	INDEF_NP		
 in			
 a			
-way	INDEF_NP	?NEW	
+way	INDEF_NP		
 that			
 Baltimore			
 or			
@@ -766,16 +766,16 @@ have
 the			
 lobe	DEF_NP	?OLD	
 of			
-people	INDEF_NP	?NEW	
+people	INDEF_NP		
 involved			
 with			
-government	INDEF_NP	?NEW	
+government	INDEF_NP		
 ,			
-newspapers	INDEF_NP	?NEW	
+newspapers	INDEF_NP		
 ,			
-politics	INDEF_NP	?NEW	
+politics	INDEF_NP		
 ,			
-columnists	INDEF_NP	?NEW	
+columnists	INDEF_NP		
 .		
 
 # text = TEDxRio is down in the lower right, right next to bloggers and writers.
@@ -786,14 +786,14 @@ down
 in			
 the			
 lower			
-right	other	?NEW	
+right	other		
 ,			
 right			
 next			
 to			
-bloggers	INDEF_NP	?NEW	
+bloggers	INDEF_NP		
 and			
-writers	INDEF_NP	?NEW	
+writers	INDEF_NP		
 .		
 
 # text = But then you also have this tremendous diversity of people that are interested in different kinds of music.
@@ -806,15 +806,15 @@ this
 tremendous			
 diversity	DEM_NP	?OLD	
 of			
-people	INDEF_NP	?NEW	
+people	INDEF_NP		
 that			
 are			
 interested			
 in			
 different			
-kinds	INDEF_NP	?NEW	
+kinds	INDEF_NP		
 of			
-music	INDEF_NP	?NEW	
+music	INDEF_NP		
 .		
 
 # text = Even Justin
@@ -823,7 +823,7 @@ Justin	NAME	?OLD
 
 # text = Bieber fans are represented here.
 Bieber			
-fans	INDEF_NP	?NEW	
+fans	INDEF_NP		
 are			
 represented			
 here			
@@ -832,22 +832,22 @@ here
 # text = Other boy bands, country singers, gospel music, funk and rap and stand-up comedy, and there's even a whole section around drugs and jokes.
 Other			
 boy			
-bands	INDEF_NP	?NEW	
+bands	INDEF_NP		
 ,			
 country			
-singers	INDEF_NP	?NEW	
+singers	INDEF_NP		
 ,			
 gospel			
-music	INDEF_NP	?NEW	
+music	INDEF_NP		
 ,			
-funk	INDEF_NP	?NEW	
+funk	INDEF_NP		
 and			
-rap	INDEF_NP	?NEW	
+rap	INDEF_NP		
 and			
 stand			
 _			
 up			
-comedy	INDEF_NP	?NEW	
+comedy	INDEF_NP		
 ,			
 and			
 there			
@@ -855,11 +855,11 @@ there
 even			
 a			
 whole			
-section	INDEF_NP	?NEW	
+section	INDEF_NP		
 around			
-drugs	INDEF_NP	?NEW	
+drugs	INDEF_NP		
 and			
-jokes	INDEF_NP	?NEW	
+jokes	INDEF_NP		
 .		
 
 # text = How cool is that?
@@ -890,16 +890,16 @@ that
 same			
 kind	DEM_NP	?OLD	
 of			
-spread	INDEF_NP	?NEW	
+spread	INDEF_NP		
 of			
-sports	INDEF_NP	?NEW	
+sports	INDEF_NP		
 and			
-civics	INDEF_NP	?NEW	
+civics	INDEF_NP		
 and			
 the			
 arts	DEF_NP	?OLD	
 and			
-music	INDEF_NP	?NEW	
+music	INDEF_NP		
 ,			
 but			
 it	PPER	?OLD	
@@ -909,7 +909,7 @@ in
 a			
 very			
 different			
-way	INDEF_NP	?NEW	
+way	INDEF_NP		
 ,			
 and			
 I	PPER	?OLD	
@@ -930,7 +930,7 @@ multicultural
 ,			
 musically			
 diverse			
-city	INDEF_NP	?NEW	
+city	INDEF_NP		
 .		
 
 # text = So we have all this data.
@@ -948,14 +948,14 @@ It	PPER	?OLD
 an			
 incredibly			
 rich			
-set	INDEF_NP	?NEW	
+set	INDEF_NP		
 of			
-data	INDEF_NP	?NEW	
+data	INDEF_NP		
 that			
 we	PPER	?OLD	
 have			
 about			
-cities	INDEF_NP	?NEW	
+cities	INDEF_NP		
 now			
 ,			
 maybe			
@@ -964,7 +964,7 @@ richer
 than			
 any			
 data			
-set	INDEF_NP	?NEW	
+set	INDEF_NP		
 that			
 we	PPER	?OLD	
 've			
@@ -999,11 +999,11 @@ to
 understand			
 is			
 that			
-segregation	INDEF_NP	?NEW	
+segregation	INDEF_NP		
 is			
 a			
 social			
-construct	INDEF_NP	?NEW	
+construct	INDEF_NP		
 .		
 
 # text = It's something that we choose to do, and we could choose not to do it, and if you kind of think about it, what we're doing with this data is aiming a space telescope at a city and looking at it as if was a giant high school cafeteria, and seeing how everybody arranged themselves in a seating chart.
@@ -1045,10 +1045,10 @@ is
 aiming			
 a			
 space			
-telescope	INDEF_NP	?NEW	
+telescope	INDEF_NP		
 at			
 a			
-city	INDEF_NP	?NEW	
+city	INDEF_NP		
 and			
 looking			
 at			
@@ -1060,7 +1060,7 @@ a
 giant			
 high			
 school			
-cafeteria	INDEF_NP	?NEW	
+cafeteria	INDEF_NP		
 ,			
 and			
 seeing			
@@ -1071,7 +1071,7 @@ themselves
 in			
 a			
 seating			
-chart	INDEF_NP	?NEW	
+chart	INDEF_NP		
 .		
 
 # text = Well maybe it's time to shake up the seating chart a little bit.
@@ -1079,7 +1079,7 @@ Well
 maybe			
 it	PPER	?OLD	
 's			
-time	INDEF_NP	?NEW	
+time	INDEF_NP		
 to			
 shake			
 up			
@@ -1088,7 +1088,7 @@ seating
 chart	DEF_NP	?OLD	
 a			
 little			
-bit	INDEF_NP	?NEW	
+bit	INDEF_NP		
 .		
 
 # text = The other thing that we start to realize is that race is a really poor proxy for diversity.
@@ -1102,28 +1102,28 @@ to
 realize			
 is			
 that			
-race	INDEF_NP	?NEW	
+race	INDEF_NP		
 is			
 a			
 really			
 poor			
-proxy	INDEF_NP	?NEW	
+proxy	INDEF_NP		
 for			
-diversity	INDEF_NP	?NEW	
+diversity	INDEF_NP		
 .		
 
 # text = We've got people represented from all different types of races across the entire map here -- only looking at race doesn't really contribute to our development of diversity.
 We	PPER	?OLD	
 've			
 got			
-people	INDEF_NP	?NEW	
+people	INDEF_NP		
 represented			
 from			
 all			
 different			
-types	INDEF_NP	?NEW	
+types	INDEF_NP		
 of			
-races	INDEF_NP	?NEW	
+races	INDEF_NP		
 across			
 the			
 entire			
@@ -1133,7 +1133,7 @@ _
 only			
 looking			
 at			
-race	INDEF_NP	?NEW	
+race	INDEF_NP		
 does			
 n't			
 really			
@@ -1142,7 +1142,7 @@ to
 our	PPOSS	?OLD	
 development	POSS_NP	?OLD	
 of			
-diversity	INDEF_NP	?NEW	
+diversity	INDEF_NP		
 .		
 
 # text = So if we're trying to use diversity as a way to tackle some of our more intractable problems, we need to start to think about diversity in a new way.
@@ -1153,13 +1153,13 @@ we	PPER	?OLD
 trying			
 to			
 use			
-diversity	INDEF_NP	?NEW	
+diversity	INDEF_NP		
 as			
 a			
-way	INDEF_NP	?NEW	
+way	INDEF_NP		
 to			
 tackle			
-some	other	?NEW	
+some	other		
 of			
 our	PPOSS	?OLD	
 more			
@@ -1173,11 +1173,11 @@ start
 to			
 think			
 about			
-diversity	INDEF_NP	?NEW	
+diversity	INDEF_NP		
 in			
 a			
 new			
-way	INDEF_NP	?NEW	
+way	INDEF_NP		
 .		
 
 # text = And lastly, we have the ability to create interventions to start to reshape our cities in a new way, and I believe that if we have that capability, we may even bear some responsibility to do so.
@@ -1190,7 +1190,7 @@ the
 ability	DEF_NP	?OLD	
 to			
 create			
-interventions	INDEF_NP	?NEW	
+interventions	INDEF_NP		
 to			
 start			
 to			
@@ -1200,7 +1200,7 @@ cities	POSS_NP	?OLD
 in			
 a			
 new			
-way	INDEF_NP	?NEW	
+way	INDEF_NP		
 ,			
 and			
 I	PPER	?OLD	
@@ -1217,7 +1217,7 @@ may
 even			
 bear			
 some			
-responsibility	INDEF_NP	?NEW	
+responsibility	INDEF_NP		
 to			
 do			
 so			
@@ -1228,13 +1228,13 @@ So
 what			
 is			
 a			
-city	INDEF_NP	?NEW	
+city	INDEF_NP		
 ?		
 
 # text = I think some might say that it is a geographical area or a collection of streets and buildings, but I believe that a city is the sum of the relationships of the people that live there, and I believe that if we can start to document those relationships in a real way then maybe we have a real shot at creating those kinds of cities that we'd like to have.
 I	PPER	?OLD	
 think			
-some	other	?NEW	
+some	other		
 might			
 say			
 that			
@@ -1242,21 +1242,21 @@ it	PPER	?OLD
 is			
 a			
 geographical			
-area	INDEF_NP	?NEW	
+area	INDEF_NP		
 or			
 a			
-collection	INDEF_NP	?NEW	
+collection	INDEF_NP		
 of			
-streets	INDEF_NP	?NEW	
+streets	INDEF_NP		
 and			
-buildings	INDEF_NP	?NEW	
+buildings	INDEF_NP		
 ,			
 but			
 I	PPER	?OLD	
 believe			
 that			
 a			
-city	INDEF_NP	?NEW	
+city	INDEF_NP		
 is			
 the			
 sum	DEF_NP	?OLD	
@@ -1285,20 +1285,20 @@ relationships	DEM_NP	?OLD
 in			
 a			
 real			
-way	INDEF_NP	?NEW	
+way	INDEF_NP		
 then			
 maybe			
 we	PPER	?OLD	
 have			
 a			
 real			
-shot	INDEF_NP	?NEW	
+shot	INDEF_NP		
 at			
 creating			
 those			
 kinds	DEM_NP	?OLD	
 of			
-cities	INDEF_NP	?NEW	
+cities	INDEF_NP		
 that			
 we	PPER	?OLD	
 'd			

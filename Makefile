@@ -43,6 +43,6 @@ refexp: conllu conll-rdf
 			| grep -v s/"^\-\-$$"// \
 			| sed s/"^[0-9][0-9]*\t"// \
 			| perl -pe "s/\t_/\t/g;" \
-			> $$tgtdir/`basename $$file | sed s/'\.conllu?$$'//`.tsv; \
+			> $$tgtdir/`basename $$file | sed s/'\.conll[u]?$$'//`.tsv; \
 		done;\
 	done;
