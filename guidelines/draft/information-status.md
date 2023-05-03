@@ -7,7 +7,7 @@ The criteria in this coding protocol are sufficient, not necessary conditions fo
 
 > Note: These guidelines use notation as it might be used \"on paper\" or in a text editor. For the practical procedure with a special annotation software, separate instructions for its use are issued.
 
-## Givenness Hierarchy and Backward-Looking Center
+## Givenness Hierarchy: `IS`
 
 The statuses of the Givenness Hierarchy (Gundel, Hedberg and Zacharski 1993) describe degrees of accessibility of discourse referents at a given point in discourse. In the literature, this phenomenon is referred to as *givenness*, *accessibility*, *salience*, etc. Throughout this manual, we use the term **information status** according to Lambrecht (1996). Gundel et al. originally used the term *cognitive status*.
 
@@ -35,7 +35,7 @@ With the notion of backward-looking center, we arrive at the following hierarchy
 * CB > IN FOCUS > ACTIVATED > FAMILIAR > UNIQUELY IDENTIFIABLE > REFERENTIAL > TYPE IDENTIFIABLE
 
 
-## Statuses and Criteria
+## `IS` Statuses and Criteria
 
 ### 1. IN FOCUS
 
@@ -195,26 +195,28 @@ An interpretation is TYPE IDENTIFIABLE if the sense of the phrase (the descripti
 > (23) Whenever Mary passes that store, she always picks up <u>a
      newspaper</u>.
 
-### 7. CB (Backward-Looking Center)
+## Backward-Looking Center (`CB`)
+
+After IS annotation, CB annotation is to be done in a separate column.
 
 In Centering Theory (Grosz et al. 1995), the "backward-looking center" is a technical term for the notion of "familiarity topic". The following criteria apply:
 
 - Each sentence ("utterance") has at most one backward-looking center.
-- The backward-looking center of the current sentence must be explicitly mentioned ("realized") in the immediately preceding sentence. That is, it must have been previously annotated as IN FOCUS.
-- If there is more than one IN FOCUS expression that has been mentioned in the preceding sentence, check the properties of its antecendent. 
+- The backward-looking center of the current sentence must be explicitly mentioned ("realized") in the immediately preceding sentence. That is, it must have been previously annotated as `IN FOCUS` or `ACTIVATED`.
+- If there is more than one CB candidate that has been mentioned in the preceding sentence, check the properties of its antecendent. 
 - Mark the expression as CB whose antecedent is highest on the following ranking ("salience ranking"):
-    1. SUBJECT (of main clause)
-    2. OBJECT (of main clause, e.g., direct or indirect object)
-    3. OBLIQUE ARGUMENT  (of main clause, e.g., prepositional phrase)
-    4. MAIN CLAUSE (event anaphora: refer to the main clause or the full sentence, rather than any of its arguments)
-    5. SUBJECT (of dependent clause)
-    6. OBJECT (of dependent clause)
-    7. OBJECT (of dependent clause)
-    8. DEPENDENT CLAUSE (event anaphora: refer to a dependent clause)
+    1. SUBJECT (of main clause, `GR`=`subj`)
+    2. OBJECT (of main clause, e.g., direct or indirect object, `GR`=`obj`)
+    3. OTHER  (oblique argument of main clause, e.g., prepositional phrase, `GR`=`other`), 
+    4. MAIN CLAUSE (event anaphora: refer to the main clause or the full sentence, rather than any of its arguments, no `GR` annotation)
+    5. SUBJECT (of dependent clause, `GR`=`subj_2`, `subj_3`, etc.)
+    6. OBJECT (of dependent clause, `GR`=`obj_2`, `obj_3`, etc.)
+    7. OTHER (of dependent clause, `GR`=`other_2`, `other_3`, etc.)
+    8. DEPENDENT CLAUSE (event anaphora: refer to a dependent clause, no `GR` annotation)
     9. etc., for more deeply embedded dependent clauses
 - If there are multiple CB candidates whose antecedent realization (according to this ranking) is identical, chose the one whose antecedent is mentioned _first_ in the preceding sentence.
 
-If a CB has been confirmed, replace its IN FOCUS annotation with CB.
+CB annotation is partially pre-annotated, but has to be manually refined.
 
 Selected CB examples:
 - antecedent SUBJECT (main clause, Grosz et al. 1995, ex. 6)
