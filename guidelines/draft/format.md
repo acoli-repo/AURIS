@@ -12,7 +12,7 @@ Following conventions for a long-standing series of shared tasks organized in co
 - **use `#` for comments**: line starting with `#` are ignored when processing the file. Use this to add whatever additional information you want to express that doesn't fit the format otherwise.
 - **put the text before every sentence**: To facilitate reading, the comment line before the sentence should contain the full text of the sentence.
 
-This is the format for "raw" files, as produced by automated preprocessing. It can be opened in any text editor. For editing, you need to load these files in the spreadsheet software of your choice (see instructions below). The final deliverable should be one Excel (`*.xlsx`) file for every raw file, and it should have the same name (except for file type extension) as the original file.
+This is the format for "raw" files, as produced by automated preprocessing. It can be opened in any text editor. For editing, you need to load these files in the spreadsheet software of your choice (see instructions below). The final deliverable should be one Excel (`*.xlsx`) file for every raw file, and it should have the same name (except for file extension) as the original file.
 
 ## Raw files
 
@@ -40,23 +40,36 @@ The template file and the target file contain the following columns:
 - `REF_AUTO`: predicted referentiality, i.e., `?OLD` or empty
 - `COREF`: manual coreference annotation or `!!!` for an annotation to be done.
 - `REF`: manual annotation for referentiality, automatically pre-annotated after `COREF` annotation.
-- ...
+- `IS`: manual annotation for information status ("givenness"), automatically pre-annotated after `COREF` annotation.
+- `CB`: manual annotation for backward-looking center ("topic"), automatically pre-annotated after `COREF` annotation.
+- the following columns (colored gray in template file) contain auxiliary annotations, these are not to be annotated, but part of the automated pre-annotation process
+	- `GR_ANTE`: grammatical role of the antecedent (factor in `IS` and `CB` annotation)
+	- `REF_DIST`: referential distance of the antecedent (factor in `IS` and `CB` annotation)
+	- `REF_DIST_ANTE`: referential distance annotation of the antecedent (factor in `IS` annotation)
+
+| Fig. 1. Template file                              |
+| -------------------------------------------------- |
+| [!Screenshot from template file](img/template.png) |
 
 Open your new file `xyz.xlsx` in your preferred spreadsheet software. You can use any tool you like, but it **must** support reading and writing MS Excel 365 files (`*.xlsx`) and they **should** support Excel formulas. Possible tools include MS Office tools, LibreOffice/OpenOffice, Google Spreadsheet (in Google Docs), etc. If you have difficulties using or getting these tools, please get in touch with your instructor.
 
 For illustration, we use OpenOffice below. Other spreadsheet software should be similar.
 
-Now, open the "raw" file (here, `xyz.tsv`) in your spreadsheet software. Normally, you should be able to open it by double-clicking on it. It should open as a new table. Select the entire table and copy and paste it into your target file. Make sure no not overwrite the first two rows of your target file.
+Now, open the "raw" file (here, `xyz.tsv`) in your spreadsheet software. Normally, you should be able to open it by double-clicking on it. It should open as a new table. Select the entire table and copy and paste it into your target file. Make sure not to overwrite *the first three rows* of your target file (i.e., those that contain colored columns).
 
 > Notes: 
 > - To select the entire table under Windows or Linux, press `<CTRL>+<END>` to get to the lower right corner of your data. Then, press `<CTRL>+<SHIFT>+<POS1>` (`<CTRL>+<SHIFT>+<HOME>`) to select everything until the upper left corner. Then, press `<CTRL>+C` to copy the entire table and `<CTRL>+V` to insert it at its new place. 
 > - On MacOS, keys are different. Normally, the `<MAC>` key should be used in place of `<CTRL>`.
-> - Google Docs (tested under Linux) uses Windows/Linux-style keys.
+> - Google Docs (tested under Windows/Linux) uses Windows/Linux-style keys.
 
 After copying the pre-annotated data into the target file, you need to copy the *pre-annotation formulas*, too:
-- Go to cell `E2` (second row, column `COREF`). It only appears to be empty, but it is not. 
-- Select all formulas using `<CTRL>+<SHIFt>+<LEFT>`, copy them with `<CTRL>+C`.
-- Select `<CTRL>+<SHIFT>+<END>` to select the table from cell `D2` to the end. Then, paste the formulas using `<CTRL>+V`. You should see some automated pre-annotations, now. These will update automatically during the annotation and have to be manually corrected when needed.
+- Go to cell `E3` (third row, column `COREF`). The formulas are contained in the colored and the gray columns in that row. 
+- Select all formulas using `<CTRL>+<SHIFt>+<LEFT>`, copy them with `<CTRL>+C`. 
+- Go to cell `E4`. Press `<CTRL>+<SHIFT>+<END>` to select the table from cell `E4` to the end. Then, paste the formulas using `<CTRL>+V`. You should see colored columns for the entire text and some automated pre-annotations, now. These will update automatically during the annotation and have to be manually corrected when needed.
+
+| Fig. 2. Target file                            |
+| ---------------------------------------------- |
+| [!Screenshot from target file](imp/target.png) |
 
 ## Annotation procedure
 
@@ -119,7 +132,7 @@ Note that this view is not suited for longer text, so, longer comments should be
 
 In addition to that, you can (and should) use the annotation protocol to keep track of any observations you made during the annotation process, e.g., difficulties in interpreting or applying the annotation manual. This will guide future revision efforts.
 
-The annotation protocol should be saved in the same folder as the target file, and (except for the file type extension), it should carry the same name.
+The annotation protocol should be saved in the same folder as the target file, and (except for the file extension), it should carry the same name.
 
 ### On Evaluation
 
