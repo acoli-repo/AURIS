@@ -1,0 +1,49 @@
+PREFIX conll: <http://ufal.mff.cuni.cz/conll2009-st/task-description.html#> 
+PREFIX nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> 
+PREFIX powla: <http://purl.org/powla/powla.owl#> 
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX terms: <http://purl.org/acoli/open-ie/> 
+PREFIX x:     <http://purl.org/acoli/conll-rdf/xml#> 
+
+# extraction of grammatical roles (for IS and CB annotation)
+# we expect preceding markable extraction (conll:REF)
+
+INSERT {
+	?w conll:GR "subj"
+} WHERE {
+	?w conll:EDGE ?e
+	FILTER(strstarts(?e,"nsubj"))	
+};
+
+INSERT {
+	?w conll:GR "obj"
+} WHERE {
+	?w conll:EDGE ?e
+	FILTER(contains(?e,"obj"))	
+	MINUS { ?w conll:GR [] }
+};
+
+INSERT {
+	?w conll:GR "other"
+} WHERE {
+	?w conll:REF_EXP [].
+	MINUS { ?w conll:GR [] }
+};
+
+DELETE {
+	?w conll:GR ?gr
+} INSERT {
+	?w conll:GR ?gr_new
+} WHERE {
+	?w conll:GR ?gr.
+	{ SELECT ?w (COUNT(distinct ?parent) as ?depth)
+	  WHERE {
+	  	?w conll:HEAD+ ?parent.
+	  	?parent a nif:Word.
+	  } GROUP BY ?w
+	}
+	FILTER(?depth>1)
+	BIND(concat(?gr,"_",str(?depth)) as ?gr_new)
+};
+

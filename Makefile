@@ -36,8 +36,9 @@ refexp: conllu conll-rdf
 			| ../conll-rdf/run.sh CoNLLStreamExtractor \
 				'#' \
 				ID FORM LEMMA UPOS XPOS FEATS HEAD EDGE DEPS MISC \
-				-u ../sparql/refexp.$$lang.sparql \
-			| ../conll-rdf/run.sh CoNLLRDFFormatter -conll ID FORM REF_EXP REF \
+				-u 	../sparql/refexp.$$lang.sparql \
+					../sparql/gr.sparql \
+			| ../conll-rdf/run.sh CoNLLRDFFormatter -conll ID FORM GR REF_EXP REF \
 			| egrep '^# text|^[0-9]|^$$' \
 			| grep -B 1 -A 1 '^[0-9]' \
 			| grep -v s/"^\-\-$$"// \

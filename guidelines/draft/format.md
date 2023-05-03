@@ -23,8 +23,8 @@ Note that as part of text extracting and automated pre-annotation, some errors c
 The raw files currently contain three columns:
 
 - `WORD`: words and punctuation characters as they occur in the text.
-- `REFEXP`: type of referring expression (noun phrase)
-- `REF_AUTO`: predicted referentiality, i.e., `?OLD` or empty
+- `GR`: grammatical role
+- `REFEXP`: type of referring expression (noun phrase) `REF_AUTO`: predicted referentiality, i.e., `?OLD` or empty
 
 > Note: Shall we rename `REFEXP` to `NP_FORM`?
 
@@ -35,6 +35,7 @@ We provide a **template file** in `*.xlsx` format that contains a number of form
 The template file and the target file contain the following columns:
 
 - `WORD`: words and punctuation characters as they occur in the text.
+- `GR`: grammatical role
 - `REFEXP`: type of referring expression (noun phrase)
 - `REF_AUTO`: predicted referentiality, i.e., `?OLD` or empty
 - `COREF`: manual coreference annotation or `!!!` for an annotation to be done.
@@ -53,7 +54,7 @@ Now, open the "raw" file (here, `xyz.tsv`) in your spreadsheet software. Normall
 > - Google Docs (tested under Linux) uses Windows/Linux-style keys.
 
 After copying the pre-annotated data into the target file, you need to copy the *pre-annotation formulas*, too:
-- Go to cell `D2` (second row, column `COREF`). It only appears to be empty, but it is not. 
+- Go to cell `E2` (second row, column `COREF`). It only appears to be empty, but it is not. 
 - Select all formulas using `<CTRL>+<SHIFt>+<LEFT>`, copy them with `<CTRL>+C`.
 - Select `<CTRL>+<SHIFT>+<END>` to select the table from cell `D2` to the end. Then, paste the formulas using `<CTRL>+V`. You should see some automated pre-annotations, now. These will update automatically during the annotation and have to be manually corrected when needed.
 
@@ -122,4 +123,4 @@ The annotation protocol should be saved in the same folder as the target file, a
 
 ### On Evaluation
 
-As we rely to some extent on automated pre-annotation, we need to quantify
+As we rely to some extent on automated pre-annotation, we need to quantify the number of average revisions of pre-annotated values per file and annotator.
