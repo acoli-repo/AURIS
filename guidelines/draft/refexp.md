@@ -1,14 +1,14 @@
-**source**: 
+**sources**: 
 - Christian Chiarcos, Manfred Stede, Saskia Warzecha (2019), Nominale referentielle Ausdrücke, In: Stede, M. (Ed.). (2016). Handbuch Textannotation: Potsdamer Kommentarkorpus 2.0 (Vol. 8). Universitätsverlag Potsdam, p.55-70
-- automatically translated using www.onlinedoctranslator.com and converted to Markdown using PanDoc
-- revision by Christian Chiarcos
+- Christian Chiarcos and Olga Krasavina (2005), PoCoS. Potsdam Coreference Scheme. University of Potsdam, Germany
+- consolidated and revised by Christian Chiarcos
 - see Readme.md for contributors and revision history
 
 # Automated Pre-Annotation of Markables
 
 Texts for annotation should be automatically pre-annotated for nominal referring expressions. This document contains the guidelines for the algorithm. Normally, this is irrelevant for manual annotation and can be skipped.
 
-We provide a pre-annotation routine 
+We provide a pre-annotation routine that identifies referring expressions, their morphosyntactic type (`REFEXP`), their grammatical role (`GR`) and, for potential anaphors, their referentiality (`REF`, only value is currently `?OLD`).
 
 ## Markables
 
@@ -116,9 +116,11 @@ Standalone titles are also assigned to the \'proper noun\' category and receive 
 
 > (10) \[the graduate <u>engineer</u>\] didn\'t like it.
 
-## Secondary Markables (referentiality `NEW`)
+## Secondary Markables
 
-Every nominal phrase or pronoun which is neither PM nor confirmed to be syntactically bound, is automatically annotated as a secondary markable.
+Every nominal phrase or pronoun which is neither PM nor confirmed to be syntactically bound, is subject to automated pre-annotation. Secondary markables are referring expressions that are unlikely/impossible anaphors, but that could *introduce* new discourse referents.
+
+> Note: At the moment, these are automatically annotated for `REFEXP`, but not for referentiality (`REF`).
 
 Common types of SMs include:
 

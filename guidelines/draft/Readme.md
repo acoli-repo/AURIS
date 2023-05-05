@@ -7,7 +7,7 @@ Annotation manual for
 - the manual annotation information status ("Givenness")
 
 Note that all annotations need to revised if changes to this manual occur. For this reason, annotators must **NEVER** change this document. Instead, if you encounter difficulties or problems with the annotation, document your requirements or issues in an accompanying document, along with a reference to the data where you encountered the issue and a brief statement on how you solved or marked it.
-T
+
 ## Content
 
 The manual consists of four separate documents:
@@ -36,7 +36,7 @@ Because they can be automatically identified, we do not mark literal quotations 
 
 ### Authors 
 
-We list direct contributors as well as indirect authors (authors of sources that went, fully or partially, into this document), along with their (estimated) duration of involvement
+We list direct contributors as well as primary authors of sources that went, fully or partially, into this document, along with their (estimated) duration of involvement
 
 - CC: Christian Chiarcos (coreference: since 2005, information status: since 2008), University of Augsburg, Germany
 - OK: Olga Krasavina (coreference: 2005-2011), HU Berlin, Germany / Moscow State University, Russia
@@ -66,6 +66,8 @@ Other contributors are people who provided feedback and input, incl. annotators.
 
 - [terms.md](terms.md): definitions
 	- [2023-04-20](../archive/terms.2023-04-20.md): extracted from refexp.md and coreference.md, see there for sources and contributors [CC]
+- [format.md](format.md): file formats and annotation proceduce
+	- 2023-05-04: first draft [CC]
 - [refexp.md](refexp.md): guidelines for automated pre-annotation
 	- **TODO**: restore and update English examples from Krasavina and Chiarcos (2007) and Chiarcos and Krasavina (2005)
 	- [2023-04-20](../archive/refexp.2024-04-20.md): restructured and fully revised [CC]
