@@ -3,19 +3,25 @@
 - Christian Chiarcos, Manfred Stede, Saskia Warzecha (2019), Nominale referentielle Ausdrücke, In: Stede, M. (Ed.). (2016). Handbuch Textannotation: Potsdamer Kommentarkorpus 2.0 (Vol. 8). Universitätsverlag Potsdam, p.55-70
 - Christian Chiarcos, Manfred Stede, Saskia Warzecha (2019), Nominale Koreferenz, In: Stede, M. (Ed.). (2016). Handbuch Textannotation: Potsdamer Kommentarkorpus 2.0 (Vol. 8). Universitätsverlag Potsdam, p.71-85
 - Olga Krasavina and Christian Chiarcos (2007), PoCoS. Potsdam Coreference Scheme, First Linguistic Annotation Workshop (LAW-2007), held in conjunction with ACL-2007, Prague, Czech Republic, June 2007
+- Christian Chiarcos and Olga Krasavina (2005), PoCoS. Potsdam Coreference Scheme, Tech. Rep., University of Potsdam, Germany
 
 > Note: Text examples that appear in this document without citing the source are always fictitious.
 
 # Background
 
-> Note: These guidelines use a notation as it might be used \"on paper\" or in a text editor. For the practical procedure with a special annotation software, separate instructions for its use are issued.
+Most texts involve repeated mentions of the same entity as well as references to objects related in various ways to what has already been discussed. Annotating corpora with information about such relations between elements of a text is useful both from a linguistic point of view and for applications such as information extraction.
+
+Subsequent mentions of an entity can have the same surface form - as when the expression *the Lord Provost* is encountered twice in a text - or different ones. Anaphoric expressions are used to indicate that elements of a text are correlated. The simplest forms of anaphoric expression are used to indicate a subsequent mention of an object already introduced: typical examples of this type of anaphoric expression are pronouns such as *he* in the text *John arrived. [He] looked tired.* In the preferred reading of this text, the pronoun *he* is interpreted as an 'abbreviated reference,' to the individual John which is denoted by the expression *John*. 
+
+Besides coreference annotation itself, we include a set of linguistic features, in particular, those pertaining to information status ("givenness"), information status (here: backward-looking centers, "sentence topics") and auxiliary linguistic features (e.g., grammatical role and type of expression).
 
 ## Terms
 
-- **Coreference** is a relation between two or more textual elements, **referring expressions**, which denote the same entity. Semantically, these entities are prototypical objects or **(discourse) referents**. 
+- **Coreference** is a relation between two or more textual elements, **referring expressions**, which denote the same entity. Semantically, these entities are prototypical objects or (discourse) referents. 
+- **Discourse referent**: an entity that is being referred to in the discourse. Note that this does not have to be a physical entity, but it can also be an imagined entity ("the unicorn ... it ...")
 - **Anaphor**: an anaphor is a referring expression that can only be interpreted by resorting to a previously mentioned co-referential expression. The preceding co-referential expression is then referred to as **antecedent**.
 - **Referential chain**: We call the series of mentions of the same referent one referential chain.
-- **Markable**: A (potential) referential expression that is to be annotated. 
+- **Markable**: A (potential) referential expression that is to be annotated. Syntactically, most referring expressions are noun phrases or adpositional phrases. In the current schema, we annotate the syntactic head of the markable, only, as defined by the [Universal Dependencies guidelines](https://universaldependencies.org/u/overview/nominal-syntax.html).
 
 This annotation scheme is focusing on the annotation of nominal and pronominal anaphors. However, verbs may be annotated as *antecedents* of pronouns if these refer to the corresponding clause. We refer to these cases as **event anaphor**.
 

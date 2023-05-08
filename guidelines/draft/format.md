@@ -117,10 +117,13 @@ After `COREF` and `REF` annotation, you will see pre-annotations for the `IS` co
 - Please verify or revise the pre-annotation. If it is not altered, we consider it to be approved.
 - Note that the manual requires to check the applicability of annotations in a particular order. Please follow that approach here. Do **not** start with confirming the automatically pre-annotated information status, but follow the order of statuses in the manual.
 
-TODO: 
-- for in-focus (same sentence) and activated, we need to count the number of empty lines since the antecedent. This can be done by COUNTBLANK(x1:x2), but how do we get the last mention?
-- for in-focus, we need grammatical roles (of the main clause), for CB, we need embedding depth (or a simplified definition). We could write `SBJ_1` for embedding depth 1, etc.; we need to update cell references above, then.
-- CB into a separate column
+### `CB`: backward-looking center
+
+After `COREF` annotation, you will see pre-annotations for the `IS` column. These implement a *simplified and **incomplete** subset* of the constraints in the [corresponding section](information-status.md) that is to be manually confirmed or revised.
+
+- Please verify or revise the pre-annotation. If it is not altered, we consider it to be approved.
+- Make sure that there is at most one `CB` per sentence and that all automated annotations with question marks (indicating possible `CB` candidates) are removed.
+- By automated annotation, all referring expressions with antecedents in the last sentence are marked as `CB` candidates (with question marks). Make sure to remove incorrect candidates as part of your annotation.
 
 ### `COMMENT`: comments, and annotation protocol
 

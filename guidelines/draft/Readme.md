@@ -1,4 +1,4 @@
-# Annotation Manual (April 2023 edition)
+# Annotation Manual (spring 2023 edition)
 
 Annotation manual for 
 
@@ -49,20 +49,20 @@ We list direct contributors as well as primary authors of sources that went, ful
 
 ### Other contributors
 
-Other contributors are people who provided feedback and input, incl. annotators.
+Other contributors are people who provided feedback and input, incl. annotators, in alphabetical order:
 
-- Dmitry Zalmanov (coreference/Russian: 2005-2007), Moscow State University, Russia
+- Mamadou Bassene (information status: before 2007)
+- Tonya Custis (information status: before 2007)
+- Bryan Gordon (information status: before 2007)
 - André Herzog (coreference/German: before 2016), U Potsdam. Germany
+- Linda Humnick (information status: before 2007)
 - David Kaupat (coreference/German: before 2016), U Potsdam. Germany
+- Amel Khalfoui (information status: before 2007)
 - Sara Mamprin (coreference/German: before 2016), U Potsdam. Germany
 - Ann Mulkern (information status: before 2007)
-- Tonya Custis (information status: before 2007)
 - Bonnie Swierzbin (information status: before 2007)
-- Amel Khalfoui (information status: before 2007)
-- Linda Humnick (information status: before 2007)
-- Bryan Gordon (information status: before 2007)
-- Mamadou Bassene (information status: before 2007)
 - Shana Watters (information status: before 2007)
+- Dmitry Zalmanov (coreference/Russian: 2005-2007), Moscow State University, Russia
 
 Unfortunately, we do not have records of all contributors or annotators whose feedback and experiences went into this manual, directly or indirectly, especially for the years before 2016. If you find yourself to be missing, please drop us a line.
 

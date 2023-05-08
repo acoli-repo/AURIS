@@ -21,9 +21,12 @@ We describe `REFEXP` and `REF_AUTO` as part of markable identification. `GR` ann
 
 The annotation task is to process each text in reading order and annotate/verify all markables (automatically pre-annotated) and their antecedents (including cases in which these are not pre-annotated).
 
-We distinguish between two types of markables, which are also to be marked as such:
+The scheme distinguishes between primary and secondary markables.
+Primary markables are *always* subject to annotation. Secondary markables are only annotated if they happen to serve as antecedents for primary markables. In earlier versions of this schema, explicit annotations for primary and secondary markables were included. This is, however, not necessary, as they are merely a technical device to guide the annotation process.
 
--   **primary markable** (PM, automatically annotated as `?OLD`) are candidate anaphors, i.e., noun phrases whose grammatical features suggest that their discourse referent is or could be identifiable by the hearer. For German and English, these are definite NPs and pronouns. For languages without grammatical marking of definiteness, these are all nominals and pronouns. 
+More specifically,
+
+-   **primary markables** (PM, automatically annotated as `?OLD`) are candidate anaphors, i.e., noun phrases whose grammatical features suggest that their discourse referent is or could be identifiable by the hearer. For German and English, these are definite NPs and pronouns. For languages without grammatical marking of definiteness, these are all nominals and pronouns. 
 
 	Primary markables are automatically extracted. The task of annotation is to assign every primary markable either an antecedent or a flag that marks them as new or non-referential.
 

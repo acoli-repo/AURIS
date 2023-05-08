@@ -1,9 +1,11 @@
 all:
-	for file in Readme.md terms.md refexp.md coreference.md information-status.md; do \
+	for file in terms.md format.md coreference.md information-status.md;  do \
+		#Readme.md terms.md format.md refexp.md coreference.md information-status.md; do \
 		cat $$file; \
 		echo;\
 	done > all.md;
-	(cat all.md | egrep '^#' | \
+	( echo '# Table of Contents'; \
+	cat all.md | egrep '^#' | \
 	sed -e s/'#\s'/'- '/g \
 		-e s/'#'/'\t'/g; \
 	echo;\
