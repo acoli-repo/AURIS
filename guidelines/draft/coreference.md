@@ -65,37 +65,58 @@ In spreadsheet-based annotations, some of the values are automatically suggested
 1. `OLD`: A unit of discourse that can be interpreted based on the preceding context. 
 
 	> Note: 
-	> - Corresponds to "discourse old" according to Prince (1992) and "referring" according to Chiarcos et al. (2016).
+	> - Corresponds to "discourse old" according to Prince (1992). Originally abbreviated as `referring` (Chiarcos and Krasavina 2005).
 	> - Automated pre-annotation generates the value `?OLD` for all candidate anaphors (Krasavina and Chiarcos 2007: "primary markables") and `?NEW` for all other candidate referring expressions (Krasavina and Chiarcos 2007: "secondary markables"). These values need to be manually replaced by the annotator. An annotation project that still contains `?OLD` or `?NEW` annotations will be considered incomplete and must not be further processed.
 
 2. `NEW`: Discourse entity mentioned for the first time. This includes referents that can be inferred by the hearer. 
 
-	> Note: Corresponds to "discourse new" according to Prince (1992).
+	> Note: Corresponds to "discourse new" according to Prince (1992). Originally abbreviated as `discourse-new` (Chiarcos and Krasavina 2005).
 
-3. `CAT`: Discourse cataphor, i.e., reference to a new entity introduced into the discourse with an underspecified nominal expression whose exact denotation becomes clear only from subsequent descriptions. This is a rhetorical device employed to engage readers in literary texts.
+3. `CAT`: Discourse cataphor, i.e., reference to a new entity introduced into the discourse with an underspecified nominal expression whose exact denotation becomes clear only from subsequent descriptions. This "scene-setting" effect is a rhetorical device employed to engage readers in literary texts.
 
 	When reading (8.a) in the example below, it is initially unclear what *Fußball-Weltmacht* and *Winzling* refer to. This becomes clear only in sentence (8.b), when the German team and Ukraine are mentioned.
 
-	> Note: Syntactically bound pronominal cataphors are annotated as `BOUND`.
+	> Notes: 
+	> - Originally abbreviated as `discourse-cataphora` by Chiarcos and Krasavina (2005).
+	> - Syntactic cataphors are not included here.
+	> - Syntactically bound pronominal cataphors are annotated as `BOUND`.
 
-5. `GROUP`: Group references to previously established referents (see above).
+5. `GROUP`: Referring expressions that designate groups can serve as antecedents of nominal markables and can be annotated as a group. 
+
+	> (4.a) *\[\[Montedison\]m\]c*1 *now owns about 72% of \[\[Erbamont's\]e\]c*2 *shares outstanding.*
+	> (4.b) *\[The companies\]c said the accord was unanimously approved by a special committee of \[Erbamont\]e directors unaffiliated with \[Montedison\]m.* (WSJ corpus)
+
+	> Note: Subsumed under `other` in the PoCoS core scheme (Chiarcos and Krasavina 2005)
 
 4. `BOUND`: Pronouns that are syntactically bound, e.g. reflexive pronouns. Also, possessive pronouns governed by nominal expressions in the same sentence are annotated as `BOUND`, cf. in (8.b) below *Mit <u>seinem</u>~3,BOUND~ Tor*. 
 
-	> Note that reflexive pronouns (which are obligatorily bound) are not annotated as markables if they can be identified on grounds of their form (e.g., English *himself*, German *sich*). Only if a form is ambiguous between a reflexive and pronominal reading (e.g., German *mich*), reflexive pronouns are annotated as `BOUND`.
+	> Notes:
+	> - Reflexive pronouns (which are obligatorily bound) are not annotated as markables if they can be identified on grounds of their form (e.g., English *himself*, German *sich*). Only if a form is ambiguous between a reflexive and pronominal reading (e.g., German *mich*), reflexive pronouns are annotated as `BOUND`.
+	> - Not part of the original PoCoS core scheme (Chiarcos and Krasavina 2005)
 
 5. `SIT`: situationally evoked. In written texts, this applies only to first and second person, non-reflexive pronouns and to temporal expressions. 
 
-	> Note: `SIT` is to be annotated at the first mention, only, subsequent references to the same entity are to be annotated as `OLD`.
+	> Notes: 
+	> - `SIT` is to be annotated at the first mention, only, subsequent references to the same entity are to be annotated as `OLD`.
+	> - Subsumed under `other` in the PoCoS core scheme (Chiarcos and Krasavina 2005)
 
-6. `GEN`: Generic expression, referring to a type, not an entity.
+6. `GEN`: The term *generic* denotes a special usage of a referring expression, such that not a particular individual or object is meant, but rather a class of entities or features of this class.
 
 	> (7.a) *<u>Whales</u>~GEN~ are <u>mammals</u>~PRED~.*
-	> (7.b) *The <u>President</u>~GEN~ has always been elected by majority <u>vote</u>~1,NEW~.*
+	> (7.b)  *Der Pr¨asident wurde immer schon durch die Stimmenmehrheit bestimmt.* "The <u>President</u>~GEN~ has always been elected by majority <u>vote</u>~1,NEW~."
 
-	> Note: Generics should not be annotated with a discourse referent index -- unless they are subsequently referred to:
+	> Notes:
+	> - Abbreviated `generic` in the original PoCoS core scheme (Chiarcos and Krasavina 2005)
 
-	> (7.a') *<u>Whales</u>~1,GEN~ are <u>mammals</u>~PRED~. <u>They</u>~1,OLD~ descend from land <u>animals</u>~GEN~.* 
+	Other cases to be classified as other are *predicative descriptions*.
+
+	> (7.c) *Nicht, dass beide eine Mehrheit für ihre Koalition suchten, war
+    \[das Ärgerliche* *in den vergangenen Tagen\]* \... (predicative description, PCC)
+	> (7.d) *Und das ist \[das Dilemma der Regierenden\]* (predicative description, probably generic, PCC)
+
+	Generics should not be annotated with a discourse referent index -- unless they are subsequently referred to:
+
+		> (7.a') *<u>Whales</u>~1,GEN~ are <u>mammals</u>~PRED~. <u>They</u>~1,OLD~ descend from land <u>animals</u>~GEN~.* 
 
 	This includes both nominal and pronominal markables. Generic pronouns such as *we*, *you*, *they* (in cases where they do not carry a specific reference), *someone*, *anyone*, *one*. Cf. German *man*.
 
@@ -153,45 +174,60 @@ Ambiguity is to be annotated in the `COMMENT` field, using pre-defined tags (if 
 The following tags can be used to mark ambiguous 
 
 1. `AMBIG:COREF` (ambiguous antecedent): There is uncertainty as to which is the \"right\" antecedent for an anaphor (or, controller for a cataphor). See above for antecedent selection preferences, provide referent index for all equally likely antecedents in round parentheses
-2. `AMBIG:REL`: There is uncertainty as to whether an anaphoric relation exists or not. This is sometimes the case with definite NPs. In the example below: If it is unclear whether the *confrontation* is identical to the *conflict*, the coreference should be annotated and the markable should be marked with this attribute. It is not necessary to provide a more detailed description.
+
+	> (9.x) *In a letter, \[prosecutors\]~p~ told \[Mr. Antar's lawyers\]~l~ that because of the recent Supreme Court rulings, \[they\]~p/l~*~?~ *could expect that any fees collected from Mr. Antar may be seized.*
+
+	> Note: Abbreviated `ambig-ante` in Chiarcos and Krasavina (2005)
+
+2. `AMBIG:REL`: There is uncertainty as to whether an anaphoric relation exists or which type it is (anaphoric vs. bridging or event, i.e. contextual inference)
+
+	This is sometimes the case with definite NPs. In the example below: If it is unclear whether the *confrontation* is identical to the *conflict*, the coreference should be annotated and the markable should be marked with this attribute. It is not necessary to provide a more detailed description.
 
 	> (9.a) *This <u>conflict</u> is ... Therefore, the <u>confrontation</u> ...*
 
-3. `AMBIG:IDIOM`: There is uncertainty as to whether a markable should be understood as a referential expression or as part of an idiom. Annotate anaphoric reading and mark the ambiguity.
-4. `AMBIG:EXPL`: There is uncertainty as to whether a pronoun is an expletive and therefore not referential or whether it is anaphoric. Annotate the anaphoric relations and mark the ambiguity. No description necessary.
+3. `AMBIG:IDIOM`: There is uncertainty as to whether a markable could be understood as a referential expression or as part of an idiom. Annotate anaphoric reading and mark the ambiguity.
+4. `AMBIG:EXPL`: There is uncertainty as to whether a pronoun is an expletive (and therefore non-referring) or whether it is anaphoric. Annotate the anaphoric relations and mark the ambiguity. No description necessary.
+
+	> (9.b) *At stake was an \$80,000 settlement involving who should pay what share of cleanup costs at the site of a former gas station, where underground fuel tanks had leaked and contaminated the soil. And the lawyers were just as eager as the judge to wrap \[it\] up.*
+
+	*It* can either be interpreted as referring to *an \$80,000 settlement* or as a part of a lexicalized expression *to wrap it up* where *it* does not have any particular reference. 
+
+	This can be made clearer with a constructed example:
 
 	> (9.b.i) *She looks out of the window. <u>It</u>~EXPL~ is dark.* (expletive)
 	> (9.b.ii) *Your <u>cat</u>~1~ has a nice color. <u>It</u>~1~ is dark, much more so than mine.* (anaphoric)
 	> (9.b.iii) *The <u>cat</u>~1~ is hard to see. <u>It</u>~1,AMBIG:EXPL~ is dark.* (ambiguous)
 
-5. `AMBIG:other`: other cases of ambiguity. Please provide a description in round parentheses.
+5. `AMBIG:COREF_REL`: There is ambiguity with respect to both antecedent and relation
+
+	> (44) "There seems to be a move around the world to deregulate the genera- tion of electricity," Mr. Richardson said, and Canadian Utilities hopes to capitalize on it.
+
+	*On it* refers either to *a move around the world to deregulate the generation of electricity*, or to the whole clause beginning with
+	*there* and ending with *electricity* (event anaphora).
+
+6. `AMBIG:other`: other cases of ambiguity. Please provide a description in round parentheses.
 
 If more than one kind of ambiguity applies, e.g., both ambiguity of antecedent and ambiguity of an anaphoric relation, then provide all of the corresponding tags (and descriptions), separated by comma.
 
 ## Trouble Shooting
 
-### Coreference Substiution Test
+### Coreference Substitution Test
 
 A replacement test can be used to check whether a referential expression e belongs to a chain k: If it is true for every noun s (noun, proper noun) in k, that the replacement of e by s changes the interpretation of the text is not changed, then e belongs to chain k and a coreference relation to the last element of the chain is to be annotated.
 
 According to this scheme, we only annotate coreference relations that
 express a real identity between discourse objects. A "semantically loose"
 connection between a definite NP and another nominal is therefore not sufficient. For this purpose the following
-test: Two given nominal descriptions count as co-referent if it is
-possible to refer to each other through the other substitute. (Certain
-transformations may be necessary, such as removing prepositions from
-markables.)
 
-German Example (many markables not of interest here are unmarked):
+*Test*: To find out if two nominal descriptions are coreferent, try to substitute them with each other. (Certain transformations may be necessary, such as removing prepositions from markables.) Note that every previous coreferent markable has to be compatible with this substitution as well.
 
-	> (5) *Als 1999 die im Rahmen der Dorferneuerung neu gestaltete \[Radeweger\]~PM,1~ Ablage inklusive Seebrücke mit viel Pomp eingeweiht wurde\... Doch mit der Nachrüstung tut sich \[Radewege\]~PM,2\>1~ schwer\... Zu teuer, zu hässlich sei die Anlage, sagen die Meinungsführer \[im Gemeinderat\]~PM,?~* (maz-6488)
+Note that this test has some issues with metonymy, i.e., substituting a word for another word closely associated with it. Cases of metonymy in text should be annotated as coreferent if and only if the subsitution test holds for all coreferring nominals: *the State Department said\... - the State Department officials claimed\...*.
 
-	> Hier könnte *\[Gemeinderat\]* zwar möglicherweise als koreferent mit
-	> *\[Radewege\]*~PM,2~ gelesen werden, doch obwohl beide im Sinne einer
-	> Metonymie austauschbar sind, scheitert der Ersetzungstest für
-	> *\[Radewege\]*~1~ -- denn *„neu gestaltete Gemeinderat Ablage"* ist in
-	> diesem Kontext nicht angemessen. Daher erhält *Gemeinderat* einen
-	> anderen Index.
+> (5.a) *Als 1999 die im Rahmen der Dorferneuerung neu gestaltete
+     \[Radeweger\]~1~ Ablage inklusive Seebrücke mit viel Pomp eingeweiht wurde\... Doch mit der Nachrüstung tut sich \[Radewege\]~1~ schwer \... Zu teuer, zu hässlich sei die Anlage, sagen die Meinungsführer \[im Gemeinderat\]~?~*  (maz-6488)
+
+In (5.a), *\[Gemeinderat\]* could be considered coreferent with *\[Radewege\]~1~*. Yet, although both are exchangeable by means of metonymy, the substitution test fails for *\[Radewege\]~1~* , since *neu gestaltete Gemeinderatsablage* is not appropriate *in that context*. Accordingly, *\[Gemeinderat\]* should receive a separate index.
+
 
 ### Dealing with  Ambiguous Antecedents
 
@@ -217,9 +253,9 @@ In annotation, then, **mark the ambiguity** (in `COMMENT`)
 
 ### Recurring Group Reference
 
-Referring expressions that designate groups can serve as antecedents of nominal markables.  Here is a very compact example:
+Here is a very compact, constructed example:
 
-	> (4) 
+	> (5) 
 	> a. Peter~1~ and Malte~2~ went for a walk~3~. Both~4\>1,2~ wore hats~5~.
 	> b. Peter~1~ had a coat~6~, Malte~2~ a rain jacket~7~. 
 	> c. They~**4**~ reached\...
@@ -270,5 +306,51 @@ treated as possessive pronouns.
 	> (x) *Und so schielten \[die Israelis\] \[nach Washington\], \[an \[dessen\]/*∗*welchem Tropf\] \[sie\] hängen.* (maz-19074)
 	> (x') *Und so schielten \[die Israelis\] \[nach Washington, das/welches \[sie\]* *wirtschaftlich stützt\].*
 
+### Cataphora
 
+We distinguish two types of forward-referring expressions, discourse cataphora and syntactic cataphora.
 
+#### Discourse cataphora (anaphora of anticipation)
+
+Discourse cataphora is a label used for non-pronominal reference forward. Sometimes an author introduces a discourse referent by means of an underspecified NP, i.e. an NP that cannot be interpreted only on the basis of the reader's knowledge up to this point. This way the author tries to encourage the reader to continue reading, in order to catch up the missing information. In the example below, *die einstige
+Fußball-Weltmacht* and *vor einem Winzling* should be annotated as discourse cataphors, since their referents cannot be identified until introduced explicitly in the following text (*Deutschland* and
+*Ukraine* correspondingly).
+
+(33) *Die einstige Fußball-Weltmacht zittert vor einem Winzling*
+     (newspaper article title)
+
+In case one goes on reading the text, it becomes clear that *die einstige Fußball-Weltmacht* refers to Germany, whereas *ein Winzling* refers either to the Ukraine or the 1.62 meter tall ukranian footballer who made the most impact in the match ^5^. Discourse cataphors have to be annotated as normal anaphors, i.e. in accordance with the Chain Principle (p. 12), i.e. the most recent referent mention to the left (if any) is considered to be an antecedent.
+
+#### Syntactic cataphora
+
+(34) *Through \[his\] lawyers, \[Mr. Antar\] has denied allegations in the SEC suit \...*
+
+Syntactic cataphors are to be annotated like anaphoric links, that is, by means of a pointing relation, but with reverse direction (from left to right). Assign the feature referring in category referentiality
+(sec. 4.1).
+
+The following examples (a nominal head followed by a restrictive modifier), although traditionally classified as cataphora, should
+NOT be annotated as such.
+
+(35) \... \[*the car that went through his garden wall* \]\...
+
+(36) \... \[*the patterns of industrial development in the U.S* \]\....
+
+In case of doubt between syntactic cataphora or anaphora, decision has to be made as follows.
+
+Principle 5 (Cataphora at the sentence level) *If antecedent can be found to the right of the anaphor, however, in the same sentence the anaphor belongs to, this antecedent should be preferred to the right-most (i.e. the closet to an anaphor) candidate antecedent in the previous discourse.*
+
+(37.a) *Die einstige Fußball-Weltmacht zittert \[vor einem
+Winzling\]s.*
+
+(37.b) *\[Mit \[seinem\]s Tor zum 1:0 fu¨r die Ukraine\] stu¨rzte
+\[der 1,62 Meter große Gennadi Subow\]s \[die deutsche Nationalelf\] voru¨bergehend in ein Trauma.*
+
+In the example, *seinem* refers to *Gennadi Subow* who was introduced in the very first sentence as *vor einem Winzling*. Following the preferences, we establish an anaphoric (cataphoric) link to the right.
+Thus, the anaphoric chain looks as follows:
+
+-   *seinem* → *Gennadi Subow* (same-sentence)
+
+-   *Gennadi Subow* → *vor einem Winzling* (right+previous, Chain
+    Principle)
+
+5The complete text is not provided here because of space limitations

@@ -79,53 +79,66 @@ Primary markables are automatically extracted from a syntactic analysis. The fol
 
 ### a.  Pronouns
 
-Personal, demonstrative, possessive pronouns and pronominal adverbs (e.g. German *da* "there, then", *dort* "there", *daneben* "next to it", *dahin* "(towards) there") as well as *both* and *all* in nominal use (i.e. not as a determiner) 
+Pronouns include personal pronouns, demonstrative pronouns, pronominal adverbs, and personal pronouns and *both* in nominal use (i.e. not as a determiner) 
 
 > (3) *\[I\] saw \[her\] yesterday.*
 
-Reflexive pronouns (English *herself*, etc.) are not PM. Pronouns that are formally ambiguous as to whether they are reflexive or personal pronouns (e.g., German *mich* "me; myself"), are PM, and should be marked as `bound` in the annotation. Analoguously for other non-referring pronouns (e.g., expletive *it* or generic *you* in the sense of "anyone").
+In German, demonstrative pronouns include: *dieser, jener, der, die, derjenige,* and the like
+Note that demonstrative pronouns *such*, in German *solch* and so-called "generic pronouns" (*we, you, they*, in German *wir, du, sie* (without specific reference), *man, einer*) are considered as indefinite, thus no primary markables.
 
-### b.  Definite and Possessive Descriptions
+> Notes:
+> - Personal pronouns also include pronominal adverbs (e.g. German *da* "there, then", *dort* "there", *daneben* "next to it", *dahin* "(towards) there") 
+> - Reflexive pronouns (English *herself*, etc.) are not PM. Pronouns that are formally ambiguous as to whether they are reflexive or personal pronouns (e.g., German *mich* "me; myself"), are PM, and should be marked as `bound` in the annotation. Analoguously for other non-referring pronouns (e.g., expletive *it* or generic *you* in the sense of "anyone").
+> - Interrogative pronouns are not primary markables, but can serve as secondary markables.
+> - Chiarcos and Krasavina (2005) also include zero (pro-drop) pronouns under pronouns. Here, we follow token-based annotation, so that zeros should not be annotated.
+> - Stede et al. (2016) treat *all*+NP like *both*+NP. needs to be double-checked.
+
+### b.  Definite Descriptions
+
+A description (NP or PP) is definite if it contains the determiner *both*, a demonstrative or possessive pronoun or a genitive attribution. 
 
 -   With definite article: 
 
-	> (4) *\[the <u>house</u>\]*
+	> (4) *\[the <u>pizza</u>\]*
+	
+- With demonstrative determiner:
+
+	> (15.c) *\[that <u>pizza</u>\]*, *\[this <u>pizza</u>\]*
 
 -   With determiner \'both\': 
 
-	> (5) *\[both <u>houses</u>\]*
+	> (5) *\[both <u>pizzas</u>\]*
 
 -   With possessive pronouns: 
 	
-	> (6) *\[\[his house\]*
+	> (6) *\[his <u>pizza</u>\]*
 
-- With potentially anaphoric genitive or possessibe modifier
+- With potentially anaphoric genitive or possessive modifier
 
 	> (7) 
-	> a. *\[Harald\'s <u>house</u>\]*
-	> b. *\[the <u>house</u> of Harald\]*
-	> c. *\[the other man's <u>house</u>\]*
-	> d. *\[this man's <u>house</u>\]*
-	> **but not** e. *\[a man's house\]*
+	> a. *\[John\'s <u>pizza</u>\]*
+	> b. *\[the <u>pizza</u> of John\]*
+	> c. *\[the other man's <u>pizza</u>\]*
+	> d. *\[this man's <u>pizza</u>\]*
+	> **but not** e. *\[a man's pizza\]*
 
-### c. Demonstratives
+### c.  Proper Names and Titles
 
-NPs with demonstrative determiner (English *this NP*, *that NP*, German *diese NP*, *jene NP*), and demonstrative pronouns (German *dieser*, English *this*, *that* [if not used as relative pronoun]) are primary markables.
-
-The demonstrative pronoun *such* (German *solch*) is considered as indefinite. Refererring expressions with *such* should not be annotated as primary markables.
-
-### d.  Proper Names and Titles
-
-Typical types of proper nouns are geographic locations, people, societies, names of newspapers and magazines, and names of various social, political, and financial institutions.
-
-Examples of personal names:
+Typical instances of proper names are geographic places
+(*Philadelphia*), persons (*Judge Jenkins*), companies (*Morgan
+Stanley & Co.*), newspaper titles (*The New York Times*), political, social or financial institution names (*Congress, European Investment
+Bank* ). Proper names can include noun modifiers or be heads of a definite or indefinite description. In this case, the whole description has to be marked up, not just the head.
 
 > (8)
-	> a.   \[Bertolt Brecht\] (full name)
-	> b.  \[Bert Brecht\] (abbreviated full name)
-	> c. \[Bertolt\] (first name)
-	> d.   \[BB\] (abbreviation)
-	> d.   \[the famous Brecht\] (name modified via definite description)
+	> a.  *\[Bertolt <u>Brecht</u>\]* (full name)
+	> b.  *\[Bert <u>Brecht</u>\]* (reduced full name)
+	> c.  *<u>Brecht</u>* (surname)
+	> d. 	*<u>Bertolt</u>* (first name)
+	> e. 	*<u>Bert</u>* (nickname)
+	> f.   *<u>BB</u>* (abbreviation)
+	> g.   *the well-known <U>Brecht</u>* (name, modified by a definite description)
+	> h. *<u>Brecht</u>, who is author of the "Dreigroschenoper"* (proper name + clause) 
+	> i. *<u>Brecht</u>, author of the "Dreigroschenoper"* (proper name + apposition)
 
 Complex proper names are only treated as a single markable and are not further divided. If the internal dependency structure is transparent, annotate the syntactic head. For names composed of given and family names, we consider the name of the individual to be head, and the name of the family as modifier. If the structure of a name is not transparent to a common speaker of the language, annotate the first word that is not clearly recognizable as a modifier.
 
@@ -135,9 +148,16 @@ Complex proper names are only treated as a single markable and are not further d
 > c. \[Prince <u>Dipangkorn</u> Rasmijoti Sirivibulyarajakumar of Thailand\]
 > d. \[Heidelberger <u>Druckmaschinen</u> Vertrieb Deutschland GmbH\]
 
-Standalone titles are also assigned to the \'proper noun\' category and receive the appropriate attribute 
+Standalone titles that can stand in for an individual (*Mr./Ms./Dr./President/Chairman*) are treated like proper names, e.g., 
 
-> (10) \[the graduate <u>engineer</u>\] didn\'t like it.
+> (10) *Schröder~1~\...Fischer~2~ \... Die anfängliche Überreaktion von <u>Kanzler</u>~1~ und <u>Außenminister</u>~2~\...*
+
+In (10), *Kanzler* and *Außenminister* have to be annotated as primary markables, because proper names are inherently definite
+
+Note that Parts of complex proper names cannot be analyzed separately. So, in the following example, *Petrie* in *\[of
+Petrie Stores Corp.\]* should not be annotated!
+
+> (7) *\[Milton Petrie, chairman \[of Petrie Stores Corp.\] said\...*
 
 ## Secondary Markables
 
@@ -147,7 +167,7 @@ Every nominal phrase or pronoun which is neither PM nor confirmed to be syntacti
 
 Common types of SMs include:
 
--   NP with an indefinite article (if subsequently referred to):
+-   NP with an indefinite article (if subsequently referred to), e.g., *a fox*:
 	
 	> (12.a) *There is a \[a <u>fox</u>\] running across the street. <u>It</u>'s fast!.*
 	> (12.b) *I last saw \[a <u>fox</u>\] about three years ago! <u>It</u> came from the forest.*
@@ -159,49 +179,209 @@ Common types of SMs include:
 
 -   NPs with indefinite quantifier
 
-	> (13) 
-	> a. \[some people\]
-	> b. \[some plants\]
+	> (13.a) *\[some people\]*
+	> (13.b) *\[some plants\]*
 
--   Articleless NP, especially \"bare plurals\" (I have \[cookies\]SM
-    eaten),but also singular expressions like in Today will be \[good
-    weather\]SMbeand quantities such as \[thirty grams\].
+-   Articleless NP, especially \"bare plurals\", but also singular expressions and quantified NPs not otherwise annotated as primary markables.
+
+    > (14.a) *I have eaten \[cookies\]SM* (bare plural)
+    > (14.b) *Today will be \[good weather\]SM* (bare singular) 
+    > (14.c) *\[thirty grams\]*, *\[two companies\]* (quantified indefinite NP)
 
 ## Automated Pre-Annotation
 
-- Create a markable for every primary or secondary markable
+- Check every nominal, pronoun, prepositional phrase, or proper name 
 - If it is a primary markable, pre-annotate it with referentiality `?OLD`
-- If it is a secondary markable, annotate it with referentiality `?NEW`
+- If it is a secondary markable, do not annotate it for referentiality.
 
-For every markable, annotate the syntactic head (as defined by the Universal Dependencies, exceptions as mentioned above)
+> Note: Alternatively, annotate secondary markables with referentiality `?NEW`.
+
+For every markable, annotate the syntactic head (as defined by the Universal Dependencies, exceptions as mentioned above) for type of referring expression.
 
 ## Trouble-Shooting
+
+### Demonstratives
+
+NPs with demonstrative determiner (English *this NP*, *that NP*, German *diese NP*, *jene NP*), and demonstrative pronouns (German *dieser*, English *this*, *that* [if not used as relative pronoun]) are primary markables.
+
+The demonstrative pronoun *such* (German *solch*) is considered as indefinite. Refererring expressions with *such* should not be annotated as primary markables.
 
 ### Bound Pronouns
 
 Do not annotate bound pronoun, if these can be identified on grounds of their form or annotations. If a pronoun is ambiguous in its surface form and cannot be unambiguously confirmed as bound pronoun from the syntactic annotation, treat it like a primary markable and annotate with referentiality `?OLD`. Only in these cases, the annotator should then annotate referentiality `BOUND`.
 
+### Treatment of quantifiers
+
+Quantified NPs *(some of them, all the members)* are annotated as either definite or indefinite, whereas each case has to be considered individually. Substitution test: *all days* −→ *all these days* −→ definite.
+In automated pre-annotation, every nominal phrase whose form does not rule out a definite interpretation should be treated as primary markable.
+
+We regard NPs with certain quantifiers in determiner position such as *both* as definite, since German *beide* as English *both* normally presupposes the existence of exactly two discourse-old entities (cf. Zifonun et al. 1997).
+
+*Both* in nominal use is annotated as a personal pronoun.
+
+### Possessive NPs
+
+Primary markables include
+
+> (15.a) *his house*
+> (15.b) *the old man's house*
+
+Note that the possessor must be a primary markable, too: *\[\[his\] house\]*, *\[\[the old man's\] house\]*.
+
+Descriptions with a genitive attribution are regarded as possessive iff. a definite genitive attribution replaces the determiner, except for *of* -constructions (cf. ex. 16.b).
+
+> (16.a) *the old man's house* (definite possessive description, cf. *his house* and \**the the old man's house*)
+> (16.b) *the house of the old man* (definite non-possessive description: determiner in *the house* relates to the house itself and not to its possessor)
+> (16.c) *an old's man house*(this is not a primary markable - the possessor is indefinite)
+
+Possessive NPs with indefinite possessor (16.c) are secondary markables. However, possessives with proper names should generally be considered as primary markables.
+
+> (16.d)   *in US <u>efforts</u>*
+
+This is a primary markable because there is a reading, where the phrase could be replaced with *in the US efforts*.
+
+### Appositions
+
+Appositions are treated like predications. That is, they serve neither as antecedents nor anaphors. So, in the following example, *chairman* in *chairman of
+Petrie Stores Corp.* should not be annotated!
+
+> (17) *\[Milton <u>Petrie</u>, chairman \[of Petrie Stores Corp.\] said\...*
+
 ### Stranded Quantifiers
 
-An NP can be incomplete by elision and, at first glance, not meet the criteria of a markable.  For example, individual numerals are not usually PM, but íf their head noun is elided, they serve as heads of NPs, they can be.
+An NP can be incomplete by elision and, at first glance, not meet the criteria of a markable.  For example, individual numerals are not usually PM, but íf their head noun is elided, they serve as heads of NPs, they can require an antecedent. 
 
-> 	(2.c) *Ich hatte \[zwei Stunden\]~PM~ eingeplant, aber es wurden letzlich \[drei\]~SM~.* (German)
->	(2.c') *I had planned for \[two hours\], but in the end, it was \[three\]~SM~* (English)
+> (18) *Now only three of the 12 judges - \[\[Pauline Newman\]n, (\[Chief
+     Judge Howard T. Markey, 68\]m)two*1*, and (\[Giles Rich, 85\]r)two*
+     2 *- have patent law backgrounds\]. \[The latter* *two\]~two~ and \[Judge Daniel M. Friedman, 73\]~f~ , are approaching senior status or retirement.* (WSJ corpus)
+
+As these cases cannot be automatically identified, all pronominal numerals are to be annotated as primary markables. 
+
+> 	(18') *Ich hatte \[zwei Stunden\]~PM~ eingeplant, aber es wurden letzlich \[drei\]~SM~.* (German)
+>	(18") *I had planned for \[two hours\], but in the end, it was \[three\]~SM~* (English)
+
+
+### Proper noun vs. definite NP
+
+Note that if a proper noun is not a head of an NP, the NP is annotated as definite or indefinite respectively.
+
+> (19) *the river Yukon* 
+
+In (19), *Yukon* is the head. *Yukon* is a proper name, so the whole phrase is annotated as proper name.
+
+> (20) *the Yukon office*
+
+In (20), *office* is the head, *office* is not a proper name, so *the Yukon office* has to be annotated as a definite NP.
 
 ### Non-referring Primary Markables
 
 Non-referring markables (NM) are primary markables whose function is *not* to refer to a discourse referent. 
 Non-referring markables are to be *manually* given the appropriate referentiality value in subsequent annotation (`GEN`, `EXPL`, `PRED`. `IDIOM` or `other`, see there). For automated extraction, they are treated like primary markables.
 
+### Do NOT annotate
+
+-   expletive expressions
+
+	> (21) *Then, when it would have been easier to resist them, nothing was done*
+
+(expletive *it*).
+
+-   *Es*-pronouns, pronominal adverbs, which are controllers of relative clauses
+
+	> (22) *Dazu kommt, dass in Werder am 24. Februar ein Bu¨rgermeister gewa¨hlt wird und es bisher als sicher galt, dass CDU-Amtsinhaber Werner Gr¨oße unangefochten bleibt.*
+
+	*Dazu\...dass, es\...dass* should not be annotated as markables (*Dazu* and *es* are controllers of relative clauses).
+
+-   pronominal adverbs functioning as discourse markers
+
+	> (23.a) *Ich habe dich angesprochen, damit du mir zuhörst*. "I am talking to you to let you know that you must listen to me."
+	> (23.b) *Ich habe dir das gesagt, damit du weißt, dass du mir zuh¨oren sollst*.
+	> (23.c) *Ich habe dir das gesagt, dass du weißt, dass du mir zuh¨oren sollst.*
+
+-   relative pronouns
+
+	Relative pronouns are annotated together with the whole relative clause it triggers as one single markable (cf. *\[The car that went through his garden wall\]\...*). If a form cannot be unambiguously classified as a relative pronoun, apply the following test: it is a relative pronoun if it can be substituted by "which" respectively "welch" in German.
+	However, relative pronouns in possessive constructions (i.e. for which the test for relative pronouns fails) are annotated as possessive pronouns (see possessive NPs, p. 10).
+
+	> (24) *Und so schielen die Israelis nach Washington, an dessen /\*welchem Tropf sie wirtschaftlich und militärisch hängen,\...*
+	> (24') *Und so schielen die Israelis nach Washington, das/welches sie wirtschaftlich und militärisch unterstützt* (*das* is a relative pronoun).
+
+	Alternatively, the following test can be applied: substitute a pronoun in question with a possessive construction. If it works, you have a possessive pronoun, not a relative one.
+
+	> (25) *die Frau und deren Kinder = die Frau und ihre Kinder*
+
+	The annotation is as follows in this case:
+
+	> (26) *Und so schielen \[die Israelis\]i \[(nach Washington)w, \[an \[dessen\]w Tropf\] \[sie\]i wirtschaftlich und milit¨arisch h¨angen\]~w~*′ *,\...*
+
+-   prepositional phrases with prepositions *as, than*, *bis, als, wie* (in German) Such prases are annotated as normal NPs, i.e. *bis* and *als* are not included. ^3^
+
+-   nominal premodifiers in compound nouns
+
+	> (27) *peanut butter, airline analyst, the creditors commettee, investment bank*
+
+	*Peanut, airline, cretitors* and *investment* are no separate markables. Note that in *the creditor's opinion*, *the creditor's* is annotated as a markable, since it is a nominal in genitive and thus not a part of a compounds.
+
+### Idioms and Collocations
+
+Primary markables in idioms and collocations, if identifiable in automated pre-annotation.
+
+> (23) *It sent Kate into the pits when she learned from her "friend" Martha, who seemed to get off on laying bad trips on people, that Harvey was getting it on with Carol.* \[Gib94, p.265\]
+
+According to Gibbs, we find several idiomatic phrases in this example, some of which contain pronouns or full NPs -- potential primary markables.
+
+However, they should not be annotated as such, e.g. *into the pits* meaning "to be depressed", *get it on* meaning "having sexual relations", neither *the pits* nor *it* can be referred to.
+
+Note that we consider only *conventionalized* idiomatic expressions as idioms in our sense,
+
+i.e. markables within productive metaphors are annotated as usual, e.g. *das schlingernde City-Schiff City-Schiff* - a metaphor that occurred and can only be understood with respect to a specific text.
+
 ## Grammatical role annotation (`GR`)
 
 Grammatical role annotation is extrapolated from (automated) annotation according to Universal Dependencies conventions (either UD v.1 or v.2), with the following rules:
 
-- every nominal subject is annotated `subj` (UD edge: starts with `nsubj`)
-- every grammatical object is annotated `obj` (UD edge: contains `obj`)
-- every other referring expression is annotated `other` (i.e., every element that carries `REFEXP` annotation but has not been assigned a `GR` annotation before, includes both primary and secondary markables, but not antecedents of event anaphors)
-- for referring expressions in dependent clauses or adnominal constructions, we append the depth of syntactic embedding as a numerical suffix (i.e., replace existing `GR` annotation `$gr` with `$gr`+`_depth`, e.g., `subj_2` for the subject a relative clause directly depending on the main clause. Embedding depth is calculated over UD trees.)
+- `SBJ`: nominal subject (UD edge: starts with `nsubj`)
+- `OBJ`: grammatical object  (UD edge: contains `obj`)
+	
+	> Note: Chiarcos and Krasavina (2005) distinguished indirect and direct objects. However, within the UD community, the notion of indirect object has been criticized, and the usage of `iobj` seems to be inconsistent.
+
+- `other`: every other referring expression is annotated `other` (i.e., every element that carries `REFEXP` annotation but has not been assigned a `GR` annotation before, includes both primary and secondary markables, but not antecedents of event anaphors)
+- for referring expressions in dependent clauses or adnominal constructions, we append the depth of syntactic embedding as a numerical suffix (i.e., replace existing `GR` annotation `$gr` with `$gr`+`_depth`, e.g., `SBJ_2` for the subject a relative clause directly depending on the main clause. Embedding depth is calculated over UD trees.)
+
+	> Note: In Chiarcos and Krasavina (2005), these were included under `other`
 
 > Note: According to these rules, nominals that are not integrated into the clausal structure are considered as `other`.
 
 These rules are implemented in `sparql/gr.sparql`.
+
+> Note: TODO: update SPARQL script for new abbreviations
+
+## Future extensions
+
+The following features of the original PoCoS scheme are currently not annotated:
+
+- column/feature `DIRECT_SPEECH`
+
+	- default (`_`): reference on the text level, i.e. reference NOT into or within the quoted material
+	- `DIR`: reference into or within direct speech
+	- `INDIR`: reference into or within indirect speech
+
+- column/feature `COMPLEX_NP`: A description is complex if it contains more than one noun phrase
+	- `_` (default)
+	- `yes`
+	- `no`
+
+## TO INTEGRATE
+
+Chiarcos and Krasavina (2005):
+	
+- np-form
+
+	The feature stands for the surface structure of markables
+
+	- 	none *(default)*
+	-	ne proper names
+	-	def-np definite NP
+	- \*indef-np indefinite NP pper personal pronouns ppos possessive pronouns, pds demonstrative pronouns padv pronominal adverbs
+	-	other for special purposes, we leave this option for later extensions, choosing other
+		- enforces to add a comment describing the type of description Note that np-form has to be annotated both for NPs and PPs!
