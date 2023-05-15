@@ -80,14 +80,15 @@ The Augsburg Information Structure corpus adopts a different technical infrastru
 For this version of the manual, we extended the guidelines by including the guidelines for the annotation of information status ("givenness") by Gundel et al. (1993) and guidelines for the annotation of the backward-looking center ("sentence topic"), following a rigid interpretation of Grosz et al. (1995). These parts of the schema were initially developed independently, and only integrated in the process of compiling this manual.
 
 - [terms.md](terms.md): definitions
+    - [2023-05-15](../archive/terms.2023-05-15.md): integrated Chiarcos and Krasavina (2005)
 	- [2023-05-05](../archive/terms.2023-05-05.md): integrated  Krasavina and Chiarcos (2007)
 	- [2023-04-20](../archive/terms.2023-04-20.md): extracted from refexp.md and coreference.md, see there for sources and contributors [CC]
 - [format.md](format.md): file formats and annotation proceduce
 	- [2023-05-05](../archive/terms.2023-05-05.md): first draft [CC]
 - [refexp.md](refexp.md): guidelines for automated pre-annotation
-	- **TODO**: integrate Chiarcos and Krasavina (2005)
+    - [2023-05-15](../archive/refexp.2023-05-15.md): integrated Chiarcos and Krasavina (2005)
 	- [2023-05-05](../archive/refexp.2023-05-05.md): integrated  Krasavina and Chiarcos (2007)
-	- [2023-04-20](../archive/refexp.2024-04-20.md): restructured and fully revised [CC]
+	- [2023-04-20](../archive/refexp.2023-04-20.md): restructured and fully revised [CC]
 	- [2015-xx-xx](../archive/coreference.2019.chiarcos-et-al.md): translation of relevant parts of Stede et al. (2015) to English
 		- source: Stede, M. (Ed.). (2016). [Handbuch Textannotation: Potsdamer Kommentarkorpus 2.0](https://publishup.uni-potsdam.de/frontdoor/index/index/docId/8276) (Vol. 8). Universitätsverlag Potsdam, p.55-88
 		- authors (of chapters): Christian Chiarcos, Manfred Stede, Saskia Warzecha [CC, MS, SW]
@@ -98,7 +99,7 @@ For this version of the manual, we extended the guidelines by including the guid
 	- [2005-10-25](../archive/coreference.2005-10-25.pdf): Chiarcos, C., & Krasavina, O. (2005). Annotation Guidelines PoCoS–Potsdam Coreference Scheme. Technical Report. University of Potsdam, Germany. [CC,OK]
 		- Original edition of the Potsdam Coreference Scheme (PoCoS), focusing on English, Russian and German
 - [coreference.md](coreference.md)
-	- **TODO**: integrate Chiarcos and Krasavina (2005)
+    - [2023-05-15](../archive/coreference.2023-05-15.md): integrated Chiarcos and Krasavina (2005)
 	- [2023-05-05](../archive/coref.2023-05-05.md): integrated  Krasavina and Chiarcos (2007)
 	- [2023-04-20](coreference.2023-04-20.md): revision by Christian Chiarcos, fully restructured
 		- The original annotation procedure was focusing on anaphoric relations. Now revised to annotate coreference sets. However, many examples are taken over.
@@ -115,5 +116,7 @@ For this version of the manual, we extended the guidelines by including the guid
 	- 1993: original version by Gundel, Hedberg and Zacharski
 - [lit.md](lit.md): References
 	- currently from Chiarcos and Krasavina (2005), only
+	- [2023-05-15](../archive/lit.2023-05-15.md): initial version, from Chiarcos and Krasavina (2005)
 - [problems.md](problems.md): Problematic cases
 	- currently from Chiarcos and Krasavina (2005), only (needs to be completely re-analyzed) 
+	- [2023-05-15](../archive/problems.2023-05-15.md): initial version, from Chiarcos and Krasavina (2005)
