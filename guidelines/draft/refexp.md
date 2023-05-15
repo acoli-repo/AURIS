@@ -91,6 +91,12 @@ Note that demonstrative pronouns *such*, in German *solch* and so-called "generi
 > - Reflexive pronouns (English *herself*, etc.) are not PM. Pronouns that are formally ambiguous as to whether they are reflexive or personal pronouns (e.g., German *mich* "me; myself"), are PM, and should be marked as `bound` in the annotation. Analoguously for other non-referring pronouns (e.g., expletive *it* or generic *you* in the sense of "anyone").
 > - Interrogative pronouns are not primary markables, but can serve as secondary markables.
 > - Chiarcos and Krasavina (2005) also include zero (pro-drop) pronouns under pronouns. Here, we follow token-based annotation, so that zeros should not be annotated.
+
+	> (43) *John~j~ stepped in the kitchen,* Ø*~j~ opened the fridge and* Ø*~j~ decided NO-ZERO to take a pizza.*
+
+	Note, that John is the (implicit) subject of the clause *to take a pizza*. However, this is not an instance of ∅-pronoun, since the insertion of *John* (no matter at which position within the phrase) would make the utterance ungrammatical. If not sure whether to annotate a ZERO or not, try to insert a full description of the corresponding referent. Note that zeros have to be sentential arguments, no adjuncts.
+
+
 > - Stede et al. (2016) treat *all*+NP like *both*+NP. needs to be double-checked.
 
 ### b.  Definite Descriptions
@@ -260,7 +266,6 @@ As these cases cannot be automatically identified, all pronominal numerals are t
 > 	(18') *Ich hatte \[zwei Stunden\]~PM~ eingeplant, aber es wurden letzlich \[drei\]~SM~.* (German)
 >	(18") *I had planned for \[two hours\], but in the end, it was \[three\]~SM~* (English)
 
-
 ### Proper noun vs. definite NP
 
 Note that if a proper noun is not a head of an NP, the NP is annotated as definite or indefinite respectively.
@@ -371,6 +376,39 @@ The following features of the original PoCoS scheme are currently not annotated:
 	- `yes`
 	- `no`
 
+- column/feature `SEMANTIC_ROLE`: ag, ben/dat, pat, loc, instr, other, unspec
+- column/feature `quantification`: 
+
+	- quant-np description involving a quantification 
+		> (67.a) *most of them*	(quantified pronoun) 
+		> (67.b) *many of the workers* (quantified NP)
+
+	- num-np description involving cardinal numbers^10^
+
+		> (68.a) *two dogs* (numeral + indefinite or definite NP) (68.b) *the two dogs* (numeral + definite NP)
+
+		> (68.c) *two of them* (numeral + pronoun)
+
+		> (68.d) *both (of them)* (two-dimensional group-referring pronoun)
+
+	- no-quant neither quant-np nor num-np unspec no value set
+
+	Borderline case: indefinite NPs with an article that is identical (or at least derived from) the cardinal number *one* should be considered as quantified iff. a corresponding set of individuals has been previously evoked and the membership relation marked as being relevant.
+
+	For English, the latter condition should hold for *one*, but not for
+	*an, a*, for German, the membership relation should be regarded as being prominent if a substitution of the indefinite article *ein, eine* by colloquial *'n, 'ne* appears to be unlikely.
+
+- `ANIMACY`: 
+	- animate i.e. lexical animacy, with the following sub-types
+	- human
+	- non-human
+	- inaminate i.e. lexical inanimacy or abstract
+	Note that abstract entities are always regarded as being inanimate.
+
+- semantic class: abstract, person, physical object, action/event, collective, other, unspec
+
+	Note that there exist subtle dependencies between semantic class and animacy. However, critical cases such as collectives (e.g. *a group of people* vs. *a group of hills*) and certain physical objects (e.g. *tree* vs. *stone*) could be either animate or inanimate. While semantic class has to do with the perception of an entity, animacy is primary a lexical feature. However, default values semantic class and animacy can be derived from WordNet resp. GermaNet for a majority of cases.
+
 ## TO INTEGRATE
 
 Chiarcos and Krasavina (2005):
@@ -379,9 +417,27 @@ Chiarcos and Krasavina (2005):
 
 	The feature stands for the surface structure of markables
 
-	- 	none *(default)*
+	- 	none should be used only for non-nominal non-referring expressions, e.g. for clauses that serve as antecedents of event anaphors
 	-	ne proper names
-	-	def-np definite NP
-	- \*indef-np indefinite NP pper personal pronouns ppos possessive pronouns, pds demonstrative pronouns padv pronominal adverbs
+	-	def-np definite NP, with optional subtypes
+		- poss-np possessive NP
+		- other-np definite NPs containing adjectives like *other*, e.g. *the other man*
+		- the-np any NP with a definite article not covered by another def-np category
+		- dem-np demonstrative NPs involve several sub-types regarding differences with respect to their relative proximity, with optional subtypes
+			- dem-np-prox: proximal *this man*, \...
+			- dem-np-dist: distal *that man*, \...
+	- \*indef-np indefinite NP pper personal pronouns ppos possessive pronouns, pds demonstrative pronouns padv pronominal adverbs, optional subtypes
+		- bare-np indefinites without article, e.g. *men*, *water*, \... 
+		- a-np indefinites with indefinite article, e.g. *a man*, \... 
+		- another-np indefinites with other, e.g. *another man* 
 	-	other for special purposes, we leave this option for later extensions, choosing other
 		- enforces to add a comment describing the type of description Note that np-form has to be annotated both for NPs and PPs!
+	- pron (referring) pronoun, with optional subtypes
+		- pper personal pronouns, *I, me, you, he, him, she, her, it, we, us, they, them*
+		- ppos possessive pronouns, *my, mine, your, yours, \...* prefl reflexive pronouns, *himself, herself, itself, \...* pint interrogative pronouns, *who, where, when, \...*
+		- pds demonstrative pronouns, with optional sub-classes: 
+			- pds-prox: proximal *this, these*, *this one*, German *der, die, das, \...*
+			- pds-dist: distal *that, those*, *that one*, German *dieser, diese, dies(es), jener, jene, jenes*
+		- padv: German only: pronominal adverbs, e.g. *davor, deswegen*
+
+The top level (without reflexives and interrogatives) is in core scheme, remainder in extended scheme

@@ -113,4 +113,7 @@ For this version of the manual, we extended the guidelines by including the guid
 		- contributors: Ann Mulkern, Tonya Custis, Bonnie Swierzbin, Amel Khalfoui, Linda Humnick, Bryan Gordon, Mamadou Bassene, Shana Watters
 	- 2004-07-xx: preceding revision of Jeanette Gundel, Nancy Hedberg, Ron Zacharski of July 2004
 	- 1993: original version by Gundel, Hedberg and Zacharski
-
+- [lit.md](lit.md): References
+	- currently from Chiarcos and Krasavina (2005), only
+- [problems.md](problems.md): Problematic cases
+	- currently from Chiarcos and Krasavina (2005), only (needs to be completely re-analyzed) 
