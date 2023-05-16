@@ -121,17 +121,17 @@ This is not to be annotated at the moment. In the future, these annotations may 
 
 	Following Gardent et al. \[GMK03\], we interpret the following examples as bridging: examples:
 
-	(62) T*oni Johnson pulls a tape measure across the front of \[what was once a stately Victorian home\]H. \[The chimney\]~part~*~o*f*(*H*)~
+	(62) T*oni Johnson pulls a tape measure across the front of \[what was once a stately Victorian home\]H. \[The chimney\]<sub>part</sub>*<sub>o*f*(*H*)</sub>
 	     *is a pile of bricks on the front lawn.*
 
 	(63.a) *A deep trench now runs along its north wall, exposed when the house lurched two feet off its foundation during last week's
 	\[earthquake\]e.*
 
-	(63.b) *The petite, 29-year-old Ms. Johnson \... has been on the move almost incessantly since last Thursday, when an army of adjusters, employed by major insurers, invaded the San Francisco area to help policyholders sift through \[the rubble\]~effect~ ~of~*~(*e*)~ *and restore some order to their lives.*
+	(63.b) *The petite, 29-year-old Ms. Johnson \... has been on the move almost incessantly since last Thursday, when an army of adjusters, employed by major insurers, invaded the San Francisco area to help policyholders sift through \[the rubble\]<sub>effect</sub> <sub>of</sub>*<sub>(*e*)</sub> *and restore some order to their lives.*
 
-	(64.a) *\[The Victorian house\]~h~ that Ms. Johnson is inspecting has been deemed unsafe by town officials. \...*
+	(64.a) *\[The Victorian house\]<sub>h</sub> that Ms. Johnson is inspecting has been deemed unsafe by town officials. \...*
 
-	(64.b) *\[The owners\]~property~ ~of~*~(*h*)~*, William and Margie
+	(64.b) *\[The owners\]<sub>property</sub> <sub>of</sub>*<sub>(*h*)</sub>*, William and Margie
 	Hammack, are luckier than many others.*
 
 	Trigger (antecedent)of bridging relations Antecedents, or triggers are sometimes difficult to be assigned to just one markable. It can be the whole context that evokes the information necessary for the interpretation of a bridging anaphor. If a single markable cannot be specified, choose the left-most one and mark it as "ambig-ante".

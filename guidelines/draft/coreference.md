@@ -61,9 +61,9 @@ connection between a definite NP and another nominal is therefore not sufficient
 Note that this test has some issues with metonymy, i.e., substituting a word for another word closely associated with it. Cases of metonymy in text should be annotated as coreferent if and only if the subsitution test holds for all coreferring nominals: *the State Department said\... - the State Department officials claimed\...*.
 
 > (1) *Als 1999 die im Rahmen der Dorferneuerung neu gestaltete
-     \[Radeweger\]~1~ Ablage inklusive Seebrücke mit viel Pomp eingeweiht wurde\... Doch mit der Nachrüstung tut sich \[Radewege\]~1~ schwer \... Zu teuer, zu hässlich sei die Anlage, sagen die Meinungsführer \[im Gemeinderat\]~?~*  (maz-6488)
+     \[Radeweger\]<sub>1</sub> Ablage inklusive Seebrücke mit viel Pomp eingeweiht wurde\... Doch mit der Nachrüstung tut sich \[Radewege\]<sub>1</sub> schwer \... Zu teuer, zu hässlich sei die Anlage, sagen die Meinungsführer \[im Gemeinderat\]<sub>?</sub>*  (maz-6488)
 
-In (1), *\[Gemeinderat\]* could be considered coreferent with *\[Radewege\]~1~*. Yet, although both are exchangeable by means of metonymy, the substitution test fails for *\[Radewege\]~1~* , since *neu gestaltete Gemeinderatsablage* is not appropriate *in that context*. Accordingly, *\[Gemeinderat\]* should receive a separate index.
+In (1), *\[Gemeinderat\]* could be considered coreferent with *\[Radewege\]<sub>1</sub>*. Yet, although both are exchangeable by means of metonymy, the substitution test fails for *\[Radewege\]<sub>1</sub>* , since *neu gestaltete Gemeinderatsablage* is not appropriate *in that context*. Accordingly, *\[Gemeinderat\]* should receive a separate index.
 
 ### 4.3.2 Event Anaphor
 
@@ -71,7 +71,7 @@ Pronominal event anaphors are annotated along with their antecents.
 
 The antecedent of an event anaphor is normally a sentence, a clause or verb phrase. If so, select the main (lexical) verb as antecedent. Hence, in this example, we annotate *gewonnen* as we encounter the referring expression *das* "this".
 
-> (2) *Gestern hat Bayern München schon wieder gewonnen~1~. \[Das\]~1~ hat Jan ziemlich gestört. Marianne hingegen war \[davon\]~1~ begeistert.* (Non-event anaphors skipped.)
+> (2) *Gestern hat Bayern München schon wieder gewonnen<sub>1</sub>. \[Das\]<sub>1</sub> hat Jan ziemlich gestört. Marianne hingegen war \[davon\]<sub>1</sub> begeistert.* (Non-event anaphors skipped.)
 
 Note that antecedents of event anaphors are not automatically pre-annotated but have to be manually created.
 
@@ -83,8 +83,8 @@ Ambiguity can be annotated on demand in the `COMMENT` column.
 
 The assignment of an antecedent will be fairly straightforward in most cases. However, it is possible that several interpretations are *equally* plausible in the eyes of the annotator. Consider ex. (3):
 
-> (3) *Je kleiner die <ins>Kicker</ins>~2,OLD,AMBIG:COREF(2,1)~ daherkommen, desto größer wird der <ins>Gegner</ins>~1,OLD,AMBIG:COREF(1,2)~ geredet\...* (German, maz-10374)
->       "The smaller the kickers appear, the greater \[the rivals\]~d?/u?~ are rumoured to be." (PCC, 10374)
+> (3) *Je kleiner die <ins>Kicker</ins><sub>2,OLD,AMBIG:COREF(2,1)</sub> daherkommen, desto größer wird der <ins>Gegner</ins><sub>1,OLD,AMBIG:COREF(1,2)</sub> geredet\...* (German, maz-10374)
+>       "The smaller the kickers appear, the greater \[the rivals\]<sub>d?/u?</sub> are rumoured to be." (PCC, 10374)
 
 Antecedent of die Kicker "kickers" depends on the understanding of the "size" metaphor, it can be either the Ukrainian team (presented as having short players), or the German team (which has not been favored in the first match), or a generic description (which would mean that the sentence is not directly linked with the discourse). 
 
@@ -109,7 +109,7 @@ The following tags can be used to mark ambiguous
 
 1. `AMBIG:COREF` (ambiguous antecedent):<sup>[7](lit.md#coref7)</sup> There is uncertainty as to which is the \"right\" antecedent for an anaphor (or, controller for a cataphor). See above for antecedent selection preferences, provide referent index for all equally likely antecedents in round parentheses
 
-	> (4) *In a letter, \[prosecutors\]~p~ told \[Mr. Antar's lawyers\]~l~ that because of the recent Supreme Court rulings, \[they\]~p/l~*~?~ *could expect that any fees collected from Mr. Antar may be seized.*
+	> (4) *In a letter, \[prosecutors\]<sub>p</sub> told \[Mr. Antar's lawyers\]<sub>l</sub> that because of the recent Supreme Court rulings, \[they\]<sub>p/l</sub>*<sub>?</sub> *could expect that any fees collected from Mr. Antar may be seized.*
 
 2. `AMBIG:REL`: There is uncertainty as to whether an anaphoric relation exists or which type it is (anaphoric vs. bridging or event, i.e. contextual inference)
 
@@ -127,11 +127,11 @@ The following tags can be used to mark ambiguous
 
 	This can be made clearer with a constructed example:
 
-	> (7.a) *She looks out of the window. <ins>It</ins>~EXPL~ is dark.* (expletive)
+	> (7.a) *She looks out of the window. <ins>It</ins><sub>EXPL</sub> is dark.* (expletive)
 	
-	> (7.b) *Your <ins>cat</ins>~1~ has a nice color. <ins>It</ins>~1~ is dark, much more so than mine.* (anaphoric)
+	> (7.b) *Your <ins>cat</ins><sub>1</sub> has a nice color. <ins>It</ins><sub>1</sub> is dark, much more so than mine.* (anaphoric)
 	
-	> (7.c) *The <ins>cat</ins>~1~ is hard to see. <ins>It</ins>~1,AMBIG:EXPL~ is dark.* (ambiguous)
+	> (7.c) *The <ins>cat</ins><sub>1</sub> is hard to see. <ins>It</ins><sub>1,AMBIG:EXPL</sub> is dark.* (ambiguous)
 
 5. `AMBIG:COREF_REL`: There is ambiguity with respect to both antecedent and relation
 
@@ -164,15 +164,15 @@ In spreadsheet-based annotations, some of the values are automatically suggested
 
 5. `GROUP`: Referring expressions that designate groups can serve as antecedents of nominal markables and can be annotated as a group. <sup>[5](lit.md#coref5)</sup>
 
-	> (9.a) *\[Montedison\]~1~ now owns about 72% of \[Erbamont\'s\]~2~ shares outstanding.*
+	> (9.a) *\[Montedison\]<sub>1</sub> now owns about 72% of \[Erbamont\'s\]<sub>2</sub> shares outstanding.*
 
-	> (9.b) *\[The companies\]~3\>1,2~ said ... a sale of all of \[Erbamont\'s\]~2~ assets \... \[to Montedison\]~1~ ...*
+	> (9.b) *\[The companies\]<sub>3\>1,2</sub> said ... a sale of all of \[Erbamont\'s\]<sub>2</sub> assets \... \[to Montedison\]<sub>1</sub> ...*
 
-	> (9.c) *\[The companies\]~3~ said ...* (WSJ, 660)
+	> (9.c) *\[The companies\]<sub>3</sub> said ...* (WSJ, 660)
 
 	Note that the second reference to *the companies* in (9.c) is annotated as a **plain anaphoric reference** to the established group, not as a group reference to the individual companies mentioned in the meantime.
 
-4. `BOUND`: Pronouns that are syntactically bound, e.g. reflexive pronouns. Also, possessive pronouns governed by nominal expressions in the same sentence are annotated as `BOUND`, cf. in (8.b) below *Mit <ins>seinem</ins>~3,BOUND~ Tor*.<sup>[6](lit.md#coref6)</sup>
+4. `BOUND`: Pronouns that are syntactically bound, e.g. reflexive pronouns. Also, possessive pronouns governed by nominal expressions in the same sentence are annotated as `BOUND`, cf. in (8.b) below *Mit <ins>seinem</ins><sub>3,BOUND</sub> Tor*.<sup>[6](lit.md#coref6)</sup>
 
 	> Notes: Reflexive pronouns (which are obligatorily bound) are not annotated as markables if they can be identified on grounds of their form (e.g., English *himself*, German *sich*). Only if a form is ambiguous between a reflexive and pronominal reading (e.g., German *mich*), reflexive pronouns are annotated as `BOUND`.
 
@@ -182,68 +182,68 @@ In spreadsheet-based annotations, some of the values are automatically suggested
 
 6. `GEN`: The term *generic* denotes a special usage of a referring expression, such that not a particular individual or object is meant, but rather a class of entities or features of this class.
 
-	> (10.a) *<ins>Whales</ins>~GEN~ are <ins>mammals</ins>~PRED~.*
+	> (10.a) *<ins>Whales</ins><sub>GEN</sub> are <ins>mammals</ins><sub>PRED</sub>.*
 	
-	> (10.b)  *Der Pr¨asident wurde immer schon durch die Stimmenmehrheit bestimmt.* "The <ins>President</ins>~GEN~ has always been elected by majority <ins>vote</ins>~1,NEW~."
+	> (10.b)  *Der Pr¨asident wurde immer schon durch die Stimmenmehrheit bestimmt.* "The <ins>President</ins><sub>GEN</sub> has always been elected by majority <ins>vote</ins><sub>1,NEW</sub>."
 
 	Generics should not be annotated with a discourse referent index -- unless they are subsequently referred to:
 
-	> (10.a') *<ins>Whales</ins>~1,GEN~ are <ins>mammals</ins>~PRED~. <ins>They</ins>~1,OLD~ descend from land <ins>animals</ins>~GEN~.* 
+	> (10.a') *<ins>Whales</ins><sub>1,GEN</sub> are <ins>mammals</ins><sub>PRED</sub>. <ins>They</ins><sub>1,OLD</sub> descend from land <ins>animals</ins><sub>GEN</sub>.* 
 
 	This includes both nominal and pronominal markables. Generic pronouns such as *we*, *you*, *they* (in cases where they do not carry a specific reference), *someone*, *anyone*, *one*. Cf. German *man*.
 
-	> (11.a) *Meier said to Müller: \"\[You\]~GEN~ should go now.\"*
+	> (11.a) *Meier said to Müller: \"\[You\]<sub>GEN</sub> should go now.\"*
 	
-	> (11.b) *Meier sagte zu Müller: „\[Man\]~GEN~ sollte jetzt gehen."* (German)
+	> (11.b) *Meier sagte zu Müller: „\[Man\]<sub>GEN</sub> sollte jetzt gehen."* (German)
 
-	> (11.c) *Meier said to Müller: \"Last year, \[they\]~GEN~ demolished a house here."*
+	> (11.c) *Meier said to Müller: \"Last year, \[they\]<sub>GEN</sub> demolished a house here."*
 
-	> (11.d) *Meier sagte zu Müller: „Letzes Jahr haben \[sie\]~GEN~ hier ein Haus abgerissen."* (German)
+	> (11.d) *Meier sagte zu Müller: „Letzes Jahr haben \[sie\]<sub>GEN</sub> hier ein Haus abgerissen."* (German)
 
 5. `EXPL`: Non-referring expression: Expletive 	expressions (English *it*) and pronominal adverbs that are controllers of relative clauses
 
 	> (12.a) *<ins>It</ins> was raining.*
 
-	> (12.b) *\[ ~~~It~~~ \] was also considered certain that . . .* (English)
+	> (12.b) *\[ <sub></sub><sub>It</sub><sub></sub> \] was also considered certain that . . .* (English)
 	
-	> (12.c) *\[~~~Es~~~\] galt zudem als sicher, dass . . .* (German)
+	> (12.c) *\[<sub></sub><sub>Es</sub><sub></sub>\] galt zudem als sicher, dass . . .* (German)
 
 6. `PRED`: Non-referring expression: Predicative NPs in copular sentences
 
 	> (13.a) *Nicht, dass beide eine Mehrheit für ihre Koalition suchten, war \[das Ärgerliche in den vergangenen Tagen\] ...* (German)
 
-	> (13.b) *The chief physician was \[a real professional\]~NM~.*
+	> (13.b) *The chief physician was \[a real professional\]<sub>NM</sub>.*
 	
-	> (13.c) *Max Müller is \[the greatest center forward of all time\]~NM~!*
+	> (13.c) *Max Müller is \[the greatest center forward of all time\]<sub>NM</sub>!*
 
 7. `IDIOM`: Non-referring expression: apparent referring expressions (e.g., definite NPs) in fixed, conventionalized idioms and corresponding collocations:
 
 	> (14.a) *jemandem auf die <ins>Nerven</ins> gehen* (German, "to annoy someone")
 	
-	> (14.b) *Er brachte mich auf \[die Palme\]~NM~* (German)
+	> (14.b) *Er brachte mich auf \[die Palme\]<sub>NM</sub>* (German)
 	
-	> (14.c) *Und dann warf sie \[die Flinte\]~NM~ \[ins Korn\]~NM~.* (German)
+	> (14.c) *Und dann warf sie \[die Flinte\]<sub>NM</sub> \[ins Korn\]<sub>NM</sub>.* (German)
 
 	> Note: Referring expressions in productive, transparent metaphors that are sufficiently transparent should be annotated like anaphoric expressions. The annotator may add `AMBIG:IDIOM`if not sure about their annotation. In (7.d), *der Spatz in der Hand*, a definite NP in German, can be generic, part of an idiom, or referring:
 
 	> (14.d) *Lieber \[der Spatz in der Hand\] als \[die Taube auf dem Dach\]*    (PCC, 12666) "A bird in the hand is worth two in the bush" (Context: a mayor finds an investor for his town willing to make only minimal investments).
 
-	> (14.e) *So lässt sich \[das schlingernde City-Schiff\]~PM~ vielleicht doch noch auf einen erfolgversprechenden Kurs bringen.* (German, maz-18914, here, a reference to a city is made, but combined with the metaphorical image of a ship in troubled water, for which the substitution test would fail)
+	> (14.e) *So lässt sich \[das schlingernde City-Schiff\]<sub>PM</sub> vielleicht doch noch auf einen erfolgversprechenden Kurs bringen.* (German, maz-18914, here, a reference to a city is made, but combined with the metaphorical image of a ship in troubled water, for which the substitution test would fail)
 
 8. `other`: other, non-referring expression, please provide a description in round parentheses. Includes, for example, NPs under the scope of a negation that cannot be referred to
 
-	> (15) *I didn\'t buy \[a new car\]~NM~ after all.*
+	> (15) *I didn\'t buy \[a new car\]<sub>NM</sub> after all.*
 
 ### 4.4 Example
 
-> (16.a) *\[Die einstige <ins>Fußball-Weltmacht</ins>\]~1,CAT~ zittert \[vor einem <ins>Winzling</ins>\]~2,CAT,AMBIG(2,6)~.*
->      "\[The former football World Power\]~d~ is shivering \[in the face of a mite\]~s~."
+> (16.a) *\[Die einstige <ins>Fußball-Weltmacht</ins>\]<sub>1,CAT</sub> zittert \[vor einem <ins>Winzling</ins>\]<sub>2,CAT,AMBIG(2,6)</sub>.*
+>      "\[The former football World Power\]<sub>d</sub> is shivering \[in the face of a mite\]<sub>s</sub>."
 	
-> (16.b) *Mit <ins>seinem</ins>~3,BOUND~ <ins>Tor</ins>~4,NEW~ zum <ins>1:0</ins>~5,NEW~ für die <ins>Ukraine</ins>~6,NEW~ stürzte der 1,62 Meter große \[<ins>Gennadi</ins> Subow\]~2,NEW~ die deutsche <ins>Nationalelf</ins>~1,NEW~ vorübergehend in ein <ins>Trauma</ins>~7,NEW~.*
->       "By \[his\]~s~ goal that set the score to 1:0 \[for Ukraine\]~u~ pitched \[Gennadi Subow\]~s~, 1.62 Meter tall, \[the German National Eleven\]~d~ in a shock for a while..."
+> (16.b) *Mit <ins>seinem</ins><sub>3,BOUND</sub> <ins>Tor</ins><sub>4,NEW</sub> zum <ins>1:0</ins><sub>5,NEW</sub> für die <ins>Ukraine</ins><sub>6,NEW</sub> stürzte der 1,62 Meter große \[<ins>Gennadi</ins> Subow\]<sub>2,NEW</sub> die deutsche <ins>Nationalelf</ins><sub>1,NEW</sub> vorübergehend in ein <ins>Trauma</ins><sub>7,NEW</sub>.*
+>       "By \[his\]<sub>s</sub> goal that set the score to 1:0 \[for Ukraine\]<sub>u</sub> pitched \[Gennadi Subow\]<sub>s</sub>, 1.62 Meter tall, \[the German National Eleven\]<sub>d</sub> in a shock for a while..."
 	
-> (16.c) *Je kleiner die <ins>Kicker</ins>~2,OLD,AMBIG:COREF(2,1)~ daherkommen, desto größer wird der <ins>Gegner</ins>~1,OLD,AMBIG:COREF(1,2)~ geredet\...* (German, maz-10374)
->       "The smaller the kickers appear, the greater \[the rivals\]~d?/u?~ are rumoured to be." (PCC, 10374)
+> (16.c) *Je kleiner die <ins>Kicker</ins><sub>2,OLD,AMBIG:COREF(2,1)</sub> daherkommen, desto größer wird der <ins>Gegner</ins><sub>1,OLD,AMBIG:COREF(1,2)</sub> geredet\...* (German, maz-10374)
+>       "The smaller the kickers appear, the greater \[the rivals\]<sub>d?/u?</sub> are rumoured to be." (PCC, 10374)
 
 Note that here, the antecedent of die Kicker "kickers" depends on the understanding of the "size" metaphor, it can be either the Ukrainian team (presented as having short players), or the German team (which has not been favored in the first match), or a generic description (which would mean that the sentence is not directly linked with the discourse).
 
@@ -253,11 +253,11 @@ Note that here, the antecedent of die Kicker "kickers" depends on the understand
 
 Here is a very compact, constructed example:
 
-> (17.a) Peter~1~ and Malte~2~ went for a walk~3~. Both~4\>1,2~ wore hats~5~.
+> (17.a) Peter<sub>1</sub> and Malte<sub>2</sub> went for a walk<sub>3</sub>. Both<sub>4\>1,2</sub> wore hats<sub>5</sub>.
 
-> (17.b) Peter~1~ had a coat~6~, Malte~2~ a rain jacket~7~. 
+> (17.b) Peter<sub>1</sub> had a coat<sub>6</sub>, Malte<sub>2</sub> a rain jacket<sub>7</sub>. 
 
-> (17.c) They~**4**~ reached\...
+> (17.c) They<sub>**4**</sub> reached\...
 
 When annotating *They*, note that this group has been previously established. For this reason, we do *not* refer to the second respective mentions of *Peter* and *Malte*, but instead to the previously established index for the group introduced when annotating *Both*.
 
@@ -280,9 +280,9 @@ Depending on context, some words can be either referring expressions or not. Thi
 
 A notorious problem in German is the annotation of pronominal adverbs such as *damit* (in the sense "so that", not in the sense "with it"), if they act as a connector: 
 
-> (19.a) *\[Auf dem <ins>Tisch</ins>\]~PM~ liegt \[eine <ins>Kneifzange</ins>\]~SM~. \[<ins>Damit</ins>\]~PM~ kann man viel anfangen.* (German, referential *damit* "with it")
+> (19.a) *\[Auf dem <ins>Tisch</ins>\]<sub>PM</sub> liegt \[eine <ins>Kneifzange</ins>\]<sub>SM</sub>. \[<ins>Damit</ins>\]<sub>PM</sub> kann man viel anfangen.* (German, referential *damit* "with it")
 
-> (19.b) *\[<ins>Ich</ins>\]~PM~ habe \[<ins>dir</ins>\]~PM~ \[den <ins>Brief</ins>\]~PM~ gezeigt, damit \[<ins>du</ins>\]~PM~ bescheid weißt.* (German, non-referential *damit" "so that")
+> (19.b) *\[<ins>Ich</ins>\]<sub>PM</sub> habe \[<ins>dir</ins>\]<sub>PM</sub> \[den <ins>Brief</ins>\]<sub>PM</sub> gezeigt, damit \[<ins>du</ins>\]<sub>PM</sub> bescheid weißt.* (German, non-referential *damit" "so that")
 
 ### 4.5.4 Relative Possessive Pronouns
 

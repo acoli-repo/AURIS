@@ -56,10 +56,10 @@ If markables they are in a coreference relation, they are given an index that in
 
 We call the series of mentions of the same referent one *referential chain*. As result of the annotation, all elements of a referential chain must carry the same index.
 
-> (2) *Susanne doesn't like \[gymnastics\]~1~, because \[it\]~1~ is very hard.*
+> (2) *Susanne doesn't like \[gymnastics\]<sub>1</sub>, because \[it\]<sub>1</sub> is very hard.*
 
-> (3) *At noon, \[the Federal President\]~1~ opened \[the session\]~2~, and
-in the evening, \[Joachim Gauck\]~1~ closed \[it\]~2~\> again.*
+> (3) *At noon, \[the Federal President\]<sub>1</sub> opened \[the session\]<sub>2</sub>, and
+in the evening, \[Joachim Gauck\]<sub>1</sub> closed \[it\]<sub>2</sub>\> again.*
 
 The annotation task for is to process each text in reading order and identify all markables. As described below, this process is partially automated. After marking a markable, it can also be assigned various attributes that characterize the type of the markable. Here, this comprises annotations for referentiality (`REF`), coreference (`COREF`), information status (`IS`, "givenness") and backward-looking center (`CB`, "sentence topic"). 
 

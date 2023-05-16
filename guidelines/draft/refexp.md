@@ -52,13 +52,13 @@ This also entails that referring expressions can *only* be annotated if they are
 
 When converting head-based annotation to span-based annotation in downstream tasks, we assume that all dependents of a syntactic head are to be included in the markable:
 
-> (2.a) *\[This <ins>right</ins>\]~right~ may not be invoked \[in the case of <ins>prosecutions</ins> arising from acts contrary \[to the <ins>purposes</ins> \[of the United <ins>Nations</ins>\]UN\]purp\]prosec.* ([www.unhchr.ch/udhr](http://www.unhchr.ch/udhr), shortened)
+> (2.a) *\[This <ins>right</ins>\]<sub>right</sub> may not be invoked \[in the case of <ins>prosecutions</ins> arising from acts contrary \[to the <ins>purposes</ins> \[of the United <ins>Nations</ins>\]UN\]purp\]prosec.* ([www.unhchr.ch/udhr](http://www.unhchr.ch/udhr), shortened)
 
-> (2.b) *\[Dieses <ins>Recht</ins>\]~right~ kann nicht in Anspruch genommen werden \[im Falle einer <ins>Strafverfolgung</ins> auf Grund von Handlungen, die \[gegen die <ins>Ziele</ins> \[der Vereinten <ins>Nationen</ins>\]~UN~\]~purp~ verstoßen\]~prosec~.* (German, [www.unhchr.ch/udhr](http://www.unhchr.ch/udhr), shortened)
+> (2.b) *\[Dieses <ins>Recht</ins>\]<sub>right</sub> kann nicht in Anspruch genommen werden \[im Falle einer <ins>Strafverfolgung</ins> auf Grund von Handlungen, die \[gegen die <ins>Ziele</ins> \[der Vereinten <ins>Nationen</ins>\]<sub>UN</sub>\]<sub>purp</sub> verstoßen\]<sub>prosec</sub>.* (German, [www.unhchr.ch/udhr](http://www.unhchr.ch/udhr), shortened)
 
-> (2.c) *\[Это <ins>право</ins>\]~right~ не может быть использовано \[в случае
+> (2.c) *\[Это <ins>право</ins>\]<sub>right</sub> не может быть использовано \[в случае
 <ins>преследования</ins>, основанного на совершении деяния, противоречащего
-\[<ins>целям</ins> \[Организации Объединенных <ins>Наций</ins>\]~UN~\]~purp~\]~prosec~.*
+\[<ins>целям</ins> \[Организации Объединенных <ins>Наций</ins>\]<sub>UN</sub>\]<sub>purp</sub>\]<sub>prosec</sub>.*
 (Russian, [www.unhchr.ch/udhr](http://www.unhchr.ch/udhr), shortened)
 
 ## 3.3 Primary Markables (`REF_AUTO`=`?OLD`)
@@ -202,7 +202,7 @@ Complex proper names are only treated as a single markable and are not further d
 
 Standalone titles that can stand in for an individual (*Mr./Ms./Dr./President/Chairman*) are treated like proper names, e.g., 
 
-> (10) *Schröder~1~\...Fischer~2~ \... Die anfängliche Überreaktion von <ins>Kanzler</ins>~1~ und <ins>Außenminister</ins>~2~\...*
+> (10) *Schröder<sub>1</sub>\...Fischer<sub>2</sub> \... Die anfängliche Überreaktion von <ins>Kanzler</ins><sub>1</sub> und <ins>Außenminister</ins><sub>2</sub>\...*
 
 In (10), *Kanzler* and *Außenminister* have to be annotated as primary markables, because proper names are inherently definite
 
@@ -334,12 +334,12 @@ An NP can be incomplete by elision and, at first glance, not meet the criteria o
 
 > (18) *Now only three of the 12 judges - \[\[Pauline Newman\]n, (\[Chief
      Judge Howard T. Markey, 68\]m)two*1*, and (\[Giles Rich, 85\]r)two*
-     2 *- have patent law backgrounds\]. \[The latter* *two\]~two~ and \[Judge Daniel M. Friedman, 73\]~f~ , are approaching senior status or retirement.* (WSJ corpus)
+     2 *- have patent law backgrounds\]. \[The latter* *two\]<sub>two</sub> and \[Judge Daniel M. Friedman, 73\]<sub>f</sub> , are approaching senior status or retirement.* (WSJ corpus)
 
 As these cases cannot be automatically identified, all pronominal numerals are to be annotated as primary markables. 
 
-> 	(18') *Ich hatte \[zwei Stunden\]~PM~ eingeplant, aber es wurden letzlich \[drei\]~SM~.* (German)
->	(18") *I had planned for \[two hours\], but in the end, it was \[three\]~SM~* (English)
+> 	(18') *Ich hatte \[zwei Stunden\]<sub>PM</sub> eingeplant, aber es wurden letzlich \[drei\]<sub>SM</sub>.* (German)
+>	(18") *I had planned for \[two hours\], but in the end, it was \[three\]<sub>SM</sub>* (English)
 
 ### 3.6.7 Proper Noun vs. definite NP
 
@@ -390,7 +390,7 @@ Non-referring markables are to be *manually* given the appropriate referentialit
 
 	The annotation is as follows in this case:
 
-	> (26) *Und so schielen \[die Israelis\]i \[(nach Washington)w, \[an \[dessen\]w Tropf\] \[sie\]i wirtschaftlich und milit¨arisch h¨angen\]~w~*′ *,\...*
+	> (26) *Und so schielen \[die Israelis\]i \[(nach Washington)w, \[an \[dessen\]w Tropf\] \[sie\]i wirtschaftlich und milit¨arisch h¨angen\]<sub>w</sub>*′ *,\...*
 
 -   prepositional phrases with prepositions *as, than*, *bis, als, wie* (in German) Such prases are annotated as normal NPs, i.e. *bis* and *als* are not included. ^3^
 

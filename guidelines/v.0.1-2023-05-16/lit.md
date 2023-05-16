@@ -18,7 +18,7 @@
 
 	- <a name="refexp3">3</a>: Chiarcos and Krasavina (2005) also include zero (pro-drop) pronouns under pronouns. Here, we follow token-based annotation, so that zeros should not be annotated.
 
-		> (43) *John~j~ stepped in the kitchen,* Ø*~j~ opened the fridge and* Ø*~j~ decided NO-ZERO to take a pizza.*
+		> (43) *John<sub>j</sub> stepped in the kitchen,* Ø*<sub>j</sub> opened the fridge and* Ø*<sub>j</sub> decided NO-ZERO to take a pizza.*
 
 		Here, that John is the (implicit) subject of the clause *to take a pizza*. However, this is not an instance of ∅-pronoun, since the insertion of *John* (no matter at which position within the phrase) would make the utterance ungrammatical. If not sure whether to annotate a ZERO or not, try to insert a full description of the corresponding referent. Note that zeros have to be sentential arguments, no adjuncts.
 
