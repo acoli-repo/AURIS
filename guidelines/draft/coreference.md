@@ -83,7 +83,7 @@ Ambiguity can be annotated on demand in the `COMMENT` column.
 
 The assignment of an antecedent will be fairly straightforward in most cases. However, it is possible that several interpretations are *equally* plausible in the eyes of the annotator. Consider ex. (3):
 
-> (3) *Je kleiner die <u>Kicker</u>~2,OLD,AMBIG:COREF(2,1)~ daherkommen, desto größer wird der <u>Gegner</u>~1,OLD,AMBIG:COREF(1,2)~ geredet\...* (German, maz-10374)
+> (3) *Je kleiner die <ins>Kicker</ins>~2,OLD,AMBIG:COREF(2,1)~ daherkommen, desto größer wird der <ins>Gegner</ins>~1,OLD,AMBIG:COREF(1,2)~ geredet\...* (German, maz-10374)
 >       "The smaller the kickers appear, the greater \[the rivals\]~d?/u?~ are rumoured to be." (PCC, 10374)
 
 Antecedent of die Kicker "kickers" depends on the understanding of the "size" metaphor, it can be either the Ukrainian team (presented as having short players), or the German team (which has not been favored in the first match), or a generic description (which would mean that the sentence is not directly linked with the discourse). 
@@ -115,7 +115,7 @@ The following tags can be used to mark ambiguous
 
 	This is sometimes the case with definite NPs. In the example below: If it is unclear whether the *confrontation* is identical to the *conflict*, the coreference should be annotated and the markable should be marked with this attribute. It is not necessary to provide a more detailed description.
 
-	> (5) *This <u>conflict</u> is ... Therefore, the <u>confrontation</u> ...*
+	> (5) *This <ins>conflict</ins> is ... Therefore, the <ins>confrontation</ins> ...*
 
 3. `AMBIG:IDIOM`: There is uncertainty as to whether a markable could be understood as a referential expression or as part of an idiom. Annotate anaphoric reading and mark the ambiguity.
 
@@ -127,11 +127,11 @@ The following tags can be used to mark ambiguous
 
 	This can be made clearer with a constructed example:
 
-	> (7.a) *She looks out of the window. <u>It</u>~EXPL~ is dark.* (expletive)
+	> (7.a) *She looks out of the window. <ins>It</ins>~EXPL~ is dark.* (expletive)
 	
-	> (7.b) *Your <u>cat</u>~1~ has a nice color. <u>It</u>~1~ is dark, much more so than mine.* (anaphoric)
+	> (7.b) *Your <ins>cat</ins>~1~ has a nice color. <ins>It</ins>~1~ is dark, much more so than mine.* (anaphoric)
 	
-	> (7.c) *The <u>cat</u>~1~ is hard to see. <u>It</u>~1,AMBIG:EXPL~ is dark.* (ambiguous)
+	> (7.c) *The <ins>cat</ins>~1~ is hard to see. <ins>It</ins>~1,AMBIG:EXPL~ is dark.* (ambiguous)
 
 5. `AMBIG:COREF_REL`: There is ambiguity with respect to both antecedent and relation
 
@@ -172,7 +172,7 @@ In spreadsheet-based annotations, some of the values are automatically suggested
 
 	Note that the second reference to *the companies* in (9.c) is annotated as a **plain anaphoric reference** to the established group, not as a group reference to the individual companies mentioned in the meantime.
 
-4. `BOUND`: Pronouns that are syntactically bound, e.g. reflexive pronouns. Also, possessive pronouns governed by nominal expressions in the same sentence are annotated as `BOUND`, cf. in (8.b) below *Mit <u>seinem</u>~3,BOUND~ Tor*.<sup>[6](lit.md#coref6)</sup>
+4. `BOUND`: Pronouns that are syntactically bound, e.g. reflexive pronouns. Also, possessive pronouns governed by nominal expressions in the same sentence are annotated as `BOUND`, cf. in (8.b) below *Mit <ins>seinem</ins>~3,BOUND~ Tor*.<sup>[6](lit.md#coref6)</sup>
 
 	> Notes: Reflexive pronouns (which are obligatorily bound) are not annotated as markables if they can be identified on grounds of their form (e.g., English *himself*, German *sich*). Only if a form is ambiguous between a reflexive and pronominal reading (e.g., German *mich*), reflexive pronouns are annotated as `BOUND`.
 
@@ -182,13 +182,13 @@ In spreadsheet-based annotations, some of the values are automatically suggested
 
 6. `GEN`: The term *generic* denotes a special usage of a referring expression, such that not a particular individual or object is meant, but rather a class of entities or features of this class.
 
-	> (10.a) *<u>Whales</u>~GEN~ are <u>mammals</u>~PRED~.*
+	> (10.a) *<ins>Whales</ins>~GEN~ are <ins>mammals</ins>~PRED~.*
 	
-	> (10.b)  *Der Pr¨asident wurde immer schon durch die Stimmenmehrheit bestimmt.* "The <u>President</u>~GEN~ has always been elected by majority <u>vote</u>~1,NEW~."
+	> (10.b)  *Der Pr¨asident wurde immer schon durch die Stimmenmehrheit bestimmt.* "The <ins>President</ins>~GEN~ has always been elected by majority <ins>vote</ins>~1,NEW~."
 
 	Generics should not be annotated with a discourse referent index -- unless they are subsequently referred to:
 
-	> (10.a') *<u>Whales</u>~1,GEN~ are <u>mammals</u>~PRED~. <u>They</u>~1,OLD~ descend from land <u>animals</u>~GEN~.* 
+	> (10.a') *<ins>Whales</ins>~1,GEN~ are <ins>mammals</ins>~PRED~. <ins>They</ins>~1,OLD~ descend from land <ins>animals</ins>~GEN~.* 
 
 	This includes both nominal and pronominal markables. Generic pronouns such as *we*, *you*, *they* (in cases where they do not carry a specific reference), *someone*, *anyone*, *one*. Cf. German *man*.
 
@@ -202,7 +202,7 @@ In spreadsheet-based annotations, some of the values are automatically suggested
 
 5. `EXPL`: Non-referring expression: Expletive 	expressions (English *it*) and pronominal adverbs that are controllers of relative clauses
 
-	> (12.a) *<u>It</u> was raining.*
+	> (12.a) *<ins>It</ins> was raining.*
 
 	> (12.b) *\[ ~~~It~~~ \] was also considered certain that . . .* (English)
 	
@@ -218,7 +218,7 @@ In spreadsheet-based annotations, some of the values are automatically suggested
 
 7. `IDIOM`: Non-referring expression: apparent referring expressions (e.g., definite NPs) in fixed, conventionalized idioms and corresponding collocations:
 
-	> (14.a) *jemandem auf die <u>Nerven</u> gehen* (German, "to annoy someone")
+	> (14.a) *jemandem auf die <ins>Nerven</ins> gehen* (German, "to annoy someone")
 	
 	> (14.b) *Er brachte mich auf \[die Palme\]~NM~* (German)
 	
@@ -236,13 +236,13 @@ In spreadsheet-based annotations, some of the values are automatically suggested
 
 ### 4.4 Example
 
-> (16.a) *\[Die einstige <u>Fußball-Weltmacht</u>\]~1,CAT~ zittert \[vor einem <u>Winzling</u>\]~2,CAT,AMBIG(2,6)~.*
+> (16.a) *\[Die einstige <ins>Fußball-Weltmacht</ins>\]~1,CAT~ zittert \[vor einem <ins>Winzling</ins>\]~2,CAT,AMBIG(2,6)~.*
 >      "\[The former football World Power\]~d~ is shivering \[in the face of a mite\]~s~."
 	
-> (16.b) *Mit <u>seinem</u>~3,BOUND~ <u>Tor</u>~4,NEW~ zum <u>1:0</u>~5,NEW~ für die <u>Ukraine</u>~6,NEW~ stürzte der 1,62 Meter große \[<u>Gennadi</u> Subow\]~2,NEW~ die deutsche <u>Nationalelf</u>~1,NEW~ vorübergehend in ein <u>Trauma</u>~7,NEW~.*
+> (16.b) *Mit <ins>seinem</ins>~3,BOUND~ <ins>Tor</ins>~4,NEW~ zum <ins>1:0</ins>~5,NEW~ für die <ins>Ukraine</ins>~6,NEW~ stürzte der 1,62 Meter große \[<ins>Gennadi</ins> Subow\]~2,NEW~ die deutsche <ins>Nationalelf</ins>~1,NEW~ vorübergehend in ein <ins>Trauma</ins>~7,NEW~.*
 >       "By \[his\]~s~ goal that set the score to 1:0 \[for Ukraine\]~u~ pitched \[Gennadi Subow\]~s~, 1.62 Meter tall, \[the German National Eleven\]~d~ in a shock for a while..."
 	
-> (16.c) *Je kleiner die <u>Kicker</u>~2,OLD,AMBIG:COREF(2,1)~ daherkommen, desto größer wird der <u>Gegner</u>~1,OLD,AMBIG:COREF(1,2)~ geredet\...* (German, maz-10374)
+> (16.c) *Je kleiner die <ins>Kicker</ins>~2,OLD,AMBIG:COREF(2,1)~ daherkommen, desto größer wird der <ins>Gegner</ins>~1,OLD,AMBIG:COREF(1,2)~ geredet\...* (German, maz-10374)
 >       "The smaller the kickers appear, the greater \[the rivals\]~d?/u?~ are rumoured to be." (PCC, 10374)
 
 Note that here, the antecedent of die Kicker "kickers" depends on the understanding of the "size" metaphor, it can be either the Ukrainian team (presented as having short players), or the German team (which has not been favored in the first match), or a generic description (which would mean that the sentence is not directly linked with the discourse).
@@ -280,9 +280,9 @@ Depending on context, some words can be either referring expressions or not. Thi
 
 A notorious problem in German is the annotation of pronominal adverbs such as *damit* (in the sense "so that", not in the sense "with it"), if they act as a connector: 
 
-> (19.a) *\[Auf dem <u>Tisch</u>\]~PM~ liegt \[eine <u>Kneifzange</u>\]~SM~. \[<u>Damit</u>\]~PM~ kann man viel anfangen.* (German, referential *damit* "with it")
+> (19.a) *\[Auf dem <ins>Tisch</ins>\]~PM~ liegt \[eine <ins>Kneifzange</ins>\]~SM~. \[<ins>Damit</ins>\]~PM~ kann man viel anfangen.* (German, referential *damit* "with it")
 
-> (19.b) *\[<u>Ich</u>\]~PM~ habe \[<u>dir</u>\]~PM~ \[den <u>Brief</u>\]~PM~ gezeigt, damit \[<u>du</u>\]~PM~ bescheid weißt.* (German, non-referential *damit" "so that")
+> (19.b) *\[<ins>Ich</ins>\]~PM~ habe \[<ins>dir</ins>\]~PM~ \[den <ins>Brief</ins>\]~PM~ gezeigt, damit \[<ins>du</ins>\]~PM~ bescheid weißt.* (German, non-referential *damit" "so that")
 
 ### 4.5.4 Relative Possessive Pronouns
 

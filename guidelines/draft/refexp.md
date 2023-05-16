@@ -42,9 +42,9 @@ Candidate antecedents may also be outside this set, and will not be automaticall
 
 We only annotate the syntactic heads of markables according to the Universal Depenency syntax. Thus, markables must never overlap:
 
-> (1.a) English: *\[<u>Hans</u> -- who always had \[a soft <u>spot</u>\] \[for <u>Susanne</u>\]  -- \]  was also there.*
+> (1.a) English: *\[<ins>Hans</ins> -- who always had \[a soft <ins>spot</ins>\] \[for <ins>Susanne</ins>\]  -- \]  was also there.*
 
-> (1.b) German: *\[<u>Hans</u> -- der immer schon \[eine <u>Schwäche</u>\] \[für <u>Susanne</u>\] hatte -- \] war auch da.*
+> (1.b) German: *\[<ins>Hans</ins> -- der immer schon \[eine <ins>Schwäche</ins>\] \[für <ins>Susanne</ins>\] hatte -- \] war auch da.*
 
 This also entails that referring expressions can *only* be annotated if they are identified as independent words by the word segmentation procedure adopted for that particular language. In (1.c), *Denver* and *bancruptcy* can only be identified as markables if they are (automatically annotated as) independent tokens.
 
@@ -52,13 +52,13 @@ This also entails that referring expressions can *only* be annotated if they are
 
 When converting head-based annotation to span-based annotation in downstream tasks, we assume that all dependents of a syntactic head are to be included in the markable:
 
-> (2.a) *\[This <u>right</u>\]~right~ may not be invoked \[in the case of <u>prosecutions</u> arising from acts contrary \[to the <u>purposes</u> \[of the United <u>Nations</u>\]UN\]purp\]prosec.* ([www.unhchr.ch/udhr](http://www.unhchr.ch/udhr), shortened)
+> (2.a) *\[This <ins>right</ins>\]~right~ may not be invoked \[in the case of <ins>prosecutions</ins> arising from acts contrary \[to the <ins>purposes</ins> \[of the United <ins>Nations</ins>\]UN\]purp\]prosec.* ([www.unhchr.ch/udhr](http://www.unhchr.ch/udhr), shortened)
 
-> (2.b) *\[Dieses <u>Recht</u>\]~right~ kann nicht in Anspruch genommen werden \[im Falle einer <u>Strafverfolgung</u> auf Grund von Handlungen, die \[gegen die <u>Ziele</u> \[der Vereinten <u>Nationen</u>\]~UN~\]~purp~ verstoßen\]~prosec~.* (German, [www.unhchr.ch/udhr](http://www.unhchr.ch/udhr), shortened)
+> (2.b) *\[Dieses <ins>Recht</ins>\]~right~ kann nicht in Anspruch genommen werden \[im Falle einer <ins>Strafverfolgung</ins> auf Grund von Handlungen, die \[gegen die <ins>Ziele</ins> \[der Vereinten <ins>Nationen</ins>\]~UN~\]~purp~ verstoßen\]~prosec~.* (German, [www.unhchr.ch/udhr](http://www.unhchr.ch/udhr), shortened)
 
-> (2.c) *\[Это <u>право</u>\]~right~ не может быть использовано \[в случае
-<u>преследования</u>, основанного на совершении деяния, противоречащего
-\[<u>целям</u> \[Организации Объединенных <u>Наций</u>\]~UN~\]~purp~\]~prosec~.*
+> (2.c) *\[Это <ins>право</ins>\]~right~ не может быть использовано \[в случае
+<ins>преследования</ins>, основанного на совершении деяния, противоречащего
+\[<ins>целям</ins> \[Организации Объединенных <ins>Наций</ins>\]~UN~\]~purp~\]~prosec~.*
 (Russian, [www.unhchr.ch/udhr](http://www.unhchr.ch/udhr), shortened)
 
 ## 3.3 Primary Markables (`REF_AUTO`=`?OLD`)
@@ -117,7 +117,7 @@ A description (NP or PP) is definite if it contains the determiner *both*, a dem
 
 #### 3.3.2.1 With Demonstrative Determiner (`NP_TYPE`=`def-np.dem`)
 
-> (4) *\[that <u>pizza</u>\]*, *\[this <u>pizza</u>\]*
+> (4) *\[that <ins>pizza</ins>\]*, *\[this <ins>pizza</ins>\]*
 
 Demonstrative NPs involve optional differences with respect to their relative proximity, with optional subtypes
 
@@ -128,17 +128,17 @@ Demonstrative NPs involve optional differences with respect to their relative pr
 
 Constructions with possessive pronouns.
 
-> (5) *\[his <u>pizza</u>\]*
+> (5) *\[his <ins>pizza</ins>\]*
 
 Also includes potentially genitive or possessive modifier, if these are (potentially) anaphoric
 
-> (6.a) *\[John\'s <u>pizza</u>\]*
+> (6.a) *\[John\'s <ins>pizza</ins>\]*
 
-> (6.b) *\[the <u>pizza</u> of John\]*
+> (6.b) *\[the <ins>pizza</ins> of John\]*
 
-> (6.c) *\[the other man's <u>pizza</u>\]*
+> (6.c) *\[the other man's <ins>pizza</ins>\]*
 
-> (6.d) *\[this man's <u>pizza</u>\]*
+> (6.d) *\[this man's <ins>pizza</ins>\]*
 
 **but not**: *\[a man's pizza\]*
 
@@ -152,8 +152,8 @@ Definite NPs containing adjectives like *other*
 
 At the moment, this includes cases where a quantifier is combined with a definite article (`the two men`) or with determiner \'both\'
 
-> (8.a) *\[the two <u>pizzas</u>\]*
-> (8.b) *\[both <u>pizzas</u>\]*
+> (8.a) *\[the two <ins>pizzas</ins>\]*
+> (8.b) *\[both <ins>pizzas</ins>\]*
 
 But not: *two pizzas*. As for constructions like *two of these pizzas*, this is formally a possessive construction.
 
@@ -163,7 +163,7 @@ But not: *two pizzas*. As for constructions like *two of these pizzas*, this is 
 
 Any NP with a definite article not covered by any aforementioned def-np category
 
-> (7) *\[the <u>pizza</u>\]*
+> (7) *\[the <ins>pizza</ins>\]*
 
 ### 3.3.3  Proper Names and Titles (`NP_TYPE`=`ne`)
 
@@ -172,37 +172,37 @@ Typical instances of proper names are geographic places
 Stanley & Co.*), newspaper titles (*The New York Times*), political, social or financial institution names (*Congress, European Investment
 Bank* ). Proper names can include noun modifiers or be heads of a definite or indefinite description. In this case, the whole description has to be marked up, not just the head.
 
-> (8.a)  *\[Bertolt <u>Brecht</u>\]* (full name)
+> (8.a)  *\[Bertolt <ins>Brecht</ins>\]* (full name)
 
-> (8.b)  *\[Bert <u>Brecht</u>\]* (reduced full name)
+> (8.b)  *\[Bert <ins>Brecht</ins>\]* (reduced full name)
 
-> (8.c)  *<u>Brecht</u>* (surname)
+> (8.c)  *<ins>Brecht</ins>* (surname)
 	
-> (8.d) 	*<u>Bertolt</u>* (first name)
+> (8.d) 	*<ins>Bertolt</ins>* (first name)
 	
-> (8.e) 	*<u>Bert</u>* (nickname)
+> (8.e) 	*<ins>Bert</ins>* (nickname)
 
-> (8.f)   *<u>BB</u>* (abbreviation)
+> (8.f)   *<ins>BB</ins>* (abbreviation)
 
-> (8.g)   *the well-known <U>Brecht</u>* (name, modified by a definite description)
+> (8.g)   *the well-known <U>Brecht</ins>* (name, modified by a definite description)
 
-> (8.h) *<u>Brecht</u>, who is author of the "Dreigroschenoper"* (proper name + clause)
+> (8.h) *<ins>Brecht</ins>, who is author of the "Dreigroschenoper"* (proper name + clause)
 
-> (8.i) *<u>Brecht</u>, author of the "Dreigroschenoper"* (proper name + apposition)
+> (8.i) *<ins>Brecht</ins>, author of the "Dreigroschenoper"* (proper name + apposition)
 
 Complex proper names are only treated as a single markable and are not further divided. If the internal dependency structure is transparent, annotate the syntactic head. For names composed of given and family names, we consider the name of the individual to be head, and the name of the family as modifier. If the structure of a name is not transparent to a common speaker of the language, annotate the first word that is not clearly recognizable as a modifier.
  
-> (9.a) \[Dr. <u>Mueller</u>\]
+> (9.a) \[Dr. <ins>Mueller</ins>\]
 
-> (9.b) \[Dr. <u>Martin</u> Luther King, Jr.\]
+> (9.b) \[Dr. <ins>Martin</ins> Luther King, Jr.\]
 
-> (9.c) \[Prince <u>Dipangkorn</u> Rasmijoti Sirivibulyarajakumar of Thailand\]
+> (9.c) \[Prince <ins>Dipangkorn</ins> Rasmijoti Sirivibulyarajakumar of Thailand\]
 
-> (9.d) \[Heidelberger <u>Druckmaschinen</u> Vertrieb Deutschland GmbH\]
+> (9.d) \[Heidelberger <ins>Druckmaschinen</ins> Vertrieb Deutschland GmbH\]
 
 Standalone titles that can stand in for an individual (*Mr./Ms./Dr./President/Chairman*) are treated like proper names, e.g., 
 
-> (10) *Schröder~1~\...Fischer~2~ \... Die anfängliche Überreaktion von <u>Kanzler</u>~1~ und <u>Außenminister</u>~2~\...*
+> (10) *Schröder~1~\...Fischer~2~ \... Die anfängliche Überreaktion von <ins>Kanzler</ins>~1~ und <ins>Außenminister</ins>~2~\...*
 
 In (10), *Kanzler* and *Außenminister* have to be annotated as primary markables, because proper names are inherently definite
 
@@ -221,9 +221,9 @@ Common types of secondary marakbles include: indefinite NPs and indefinite or no
 
 Annotate the secondary markable only if you are certain about the reference. If another reading is equally possible or feels more likely, do not annotate the secondary markable. (Add a comment about your uncertainty.)
 
-> (12.c) *I saw \[a <u>cat</u>\] tonight in the street. <u>It(= the cat)</u> was gray.*
+> (12.c) *I saw \[a <ins>cat</ins>\] tonight in the street. <ins>It(= the cat)</ins> was gray.*
 
-**but not**: *I saw a cat tonight in the street. <u>It(= the night/expletive?)</u> was pitch black.*
+**but not**: *I saw a cat tonight in the street. <ins>It(= the night/expletive?)</ins> was pitch black.*
 
 
 ### 3.4.1 Indefinite NPs (`NP_TYPE`=`indef-np`)
@@ -232,9 +232,9 @@ With optional sub-types:
 
 - `NP_TYPE=indef-np.a`: NP with an indefinite article (if subsequently referred to), e.g., *a fox*:
 	
-	> (12.a) *There is a \[a <u>fox</u>\] running across the street. <u>It</u>'s fast!.*
+	> (12.a) *There is a \[a <ins>fox</ins>\] running across the street. <ins>It</ins>'s fast!.*
 	
-	> (12.b) *I last saw \[a <u>fox</u>\] about three years ago! <u>It</u> came from the forest.*
+	> (12.b) *I last saw \[a <ins>fox</ins>\] about three years ago! <ins>It</ins> came from the forest.*
 
 	Also includes indefinites with other, e.g. *another man* 
 
@@ -317,7 +317,7 @@ Descriptions with a genitive attribution are regarded as possessive iff. a defin
 
 Possessive NPs with indefinite possessor (16.c) are secondary markables. However, possessives with proper names should generally be considered as primary markables.
 
-> (16.d)   *in US <u>efforts</u>*
+> (16.d)   *in US <ins>efforts</ins>*
 
 This is a primary markable because there is a reading, where the phrase could be replaced with *in the US efforts*.
 
@@ -326,7 +326,7 @@ This is a primary markable because there is a reading, where the phrase could be
 Appositions are treated like predications. That is, they serve neither as antecedents nor anaphors. So, in the following example, *chairman* in *chairman of
 Petrie Stores Corp.* should not be annotated!
 
-> (17) *\[Milton <u>Petrie</u>, chairman \[of Petrie Stores Corp.\] said\...*
+> (17) *\[Milton <ins>Petrie</ins>, chairman \[of Petrie Stores Corp.\] said\...*
 
 ### 3.6.6 Stranded Quantifiers
 
