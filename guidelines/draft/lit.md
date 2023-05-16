@@ -1,4 +1,6 @@
-# Notes
+# A. Supplemental
+
+# A.1 Notes
 
 1. [Background and Terminology](terms.md)
 
@@ -30,10 +32,14 @@
 	- <a name="coref6">6</a>: Bound pronouns were part of the PoCoS extended scheme, not the core scheme (Chiarcos and Krasavina 2005)
 	- <a name="coref7">7</a>: Abbreviated `ambig-ante` in Chiarcos and Krasavina (2005)
 
+5. [Information status](information-status.md)
 
-use <sup>[1](lit.md#terms1)</sup>
+6. [Topic](topic.md)
 
-# Sources
+	- <a name="topic1">1</a>: Following Grosz et al. (1995), Centering Theory was extended and parameterized. The definitions given above represent *one* specific interpretation of Grosz et al.'s criteria designed to facilitate unambiguous annotation. Other interpretations are possible.
+	- <a name="topic2">2</a>: The salience ranking has been extended to include dependent clauses and word order, following Gernsbacher (2013). Furthermore, the Centering category "OTHER" is split into "OBLIQUE ARGUMENT" and "CLAUSE". Unlike the original formulation of Centering, the Givenness Hierarchy supports event anaphora.
+
+## A.2 Sources
 
  The current manual has been compiled by Christian Chiarcos, University of Augsburg, in spring 2023. See [accompanying readme](Readme.md) for authors, contributors and revision history.
 
@@ -50,7 +56,7 @@ Section 5 is based on Gundel et al.'s Coding Protocol for Statuses on the Givenn
 
 Sections 2 and 6 have been written from scratch for this manual by Christian Chiarcos, Spring 2023.
 
-# Literature References (incomplete)
+## A.3 Literature References (Selection)
 
 Biber, Douglas et al.. *Longman Grammar of Spoken and Written
 English*. Longman, 1999.
