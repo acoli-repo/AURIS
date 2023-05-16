@@ -19,11 +19,11 @@ Primary markables are *always* subject to annotation. Secondary markables are on
 
 More specifically,
 
--   **primary markables** (pre-annotated for `REF_AUTO` as `?OLD`, and for `NP_FORM`) are candidate anaphors, i.e., noun phrases whose grammatical features suggest that their discourse referent is or could be identifiable by the hearer.<sup>[1](lit.md#refexp1)</sup> For German and English, these are definite NPs and pronouns. For languages without grammatical marking of definiteness, these are all nominals and pronouns.
+-   **primary markables** (PM, pre-annotated for `REF_AUTO` as `?OLD`, and for `NP_FORM`) are candidate anaphors, i.e., noun phrases whose grammatical features suggest that their discourse referent is or could be identifiable by the hearer.<sup>[1](lit.md#refexp1)</sup> For German and English, these are definite NPs and pronouns. For languages without grammatical marking of definiteness, these are all nominals and pronouns.
 
 	Primary markables are automatically extracted. The task of annotation is to assign every primary markable either an antecedent or a flag that marks them as new or non-referential.
 
--   **secondary markables** (pre-annotated for `NP_FORM`, but not `REF_AUTO`) are antecedents for anaphoric expressions which have not been detected as primary markable.
+-   **secondary markables** (SM, pre-annotated for `NP_FORM`, but not `REF_AUTO`) are antecedents for anaphoric expressions which have not been detected as primary markable.
 
 	Typical secondary markables are  indefinite expressions (NP with indefinite article, *a dog*) or without article (*good weather*). 
 
@@ -246,6 +246,11 @@ With optional sub-types:
 
     > (14.c) *\[thirty grams\]*, *\[two companies\]* (quantified indefinite NP)
 
+	Borderline case: indefinite NPs with an article that is identical (or at least derived from) the cardinal number *one* should be considered as quantified iff. a corresponding set of individuals has been previously evoked and the membership relation marked as being relevant.
+
+	For English, the latter condition should hold for *one*, but not for
+	*an, a*, for German, the membership relation should be regarded as being prominent if a substitution of the indefinite article *ein, eine* by colloquial *'n, 'ne* appears to be unlikely.
+
 - `NP_TYPE=indef-np.bare`: articleless NP, especially \"bare plurals\", but also singular expressions.
 
     > (14.a) *I have eaten \[cookies\]SM* (bare plural)
@@ -399,7 +404,7 @@ Non-referring markables are to be *manually* given the appropriate referentialit
 
 Primary markables in idioms and collocations, if identifiable in automated pre-annotation.
 
-> (23) *It sent Kate into the pits when she learned from her "friend" Martha, who seemed to get off on laying bad trips on people, that Harvey was getting it on with Carol.* \[Gib94, p.265\]
+> (28) *It sent Kate into the pits when she learned from her "friend" Martha, who seemed to get off on laying bad trips on people, that Harvey was getting it on with Carol.* \[Gib94, p.265\]
 
 According to Gibbs, we find several idiomatic phrases in this example, some of which contain pronouns or full NPs -- potential primary markables.
 
@@ -445,26 +450,6 @@ The following features of the original PoCoS scheme are currently not annotated:
 	- `no`
 
 - column/feature `SEMANTIC_ROLE`: ag, ben/dat, pat, loc, instr, other, unspec
-- column/feature `quantification`: 
-
-	- quant-np description involving a quantification 
-		> (67.a) *most of them*	(quantified pronoun) 
-		> (67.b) *many of the workers* (quantified NP)
-
-	- num-np description involving cardinal numbers^10^
-
-		> (68.a) *two dogs* (numeral + indefinite or definite NP) (68.b) *the two dogs* (numeral + definite NP)
-
-		> (68.c) *two of them* (numeral + pronoun)
-
-		> (68.d) *both (of them)* (two-dimensional group-referring pronoun)
-
-	- no-quant neither quant-np nor num-np unspec no value set
-
-	Borderline case: indefinite NPs with an article that is identical (or at least derived from) the cardinal number *one* should be considered as quantified iff. a corresponding set of individuals has been previously evoked and the membership relation marked as being relevant.
-
-	For English, the latter condition should hold for *one*, but not for
-	*an, a*, for German, the membership relation should be regarded as being prominent if a substitution of the indefinite article *ein, eine* by colloquial *'n, 'ne* appears to be unlikely.
 
 - `ANIMACY`: 
 	- animate i.e. lexical animacy, with the following sub-types
