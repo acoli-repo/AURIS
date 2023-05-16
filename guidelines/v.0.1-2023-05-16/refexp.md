@@ -42,7 +42,7 @@ Candidate antecedents may also be outside this set, and will not be automaticall
 
 We only annotate the syntactic heads of markables according to the Universal Depenency syntax. Thus, markables must never overlap:
 
-> (1.a) English: *\[<u>Hans</u> -- who always had \[a soft <u>spot</u>\] \[for <u>Susanne</u>\]  -- \]  was also there.*
+> (1.a) English: *\[<ins>Hans</ins> -- who always had \[a soft <u>spot</u>\] \[for <u>Susanne</u>\]  -- \]  was also there.*
 
 > (1.b) German: *\[<u>Hans</u> -- der immer schon \[eine <u>Schwäche</u>\] \[für <u>Susanne</u>\] hatte -- \] war auch da.*
 
