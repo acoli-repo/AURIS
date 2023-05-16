@@ -1,17 +1,16 @@
 # 1. Background and Terminology
 
-A coherent, meaningful text can be characterized by three conditions, (semantic) consistency, (pragmatic) relevance, and cohesion (or, "connectedness"). In this manual, we focus on the annotation and subsequent analysis of the latter condition, i.e., we aim to elucidate **cohesion**, or connectedness, i.e., how
+A coherent, meaningful text can be characterized by three conditions, (semantic) consistency, (pragmatic) relevance, and cohesion (or, "connectedness"). In this manual, we focus on the annotation and subsequent analysis of the latter condition, i.e., we aim to elucidate **cohesion**, or connectedness, i.e., how each sentence is linked to an adjacent sentence in the text by means of
 
-- each sentence is linked to an adjacent sentence in the text by means of
-	1. anaphoric (referring) expressions,
-	2. a linguistic marker for the introduction of a new topic, or
-	3. a semantic sentence connector ("cues").
+1. anaphoric (referring) expressions,
+2. a linguistic marker for the introduction of a new topic, or
+3. a semantic sentence connector ("cues").
 
 This definition (loosely following Reinhart 1980, p.168) involves three types of analysis, i.e., 
 
-	1. the annotation of (co-)reference (what are referring expressions in the text, which entities do they refer to), 
-	2. the annotation of topichood (what is the entity the current sentence is about), and
-	3. shallow discourse annotation (what are the discourse markers used, which relations do they indicate, and which utterances do they refer to)
+1. the annotation of (co-)reference (what are referring expressions in the text, which entities do they refer to), 
+2. the annotation of topichood (what is the entity the current sentence is about), and
+3. shallow discourse annotation (what are the discourse markers used, which relations do they indicate, and which utterances do they refer to)
 
 We further limit ourselves on the first and second aspect, i.e., referring expressions and the annotation of topic continuity. Shallow discourse annotation is to be done independently, e.g., according to the schema of the Penn Discourse Treebank (Webber et al. 2019).
 
@@ -51,11 +50,9 @@ Markables<sup>[1](lit.md#terms1)</sup> represent spans in a text that carry one 
 
 If markables they are in a coreference relation, they are given an index that indicates the referent they refer to. Coreference annotation thus consists of assignment of discourse referents to markables, represented by identifiers (mnemnonics, indixes, tags) in the `COREF` column. All corerent markables should carry the same `COREF` index.
 
-> Notes: 
-> 
-> 1. In practical annotation, annotators should not use numbers, but a meaningful, short and unambiguous abbreviation of their own choice. 
->
-> 2. As annotation is conducted here with spreadsheet software, annotators are encouraged to use the auto-complete function that such software provides. This is most effective if indexes start with different letters.
+> Note: In practical annotation, annotators should not use numbers, but a meaningful, short and unambiguous abbreviation of their own choice. 
+
+> Note: As annotation is conducted here with spreadsheet software, annotators are encouraged to use the auto-complete function that such software provides. This is most effective if indexes start with different letters.
 
 We call the series of mentions of the same referent one *referential chain*. As result of the annotation, all elements of a referential chain must carry the same index.
 

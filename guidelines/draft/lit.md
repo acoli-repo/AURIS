@@ -1,7 +1,5 @@
 # Notes
 
-use <sup>[1](lit.md#terms1)</sup>
-
 - [1. Background and Terminology](terms.md)
 
 	- <a name="terms1">1</a>: In the original PoCoS/PCC guidelines, markables were defined as phrasal expressions. Here, we annotate syntactic heads, instead.
@@ -10,15 +8,27 @@ use <sup>[1](lit.md#terms1)</sup>
 
 - [2. File Format ands Editing](format.md)
 
-	- 
+- [3. Automated Pre-Annotation of Markables](refexp.md)
 
+	- <a name="refexp1">1</a>: The definition of primary markables follows Krasavina and Chiarcos (2007). Chiarcos et al. (2016) singled out non-referential markables  from primary markables as they do not rely on automated pre-annotation.
 
+	- <a name="refexp2">2</a>: From UD annotation, we cannot extract times and dates reliably. So, these receive no special handling as primary markables (different from Stede et al. 2015).
+
+	- <a name="refexp3">3</a>: Chiarcos and Krasavina (2005) also include zero (pro-drop) pronouns under pronouns. Here, we follow token-based annotation, so that zeros should not be annotated.
+
+		> (43) *John~j~ stepped in the kitchen,* Ø*~j~ opened the fridge and* Ø*~j~ decided NO-ZERO to take a pizza.*
+
+		Here, that John is the (implicit) subject of the clause *to take a pizza*. However, this is not an instance of ∅-pronoun, since the insertion of *John* (no matter at which position within the phrase) would make the utterance ungrammatical. If not sure whether to annotate a ZERO or not, try to insert a full description of the corresponding referent. Note that zeros have to be sentential arguments, no adjuncts.
+
+	
+
+use <sup>[1](lit.md#terms1)</sup>
 
 # Sources
 
  The current manual has been compiled by Christian Chiarcos, University of Augsburg, in spring 2023. See [accompanying readme](Readme.md) for authors, contributors and revision history.
 
-As far as referring expressions and coreference are concerned, this manual is based on
+Sections 3 and 4 and parts of Sect. 1 are based on
 
 - Christian Chiarcos, Manfred Stede, Saskia Warzecha (2019), Nominale referentielle Ausdrücke, In: Stede, M. (Ed.). (2016). Handbuch Textannotation: Potsdamer Kommentarkorpus 2.0 (Vol. 8). Universitätsverlag Potsdam, p.55-70
 - Christian Chiarcos, Manfred Stede, Saskia Warzecha (2019), Nominale Koreferenz, In: Stede, M. (Ed.). (2016). Handbuch Textannotation: Potsdamer Kommentarkorpus 2.0 (Vol. 8). Universitätsverlag Potsdam, p.71-85
@@ -27,9 +37,9 @@ As far as referring expressions and coreference are concerned, this manual is ba
 
 Whenever we draw from these texts, this is not specifically marked. These texts and the current manual represent different developmental stages and instantiations of the PoCoS core scheme (Chiarcos and Krasavina 2005),
 
-The section on the Givenness Hierarchy is taken from Gundel et al.'s Coding Protocol for Statuses on the Givenness Hierarchy (2006, http://www.sfu.ca/~hedberg/Coding_for_Cognitive_Status.pdf, accessed 2023-04-16). Except for editorial updates, this document is largely unchanged. Changes are not explicitly marked, but are documented in Git history.
+Section 5 is based on Gundel et al.'s Coding Protocol for Statuses on the Givenness Hierarchy (2006, http://www.sfu.ca/~hedberg/Coding_for_Cognitive_Status.pdf, accessed 2023-04-16). Except for editorial updates, this document is largely unchanged. Changes are not explicitly marked, but are documented in Git history.
 
-The section on the annotation of the backward-looking center has been written from scratch for this manual by Christian Chiarcos, Spring 2023.
+Sections 2 and 6 have been written from scratch for this manual by Christian Chiarcos, Spring 2023.
 
 # Literature References (incomplete)
 
