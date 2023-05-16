@@ -3,6 +3,7 @@ all:
 		#Readme.md terms.md format.md refexp.md coreference.md information-status.md; do \
 		cat $$file; \
 		echo;\
+		echo;\
 	done > all.md;
 	( echo '# Table of Contents'; \
 	cat all.md | egrep '^#' | \

@@ -27,7 +27,7 @@ The raw files currently contain three columns:
 - `NP_FORM`: type of referring expression (noun phrase) 
 - `REF_AUTO`: predicted referentiality, i.e., `?OLD` or empty
 
-## 2.3 Import into spreadsheet software: Target files
+## 2.3 Import into Spreadsheet Software: Target Files
 
 We provide a **template file** in `*.xlsx` format that contains a number of formulas to automatize parts of the annotation. When starting with a new raw file, say, `xyz.conll` or `xyz.tsv`, make a copy of the template file and rename it such that it matches the name of the raw file, e.g., `xyz.xlsx`. We further refer to this file as your **target file**.
 
@@ -71,7 +71,7 @@ After copying the pre-annotated data into the target file, you need to copy the 
 | ---------------------------------------------- |
 | [!Screenshot from target file](img/target.png) |
 
-## Annotation procedure
+## 2.4 Annotation Procedure
 
 - Annotation with spreadsheet software has a different feeling to it than just reading a text. It is highly recommended that you also look at the original plain text file, at least for a first read, before you start with with the spreadsheet annotation. 
 - When doing annotation, ignore headlines. For doing so, just delete the content of the `NP_FORM` and `REF_AUTO` columns for lines you identified as headlines or other pieces of metadata ("boilerplate"). For `ted-mdb.1927`, for example, this includes the following "sentences":
@@ -85,7 +85,7 @@ After copying the pre-annotated data into the target file, you need to copy the 
 - Annotate from top to bottom, just as you read. You can use the `REF_AUTO` column for quickly jumping to the next primary markable with `<CTRL>+<DOWN>`. You can go back to the last with `<CTRL>+<UP>`.
 - Alternatively, you can also go to the next referring expressing with the `NP_FORM` column.
 
-### `COREF`: coreference
+### 2.4.1 `COREF`: Coreference
 
 - The first requirement of the task is to assign every primary markable (`?OLD`) an ID in the `COREF` column. Every discourse referent should correspond to exactly one ID, and all co-referring expressions receive the same ID.
 - If a secondary markable (annotated for `NP_FORM`, but not for `REF_AUTO`) serves as antecedent for an anaphor with `COREF` ID *x*, give it the same `COREF` ID.
@@ -102,7 +102,7 @@ After copying the pre-annotated data into the target file, you need to copy the 
 - If you encounter a non-referring `?OLD` expression, delete its `REF_AUTO` annotation (i.e., `?OLD`), but tell us which kind of non-referring expression it is using `REF`, etc.
 - Use the `COMMENT` column to keep track of ambiguities or free-text comments.
 
-### `REF`: referentiality
+### 2.4.2 `REF`: Referentiality
 
 After annotating `COREF` for a referring expression, the `REF` column should contain the pre-annotation `OLD` or `NEW`. See the [section on coreference](coreference.md) for the meaning of these terms and other possible values. 
 
@@ -110,14 +110,14 @@ After annotating `COREF` for a referring expression, the `REF` column should con
 - If you had to delete an `?OLD` pre-annotation for the current line, please annotate `REF` manually.
 - Use the `COMMENT` column for comments on your annotation, e.g., to document problems.
 
-### `IS`: information status/givenness
+### 2.4.3 `IS`: Information Status
 
 After `COREF` and `REF` annotation, you will see pre-annotations for the `IS` column. These implement a *simplified and **incomplete** subset* of the constraints in the [corresponding section](information-status.md) that is to be manually confirmed or revised.
 
 - Please verify or revise the pre-annotation. If it is not altered, we consider it to be approved.
 - Note that the manual requires to check the applicability of annotations in a particular order. Please follow that approach here. Do **not** start with confirming the automatically pre-annotated information status, but follow the order of statuses in the manual.
 
-### `CB`: backward-looking center
+### 2.4.4 `CB`: Backward-Looking Center
 
 After `COREF` annotation, you will see pre-annotations for the `IS` column. These implement a *simplified and **incomplete** subset* of the constraints in the [corresponding section](information-status.md) that is to be manually confirmed or revised.
 
@@ -125,9 +125,9 @@ After `COREF` annotation, you will see pre-annotations for the `IS` column. Thes
 - Make sure that there is at most one `CB` per sentence and that all automated annotations with question marks (indicating possible `CB` candidates) are removed.
 - By automated annotation, all referring expressions with antecedents in the last sentence are marked as `CB` candidates (with question marks). Make sure to remove incorrect candidates as part of your annotation.
 
-### `COMMENT`: comments, and annotation protocol
+### 2.4.5 `COMMENT` and Annotation Protocol
 
-Can contain free text comments or specialized tags (e.g., for ambiguity). If you want to add more than one comment, separate them by a pipe (`|`).
+The `COMMENT` column can contain free text comments or specialized tags (e.g., for ambiguity). If you want to add more than one comment, separate them by a pipe (`|`).
 
 In addition, please create an annotation protocol as an independent document to be shared along with your file. For the target file "xyz.xslx", that should be named "xyz.log" or "xyz.log.txt". Open and edit with a text editor.
 
@@ -137,6 +137,6 @@ In addition to that, you can (and should) use the annotation protocol to keep tr
 
 The annotation protocol should be saved in the same folder as the target file, and (except for the file extension), it should carry the same name.
 
-### On Evaluation
+### 2.4.6 On Evaluation
 
 As we rely to some extent on automated pre-annotation, we need to quantify the number of average revisions of pre-annotated values per file and annotator.
