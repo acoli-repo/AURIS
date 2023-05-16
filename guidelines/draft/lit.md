@@ -1,14 +1,14 @@
 # Notes
 
-- [1. Background and Terminology](terms.md)
+1. [Background and Terminology](terms.md)
 
 	- <a name="terms1">1</a>: In the original PoCoS/PCC guidelines, markables were defined as phrasal expressions. Here, we annotate syntactic heads, instead.
 
 	- <a name="terms2">2</a>: The head-based annotation adopted in these guidelines is an innovation to facilitate interoperability with Universal Dependency annotations. Krasavina and Chiarcos (2007) and Chiarcos et al. (2016) focused on the annotation of phrases, instead.
 
-- [2. File Format ands Editing](format.md)
+2. [File Format ands Editing](format.md)
 
-- [3. Automated Pre-Annotation of Markables](refexp.md)
+3. [Automated Pre-Annotation of Markables](refexp.md)
 
 	- <a name="refexp1">1</a>: The definition of primary markables follows Krasavina and Chiarcos (2007). Chiarcos et al. (2016) singled out non-referential markables  from primary markables as they do not rely on automated pre-annotation.
 
@@ -20,7 +20,16 @@
 
 		Here, that John is the (implicit) subject of the clause *to take a pizza*. However, this is not an instance of ∅-pronoun, since the insertion of *John* (no matter at which position within the phrase) would make the utterance ungrammatical. If not sure whether to annotate a ZERO or not, try to insert a full description of the corresponding referent. Note that zeros have to be sentential arguments, no adjuncts.
 
-	
+4. [Nominal coreference](coreference.md)
+
+	- <a name="coref1">1</a>: Our annotation of anaphora as coreference differs from Chiarcos et al. (2016) who annotated anaphoric relations between anaphors and their antecedents, instead. Note that this means that we do not distinguish anaphoric (pronominal) and non-anaphoric (nominal) coreference, here.
+	- <a name="coref2">2</a>: `REF=OLD` corresponds to "discourse old" according to Prince (1992). Originally abbreviated as `referring` (Chiarcos and Krasavina 2005).
+	- <a name="coref3">3</a>: `REF=NEW` corresponds to "discourse new" according to Prince (1992). Originally abbreviated as `discourse-new` (Chiarcos and Krasavina 2005).
+	- <a name="coref4">4</a>: `REF=CAT`, originally abbreviated as `discourse-cataphora` by Chiarcos and Krasavina (2005).
+	- <a name="coref5">5</a>: Groups and situational references were originally subsumed under `other` in the PoCoS core scheme (Chiarcos and Krasavina 2005)
+	- <a name="coref6">6</a>: Bound pronouns were part of the PoCoS extended scheme, not the core scheme (Chiarcos and Krasavina 2005)
+	- <a name="coref7">7</a>: Abbreviated `ambig-ante` in Chiarcos and Krasavina (2005)
+
 
 use <sup>[1](lit.md#terms1)</sup>
 
@@ -30,10 +39,10 @@ use <sup>[1](lit.md#terms1)</sup>
 
 Sections 3 and 4 and parts of Sect. 1 are based on
 
+- Christian Chiarcos and Olga Krasavina (2005), PoCoS. Potsdam Coreference Scheme, Tech. Rep., University of Potsdam, Germany
+- Olga Krasavina and Christian Chiarcos (2007), PoCoS. Potsdam Coreference Scheme, First Linguistic Annotation Workshop (LAW-2007), held in conjunction with ACL-2007, Prague, Czech Republic, June 2007
 - Christian Chiarcos, Manfred Stede, Saskia Warzecha (2019), Nominale referentielle Ausdrücke, In: Stede, M. (Ed.). (2016). Handbuch Textannotation: Potsdamer Kommentarkorpus 2.0 (Vol. 8). Universitätsverlag Potsdam, p.55-70
 - Christian Chiarcos, Manfred Stede, Saskia Warzecha (2019), Nominale Koreferenz, In: Stede, M. (Ed.). (2016). Handbuch Textannotation: Potsdamer Kommentarkorpus 2.0 (Vol. 8). Universitätsverlag Potsdam, p.71-85
-- Olga Krasavina and Christian Chiarcos (2007), PoCoS. Potsdam Coreference Scheme, First Linguistic Annotation Workshop (LAW-2007), held in conjunction with ACL-2007, Prague, Czech Republic, June 2007
-- Christian Chiarcos and Olga Krasavina (2005), PoCoS. Potsdam Coreference Scheme, Tech. Rep., University of Potsdam, Germany
 
 Whenever we draw from these texts, this is not specifically marked. These texts and the current manual represent different developmental stages and instantiations of the PoCoS core scheme (Chiarcos and Krasavina 2005),
 

@@ -18,6 +18,11 @@ The manual consists of five separate documents:
 - [coref.md](coreference.md): guidelines manual annotation of coreference and referentiality, originally by Chiarcos and Krasavina (2005)
 - [information-status.md](information-status.md): guidelines for the manual annotation of information status ("givenness"), originally by Gundel, Hedberg and Zacharski (1993)
 
+Supplementary material is provided in
+
+- [lit.md](lit.md): Sources, references, footnotes
+- [addenda.md](addenda.md): Material for future extensions
+
 This document is meant to be a practical handbook, compiled and revised from earlier manuals, with a focus on examples and common problems. In some design decisions, we deviate from our sources:
 
 - **referring expressions**: We skip the coreference annotation principles in order to provide a more minimal description. We introduced head-based annotation instead of phrase-based annotation. We skip the extended part of PoCoS. We extend the annotation to antecedents of event anaphora.

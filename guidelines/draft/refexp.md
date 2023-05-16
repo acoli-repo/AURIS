@@ -434,30 +434,3 @@ These rules are implemented in `sparql/gr.sparql`.
 
 > Note: TODO: update SPARQL script for new abbreviations
 
-## 3.8 Future extensions
-
-The following features of the original PoCoS scheme are currently not annotated:
-
-- column/feature `DIRECT_SPEECH`
-
-	- default (`_`): reference on the text level, i.e. reference NOT into or within the quoted material
-	- `DIR`: reference into or within direct speech
-	- `INDIR`: reference into or within indirect speech
-
-- column/feature `COMPLEX_NP`: A description is complex if it contains more than one noun phrase
-	- `_` (default)
-	- `yes`
-	- `no`
-
-- column/feature `SEMANTIC_ROLE`: ag, ben/dat, pat, loc, instr, other, unspec
-
-- `ANIMACY`: 
-	- animate i.e. lexical animacy, with the following sub-types
-	- human
-	- non-human
-	- inaminate i.e. lexical inanimacy or abstract
-	Note that abstract entities are always regarded as being inanimate.
-
-- semantic class: abstract, person, physical object, action/event, collective, other, unspec
-
-	Note that there exist subtle dependencies between semantic class and animacy. However, critical cases such as collectives (e.g. *a group of people* vs. *a group of hills*) and certain physical objects (e.g. *tree* vs. *stone*) could be either animate or inanimate. While semantic class has to do with the perception of an entity, animacy is primary a lexical feature. However, default values semantic class and animacy can be derived from WordNet resp. GermaNet for a majority of cases.
