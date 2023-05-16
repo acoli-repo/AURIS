@@ -48,7 +48,7 @@ For annotating coreference, use user-defined abbreviation/mnemnonic/tag that ind
 
 > Note: In this document, we use numerical indexes for presentational reasons. In annotation, create abbreviations/mnemnonics as you see fit. Numerical indices are discouraged in actual annotation. 
 
-## 4.3.1 Substitution Test
+### 4.3.1 Substitution Test
 
 A replacement test can be used to check whether a referential expression e belongs to a chain k: If it is true for every noun s (noun, proper noun) in k, that the replacement of e by s changes the interpretation of the text is not changed, then e belongs to chain k and a coreference relation to the last element of the chain is to be annotated.
 
@@ -144,7 +144,7 @@ The following tags can be used to mark ambiguous
 
 If more than one kind of ambiguity applies, e.g., both ambiguity of antecedent and ambiguity of an anaphoric relation, then provide all of the corresponding tags (and descriptions), separated by comma.
 
-## 4.3 Referentiality (`REF`)
+## 4.5 Referentiality (`REF`)
 
 Every markable that is not assigned an antecedent is to be annotated for referentiality. 
 
@@ -234,7 +234,7 @@ In spreadsheet-based annotations, some of the values are automatically suggested
 
 	> (15) *I didn\'t buy \[a new car\]<sub>NM</sub> after all.*
 
-### 4.4 Example
+## 4.6 Example
 
 > (16.a) *\[Die einstige <ins>Fußball-Weltmacht</ins>\]<sub>1,CAT</sub> zittert \[vor einem <ins>Winzling</ins>\]<sub>2,CAT,AMBIG(2,6)</sub>.*
 >      "\[The former football World Power\]<sub>d</sub> is shivering \[in the face of a mite\]<sub>s</sub>."
@@ -247,9 +247,9 @@ In spreadsheet-based annotations, some of the values are automatically suggested
 
 Note that here, the antecedent of die Kicker "kickers" depends on the understanding of the "size" metaphor, it can be either the Ukrainian team (presented as having short players), or the German team (which has not been favored in the first match), or a generic description (which would mean that the sentence is not directly linked with the discourse).
 
-## 4.5 Trouble Shooting
+## 4.6 Trouble Shooting
 
-### 4.5.1 Recurring Group Reference
+### 4.6.1 Recurring Group Reference
 
 Here is a very compact, constructed example:
 
@@ -261,7 +261,7 @@ Here is a very compact, constructed example:
 
 When annotating *They*, note that this group has been previously established. For this reason, we do *not* refer to the second respective mentions of *Peter* and *Malte*, but instead to the previously established index for the group introduced when annotating *Both*.
 
-### 4.5.2 Quantified NPs
+### 4.6.2 Quantified NPs
 
 Quantified expressions are either `OLD`/`GROUP` or `NEW`:
 
@@ -274,7 +274,7 @@ Leaving the first two cases aside, a substitution substitution test helps with t
 
 > (18) *people* −→ *all these people* → definite description −→ referential
 
-### 4.5.3 Pronominal Adverbs
+### 4.6.3 Pronominal Adverbs
 
 Depending on context, some words can be either referring expressions or not. This may be automatically pre-annotated, but must be marked as non-referring in their referentiality annotation (see above).
 
@@ -284,7 +284,7 @@ A notorious problem in German is the annotation of pronominal adverbs such as *d
 
 > (19.b) *\[<ins>Ich</ins>\]<sub>PM</sub> habe \[<ins>dir</ins>\]<sub>PM</sub> \[den <ins>Brief</ins>\]<sub>PM</sub> gezeigt, damit \[<ins>du</ins>\]<sub>PM</sub> bescheid weißt.* (German, non-referential *damit" "so that")
 
-### 4.5.4 Relative Possessive Pronouns
+### 4.6.4 Relative Possessive Pronouns
 
 Relative pronouns are syntactically bound and not to be annotated, but relative posessive pronouns in possessive constructions are
 treated as possessive pronouns. 
@@ -295,11 +295,11 @@ treated as possessive pronouns.
 
 > (20.b) *Und so schielten \[die Israelis\] \[nach Washington, das/welches \[sie\]* *wirtschaftlich stützt\].*
 
-### 4.5.5 Cataphora
+### 4.6.5 Cataphora
 
 We distinguish two types of forward-referring expressions, discourse cataphora and syntactic cataphora.
 
-#### 4.5.5.1 Discourse Cataphora (Anaphora of Anticipation)
+#### 4.6.5.1 Discourse Cataphora (Anaphora of Anticipation)
 
 Discourse cataphora is a label used for non-pronominal reference forward. Sometimes an author introduces a discourse referent by means of an underspecified NP, i.e. an NP that cannot be interpreted only on the basis of the reader's knowledge up to this point. This way the author tries to encourage the reader to continue reading, in order to catch up the missing information. In the example below, *die einstige
 Fußball-Weltmacht* and *vor einem Winzling* should be annotated as discourse cataphors, since their referents cannot be identified until introduced explicitly in the following text (*Deutschland* and
@@ -309,7 +309,7 @@ Fußball-Weltmacht* and *vor einem Winzling* should be annotated as discourse ca
 
 In case one goes on reading the text, it becomes clear that *die einstige Fußball-Weltmacht* refers to Germany, whereas *ein Winzling* refers either to the Ukraine or the 1.62 meter tall ukranian footballer who made the most impact in the match ^5^. Discourse cataphors have to be annotated as normal anaphors, i.e. in accordance with the Chain Principle (p. 12), i.e. the most recent referent mention to the left (if any) is considered to be an antecedent.
 
-#### 4.5.5.2 Syntactic cataphora
+#### 4.6.5.2 Syntactic cataphora
 
 > (22) *Through \[his\] lawyers, \[Mr. Antar\] has denied allegations in the SEC suit \...* (WSJ)
 

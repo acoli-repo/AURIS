@@ -137,6 +137,6 @@ In addition to that, you can (and should) use the annotation protocol to keep tr
 
 The annotation protocol should be saved in the same folder as the target file, and (except for the file extension), it should carry the same name.
 
-### 2.4.6 On Evaluation
+## 2.5 On Evaluation
 
 As we rely to some extent on automated pre-annotation, we need to quantify the number of average revisions of pre-annotated values per file and annotator.

@@ -159,7 +159,7 @@ But not: *two pizzas*. As for constructions like *two of these pizzas*, this is 
 
 > Note: Stede et al. (2016) include *all*+NP here. needs to be double-checked.
 
-#### 3.3.2.4 With Definite Article (`NP_TYPE`=`def-np.the`)
+#### 3.3.2.5 With Definite Article (`NP_TYPE`=`def-np.the`)
 
 Any NP with a definite article not covered by any aforementioned def-np category
 
