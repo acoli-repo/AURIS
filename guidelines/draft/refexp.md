@@ -11,11 +11,11 @@ Texts for annotation should be automatically pre-annotated for nominal referring
 
 We provide a pre-annotation routine that identifies referring expressions along with
 
-- their morphosyntactic type (`REFEXP`)
+- their morphosyntactic type (`NP_FORM`)
 - for potential anaphors, their expected referentiality (`REF_AUTO`, only value is currently `?OLD`), and
 - their grammatical role (`GR`).
 
-We describe `REFEXP` and `REF_AUTO` as part of markable identification. `GR` annotation is described separately.
+We describe `NP_FORM` and `REF_AUTO` as part of markable identification. `GR` annotation is described separately.
 
 ## Markables
 
@@ -169,7 +169,7 @@ Petrie Stores Corp.\]* should not be annotated!
 
 Every nominal phrase or pronoun which is neither PM nor confirmed to be syntactically bound, is subject to automated pre-annotation. Secondary markables are referring expressions that are unlikely/impossible anaphors, but that could *introduce* new discourse referents.
 
-> Note: At the moment, these are automatically annotated for `REFEXP`, but not for referentiality (`REF`).
+> Note: At the moment, these are automatically annotated for `NP_FORM`, but not for referentiality (`REF`).
 
 Common types of SMs include:
 
@@ -350,7 +350,7 @@ Grammatical role annotation is extrapolated from (automated) annotation accordin
 	
 	> Note: Chiarcos and Krasavina (2005) distinguished indirect and direct objects. However, within the UD community, the notion of indirect object has been criticized, and the usage of `iobj` seems to be inconsistent.
 
-- `other`: every other referring expression is annotated `other` (i.e., every element that carries `REFEXP` annotation but has not been assigned a `GR` annotation before, includes both primary and secondary markables, but not antecedents of event anaphors)
+- `other`: every other referring expression is annotated `other` (i.e., every element that carries `NP_FORM` annotation but has not been assigned a `GR` annotation before, includes both primary and secondary markables, but not antecedents of event anaphors)
 - for referring expressions in dependent clauses or adnominal constructions, we append the depth of syntactic embedding as a numerical suffix (i.e., replace existing `GR` annotation `$gr` with `$gr`+`_depth`, e.g., `SBJ_2` for the subject a relative clause directly depending on the main clause. Embedding depth is calculated over UD trees.)
 
 	> Note: In Chiarcos and Krasavina (2005), these were included under `other`

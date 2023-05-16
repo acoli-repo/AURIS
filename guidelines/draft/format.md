@@ -24,12 +24,10 @@ The raw files currently contain three columns:
 
 - `WORD`: words and punctuation characters as they occur in the text.
 - `GR`: grammatical role
-- `REFEXP`: type of referring expression (noun phrase) 
+- `NP_FORM`: type of referring expression (noun phrase) 
 - `REF_AUTO`: predicted referentiality, i.e., `?OLD` or empty
 
-> Note: Shall we rename `REFEXP` to `NP_FORM`?
-
-## Import into spreadsheet software: Target files
+## 2.3 Import into spreadsheet software: Target files
 
 We provide a **template file** in `*.xlsx` format that contains a number of formulas to automatize parts of the annotation. When starting with a new raw file, say, `xyz.conll` or `xyz.tsv`, make a copy of the template file and rename it such that it matches the name of the raw file, e.g., `xyz.xlsx`. We further refer to this file as your **target file**.
 
@@ -37,7 +35,7 @@ The template file and the target file contain the following columns:
 
 - `WORD`: words and punctuation characters as they occur in the text.
 - `GR`: grammatical role
-- `REFEXP`: type of referring expression (noun phrase)
+- `NP_FORM`: type of referring expression (noun phrase)
 - `REF_AUTO`: predicted referentiality, i.e., `?OLD` or empty
 - `COREF`: manual coreference annotation or `!!!` for an annotation to be done.
 - `REF`: manual annotation for referentiality, automatically pre-annotated after `COREF` annotation.
@@ -76,7 +74,7 @@ After copying the pre-annotated data into the target file, you need to copy the 
 ## Annotation procedure
 
 - Annotation with spreadsheet software has a different feeling to it than just reading a text. It is highly recommended that you also look at the original plain text file, at least for a first read, before you start with with the spreadsheet annotation. 
-- When doing annotation, ignore headlines. For doing so, just delete the content of the `REFEXP` and `REF_AUTO` columns for lines you identified as headlines or other pieces of metadata ("boilerplate"). For `ted-mdb.1927`, for example, this includes the following "sentences":
+- When doing annotation, ignore headlines. For doing so, just delete the content of the `NP_FORM` and `REF_AUTO` columns for lines you identified as headlines or other pieces of metadata ("boilerplate"). For `ted-mdb.1927`, for example, this includes the following "sentences":
 
 	- "talkid: 1927"
 	- "Chris McKnett"
@@ -85,20 +83,20 @@ After copying the pre-annotated data into the target file, you need to copy the 
 	> Note that this applies only to content you identify clearly as headline or boilerplate. If you are uncertain as to if a line is a headline or not, treat it as part of the text.   
 
 - Annotate from top to bottom, just as you read. You can use the `REF_AUTO` column for quickly jumping to the next primary markable with `<CTRL>+<DOWN>`. You can go back to the last with `<CTRL>+<UP>`.
-- Alternatively, you can also go to the next referring expressing with the `REFEXP` column.
+- Alternatively, you can also go to the next referring expressing with the `NP_FORM` column.
 
 ### `COREF`: coreference
 
 - The first requirement of the task is to assign every primary markable (`?OLD`) an ID in the `COREF` column. Every discourse referent should correspond to exactly one ID, and all co-referring expressions receive the same ID.
-- If a secondary markable (annotated for `REFEXP`, but not for `REF_AUTO`) serves as antecedent for an anaphor with `COREF` ID *x*, give it the same `COREF` ID.
+- If a secondary markable (annotated for `NP_FORM`, but not for `REF_AUTO`) serves as antecedent for an anaphor with `COREF` ID *x*, give it the same `COREF` ID.
 
 	> - You might want to try out for yourself if it is more convenient to either annotate all referring expressions with `COREF` or to only annotate `?OLD` expressions and then extend this to their antecedents when needed. Please drop a note on your experiences in the annotation protocol.
 
-- For event anaphors (e.g., if `this` or `it` refers back to a preceding clause), candidate antecedents have not been marked in the `REFEXP` column. For annotating them as antecedents, select the *main verb* of the highest (in case of conjunction, first) clause you consider as antecedent. Annotate it with the same `COREF` ID as used for the anaphor.
+- For event anaphors (e.g., if `this` or `it` refers back to a preceding clause), candidate antecedents have not been marked in the `NP_FORM` column. For annotating them as antecedents, select the *main verb* of the highest (in case of conjunction, first) clause you consider as antecedent. Annotate it with the same `COREF` ID as used for the anaphor.
 	
 	> - Normally, the main verb expresses the semantic predicate of a clause or sentence, e.g., "The world is [changing] ...".
 	> - In copula clauses, annotate the copula as antecedent, e.g., "These [are] environmental and social issues".
-	> - Do not annotate `REFEXP` for the antecedent of an event anaphor.
+	> - Do not annotate `NP_FORM` for the antecedent of an event anaphor.
 	> - If you have difficulties to decide which antecedent to annotate for an event anaphor, select the closest and smallest candidate, i.e., an embedded clause in favor of a main clause, the directly preceding sentence in favor of the one before, etc.
 
 - If you encounter a non-referring `?OLD` expression, delete its `REF_AUTO` annotation (i.e., `?OLD`), but tell us which kind of non-referring expression it is using `REF`, etc.

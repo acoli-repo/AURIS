@@ -70,7 +70,7 @@ In the examples given for illustration in this document, markables are marked by
 
 ## 1.3 Automated Pre-Annotation
 
-In the current workflow, automated pre-annotation will create annotations for markables, for the type of referring expressions (`REFEXP`), their grammatical roles (`GR`), and their *possible* referentiality (`REF_AUTO`, with `?OLD` as only value so far). These annotations can be corrected by the annotator, if needed.
+In the current workflow, automated pre-annotation will create annotations for markables, for the type of referring expressions (`NP_FORM`), their grammatical roles (`GR`), and their *possible* referentiality (`REF_AUTO`, with `?OLD` as only value so far). These annotations can be corrected by the annotator, if needed.
 
 During annotation, dynamic pre-annotation will predict possible values for `IS` and `CB`. Again, this involves auxiliary annotations used for the automated pre-annotation of `IS` and `CB` (`GR_ANTE`: grammatical role of the antecedent, `REF_DIST`: number of sentence boundaries since last mention, `REF_DIST_ANTE`: `REF_DIST` of antecedent to *its* antecedent). These auxiliary annotations should **not** be corrected by the annotator.
 
