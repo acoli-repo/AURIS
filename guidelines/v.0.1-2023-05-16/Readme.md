@@ -1,6 +1,6 @@
 # About this Document
 
-The Augsburg Manual for Reference and Information Structure (AURIS) provides a practically guideline for the annotation of reference and selected aspects of information structure.
+The Augsburg Manual for the Annotation of Reference and Information Structure (AURIS) provides a practically-oriented guideline for the annotation of reference and selected aspects of information structure.
 
 At the moment, it comprises guidelines for 
 
