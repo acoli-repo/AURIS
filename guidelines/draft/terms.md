@@ -63,7 +63,7 @@ in the evening, \[Joachim Gauck\]~1~ closed \[it\]~2~\> again.*
 
 The annotation task for is to process each text in reading order and identify all markables. As described below, this process is partially automated. After marking a markable, it can also be assigned various attributes that characterize the type of the markable. Here, this comprises annotations for referentiality (`REF`), coreference (`COREF`), information status (`IS`, "givenness") and backward-looking center (`CB`, "sentence topic"). 
 
-In the examples given for illustration in this document, markables are marked by <u>underscores<u> (for the syntactic head), or, optionally, with square brackets \[...\] to clarify the boundaries of phrasal markables. Sometimes, for the sake of clarity, not all markables are marked in an example, but only those whose status is currently being discussed.
+These guidelines use a notation as it might be used \"on paper\" or in a text editor. For the practical procedure, see [Sect. 2](format.md). In the examples given for illustration in this document, markables are marked by <u>underscores<u> (for the syntactic head), or, optionally, with square brackets \[...\] to clarify the boundaries of phrasal markables. Sometimes, for the sake of clarity, not all markables are marked in an example, but only those whose status is currently being discussed.
 
 ## 1.3 Automated Pre-Annotation
 
@@ -80,3 +80,7 @@ Although this manual sometimes gives phrasal markables for illustration, we only
 > (4.b) German: *\[<u>Hans</u> -- der immer schon \[eine <u>Schwäche</u>\] \[für <u>Susanne</u>\] hatte -- \] war auch da.*
 
 > Note: Annotators should normally not need to decide which expression consistutes the head of a referring expression, as these are subject to automated pre-annotation.
+
+## 1.5 About this Document
+
+Future revisions are expected, these may include making the criteria more precise, as well as adding or amending criteria, where appropriate, or adding more examples. **However**, during an annotation campaign, these guidelines must <u>never be changed</u>. If an annotator feels the need for clarification or to document problematic cases, please create and provide an accompanying protocol describing the example, the problem, the decision taken for resolving or marking it in the annotation and a pointer to the data where this problem occurred. These protocols will guide subsequent revisions.

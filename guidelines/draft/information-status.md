@@ -1,13 +1,8 @@
+# 5. Information Status
 
-**source**: Converted via DOCX from PDF as retrieved from http://www.sfu.ca/~hedberg/Coding_for_Cognitive_Status.pdf, accessed 2023-04-16. Revised and extended by Christian Chiarcos, April 2023. See [accompanying readme](Readme.md) for authors, contributors and revision history.
+This document is a slightly revised version of the Coding Protocol for Statuses on the Givenness Hierarchy according to Gundel et al. (1993), revision of April 2023, see Readme for authors and contributors. Note that the criteria in this coding protocol are sufficient, not necessary conditions for assigning a particular status. 
 
-# Coding Protocol for Statuses on the Givenness Hierarchy according to Gundel et al. (1993), revision of April 2023
-
-The criteria in this coding protocol are sufficient, not necessary conditions for assigning a particular status. Future revisions are expected, these may include making the criteria more precise, as well as adding or amending criteria, where appropriate, or adding more examples. **However**, during an annotation campaign, these guidelines must <u>never be changed</u>. If an annotator feels the need for clarification or to document problematic cases, please create and provide an accompanying protocol describing the example, the problem, the decision taken for resolving or marking it in the annotation and a pointer to the data where this problem occurred. These protocols will guide subsequent revisions.
-
-> Note: These guidelines use notation as it might be used \"on paper\" or in a text editor. For the practical procedure with a special annotation software, separate instructions for its use are issued.
-
-## Givenness Hierarchy: `IS`
+## 5.1 Givenness Hierarchy
 
 The statuses of the Givenness Hierarchy (Gundel, Hedberg and Zacharski 1993) describe degrees of accessibility of discourse referents at a given point in discourse. In the literature, this phenomenon is referred to as *givenness*, *accessibility*, *salience*, etc. Throughout this manual, we use the term **information status** according to Lambrecht (1996). Gundel et al. originally used the term *cognitive status*.
 
@@ -26,18 +21,11 @@ When determining the information status using the protocol, imagine you are the 
 
 Stop when you find a criterion that applies. This is the highest information status for the referent/interpretation you are checking.
 
-After annotating all referents of the current sentence, annotate the CB (backward-looking center, familiarity topic) according to Centering Theory (Grosz et al. 1995):
+After annotating all referents of the current sentence, annotate the CB (backward-looking center, familiarity topic) according to Centering Theory (Grosz et al. 1995).
 
-7. For all referring expressions annotated as IN FOCUS (and only these), check which is the most salient referent realized in the preceding sentence and change its annotation to CB, if applicable.
+## 5.2 Statuses and Criteria (`IS`)
 
-With the notion of backward-looking center, we arrive at the following hierarchy of statuses:
-
-* CB > IN FOCUS > ACTIVATED > FAMILIAR > UNIQUELY IDENTIFIABLE > REFERENTIAL > TYPE IDENTIFIABLE
-
-
-## `IS` Statuses and Criteria
-
-### 1. IN FOCUS
+### 5.2.1 IN FOCUS (`FOCUS`)
 
 A referent is IN FOCUS if it meets at least one of the following criteria:
 
@@ -97,7 +85,7 @@ A referent is IN FOCUS if it meets at least one of the following criteria:
 
     > (10) John fell off his bike. <u>This/it</u> happened yesterday.
 
-### 2. ACTIVATED
+### 5.2.2 ACTIVATED (`ACTIVATED`)
 
 A referent is ACTIVATED if it meets one of the following criteria.
 
@@ -126,7 +114,7 @@ A referent is ACTIVATED if it meets one of the following criteria.
     > A. John fell off his bike.
     > B. Can you say <u>that</u> again?
 
-### 3. FAMILIAR
+### 5.2.3 FAMILIAR (`FAMILIAR`)
 
 A referent is FAMILIAR if it meets one of the following criteria.
 
@@ -149,7 +137,7 @@ A referent is FAMILIAR if it meets one of the following criteria.
      rock 'n' roll: one of the most popular American rock bands of <u>the
      90's.</u>
 
-### 4. UNIQUELY IDENTIFIABLE
+### 5.2.4 UNIQUELY IDENTIFIABLE (`UNIQUE`)
 
 A referent is UNIQUELY IDENTIFIABLE if it meets one of the following criteria:
 
@@ -171,7 +159,7 @@ A referent is UNIQUELY IDENTIFIABLE if it meets one of the following criteria:
 
     > (19) (Looking at a box) I think <u>the bottom</u> fell out.
 
-### 5. REFERENTIAL
+### 5.2.5 REFERENTIAL (`REF`)
 
 A referent exists, is REFERENTIAL, if it meets one of the following criteria.
 
@@ -186,7 +174,7 @@ A referent exists, is REFERENTIAL, if it meets one of the following criteria.
 
     > (21) I want to tell you about <u>this strange guy I saw today</u>.
 
-### 6. TYPE IDENTIFIABLE
+### 5.2.6 TYPE IDENTIFIABLE (`TYPE`)
 
 An interpretation is TYPE IDENTIFIABLE if the sense of the phrase (the descriptive/conceptual content it encodes) is understandable.
 
@@ -194,69 +182,3 @@ An interpretation is TYPE IDENTIFIABLE if the sense of the phrase (the descripti
 
 > (23) Whenever Mary passes that store, she always picks up <u>a
      newspaper</u>.
-
-## Backward-Looking Center (`CB`)
-
-After IS annotation, CB annotation is to be done in a separate column.
-
-In Centering Theory (Grosz et al. 1995), the "backward-looking center" is a technical term for the notion of "familiarity topic". The following criteria apply:
-
-- Each sentence ("utterance") has at most one backward-looking center.
-- The backward-looking center of the current sentence must be explicitly mentioned ("realized") in the immediately preceding sentence. That is, it must have been previously annotated as `IN FOCUS` or `ACTIVATED`.
-- If there is more than one CB candidate that has been mentioned in the preceding sentence, check the properties of its antecendent. 
-- Mark the expression as CB whose antecedent is highest on the following ranking ("salience ranking"):
-    1. SUBJECT (of main clause, `GR`=`subj`)
-    2. OBJECT (of main clause, e.g., direct or indirect object, `GR`=`obj`)
-    3. OTHER  (oblique argument of main clause, e.g., prepositional phrase, `GR`=`other`), 
-    4. MAIN CLAUSE (event anaphora: refer to the main clause or the full sentence, rather than any of its arguments, no `GR` annotation)
-    5. SUBJECT (of dependent clause, `GR`=`subj_2`, `subj_3`, etc.)
-    6. OBJECT (of dependent clause, `GR`=`obj_2`, `obj_3`, etc.)
-    7. OTHER (of dependent clause, `GR`=`other_2`, `other_3`, etc.)
-    8. DEPENDENT CLAUSE (event anaphora: refer to a dependent clause, no `GR` annotation)
-    9. etc., for more deeply embedded dependent clauses
-- If there are multiple CB candidates whose antecedent realization (according to this ranking) is identical, chose the one whose antecedent is mentioned _first_ in the preceding sentence.
-
-CB annotation is partially pre-annotated, but has to be manually refined.
-
-Selected CB examples:
-- antecedent SUBJECT (main clause, Grosz et al. 1995, ex. 6)
-
-    > (24)
-    > a. **Susan**  gave Betsy a pet hamster.
-    > b. <u>She</u> reminded her that such hamsters were quite shy.
-
-- antecedent direct object (main clause, Grosz et al. 1995, ex. 18)
-
-    > (25) 
-    > a. I'm reading **The French Lieutenant's Woman**.
-    > b. <u>The book</u>, which is Fowles's best, was a bestseller last year.
-
-- antecedent indirect object (main clause, Grosz et al. 1995, ex. 17)
-
-    > (25) 
-    > a. My dog is getting quite obstreperous. 
-    > b. I took **him** to the vet the other day.
-    > c. <u>The mangy old beast</u> always hates these visits.
-
-- antecedent clause (ex. 10 from above)
-
-    > (10') 
-    > a. **John fell off his bike**. 
-    > b. <u>This/it</u> happened yesterday.
-
-- antecedent SUBJECT (dependent clause, Grosz et al. 1995, ex. 2)
-    > (26) 
-    > b. It was a store **John** had frequented for many years.
-    > c. <u>He</u> was excited that he could finally buy a piano.
-
-> Notes: 
-> 1. Following Grosz et al. (1995), Centering Theory was extended and parameterized. The definitions given above represent *one* specific interpretation of Grosz et al.'s criteria designed to facilitate unambiguous annotation. Other interpretations are possible.
-> 2. The salience ranking has been extended to include dependent clauses and word order, following Gernsbacher (2013). Furthermore, the Centering category "OTHER" is split into "OBLIQUE ARGUMENT" and "CLAUSE". Unlike the original formulation of Centering, the Givenness Hierarchy supports event anaphora.
-> 3. If an IN FOCUS expression refers to the preceding sentence or clauses within it, annotate it only as CB if no other candidate
-
-## References
-
-- Gernsbacher, M. A. (2013). _Language comprehension as structure building_. Psychology Press.
-- Grosz, B. J., Joshi, A. K., & Weinstein, S. (1995). Centering: A Framework for Modeling the Local Coherence of Discourse. _Computational Linguistics_, _21_, 203-225.
-- Gundel, J. K., Hedberg, N., & Zacharski, R. (1993). Cognitive status and the form of referring expressions in discourse. _Language_, 274-307.
-- Lambrecht, K. (1996). _Information structure and sentence form: Topic, focus, and the mental representations of discourse referents_ (Vol. 71). Cambridge university press.

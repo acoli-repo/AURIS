@@ -48,7 +48,7 @@ For annotating coreference, use user-defined abbreviation/mnemnonic/tag that ind
 
 > Note: In this document, we use numerical indexes for presentational reasons. In annotation, create abbreviations/mnemnonics as you see fit. Numerical indices are discouraged in actual annotation. 
 
-## 4.3.1 Coreference Substitution Test
+## 4.3.1 Substitution Test
 
 A replacement test can be used to check whether a referential expression e belongs to a chain k: If it is true for every noun s (noun, proper noun) in k, that the replacement of e by s changes the interpretation of the text is not changed, then e belongs to chain k and a coreference relation to the last element of the chain is to be annotated.
 

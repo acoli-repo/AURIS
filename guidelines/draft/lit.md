@@ -52,15 +52,24 @@ Sections 2 and 6 have been written from scratch for this manual by Christian Chi
 
 # Literature References (incomplete)
 
-\[Bib99\] Douglas et al. Biber. *Longman Grammar of Spoken and Written
+Biber, Douglas et al.. *Longman Grammar of Spoken and Written
 English*. Longman, 1999.
 
-\[Gib94\] R.W. Gibbs. *The poetics of mind*. Cambridge University, Cambridge, 1994. \[GMK03\] Claire Gardent, H´el\`ene Manu´elian, and Eric Kow. Which bridges for bridging descriptions. In *EACL Workshop on Linguistically Interpreted Corpora proceedings.*, 2003\.
-
-\[Mit00\] R. et al. Mitkov. Coreference and anaphora: Developing annotating tools, annotating resources and annotations strategies. In *Proc. DAARC 2000*, pages 49--58, Lancaster, UK, 2000.
-
 De Marneffe, M. C., Manning, C. D., Nivre, J., & Zeman, D. (2021). Universal dependencies. Computational linguistics, 47(2), 255-308.
+
+Gernsbacher, M. A. (2013). _Language comprehension as structure building_. Psychology Press.
+
+Gibbs, R.W. *The poetics of mind*. Cambridge University, Cambridge, 1994. Gardent, Claire, H´el\`ene Manu´elian, and Eric Kow. Which bridges for bridging descriptions. In *EACL Workshop on Linguistically Interpreted Corpora proceedings.*, 2003\.
+
+Grosz, B. J., Joshi, A. K., & Weinstein, S. (1995). Centering: A Framework for Modeling the Local Coherence of Discourse. _Computational Linguistics_, _21_, 203-225.
+
+Gundel, J. K., Hedberg, N., & Zacharski, R. (1993). Cognitive status and the form of referring expressions in discourse. _Language_, 274-307.
+
+Lambrecht, K. (1996). _Information structure and sentence form: Topic, focus, and the mental representations of discourse referents_ (Vol. 71). Cambridge university press.
+
+Mitkov, R. et al.. Coreference and anaphora: Developing annotating tools, annotating resources and annotations strategies. In *Proc. DAARC 2000*, pages 49--58, Lancaster, UK, 2000.
 
 Reinhart, T. (1980). Conditions for Text Coherence. Poetics Today, 1(4), 161–180. https://doi.org/10.2307/1771893
 
 Webber, B., Prasad, R., Lee, A., & Joshi, A. (2019). The Penn Discourse Treebank 3.0 Annotation Manual. Philadelphia, University of Pennsylvania, 35, 108.
+

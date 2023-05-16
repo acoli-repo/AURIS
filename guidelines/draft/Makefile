@@ -1,6 +1,5 @@
 all:
-	for file in terms.md format.md refexp.md coreference.md information-status.md;  do \
-		#Readme.md terms.md format.md refexp.md coreference.md information-status.md; do \
+	for file in terms.md format.md refexp.md coreference.md information-status.md topic.md lit.md;  do \
 		cat $$file; \
 		echo;\
 		echo;\

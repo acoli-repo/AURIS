@@ -17,6 +17,7 @@ The manual consists of five separate documents:
 - [refexp.mp](refexp.md): guidelines for automated pre-annotation for referring expressions, originally by Chiarcos and Krasavina (2005)
 - [coref.md](coreference.md): guidelines manual annotation of coreference and referentiality, originally by Chiarcos and Krasavina (2005)
 - [information-status.md](information-status.md): guidelines for the manual annotation of information status ("givenness"), originally by Gundel, Hedberg and Zacharski (1993)
+- [topic.md](topic.md): guidelines for the annotation of the familiarity topic according to Centering Theory (backward-lookinf center, Grosz et al., 1995)
 
 Supplementary material is provided in
 
@@ -111,6 +112,7 @@ For this version of the manual, we extended the guidelines by including the guid
 	- [2015-xx-xx](../archive/coreference.2019.chiarcos-et-al.md): translation of relevant parts of Stede et al. (2015) to English
 		- see under refexp.md (above) for sources and contributors
 - [information-status.md](information-status.md)
+	- 2023-05-16: moved backward-looking center into separate document: topic.md
 	- [2023-05-05](../archive/information-status.2023-05-05.md): backward-looking center as a separate layer of annotation
 	- [2023-04-16](../archive/information-status.2023-04-16.md): revision by Christian Chiarcos, extended for backward-looking center
 	- [2006-05-xx](../archive/information-status.2006.gundel-et-al.md): revision of May 2006
@@ -125,3 +127,5 @@ For this version of the manual, we extended the guidelines by including the guid
 - [problems.md](problems.md): Problematic cases
 	- currently from Chiarcos and Krasavina (2005), only (needs to be completely re-analyzed) 
 	- [2023-05-15](../archive/problems.2023-05-15.md): initial version, from Chiarcos and Krasavina (2005)
+- [topic.md](topic.md)
+	- 2023-05-16: extracted from information-status.md (CC)
