@@ -1,8 +1,8 @@
-# File format and editing
+# 2. File Format and Editing
 
-For coreference and informaton structure annotation, we use a tabular format. 
+For the annotation of coreference and informaton structure, we use a tabular format and off-the-shelf spreadsheet software for annotation.
 
-## File format
+## 2.1 File Format
 
 Following conventions for a long-standing series of shared tasks organized in conjunction with the Conference on Natural Language Learning (CoNLL) since the late 1990s, we adopt the following conventions:
 
@@ -14,7 +14,7 @@ Following conventions for a long-standing series of shared tasks organized in co
 
 This is the format for "raw" files, as produced by automated preprocessing. It can be opened in any text editor. For editing, you need to load these files in the spreadsheet software of your choice (see instructions below). The final deliverable should be one Excel (`*.xlsx`) file for every raw file, and it should have the same name (except for file extension) as the original file.
 
-## Raw files
+## 2.2 Raw files
 
 The **raw files** are produced by automated pre-annotation. As part of pre-annotation, we perform tokenization (splitting words and punctuation), the detection of referring expressions, and the prediction of `?OLD` (for candidate anaphors, "primary markables") and `?NEW` (for other candidate referring expressions, "secondary markables").
 
@@ -24,7 +24,8 @@ The raw files currently contain three columns:
 
 - `WORD`: words and punctuation characters as they occur in the text.
 - `GR`: grammatical role
-- `REFEXP`: type of referring expression (noun phrase) `REF_AUTO`: predicted referentiality, i.e., `?OLD` or empty
+- `REFEXP`: type of referring expression (noun phrase) 
+- `REF_AUTO`: predicted referentiality, i.e., `?OLD` or empty
 
 > Note: Shall we rename `REFEXP` to `NP_FORM`?
 
@@ -46,6 +47,7 @@ The template file and the target file contain the following columns:
 	- `GR_ANTE`: grammatical role of the antecedent (factor in `IS` and `CB` annotation)
 	- `REF_DIST`: referential distance of the antecedent (factor in `IS` and `CB` annotation)
 	- `REF_DIST_ANTE`: referential distance annotation of the antecedent (factor in `IS` annotation)
+- `COMMENT`: this is a free-text column for annotators to provide information about the annotation (e.g., ambiguity), free-text comments, or pointers to more lengthy descriptions.
 
 | Fig. 1. Template file                              |
 | -------------------------------------------------- |

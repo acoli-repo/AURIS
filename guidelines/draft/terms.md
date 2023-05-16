@@ -1,83 +1,85 @@
-**source**: Partially based on excerpts from
+# 1. Background and Terminology
 
-- Christian Chiarcos, Manfred Stede, Saskia Warzecha (2019), Nominale referentielle Ausdrücke, In: Stede, M. (Ed.). (2016). Handbuch Textannotation: Potsdamer Kommentarkorpus 2.0 (Vol. 8). Universitätsverlag Potsdam, p.55-70
-- Christian Chiarcos, Manfred Stede, Saskia Warzecha (2019), Nominale Koreferenz, In: Stede, M. (Ed.). (2016). Handbuch Textannotation: Potsdamer Kommentarkorpus 2.0 (Vol. 8). Universitätsverlag Potsdam, p.71-85
-- Olga Krasavina and Christian Chiarcos (2007), PoCoS. Potsdam Coreference Scheme, First Linguistic Annotation Workshop (LAW-2007), held in conjunction with ACL-2007, Prague, Czech Republic, June 2007
-- Christian Chiarcos and Olga Krasavina (2005), PoCoS. Potsdam Coreference Scheme, Tech. Rep., University of Potsdam, Germany
+A coherent, meaningful text can be characterized by three conditions, (semantic) consistency, (pragmatic) relevance, and cohesion (or, "connectedness"). In this manual, we focus on the annotation and subsequent analysis of the latter condition, i.e., we aim to elucidate **cohesion**, or connectedness, i.e., how
 
-> Note: Text examples that appear in this document without citing the source are always fictitious.
+- each sentence is linked to an adjacent sentence in the text by means of
+	1. anaphoric (referring) expressions,
+	2. a linguistic marker for the introduction of a new topic, or
+	3. a semantic sentence connector ("cues").
 
-# Background
+This definition (loosely following Reinhart 1980, p.168) involves three types of analysis, i.e., 
 
-Most texts involve repeated mentions of the same entity as well as references to objects related in various ways to what has already been discussed. Annotating corpora with information about such relations between elements of a text is useful both from a linguistic point of view and for applications such as information extraction.
+	1. the annotation of (co-)reference (what are referring expressions in the text, which entities do they refer to), 
+	2. the annotation of topichood (what is the entity the current sentence is about), and
+	3. shallow discourse annotation (what are the discourse markers used, which relations do they indicate, and which utterances do they refer to)
+
+We further limit ourselves on the first and second aspect, i.e., referring expressions and the annotation of topic continuity. Shallow discourse annotation is to be done independently, e.g., according to the schema of the Penn Discourse Treebank (Webber et al. 2019).
+
+Coherent texts thus involve repeated mentions of the same entity as well as references to objects related in various ways to what has already been discussed, and moreover, the utterances within a coherent text are construed *about* these referents. Annotating corpora with information about such relations between elements of a text is useful both from a linguistic point of view and for applications such as information extraction.
 
 Subsequent mentions of an entity can have the same surface form - as when the expression *the Lord Provost* is encountered twice in a text - or different ones. Anaphoric expressions are used to indicate that elements of a text are correlated. The simplest forms of anaphoric expression are used to indicate a subsequent mention of an object already introduced: typical examples of this type of anaphoric expression are pronouns such as *he* in the text *John arrived. [He] looked tired.* In the preferred reading of this text, the pronoun *he* is interpreted as an 'abbreviated reference,' to the individual John which is denoted by the expression *John*. 
 
 Besides coreference annotation itself, we include a set of linguistic features, in particular, those pertaining to information status ("givenness"), information status (here: backward-looking centers, "sentence topics") and auxiliary linguistic features (e.g., grammatical role and type of expression).
 
-## Terms
+## 1.1 Terms
 
 - **Coreference** is a relation between two or more textual elements, **referring expressions**, which denote the same entity. Semantically, these entities are prototypical objects or (discourse) referents. 
 - **Discourse referent**: an entity that is being referred to in the discourse. Note that this does not have to be a physical entity, but it can also be an imagined entity ("the unicorn ... it ...")
 - **Anaphor**: an anaphor is a referring expression that can only be interpreted by resorting to a previously mentioned co-referential expression. The preceding co-referential expression is then referred to as **antecedent**.
+- **Information Status**: The degree of prominence or familiary that a referent entertains at a certain point in discourse in the common ground (or, in the discourse model).
+- **Topic**: The referent that a particular is construed about. In many cases, this is a referent that entertains a high information status, and that is repeatedly referred to, and we focus on the annotation of these "familiary topics".
 - **Referential chain**: We call the series of mentions of the same referent one referential chain.
+- **Information Structure**: Pragmatic structure of utterances according to the distribution of information, involving, among other aspects, information status and topichood.
 - **Markable**: A (potential) referential expression that is to be annotated. Syntactically, most referring expressions are noun phrases or adpositional phrases. In the current schema, we annotate the syntactic head of the markable, only, as defined by the [Universal Dependencies guidelines](https://universaldependencies.org/u/overview/nominal-syntax.html).
 
-This annotation scheme is focusing on the annotation of nominal and pronominal anaphors. However, verbs may be annotated as *antecedents* of pronouns if these refer to the corresponding clause. We refer to these cases as **event anaphor**.
+This annotation scheme is focusing on the annotation of referring expressions, i.e., nominal and pronominal anaphors and their information-structural features (information status, topichood). In addition to referring expressions, verbs may be annotated as *antecedents* of pronouns if these refer to the corresponding clause. We refer to these cases as **event anaphor**.
 
-## Markables
+## 1.2 Referring Expressions
 
-> Note: In the original PoCoS/PCC guidelines, markables were defined as phrasal expressions. Here, we annotate syntactic heads, instead.
+A *referring expression* is any linguistic form that can be used to refer to an object, person, or state of affairs (or several respectively) of the \"real world\" or a \"conceptualized world\" (as it only exists in our imagination) in a broad sense. We also include non-referring expressions, if they meet the syntactic criteria of referring expressions, e.g., \"generic terms\" such as in 
 
-Markables represent spans in a text that carry one or more possible annotations, e.g., various attributes that characterize the type of the markable. 
+> (1) *\[The <u>whale</u>\] is known to be a mammal*
 
-Coreference annotation consists of assignment of discourse referents to markables, represented by identifiers (mnemnonics, indixes, tags) in the `COREF` column. All corerent markables should carry the same `COREF` index.
+Referring expressions designate (refer to) a particular *discourse referent*, i.e., a conceptual object that representss an entity, person, or fact in the discourse model, resp., the common ground established between speaker and hearer during the discourse. A discourse referent is an abstract, conceptual object that exists regardless of whether it corresponds to an object of the world (or just of imagination).
 
 Whether two markables are co-referent, i.e. referring to the same discourse referent, can be determined by a
 *substitution test*. If the substitution of anaphor and antecedent yield the same interpretation of the text, these are deemed coreferential.
 
-The annotation task for is to process each text in reading order and identify all markables. After marking a markable, it can also be
-assigned various attributes that characterize the type of the markable. Here, this comprises annotations for referentiality (`REF`), coreference (`COREF`), information status (`IS`, "givenness") and backward-looking center (`CB`, "sentence topic"). 
+## 1.2 Markables
+
+Markables<sup>[1](lit.md#terms1)</sup> represent spans in a text that carry one or more possible annotations, e.g., various attributes that characterize the type of the markable. We use the term *markable* for any element of the source text that is subject to annotation. Markables represent the basis for the subsequent annotation of coreference, information status, etc. This annotation scheme is limited to referring expressions, i.e. on (in the broadest sense) noun phrases, and their antecedents. 
+
+If markables they are in a coreference relation, they are given an index that indicates the referent they refer to. Coreference annotation thus consists of assignment of discourse referents to markables, represented by identifiers (mnemnonics, indixes, tags) in the `COREF` column. All corerent markables should carry the same `COREF` index.
 
 > Notes: 
-> - In addition to that, automated pre-annotation will also create annotations for the type of referring expressions (`REFEXP`), their grammatical roles (`GR`), and their *possible* referentiality (`REF_AUTO`, with `?OLD` as only value so far). These annotations can be corrected by the annotator, if needed.
-> - During annotation, dynamic pre-annotation will predict possible values for `IS` and `CB`. Again, this involves
-, as well as auxiliary annotations used for the automated pre-annotation of `IS` and `CB` (`GR_ANTE`: grammatical role of the antecedent, `REF_DIST`: number of sentence boundaries since last mention, `REF_DIST_ANTE`: `REF_DIST` of antecedent to *its* antecedent). These auxiliary annotations should **not** be corrected by the annotator.
+> 
+> 1. In practical annotation, annotators should not use numbers, but a meaningful, short and unambiguous abbreviation of their own choice. 
+>
+> 2. As annotation is conducted here with spreadsheet software, annotators are encouraged to use the auto-complete function that such software provides. This is most effective if indexes start with different letters.
 
-## Referring Expression
+We call the series of mentions of the same referent one *referential chain*. As result of the annotation, all elements of a referential chain must carry the same index.
 
-As referring expressions, we denote those linguistic forms that are used to refer to an object, person, or state of affairs (or several respectively) of the \"real world\" or a \"conceptualized world\" (as it only exists in our imagination) in a broad sense. to refer. We also include \"generic terms\" (so-called generic expressions), such as in 
+> (2) *Susanne doesn't like \[gymnastics\]~1~, because \[it\]~1~ is very hard.*
 
-> (1) \[The <u>whale</u>\] is known to be a mammal
-
-The representative of the object/the person/the facts is the discourse referent: an object that can then be used in formal representations of the discourse. That means: Linguistic expressions refer to abstract discourse referents, which in turn correspond to an object of the world (or the imagination).
-
-The annotation scheme presented here is limited to nominal referring expressions, i.e. on (in the broadest sense) noun phrases. In the following (following the perspective of the text annotation) the term "Markable" is used for those referring expressions that are subject of the annotation. The central topic of this chapter is the exact characterization of the concept of markables, as it is then based on the annotation of coreference or information status in later annotation steps. (In other words, the identification of referring expressions is not usually "an end in itself" in text analysis.)
-
-In this document, we mark referential expressions in square brackets; if they are in a
-coreference relation, they are given a numeric index that indicates the referent they refer to. In practical annotation, annotators should not use numbers, bus a meaningful, short and unambiguous abbreviation of their own choice. 
-
-## Referential Chains
-
-We call the series of mentions of the same referent one referential chain. As result of the annotation, all elements of a referential chain must carry the same index.
-
-> (1) *Susanne doesn't like \[gymnastics\]~1~, because \[it\]~1~ is very hard.*
-
-> (2) *At noon, \[the Federal President\]~1~ opened \[the session\]~2~, and
+> (3) *At noon, \[the Federal President\]~1~ opened \[the session\]~2~, and
 in the evening, \[Joachim Gauck\]~1~ closed \[it\]~2~\> again.*
 
-## Formatting Conventions in this Document
+The annotation task for is to process each text in reading order and identify all markables. As described below, this process is partially automated. After marking a markable, it can also be assigned various attributes that characterize the type of the markable. Here, this comprises annotations for referentiality (`REF`), coreference (`COREF`), information status (`IS`, "givenness") and backward-looking center (`CB`, "sentence topic"). 
 
-In the examples given for illustration, markables are marked under <u>underscores<u>. The type (PM, SM, NM) is usually not specified for the sake of brevity. Sometimes, for the sake of clarity, not all markables are marked in an example, but only those whose status is currently being discussed.
+In the examples given for illustration in this document, markables are marked by <u>underscores<u> (for the syntactic head), or, optionally, with square brackets \[...\] to clarify the boundaries of phrasal markables. Sometimes, for the sake of clarity, not all markables are marked in an example, but only those whose status is currently being discussed.
 
-For clarifying the boundaries of markable *phrases*, we use \[square brackets\] instead or in addition to underscores.
+## 1.3 Automated Pre-Annotation
 
-## Head-based Annotation
+In the current workflow, automated pre-annotation will create annotations for markables, for the type of referring expressions (`REFEXP`), their grammatical roles (`GR`), and their *possible* referentiality (`REF_AUTO`, with `?OLD` as only value so far). These annotations can be corrected by the annotator, if needed.
 
-We only annotate the syntactic heads of markables. Thus, markables must never overlap.
+During annotation, dynamic pre-annotation will predict possible values for `IS` and `CB`. Again, this involves auxiliary annotations used for the automated pre-annotation of `IS` and `CB` (`GR_ANTE`: grammatical role of the antecedent, `REF_DIST`: number of sentence boundaries since last mention, `REF_DIST_ANTE`: `REF_DIST` of antecedent to *its* antecedent). These auxiliary annotations should **not** be corrected by the annotator.
 
-> (2.a) English: *\[<u>Hans</u> -- who always had \[a soft <u>spot</u>\] \[for <u>Susanne</u>\]  -- \]  was also there.*
-> (2.b) German: *\[<u>Hans</u> -- der immer schon \[eine <u>Schwäche</u>\] \[für <u>Susanne</u>\] hatte -- \] war auch da.*
+## 1.4 Head-based Annotation
 
-> Notes: 
-> - Head-based annotation sets these guidelines apart from Krasavina and Chiarcos (2007) and Chiarcos et al. (2016) who annotated phrases, not heads.
+Although this manual sometimes gives phrasal markables for illustration, we only annotate their syntactic head, as defined by the [Universal Dependencies](https://universaldependencies.org/guidelines.html) (De Marneffe et al. 2021).<sup>[2](lit.md#terms2)</sup>
+ As a result, markables must never overlap.
+
+> (4.a) English: *\[<u>Hans</u> -- who always had \[a soft <u>spot</u>\] \[for <u>Susanne</u>\]  -- \]  was also there.*
+> (4.b) German: *\[<u>Hans</u> -- der immer schon \[eine <u>Schwäche</u>\] \[für <u>Susanne</u>\] hatte -- \] war auch da.*
+
+> Note: Annotators should normally not need to decide which expression consistutes the head of a referring expression, as these are subject to automated pre-annotation.
