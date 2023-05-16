@@ -36,26 +36,26 @@ A referent is IN FOCUS if it meets at least one of the following criteria:
 
     > (1)  Midge pushed thick, wiry black hair back from her square
         forehead with a sturdy brown arm. Nothing unsubstantial or
-        fairylike about <u>her</u>. (From *Murder after Hours*,
+        fairylike about <ins>her</ins>. (From *Murder after Hours*,
         Agatha Christie)
 
-       > (2)  John Kerry lost in Ohio. This cost <u>the Senator</u> the
+       > (2)  John Kerry lost in Ohio. This cost <ins>the Senator</ins> the
         election.
 
 2.  It is part of the interpretation of a previous part of the same
     sentence.
 
-    > (3) You can wear my scarf if you can find <u>it.</u>
+    > (3) You can wear my scarf if you can find <ins>it.</ins>
 
-    > (4) If you stand on this chair, <u>the chair</u> will break.
+    > (4) If you stand on this chair, <ins>the chair</ins> will break.
 
 3.  It is the interpretation of the syntactic focus of the immediately
     preceding clause (i.e., postcopular position of a cleft or
     existential sentence).
 
-    > (5) There was a mouse on the table. <u>It</u> was very large.
+    > (5) There was a mouse on the table. <ins>It</ins> was very large.
 
-    > (6) It was the dog that Bill was afraid of. <u>He</u> was very
+    > (6) It was the dog that Bill was afraid of. <ins>He</ins> was very
     large.
 
 4.  It is a higher level topic that is part of the interpretation of the
@@ -63,14 +63,14 @@ A referent is IN FOCUS if it meets at least one of the following criteria:
 
     > (7) The kitchen has a new countertops and a beautiful tile floor.
     There's also a big walk-through closet. Would you like to take a
-    look at <u>it</u>? Both the kitchen (criterion 4) and the
+    look at <ins>it</ins>? Both the kitchen (criterion 4) and the
     closet (criterion 3) are in focus.
 
 5.  It is part of the interpretation of each of the two immediately
     preceding clauses.
 
     > (8) It was the dog that Bill was afraid of. Small animals didn't usually
-    frighten Bill. <u>He</u> was very large. (*him* most likely
+    frighten Bill. <ins>He</ins> was very large. (*him* most likely
     to be interpreted as Bill, not the dog)
 
     > (9)
@@ -78,12 +78,12 @@ A referent is IN FOCUS if it meets at least one of the following criteria:
     keep John in a good temper and I'm sure she'll be most helpful with
     David --
     > B: David Angkatell?
-    > A: Yes. <u>He</u>'s just down from Oxford. 
+    > A: Yes. <ins>He</ins>'s just down from Oxford. 
     > (From *Murder after Hours*, Agatha Christie)
 
 6.  It is the event denoted by the immediately preceding sentence.
 
-    > (10) John fell off his bike. <u>This/it</u> happened yesterday.
+    > (10) John fell off his bike. <ins>This/it</ins> happened yesterday.
 
 ### 5.2.2 ACTIVATED (`ACTIVATED`)
 
@@ -93,13 +93,13 @@ A referent is ACTIVATED if it meets one of the following criteria.
     two sentences.
 
     > (11) Central to the case was a Lewinsky-Tripp conversation that Mrs.
-     Tripp taped on Dec. 22, 1997. This was the last talk between <u>the
-     two women</u> that Mrs. Tripp recorded.
+     Tripp taped on Dec. 22, 1997. This was the last talk between <ins>the
+     two women</ins> that Mrs. Tripp recorded.
 
 2.  It is something in the immediate spatio-temporal context that is
     activated by means of a simultaneous gesture or eye gaze.
 
-    > (12) (looking at the wrench) Please hand me <u>that (wrench</u>
+    > (12) (looking at the wrench) Please hand me <ins>that (wrench</ins>
      (over there))
 
 3.  It is a proposition, fact, or speech act associated with the
@@ -108,11 +108,11 @@ A referent is ACTIVATED if it meets one of the following criteria.
 
     > (13) 
     > A. John fell off his bike.
-    > B. <u>That's</u> not true.
+    > B. <ins>That's</ins> not true.
 
     > (14) 
     > A. John fell off his bike.
-    > B. Can you say <u>that</u> again?
+    > B. Can you say <ins>that</ins> again?
 
 ### 5.2.3 FAMILIAR (`FAMILIAR`)
 
@@ -125,7 +125,7 @@ A referent is FAMILIAR if it meets one of the following criteria.
      ground outside Manila's airport and the passengers were let off
      safely. The jetliner left Davao City, in the southern Phillipines,
      for the 90-minute flight to Manila with 278 passengers and 12 crew
-     aboard, PAL said. <u>The hijacker</u>, wearing a blue ski
+     aboard, PAL said. <ins>The hijacker</ins>, wearing a blue ski
      mask and carrying a handgun...
 
 2.  It can be assumed to be known by the hearer through
@@ -134,8 +134,8 @@ A referent is FAMILIAR if it meets one of the following criteria.
 
     > (16) If one takes a step back and looks at the rest of this week's
      music-group news, the situation looks bad for ugly, unpredictable
-     rock 'n' roll: one of the most popular American rock bands of <u>the
-     90's.</u>
+     rock 'n' roll: one of the most popular American rock bands of <ins>the
+     90's.</ins>
 
 ### 5.2.4 UNIQUELY IDENTIFIABLE (`UNIQUE`)
 
@@ -146,18 +146,18 @@ A referent is UNIQUELY IDENTIFIABLE if it meets one of the following criteria:
 
     > (17) 
     > s: hello can I help you
-    > u: yeah I want t- I want to determine <u>the maximum number of boxcars of</u> <u>oranges that I can get to Bath by 7 a.m. tomorrow morning</u> so hm so I guess all the boxcars will have to go through oran- through Corning because that\'s where the orange juice factory is 
+    > u: yeah I want t- I want to determine <ins>the maximum number of boxcars of</ins> <ins>oranges that I can get to Bath by 7 a.m. tomorrow morning</ins> so hm so I guess all the boxcars will have to go through oran- through Corning because that\'s where the orange juice factory is 
     > \[Trains Corpus. Heeman & Allen 1995\]
 
 2.  A unique referent can be created via a 'bridging inference' by
     association with an already activated referent.(e.g. A house....the
     front door)
 
-    > (18) She got into bed, laid her head on <u>the pillow</u>, and in
+    > (18) She got into bed, laid her head on <ins>the pillow</ins>, and in
      two minutes was sleeping like a child. (From *Murder after Hours*,
      Agatha Christie)
 
-    > (19) (Looking at a box) I think <u>the bottom</u> fell out.
+    > (19) (Looking at a box) I think <ins>the bottom</ins> fell out.
 
 ### 5.2.5 REFERENTIAL (`REF`)
 
@@ -165,20 +165,20 @@ A referent exists, is REFERENTIAL, if it meets one of the following criteria.
 
 1.  It is mentioned subsequently in the discourse.
 
-    > (20) When my youngest child was 3 or so, we were at <u>a
-     friend's</u> house visiting and my friend was babysitting
+    > (20) When my youngest child was 3 or so, we were at <ins>a
+     friend's</ins> house visiting and my friend was babysitting
      her infant nephew.
 
 2.  It is evident from the context that the speaker intends to refer to
     some specific entity.
 
-    > (21) I want to tell you about <u>this strange guy I saw today</u>.
+    > (21) I want to tell you about <ins>this strange guy I saw today</ins>.
 
 ### 5.2.6 TYPE IDENTIFIABLE (`TYPE`)
 
 An interpretation is TYPE IDENTIFIABLE if the sense of the phrase (the descriptive/conceptual content it encodes) is understandable.
 
-> (22) I don't have <u>a VCR</u> and neither does my neighbor.
+> (22) I don't have <ins>a VCR</ins> and neither does my neighbor.
 
-> (23) Whenever Mary passes that store, she always picks up <u>a
-     newspaper</u>.
+> (23) Whenever Mary passes that store, she always picks up <ins>a
+     newspaper</ins>.

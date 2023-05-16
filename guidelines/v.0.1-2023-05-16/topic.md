@@ -31,13 +31,13 @@ Selected CB examples:
 
     > (1.a) * **Susan**  gave Betsy a pet hamster.*
 
-    > (1.b) <u>She</u> reminded her that such hamsters were quite shy.
+    > (1.b) <ins>She</ins> reminded her that such hamsters were quite shy.
 
 - antecedent direct object (main clause, Grosz et al. 1995, ex. 18)
 
     > (2.a) *I'm reading **The French Lieutenant's Woman**.*
     
-    > (2.b) *<u>The book</u>, which is Fowles's best, was a bestseller last year.*
+    > (2.b) *<ins>The book</ins>, which is Fowles's best, was a bestseller last year.*
 
 - antecedent indirect object (main clause, Grosz et al. 1995, ex. 17)
 
@@ -45,16 +45,16 @@ Selected CB examples:
 
     > (3.b) *I took **him** to the vet the other day.*
 
-    > (3.c) *<u>The mangy old beast</u> always hates these visits.*
+    > (3.c) *<ins>The mangy old beast</ins> always hates these visits.*
 
 - antecedent clause
 
     > (4.a) * **John fell off his bike**.*
     
-    > (4.b) *<u>This/it</u> happened yesterday.*
+    > (4.b) *<ins>This/it</ins> happened yesterday.*
 
 - antecedent SUBJECT (dependent clause, Grosz et al. 1995, ex. 2)
     
     > (5.a) *It was a store **John** had frequented for many years.*
     
-    > (5.b) *<u>He</u> was excited that he could finally buy a piano.*
+    > (5.b) *<ins>He</ins> was excited that he could finally buy a piano.*
