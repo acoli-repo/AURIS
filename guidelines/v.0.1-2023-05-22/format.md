@@ -45,7 +45,10 @@ The template file and the target file contain the following columns:
 	- `GR_ANTE`: grammatical role of the antecedent (factor in `IS` and `CB` annotation)
 	- `REF_DIST`: referential distance of the antecedent (factor in `IS` and `CB` annotation)
 	- `REF_DIST_ANTE`: referential distance annotation of the antecedent (factor in `IS` annotation)
-- `COMMENT`: this is a free-text column for annotators to provide information about the annotation (e.g., ambiguity), free-text comments, or pointers to more lengthy descriptions.
+
+	> Note: In the current template file, these columns are *hidden*. They will be faithfully copied if all columns (E to L) are selected as a single block before being applied to (copied and pasted into) the following annotations (see Sect. 2.4). 
+
+- `COMMENT`: this is a free-text column for annotators to provide information about the annotation (e.g., ambiguity), free-text comments, or pointers to more lengthy descriptions. Lengthy comments increase row height, so annotators may want to adjust column width.
 
 | Fig. 1. Template file                              |
 | -------------------------------------------------- |
@@ -137,6 +140,6 @@ In addition to that, you can (and should) use the annotation protocol to keep tr
 
 The annotation protocol should be saved in the same folder as the target file, and (except for the file extension), it should carry the same name.
 
-### 2.4.6 On Evaluation
+## 2.5 On Evaluation
 
 As we rely to some extent on automated pre-annotation, we need to quantify the number of average revisions of pre-annotated values per file and annotator.

@@ -45,11 +45,14 @@ The template file and the target file contain the following columns:
 	- `GR_ANTE`: grammatical role of the antecedent (factor in `IS` and `CB` annotation)
 	- `REF_DIST`: referential distance of the antecedent (factor in `IS` and `CB` annotation)
 	- `REF_DIST_ANTE`: referential distance annotation of the antecedent (factor in `IS` annotation)
-- `COMMENT`: this is a free-text column for annotators to provide information about the annotation (e.g., ambiguity), free-text comments, or pointers to more lengthy descriptions.
+
+	> Note: In the current template file, these columns are *hidden*. They will be faithfully copied if all columns (E to L) are selected as a single block before being applied to (copied and pasted into) the following annotations (see Sect. 2.4). 
+
+- `COMMENT`: this is a free-text column for annotators to provide information about the annotation (e.g., ambiguity), free-text comments, or pointers to more lengthy descriptions. Lengthy comments increase row height, so annotators may want to adjust column width.
 
 | Fig. 1. Template file                              |
 | -------------------------------------------------- |
-| [!Screenshot from template file](https://github.com/acoli-repo/acoli-is-corpus/blob/main/guidelines/draft/img/template.png?token=GHSAT0AAAAAACA6OZ4DFU2UMLAHARK3IFPYZDDWBBA&raw=true) |
+| [!Screenshot from template file](img/template.png) |
 
 Open your new file `xyz.xlsx` in your preferred spreadsheet software. You can use any tool you like, but it **must** support reading and writing MS Excel 365 files (`*.xlsx`) and they **should** support Excel formulas. Possible tools include MS Office tools, LibreOffice/OpenOffice, Google Spreadsheet (in Google Docs), etc. If you have difficulties using or getting these tools, please get in touch with your instructor.
 
@@ -69,7 +72,7 @@ After copying the pre-annotated data into the target file, you need to copy the 
 
 | Fig. 2. Target file                            |
 | ---------------------------------------------- |
-| [!Screenshot from target file](https://github.com/acoli-repo/acoli-is-corpus/blob/main/guidelines/draft/img/target.png?token=GHSAT0AAAAAACA6OZ4DFU2UMLAHARK3IFPYZDDWBBA&raw=true) |
+| [!Screenshot from target file](img/target.png) |
 
 ## 2.4 Annotation Procedure
 

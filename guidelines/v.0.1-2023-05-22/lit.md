@@ -1,6 +1,6 @@
 # A. Supplemental
 
-# A.1 Notes
+## A.1 Notes
 
 1. [Background and Terminology](terms.md)
 
@@ -33,6 +33,8 @@
 	- <a name="coref7">7</a>: Abbreviated `ambig-ante` in Chiarcos and Krasavina (2005)
 
 5. [Information status](information-status.md)
+
+	- <a name="is1">1</a> In the context of information structure, the naming "in focus" or "focus" for the state with maximum givenness is very unfortunately. We stick with Gundel et al.'s terminology, but keep in mind that we are talking about the focus of attention here, not focus in the information-structural sense.
 
 6. [Topic](topic.md)
 

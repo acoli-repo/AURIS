@@ -23,11 +23,9 @@ Stop when you find a criterion that applies. This is the highest information sta
 
 After annotating all referents of the current sentence, annotate the CB (backward-looking center, familiarity topic) according to Centering Theory (Grosz et al. 1995).
 
-## 5.2 Statuses and Criteria (`IS`)
+### 5.2 IN FOCUS (`IS`=`FOCUS`)
 
-### 5.2.1 IN FOCUS (`FOCUS`)
-
-A referent is IN FOCUS if it meets at least one of the following criteria:
+A referent is IN FOCUS<sup>[1](lit.md#is1)</sup> if it meets at least one of the following criteria:
 
 1.  It is the interpretation of the main clause subject or the syntactic
     topic in the immediately preceding sentence/clause (syntactic topics

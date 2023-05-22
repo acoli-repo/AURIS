@@ -7,7 +7,7 @@ At the moment, it comprises guidelines for
 - the automated annotation of referring expressions, 
 - the manual annotation of coreference, 
 - the manual annotation of information status ("givenness"), and
-- the manual annotation of familiarity topics ("backward-looking centers"),#
+- the manual annotation of familiarity topics ("backward-looking centers").
 
 The extension to other aspects of information structure is foreseen, but has not been implemented so far.
 
