@@ -1,78 +1,78 @@
 # text = talkid: 2150
-talkid	other	INDEF_NP		
+talkid	other	indef-np.quant		
 :				
 2150			
 
 # text = Dave Troy: Social maps that reveal a city's intersections and separations
-Dave	other	NAME	?OLD	
+Dave	other	ne	?OLD	
 Troy				
 :				
 Social				
-maps	other	INDEF_NP		
-that	subj_3			
+maps	other	indef-np.bare		
+that	SBJ_3			
 reveal				
 a				
-city	other_4	INDEF_NP		
+city	other_4	indef-np.a		
 's				
-intersections	obj_3	POSS_NP	?OLD	
+intersections	OBJ_3	def-np.poss	?OLD	
 and				
-separations	other_4	INDEF_NP	
+separations	other_4	indef-np.bare	
 
 # text = When we think about mapping cities, we tend to think about roads and streets and buildings, and the settlement narrative that led to their creation, or you might think about the bold vision of an urban designer, but there's other ways to think about mapping cities and how they got to be made.
 When				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 think				
 about				
 mapping				
-cities	obj_3	INDEF_NP		
+cities	OBJ_3	indef-np.bare		
 ,				
-we	subj	PPER	?OLD	
+we	SBJ	pron.pper	?OLD	
 tend				
 to				
 think				
 about				
-roads	other_2	INDEF_NP		
+roads	other_2	indef-np.bare		
 and				
-streets	other_3	INDEF_NP		
+streets	other_3	indef-np.bare		
 and				
-buildings	other_3	INDEF_NP		
+buildings	other_3	indef-np.bare		
 ,				
 and				
 the				
 settlement				
-narrative	other	DEF_NP	?OLD	
-that	subj_3			
+narrative	other	def-np.the	?OLD	
+that	SBJ_3			
 led				
 to				
-their	other_4	PPOSS	?OLD	
-creation	other_3	POSS_NP	?OLD	
+their	other_4	pron.ppos	?OLD	
+creation	other_3	def-np.poss	?OLD	
 ,				
 or				
-you	subj_2	PPER	?OLD	
+you	SBJ_2	pron.pper	?OLD	
 might				
 think				
 about				
 the				
 bold				
-vision	other_2	DEF_NP	?OLD	
+vision	other_2	def-np.the	?OLD	
 of				
 an				
 urban				
-designer	other_3	INDEF_NP		
+designer	other_3	indef-np.a		
 ,				
 but				
 there				
 's				
 other				
-ways	subj_2	INDEF_NP		
+ways	SBJ_2	indef-np.bare		
 to				
 think				
 about				
 mapping				
-cities	obj_5	INDEF_NP		
+cities	OBJ_5	indef-np.bare		
 and				
 how				
-they	subj_6	PPER	?OLD	
+they	SBJ_6	pron.pper	?OLD	
 got				
 to				
 be				
@@ -80,116 +80,116 @@ made
 .			
 
 # text = Today, I want to show you a new kind of map.
-Today	other	INDEF_NP		
+Today	other	indef-np.bare		
 ,				
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 want				
 to				
 show				
-you	obj_2	PPER	?OLD	
+you	OBJ_2	pron.pper	?OLD	
 a				
 new				
-kind	obj_2	INDEF_NP		
+kind	OBJ_2	indef-np.a		
 of				
-map	other_3	INDEF_NP		
+map	other_3	indef-np.bare		
 .			
 
 # text = This is not a geographic map.
-This	subj	PDEM	?OLD	
+This	SBJ	pron.pds	?OLD	
 is				
 not				
 a				
 geographic				
-map	other	INDEF_NP		
+map	other	indef-np.a		
 .			
 
 # text = This is a map of the relationships between people in my hometown of Baltimore, Maryland, and what you can see here is that each dot represents a person, each line represents a relationship between those people, and each color represents a community within the network.
-This	subj	PDEM	?OLD	
+This	SBJ	pron.pds	?OLD	
 is				
 a				
-map	other	POSS_NP	?OLD	
+map	other	indef-np.a		
 of				
 the				
-relationships	other	DEF_NP	?OLD	
+relationships	other	def-np.the	?OLD	
 between				
-people	other_2	INDEF_NP		
+people	other_2	indef-np.bare		
 in				
-my	other_4	PPOSS	?OLD	
-hometown	other_3	POSS_NP	?OLD	
+my	other_4	pron.ppos	?OLD	
+hometown	other_3	def-np.poss	?OLD	
 of				
-Baltimore	other_4	NAME	?OLD	
+Baltimore	other_4	ne	?OLD	
 ,				
-Maryland	other_5	NAME	?OLD	
+Maryland	other_5	ne	?OLD	
 ,				
 and				
-what	subj_2			
-you	subj_4	PPER	?OLD	
+what	SBJ_2	pron.pint		
+you	SBJ_4	pron.pper	?OLD	
 can				
 see				
 here				
 is				
 that				
 each				
-dot	subj_3	INDEF_NP		
+dot	SBJ_3	indef-np		
 represents				
 a				
-person	obj_3	INDEF_NP		
+person	OBJ_3	indef-np.a		
 ,				
 each				
-line	subj_5	INDEF_NP		
+line	SBJ_5	indef-np		
 represents				
 a				
-relationship	obj_5	INDEF_NP		
+relationship	OBJ_5	indef-np.a		
 between				
 those				
-people	other_6	DEM_NP	?OLD	
+people	other_6	def-np.dem	?OLD	
 ,				
 and				
 each				
-color	subj_6	INDEF_NP		
+color	SBJ_6	indef-np		
 represents				
 a				
-community	obj_6	INDEF_NP		
+community	OBJ_6	indef-np.a		
 within				
 the				
-network	other_6	DEF_NP	?OLD	
+network	other_6	def-np.the	?OLD	
 .			
 
 # text = Now, I'm here on the green side, down on the far right where the geeks are, and TEDx also is down on the far right.
 Now				
 ,				
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 'm				
-here				
+here	other	pron.padv	?OLD	
 on				
 the				
 green				
-side	other	DEF_NP	?OLD	
+side	other	def-np.the	?OLD	
 ,				
 down				
 on				
 the				
 far				
-right	other_2	DEF_NP	?OLD	
+right	other_2	def-np.the	?OLD	
 where				
 the				
-geeks	subj_4	DEF_NP	?OLD	
+geeks	SBJ_4	def-np.the	?OLD	
 are				
 ,				
 and				
-TEDx	subj_2	NAME	?OLD	
+TEDx	SBJ_2	ne	?OLD	
 also				
 is				
 down				
 on				
 the				
 far				
-right	other_2	other		
+right				
 .			
 
 # text = (Laughter)
 (				
-Laughter	other	NAME	?OLD	
+Laughter	other	ne	?OLD	
 )			
 
 # text = Now, on the other side of the network, you tend to have primarily African-American and Latino folks who are really concerned about somewhat different things than the geeks are, but just to give some sense, the green part of the network we call Smalltimore, for those of us that inhabit it, because it seems as though we're living in a very small town.
@@ -198,12 +198,12 @@ Now
 on				
 the				
 other				
-side	other	DEF_NP	?OLD	
+side	other	def-np.the.other	?OLD	
 of				
 the				
-network	other_2	DEF_NP	?OLD	
+network	other_2	def-np.the	?OLD	
 ,				
-you	subj	PPER	?OLD	
+you	SBJ	pron.pper	?OLD	
 tend				
 to				
 have				
@@ -213,18 +213,18 @@ _
 American				
 and				
 Latino				
-folks	obj_2	INDEF_NP		
-who	subj_4			
+folks	OBJ_2	indef-np.bare		
+who	SBJ_4			
 are				
 really				
 concerned				
 about				
 somewhat				
 different				
-things	other_4	INDEF_NP		
+things	other_4	indef-np.bare		
 than				
 the				
-geeks	other_5	DEF_NP	?OLD	
+geeks	other_5	def-np.the	?OLD	
 are				
 ,				
 but				
@@ -232,95 +232,95 @@ just
 to				
 give				
 some				
-sense	obj_3	INDEF_NP		
+sense	OBJ_3	indef-np.quant		
 ,				
 the				
 green				
-part	obj_3	DEF_NP	?OLD	
+part	OBJ_3	def-np.the	?OLD	
 of				
 the				
-network	other_4	DEF_NP	?OLD	
-we	subj_6	PPER	?OLD	
+network	other_4	def-np.the	?OLD	
+we	SBJ_6	pron.pper	?OLD	
 call				
-Smalltimore	obj_6	NAME	?OLD	
+Smalltimore	OBJ_6	ne	?OLD	
 ,				
 for				
-those	other_2	PDEM	?OLD	
+those	other_2	pron.pds	?OLD	
 of				
-us	other_3	PPER	?OLD	
-that	subj_4			
+us	other_3	pron.pper	?OLD	
+that	SBJ_4			
 inhabit				
-it	obj_4	PPER	?OLD	
+it	OBJ_4	pron.pper	?OLD	
 ,				
 because				
-it	subj_3	PPER	?OLD	
+it	SBJ_3	pron.pper	?OLD	
 seems				
 as				
 though				
-we	subj_4	PPER	?OLD	
+we	SBJ_4	pron.pper	?OLD	
 're				
 living				
 in				
 a				
 very				
 small				
-town	other_4	INDEF_NP		
+town	other_4	indef-np.a		
 .			
 
 # text = We see the same people over and over again, but that's because we're not really exploring the full depth and breadth of the city.
-We	subj	PPER	?OLD	
+We	SBJ	pron.pper	?OLD	
 see				
 the				
 same				
-people	obj	DEF_NP	?OLD	
+people	OBJ	def-np.the	?OLD	
 over				
 and				
 over				
 again				
 ,				
 but				
-that	subj_2	PDEM	?OLD	
+that	SBJ_2	pron.pds	?OLD	
 's				
 because				
-we	subj_3	PPER	?OLD	
+we	SBJ_3	pron.pper	?OLD	
 're				
 not				
 really				
 exploring				
 the				
 full				
-depth	obj_3	DEF_NP	?OLD	
+depth	OBJ_3	def-np.the	?OLD	
 and				
-breadth	other_4	INDEF_NP		
+breadth	other_4	indef-np.bare		
 of				
 the				
-city	other_4	DEF_NP	?OLD	
+city	other_4	def-np.the	?OLD	
 .			
 
 # text = On the other end of the network, you have folks who are interested in things like hip-hop music and they even identify with living in the DC/Maryland/Virginia area over, say, the Baltimore city designation proper.
 On				
 the				
 other				
-end	other	DEF_NP	?OLD	
+end	other	def-np.the.other	?OLD	
 of				
 the				
-network	other_2	DEF_NP	?OLD	
+network	other_2	def-np.the	?OLD	
 ,				
-you	subj	PPER	?OLD	
+you	SBJ	pron.pper	?OLD	
 have				
-folks	obj	INDEF_NP		
-who	subj_3			
+folks	OBJ	indef-np.bare		
+who	SBJ_3			
 are				
 interested				
 in				
-things	other_3	INDEF_NP		
+things	other_3	indef-np.bare		
 like				
 hip				
 _				
 hop				
-music	other_4	INDEF_NP		
+music	other_4	indef-np.bare		
 and				
-they	subj_4	PPER	?OLD	
+they	SBJ_4	pron.pper	?OLD	
 even				
 identify				
 with				
@@ -329,10 +329,10 @@ in
 the				
 DC				
 /				
-Maryland	other_7	NAME	?OLD	
+Maryland	other_7	ne	?OLD	
 /				
-Virginia	other_8	NAME	?OLD	
-area	other_5	DEF_NP	?OLD	
+Virginia	other_8	ne	?OLD	
+area	other_5	def-np.the	?OLD	
 over				
 ,				
 say				
@@ -340,7 +340,7 @@ say
 the				
 Baltimore				
 city				
-designation	other	DEF_NP	?OLD	
+designation	other	def-np.the	?OLD	
 proper				
 .			
 
@@ -348,103 +348,103 @@ proper
 But				
 in				
 the				
-middle	other	DEF_NP	?OLD	
+middle	other	def-np.the	?OLD	
 ,				
-you	subj	PPER	?OLD	
+you	SBJ	pron.pper	?OLD	
 see				
 that				
 there				
 's				
-something	subj_2	PPER	?OLD	
-that	subj_4			
+something	SBJ_2	pron	?OLD	
+that	SBJ_4			
 connects				
 the				
 two				
-communities	obj_4	DEF_NP	?OLD	
+communities	OBJ_4	def-np.quant	?OLD	
 together				
 ,				
 and				
-that	subj_2	PDEM	?OLD	
+that	SBJ_2	pron.pds	?OLD	
 's				
-sports	other	INDEF_NP		
+sports	other	indef-np.bare		
 .			
 
 # text = We have the Baltimore Orioles, the Baltimore Ravens football team, Michael Phelps, the Olympian.
-We	subj	PPER	?OLD	
+We	SBJ	pron.pper	?OLD	
 have				
 the				
 Baltimore				
-Orioles	obj	NAME	?OLD	
+Orioles	OBJ	ne	?OLD	
 ,				
 the				
 Baltimore				
 Ravens				
 football				
-team	other_2	DEF_NP	?OLD	
+team	other_2	def-np.the	?OLD	
 ,				
-Michael	other_2	NAME	?OLD	
+Michael	other_2	ne	?OLD	
 Phelps				
 ,				
 the				
-Olympian	other_2	NAME	?OLD	
+Olympian	other_2	ne	?OLD	
 .			
 
 # text = Under Armour, you may have heard of, is a Baltimore company, and that community of sports acts as the only bridge between these two ends of the network.
 Under				
-Armour	other	NAME	?OLD	
+Armour	other	ne	?OLD	
 ,				
-you	subj	PPER	?OLD	
+you	SBJ	pron.pper	?OLD	
 may				
 have				
 heard				
-of	other	other		
+of				
 ,				
 is				
 a				
 Baltimore				
-company	other	INDEF_NP		
+company	other	indef-np.a		
 ,				
 and				
 that				
-community	other	DEM_NP	?OLD	
+community	other	def-np.dem	?OLD	
 of				
 sports				
-acts	other_2	INDEF_NP		
+acts	other_2	indef-np.bare		
 as				
 the				
 only				
-bridge	other	DEF_NP	?OLD	
+bridge	other	def-np.the	?OLD	
 between				
 these				
 two				
-ends	other_2	DEM_NP	?OLD	
+ends	other_2	def-np.dem	?OLD	
 of				
 the				
-network	other_3	DEF_NP	?OLD	
+network	other_3	def-np.the	?OLD	
 .			
 
 # text = Let's take a look at San Francisco.
 Let				
-'s	obj	PPER	?OLD	
+'s	OBJ	pron.pper	?OLD	
 take				
 a				
-look	obj_2	INDEF_NP		
+look	OBJ_2	indef-np.a		
 at				
-San	other_3	NAME	?OLD	
+San	other_3	ne	?OLD	
 Francisco				
 .			
 
 # text = You see something a little bit different happening in San Francisco.
-You	subj	PPER	?OLD	
+You	SBJ	pron.pper	?OLD	
 see				
-something	obj	PPER	?OLD	
+something	OBJ	pron	?OLD	
 a				
 little				
-bit	other_3	INDEF_NP		
+bit	other_3	indef-np.a		
 different				
 happening				
 in				
-San	other_3	NAME	?OLD	
+San	other_3	ne	?OLD	
 Francisco				
 .			
 
@@ -452,102 +452,102 @@ Francisco
 On				
 the				
 one				
-hand	other	DEF_NP	?OLD	
+hand	other	def-np.quant	?OLD	
 ,				
-you	subj	PPER	?OLD	
+you	SBJ	pron.pper	?OLD	
 do				
 have				
 the				
-media	obj	DEF_NP	?OLD	
+media	OBJ	def-np.the	?OLD	
 ,				
-politics	other_2	INDEF_NP		
+politics	other_2	indef-np.bare		
 and				
 news				
-lobe	other_2	INDEF_NP		
-that	subj_3			
+lobe	other_2	indef-np.bare		
+that	SBJ_3			
 tends				
 to				
 exist				
 in				
-Baltimore	other_4	NAME	?OLD	
+Baltimore	other_4	ne	?OLD	
 and				
 other				
-cities	other_5	INDEF_NP		
+cities	other_5	indef-np.bare		
 ,				
 but				
-you	subj_2	PPER	?OLD	
+you	SBJ_2	pron.pper	?OLD	
 also				
 have				
-this	obj_2	PDEM	?OLD	
+this	OBJ_2	pron.pds	?OLD	
 very				
 predominant				
-group	obj_2	INDEF_NP		
+group	OBJ_2	indef-np.bare		
 of				
-geeks	other_3	INDEF_NP		
+geeks	other_3	indef-np.bare		
 and				
-techies	other_4	INDEF_NP		
-that	subj_4			
+techies	other_4	indef-np.bare		
+that	SBJ_4			
 are				
-sort	other_3	INDEF_NP		
+sort	other_3	indef-np.bare		
 of				
 taking				
 over				
 the				
 top				
-half	obj_5	DEF_NP	?OLD	
+half	OBJ_5	def-np.the	?OLD	
 of				
 the				
-network	other_5	DEF_NP	?OLD	
+network	other_5	def-np.the	?OLD	
 ,				
 and				
 there				
 's				
 even				
 a				
-group	subj_4	INDEF_NP		
-that	subj_6			
+group	SBJ_4	indef-np.a		
+that	SBJ_6			
 's				
 so				
 distinct				
 and				
 clear				
 that				
-we	subj_8	PPER	?OLD	
+we	SBJ_8	pron.pper	?OLD	
 can				
 identify				
-it	obj_8	PPER	?OLD	
+it	OBJ_8	pron.pper	?OLD	
 as				
 Twitter				
-employees	other_8	INDEF_NP		
+employees	other_8	indef-np.bare		
 ,				
 next				
 to				
 the				
-geeks	other_9	DEF_NP	?OLD	
+geeks	other_9	def-np.the	?OLD	
 ,				
 in				
 between				
 the				
-gamers	other_8	DEF_NP	?OLD	
+gamers	other_8	def-np.the	?OLD	
 and				
 the				
-geeks	other_9	DEF_NP	?OLD	
+geeks	other_9	def-np.the	?OLD	
 ,				
 at				
 the				
 opposite				
-end	other_4	DEF_NP	?OLD	
+end	other_4	def-np.the	?OLD	
 of				
 the				
-hip	other_5	DEF_NP	?OLD	
+hip	other_5	def-np.the	?OLD	
 _				
 hop				
-spectrum	obj_3	INDEF_NP		
+spectrum	OBJ_3	indef-np.bare		
 .			
 
 # text = So you can see, though, that the tensions that we've heard about in San Francisco in terms of people being concerned about gentrification and all the new tech companies that are bringing new wealth and settlement into the city are real, and you can actually see that documented here.
 So				
-you	subj	PPER	?OLD	
+you	SBJ	pron.pper	?OLD	
 can				
 see				
 ,				
@@ -555,44 +555,44 @@ though
 ,				
 that				
 the				
-tensions	subj_2	DEF_NP	?OLD	
-that	obj_4			
-we	subj_4	PPER	?OLD	
+tensions	SBJ_2	def-np.the	?OLD	
+that	OBJ_4			
+we	SBJ_4	pron.pper	?OLD	
 've				
 heard				
 about				
 in				
-San	other_4	NAME	?OLD	
+San	other_4	ne	?OLD	
 Francisco				
 in				
-terms	other_3	INDEF_NP		
+terms	other_3	indef-np.bare		
 of				
-people	other_4	INDEF_NP		
+people	other_4	indef-np.bare		
 being				
 concerned				
 about				
-gentrification	other_6	INDEF_NP		
+gentrification	other_6	indef-np.bare		
 and				
 all				
 the				
 new				
 tech				
-companies	other_7	DEF_NP	?OLD	
-that	subj_9			
+companies	other_7	def-np.the	?OLD	
+that	SBJ_9			
 are				
 bringing				
 new				
-wealth	obj_9	INDEF_NP		
+wealth	OBJ_9	indef-np.bare		
 and				
-settlement	other_10	INDEF_NP		
+settlement	other_10	indef-np.bare		
 into				
 the				
-city	other_9	DEF_NP	?OLD	
+city	other_9	def-np.the	?OLD	
 are				
 real				
 ,				
 and				
-you	subj_3	PPER	?OLD	
+you	SBJ_3	pron.pper	?OLD	
 can				
 actually				
 see				
@@ -602,12 +602,12 @@ here
 .			
 
 # text = You can see the LGBT community is not really getting along with the geek community that well, the arts community, the music community.
-You	subj	PPER	?OLD	
+You	SBJ	pron.pper	?OLD	
 can				
 see				
 the				
 LGBT				
-community	obj	DEF_NP	?OLD	
+community	OBJ	def-np.the	?OLD	
 is				
 not				
 really				
@@ -616,28 +616,28 @@ along
 with				
 the				
 geek				
-community	other_2	DEF_NP	?OLD	
+community	other_2	def-np.the	?OLD	
 that				
 well				
 ,				
 the				
 arts				
-community	obj_2	DEF_NP	?OLD	
+community	OBJ_2	def-np.the	?OLD	
 ,				
 the				
 music				
-community	obj	DEF_NP	?OLD	
+community	OBJ	def-np.the	?OLD	
 .			
 
 # text = And so it leads to things like this.
 And				
 so				
-it	subj	PPER	?OLD	
+it	SBJ	pron.pper	?OLD	
 leads				
 to				
-things	other	INDEF_NP		
+things	other	indef-np.bare		
 like				
-this	other_2	PDEM	?OLD	
+this	other_2	pron.pds	?OLD	
 .			
 
 --
@@ -645,38 +645,38 @@ this	other_2	PDEM	?OLD
 [				
 &quot;				
 Evict				
-Twitter	other	NAME	?OLD	
+Twitter	other	ne	?OLD	
 &quot;				
 ]			
 
 # text = Somebody sent me this photo a few weeks ago, and it shows what is happening on the ground in San Francisco, and I think you can actually try to understand that through looking at a map like this.
-Somebody	subj	PPER	?OLD	
+Somebody	SBJ	pron	?OLD	
 sent				
-me	obj	PPER	?OLD	
+me	OBJ	pron.pper	?OLD	
 this				
-photo	obj	DEM_NP	?OLD	
+photo	OBJ	def-np.dem	?OLD	
 a				
 few				
-weeks	other_2	INDEF_NP		
+weeks	other_2	indef-np.a		
 ago				
 ,				
 and				
-it	subj_2	PPER	?OLD	
+it	SBJ_2	pron.pper	?OLD	
 shows				
-what	subj_3			
+what	SBJ_3	pron.pint		
 is				
 happening				
 on				
 the				
-ground	other_3	DEF_NP	?OLD	
+ground	other_3	def-np.the	?OLD	
 in				
-San	other_4	NAME	?OLD	
+San	other_4	ne	?OLD	
 Francisco				
 ,				
 and				
-I	subj_2	PPER	?OLD	
+I	SBJ_2	pron.pper	?OLD	
 think				
-you	subj_3	PPER	?OLD	
+you	SBJ_3	pron.pper	?OLD	
 can				
 actually				
 try				
@@ -687,51 +687,51 @@ through
 looking				
 at				
 a				
-map	other_5	INDEF_NP		
+map	other_5	indef-np.a		
 like				
-this	other_6	PDEM	?OLD	
+this	other_6	pron.pds	?OLD	
 .			
 
 # text = Let's take a look at Rio de Janeiro.
 Let				
-'s	obj	PPER	?OLD	
+'s	OBJ	pron.pper	?OLD	
 take				
 a				
-look	obj_2	INDEF_NP		
+look	OBJ_2	indef-np.a		
 at				
 Rio				
 de				
-Janeiro	other_3	NAME	?OLD	
+Janeiro	other_3	ne	?OLD	
 .			
 
 # text = I spent the last few weeks gathering data about Rio, and one of the things that stood out to me about this city is that everything's really kind of mixed up.
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 spent				
 the				
 last				
 few				
-weeks	obj	DEF_NP	?OLD	
+weeks	OBJ	def-np.the	?OLD	
 gathering				
-data	obj_3	INDEF_NP		
+data	OBJ_3	indef-np.bare		
 about				
-Rio	other_4	NAME	?OLD	
+Rio	other_4	ne	?OLD	
 ,				
 and				
-one	subj_2	POSS_NP	?OLD	
+one	SBJ_2			
 of				
 the				
-things	other_3	DEF_NP	?OLD	
-that	subj_5			
+things	other_3	def-np.the	?OLD	
+that	SBJ_5			
 stood				
 out				
 to				
-me	other_5	PPER	?OLD	
+me	other_5	pron.pper	?OLD	
 about				
 this				
-city	other_5	DEM_NP	?OLD	
+city	other_5	def-np.dem	?OLD	
 is				
 that				
-everything	subj_3	PPER	?OLD	
+everything	SBJ_3	pron	?OLD	
 's				
 really				
 kind				
@@ -741,89 +741,89 @@ up
 .			
 
 # text = It's a very heterogenous city in a way that Baltimore or San Francisco is not.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 's				
 a				
 very				
 heterogenous				
-city	other	INDEF_NP		
+city	other	indef-np.a		
 in				
 a				
-way	other	INDEF_NP		
+way	other	indef-np.a		
 that				
 Baltimore				
 or				
-San	other_5	NAME	?OLD	
-Francisco	subj_3	NAME	?OLD	
+San	other_5	ne	?OLD	
+Francisco	SBJ_3	ne	?OLD	
 is				
 not				
 .			
 
 # text = You still have the lobe of people involved with government, newspapers, politics, columnists.
-You	subj	PPER	?OLD	
+You	SBJ	pron.pper	?OLD	
 still				
 have				
 the				
-lobe	obj	DEF_NP	?OLD	
+lobe	OBJ	def-np.the	?OLD	
 of				
-people	other_2	INDEF_NP		
+people	other_2	indef-np.bare		
 involved				
 with				
-government	other_2	INDEF_NP		
+government	other_2	indef-np.bare		
 ,				
-newspapers	other_3	INDEF_NP		
+newspapers	other_3	indef-np.bare		
 ,				
-politics	other_3	INDEF_NP		
+politics	other_3	indef-np.bare		
 ,				
-columnists	other_3	INDEF_NP		
+columnists	other_3	indef-np.bare		
 .			
 
 # text = TEDxRio is down in the lower right, right next to bloggers and writers.
 TEDx				
-Rio	subj	NAME	?OLD	
+Rio	SBJ	ne	?OLD	
 is				
 down				
 in				
 the				
 lower				
-right	other	other		
+right				
 ,				
 right				
 next				
 to				
-bloggers	other_2	INDEF_NP		
+bloggers	other_2	indef-np.bare		
 and				
-writers	other_3	INDEF_NP		
+writers	other_3	indef-np.bare		
 .			
 
 # text = But then you also have this tremendous diversity of people that are interested in different kinds of music.
 But				
 then				
-you	subj	PPER	?OLD	
+you	SBJ	pron.pper	?OLD	
 also				
 have				
 this				
 tremendous				
-diversity	obj	DEM_NP	?OLD	
+diversity	OBJ	def-np.dem	?OLD	
 of				
-people	other_2	INDEF_NP		
-that	subj_3			
+people	other_2	indef-np.bare		
+that	SBJ_3			
 are				
 interested				
 in				
 different				
-kinds	other_3	INDEF_NP		
+kinds	other_3	indef-np.bare		
 of				
-music	other_4	INDEF_NP		
+music	other_4	indef-np.bare		
 .			
 
 # text = Even Justin
 Even				
-Justin	other	NAME	?OLD
+Justin	other	ne	?OLD
 
 # text = Bieber fans are represented here.
 Bieber				
-fans	subj	INDEF_NP		
+fans	SBJ	indef-np.bare		
 are				
 represented				
 here				
@@ -832,22 +832,22 @@ here
 # text = Other boy bands, country singers, gospel music, funk and rap and stand-up comedy, and there's even a whole section around drugs and jokes.
 Other				
 boy				
-bands	other	INDEF_NP		
+bands	other	indef-np.bare		
 ,				
 country				
-singers	other	INDEF_NP		
+singers	other	indef-np.bare		
 ,				
 gospel				
-music	other	INDEF_NP		
+music	other	indef-np.bare		
 ,				
-funk	other	INDEF_NP		
+funk	other	indef-np.bare		
 and				
-rap	other	INDEF_NP		
+rap	other	indef-np.bare		
 and				
 stand				
 _				
 up				
-comedy	other	INDEF_NP		
+comedy	other	indef-np.bare		
 ,				
 and				
 there				
@@ -855,18 +855,18 @@ there
 even				
 a				
 whole				
-section	subj_2	INDEF_NP		
+section	SBJ_2	indef-np.a		
 around				
-drugs	other_3	INDEF_NP		
+drugs	other_3	indef-np.bare		
 and				
-jokes	other_4	INDEF_NP		
+jokes	other_4	indef-np.bare		
 .			
 
 # text = How cool is that?
 How				
 cool				
 is				
-that	subj	PDEM	?OLD	
+that	SBJ	pron.pds	?OLD	
 ?			
 
 # text = And then the Flamengo football team is also represented here.
@@ -875,7 +875,7 @@ then
 the				
 Flamengo				
 football				
-team	subj	DEF_NP	?OLD	
+team	SBJ	def-np.the	?OLD	
 is				
 also				
 represented				
@@ -884,44 +884,44 @@ here
 
 # text = So you have that same kind of spread of sports and civics and the arts and music, but it's represented in a very different way, and I think that maybe fits with our understanding of Rio as being a very multicultural, musically diverse city.
 So				
-you	subj	PPER	?OLD	
+you	SBJ	pron.pper	?OLD	
 have				
 that				
 same				
-kind	obj	DEM_NP	?OLD	
+kind	OBJ	def-np.dem	?OLD	
 of				
-spread	other_2	INDEF_NP		
+spread	other_2	indef-np.bare		
 of				
-sports	other_3	INDEF_NP		
+sports	other_3	indef-np.bare		
 and				
-civics	other_4	INDEF_NP		
+civics	other_4	indef-np.bare		
 and				
 the				
-arts	other	DEF_NP	?OLD	
+arts	other	def-np.the	?OLD	
 and				
-music	other_2	INDEF_NP		
+music	other_2	indef-np.bare		
 ,				
 but				
-it	subj_2	PPER	?OLD	
+it	SBJ_2	pron.pper	?OLD	
 's				
 represented				
 in				
 a				
 very				
 different				
-way	other_2	INDEF_NP		
+way	other_2	indef-np.a		
 ,				
 and				
-I	subj_2	PPER	?OLD	
+I	SBJ_2	pron.pper	?OLD	
 think				
 that				
 maybe				
 fits				
 with				
-our	other_4	PPOSS	?OLD	
-understanding	other_3	POSS_NP	?OLD	
+our	other_4	pron.ppos	?OLD	
+understanding	other_3	def-np.poss	?OLD	
 of				
-Rio	other_4	NAME	?OLD	
+Rio	other_4	ne	?OLD	
 as				
 being				
 a				
@@ -930,32 +930,32 @@ multicultural
 ,				
 musically				
 diverse				
-city	other_3	INDEF_NP		
+city	other_3	indef-np.a		
 .			
 
 # text = So we have all this data.
 So				
-we	subj	PPER	?OLD	
+we	SBJ	pron.pper	?OLD	
 have				
 all				
 this				
-data	obj	DEM_NP	?OLD	
+data	OBJ	def-np.dem	?OLD	
 .			
 
 # text = It's an incredibly rich set of data that we have about cities now, maybe even richer than any data set that we've ever had before.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 's				
 an				
 incredibly				
 rich				
-set	other	INDEF_NP		
+set	other	indef-np.a		
 of				
-data	other	INDEF_NP		
+data	other	indef-np.bare		
 that				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 have				
 about				
-cities	other	INDEF_NP		
+cities	other	indef-np.bare		
 now				
 ,				
 maybe				
@@ -964,9 +964,9 @@ richer
 than				
 any				
 data				
-set	other_2	INDEF_NP		
-that	obj_4			
-we	subj_4	PPER	?OLD	
+set	other_2	indef-np.a		
+that	OBJ_4			
+we	SBJ_4	pron.pper	?OLD	
 've				
 ever				
 had				
@@ -975,84 +975,84 @@ before
 
 # text = So what can we do with it?
 So				
-what	obj_2			
+what	OBJ_2	pron.pint		
 can				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 do				
 with				
-it	other_2	PPER	?OLD	
+it	other_2	pron.pper	?OLD	
 ?			
 
 # text = Well, I think the first thing that we can try to understand is that segregation is a social construct.
 Well				
 ,				
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 think				
 the				
 first				
-thing	subj_2	DEF_NP	?OLD	
-that	obj_4			
-we	subj_4	PPER	?OLD	
+thing	SBJ_2	def-np.the	?OLD	
+that	OBJ_4			
+we	SBJ_4	pron.pper	?OLD	
 can				
 try				
 to				
 understand				
 is				
 that				
-segregation	subj_3	INDEF_NP		
+segregation	SBJ_3	indef-np.bare		
 is				
 a				
 social				
-construct	other_2	INDEF_NP		
+construct	other_2	indef-np.a		
 .			
 
 # text = It's something that we choose to do, and we could choose not to do it, and if you kind of think about it, what we're doing with this data is aiming a space telescope at a city and looking at it as if was a giant high school cafeteria, and seeing how everybody arranged themselves in a seating chart.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 's				
-something	other	PPER	?OLD	
-that	obj_2			
-we	subj_2	PPER	?OLD	
+something	other	pron	?OLD	
+that	OBJ_2			
+we	SBJ_2	pron.pper	?OLD	
 choose				
 to				
 do				
 ,				
 and				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 could				
 choose				
 not				
 to				
 do				
-it	obj_3	PPER	?OLD	
+it	OBJ_3	pron.pper	?OLD	
 ,				
 and				
 if				
-you	subj_2	PPER	?OLD	
+you	SBJ_2	pron.pper	?OLD	
 kind				
 of				
 think				
 about				
-it	other_2	PPER	?OLD	
+it	other_2	pron.pper	?OLD	
 ,				
-what	subj_3			
-we	subj_5	PPER	?OLD	
+what	SBJ_3	pron.pint		
+we	SBJ_5	pron.pper	?OLD	
 're				
 doing				
 with				
 this				
-data	other_5	DEM_NP	?OLD	
+data	other_5	def-np.dem	?OLD	
 is				
 aiming				
 a				
 space				
-telescope	obj_3	INDEF_NP		
+telescope	OBJ_3	indef-np.a		
 at				
 a				
-city	other_3	INDEF_NP		
+city	other_3	indef-np.a		
 and				
 looking				
 at				
-it	other_4	PPER	?OLD	
+it	other_4	pron.pper	?OLD	
 as				
 if				
 was				
@@ -1060,164 +1060,164 @@ a
 giant				
 high				
 school				
-cafeteria	other_4	INDEF_NP		
+cafeteria	other_4	indef-np.a		
 ,				
 and				
 seeing				
 how				
-everybody	subj_3	PPER	?OLD	
+everybody	SBJ_3	pron	?OLD	
 arranged				
-themselves	obj_3			
+themselves	OBJ_3			
 in				
 a				
 seating				
-chart	other_3	INDEF_NP		
+chart	other_3	indef-np.a		
 .			
 
 # text = Well maybe it's time to shake up the seating chart a little bit.
 Well				
 maybe				
-it	subj	PPER	?OLD	
+it	SBJ	pron.pper	?OLD	
 's				
-time	other	INDEF_NP		
+time	other	indef-np.bare		
 to				
 shake				
 up				
 the				
 seating				
-chart	obj_2	DEF_NP	?OLD	
+chart	OBJ_2	def-np.the	?OLD	
 a				
 little				
-bit	other_2	INDEF_NP		
+bit	other_2	indef-np.a		
 .			
 
 # text = The other thing that we start to realize is that race is a really poor proxy for diversity.
 The				
 other				
-thing	other	DEF_NP	?OLD	
-that	obj_2			
-we	subj_2	PPER	?OLD	
+thing	other	def-np.the.other	?OLD	
+that	OBJ_2			
+we	SBJ_2	pron.pper	?OLD	
 start				
 to				
 realize				
 is				
 that				
-race	subj_5	INDEF_NP		
+race	SBJ_5	indef-np.bare		
 is				
 a				
 really				
 poor				
-proxy	other_4	INDEF_NP		
+proxy	other_4	indef-np.a		
 for				
-diversity	other_5	INDEF_NP		
+diversity	other_5	indef-np.bare		
 .			
 
 # text = We've got people represented from all different types of races across the entire map here -- only looking at race doesn't really contribute to our development of diversity.
-We	subj	PPER	?OLD	
+We	SBJ	pron.pper	?OLD	
 've				
 got				
-people	obj	INDEF_NP		
+people	OBJ	indef-np.bare		
 represented				
 from				
 all				
 different				
-types	other_3	INDEF_NP		
+types	other_3	indef-np.a		
 of				
-races	other_4	INDEF_NP		
+races	other_4	indef-np.bare		
 across				
 the				
 entire				
-map	other	DEF_NP	?OLD	
+map	other	def-np.the	?OLD	
 here				
 _				
 only				
 looking				
 at				
-race	other_2	INDEF_NP		
+race	other_2	indef-np.bare		
 does				
 n't				
 really				
 contribute				
 to				
-our	other_4	PPOSS	?OLD	
-development	other_3	POSS_NP	?OLD	
+our	other_4	pron.ppos	?OLD	
+development	other_3	def-np.poss	?OLD	
 of				
-diversity	other_4	INDEF_NP		
+diversity	other_4	indef-np.bare		
 .			
 
 # text = So if we're trying to use diversity as a way to tackle some of our more intractable problems, we need to start to think about diversity in a new way.
 So				
 if				
-we	subj	PPER	?OLD	
+we	SBJ	pron.pper	?OLD	
 're				
 trying				
 to				
 use				
-diversity	obj_2	INDEF_NP		
+diversity	OBJ_2	indef-np.bare		
 as				
 a				
-way	other_2	INDEF_NP		
+way	other_2	indef-np.a		
 to				
 tackle				
-some	obj_5	other		
+some	OBJ_5			
 of				
-our	other_6	PPOSS	?OLD	
+our	other_6	pron.ppos	?OLD	
 more				
 intractable				
-problems	other_5	POSS_NP	?OLD	
+problems	other_5	def-np.poss	?OLD	
 ,				
-we	subj_5	PPER	?OLD	
+we	SBJ_5	pron.pper	?OLD	
 need				
 to				
 start				
 to				
 think				
 about				
-diversity	other_7	INDEF_NP		
+diversity	other_7	indef-np.bare		
 in				
 a				
 new				
-way	other_8	INDEF_NP		
+way	other_8	indef-np.a		
 .			
 
 # text = And lastly, we have the ability to create interventions to start to reshape our cities in a new way, and I believe that if we have that capability, we may even bear some responsibility to do so.
 And				
 lastly				
 ,				
-we	subj	PPER	?OLD	
+we	SBJ	pron.pper	?OLD	
 have				
 the				
-ability	obj	DEF_NP	?OLD	
+ability	OBJ	def-np.the	?OLD	
 to				
 create				
-interventions	obj_3	INDEF_NP		
+interventions	OBJ_3	indef-np.bare		
 to				
 start				
 to				
 reshape				
-our	other_6	PPOSS	?OLD	
-cities	obj_5	POSS_NP	?OLD	
+our	other_6	pron.ppos	?OLD	
+cities	OBJ_5	def-np.poss	?OLD	
 in				
 a				
 new				
-way	other_6	INDEF_NP		
+way	other_6	indef-np.a		
 ,				
 and				
-I	subj_2	PPER	?OLD	
+I	SBJ_2	pron.pper	?OLD	
 believe				
 that				
 if				
-we	subj_4	PPER	?OLD	
+we	SBJ_4	pron.pper	?OLD	
 have				
 that				
-capability	obj_4	DEM_NP	?OLD	
+capability	OBJ_4	def-np.dem	?OLD	
 ,				
-we	subj_3	PPER	?OLD	
+we	SBJ_3	pron.pper	?OLD	
 may				
 even				
 bear				
 some				
-responsibility	obj_3	INDEF_NP		
+responsibility	OBJ_3	indef-np.quant		
 to				
 do				
 so				
@@ -1225,82 +1225,82 @@ so
 
 # text = So what is a city?
 So				
-what	subj			
+what	SBJ	pron.pint		
 is				
 a				
-city	other	INDEF_NP		
+city	other	indef-np.a		
 ?			
 
 # text = I think some might say that it is a geographical area or a collection of streets and buildings, but I believe that a city is the sum of the relationships of the people that live there, and I believe that if we can start to document those relationships in a real way then maybe we have a real shot at creating those kinds of cities that we'd like to have.
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 think				
-some	subj_2	other		
+some	SBJ_2			
 might				
 say				
 that				
-it	subj_3	PPER	?OLD	
+it	SBJ_3	pron.pper	?OLD	
 is				
 a				
 geographical				
-area	other_2	INDEF_NP		
+area	other_2	indef-np.a		
 or				
 a				
-collection	other_3	INDEF_NP		
+collection	other_3	indef-np.a		
 of				
-streets	other_4	INDEF_NP		
+streets	other_4	indef-np.bare		
 and				
-buildings	other_5	INDEF_NP		
+buildings	other_5	indef-np.bare		
 ,				
 but				
-I	subj_2	PPER	?OLD	
+I	SBJ_2	pron.pper	?OLD	
 believe				
 that				
 a				
-city	subj_3	INDEF_NP		
+city	SBJ_3	indef-np.a		
 is				
 the				
-sum	other_2	DEF_NP	?OLD	
+sum	other_2	def-np.the	?OLD	
 of				
 the				
-relationships	other_3	DEF_NP	?OLD	
+relationships	other_3	def-np.the	?OLD	
 of				
 the				
-people	other_4	DEF_NP	?OLD	
-that	subj_6			
+people	other_4	def-np.the	?OLD	
+that	SBJ_6			
 live				
 there				
 ,				
 and				
-I	subj_2	PPER	?OLD	
+I	SBJ_2	pron.pper	?OLD	
 believe				
 that				
 if				
-we	subj_4	PPER	?OLD	
+we	SBJ_4	pron.pper	?OLD	
 can				
 start				
 to				
 document				
 those				
-relationships	obj_5	DEM_NP	?OLD	
+relationships	OBJ_5	def-np.dem	?OLD	
 in				
 a				
 real				
-way	other_5	INDEF_NP		
+way	other_5	indef-np.a		
 then				
 maybe				
-we	subj_3	PPER	?OLD	
+we	SBJ_3	pron.pper	?OLD	
 have				
 a				
 real				
-shot	obj_3	INDEF_NP		
+shot	OBJ_3	indef-np.a		
 at				
 creating				
 those				
-kinds	obj_5	DEM_NP	?OLD	
+kinds	OBJ_5	def-np.dem	?OLD	
 of				
-cities	other_6	INDEF_NP		
-that	obj_7			
-we	subj_7	PPER	?OLD	
+cities	other_6	indef-np.bare		
+that	OBJ_7			
+we	SBJ_7	pron.pper	?OLD	
 'd				
 like				
 to				
@@ -1309,6 +1309,6 @@ have
 
 # text = Thank you.
 Thank				
-you	obj	PPER	?OLD	
+you	OBJ	pron.pper	?OLD	
 .			
 

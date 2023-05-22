@@ -109,7 +109,11 @@ Note that demonstrative pronouns *such*, in German *solch*, are considered indef
 
 #### 3.3.1.4 Pronominal Adverbs (`NP_TYPE`=`pron.padv`)
 
-Personal pronouns also include pronominal adverbs (e.g. German *da* "there, then", *dort* "there", *daneben* "next to it", *dahin* "(towards) there"), *davor* "in front of that; before that", or *deswegen* "because of that".
+Pronominal adverbs are derived from pronouns but grammaticalized as adverbs. If pronominal adverbs can still be interpreted as / replaced by a referring expression in a particular language, they should be included as primary markables. However, we exclude references to time and place of the speaker (*here*, *hence*) if these are unambiguous in their deictic function, as well as interrogative adverbs (*where*, etc.). 
+
+Examples: Pronominal adverbs in German include *da* "there, then", *dort* "there", *daneben* "next to it", *dahin* "(towards) there"), *davor* "in front of that; before that", or *deswegen* "because of that".
+
+> Note on English: Normally, pronominal adverbs are not recognized as referring expressions in English, but they can indeed be substituted with prepositional phrases. For English, we annotate adverbs (starting with) *there* (unless expletive) and *thence*, e.g., *there*, *thereafter*, *therefore*, *thence*, *thenceforth*. We exclude the analoguous *here* and *hence* because they are exclusively deictic, not anaphoric, whereas there and thence could also have an anaphoric function (*therefore* ~ *for this reason*, *thence* ~ *from there*).
 
 ### 3.3.2 Definite Descriptions (`NP_TYPE`=`def-np`)
 
@@ -142,28 +146,38 @@ Also includes potentially genitive or possessive modifier, if these are (potenti
 
 **but not**: *\[a man's pizza\]*
 
-#### 3.3.2.3 NP with "Other" (`NP_TYPE`=`def-np.other`)
-
-Definite NPs containing adjectives like *other*
-
-> (7) *the other man*
-
-#### 3.3.2.4 Quantified Definite NP (`NP_TYPE`=`def-np.quant`)
+#### 3.3.2.3 Quantified Definite NP (`NP_TYPE`=`def-np.quant`)
 
 At the moment, this includes cases where a quantifier is combined with a definite article (`the two men`) or with determiner \'both\'
 
-> (8.a) *\[the two <ins>pizzas</ins>\]*
-> (8.b) *\[both <ins>pizzas</ins>\]*
+> (7.a) *\[the two <ins>pizzas</ins>\]*
+> (7.b) *\[both <ins>pizzas</ins>\]*
 
 But not: *two pizzas*. As for constructions like *two of these pizzas*, this is formally a possessive construction.
 
 > Note: Stede et al. (2016) include *all*+NP here. needs to be double-checked.
 
-#### 3.3.2.5 With Definite Article (`NP_TYPE`=`def-np.the`)
+#### 3.3.2.4 With Definite Article (`NP_TYPE`=`def-np.the`)
 
 Any NP with a definite article not covered by any aforementioned def-np category
 
-> (7) *\[the <ins>pizza</ins>\]*
+> (8) *\[the <ins>pizza</ins>\]*
+
+#### 3.3.2.5 NP with "Other" (`NP_TYPE`=`def-np.other`)
+
+Definite NPs containing adjectives like *other*
+
+> (9) *the other man*
+
+Note that the `other` flag can be attached after *any* def-np subtype, so, the following tags are valid:
+
+- `def-np.other` (for otherwise unclassified definite NPs)
+- `def-np.dem.other` (for otherwise unclassified demonstrative NPs)
+- `def-np.dem.prox.other`: *this other man*
+- `def-np.dem.dist.other`: *that other man*
+- `def-np.poss.other`: *his other goal*
+- `def-np.quant.other`: *the two other guys*
+- `def-np.the.other`: *the other man* 
 
 ### 3.3.3  Proper Names and Titles (`NP_TYPE`=`ne`)
 
@@ -172,44 +186,44 @@ Typical instances of proper names are geographic places
 Stanley & Co.*), newspaper titles (*The New York Times*), political, social or financial institution names (*Congress, European Investment
 Bank* ). Proper names can include noun modifiers or be heads of a definite or indefinite description. In this case, the whole description has to be marked up, not just the head.
 
-> (8.a)  *\[Bertolt <ins>Brecht</ins>\]* (full name)
+> (10.a)  *\[Bertolt <ins>Brecht</ins>\]* (full name)
 
-> (8.b)  *\[Bert <ins>Brecht</ins>\]* (reduced full name)
+> (10.b)  *\[Bert <ins>Brecht</ins>\]* (reduced full name)
 
-> (8.c)  *<ins>Brecht</ins>* (surname)
+> (10.c)  *<ins>Brecht</ins>* (surname)
 	
-> (8.d) 	*<ins>Bertolt</ins>* (first name)
+> (10.d) 	*<ins>Bertolt</ins>* (first name)
 	
-> (8.e) 	*<ins>Bert</ins>* (nickname)
+> (10.e) 	*<ins>Bert</ins>* (nickname)
 
-> (8.f)   *<ins>BB</ins>* (abbreviation)
+> (10.f)   *<ins>BB</ins>* (abbreviation)
 
-> (8.g)   *the well-known <U>Brecht</ins>* (name, modified by a definite description)
+> (10.g)   *the well-known <U>Brecht</ins>* (name, modified by a definite description)
 
-> (8.h) *<ins>Brecht</ins>, who is author of the "Dreigroschenoper"* (proper name + clause)
+> (10.h) *<ins>Brecht</ins>, who is author of the "Dreigroschenoper"* (proper name + clause)
 
-> (8.i) *<ins>Brecht</ins>, author of the "Dreigroschenoper"* (proper name + apposition)
+> (10.i) *<ins>Brecht</ins>, author of the "Dreigroschenoper"* (proper name + apposition)
 
 Complex proper names are only treated as a single markable and are not further divided. If the internal dependency structure is transparent, annotate the syntactic head. For names composed of given and family names, we consider the name of the individual to be head, and the name of the family as modifier. If the structure of a name is not transparent to a common speaker of the language, annotate the first word that is not clearly recognizable as a modifier.
  
-> (9.a) \[Dr. <ins>Mueller</ins>\]
+> (10.j) \[Dr. <ins>Mueller</ins>\]
 
-> (9.b) \[Dr. <ins>Martin</ins> Luther King, Jr.\]
+> (10.k) \[Dr. <ins>Martin</ins> Luther King, Jr.\]
 
-> (9.c) \[Prince <ins>Dipangkorn</ins> Rasmijoti Sirivibulyarajakumar of Thailand\]
+> (10.l) \[Prince <ins>Dipangkorn</ins> Rasmijoti Sirivibulyarajakumar of Thailand\]
 
-> (9.d) \[Heidelberger <ins>Druckmaschinen</ins> Vertrieb Deutschland GmbH\]
+> (10.m) \[Heidelberger <ins>Druckmaschinen</ins> Vertrieb Deutschland GmbH\]
 
 Standalone titles that can stand in for an individual (*Mr./Ms./Dr./President/Chairman*) are treated like proper names, e.g., 
 
-> (10) *Schröder<sub>1</sub>\...Fischer<sub>2</sub> \... Die anfängliche Überreaktion von <ins>Kanzler</ins><sub>1</sub> und <ins>Außenminister</ins><sub>2</sub>\...*
+> (11.a) *Schröder<sub>1</sub>\...Fischer<sub>2</sub> \... Die anfängliche Überreaktion von <ins>Kanzler</ins><sub>1</sub> und <ins>Außenminister</ins><sub>2</sub>\...*
 
-In (10), *Kanzler* and *Außenminister* have to be annotated as primary markables, because proper names are inherently definite
+In (11.a), *Kanzler* and *Außenminister* have to be annotated as primary markables, because proper names are inherently definite
 
 Parts of complex proper names cannot be analyzed separately. So, in the following example, *Petrie* in *\[of
 Petrie Stores Corp.\]* should not be annotated!
 
-> (11) *\[Milton Petrie, chairman \[of Petrie Stores Corp.\] said\...*
+> (11.b) *\[Milton Petrie, chairman \[of Petrie Stores Corp.\] said\...*
 
 ## 3.4 Secondary Markables (no `REF_AUTO` annotation)
 
@@ -221,16 +235,15 @@ Common types of secondary marakbles include: indefinite NPs and indefinite or no
 
 Annotate the secondary markable only if you are certain about the reference. If another reading is equally possible or feels more likely, do not annotate the secondary markable. (Add a comment about your uncertainty.)
 
-> (12.c) *I saw \[a <ins>cat</ins>\] tonight in the street. <ins>It(= the cat)</ins> was gray.*
+> (12) *I saw \[a <ins>cat</ins>\] tonight in the street. <ins>It(= the cat)</ins> was gray.*
 
 **but not**: *I saw a cat tonight in the street. <ins>It(= the night/expletive?)</ins> was pitch black.*
-
 
 ### 3.4.1 Indefinite NPs (`NP_TYPE`=`indef-np`)
 
 With optional sub-types:
 
-- `NP_TYPE=indef-np.a`: NP with an indefinite article (if subsequently referred to), e.g., *a fox*:
+- `NP_TYPE=indef-np.a`: NP with an indefinite article, e.g., *a fox*:
 	
 	> (12.a) *There is a \[a <ins>fox</ins>\] running across the street. <ins>It</ins>'s fast!.*
 	
@@ -268,6 +281,10 @@ With optional sub-types:
 
 - `NP_TYPE=pron.pind`: indefinite pronouns, e.g., *somebody*, or German *man*. Also includes pronominal indefinite quantifiers, e.g., *some* in *some of that*.
 
+
+### 3.4.3 Other expressions (`NP_TYPE`=`other`)
+
+We consider every syntactic argument of a verb to be a potentially referring expression. If not matched by any of the aforementioned conditions, we treat verbal arguments as secondary markables. This can happen if an argument is a foreign language expression that is not assigned proper POS tags, but instead just marked as foreign (e.g., `X` in Universal Dependencies). Note that the annotation of referentiality for `other` nominals is tentative, only.
 
 ## 3.5 Automated Pre-Annotation
 

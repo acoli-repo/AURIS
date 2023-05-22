@@ -1,11 +1,11 @@
 # text = ﻿ talkid: 1978
 ﻿				
-talkid	other	INDEF_NP		
+talkid	other	indef-np.quant		
 :				
 1978			
 
 # text = Sarah Lewis:
-Sarah	other	NAME	?OLD	
+Sarah	other	ne	?OLD	
 Lewis				
 :			
 
@@ -13,114 +13,114 @@ Lewis
 Embrace				
 the				
 near				
-win	obj	DEF_NP	?OLD
+win	OBJ	def-np.the	?OLD
 
 # text = I feel so fortunate that my first job was working at the Museum of Modern Art on a retrospective of painter Elizabeth Murray.
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 feel				
 so				
 fortunate				
 that				
-my	other_4	PPOSS	?OLD	
+my	other_4	pron.ppos	?OLD	
 first				
-job	subj_3	POSS_NP	?OLD	
+job	SBJ_3	def-np.poss	?OLD	
 was				
 working				
 at				
 the				
-Museum	other_3	NAME	?OLD	
+Museum	other_3	ne	?OLD	
 of				
 Modern				
-Art	other_4	NAME	?OLD	
+Art	other_4	ne	?OLD	
 on				
 a				
-retrospective	other_3	INDEF_NP		
+retrospective	other_3	indef-np.a		
 of				
-painter	other_4	INDEF_NP		
-Elizabeth	other_5	NAME	?OLD	
+painter	other_4	indef-np.bare		
+Elizabeth	other_5	ne	?OLD	
 Murray				
 .			
 
 # text = I learned so much from her.
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 learned				
 so				
-much	obj	other		
+much	OBJ			
 from				
-her	other_2	PPER	?OLD	
+her	other_2	pron.pper	?OLD	
 .			
 
 # text = After the curator Robert Storr selected all the paintings from her lifetime body of work, I loved looking at the paintings from the 1970s.
 After				
 the				
-curator	subj_2	DEF_NP	?OLD	
-Robert	other_3	NAME	?OLD	
+curator	SBJ_2	def-np.the	?OLD	
+Robert	other_3	ne	?OLD	
 Storr				
 selected				
 all				
 the				
-paintings	obj_2	DEF_NP	?OLD	
+paintings	OBJ_2	def-np.the	?OLD	
 from				
-her	other_3	PPOSS	?OLD	
+her	other_3	pron.ppos	?OLD	
 lifetime				
-body	other_2	POSS_NP	?OLD	
+body	other_2	def-np.poss	?OLD	
 of				
-work	other_3	INDEF_NP		
+work	other_3	indef-np.bare		
 ,				
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 loved				
 looking				
 at				
 the				
-paintings	other_2	DEF_NP	?OLD	
+paintings	other_2	def-np.the	?OLD	
 from				
 the				
-1970s	other_3	DEF_NP	?OLD	
+1970s	other_3	def-np.the	?OLD	
 .			
 
 # text = There were some motifs and elements that would come up again later in her life.
 There				
 were				
 some				
-motifs	subj	INDEF_NP		
+motifs	SBJ	indef-np.quant		
 and				
-elements	other_2	INDEF_NP		
-that	subj_3			
+elements	other_2	indef-np.bare		
+that	SBJ_3			
 would				
 come				
 up				
 again				
 later				
 in				
-her	other_5	PPOSS	?OLD	
-life	other_4	POSS_NP	?OLD	
+her	other_5	pron.ppos	?OLD	
+life	other_4	def-np.poss	?OLD	
 .			
 
 # text = I remember asking her what she thought of those early works.
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 remember				
 asking				
-her	obj_2	PPER	?OLD	
-what	obj_2			
-she	subj_4	PPER	?OLD	
+her	OBJ_2	pron.pper	?OLD	
+what	OBJ_2	pron.pint		
+she	SBJ_4	pron.pper	?OLD	
 thought				
 of				
 those				
 early				
-works	other_4	DEM_NP	?OLD	
+works	other_4	def-np.dem	?OLD	
 .			
 
 # text = If you didn't know they were hers, you might not have been able to guess.
 If				
-you	subj_2	PPER	?OLD	
+you	SBJ_2	pron.pper	?OLD	
 did				
 n't				
 know				
-they	subj_3	PPER	?OLD	
+they	SBJ_3	pron.pper	?OLD	
 were				
-hers	other_2	PPER	?OLD	
+hers	other_2	pron	?OLD	
 ,				
-you	subj	PPER	?OLD	
+you	SBJ	pron.pper	?OLD	
 might				
 not				
 have				
@@ -131,429 +131,429 @@ guess
 .			
 
 # text = She told me that a few didn't quite meet her own mark for what she wanted them to be.
-She	subj	PPER	?OLD	
+She	SBJ	pron.pper	?OLD	
 told				
-me	obj	PPER	?OLD	
+me	OBJ	pron.pper	?OLD	
 that				
 a				
-few	subj_2	other		
+few	SBJ_2			
 did				
 n't				
 quite				
 meet				
-her	other_3	PPOSS	?OLD	
+her	other_3	pron.ppos	?OLD	
 own				
-mark	obj_2	POSS_NP	?OLD	
+mark	OBJ_2	def-np.poss	?OLD	
 for				
-what	subj_3			
-she	subj_5	PPER	?OLD	
+what	SBJ_3	pron.pint		
+she	SBJ_5	pron.pper	?OLD	
 wanted				
-them	obj_5	PPER	?OLD	
+them	OBJ_5	pron.pper	?OLD	
 to				
 be				
 .			
 
 # text = One of the works, in fact, so didn't meet her mark, she had set it out in the trash in her studio, and her neighbor had taken it because she saw its value.
-One	subj_2	POSS_NP	?OLD	
+One	SBJ_2			
 of				
 the				
-works	other_3	DEF_NP	?OLD	
+works	other_3	def-np.the	?OLD	
 ,				
 in				
-fact	other	INDEF_NP		
+fact	other	indef-np.quant		
 ,				
 so				
 did				
 n't				
 meet				
-her	other_2	PPOSS	?OLD	
-mark	obj	POSS_NP	?OLD	
+her	other_2	pron.ppos	?OLD	
+mark	OBJ	def-np.poss	?OLD	
 ,				
-she	subj_2	PPER	?OLD	
+she	SBJ_2	pron.pper	?OLD	
 had				
 set				
-it	obj_2	PPER	?OLD	
+it	OBJ_2	pron.pper	?OLD	
 out				
 in				
 the				
-trash	other_2	DEF_NP	?OLD	
+trash	other_2	def-np.the	?OLD	
 in				
-her	other_4	PPOSS	?OLD	
-studio	other_3	POSS_NP	?OLD	
+her	other_4	pron.ppos	?OLD	
+studio	other_3	def-np.poss	?OLD	
 ,				
 and				
-her	other_3	PPOSS	?OLD	
-neighbor	subj_2	POSS_NP	?OLD	
+her	other_3	pron.ppos	?OLD	
+neighbor	SBJ_2	def-np.poss	?OLD	
 had				
 taken				
-it	obj_2	PPER	?OLD	
+it	OBJ_2	pron.pper	?OLD	
 because				
-she	subj_3	PPER	?OLD	
+she	SBJ_3	pron.pper	?OLD	
 saw				
-it	other_4	PPOSS	?OLD	
+it	other_4	pron.ppos	?OLD	
 s				
-value	obj_3	POSS_NP	?OLD	
+value	OBJ_3	def-np.poss	?OLD	
 .			
 
 # text = In that moment, my view of success and creativity changed.
 In				
 that				
-moment	other	DEM_NP	?OLD	
+moment	other	def-np.dem	?OLD	
 ,				
-my	other_2	PPOSS	?OLD	
-view	subj	POSS_NP	?OLD	
+my	other_2	pron.ppos	?OLD	
+view	SBJ	def-np.poss	?OLD	
 of				
-success	other_2	INDEF_NP		
+success	other_2	indef-np.bare		
 and				
-creativity	other_3	INDEF_NP		
+creativity	other_3	indef-np.bare		
 changed				
 .			
 
 # text = I realized that success is a moment, but what we're always celebrating is creativity and mastery.
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 realized				
 that				
-success	subj_2	DEM_NP	?OLD	
+success	SBJ_2	def-np.dem	?OLD	
 is				
 a				
-moment	other	INDEF_NP		
+moment	other	indef-np.a		
 ,				
 but				
-what	subj_2			
-we	subj_4	PPER	?OLD	
+what	SBJ_2	pron.pint		
+we	SBJ_4	pron.pper	?OLD	
 're				
 always				
 celebrating				
 is				
-creativity	other	INDEF_NP		
+creativity	other	indef-np.bare		
 and				
-mastery	other_2	INDEF_NP		
+mastery	other_2	indef-np.bare		
 .			
 
 # text = But this is the thing:
 But				
-this	subj	PDEM	?OLD	
+this	SBJ	pron.pds	?OLD	
 is				
 the				
-thing	other	DEF_NP	?OLD	
+thing	other	def-np.the	?OLD	
 :			
 
 # text = What gets us to convert success into mastery?
-What	subj			
+What	SBJ	pron.pint		
 gets				
-us	obj	PPER	?OLD	
+us	OBJ	pron.pper	?OLD	
 to				
 convert				
-success	obj_2	INDEF_NP		
+success	OBJ_2	indef-np.bare		
 into				
-mastery	other_2	INDEF_NP		
+mastery	other_2	indef-np.bare		
 ?			
 
 # text = This is a question I've long asked myself.
-This	subj	PDEM	?OLD	
+This	SBJ	pron.pds	?OLD	
 is				
 a				
-question	other	INDEF_NP		
-I	subj_2	PPER	?OLD	
+question	other	indef-np.a		
+I	SBJ_2	pron.pper	?OLD	
 've				
 long				
 asked				
-myself	obj_2			
+myself	OBJ_2			
 .			
 
 # text = I think it comes when we start to value the gift of a near win.
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 think				
-it	subj_2	PPER	?OLD	
+it	SBJ_2	pron.pper	?OLD	
 comes				
 when				
-we	subj_3	PPER	?OLD	
+we	SBJ_3	pron.pper	?OLD	
 start				
 to				
 value				
 the				
-gift	obj_4	DEF_NP	?OLD	
+gift	OBJ_4	def-np.the	?OLD	
 of				
 a				
 near				
-win	other_5	INDEF_NP		
+win	other_5	indef-np.a		
 .			
 
 # text = I started to understand this when I went on one cold May day to watch a set of varsity archers, all women as fate would have it, at the northern tip of Manhattan at Columbia's Baker Athletics Complex.
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 started				
 to				
 understand				
-this	obj_2	PDEM	?OLD	
+this	OBJ_2	pron.pds	?OLD	
 when				
-I	subj_3	PPER	?OLD	
+I	SBJ_3	pron.pper	?OLD	
 went				
 on				
 one				
 cold				
 May				
-day	other_3	INDEF_NP		
+day	other_3	indef-np.quant		
 to				
 watch				
 a				
-set	obj_4	INDEF_NP		
+set	OBJ_4	indef-np.a		
 of				
 varsity				
-archers	other_5	INDEF_NP		
+archers	other_5	indef-np.bare		
 ,				
 all				
-women	subj_2	INDEF_NP		
+women	SBJ_2	indef-np.a		
 as				
-fate	other_3	INDEF_NP		
+fate	other_3	indef-np.bare		
 would				
 have				
-it	obj_2	PPER	?OLD	
+it	OBJ_2	pron.pper	?OLD	
 ,				
 at				
 the				
 northern				
-tip	other_2	DEF_NP	?OLD	
+tip	other_2	def-np.poss	?OLD	
 of				
-Manhattan	other_3	NAME	?OLD	
+Manhattan	other_3	ne	?OLD	
 at				
-Columbia	other_4	NAME	?OLD	
+Columbia	other_4	ne	?OLD	
 's				
 Baker				
 Athletics				
-Complex	other_3	NAME	?OLD	
+Complex	other_3	ne	?OLD	
 .			
 
 # text = I wanted to see what's called archer's paradox, the idea that in order to actually hit your target, you have to aim at something slightly skew from it.
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 wanted				
 to				
 see				
-what	obj_2			
+what	OBJ_2	pron.pint		
 's				
 called				
-archer	other_5	INDEF_NP		
+archer	other_5	indef-np.bare		
 's				
-paradox	other_4	POSS_NP	?OLD	
+paradox	other_4	def-np.poss	?OLD	
 ,				
 the				
-idea	obj	DEF_NP	?OLD	
-that	subj_3			
+idea	OBJ	def-np.the	?OLD	
+that	SBJ_3			
 in				
-order	other_5	INDEF_NP		
+order	other_5	indef-np.bare		
 to				
 actually				
 hit				
-your	other_5	PPOSS	?OLD	
-target	obj_4	POSS_NP	?OLD	
+your	other_5	pron.ppos	?OLD	
+target	OBJ_4	def-np.poss	?OLD	
 ,				
-you	subj_3	PPER	?OLD	
+you	SBJ_3	pron.pper	?OLD	
 have				
 to				
 aim				
 at				
-something	other_4	PPER	?OLD	
+something	other_4	pron	?OLD	
 slightly				
 skew				
 from				
-it	other_6	PPER	?OLD	
+it	other_6	pron.pper	?OLD	
 .			
 
 # text = I stood and watched as the coach drove up these women in this gray van, and they exited with this kind of relaxed focus.
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 stood				
 and				
 watched				
 as				
 the				
-coach	subj_3	DEF_NP	?OLD	
+coach	SBJ_3	def-np.the	?OLD	
 drove				
 up				
 these				
-women	obj_3	DEM_NP	?OLD	
+women	OBJ_3	def-np.dem	?OLD	
 in				
 this				
 gray				
-van	other_3	DEM_NP	?OLD	
+van	other_3	def-np.dem	?OLD	
 ,				
 and				
-they	subj_2	PPER	?OLD	
+they	SBJ_2	pron.pper	?OLD	
 exited				
 with				
 this				
-kind	other_2	DEM_NP	?OLD	
+kind	other_2	def-np.dem	?OLD	
 of				
 relaxed				
-focus	other_3	INDEF_NP		
+focus	other_3	indef-np.bare		
 .			
 
 # text = One held a half-eaten ice cream cone in one hand and arrows in the left with yellow fletching.
-One	subj	PIND		
+One	SBJ	pron.pind		
 held				
 a				
-half	other_3	INDEF_NP		
+half	other_3	indef-np.bare		
 _				
 eaten				
 ice				
 cream				
-cone	obj	INDEF_NP		
+cone	OBJ	indef-np.a		
 in				
 one				
-hand	other	INDEF_NP		
+hand	other	indef-np.quant		
 and				
-arrows	other_2	INDEF_NP		
+arrows	other_2	indef-np.bare		
 in				
 the				
-left	other_2	DEF_NP	?OLD	
+left	other_2	def-np.the	?OLD	
 with				
 yellow				
-fletching	other	INDEF_NP		
+fletching	other	indef-np.bare		
 .			
 
 # text = And they passed me and smiled, but they sized me up as they made their way to the turf, and spoke to each other not with words but with numbers, degrees, I thought, positions for how they might plan to hit their target.
 And				
-they	subj	PPER	?OLD	
+they	SBJ	pron.pper	?OLD	
 passed				
-me	obj	PPER	?OLD	
+me	OBJ	pron.pper	?OLD	
 and				
 smiled				
 ,				
 but				
-they	subj_2	PPER	?OLD	
+they	SBJ_2	pron.pper	?OLD	
 sized				
-me	obj_2	PPER	?OLD	
+me	OBJ_2	pron.pper	?OLD	
 up				
 as				
-they	subj_3	PPER	?OLD	
+they	SBJ_3	pron.pper	?OLD	
 made				
-their	other_4	PPOSS	?OLD	
-way	obj_3	POSS_NP	?OLD	
+their	other_4	pron.ppos	?OLD	
+way	OBJ_3	def-np.poss	?OLD	
 to				
 the				
-turf	other_3	DEF_NP	?OLD	
+turf	other_3	def-np.the	?OLD	
 ,				
 and				
 spoke				
 to				
 each				
-other	other_3	other		
+other				
 not				
 with				
-words	other_3	INDEF_NP		
+words	other_3	indef-np.bare		
 but				
 with				
-numbers	other_4	INDEF_NP		
+numbers	other_4	indef-np.bare		
 ,				
-degrees	other_5	INDEF_NP		
+degrees	other_5	indef-np.bare		
 ,				
-I	subj_4	PPER	?OLD	
+I	SBJ_4	pron.pper	?OLD	
 thought				
 ,				
-positions	obj_4	INDEF_NP		
+positions	OBJ_4	indef-np.bare		
 for				
 how				
-they	subj_6	PPER	?OLD	
+they	SBJ_6	pron.pper	?OLD	
 might				
 plan				
 to				
 hit				
-their	other_8	PPOSS	?OLD	
-target	obj_7	POSS_NP	?OLD	
+their	other_8	pron.ppos	?OLD	
+target	OBJ_7	def-np.poss	?OLD	
 .			
 
 # text = I stood behind one archer as her coach stood in between us to maybe assess who might need support, and watched her, and I didn't understand how even one was going to hit the ten ring.
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 stood				
 behind				
 one				
-archer	other	INDEF_NP		
+archer	other	indef-np.quant		
 as				
-her	other_2	PPOSS	?OLD	
-coach	other	POSS_NP	?OLD	
+her	other_2	pron.ppos	?OLD	
+coach	other	def-np.poss	?OLD	
 stood				
 in				
 between				
-us	other_2	PPER	?OLD	
+us	other_2	pron.pper	?OLD	
 to				
 maybe				
 assess				
-who	subj_4			
+who	SBJ_4			
 might				
 need				
-support	obj_4	INDEF_NP		
+support	OBJ_4	indef-np.bare		
 ,				
 and				
 watched				
-her	obj_5	PPER	?OLD	
+her	OBJ_5	pron.pper	?OLD	
 ,				
 and				
-I	subj_6	PPER	?OLD	
+I	SBJ_6	pron.pper	?OLD	
 did				
 n't				
 understand				
 how				
 even				
-one	subj_7	other		
+one	SBJ_7			
 was				
 going				
 to				
 hit				
 the				
 ten				
-ring	obj_8	DEF_NP	?OLD	
+ring	OBJ_8	def-np.quant	?OLD	
 .			
 
 # text = The ten ring from the standard 75-yard distance, it looks as small as a matchstick tip held out at arm's length.
 The				
 ten				
-ring	subj	DEF_NP	?OLD	
+ring	SBJ	def-np.quant	?OLD	
 from				
 the				
 standard				
 75				
 _				
 yard				
-distance	other_2	DEF_NP	?OLD	
+distance	other_2	def-np.the	?OLD	
 ,				
-it	subj	PPER	?OLD	
+it	SBJ	pron.pper	?OLD	
 looks				
 as				
 small				
 as				
 a				
 matchstick				
-tip	other_2	INDEF_NP		
+tip	other_2	indef-np.a		
 held				
 out				
 at				
-arm	other_5	INDEF_NP		
+arm	other_5	indef-np.bare		
 's				
-length	other_4	POSS_NP	?OLD	
+length	other_4	def-np.poss	?OLD	
 .			
 
 # text = And this is while holding 50 pounds of draw weight on each shot.
 And				
-this	subj	PDEM	?OLD	
+this	SBJ	pron.pds	?OLD	
 is				
 while				
 holding				
 50				
-pounds	obj_2	INDEF_NP		
+pounds	OBJ_2	indef-np.quant		
 of				
 draw				
-weight	other_3	INDEF_NP		
+weight	other_3	indef-np.bare		
 on				
 each				
-shot	other_2	INDEF_NP		
+shot	other_2	indef-np		
 .			
 
 # text = She first hit a seven, I remember, and then a nine, and then two tens, and then the next arrow didn't even hit the target.
-She	subj	PPER	?OLD	
+She	SBJ	pron.pper	?OLD	
 first				
 hit				
 a				
-seven	obj	other		
+seven	OBJ			
 ,				
-I	subj_2	PPER	?OLD	
+I	SBJ_2	pron.pper	?OLD	
 remember				
 ,				
 and				
@@ -564,36 +564,36 @@ nine
 and				
 then				
 two				
-tens	other_2	INDEF_NP		
+tens	other_2	indef-np.quant		
 ,				
 and				
 then				
 the				
 next				
-arrow	subj_3	DEF_NP	?OLD	
+arrow	SBJ_3	def-np.the	?OLD	
 did				
 n't				
 even				
 hit				
 the				
-target	obj_3	DEF_NP	?OLD	
+target	OBJ_3	def-np.the	?OLD	
 .			
 
 # text = And I saw that gave her more tenacity, and she went after it again and again.
 And				
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 saw				
-that	subj_2			
+that	SBJ_2			
 gave				
-her	obj_2	PPER	?OLD	
+her	OBJ_2	pron.pper	?OLD	
 more				
-tenacity	obj_2	INDEF_NP		
+tenacity	OBJ_2	indef-np.bare		
 ,				
 and				
-she	subj_2	PPER	?OLD	
+she	SBJ_2	pron.pper	?OLD	
 went				
 after				
-it	other_2	PPER	?OLD	
+it	other_2	pron.pper	?OLD	
 again				
 and				
 again				
@@ -602,8 +602,8 @@ again
 # text = For three hours this went on.
 For				
 three				
-hours	other	INDEF_NP		
-this	subj	PDEM	?OLD	
+hours	other	indef-np.quant		
+this	SBJ	pron.pds	?OLD	
 went				
 on				
 .			
@@ -611,41 +611,41 @@ on
 # text = At the end of the practice, one of the archers was so taxed that she lied out on the ground just star-fished, her head looking up at the sky, trying to find what T.S.
 At				
 the				
-end	other	DEF_NP	?OLD	
+end	other	def-np.the	?OLD	
 of				
 the				
-practice	other_2	DEF_NP	?OLD	
+practice	other_2	def-np.the	?OLD	
 ,				
-one	subj	POSS_NP	?OLD	
+one	SBJ			
 of				
 the				
-archers	other_2	DEF_NP	?OLD	
+archers	other_2	def-np.the	?OLD	
 was				
 so				
 taxed				
 that				
-she	subj_2	PPER	?OLD	
+she	SBJ_2	pron.pper	?OLD	
 lied				
 out				
 on				
 the				
-ground	other_2	DEF_NP	?OLD	
+ground	other_2	def-np.the	?OLD	
 just				
 star-fished				
 ,				
-her	other_4	PPOSS	?OLD	
-head	obj_3	POSS_NP	?OLD	
+her	other_4	pron.ppos	?OLD	
+head	OBJ_3	def-np.poss	?OLD	
 looking				
 up				
 at				
 the				
-sky	other_4	DEF_NP	?OLD	
+sky	other_4	def-np.the	?OLD	
 ,				
 trying				
 to				
 find				
-what	obj_5			
-T.S.	other_4	NAME	?OLD
+what	OBJ_5	pron.pint		
+T.S.	other_4	ne	?OLD
 
 # text = Eliot might call that still point of the turning world.
 Eliot				
@@ -653,84 +653,84 @@ might
 call				
 that				
 still				
-point	other	POSS_NP	?OLD	
+point	other	indef-np.bare		
 of				
 the				
 turning				
-world	other_2	DEF_NP	?OLD	
+world	other_2	def-np.the	?OLD	
 .			
 
 # text = It's so rare in American culture, there's so little that's vocational about it anymore, to look at what doggedness looks like with this level of exactitude, what it means to align your body posture for three hours in order to hit a target, pursuing a kind of excellence in obscurity.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 's				
 so				
 rare				
 in				
 American				
-culture	other	INDEF_NP		
+culture	other	indef-np.bare		
 ,				
 there				
 's				
 so				
 little				
-that	subj_3	PDEM	?OLD	
+that	SBJ_3	pron.pds	?OLD	
 's				
-vocational	subj_2	other		
+vocational	SBJ_2			
 about				
-it	other_3	PPER	?OLD	
+it	other_3	pron.pper	?OLD	
 anymore				
 ,				
 to				
 look				
 at				
-what				
-doggedness	other_4	INDEF_NP		
+what	other_5	pron.pint		
+doggedness	other_4	indef-np		
 looks				
 like				
 with				
 this				
-level	other_3	DEM_NP	?OLD	
+level	other_3	def-np.dem	?OLD	
 of				
-exactitude	other_4	INDEF_NP		
+exactitude	other_4	indef-np.bare		
 ,				
-what	obj_3			
-it	subj_3	PPER	?OLD	
+what	OBJ_3	pron.pint		
+it	SBJ_3	pron.pper	?OLD	
 means				
 to				
 align				
-your	other_5	PPOSS	?OLD	
+your	other_5	pron.ppos	?OLD	
 body				
-posture	obj_4	POSS_NP	?OLD	
+posture	OBJ_4	def-np.poss	?OLD	
 for				
 three				
-hours	other_4	INDEF_NP		
+hours	other_4	indef-np.quant		
 in				
-order	other_7	INDEF_NP		
+order	other_7	indef-np.bare		
 to				
 hit				
 a				
-target	obj_6	INDEF_NP		
+target	OBJ_6	indef-np.a		
 ,				
 pursuing				
 a				
-kind	obj_7	INDEF_NP		
+kind	OBJ_7	indef-np.a		
 of				
-excellence	other_8	INDEF_NP		
+excellence	other_8	indef-np.bare		
 in				
-obscurity	other_8	INDEF_NP		
+obscurity	other_8	indef-np.bare		
 .			
 
 # text = But I stayed because I realized I was witnessing what's so rare to glimpse, that difference between success and mastery.
 But				
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 stayed				
 because				
-I	subj_2	PPER	?OLD	
+I	SBJ_2	pron.pper	?OLD	
 realized				
-I	subj_3	PPER	?OLD	
+I	SBJ_3	pron.pper	?OLD	
 was				
 witnessing				
-what	subj_4			
+what	SBJ_4	pron.pint		
 's				
 so				
 rare				
@@ -738,113 +738,113 @@ to
 glimpse				
 ,				
 that				
-difference	obj	DEM_NP	?OLD	
+difference	OBJ	def-np.dem	?OLD	
 between				
-success	other_2	INDEF_NP		
+success	other_2	indef-np.bare		
 and				
-mastery	other_3	INDEF_NP		
+mastery	other_3	indef-np.bare		
 .			
 
 # text = So success is hitting that ten ring, but mastery is knowing that it means nothing if you can't do it again and again.
 So				
-success	subj	INDEF_NP		
+success	SBJ	indef-np.bare		
 is				
 hitting				
-that	obj_2			
+that	OBJ_2			
 ten				
-ring	subj_2	INDEF_NP		
+ring	SBJ_2	indef-np.quant		
 ,				
 but				
-mastery	subj_4	INDEF_NP		
+mastery	SBJ_4	indef-np.bare		
 is				
 knowing				
 that				
-it	subj_5	PPER	?OLD	
+it	SBJ_5	pron.pper	?OLD	
 means				
-nothing	obj_5	PPER	?OLD	
+nothing	OBJ_5	pron	?OLD	
 if				
-you	subj_6	PPER	?OLD	
+you	SBJ_6	pron.pper	?OLD	
 ca				
 n't				
 do				
-it	obj_6	PPER	?OLD	
+it	OBJ_6	pron.pper	?OLD	
 again				
 and				
 again				
 .			
 
 # text = Mastery is not just the same as excellence, though.
-Mastery	subj	INDEF_NP		
+Mastery	SBJ	indef-np.bare		
 is				
 not				
 just				
 the				
 same				
 as				
-excellence	other	INDEF_NP		
+excellence	other	indef-np.bare		
 ,				
 though				
 .			
 
 # text = It's not the same as success, which I see as an event, a moment in time, and a label that the world confers upon you.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 's				
 not				
 the				
 same				
 as				
-success	other	INDEF_NP		
+success	other	indef-np.bare		
 ,				
-which	obj_2			
-I	subj_2	PPER	?OLD	
+which	OBJ_2			
+I	SBJ_2	pron.pper	?OLD	
 see				
 as				
 an				
-event	other_2	INDEF_NP		
+event	other_2	indef-np.a		
 ,				
 a				
-moment	other	INDEF_NP		
+moment	other	indef-np.a		
 in				
-time	other_2	INDEF_NP		
+time	other_2	indef-np.bare		
 ,				
 and				
 a				
-label	other_2	INDEF_NP		
+label	other_2	indef-np.a		
 that				
 the				
 world				
-confers	other_3	DEF_NP	?OLD	
+confers	other_3	def-np.the	?OLD	
 upon				
-you	other_4	PPER	?OLD	
+you	other_4	pron.pper	?OLD	
 .			
 
 # text = Mastery is not a commitment to a goal but to a constant pursuit.
-Mastery	subj	INDEF_NP		
+Mastery	SBJ	indef-np.bare		
 is				
 not				
 a				
-commitment	other	INDEF_NP		
+commitment	other	indef-np.a		
 to				
 a				
-goal	other	INDEF_NP		
+goal	other	indef-np.a		
 but				
 to				
 a				
 constant				
-pursuit	other	INDEF_NP		
+pursuit	other	indef-np.a		
 .			
 
 # text = What gets us to do this, what get us to forward thrust more is to value the near win.
-What	subj			
+What	SBJ	pron.pint		
 gets				
-us	obj	PPER	?OLD	
+us	OBJ	pron.pper	?OLD	
 to				
 do				
-this	obj_2	PDEM	?OLD	
+this	OBJ_2	pron.pds	?OLD	
 ,				
-what	subj_2			
+what	SBJ_2	pron.pint		
 get				
-us	obj_4	PPER	?OLD	
+us	OBJ_4	pron.pper	?OLD	
 to				
 forward				
 thrust				
@@ -854,86 +854,86 @@ to
 value				
 the				
 near				
-win	obj_3	DEF_NP	?OLD	
+win	OBJ_3	def-np.the	?OLD	
 .			
 
 # text = How many times have we designated something a classic, a masterpiece even, while its creator considers it hopelessly unfinished, riddled with difficulties and flaws, in other words, a near win?
 How				
 many				
-times	other_2	INDEF_NP		
+times	other_2	indef-np.quant		
 have				
-we	subj	PPER	?OLD	
+we	SBJ	pron.pper	?OLD	
 designated				
-something	obj	PPER	?OLD	
+something	OBJ	pron	?OLD	
 a				
-classic	obj	INDEF_NP		
+classic	OBJ	indef-np.a		
 ,				
 a				
-masterpiece	other_2	INDEF_NP		
+masterpiece	other_2	indef-np.a		
 even				
 ,				
 while				
-it	subj_2	PPER	?OLD	
+it	SBJ_2	pron.pper	?OLD	
 s				
-creator	other	INDEF_NP		
+creator	other	indef-np.bare		
 considers				
-it	obj_3	PPER	?OLD	
+it	OBJ_3	pron.pper	?OLD	
 hopelessly				
 unfinished				
 ,				
 riddled				
 with				
-difficulties	other_6	INDEF_NP		
+difficulties	other_6	indef-np.bare		
 and				
-flaws	other_7	INDEF_NP		
+flaws	other_7	indef-np.bare		
 ,				
 in				
 other				
-words	other_5	INDEF_NP		
+words	other_5	indef-np.bare		
 ,				
 a				
 near				
-win	other_5	INDEF_NP		
+win	other_5	indef-np.a		
 ?			
 
 # text = Elizabeth Murray surprised me with her admission about her earlier paintings.
-Elizabeth	subj	NAME	?OLD	
+Elizabeth	SBJ	ne	?OLD	
 Murray				
 surprised				
-me	obj	PPER	?OLD	
+me	OBJ	pron.pper	?OLD	
 with				
-her	other_2	PPOSS	?OLD	
-admission	other	POSS_NP	?OLD	
+her	other_2	pron.ppos	?OLD	
+admission	other	def-np.poss	?OLD	
 about				
-her	other_3	PPOSS	?OLD	
+her	other_3	pron.ppos	?OLD	
 earlier				
-paintings	other_2	POSS_NP	?OLD	
+paintings	other_2	def-np.poss	?OLD	
 .			
 
 # text = Painter Paul Cézanne so often thought his works were incomplete that he would deliberately leave them aside with the intention of picking them back up again, but at the end of his life, the result was that he had only signed 10 percent of his paintings.
-Painter	subj	NAME	?OLD	
+Painter	SBJ	ne	?OLD	
 Paul				
 Cézanne				
 so				
 often				
 thought				
-his	other_2	PPOSS	?OLD	
-works	obj	POSS_NP	?OLD	
+his	other_2	pron.ppos	?OLD	
+works	OBJ	def-np.poss	?OLD	
 were				
 incomplete				
 that				
-he	subj_2	PPER	?OLD	
+he	SBJ_2	pron.pper	?OLD	
 would				
 deliberately				
 leave				
-them	obj_2	PPER	?OLD	
+them	OBJ_2	pron.pper	?OLD	
 aside				
 with				
 the				
-intention	other_2	DEF_NP	?OLD	
+intention	other_2	def-np.the	?OLD	
 of				
 picking				
-them	obj_4	PPER	?OLD	
+them	OBJ_4	pron.pper	?OLD	
 back				
 up				
 again				
@@ -941,41 +941,41 @@ again
 but				
 at				
 the				
-end	other_3	DEF_NP	?OLD	
+end	other_3	def-np.poss	?OLD	
 of				
-his	other_5	PPOSS	?OLD	
-life	other_4	POSS_NP	?OLD	
+his	other_5	pron.ppos	?OLD	
+life	other_4	def-np.poss	?OLD	
 ,				
 the				
-result	subj_3	DEF_NP	?OLD	
+result	SBJ_3	def-np.the	?OLD	
 was				
 that				
-he	subj_4	PPER	?OLD	
+he	SBJ_4	pron.pper	?OLD	
 had				
 only				
 signed				
 10				
-percent	obj_5	POSS_NP	?OLD	
+percent	OBJ_5	def-np.poss	?OLD	
 of				
-his	other_7	PPOSS	?OLD	
-paintings	other_6	POSS_NP	?OLD	
+his	other_7	pron.ppos	?OLD	
+paintings	other_6	def-np.poss	?OLD	
 .			
 
 --
 # text = His favorite novel was "The [Unknown]
-His	other_3	PPOSS	?OLD	
+His	other_3	pron.ppos	?OLD	
 favorite				
-novel	subj_2	POSS_NP	?OLD	
+novel	SBJ_2	def-np.poss	?OLD	
 was				
 &quot;				
 The				
 [				
-Unknown	other	NAME	?OLD	
+Unknown	other	ne	?OLD	
 ]			
 
 --
 # text = Masterpiece" by Honoré de Balzac, and he felt the protagonist was the painter himself.
-Masterpiece	other	INDEF_NP		
+Masterpiece	other	indef-np.bare		
 &quot;				
 by				
 Honoré				
@@ -983,23 +983,23 @@ de
 Balzac				
 ,				
 and				
-he	subj_2	PPER	?OLD	
+he	SBJ_2	pron.pper	?OLD	
 felt				
 the				
-protagonist	subj_3	DEF_NP	?OLD	
+protagonist	SBJ_3	def-np.the	?OLD	
 was				
 the				
-painter	other_2	DEF_NP	?OLD	
-himself	other_3	PPER	?OLD	
+painter	other_2	def-np.the	?OLD	
+himself	other_3	pron.pper	?OLD	
 .			
 
 # text = Franz Kafka saw incompletion when others would find only works to praise, so much so that he wanted all of his diaries, manuscripts, letters and even sketches burned upon his death.
-Franz	subj	NAME	?OLD	
+Franz	SBJ	ne	?OLD	
 Kafka				
 saw				
-incompletion	obj	INDEF_NP		
+incompletion	OBJ	indef-np.bare		
 when				
-others	subj_2	INDEF_NP		
+others	SBJ_2	indef-np.bare		
 would				
 find				
 only				
@@ -1011,85 +1011,85 @@ so
 much				
 so				
 that				
-he	subj_2	PPER	?OLD	
+he	SBJ_2	pron.pper	?OLD	
 wanted				
-all	obj_2	POSS_NP	?OLD	
+all	OBJ_2	def-np.poss	?OLD	
 of				
-his	other_4	PPOSS	?OLD	
-diaries	other_3	POSS_NP	?OLD	
+his	other_4	pron.ppos	?OLD	
+diaries	other_3	def-np.poss	?OLD	
 ,				
-manuscripts	other_4	INDEF_NP		
+manuscripts	other_4	indef-np.bare		
 ,				
-letters	other_4	INDEF_NP		
+letters	other_4	indef-np.bare		
 and				
 even				
-sketches	other_4	INDEF_NP		
+sketches	other_4	indef-np.bare		
 burned				
 upon				
-his	other_3	PPOSS	?OLD	
-death	other_2	POSS_NP	?OLD	
+his	other_3	pron.ppos	?OLD	
+death	other_2	def-np.poss	?OLD	
 .			
 
 --
 # text = His friend refused to honor the request, and because of that, we now have all the works we now do by Kafka: "America," "The Trial" and "The Castle," a work so incomplete it even stops mid-sentence.
-His	other_2	PPOSS	?OLD	
-friend	subj	POSS_NP	?OLD	
+His	other_2	pron.ppos	?OLD	
+friend	SBJ	def-np.poss	?OLD	
 refused				
 to				
 honor				
 the				
-request	obj_2	DEF_NP	?OLD	
+request	OBJ_2	def-np.the	?OLD	
 ,				
 and				
 because				
 of				
-that	other_2	PDEM	?OLD	
+that	other_2	pron.pds	?OLD	
 ,				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 now				
 have				
 all				
 the				
-works	obj_2	DEF_NP	?OLD	
-we	subj_4	PPER	?OLD	
+works	OBJ_2	def-np.the	?OLD	
+we	SBJ_4	pron.pper	?OLD	
 now				
 do				
 by				
-Kafka	other	NAME	?OLD	
+Kafka	other	ne	?OLD	
 :				
 &quot;				
-America	obj	NAME	?OLD	
+America	OBJ	ne	?OLD	
 ,				
 &quot;				
 &quot;				
 The				
-Trial	obj	NAME	?OLD	
+Trial	OBJ	ne	?OLD	
 &quot;				
 and				
 &quot;				
 The				
-Castle	other_2	DEF_NP	?OLD	
+Castle	other_2	def-np.the	?OLD	
 ,				
 &quot;				
 a				
-work	obj	INDEF_NP		
+work	OBJ	indef-np.a		
 so				
 incomplete				
-it	subj_2	PPER	?OLD	
+it	SBJ_2	pron.pper	?OLD	
 even				
 stops				
-mid-sentence	obj_2	INDEF_NP		
+mid-sentence	OBJ_2	indef-np.bare		
 .			
 
 # text = The pursuit of mastery, in other words, is an ever-onward almost.
 The				
-pursuit	other	DEF_NP	?OLD	
+pursuit	other	def-np.the	?OLD	
 of				
-mastery	other	INDEF_NP		
+mastery	other	indef-np.bare		
 ,				
 in				
 other				
-words	other	INDEF_NP		
+words	other	indef-np.bare		
 ,				
 is				
 an				
@@ -1102,15 +1102,15 @@ almost
 --
 # text = "Lord, grant that I desire more than I can accomplish," Michelangelo implored, as if to that Old Testament God on the Sistine Chapel, and he himself was that Adam with his finger outstretched and not quite touching that God's hand.
 &quot;				
-Lord	subj	NAME	?OLD	
+Lord	SBJ	ne	?OLD	
 ,				
-grant	other_2	INDEF_NP		
-that	obj_4			
-I	subj_4	PPER	?OLD	
+grant	other_2	indef-np.bare		
+that	OBJ_4			
+I	SBJ_4	pron.pper	?OLD	
 desire				
 more				
 than				
-I	subj_6	PPER	?OLD	
+I	SBJ_6	pron.pper	?OLD	
 can				
 accomplish				
 ,				
@@ -1124,46 +1124,46 @@ to
 that				
 Old				
 Testament				
-God	other_3	NAME	?OLD	
+God	other_3	ne	?OLD	
 on				
 the				
 Sistine				
-Chapel	other_4	NAME	?OLD	
+Chapel	other_4	ne	?OLD	
 ,				
 and				
-he	subj_3	PPER	?OLD	
-himself	other_4	PPER	?OLD	
+he	SBJ_3	pron.pper	?OLD	
+himself	other_4	pron.pper	?OLD	
 was				
 that				
-Adam	subj_2	DEM_NP	?OLD	
+Adam	SBJ_2	def-np.dem	?OLD	
 with				
-his	other_3	PPOSS	?OLD	
-finger	subj_2	POSS_NP	?OLD	
+his	other_3	pron.ppos	?OLD	
+finger	SBJ_2	def-np.poss	?OLD	
 outstretched				
 and				
 not				
 quite				
 touching				
 that				
-God	other_3	NAME	?OLD	
+God	other_3	ne	?OLD	
 's				
-hand	obj_2	POSS_NP	?OLD	
+hand	OBJ_2	def-np.poss	?OLD	
 .			
 
 # text = Mastery is in the reaching, not the arriving.
-Mastery	subj	INDEF_NP		
+Mastery	SBJ	indef-np.bare		
 is				
 in				
 the				
-reaching	other	DEF_NP	?OLD	
+reaching	other	def-np.the	?OLD	
 ,				
 not				
 the				
-arriving	other	DEF_NP	?OLD	
+arriving	other	def-np.the	?OLD	
 .			
 
 # text = It's in constantly wanting to close that gap between where you are and where you want to be.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 's				
 in				
 constantly				
@@ -1171,128 +1171,128 @@ wanting
 to				
 close				
 that				
-gap	obj_2	DEM_NP	?OLD	
+gap	OBJ_2	def-np.dem	?OLD	
 between				
-where				
-you	subj_3	PPER	?OLD	
+where	other_2	pron.pint		
+you	SBJ_3	pron.pper	?OLD	
 are				
 and				
 where				
-you	subj_4	PPER	?OLD	
+you	SBJ_4	pron.pper	?OLD	
 want				
 to				
 be				
 .			
 
 # text = Mastery is about sacrificing for your craft and not for the sake of crafting your career.
-Mastery	subj	INDEF_NP		
+Mastery	SBJ	indef-np.bare		
 is				
 about				
 sacrificing				
 for				
-your	other_3	PPOSS	?OLD	
-craft	other_2	POSS_NP	?OLD	
+your	other_3	pron.ppos	?OLD	
+craft	other_2	def-np.poss	?OLD	
 and				
 not				
 for				
 the				
-sake	other_2	DEF_NP	?OLD	
+sake	other_2	def-np.the	?OLD	
 of				
 crafting				
-your	other_5	PPOSS	?OLD	
-career	obj_4	POSS_NP	?OLD	
+your	other_5	pron.ppos	?OLD	
+career	OBJ_4	def-np.poss	?OLD	
 .			
 
 # text = How many inventors and untold entrepreneurs live out this phenomenon?
 How				
 many				
-inventors	subj	INDEF_NP		
+inventors	SBJ	indef-np.quant		
 and				
 untold				
-entrepreneurs	other_2	INDEF_NP		
+entrepreneurs	other_2	indef-np.bare		
 live				
 out				
 this				
-phenomenon	other	DEM_NP	?OLD	
+phenomenon	other	def-np.dem	?OLD	
 ?			
 
 # text = We see it even in the life of the indomitable Arctic explorer Ben Saunders, who tells me that his triumphs are not merely the result of a grand achievement, but of the propulsion of a lineage of near wins.
-We	subj	PPER	?OLD	
+We	SBJ	pron.pper	?OLD	
 see				
-it	obj	PPER	?OLD	
+it	OBJ	pron.pper	?OLD	
 even				
 in				
 the				
-life	other	DEF_NP	?OLD	
+life	other	def-np.poss	?OLD	
 of				
 the				
 indomitable				
-Arctic	other_2	NAME	?OLD	
+Arctic	other_2	ne	?OLD	
 explorer				
-Ben	other_3	NAME	?OLD	
+Ben	other_3	ne	?OLD	
 Saunders				
 ,				
-who	subj_5			
+who	SBJ_5			
 tells				
-me	obj_5	PPER	?OLD	
+me	OBJ_5	pron.pper	?OLD	
 that				
-his	other_7	PPOSS	?OLD	
-triumphs	subj_6	POSS_NP	?OLD	
+his	other_7	pron.ppos	?OLD	
+triumphs	SBJ_6	def-np.poss	?OLD	
 are				
 not				
 merely				
 the				
-result	other_5	DEF_NP	?OLD	
+result	other_5	def-np.the	?OLD	
 of				
 a				
 grand				
-achievement	other_6	INDEF_NP		
+achievement	other_6	indef-np.a		
 ,				
 but				
 of				
 the				
-propulsion	other	DEF_NP	?OLD	
+propulsion	other	def-np.the	?OLD	
 of				
 a				
-lineage	other_2	INDEF_NP		
+lineage	other_2	indef-np.a		
 of				
 near				
-wins	other_3	INDEF_NP		
+wins	other_3	indef-np.bare		
 .			
 
 # text = We thrive when we stay at our own leading edge.
-We	subj	PPER	?OLD	
+We	SBJ	pron.pper	?OLD	
 thrive				
 when				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 stay				
 at				
-our	other_3	PPOSS	?OLD	
+our	other_3	pron.ppos	?OLD	
 own				
 leading				
-edge	other_2	POSS_NP	?OLD	
+edge	other_2	def-np.poss	?OLD	
 .			
 
 # text = It's a wisdom understood by Duke Ellington, who said that his favorite song out of his repertoire was always the next one, always the one he had yet to compose.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 's				
 a				
-wisdom	other	INDEF_NP		
+wisdom	other	indef-np.a		
 understood				
 by				
-Duke	other_2	NAME	?OLD	
+Duke	other_2	ne	?OLD	
 Ellington				
 ,				
-who	subj_4			
+who	SBJ_4			
 said				
 that				
-his	other_6	PPOSS	?OLD	
+his	other_6	pron.ppos	?OLD	
 favorite				
-song	subj_5	POSS_NP	?OLD	
+song	SBJ_5	def-np.poss	?OLD	
 out				
 of				
-his	other_7	PPOSS	?OLD	
-repertoire	other_6	POSS_NP	?OLD	
+his	other_7	pron.ppos	?OLD	
+repertoire	other_6	def-np.poss	?OLD	
 was				
 always				
 the				
@@ -1301,8 +1301,8 @@ one
 ,				
 always				
 the				
-one	other_3	DEF_NP	?OLD	
-he	subj_5	PPER	?OLD	
+one	other_3	def-np.the	?OLD	
+he	SBJ_5	pron.pper	?OLD	
 had				
 yet				
 to				
@@ -1310,14 +1310,14 @@ compose
 .			
 
 # text = Part of the reason that the near win is inbuilt to mastery is because the greater our proficiency, the more clearly we might see that we don't know all that we thought we did.
-Part	subj	POSS_NP	?OLD	
+Part	SBJ	indef-np.bare		
 of				
 the				
-reason	other_2	DEF_NP	?OLD	
+reason	other_2	def-np.the	?OLD	
 that				
 the				
 near				
-win	subj_4	DEF_NP	?OLD	
+win	SBJ_4	def-np.the	?OLD	
 is				
 inbuilt				
 to				
@@ -1326,156 +1326,156 @@ is
 because				
 the				
 greater				
-our	other_3	PPOSS	?OLD	
-proficiency	subj_2	DEF_NP	?OLD	
+our	other_3	pron.ppos	?OLD	
+proficiency	SBJ_2	def-np.poss	?OLD	
 ,				
 the				
 more				
 clearly				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 might				
 see				
 that				
-we	subj_3	PPER	?OLD	
+we	SBJ_3	pron.pper	?OLD	
 do				
 n't				
 know				
 all				
 that				
-we	subj_4	PPER	?OLD	
+we	SBJ_4	pron.pper	?OLD	
 thought				
-we	subj_5	PPER	?OLD	
+we	SBJ_5	pron.pper	?OLD	
 did				
 .			
 
 # text = It's called the Dunning–Kruger effect.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 's				
 called				
 the				
 Dunning				
 –				
 Kruger				
-effect	other	DEF_NP	?OLD	
+effect	other	def-np.the	?OLD	
 .			
 
 --
 # text = The Paris Review got it out of James Baldwin when they asked him, \"What do you think increases with knowledge?\"
 The				
 Paris				
-Review	subj	NAME	?OLD	
+Review	SBJ	ne	?OLD	
 got				
-it	obj	PPER	?OLD	
+it	OBJ	pron.pper	?OLD	
 out				
 of				
-James	other	NAME	?OLD	
+James	other	ne	?OLD	
 Baldwin				
 when				
-they	subj_2	PPER	?OLD	
+they	SBJ_2	pron.pper	?OLD	
 asked				
-him	obj_2	PPER	?OLD	
+him	OBJ_2	pron.pper	?OLD	
 ,				
 &quot;				
-What	obj_3			
+What	OBJ_3	pron.pint		
 do				
-you	subj_3	PPER	?OLD	
+you	SBJ_3	pron.pper	?OLD	
 think				
-increases	obj_3	INDEF_NP		
+increases	OBJ_3	indef-np.bare		
 with				
-knowledge	other_4	INDEF_NP		
+knowledge	other_4	indef-np.bare		
 ?				
 &quot;			
 
 --
 # text = and he said, \"You learn how little you know.\"
 and				
-he	subj	PPER	?OLD	
+he	SBJ	pron.pper	?OLD	
 said				
 ,				
 &quot;				
-You	subj_2	PPER	?OLD	
+You	SBJ_2	pron.pper	?OLD	
 learn				
 how				
 little				
-you	subj_3	PPER	?OLD	
+you	SBJ_3	pron.pper	?OLD	
 know				
 .				
 &quot;			
 
 # text = Success motivates us, but a near win can propel us in an ongoing quest.
-Success	subj	INDEF_NP		
+Success	SBJ	indef-np.bare		
 motivates				
-us	obj	PPER	?OLD	
+us	OBJ	pron.pper	?OLD	
 ,				
 but				
 a				
 near				
-win	subj_2	INDEF_NP		
+win	SBJ_2	indef-np.a		
 can				
 propel				
-us	obj_2	PPER	?OLD	
+us	OBJ_2	pron.pper	?OLD	
 in				
 an				
 ongoing				
-quest	other_2	INDEF_NP		
+quest	other_2	indef-np.a		
 .			
 
 # text = One of the most vivid examples of this comes when we look at the difference between Olympic silver medalists and bronze medalists after a competition.
-One	subj	POSS_NP	?OLD	
+One	SBJ			
 of				
 the				
 most				
 vivid				
-examples	other_2	DEF_NP	?OLD	
+examples	other_2	def-np.poss	?OLD	
 of				
-this	other_3	PDEM	?OLD	
+this	other_3	pron.pds	?OLD	
 comes				
 when				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 look				
 at				
 the				
-difference	other_2	DEF_NP	?OLD	
+difference	other_2	def-np.the	?OLD	
 between				
 Olympic				
 silver				
-medalists	other_3	INDEF_NP		
+medalists	other_3	indef-np.bare		
 and				
 bronze				
-medalists	other_4	INDEF_NP		
+medalists	other_4	indef-np.bare		
 after				
 a				
-competition	other_2	INDEF_NP		
+competition	other_2	indef-np.a		
 .			
 
 # text = Thomas Gilovich and his team from Cornell studied this difference and found that the frustration silver medalists feel compared to bronze, who are typically a bit more happy to have just not received fourth place and not medaled at all, gives silver medalists a focus on follow-up competition.
-Thomas	subj	NAME	?OLD	
+Thomas	SBJ	ne	?OLD	
 Gilovich				
 and				
-his	other_3	PPOSS	?OLD	
-team	other_2	POSS_NP	?OLD	
+his	other_3	pron.ppos	?OLD	
+team	other_2	def-np.poss	?OLD	
 from				
-Cornell	other_2	NAME	?OLD	
+Cornell	other_2	ne	?OLD	
 studied				
 this				
-difference	obj	DEM_NP	?OLD	
+difference	OBJ	def-np.dem	?OLD	
 and				
 found				
 that				
 the				
 frustration				
 silver				
-medalists	subj_3	DEF_NP	?OLD	
+medalists	SBJ_3	def-np.the	?OLD	
 feel				
 compared				
 to				
-bronze	other_3	INDEF_NP		
+bronze	other_3	indef-np.bare		
 ,				
-who	subj_5			
+who	SBJ_5			
 are				
 typically				
 a				
-bit	other_6	INDEF_NP		
+bit	other_6	indef-np.a		
 more				
 happy				
 to				
@@ -1484,77 +1484,77 @@ just
 not				
 received				
 fourth				
-place	obj_7	INDEF_NP		
+place	OBJ_7	indef-np.bare		
 and				
 not				
 medaled				
 at				
-all	other_8	other		
+all				
 ,				
 gives				
-silver	subj_3			
+silver	SBJ_3	pron.pint		
 medalists				
 a				
-focus	obj_3	INDEF_NP		
+focus	OBJ_3	indef-np.a		
 on				
 follow				
 _				
 up				
-competition	other_4	INDEF_NP		
+competition	other_4	indef-np.bare		
 .			
 
 # text = We see it even in the gambling industry that once picked up on this phenomenon of the near win and created these scratch-off tickets that had a higher than average rate of near wins and so compelled people to buy more tickets that they were called heart-stoppers, and were set on a gambling industry set of abuses in Britain in the 1970s.
-We	subj	PPER	?OLD	
+We	SBJ	pron.pper	?OLD	
 see				
-it	obj	PPER	?OLD	
+it	OBJ	pron.pper	?OLD	
 even				
 in				
 the				
 gambling				
-industry	other	DEF_NP	?OLD	
+industry	other	def-np.the	?OLD	
 that				
 once				
 picked				
 up				
 on				
 this				
-phenomenon	other_2	DEM_NP	?OLD	
+phenomenon	other_2	def-np.dem	?OLD	
 of				
 the				
 near				
-win	other_3	DEF_NP	?OLD	
+win	other_3	def-np.the	?OLD	
 and				
 created				
 these				
 scratch				
 _				
 off				
-tickets	obj_4	DEM_NP	?OLD	
-that	subj_6			
+tickets	OBJ_4	def-np.dem	?OLD	
+that	SBJ_6			
 had				
 a				
 higher				
 than				
 average				
-rate	obj_6	INDEF_NP		
+rate	OBJ_6	indef-np.a		
 of				
 near				
-wins	other_7	INDEF_NP		
+wins	other_7	indef-np.bare		
 and				
 so				
 compelled				
-people	other_2	INDEF_NP		
+people	other_2	indef-np.bare		
 to				
 buy				
 more				
-tickets	obj_4	INDEF_NP		
+tickets	OBJ_4	indef-np.bare		
 that				
-they	subj_6	PPER	?OLD	
+they	SBJ_6	pron.pper	?OLD	
 were				
 called				
 heart				
 _				
-stoppers	other_6	INDEF_NP		
+stoppers	other_6	indef-np.bare		
 ,				
 and				
 were				
@@ -1563,214 +1563,214 @@ on
 a				
 gambling				
 industry				
-set	other_3	INDEF_NP		
+set	other_3	indef-np.a		
 of				
-abuses	other_4	INDEF_NP		
+abuses	other_4	indef-np.bare		
 in				
-Britain	other_5	NAME	?OLD	
+Britain	other_5	ne	?OLD	
 in				
 the				
-1970s	other_4	DEF_NP	?OLD	
+1970s	other_4	def-np.the	?OLD	
 .			
 
 # text = The reason the near win has a propulsion is because it changes our view of the landscape and puts our goals, which we tend to put at a distance, into more proximate vicinity to where we stand.
 The				
-reason	subj	DEF_NP	?OLD	
+reason	SBJ	def-np.the	?OLD	
 the				
 near				
-win	subj_2	DEF_NP	?OLD	
+win	SBJ_2	def-np.the	?OLD	
 has				
 a				
-propulsion	subj	INDEF_NP		
+propulsion	SBJ	indef-np.a		
 is				
 because				
-it	subj_2	PPER	?OLD	
+it	SBJ_2	pron.pper	?OLD	
 changes				
-our	other_3	PPOSS	?OLD	
-view	obj_2	POSS_NP	?OLD	
+our	other_3	pron.ppos	?OLD	
+view	OBJ_2	def-np.poss	?OLD	
 of				
 the				
-landscape	other_3	DEF_NP	?OLD	
+landscape	other_3	def-np.the	?OLD	
 and				
 puts				
-our	other_4	PPOSS	?OLD	
-goals	obj_3	POSS_NP	?OLD	
+our	other_4	pron.ppos	?OLD	
+goals	OBJ_3	def-np.poss	?OLD	
 ,				
-which	obj_5			
-we	subj_5	PPER	?OLD	
+which	OBJ_5			
+we	SBJ_5	pron.pper	?OLD	
 tend				
 to				
 put				
 at				
 a				
-distance	other_6	INDEF_NP		
+distance	other_6	indef-np.a		
 ,				
 into				
 more				
 proximate				
-vicinity	other_6	INDEF_NP		
+vicinity	other_6	indef-np.bare		
 to				
-where				
-we	subj_8	PPER	?OLD	
+where	other_6	pron.pint		
+we	SBJ_8	pron.pper	?OLD	
 stand				
 .			
 
 # text = If I ask you to envision what a great day looks like next week, you might describe it in more general terms.
 If				
-I	subj_2	PPER	?OLD	
+I	SBJ_2	pron.pper	?OLD	
 ask				
-you	obj_2	PPER	?OLD	
+you	OBJ_2	pron.pper	?OLD	
 to				
 envision				
-what	obj_3			
+what	OBJ_3	pron.pint		
 a				
 great				
-day	subj_5	INDEF_NP		
+day	SBJ_5	indef-np.a		
 looks				
 like				
 next				
-week	other_5	INDEF_NP		
+week	other_5	indef-np.bare		
 ,				
-you	subj	PPER	?OLD	
+you	SBJ	pron.pper	?OLD	
 might				
 describe				
-it	obj	PPER	?OLD	
+it	OBJ	pron.pper	?OLD	
 in				
 more				
 general				
-terms	obj	INDEF_NP		
+terms	OBJ	indef-np.bare		
 .			
 
 # text = But if I ask you to describe a great day at TED tomorrow, you might describe it with granular, practical clarity.
 But				
 if				
-I	subj_2	PPER	?OLD	
+I	SBJ_2	pron.pper	?OLD	
 ask				
-you	obj_2	PPER	?OLD	
+you	OBJ_2	pron.pper	?OLD	
 to				
 describe				
 a				
 great				
-day	obj_3	INDEF_NP		
+day	OBJ_3	indef-np.a		
 at				
-TED	other_3	INDEF_NP		
-tomorrow	other_2	INDEF_NP		
+TED	other_3	indef-np.bare		
+tomorrow	other_2	indef-np.bare		
 ,				
-you	subj	PPER	?OLD	
+you	SBJ	pron.pper	?OLD	
 might				
 describe				
-it	obj	PPER	?OLD	
+it	OBJ	pron.pper	?OLD	
 with				
-granular	other	INDEF_NP		
+granular	other	indef-np.bare		
 ,				
 practical				
-clarity	other_2	INDEF_NP		
+clarity	other_2	indef-np.bare		
 .			
 
 # text = And this is what a near win does.
 And				
-this	subj	PDEM	?OLD	
+this	SBJ	pron.pds	?OLD	
 is				
-what				
+what	other	pron.pint		
 a				
 near				
-win	subj_2	INDEF_NP		
+win	SBJ_2	indef-np.a		
 does				
 .			
 
 # text = It gets us to focus on what, right now, we plan to do to address that mountain in our sights.
 It				
 gets				
-us	obj	PPER	?OLD	
+us	OBJ	pron.pper	?OLD	
 to				
 focus				
 on				
-what				
+what	other_3	pron.pint		
 ,				
 right				
 now				
 ,				
-we	subj_3	PPER	?OLD	
+we	SBJ_3	pron.pper	?OLD	
 plan				
 to				
 do				
 to				
 address				
 that				
-mountain	obj_5	DEM_NP	?OLD	
+mountain	OBJ_5	def-np.dem	?OLD	
 in				
-our	other_6	PPOSS	?OLD	
-sights	other_5	POSS_NP	?OLD	
+our	other_6	pron.ppos	?OLD	
+sights	other_5	def-np.poss	?OLD	
 .			
 
 # text = It's Jackie Joyner-Kersee, who in 1984 missed taking the gold in the heptathlon by one third of a second, and her husband predicted that would give her the tenacity she needed in follow-up competition.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 's				
-Jackie	other	NAME	?OLD	
+Jackie	other	ne	?OLD	
 Joyner				
 _				
 Kersee				
 ,				
-who	subj_2			
+who	SBJ_2			
 in				
-1984	other_3	NAME	?OLD	
+1984	other_3	ne	?OLD	
 missed				
 taking				
 the				
-gold	obj_3	DEF_NP	?OLD	
+gold	OBJ_3	def-np.the	?OLD	
 in				
 the				
-heptathlon	other_3	DEF_NP	?OLD	
+heptathlon	other_3	def-np.the	?OLD	
 by				
-one	other_3	other		
+one				
 third				
 of				
 a				
-second	other_4	INDEF_NP		
+second	other_4	indef-np.a		
 ,				
 and				
-her	other_5	PPOSS	?OLD	
-husband	subj_4	POSS_NP	?OLD	
+her	other_5	pron.ppos	?OLD	
+husband	SBJ_4	def-np.poss	?OLD	
 predicted				
-that	subj_5	PDEM	?OLD	
+that	SBJ_5	pron.pds	?OLD	
 would				
 give				
-her	obj_5	PPER	?OLD	
+her	OBJ_5	pron.pper	?OLD	
 the				
-tenacity	obj_5	DEF_NP	?OLD	
-she	subj_7	PPER	?OLD	
+tenacity	OBJ_5	def-np.the	?OLD	
+she	SBJ_7	pron.pper	?OLD	
 needed				
 in				
 follow				
 _				
 up				
-competition	other_7	INDEF_NP		
+competition	other_7	indef-np.bare		
 .			
 
 # text = In 1988, she won the gold in the heptathlon and set a record of 7,291 points, a score that no athlete has come very close to since.
 In				
-1988	other	other		
+1988				
 ,				
-she	subj	PPER	?OLD	
+she	SBJ	pron.pper	?OLD	
 won				
 the				
-gold	obj	DEF_NP	?OLD	
+gold	OBJ	def-np.the	?OLD	
 in				
 the				
-heptathlon	other_2	DEF_NP	?OLD	
+heptathlon	other_2	def-np.the	?OLD	
 and				
 set				
 a				
-record	obj_2	INDEF_NP		
+record	OBJ_2	indef-np.a		
 of				
 7,291				
-points	other_3	INDEF_NP		
+points	other_3	indef-np.quant		
 ,				
 a				
-score	obj	INDEF_NP		
+score	OBJ	indef-np.a		
 that				
 no				
-athlete	subj_3	INDEF_NP		
+athlete	SBJ_3	indef-np.quant		
 has				
 come				
 very				
@@ -1780,28 +1780,28 @@ since
 .			
 
 # text = We thrive not when we've done it all, but when we still have more to do.
-We	subj	PPER	?OLD	
+We	SBJ	pron.pper	?OLD	
 thrive				
 not				
 when				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 've				
 done				
-it	obj_2	PPER	?OLD	
+it	OBJ_2	pron.pper	?OLD	
 all				
 ,				
 but				
 when				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 still				
 have				
-more	obj_2	other		
+more	OBJ_2			
 to				
 do				
 .			
 
 # text = I stand here thinking and wondering about all the different ways that we might even manufacture a near win in this room, how your lives might play this out, because I think on some gut level we do know this.
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 stand				
 here				
 thinking				
@@ -1811,202 +1811,202 @@ about
 all				
 the				
 different				
-ways	obj_3	DEF_NP	?OLD	
-that	obj_5			
-we	subj_5	PPER	?OLD	
+ways	OBJ_3	def-np.the	?OLD	
+that	OBJ_5			
+we	SBJ_5	pron.pper	?OLD	
 might				
 even				
 manufacture				
 a				
 near				
-win	obj_5	INDEF_NP		
+win	OBJ_5	indef-np.a		
 in				
 this				
-room	other_6	DEM_NP	?OLD	
+room	other_6	def-np.dem	?OLD	
 ,				
 how				
-your	other_3	PPOSS	?OLD	
-lives	subj_2	POSS_NP	?OLD	
+your	other_3	pron.ppos	?OLD	
+lives	SBJ_2	def-np.poss	?OLD	
 might				
 play				
-this	obj_2	PDEM	?OLD	
+this	OBJ_2	pron.pds	?OLD	
 out				
 ,				
 because				
-I	subj_3	PPER	?OLD	
+I	SBJ_3	pron.pper	?OLD	
 think				
 on				
 some				
 gut				
-level	other_4	INDEF_NP		
-we	subj_4	PPER	?OLD	
+level	other_4	indef-np.quant		
+we	SBJ_4	pron.pper	?OLD	
 do				
 know				
-this	obj_4	PDEM	?OLD	
+this	OBJ_4	pron.pds	?OLD	
 .			
 
 # text = We know that we thrive when we stay at our own leading edge, and it's why the deliberate incomplete is inbuilt into creation myths.
-We	subj	PPER	?OLD	
+We	SBJ	pron.pper	?OLD	
 know				
 that				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 thrive				
 when				
-we	subj_3	PPER	?OLD	
+we	SBJ_3	pron.pper	?OLD	
 stay				
 at				
-our	other_4	PPOSS	?OLD	
+our	other_4	pron.ppos	?OLD	
 own				
 leading				
-edge	other_3	POSS_NP	?OLD	
+edge	other_3	def-np.poss	?OLD	
 ,				
 and				
-it	subj_2	PPER	?OLD	
+it	SBJ_2	pron.pper	?OLD	
 's				
 why				
 the				
 deliberate				
-incomplete	subj_2	DEF_NP	?OLD	
+incomplete	SBJ_2	def-np.the	?OLD	
 is				
 inbuilt				
 into				
 creation				
-myths	other	INDEF_NP		
+myths	other	indef-np.bare		
 .			
 
 # text = In Navajo culture, some craftsmen and women would deliberately put an imperfection in textiles and ceramics.
 In				
 Navajo				
-culture	other	INDEF_NP		
+culture	other	indef-np.bare		
 ,				
 some				
-craftsmen	subj	INDEF_NP		
+craftsmen	SBJ	indef-np.quant		
 and				
-women	other_2	INDEF_NP		
+women	other_2	indef-np.bare		
 would				
 deliberately				
 put				
 an				
-imperfection	obj	INDEF_NP		
+imperfection	OBJ	indef-np.a		
 in				
-textiles	other	INDEF_NP		
+textiles	other	indef-np.bare		
 and				
-ceramics	other_2	INDEF_NP		
+ceramics	other_2	indef-np.bare		
 .			
 
 # text = It's what's called a spirit line, a deliberate flaw in the pattern to give the weaver or maker a way out, but also a reason to continue making work.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 's				
-what	subj			
+what	SBJ	pron.pint		
 's				
 called				
 a				
 spirit				
-line	other	INDEF_NP		
+line	other	indef-np.a		
 ,				
 a				
 deliberate				
-flaw	other_2	INDEF_NP		
+flaw	other_2	indef-np.a		
 in				
 the				
-pattern	other_3	DEF_NP	?OLD	
+pattern	other_3	def-np.the	?OLD	
 to				
 give				
 the				
-weaver	obj_4	DEF_NP	?OLD	
+weaver	OBJ_4	def-np.the	?OLD	
 or				
 maker				
 a				
-way	other_6	INDEF_NP		
+way	other_6	indef-np.a		
 out				
 ,				
 but				
 also				
 a				
-reason	other	INDEF_NP		
+reason	other	indef-np.a		
 to				
 continue				
 making				
-work	obj_4	INDEF_NP		
+work	OBJ_4	indef-np.bare		
 .			
 
 # text = Masters are not experts because they take a subject to its conceptual end.
-Masters	subj	INDEF_NP		
+Masters	SBJ	indef-np.bare		
 are				
 not				
-experts	other	INDEF_NP		
+experts	other	indef-np.bare		
 because				
-they	subj_2	PPER	?OLD	
+they	SBJ_2	pron.pper	?OLD	
 take				
 a				
-subject	obj_2	INDEF_NP		
+subject	OBJ_2	indef-np.a		
 to				
-its	other_3	PPOSS	?OLD	
+its	other_3	pron.ppos	?OLD	
 conceptual				
-end	other_2	POSS_NP	?OLD	
+end	other_2	def-np.poss	?OLD	
 .			
 
 # text = They're masters because they realize that there isn't one.
-They	subj	PPER	?OLD	
+They	SBJ	pron.pper	?OLD	
 're				
-masters	other	INDEF_NP		
+masters	other	indef-np.bare		
 because				
-they	subj_2	PPER	?OLD	
+they	SBJ_2	pron.pper	?OLD	
 realize				
 that				
 there				
 is				
 n't				
-one	subj_3	other		
+one	SBJ_3			
 .			
 
 # text = Now it occurred to me, as I thought about this, why the archery coach told me at the end of that practice, out of earshot of his archers, that he and his colleagues never feel they can do enough for their team, never feel there are enough visualization techniques and posture drills to help them overcome those constant near wins.
 Now				
-it	subj	PPER	?OLD	
+it	SBJ	pron.pper	?OLD	
 occurred				
 to				
-me	other	PPER	?OLD	
+me	other	pron.pper	?OLD	
 ,				
 as				
-I	subj_3	PPER	?OLD	
+I	SBJ_3	pron.pper	?OLD	
 thought				
 about				
-this	other_3	PDEM	?OLD	
+this	other_3	pron.pds	?OLD	
 ,				
 why				
 the				
 archery				
-coach	subj_2	DEF_NP	?OLD	
+coach	SBJ_2	def-np.the	?OLD	
 told				
-me	obj_2	PPER	?OLD	
+me	OBJ_2	pron.pper	?OLD	
 at				
 the				
-end	other_2	DEF_NP	?OLD	
+end	other_2	def-np.poss	?OLD	
 of				
 that				
-practice	other_3	DEM_NP	?OLD	
+practice	other_3	def-np.dem	?OLD	
 ,				
 out				
 of				
-earshot	other_2	POSS_NP	?OLD	
+earshot	other_2	def-np.poss	?OLD	
 of				
-his	other_4	PPOSS	?OLD	
-archers	other_3	POSS_NP	?OLD	
+his	other_4	pron.ppos	?OLD	
+archers	other_3	def-np.poss	?OLD	
 ,				
 that				
-he	subj_3	PPER	?OLD	
+he	SBJ_3	pron.pper	?OLD	
 and				
-his	other_5	PPOSS	?OLD	
-colleagues	other_4	POSS_NP	?OLD	
+his	other_5	pron.ppos	?OLD	
+colleagues	other_4	def-np.poss	?OLD	
 never				
 feel				
-they	subj_4	PPER	?OLD	
+they	SBJ_4	pron.pper	?OLD	
 can				
 do				
 enough				
 for				
-their	other_5	PPOSS	?OLD	
-team	other_4	POSS_NP	?OLD	
+their	other_5	pron.ppos	?OLD	
+team	other_4	def-np.poss	?OLD	
 ,				
 never				
 feel				
@@ -2014,182 +2014,182 @@ there
 are				
 enough				
 visualization				
-techniques	subj_5	INDEF_NP		
+techniques	SBJ_5	indef-np.bare		
 and				
 posture				
-drills	other_6	INDEF_NP		
+drills	other_6	indef-np.bare		
 to				
 help				
-them	obj_6	PPER	?OLD	
+them	OBJ_6	pron.pper	?OLD	
 overcome				
 those				
 constant				
 near				
-wins	obj_7	DEM_NP	?OLD	
+wins	OBJ_7	def-np.dem	?OLD	
 .			
 
 # text = It didn't sound like a complaint, exactly, but just a way to let me know, a kind of tender admission, to remind me that he knew he was giving himself over to a voracious, unfinished path that always required more.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 did				
 n't				
 sound				
 like				
 a				
-complaint	other	INDEF_NP		
+complaint	other	indef-np.a		
 ,				
 exactly				
 ,				
 but				
 just				
 a				
-way	other	INDEF_NP		
+way	other	indef-np.a		
 to				
 let				
-me	obj_3	PPER	?OLD	
+me	OBJ_3	pron.pper	?OLD	
 know				
 ,				
 a				
-kind	other_2	INDEF_NP		
+kind	other_2	indef-np.a		
 of				
 tender				
-admission	other_3	INDEF_NP		
+admission	other_3	indef-np.bare		
 ,				
 to				
 remind				
-me	obj_2	PPER	?OLD	
+me	OBJ_2	pron.pper	?OLD	
 that				
-he	subj_3	PPER	?OLD	
+he	SBJ_3	pron.pper	?OLD	
 knew				
-he	subj_4	PPER	?OLD	
+he	SBJ_4	pron.pper	?OLD	
 was				
 giving				
-himself	obj_4			
+himself	OBJ_4			
 over				
 to				
 a				
 voracious				
 ,				
 unfinished				
-path	other_4	INDEF_NP		
-that	subj_6			
+path	other_4	indef-np.a		
+that	SBJ_6			
 always				
 required				
 more				
 .			
 
 # text = We build out of the unfinished idea, even if that idea is our former self.
-We	subj	PPER	?OLD	
+We	SBJ	pron.pper	?OLD	
 build				
 out				
 of				
 the				
 unfinished				
-idea	other	DEF_NP	?OLD	
+idea	other	def-np.the	?OLD	
 ,				
 even				
 if				
 that				
-idea	subj_2	DEM_NP	?OLD	
+idea	SBJ_2	def-np.dem	?OLD	
 is				
-our	other_2	PPOSS	?OLD	
+our	other_2	pron.ppos	?OLD	
 former				
-self	other	POSS_NP	?OLD	
+self	other	def-np.poss	?OLD	
 .			
 
 # text = This is the dynamic of mastery.
-This	subj	PDEM	?OLD	
+This	SBJ	pron.pds	?OLD	
 is				
 the				
-dynamic	other	DEF_NP	?OLD	
+dynamic	other	def-np.the	?OLD	
 of				
-mastery	other	INDEF_NP		
+mastery	other	indef-np.bare		
 .			
 
 # text = Coming close to what you thought you wanted can help you attain more than you ever dreamed you could.
-Coming	subj	other		
+Coming	SBJ			
 close				
 to				
-what				
-you	subj_5	PPER	?OLD	
+what	other_3	pron.pint		
+you	SBJ_5	pron.pper	?OLD	
 thought				
-you	subj_6	PPER	?OLD	
+you	SBJ_6	pron.pper	?OLD	
 wanted				
 can				
 help				
-you	obj_7	PPER	?OLD	
+you	OBJ_7	pron.pper	?OLD	
 attain				
-more	obj_8	other		
+more	OBJ_8			
 than				
-you	other_9	PPER	?OLD	
+you	other_9	pron.pper	?OLD	
 ever				
 dreamed				
-you	obj_9	PPER	?OLD	
+you	OBJ_9	pron.pper	?OLD	
 could				
 .			
 
 # text = It's what I have to imagine Elizabeth Murray was thinking when I saw her smiling at those early paintings one day in the galleries.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 's				
-what				
-I	subj_2	PPER	?OLD	
+what	other	pron.pint		
+I	SBJ_2	pron.pper	?OLD	
 have				
 to				
 imagine				
-Elizabeth	subj_4	NAME	?OLD	
+Elizabeth	SBJ_4	ne	?OLD	
 Murray				
 was				
 thinking				
 when				
-I	subj_5	PPER	?OLD	
+I	SBJ_5	pron.pper	?OLD	
 saw				
-her	subj_6	PPER	?OLD	
+her	SBJ_6	pron.pper	?OLD	
 smiling				
 at				
 those				
 early				
-paintings	other_6	DEM_NP	?OLD	
+paintings	other_6	def-np.dem	?OLD	
 one				
-day	other_6	INDEF_NP		
+day	other_6	indef-np.quant		
 in				
 the				
-galleries	other_6	DEF_NP	?OLD	
+galleries	other_6	def-np.the	?OLD	
 .			
 
 # text = Even if we created utopias, I believe we would still have the incomplete.
 Even				
 if				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 created				
 utopias				
 ,				
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 believe				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 would				
 still				
 have				
 the				
-incomplete	obj_2	DEF_NP	?OLD	
+incomplete	OBJ_2	def-np.the	?OLD	
 .			
 
 # text = Completion is a goal, but we hope it is never the end.
-Completion	subj	INDEF_NP		
+Completion	SBJ	indef-np.bare		
 is				
 a				
-goal	other	INDEF_NP		
+goal	other	indef-np.a		
 ,				
 but				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 hope				
-it	subj_3	PPER	?OLD	
+it	SBJ_3	pron.pper	?OLD	
 is				
 never				
 the				
-end	other_2	DEF_NP	?OLD	
+end	other_2	def-np.the	?OLD	
 .			
 
 # text = Thank you.
 Thank				
-you	obj	PPER	?OLD	
+you	OBJ	pron.pper	?OLD	
 .			
 

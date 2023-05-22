@@ -1,10 +1,10 @@
 # text = talkid: 1976
-talkid	other	INDEF_NP		
+talkid	other	indef-np.quant		
 :				
 1976			
 
 # text = Jeremy Kasdin:
-Jeremy	other	NAME	?OLD	
+Jeremy	other	ne	?OLD	
 Kasdin				
 :			
 
@@ -13,231 +13,231 @@ The
 flower				
 _				
 shaped				
-starshade	other	DEF_NP	?OLD	
-that	subj_2			
+starshade	other	def-np.the	?OLD	
+that	SBJ_2			
 might				
 help				
-us	subj_3	PPER	?OLD	
+us	SBJ_3	pron.pper	?OLD	
 detect				
-Earth	other_4	NAME	?OLD	
+Earth	other_4	ne	?OLD	
 _				
 like				
-planets	other_4	INDEF_NP	
+planets	other_4	indef-np.bare	
 
 # text = The universe is teeming with planets.
 The				
-universe	subj	DEF_NP	?OLD	
+universe	SBJ	def-np.the	?OLD	
 is				
 teeming				
 with				
-planets	other	INDEF_NP		
+planets	other	indef-np.bare		
 .			
 
 # text = I want us, in the next decade, to build a space telescope that'll be able to image an Earth about another star and figure out whether it can harbor life.
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 want				
-us	obj	PPER	?OLD	
+us	OBJ	pron.pper	?OLD	
 ,				
 in				
 the				
 next				
-decade	other	DEF_NP	?OLD	
+decade	other	def-np.the	?OLD	
 ,				
 to				
 build				
 a				
 space				
-telescope	obj_2	INDEF_NP		
-that	subj_2			
+telescope	OBJ_2	indef-np.a		
+that	SBJ_2			
 'll				
 be				
 able				
 to				
 image				
 an				
-Earth	obj_3	NAME	?OLD	
+Earth	OBJ_3	ne	?OLD	
 about				
 another				
-star	other_3	INDEF_NP		
+star	other_3	indef-np.a		
 and				
 figure				
 out				
 whether				
-it	subj_5	PPER	?OLD	
+it	SBJ_5	pron.pper	?OLD	
 can				
 harbor				
-life	obj_5	INDEF_NP		
+life	OBJ_5	indef-np.bare		
 .			
 
 # text = My colleagues at the NASA Jet Propulsion Laboratory at Princeton and I are working on technology that will be able to do just that in the coming years.
-My	other	PPOSS	?OLD	
-colleagues	other	POSS_NP	?OLD	
+My	other	pron.ppos	?OLD	
+colleagues	other	def-np.poss	?OLD	
 at				
 the				
 NASA				
 Jet				
 Propulsion				
-Laboratory	other	NAME	?OLD	
+Laboratory	other	ne	?OLD	
 at				
-Princeton	other	NAME	?OLD	
+Princeton	other	ne	?OLD	
 and				
-I	subj_2	PPER	?OLD	
+I	SBJ_2	pron.pper	?OLD	
 are				
 working				
 on				
-technology	other_2	INDEF_NP		
-that	subj_2			
+technology	other_2	indef-np.bare		
+that	SBJ_2			
 will				
 be				
 able				
 to				
 do				
 just				
-that	obj_3	PDEM	?OLD	
+that	OBJ_3	pron.pds	?OLD	
 in				
 the				
 coming				
-years	other_3	DEF_NP	?OLD	
+years	other_3	def-np.the	?OLD	
 .			
 
 # text = Astronomers now believe that every star in the galaxy has a planet, and they speculate that up to one fifth of them have an Earth-like planet that might be able to harbor life, but we haven't seen any of them.
-Astronomers	subj	INDEF_NP		
+Astronomers	SBJ	indef-np.bare		
 now				
 believe				
 that				
 every				
-star	subj_2	INDEF_NP		
+star	SBJ_2	indef-np		
 in				
 the				
-galaxy	other_3	DEF_NP	?OLD	
+galaxy	other_3	def-np.the	?OLD	
 has				
 a				
-planet	obj_2	INDEF_NP		
+planet	OBJ_2	indef-np.a		
 ,				
 and				
-they	subj_2	PPER	?OLD	
+they	SBJ_2	pron.pper	?OLD	
 speculate				
-that	obj_2	PDEM	?OLD	
+that	OBJ_2	pron.pds	?OLD	
 up				
 to				
 one				
-fifth	subj_3	POSS_NP	?OLD	
+fifth	SBJ_3	def-np.poss	?OLD	
 of				
-them	other_4	PPER	?OLD	
+them	other_4	pron.pper	?OLD	
 have				
 an				
-Earth	other_5	NAME	?OLD	
+Earth	other_5	ne	?OLD	
 _				
 like				
-planet	obj_3	INDEF_NP		
-that	subj_5			
+planet	OBJ_3	indef-np.a		
+that	SBJ_5			
 might				
 be				
 able				
 to				
 harbor				
-life	obj_6	INDEF_NP		
+life	OBJ_6	indef-np.bare		
 ,				
 but				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 have				
 n't				
 seen				
-any	obj_2	POSS_NP	?OLD	
+any	OBJ_2	def-np.poss	?OLD	
 of				
-them	other_3	PPER	?OLD	
+them	other_3	pron.pper	?OLD	
 .			
 
 # text = We've only detected them indirectly.
-We	subj	PPER	?OLD	
+We	SBJ	pron.pper	?OLD	
 've				
 only				
 detected				
-them	obj	PPER	?OLD	
+them	OBJ	pron.pper	?OLD	
 indirectly				
 .			
 
 # text = This is NASA's famous picture of the pale blue dot.
-This	subj	PDEM	?OLD	
+This	SBJ	pron.pds	?OLD	
 is				
-NASA	other	NAME	?OLD	
+NASA	other	ne	?OLD	
 's				
 famous				
-picture	other	POSS_NP	?OLD	
+picture	other	def-np.poss	?OLD	
 of				
 the				
 pale				
 blue				
-dot	other	DEF_NP	?OLD	
+dot	other	def-np.the	?OLD	
 .			
 
 # text = It was taken by the Voyager spacecraft in 1990, when they turned it around as it was exiting the solar system to take a picture of the Earth from six billion kilometers away.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 was				
 taken				
 by				
 the				
 Voyager				
-spacecraft	other	DEF_NP	?OLD	
+spacecraft	other	def-np.the	?OLD	
 in				
-1990	other	other		
+1990				
 ,				
 when				
-they	subj_2	PPER	?OLD	
+they	SBJ_2	pron.pper	?OLD	
 turned				
-it	obj_2	PPER	?OLD	
+it	OBJ_2	pron.pper	?OLD	
 around				
 as				
-it	subj_3	PPER	?OLD	
+it	SBJ_3	pron.pper	?OLD	
 was				
 exiting				
 the				
 solar				
-system	obj_3	DEF_NP	?OLD	
+system	OBJ_3	def-np.the	?OLD	
 to				
 take				
 a				
-picture	obj_5	POSS_NP	?OLD	
+picture	OBJ_5	def-np.poss	?OLD	
 of				
 the				
-Earth	other_6	NAME	?OLD	
+Earth	other_6	ne	?OLD	
 from				
 six				
 billion				
-kilometers	other_5	INDEF_NP		
+kilometers	other_5	indef-np.quant		
 away				
 .			
 
 # text = I want to take that of an Earth-like planet about another star.
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 want				
 to				
 take				
-that	obj_2	PDEM	?OLD	
+that	OBJ_2	pron.pds	?OLD	
 of				
 an				
-Earth	other_5	NAME	?OLD	
+Earth	other_5	ne	?OLD	
 _				
 like				
-planet	other_3	INDEF_NP		
+planet	other_3	indef-np.a		
 about				
 another				
-star	other_4	INDEF_NP		
+star	other_4	indef-np.a		
 .			
 
 # text = Why haven't we done that?
 Why				
 have				
 n't				
-we	subj	PPER	?OLD	
+we	SBJ	pron.pper	?OLD	
 done				
-that	obj	PDEM	?OLD	
+that	OBJ	pron.pds	?OLD	
 ?			
 
 # text = Why is that hard?
-Why				
+Why	other	pron.pint		
 is				
-that	subj_2	PPER	?OLD	
+that	SBJ_2	pron	?OLD	
 hard				
 ?			
 
@@ -247,49 +247,49 @@ to
 see				
 ,				
 let				
-'s	obj	PPER	?OLD	
+'s	OBJ	pron.pper	?OLD	
 imagine				
-we	subj_3	PPER	?OLD	
+we	SBJ_3	pron.pper	?OLD	
 take				
 the				
 Hubble				
 Space				
-Telescope	obj_3	NAME	?OLD	
+Telescope	OBJ_3	ne	?OLD	
 and				
-we	subj_4	PPER	?OLD	
+we	SBJ_4	pron.pper	?OLD	
 turn				
-it	obj_4	PPER	?OLD	
+it	OBJ_4	pron.pper	?OLD	
 around				
 and				
-we	subj_5	PPER	?OLD	
+we	SBJ_5	pron.pper	?OLD	
 move				
-it	obj_5	PPER	?OLD	
+it	OBJ_5	pron.pper	?OLD	
 out				
 to				
 the				
-orbit	other_5	DEF_NP	?OLD	
+orbit	other_5	def-np.poss	?OLD	
 of				
-Mars	other_6	NAME	?OLD	
+Mars	other_6	ne	?OLD	
 .			
 
 # text = We'll see something like that, a slightly blurry picture of the Earth, because we're a fairly small telescope out at the orbit of Mars.
-We	subj	PPER	?OLD	
+We	SBJ	pron.pper	?OLD	
 'll				
 see				
-something	obj	PPER	?OLD	
+something	OBJ	pron	?OLD	
 like				
-that	other_2	PDEM	?OLD	
+that	other_2	pron.pds	?OLD	
 ,				
 a				
 slightly				
 blurry				
-picture	obj	POSS_NP	?OLD	
+picture	OBJ	def-np.poss	?OLD	
 of				
 the				
-Earth	other_2	NAME	?OLD	
+Earth	other_2	ne	?OLD	
 ,				
 because				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 're				
 a				
 fairly				
@@ -298,107 +298,107 @@ telescope
 out				
 at				
 the				
-orbit	other_3	DEF_NP	?OLD	
+orbit	other_3	def-np.poss	?OLD	
 of				
-Mars	other_4	NAME	?OLD	
+Mars	other_4	ne	?OLD	
 .			
 
 # text = Now let's move ten times further away.
 Now				
 let				
-'s	obj	PPER	?OLD	
+'s	OBJ	pron.pper	?OLD	
 move				
 ten				
-times	other_3	INDEF_NP		
+times	other_3	indef-np.quant		
 further				
 away				
 .			
 
 # text = Here we are at the orbit of Uranus.
-Here				
-we	subj	PPER	?OLD	
+Here	other	pron.padv	?OLD	
+we	SBJ	pron.pper	?OLD	
 are				
 at				
 the				
-orbit	other	DEF_NP	?OLD	
+orbit	other	def-np.poss	?OLD	
 of				
-Uranus	other_2	NAME	?OLD	
+Uranus	other_2	ne	?OLD	
 .			
 
 # text = It's gotten smaller, it's got less detail, less resolve.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 's				
 gotten				
 smaller				
 ,				
-it	subj_2	PPER	?OLD	
+it	SBJ_2	pron.pper	?OLD	
 's				
 got				
 less				
-detail	obj_2	INDEF_NP		
+detail	OBJ_2	indef-np.bare		
 ,				
 less				
-resolve	other_3	INDEF_NP		
+resolve	other_3	indef-np.bare		
 .			
 
 # text = We can still see the little moon, but let's go ten times further away again.
-We	subj	PPER	?OLD	
+We	SBJ	pron.pper	?OLD	
 can				
 still				
 see				
 the				
 little				
-moon	obj	DEF_NP	?OLD	
+moon	OBJ	def-np.the	?OLD	
 ,				
 but				
 let				
-'s	obj_2	PPER	?OLD	
+'s	OBJ_2	pron.pper	?OLD	
 go				
 ten				
-times	other_4	INDEF_NP		
+times	other_4	indef-np.quant		
 further				
 away				
 again				
 .			
 
 # text = Here we are at the edge of the solar system, out at the Kuiper Belt.
-Here				
-we	subj	PPER	?OLD	
+Here	other	pron.padv	?OLD	
+we	SBJ	pron.pper	?OLD	
 are				
 at				
 the				
-edge	other	DEF_NP	?OLD	
+edge	other	def-np.the	?OLD	
 of				
 the				
 solar				
-system	other_2	DEF_NP	?OLD	
+system	other_2	def-np.the	?OLD	
 ,				
 out				
 at				
 the				
 Kuiper				
-Belt	other	NAME	?OLD	
+Belt	other	ne	?OLD	
 .			
 
 # text = Now it's not resolved at all.
 Now				
-it	subj	PPER	?OLD	
+it	SBJ	pron.pper	?OLD	
 's				
 not				
 resolved				
 at				
-all	other	other		
+all				
 .			
 
 # text = It's that pale blue dot of Carl Sagan's.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 's				
-that	subj_2			
+that	SBJ_2			
 pale				
 blue				
-dot	obj_2	POSS_NP	?OLD	
+dot	OBJ_2	def-np.poss	?OLD	
 of				
-Carl	other_3	NAME	?OLD	
+Carl	other_3	ne	?OLD	
 Sagan				
 's				
 .			
@@ -406,165 +406,165 @@ Sagan
 # text = But let's move yet again ten times further away.
 But				
 let				
-'s	obj	PPER	?OLD	
+'s	OBJ	pron.pper	?OLD	
 move				
 yet				
 again				
 ten				
-times	other_3	INDEF_NP		
+times	other_3	indef-np.quant		
 further				
 away				
 .			
 
 # text = Here we are out at the Oort Cloud, outside the solar system, and we're starting to see the sun move into the field of view and get into where the planet is.
-Here				
-we	subj	PPER	?OLD	
+Here	other	pron.padv	?OLD	
+we	SBJ	pron.pper	?OLD	
 are				
 out				
 at				
 the				
 Oort				
-Cloud	other	NAME	?OLD	
+Cloud	other	ne	?OLD	
 ,				
 outside				
 the				
 solar				
-system	other	DEF_NP	?OLD	
+system	other	def-np.the	?OLD	
 ,				
 and				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 're				
 starting				
 to				
 see				
 the				
-sun	obj_3	DEF_NP	?OLD	
+sun	OBJ_3	def-np.the	?OLD	
 move				
 into				
 the				
-field	other_4	DEF_NP	?OLD	
+field	other_4	def-np.the	?OLD	
 of				
-view	other_5	INDEF_NP		
+view	other_5	indef-np.bare		
 and				
 get				
 into				
-where				
+where	other_5	pron.pint		
 the				
-planet	subj_6	DEF_NP	?OLD	
+planet	SBJ_6	def-np.the	?OLD	
 is				
 .			
 
 # text = One more time, ten times further away.
 One				
 more				
-time	other	INDEF_NP		
+time	other	indef-np.quant		
 ,				
 ten				
-times	other_2	INDEF_NP		
+times	other_2	indef-np.quant		
 further				
 away				
 .			
 
 # text = Now we're at Alpha Centauri, our nearest neighbor star, and the planet is gone.
 Now				
-we	subj	PPER	?OLD	
+we	SBJ	pron.pper	?OLD	
 're				
 at				
 Alpha				
-Centauri	other	NAME	?OLD	
+Centauri	other	ne	?OLD	
 ,				
-our	other_2	PPOSS	?OLD	
+our	other_2	pron.ppos	?OLD	
 nearest				
 neighbor				
-star	other	POSS_NP	?OLD	
+star	other	def-np.poss	?OLD	
 ,				
 and				
 the				
-planet	subj_2	DEF_NP	?OLD	
+planet	SBJ_2	def-np.the	?OLD	
 is				
 gone				
 .			
 
 # text = All we're seeing is the big beaming image of the star that's ten billion times brighter than the planet, which should be in that little red circle.
-All	subj	other		
-we	subj_3	PPER	?OLD	
+All	SBJ			
+we	SBJ_3	pron.pper	?OLD	
 're				
 seeing				
 is				
 the				
 big				
 beaming				
-image	other	DEF_NP	?OLD	
+image	other	def-np.the	?OLD	
 of				
 the				
-star	other	DEF_NP	?OLD	
-that	subj_2			
+star	other	def-np.the	?OLD	
+that	SBJ_2			
 's				
 ten				
 billion				
-times	other_2	INDEF_NP		
+times	other_2	indef-np.quant		
 brighter				
 than				
 the				
-planet	other_2	DEF_NP	?OLD	
+planet	other_2	def-np.the	?OLD	
 ,				
-which	subj_2			
+which	SBJ_2			
 should				
 be				
 in				
 that				
 little				
 red				
-circle	other	DEM_NP	?OLD	
+circle	other	def-np.dem	?OLD	
 .			
 
 # text = That's what we want to see.
-That	subj	PDEM	?OLD	
+That	SBJ	pron.pds	?OLD	
 's				
-what				
-we	subj_2	PPER	?OLD	
+what	other	pron.pint		
+we	SBJ_2	pron.pper	?OLD	
 want				
 to				
 see				
 .			
 
 # text = That's why it's hard.
-That	subj	PDEM	?OLD	
+That	SBJ	pron.pds	?OLD	
 's				
 why				
-it	subj	PPER	?OLD	
+it	SBJ	pron.pper	?OLD	
 's				
 hard				
 .			
 
 # text = The light from the star is diffracting.
 The				
-light	subj	DEF_NP	?OLD	
+light	SBJ	def-np.the	?OLD	
 from				
 the				
-star	other_2	DEF_NP	?OLD	
+star	other_2	def-np.the	?OLD	
 is				
 diffracting				
 .			
 
 # text = It's scattering inside the telescope, creating that very bright image that washes out the planet.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 's				
 scattering				
 inside				
 the				
-telescope	other	DEF_NP	?OLD	
+telescope	other	def-np.the	?OLD	
 ,				
 creating				
 that				
 very				
 bright				
-image	obj_2	INDEF_NP		
-that	subj_4			
+image	OBJ_2	indef-np.bare		
+that	SBJ_4			
 washes				
 out				
 the				
-planet	obj_4	DEF_NP	?OLD	
+planet	OBJ_4	def-np.the	?OLD	
 .			
 
 # text = So to see the planet, we have to do something about all of that light.
@@ -572,61 +572,61 @@ So
 to				
 see				
 the				
-planet	obj_2	DEF_NP	?OLD	
+planet	OBJ_2	def-np.the	?OLD	
 ,				
-we	subj	PPER	?OLD	
+we	SBJ	pron.pper	?OLD	
 have				
 to				
 do				
-something	obj_2	PPER	?OLD	
+something	OBJ_2	pron	?OLD	
 about				
-all	other_3	POSS_NP	?OLD	
+all	other_3	def-np.poss	?OLD	
 of				
 that				
-light	other_4	DEM_NP	?OLD	
+light	other_4	def-np.dem	?OLD	
 .			
 
 # text = We have to get rid of it.
-We	subj	PPER	?OLD	
+We	SBJ	pron.pper	?OLD	
 have				
 to				
 get				
 rid				
 of				
-it	other_3	PPER	?OLD	
+it	other_3	pron.pper	?OLD	
 .			
 
 # text = I have a lot of colleagues working on really amazing technologies to do that, but I want to tell you about one today that I think is the coolest, and probably the most likely to get us an Earth in the next decade.
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 have				
 a				
-lot	obj	INDEF_NP		
+lot	OBJ	indef-np.a		
 of				
-colleagues	other_2	INDEF_NP		
+colleagues	other_2	indef-np.bare		
 working				
 on				
 really				
 amazing				
-technologies	other_4	INDEF_NP		
+technologies	other_4	indef-np.bare		
 to				
 do				
-that	obj_5	PDEM	?OLD	
+that	OBJ_5	pron.pds	?OLD	
 ,				
 but				
-I	subj_2	PPER	?OLD	
+I	SBJ_2	pron.pper	?OLD	
 want				
 to				
 tell				
-you	obj_3	PPER	?OLD	
+you	OBJ_3	pron.pper	?OLD	
 about				
 one				
-today	other_3	INDEF_NP		
-that	obj_5			
-I	subj_5	PPER	?OLD	
+today	other_3	indef-np.quant		
+that	OBJ_5			
+I	SBJ_5	pron.pper	?OLD	
 think				
 is				
 the				
-coolest	other	DEF_NP	?OLD	
+coolest	other	def-np.the	?OLD	
 ,				
 and				
 probably				
@@ -635,130 +635,130 @@ most
 likely				
 to				
 get				
-us	obj_4	PPER	?OLD	
+us	OBJ_4	pron.pper	?OLD	
 an				
-Earth	obj_4	NAME	?OLD	
+Earth	OBJ_4	ne	?OLD	
 in				
 the				
 next				
-decade	other_4	DEF_NP	?OLD	
+decade	other_4	def-np.the	?OLD	
 .			
 
 # text = It was first suggested by Lyman Spitzer, the father of the space telescope, in 1962, and he took his inspiration from an eclipse.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 was				
 first				
 suggested				
 by				
-Lyman	other	NAME	?OLD	
+Lyman	other	ne	?OLD	
 Spitzer				
 ,				
 the				
-father	other_2	DEF_NP	?OLD	
+father	other_2	def-np.the	?OLD	
 of				
 the				
 space				
-telescope	other_3	DEF_NP	?OLD	
+telescope	other_3	def-np.the	?OLD	
 ,				
 in				
-1962	other	other		
+1962				
 ,				
 and				
-he	subj_2	PPER	?OLD	
+he	SBJ_2	pron.pper	?OLD	
 took				
-his	other_3	PPOSS	?OLD	
-inspiration	obj_2	POSS_NP	?OLD	
+his	other_3	pron.ppos	?OLD	
+inspiration	OBJ_2	def-np.poss	?OLD	
 from				
 an				
-eclipse	other_2	INDEF_NP		
+eclipse	other_2	indef-np.a		
 .			
 
 # text = You've all seen that.
-You	subj	PPER	?OLD	
+You	SBJ	pron.pper	?OLD	
 've				
 all				
 seen				
-that	obj	PDEM	?OLD	
+that	OBJ	pron.pds	?OLD	
 .			
 
 # text = That's a solar eclipse.
-That	subj	PDEM	?OLD	
+That	SBJ	pron.pds	?OLD	
 's				
 a				
 solar				
-eclipse	other	INDEF_NP		
+eclipse	other	indef-np.a		
 .			
 
 # text = The moon has moved in front of the sun.
 The				
-moon	subj	DEF_NP	?OLD	
+moon	SBJ	def-np.the	?OLD	
 has				
 moved				
 in				
-front	other	POSS_NP	?OLD	
+front	other	indef-np.bare		
 of				
 the				
-sun	other_2	DEF_NP	?OLD	
+sun	other_2	def-np.the	?OLD	
 .			
 
 # text = It blocks out most of the light so we can see that dim corona around it.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 blocks				
 out				
-most	obj	POSS_NP	?OLD	
+most	OBJ			
 of				
 the				
-light	other_2	DEF_NP	?OLD	
+light	other_2	def-np.the	?OLD	
 so				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 can				
 see				
 that				
 dim				
-corona	obj_2	DEM_NP	?OLD	
+corona	OBJ_2	def-np.dem	?OLD	
 around				
-it	other_2	PPER	?OLD	
+it	other_2	pron.pper	?OLD	
 .			
 
 # text = It would be the same thing if I put my thumb up and blocked that spotlight that's getting right in my eye, I can see you in the back row.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 would				
 be				
 the				
 same				
-thing	other	DEF_NP	?OLD	
+thing	other	def-np.the	?OLD	
 if				
-I	subj_2	PPER	?OLD	
+I	SBJ_2	pron.pper	?OLD	
 put				
-my	other_3	PPOSS	?OLD	
-thumb	obj_2	POSS_NP	?OLD	
+my	other_3	pron.ppos	?OLD	
+thumb	OBJ_2	def-np.poss	?OLD	
 up				
 and				
 blocked				
 that				
-spotlight	obj_3	DEM_NP	?OLD	
-that	subj_5			
+spotlight	OBJ_3	def-np.dem	?OLD	
+that	SBJ_5			
 's				
 getting				
 right				
 in				
-my	other_7	PPOSS	?OLD	
-eye	other_6	POSS_NP	?OLD	
+my	other_7	pron.ppos	?OLD	
+eye	other_6	def-np.poss	?OLD	
 ,				
-I	subj_2	PPER	?OLD	
+I	SBJ_2	pron.pper	?OLD	
 can				
 see				
-you	obj_2	PPER	?OLD	
+you	OBJ_2	pron.pper	?OLD	
 in				
 the				
 back				
-row	other_2	DEF_NP	?OLD	
+row	other_2	def-np.the	?OLD	
 .			
 
 # text = Well, what's going on?
 Well				
 ,				
-what	subj			
+what	SBJ	pron.pint		
 's				
 going				
 on				
@@ -767,131 +767,131 @@ on
 # text = Well the moon is casting a shadow down on the Earth.
 Well				
 the				
-moon	subj	DEF_NP	?OLD	
+moon	SBJ	def-np.the	?OLD	
 is				
 casting				
 a				
-shadow	obj	INDEF_NP		
+shadow	OBJ	indef-np.a		
 down				
 on				
 the				
-Earth	other	NAME	?OLD	
+Earth	other	ne	?OLD	
 .			
 
 # text = We put a telescope or a camera in that shadow, we look back at the sun, and most of the light's been removed and we can see that dim, fine structure in the corona.
-We	subj	PPER	?OLD	
+We	SBJ	pron.pper	?OLD	
 put				
 a				
-telescope	obj	INDEF_NP		
+telescope	OBJ	indef-np.a		
 or				
 a				
-camera	other_2	INDEF_NP		
+camera	other_2	indef-np.a		
 in				
 that				
-shadow	other	DEM_NP	?OLD	
+shadow	other	def-np.dem	?OLD	
 ,				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 look				
 back				
 at				
 the				
-sun	other_2	DEF_NP	?OLD	
+sun	other_2	def-np.the	?OLD	
 ,				
 and				
-most	subj_2	POSS_NP	?OLD	
+most	SBJ_2			
 of				
 the				
-light	other_3	DEF_NP	?OLD	
+light	other_3	def-np.the	?OLD	
 's				
 been				
 removed				
 and				
-we	subj_3	PPER	?OLD	
+we	SBJ_3	pron.pper	?OLD	
 can				
 see				
 that				
-dim	obj_3	DEM_NP	?OLD	
+dim	OBJ_3	def-np.dem	?OLD	
 ,				
 fine				
-structure	other_3	INDEF_NP		
+structure	other_3	indef-np.bare		
 in				
 the				
-corona	other_4	DEF_NP	?OLD	
+corona	other_4	def-np.the	?OLD	
 .			
 
 # text = Spitzer's suggestion was we do this in space.
-Spitzer	other_2	NAME	?OLD	
+Spitzer	other_2	ne	?OLD	
 's				
-suggestion	subj	POSS_NP	?OLD	
+suggestion	SBJ	def-np.poss	?OLD	
 was				
-we	subj	PPER	?OLD	
+we	SBJ	pron.pper	?OLD	
 do				
-this	obj	PDEM	?OLD	
+this	OBJ	pron.pds	?OLD	
 in				
-space	other	INDEF_NP		
+space	other	indef-np.bare		
 .			
 
 # text = We build a big screen, we fly it in space, we put it up in front of the star, we block out most of the light, we fly a space telescope in that shadow that's created, and boom, we get to see planets.
-We	subj	PPER	?OLD	
+We	SBJ	pron.pper	?OLD	
 build				
 a				
 big				
-screen	obj	INDEF_NP		
+screen	OBJ	indef-np.a		
 ,				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 fly				
-it	obj_2	PPER	?OLD	
+it	OBJ_2	pron.pper	?OLD	
 in				
-space	other_2	INDEF_NP		
+space	other_2	indef-np.bare		
 ,				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 put				
-it	obj_2	PPER	?OLD	
+it	OBJ_2	pron.pper	?OLD	
 up				
 in				
-front	other_2	POSS_NP	?OLD	
+front	other_2	indef-np.bare		
 of				
 the				
-star	other_3	DEF_NP	?OLD	
+star	other_3	def-np.the	?OLD	
 ,				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 block				
 out				
-most	obj_2	POSS_NP	?OLD	
+most	OBJ_2			
 of				
 the				
-light	other_3	DEF_NP	?OLD	
+light	other_3	def-np.the	?OLD	
 ,				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 fly				
 a				
 space				
-telescope	obj_2	INDEF_NP		
+telescope	OBJ_2	indef-np.a		
 in				
 that				
-shadow	other_2	DEM_NP	?OLD	
-that	subj_4			
+shadow	other_2	def-np.dem	?OLD	
+that	SBJ_4			
 's				
 created				
 ,				
 and				
-boom	other	INDEF_NP		
+boom	other	indef-np.bare		
 ,				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 get				
 to				
 see				
-planets	obj_3	INDEF_NP		
+planets	OBJ_3	indef-np.bare		
 .			
 
 # text = Well that would look something like this.
 Well				
-that	subj	PDEM	?OLD	
+that	SBJ	pron.pds	?OLD	
 would				
 look				
-something	obj	PPER	?OLD	
+something	OBJ	pron	?OLD	
 like				
-this	other_2	PDEM	?OLD	
+this	other_2	pron.pds	?OLD	
 .			
 
 # text = So there's that big screen, and there's no planets, because unfortunately it doesn't actually work very well, because the light waves of the light and waves diffracts around that screen the same way it did in the telescope.
@@ -900,17 +900,17 @@ there
 's				
 that				
 big				
-screen	other	DEM_NP	?OLD	
+screen	other	def-np.dem	?OLD	
 ,				
 and				
 there				
 's				
 no				
-planets	subj_2	INDEF_NP		
+planets	SBJ_2	indef-np.quant		
 ,				
 because				
 unfortunately				
-it	subj_2	PPER	?OLD	
+it	SBJ_2	pron.pper	?OLD	
 does				
 n't				
 actually				
@@ -921,198 +921,198 @@ well
 because				
 the				
 light				
-waves	subj_2	DEF_NP	?OLD	
+waves	SBJ_2	def-np.the	?OLD	
 of				
 the				
 light				
 and				
-waves	other_5	INDEF_NP		
-diffracts	other_3	DEF_NP	?OLD	
+waves	other_5	indef-np.bare		
+diffracts	other_3	def-np.the	?OLD	
 around				
 that				
-screen	other_4	DEM_NP	?OLD	
+screen	other_4	def-np.dem	?OLD	
 the				
 same				
-way	other	DEF_NP	?OLD	
-it	subj_3	PPER	?OLD	
+way	other	def-np.the	?OLD	
+it	SBJ_3	pron.pper	?OLD	
 did				
 in				
 the				
-telescope	other_2	DEF_NP	?OLD	
+telescope	other_2	def-np.the	?OLD	
 .			
 
 # text = It's like water bending around a rock in a stream, and all that light just destroys the shadow.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 's				
 like				
-water	subj_2	INDEF_NP		
+water	SBJ_2	indef-np.bare		
 bending				
 around				
 a				
-rock	other_2	INDEF_NP		
+rock	other_2	indef-np.a		
 in				
 a				
-stream	other_2	INDEF_NP		
+stream	other_2	indef-np.a		
 ,				
 and				
 all				
 that				
-light	subj_2	DEM_NP	?OLD	
+light	SBJ_2	def-np.dem	?OLD	
 just				
 destroys				
 the				
-shadow	obj_2	DEF_NP	?OLD	
+shadow	OBJ_2	def-np.the	?OLD	
 .			
 
 # text = It's a terrible shadow.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 's				
 a				
 terrible				
-shadow	other	INDEF_NP		
+shadow	other	indef-np.a		
 .			
 
 # text = And we can't see planets.
 And				
-we	subj	PPER	?OLD	
+we	SBJ	pron.pper	?OLD	
 ca				
 n't				
 see				
-planets	obj	INDEF_NP		
+planets	OBJ	indef-np.bare		
 .			
 
 # text = But Spitzer actually knew the answer.
 But				
-Spitzer	subj	NAME	?OLD	
+Spitzer	SBJ	ne	?OLD	
 actually				
 knew				
 the				
-answer	obj	DEF_NP	?OLD	
+answer	OBJ	def-np.the	?OLD	
 .			
 
 # text = If we can feather the edges, soften those edges so we can control diffraction, well then we can see a planet, and in the last 10 years or so we've come up with optimal solutions for doing that.
 If				
-we	subj_4	PPER	?OLD	
+we	SBJ_4	pron.pper	?OLD	
 can				
 feather				
 the				
-edges	obj_4	DEF_NP	?OLD	
+edges	OBJ_4	def-np.the	?OLD	
 ,				
 soften				
 those				
-edges	subj_3	DEM_NP	?OLD	
+edges	SBJ_3	def-np.dem	?OLD	
 so				
-we	subj_3	PPER	?OLD	
+we	SBJ_3	pron.pper	?OLD	
 can				
 control				
-diffraction	obj_3	INDEF_NP		
+diffraction	OBJ_3	indef-np.bare		
 ,				
 well				
 then				
-we	subj	PPER	?OLD	
+we	SBJ	pron.pper	?OLD	
 can				
 see				
 a				
-planet	obj	INDEF_NP		
+planet	OBJ	indef-np.a		
 ,				
 and				
 in				
 the				
 last				
 10				
-years	other_2	DEF_NP	?OLD	
+years	other_2	def-np.quant	?OLD	
 or				
 so				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 've				
 come				
 up				
 with				
 optimal				
-solutions	other_2	INDEF_NP		
+solutions	other_2	indef-np.bare		
 for				
 doing				
-that	obj_3	PDEM	?OLD	
+that	OBJ_3	pron.pds	?OLD	
 .			
 
 # text = It looks something like that.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 looks				
-something	obj	PPER	?OLD	
+something	OBJ	pron	?OLD	
 like				
-that	other_2	PDEM	?OLD	
+that	other_2	pron.pds	?OLD	
 .			
 
 # text = We call that our flower petal starshade.
-We	subj	PPER	?OLD	
+We	SBJ	pron.pper	?OLD	
 call				
 that				
-our	other_2	PPOSS	?OLD	
+our	other_2	pron.ppos	?OLD	
 flower				
 petal				
-starshade	obj	POSS_NP	?OLD	
+starshade	OBJ	def-np.poss	?OLD	
 .			
 
 # text = If we make the edges of those petals exactly right, if we control their shape, we can control diffraction, and now we have a great shadow.
 If				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 make				
 the				
-edges	obj_2	DEF_NP	?OLD	
+edges	OBJ_2	def-np.poss	?OLD	
 of				
 those				
-petals	other_3	DEM_NP	?OLD	
+petals	other_3	def-np.dem	?OLD	
 exactly				
 right				
 ,				
 if				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 control				
-their	other_3	PPOSS	?OLD	
-shape	obj_2	POSS_NP	?OLD	
+their	other_3	pron.ppos	?OLD	
+shape	OBJ_2	def-np.poss	?OLD	
 ,				
-we	subj	PPER	?OLD	
+we	SBJ	pron.pper	?OLD	
 can				
 control				
-diffraction	obj	INDEF_NP		
+diffraction	OBJ	indef-np.bare		
 ,				
 and				
 now				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 have				
 a				
 great				
-shadow	obj_2	INDEF_NP		
+shadow	OBJ_2	indef-np.a		
 .			
 
 # text = It's about 10 billion times dimmer than it was before, and we can see the planets beam out just like that.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 's				
 about				
 10				
 billion				
-times	other	INDEF_NP		
+times	other	indef-np.quant		
 dimmer				
 than				
-it	subj_2	PPER	?OLD	
+it	SBJ_2	pron.pper	?OLD	
 was				
 before				
 ,				
 and				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 can				
 see				
 the				
-planets	subj_3	DEF_NP	?OLD	
+planets	SBJ_3	def-np.the	?OLD	
 beam				
 out				
 just				
 like				
-that	other_3	PDEM	?OLD	
+that	other_3	pron.pds	?OLD	
 .			
 
 # text = That, of course, has to be bigger than my thumb.
-That	subj	PDEM	?OLD	
+That	SBJ	pron.pds	?OLD	
 ,				
 of				
 course				
@@ -1122,350 +1122,350 @@ to
 be				
 bigger				
 than				
-my	other_3	PPOSS	?OLD	
-thumb	other_2	POSS_NP	?OLD	
+my	other_3	pron.ppos	?OLD	
+thumb	other_2	def-np.poss	?OLD	
 .			
 
 # text = That starshade is about the size of half a football field and it has to fly 50,000 kilometers away from the telescope that has to be held right in its shadow, and then we can see those planets.
 That				
-starshade	subj	DEM_NP	?OLD	
+starshade	SBJ	def-np.dem	?OLD	
 is				
 about				
 the				
-size	other	DEF_NP	?OLD	
+size	other	def-np.the	?OLD	
 of				
 half				
 a				
 football				
-field	other	INDEF_NP		
+field	other	indef-np.a		
 and				
-it	subj_2	PPER	?OLD	
+it	SBJ_2	pron.pper	?OLD	
 has				
 to				
 fly				
 50,000				
-kilometers	obj_3	INDEF_NP		
+kilometers	OBJ_3	indef-np.quant		
 away				
 from				
 the				
-telescope	other_3	DEF_NP	?OLD	
-that	subj_5			
+telescope	other_3	def-np.the	?OLD	
+that	SBJ_5			
 has				
 to				
 be				
 held				
 right				
 in				
-its	other_7	PPOSS	?OLD	
-shadow	other_6	POSS_NP	?OLD	
+its	other_7	pron.ppos	?OLD	
+shadow	other_6	def-np.poss	?OLD	
 ,				
 and				
 then				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 can				
 see				
 those				
-planets	obj_2	DEM_NP	?OLD	
+planets	OBJ_2	def-np.dem	?OLD	
 .			
 
 # text = This sounds formidable, but brilliant engineers, colleagues of mine at JPL, came up with a fabulous design for how to do that and it looks like this.
-This	subj	PDEM	?OLD	
+This	SBJ	pron.pds	?OLD	
 sounds				
 formidable				
 ,				
 but				
 brilliant				
-engineers	other	INDEF_NP		
+engineers	other	indef-np.bare		
 ,				
-colleagues	other_2	POSS_NP	?OLD	
+colleagues	other_2	def-np.poss	?OLD	
 of				
-mine	other_3	PPER	?OLD	
+mine	other_3	pron	?OLD	
 at				
-JPL	other_2	NAME	?OLD	
+JPL	other_2	ne	?OLD	
 ,				
 came				
 up				
 with				
 a				
 fabulous				
-design	other_2	INDEF_NP		
+design	other_2	indef-np.a		
 for				
 how				
 to				
 do				
-that	obj_4	PDEM	?OLD	
+that	OBJ_4	pron.pds	?OLD	
 and				
-it	subj_2	PPER	?OLD	
+it	SBJ_2	pron.pper	?OLD	
 looks				
 like				
-this	other_2	PDEM	?OLD	
+this	other_2	pron.pds	?OLD	
 .			
 
 # text = It starts wrapped around a hub.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 starts				
 wrapped				
 around				
 a				
-hub	other_2	INDEF_NP		
+hub	other_2	indef-np.a		
 .			
 
 # text = It separates from the telescope.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 separates				
 from				
 the				
-telescope	other	DEF_NP	?OLD	
+telescope	other	def-np.the	?OLD	
 .			
 
 # text = The petals unfurl, they open up, the telescope turns around.
 The				
-petals	subj	DEF_NP	?OLD	
+petals	SBJ	def-np.the	?OLD	
 unfurl				
 ,				
-they	subj	PPER	?OLD	
+they	SBJ	pron.pper	?OLD	
 open				
 up				
 ,				
 the				
-telescope	subj_2	DEF_NP	?OLD	
+telescope	SBJ_2	def-np.the	?OLD	
 turns				
 around				
 .			
 
 # text = Then you'll see it flip and fly out that 50,000 kilometers away from the telescope.
 Then				
-you	subj	PPER	?OLD	
+you	SBJ	pron.pper	?OLD	
 'll				
 see				
-it	obj	PPER	?OLD	
+it	OBJ	pron.pper	?OLD	
 flip				
 and				
 fly				
 out				
 that				
 50,000				
-kilometers	subj_4	INDEF_NP		
+kilometers	SBJ_4	indef-np.quant		
 away				
 from				
 the				
-telescope	other_4	DEF_NP	?OLD	
+telescope	other_4	def-np.the	?OLD	
 .			
 
 # text = It's going to move in front of the star just like that, creates a wonderful shadow.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 's				
 going				
 to				
 move				
 in				
-front	other_2	POSS_NP	?OLD	
+front	other_2	indef-np.bare		
 of				
 the				
-star	other_3	DEF_NP	?OLD	
+star	other_3	def-np.the	?OLD	
 just				
 like				
-that	other_2	PDEM	?OLD	
+that	other_2	pron.pds	?OLD	
 ,				
 creates				
 a				
 wonderful				
-shadow	obj_2	INDEF_NP		
+shadow	OBJ_2	indef-np.a		
 .			
 
 # text = Boom, we get planets orbiting about it.
-Boom	other	NAME	?OLD	
+Boom	other	ne	?OLD	
 ,				
-we	subj	PPER	?OLD	
+we	SBJ	pron.pper	?OLD	
 get				
-planets	obj	INDEF_NP		
+planets	OBJ	indef-np.bare		
 orbiting				
 about				
-it	other_2	PPER	?OLD	
+it	other_2	pron.pper	?OLD	
 .			
 
 # text = (Applause)
 (				
-Applause	other	NAME	?OLD	
+Applause	other	ne	?OLD	
 )			
 
 # text = Thank you.
 Thank				
-you	obj	PPER	?OLD	
+you	OBJ	pron.pper	?OLD	
 .			
 
 # text = That's not science fiction.
-That	subj	PDEM	?OLD	
+That	SBJ	pron.pds	?OLD	
 's				
 not				
 science				
-fiction	other	INDEF_NP		
+fiction	other	indef-np.bare		
 .			
 
 # text = We've been working on this for the last five or six years.
-We	subj	PPER	?OLD	
+We	SBJ	pron.pper	?OLD	
 've				
 been				
 working				
 on				
-this	other	PDEM	?OLD	
+this	other	pron.pds	?OLD	
 for				
 the				
 last				
 five				
 or				
 six				
-years	other	DEF_NP	?OLD	
+years	other	def-np.quant	?OLD	
 .			
 
 # text = Last summer, we did a really cool test out in California at Northrop Grumman.
 Last				
-summer	other	INDEF_NP		
+summer	other	indef-np.bare		
 ,				
-we	subj	PPER	?OLD	
+we	SBJ	pron.pper	?OLD	
 did				
 a				
 really				
 cool				
-test	obj	INDEF_NP		
+test	OBJ	indef-np.a		
 out				
 in				
-California	other	NAME	?OLD	
+California	other	ne	?OLD	
 at				
 Northrop				
-Grumman	other	NAME	?OLD	
+Grumman	other	ne	?OLD	
 .			
 
 # text = So those are four petals.
 So				
-those	subj	PDEM	?OLD	
+those	SBJ	pron.pds	?OLD	
 are				
 four				
-petals	other	INDEF_NP		
+petals	other	indef-np.quant		
 .			
 
 # text = This is a sub-scale star shade.
-This	subj_2	PDEM	?OLD	
+This	SBJ_2	pron.pds	?OLD	
 is				
 a				
 sub				
 -scale				
 star				
-shade	other	INDEF_NP		
+shade	other	indef-np.bare		
 .			
 
 # text = It's about half the size of the one you just saw.
-It	subj	PPER	?OLD	
+It	SBJ	pron.pper	?OLD	
 's				
 about				
 half				
 the				
-size	other	DEF_NP	?OLD	
+size	other	def-np.the	?OLD	
 of				
 the				
-one	other	DEF_NP	?OLD	
-you	subj_2	PPER	?OLD	
+one	other	def-np.the	?OLD	
+you	SBJ_2	pron.pper	?OLD	
 just				
 saw				
 .			
 
 # text = You'll see the petals unfurl.
-You	subj	PPER	?OLD	
+You	SBJ	pron.pper	?OLD	
 'll				
 see				
 the				
 petals				
-unfurl	obj	DEF_NP	?OLD	
+unfurl	OBJ	def-np.the	?OLD	
 .			
 
 # text = Those four petals were built by four undergraduates doing a summer internship at JPL.
 Those				
 four				
-petals	subj	DEM_NP	?OLD	
+petals	SBJ	def-np.dem	?OLD	
 were				
 built				
 by				
 four				
-undergraduates	other	INDEF_NP		
+undergraduates	other	indef-np.quant		
 doing				
 a				
 summer				
-internship	obj_3	INDEF_NP		
+internship	OBJ_3	indef-np.a		
 at				
-JPL	other_4	NAME	?OLD	
+JPL	other_4	ne	?OLD	
 .			
 
 # text = Now you're seeing it deploy.
 Now				
-you	subj	PPER	?OLD	
+you	SBJ	pron.pper	?OLD	
 're				
 seeing				
-it	obj	PPER	?OLD	
-deploy	obj	INDEF_NP		
+it	OBJ	pron.pper	?OLD	
+deploy	OBJ	indef-np.bare		
 .			
 
 # text = Those petals have to rotate into place.
 Those				
-petals	subj	DEM_NP	?OLD	
+petals	SBJ	def-np.dem	?OLD	
 have				
 to				
 rotate				
 into				
-place	other_2	INDEF_NP		
+place	other_2	indef-np.bare		
 .			
 
 # text = The base of those petals has to go to the same place every time to within a tenth of a millimeter.
 The				
-base	subj	DEF_NP	?OLD	
+base	SBJ	def-np.poss	?OLD	
 of				
 those				
-petals	other_2	DEM_NP	?OLD	
+petals	other_2	def-np.dem	?OLD	
 has				
 to				
 go				
 to				
 the				
 same				
-place	other_2	DEF_NP	?OLD	
+place	other_2	def-np.the	?OLD	
 every				
-time	other_2	INDEF_NP		
+time	other_2	indef-np		
 to				
 within				
 a				
-tenth	obj_3	INDEF_NP		
+tenth	OBJ_3	indef-np.a		
 of				
 a				
-millimeter	other_4	INDEF_NP		
+millimeter	other_4	indef-np.a		
 .			
 
 # text = We ran this test 16 times, and 16 times it went into the exact same place to a tenth of a millimeter.
-We	subj	PPER	?OLD	
+We	SBJ	pron.pper	?OLD	
 ran				
 this				
 test				
 16				
-times	other	DEM_NP	?OLD	
+times	other	def-np.dem	?OLD	
 ,				
 and				
 16				
-times	other_2	INDEF_NP		
-it	subj_2	PPER	?OLD	
+times	other_2	indef-np.quant		
+it	SBJ_2	pron.pper	?OLD	
 went				
 into				
 the				
 exact				
 same				
-place	other_2	DEF_NP	?OLD	
+place	other_2	def-np.the	?OLD	
 to				
 a				
-tenth	other_3	INDEF_NP		
+tenth	other_3	indef-np.a		
 of				
 a				
-millimeter	other_4	INDEF_NP		
+millimeter	other_4	indef-np.a		
 .			
 
 # text = This has to be done very precisely, but if we can do this, if we can build this technology, if we can get it into space, you might see something like this.
-This	subj	PDEM	?OLD	
+This	SBJ	pron.pds	?OLD	
 has				
 to				
 be				
@@ -1475,97 +1475,97 @@ precisely
 ,				
 but				
 if				
-we	subj_3	PPER	?OLD	
+we	SBJ_3	pron.pper	?OLD	
 can				
 do				
-this	obj_3	PDEM	?OLD	
+this	OBJ_3	pron.pds	?OLD	
 ,				
 if				
-we	subj_3	PPER	?OLD	
+we	SBJ_3	pron.pper	?OLD	
 can				
 build				
 this				
-technology	obj_3	DEM_NP	?OLD	
+technology	OBJ_3	def-np.dem	?OLD	
 ,				
 if				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 can				
 get				
-it	obj_2	PPER	?OLD	
+it	OBJ_2	pron.pper	?OLD	
 into				
-space	other_2	INDEF_NP		
+space	other_2	indef-np.bare		
 ,				
-you	subj_2	PPER	?OLD	
+you	SBJ_2	pron.pper	?OLD	
 might				
 see				
-something	obj_2	PPER	?OLD	
+something	OBJ_2	pron	?OLD	
 like				
-this	other_3	PDEM	?OLD	
+this	other_3	pron.pds	?OLD	
 .			
 
 # text = That's a picture of one our nearest neighbor stars taken with the Hubble Space Telescope.
-That	subj	PDEM	?OLD	
+That	SBJ	pron.pds	?OLD	
 's				
 a				
-picture	other	POSS_NP	?OLD	
+picture	other	def-np.poss	?OLD	
 of				
 one				
-our	other_2	PPOSS	?OLD	
+our	other_2	pron.ppos	?OLD	
 nearest				
 neighbor				
-stars	other	POSS_NP	?OLD	
+stars	other	def-np.poss	?OLD	
 taken				
 with				
 the				
 Hubble				
 Space				
-Telescope	other_3	NAME	?OLD	
+Telescope	other_3	ne	?OLD	
 .			
 
 # text = If we can take a similar space telescope, slightly larger, put it out there, fly an occulter in front of it, what we might see is something like that -- that's a family portrait of our solar system -- but not ours.
 If				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 can				
 take				
 a				
 similar				
 space				
-telescope	obj_2	INDEF_NP		
+telescope	OBJ_2	indef-np.a		
 ,				
 slightly				
 larger				
 ,				
 put				
-it	obj	PPER	?OLD	
+it	OBJ	pron.pper	?OLD	
 out				
 there				
 ,				
 fly				
 an				
-occulter	obj_2	INDEF_NP		
+occulter	OBJ_2	indef-np.a		
 in				
-front	other_3	POSS_NP	?OLD	
+front	other_3	def-np.poss	?OLD	
 of				
-it	other_4	PPER	?OLD	
+it	other_4	pron.pper	?OLD	
 ,				
-what	obj			
-we	subj_3	PPER	?OLD	
+what	OBJ	pron.pint		
+we	SBJ_3	pron.pper	?OLD	
 might				
 see				
 is				
-something	other_3	PPER	?OLD	
+something	other_3	pron	?OLD	
 like				
-that	other_4	PDEM	?OLD	
+that	other_4	pron.pds	?OLD	
 _				
-that	subj_2	PDEM	?OLD	
+that	SBJ_2	pron.pds	?OLD	
 's				
 a				
 family				
-portrait	other	POSS_NP	?OLD	
+portrait	other	def-np.poss	?OLD	
 of				
-our	other_3	PPOSS	?OLD	
+our	other_3	pron.ppos	?OLD	
 solar				
-system	other_2	POSS_NP	?OLD	
+system	other_2	def-np.poss	?OLD	
 _				
 but				
 not				
@@ -1573,144 +1573,144 @@ ours
 .			
 
 # text = We're hoping it'll be someone else's solar system as seen through an occulter, through a starshade like that.
-We	subj	PPER	?OLD	
+We	SBJ	pron.pper	?OLD	
 're				
 hoping				
-it	subj_3	PPER	?OLD	
+it	SBJ_3	pron.pper	?OLD	
 'll				
 be				
-someone	other_2	PPOSS	?OLD	
+someone	other_2	pron.ppos	?OLD	
 else				
 's				
 solar				
-system	obj	POSS_NP	?OLD	
+system	OBJ	def-np.poss	?OLD	
 as				
 seen				
 through				
 an				
-occulter	other_2	INDEF_NP		
+occulter	other_2	indef-np.a		
 ,				
 through				
 a				
-starshade	other_3	INDEF_NP		
+starshade	other_3	indef-np.a		
 like				
-that	other_4	PDEM	?OLD	
+that	other_4	pron.pds	?OLD	
 .			
 
 # text = You can see Jupiter, you can see Saturn, Uranus, Neptune, and right there in the center, next to the residual light is that pale blue dot.
-You	subj	PPER	?OLD	
+You	SBJ	pron.pper	?OLD	
 can				
 see				
-Jupiter	obj	NAME	?OLD	
+Jupiter	OBJ	ne	?OLD	
 ,				
-you	subj_2	PPER	?OLD	
+you	SBJ_2	pron.pper	?OLD	
 can				
 see				
-Saturn	obj_2	NAME	?OLD	
+Saturn	OBJ_2	ne	?OLD	
 ,				
-Uranus	other_3	NAME	?OLD	
+Uranus	other_3	ne	?OLD	
 ,				
-Neptune	other_3	NAME	?OLD	
+Neptune	other_3	ne	?OLD	
 ,				
 and				
 right				
-there				
+there	other_4	pron.padv	?OLD	
 in				
 the				
-center	other_5	DEF_NP	?OLD	
+center	other_5	def-np.the	?OLD	
 ,				
 next				
 to				
 the				
 residual				
-light	other_5	DEF_NP	?OLD	
+light	other_5	def-np.the	?OLD	
 is				
-that	subj_4	PDEM	?OLD	
+that	SBJ_4	pron.pds	?OLD	
 pale				
 blue				
-dot	obj_4	INDEF_NP		
+dot	OBJ_4	indef-np.bare		
 .			
 
 # text = That's Earth.
-That	subj	PDEM	?OLD	
+That	SBJ	pron.pds	?OLD	
 's				
-Earth	other	NAME	?OLD	
+Earth	other	ne	?OLD	
 .			
 
 # text = We want to see that, see if there's water, oxygen, ozone, the things that might tell us that it could harbor life.
-We	subj	PPER	?OLD	
+We	SBJ	pron.pper	?OLD	
 want				
 to				
 see				
-that	obj_2	PDEM	?OLD	
+that	OBJ_2	pron.pds	?OLD	
 ,				
 see				
 if				
 there				
 's				
-water	other_4	INDEF_NP		
+water	other_4	indef-np.quant		
 ,				
-oxygen	other_5	INDEF_NP		
+oxygen	other_5	indef-np.bare		
 ,				
 ozone				
 ,				
 the				
-things	subj_3	DEF_NP	?OLD	
-that	subj_5			
+things	SBJ_3	def-np.the	?OLD	
+that	SBJ_5			
 might				
 tell				
-us	obj_5	PPER	?OLD	
+us	OBJ_5	pron.pper	?OLD	
 that				
-it	subj_6	PPER	?OLD	
+it	SBJ_6	pron.pper	?OLD	
 could				
 harbor				
-life	obj_6	INDEF_NP		
+life	OBJ_6	indef-np.bare		
 .			
 
 # text = I think this is the coolest possible science.
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 think				
-this	subj_2	PDEM	?OLD	
+this	SBJ_2	pron.pds	?OLD	
 is				
 the				
 coolest				
 possible				
-science	other	DEF_NP	?OLD	
+science	other	def-np.the	?OLD	
 .			
 
 # text = That's why I got into doing this, because I think that will change the world.
-That	subj	PDEM	?OLD	
+That	SBJ	pron.pds	?OLD	
 's				
-why				
-I	subj_2	PPER	?OLD	
+why	other	pron.pint		
+I	SBJ_2	pron.pper	?OLD	
 got				
 into				
 doing				
-this	obj_3	PDEM	?OLD	
+this	OBJ_3	pron.pds	?OLD	
 ,				
 because				
-I	subj_2	PPER	?OLD	
+I	SBJ_2	pron.pper	?OLD	
 think				
-that	subj_3	PDEM	?OLD	
+that	SBJ_3	pron.pds	?OLD	
 will				
 change				
 the				
-world	obj_3	DEF_NP	?OLD	
+world	OBJ_3	def-np.the	?OLD	
 .			
 
 # text = That will change everything when we see that.
-That	subj	PDEM	?OLD	
+That	SBJ	pron.pds	?OLD	
 will				
 change				
-everything	obj	PPER	?OLD	
+everything	OBJ	pron	?OLD	
 when				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 see				
-that	obj_2	PDEM	?OLD	
+that	OBJ_2	pron.pds	?OLD	
 .			
 
 # text = Thank you.
 Thank				
-you	obj	PPER	?OLD	
+you	OBJ	pron.pper	?OLD	
 .			
 

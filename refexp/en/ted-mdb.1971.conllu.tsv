@@ -1,27 +1,27 @@
 # text = talkid: 1971
-talkid	other	INDEF_NP		
+talkid	other	indef-np.quant		
 :				
 1971			
 
 # text = David Sengeh: The sore problem of prosthetic limbs
-David	other	NAME	?OLD	
+David	other	ne	?OLD	
 Sengeh				
 :				
 The				
 sore				
-problem	other	DEF_NP	?OLD	
+problem	other	def-np.the	?OLD	
 of				
 prosthetic				
-limbs	other_2	INDEF_NP	
+limbs	other_2	indef-np.bare	
 
 # text = I was born and raised in Sierra Leone, a small and very beautiful country in West Africa, a country rich both in physical resources and creative talent.
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 was				
 born				
 and				
 raised				
 in				
-Sierra	other	NAME	?OLD	
+Sierra	other	ne	?OLD	
 Leone				
 ,				
 a				
@@ -29,44 +29,44 @@ small
 and				
 very				
 beautiful				
-country	other_2	INDEF_NP		
+country	other_2	indef-np.a		
 in				
 West				
-Africa	other_3	NAME	?OLD	
+Africa	other_3	ne	?OLD	
 ,				
 a				
-country	other_2	INDEF_NP		
+country	other_2	indef-np.a		
 rich				
 both				
 in				
 physical				
-resources	other_4	INDEF_NP		
+resources	other_4	def-np.quant	?OLD	
 and				
 creative				
-talent	other_5	INDEF_NP		
+talent	other_5	indef-np.bare		
 .			
 
 # text = However, Sierra Leone is infamous for a decade-long rebel war in the '90s when entire villages were burnt down.
 However				
 ,				
-Sierra	subj	NAME	?OLD	
+Sierra	SBJ	ne	?OLD	
 Leone				
 is				
 infamous				
 for				
 a				
-decade	other_3	INDEF_NP		
+decade	other_3	indef-np.bare		
 _				
 long				
 rebel				
-war	other	INDEF_NP		
+war	other	indef-np.a		
 in				
 the				
 '				
-90s	other_2	DEF_NP	?OLD	
+90s	other_2	def-np.the	?OLD	
 when				
 entire				
-villages	subj_2	INDEF_NP		
+villages	SBJ_2	indef-np.bare		
 were				
 bur				
 nt				
@@ -77,139 +77,139 @@ down
 An				
 estimated				
 8,000				
-men	subj	INDEF_NP		
+men	SBJ	indef-np.a		
 ,				
-women	other_2	INDEF_NP		
+women	other_2	indef-np.bare		
 and				
-children	other_2	INDEF_NP		
+children	other_2	indef-np.bare		
 had				
-their	other_2	PPOSS	?OLD	
-arms	obj	POSS_NP	?OLD	
+their	other_2	pron.ppos	?OLD	
+arms	OBJ	def-np.poss	?OLD	
 and				
-legs	other_2	INDEF_NP		
+legs	other_2	indef-np.bare		
 amputated				
 during				
 this				
-time	other	DEM_NP	?OLD	
+time	other	def-np.dem	?OLD	
 .			
 
 # text = As my family and I ran for safety when I was about 12 from one of those attacks, I resolved that I would do everything I could to ensure that my own children would not go through the same experiences we had.
 As				
-my	other_2	PPOSS	?OLD	
-family	other	POSS_NP	?OLD	
+my	other_2	pron.ppos	?OLD	
+family	other	def-np.poss	?OLD	
 and				
-I	other_2	PPER	?OLD	
+I	other_2	pron.pper	?OLD	
 ran				
 for				
-safety	other	INDEF_NP		
+safety	other	indef-np.bare		
 when				
-I	subj_2	PPER	?OLD	
+I	SBJ_2	pron.pper	?OLD	
 was				
 about				
 12				
 from				
-one	other_2	POSS_NP	?OLD	
+one	other_2	def-np.poss	?OLD	
 of				
 those				
-attacks	other_3	DEM_NP	?OLD	
+attacks	other_3	def-np.dem	?OLD	
 ,				
-I	subj_2	PPER	?OLD	
+I	SBJ_2	pron.pper	?OLD	
 resolved				
 that				
-I	subj_3	PPER	?OLD	
+I	SBJ_3	pron.pper	?OLD	
 would				
 do				
-everything	obj_3	PPER	?OLD	
-I	subj_5	PPER	?OLD	
+everything	OBJ_3	pron	?OLD	
+I	SBJ_5	pron.pper	?OLD	
 could				
 to				
 ensure				
 that				
-my	other_7	PPOSS	?OLD	
+my	other_7	pron.ppos	?OLD	
 own				
-children	subj_6	POSS_NP	?OLD	
+children	SBJ_6	def-np.poss	?OLD	
 would				
 not				
 go				
 through				
 the				
 same				
-experiences	other_6	DEF_NP	?OLD	
-we	subj_8	PPER	?OLD	
+experiences	other_6	def-np.the	?OLD	
+we	SBJ_8	pron.pper	?OLD	
 had				
 .			
 
 # text = They would, in fact, be part of a Sierra Leone where war and amputation were no longer a strategy for gaining power.
-They	subj_2	PPER	?OLD	
+They	SBJ_2	pron.pper	?OLD	
 would				
 ,				
 in				
-fact	other_2	INDEF_NP		
+fact	other_2	indef-np.bare		
 ,				
 be				
-part	subj	POSS_NP	?OLD	
+part	SBJ	def-np.poss	?OLD	
 of				
 a				
-Sierra	other_2	NAME	?OLD	
+Sierra	other_2	ne	?OLD	
 Leone				
 where				
-war	subj_2	INDEF_NP		
+war	SBJ_2	indef-np.bare		
 and				
-amputation	other_3	INDEF_NP		
+amputation	other_3	indef-np.bare		
 were				
 no				
 longer				
 a				
-strategy	other	INDEF_NP		
+strategy	other	indef-np.a		
 for				
 gaining				
-power	obj_3	INDEF_NP		
+power	OBJ_3	indef-np.bare		
 .			
 
 # text = As I watched people who I knew, loved ones, recover from this devastation, one thing that deeply troubled me was that many of the amputees in the country would not use their prostheses.
 As				
-I	subj_4	PPER	?OLD	
+I	SBJ_4	pron.pper	?OLD	
 watched				
-people	obj_4	INDEF_NP		
-who	subj_6			
-I	subj_6	PPER	?OLD	
+people	OBJ_4	indef-np.bare		
+who	SBJ_6			
+I	SBJ_6	pron.pper	?OLD	
 knew				
 ,				
 loved				
-ones	obj_6	INDEF_NP		
+ones	OBJ_6	indef-np.bare		
 ,				
 recover				
 from				
 this				
-devastation	other_5	DEM_NP	?OLD	
+devastation	other_5	def-np.dem	?OLD	
 ,				
 one				
-thing	subj_3	INDEF_NP		
-that	subj_5			
+thing	SBJ_3	indef-np.quant		
+that	SBJ_5			
 deeply				
 troubled				
-me	obj_5	PPER	?OLD	
+me	OBJ_5	pron.pper	?OLD	
 was				
 that				
-many	subj_2	other		
+many	SBJ_2			
 of				
 the				
-amputees	other_3	DEF_NP	?OLD	
+amputees	other_3	def-np.the	?OLD	
 in				
 the				
-country	other_4	DEF_NP	?OLD	
+country	other_4	def-np.the	?OLD	
 would				
 not				
 use				
-their	other_3	PPOSS	?OLD	
-prostheses	obj_2	POSS_NP	?OLD	
+their	other_3	pron.ppos	?OLD	
+prostheses	OBJ_2	def-np.poss	?OLD	
 .			
 
 # text = The reason, I would come to find out, was that their prosthetic sockets were painful because they did not fit well.
 The				
-reason	other	DEF_NP	?OLD	
+reason	other	def-np.the	?OLD	
 ,				
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 would				
 come				
 to				
@@ -218,13 +218,13 @@ out
 ,				
 was				
 that				
-their	other_4	PPOSS	?OLD	
+their	other_4	pron.ppos	?OLD	
 prosthetic				
-sockets	subj_3	POSS_NP	?OLD	
+sockets	SBJ_3	def-np.poss	?OLD	
 were				
 painful				
 because				
-they	subj_2	PPER	?OLD	
+they	SBJ_2	pron.pper	?OLD	
 did				
 not				
 fit				
@@ -234,26 +234,26 @@ well
 # text = The prosthetic socket is the part in which the amputee inserts their residual limb, and which connects to the prosthetic ankle.
 The				
 prosthetic				
-socket	subj	DEF_NP	?OLD	
+socket	SBJ	def-np.the	?OLD	
 is				
 the				
-part	other	DEF_NP	?OLD	
+part	other	def-np.the	?OLD	
 in				
 which				
 the				
-amputee	subj_2	DEF_NP	?OLD	
+amputee	SBJ_2	def-np.the	?OLD	
 inserts				
-their	other_3	PPOSS	?OLD	
+their	other_3	pron.ppos	?OLD	
 residual				
-limb	obj_2	POSS_NP	?OLD	
+limb	OBJ_2	def-np.poss	?OLD	
 ,				
 and				
-which	subj_3			
+which	SBJ_3	pron.pint		
 connects				
 to				
 the				
 prosthetic				
-ankle	other_3	DEF_NP	?OLD	
+ankle	other_3	def-np.the	?OLD	
 .			
 
 # text = Even in the developed world, it takes a period of three weeks to often years for a patient to get a comfortable socket, if ever.
@@ -261,37 +261,37 @@ Even
 in				
 the				
 developed				
-world	other	DEF_NP	?OLD	
+world	other	def-np.the	?OLD	
 ,				
 it				
 takes				
 a				
-period	obj	INDEF_NP		
+period	OBJ	indef-np.a		
 of				
 three				
-weeks	other_2	INDEF_NP		
+weeks	other_2	indef-np.quant		
 to				
 often				
-years	obj_2	INDEF_NP		
+years	OBJ_2	indef-np.bare		
 for				
 a				
-patient	other_3	INDEF_NP		
+patient	other_3	indef-np.a		
 to				
 get				
 a				
 comfortable				
-socket	obj_5	INDEF_NP		
+socket	OBJ_5	indef-np.a		
 ,				
 if				
 ever				
 .			
 
 # text = Prosthetists still use conventional processes like molding and casting to create single-material prosthetic sockets.
-Prosthetists	subj	INDEF_NP		
+Prosthetists	SBJ	indef-np.bare		
 still				
 use				
 conventional				
-processes	obj	INDEF_NP		
+processes	OBJ	indef-np.bare		
 like				
 molding				
 and				
@@ -302,32 +302,32 @@ single
 _				
 material				
 prosthetic				
-sockets	obj_5	INDEF_NP		
+sockets	OBJ_5	indef-np.bare		
 .			
 
 # text = Such sockets often leave intolerable amounts of pressure on the limbs of the patient, leaving them with pressure sores and blisters.
 Such				
-sockets	subj	INDEF_NP		
+sockets	SBJ	pron.pds		
 often				
 leave				
 intolerable				
-amounts	obj	INDEF_NP		
+amounts	OBJ	indef-np.bare		
 of				
-pressure	other_2	INDEF_NP		
+pressure	other_2	indef-np.bare		
 on				
 the				
-limbs	other_3	DEF_NP	?OLD	
+limbs	other_3	def-np.the	?OLD	
 of				
 the				
-patient	other_4	DEF_NP	?OLD	
+patient	other_4	def-np.the	?OLD	
 ,				
 leaving				
-them	obj_2	PPER	?OLD	
+them	OBJ_2	pron.pper	?OLD	
 with				
 pressure				
-sores	other_2	INDEF_NP		
+sores	other_2	indef-np.bare		
 and				
-blisters	other_3	INDEF_NP		
+blisters	other_3	indef-np.bare		
 .			
 
 # text = It does not matter how powerful your prosthetic ankle is.
@@ -337,72 +337,72 @@ not
 matter				
 how				
 powerful				
-your	other_3	PPOSS	?OLD	
+your	other_3	pron.ppos	?OLD	
 prosthetic				
-ankle	subj_2	POSS_NP	?OLD	
+ankle	SBJ_2	def-np.poss	?OLD	
 is				
 .			
 
 # text = If your prosthetic socket is uncomfortable, you will not use your leg, and that is just simply unacceptable in our age.
 If				
-your	other_3	PPOSS	?OLD	
+your	other_3	pron.ppos	?OLD	
 prosthetic				
-socket	subj_2	POSS_NP	?OLD	
+socket	SBJ_2	def-np.poss	?OLD	
 is				
 uncomfortable				
 ,				
-you	subj	PPER	?OLD	
+you	SBJ	pron.pper	?OLD	
 will				
 not				
 use				
-your	other_2	PPOSS	?OLD	
-leg	obj	POSS_NP	?OLD	
+your	other_2	pron.ppos	?OLD	
+leg	OBJ	def-np.poss	?OLD	
 ,				
 and				
-that	subj_2	PDEM	?OLD	
+that	SBJ_2	pron.pds	?OLD	
 is				
 just				
 simply				
 unacceptable				
 in				
-our	other_3	PPOSS	?OLD	
-age	other_2	POSS_NP	?OLD	
+our	other_3	pron.ppos	?OLD	
+age	other_2	def-np.poss	?OLD	
 .			
 
 --
 # text = So one day, when I met professor Hugh Herr about two and a half years ago, and he asked me if I knew how to solve this problem, I said, "No, not yet, but I would love to figure it out."
 So				
 one				
-day	other	INDEF_NP		
+day	other	indef-np.quant		
 ,				
 when				
-I	subj_3	PPER	?OLD	
+I	SBJ_3	pron.pper	?OLD	
 met				
-professor	obj_3	NAME	?OLD	
+professor	OBJ_3	ne	?OLD	
 Hugh				
 Herr				
 about				
 two				
 and				
 a				
-half	other_6	INDEF_NP		
-years	other_4	INDEF_NP		
+half	other_6	indef-np.a		
+years	other_4	indef-np.quant		
 ago				
 ,				
 and				
-he	subj_3	PPER	?OLD	
+he	SBJ_3	pron.pper	?OLD	
 asked				
-me	obj_3	PPER	?OLD	
+me	OBJ_3	pron.pper	?OLD	
 if				
-I	subj_4	PPER	?OLD	
+I	SBJ_4	pron.pper	?OLD	
 knew				
 how				
 to				
 solve				
 this				
-problem	obj_5	DEM_NP	?OLD	
+problem	OBJ_5	def-np.dem	?OLD	
 ,				
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 said				
 ,				
 &quot;				
@@ -412,12 +412,12 @@ not
 yet				
 ,				
 but				
-I	subj_2	PPER	?OLD	
+I	SBJ_2	pron.pper	?OLD	
 would				
 love				
 to				
 figure				
-it	obj_3	PPER	?OLD	
+it	OBJ_3	pron.pper	?OLD	
 out				
 .				
 &quot;			
@@ -427,113 +427,113 @@ And
 so				
 ,				
 for				
-my	other_2	PPOSS	?OLD	
-Ph.D.	other	POSS_NP	?OLD	
+my	other_2	pron.ppos	?OLD	
+Ph.D.	other	def-np.poss	?OLD	
 at				
 the				
 MIT				
 Media				
-Lab	other_2	NAME	?OLD	
+Lab	other_2	ne	?OLD	
 ,				
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 designed				
 custom				
 prosthetic				
-sockets	obj	INDEF_NP		
+sockets	OBJ	indef-np.bare		
 quickly				
 and				
 cheaply				
-that	subj_3	PDEM	?OLD	
+that	SBJ_3	pron.pds	?OLD	
 are				
 more				
 comfortable				
 than				
 conventional				
-prostheses	other_3	INDEF_NP		
+prostheses	other_3	indef-np.bare		
 .			
 
 # text = I used magnetic resonance imaging to capture the actual shape of the patient's anatomy, then use finite element modeling to better predict the internal stresses and strains on the normal forces, and then create a prosthetic socket for manufacture.
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 used				
 magnetic				
-resonance	obj	INDEF_NP		
+resonance	OBJ	indef-np.bare		
 imaging				
 to				
 capture				
 the				
 actual				
-shape	obj_3	DEF_NP	?OLD	
+shape	OBJ_3	def-np.poss	?OLD	
 of				
 the				
-patient	other_5	DEF_NP	?OLD	
+patient	other_5	def-np.the	?OLD	
 's				
-anatomy	other_4	POSS_NP	?OLD	
+anatomy	other_4	def-np.poss	?OLD	
 ,				
 then				
 use				
 finite				
-element	obj_2	INDEF_NP		
+element	OBJ_2	indef-np.bare		
 modeling				
 to				
 better				
 predict				
 the				
 internal				
-stresses	obj_4	DEF_NP	?OLD	
+stresses	OBJ_4	def-np.the	?OLD	
 and				
-strains	other_5	INDEF_NP		
+strains	other_5	indef-np.bare		
 on				
 the				
 normal				
-forces	other_4	DEF_NP	?OLD	
+forces	other_4	def-np.the	?OLD	
 ,				
 and				
 then				
 create				
 a				
 prosthetic				
-socket	obj_2	INDEF_NP		
+socket	OBJ_2	indef-np.a		
 for				
-manufacture	other_3	INDEF_NP		
+manufacture	other_3	indef-np.bare		
 .			
 
 # text = We use a 3D printer to create a multi-material prosthetic socket which relieves pressure where needed on the anatomy of the patient.
-We	subj	PPER	?OLD	
+We	SBJ	pron.pper	?OLD	
 use				
 a				
 3D				
-printer	obj	INDEF_NP		
+printer	OBJ	indef-np.a		
 to				
 create				
 a				
 multi-material				
 prosthetic				
-socket	obj_2	INDEF_NP		
-which	subj_4			
+socket	OBJ_2	indef-np.a		
+which	SBJ_4			
 relieves				
-pressure	obj_4	INDEF_NP		
+pressure	OBJ_4	indef-np.bare		
 where				
 needed				
 on				
 the				
-anatomy	other_6	DEF_NP	?OLD	
+anatomy	other_6	def-np.the	?OLD	
 of				
 the				
-patient	other_7	DEF_NP	?OLD	
+patient	other_7	def-np.the	?OLD	
 .			
 
 # text = In short, we're using data to make novel sockets quickly and cheaply.
 In				
-short	other	other		
+short				
 ,				
-we	subj	PPER	?OLD	
+we	SBJ	pron.pper	?OLD	
 're				
 using				
-data	obj	INDEF_NP		
+data	OBJ	indef-np.bare		
 to				
 make				
 novel				
-sockets	obj_2	INDEF_NP		
+sockets	OBJ_2	indef-np.bare		
 quickly				
 and				
 cheaply				
@@ -544,62 +544,62 @@ cheaply
 In				
 a				
 recent				
-trial	other	INDEF_NP		
-we	subj	PPER	?OLD	
+trial	other	indef-np.a		
+we	SBJ	pron.pper	?OLD	
 just				
 wrapped				
 up				
 at				
 the				
 Media				
-Lab	other	NAME	?OLD	
+Lab	other	ne	?OLD	
 ,				
-one	other	POSS_NP	?OLD	
+one	other	def-np.poss	?OLD	
 of				
-our	other_3	PPOSS	?OLD	
-patients	other_2	POSS_NP	?OLD	
+our	other_3	pron.ppos	?OLD	
+patients	other_2	def-np.poss	?OLD	
 ,				
 a				
 U.S.				
-veteran	obj	INDEF_NP		
-who	subj_3			
+veteran	OBJ	indef-np.a		
+who	SBJ_3			
 has				
 been				
 an				
-amputee	other_2	INDEF_NP		
+amputee	other_2	indef-np.a		
 for				
 about				
 20				
-years	other_3	INDEF_NP		
+years	other_3	indef-np.quant		
 and				
 worn				
-dozens	other_3	INDEF_NP		
+dozens	other_3	indef-np.bare		
 of				
-legs	other_4	INDEF_NP		
+legs	other_4	indef-np.bare		
 ,				
 said				
 of				
-one	other_2	POSS_NP	?OLD	
+one	other_2	def-np.poss	?OLD	
 of				
-our	other_4	PPOSS	?OLD	
+our	other_4	pron.ppos	?OLD	
 printed				
-parts	other_3	POSS_NP	?OLD	
+parts	other_3	def-np.poss	?OLD	
 ,				
 &quot;				
-It	subj_2	PPER	?OLD	
+It	SBJ_2	pron.pper	?OLD	
 's				
 so				
 soft				
 ,				
-it	subj_3	PPER	?OLD	
+it	SBJ_3	pron.pper	?OLD	
 's				
 like				
 walking				
 on				
-pillows	other_4	INDEF_NP		
+pillows	other_4	indef-np.bare		
 ,				
 and				
-it	subj_3	PPER	?OLD	
+it	SBJ_3	pron.pper	?OLD	
 's				
 effing				
 sexy				
@@ -608,41 +608,41 @@ sexy
 
 # text = (Laughter)
 (				
-Laughter	other	NAME	?OLD	
+Laughter	other	ne	?OLD	
 )			
 
 # text = Disability in our age should not prevent anyone from living meaningful lives.
-Disability	subj	INDEF_NP		
+Disability	SBJ	indef-np.bare		
 in				
-our	other_3	PPOSS	?OLD	
-age	other_2	POSS_NP	?OLD	
+our	other_3	pron.ppos	?OLD	
+age	other_2	def-np.poss	?OLD	
 should				
 not				
 prevent				
-anyone	obj	PIND		
+anyone	OBJ	pron.pind		
 from				
 living				
 meaningful				
-lives	obj_2	INDEF_NP		
+lives	OBJ_2	indef-np.bare		
 .			
 
 # text = My hope and desire is that the tools and processes we develop in our research group can be used to bring highly functional prostheses to those who need them.
-My	other_2	PPOSS	?OLD	
-hope	subj	POSS_NP	?OLD	
+My	other_2	pron.ppos	?OLD	
+hope	SBJ	def-np.poss	?OLD	
 and				
-desire	other_2	INDEF_NP		
+desire	other_2	indef-np.bare		
 is				
 that				
 the				
-tools	subj_2	DEF_NP	?OLD	
+tools	SBJ_2	def-np.the	?OLD	
 and				
-processes	other_3	INDEF_NP		
-we	subj_4	PPER	?OLD	
+processes	other_3	indef-np.bare		
+we	SBJ_4	pron.pper	?OLD	
 develop				
 in				
-our	other_5	PPOSS	?OLD	
+our	other_5	pron.ppos	?OLD	
 research				
-group	other_4	POSS_NP	?OLD	
+group	other_4	def-np.poss	?OLD	
 can				
 be				
 used				
@@ -650,74 +650,74 @@ to
 bring				
 highly				
 functional				
-prostheses	obj_3	INDEF_NP		
+prostheses	OBJ_3	indef-np.bare		
 to				
-those	other_3	PDEM	?OLD	
-who	subj_5			
+those	other_3	pron.pds	?OLD	
+who	SBJ_5			
 need				
-them	obj_5	PPER	?OLD	
+them	OBJ_5	pron.pper	?OLD	
 .			
 
 # text = For me, a place to begin healing the souls of those affected by war and disease is by creating comfortable and affordable interfaces for their bodies.
 For				
-me	other	PPER	?OLD	
+me	other	pron.pper	?OLD	
 ,				
 a				
-place	subj	INDEF_NP		
+place	SBJ	indef-np.a		
 to				
 begin				
 healing				
 the				
-souls	obj_4	DEF_NP	?OLD	
+souls	OBJ_4	def-np.the	?OLD	
 of				
-those	other_5	other		
+those				
 affected				
 by				
-war	other_7	INDEF_NP		
+war	other_7	indef-np.bare		
 and				
-disease	other_6	INDEF_NP		
+disease	other_6	indef-np.bare		
 is				
 by				
 creating				
 comfortable				
 and				
 affordable				
-interfaces	obj_2	INDEF_NP		
+interfaces	OBJ_2	indef-np.bare		
 for				
-their	other_2	PPOSS	?OLD	
-bodies	other	POSS_NP	?OLD	
+their	other_2	pron.ppos	?OLD	
+bodies	other	def-np.poss	?OLD	
 .			
 
 # text = Whether it's in Sierra Leone or in Boston, I hope this not only restores but indeed transforms their sense of human potential.
 Whether				
-it	subj_2	PPER	?OLD	
+it	SBJ_2	pron.pper	?OLD	
 's				
 in				
 Sierra				
-Leone	other	NAME	?OLD	
+Leone	other	ne	?OLD	
 or				
 in				
-Boston	other_2	NAME	?OLD	
+Boston	other_2	ne	?OLD	
 ,				
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 hope				
-this	subj_2	PDEM	?OLD	
+this	SBJ_2	pron.pds	?OLD	
 not				
 only				
-restores	other	INDEF_NP		
+restores	other	indef-np.bare		
 but				
 indeed				
 transforms				
-their	other_4	PPOSS	?OLD	
-sense	obj_3	POSS_NP	?OLD	
+their	other_4	pron.ppos	?OLD	
+sense	OBJ_3	def-np.poss	?OLD	
 of				
 human				
-potential	other_4	INDEF_NP		
+potential	other_4	indef-np.bare		
 .			
 
 # text = Thank you very much.
 Thank				
-you	obj	PPER	?OLD	
+you	OBJ	pron.pper	?OLD	
 very				
 much				
 .			

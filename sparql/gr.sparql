@@ -10,14 +10,14 @@ PREFIX x:     <http://purl.org/acoli/conll-rdf/xml#>
 # we expect preceding markable extraction (conll:REF)
 
 INSERT {
-	?w conll:GR "subj"
+	?w conll:GR "SBJ"
 } WHERE {
 	?w conll:EDGE ?e
 	FILTER(strstarts(?e,"nsubj"))	
 };
 
 INSERT {
-	?w conll:GR "obj"
+	?w conll:GR "OBJ"
 } WHERE {
 	?w conll:EDGE ?e
 	FILTER(contains(?e,"obj"))	
@@ -27,7 +27,7 @@ INSERT {
 INSERT {
 	?w conll:GR "other"
 } WHERE {
-	?w conll:REF_EXP [].
+	?w conll:NP_TYPE [].
 	MINUS { ?w conll:GR [] }
 };
 

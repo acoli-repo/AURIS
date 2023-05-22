@@ -1,36 +1,36 @@
 # text = ﻿ talkid: 2009
 ﻿				
-talkid	other	INDEF_NP		
+talkid	other	indef-np.quant		
 :				
 2009			
 
 # text = Kitra Cahana:
-Kitra	other	NAME	?OLD	
+Kitra	other	ne	?OLD	
 Cahana				
 :			
 
 # text = A glimpse of life on the road
 A				
-glimpse	other	INDEF_NP		
+glimpse	other	indef-np.a		
 of				
-life	other	INDEF_NP		
+life	other	indef-np.bare		
 on				
 the				
-road	other	DEF_NP	?OLD
+road	other	def-np.the	?OLD
 
 # text = As a little girl, I always imagined I would one day run away.
 As				
 a				
 little				
-girl	other	INDEF_NP		
+girl	other	indef-np.a		
 ,				
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 always				
 imagined				
-I	subj_2	PPER	?OLD	
+I	SBJ_2	pron.pper	?OLD	
 would				
 one				
-day	other_2	INDEF_NP		
+day	other_2	indef-np.quant		
 run				
 away				
 .			
@@ -38,31 +38,31 @@ away
 # text = From the age of six on, I kept a packed bag with some clothes and cans of food tucked away in the back of a closet.
 From				
 the				
-age	other	DEF_NP	?OLD	
+age	other	def-np.quant	?OLD	
 of				
 six				
-on	other_2	other		
+on				
 ,				
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 kept				
 a				
 packed				
-bag	obj	INDEF_NP		
+bag	OBJ	indef-np.a		
 with				
 some				
-clothes	other	INDEF_NP		
+clothes	other	indef-np.quant		
 and				
-cans	other_2	INDEF_NP		
+cans	other_2	indef-np.bare		
 of				
-food	other_3	INDEF_NP		
+food	other_3	indef-np.bare		
 tucked				
 away				
 in				
 the				
-back	other_3	DEF_NP	?OLD	
+back	other_3	def-np.the	?OLD	
 of				
 a				
-closet	other_4	INDEF_NP		
+closet	other_4	indef-np.a		
 .			
 
 # text = There was a deep restlessness in me, a primal fear that I would fall prey to a life of routine and boredom.
@@ -70,25 +70,25 @@ There
 was				
 a				
 deep				
-restlessness	subj	INDEF_NP		
+restlessness	SBJ	indef-np.a		
 in				
-me	other_2	PPER	?OLD	
+me	other_2	pron.pper	?OLD	
 ,				
 a				
 primal				
-fear	other_2	INDEF_NP		
+fear	other_2	indef-np.a		
 that				
-I	subj_4	PPER	?OLD	
+I	SBJ_4	pron.pper	?OLD	
 would				
 fall				
-prey	obj_4	INDEF_NP		
+prey	OBJ_4	indef-np.bare		
 to				
 a				
-life	other_4	INDEF_NP		
+life	other_4	indef-np.a		
 of				
-routine	other_5	INDEF_NP		
+routine	other_5	indef-np.bare		
 and				
-boredom	other_6	INDEF_NP		
+boredom	other_6	indef-np.bare		
 .			
 
 # text = And so, many of my early memories involved intricate daydreams where I would walk across borders, forage for berries, and meet all kinds of strange people living unconventional lives on the road.
@@ -97,158 +97,158 @@ so
 ,				
 many				
 of				
-my	other_3	PPOSS	?OLD	
+my	other_3	pron.ppos	?OLD	
 early				
-memories	other_2	POSS_NP	?OLD	
+memories	other_2	def-np.poss	?OLD	
 involved				
 intricate				
-daydreams	other	INDEF_NP		
+daydreams	other	indef-np.quant		
 where				
-I	subj_2	PPER	?OLD	
+I	SBJ_2	pron.pper	?OLD	
 would				
 walk				
 across				
-borders	other_2	INDEF_NP		
+borders	other_2	indef-np.bare		
 ,				
-forage	other	INDEF_NP		
+forage	other	indef-np.bare		
 for				
-berries	other_2	INDEF_NP		
+berries	other_2	indef-np.bare		
 ,				
 and				
 meet				
 all				
-kinds	obj_2	INDEF_NP		
+kinds	OBJ_2	indef-np.a		
 of				
 strange				
-people	other_3	INDEF_NP		
+people	other_3	indef-np.bare		
 living				
 unconventional				
-lives	obj_3	INDEF_NP		
+lives	OBJ_3	indef-np.bare		
 on				
 the				
-road	other_3	DEF_NP	?OLD	
+road	other_3	def-np.the	?OLD	
 .			
 
 # text = Years have passed, but many of the adventures I fantasized about as a child -- traveling and weaving my way between worlds other than my own — have become realities through my work as a documentary photographer.
-Years	subj	INDEF_NP		
+Years	SBJ	indef-np.bare		
 have				
 passed				
 ,				
 but				
-many	subj_3	POSS_NP	?OLD	
+many	SBJ_3			
 of				
 the				
-adventures	other_4	DEF_NP	?OLD	
-I	subj_6	PPER	?OLD	
+adventures	other_4	def-np.the	?OLD	
+I	SBJ_6	pron.pper	?OLD	
 fantasized				
 about				
 as				
 a				
-child	other_6	INDEF_NP		
+child	other_6	indef-np.a		
 _				
 traveling				
 and				
 weaving				
-my	other_5	PPOSS	?OLD	
-way	obj_4	POSS_NP	?OLD	
+my	other_5	pron.ppos	?OLD	
+way	OBJ_4	def-np.poss	?OLD	
 between				
-worlds	other_5	INDEF_NP		
+worlds	other_5	indef-np.bare		
 other				
 than				
-my	other_8	PPOSS	?OLD	
-own	other_7	other		
+my	other_8	pron.ppos	?OLD	
+own				
 —				
 have				
 become				
-realities	other_2	INDEF_NP		
+realities	other_2	indef-np.bare		
 through				
-my	other_4	PPOSS	?OLD	
-work	other_3	POSS_NP	?OLD	
+my	other_4	pron.ppos	?OLD	
+work	other_3	def-np.poss	?OLD	
 as				
 a				
 documentary				
-photographer	other_3	INDEF_NP		
+photographer	other_3	indef-np.a		
 .			
 
 # text = But no other experience has felt as true to my childhood dreams as living amongst and documenting the lives of fellow wanderers across the United States.
 But				
 no				
 other				
-experience	subj	INDEF_NP		
+experience	SBJ	indef-np.quant		
 has				
 felt				
 as				
 true				
 to				
-my	other_3	PPOSS	?OLD	
+my	other_3	pron.ppos	?OLD	
 childhood				
-dreams	other_2	POSS_NP	?OLD	
+dreams	other_2	def-np.poss	?OLD	
 as				
 living				
 amongst				
 and				
 documenting				
 the				
-lives	other_3	DEF_NP	?OLD	
+lives	other_3	def-np.the	?OLD	
 of				
 fellow				
-wanderers	other_4	INDEF_NP		
+wanderers	other_4	indef-np.bare		
 across				
 the				
 United				
-States	other_5	NAME	?OLD	
+States	other_5	ne	?OLD	
 .			
 
 # text = This is the nomadic dream, a different kind of American dream lived by young hobos, travelers, hitchhikers, vagrants and tramps.
-This	subj	PDEM	?OLD	
+This	SBJ	pron.pds	?OLD	
 is				
 the				
 nomadic				
-dream	other	DEF_NP	?OLD	
+dream	other	def-np.the	?OLD	
 ,				
 a				
 different				
-kind	other	INDEF_NP		
+kind	other	indef-np.a		
 of				
 American				
-dream	other_2	INDEF_NP		
+dream	other_2	indef-np.bare		
 lived				
 by				
 young				
-hobos	other_3	INDEF_NP		
+hobos	other_3	indef-np.bare		
 ,				
-travelers	other	INDEF_NP		
+travelers	other	indef-np.bare		
 ,				
-hitchhikers	other	INDEF_NP		
+hitchhikers	other	indef-np.bare		
 ,				
-vagrants	other	INDEF_NP		
+vagrants	other	indef-np.bare		
 and				
-tramps	other	INDEF_NP		
+tramps	other	indef-np.bare		
 .			
 
 # text = In most of our minds, the vagabond is a creature from the past.
 In				
-most	other	POSS_NP	?OLD	
+most	other	def-np.poss	?OLD	
 of				
-our	other_3	PPOSS	?OLD	
-minds	other_2	POSS_NP	?OLD	
+our	other_3	pron.ppos	?OLD	
+minds	other_2	def-np.poss	?OLD	
 ,				
 the				
-vagabond	subj	DEF_NP	?OLD	
+vagabond	SBJ	def-np.the	?OLD	
 is				
 a				
-creature	other	INDEF_NP		
+creature	other	indef-np.a		
 from				
 the				
-past	other	DEF_NP	?OLD	
+past	other	def-np.the	?OLD	
 .			
 
 --
 # text = The word \"hobo\" conjures up an old black and white image of a weathered old man covered in coal, legs dangling out of a boxcar, but these photographs are in color, and they portray a community swirling across the country, fiercely alive and creatively free, seeing sides of America that no one else gets to see.
 The				
-word	subj	DEF_NP	?OLD	
+word	SBJ	def-np.the	?OLD	
 &quot;				
-hobo	other_2	INDEF_NP		
+hobo	other_2	indef-np.bare		
 &quot;				
 conjures				
 up				
@@ -257,39 +257,39 @@ old
 black				
 and				
 white				
-image	obj	INDEF_NP		
+image	OBJ	indef-np.a		
 of				
 a				
 weathered				
 old				
-man	other_2	INDEF_NP		
+man	other_2	indef-np.a		
 covered				
 in				
-coal	other_4	INDEF_NP		
+coal	other_4	indef-np.bare		
 ,				
-legs	other	INDEF_NP		
+legs	other	indef-np.bare		
 dangling				
 out				
 of				
 a				
-boxcar	other_3	INDEF_NP		
+boxcar	other_3	indef-np.a		
 ,				
 but				
 these				
-photographs	subj_2	DEM_NP	?OLD	
+photographs	SBJ_2	def-np.dem	?OLD	
 are				
 in				
-color	other	INDEF_NP		
+color	other	indef-np.bare		
 ,				
 and				
-they	subj_2	PPER	?OLD	
+they	SBJ_2	pron.pper	?OLD	
 portray				
 a				
-community	obj_2	INDEF_NP		
+community	OBJ_2	indef-np.a		
 swirling				
 across				
 the				
-country	other_4	DEF_NP	?OLD	
+country	other_4	def-np.the	?OLD	
 ,				
 fiercely				
 alive				
@@ -298,12 +298,12 @@ creatively
 free				
 ,				
 seeing				
-sides	obj_2	POSS_NP	?OLD	
+sides	OBJ_2	def-np.poss	?OLD	
 of				
-America	other_3	NAME	?OLD	
+America	other_3	ne	?OLD	
 that				
 no				
-one	subj_3	INDEF_NP		
+one	SBJ_3	indef-np.quant		
 else				
 gets				
 to				
@@ -312,250 +312,250 @@ see
 
 # text = Like their predecessors, today's nomads travel the steel and asphalt arteries of the United States.
 Like				
-their	other_2	PPOSS	?OLD	
-predecessors	other	POSS_NP	?OLD	
+their	other_2	pron.ppos	?OLD	
+predecessors	other	def-np.poss	?OLD	
 ,				
-today	other_2	INDEF_NP		
+today	other_2	indef-np.bare		
 's				
-nomads	subj	POSS_NP	?OLD	
+nomads	SBJ	def-np.poss	?OLD	
 travel				
 the				
 steel				
 and				
-asphalt	other_3	INDEF_NP		
-arteries	obj	DEF_NP	?OLD	
+asphalt	other_3	indef-np.bare		
+arteries	OBJ	def-np.poss	?OLD	
 of				
 the				
 United				
-States	other_2	NAME	?OLD	
+States	other_2	ne	?OLD	
 .			
 
 # text = By day, they hop freight trains, stick out their thumbs, and ride the highways with anyone from truckers to soccer moms.
 By				
-day	other	INDEF_NP		
+day	other	indef-np.bare		
 ,				
-they	subj	PPER	?OLD	
+they	SBJ	pron.pper	?OLD	
 hop				
 freight				
-trains	obj	INDEF_NP		
+trains	OBJ	indef-np.bare		
 ,				
 stick				
 out				
-their	other_3	PPOSS	?OLD	
-thumbs	obj_2	POSS_NP	?OLD	
+their	other_3	pron.ppos	?OLD	
+thumbs	OBJ_2	def-np.poss	?OLD	
 ,				
 and				
 ride				
 the				
-highways	obj_3	DEF_NP	?OLD	
+highways	OBJ_3	def-np.the	?OLD	
 with				
-anyone	other_3	PIND		
+anyone	other_3	pron.pind		
 from				
-truckers	other_4	INDEF_NP		
+truckers	other_4	indef-np.bare		
 to				
 soccer				
-moms	other_4	INDEF_NP		
+moms	other_4	indef-np.bare		
 .			
 
 # text = By night, they sleep beneath the stars, huddled together with their packs of dogs, cats and pet rats between their bodies.
 By				
-night	other	INDEF_NP		
+night	other	indef-np.bare		
 ,				
-they	subj	PPER	?OLD	
+they	SBJ	pron.pper	?OLD	
 sleep				
 beneath				
 the				
-stars	other	DEF_NP	?OLD	
+stars	other	def-np.the	?OLD	
 ,				
 huddled				
 together				
 with				
-their	other_3	PPOSS	?OLD	
-packs	other_2	POSS_NP	?OLD	
+their	other_3	pron.ppos	?OLD	
+packs	other_2	def-np.poss	?OLD	
 of				
-dogs	other_3	INDEF_NP		
+dogs	other_3	indef-np.bare		
 ,				
-cats	other_3	INDEF_NP		
+cats	other_3	indef-np.bare		
 and				
 pet				
-rats	other_4	INDEF_NP		
+rats	other_4	indef-np.bare		
 between				
-their	other_5	PPOSS	?OLD	
-bodies	other_4	POSS_NP	?OLD	
+their	other_5	pron.ppos	?OLD	
+bodies	other_4	def-np.poss	?OLD	
 .			
 
 # text = Some travelers take to the road by choice, renouncing materialism, traditional jobs and university degrees in exchange for a glimmer of adventure.
 Some				
-travelers	subj	INDEF_NP		
+travelers	SBJ	indef-np.quant		
 take				
 to				
 the				
-road	other	DEF_NP	?OLD	
+road	other	def-np.the	?OLD	
 by				
-choice	other	INDEF_NP		
+choice	other	indef-np.bare		
 ,				
 renouncing				
-materialism	obj_2	INDEF_NP		
+materialism	OBJ_2	indef-np.bare		
 ,				
 traditional				
-jobs	other_3	INDEF_NP		
+jobs	other_3	indef-np.bare		
 and				
 university				
-degrees	other_3	INDEF_NP		
+degrees	other_3	indef-np.bare		
 in				
-exchange	other_3	INDEF_NP		
+exchange	other_3	indef-np.bare		
 for				
 a				
-glimmer	other_4	INDEF_NP		
+glimmer	other_4	indef-np.a		
 of				
-adventure	other_5	INDEF_NP		
+adventure	other_5	indef-np.bare		
 .			
 
 # text = Others come from the underbelly of society, never given a chance to mobilize upwards:
-Others	subj	INDEF_NP		
+Others	SBJ	indef-np.bare		
 come				
 from				
 the				
-underbelly	other	DEF_NP	?OLD	
+underbelly	other	def-np.the	?OLD	
 of				
-society	other_2	INDEF_NP		
+society	other_2	indef-np.bare		
 ,				
 never				
 given				
 a				
-chance	obj_2	INDEF_NP		
+chance	OBJ_2	indef-np.a		
 to				
 mobilize				
-upwards	obj_4	INDEF_NP		
+upwards	OBJ_4	indef-np.bare		
 :			
 
 # text = foster care dropouts, teenage runaways escaping abuse and unforgiving homes.
 foster				
 care				
-dropouts	other	INDEF_NP		
+dropouts	other	indef-np.bare		
 ,				
 teenage				
-runaways	other	INDEF_NP		
+runaways	other	indef-np.bare		
 escaping				
-abuse	obj_3	INDEF_NP		
+abuse	OBJ_3	indef-np.bare		
 and				
 unforgiving				
-homes	other_4	INDEF_NP		
+homes	other_4	indef-np.bare		
 .			
 
 # text = Where others see stories of privation and economic failure, travelers view their own existence through the prism of liberation and freedom.
 Where				
-others	subj_2	INDEF_NP		
+others	SBJ_2	indef-np.bare		
 see				
-stories	obj_2	INDEF_NP		
+stories	OBJ_2	indef-np.bare		
 of				
-privation	other_3	INDEF_NP		
+privation	other_3	indef-np.bare		
 and				
 economic				
-failure	other_4	INDEF_NP		
+failure	other_4	indef-np.bare		
 ,				
-travelers	subj	INDEF_NP		
+travelers	SBJ	indef-np.bare		
 view				
-their	other_2	PPOSS	?OLD	
+their	other_2	pron.ppos	?OLD	
 own				
-existence	obj	POSS_NP	?OLD	
+existence	OBJ	def-np.poss	?OLD	
 through				
 the				
-prism	other	DEF_NP	?OLD	
+prism	other	def-np.the	?OLD	
 of				
-liberation	other_2	INDEF_NP		
+liberation	other_2	indef-np.bare		
 and				
-freedom	other_3	INDEF_NP		
+freedom	other_3	indef-np.bare		
 .			
 
 # text = They'd rather live off of the excess of what they view as a wasteful consumer society than slave away at an unrealistic chance at the traditional American dream.
-They	subj	PPER	?OLD	
+They	SBJ	pron.pper	?OLD	
 'd				
 rather				
 live				
 off				
 of				
 the				
-excess	other	DEF_NP	?OLD	
+excess	other	def-np.the	?OLD	
 of				
-what				
-they	subj_4	PPER	?OLD	
+what	other_2	pron.pint		
+they	SBJ_4	pron.pper	?OLD	
 view				
 as				
 a				
 wasteful				
 consumer				
-society	other_4	INDEF_NP		
+society	other_4	indef-np.a		
 than				
-slave	other_4	INDEF_NP		
+slave	other_4	indef-np.bare		
 away				
 at				
 an				
 unrealistic				
-chance	other_4	INDEF_NP		
+chance	other_4	indef-np.a		
 at				
 the				
 traditional				
 American				
-dream	other_5	DEF_NP	?OLD	
+dream	other_5	def-np.the	?OLD	
 .			
 
 # text = They take advantage of the fact that in the United States, up to 40 percent of all food ends up in the garbage by scavenging for perfectly good produce in dumpsters and trash cans.
-They	subj	PPER	?OLD	
+They	SBJ	pron.pper	?OLD	
 take				
-advantage	obj	INDEF_NP		
+advantage	OBJ	indef-np.bare		
 of				
 the				
-fact	other	DEF_NP	?OLD	
+fact	other	def-np.the	?OLD	
 that				
 in				
 the				
 United				
-States	other_3	NAME	?OLD	
+States	other_3	ne	?OLD	
 ,				
 up				
 to				
 40				
-percent	subj_3	INDEF_NP		
+percent	SBJ_3	indef-np.quant		
 of				
 all				
-food	other_4	INDEF_NP		
+food	other_4	indef-np.a		
 ends				
 up				
 in				
 the				
-garbage	other_3	DEF_NP	?OLD	
+garbage	other_3	def-np.the	?OLD	
 by				
 scavenging				
 for				
 perfectly				
 good				
-produce	other_4	INDEF_NP		
+produce	other_4	indef-np.bare		
 in				
-dumpsters	other_5	INDEF_NP		
+dumpsters	other_5	indef-np.bare		
 and				
 trash				
-cans	other_6	INDEF_NP		
+cans	other_6	indef-np.bare		
 .			
 
 # text = They sacrifice material comforts in exchange for the space and the time to explore a creative interior, to dream, to read, to work on music, art and writing.
-They	subj	PPER	?OLD	
+They	SBJ	pron.pper	?OLD	
 sacrifice				
 material				
-comforts	obj	INDEF_NP		
+comforts	OBJ	indef-np.bare		
 in				
-exchange	other	INDEF_NP		
+exchange	other	indef-np.bare		
 for				
 the				
-space	other_2	DEF_NP	?OLD	
+space	other_2	def-np.the	?OLD	
 and				
 the				
-time	subj_2	DEF_NP	?OLD	
+time	SBJ_2	def-np.the	?OLD	
 to				
 explore				
 a				
 creative				
-interior	obj_4	INDEF_NP		
+interior	OBJ_4	indef-np.a		
 ,				
 to				
 dream				
@@ -566,11 +566,11 @@ read
 to				
 work				
 on				
-music	other_4	INDEF_NP		
+music	other_4	indef-np.bare		
 ,				
-art	other_5	INDEF_NP		
+art	other_5	indef-np.bare		
 and				
-writing	other_5	INDEF_NP		
+writing	other_5	indef-np.bare		
 .			
 
 # text = But there are many aspects to this life that are far from idyllic.
@@ -578,82 +578,82 @@ But
 there				
 are				
 many				
-aspects	subj	INDEF_NP		
+aspects	SBJ	indef-np.quant		
 to				
 this				
-life	other_2	DEM_NP	?OLD	
-that	subj_3			
+life	other_2	def-np.dem	?OLD	
+that	SBJ_3			
 are				
 far				
 from				
-idyllic	other_2	INDEF_NP		
+idyllic	other_2	indef-np.bare		
 .			
 
 # text = No one loses their inner demons by taking to the road.
 No				
-one	subj	INDEF_NP		
+one	SBJ	indef-np.quant		
 loses				
-their	other_2	PPOSS	?OLD	
+their	other_2	pron.ppos	?OLD	
 inner				
-demons	obj	POSS_NP	?OLD	
+demons	OBJ	def-np.poss	?OLD	
 by				
 taking				
 to				
 the				
-road	other_2	DEF_NP	?OLD	
+road	other_2	def-np.the	?OLD	
 .			
 
 # text = Addiction is real, the elements are real, freight trains maim and kill, and anyone who has lived on the streets can attest to the exhaustive list of laws that criminalize homeless existence.
-Addiction	subj	INDEF_NP		
+Addiction	SBJ	indef-np.bare		
 is				
 real				
 ,				
 the				
-elements	subj_2	DEF_NP	?OLD	
+elements	SBJ_2	def-np.the	?OLD	
 are				
 real				
 ,				
-freight	subj_4	INDEF_NP		
+freight	SBJ_4	indef-np.bare		
 trains				
-maim	other	INDEF_NP		
+maim	other	indef-np.bare		
 and				
-kill	other	INDEF_NP		
+kill	other	indef-np.bare		
 ,				
 and				
-anyone	subj_2	PIND		
-who	subj_4			
+anyone	SBJ_2	pron.pind		
+who	SBJ_4			
 has				
 lived				
 on				
 the				
-streets	other_4	DEF_NP	?OLD	
+streets	other_4	def-np.the	?OLD	
 can				
 attest				
 to				
 the				
 exhaustive				
-list	other_2	DEF_NP	?OLD	
+list	other_2	def-np.the	?OLD	
 of				
-laws	other_3	INDEF_NP		
-that	subj_5			
+laws	other_3	indef-np.bare		
+that	SBJ_5			
 criminalize				
 homeless				
-existence	obj_5	INDEF_NP		
+existence	OBJ_5	indef-np.bare		
 .			
 
 # text = Who here knows that in many cities across the United States it is now illegal to sit on the sidewalk, to wrap oneself in a blanket, to sleep in your own car, to offer food to a stranger?
-Who	subj			
+Who	SBJ	pron.pint		
 here				
 knows				
-that	obj	PDEM	?OLD	
+that	OBJ	pron.pds	?OLD	
 in				
 many				
-cities	other	INDEF_NP		
+cities	other	indef-np.quant		
 across				
 the				
 United				
-States	other_2	NAME	?OLD	
-it	subj_3	PPER	?OLD	
+States	other_2	ne	?OLD	
+it	SBJ_3	pron.pper	?OLD	
 is				
 now				
 illegal				
@@ -661,154 +661,154 @@ to
 sit				
 on				
 the				
-sidewalk	other_4	DEF_NP	?OLD	
+sidewalk	other_4	def-np.the	?OLD	
 ,				
 to				
 wrap				
-oneself	obj_5			
+oneself	OBJ_5			
 in				
 a				
-blanket	other_5	INDEF_NP		
+blanket	other_5	indef-np.a		
 ,				
 to				
 sleep				
 in				
-your	other_6	PPOSS	?OLD	
+your	other_6	pron.ppos	?OLD	
 own				
-car	other_5	POSS_NP	?OLD	
+car	other_5	def-np.poss	?OLD	
 ,				
 to				
 offer				
-food	obj_5	INDEF_NP		
+food	OBJ_5	indef-np.bare		
 to				
 a				
-stranger	other_5	INDEF_NP		
+stranger	other_5	indef-np.a		
 ?			
 
 # text = I know about these laws because I've watched as friends and other travelers were hauled off to jail or received citations for committing these so-called crimes.
-I	subj	PPER	?OLD	
+I	SBJ	pron.pper	?OLD	
 know				
 about				
 these				
-laws	other	DEM_NP	?OLD	
+laws	other	def-np.dem	?OLD	
 because				
-I	subj_2	PPER	?OLD	
+I	SBJ_2	pron.pper	?OLD	
 've				
 watched				
 as				
-friends	other_2	INDEF_NP		
+friends	other_2	indef-np.bare		
 and				
 other				
-travelers	other_3	INDEF_NP		
+travelers	other_3	indef-np.bare		
 were				
 hauled				
 off				
 to				
-jail	other_3	INDEF_NP		
+jail	other_3	indef-np.bare		
 or				
 received				
-citations	obj_3	INDEF_NP		
+citations	OBJ_3	indef-np.bare		
 for				
 committing				
-these	obj_4	other		
+these	OBJ_4			
 so				
 _				
 called				
-crimes	obj_2	INDEF_NP		
+crimes	OBJ_2	indef-np.bare		
 .			
 
 # text = Many of you might be wondering why anyone would choose a life like this, under the thumb of discriminatory laws, eating out of trash cans, sleeping under bridges, picking up seasonal jobs here and there.
-Many	subj	POSS_NP	?OLD	
+Many	SBJ	def-np.poss	?OLD	
 of				
-you	other_2	PPER	?OLD	
+you	other_2	pron.pper	?OLD	
 might				
 be				
 wondering				
 why				
-anyone	subj_2	PIND		
+anyone	SBJ_2	pron.pind		
 would				
 choose				
 a				
-life	obj_2	INDEF_NP		
+life	OBJ_2	indef-np.a		
 like				
-this	other_3	PDEM	?OLD	
+this	other_3	pron.pds	?OLD	
 ,				
 under				
 the				
-thumb	other_2	DEF_NP	?OLD	
+thumb	other_2	def-np.the	?OLD	
 of				
 discriminatory				
-laws	other_3	INDEF_NP		
+laws	other_3	indef-np.bare		
 ,				
 eating				
 out				
 of				
 trash				
-cans	other_3	INDEF_NP		
+cans	other_3	indef-np.bare		
 ,				
-sleeping	other_2	INDEF_NP		
+sleeping	other_2	indef-np.bare		
 under				
-bridges	other_3	INDEF_NP		
+bridges	other_3	indef-np.bare		
 ,				
 picking				
 up				
 seasonal				
-jobs	obj_3	INDEF_NP		
+jobs	OBJ_3	indef-np.bare		
 here				
 and				
-there				
+there	other_2	pron.padv	?OLD	
 .			
 
 # text = The answer to such a question is as varied as the people that take to the road, but travelers often respond with a single word: freedom.
 The				
-answer	subj	DEF_NP	?OLD	
+answer	SBJ	def-np.the	?OLD	
 to				
 such				
 a				
-question	other_2	INDEF_NP		
+question	other_2	pron.pds		
 is				
 as				
 varied				
 as				
 the				
-people	other	DEF_NP	?OLD	
-that	subj_3			
+people	other	def-np.the	?OLD	
+that	SBJ_3			
 take				
 to				
 the				
-road	other_3	DEF_NP	?OLD	
+road	other_3	def-np.the	?OLD	
 ,				
 but				
-travelers	subj_2	INDEF_NP		
+travelers	SBJ_2	indef-np.bare		
 often				
 respond				
 with				
 a				
 single				
-word	other_2	INDEF_NP		
+word	other_2	indef-np.a		
 :				
-freedom	other_3	INDEF_NP		
+freedom	other_3	indef-np.bare		
 .			
 
 # text = Until we live in a society where every human is assured dignity in their labor so that they can work to live well, not only work to survive, there will always be an element of those who seek the open road as a means of escape, of liberation and, of course, of rebellion.
 Until				
-we	subj_2	PPER	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 live				
 in				
 a				
-society	other_2	INDEF_NP		
+society	other_2	indef-np.a		
 where				
 every				
-human	subj_4	INDEF_NP		
+human	SBJ_4	indef-np		
 is				
 assured				
-dignity	obj_4	INDEF_NP		
+dignity	OBJ_4	indef-np.bare		
 in				
-their	other_5	PPOSS	?OLD	
-labor	other_4	POSS_NP	?OLD	
+their	other_5	pron.ppos	?OLD	
+labor	other_4	def-np.poss	?OLD	
 so				
 that				
-they	subj_5	PPER	?OLD	
+they	SBJ_5	pron.pper	?OLD	
 can				
 work				
 to				
@@ -826,33 +826,33 @@ will
 always				
 be				
 an				
-element	other	POSS_NP	?OLD	
+element	other	def-np.poss	?OLD	
 of				
-those	other	PDEM	?OLD	
-who	subj_3			
+those	other	pron.pds	?OLD	
+who	SBJ_3			
 seek				
 the				
 open				
-road	obj_3	DEF_NP	?OLD	
+road	OBJ_3	def-np.the	?OLD	
 as				
 a				
-means	other_3	INDEF_NP		
+means	other_3	indef-np.a		
 of				
-escape	other_4	INDEF_NP		
+escape	other_4	indef-np.bare		
 ,				
 of				
-liberation	other	INDEF_NP		
+liberation	other	indef-np.bare		
 and				
 ,				
 of				
 course				
 ,				
 of				
-rebellion	other	INDEF_NP		
+rebellion	other	indef-np.bare		
 .			
 
 # text = Thank you.
 Thank				
-you	obj	PPER	?OLD	
+you	OBJ	pron.pper	?OLD	
 .			
 

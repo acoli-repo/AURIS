@@ -12,7 +12,7 @@ AURIS is designed to build on and complement CoNLL-U corpora, and uses a CoNLL f
 
 - [`txt/`](txt): Plain text files (input to pre-annotation)
 - [`conllu/`](conllu): Syntactically annotated files from `txt/` (automatically parsed, UD compliant)
-- [`refexp/`](refexp): "Raw" files with automated (static) pre-annotation, input to manual annotation
+- [`refexp/`](refexp): "Raw" tsv/CoNLL files with automated (static) pre-annotation, input to manual annotation
 - [`template.xlsx`](template.xlsx): Excel template, includes formulas for dynamic pre-annotation
 
 Pre-annotated ("raw") files can be built from plain text with `make` (see [`Makefile`](Makefile)).
