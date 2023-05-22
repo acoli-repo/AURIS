@@ -60,12 +60,12 @@ For illustration, we use OpenOffice below. Other spreadsheet software should be 
 
 Now, open the "raw" file (here, `xyz.tsv`) in your spreadsheet software. Normally, you should be able to open it by double-clicking on it. It should open as a new table. Select the entire table and copy and paste it into your target file. Make sure not to overwrite *the first three rows* of your target file (i.e., those that contain colored columns).
 
-> Notes: 
-> - To select the entire table under Windows or Linux, press `<CTRL>+<END>` to get to the lower right corner of your data. Then, press `<CTRL>+<SHIFT>+<POS1>` (`<CTRL>+<SHIFT>+<HOME>`) to select everything until the upper left corner. Then, press `<CTRL>+C` to copy the entire table and `<CTRL>+V` to insert it at its new place. 
-> - On MacOS, keys are different. Normally, the `<MAC>` key should be used in place of `<CTRL>`.
-> - Google Docs (tested under Windows/Linux) uses Windows/Linux-style keys.
+> Note: To select the entire table under Windows or Linux, press `<CTRL>+<END>` to get to the lower right corner of your data. Then, press `<CTRL>+<SHIFT>+<POS1>` (`<CTRL>+<SHIFT>+<HOME>`) to select everything until the upper left corner. Then, press `<CTRL>+C` to copy the entire table and `<CTRL>+V` to insert it at its new place.  Google Docs (tested under Windows/Linux) uses Windows/Linux-style keys.
+
+> Note on MacOS: Mac keys are different. Normally, the `<MAC>` key should be used in place of `<CTRL>`.
 
 After copying the pre-annotated data into the target file, you need to copy the *pre-annotation formulas*, too:
+
 - Go to cell `E3` (third row, column `COREF`). The formulas are contained in the colored and the gray columns in that row. 
 - Select all formulas using `<CTRL>+<SHIFt>+<LEFT>`, copy them with `<CTRL>+C`. 
 - Go to cell `E4`. Press `<CTRL>+<SHIFT>+<END>` to select the table from cell `E4` to the end. Then, paste the formulas using `<CTRL>+V`. You should see colored columns for the entire text and some automated pre-annotations, now. These will update automatically during the annotation and have to be manually corrected when needed.
