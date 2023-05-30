@@ -23,6 +23,7 @@ The manual consists of five separate documents:
 - [coref.md](coreference.md): guidelines manual annotation of coreference and referentiality, originally by Chiarcos and Krasavina (2005)
 - [information-status.md](information-status.md): guidelines for the manual annotation of information status ("givenness"), originally by Gundel, Hedberg and Zacharski (1993)
 - [topic.md](topic.md): guidelines for the annotation of the familiarity topic according to Centering Theory (backward-lookinf center, Grosz et al., 1995)
+- [focus.md](focus.md): aspects of the annotation of focus. Currently, we annotate novelty (newsworthiness) as an approximation of new information focus.
 
 Supplementary material is provided in
 
@@ -126,11 +127,13 @@ For this version of the manual, we extended the guidelines by including the guid
 		- contributors: Ann Mulkern, Tonya Custis, Bonnie Swierzbin, Amel Khalfoui, Linda Humnick, Bryan Gordon, Mamadou Bassene, Shana Watters
 	- 2004-07-xx: preceding revision of Jeanette Gundel, Nancy Hedberg, Ron Zacharski of July 2004
 	- 1993: original version by Gundel, Hedberg and Zacharski
+- [topic.md](topic.md)
+	- 2023-05-16: extracted from information-status.md (CC)
+- [focus.md](focus.md)
+	- 2023-05-30: extension of newsworthiness annotation, proposed by CC
 - [lit.md](lit.md): References
 	- currently from Chiarcos and Krasavina (2005), only
 	- [2023-05-15](../archive/lit.2023-05-15.md): initial version, from Chiarcos and Krasavina (2005)
 - [problems.md](problems.md): Problematic cases
 	- currently from Chiarcos and Krasavina (2005), only (needs to be completely re-analyzed) 
 	- [2023-05-15](../archive/problems.2023-05-15.md): initial version, from Chiarcos and Krasavina (2005)
-- [topic.md](topic.md)
-	- 2023-05-16: extracted from information-status.md (CC)
