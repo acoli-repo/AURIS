@@ -49,9 +49,7 @@ txt/doyle:
 			> $$tgt;\
 		done;\
 	fi;
-
-tmp:
-	for lang in txt/doyle/*; do \
+	@for lang in txt/doyle/*; do \
 		if [ -e $$lang/doyle.14.txt ]; then \
 			if [ ! -e txt/`basename $$lang` ]; then \
 				mkdir -p txt/`basename $$lang`; \
@@ -94,7 +92,7 @@ txt/bibl:
 		done; \
 	done || echo 'warning: unclear return code' 1>&2
 
-conllu: udpipe txt txt/bibl
+conllu: udpipe txt txt/bibl txt/doyle
 	@LANGS="en";\
 	echo "warning: we're supporting only "$$LANGS" at the moment" 1>&2;\
 	for lang in $$LANGS; do \
