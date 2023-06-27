@@ -37,8 +37,8 @@ txt/bibl:
 		done; \
 	done || echo 'warning: unclear return code' 1>&2
 
-conllu: udpipe txt txt/bibl xml
-	LANGS="en";\
+conllu: udpipe txt txt/bibl
+	@LANGS="en";\
 	echo "warning: we're supporting only "$$LANGS" at the moment" 1>&2;\
 	for lang in $$LANGS; do \
 		for file in txt/$$lang/*.txt; do \
