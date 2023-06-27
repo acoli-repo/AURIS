@@ -9,6 +9,7 @@ txt/doyle:
 	@if [ ! -e txt/doyle/de ]; then \
 		mkdir -p txt/doyle/de; \
 		cd txt/doyle/de; \
+		\
 		for chap in {1..9} ; do \
 			wget -nc https://www.projekt-gutenberg.org/doyle/baskervi/chap00$$chap.html; \
 		done;\
@@ -25,6 +26,24 @@ txt/doyle:
 			| egrep -m 1 '<h3' \
 			| perl -pe 's/\s+/ /g; s/<p/\n<p/g; s/<\/p>/\n/g;' \
 			| grep '<p' \
+			| w3m -T text/html \
+			| perl -pe 's/([^\s])\-\s*\n/\1/g; s/([^\s])\n/\1 /g;' \
+			> $$tgt;\
+		done;\
+		\
+		wget -nc https://www.projekt-gutenberg.org/doyle/sterbend/chap003.html -O doyle_wist.html; \
+		for chap in {1..2}; do \
+			mychap=`echo 0$$chap | sed s/'.*\(..\)$$'/'\1'/g;`;\
+			tgt=doyle_wist.$$mychap.txt;\
+			echo txt/doyle/de/doyle_wist.html '>' txt/doyle/de/$$tgt 1>&2; \
+			cat doyle_wist.html \
+			| iconv -f utf-8 -t utf-8 -c \
+			| perl -pe 's/\s+/ /g; s/<h4/\n<h4/g;'   \
+			| grep '<h4' \
+			| grep -v '<h4>Inhalt' \
+			| grep -m $$chap '.'  | tee tmp$$chap.full.html | tail -n 1 | tee tmp$$chap.tail.html  \
+			| perl -pe 's/<p/\n<p/g; s/<\/p>/\n/g;' \
+			| grep -a '<p' \
 			| w3m -T text/html \
 			| perl -pe 's/([^\s])\-\s*\n/\1/g; s/([^\s])\n/\1 /g;' \
 			> $$tgt;\
@@ -61,7 +80,7 @@ txt/doyle:
 			| perl -pe 's/\s+/ /g; s/<H3/\n<H3/g; s/End of the Project Gutenberg/\n/g;'   \
 			| grep '<H3' \
 			| grep -v '#chap01' \
-			| tee tmp.html | grep -m $$chap '.'  | tail -n 1 | tee tmp$$chap.html \
+			| grep -m $$chap '.'  | tail -n 1 \
 			| perl -pe 's/<P/\n<P/g; s/<\/P>/\n/g;' \
 			| grep -a '<P' \
 			| w3m -T text/html \
@@ -99,7 +118,6 @@ txt/bibl:
 		done;\
 	fi;
 
-tmp:
 	@for lang in txt/bibl/*; do \
 		for xml in $$lang/*.xml; do \
 			if [ ! -e txt/`basename $$lang` ] ; then mkdir -p txt/`basename $$lang`; fi; \
