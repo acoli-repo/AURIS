@@ -18,3 +18,12 @@ This is compiled from several source corpora. Some of these may provide addition
 		- For annotations, see https://github.com/MurathanKurfali/Ted-MDB-Annotations.
 	- `*/bibl.*.txt`: excerpts (selected books) of Bibles, from the [ACoLi corpora collection](https://github.com/acoli-repo/acoli-corpora/tree/master/biblical/data)
 		- license: see accompanying LICENSE statement for the respective language, if none is provided, the text is assumed to be in the public domain (CC0).
+	- `*/doyle.*.txt`: Arthur Conan Doyle, The Hound of the Baskervilles (chap. 14)
+		- license: public domain
+		- additional annotations are available as part of [FrameNet](https://framenet.icsi.berkeley.edu/fndrupal/fulltextIndex), for example
+
+## TODOs
+
+- add Tiger of San Pedro (https://www.pagebypagebooks.com/Arthur_Conan_Doyle/The_Adventure_of_Wisteria_Lodge/The_Tiger_of_San_Pedro_p1.html), also in FrameNet corpus
+- consider adding Le Petit Prince, if translations can be secured
+- consider adding Orwell's 1984, if copyright for German and Romance can be cleared

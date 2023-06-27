@@ -1,7 +1,64 @@
+SHELL=bash
+
 all: conllu refexp
 
 udpipe:
 	if [ ! -e udpipe ]; then echo install UDPipe v.1.0 in `pwd`/udpipe 1>&2; exit 1; fi;
+
+txt/doyle:
+	@if [ ! -e txt/doyle/de ]; then \
+		mkdir -p txt/doyle/de; \
+		cd txt/doyle/de; \
+		for chap in {1..9} ; do \
+			wget -nc https://www.projekt-gutenberg.org/doyle/baskervi/chap00$$chap.html; \
+		done;\
+		for chap in {10..15} ; do \
+			wget -nc https://www.projekt-gutenberg.org/doyle/baskervi/chap0$$chap.html; \
+		done;\
+		for chap in {1..15} ; do \
+			chap=`echo 0$$chap | sed s/'.*\(..\)$$'/'\1'/g;`;\
+			file=`ls *0$$chap.html | head -n 1`;\
+			tgt=doyle.$$chap.txt;\
+			echo txt/doyle/de/$$file '>' txt/doyle/de/$$tgt 1>&2; \
+			cat $$file \
+			| perl -pe 's/\s+/ /g; s/<h3/\n<h3/g;' \
+			| egrep -m 1 '<h3' \
+			| perl -pe 's/\s+/ /g; s/<p/\n<p/g; s/<\/p>/\n/g;' \
+			| grep '<p' \
+			| w3m -T text/html \
+			| perl -pe 's/([^\s])\-\s*\n/\1/g; s/([^\s])\n/\1/g;' \
+			> $$tgt;\
+		done;\
+	fi;
+	@if [ ! -e txt/doyle/en ]; then \
+		mkdir -p txt/doyle/en; \
+		cd txt/doyle/en; \
+		wget -nc https://gutenberg.org/cache/epub/3070/pg3070-images.html -O doyle.html;\
+		for chap in {1..15}; do \
+			mychap=`echo 0$$chap | sed s/'.*\(..\)$$'/'\1'/g;`;\
+			tgt=doyle.$$mychap.txt;\
+			echo txt/doyle/en/doyle.html '>' txt/doyle/en/$$tgt 1>&2; \
+			cat doyle.html \
+			| iconv -f utf-8 -t utf-8 -c \
+			| perl -pe 's/\s+/ /g; s/<h3/\n<h3/g'  \
+			| grep -a -m 2 'Chapter_'$$chap | tail -n 1 \
+			| perl -pe 's/<p/\n<p/g; s/<\/p>/\n/g;' \
+			| grep -a '<p' \
+			| w3m -T text/html \
+			| perl -pe 's/([^\s])\-\s*\n/\1/g; s/([^\s])\n/\1/g;' \
+			> $$tgt;\
+		done;\
+	fi;
+
+tmp:
+	for lang in txt/doyle/*; do \
+		if [ -e $$lang/doyle.14.txt ]; then \
+			if [ ! -e txt/`basename $$lang` ]; then \
+				mkdir -p txt/`basename $$lang`; \
+			fi; \
+			cp $$lang/doyle.14.txt txt/`basename $$lang`/; \
+		fi;\
+	done;\
 
 txt/bibl:
 	@if [ ! -e txt/bibl/de ]; then \
