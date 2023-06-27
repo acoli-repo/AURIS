@@ -98,6 +98,8 @@ txt/bibl:
 			wget -nc https://raw.githubusercontent.com/acoli-repo/acoli-corpora/master/biblical/data/germ/en_modern-english/LICENSE  || echo "warning: could not retrieve" LICENSE 1>&2; \
 		done;\
 	fi;
+
+tmp:
 	@for lang in txt/bibl/*; do \
 		for xml in $$lang/*.xml; do \
 			if [ ! -e txt/`basename $$lang` ] ; then mkdir -p txt/`basename $$lang`; fi; \
@@ -108,7 +110,7 @@ txt/bibl:
 				cat $$xml \
 				| iconv -f utf-8 -t utf-8 -c \
 				| perl -pe 's/\s+/ /g; s/<seg/\n<seg/g; s/<\/seg>/\n/g; ' \
-				| grep -a '<seg[^<]*id="b.$$book' \
+				| grep -a '<seg[^>]*id="b.'$$book \
 				| perl -pe 's/<[^>]*>//g; s/<.*//g; s/.*>//g; s/ +/ /;' \
 				| egrep -a . \
 				> $$tgt;\
