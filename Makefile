@@ -18,7 +18,7 @@ txt/doyle:
 		for chap in {1..15} ; do \
 			chap=`echo 0$$chap | sed s/'.*\(..\)$$'/'\1'/g;`;\
 			file=`ls *0$$chap.html | head -n 1`;\
-			tgt=doyle.$$chap.txt;\
+			tgt=doyle_bask.$$chap.txt;\
 			echo txt/doyle/de/$$file '>' txt/doyle/de/$$tgt 1>&2; \
 			cat $$file \
 			| perl -pe 's/\s+/ /g; s/<h3/\n<h3/g;' \
@@ -30,17 +30,19 @@ txt/doyle:
 			> $$tgt;\
 		done;\
 	fi;
+
 	@if [ ! -e txt/doyle/en ]; then \
 		mkdir -p txt/doyle/en; \
 		cd txt/doyle/en; \
-		wget -nc https://gutenberg.org/cache/epub/3070/pg3070-images.html -O doyle.html;\
+		\
+		wget -nc https://gutenberg.org/cache/epub/3070/pg3070-images.html -O doyle_bask.html;\
 		for chap in {1..15}; do \
 			mychap=`echo 0$$chap | sed s/'.*\(..\)$$'/'\1'/g;`;\
-			tgt=doyle.$$mychap.txt;\
-			echo txt/doyle/en/doyle.html '>' txt/doyle/en/$$tgt 1>&2; \
-			cat doyle.html \
+			tgt=doyle_bask.$$mychap.txt;\
+			echo txt/doyle/en/doyle_bask.html '>' txt/doyle/en/$$tgt 1>&2; \
+			cat doyle_bask.html \
 			| iconv -f utf-8 -t utf-8 -c \
-			| perl -pe 's/\s+/ /g; s/<h3/\n<h3/g'  \
+			| perl -pe 's/\s+/ /g; s/<h3/\n<h3/g; s/End of the Project Gutenberg/\n/g;'  \
 			| grep -a -m 2 'Chapter_'$$chap | tail -n 1 \
 			| perl -pe 's/<p/\n<p/g; s/<\/p>/\n/g;' \
 			| grep -a '<p' \
@@ -48,14 +50,36 @@ txt/doyle:
 			| perl -pe 's/([^\s])\-\s*\n/\1/g; s/([^\s])\n/\1/g;' \
 			> $$tgt;\
 		done;\
+		\
+		wget -nc https://www.gutenberg.org/files/2343/2343-h/2343-h.htm -O doyle_wist.html;\
+		for chap in {1..2}; do \
+			mychap=`echo 0$$chap | sed s/'.*\(..\)$$'/'\1'/g;`;\
+			tgt=doyle_wist.$$mychap.txt;\
+			echo txt/doyle/en/doyle_wist.html '>' txt/doyle/en/$$tgt 1>&2; \
+			cat doyle_wist.html \
+			| iconv -f utf-8 -t utf-8 -c \
+			| perl -pe 's/\s+/ /g; s/<H3/\n<H3/g; s/End of the Project Gutenberg/\n/g;'   \
+			| grep '<H3' \
+			| grep -v '#chap01' \
+			| tee tmp.html | grep -m $$chap '.'  | tail -n 1 | tee tmp$$chap.html \
+			| perl -pe 's/<P/\n<P/g; s/<\/P>/\n/g;' \
+			| grep -a '<P' \
+			| w3m -T text/html \
+			| perl -pe 's/([^\s])\-\s*\n/\1/g; s/([^\s])\n/\1/g;' \
+			> $$tgt;\
+		done;\
+		\
 	fi;
+
 	@for lang in txt/doyle/*; do \
-		if [ -e $$lang/doyle.14.txt ]; then \
-			if [ ! -e txt/`basename $$lang` ]; then \
-				mkdir -p txt/`basename $$lang`; \
-			fi; \
-			cp $$lang/doyle.14.txt txt/`basename $$lang`/; \
-		fi;\
+		for file in doyle_bask.14.txt doyle_wist.2.txt; do \
+			if [ -e $$lang/$$file ]; then \
+				if [ ! -e txt/`basename $$lang` ]; then \
+					mkdir -p txt/`basename $$lang`; \
+				fi; \
+				cp $$lang/$$file txt/`basename $$lang`/; \
+			fi;\
+		done;\
 	done;\
 
 txt/bibl:
