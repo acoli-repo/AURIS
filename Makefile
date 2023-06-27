@@ -26,7 +26,7 @@ txt/doyle:
 			| perl -pe 's/\s+/ /g; s/<p/\n<p/g; s/<\/p>/\n/g;' \
 			| grep '<p' \
 			| w3m -T text/html \
-			| perl -pe 's/([^\s])\-\s*\n/\1/g; s/([^\s])\n/\1/g;' \
+			| perl -pe 's/([^\s])\-\s*\n/\1/g; s/([^\s])\n/\1 /g;' \
 			> $$tgt;\
 		done;\
 	fi;
@@ -47,7 +47,7 @@ txt/doyle:
 			| perl -pe 's/<p/\n<p/g; s/<\/p>/\n/g;' \
 			| grep -a '<p' \
 			| w3m -T text/html \
-			| perl -pe 's/([^\s])\-\s*\n/\1/g; s/([^\s])\n/\1/g;' \
+			| perl -pe 's/([^\s])\-\s*\n/\1/g; s/([^\s])\n/\1 /g;' \
 			> $$tgt;\
 		done;\
 		\
@@ -65,14 +65,14 @@ txt/doyle:
 			| perl -pe 's/<P/\n<P/g; s/<\/P>/\n/g;' \
 			| grep -a '<P' \
 			| w3m -T text/html \
-			| perl -pe 's/([^\s])\-\s*\n/\1/g; s/([^\s])\n/\1/g;' \
+			| perl -pe 's/([^\s])\-\s*\n/\1/g; s/([^\s])\n/\1 /g;' \
 			> $$tgt;\
 		done;\
 		\
 	fi;
 
 	@for lang in txt/doyle/*; do \
-		for file in doyle_bask.14.txt doyle_wist.2.txt; do \
+		for file in doyle_bask.14.txt doyle_wist.02.txt; do \
 			if [ -e $$lang/$$file ]; then \
 				if [ ! -e txt/`basename $$lang` ]; then \
 					mkdir -p txt/`basename $$lang`; \
