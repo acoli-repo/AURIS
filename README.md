@@ -13,6 +13,7 @@ AURIS is designed to build on and complement CoNLL-U corpora, and uses a CoNLL f
 - [`txt/`](txt): Plain text files (input to pre-annotation)
 - [`conllu/`](conllu): Syntactically annotated files from `txt/` (automatically parsed, UD compliant)
 - [`refexp/`](refexp): "Raw" tsv/CoNLL files with automated (static) pre-annotation, input to manual annotation
+- [`is/`](is): Manual annotations for coreference and information status, Excel format
 - [`template.xlsx`](template.xlsx): Excel template, includes formulas for dynamic pre-annotation
 
 Pre-annotated ("raw") files can be built from plain text with `make` (see [`Makefile`](Makefile)).
@@ -21,4 +22,10 @@ Pre-annotated ("raw") files can be built from plain text with `make` (see [`Make
 
 - TED-MDB corpus (https://github.com/MurathanKurfali/Ted-MDB-Annotations), i.e., ted-mdb.1927, ted-mdb.1971, ted-mdb.1976, ted-mdb.1978, ted-mdb.2009, ted-mdb.2150
 	- note that these are different TED talk ids than those from TED2020 and Teddy
+- Bible: excerpts from the [ACoLi Bible Corpus](https://github.com/acoli-repo/acoli-corpora/tree/master/biblical)
+- Doyle: selected pieces of Arthur Conan Doyle (also subject to [FrameNet annotations](https://framenet.icsi.berkeley.edu/fulltextIndex))  
 - TODO: TED core corpus
+
+## Complementary Material
+
+- [Augsburg Corpus of Bootstrapped Reference and Information Structure Annotations](https://github.com/acoli-repo/AURIS-bootstrap): extrapolated from over morphosyntactic marking in selected languages
