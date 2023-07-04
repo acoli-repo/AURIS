@@ -1,4 +1,4 @@
-# text = One of Sherlock Holmes's defects—if, indeed, one may call it a defect—was thathe was exceedingly loath to communicate his full plans to any other personuntil the instant of their fulfilment.
+# text = One of Sherlock Holmes's defects—if, indeed, one may call it a defect—was that he was exceedingly loath to communicate his full plans to any other person until the instant of their fulfilment.
 One	SBJ	def-np.poss	?OLD	
 of				
 Sherlock				
@@ -16,19 +16,21 @@ it	OBJ	pron.pper	?OLD
 a				
 defect	SBJ_2	indef-np.a		
 —was				
-thathe				
+that				
+he	SBJ_3	pron.pper	?OLD	
 was				
 exceedingly				
 loath				
 to				
 communicate				
-his	other_4	pron.ppos	?OLD	
+his	other_5	pron.ppos	?OLD	
 full				
-plans	OBJ_3	def-np.poss	?OLD	
+plans	OBJ_4	def-np.poss	?OLD	
 to				
 any				
 other				
-personuntil				
+person	other_4	indef-np.a		
+until				
 the				
 instant	other_4	def-np.poss	?OLD	
 of				
@@ -36,7 +38,7 @@ their	other_6	pron.ppos	?OLD
 fulfilment	other_5	def-np.poss	?OLD	
 .			
 
-# text = Partly it came no doubt from his ownmasterful nature, which loved to dominate and surprise those who were aroundhim.
+# text = Partly it came no doubt from his own masterful nature, which loved to dominate and surprise those who were around him.
 Partly				
 it	SBJ	pron.pper	?OLD	
 came				
@@ -44,7 +46,8 @@ no
 doubt				
 from				
 his	other_2	pron.ppos	?OLD	
-ownmasterful				
+own				
+masterful				
 nature	other	def-np.poss	?OLD	
 ,				
 which	SBJ_3			
@@ -56,10 +59,11 @@ surprise
 those	OBJ_5	pron.pds	?OLD	
 who	SBJ_7			
 were				
-aroundhim				
+around				
+him	other_6	pron.pper	?OLD	
 .			
 
-# text = Partly also from his professional caution, which urged him never to takeany chances.
+# text = Partly also from his professional caution, which urged him never to take any chances.
 Partly				
 also				
 from				
@@ -72,11 +76,12 @@ urged
 him	OBJ_2	pron.pper	?OLD	
 never				
 to				
-takeany				
-chances	other_2	indef-np		
+take				
+any				
+chances	OBJ_3	indef-np.a		
 .			
 
-# text = The result, however, was very trying for those who were acting ashis agents and assistants.
+# text = The result, however, was very trying for those who were acting as his agents and assistants.
 The				
 result	SBJ	def-np.the	?OLD	
 ,				
@@ -90,13 +95,14 @@ those	other	pron.pds	?OLD
 who	SBJ_3			
 were				
 acting				
-ashis				
-agents	OBJ_3	indef-np		
+as				
+his	other_4	pron.ppos	?OLD	
+agents	other_3	def-np.poss	?OLD	
 and				
 assistants	other_4	indef-np.bare		
 .			
 
-# text = I had often suffered under it, but never more sothan during that long drive in the darkness.
+# text = I had often suffered under it, but never more so than during that long drive in the darkness.
 I	SBJ	pron.pper	?OLD	
 had				
 often				
@@ -107,24 +113,26 @@ it	other	pron.pper	?OLD
 but				
 never				
 more				
-sothan				
+so				
+than				
 during				
 that				
 long				
-drive	other_2	def-np.dem	?OLD	
+drive	other	def-np.dem	?OLD	
 in				
 the				
-darkness	other_3	def-np.the	?OLD	
+darkness	other_2	def-np.the	?OLD	
 .			
 
-# text = The great ordeal was in front ofus; at last we were about to make our final effort, and yet Holmes had saidnothing, and I could only surmise what his course of action would be.
+# text = The great ordeal was in front of us; at last we were about to make our final effort, and yet Holmes had said nothing, and I could only surmise what his course of action would be.
 The				
 great				
 ordeal	SBJ	def-np.the	?OLD	
 was				
 in				
-front				
-ofus	other	indef-np.bare		
+front	other	def-np.poss	?OLD	
+of				
+us	other	pron.pper	?OLD	
 ;				
 at				
 last				
@@ -139,27 +147,29 @@ effort	OBJ_2	def-np.poss	?OLD
 ,				
 and				
 yet				
-Holmes				
+Holmes	SBJ_2	indef-np.bare		
 had				
-saidnothing	OBJ_2	indef-np.bare		
+said				
+nothing	OBJ_2	pron	?OLD	
 ,				
 and				
-I	SBJ_2	pron.pper	?OLD	
+I	SBJ_4	pron.pper	?OLD	
 could				
 only				
 surmise				
-what	OBJ_2	pron.pint		
-his	other_5	pron.ppos	?OLD	
-course	SBJ_4	def-np.poss	?OLD	
+what	OBJ_4	pron.pint		
+his	other_7	pron.ppos	?OLD	
+course	SBJ_6	def-np.poss	?OLD	
 of				
-action	other_5	indef-np.bare		
+action	other_7	indef-np.bare		
 would				
 be				
 .			
 
-# text = My nervesthrilled with anticipation when at last the cold wind upon our faces and thedark, void spaces on either side of the narrow road told me that we were backupon the moor once again.
-My	SBJ	pron.pper	?OLD	
-nervesthrilled				
+# text = My nerves thrilled with anticipation when at last the cold wind upon our faces and the dark, void spaces on either side of the narrow road told me that we were back upon the moor once again.
+My	other_2	pron.ppos	?OLD	
+nerves	SBJ	def-np.poss	?OLD	
+thrilled				
 with				
 anticipation	other	indef-np.bare		
 when				
@@ -167,35 +177,37 @@ at
 last				
 the				
 cold				
-wind	other_3	def-np.the	?OLD	
+wind	other_2	def-np.the	?OLD	
 upon				
-our	other_5	pron.ppos	?OLD	
-faces	other_4	def-np.poss	?OLD	
+our	other_4	pron.ppos	?OLD	
+faces	other_3	def-np.poss	?OLD	
 and				
-thedark	other_5	indef-np.bare		
+the				
+dark				
 ,				
 void				
-spaces	SBJ_2	indef-np.bare		
+spaces	other_4	def-np.the	?OLD	
 on				
 either				
-side	other_3	indef-np		
+side	other_5	indef-np		
 of				
 the				
 narrow				
-road	other_4	def-np.the	?OLD	
+road	other_6	def-np.the	?OLD	
 told				
 me	OBJ_2	pron.pper	?OLD	
 that				
 we	SBJ_3	pron.pper	?OLD	
 were				
-backupon				
+back				
+upon				
 the				
 moor	other_2	def-np.the	?OLD	
 once				
 again				
 .			
 
-# text = Every stride of the horses and every turn of thewheels was taking us nearer to our supreme adventure.
+# text = Every stride of the horses and every turn of the wheels was taking us nearer to our supreme adventure.
 Every				
 stride	other	indef-np		
 of				
@@ -205,7 +217,8 @@ and
 every				
 turn	SBJ_2	indef-np		
 of				
-thewheels	other_3	indef-np.bare		
+the				
+wheels	other_3	def-np.the	?OLD	
 was				
 taking				
 us	OBJ_2	pron.pper	?OLD	
@@ -216,7 +229,7 @@ supreme
 adventure	other_3	def-np.poss	?OLD	
 .			
 
-# text = Our conversation was hampered by the presence of the driver of the hiredwagonette, so that we were forced to talk of trivial matters when our nerveswere tense with emotion and anticipation.
+# text = Our conversation was hampered by the presence of the driver of the hired wagonette, so that we were forced to talk of trivial matters when our nerves were tense with emotion and anticipation.
 Our	other_2	pron.ppos	?OLD	
 conversation	SBJ	def-np.poss	?OLD	
 was				
@@ -229,7 +242,8 @@ the
 driver	other_2	def-np.the	?OLD	
 of				
 the				
-hiredwagonette	other_3	def-np.the	?OLD	
+hired				
+wagonette	other_3	def-np.the	?OLD	
 ,				
 so				
 that				
@@ -242,8 +256,9 @@ of
 trivial				
 matters	other_3	indef-np.bare		
 when				
-our	SBJ_4	pron.pper	?OLD	
-nerveswere				
+our	other_5	pron.ppos	?OLD	
+nerves	SBJ_4	def-np.poss	?OLD	
+were				
 tense				
 with				
 emotion	other_4	indef-np.bare		
@@ -251,7 +266,7 @@ and
 anticipation	other_5	indef-np.bare		
 .			
 
-# text = It was a relief to me, after thatunnatural restraint, when we at last passed Frankland's house and knew that wewere drawing near to the Hall and to the scene of action.
+# text = It was a relief to me, after that unnatural restraint, when we at last passed Frankland's house and knew that we were drawing near to the Hall and to the scene of action.
 It	SBJ	pron.pper	?OLD	
 was				
 a				
@@ -260,8 +275,9 @@ to
 me	other	pron.pper	?OLD	
 ,				
 after				
-thatunnatural				
-restraint	other	indef-np.bare		
+that				
+unnatural				
+restraint	other	def-np.dem	?OLD	
 ,				
 when				
 we	SBJ_2	pron.pper	?OLD	
@@ -274,7 +290,8 @@ house	OBJ_2	def-np.poss	?OLD
 and				
 knew				
 that				
-wewere				
+we	SBJ_4	pron.pper	?OLD	
+were				
 drawing				
 near				
 to				
@@ -288,12 +305,13 @@ of
 action	other_5	indef-np.bare		
 .			
 
-# text = We did not drive upto the door but got down near the gate of the avenue.
+# text = We did not drive up to the door but got down near the gate of the avenue.
 We	SBJ	pron.pper	?OLD	
 did				
 not				
 drive				
-upto				
+up				
+to				
 the				
 door	other	def-np.the	?OLD	
 but				
@@ -307,11 +325,12 @@ the
 avenue	other_3	def-np.the	?OLD	
 .			
 
-# text = The wagonette was paidoff and ordered to return to Coombe Tracey forthwith, while we started to walkto Merripit House.
+# text = The wagonette was paid off and ordered to return to Coombe Tracey forthwith, while we started to walk to Merripit House.
 The				
 wagonette	SBJ	def-np.the	?OLD	
 was				
-paidoff	other	indef-np.bare		
+paid				
+off				
 and				
 ordered				
 to				
@@ -325,9 +344,10 @@ while
 we	SBJ_2	pron.pper	?OLD	
 started				
 to				
-walkto				
+walk				
+to				
 Merripit				
-House	OBJ_3	ne	?OLD	
+House	other_3	ne	?OLD	
 .			
 
 --
@@ -349,7 +369,7 @@ smiled
 .			
 
 --
-# text = \"As long as I have my trousers I have a hip-pocket, and as long as I have myhip-pocket I have something in it.\"
+# text = \"As long as I have my trousers I have a hip-pocket, and as long as I have my hip-pocket I have something in it.\"
 &quot;				
 As				
 long				
@@ -371,7 +391,8 @@ long
 as				
 I	SBJ_7	pron.pper	?OLD	
 have				
-myhip				
+my	other_9	pron.ppos	?OLD	
+hip				
 _				
 pocket	OBJ_7	indef-np.bare		
 I	SBJ_9	pron.pper	?OLD	
@@ -437,7 +458,7 @@ game	other	indef-np.a
 &quot;			
 
 --
-# text = \"My word, it does not seem a very cheerful place,\" said the detective with ashiver, glancing round him at the gloomy slopes of the hill and at the hugelake of fog which lay over the Grimpen Mire.
+# text = "My word, it does not seem a very cheerful place," said the detective with a shiver, glancing round him at the gloomy slopes of the hill and at the huge lake of fog which lay over the Grimpen Mire.
 &quot;				
 My	other_3	pron.ppos	?OLD	
 word	SBJ_2	def-np.poss	?OLD	
@@ -456,7 +477,8 @@ said
 the				
 detective	SBJ	def-np.the	?OLD	
 with				
-ashiver	other_2	indef-np.bare		
+a				
+shiver	other_2	indef-np.a		
 ,				
 glancing				
 round				
@@ -471,7 +493,8 @@ hill	other_4	ne	?OLD
 and				
 at				
 the				
-hugelake	other_3	def-np.the	?OLD	
+huge				
+lake	other_3	def-np.the	?OLD	
 of				
 fog	other_4	indef-np.bare		
 which	SBJ_5			
@@ -483,7 +506,7 @@ Mire	other_5	ne	?OLD
 .			
 
 --
-# text = \"I see the lights of a house aheadof us.\"
+# text = \"I see the lights of a house ahead of us.\"
 &quot;				
 I	SBJ	pron.pper	?OLD	
 see				
@@ -491,9 +514,10 @@ the
 lights	OBJ	def-np.the	?OLD	
 of				
 a				
-house	other_2	indef-np.a		
-aheadof				
-us	other	pron.pper	?OLD	
+house	other_2	def-np.poss	?OLD	
+ahead				
+of				
+us	other_3	pron.pper	?OLD	
 .				
 &quot;			
 
@@ -513,14 +537,15 @@ journey	other_2	def-np.poss	?OLD
 .			
 
 --
-# text = I must request you to walkon tiptoe and not to talk above a whisper."
+# text = I must request you to walk on tiptoe and not to talk above a whisper.\"
 I	SBJ	pron.pper	?OLD	
 must				
 request				
 you	OBJ	pron.pper	?OLD	
 to				
-walkon				
-tiptoe	OBJ_2	indef-np.bare		
+walk				
+on				
+tiptoe	other_2	indef-np.bare		
 and				
 not				
 to				
@@ -531,7 +556,7 @@ whisper	other_4	indef-np.a
 .				
 &quot;			
 
-# text = We moved cautiously along the track as if we were bound for the house, butHolmes halted us when we were about two hundred yards from it.
+# text = We moved cautiously along the track as if we were bound for the house, but Holmes halted us when we were about two hundred yards from it.
 We	SBJ	pron.pper	?OLD	
 moved				
 cautiously				
@@ -540,14 +565,15 @@ the
 track	other	def-np.the	?OLD	
 as				
 if				
-we	SBJ_3	pron.pper	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 were				
 bound				
 for				
 the				
-house	other_3	def-np.the	?OLD	
+house	other_2	def-np.the	?OLD	
 ,				
-butHolmes	SBJ_2	ne	?OLD	
+but				
+Holmes	SBJ_2	ne	?OLD	
 halted				
 us	OBJ_2	pron.pper	?OLD	
 when				
@@ -622,8 +648,9 @@ hollow	other	def-np.dem	?OLD
 Lestrade	other_2	ne	?OLD	
 .			
 
-# text = Youhave been inside the house, have you not, Watson?
-Youhave				
+# text = You have been inside the house, have you not, Watson?
+You	SBJ	pron.pper	?OLD	
+have				
 been				
 inside				
 the				
@@ -636,14 +663,15 @@ not
 Watson	other	ne	?OLD	
 ?			
 
-# text = Can you tell the position ofthe rooms?
+# text = Can you tell the position of the rooms?
 Can				
 you	SBJ	pron.pper	?OLD	
 tell				
 the				
-position				
-ofthe				
-rooms	OBJ	def-np.the	?OLD	
+position	OBJ	def-np.the	?OLD	
+of				
+the				
+rooms	other_2	def-np.the	?OLD	
 ?			
 
 --
@@ -721,10 +749,11 @@ best
 .			
 
 --
-# text = Creep forward quietlyand see what they are doing—but for heaven's sake don't let them know that theyare watched!\"
+# text = Creep forward quietly and see what they are doing—but for heaven's sake don't let them know that they are watched!"
 Creep				
 forward				
-quietlyand				
+quietly				
+and				
 see				
 what	OBJ_3	pron.pint		
 they	SBJ_3	pron.pper	?OLD	
@@ -741,12 +770,13 @@ let
 them	OBJ_4	pron.pper	?OLD	
 know				
 that				
-theyare				
+they	SBJ_6	pron.pper	?OLD	
+are				
 watched				
 !				
 &quot;			
 
-# text = I tiptoed down the path and stooped behind the low wall which surrounded thestunted orchard.
+# text = I tiptoed down the path and stooped behind the low wall which surrounded the stunted orchard.
 I	SBJ	pron.pper	?OLD	
 tiptoed				
 down				
@@ -760,11 +790,12 @@ low
 wall	other_2	def-np.the	?OLD	
 which	SBJ_4			
 surrounded				
-thestunted				
-orchard	OBJ_4	indef-np.bare		
+the				
+stunted				
+orchard	OBJ_4	def-np.the	?OLD	
 .			
 
-# text = Creeping in its shadow I reached a point whence I could lookstraight through the uncurtained window.
+# text = Creeping in its shadow I reached a point whence I could look straight through the uncurtained window.
 Creeping				
 in				
 it	SBJ_2	pron.pper	?OLD	
@@ -777,7 +808,8 @@ point
 whence	OBJ_3	indef-np.a		
 I	SBJ_5	pron.pper	?OLD	
 could				
-lookstraight				
+look				
+straight				
 through				
 the				
 uncurtained				
@@ -800,11 +832,12 @@ and
 Stapleton	other_2	ne	?OLD	
 .			
 
-# text = They sat withtheir profiles towards me on either side of the round table.
+# text = They sat with their profiles towards me on either side of the round table.
 They	SBJ	pron.pper	?OLD	
 sat				
-withtheir	other_2	pron.ppos	?OLD	
-profiles	OBJ	def-np.poss	?OLD	
+with				
+their	other_3	pron.ppos	?OLD	
+profiles	other_2	def-np.poss	?OLD	
 towards				
 me	other	pron.pper	?OLD	
 on				
@@ -816,12 +849,13 @@ round
 table	other_2	def-np.the	?OLD	
 .			
 
-# text = Both of them weresmoking cigars, and coffee and wine were in front of them.
+# text = Both of them were smoking cigars, and coffee and wine were in front of them.
 Both	SBJ	def-np.poss	?OLD	
 of				
 them	other_2	pron.pper	?OLD	
-weresmoking				
-cigars	other	def-np.quant	?OLD	
+were				
+smoking				
+cigars	OBJ	indef-np.bare		
 ,				
 and				
 coffee	SBJ_2	indef-np.bare		
@@ -834,9 +868,10 @@ of
 them	other_2	pron.pper	?OLD	
 .			
 
-# text = Stapleton wastalking with animation, but the baronet looked pale and distrait.
+# text = Stapleton was talking with animation, but the baronet looked pale and distrait.
 Stapleton	SBJ	ne	?OLD	
-wastalking				
+was				
+talking				
 with				
 animation	other	indef-np.bare		
 ,				
@@ -849,13 +884,14 @@ and
 distrait	other_3	indef-np.bare		
 .			
 
-# text = Perhaps thethought of that lonely walk across the ill-omened moor was weighing heavilyupon his mind.
+# text = Perhaps the thought of that lonely walk across the ill-omened moor was weighing heavily upon his mind.
 Perhaps				
-thethought				
+the				
+thought	SBJ	def-np.poss	?OLD	
 of				
 that				
 lonely				
-walk	other	def-np.dem	?OLD	
+walk	other_2	def-np.dem	?OLD	
 across				
 the				
 ill				
@@ -864,12 +900,13 @@ omened
 moor	other_2	def-np.the	?OLD	
 was				
 weighing				
-heavilyupon				
-his	other_3	pron.ppos	?OLD	
-mind	other_2	def-np.poss	?OLD	
+heavily				
+upon				
+his	other_2	pron.ppos	?OLD	
+mind	other	def-np.poss	?OLD	
 .			
 
-# text = As I watched them Stapleton rose and left the room, while Sir Henry filled hisglass again and leaned back in his chair, puffing at his cigar.
+# text = As I watched them Stapleton rose and left the room, while Sir Henry filled his glass again and leaned back in his chair, puffing at his cigar.
 As				
 I	SBJ	pron.pper	?OLD	
 watched				
@@ -885,7 +922,8 @@ while
 Sir	SBJ_2	ne	?OLD	
 Henry				
 filled				
-hisglass	OBJ_2	indef-np.bare		
+his	other_3	pron.ppos	?OLD	
+glass	OBJ_2	def-np.poss	?OLD	
 again				
 and				
 leaned				
@@ -900,10 +938,11 @@ his	other_4	pron.ppos	?OLD
 cigar	other_3	def-np.poss	?OLD	
 .			
 
-# text = I heard thecreak of a door and the crisp sound of boots upon gravel.
+# text = I heard the creak of a door and the crisp sound of boots upon gravel.
 I	SBJ	pron.pper	?OLD	
 heard				
-thecreak	OBJ	indef-np.bare		
+the				
+creak	OBJ	def-np.the	?OLD	
 of				
 a				
 door	other_2	indef-np.a		
@@ -917,27 +956,29 @@ upon
 gravel	other_4	indef-np.bare		
 .			
 
-# text = The steps passedalong the path on the other side of the wall under which I crouched.
+# text = The steps passed along the path on the other side of the wall under which I crouched.
 The				
-steps	other	def-np.the	?OLD	
-passedalong				
+steps	SBJ	def-np.the	?OLD	
+passed				
+along				
 the				
-path	OBJ_2	def-np.the	?OLD	
+path	other	def-np.the	?OLD	
 on				
 the				
 other				
-side	other	def-np.the.other	?OLD	
+side	other_2	def-np.the.other	?OLD	
 of				
 the				
-wall	other_2	def-np.the	?OLD	
+wall	other_3	def-np.the	?OLD	
 under				
 which				
 I	SBJ_2	pron.pper	?OLD	
 crouched				
 .			
 
-# text = Lookingover, I saw the naturalist pause at the door of an out-house in the corner ofthe orchard.
-Lookingover				
+# text = Looking over, I saw the naturalist pause at the door of an out-house in the corner of the orchard.
+Looking				
+over				
 ,				
 I	SBJ	pron.pper	?OLD	
 saw				
@@ -955,11 +996,12 @@ house	other_2	indef-np.a
 in				
 the				
 corner	other_3	def-np.the	?OLD	
-ofthe				
-orchard	other_3	def-np	?OLD	
+of				
+the				
+orchard	other_4	def-np.the	?OLD	
 .			
 
-# text = A key turned in a lock, and as he passed in there was a curiousscuffling noise from within.
+# text = A key turned in a lock, and as he passed in there was a curious scuffling noise from within.
 A				
 key	SBJ	indef-np.a		
 turned				
@@ -975,13 +1017,14 @@ in
 there				
 was				
 a				
-curiousscuffling				
+curious				
+scuffling				
 noise	other	indef-np.a		
 from				
-within	other_2	indef-np.bare		
+within	other	indef-np.bare		
 .			
 
-# text = He was only a minute or so inside, and then Iheard the key turn once more and he passed me and re-entered the house.
+# text = He was only a minute or so inside, and then I heard the key turn once more and he passed me and re-entered the house.
 He	SBJ	pron.pper	?OLD	
 was				
 only				
@@ -993,7 +1036,8 @@ inside
 ,				
 and				
 then				
-Iheard				
+I	SBJ_2	pron.pper	?OLD	
+heard				
 the				
 key				
 turn	OBJ_2	def-np.the	?OLD	
@@ -1009,9 +1053,10 @@ the
 house	OBJ_3	def-np.the	?OLD	
 .			
 
-# text = I sawhim rejoin his guest, and I crept quietly back to where my companions werewaiting to tell them what I had seen.
+# text = I saw him rejoin his guest, and I crept quietly back to where my companions were waiting to tell them what I had seen.
 I	SBJ	pron.pper	?OLD	
-sawhim				
+saw				
+him	OBJ	pron.pper	?OLD	
 rejoin				
 his	other_2	pron.ppos	?OLD	
 guest	other	def-np.poss	?OLD	
@@ -1022,15 +1067,16 @@ crept
 quietly				
 back				
 to				
-where	other_2	pron.pint		
-my	other_4	pron.ppos	?OLD	
-companions	SBJ_3	def-np.poss	?OLD	
-werewaiting				
+where				
+my	other_5	pron.ppos	?OLD	
+companions	SBJ_4	def-np.poss	?OLD	
+were				
+waiting				
 to				
 tell				
-them	OBJ_6	pron.pper	?OLD	
-what	OBJ_7	pron.pint		
-I	SBJ_7	pron.pper	?OLD	
+them	OBJ_5	pron.pper	?OLD	
+what	OBJ_6	pron.pint		
+I	SBJ_6	pron.pper	?OLD	
 had				
 seen				
 .			
@@ -1052,19 +1098,20 @@ there	other_2	pron.padv	?OLD
 ?				
 &quot;			
 
-# text = Holmes asked, when I hadfinished my report.
+# text = Holmes asked, when I had finished my report.
 Holmes	SBJ	indef-np.bare		
 asked				
 ,				
 when				
 I	SBJ_2	pron.pper	?OLD	
-hadfinished				
+had				
+finished				
 my	other_3	pron.ppos	?OLD	
 report	OBJ_2	def-np.poss	?OLD	
 .			
 
 --
-# text = \"No.\" \"Where can she be, then, since there is no light in any other room except thekitchen?\"
+# text = \"No.\" \"Where can she be, then, since there is no light in any other room except the kitchen?\"
 &quot;				
 No				
 .				
@@ -1087,7 +1134,8 @@ any
 other				
 room	other_3	indef-np.a		
 except				
-thekitchen				
+the				
+kitchen	other_4	def-np.the	?OLD	
 ?				
 &quot;			
 
@@ -1104,7 +1152,7 @@ is
 .				
 &quot;			
 
-# text = I have said that over the great Grimpen
+# text = I have said that over the great Grimpen Mire there hung a dense, white fog.
 I	SBJ	pron.pper	?OLD	
 have				
 said				
@@ -1112,21 +1160,20 @@ that
 over				
 the				
 great				
-Grimpen	other	ne	?OLD
-
-# text = Mire there hung a dense, white fog.
-Mire	SBJ	ne	?OLD	
+Grimpen				
+Mire	SBJ_2	ne	?OLD	
 there				
 hung				
 a				
-dense	OBJ	indef-np.a		
+dense	OBJ_2	indef-np.a		
 ,				
 white				
-fog	other_2	indef-np.bare		
+fog	other_3	indef-np.bare		
 .			
 
-# text = Itwas drifting slowly in our direction, and banked itself up like a wall on thatside of us, low, but thick and well defined.
-Itwas				
+# text = It was drifting slowly in our direction, and banked itself up like a wall on that side of us, low, but thick and well defined.
+It	SBJ	pron.pper	?OLD	
+was				
 drifting				
 slowly				
 in				
@@ -1141,7 +1188,8 @@ like
 a				
 wall	other_2	indef-np.a		
 on				
-thatside	other_3	def-np.poss	?OLD	
+that				
+side	other_3	def-np.dem	?OLD	
 of				
 us	other_4	pron.pper	?OLD	
 ,				
@@ -1154,38 +1202,40 @@ well
 defined				
 .			
 
-# text = The moon shone on it, and itlooked like a great shimmering ice-field, with the heads of the distant tors asrocks borne upon its surface.
+# text = The moon shone on it, and it looked like a great shimmering ice-field, with the heads of the distant tors as rocks borne upon its surface.
 The				
 moon				
-shone	SBJ	def-np.the	?OLD	
+shone	other	def-np.the	?OLD	
 on				
-it	other_2	pron.pper	?OLD	
+it	other	pron.pper	?OLD	
 ,				
 and				
-itlooked				
+it	SBJ_2	pron.pper	?OLD	
+looked				
 like				
 a				
 great				
 shimmering				
 ice				
 _				
-field	other_3	indef-np.a		
+field	other_2	indef-np.a		
 ,				
 with				
 the				
-heads	other_4	def-np.the	?OLD	
+heads	other	def-np.the	?OLD	
 of				
 the				
 distant				
-tors				
-asrocks	other_5	def-np.the	?OLD	
+tors	other_2	def-np.the	?OLD	
+as				
+rocks	other	indef-np.bare		
 borne				
 upon				
-its	other_2	pron.ppos	?OLD	
-surface	other	def-np.poss	?OLD	
+its	other_4	pron.ppos	?OLD	
+surface	other_3	def-np.poss	?OLD	
 .			
 
-# text = Holmes's face was turned towards it, and hemuttered impatiently as he watched its sluggish drift.
+# text = Holmes's face was turned towards it, and he muttered impatiently as he watched its sluggish drift.
 Holmes	other_2	ne	?OLD	
 's				
 face	SBJ	def-np.poss	?OLD	
@@ -1195,7 +1245,8 @@ towards
 it	other	pron.pper	?OLD	
 ,				
 and				
-hemuttered				
+he	SBJ_2	pron.pper	?OLD	
+muttered				
 impatiently				
 as				
 he	SBJ_3	pron.pper	?OLD	
@@ -1228,7 +1279,7 @@ serious
 &quot;			
 
 --
-# text = "Very serious, indeed—the one thing upon earth which could have disarranged myplans.
+# text = "Very serious, indeed—the one thing upon earth which could have disarranged my plans.
 &quot;				
 Very				
 serious				
@@ -1243,7 +1294,8 @@ which	SBJ_2
 could				
 have				
 disarranged				
-myplans	OBJ_2	indef-np.bare		
+my	other_3	pron.ppos	?OLD	
+plans	OBJ_2	def-np.poss	?OLD	
 .			
 
 # text = He can't be very long, now.
@@ -1266,21 +1318,22 @@ o'clock	other	indef-np.quant
 .			
 
 --
-# text = Our success andeven his life may depend upon his coming out before the fog is over the path.\"
+# text = Our success and even his life may depend upon his coming out before the fog is over the path."
 Our	other_2	pron.ppos	?OLD	
 success	SBJ	def-np.poss	?OLD	
-andeven				
+and				
+even				
 his	other_4	pron.ppos	?OLD	
-life	OBJ_3	def-np.poss	?OLD	
+life	SBJ_3	def-np.poss	?OLD	
 may				
 depend				
 upon				
-his	SBJ_3	pron.pper	?OLD	
+his	SBJ_4	pron.pper	?OLD	
 coming				
 out				
 before				
 the				
-fog	other_3	def-np.the	?OLD	
+fog	other_4	def-np.the	?OLD	
 is				
 over				
 the				
@@ -1299,7 +1352,7 @@ above
 us	other_2	pron.pper	?OLD	
 .			
 
-# text = The stars shone cold and bright, while ahalf-moon bathed the whole scene in a soft, uncertain light.
+# text = The stars shone cold and bright, while a half-moon bathed the whole scene in a soft, uncertain light.
 The				
 stars				
 shone	other	def-np.the	?OLD	
@@ -1308,9 +1361,10 @@ and
 bright				
 ,				
 while				
-ahalf				
+a				
+half				
 _				
-moon	SBJ_2	indef-np.bare		
+moon	SBJ_2	indef-np.a		
 bathed				
 the				
 whole				
@@ -1323,12 +1377,13 @@ uncertain
 light	other_2	indef-np.a		
 .			
 
-# text = Before us lay thedark bulk of the house, its serrated roof and bristling chimneys hard outlinedagainst the silver-spangled sky.
+# text = Before us lay the dark bulk of the house, its serrated roof and bristling chimneys hard outlined against the silver-spangled sky.
 Before				
 us	SBJ_2	pron.pper	?OLD	
 lay				
-thedark				
-bulk	OBJ_2	indef-np.bare		
+the				
+dark				
+bulk	OBJ_2	def-np.the	?OLD	
 of				
 the				
 house	other_3	def-np.the	?OLD	
@@ -1341,38 +1396,41 @@ and
 bristling				
 chimneys	other	indef-np.bare		
 hard				
-outlinedagainst				
+outlined				
+against				
 the				
-silver	other_4	indef-np.bare		
+silver	other_5	indef-np.bare		
 _				
 spangled				
-sky	other_2	def-np.the	?OLD	
+sky	other_3	def-np.the	?OLD	
 .			
 
-# text = Broad bars of golden light from the lowerwindows stretched across the orchard and the moor.
+# text = Broad bars of golden light from the lower windows stretched across the orchard and the moor.
 Broad				
-bars	SBJ	indef-np.bare		
+bars	other	indef-np.bare		
 of				
 golden				
-light	other_2	indef-np.bare		
+light	other	indef-np.bare		
 from				
 the				
-lowerwindows	other_2	def-np.the	?OLD	
+lower				
+windows	other	def-np.the	?OLD	
 stretched				
 across				
 the				
-orchard	other	def-np.the	?OLD	
+orchard	other_3	def-np.the	?OLD	
 and				
 the				
 moor	other	def-np.the	?OLD	
 .			
 
-# text = One of them was suddenlyshut off.
+# text = One of them was suddenly shut off.
 One	SBJ	def-np.poss	?OLD	
 of				
 them	other_2	pron.pper	?OLD	
 was				
-suddenlyshut				
+suddenly				
+shut				
 off				
 .			
 
@@ -1385,81 +1443,86 @@ the
 kitchen	OBJ	def-np.the	?OLD	
 .			
 
-# text = There only remained the lamp inthe dining-room where the two men, the murderous host and the unconsciousguest, still chatted over their cigars.
+# text = There only remained the lamp in the dining-room where the two men, the murderous host and the unconscious guest, still chatted over their cigars.
 There				
 only				
 remained				
 the				
 lamp	OBJ	def-np.the	?OLD	
-inthe				
+in				
+the				
 dining				
 _				
-room	other_2	def-np	?OLD	
+room	other	def-np.the	?OLD	
 where				
 the				
 two				
-men	SBJ_4	def-np.quant	?OLD	
+men	SBJ_3	def-np.quant	?OLD	
 ,				
 the				
 murderous				
-host	other_5	def-np.the	?OLD	
+host	other_4	def-np.the	?OLD	
 and				
 the				
-unconsciousguest				
+unconscious				
+guest	other_5	def-np.the	?OLD	
 ,				
 still				
 chatted				
 over				
-their	other_5	pron.ppos	?OLD	
-cigars	other_4	def-np.poss	?OLD	
+their	other_4	pron.ppos	?OLD	
+cigars	other_3	def-np.poss	?OLD	
 .			
 
-# text = Every minute that white woolly plain which covered one half of the moor wasdrifting closer and closer to the house.
+# text = Every minute that white woolly plain which covered one half of the moor was drifting closer and closer to the house.
 Every				
 minute	other	indef-np		
 that				
 white				
 woolly				
-plain	other	indef-np.bare		
-which	SBJ_3			
+plain	SBJ_2	indef-np.bare		
+which	SBJ_4			
 covered				
 one				
-half	OBJ_3	indef-np.quant		
+half	OBJ_4	indef-np.quant		
 of				
 the				
-moor	other_4	def-np.the	?OLD	
-wasdrifting				
+moor	other_5	def-np.the	?OLD	
+was				
+drifting				
 closer				
 and				
 closer				
 to				
 the				
-house	other_6	def-np.the	?OLD	
+house	other_2	def-np.the	?OLD	
 .			
 
-# text = Already the first thin wisps of itwere curling across the golden square of the lighted window.
+# text = Already the first thin wisps of it were curling across the golden square of the lighted window.
 Already				
 the				
 first				
 thin				
-wisps	other	def-np.the	?OLD	
+wisps	SBJ	def-np.poss	?OLD	
 of				
-itwere	other	indef-np.bare		
+it	other_2	pron.pper	?OLD	
+were				
 curling				
 across				
 the				
 golden				
-square	other_2	def-np.the	?OLD	
+square	other	def-np.the	?OLD	
 of				
 the				
 lighted				
-window	other_3	def-np.the	?OLD	
+window	other_2	def-np.the	?OLD	
 .			
 
-# text = The farther wallof the orchard was already invisible, and the trees were standing out of aswirl of white vapour.
+# text = The farther wall of the orchard was already invisible, and the trees were standing out of a swirl of white vapour.
 The				
-farther	SBJ	def-np.the	?OLD	
-wallof				
+farther				
+wall	SBJ	def-np.the	?OLD	
+of				
 the				
 orchard	other_2	def-np.the	?OLD	
 was				
@@ -1473,40 +1536,43 @@ were
 standing				
 out				
 of				
-aswirl	other_2	indef-np.bare		
+a				
+swirl	other_2	indef-np.a		
 of				
 white				
 vapour	other_3	indef-np.bare		
 .			
 
-# text = As we watched it the fog-wreaths came crawling roundboth corners of the house and rolled slowly into one dense bank, on which theupper floor and the roof floated like a strange ship upon a shadowy sea.
+# text = As we watched it the fog-wreaths came crawling round both corners of the house and rolled slowly into one dense bank, on which the upper floor and the roof floated like a strange ship upon a shadowy sea.
 As				
-we	SBJ	pron.pper	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 watched				
-it	OBJ	pron.pper	?OLD	
+it	OBJ_2	pron.pper	?OLD	
 the				
 fog				
 _				
-wreaths	SBJ_2	def-np.the	?OLD	
+wreaths	SBJ	def-np.the	?OLD	
 came				
 crawling				
-roundboth				
-corners	OBJ_3	indef-np		
+round				
+both				
+corners	other_2	def-np.quant	?OLD	
 of				
 the				
-house	other_4	def-np.the	?OLD	
+house	other_3	def-np.the	?OLD	
 and				
 rolled				
 slowly				
 into				
 one				
 dense				
-bank	other_4	indef-np.quant		
+bank	other_3	indef-np.quant		
 ,				
 on				
-which	other_6	pron.pint		
-theupper				
-floor	other_5	indef-np		
+which				
+the				
+upper				
+floor	SBJ_5	def-np.the	?OLD	
 and				
 the				
 roof	other_6	def-np.the	?OLD	
@@ -1514,15 +1580,16 @@ floated
 like				
 a				
 strange				
-ship	other_2	indef-np.a		
+ship	other_5	indef-np.a		
 upon				
 a				
 shadowy				
-sea	other_2	indef-np.a		
+sea	other_5	indef-np.a		
 .			
 
-# text = Holmesstruck his hand passionately upon the rock in front of us and stamped his feetin his impatience.
-Holmesstruck				
+# text = Holmes struck his hand passionately upon the rock in front of us and stamped his feet in his impatience.
+Holmes				
+struck				
 his	other_2	pron.ppos	?OLD	
 hand	OBJ	def-np.poss	?OLD	
 passionately				
@@ -1536,9 +1603,10 @@ us	other_3	pron.pper	?OLD
 and				
 stamped				
 his	other_3	pron.ppos	?OLD	
-feetin				
+feet	OBJ_2	def-np.poss	?OLD	
+in				
 his	other_3	pron.ppos	?OLD	
-impatience	OBJ_2	def-np.poss	?OLD	
+impatience	other_2	def-np.poss	?OLD	
 .			
 
 --
@@ -1563,10 +1631,11 @@ covered
 .			
 
 --
-# text = In half anhour we won't be able to see our hands in front of us.\"
+# text = In half an hour we won't be able to see our hands in front of us."
 In				
 half				
-anhour	other	indef-np.bare		
+an				
+hour	other	indef-np.a		
 we	SBJ	pron.pper	?OLD	
 wo				
 n't				
@@ -1612,7 +1681,7 @@ well
 .				
 &quot;			
 
-# text = So as the fog-bank flowed onward we fell back before it until we were half amile from the house, and still that dense white sea, with the moon silveringits upper edge, swept slowly and inexorably on.
+# text = So as the fog-bank flowed onward we fell back before it until we were half a mile from the house, and still that dense white sea, with the moon silvering its upper edge, swept slowly and inexorably on.
 So				
 as				
 the				
@@ -1630,7 +1699,8 @@ until
 we	SBJ_3	pron.pper	?OLD	
 were				
 half				
-amile				
+a				
+mile	other_2	indef-np.a		
 from				
 the				
 house	other_3	def-np.the	?OLD	
@@ -1644,10 +1714,11 @@ sea	other_2	def-np.dem	?OLD
 ,				
 with				
 the				
-moon				
-silveringits				
+moon	SBJ_3	def-np.the	?OLD	
+silvering				
+its	other_4	pron.ppos	?OLD	
 upper				
-edge	other_2	indef-np.bare		
+edge	OBJ_3	def-np.poss	?OLD	
 ,				
 swept				
 slowly				
@@ -1671,26 +1742,27 @@ Holmes	SBJ	ne	?OLD
 .			
 
 --
-# text = \"We dare not take the chance of his beingovertaken before he can reach us.
+# text = "We dare not take the chance of his being overtaken before he can reach us.
 &quot;				
 We	SBJ	pron.pper	?OLD	
 dare				
 not				
 take				
 the				
-chance	OBJ_2	def-np.poss	?OLD	
+chance	OBJ_2	def-np.the	?OLD	
 of				
-his	other_4	pron.ppos	?OLD	
-beingovertaken	other_3	def-np.poss	?OLD	
+his	SBJ_4	pron.pper	?OLD	
+being				
+overtaken				
 before				
-he	SBJ_3	pron.pper	?OLD	
+he	SBJ_5	pron.pper	?OLD	
 can				
 reach				
-us	OBJ_3	pron.pper	?OLD	
+us	OBJ_5	pron.pper	?OLD	
 .			
 
 --
-# text = At all costs we must hold our ground where weare.\"
+# text = At all costs we must hold our ground where we are."
 At				
 all				
 costs	other	indef-np.a		
@@ -1700,7 +1772,8 @@ hold
 our	other_2	pron.ppos	?OLD	
 ground	OBJ	def-np.poss	?OLD	
 where				
-weare				
+we	SBJ_2	pron.pper	?OLD	
+are				
 .				
 &quot;			
 
@@ -1720,19 +1793,17 @@ ground	other_3	def-np.the	?OLD
 .			
 
 --
-# text = "Thank God,
+# text = \"Thank God, I think that I hear him coming.\"
 &quot;				
 Thank	other	indef-np.bare		
 God	other	ne	?OLD	
-,			
-
---
-# text = Ithink that I hear him coming.\"
-Ithink				
-that				
+,				
 I	SBJ_2	pron.pper	?OLD	
+think				
+that				
+I	SBJ_3	pron.pper	?OLD	
 hear				
-him	SBJ_3	pron.pper	?OLD	
+him	OBJ_3	pron.pper	?OLD	
 coming				
 .				
 &quot;			
@@ -1751,10 +1822,11 @@ the
 moor	other_2	def-np.the	?OLD	
 .			
 
-# text = Crouching among thestones we stared intently at the silver-tipped bank in front of us.
+# text = Crouching among the stones we stared intently at the silver-tipped bank in front of us.
 Crouching				
 among				
-thestones	other_2	indef-np.bare		
+the				
+stones	other_2	def-np.the	?OLD	
 we	SBJ	pron.pper	?OLD	
 stared				
 intently				
@@ -1770,31 +1842,33 @@ of
 us	other_2	pron.pper	?OLD	
 .			
 
-# text = The stepsgrew louder, and through the fog, as through a curtain, there stepped the manwhom we were awaiting.
+# text = The steps grew louder, and through the fog, as through a curtain, there stepped the man whom we were awaiting.
 The				
-stepsgrew				
-louder	SBJ	def-np.the	?OLD	
+steps	SBJ	def-np.the	?OLD	
+grew				
+louder	OBJ	indef-np.bare		
 ,				
 and				
 through				
 the				
-fog	other_2	def-np.the	?OLD	
+fog	other	def-np.the	?OLD	
 ,				
 as				
 through				
 a				
-curtain	other	indef-np.a		
+curtain	other_2	indef-np.a		
 ,				
 there				
 stepped				
 the				
-manwhom	OBJ	def-np.the	?OLD	
-we	SBJ_3	pron.pper	?OLD	
+man	OBJ_2	def-np.the	?OLD	
+whom	OBJ_4			
+we	SBJ_4	pron.pper	?OLD	
 were				
 awaiting				
 .			
 
-# text = He looked round him in surprise as he emerged into theclear, starlit night.
+# text = He looked round him in surprise as he emerged into the clear, starlit night.
 He	SBJ	pron.pper	?OLD	
 looked				
 round				
@@ -1805,13 +1879,14 @@ as
 he	SBJ_2	pron.pper	?OLD	
 emerged				
 into				
-theclear	other_2	indef-np.bare		
+the				
+clear				
 ,				
 starlit				
-night	other_3	indef-np.bare		
+night	other_2	def-np.the	?OLD	
 .			
 
-# text = Then he came swiftly along the path, passed close towhere we lay, and went on up the long slope behind us.
+# text = Then he came swiftly along the path, passed close to where we lay, and went on up the long slope behind us.
 Then				
 he	SBJ	pron.pper	?OLD	
 came				
@@ -1822,8 +1897,9 @@ path	other	def-np.the	?OLD
 ,				
 passed				
 close				
-towhere	OBJ_2	indef-np.bare		
-we	SBJ_2	pron.pper	?OLD	
+to				
+where	other_3	pron.pint		
+we	SBJ_5	pron.pper	?OLD	
 lay				
 ,				
 and				
@@ -1837,24 +1913,25 @@ behind
 us	other_3	pron.pper	?OLD	
 .			
 
-# text = As he walked he glancedcontinually over either shoulder, like a man who is ill at ease.
+# text = As he walked he glanced continually over either shoulder, like a man who is ill at ease.
 As				
 he	SBJ_2	pron.pper	?OLD	
 walked				
-he	SBJ_3	pron.pper	?OLD	
-glancedcontinually				
+he	SBJ	pron.pper	?OLD	
+glanced				
+continually				
 over				
 either				
-shoulder	other_2	indef-np.bare		
+shoulder	other	indef-np		
 ,				
 like				
 a				
-man	other_3	indef-np.a		
-who	SBJ_5			
+man	other_2	indef-np.a		
+who	SBJ_4			
 is				
 ill				
 at				
-ease	other_5	indef-np.bare		
+ease	other_4	indef-np.bare		
 .			
 
 --
@@ -1879,9 +1956,10 @@ pistol	other_3	indef-np.a
 .			
 
 --
-# text = "Lookout!
+# text = \"Look out!
 &quot;				
-Lookout	other	ne	?OLD	
+Look				
+out				
 !			
 
 --
@@ -1892,7 +1970,7 @@ coming
 !				
 &quot;			
 
-# text = There was a thin, crisp, continuous patter from somewhere in the heart of thatcrawling bank.
+# text = There was a thin, crisp, continuous patter from somewhere in the heart of that crawling bank.
 There				
 was				
 a				
@@ -1908,11 +1986,12 @@ in
 the				
 heart	other_2	def-np.the	?OLD	
 of				
-thatcrawling				
-bank	OBJ_4	indef-np.bare		
+that				
+crawling				
+bank	other_3	indef-np.bare		
 .			
 
-# text = The cloud was within fifty yards of where we lay, and we glaredat it, all three, uncertain what horror was about to break from the heart ofit.
+# text = The cloud was within fifty yards of where we lay, and we glared at it, all three, uncertain what horror was about to break from the heart of it.
 The				
 cloud	SBJ	def-np.the	?OLD	
 was				
@@ -1926,8 +2005,9 @@ lay
 ,				
 and				
 we	SBJ_2	pron.pper	?OLD	
-glaredat				
-it	OBJ_2	pron.pper	?OLD	
+glared				
+at				
+it	other_2	pron.pper	?OLD	
 ,				
 all				
 three				
@@ -1941,8 +2021,9 @@ to
 break				
 from				
 the				
-heart				
-ofit	other_4	def-np.the	?OLD	
+heart	other_4	def-np.poss	?OLD	
+of				
+it	other_5	pron.pper	?OLD	
 .			
 
 # text = I was at Holmes's elbow, and I glanced for an instant at his face.
@@ -1964,24 +2045,26 @@ his	other_4	pron.ppos	?OLD
 face	other_3	def-np.poss	?OLD	
 .			
 
-# text = It waspale and exultant, his eyes shining brightly in the moonlight.
+# text = It was pale and exultant, his eyes shining brightly in the moonlight.
 It	SBJ	pron.pper	?OLD	
-waspale				
+was				
+pale				
 and				
 exultant				
 ,				
 his	other_2	pron.ppos	?OLD	
-eyes	OBJ	def-np.poss	?OLD	
+eyes	other	def-np.poss	?OLD	
 shining				
 brightly				
 in				
 the				
-moonlight	other_2	def-np.the	?OLD	
+moonlight	other_3	def-np.the	?OLD	
 .			
 
-# text = But suddenlythey started forward in a rigid, fixed stare, and his lips parted in amazement.At
+# text = But suddenly they started forward in a rigid, fixed stare, and his lips parted in amazement.
 But				
-suddenlythey	SBJ	pron.pper	?OLD	
+suddenly				
+they	SBJ	pron.pper	?OLD	
 started				
 forward				
 in				
@@ -1989,20 +2072,22 @@ a
 rigid	other	indef-np.a		
 ,				
 fixed				
-stare	OBJ	indef-np.bare		
+stare	OBJ_2	indef-np.bare		
 ,				
 and				
 his	other_2	pron.ppos	?OLD	
 lips	other	def-np.poss	?OLD	
 parted				
 in				
-amazement.At	other_3	ne	?OLD
+amazement	other_3	indef-np.bare		
+.			
 
-# text = the same instant Lestrade gave a yell of terror and threw himself facedownward upon the ground.
+# text = At the same instant Lestrade gave a yell of terror and threw himself face downward upon the ground.
+At				
 the				
 same				
 instant				
-Lestrade	SBJ	ne	?OLD	
+Lestrade	other	ne	?OLD	
 gave				
 a				
 yell	OBJ	indef-np.a		
@@ -2011,13 +2096,14 @@ terror	other_2	indef-np.bare
 and				
 threw				
 himself				
-facedownward	OBJ_2	def-np.poss	?OLD	
+face	OBJ_2	def-np.poss	?OLD	
+downward				
 upon				
 the				
 ground	other_2	def-np.the	?OLD	
 .			
 
-# text = I sprang to my feet, my inert hand grasping mypistol, my mind paralyzed by the dreadful shape which had sprung out upon usfrom the shadows of the fog.
+# text = I sprang to my feet, my inert hand grasping my pistol, my mind paralyzed by the dreadful shape which had sprung out upon us from the shadows of the fog.
 I	SBJ	pron.pper	?OLD	
 sprang				
 to				
@@ -2028,29 +2114,31 @@ my	other_2	pron.ppos	?OLD
 inert				
 hand	OBJ	def-np.poss	?OLD	
 grasping				
-mypistol	OBJ_3	indef-np.bare		
+my	other_4	pron.ppos	?OLD	
+pistol	OBJ_3	def-np.poss	?OLD	
 ,				
-my	other_5	pron.ppos	?OLD	
-mind	other_4	def-np.poss	?OLD	
+my	other_4	pron.ppos	?OLD	
+mind	OBJ_3	def-np.poss	?OLD	
 paralyzed				
 by				
 the				
 dreadful				
-shape	other_6	def-np.the	?OLD	
-which	SBJ_8			
+shape	other_5	def-np.the	?OLD	
+which	SBJ_7			
 had				
 sprung				
 out				
 upon				
-usfrom				
+us	other_7	pron.pper	?OLD	
+from				
 the				
-shadows	other_8	def-np.the	?OLD	
+shadows	other_7	def-np.the	?OLD	
 of				
 the				
-fog	other_9	def-np.the	?OLD	
+fog	other_8	def-np.the	?OLD	
 .			
 
-# text = A hound it was, an enormous coal-black hound, butnot such a hound as mortal eyes have ever seen.
+# text = A hound it was, an enormous coal-black hound, but not such a hound as mortal eyes have ever seen.
 A				
 hound	SBJ	indef-np.a		
 it	SBJ_3	pron.pper	?OLD	
@@ -2076,7 +2164,7 @@ ever
 seen				
 .			
 
-# text = Fire burst from its open mouth,its eyes glowed with a smouldering glare, its muzzle and hackles and dewlapwere outlined in flickering flame.
+# text = Fire burst from its open mouth, its eyes glowed with a smouldering glare, its muzzle and hackles and dewlap were outlined in flickering flame.
 Fire				
 burst	OBJ	indef-np.bare		
 from				
@@ -2084,39 +2172,42 @@ its	other_2	pron.ppos	?OLD
 open				
 mouth	other	def-np.poss	?OLD	
 ,				
-its	other_2	pron.ppos	?OLD	
-eyes	OBJ	def-np.poss	?OLD	
+it	SBJ_2	pron.pper	?OLD	
+s				
+eyes	SBJ_2	indef-np.bare		
 glowed				
 with				
 a				
 smouldering				
-glare	other_3	indef-np.a		
+glare	other_2	indef-np.a		
 ,				
-its	other_2	pron.ppos	?OLD	
-muzzle	OBJ	def-np.poss	?OLD	
+its	other_3	pron.ppos	?OLD	
+muzzle	SBJ_2	def-np.poss	?OLD	
 and				
-hackles	other_2	indef-np.bare		
+hackles	other_3	indef-np.bare		
 and				
-dewlapwere				
+dewlap	other_3	indef-np.bare		
+were				
 outlined				
 in				
 flickering				
-flame	OBJ_3	indef-np.bare		
+flame	other_2	indef-np.bare		
 .			
 
-# text = Never in the delirious dream of a disorderedbrain could anything more savage, more appalling, more hellish be conceivedthan that dark form and savage face which broke upon us out of the wall of fog.
+# text = Never in the delirious dream of a disordered brain could anything more savage, more appalling, more hellish be conceived than that dark form and savage face which broke upon us out of the wall of fog.
 Never				
 in				
 the				
 delirious				
-dream	other_2	def-np.the	?OLD	
+dream	SBJ	def-np.the	?OLD	
 of				
 a				
-disorderedbrain	other_3	indef-np.a		
+disordered				
+brain	other_2	indef-np.a		
 could				
-anything	SBJ_2	pron	?OLD	
+anything	SBJ	pron	?OLD	
 more				
-savage	OBJ_3	indef-np.bare		
+savage	OBJ_2	indef-np.bare		
 ,				
 more				
 appalling				
@@ -2124,26 +2215,27 @@ appalling
 more				
 hellish				
 be				
-conceivedthan				
+conceived				
+than				
 that				
 dark				
-form	other	indef-np.bare		
+form	other	def-np.dem	?OLD	
 and				
 savage				
-face	other	indef-np.bare		
-which	SBJ_2			
+face	other_2	indef-np.bare		
+which	SBJ_4			
 broke				
 upon				
-us	other_2	pron.pper	?OLD	
+us	other_4	pron.pper	?OLD	
 out				
 of				
 the				
-wall	other_2	def-np.the	?OLD	
+wall	other_4	def-np.the	?OLD	
 of				
-fog	other_3	indef-np.bare		
+fog	other_5	indef-np.bare		
 .			
 
-# text = With long bounds the huge black creature was leaping down the track, followinghard upon the footsteps of our friend.
+# text = With long bounds the huge black creature was leaping down the track, following hard upon the footsteps of our friend.
 With				
 long				
 bounds	other	indef-np.bare		
@@ -2157,7 +2249,8 @@ down
 the				
 track	OBJ	def-np.the	?OLD	
 ,				
-followinghard				
+following				
+hard				
 upon				
 the				
 footsteps	other_2	def-np.poss	?OLD	
@@ -2166,14 +2259,15 @@ our	other_4	pron.ppos	?OLD
 friend	other_3	def-np.poss	?OLD	
 .			
 
-# text = So paralyzed were we by the apparitionthat we allowed him to pass before we had recovered our nerve.
+# text = So paralyzed were we by the apparition that we allowed him to pass before we had recovered our nerve.
 So				
 paralyzed				
 were				
 we	SBJ	pron.pper	?OLD	
 by				
 the				
-apparitionthat				
+apparition	other_2	def-np.the	?OLD	
+that	OBJ_4			
 we	SBJ_4	pron.pper	?OLD	
 allowed				
 him	OBJ_4	pron.pper	?OLD	
@@ -2187,10 +2281,11 @@ our	other_7	pron.ppos	?OLD
 nerve	OBJ_6	def-np.poss	?OLD	
 .			
 
-# text = Then Holmes andI both fired together, and the creature gave a hideous howl, which showed thatone at least had hit him.
+# text = Then Holmes and I both fired together, and the creature gave a hideous howl, which showed that one at least had hit him.
 Then				
-Holmes				
-andI	SBJ	ne	?OLD	
+Holmes	SBJ	ne	?OLD	
+and				
+I	other_2	pron.pper	?OLD	
 both				
 fired				
 together				
@@ -2205,7 +2300,8 @@ howl	OBJ_2	indef-np.a
 ,				
 which	SBJ_4			
 showed				
-thatone	OBJ_4			
+that				
+one	OBJ_4	def-np.dem	?OLD	
 at				
 least				
 had				
@@ -2226,26 +2322,28 @@ bounded
 onward				
 .			
 
-# text = Faraway on the path we saw Sir Henry looking back, his face white in themoonlight, his hands raised in horror, glaring helplessly at the frightfulthing which was hunting him down.
-Faraway				
+# text = Far away on the path we saw Sir Henry looking back, his face white in the moonlight, his hands raised in horror, glaring helplessly at the frightful thing which was hunting him down.
+Far				
+away				
 on				
 the				
-path	other	def-np.the	?OLD	
-we	SBJ_2	pron.pper	?OLD	
+path	other_2	def-np.the	?OLD	
+we	SBJ	pron.pper	?OLD	
 saw				
 Sir				
-Henry	OBJ_2	ne	?OLD	
+Henry	OBJ	ne	?OLD	
 looking				
 back				
 ,				
-his	other_3	pron.ppos	?OLD	
-face	OBJ_2	def-np.poss	?OLD	
+his	other_2	pron.ppos	?OLD	
+face	OBJ	def-np.poss	?OLD	
 white				
 in				
-themoonlight	other_3	indef-np.bare		
+the				
+moonlight	other_2	def-np.the	?OLD	
 ,				
 his	other_3	pron.ppos	?OLD	
-hands	OBJ_2	def-np.poss	?OLD	
+hands	other_2	def-np.poss	?OLD	
 raised				
 in				
 horror	other_4	indef-np.bare		
@@ -2254,7 +2352,8 @@ glaring
 helplessly				
 at				
 the				
-frightfulthing	other_5	def-np.the	?OLD	
+frightful				
+thing	other_5	def-np.the	?OLD	
 which	SBJ_7			
 was				
 hunting				
@@ -2281,9 +2380,10 @@ the
 winds	other	def-np.the	?OLD	
 .			
 
-# text = If hewas vulnerable he was mortal, and if we could wound him we could kill him.Never
+# text = If he was vulnerable he was mortal, and if we could wound him we could kill him.
 If				
-hewas	SBJ_2	indef-np.bare		
+he	SBJ_2	pron.pper	?OLD	
+was				
 vulnerable				
 he	SBJ	pron.pper	?OLD	
 was				
@@ -2298,9 +2398,11 @@ him	OBJ_3	pron.pper	?OLD
 we	SBJ_2	pron.pper	?OLD	
 could				
 kill				
-him.Never			
+him	OBJ_2	pron.pper	?OLD	
+.			
 
-# text = have I seen a man run as Holmes ran that night.
+# text = Never have I seen a man run as Holmes ran that night.
+Never				
 have				
 I	SBJ	pron.pper	?OLD	
 seen				
@@ -2308,18 +2410,19 @@ a
 man	OBJ	indef-np.a		
 run				
 as				
-Holmes	SBJ_4	ne	?OLD	
+Holmes	SBJ_2	ne	?OLD	
 ran				
 that				
-night	other_3	def-np.dem	?OLD	
+night	other_2	def-np.dem	?OLD	
 .			
 
-# text = I am reckoned fleet offoot, but he outpaced me as much as I outpaced the little professional.
+# text = I am reckoned fleet of foot, but he outpaced me as much as I outpaced the little professional.
 I	SBJ	pron.pper	?OLD	
 am				
 reckoned				
-fleet				
-offoot	OBJ	indef-np.bare		
+fleet	OBJ	indef-np.bare		
+of				
+foot	other_2	indef-np.bare		
 ,				
 but				
 he	SBJ_2	pron.pper	?OLD	
@@ -2335,33 +2438,35 @@ little
 professional	OBJ_4			
 .			
 
-# text = Infront of us as we flew up the track we heard scream after scream from Sir Henryand the deep roar of the hound.
-Infront	other	def-np.poss	?OLD	
+# text = In front of us as we flew up the track we heard scream after scream from Sir Henry and the deep roar of the hound.
+In				
+front	other	def-np.poss	?OLD	
 of				
-us	other	pron.pper	?OLD	
+us	other_2	pron.pper	?OLD	
 as				
-we	SBJ_2	pron.pper	?OLD	
+we	SBJ	pron.pper	?OLD	
 flew				
 up				
 the				
-track	OBJ_2	def-np.the	?OLD	
-we	SBJ_4	pron.pper	?OLD	
+track	OBJ	def-np.the	?OLD	
+we	SBJ_3	pron.pper	?OLD	
 heard				
-scream	OBJ_4	indef-np.bare		
+scream	OBJ_3	indef-np.bare		
 after				
-scream	other_4	indef-np.bare		
+scream	other_3	indef-np.bare		
 from				
-Sir	other_5	ne	?OLD	
-Henryand				
+Sir	other_4	ne	?OLD	
+Henry				
+and				
 the				
 deep				
-roar	other_6	def-np.the	?OLD	
+roar	other_5	def-np.the	?OLD	
 of				
 the				
-hound	other_7	def-np.the	?OLD	
+hound	other_6	def-np.the	?OLD	
 .			
 
-# text = I was in time to see the beast spring upon itsvictim, hurl him to the ground, and worry at his throat.
+# text = I was in time to see the beast spring upon its victim, hurl him to the ground, and worry at his throat.
 I	SBJ	pron.pper	?OLD	
 was				
 in				
@@ -2372,7 +2477,9 @@ the
 beast				
 spring	OBJ_2	def-np.the	?OLD	
 upon				
-itsvictim	other_3	indef-np.bare		
+it	SBJ_3	pron.pper	?OLD	
+s				
+victim				
 ,				
 hurl				
 him	OBJ_2	pron.pper	?OLD	
@@ -2387,11 +2494,12 @@ his	other_4	pron.ppos	?OLD
 throat	other_3	def-np.poss	?OLD	
 .			
 
-# text = But the next instantHolmes had emptied five barrels of his revolver into the creature's flank.
+# text = But the next instant Holmes had emptied five barrels of his revolver into the creature's flank.
 But				
 the				
 next				
-instantHolmes	SBJ	def-np.the	?OLD	
+instant				
+Holmes	SBJ	def-np.the	?OLD	
 had				
 emptied				
 five				
@@ -2406,10 +2514,11 @@ creature	other_2	def-np.the	?OLD
 flank	other	def-np.poss	?OLD	
 .			
 
-# text = Witha last howl of agony and a vicious snap in the air, it rolled upon its back,four feet pawing furiously, and then fell limp upon its side.
-Witha				
+# text = With a last howl of agony and a vicious snap in the air, it rolled upon its back, four feet pawing furiously, and then fell limp upon its side.
+With				
+a				
 last				
-howl	other	indef-np.bare		
+howl	other	indef-np.a		
 of				
 agony	other_2	indef-np.bare		
 and				
@@ -2423,11 +2532,11 @@ air	other_3	def-np.the	?OLD
 it	SBJ	pron.pper	?OLD	
 rolled				
 upon				
-its	other_2	pron.ppos	?OLD	
-back	other	def-np.poss	?OLD	
+its	other_3	pron.ppos	?OLD	
+back				
 ,				
 four				
-feet	OBJ	indef-np.quant		
+feet	OBJ	indef-np.bare		
 pawing				
 furiously				
 ,				
@@ -2440,7 +2549,7 @@ its	other_4	pron.ppos	?OLD
 side	other_3	def-np.poss	?OLD	
 .			
 
-# text = I stooped,panting, and pressed my pistol to the dreadful, shimmering head, but it wasuseless to press the trigger.
+# text = I stooped, panting, and pressed my pistol to the dreadful, shimmering head, but it was useless to press the trigger.
 I	SBJ	pron.pper	?OLD	
 stooped				
 ,				
@@ -2459,7 +2568,8 @@ head	other_4	indef-np.bare
 ,				
 but				
 it				
-wasuseless				
+was				
+useless				
 to				
 press				
 the				
@@ -2487,14 +2597,15 @@ had
 fallen				
 .			
 
-# text = We tore away his collar, andHolmes breathed a prayer of gratitude when we saw that there was no sign of awound and that the rescue had been in time.
+# text = We tore away his collar, and Holmes breathed a prayer of gratitude when we saw that there was no sign of a wound and that the rescue had been in time.
 We	SBJ	pron.pper	?OLD	
 tore				
 away				
 his	other_2	pron.ppos	?OLD	
 collar	OBJ	def-np.poss	?OLD	
 ,				
-andHolmes	SBJ_2	ne	?OLD	
+and				
+Holmes	other	ne	?OLD	
 breathed				
 a				
 prayer	OBJ_2	indef-np.a		
@@ -2509,7 +2620,8 @@ was
 no				
 sign	SBJ_4	indef-np.quant		
 of				
-awound	other_5	indef-np.bare		
+a				
+wound	other_5	indef-np.a		
 and				
 that				
 the				
@@ -2520,12 +2632,13 @@ in
 time	other_4	indef-np.bare		
 .			
 
-# text = Already our friend's eyelidsshivered and he made a feeble effort to move.
+# text = Already our friend's eyelids shivered and he made a feeble effort to move.
 Already				
-our	other_2	pron.ppos	?OLD	
-friend	SBJ	def-np.poss	?OLD	
+our	other_3	pron.ppos	?OLD	
+friend	other_2	def-np.poss	?OLD	
 's				
-eyelidsshivered				
+eyelids	SBJ	def-np.poss	?OLD	
+shivered				
 and				
 he	SBJ_2	pron.pper	?OLD	
 made				
@@ -2536,13 +2649,14 @@ to
 move				
 .			
 
-# text = Lestrade thrust his brandy-flaskbetween the baronet's teeth, and two frightened eyes were looking up at us.
+# text = Lestrade thrust his brandy-flask between the baronet's teeth, and two frightened eyes were looking up at us.
 Lestrade	SBJ	ne	?OLD	
 thrust				
 his	other_2	pron.ppos	?OLD	
-brandy	OBJ	def-np.poss	?OLD	
+brandy				
 _				
-flaskbetween				
+flask	OBJ	def-np.poss	?OLD	
+between				
 the				
 baronet	other_2	def-np.the	?OLD	
 's				
@@ -2609,7 +2723,7 @@ Holmes	SBJ	ne	?OLD
 .			
 
 --
-# text = "We've laid the family ghost once andforever."
+# text = \"We've laid the family ghost once and forever.\"
 &quot;				
 We	SBJ	pron.pper	?OLD	
 've				
@@ -2618,11 +2732,12 @@ the
 family				
 ghost	OBJ	def-np.the	?OLD	
 once				
-andforever				
+and				
+forever				
 .				
 &quot;			
 
-# text = In mere size and strength it was a terrible creature which was lying stretchedbefore us.
+# text = In mere size and strength it was a terrible creature which was lying stretched before us.
 In				
 mere				
 size	other	indef-np.bare		
@@ -2636,11 +2751,12 @@ creature	other	indef-np.a
 which	SBJ_2			
 was				
 lying				
-stretchedbefore				
-us	other_2	pron.pper	?OLD	
+stretched				
+before				
+us	other_3	pron.pper	?OLD	
 .			
 
-# text = It was not a pure bloodhound and it was not a pure mastiff; but itappeared to be a combination of the two—gaunt, savage, and as large as a smalllioness.
+# text = It was not a pure bloodhound and it was not a pure mastiff; but it appeared to be a combination of the two—gaunt, savage, and as large as a small lioness.
 It	SBJ	pron.pper	?OLD	
 was				
 not				
@@ -2656,7 +2772,8 @@ pure
 mastiff	other	indef-np.a		
 ;				
 but				
-itappeared				
+it	SBJ_2	pron.pper	?OLD	
+appeared				
 to				
 be				
 a				
@@ -2673,10 +2790,11 @@ as
 large				
 as				
 a				
-smalllioness	other_5	indef-np.a		
+small				
+lioness	other_5	indef-np.a		
 .			
 
-# text = Even now, in the stillness of death, the huge jaws seemed to bedripping with a bluish flame and the small, deep-set, cruel eyes were ringedwith fire.
+# text = Even now, in the stillness of death, the huge jaws seemed to be dripping with a bluish flame and the small, deep-set, cruel eyes were ringed with fire.
 Even				
 now				
 ,				
@@ -2691,7 +2809,8 @@ huge
 jaws	SBJ	def-np.the	?OLD	
 seemed				
 to				
-bedripping				
+be				
+dripping				
 with				
 a				
 bluish				
@@ -2707,11 +2826,12 @@ set
 cruel				
 eyes	SBJ_4	indef-np.bare		
 were				
-ringedwith				
-fire	other_3	def-np.the	?OLD	
+ringed				
+with				
+fire	other_4	indef-np.bare		
 .			
 
-# text = I placed my hand upon the glowing muzzle, and as I held them up myown fingers smouldered and gleamed in the darkness.
+# text = I placed my hand upon the glowing muzzle, and as I held them up my own fingers smouldered and gleamed in the darkness.
 I	SBJ	pron.pper	?OLD	
 placed				
 my	other_2	pron.ppos	?OLD	
@@ -2727,14 +2847,15 @@ I	SBJ_2	pron.pper	?OLD
 held				
 them	OBJ_2	pron.pper	?OLD	
 up				
-myown				
-fingers	OBJ_2	indef-np.bare		
+my	other_3	pron.ppos	?OLD	
+own				
+fingers	OBJ_2	def-np.poss	?OLD	
 smouldered				
 and				
 gleamed				
 in				
 the				
-darkness	other_4	def-np.the	?OLD	
+darkness	other_3	def-np.the	?OLD	
 .			
 
 --
@@ -2768,28 +2889,30 @@ animal	other_3	def-np.the	?OLD
 .			
 
 --
-# text = \"Thereis no smell which might have interfered with his power of scent.
+# text = \"There is no smell which might have interfered with his power of scent.
 &quot;				
-Thereis	other	pron.ppos	?OLD	
+There				
+is				
 no				
-smell	other	def-np.poss	?OLD	
-which	SBJ_2			
+smell	SBJ	indef-np.quant		
+which	SBJ_3			
 might				
 have				
 interfered				
 with				
-his	other_3	pron.ppos	?OLD	
-power	other_2	def-np.poss	?OLD	
+his	other_4	pron.ppos	?OLD	
+power	other_3	def-np.poss	?OLD	
 of				
-scent	other_3	indef-np.bare		
+scent	other_4	indef-np.bare		
 .			
 
-# text = We owe you adeep apology, Sir Henry, for having exposed you to this fright.
+# text = We owe you a deep apology, Sir Henry, for having exposed you to this fright.
 We	SBJ	pron.pper	?OLD	
 owe				
 you	OBJ	pron.pper	?OLD	
-adeep				
-apology	OBJ	indef-np.bare		
+a				
+deep				
+apology	OBJ	indef-np.a		
 ,				
 Sir	other_2	ne	?OLD	
 Henry				
@@ -2803,12 +2926,13 @@ this
 fright	other_2	def-np.dem	?OLD	
 .			
 
-# text = I was preparedfor a hound, but not for such a creature as this.
+# text = I was prepared for a hound, but not for such a creature as this.
 I	SBJ	pron.pper	?OLD	
 was				
-preparedfor				
+prepared				
+for				
 a				
-hound	OBJ	indef-np.a		
+hound	other	indef-np.a		
 ,				
 but				
 not				
@@ -2821,13 +2945,14 @@ this	other_2	pron.pds	?OLD
 .			
 
 --
-# text = And the fog gave us littletime to receive him.\"
+# text = And the fog gave us little time to receive him.\"
 And				
 the				
 fog	SBJ	def-np.the	?OLD	
 gave				
 us	OBJ	pron.pper	?OLD	
-littletime	OBJ	indef-np.bare		
+little				
+time	OBJ	indef-np.bare		
 to				
 receive				
 him	OBJ_3	pron.pper	?OLD	
@@ -2933,7 +3058,7 @@ night	other_2	indef-np.bare
 .			
 
 --
-# text = If youwill wait, one or other of us will go back with you to the Hall.\"
+# text = If you will wait, one or other of us will go back with you to the Hall."
 If				
 you	SBJ_3	pron.pper	?OLD	
 will				
@@ -2955,7 +3080,7 @@ Hall	other_3	def-np.the	?OLD
 .				
 &quot;			
 
-# text = He tried to stagger to his feet; but he was still ghastly pale and trembling inevery limb.
+# text = He tried to stagger to his feet; but he was still ghastly pale and trembling in every limb.
 He	SBJ	pron.pper	?OLD	
 tried				
 to				
@@ -2972,11 +3097,12 @@ ghastly
 pale				
 and				
 trembling				
-inevery				
-limb	OBJ_3	indef-np.bare		
+in				
+every				
+limb	other_3	indef-np		
 .			
 
-# text = We helped him to a rock, where he sat shivering with his faceburied in his hands.
+# text = We helped him to a rock, where he sat shivering with his face buried in his hands.
 We	SBJ	pron.pper	?OLD	
 helped				
 him	OBJ	pron.pper	?OLD	
@@ -2987,13 +3113,14 @@ rock	other	indef-np.a
 where				
 he	SBJ_3	pron.pper	?OLD	
 sat				
-shivering	OBJ_3	indef-np.bare		
+shivering				
 with				
-his	other_3	pron.pper	?OLD	
-faceburied				
+his	other_5	pron.ppos	?OLD	
+face	other_4	def-np.poss	?OLD	
+buried				
 in				
-his	other_3	pron.ppos	?OLD	
-hands	other_2	def-np.poss	?OLD	
+his	other_6	pron.ppos	?OLD	
+hands	other_5	def-np.poss	?OLD	
 .			
 
 --
@@ -3011,7 +3138,7 @@ Holmes	SBJ	ne	?OLD
 .			
 
 --
-# text = \"The rest of our work must be done, andevery moment is of importance.
+# text = "The rest of our work must be done, and every moment is of importance.
 &quot;				
 The				
 rest	SBJ	def-np.poss	?OLD	
@@ -3022,8 +3149,9 @@ must
 be				
 done				
 ,				
-andevery				
-moment	SBJ_2	indef-np.a		
+and				
+every				
+moment	SBJ_2	indef-np		
 is				
 of				
 importance	other	indef-np.bare		
@@ -3045,7 +3173,7 @@ man	OBJ_2	def-np.poss	?OLD
 .			
 
 --
-# text = "It's a thousand to one against our finding him at the house," he continued aswe retraced our steps swiftly down the path.
+# text = "It's a thousand to one against our finding him at the house," he continued as we retraced our steps swiftly down the path.
 &quot;				
 It	SBJ	pron.pper	?OLD	
 's				
@@ -3062,27 +3190,29 @@ the
 house	other_2	def-np.the	?OLD	
 ,				
 &quot;				
-he	SBJ_3	pron.pper	?OLD	
+he	SBJ_2	pron.pper	?OLD	
 continued				
-aswe	SBJ_2	pron.pper	?OLD	
+as				
+we	SBJ_3	pron.pper	?OLD	
 retraced				
-our	other_3	pron.ppos	?OLD	
-steps	OBJ_2	def-np.poss	?OLD	
+our	other_4	pron.ppos	?OLD	
+steps	OBJ_3	def-np.poss	?OLD	
 swiftly				
 down				
 the				
-path	other_2	def-np.the	?OLD	
+path	other_4	def-np.the	?OLD	
 .			
 
 --
-# text = \"Those shots must have told himthat the game was up.\"
+# text = "Those shots must have told him that the game was up."
 &quot;				
 Those				
 shots	SBJ	def-np.dem	?OLD	
 must				
 have				
 told				
-himthat				
+him	OBJ	pron.pper	?OLD	
+that				
 the				
 game	SBJ_2	def-np.the	?OLD	
 was				
@@ -3128,12 +3258,14 @@ be
 certain				
 .			
 
-# text = No, no, he'sgone by this time!
+# text = No, no, he's gone by this time!
 No				
 ,				
 no				
 ,				
-he'sgone				
+he	SBJ	pron.pper	?OLD	
+'s				
+gone				
 by				
 this				
 time	other	def-np.dem	?OLD	
@@ -3153,7 +3285,7 @@ sure
 .				
 &quot;			
 
-# text = The front door was open, so we rushed in and hurried from room to room to theamazement of a doddering old manservant, who met us in the passage.
+# text = The front door was open, so we rushed in and hurried from room to room to the amazement of a doddering old manservant, who met us in the passage.
 The				
 front				
 door	SBJ	def-np.the	?OLD	
@@ -3169,33 +3301,35 @@ hurried
 from				
 room	other_3	indef-np.bare		
 to				
-room	other_3	indef-np.bare		
+room	other_4	indef-np.bare		
 to				
-theamazement	other_4	indef-np.bare		
+the				
+amazement	other_5	def-np.the	?OLD	
 of				
 a				
 doddering				
 old				
-manservant	other_5	indef-np.a		
+manservant	other_6	indef-np.a		
 ,				
-who	SBJ_7			
+who	SBJ_8			
 met				
-us	OBJ_7	pron.pper	?OLD	
+us	OBJ_8	pron.pper	?OLD	
 in				
 the				
-passage	other_7	def-np.the	?OLD	
+passage	other_8	def-np.the	?OLD	
 .			
 
-# text = There wasno light save in the dining-room, but Holmes caught up the lamp and left nocorner of the house unexplored.
-There	other	pron.ppos	?OLD	
-wasno				
-light				
-save	other	def-np.poss	?OLD	
+# text = There was no light save in the dining-room, but Holmes caught up the lamp and left no corner of the house unexplored.
+There				
+was				
+no				
+light	SBJ_2	indef-np.quant		
+save				
 in				
 the				
 dining				
 _				
-room	other	def-np.the	?OLD	
+room	other_2	def-np.the	?OLD	
 ,				
 but				
 Holmes	SBJ_2	ne	?OLD	
@@ -3205,14 +3339,15 @@ the
 lamp	OBJ_2	def-np.the	?OLD	
 and				
 left				
-nocorner	OBJ_3	indef-np.bare		
+no				
+corner	OBJ_3	indef-np.quant		
 of				
 the				
 house	other_4	def-np.the	?OLD	
 unexplored				
 .			
 
-# text = No sign could we see of the man whom we werechasing.
+# text = No sign could we see of the man whom we were chasing.
 No				
 sign	OBJ	indef-np.quant		
 could				
@@ -3223,7 +3358,8 @@ the
 man	other	def-np.the	?OLD	
 whom	OBJ_3			
 we	SBJ_3	pron.pper	?OLD	
-werechasing				
+were				
+chasing				
 .			
 
 # text = On the upper floor, however, one of the bedroom doors was locked.
@@ -3268,9 +3404,10 @@ movement	OBJ	indef-np.a
 .			
 
 --
-# text = Open thisdoor!"
+# text = Open this door!\"
 Open				
-thisdoor	other	indef-np.bare		
+this				
+door	OBJ	def-np.dem	?OLD	
 !				
 &quot;			
 
@@ -3286,14 +3423,15 @@ from
 within	other_2	indef-np.bare		
 .			
 
-# text = Holmes struck the door just overthe lock with the flat of his foot and it flew open.
+# text = Holmes struck the door just over the lock with the flat of his foot and it flew open.
 Holmes				
 struck				
 the				
 door	OBJ	def-np.the	?OLD	
 just				
-overthe				
-lock	other	def-np	?OLD	
+over				
+the				
+lock	other	def-np.the	?OLD	
 with				
 the				
 flat	other_2	def-np.poss	?OLD	
@@ -3306,20 +3444,21 @@ flew
 open				
 .			
 
-# text = Pistol in hand, we allthree rushed into the room.
+# text = Pistol in hand, we all three rushed into the room.
 Pistol				
 in				
 hand	other	indef-np.bare		
 ,				
-we	other_2	pron.ppos	?OLD	
-allthree	OBJ	def-np.poss	?OLD	
+we	OBJ	pron.pper	?OLD	
+all				
+three				
 rushed				
 into				
 the				
 room	other_3	def-np.the	?OLD	
 .			
 
-# text = But there was no sign within it of that desperate and defiant villain whom weexpected to see.
+# text = But there was no sign within it of that desperate and defiant villain whom we expected to see.
 But				
 there				
 was				
@@ -3333,13 +3472,14 @@ desperate
 and				
 defiant				
 villain	other_2	def-np.dem	?OLD	
-whom	SBJ_4			
-weexpected				
+whom	OBJ_4			
+we	SBJ_4	pron.pper	?OLD	
+expected				
 to				
 see				
 .			
 
-# text = Instead we were faced by an object so strange and sounexpected that we stood for a moment staring at it in amazement.
+# text = Instead we were faced by an object so strange and so unexpected that we stood for a moment staring at it in amazement.
 Instead				
 we	SBJ	pron.pper	?OLD	
 were				
@@ -3350,21 +3490,22 @@ object	other	indef-np.a
 so				
 strange				
 and				
-sounexpected				
+so				
+unexpected				
 that				
-we	SBJ_3	pron.pper	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 stood				
 for				
 a				
-moment	other_3	indef-np.a		
+moment	other_2	indef-np.a		
 staring				
 at				
-it	other_5	pron.pper	?OLD	
+it	other_4	pron.pper	?OLD	
 in				
-amazement	other_5	indef-np.bare		
+amazement	other_4	indef-np.bare		
 .			
 
-# text = The room had been fashioned into a small museum, and the walls were lined by anumber of glass-topped cases full of that collection of butterflies and mothsthe formation of which had been the relaxation of this complex and dangerousman.
+# text = The room had been fashioned into a small museum, and the walls were lined by a number of glass-topped cases full of that collection of butterflies and moths the formation of which had been the relaxation of this complex and dangerous man.
 The				
 room	SBJ	def-np.the	?OLD	
 had				
@@ -3381,7 +3522,8 @@ walls	SBJ_2	def-np.the	?OLD
 were				
 lined				
 by				
-anumber	other_2	indef-np.bare		
+a				
+number	other_2	indef-np.a		
 of				
 glass				
 _				
@@ -3394,22 +3536,24 @@ collection	other_5	def-np.dem	?OLD
 of				
 butterflies	other_6	indef-np.bare		
 and				
-mothsthe				
-formation	other_7	def-np	?OLD	
+moths	other_7	indef-np.bare		
+the				
+formation	other_5	def-np.the	?OLD	
 of				
-which	SBJ_9			
+which	SBJ_7			
 had				
 been				
 the				
-relaxation	other_8	def-np.poss	?OLD	
+relaxation	other_6	def-np.poss	?OLD	
 of				
 this				
-complex	other_9	def-np.dem	?OLD	
+complex	other_7	def-np.dem	?OLD	
 and				
-dangerousman	other_10	indef-np.bare		
+dangerous				
+man	other_8	indef-np.bare		
 .			
 
-# text = In the centre of this room there was an upright beam, which had beenplaced at some period as a support for the old worm-eaten baulk of timber whichspanned the roof.
+# text = In the centre of this room there was an upright beam, which had been placed at some period as a support for the old worm-eaten baulk of timber which spanned the roof.
 In				
 the				
 centre	other	def-np.poss	?OLD	
@@ -3424,7 +3568,8 @@ beam	SBJ	indef-np.a
 ,				
 which	SBJ_3			
 had				
-beenplaced				
+been				
+placed				
 at				
 some				
 period	other_3	indef-np.quant		
@@ -3434,17 +3579,18 @@ support	other_3	indef-np.a
 for				
 the				
 old				
-worm				
+worm	other_4	def-np.the	?OLD	
 -eaten				
-baulk	other_4	indef-np.bare		
+baulk	OBJ_5	indef-np.bare		
 of				
-timber	other_5	indef-np.bare		
-whichspanned				
+timber	other_6	indef-np.bare		
+which	SBJ_8			
+spanned				
 the				
-roof	OBJ_2	def-np.the	?OLD	
+roof	OBJ_8	def-np.the	?OLD	
 .			
 
-# text = To this post a figure was tied, so swathed and muffled in thesheets which had been used to secure it that one could not for the moment tellwhether it was that of a man or a woman.
+# text = To this post a figure was tied, so swathed and muffled in the sheets which had been used to secure it that one could not for the moment tell whether it was that of a man or a woman.
 To				
 this				
 post	other	def-np.dem	?OLD	
@@ -3458,7 +3604,8 @@ swathed
 and				
 muffled				
 in				
-thesheets	other_3	indef-np.bare		
+the				
+sheets	other_3	def-np.the	?OLD	
 which	SBJ_5			
 had				
 been				
@@ -3486,31 +3633,33 @@ a
 woman	other_8	indef-np.a		
 .			
 
-# text = One towel passed round the throat andwas secured at the back of the pillar.
+# text = One towel passed round the throat and was secured at the back of the pillar.
 One				
-towel	SBJ	indef-np.quant		
+towel	other	indef-np.quant		
 passed				
 round				
 the				
-throat	other_3	def-np.the	?OLD	
-andwas				
+throat	other_2	def-np.the	?OLD	
+and				
+was				
 secured				
 at				
 the				
-back	other	def-np.the	?OLD	
+back	other_2	def-np.the	?OLD	
 of				
 the				
-pillar	other_2	def-np.the	?OLD	
+pillar	other_3	def-np.the	?OLD	
 .			
 
-# text = Another covered the lower part of theface, and over it two dark eyes—eyes full of grief and shame and a dreadfulquestioning—stared back at us.
+# text = Another covered the lower part of the face, and over it two dark eyes—eyes full of grief and shame and a dreadful questioning—stared back at us.
 Another	SBJ			
 covered				
 the				
 lower				
 part	OBJ	def-np.the	?OLD	
 of				
-theface	other_2	indef-np.bare		
+the				
+face	other_2	def-np.the	?OLD	
 ,				
 and				
 over				
@@ -3526,14 +3675,15 @@ and
 shame	other_5	indef-np.bare		
 and				
 a				
-dreadfulquestioning				
+dreadful	other_5	indef-np.a		
+questioning				
 —stared				
 back				
 at				
-us	other_5	pron.pper	?OLD	
+us	other_8	pron.pper	?OLD	
 .			
 
-# text = In a minute we had torn off the gag, unswathedthe bonds, and Mrs. Stapleton sank upon the floor in front of us.
+# text = In a minute we had torn off the gag, unswathed the bonds, and Mrs.
 In				
 a				
 minute	other	indef-np.a		
@@ -3542,28 +3692,32 @@ had
 torn				
 off				
 the				
-gag	other	def-np.the	?OLD	
+gag	OBJ	def-np.the	?OLD	
 ,				
-unswathedthe				
-bonds	other	def-np	?OLD	
+unswathed				
+the				
+bonds	OBJ_2	def-np.the	?OLD	
 ,				
 and				
-Mrs.	other	ne	?OLD	
-Stapleton				
+Mrs.	other	ne	?OLD
+
+# text = Stapleton sank upon the floor in front of us.
+Stapleton	SBJ	ne	?OLD	
 sank				
 upon				
 the				
-floor	other_2	def-np.poss	?OLD	
+floor	other	def-np.the	?OLD	
 in				
-front	other_3	indef-np.bare		
+front	other	def-np.poss	?OLD	
 of				
-us	other_3	pron.pper	?OLD	
+us	other_2	pron.pper	?OLD	
 .			
 
-# text = As herbeautiful head fell upon her chest I saw the clear red weal of a whiplashacross her neck.
+# text = As her beautiful head fell upon her chest I saw the clear red weal of a whiplash across her neck.
 As				
-herbeautiful				
-head	other	indef-np.bare		
+her	other_2	pron.ppos	?OLD	
+beautiful				
+head	SBJ	def-np.poss	?OLD	
 fell				
 upon				
 her	other_2	pron.ppos	?OLD	
@@ -3573,12 +3727,13 @@ saw
 the				
 clear				
 red				
-weal	OBJ_2	def-np.poss	?OLD	
+weal	OBJ_2	def-np.the	?OLD	
 of				
 a				
-whiplashacross				
-her	other_4	pron.ppos	?OLD	
-neck	other_3	def-np.poss	?OLD	
+whiplash	other_3	indef-np.a		
+across				
+her	other_5	pron.ppos	?OLD	
+neck	other_4	def-np.poss	?OLD	
 .			
 
 --
@@ -3605,11 +3760,12 @@ _
 bottle	other	def-np.poss	?OLD	
 !			
 
-# text = Put her in thechair!
+# text = Put her in the chair!
 Put				
 her	OBJ	pron.pper	?OLD	
 in				
-thechair	other	indef-np.bare		
+the				
+chair	other	def-np.the	?OLD	
 !			
 
 --
@@ -3761,10 +3917,11 @@ me	OBJ_2	pron.pper	?OLD
 !				
 &quot;			
 
-# text = She shother arms out from her sleeves, and we saw with horror that they were allmottled with bruises.
+# text = She shot her arms out from her sleeves, and we saw with horror that they were all mottled with bruises.
 She	SBJ	pron.pper	?OLD	
-shother				
-arms	other	indef-np		
+shot				
+her	other_2	pron.ppos	?OLD	
+arms	OBJ	def-np.poss	?OLD	
 out				
 from				
 her	other_2	pron.ppos	?OLD	
@@ -3778,7 +3935,8 @@ horror	other_2	indef-np.bare
 that				
 they	SBJ_3	pron.pper	?OLD	
 were				
-allmottled				
+all				
+mottled				
 with				
 bruises	other_3	indef-np.bare		
 .			
@@ -3793,21 +3951,23 @@ nothing	other	pron	?OLD
 —nothing				
 !			
 
-# text = It is my mind and soul thathe has tortured and defiled.
+# text = It is my mind and soul that he has tortured and defiled.
 It	SBJ	pron.pper	?OLD	
 is				
 my	other	pron.ppos	?OLD	
 mind	other	def-np.poss	?OLD	
 and				
-soul	other	indef-np.bare		
-thathe	SBJ_2	pron.pper	?OLD	
+soul				
+that				
+he	SBJ_3	pron.pper	?OLD	
 has				
 tortured				
 and				
 defiled				
 .			
 
-# text = I could endure it all, ill-usage, solitude, a lifeof deception, everything, as long as I could still cling to the hope that I hadhis love, but now I know that in this also I have been his dupe and his tool.
+--
+# text = I could endure it all, ill-usage, solitude, a life of deception, everything, as long as I could still cling to the hope that I had his love, but now I know that in this also I have been his dupe and his tool.\"
 I	SBJ	pron.pper	?OLD	
 could				
 endure				
@@ -3816,13 +3976,14 @@ all
 ,				
 ill				
 _				
-usage				
+usage	other_2	indef-np.bare		
 ,				
-solitude	OBJ	indef-np.a		
+solitude	other_2	indef-np.bare		
 ,				
 a				
-lifeof				
-deception	other_2	indef-np.a		
+life	other_2	indef-np.a		
+of				
+deception	other_3	indef-np.bare		
 ,				
 everything	other_2	pron	?OLD	
 ,				
@@ -3836,31 +3997,29 @@ cling
 to				
 the				
 hope	other_4	def-np.the	?OLD	
-that				
+that	OBJ_6			
 I	SBJ_6	pron.pper	?OLD	
-hadhis				
-love	OBJ_6	indef-np.bare		
+had				
+his	other_7	pron.ppos	?OLD	
+love	OBJ_6	def-np.poss	?OLD	
 ,				
 but				
 now				
-I	SBJ_2	pron.pper	?OLD	
+I	SBJ_7	pron.pper	?OLD	
 know				
 that				
 in				
-this	other_3	pron.pds	?OLD	
+this	other_8	pron.pds	?OLD	
 also				
-I	SBJ_3	pron.pper	?OLD	
+I	SBJ_8	pron.pper	?OLD	
 have				
 been				
-his	other_3	pron.ppos	?OLD	
-dupe	other_2	def-np.poss	?OLD	
+his	other_8	pron.ppos	?OLD	
+dupe	other_7	def-np.poss	?OLD	
 and				
-his	other_4	pron.ppos	?OLD	
-tool	other_3	def-np.poss	?OLD	
-.			
-
---
-# text = "
+his	other_9	pron.ppos	?OLD	
+tool	other_8	def-np.poss	?OLD	
+.				
 &quot;			
 
 # text = She broke into passionate sobbing as she spoke.
@@ -3892,15 +4051,16 @@ Holmes	SBJ	ne	?OLD
 .			
 
 --
-# text = \"Tell us then where we shallfind him.
+# text = "Tell us then where we shall find him.
 &quot;				
 Tell				
 us	OBJ	pron.pper	?OLD	
 then				
 where				
-we	SBJ_3	pron.pper	?OLD	
-shallfind				
-him	OBJ_3	pron.pper	?OLD	
+we	SBJ_2	pron.pper	?OLD	
+shall				
+find				
+him	OBJ_2	pron.pper	?OLD	
 .			
 
 --
@@ -3943,32 +4103,34 @@ answered
 .			
 
 --
-# text = "There is an oldtin mine on an island in the heart of the mire.
+# text = \"There is an old tin mine on an island in the heart of the mire.
 &quot;				
 There				
 is				
 an				
-oldtin				
-mine	SBJ	indef-np.a		
+old				
+tin	SBJ	indef-np.a		
+mine	OBJ_2	pron	?OLD	
 on				
 an				
-island	other	indef-np.a		
+island	other_2	indef-np.a		
 in				
 the				
-heart	other_2	def-np.the	?OLD	
+heart	other_3	def-np.the	?OLD	
 of				
 the				
-mire	other_3	def-np.the	?OLD	
+mire	other_4	def-np.the	?OLD	
 .			
 
-# text = It was there that he kept hishound and there also he had made preparations so that he might have a refuge.That
+# text = It was there that he kept his hound and there also he had made preparations so that he might have a refuge.
 It	SBJ	pron.pper	?OLD	
 was				
 there	other	pron.padv	?OLD	
 that				
 he	SBJ_2	pron.pper	?OLD	
 kept				
-hishound				
+his	other_3	pron.ppos	?OLD	
+hound	OBJ_2	def-np.poss	?OLD	
 and				
 there				
 also				
@@ -3978,17 +4140,19 @@ made
 preparations	OBJ_3	indef-np.bare		
 so				
 that				
-he	SBJ_5	pron.pper	?OLD	
+he	SBJ_4	pron.pper	?OLD	
 might				
 have				
 a				
-refuge.That	OBJ_5		
+refuge	OBJ_4	indef-np.a		
+.			
 
 --
-# text = is where he would fly.\"
+# text = That is where he would fly.\"
+That	SBJ	pron.pds	?OLD	
 is				
-where				
-he	SBJ	pron.pper	?OLD	
+where	other	pron.pint		
+he	SBJ_2	pron.pper	?OLD	
 would				
 fly				
 .				
@@ -4008,11 +4172,12 @@ the
 window	other_2	def-np.the	?OLD	
 .			
 
-# text = Holmes held the lamptowards it.
+# text = Holmes held the lamp towards it.
 Holmes				
 held				
 the				
-lamptowards	OBJ	def-np.the	?OLD	
+lamp	OBJ	def-np.the	?OLD	
+towards				
 it	other	pron.pper	?OLD	
 .			
 
@@ -4054,14 +4219,15 @@ her	other_3	pron.ppos	?OLD
 hands	OBJ_2	def-np.poss	?OLD	
 .			
 
-# text = Her eyes and teeth gleamed with fiercemerriment.
+# text = Her eyes and teeth gleamed with fierce merriment.
 Her	other	pron.ppos	?OLD	
 eyes	other	def-np.poss	?OLD	
 and				
 teeth	other	indef-np.bare		
 gleamed				
 with				
-fiercemerriment	other_2	indef-np.bare		
+fierce				
+merriment	other_2	indef-np.bare		
 .			
 
 --
@@ -4084,35 +4250,37 @@ cried
 .			
 
 --
-# text = \"How can he see the guidingwands to-night?
+# text = "How can he see the guiding wands to-night?
 &quot;				
 How				
 can				
 he	SBJ	pron.pper	?OLD	
 see				
 the				
-guidingwands	OBJ	def-np.the	?OLD	
+guiding	SBJ_2	def-np.the	?OLD	
+wands				
 to				
 _				
-night	other	indef-np.bare		
+night	other_2	indef-np.bare		
 ?			
 
-# text = We planted them together, he and I, to mark the pathway throughthe mire.
+# text = We planted them together, he and I, to mark the pathway through the mire.
 We	SBJ	pron.pper	?OLD	
 planted				
 them	OBJ	pron.pper	?OLD	
 together				
 ,				
-he	SBJ_2	pron.pper	?OLD	
+he	other	pron.pper	?OLD	
 and				
-I	other_3	pron.pper	?OLD	
+I	other_2	pron.pper	?OLD	
 ,				
 to				
 mark				
 the				
-pathway	OBJ_2	def-np.the	?OLD	
-throughthe				
-mire	other_3	def-np	?OLD	
+pathway	OBJ_3	def-np.the	?OLD	
+through				
+the				
+mire	other_3	def-np.the	?OLD	
 .			
 
 # text = Oh, if I could only have plucked them out to-day.
@@ -4132,10 +4300,11 @@ day	other	indef-np.bare
 .			
 
 --
-# text = Then indeed youwould have had him at your mercy!\"
+# text = Then indeed you would have had him at your mercy!\"
 Then				
 indeed				
-youwould				
+you	SBJ	pron.pper	?OLD	
+would				
 have				
 had				
 him	OBJ	pron.pper	?OLD	
@@ -4145,7 +4314,7 @@ mercy	other	def-np.poss	?OLD
 !				
 &quot;			
 
-# text = It was evident to us that all pursuit was in vain until the fog had lifted.Meanwhile
+# text = It was evident to us that all pursuit was in vain until the fog had lifted.
 It				
 was				
 evident				
@@ -4161,9 +4330,11 @@ until
 the				
 fog	other_2	def-np.the	?OLD	
 had				
-lifted.Meanwhile			
+lifted				
+.			
 
-# text = we left Lestrade in possession of the house while Holmes and I wentback with the baronet to Baskerville Hall.
+# text = Meanwhile we left Lestrade in possession of the house while Holmes and I went back with the baronet to Baskerville Hall.
+Meanwhile				
 we	SBJ	pron.pper	?OLD	
 left				
 Lestrade	OBJ	ne	?OLD	
@@ -4176,7 +4347,8 @@ while
 Holmes	SBJ_2	ne	?OLD	
 and				
 I	other_3	pron.pper	?OLD	
-wentback				
+went				
+back				
 with				
 the				
 baronet	other_2	def-np.the	?OLD	
@@ -4185,14 +4357,15 @@ Baskerville
 Hall	other_3	ne	?OLD	
 .			
 
-# text = The story of the Stapletons could nolonger be withheld from him, but he took the blow bravely when he learned thetruth about the woman whom he had loved.
+# text = The story of the Stapletons could no longer be withheld from him, but he took the blow bravely when he learned the truth about the woman whom he had loved.
 The				
 story	SBJ	def-np.poss	?OLD	
 of				
 the				
 Stapletons	other_2	ne	?OLD	
 could				
-nolonger				
+no				
+longer				
 be				
 withheld				
 from				
@@ -4207,24 +4380,26 @@ bravely
 when				
 he	SBJ_3	pron.pper	?OLD	
 learned				
-thetruth				
+the				
+truth	OBJ_3	def-np.the	?OLD	
 about				
 the				
-woman	other_3	def-np.the	?OLD	
-whom	OBJ_5			
-he	SBJ_5	pron.pper	?OLD	
+woman	other_4	def-np.the	?OLD	
+whom	OBJ_6			
+he	SBJ_6	pron.pper	?OLD	
 had				
 loved				
 .			
 
-# text = But the shock of the night'sadventures had shattered his nerves, and before morning he lay delirious in ahigh fever, under the care of Dr. Mortimer.
+# text = But the shock of the night's adventures had shattered his nerves, and before morning he lay delirious in a high fever, under the care of Dr. Mortimer.
 But				
 the				
-shock	SBJ	def-np.the	?OLD	
+shock	SBJ	def-np.poss	?OLD	
 of				
 the				
-night'				
-sadventures	other_2	def-np.the	?OLD	
+night	other_3	def-np.the	?OLD	
+'s				
+adventures	other_2	def-np.poss	?OLD	
 had				
 shattered				
 his	other_2	pron.ppos	?OLD	
@@ -4237,58 +4412,60 @@ he	SBJ_2	pron.pper	?OLD
 lay				
 delirious				
 in				
-ahigh				
-fever	other_3	indef-np.bare		
+a				
+high				
+fever	other_3	indef-np.a		
 ,				
 under				
 the				
-care	other	def-np.poss	?OLD	
+care	other_3	def-np.poss	?OLD	
 of				
-Dr.	other_2	ne	?OLD	
+Dr.	other_4	ne	?OLD	
 Mortimer				
 .			
 
-# text = The two of them were destined totravel together round the world before Sir Henry had become once more the hale,hearty man that he had been before he became master of that ill-omened estate.
+# text = The two of them were destined to travel together round the world before Sir Henry had become once more the hale, hearty man that he had been before he became master of that ill-omened estate.
 The				
 two	SBJ	def-np.poss	?OLD	
 of				
 them	other_2	pron.pper	?OLD	
 were				
 destined				
-totravel	OBJ	indef-np.bare		
+to				
+travel				
 together				
 round				
 the				
-world	other	def-np.the	?OLD	
+world	other_2	def-np.the	?OLD	
 before				
-Sir	other_2	ne	?OLD	
+Sir	other_3	ne	?OLD	
 Henry				
 had				
 become				
 once				
 more				
 the				
-hale	OBJ_3	def-np.the	?OLD	
+hale				
 ,				
 hearty				
-man	other_4	indef-np.bare		
+man	other_2	def-np.the	?OLD	
 that				
-he	SBJ_7	pron.pper	?OLD	
+he	SBJ_5	pron.pper	?OLD	
 had				
 been				
 before				
-he	SBJ_6	pron.pper	?OLD	
+he	SBJ_4	pron.pper	?OLD	
 became				
-master	OBJ_6	def-np.poss	?OLD	
+master	OBJ_4	def-np.poss	?OLD	
 of				
 that				
 ill				
 _				
 omened				
-estate	other_7	def-np.dem	?OLD	
+estate	other_5	def-np.dem	?OLD	
 .			
 
-# text = And now I come rapidly to the conclusion of this singular narrative, in which Ihave tried to make the reader share those dark fears and vague surmises whichclouded our lives so long and ended in so tragic a manner.
+# text = And now I come rapidly to the conclusion of this singular narrative, in which I have tried to make the reader share those dark fears and vague surmises which clouded our lives so long and ended in so tragic a manner.
 And				
 now				
 I	SBJ	pron.pper	?OLD	
@@ -4304,7 +4481,8 @@ narrative	other_2	def-np.dem	?OLD
 ,				
 in				
 which				
-Ihave				
+I	SBJ_2	pron.pper	?OLD	
+have				
 tried				
 to				
 make				
@@ -4313,13 +4491,14 @@ reader
 share	OBJ_3	def-np.the	?OLD	
 those				
 dark				
-fears	SBJ_5	def-np.dem	?OLD	
+fears	OBJ_3	def-np.dem	?OLD	
 and				
 vague				
-surmises	other_6	indef-np.bare		
-whichclouded				
-our	other_6	pron.ppos	?OLD	
-lives	OBJ_5	def-np.poss	?OLD	
+surmises	other_4	indef-np.bare		
+which	SBJ_6			
+clouded				
+our	other_7	pron.ppos	?OLD	
+lives	OBJ_6	def-np.poss	?OLD	
 so				
 long				
 and				
@@ -4328,47 +4507,50 @@ in
 so				
 tragic				
 a				
-manner	OBJ_6	indef-np.a		
+manner	OBJ_7	indef-np.a		
 .			
 
-# text = On the morning afterthe death of the hound the fog had lifted and we were guided by Mrs. Stapletonto the point where they had found a pathway through the bog.
+# text = On the morning after the death of the hound the fog had lifted and we were guided by Mrs. Stapleton to the point where they had found a pathway through the bog.
 On				
 the				
 morning	other	def-np.the	?OLD	
-afterthe				
-death	OBJ_2	def-np	?OLD	
+after				
+the				
+death	other_2	def-np.the	?OLD	
 of				
 the				
 hound	other_3	def-np.the	?OLD	
 the				
-fog	SBJ_5	def-np.the	?OLD	
+fog	SBJ	def-np.the	?OLD	
 had				
 lifted				
 and				
-we	SBJ	pron.pper	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 were				
 guided				
 by				
-Mrs.	other	ne	?OLD	
-Stapletonto				
+Mrs.	other_2	ne	?OLD	
+Stapleton				
+to				
 the				
-point	OBJ	def-np.the	?OLD	
+point	other_2	def-np.the	?OLD	
 where				
-they	SBJ_3	pron.pper	?OLD	
+they	SBJ_4	pron.pper	?OLD	
 had				
 found				
 a				
-pathway	OBJ_3	indef-np.a		
+pathway	OBJ_4	indef-np.a		
 through				
 the				
-bog	other_3	def-np.the	?OLD	
+bog	other_4	def-np.the	?OLD	
 .			
 
-# text = It helped us torealize the horror of this woman's life when we saw the eagerness and joy withwhich she laid us on her husband's track.
+# text = It helped us to realize the horror of this woman's life when we saw the eagerness and joy with which she laid us on her husband's track.
 It	SBJ	pron.pper	?OLD	
 helped				
-us	SBJ_2	pron.pper	?OLD	
-torealize				
+us	OBJ	pron.pper	?OLD	
+to				
+realize				
 the				
 horror	OBJ_2	def-np.poss	?OLD	
 of				
@@ -4377,31 +4559,33 @@ woman	other_4	def-np.dem	?OLD
 's				
 life	other_3	def-np.poss	?OLD	
 when				
-we	SBJ_4	pron.pper	?OLD	
+we	SBJ_3	pron.pper	?OLD	
 saw				
 the				
-eagerness	OBJ_4	def-np.the	?OLD	
+eagerness	OBJ_3	def-np.the	?OLD	
 and				
-joy				
-withwhich	other_5	indef-np.bare		
-she	SBJ_3	pron.pper	?OLD	
+joy	other_4	indef-np.bare		
+with				
+which				
+she	SBJ_4	pron.pper	?OLD	
 laid				
-us	OBJ_3	pron.pper	?OLD	
+us	OBJ_4	pron.pper	?OLD	
 on				
-her	other_5	pron.ppos	?OLD	
-husband	other_4	def-np.poss	?OLD	
+her	other_6	pron.ppos	?OLD	
+husband	other_5	def-np.poss	?OLD	
 's				
-track	other_3	def-np.poss	?OLD	
+track	other_4	def-np.poss	?OLD	
 .			
 
-# text = We left her standing upon the thinpeninsula of firm, peaty soil which tapered out into the widespread bog.
+# text = We left her standing upon the thin peninsula of firm, peaty soil which tapered out into the widespread bog.
 We	SBJ	pron.pper	?OLD	
 left				
 her	OBJ	pron.pper	?OLD	
 standing				
 upon				
 the				
-thinpeninsula	other_2	def-np.the	?OLD	
+thin				
+peninsula	other_2	def-np.the	?OLD	
 of				
 firm	other_3	indef-np.bare		
 ,				
@@ -4416,11 +4600,12 @@ widespread
 bog	other_5	def-np.the	?OLD	
 .			
 
-# text = Fromthe end of it a small wand planted here and there showed where the pathzigzagged from tuft to tuft of rushes among those green-scummed pits and foulquagmires which barred the way to the stranger.
-Fromthe				
+# text = From the end of it a small wand planted here and there showed where the path zigzagged from tuft to tuft of rushes among those green-scummed pits and foul quagmires which barred the way to the stranger.
+From				
+the				
 end	other	def-np.poss	?OLD	
 of				
-it	other	pron.pper	?OLD	
+it	other_2	pron.pper	?OLD	
 a				
 small				
 wand	other	indef-np.a		
@@ -4431,11 +4616,12 @@ there
 showed				
 where				
 the				
-pathzigzagged	SBJ_3	def-np.the	?OLD	
+path	SBJ_3	def-np.the	?OLD	
+zigzagged				
 from				
-tuft	other_4	indef-np.bare		
+tuft	other_5	indef-np.bare		
 to				
-tuft	other_4	indef-np.bare		
+tuft	other_5	indef-np.bare		
 of				
 rushes	other_6	indef-np.bare		
 among				
@@ -4443,39 +4629,42 @@ those
 green				
 _				
 scummed				
-pits	other_5	def-np.dem	?OLD	
+pits	other_4	def-np.dem	?OLD	
 and				
-foulquagmires	other_6	indef-np.bare		
-which	SBJ_8			
+foul				
+quagmires	other_5	indef-np.bare		
+which	SBJ_7			
 barred				
 the				
-way	OBJ_8	def-np.the	?OLD	
+way	OBJ_7	def-np.the	?OLD	
 to				
 the				
-stranger	other_8	def-np.the	?OLD	
+stranger	other_7	def-np.the	?OLD	
 .			
 
-# text = Rank reeds and lush, slimywater-plants sent an odour of decay and a heavy miasmatic vapour onto ourfaces, while a false step plunged us more than once thigh-deep into the dark,quivering mire, which shook for yards in soft undulations around our feet.
+# text = Rank reeds and lush, slimy water-plants sent an odour of decay and a heavy miasmatic vapour onto our faces, while a false step plunged us more than once thigh-deep into the dark, quivering mire, which shook for yards in soft undulations around our feet.
 Rank				
-reeds	other_3	indef-np.bare		
+reeds	OBJ	indef-np.bare		
 and				
-lush	other_4	indef-np.bare		
+lush				
 ,				
-slimywater				
+slimy				
+water				
 _				
-plants	OBJ	indef-np.bare		
+plants	other_2	indef-np.bare		
 sent				
 an				
-odour	OBJ_3	indef-np.a		
+odour	OBJ_4	indef-np.a		
 of				
-decay	other_4	indef-np.bare		
+decay	other_5	indef-np.bare		
 and				
 a				
 heavy				
 miasmatic				
-vapour	other_4	indef-np.a		
+vapour	other_5	indef-np.a		
 onto				
-ourfaces	other_5	indef-np.bare		
+our	other_7	pron.ppos	?OLD	
+faces	other_6	def-np.poss	?OLD	
 ,				
 while				
 a				
@@ -4508,90 +4697,98 @@ our	other_8	pron.ppos	?OLD
 feet	other_7	def-np.poss	?OLD	
 .			
 
-# text = Itstenacious grip plucked at our heels as we walked, and when we sank into it itwas as if some malignant hand was tugging us down into those obscene depths, sogrim and purposeful was the clutch in which it held us.
-Itstenacious				
-grip	SBJ	indef-np.bare		
+# text = Its tenacious grip plucked at our heels as we walked, and when we sank into it it was as if some malignant hand was tugging us down into those obscene depths, so grim and purposeful was the clutch in which it held us.
+It	SBJ	pron.pper	?OLD	
+s				
+tenacious				
+grip	other	indef-np.bare		
 plucked				
 at				
-our	other_4	pron.ppos	?OLD	
-heels	other_3	def-np.poss	?OLD	
+our	other_3	pron.ppos	?OLD	
+heels	other_2	def-np.poss	?OLD	
 as				
-we	SBJ_3	pron.pper	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 walked				
 ,				
 and				
 when				
-we	SBJ_5	pron.pper	?OLD	
+we	SBJ_3	pron.pper	?OLD	
 sank				
 into				
-it	other_5	pron.pper	?OLD	
-itwas				
+it	other_3	pron.pper	?OLD	
+it	SBJ_2	pron.pper	?OLD	
+was				
 as				
 if				
 some				
 malignant				
-hand	SBJ_7	indef-np.quant		
+hand	SBJ_5	indef-np.quant		
 was				
 tugging				
-us	OBJ_7	pron.pper	?OLD	
+us	OBJ_5	pron.pper	?OLD	
 down				
 into				
 those				
 obscene				
-depths	other_7	def-np.dem	?OLD	
+depths	other_5	def-np.dem	?OLD	
 ,				
-sogrim				
+so				
+grim	SBJ_3			
 and				
 purposeful				
 was				
 the				
-clutch	other	def-np.the	?OLD	
+clutch	other_2	def-np.the	?OLD	
 in				
 which				
-it	SBJ_2	pron.pper	?OLD	
+it	SBJ_4	pron.pper	?OLD	
 held				
-us	OBJ_2	pron.pper	?OLD	
+us	OBJ_4	pron.pper	?OLD	
 .			
 
-# text = Once only we saw atrace that someone had passed that perilous way before us.
+# text = Once only we saw a trace that someone had passed that perilous way before us.
 Once				
 only				
 we	SBJ	pron.pper	?OLD	
 saw				
-atrace				
+a				
+trace	OBJ	indef-np.a		
 that				
-someone	SBJ_2	pron.pind		
+someone	SBJ_3	pron.pind		
 had				
 passed				
 that				
 perilous				
-way	OBJ_2	def-np.dem	?OLD	
+way	OBJ_3	def-np.dem	?OLD	
 before				
-us	other_2	pron.pper	?OLD	
+us	other_3	pron.pper	?OLD	
 .			
 
-# text = From amid a tuft ofcotton grass which bore it up out of the slime some dark thing was projecting.Holmes
+# text = From amid a tuft of cotton grass which bore it up out of the slime some dark thing was projecting.
 From				
 amid				
 a				
 tuft	other	indef-np.a		
-ofcotton				
+of				
+cotton				
 grass	other_2	indef-np.bare		
-which	SBJ_2			
+which	SBJ_4			
 bore				
-it	OBJ_2	pron.pper	?OLD	
+it	OBJ_4	pron.pper	?OLD	
 up				
 out				
 of				
 the				
-slime	other_2	def-np.the	?OLD	
+slime	other_4	def-np.the	?OLD	
 some				
 dark				
-thing	SBJ	indef-np.quant		
+thing	SBJ_6	indef-np.quant		
 was				
-projecting.Holmes	other	indef-np.bare	
+projecting				
+.			
 
-# text = sank to his waist as he stepped from the path to seize it, and had wenot been there to drag him out he could never have set his foot upon firm landagain.
+# text = Holmes sank to his waist as he stepped from the path to seize it, and had we not been there to drag him out he could never have set his foot upon firm land again.
+Holmes	SBJ	ne	?OLD	
 sank				
 to				
 his	other_2	pron.ppos	?OLD	
@@ -4604,11 +4801,12 @@ the
 path	other_2	def-np.the	?OLD	
 to				
 seize				
-it	OBJ_4	pron.pper	?OLD	
+it	OBJ_3	pron.pper	?OLD	
 ,				
 and				
 had				
-wenot				
+we	SBJ_2	pron.pper	?OLD	
+not				
 been				
 there	other	pron.padv	?OLD	
 to				
@@ -4624,7 +4822,8 @@ his	other_5	pron.ppos	?OLD
 foot	OBJ_4	def-np.poss	?OLD	
 upon				
 firm				
-landagain	other_4	indef-np.bare		
+land	other_4	indef-np.bare		
+again				
 .			
 
 # text = He held an old black boot in the air.
@@ -4640,7 +4839,7 @@ air	other	def-np.the	?OLD
 .			
 
 --
-# text = "Meyers, Toronto," was printed onthe leather inside.
+# text = \"Meyers, Toronto,\" was printed on the leather inside.
 &quot;				
 Meyers	SBJ	indef-np.bare		
 ,				
@@ -4649,8 +4848,9 @@ Toronto	other_2	ne	?OLD
 &quot;				
 was				
 printed				
-onthe				
-leather	OBJ	def-np	?OLD	
+on				
+the				
+leather	other	def-np.the	?OLD	
 inside				
 .			
 
@@ -4703,7 +4903,7 @@ flight	other_2	def-np.poss	?OLD
 Exactly				
 .			
 
-# text = He retained it in his hand after using it to set the hound upon thetrack.
+# text = He retained it in his hand after using it to set the hound upon the track.
 He	SBJ	pron.pper	?OLD	
 retained				
 it	OBJ	pron.pper	?OLD	
@@ -4718,7 +4918,8 @@ set
 the				
 hound	OBJ_3	def-np.the	?OLD	
 upon				
-thetrack	other_3	indef-np.bare		
+the				
+track	other_3	def-np.the	?OLD	
 .			
 
 # text = He fled when he knew the game was up, still clutching it.
@@ -4737,10 +4938,11 @@ clutching
 it	OBJ_2	pron.pper	?OLD	
 .			
 
-# text = And he hurledit away at this point of his flight.
+# text = And he hurled it away at this point of his flight.
 And				
 he	SBJ	pron.pper	?OLD	
-hurledit				
+hurled				
+it	OBJ	pron.pper	?OLD	
 away				
 at				
 this				
@@ -4751,7 +4953,7 @@ flight	other_2	def-np.poss	?OLD
 .			
 
 --
-# text = We know at least that he came so far insafety.\"
+# text = We know at least that he came so far in safety.\"
 We	SBJ	pron.pper	?OLD	
 know				
 at				
@@ -4761,11 +4963,12 @@ he	SBJ_2	pron.pper	?OLD
 came				
 so				
 far				
-insafety				
+in				
+safety	other_2	indef-np.bare		
 .				
 &quot;			
 
-# text = But more than that we were never destined to know, though there was much whichwe might surmise.
+# text = But more than that we were never destined to know, though there was much which we might surmise.
 But				
 more				
 than				
@@ -4780,13 +4983,14 @@ know
 though				
 there				
 was				
-much	SBJ_2			
-whichwe	SBJ_4	pron.pper	?OLD	
+much				
+which	OBJ_3			
+we	SBJ_3	pron.pper	?OLD	
 might				
 surmise				
 .			
 
-# text = There was no chance of finding footsteps in the mire, for therising mud oozed swiftly in upon them, but as we at last reached firmer groundbeyond the morass we all looked eagerly for them.
+# text = There was no chance of finding footsteps in the mire, for the rising mud oozed swiftly in upon them, but as we at last reached firmer ground beyond the morass we all looked eagerly for them.
 There				
 was				
 no				
@@ -4799,8 +5003,9 @@ the
 mire	other_3	def-np.the	?OLD	
 ,				
 for				
-therising	SBJ_2			
-mud	OBJ_3	indef-np.bare		
+the				
+rising				
+mud	SBJ_2	def-np.the	?OLD	
 oozed				
 swiftly				
 in				
@@ -4813,31 +5018,33 @@ we	SBJ_2	pron.pper	?OLD
 at				
 last				
 reached				
-firmer	other_3	indef-np.bare		
-groundbeyond				
+firmer				
+ground	other_3	indef-np.bare		
+beyond				
 the				
 morass	other_4	def-np.the	?OLD	
-we	SBJ_6	pron.pper	?OLD	
+we	SBJ_2	pron.pper	?OLD	
 all				
 looked				
 eagerly				
 for				
-them	other_6	pron.pper	?OLD	
+them	other_2	pron.pper	?OLD	
 .			
 
-# text = But no slightest sign of themever met our eyes.
+# text = But no slightest sign of them ever met our eyes.
 But				
 no				
 slightest				
-sign	other	indef-np.quant		
+sign	SBJ	def-np.poss	?OLD	
 of				
-themever	SBJ_2	pron.pint		
+them	other_2	pron.pper	?OLD	
+ever				
 met				
-our	other_3	pron.ppos	?OLD	
-eyes	OBJ_2	def-np.poss	?OLD	
+our	other_2	pron.ppos	?OLD	
+eyes	OBJ	def-np.poss	?OLD	
 .			
 
-# text = If the earth told a true story, then Stapleton never reachedthat island of refuge towards which he struggled through the fog upon that lastnight.
+# text = If the earth told a true story, then Stapleton never reached that island of refuge towards which he struggled through the fog upon that last night.
 If				
 the				
 earth	SBJ_2	def-np.the	?OLD	
@@ -4847,25 +5054,27 @@ true
 story	OBJ_2	indef-np.a		
 ,				
 then				
-Stapleton				
+Stapleton	SBJ	ne	?OLD	
 never				
-reachedthat				
-island	other	def-np.dem	?OLD	
+reached				
+that				
+island	OBJ	def-np.dem	?OLD	
 of				
 refuge				
-towards	other	indef-np.bare		
-which	OBJ_3			
-he	SBJ_3	pron.pper	?OLD	
+towards	other_2	indef-np.bare		
+which	OBJ_4			
+he	SBJ_4	pron.pper	?OLD	
 struggled				
 through				
 the				
-fog	other_3	def-np.the	?OLD	
+fog	other_4	def-np.the	?OLD	
 upon				
 that				
-lastnight	other_3	def-np.dem	?OLD	
+last				
+night	other_4	def-np.dem	?OLD	
 .			
 
-# text = Somewhere in the heart of the great Grimpen Mire, down in the foul slimeof the huge morass which had sucked him in, this cold and cruel-hearted man isforever buried.
+# text = Somewhere in the heart of the great Grimpen Mire, down in the foul slime of the huge morass which had sucked him in, this cold and cruel-hearted man is forever buried.
 Somewhere				
 in				
 the				
@@ -4879,8 +5088,9 @@ Mire	other_3	ne	?OLD
 down				
 in				
 the				
-foul	other_2	def-np.the	?OLD	
-slimeof				
+foul				
+slime	other_2	def-np.the	?OLD	
+of				
 the				
 huge				
 morass	other_3	def-np.the	?OLD	
@@ -4897,11 +5107,12 @@ cruel
 _				
 hearted				
 man	SBJ	def-np.dem	?OLD	
-isforever				
+is				
+forever				
 buried				
 .			
 
-# text = Many traces we found of him in the bog-girt island where he had hid his savageally.
+# text = Many traces we found of him in the bog-girt island where he had hid his savage ally.
 Many				
 traces	other	indef-np.quant		
 we	SBJ_2	pron.pper	?OLD	
@@ -4919,10 +5130,11 @@ he	SBJ_4	pron.pper	?OLD
 had				
 hid				
 his	other_5	pron.ppos	?OLD	
-savageally				
+savage	OBJ_4	def-np.poss	?OLD	
+ally				
 .			
 
-# text = A huge driving-wheel and a shaft half-filled with rubbish showed theposition of an abandoned mine.
+# text = A huge driving-wheel and a shaft half-filled with rubbish showed the position of an abandoned mine.
 A				
 huge				
 driving				
@@ -4937,14 +5149,15 @@ filled
 with				
 rubbish	other_3	indef-np.bare		
 showed				
-theposition	OBJ	def-np.poss	?OLD	
+the				
+position	OBJ	def-np.poss	?OLD	
 of				
 an				
 abandoned				
 mine	other_2	pron	?OLD	
 .			
 
-# text = Beside it were the crumbling remains of thecottages of the miners, driven away no doubt by the foul reek of thesurrounding swamp.
+# text = Beside it were the crumbling remains of the cottages of the miners, driven away no doubt by the foul reek of the surrounding swamp.
 Beside				
 it	SBJ	pron.pper	?OLD	
 were				
@@ -4952,7 +5165,8 @@ the
 crumbling				
 remains	other	def-np.the	?OLD	
 of				
-thecottages	other	indef-np.bare		
+the				
+cottages	other	def-np.the	?OLD	
 of				
 the				
 miners	other_2	def-np.the	?OLD	
@@ -4966,11 +5180,12 @@ the
 foul				
 reek	other_3	def-np.the	?OLD	
 of				
-thesurrounding				
-swamp	OBJ_5	indef-np.bare		
+the				
+surrounding				
+swamp	other_4	def-np.the	?OLD	
 .			
 
-# text = In one of these a staple and chain with a quantity of gnawedbones showed where the animal had been confined.
+# text = In one of these a staple and chain with a quantity of gnawed bones showed where the animal had been confined.
 In				
 one	other	def-np.poss	?OLD	
 of				
@@ -4983,7 +5198,8 @@ with
 a				
 quantity	other_3	indef-np.a		
 of				
-gnawedbones	other_4	indef-np.bare		
+gnawed				
+bones	other_4	indef-np.bare		
 showed				
 where				
 the				
@@ -4993,21 +5209,22 @@ been
 confined				
 .			
 
-# text = A skeleton with a tangle ofbrown hair adhering to it lay among the debris.
+# text = A skeleton with a tangle of brown hair adhering to it lay among the debris.
 A				
 skeleton	other	indef-np.a		
 with				
 a				
-tangle				
-ofbrown				
-hair	other	indef-np.a		
+tangle	other	indef-np.a		
+of				
+brown				
+hair	other_2	indef-np.bare		
 adhering				
 to				
-it	SBJ_3	pron.pper	?OLD	
+it	SBJ_5	pron.pper	?OLD	
 lay				
 among				
 the				
-debris	other_3	def-np.the	?OLD	
+debris	other_5	def-np.the	?OLD	
 .			
 
 --
@@ -5034,17 +5251,18 @@ haired
 spaniel	other	indef-np.a		
 .			
 
-# text = Poor Mortimer willnever see his pet again.
+# text = Poor Mortimer will never see his pet again.
 Poor				
 Mortimer	SBJ	indef-np.bare		
-willnever				
+will				
+never				
 see				
 his	other_2	pron.ppos	?OLD	
 pet	OBJ	def-np.poss	?OLD	
 again				
 .			
 
-# text = Well, I do not know that this place contains anysecret which we have not already fathomed.
+# text = Well, I do not know that this place contains any secret which we have not already fathomed.
 Well				
 ,				
 I	SBJ	pron.pper	?OLD	
@@ -5055,7 +5273,8 @@ that
 this				
 place	SBJ_2	def-np.dem	?OLD	
 contains				
-anysecret	OBJ_2	indef-np.bare		
+any				
+secret	OBJ_2	indef-np.a		
 which	OBJ_4			
 we	SBJ_4	pron.pper	?OLD	
 have				
@@ -5064,7 +5283,7 @@ already
 fathomed				
 .			
 
-# text = He could hide his hound, but hecould not hush its voice, and hence came those cries which even in daylightwere not pleasant to hear.
+# text = He could hide his hound, but he could not hush its voice, and hence came those cries which even in daylight were not pleasant to hear.
 He	SBJ	pron.pper	?OLD	
 could				
 hide				
@@ -5072,28 +5291,31 @@ his	other_2	pron.ppos	?OLD
 hound	OBJ	def-np.poss	?OLD	
 ,				
 but				
-hecould				
+he	SBJ_2	pron.pper	?OLD	
+could				
 not				
 hush				
-its	other_3	pron.ppos	?OLD	
-voice	OBJ_2	def-np.poss	?OLD	
+it	OBJ_2	pron.pper	?OLD	
+s				
+voice	OBJ_2	indef-np.bare		
 ,				
 and				
 hence				
 came				
 those				
-cries	OBJ_2	def-np.dem	?OLD	
-which	SBJ_4			
+cries	SBJ_5	def-np.dem	?OLD	
+which	SBJ_7			
 even				
 in				
-daylightwere				
+daylight	other_6	indef-np.bare		
+were				
 not				
 pleasant				
 to				
 hear				
 .			
 
-# text = On an emergency he could keep the hound in theout-house at Merripit, but it was always a risk, and it was only on the supremeday, which he regarded as the end of all his efforts, that he dared do it.
+# text = On an emergency he could keep the hound in the out-house at Merripit, but it was always a risk, and it was only on the supreme day, which he regarded as the end of all his efforts, that he dared do it.
 On				
 an				
 emergency	other	indef-np.a		
@@ -5103,9 +5325,10 @@ keep
 the				
 hound	OBJ	def-np.the	?OLD	
 in				
-theout				
+the				
+out				
 _				
-house	other	indef-np.bare		
+house	other	def-np.the	?OLD	
 at				
 Merripit	other_2	ne	?OLD	
 ,				
@@ -5122,7 +5345,8 @@ was
 only				
 on				
 the				
-supremeday	other	def-np.the	?OLD	
+supreme				
+day	other	def-np.the	?OLD	
 ,				
 which	OBJ_3			
 he	SBJ_3	pron.pper	?OLD	
@@ -5142,25 +5366,27 @@ do
 it	OBJ_3	pron.pper	?OLD	
 .			
 
-# text = Thispaste in the tin is no doubt the luminous mixture with which the creature wasdaubed.
-Thispaste				
+# text = This paste in the tin is no doubt the luminous mixture with which the creature was daubed.
+This				
+paste	SBJ	def-np.dem	?OLD	
 in				
 the				
-tin	other	def-np.the	?OLD	
+tin	other_2	def-np.the	?OLD	
 is				
 no				
 doubt				
 the				
 luminous				
-mixture	OBJ_2	def-np.the	?OLD	
+mixture	other	def-np.the	?OLD	
 with				
 which				
 the				
-creature	SBJ_4	def-np.the	?OLD	
-wasdaubed				
+creature	SBJ_2	def-np.the	?OLD	
+was				
+daubed				
 .			
 
-# text = It was suggested, of course, by the story of the family hell-hound, andby the desire to frighten old Sir Charles to death.
+# text = It was suggested, of course, by the story of the family hell-hound, and by the desire to frighten old Sir Charles to death.
 It	SBJ	pron.pper	?OLD	
 was				
 suggested				
@@ -5178,7 +5404,8 @@ hell
 _				
 hound	other_2	def-np.the	?OLD	
 ,				
-andby				
+and				
+by				
 the				
 desire	other_3	def-np.the	?OLD	
 to				
@@ -5190,49 +5417,52 @@ to
 death	other_5	indef-np.bare		
 .			
 
-# text = No wonder the poor devil ofa convict ran and screamed, even as our friend did, and as we ourselves mighthave done, when he saw such a creature bounding through the darkness of themoor upon his track.
+# text = No wonder the poor devil of a convict ran and screamed, even as our friend did, and as we ourselves might have done, when he saw such a creature bounding through the darkness of the moor upon his track.
 No				
 wonder				
 the				
 poor				
-devil				
-ofa				
-convict	OBJ	def-np.the	?OLD	
+devil	OBJ	def-np.the	?OLD	
+of				
+a				
+convict	other_2	indef-np.a		
 ran				
 and				
 screamed				
 ,				
 even				
 as				
-our	other_4	pron.ppos	?OLD	
-friend	SBJ_3	def-np.poss	?OLD	
+our	other_3	pron.ppos	?OLD	
+friend	SBJ_2	def-np.poss	?OLD	
 did				
 ,				
 and				
 as				
-we	SBJ_5	pron.pper	?OLD	
-ourselves	SBJ_5	pron.pper	?OLD	
-mighthave				
+we	SBJ_3	pron.pper	?OLD	
+ourselves	SBJ_3	pron.pper	?OLD	
+might				
+have				
 done				
 ,				
 when				
-he	SBJ_4	pron.pper	?OLD	
+he	SBJ_2	pron.pper	?OLD	
 saw				
 such				
 a				
-creature	OBJ_4	pron.pds		
+creature	OBJ_2	pron.pds		
 bounding				
 through				
 the				
-darkness	other_6	def-np.the	?OLD	
+darkness	other_4	def-np.the	?OLD	
 of				
-themoor	other_7	indef-np.bare		
+the				
+moor	other_5	def-np.the	?OLD	
 upon				
-his	other_7	pron.ppos	?OLD	
-track	other_6	def-np.poss	?OLD	
+his	other_5	pron.ppos	?OLD	
+track	other_4	def-np.poss	?OLD	
 .			
 
-# text = It was a cunning device, for, apart from the chance ofdriving your victim to his death, what peasant would venture to inquire tooclosely into such a creature should he get sight of it, as many have done, uponthe moor?
+# text = It was a cunning device, for, apart from the chance of driving your victim to his death, what peasant would venture to inquire too closely into such a creature should he get sight of it, as many have done, upon the moor?
 It	SBJ	pron.pper	?OLD	
 was				
 a				
@@ -5244,13 +5474,14 @@ for
 apart				
 from				
 the				
-chance	other_3	def-np.the	?OLD	
-ofdriving				
-your	other_6	pron.ppos	?OLD	
-victim	OBJ_5	def-np.poss	?OLD	
+chance	other	def-np.the	?OLD	
+of				
+driving				
+your	other_4	pron.ppos	?OLD	
+victim	OBJ_3	def-np.poss	?OLD	
 to				
-his	other_6	pron.ppos	?OLD	
-death	other_5	def-np.poss	?OLD	
+his	other_4	pron.ppos	?OLD	
+death	other_3	def-np.poss	?OLD	
 ,				
 what	SBJ_2	pron.pint		
 peasant				
@@ -5258,7 +5489,8 @@ would
 venture				
 to				
 inquire				
-tooclosely				
+too				
+closely				
 into				
 such				
 a				
@@ -5275,12 +5507,13 @@ many	SBJ_3
 have				
 done				
 ,				
-uponthe				
-moor	OBJ_2	def-np	?OLD	
+upon				
+the				
+moor	other_2	def-np.the	?OLD	
 ?			
 
 --
-# text = I said it in London, Watson, and I say it again now, that never yethave we helped to hunt down a more dangerous man than he who is lyingyonder\"—he swept his long arm towards the huge mottled expanse ofgreen-splotched bog which stretched away until it merged into the russet slopesof the moor.
+# text = I said it in London, Watson, and I say it again now, that never yet have we helped to hunt down a more dangerous man than he who is lying yonder\"—he swept his long arm towards the huge mottled expanse of green-splotched bog which stretched away until it merged into the russet slopes of the moor.
 I	SBJ	pron.pper	?OLD	
 said				
 it	OBJ	pron.pper	?OLD	
@@ -5298,7 +5531,8 @@ now
 ,				
 that				
 never				
-yethave				
+yet				
+have				
 we	SBJ_4	pron.pper	?OLD	
 helped				
 to				
@@ -5310,9 +5544,10 @@ dangerous
 man	OBJ_5	indef-np.a		
 than				
 he	SBJ_7	pron.pper	?OLD	
-who	SBJ_9			
+who	SBJ_8			
 is				
-lyingyonder	other_8	indef-np.bare		
+lying				
+yonder	OBJ_7	indef-np.bare		
 &quot;				
 —he	SBJ_7	pron.pper	?OLD	
 swept				
@@ -5323,22 +5558,24 @@ towards
 the				
 huge				
 mottled				
-expanse	other_7	def-np.the	?OLD	
-ofgreen				
+expanse	other_8	def-np.the	?OLD	
+of				
+green				
 _				
 splotched				
-bog	other_8	indef-np.bare		
-which	SBJ_10			
+bog	other_9	indef-np.bare		
+which	SBJ_11			
 stretched				
 away				
 until				
-it	SBJ_11	pron.pper	?OLD	
+it	SBJ_12	pron.pper	?OLD	
 merged				
 into				
 the				
-russet	other_11	def-np.the	?OLD	
-slopesof				
+russet				
+slopes	other_12	def-np.the	?OLD	
+of				
 the				
-moor	other_12	def-np.the	?OLD	
+moor	other_13	def-np.the	?OLD	
 .			
 

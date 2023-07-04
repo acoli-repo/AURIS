@@ -142,9 +142,12 @@ conllu: udpipe txt txt/bibl txt/doyle
 	for lang in $$LANGS; do \
 		for file in txt/$$lang/*.txt; do \
 			if [ ! -e conllu/$$lang ]; then mkdir -p conllu/$$lang ; fi; \
-			echo $$file 1>&2; \
-			udpipe/src/udpipe `find udpipe/models/en/english* | head` --tokenize --tag --parse --output=conllu $$file > conllu/$$lang/`basename $$file | sed s/'.txt$$'//`.conllu;\
-			echo 1>&2;\
+			tgt=conllu/$$lang/`basename $$file | sed s/'.txt$$'//`.conllu;\
+			if [ ! -e $$tgt ] ; then \
+				echo $$file 1>&2; \
+				udpipe/src/udpipe `find udpipe/models/en/english* | head` --tokenize --tag --parse --output=conllu $$file > $$tgt;\
+				echo 1>&2;\
+			fi;\
 		done;\
 	done;\
 
@@ -155,7 +158,8 @@ conll-rdf:
 		#./compile.sh;\
 	fi;
 
-refexp: conllu conll-rdf
+refexp: conll-rdf
+	@make conllu;\
 	cd conllu;\
 	for lang in */; do \
 		lang=`echo $$lang | sed s/'\/'//g;`;\
