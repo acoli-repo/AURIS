@@ -1,8 +1,8 @@
-# 4. Nominal coreference 
+# 2. Nominal coreference 
 
 We annotate referential chains by co-indexing all referring expressions that refer to the same referent.<sub>[1](lit.md#coref1)</sub>
 
-##  4.1 Scope and Aim of Annotation
+## 2.1 Scope and Aim of Annotation
 
 1. assign every referential expressing an index that unambiguously identifies its discourse referent 
 2. annotate antecedents of anaphoric expressions accordingly (regardless of whether these are referring expressions or not)
@@ -13,21 +13,16 @@ Noun phrases, names and pronouns are automatically pre-annotated as markables.
 We annotate every markable with
 - `COREF`: an abbreviation ("index") for the discourse referent (or its absence),
 - `REF`: the type of reference (see below), and
-- `COMMENT`: optional structured or free-text comment indicating uncertainties or design decisions. Note that this column is used for both coreference and following annotations
 
 We do not consider syntactically bound expressions as coreferential with their controller (e.g., predicative nominals in copula sentences, or relative pronouns), as the relationship with the hypothetical antecedent is expressed by syntactic means.
 
-## 4.2 Annotation Procedure
+## 2.2 Annotation Procedure
 
 Annotate all referents in the order that they occur in the text with
 
 1. `COREF` (discourse referent tag): which referent a referring expression refers to, or `_` if the expression is not referential
 
 2. `REF` (referentiality): reference type as defined below
-
-3. `COMMENT` (optional comment): can contain free-text comments as well as ambiguity annotations (see below).
-
-In spreadsheet-based annotations, some of the values for refentiality are automatically suggested (`REF_AUTO`). This may help your decision for the annotation of `REF`, but please make sure to verify that properly.
 
 Follow the following steps (and see below for additional instructions on the annotation of `REF`):
 
@@ -36,19 +31,15 @@ Follow the following steps (and see below for additional instructions on the ann
 - If a markable is not a referring expression, annotate it with an empty index (`_`) and annotate the type of non-reference.
 - If a markable refers to two (or more) distinct, previously mentioned discourse refents ("group reference"), create a new index for the group, followed by `\>` and the comma-separated indices of all discourse referents. Assign it the reference type `GROUP`.
 
-Use the `COMMENT` column to annotate ambiguity and provide comments as needed. If you need to come back to a passage to confirm your annotation, put that into comment, as well.
-
 For every referent, after annotating discourse referent index and referentiality, annotate information status. In the spreadsheet, this is partially automated, but need to be confirmed.
 
-## 4.3 Coreference (`COREF`)
+## 2.3 Coreference (`COREF`)
 
-For annotating coreference, use user-defined abbreviation/mnemnonic/tag that indicates which referent a referring expression refers to, or `_` if the expression is not referential.
+For annotating coreference, use user-defined abbreviation/mnemnonic/tag that indicates which referent a referring expression refers to, or `_` if the expression is not referential. 
 
-> Note: The discourse referent tag, or "index", is an abbreviation that a user should chose at the first mention of the referent. Chains of antecedents and anaphors should all have the same index.	
+> Note: Create abbreviations/mnemnonics as you see fit. If annotating *on paper*, a suitable means of annotation is with numerical indices. In this document, we also use numerical indexes for presentational reasons. Numerical indices are discouraged for annotation on the computer. 
 
-> Note: In this document, we use numerical indexes for presentational reasons. In annotation, create abbreviations/mnemnonics as you see fit. Numerical indices are discouraged in actual annotation. 
-
-### 4.3.1 Substitution Test
+### 2.3.1 Substitution Test
 
 A replacement test can be used to check whether a referential expression e belongs to a chain k: If it is true for every noun s (noun, proper noun) in k, that the replacement of e by s changes the interpretation of the text is not changed, then e belongs to chain k and a coreference relation to the last element of the chain is to be annotated.
 
@@ -65,7 +56,7 @@ Note that this test has some issues with metonymy, i.e., substituting a word for
 
 In (1), *\[Gemeinderat\]* could be considered coreferent with *\[Radewege\]<sub>1</sub>*. Yet, although both are exchangeable by means of metonymy, the substitution test fails for *\[Radewege\]<sub>1</sub>* , since *neu gestaltete Gemeinderatsablage* is not appropriate *in that context*. Accordingly, *\[Gemeinderat\]* should receive a separate index.
 
-### 4.3.2 Event Anaphor
+### 2.3.2 Event Anaphor
 
 Pronominal event anaphors are annotated along with their antecents. 
 
@@ -75,82 +66,11 @@ The antecedent of an event anaphor is normally a sentence, a clause or verb phra
 
 Note that antecedents of event anaphors are not automatically pre-annotated but have to be manually created.
 
-## 4.4 Ambiguity
-
-Ambiguity can be annotated on demand in the `COMMENT` column.
-
-### 4.4.1 Dealing with  Ambiguous Antecedents
-
-The assignment of an antecedent will be fairly straightforward in most cases. However, it is possible that several interpretations are *equally* plausible in the eyes of the annotator. Consider ex. (3):
-
-> (3) *Je kleiner die <ins>Kicker</ins><sub>2,OLD,AMBIG:COREF(2,1)</sub> daherkommen, desto größer wird der <ins>Gegner</ins><sub>1,OLD,AMBIG:COREF(1,2)</sub> geredet\...* (German, maz-10374)
->       "The smaller the kickers appear, the greater \[the rivals\]<sub>d?/u?</sub> are rumoured to be." (PCC, 10374)
-
-Antecedent of die Kicker "kickers" depends on the understanding of the "size" metaphor, it can be either the Ukrainian team (presented as having short players), or the German team (which has not been favored in the first match), or a generic description (which would mean that the sentence is not directly linked with the discourse). 
-
-If different interpretations are equally possible, apply the following disambiguation preferences in the following order:
-
-- prefer anaphoric interpretation to antecedentless one
-- for antecedents, prefer a primary markable (`REF_AUTO=?OLD`, `REF=OLD`, etc.) over a secondary markable (no `REF_AUTO`, `REF=NEW`, etc.) or a group reference
-- prefer a discourse referent that is more frequently mentioned in preceding discourse
-- if several discourse referents are equally frequent, prefer the last mentioned discourse referent
-
-For the example, the generic reading is excluded by the first preference.
-However, we still have the choice between two possible antecedents. The substitution test (see above) fails to determine a unique antecedent, as both possible substitutions are plausible, depending on whether "size" refers to physical size or anticipated defeat. 
-The second and third criteria are designed to produce longer anaphoric chains. They result in a preference for the German team as the antecedent of die Kicker.
-
-In annotation, then, **mark the ambiguity** (in `COMMENT`)
-
-### 4.4.2 Types of Ambiguity
-
-Ambiguity is to be annotated in the `COMMENT` field, using pre-defined tags (if applicable) or plain text descriptions (otherwise). Optionally, ambiguity tags can be followed by a more detailed description in round parentheses `(...)`.
-
-The following tags can be used to mark ambiguous 
-
-1. `AMBIG:COREF` (ambiguous antecedent):<sup>[7](lit.md#coref7)</sup> There is uncertainty as to which is the \"right\" antecedent for an anaphor (or, controller for a cataphor). See above for antecedent selection preferences, provide referent index for all equally likely antecedents in round parentheses
-
-	> (4) *In a letter, \[prosecutors\]<sub>p</sub> told \[Mr. Antar's lawyers\]<sub>l</sub> that because of the recent Supreme Court rulings, \[they\]<sub>p/l</sub>*<sub>?</sub> *could expect that any fees collected from Mr. Antar may be seized.*
-
-2. `AMBIG:REL`: There is uncertainty as to whether an anaphoric relation exists or which type it is (anaphoric vs. bridging or event, i.e. contextual inference)
-
-	This is sometimes the case with definite NPs. In the example below: If it is unclear whether the *confrontation* is identical to the *conflict*, the coreference should be annotated and the markable should be marked with this attribute. It is not necessary to provide a more detailed description.
-
-	> (5) *This <ins>conflict</ins> is ... Therefore, the <ins>confrontation</ins> ...*
-
-3. `AMBIG:IDIOM`: There is uncertainty as to whether a markable could be understood as a referential expression or as part of an idiom. Annotate anaphoric reading and mark the ambiguity.
-
-4. `AMBIG:EXPL`: There is uncertainty as to whether a pronoun is an expletive (and therefore non-referring) or whether it is anaphoric. Annotate the anaphoric relations and mark the ambiguity. No description necessary.
-
-	> (6) *At stake was an \$80,000 settlement involving who should pay what share of cleanup costs at the site of a former gas station, where underground fuel tanks had leaked and contaminated the soil. And the lawyers were just as eager as the judge to wrap \[it\] up.*
-
-	*It* can either be interpreted as referring to *an \$80,000 settlement* or as a part of a lexicalized expression *to wrap it up* where *it* does not have any particular reference. 
-
-	This can be made clearer with a constructed example:
-
-	> (7.a) *She looks out of the window. <ins>It</ins><sub>EXPL</sub> is dark.* (expletive)
-	
-	> (7.b) *Your <ins>cat</ins><sub>1</sub> has a nice color. <ins>It</ins><sub>1</sub> is dark, much more so than mine.* (anaphoric)
-	
-	> (7.c) *The <ins>cat</ins><sub>1</sub> is hard to see. <ins>It</ins><sub>1,AMBIG:EXPL</sub> is dark.* (ambiguous)
-
-5. `AMBIG:COREF_REL`: There is ambiguity with respect to both antecedent and relation
-
-	> (8) "There seems to be a move around the world to deregulate the genera- tion of electricity," Mr. Richardson said, and Canadian Utilities hopes to capitalize on it.
-
-	*On it* refers either to *a move around the world to deregulate the generation of electricity*, or to the whole clause beginning with
-	*there* and ending with *electricity* (event anaphora).
-
-6. `AMBIG:other`: other cases of ambiguity. Please provide a description in round parentheses.
-
-If more than one kind of ambiguity applies, e.g., both ambiguity of antecedent and ambiguity of an anaphoric relation, then provide all of the corresponding tags (and descriptions), separated by comma.
-
-## 4.5 Referentiality (`REF`)
+## 2.4 Referentiality
 
 Every markable that is not assigned an antecedent is to be annotated for referentiality. 
 
 In spreadsheet-based annotations, some of the values are automatically suggested in `REF_AUTO`. Please make sure to verify all of them. Automated pre-annotation generates the value `?OLD` for all candidate anaphors ("primary markables") and, optionally, `?NEW` for all other candidate referring expressions ("secondary markables"). 
-
-> **To be confirmed**: These values need to be manually replaced by the annotator. An annotation project that still contains `?OLD` or `?NEW` annotations will be considered incomplete and must not be further processed.
 
 1. `OLD`: A unit of discourse that can be interpreted based on the preceding context ("discourse-old").<sup>[2](lit.md#coref2)</sup>
 
@@ -236,7 +156,7 @@ In spreadsheet-based annotations, some of the values are automatically suggested
 
 	> (15) *I didn\'t buy \[a new car\]<sub>NM</sub> after all.*
 
-## 4.6 Example
+## 2.7 Example
 
 > (16.a) *\[Die einstige <ins>Fußball-Weltmacht</ins>\]<sub>1,CAT</sub> zittert \[vor einem <ins>Winzling</ins>\]<sub>2,CAT,AMBIG(2,6)</sub>.*
 >      "\[The former football World Power\]<sub>d</sub> is shivering \[in the face of a mite\]<sub>s</sub>."
@@ -249,9 +169,9 @@ In spreadsheet-based annotations, some of the values are automatically suggested
 
 Note that here, the antecedent of die Kicker "kickers" depends on the understanding of the "size" metaphor, it can be either the Ukrainian team (presented as having short players), or the German team (which has not been favored in the first match), or a generic description (which would mean that the sentence is not directly linked with the discourse).
 
-## 4.6 Trouble Shooting
+## 2.8 Trouble Shooting
 
-### 4.6.1 Recurring Group Reference
+### 2.8.1 Recurring Group Reference
 
 Here is a very compact, constructed example:
 
@@ -263,7 +183,7 @@ Here is a very compact, constructed example:
 
 When annotating *They*, note that this group has been previously established. For this reason, we do *not* refer to the second respective mentions of *Peter* and *Malte*, but instead to the previously established index for the group introduced when annotating *Both*.
 
-### 4.6.2 Quantified NPs
+### 2.8.2 Quantified NPs
 
 Quantified expressions are either `OLD`/`GROUP` or `NEW`:
 
@@ -276,7 +196,7 @@ Leaving the first two cases aside, a substitution substitution test helps with t
 
 > (18) *people* −→ *all these people* → definite description −→ referential
 
-### 4.6.3 Pronominal Adverbs
+### 2.8.3 Pronominal Adverbs
 
 Depending on context, some words can be either referring expressions or not. This may be automatically pre-annotated, but must be marked as non-referring in their referentiality annotation (see above).
 
@@ -286,7 +206,7 @@ A notorious problem in German is the annotation of pronominal adverbs such as *d
 
 > (19.b) *\[<ins>Ich</ins>\]<sub>PM</sub> habe \[<ins>dir</ins>\]<sub>PM</sub> \[den <ins>Brief</ins>\]<sub>PM</sub> gezeigt, damit \[<ins>du</ins>\]<sub>PM</sub> bescheid weißt.* (German, non-referential *damit" "so that")
 
-### 4.6.4 Relative Possessive Pronouns
+### 2.8.4 Relative Possessive Pronouns
 
 Relative pronouns are syntactically bound and not to be annotated, but relative posessive pronouns in possessive constructions are
 treated as possessive pronouns. 
@@ -297,11 +217,11 @@ treated as possessive pronouns.
 
 > (20.b) *Und so schielten \[die Israelis\] \[nach Washington, das/welches \[sie\]* *wirtschaftlich stützt\].*
 
-### 4.6.5 Cataphora
+### 2.8.5 Cataphora
 
 We distinguish two types of forward-referring expressions, discourse cataphora and syntactic cataphora.
 
-#### 4.6.5.1 Discourse Cataphora (Anaphora of Anticipation)
+#### 2.8.5.1 Discourse Cataphora (Anaphora of Anticipation)
 
 Discourse cataphora is a label used for non-pronominal reference forward. Sometimes an author introduces a discourse referent by means of an underspecified NP, i.e. an NP that cannot be interpreted only on the basis of the reader's knowledge up to this point. This way the author tries to encourage the reader to continue reading, in order to catch up the missing information. In the example below, *die einstige
 Fußball-Weltmacht* and *vor einem Winzling* should be annotated as discourse cataphors, since their referents cannot be identified until introduced explicitly in the following text (*Deutschland* and
@@ -311,7 +231,7 @@ Fußball-Weltmacht* and *vor einem Winzling* should be annotated as discourse ca
 
 In case one goes on reading the text, it becomes clear that *die einstige Fußball-Weltmacht* refers to Germany, whereas *ein Winzling* refers either to the Ukraine or the 1.62 meter tall ukranian footballer who made the most impact in the match ^5^. Discourse cataphors have to be annotated as normal anaphors, i.e. in accordance with the Chain Principle (p. 12), i.e. the most recent referent mention to the left (if any) is considered to be an antecedent.
 
-#### 4.6.5.2 Syntactic cataphora
+#### 2.8.5.2 Syntactic cataphora
 
 > (22) *Through \[his\] lawyers, \[Mr. Antar\] has denied allegations in the SEC suit \...* (WSJ)
 
