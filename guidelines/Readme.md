@@ -10,3 +10,7 @@ For a stable version, a release with a specific date must be created, e.g., `v.0
 The current draft version is under `draft/`.
 
 Annotators should use the latest, non-draft version, and mark **explicitly** in the metadata which version they refer to.
+
+## Discourse extension
+
+Draft under `discourse-extension/`. Currently not integrated with the annotation manual because it requires sentence-level annotation, not word-level annotation.
