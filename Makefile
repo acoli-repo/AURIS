@@ -30,7 +30,6 @@ discourse: conllu conll-rdf rdf4discourse
 				-updates ../sparql/discourse3.sparql \
 			| $$TIMEOUT ../conll-rdf/run.sh CoNLLRDFFormatter -query ../sparql/discourse4.sparql \
 			| egrep '^[0-9]' \
-			| 
 			| tee $$tgt;\
 		done > ../discourse/$$lang.tsv;\
 	done;
