@@ -1,0 +1,118 @@
+PREFIX conll: <http://ufal.mff.cuni.cz/conll2009-st/task-description.html#> 
+PREFIX nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> 
+PREFIX powla: <http://purl.org/powla/powla.owl#> 
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX terms: <http://purl.org/acoli/open-ie/> 
+PREFIX x:     <http://purl.org/acoli/conll-rdf/xml#> 
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+
+# produces nif:Sentence a with conll:DISCOURSE_MARKER
+
+################################################
+# aggregate excerpt phrases of depth up to two #
+################################################
+
+INSERT { ?w conll:PHRASE ?phrase }
+WHERE {
+	{ SELECT ?w (GROUP_CONCAT(?word; separator=" ") as ?phrase)
+		WHERE {
+			?w a nif:Word.
+			?first ((conll:HEAD?)/conll:HEAD)? ?w.
+			MINUS { ?w a nif:Word.
+					?first ((conll:HEAD?)/conll:HEAD)? ?w.
+					[ ((conll:HEAD?)/conll:HEAD)? ?w ] nif:nextWord+ ?first }
+			?first nif:nextWord* ?tmp.
+			?tmp ((conll:HEAD?)/conll:HEAD)? ?w.
+			?tmp conll:FORM ?word.
+		} GROUP BY ?w
+	}
+};
+
+##########################
+# find discourse markers #
+##########################
+# find the highest discourse marker candidate on the conll:NUC axis
+
+# identify discourse marker candidates (using the conll:PHRASE nodes established above)
+# (from DimLex)
+INSERT { ?marker conll:DISCOURSE_MARKER ?mlemma }
+WHERE { ?marker conll:PHRASE ?phrase .
+	GRAPH <http://purl.org/acoli/dimlex> {
+		[] ontolex:writtenRep ?orig.
+		BIND(concat(" ",lcase(str(?orig))," ") as ?wrep)
+	}
+	FILTER(contains(concat(" ",lcase(?phrase)," "),?wrep))
+	bind(str(?orig) as ?mlemma)
+};
+
+INSERT { ?marker conll:DISCOURSE_MARKER ?mlemma }
+WHERE { ?marker conll:LEMMA|conll:FORM ?mlemma .
+	GRAPH <http://purl.org/acoli/dimlex> {
+		[] ontolex:writtenRep ?wRep.
+		BIND(str(?wRep) as ?mlemma)
+	}
+};
+
+# keep the longer discourse marker
+DELETE { ?marker conll:DISCOURSE_MARKER ?short }
+WHERE { ?marker conll:DISCOURSE_MARKER ?short, ?long
+	FILTER(strlen(?long)>strlen(?short))
+};
+
+# keep the alphabetically first discourse marker
+DELETE { ?marker conll:DISCOURSE_MARKER ?second }
+WHERE { ?marker conll:DISCOURSE_MARKER ?first, ?second
+	FILTER(?first > ?second)
+};
+
+# (from EDGE)
+INSERT { ?marker conll:DISCOURSE_MARKER ?mlemma }
+WHERE { ?marker conll:EDGE ?medge.
+		FILTER(?medge in ("cc","mark","discourse","case")) # "advmod": too generic
+		?marker conll:LEMMA ?mlemma.
+		MINUS { ?marker conll:DISCOURSE_MARKER [] }
+};
+
+# (from POS)
+INSERT { ?marker conll:DISCOURSE_MARKER ?mlemma }
+WHERE { ?marker conll:UPOS ?mpos.
+		FILTER(?mpos in ("SCONJ","CCONJ","CONJ")) # "ADV": too generic
+		?marker conll:LEMMA ?mlemma.
+		MINUS { ?marker conll:DISCOURSE_MARKER [] }
+};
+
+# keep the first, only
+DELETE { ?w conll:DISCOURSE_MARKER ?dm }
+WHERE { ?v conll:DISCOURSE_MARKER [].
+		?v conll:HEAD/^conll:HEAD ?w .
+	    ?v nif:nextWord+ ?w.
+	    ?w conll:DISCOURSE_MARKER ?dm.
+};
+
+# move discourse marker one level up
+DELETE { ?w conll:DISCOURSE_MARKER ?dm }
+INSERT { ?h conll:DISCOURSE_MARKER ?dm }
+WHERE { ?w conll:HEAD ?h.
+	    ?w conll:DISCOURSE_MARKER ?dm.
+};
+
+# delete discourse markers that are not applied to a NUC
+DELETE { ?w conll:DISCOURSE_MARKER ?dm }
+WHERE { ?w conll:DISCOURSE_MARKER ?dm.
+		MINUS { ?w conll:NUC [] }
+};
+
+# keep the highest discourse marker only
+DELETE { ?w conll:DISCOURSE_MARKER ?dm }
+WHERE {  ?w conll:DISCOURSE_MARKER ?dm. 
+		 ?w conll:HEAD+/conll:DISCOURSE_MARKER [] .
+};
+
+# move discourse marker to sentence
+DELETE { ?w conll:DISCOURSE_MARKER ?dm }
+INSERT { ?w conll:DISCOURSE_MARKER ?dm }
+WHERE { ?w conll:DISCOURSE_MARKER ?dm.
+		?w conll:HEAD+ ?s.
+		?s a nif:Sentence.
+};

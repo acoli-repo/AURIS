@@ -1,6 +1,39 @@
 SHELL=bash
 
-all: conllu refexp
+all: conllu refexp discourse
+
+rdf4discourse:
+	if [ ! -e rdf4discourse ]; then \
+		git clone https://github.com/acoli-repo/rdf4discourse;\
+	fi;
+
+discourse: conllu conll-rdf rdf4discourse
+	@if [ ! -e discourse ]; then mkdir discourse; fi
+	@cd conllu;\
+	TIMEOUT="nice timeout --preserve-status 2h ";\
+	for lang in */; do \
+		lang=`echo $$lang | sed s/'\/'//g;`;\
+		dimlex=`ls -l ../rdf4discourse/discourse-markers/linked/$$lang/*.ttl | sort -n -k 4 | head -n 1 | sed s/'.* '//g;`;\
+		for file in `find $$lang | grep 'conllu$$'`; do \
+			echo $$file 1>&2; \
+			tgt=../discourse/`echo $$file | sed s/'\.conllu$$'//`.tsv;\
+			tgtdir=`dirname $$tgt`;\
+			if [ ! -e $$tgtdir ]; then mkdir -p $$tgtdir; fi;\
+			cat $$file \
+			| $$TIMEOUT ../conll-rdf/run.sh CoNLLStreamExtractor \
+				'file://conllu/'$$file'#' \
+				ID FORM LEMMA UPOS XPOS FEATS HEAD EDGE DEPS MISC \
+				-u ../sparql/discourse1.$$lang.sparql \
+			| $$TIMEOUT ../conll-rdf/run.sh CoNLLRDFUpdater -custom -model $$dimlex "http://purl.org/acoli/dimlex" \
+				-updates ../sparql/discourse2_new.sparql \
+			| $$TIMEOUT ../conll-rdf/run.sh CoNLLRDFUpdater -custom \
+				-updates ../sparql/discourse3.sparql \
+			| $$TIMEOUT ../conll-rdf/run.sh CoNLLRDFFormatter -query ../sparql/discourse4.sparql \
+			| egrep '^[0-9]' \
+			| 
+			| tee $$tgt;\
+		done > ../discourse/$$lang.tsv;\
+	done;
 
 udpipe:
 	if [ ! -e udpipe ]; then echo install UDPipe v.1.0 in `pwd`/udpipe 1>&2; exit 1; fi;
