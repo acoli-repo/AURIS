@@ -142,7 +142,7 @@ See the list of diagnostic markers in the appendix
 
 ## Relations
 
-> Note: ISO 24617-8 has been heavily criticized for being poorly defined (e.g., by Żurowski et al. 2023). We provide operationalizable definitions by exploiting the correspondence with established RST, SDRT and PDTB definitions as given by proponents of ISO SemAF.
+> Note: ISO 24617-8 has been heavily criticized for being poorly defined (e.g., by Żurowski et al. 2023). We provide operationalizable definitions by exploiting the correspondence with established RST, SDRT and PDTB definitions as given by proponents of ISO SemAF. These definitions are primarily based on PDTB 2.0.
 
 For asymmetric relations, we annotate the ISO SemAF role of the internal argument. For symmetric relations, we annotate the ISO SemAF relation at the second argument.
 
