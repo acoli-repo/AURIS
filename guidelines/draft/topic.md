@@ -2,6 +2,11 @@
 
 We provide a partial annotation of information structure, only, by focusing on information status and familiarity topics. As for the latter, we adopt the approach and the terminology of Centering Theory, and thus speak of "backward-looking center" (CB)
 
+The topic of an utterance is defined the entity (referent) that the utterance is construed about. Traditionally, two cases are distinguished:
+- **aboutness topic**: an entity in the current utterance about which the speaker wanted to provide more information.
+- **familiarity topic**: the entity of the current utterance that is closest to the focus (or center) of attention (in the sense of Gundel et al. 1993), thus most likely to be the entity that the current sentence is about
+
+The direct annotation of aboutness topics is notoriously difficult, so that we resort to the annotation of (a specific operationalization of) familiarity topics, instead.
 
 ### 6.1 Familiarity Topic: Backward-Looking Center (`CB`)
 
@@ -58,3 +63,21 @@ Selected CB examples:
     > (5.a) *It was a store **John** had frequented for many years.*
     
     > (5.b) *<ins>He</ins> was excited that he could finally buy a piano.*
+
+# 6.2 Topic Continuity: Centering Transitions (`Centering`)
+
+Centering defines coherence relations that hold between utterance *U_i* and the preceding utterance *U_i-1*, resp., their backward-looking centers *CB(U_i)* and *CB(U_i-1)*.
+Based on the identification of the backward-looking center, Centering Theory distinguishes four primary types of transitions between utterances:
+
+- If the current utterance has no backward-looking center, annotate `NO-CB`
+- If the backward-looking center of the preceding utterance is the same as the backward-looking center of the current utterance
+    - If the backward-looking center is the subject of the main clause of *U_i*, then annotate `CONTINUE`
+    - It the backward-looking center is not the subject of the main clause of *U_i*, then annotate `RETAIN`
+- If the backward-looking center of the preceding utterance is not the same as the backward-looking center of the current utterance
+    - Annotate `SHIFT`
+
+Centering Theory then predicts that `CONTINUE` relations are more coherence than `RETAIN` than `SHIFT`.
+
+Our texts are most written language, and sometimes the flow of utterances is interrupted by comments (e.g., "(Laughter.)", written as a sentence in a transcript) or metadata (e.g., headlines). Therefore, in cases in which the preceding utterance does not carry `CB` annotation, we consider the latest preceding utterance with a `CB`, instead. However, the centering transition is to be annotated in round brackets, then.
+
+> Note: In our framework, Centering transitions are automatically induced from `CB` annotation. So, this is not to be manually annotated. 7
