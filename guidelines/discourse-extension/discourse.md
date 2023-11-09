@@ -92,7 +92,7 @@ Annotate the current sentence with the implicit discourse marker [HOW?]. The cur
 
 NB: maybe change terminology: instead of external argument, we speak about SOURCE and TARGET of relation? or about UTTERANCE and ANCHOR? This would make sense because we aim to annotate every utterance. 
 
-> Note: Our approach on argument identification follows the Penn Discourse Treebank. Our internal argument corresponds to the PDTB ARG1, our external argument corresponds to the PDTB ARG0. There is no systematic relation between internal and extenal arguments and ARG0 and ARG1 as defined in ISO SemAF.
+> Note: Our approach on argument identification follows the Penn Discourse Treebank. Our internal argument corresponds to the PDTB ARG2, our external argument corresponds to the PDTB ARG1. There is no systematic relation between internal and extenal arguments and ARG1 and ARG2 as defined in ISO SemAF.
 
 ## Pre-Annotation
 
@@ -121,14 +121,91 @@ For every sentence, discourse markers are heuristically identified as follows:
 
 However, not every candidate discourse marker is an actual discourse marker (e.g., the prepositions "for" and "to"), and not every discourse marker applies to the sentence level (it could also connect clauses within a sentence). Thus, automated discourse marker identification is to be taken with a grain of salt, and automatically identified discourse markers are to be verified first, before being used in annotation.
 
+For automated discourse marker identification, we largely follow discourse marker lists provided by PDTB2.
 
-## Manual discourse marker annotation
+## Manual annotation of explicit discourse markers
 
 We distinguish two primary kinds of discourse markers: 
 - explicit discourse markers are stated in the text. annotators should write them as plain strings.
 - implicit discourse markers are not stated in the text. annotators should write them in round brackets.
 
+Following Prasad et al. (2007), explicit discourse markers are drawn from the following grammatical classes:
+
+- adverbials (ADVP and PP, e.g., however, otherwise, then, as a result, for example)
+
+	- (12) Working Woman, with circulation near one million, and Working Mother, with 625,000 circulation, are legitimate magazine success stories. The magazine Success, **however**, was for years lackluster and unfocused. (PDTB2, 1903)
+
+	- (13) In the past, the socialist policies of the government strictly limited the size of new steel mills, petrochemical plants, car factories and other industrial concerns to conserve resources and restrict the profits businessmen could make. As a result, industry operated out of small, expensive, highly inefficient industrial units. (PDTB2, 0629)
+
+	- (39) Such problems will require considerable skill to resolve. **However**, neither Mr. Baum nor Mr. Harper has much international experience. (PDTB2, 0109)
+
+	- DO NOT ANNOTATE adverbials modifying clauses other than the main predicate:
+
+		- (33) Polyvinyl chloride capacity “has overtaken demand and we are experiencing reduced profit margins **as a result**”, ... (PDTB2, 2083)
+
+		In line with Universal Dependency syntax, the clause connected with the conjunction _and_ is syntactically analyzed as a dependent of the first clause. It does thus not carry the main predicate.
+
+- coordinating conjunctions (e.g., and, or, nor), but only if attached to the main predicate of an utterance.
+	
+	- (11) The report offered new evidence that the nation’s export growth, though still continuing, may be slowing. Only 19% of the purchasing managers reported better export orders in October, down from 27% in September. **And** 8% said export orders were down last month, compared with 6% the month before. (PDTB2, 0036)
+
+	- (38) Metropolitan Houston’s population has held steady over the past six years. And personal income, after slumping in the mid-1980s, has returned to its 1982 level in real dollar terms. (PDTB2, 2444)
+
+	- DO NOT ANNOTATE
+
+		- (10) The House has voted to raise the ceiling to $3.1 trillion, **but** the Senate isn’t expected to act until next week at the earliest. (PDTB2, 0008)
+
+		- (i) More common chrysotile fibers are curly **and** are more easily rejected by the body, Dr. Mossman explained. (PDTB2, 0003)
+
+- subordinating conjunctions (e.g., because, when, since, although), but only if attached to the main predicate of an utterance:
+		
+	- (37) Why do local real-estate markets overreact to regional economic cycles? **Because** real-estate purchases and leases are such major long-term commitments that most companies and individuals make these decisions only when confident of future economic stability and growth. (PDTB2, 2444)
+
+	- This is expected to occur rarely.
+
+	- DO NOT ANNOTATE
+
+		- (8) **Since** McDonald’s menu prices rose this year, the actual decline may have been more. (PDTB2, 1280)
+
+		- (9) The federal government suspended sales of U.S. savings bonds **because** Congress hasn’t lifted the ceiling on government debt. (PDTB2, 0008)
+
+	> Note: Differently from PDTB, annotate subordinating conjunctions only if they apply to the main predicate of the sentence.
+
+The position of connectives in the utterance they modify is restricted to initial position for subordinating and coordinating conjunctions, but adverbials may also occur medially (or finally):
+
+	- (31) Despite the economic slowdown, there are few clear signs that growth is coming to a halt. **As a result**, Fed officials may be divided over whether to ease credit. (PDTB2, 0072)
+
+	- (32) The chief culprits, he says, are big companies and business groups that buy huge amounts of land “not for their corporate use, but for resale at huge profit.” . . . The Ministry of Finance, **as a result**, has proposed a series of measures that would restrict business investment in real estate . . . (PDTB2, 0761)
+
+In line with Prasad et al. (2007), adverbials that do not denote relations between two utterances have not been annotated as discourse connectives. Interjections such as _well_ and focus markers such as _anyway_ or _now_, etc. are only to be annotated if they establish a relation between two utterances, not if they serve to indicate dialog act, organizational or focus structure of the discourse. Likewise, clausal adverbials such as _strangely_, _probably_, _frankly_, _in all likelihood_ etc. are not annotated as discourse connectives since they take a single utterance as argument.
+	
+	> Note: As a temporal expression, _now_ can be annotated if it serves to establish a comparison between an earlier (or a future) state and the current situation. 
+
+Not all tokens of words and phrases that can serve as discourse markers actually do so: Some tokens can also serve other functions, e.g., _for_ can be a causal discourse marker (and then, be substituted with _because_), but also serve as a preposition indicating the beneficiary of an action. EXAMPLES. Likewise, discourse markers that serve to connect parts of the same utterance are beyond the scope of AURIS. Such expressions are not annotated as discourse connectives.
+
 Because of the uncertainties of automated pre-annotation for discourse markers, automatically identified discourse markers are always marked by a question mark. To confirm a discourse marker, annotators should remove the question mark. Discourse markers with question marks are considered an error.
+
+## Annotation of implicit discourse markers
+
+If an utterance does not feature an explicit discourse marker, annotators should try to test whether an explicit discourse marker could be inserted (using a list of lexically-defined explicit connectives, following the order of discourse markers as given on that list):
+
+1. check whether the preceding utterance could be an anchor
+	1. by inserting the first discourse marker on the list, if that fails
+	2. by inserting the second discourse marker, etc.
+	3. if both utterances are connected by a coherence relation between two referring expressions, insert no marker, but annotate EntRel
+2. if no discourse marker could be inserted, test the preceding utterance
+	1. using the same procedure
+3. iterate until an anchor and an implicit discourse marker have been found or no possible anchor can be expected anymore (e.g., because the text deals with different topics)
+
+Prasad et al. 2007: "In Example (68), a causal relation is inferred between raising cash positions to record levels and high cash positions helping to buffer a fund, even though no Explicit connective appears in the text to express this relation. Similarly, in Example (69), a consequence relation is inferred between the increase in the number of rooms and the increase in the number of jobs, though no Explicit connective expresses this relation."
+
+	- (68) Several leveraged funds don’t want to cut the amount they borrow because it would slash the income they pay shareholders, fund officials said. But a few funds have taken other defensive steps. Some have raised their cash positions to record levels. **[Implicit = because]** High cash positions help buffer a fund when the market falls. (PDTB2, 0983)
+
+	- (69) The projects already under construction will increase Las Vegas’s supply of hotel rooms by 11,795, or nearly 20%, to 75,500. **[Implicit = so]** By a rule of thumb of 1.5 new jobs for each new hotel room, Clark County will have nearly 18,000 new jobs. (PDTB2, 0994)
+
+> Note: Unlike PDTB2, the annotation of implicit relations is not limited to adjacent utterances.
+
+## Alternative lexicalizations
 
 Many researchers distinguish discourse markers and alternative lexicalizations, i.e., a phrasal expression that conveys the meaning of a discourse marker that could be used in its place in a more or less equivalent way (e.g., "This observation leads us to conclude that ..." in place of "Thus, ..."). If such phrases are no longer than 5 words, annotators should annotate such phrases as explicit discourse markers. If such phrases are longer than 5 words, proceed as follows:
 
@@ -140,14 +217,19 @@ If the discourse marker you provided could also be used *in addition to* the alt
 
 See the list of diagnostic markers in the appendix
 
+> Note: We annotate at most one discourse marker per sentence. If multiple discourse markers apply, this defaults to the first discourse marker.
+
 ## Relations
 
-> Note: ISO 24617-8 has been heavily criticized for being poorly defined (e.g., by Żurowski et al. 2023). We provide operationalizable definitions by exploiting the correspondence with established RST, SDRT and PDTB definitions as given by proponents of ISO SemAF. These definitions are primarily based on PDTB 2.0.
+> Note: ISO 24617-8 has been heavily criticized for being poorly defined (e.g., by Żurowski et al. 2023). We provide operationalizable definitions by exploiting the correspondence with established RST, SDRT and PDTB definitions as given by proponents of ISO SemAF. These definitions are primarily based on PDTB 2.0 (Prasad et al. 2007).
 
 For asymmetric relations, we annotate the ISO SemAF role of the internal argument. For symmetric relations, we annotate the ISO SemAF relation at the second argument.
 
 - **CAUSE**
 	- **Reason**: In a `CAUSE` relation, the `Reason` provides a reason for the `Result` to come about or occur. (Bunt & Prasad 2016)
+		- cf. PDTB Reason
+		- cf. PDTB Justification
+
 		- cf. RST Vol. cause, Non-vol. cause, Evidence, Justify
 		- cf. RSTDTB Cause, Evidence, Explanation-argumentation, Reason
 		- cf. SDRT Explanation (DISCOR Explanation, ANNODIS Explanation)
@@ -280,6 +362,39 @@ For asymmetric relations, we annotate the ISO SemAF role of the internal argumen
 
 	- P1: I can never find my remote control.	P2: That’s [because] they don’t have a fixed place.		(Reason, not Inform, from Butt & Prasad 2016)
 
+## Troubleshooting
+
+- pairwise discourse markers: Annotate independently. As both parts refer to each other, this creates a cycle in the annotation.
+
+	- (22) **On the one hand**, Mr. Front says, it would be misguided to sell into “a classic panic.” **On the other hand**, it’s not necessarily a good time to jump in and buy. (PDTB2, 2415)
+
+- discourse markers of attribution verbs: If a discourse marker is (correctly or not) attached to an attribution verb, but the main predicate of an utterance is a dependent of the attribution verb, this discourse marker is taken to refer to the main predicate. The primary discourse marker is identified by means of the following preferences:
+
+	- MAIN CLAUSE > DEPENDENT CLAUSE > DEPENDENT of DEPENDENT CLAUSE
+	- within a clause: first > second 
+
+	- (22) **On the one hand**, Mr. Front says, it would be misguided to sell into “a classic panic.” 
+
+- Apparent cases of multiple utterance. In the following example, utterances 4.-7. constitute an elaboration of 3. However, we adopt the SDRT view on such constellations, that is, if 4 elaborates 3 and 5 elaborates 3, a narration relation hold between 4 and 5. Because we annotate the closest anchor for each utterance, only the narration is to be annotated, but not the elaboration. (Note that these are SDRT relations, but the argumentation holds for ISO SemAF labels, as well.)
+
+	(83) 
+		1. Legal controversies in America have a way of assuming a symbolic significance far exceeding what is involved in the particular case. 
+		2. They speak volumes about the state of our society at a given moment.
+		3. It has always been so. 
+		4. **[Implicit = for example]** In the 1920s, a young schoolteacher, John T. Scopes, volunteered to be a guinea pig in a test case sponsored by the American Civil Liberties Union to challenge a ban on the teaching of evolution imposed by the Tennessee Legislature. 
+		5. The result was a world-famous trial exposing profound cultural conflicts in American life between the “smart set,” whose spokesman was H.L. Mencken, and the religious fundamentalists, whom Mencken derided as benighted primitives. 
+		6. Few now recall the actual outcome:
+		7. Scopes was convicted and fined $100, and his conviction was reversed on appeal because the fine was excessive under Tennessee law. (PDTB2, 0946)
+
+- multiple clauses as anchors: In AURIS, the anchor must be a single utterance (resp., its main predicate). If a discourse connective seems to take a _sequence_ of utterances as anchors, chose the closest candidate anchor with which a relation can be established. However, plausibility overrides proximity. In the example below, the third sentence _could_ is in a contrast relation with the first as well as the second. However, the second seems to elaborate with anecdotal evidence on the first, so the main reason for surprisal in the third utterance is not the karaoke ban, but the general poor condition. So, annotate 1 as an anchor. (The situation may be different if karaoke is the main topic of the article.)
+
+	- (56) 
+		1. Here in this new center for Japanese assembly plants just across the border from San Diego, turnover is dizzying, infrastructure shoddy, bureaucracy intense. 
+		2. Evn after-hours drag; “karaoke” bars, where Japanese revelers sing over recorded music, are prohibited by Mexico’s powerful musicians union.
+		3. **Still**, 20 Japanese companies, including giants such as Sanyo Industries Corp., Matsushita Electronics Components Corp. and Sony Corp. have set up shop in the state of Northern Baja California. (PDTB2, 0300)
+
+	> Note: This is different from PDTB, where, instead, a minimality principle applies.
+
 ## Appendix: List of diagnostic discourse markers
 
 You can use the following list to confirm whether a discourse relation holds. If you can use these discourse markers in place of the explicit discourse marker or the alternative lexicalization at hand, or insert them into a sentence without implicit discourse marker, take this as an indicator that the respective discourse relation holds.
@@ -295,7 +410,15 @@ Also, when disambiguating explicit or inserting implicit discourse markers, cons
 
 - Sebastian Żurowski, Daniel Ziembicki, Aleksandra Tomaszewska, Maciej Ogrodniczuk and Agata Drozd (2023), Adopting ISO 24617-8 for Discourse Relations Annotation in Polish: Challenges and Future Directions. In Proceedings of the 4th Conference on Language, Data and Knowledge (pp. 482-492).
 
-- Bunt, Harry and Prasad, Rashmi (2016), ISO DR-Core (ISO 24617-8): Core concepts for the annotation of discourse relations, In: Proceedings 12th joint ACL-ISO workshop on interoperable semantic annotation (ISA-12), p. 45-54
+- Bunt, Harry and Prasad, Rashmi (2016), ISO DR-Core (ISO 24617-8), Core concepts for the annotation of discourse relations, In: Proceedings 12th Joint ACL-ISO Workshop on Interoperable Semantic Annotation (ISA-12), p. 45-54
 
+- Rashmi Prasad and Harry Bunt (2015), Semantic Relations in Discourse: The Current State of ISO 24617-8, Proceedings of the 11th Joint ACL-ISO Workshop on Interoperable Semantic Annotation (ISA-11), https://aclanthology.org/W15-0210
+
+- Rashmi Prasad, Eleni Miltsakaki, Nikhil Dinesh, Alan Lee, Aravind Joshi, Livio Robaldo (2007), The Penn Discourse Treebank 2.0 Annotation Manual, December 17, 2007, https://www.cis.upenn.edu/~elenimi/pdtb-manual.pdf, accessed 2023-11-09
+
+
+## Possible Addenda
+
+TED-MDB guidelines?
 
 NB: for Dialog data, cf. https://dialogbank.lsv.uni-saarland.de/
