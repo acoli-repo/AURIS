@@ -225,11 +225,147 @@ See the list of diagnostic markers in the appendix
 
 For asymmetric relations, we annotate the ISO SemAF role of the internal argument. For symmetric relations, we annotate the ISO SemAF relation at the second argument.
 
+### PDTB
+
+- **CONTINGENCY**
+	- "the connective indicates that one of the situations described in Arg1 and Arg2 causally influences the other" (Prasad et al. 2007, p.28)
+	- **Cause** 
+		- "relating two situations via a direct cause-effect relation" (Prasad et al. 2007, p.26)
+		- "the situations described in Arg1 and Arg2 are causally influenced and the two are not in a conditional relation. The directionality of causality is not specified at this level: when “Cause” is used in annotation, it means that the annotators could not uniquely specify its directionality." (Prasad et al. 2007, p.28)
+		- **reason**
+			- "the situation specified in Arg2 is interpreted as the cause of the situation specified in Arg1, as often with the connective _because_" (Prasad et al. 2007, p.26)
+			- "the situation described in Arg2 is the cause and the situation described in Arg1 is the effect" (Prasad et al. 2007, p.29)
+				- (102) Use of dispersants was approved **when** a test on the third day showed some positive results, officials said. (CONTINGENCY:Cause:reason) (PDTB2, 1347)
+		- **result**
+			- "the situation described in Arg2 is interpreted as the result of the situation presented in Arg1. A connective typically tagged as “result” is “as a result”." (Prasad et al. 2007, p.26)
+			- "the situation in Arg2 is the effect brought about by the situation described in Arg1" (Prasad et al. 2007, p.29)
+				- (103) In addition, its machines are typically easier to operate, so customers require less assistance from software. (CONTINGENCY:Cause:result) (PDTB2, 1887)
+	- **Pragmatic Cause**
+		- "Connectives can also be used to relate the use of the arguments of a connective to one another or the use of one argument with the sense of the other. For these rhetorical or pragmatic uses of connectives, we have defined pragmatic sense tags – specifically, “Pragmatic Cause”, “Pragmatic Condition”, “Pragmatic Contrast” and “Pragmatic Concession”." (Prasad et al. 2007, p. 27)
+		- "no semantic distinction is made between the type “Pragmatic” and the subtype “justification”." (Prasad et al. 2007, p.29)
+		- **justification**
+			- "Arg1 expresses a claim and Arg2 provides justification for this claim, as shown in the use of ’because’ in (104). There is no causal influence between the two situations. ... Epistemic uses of the connective “because” are labelled as “Pragmatic cause:justification”. " (Prasad et al. 2007, p.29)
+				- (104) Mrs Yeargin is lying. Implicit = because They found students in an advanced class a year earlier who said she gave them similar help. (CONTINGENCY:Pragmatic Cause:justification) (PDTB2, 0044)
+	- **Condition**
+		- "relating a hypothetical scenario with its (possible) consequence" (Prasad et al. 2007, p.26)
+		- "“Condition” is used to describe all subtypes of conditional relations. In addition to causal influence, “Condition” allows some basic inferences about the semantic contribution of the arguments. Specifically, the situation in Arg2 is taken to be the condition and the situation described in Arg1 is taken to be the consequence, i.e., the situation that holds when the condition is true. Unlike “Cause”, however, the truth value of the arguments of a “Condition” relation cannot be determined independently of the connective." (Prasad et al. 2007, p.29)
+		- **hypothetical**
+			- "if Arg2 holds true, Arg1 is caused to hold at some instant in all possible futures. However, Arg1 can be true in the future independently of Arg2 ... The main difference between “hypothetical” and “general” is that, in the former, the causal relation is taken to hold at a single time." (Prasad et al. 2007, p.30)
+				- (105) Both sides have agreed that the talks will be most successful if negotiators start by focusing on the areas that can be most easily changed. (CONTINGENCY:Condition:hypothetical) (PDTB2, 0082)
+				- (106) In addition, Black & Decker had said it would sell two other undisclosed Emhart operations if it received the right price. (CONTINGENCY:Condition:hypothetical) (PDTB2, 0807)
+		- **general**
+			- "every time that ||Arg2|| holds true , ||Arg1|| is also caused to be true. Typically, “general” describes either a generic truth about the world or a statement that describes a regular outcome every time the condition holds true. ... in all possible futures, it is always the case that ||Arg2|| causes ||Arg1||. ... The main difference between “hypothetical” and “general” is that, in the former, the causal relation is taken to hold at a single time." (Prasad et al. 2007, p.30)
+				- (107) That explains why the number of these wines is expanding so rapidly. But consumers who buy at this level are also more knowledgeable than they were a few years ago. “They won’t buy **if** the quality is not there,” said Cedric Martin of Martin Wine Cellar in New Orleans. (CONTINGENCY:Condition:general) (PDTB2, 0071)
+		- **unreal present**
+			- "Arg2 describes a condition that either does not hold at present (...) or is considered unlikely to hold (...) Arg1 describes what would also hold if Arg2 were true. The tag “unreal present” represents the semantics of conditional relations also known in the lingustic literature as present counterfactuals (...). The semantics for “unreal present” is a special case of the semantics for hypothetical." (Prasad et al. 2007, p.31)
+				- (110) Of course, **if** the film contained dialogue, Mr. Lane’s Artist would be called a homeless person. (CONTINGENCY:Condition:unreal present) (PDTB2, 0039)
+				- (111) I’m not saying advertising revenue isn’t important,” she says, “but I couldn’t sleep at night” if the magazine bowed to a company because they once took out an ad. (CONTINGENCY:Condition:unreal present) (PDTB2, 0062)
+		- **unreal past**
+			- "Arg2 describes a situation that did not occur in the past and Arg1 expresses what the consequence would have been if it had ... the situations described in Arg1 and Arg2 did not hold." (Prasad et al. 2007, p.31)
+				- (112) “If I had come into Friday on margin or with very little cash in the portfolios, I would not do any buying. (CONTINGENCY:Condition:unreal past) (PDTB2, 2376)
+		- **factual present**
+			- "Arg2 is a situation that has either been presented as a fact in the prior discourse or is believed by somebody other than the speaker/writer. “Factual present” is really a special case of the subtype “hypothetical”. ... it also asserts that ||Arg2|| holds true or is believed by someone to hold true. (If ||Arg2|| indeed holds true, then ||Arg1|| is caused to be true.)" (Prasad et al. 2007, p.30-31)
+				- (108) “I’ve heard that there is $40 billion taken in nationwide by boiler rooms every year,” Mr. McClelland says. “If that’s true, Orange County has to be at least 10% of that.” (CONTINGENCY:Condition:factual present) (PDTB2, 1568)
+		- **factual past**
+			- "“factual past” is similar to “factual present” except that in this case Arg2 describes a situation that is assumed to have taken place at a time in the past." (Prasad et al. 2007, p.31)
+				- "In (109), for example, the speaker expresses in Arg2 what in the prior discourse is asssumed to have taken place, and in Arg1, a consequence that may subsequently occur assuming Arg2 holds." (Prasad et al. 2007, p.31)
+					- (109) “If they had this much trouble with Chicago & North Western, they are going to have an awful time with the rest.” (CONTINGENCY:Condition:factual past) (PDTB2, 1464)
+	- **Pragmatic Condition**
+		- "Connectives can also be used to relate the use of the arguments of a connective to one another or the use of one argument with the sense of the other. For these rhetorical or pragmatic uses of connectives, we have defined pragmatic sense tags – specifically, “Pragmatic Cause”, “Pragmatic Condition”, “Pragmatic Contrast” and “Pragmatic Concession”." (Prasad et al. 2007, p. 27)
+		- "instances of conditional constructions whose interpretation deviates from that of the semantics of “Condition”. Specifically, these are cases of Explicit _if_ tokens with Arg1 and Arg2 not being causally related. In all cases, Arg1 holds true independently of Arg2" (Prasad et al. 2007, p.31)
+		- **relevance**
+			- "The conditional clause in the “relevance” conditional (Arg2) provides the context in which the description of the situation in Arg1 is relevant. A frequently cited example for this type of conditional is (113) and a corpus example is given in (114). There is no causal relation between the two arguments." (Prasad et al. 2007, p.32)
+				- (113) If you are thirsty, there’s beer in the fridge.
+				- (114) If anyone has difficulty imagining a world in which history went merrily on without us, Mr. Gould sketches several. (CONTINGENCY:Pragmatic condition:relevance) (PDTB2, 1158)
+
+		- **implicit assertion**
+			- "special rhetorical uses of if-constructions when the intepretation of the conditional construction is an implicit assertion. In (115), for example, Arg1, O’ Connor is your man is not a consequent state that will result if the condition expressed in Arg2 holds true. Instead, the conditional construction in this case implicitly asserts that O’Connor will keep the crime rates high." (Prasad et al. 2007, p.32)
+				- (115) In 1966, on route to a re-election rout of Democrat Frank O’Connor, GOP Gov. Nelson Rockefeller of New York appeared in person saying, “If you want to keep the crime rates high, O’Connor is your man.” (CONTINGENCY:Pragmatic Condition:implicit assertion) (PDTB2, 0041)
+
+- **TEMPORAL**
+	- "the connective indicates that the situations described in the arguments are related temporally. The class level tag “TEMPORAL” does not specify if the situations are temporally ordered or overlapping." (Prasad et al. 2007, p. 27)
+	- **Asynchronous**
+		- "the situations described in the arguments are ... temporally ordered" (Prasad et al. 2007, p.27)
+		- **precedence**
+			- "the situation in Arg1 precedes the situation described in Arg2, as _before_ does in (99)." (Prasad et al. 2007, p.28)
+				- (99) But a Soviet bank here would be crippled unless Moscow found a way to settle the $188 million debt, which was lent to the country’s short-lived democratic Kerensky government **before** the Communists seized power in 1917. (TEMPORAL:Asynchronous:precedence) (PDTB2, 0035)
+
+		- **succession**
+			- "the situation described in Arg1 follows the situation described in Arg2, as _after_ does in (100)." (Prasad et al. 2007, p.28)
+				- (100) No matter who owns PS of New Hampshire, **after** it emerges from bankruptcy proceedings its rates will be among the highest in the nation, he said. (TEMPORAL:Asynchronous:succession) (PDTB2, 0013)
+
+	- **Synchronous**
+		- "the situations described in the arguments are ... temporally overlapping ... The type “Synchronous” does not specify the form of overlap, i.e., whether the two situations started and ended at the same time, whether one was temporally embedded in the other, or whether the two crossed. Typical connectives tagged as “Synchronous” are while and when," (Prasad et al. 2007, p.27-28)
+			- (101) Knowing a tasty – and free – meal when they eat one, the executives gave the chefs a standing ovation. (TEMPORAL:Synchrony) (PDTB2, 0010)
+
+- **COMPARISON**
+	- "the connective indicates that a discourse relation is established between Arg1 and Arg2 in order to highlight prominent differences between the two situations. Semantically, the truth of both arguments is independent of the connective or the established relation." (Prasad et al. 2007, p.32)
+	- **Contrast**
+		- "Arg1 and Arg2 share a predicate or property and a difference is highlighted with respect to the values assigned to the shared property. ...  neither argument describes a situation that is asserted on the basis of the other one. In this sense, there is no directionality in the interpretation of the arguments. This is an important difference between the interpretation of “Contrast” and “Concession”." (Prasad et al. 2007, p.32)
+		- **juxtaposition**
+			- "the connective indicates that the values assigned to some shared property are taken to be alternatives ... When the intended juxtaposition is not clear, the higher level tag “Contrast” is annotated." (Prasad et al. 2007, p.32-33)
+
+				- (116) Operating revenue rose 69% to A$8.48 billion from A$5.01 billion. But the net interest bill jumped 85% to A$686.7 million from A$371.1 million. (COMPARISON:Contrast:juxtaposition) (PDTB2, 1449)
+
+		- **opposition**
+			- "the connective indicates that the values assigned to some shared property are the extremes of a gradable scale, e.g., tall-short, accept-reject etc. Note that the notion of gradable scale used in distinguishing “opposition” from “juxtaposition” strongly depends on the context where the sentence is uttered." (Prasad et al. 2007, p.33)
+
+				- (117) Most bond prices fell on concerns about this week’s new supply and disappointment that stock prices didn’t stage a sharp decline. Junk bond prices moved higher, however. (COMPARISON:Contrast:opposition) (PDTB2, 1464)
+
+	- **Pragmatic Contrast**
+		- "Connectives can also be used to relate the use of the arguments of a connective to one another or the use of one argument with the sense of the other. For these rhetorical or pragmatic uses of connectives, we have defined pragmatic sense tags – specifically, “Pragmatic Cause”, “Pragmatic Condition”, “Pragmatic Contrast” and “Pragmatic Concession”." (Prasad et al. 2007, p. 27)
+		- "the connective indicates a contrast between one of the arguments and an inference that can be drawn from the other, in many cases at the speech act level: The contrast is not between the situations described in Arg1 and Arg2." (Prasad et al. 2007, p.33)
+			- (118) “It’s just sort of a one-upsmanship thing with some people,” added Larry Shapiro. “They like to talk about having the new Red Rock Terrace one of Diamond Creek’s Cabernets or the Dunn 1985 Cabernet, or the Petrus. Producers have seen this market opening up and they’re now creating wines that appeal to these people.” That explains why the number of these wines is expanding so rapidly. But consumers who buy at this level are also more knowledgeable than they were a few years ago. (COMPARISON:Pragmatic Contrast) (PDTB2, 0071)
+	- **Concession**
+		- "the difference [between Arg1 and Arg2 that -- CC] is highlighted ... are related to expectations raised by one argument which are then denied by the other." (Prasad et al. 2007, p.32)
+		- "the connective indicates that one of the arguments describes a situation A which causes C, while the other asserts (or implies) ¬C. Alternatively, one argument denotes a fact that triggers a set of potential consequences, while the other denies one or more of them." (Prasad et al. 2007, p.34)
+		- Instances have been found in the PDTB which are ambiguous between “expectation” and “contra-expectation”, where the context or the annotators’ world knowledge is not sufficient to specify the subtype, as in (121). Such cases are tagged as “Concession”.
+			- (121) Besides, to a large extent, Mr. Jones may already be getting what he wants out of the team, even though it keeps losing. (COMPARISON:Concession) (PDTB2, 1411)
+		- **expectation**
+			- "Arg2 creates an expectation that Arg1 denies" (Prasad et al. 2007, p.34)
+				- (119) Although the purchasing managers’ index continues to indicate a slowing economy, it isn’t signaling an imminent recession, said Robert Bretz, chairman of the association’s survey committee and director of materials management at Pitney Bowes Inc., Stamford, Conn. (COMPARISON:Concession:expectation) (PDTB2, 0036)
+		- **contra-expectation**
+			- "Arg1 creates an expectation that Arg2 denies" (Prasad et al. 2007, p.34)
+				- (120) The Texas oilman has acquired a 26.2% stake valued at more than $1.2 billion in an automotive-lighting company, Koito Manufacturing Co. But he has failed to gain any influence at the company. (COMPARISON:Concession:contra-expectation) (PDTB2, 0082)
+	- **Pragmatic Concession**
+		- "Connectives can also be used to relate the use of the arguments of a connective to one another or the use of one argument with the sense of the other. For these rhetorical or pragmatic uses of connectives, we have defined pragmatic sense tags – specifically, “Pragmatic Cause”, “Pragmatic Condition”, “Pragmatic Contrast” and “Pragmatic Concession”." (Prasad et al. 2007, p. 27)
+- **EXPANSION**
+	- "relations which expand the discourse and move its narrative or exposition forward." (Prasad et al. 2007, p.34)
+	- **Conjunction**
+	- **Instantiation**
+		- "the connective indicates that Arg1 evokes a set and Arg2 describes it in further detail. It may be a set of events (122), a set of reasons, or a generic set of events, behaviors, attitudes, etc. Typical connectives often tagged as “Instantiation” are _for example_, _for instance_ and _specifically_." (Prasad et al. 2007, p.34)
+			- (122) He says he spent $300 million on his art business this year. **[Implicit = in particular]** A week ago, his gallery racked up a $23 million tab at a Sotheby’s auction in New York buying seven works, including a Picasso. (EXPANSION:Instantiation) (PDTB2, 0800)
+	- **Restatement**
+		- "the semantics of Arg2 restates the semantics of Arg1. It is inferred that the situations described in Arg1 and Arg2 hold true at the same time." (Prasad et al. 2007, p.35)
+		- "The Type level tag “Restatement” is used when more than on subtype interpretation is possible, as in (129), where Arg2 can be interpreted as denoting what he said, or it can be interepreted as providing the same information from a different point of view, namely the speaker’s own words." (Prasad et al. 2007, p.36)
+			- (129) He said the assets to be sold would be “non-insurance” assets, including a beer company and a real estate firm, and wouldn’t include any pieces of Farmers. Implicit = in other words “We won’t put any burden on Farmers,” he said. (EXPANSION:Restatement) (PDTB2, 2403)
+		- **specification**
+			- "Arg2 describes the situation described in Arg1 in more detail ... Typical connectives for “specification” are _specifically_, _indeed_ and _in fact_." (Prasad et al. 2007, p.35)
+				- (123) A Lorillard spokewoman said, “This is an old story. **[Implicit = in fact]** We’re talking about years ago before anyone heard of asbestos having any questionable properties.” (EXPANSION:Restatement:specification) (PDTB2, 0003)
+				- (124) An enormous turtle has succeeded where the government has failed: **[Implicit = specifically]** He has made speaking Filipino respectable. (EXPANSION:Restatement:specification) (PDTB2, 0804)
+		- **equivalence**
+			- "the connective indicates that Arg1 and Arg2 describe the same situation from different perspectives" (Prasad et al. 2007, p.35)
+				- (126) Chairman Krebs says the California pension fund is getting a bargain price that wouldn’t have been offered to others. **In other words**: The real estate has a higher value than the pending deal suggests. (EXPANSION:Restatement:equivalence) (PDTB2, 	0331)
+		- **generalization**
+			- "the connective indicates that Arg2 summarizes Arg1, or in some cases expresses a conclusion based on Arg1. ... Typical connectives for “generalization” are _in sum_, _overall_, _finally_, etc." (Prasad et al. 2007, p.35)
+				- (125) If the contract is as successful as some expect, it may do much to restore confidence in futures trading in Hong Kong. **[Implicit = in other words,]]** “The contract is definitely important to the exchange,” says Robert Gilmore, executive director of the Securities and Futures Commission. (EXPANSION:Restatement:generalization) (PDTB2, 0700)
+	- **Alternative**
+		- "the connective indicates that its two arguments denote alternative situations." (Prasad et al. 2007, p.36)
+		- **conjunctive**
+			- "the connective indicates that both alternatives hold or are possible" (Prasad et al. 2007, p.36)
+				- (130) Today’s Fidelity ad goes a step further, encouraging investors to stay in the market **or** even to plunge in with Fidelity. (EXPANSION:Alternative:conjunctive) (PDTB2, 2201)
+		- **disjunctive**
+		- **chosen alternative**
+	- **Exception**
+	- **List**
+- **EntRel**
+
+### SemAF
+
 - **CAUSE**
 	- **Reason**: In a `CAUSE` relation, the `Reason` provides a reason for the `Result` to come about or occur. (Bunt & Prasad 2016)
 		- cf. PDTB Reason
 		- cf. PDTB Justification
-
 		- cf. RST Vol. cause, Non-vol. cause, Evidence, Justify
 		- cf. RSTDTB Cause, Evidence, Explanation-argumentation, Reason
 		- cf. SDRT Explanation (DISCOR Explanation, ANNODIS Explanation)
