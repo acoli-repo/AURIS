@@ -331,7 +331,6 @@ For asymmetric relations, we annotate the ISO SemAF role of the internal argumen
 		- "Connectives can also be used to relate the use of the arguments of a connective to one another or the use of one argument with the sense of the other. For these rhetorical or pragmatic uses of connectives, we have defined pragmatic sense tags – specifically, “Pragmatic Cause”, “Pragmatic Condition”, “Pragmatic Contrast” and “Pragmatic Concession”." (Prasad et al. 2007, p. 27)
 - **EXPANSION**
 	- "relations which expand the discourse and move its narrative or exposition forward." (Prasad et al. 2007, p.34)
-	- **Conjunction**
 	- **Instantiation**
 		- "the connective indicates that Arg1 evokes a set and Arg2 describes it in further detail. It may be a set of events (122), a set of reasons, or a generic set of events, behaviors, attitudes, etc. Typical connectives often tagged as “Instantiation” are _for example_, _for instance_ and _specifically_." (Prasad et al. 2007, p.34)
 			- (122) He says he spent $300 million on his art business this year. **[Implicit = in particular]** A week ago, his gallery racked up a $23 million tab at a Sotheby’s auction in New York buying seven works, including a Picasso. (EXPANSION:Instantiation) (PDTB2, 0800)
@@ -355,9 +354,20 @@ For asymmetric relations, we annotate the ISO SemAF role of the internal argumen
 			- "the connective indicates that both alternatives hold or are possible" (Prasad et al. 2007, p.36)
 				- (130) Today’s Fidelity ad goes a step further, encouraging investors to stay in the market **or** even to plunge in with Fidelity. (EXPANSION:Alternative:conjunctive) (PDTB2, 2201)
 		- **disjunctive**
+			- "two situations are evoked in the discourse but only one of them holds" (Prasad et al. 2007, p.36)
+				- (131) Those looking for real-estate bargains in distressed metropolitan areas should lock in leases or buy now. (EXPANSION:Alternative:disjunctive) (PDTB2, 2444)
 		- **chosen alternative**
+			- "two alternatives are evoked in the discourse but only one is taken, as with the connective _instead_" (Prasad et al. 2007, p.36)
+				- (132) Under current rules, even when a network fares well with a 100%-owned series – ABC, for example, made a killing in broadcasting its popular crime/comedy “Moonlighting” — it isn’t allowed to share in the continuing proceeds when the reruns are sold to local stations. **Instead**, ABC will have to sell off the rights for a one-time fee. (EXPANSION:Alternative:chosen alternative) (PDTB2, 2451)
 	- **Exception**
+		- "Arg2 specifies an exception to the generalization specified by Arg1 (...). In other words, Arg1 is false because Arg2 is true, but if Arg2 were false, Arg1 would be true." (Prasad et al. 2007, p.36)
+			- (133) Boston Co. officials declined to comment on Moody’s action on the unit’s financial performance this year except to deny a published report that outside accountants had discovered evidence of significant accounting errors in the first three quarters’ results. (EXPANSION:Exception) (PDTB2, 1103)
+	- **Conjunction**
+		- "the situation described in Arg2 provides additional, discourse new, information that is related to the situation described in Arg1, but is not related to Arg1 in any of the ways described for other types of “EXPANSION”. (That is, the rough semantics of “Conjunction” is simply ||Arg1|| ∧ ||Arg2||.) ... Typical connectives for “Conjunction” are _also_, _in addition_, _additionally_, _further_, etc." (Prasad et al. 2007, p.37)
+			- (134)Food prices are expected to be unchanged, but energy costs jumped as much as 4%, said Gary Ciminero, economist at Fleet/Norstar Financial Group. He also says he thinks “core inflation,” which excludes the volatile food and energy prices, was strong last month. (EXPANSION:Conjunction) (PDTB2, 2400)
 	- **List**
+		- "Arg1 and Arg2 are members of a list, defined in the prior discourse. “List” does not require the situations specified in Arg1 and Arg2 to be directly related." (Prasad et al. 2007, p.37)
+			- (135)But other than the fact that besuboru is played with a ball and a bat, it’s unrecognizable: Fans politely return foul balls to stadium ushers; **[Implicit = and]** the strike zone expands depending on the size of the hitter; (EXPANSION:List) (PDTB2, 0037)
 - **EntRel**
 
 ### SemAF
@@ -486,7 +496,7 @@ For asymmetric relations, we annotate the ISO SemAF role of the internal argumen
 	- **Feedback-scope**: External argument of a feedback dependence, precedes the internal argument. (Not to be annotated.) (Bunt & Prasad 2016)
 	- **Feedback-act**:	In a `FEEDBACK_DEPENDENCE` relation, the `Feedback-act` that provides or elicits information about the understanding or evaluation by one of the dialogue participants of the `Feedback-scope` argument, a communicative event that occurred earlier in the discourse. (Bunt & Prasad 2016)
 
-> Note: The relation definitions follow Prasad and Bunt (2016). RST, RSTDTB, SDRT and PDTB mapping follows Prasad and Bunt (2016).
+> Note: The relation definitions follow Prasad and Bunt (2015) and Bunt and Prasad (2016). RST, RSTDTB, SDRT and PDTB mapping follows Bunt and Prasad (2016).
 
 > Note: Role labels are taken from ISO SemAF. The `Condition` relation corresponds to ISO SemAF CONDITION with internal argument role "Antecedent". The `Negated_Condition` relation corresponds to ISO SemAF NEGATIVE CONDITION with internal argument role "Negated_Antecedent". 
 
@@ -497,6 +507,133 @@ For asymmetric relations, we annotate the ISO SemAF role of the internal argumen
 > Note: Annotate Dependence relations only in the absence of explicit discourse markers, example:
 
 	- P1: I can never find my remote control.	P2: That’s [because] they don’t have a fixed place.		(Reason, not Inform, from Butt & Prasad 2016)
+
+### SemAF+PDTB
+
+- **CAUSE**
+	- **Reason**: In a `CAUSE` relation, the `Reason` provides a reason for the `Result` to come about or occur. (Bunt & Prasad 2016)
+		- cf. PDTB Reason
+		- cf. PDTB Justification
+		- cf. RST Vol. cause, Non-vol. cause, Evidence, Justify
+		- cf. RSTDTB Cause, Evidence, Explanation-argumentation, Reason
+		- cf. SDRT Explanation (DISCOR Explanation, ANNODIS Explanation)
+		- cf. PDTB Reason, Justification
+	- **Result**: In a `CAUSE` relation, the `Reason` provides a reason for the `Result` to come about or occur. (Bunt & Prasad 2016)
+		- cf. RST Vol. result, Non-vol. result
+		- cf. RSTDTB Consequence, Result
+		- cf. SDRT Result (DISCOR Result, ANNODIS Result)
+		- cf. PDTB Result
+- **CONDITION**
+	- **Antecedent**In a `CONDITION` relation, the `Condition` is an unrealized situation which, when realized, would lead to the `Consequent`. (Bunt & Prasad 2016)
+		- cf. RST Condition
+		- cf. RSTDTB Condition, ?Hypothetical
+		- cf. ANNODIS ?Conditional
+		- cf. PDTB ?Hypothetical, ?General, UnrealPast, ?UnrealPresent, FactualPast, ?FactualPresent
+	- **Consequent**: In a `CONDITION` relation, the `Condition` is an unrealized situation which, when realized, would lead to the `Consequent`.(Bunt & Prasad 2016)
+		- ?cf. RSTDTB Contingency
+		- cf. SDRT Consequence (DISCOR Consequence)
+- **NEGATIVE_CONDITION**
+	- **Negated_Condition**: In a `NEGATIVE_CONDITION` relation, the `Negated_Condition` is an unrealized situation which, when not realized, would lead to the `Consequent`. (Bunt & Prasad 2016)
+		- cf. ANNODIS ?Conditional
+		- cf. PDTB Condition
+	- **Consequent**: In a `NEG_CONDITION` relation, the `Negated_Condition` is an unrealized situation which, when not realized, would lead to the `Consequent`. (Bunt & Prasad 2016)
+		- cf. ?RST Otherwise
+		- cf. ?RSTDTB Otherwise
+		- cf. SDRT Consequence (DISCOR Consequence)
+- **PURPOSE**, cf. RST ?Purpose, RSTDTB ?Purpose
+	- **Goal**: In a `PURPOSE` relation, the `Goal` enables the `Enablement`. (Bunt & Prasad 2016)
+		- cf. SDRT Explanation (DISCOR Explanation, ANNODIS Goal)
+		- cf. PDTB Result
+	- **Enablement**: In a `PURPOSE` relation, the `Goal` enables the `Enablement`. (Bunt & Prasad 2016)
+- **MANNER**, cf. SDRT (ANNODIS, DISCOR) Elaboration
+	- **Means**: In a `MANNER` relation, the `Means` argument describes a way in which the `Achievement` comes about or occurs. (Bunt & Prasad 2016)
+		- cf. RSTDTB Means, ?Manner
+	- **Achievement**: In a `MANNER` relation, the `Means` argument describes a way in which the `Achievement` comes about or occurs. (Bunt & Prasad 2016)
+- **CONCESSION**, cf. SDRT (DISCOR, ANNODIS) Contrast
+	- **Expectation-raiser**: `CONCESSION` is an expected causal relation between two arguments, where the `Expectation-raiser` is expected to cause the situation described in the other argument, but is cancelled or denied by the `Expecation-denier` argument. (Bunt & Prasad 2016)
+		- cf. RST ?Concession
+		- cf. RSTDTB ?Concession, ?Antithesis, ?Preference
+		- cf. PDTB Expectation
+	- **Expectation-denier**: `CONCESSION` is an expected causal relation between two arguments, where the `Expectation-raiser` is expected to cause the situation described in the other argument, but is cancelled or denied by the `Expecation-denier` argument. (Bunt & Prasad 2016)
+		- cf. RST ?Concession
+		- cf. RSTDTB ?Concession, ?Antithesis, ?Preference
+		- cf. PDTB Contra-Expectation
+- **CONTRAST**: `CONTRAST` is a symmetric relation in which one or more differences between the internal argument and the external argument are highlighted with respect to what each predicates as a whole or to some entities they mention. (Bunt & Prasad 2016)
+	- cf. RST Contrast
+	- cf. RSTDTB Comparison
+	- cf. SDRT (DISCOR, ANNODIS) Contrast
+	- cf. PDTB Justaposition, Opposition
+- **EXCEPTION**
+	- **Regular**: In an `EXCEPTION` relation, the `Regular` argument evokes a set of circumstances in which the described situation holds, while the `Exception` argument indicates one or more instances where it doesn't. (Bunt & Prasad 2016)
+	- **Exception**: In an `EXCEPTION` relation, the `Regular` argument evokes a set of circumstances in which the described situation holds, while the `Exception` argument indicates one or more instances where it doesn't. (Bunt & Prasad 2016)
+		- cf. PDTB Exception
+- **SIMILARITY**: `SIMILARITY` is a symmetric relation in which one or more similarities between the internal and the external argument are highlighted with respect to what each predicates as a whole or to some entities they mention. (Bunt & Prasad 2016)
+	- cf. RSTDTB Analogy, Proportion 
+	- cf. SDRT (ANNODIS, DISCOR) Parallel
+	- cf. PDTB Conjunction
+- **SUBSTITUTION**
+	- **Disfavoured-alternative**: In a `SUBSTITUTION` relation, both arguments describe alternative situations, with `Disfavoured-alternative` being the disfavored or rejected alternative. (Bunt & Prasad 2016)
+		- cf. RST ?Antithesis
+	- **Favoured-alternative**: In a `SUBSTITUTION` relation, both arguments describe alternative situations, with `Favoured-alternative` being the favored or chosen alternative. (Bunt & Prasad 2016)
+		- cf. RST ?Antithesis
+		- cf. PDTB Chosen Alternative
+- **CONJUNCTION**: `CONJUNCTION` is a symmetric relation in which the internal and the external arguments bear the same relation to some other situation evoked in the discourse. Their conjunction indicates that they are doing the same thing with respect to that situation, or are doing it together. (Bunt & Prasad 2016)
+	- cf. RST Joint
+	- cf. RSTDTB List
+	- cf. SDRT (DISCOR, ANNODIS) Continuation
+	- cf. PDTB Conjunction, List
+- **DISJUNCTION**: `DISJUNCTION` is a symmetric relation in which the internal and the external arguments are alternatives, with either one or both holding (Bunt & Prasad 2016)
+	- cf. RST Joint
+	- cf. RSTDTB Disjunction
+	- cf. SDRT (DISCOR, ANNODIS) Alternation
+	- cf. PDTB Disjunctive, Conjunctive
+- **EXEMPLIFICATION**
+	- **Set**: In an `EXEMPLICATION` relation, the `Set` describes a set of situations; the `Instance` is an element of that set. (Bunt & Prasad 2016)
+	- **Instance**:	In an `EXEMPLICATION` relation, the `Set` describes a set of situations; the `Instance` is an element of that set. (Bunt & Prasad 2016)
+		- cf. RST Elaboration (set-member)
+		- cf. RSTDTB Elaboration set-member, Example
+		- cf. SDRT (DISCOR, ANNODIS) Elaboration
+		- cf. PDTB Instantiation
+- **ELABORATION**
+	- **Broad**: In an `ELABORATION` relation, both arguments are the same situation, but the `Specific` argument contains more detail than the `Broad` argument. (Bunt & Prasad 2016)
+		- cf. PDTB Generalization
+	- **Specific**: In an `ELABORATION` relation, both arguments are the same situation, but the `Specific` argument contains more detail than the `Broad` argument. (Bunt & Prasad 2016)
+		- cf. RST Elaboration
+		- cf. RSTDTB Conclusion, Elaboration general-specific, Elaboration whole-part, Elaboration process-step
+		- cf. SDRT (DISCOR, ANNODIS) Elaboration
+		- cf. PDTB Specification
+- **RESTATEMENT**: `RESTATEMENT` is a symmetric relation in which the internal argument describes the same situation as the external argument, but from different perspectives. (Bunt & Prasad 2016)
+	- cf. RST Restatement
+	- cf. RSTDTB Summary
+	- cf. SDRT (DISCOR, ANNODIS) Elaboration
+	- cf. PDTB Equivalence
+- **SYNCHRONY**: `SYNCHRONY` is a symmetric relation where some degree of temporal overlap exists between the internal argument and the external argument. All forms of overlap are included. (Bunt & Prasad 2016)
+	- cf. RSTDTB Temporal-same-time
+	- cf. PDTB Synchronous
+- **ASYNCHRONY**, cf. RST Sequence
+	- **Before**: In an `ASYNCHRONY` relation, the argument `Before` temporally precedes the `After` argument. (Bunt & Prasad 2016)
+		- cf. RSTDTB Temporal-before, Inverted-sequence
+		- cf. DISCOR Precondition, ANNODIS Flashback
+		- cf. PDTB Precedence
+	- **After**: In an `ASYNCHRONY` relation, the argument `Before` temporally precedes the `After` argument. (Bunt & Prasad 2016)
+		- cf. RSTDTB Temporal-after, Sequence
+		- cf. SDRT (DISCOR, ANNODIS) Narration
+		- cf. PDTB Succession
+- **EXPANSION**
+	- **Foreground**: In an `EXPANSION` relation, the `Entity-description` argument provides further description about some entity or entities in the `Foreground`, expanding the narrative forward of which `Foreground` is a part, or expanding on the setting relevant for interpreting the `Foreground`. The internal and external arguments describe distinct situations. (Bunt & Prasad 2016)
+		- tbc: should never be annotated
+	- **Entity-description**: In an `EXPANSION` relation, the `Entity-description` argument provides further description about some entity or entities in the `Foreground`, expanding the narrative forward of which `Foreground` is a part, or expanding on the setting relevant for interpreting the `Foreground`. The internal and external arguments describe distinct situations. (Bunt & Prasad 2016)
+		- cf. RST Elaboration (object-attribute)
+		- cf. RSTDTB Elaboration object-attribute, Elaboration additional
+		- cf. SDRT Background, Elaboration (DISCOR Commentary, Attribution, Source; ANNODIS Comment, Attribution, Frame, Temporal-location)
+		- cf. PDTB EntRel
+- **FUNCTIONAL_DEPENDENCE**
+	- **Antecedent-act**: External argument of a functional dependence, precedes the internal argument. (Not to be annotated.) (Bunt & Prasad 2016)
+	- **Dependent-act**: In a `FUNCTIONAL_DEPENDENCE` relation, the `Dependent-act` is a dialogue act with a responsive communicative function; the `Antecedent-act` is the dialogue act(s) that the `Dependent-act` responds to. (Bunt & Prasad 2016)
+- **FEEDBACK_DEPENDENCE**
+	- **Feedback-scope**: External argument of a feedback dependence, precedes the internal argument. (Not to be annotated.) (Bunt & Prasad 2016)
+	- **Feedback-act**:	In a `FEEDBACK_DEPENDENCE` relation, the `Feedback-act` that provides or elicits information about the understanding or evaluation by one of the dialogue participants of the `Feedback-scope` argument, a communicative event that occurred earlier in the discourse. (Bunt & Prasad 2016)
+
 
 ## Troubleshooting
 
@@ -530,6 +667,21 @@ For asymmetric relations, we annotate the ISO SemAF role of the internal argumen
 		3. **Still**, 20 Japanese companies, including giants such as Sanyo Industries Corp., Matsushita Electronics Components Corp. and Sony Corp. have set up shop in the state of Northern Baja California. (PDTB2, 0300)
 
 	> Note: This is different from PDTB, where, instead, a minimality principle applies.
+
+- attribution: As defined by Prasad et al. (2007, p.40), attribution is "a relation of “ownership” between abstract objects and individuals or agents. That is, attribution has to do with ascribing beliefs and assertions expressed in text to
+the agent(s) holding or making them". If a the main clause of an utterance expresses an attribution, with a statement in a dependent clause or direct speech annotated as part of the same utterance, then the main predicate of the utterance is to be taken from the statement, not the attribution verb. If an utterance consists of an attribution verb only, without including the reported statement, the main predicate is the attribution verb.
+
+	> Note: We rely on an existing pre-annotation for sentence (utterances) here. If utterances are to be manually segmented, then attribution and statement should be put in distinct utterances if and only if the statement is a complete sentence. Normally, this occurs with direct speech only. Also, reported statements interrupted by an attribution verb should not be segmented, then.
+
+	In the following example, the main predicate is "Judge O'Kicki unexpectedly awarded him an additional $100,000", although the syntactic head is "says" (in the attribution clause "he says"). Note that this is a relative clause. The attribution verb is likewise modified by a temporal relative clause ("When ... in June 1983"), but only amodifying adverbial clause, not part of the attribution.
+
+	- (144) When Mr. Green won a $240,000 verdict in a land condemnation case against the state in June 1983, he says [Judge O’Kicki unexpectedly awarded him an additional $100,000]. (PDTB2, 0267)
+
+	> Note: If an utterance with attribution carries multiple relative clauses, the comment should clarify which is considered the main predicate.
+
+	In the following example, the main predicate is the reported statement in the first relative clause ("the 90-cent-an-hour rise ... is too small for the working poor"). In line with UD conventions, we consider the coordinated main clause ("opponents argued ...") to be subordinate to  the first main clause. 
+
+	- _Advocates said_ the 90-cent-an-hour rise, to $4.25 an hour by April 1991, is too small for the working poor, while opponents argued that the increase will still hurt small business and cost many thousands of jobs. (PDTB2 0098) 
 
 ## Appendix: List of diagnostic discourse markers
 
