@@ -567,9 +567,9 @@ PDTB: Arg2 is internal argument, Arg1 is external
 		- cf. ?RST Otherwise
 		- cf. ?RSTDTB Otherwise
 		- cf. SDRT Consequence (DISCOR Consequence)
-- **PURPOSE** In a `PURPOSE` relation, the `Goal` enables the `Enablement`. (Bunt & Prasad 2016) This relation is similar to `CAUSAL` and `CONDITION` rellations, the main difference is that the former are neutral with respect to individual engagement whereas `PURPOSE` relations require some level of agency on behalf of the speaker, the hearer or another agent addressed or involved in the situation described.
-	- Note: There is no clear PDTB2 counterpart. 
-	-  cf. RST ?Purpose, RSTDTB ?Purpose
+- **PURPOSE** In a `PURPOSE` relation, the `Goal` enables the `Enablement`. (Bunt & Prasad 2016) This relation is similar to `CAUSAL` and `CONDITION` relations, the main difference is that the former are neutral with respect to individual engagement whereas `PURPOSE` relations presume some level of agency on behalf of the speaker, the hearer or another agent addressed or involved in the situation described.
+	- Note: There is no clear PDTB2 counterpart. **TODO** check RST/RSTDTB Purpose
+	- cf. RST ?Purpose, RSTDTB ?Purpose
 	- **Goal**: The utterance represents a goal (purpose) enabled by the anchor.
 		- cf. SDRT Explanation (DISCOR Explanation, ANNODIS Goal)
 		- cf. PDTB Result
