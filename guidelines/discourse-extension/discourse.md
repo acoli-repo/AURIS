@@ -777,8 +777,6 @@ entity-based coherence relation could be perceived between the sentences" (Prasa
 
 				- (95) HOLIDAY ADS: Seagram will run two interactive ads in December magazines promoting its Chivas Regal and Crown Royal brands. The Chivas ad illustrates – via a series of pullouts – the wild reactions from the pool man, gardener and others if not given Chivas for Christmas. The three-page Crown Royal ad features a black-and-white shot of a boring holiday party – and a set of colorful stickers with which readers can dress it up. **[EntRel]** Both ads were designed by Omnicom’s DDB Needham agency. (PDTB2, 0989)
 
-
-
 - **FUNCTIONAL_DEPENDENCE**
 	- **Antecedent-act**: External argument of a functional dependence, precedes the internal argument. (Not to be annotated.) (Bunt & Prasad 2016)
 	- **Dependent-act**: In a `FUNCTIONAL_DEPENDENCE` relation, the `Dependent-act` is a dialogue act with a responsive communicative function; the `Antecedent-act` is the dialogue act(s) that the `Dependent-act` responds to. (Bunt & Prasad 2016)
