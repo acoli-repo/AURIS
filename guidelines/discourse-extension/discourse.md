@@ -219,302 +219,108 @@ See the list of diagnostic markers in the appendix
 
 > Note: We annotate at most one discourse marker per sentence. If multiple discourse markers apply, this defaults to the first discourse marker.
 
-## Relations
+## Annotation procedure and relation inventory
+
+The relation inventory is primarily drawn from the Penn Discourse Treebank, as interpreted by ISO SemAF. We follow PDTB in providing a hierarchical organization of discourse relations, over which annotation preferences are to be drawn:
+
+- **COMPARISON** "the connective indicates that a discourse relation is established between Arg1 and Arg2 in order to highlight prominent differences between the two situations. Semantically, the truth of both arguments is independent of the connective or the established relation." (Prasad et al. 2007, p.32)
+- **CONTINGENCY** "the connective indicates that one of the situations described in Arg1 and Arg2 causally influences the other" (Prasad et al. 2007, p.28)
+- **TEMPORAL** "the connective indicates that the situations described in the arguments are related temporally. The class level tag “TEMPORAL” does not specify if the situations are temporally ordered or overlapping." (Prasad et al. 2007, p. 27)
+- **EXPANSION** (other) "relations which expand the discourse and move its narrative or exposition forward." (Prasad et al. 2007, p.34)
+
+To these, we add two additional top-level categories:
+- **DIALOG** for SemAF dependence relations
+- **EntRel** for entity relations not falling under any of the categories above. 
+
+### Annotation principles
+
+- if there is more than one explicit discourse marker, annotate the first explicit discourse marker
+- if there is no discourse marker or the discourse marker is ambiguous with respect to the discourse relation it encodes:
+	- annotate the most specific discourse relation possible, using the following preference hierachy
+		- COMPARISON > CONTINGENCY > TEMPORAL > EXPANSION > DIALOG > EntRel > NoRel
+
+The logic behind that ranking is that this hierarchy ranges from semantically highly constrained (i.e., very specific) to semantically less constrained (i.e., more generic) relation types:
+
+- contrastive relations typically involve a causal element (especially CONCESSION), so that these are considered more specific than causal
+- causal relations imply a temporal element (cause precedes or overlaps with result), so that these are more specific than temporal
+- as a means of driving the discourse forward, temporal relations are a subset of expansion relations
+- In general, dialog acts apply to all utterances, but in the context of discourse annotations, they should be limited to cases in which no other discourse relations apply. So, their annotation priority is below that of Expansion. Nevertheless, if over signals require a functional dependence or feedback dependence annotation, these should be used.
+- we follow the view of PDTB that entity relations should be annotated only if no other relation applies. `EntRel` relations are a fallback to enable the annotation of discourse relations whose attachment is unclear, but still evident from coreference links.
+
+> Note: The PDTB2 top-level relations have not been directly mapped to SemAF roles, but rather, they constitute a higher level of organization *over* SemAF roles
+
+### Overall hierarchy
+
+The top level of the hierarchy follows PDTB2, the middle level represents SemAF relations, the third level represents SemAF attribute roles.
+
+- **COMPARISON**
+	- `Concession` (SemAF Concession)
+		- `expectation-raiser` (SemAF Concession/Expectation-raiser)
+		- `contra-expectation` (SemAF Concession/Expectation-denier)
+		- `concession` (SemAF Concession, PDTB: Concession with unclear directionality)
+	- `Contrast` (SemAF Contrast)
+- **CONTINGENCY**
+	- `Causal` (SemAF Cause)
+		- `reason` (SemAF Cause/Reason)
+		- `result` (SemAF Cause/Result)
+		- `cause`  (SemAF Cause, if directionality is unclear)
+	- `Conditional` (SemAF Condition)
+		- `condition` (SemAF Condition/Antecedent)
+		- `consequence` (SemAF Condition/Consequent)
+	- `Negative_Condition` (SemAF Negative Condition)
+		- `neg_condition` (SemAF Negative Condition/Negated Antecedent)
+		- `neg_consequence` (SemAF Negative Condition/Consequence)
+	- `Purpose` (SemAF Purpose)
+		- `goal` (SemAF Purpose/Goal)
+		- `enablement` (SemAF Purpose/Enablement)
+- **TEMPORAL**
+	- `Synchrony` (SemAF Synchrony)
+	- `Asynchrony` (SemAF Asynchrony)
+		- `after` (SemAF Asynchrony/After)
+		- `before` (SemAF Asynchrony/Before)
+- **EXPANSION**
+	- `Manner` (SemAF Manner)
+		- `means` (SemAF Manner/Means)
+		- `achievement` (SemAF Manner/Achievement)
+	- `Exception` (SemAF Exception)
+		- `regular` (SemAF Exception/regular)
+		- `exception` (SemAF Exception/exception)
+	- `Similarity` (SemAF Similarity)
+	- `Substitution` (SemAF Substitution)
+		- `disfavoured` (SemAF Substitution/Disfavoured-alternative)
+		- `favoured` (SemAF Substitution/Favoured-alternative)
+	- `Conjunction` (SemAF Conjunction)
+	- `Disjunction` (SemAF Disjunction)
+	- `Excemplification` (SemAF Excemplification)
+		- `set` (SemAF Excemplification/Set)
+		- `instance` (SemAF Excemplification/Instance)
+	- `Elaboration` (SemAF Elaboration)
+		- `broad` (SemAF Elaboration/Broad)
+		- `specific` (SemAF Elaboration/Specific)
+	- `Restatement`
+	- ?`Expansion` (SemAF Expansion)
+		- `foreground` (SemAF Expansion/Foreground)
+		- `background` (SemAF Expansion/Background)
+- **DIALOG**
+	- `Functional-Dependence` (SemAF Functional-dependence)
+		- `antecedent-act` (SemAF Antecedent-act)
+		- `dependent-act` (SemAF Dependent-act)
+	- `Feedback-Dependence` (SemAF Feedback-dependence)
+		- `feedback-scope` (SemAF Feedback-dependence/Feedback-scope)
+		- `feedback-act` (SemAF Feedback-dependence/Feedback-act)
+- **EntRel**
+	- coreference between a preceding utterance and the current one.
+
+## Individual Relations
 
 > Note: ISO 24617-8 has been heavily criticized for being poorly defined (e.g., by Żurowski et al. 2023). We provide operationalizable definitions by exploiting the correspondence with established RST, SDRT and PDTB definitions as given by proponents of ISO SemAF. These definitions are primarily based on PDTB 2.0 (Prasad et al. 2007).
 
 For asymmetric relations, we annotate the ISO SemAF role of the internal argument. For symmetric relations, we annotate the ISO SemAF relation at the second argument.
 
-### PDTB
-
-- **CONTINGENCY**
-	- "the connective indicates that one of the situations described in Arg1 and Arg2 causally influences the other" (Prasad et al. 2007, p.28)
-	- **Cause** 
-		- "relating two situations via a direct cause-effect relation" (Prasad et al. 2007, p.26)
-		- "the situations described in Arg1 and Arg2 are causally influenced and the two are not in a conditional relation. The directionality of causality is not specified at this level: when “Cause” is used in annotation, it means that the annotators could not uniquely specify its directionality." (Prasad et al. 2007, p.28)
-		- **reason**
-			- "the situation specified in Arg2 is interpreted as the cause of the situation specified in Arg1, as often with the connective _because_" (Prasad et al. 2007, p.26)
-			- "the situation described in Arg2 is the cause and the situation described in Arg1 is the effect" (Prasad et al. 2007, p.29)
-				- (102) Use of dispersants was approved **when** a test on the third day showed some positive results, officials said. (CONTINGENCY:Cause:reason) (PDTB2, 1347)
-		- **result**
-			- "the situation described in Arg2 is interpreted as the result of the situation presented in Arg1. A connective typically tagged as “result” is “as a result”." (Prasad et al. 2007, p.26)
-			- "the situation in Arg2 is the effect brought about by the situation described in Arg1" (Prasad et al. 2007, p.29)
-				- (103) In addition, its machines are typically easier to operate, so customers require less assistance from software. (CONTINGENCY:Cause:result) (PDTB2, 1887)
-	- **Pragmatic Cause**
-		- "Connectives can also be used to relate the use of the arguments of a connective to one another or the use of one argument with the sense of the other. For these rhetorical or pragmatic uses of connectives, we have defined pragmatic sense tags – specifically, “Pragmatic Cause”, “Pragmatic Condition”, “Pragmatic Contrast” and “Pragmatic Concession”." (Prasad et al. 2007, p. 27)
-		- "no semantic distinction is made between the type “Pragmatic” and the subtype “justification”." (Prasad et al. 2007, p.29)
-		- **justification**
-			- "Arg1 expresses a claim and Arg2 provides justification for this claim, as shown in the use of ’because’ in (104). There is no causal influence between the two situations. ... Epistemic uses of the connective “because” are labelled as “Pragmatic cause:justification”. " (Prasad et al. 2007, p.29)
-				- (104) Mrs Yeargin is lying. Implicit = because They found students in an advanced class a year earlier who said she gave them similar help. (CONTINGENCY:Pragmatic Cause:justification) (PDTB2, 0044)
-	- **Condition**
-		- "relating a hypothetical scenario with its (possible) consequence" (Prasad et al. 2007, p.26)
-		- "“Condition” is used to describe all subtypes of conditional relations. In addition to causal influence, “Condition” allows some basic inferences about the semantic contribution of the arguments. Specifically, the situation in Arg2 is taken to be the condition and the situation described in Arg1 is taken to be the consequence, i.e., the situation that holds when the condition is true. Unlike “Cause”, however, the truth value of the arguments of a “Condition” relation cannot be determined independently of the connective." (Prasad et al. 2007, p.29)
-		- **hypothetical**
-			- "if Arg2 holds true, Arg1 is caused to hold at some instant in all possible futures. However, Arg1 can be true in the future independently of Arg2 ... The main difference between “hypothetical” and “general” is that, in the former, the causal relation is taken to hold at a single time." (Prasad et al. 2007, p.30)
-				- (105) Both sides have agreed that the talks will be most successful if negotiators start by focusing on the areas that can be most easily changed. (CONTINGENCY:Condition:hypothetical) (PDTB2, 0082)
-				- (106) In addition, Black & Decker had said it would sell two other undisclosed Emhart operations if it received the right price. (CONTINGENCY:Condition:hypothetical) (PDTB2, 0807)
-		- **general**
-			- "every time that ||Arg2|| holds true , ||Arg1|| is also caused to be true. Typically, “general” describes either a generic truth about the world or a statement that describes a regular outcome every time the condition holds true. ... in all possible futures, it is always the case that ||Arg2|| causes ||Arg1||. ... The main difference between “hypothetical” and “general” is that, in the former, the causal relation is taken to hold at a single time." (Prasad et al. 2007, p.30)
-				- (107) That explains why the number of these wines is expanding so rapidly. But consumers who buy at this level are also more knowledgeable than they were a few years ago. “They won’t buy **if** the quality is not there,” said Cedric Martin of Martin Wine Cellar in New Orleans. (CONTINGENCY:Condition:general) (PDTB2, 0071)
-		- **unreal present**
-			- "Arg2 describes a condition that either does not hold at present (...) or is considered unlikely to hold (...) Arg1 describes what would also hold if Arg2 were true. The tag “unreal present” represents the semantics of conditional relations also known in the lingustic literature as present counterfactuals (...). The semantics for “unreal present” is a special case of the semantics for hypothetical." (Prasad et al. 2007, p.31)
-				- (110) Of course, **if** the film contained dialogue, Mr. Lane’s Artist would be called a homeless person. (CONTINGENCY:Condition:unreal present) (PDTB2, 0039)
-				- (111) I’m not saying advertising revenue isn’t important,” she says, “but I couldn’t sleep at night” if the magazine bowed to a company because they once took out an ad. (CONTINGENCY:Condition:unreal present) (PDTB2, 0062)
-		- **unreal past**
-			- "Arg2 describes a situation that did not occur in the past and Arg1 expresses what the consequence would have been if it had ... the situations described in Arg1 and Arg2 did not hold." (Prasad et al. 2007, p.31)
-				- (112) “If I had come into Friday on margin or with very little cash in the portfolios, I would not do any buying. (CONTINGENCY:Condition:unreal past) (PDTB2, 2376)
-		- **factual present**
-			- "Arg2 is a situation that has either been presented as a fact in the prior discourse or is believed by somebody other than the speaker/writer. “Factual present” is really a special case of the subtype “hypothetical”. ... it also asserts that ||Arg2|| holds true or is believed by someone to hold true. (If ||Arg2|| indeed holds true, then ||Arg1|| is caused to be true.)" (Prasad et al. 2007, p.30-31)
-				- (108) “I’ve heard that there is $40 billion taken in nationwide by boiler rooms every year,” Mr. McClelland says. “If that’s true, Orange County has to be at least 10% of that.” (CONTINGENCY:Condition:factual present) (PDTB2, 1568)
-		- **factual past**
-			- "“factual past” is similar to “factual present” except that in this case Arg2 describes a situation that is assumed to have taken place at a time in the past." (Prasad et al. 2007, p.31)
-				- "In (109), for example, the speaker expresses in Arg2 what in the prior discourse is asssumed to have taken place, and in Arg1, a consequence that may subsequently occur assuming Arg2 holds." (Prasad et al. 2007, p.31)
-					- (109) “If they had this much trouble with Chicago & North Western, they are going to have an awful time with the rest.” (CONTINGENCY:Condition:factual past) (PDTB2, 1464)
-	- **Pragmatic Condition**
-		- "Connectives can also be used to relate the use of the arguments of a connective to one another or the use of one argument with the sense of the other. For these rhetorical or pragmatic uses of connectives, we have defined pragmatic sense tags – specifically, “Pragmatic Cause”, “Pragmatic Condition”, “Pragmatic Contrast” and “Pragmatic Concession”." (Prasad et al. 2007, p. 27)
-		- "instances of conditional constructions whose interpretation deviates from that of the semantics of “Condition”. Specifically, these are cases of Explicit _if_ tokens with Arg1 and Arg2 not being causally related. In all cases, Arg1 holds true independently of Arg2" (Prasad et al. 2007, p.31)
-		- **relevance**
-			- "The conditional clause in the “relevance” conditional (Arg2) provides the context in which the description of the situation in Arg1 is relevant. A frequently cited example for this type of conditional is (113) and a corpus example is given in (114). There is no causal relation between the two arguments." (Prasad et al. 2007, p.32)
-				- (113) If you are thirsty, there’s beer in the fridge.
-				- (114) If anyone has difficulty imagining a world in which history went merrily on without us, Mr. Gould sketches several. (CONTINGENCY:Pragmatic condition:relevance) (PDTB2, 1158)
-
-		- **implicit assertion**
-			- "special rhetorical uses of if-constructions when the intepretation of the conditional construction is an implicit assertion. In (115), for example, Arg1, O’ Connor is your man is not a consequent state that will result if the condition expressed in Arg2 holds true. Instead, the conditional construction in this case implicitly asserts that O’Connor will keep the crime rates high." (Prasad et al. 2007, p.32)
-				- (115) In 1966, on route to a re-election rout of Democrat Frank O’Connor, GOP Gov. Nelson Rockefeller of New York appeared in person saying, “If you want to keep the crime rates high, O’Connor is your man.” (CONTINGENCY:Pragmatic Condition:implicit assertion) (PDTB2, 0041)
-
-- **TEMPORAL**
-	- "the connective indicates that the situations described in the arguments are related temporally. The class level tag “TEMPORAL” does not specify if the situations are temporally ordered or overlapping." (Prasad et al. 2007, p. 27)
-	- **Asynchronous**
-		- "the situations described in the arguments are ... temporally ordered" (Prasad et al. 2007, p.27)
-		- **precedence**
-			- "the situation in Arg1 precedes the situation described in Arg2, as _before_ does in (99)." (Prasad et al. 2007, p.28)
-				- (99) But a Soviet bank here would be crippled unless Moscow found a way to settle the $188 million debt, which was lent to the country’s short-lived democratic Kerensky government **before** the Communists seized power in 1917. (TEMPORAL:Asynchronous:precedence) (PDTB2, 0035)
-
-		- **succession**
-			- "the situation described in Arg1 follows the situation described in Arg2, as _after_ does in (100)." (Prasad et al. 2007, p.28)
-				- (100) No matter who owns PS of New Hampshire, **after** it emerges from bankruptcy proceedings its rates will be among the highest in the nation, he said. (TEMPORAL:Asynchronous:succession) (PDTB2, 0013)
-
-	- **Synchronous**
-		- "the situations described in the arguments are ... temporally overlapping ... The type “Synchronous” does not specify the form of overlap, i.e., whether the two situations started and ended at the same time, whether one was temporally embedded in the other, or whether the two crossed. Typical connectives tagged as “Synchronous” are while and when," (Prasad et al. 2007, p.27-28)
-			- (101) Knowing a tasty – and free – meal when they eat one, the executives gave the chefs a standing ovation. (TEMPORAL:Synchrony) (PDTB2, 0010)
-
-- **COMPARISON**
-	- "the connective indicates that a discourse relation is established between Arg1 and Arg2 in order to highlight prominent differences between the two situations. Semantically, the truth of both arguments is independent of the connective or the established relation." (Prasad et al. 2007, p.32)
-	- **Contrast**
-		- "Arg1 and Arg2 share a predicate or property and a difference is highlighted with respect to the values assigned to the shared property. ...  neither argument describes a situation that is asserted on the basis of the other one. In this sense, there is no directionality in the interpretation of the arguments. This is an important difference between the interpretation of “Contrast” and “Concession”." (Prasad et al. 2007, p.32)
-		- **juxtaposition**
-			- "the connective indicates that the values assigned to some shared property are taken to be alternatives ... When the intended juxtaposition is not clear, the higher level tag “Contrast” is annotated." (Prasad et al. 2007, p.32-33)
-
-				- (116) Operating revenue rose 69% to A$8.48 billion from A$5.01 billion. But the net interest bill jumped 85% to A$686.7 million from A$371.1 million. (COMPARISON:Contrast:juxtaposition) (PDTB2, 1449)
-
-		- **opposition**
-			- "the connective indicates that the values assigned to some shared property are the extremes of a gradable scale, e.g., tall-short, accept-reject etc. Note that the notion of gradable scale used in distinguishing “opposition” from “juxtaposition” strongly depends on the context where the sentence is uttered." (Prasad et al. 2007, p.33)
-
-				- (117) Most bond prices fell on concerns about this week’s new supply and disappointment that stock prices didn’t stage a sharp decline. Junk bond prices moved higher, however. (COMPARISON:Contrast:opposition) (PDTB2, 1464)
-
-	- **Pragmatic Contrast**
-		- "Connectives can also be used to relate the use of the arguments of a connective to one another or the use of one argument with the sense of the other. For these rhetorical or pragmatic uses of connectives, we have defined pragmatic sense tags – specifically, “Pragmatic Cause”, “Pragmatic Condition”, “Pragmatic Contrast” and “Pragmatic Concession”." (Prasad et al. 2007, p. 27)
-		- "the connective indicates a contrast between one of the arguments and an inference that can be drawn from the other, in many cases at the speech act level: The contrast is not between the situations described in Arg1 and Arg2." (Prasad et al. 2007, p.33)
-			- (118) “It’s just sort of a one-upsmanship thing with some people,” added Larry Shapiro. “They like to talk about having the new Red Rock Terrace one of Diamond Creek’s Cabernets or the Dunn 1985 Cabernet, or the Petrus. Producers have seen this market opening up and they’re now creating wines that appeal to these people.” That explains why the number of these wines is expanding so rapidly. But consumers who buy at this level are also more knowledgeable than they were a few years ago. (COMPARISON:Pragmatic Contrast) (PDTB2, 0071)
-	- **Concession**
-		- "the difference [between Arg1 and Arg2 that -- CC] is highlighted ... are related to expectations raised by one argument which are then denied by the other." (Prasad et al. 2007, p.32)
-		- "the connective indicates that one of the arguments describes a situation A which causes C, while the other asserts (or implies) ¬C. Alternatively, one argument denotes a fact that triggers a set of potential consequences, while the other denies one or more of them." (Prasad et al. 2007, p.34)
-		- Instances have been found in the PDTB which are ambiguous between “expectation” and “contra-expectation”, where the context or the annotators’ world knowledge is not sufficient to specify the subtype, as in (121). Such cases are tagged as “Concession”.
-			- (121) Besides, to a large extent, Mr. Jones may already be getting what he wants out of the team, even though it keeps losing. (COMPARISON:Concession) (PDTB2, 1411)
-		- **expectation**
-			- "Arg2 creates an expectation that Arg1 denies" (Prasad et al. 2007, p.34)
-				- (119) Although the purchasing managers’ index continues to indicate a slowing economy, it isn’t signaling an imminent recession, said Robert Bretz, chairman of the association’s survey committee and director of materials management at Pitney Bowes Inc., Stamford, Conn. (COMPARISON:Concession:expectation) (PDTB2, 0036)
-		- **contra-expectation**
-			- "Arg1 creates an expectation that Arg2 denies" (Prasad et al. 2007, p.34)
-				- (120) The Texas oilman has acquired a 26.2% stake valued at more than $1.2 billion in an automotive-lighting company, Koito Manufacturing Co. But he has failed to gain any influence at the company. (COMPARISON:Concession:contra-expectation) (PDTB2, 0082)
-	- **Pragmatic Concession**
-		- "Connectives can also be used to relate the use of the arguments of a connective to one another or the use of one argument with the sense of the other. For these rhetorical or pragmatic uses of connectives, we have defined pragmatic sense tags – specifically, “Pragmatic Cause”, “Pragmatic Condition”, “Pragmatic Contrast” and “Pragmatic Concession”." (Prasad et al. 2007, p. 27)
-- **EXPANSION**
-	- "relations which expand the discourse and move its narrative or exposition forward." (Prasad et al. 2007, p.34)
-	- **Instantiation**
-		- "the connective indicates that Arg1 evokes a set and Arg2 describes it in further detail. It may be a set of events (122), a set of reasons, or a generic set of events, behaviors, attitudes, etc. Typical connectives often tagged as “Instantiation” are _for example_, _for instance_ and _specifically_." (Prasad et al. 2007, p.34)
-			- (122) He says he spent $300 million on his art business this year. **[Implicit = in particular]** A week ago, his gallery racked up a $23 million tab at a Sotheby’s auction in New York buying seven works, including a Picasso. (EXPANSION:Instantiation) (PDTB2, 0800)
-	- **Restatement**
-		- "the semantics of Arg2 restates the semantics of Arg1. It is inferred that the situations described in Arg1 and Arg2 hold true at the same time." (Prasad et al. 2007, p.35)
-		- "The Type level tag “Restatement” is used when more than on subtype interpretation is possible, as in (129), where Arg2 can be interpreted as denoting what he said, or it can be interepreted as providing the same information from a different point of view, namely the speaker’s own words." (Prasad et al. 2007, p.36)
-			- (129) He said the assets to be sold would be “non-insurance” assets, including a beer company and a real estate firm, and wouldn’t include any pieces of Farmers. Implicit = in other words “We won’t put any burden on Farmers,” he said. (EXPANSION:Restatement) (PDTB2, 2403)
-		- **specification**
-			- "Arg2 describes the situation described in Arg1 in more detail ... Typical connectives for “specification” are _specifically_, _indeed_ and _in fact_." (Prasad et al. 2007, p.35)
-				- (123) A Lorillard spokewoman said, “This is an old story. **[Implicit = in fact]** We’re talking about years ago before anyone heard of asbestos having any questionable properties.” (EXPANSION:Restatement:specification) (PDTB2, 0003)
-				- (124) An enormous turtle has succeeded where the government has failed: **[Implicit = specifically]** He has made speaking Filipino respectable. (EXPANSION:Restatement:specification) (PDTB2, 0804)
-		- **equivalence**
-			- "the connective indicates that Arg1 and Arg2 describe the same situation from different perspectives" (Prasad et al. 2007, p.35)
-				- (126) Chairman Krebs says the California pension fund is getting a bargain price that wouldn’t have been offered to others. **In other words**: The real estate has a higher value than the pending deal suggests. (EXPANSION:Restatement:equivalence) (PDTB2, 	0331)
-		- **generalization**
-			- "the connective indicates that Arg2 summarizes Arg1, or in some cases expresses a conclusion based on Arg1. ... Typical connectives for “generalization” are _in sum_, _overall_, _finally_, etc." (Prasad et al. 2007, p.35)
-				- (125) If the contract is as successful as some expect, it may do much to restore confidence in futures trading in Hong Kong. **[Implicit = in other words,]]** “The contract is definitely important to the exchange,” says Robert Gilmore, executive director of the Securities and Futures Commission. (EXPANSION:Restatement:generalization) (PDTB2, 0700)
-	- **Alternative**
-		- "the connective indicates that its two arguments denote alternative situations." (Prasad et al. 2007, p.36)
-		- **conjunctive**
-			- "the connective indicates that both alternatives hold or are possible" (Prasad et al. 2007, p.36)
-				- (130) Today’s Fidelity ad goes a step further, encouraging investors to stay in the market **or** even to plunge in with Fidelity. (EXPANSION:Alternative:conjunctive) (PDTB2, 2201)
-		- **disjunctive**
-			- "two situations are evoked in the discourse but only one of them holds" (Prasad et al. 2007, p.36)
-				- (131) Those looking for real-estate bargains in distressed metropolitan areas should lock in leases or buy now. (EXPANSION:Alternative:disjunctive) (PDTB2, 2444)
-		- **chosen alternative**
-			- "two alternatives are evoked in the discourse but only one is taken, as with the connective _instead_" (Prasad et al. 2007, p.36)
-				- (132) Under current rules, even when a network fares well with a 100%-owned series – ABC, for example, made a killing in broadcasting its popular crime/comedy “Moonlighting” — it isn’t allowed to share in the continuing proceeds when the reruns are sold to local stations. **Instead**, ABC will have to sell off the rights for a one-time fee. (EXPANSION:Alternative:chosen alternative) (PDTB2, 2451)
-	- **Exception**
-		- "Arg2 specifies an exception to the generalization specified by Arg1 (...). In other words, Arg1 is false because Arg2 is true, but if Arg2 were false, Arg1 would be true." (Prasad et al. 2007, p.36)
-			- (133) Boston Co. officials declined to comment on Moody’s action on the unit’s financial performance this year except to deny a published report that outside accountants had discovered evidence of significant accounting errors in the first three quarters’ results. (EXPANSION:Exception) (PDTB2, 1103)
-	- **Conjunction**
-		- "the situation described in Arg2 provides additional, discourse new, information that is related to the situation described in Arg1, but is not related to Arg1 in any of the ways described for other types of “EXPANSION”. (That is, the rough semantics of “Conjunction” is simply ||Arg1|| ∧ ||Arg2||.) ... Typical connectives for “Conjunction” are _also_, _in addition_, _additionally_, _further_, etc." (Prasad et al. 2007, p.37)
-			- (134)Food prices are expected to be unchanged, but energy costs jumped as much as 4%, said Gary Ciminero, economist at Fleet/Norstar Financial Group. He also says he thinks “core inflation,” which excludes the volatile food and energy prices, was strong last month. (EXPANSION:Conjunction) (PDTB2, 2400)
-	- **List**
-		- "Arg1 and Arg2 are members of a list, defined in the prior discourse. “List” does not require the situations specified in Arg1 and Arg2 to be directly related." (Prasad et al. 2007, p.37)
-			- (135)But other than the fact that besuboru is played with a ball and a bat, it’s unrecognizable: Fans politely return foul balls to stadium ushers; **[Implicit = and]** the strike zone expands depending on the size of the hitter; (EXPANSION:List) (PDTB2, 0037)
-- **EntRel**
-
-### SemAF
-
-- **CAUSE**
-	- **Reason**: In a `CAUSE` relation, the `Reason` provides a reason for the `Result` to come about or occur. (Bunt & Prasad 2016)
-		- cf. PDTB Reason
-		- cf. PDTB Justification
-		- cf. RST Vol. cause, Non-vol. cause, Evidence, Justify
-		- cf. RSTDTB Cause, Evidence, Explanation-argumentation, Reason
-		- cf. SDRT Explanation (DISCOR Explanation, ANNODIS Explanation)
-		- cf. PDTB Reason, Justification
-	- **Result**: In a `CAUSE` relation, the `Reason` provides a reason for the `Result` to come about or occur. (Bunt & Prasad 2016)
-		- cf. RST Vol. result, Non-vol. result
-		- cf. RSTDTB Consequence, Result
-		- cf. SDRT Result (DISCOR Result, ANNODIS Result)
-		- cf. PDTB Result
-- **CONDITION**
-	- **Antecedent**In a `CONDITION` relation, the `Condition` is an unrealized situation which, when realized, would lead to the `Consequent`. (Bunt & Prasad 2016)
-		- cf. RST Condition
-		- cf. RSTDTB Condition, ?Hypothetical
-		- cf. ANNODIS ?Conditional
-		- cf. PDTB ?Hypothetical, ?General, UnrealPast, ?UnrealPresent, FactualPast, ?FactualPresent
-	- **Consequent**: In a `CONDITION` relation, the `Condition` is an unrealized situation which, when realized, would lead to the `Consequent`.(Bunt & Prasad 2016)
-		- ?cf. RSTDTB Contingency
-		- cf. SDRT Consequence (DISCOR Consequence)
-- **NEGATIVE_CONDITION**
-	- **Negated_Condition**: In a `NEGATIVE_CONDITION` relation, the `Negated_Condition` is an unrealized situation which, when not realized, would lead to the `Consequent`. (Bunt & Prasad 2016)
-		- cf. ANNODIS ?Conditional
-		- cf. PDTB Condition
-	- **Consequent**: In a `NEG_CONDITION` relation, the `Negated_Condition` is an unrealized situation which, when not realized, would lead to the `Consequent`. (Bunt & Prasad 2016)
-		- cf. ?RST Otherwise
-		- cf. ?RSTDTB Otherwise
-		- cf. SDRT Consequence (DISCOR Consequence)
-- **PURPOSE**, cf. RST ?Purpose, RSTDTB ?Purpose
-	- **Goal**: In a `PURPOSE` relation, the `Goal` enables the `Enablement`. (Bunt & Prasad 2016)
-		- cf. SDRT Explanation (DISCOR Explanation, ANNODIS Goal)
-		- cf. PDTB Result
-	- **Enablement**: In a `PURPOSE` relation, the `Goal` enables the `Enablement`. (Bunt & Prasad 2016)
-- **MANNER**, cf. SDRT (ANNODIS, DISCOR) Elaboration
-	- **Means**: In a `MANNER` relation, the `Means` argument describes a way in which the `Achievement` comes about or occurs. (Bunt & Prasad 2016)
-		- cf. RSTDTB Means, ?Manner
-	- **Achievement**: In a `MANNER` relation, the `Means` argument describes a way in which the `Achievement` comes about or occurs. (Bunt & Prasad 2016)
-- **CONCESSION**, cf. SDRT (DISCOR, ANNODIS) Contrast
-	- **Expectation-raiser**: `CONCESSION` is an expected causal relation between two arguments, where the `Expectation-raiser` is expected to cause the situation described in the other argument, but is cancelled or denied by the `Expecation-denier` argument. (Bunt & Prasad 2016)
-		- cf. RST ?Concession
-		- cf. RSTDTB ?Concession, ?Antithesis, ?Preference
-		- cf. PDTB Expectation
-	- **Expectation-denier**: `CONCESSION` is an expected causal relation between two arguments, where the `Expectation-raiser` is expected to cause the situation described in the other argument, but is cancelled or denied by the `Expecation-denier` argument. (Bunt & Prasad 2016)
-		- cf. RST ?Concession
-		- cf. RSTDTB ?Concession, ?Antithesis, ?Preference
-		- cf. PDTB Contra-Expectation
-- **CONTRAST**: `CONTRAST` is a symmetric relation in which one or more differences between the internal argument and the external argument are highlighted with respect to what each predicates as a whole or to some entities they mention. (Bunt & Prasad 2016)
-	- cf. RST Contrast
-	- cf. RSTDTB Comparison
-	- cf. SDRT (DISCOR, ANNODIS) Contrast
-	- cf. PDTB Justaposition, Opposition
-- **EXCEPTION**
-	- **Regular**: In an `EXCEPTION` relation, the `Regular` argument evokes a set of circumstances in which the described situation holds, while the `Exception` argument indicates one or more instances where it doesn't. (Bunt & Prasad 2016)
-	- **Exception**: In an `EXCEPTION` relation, the `Regular` argument evokes a set of circumstances in which the described situation holds, while the `Exception` argument indicates one or more instances where it doesn't. (Bunt & Prasad 2016)
-		- cf. PDTB Exception
-- **SIMILARITY**: `SIMILARITY` is a symmetric relation in which one or more similarities between the internal and the external argument are highlighted with respect to what each predicates as a whole or to some entities they mention. (Bunt & Prasad 2016)
-	- cf. RSTDTB Analogy, Proportion 
-	- cf. SDRT (ANNODIS, DISCOR) Parallel
-	- cf. PDTB Conjunction
-- **SUBSTITUTION**
-	- **Disfavoured-alternative**: In a `SUBSTITUTION` relation, both arguments describe alternative situations, with `Disfavoured-alternative` being the disfavored or rejected alternative. (Bunt & Prasad 2016)
-		- cf. RST ?Antithesis
-	- **Favoured-alternative**: In a `SUBSTITUTION` relation, both arguments describe alternative situations, with `Favoured-alternative` being the favored or chosen alternative. (Bunt & Prasad 2016)
-		- cf. RST ?Antithesis
-		- cf. PDTB Chosen Alternative
-- **CONJUNCTION**: `CONJUNCTION` is a symmetric relation in which the internal and the external arguments bear the same relation to some other situation evoked in the discourse. Their conjunction indicates that they are doing the same thing with respect to that situation, or are doing it together. (Bunt & Prasad 2016)
-	- cf. RST Joint
-	- cf. RSTDTB List
-	- cf. SDRT (DISCOR, ANNODIS) Continuation
-	- cf. PDTB Conjunction, List
-- **DISJUNCTION**: `DISJUNCTION` is a symmetric relation in which the internal and the external arguments are alternatives, with either one or both holding (Bunt & Prasad 2016)
-	- cf. RST Joint
-	- cf. RSTDTB Disjunction
-	- cf. SDRT (DISCOR, ANNODIS) Alternation
-	- cf. PDTB Disjunctive, Conjunctive
-- **EXEMPLIFICATION**
-	- **Set**: In an `EXEMPLICATION` relation, the `Set` describes a set of situations; the `Instance` is an element of that set. (Bunt & Prasad 2016)
-	- **Instance**:	In an `EXEMPLICATION` relation, the `Set` describes a set of situations; the `Instance` is an element of that set. (Bunt & Prasad 2016)
-		- cf. RST Elaboration (set-member)
-		- cf. RSTDTB Elaboration set-member, Example
-		- cf. SDRT (DISCOR, ANNODIS) Elaboration
-		- cf. PDTB Instantiation
-- **ELABORATION**
-	- **Broad**: In an `ELABORATION` relation, both arguments are the same situation, but the `Specific` argument contains more detail than the `Broad` argument. (Bunt & Prasad 2016)
-		- cf. PDTB Generalization
-	- **Specific**: In an `ELABORATION` relation, both arguments are the same situation, but the `Specific` argument contains more detail than the `Broad` argument. (Bunt & Prasad 2016)
-		- cf. RST Elaboration
-		- cf. RSTDTB Conclusion, Elaboration general-specific, Elaboration whole-part, Elaboration process-step
-		- cf. SDRT (DISCOR, ANNODIS) Elaboration
-		- cf. PDTB Specification
-- **RESTATEMENT**: `RESTATEMENT` is a symmetric relation in which the internal argument describes the same situation as the external argument, but from different perspectives. (Bunt & Prasad 2016)
-	- cf. RST Restatement
-	- cf. RSTDTB Summary
-	- cf. SDRT (DISCOR, ANNODIS) Elaboration
-	- cf. PDTB Equivalence
-- **SYNCHRONY**: `SYNCHRONY` is a symmetric relation where some degree of temporal overlap exists between the internal argument and the external argument. All forms of overlap are included. (Bunt & Prasad 2016)
-	- cf. RSTDTB Temporal-same-time
-	- cf. PDTB Synchronous
-- **ASYNCHRONY**, cf. RST Sequence
-	- **Before**: In an `ASYNCHRONY` relation, the argument `Before` temporally precedes the `After` argument. (Bunt & Prasad 2016)
-		- cf. RSTDTB Temporal-before, Inverted-sequence
-		- cf. DISCOR Precondition, ANNODIS Flashback
-		- cf. PDTB Precedence
-	- **After**: In an `ASYNCHRONY` relation, the argument `Before` temporally precedes the `After` argument. (Bunt & Prasad 2016)
-		- cf. RSTDTB Temporal-after, Sequence
-		- cf. SDRT (DISCOR, ANNODIS) Narration
-		- cf. PDTB Succession
-- **EXPANSION**
-	- **Foreground**: In an `EXPANSION` relation, the `Entity-description` argument provides further description about some entity or entities in the `Foreground`, expanding the narrative forward of which `Foreground` is a part, or expanding on the setting relevant for interpreting the `Foreground`. The internal and external arguments describe distinct situations. (Bunt & Prasad 2016)
-		- tbc: should never be annotated
-	- **Entity-description**: In an `EXPANSION` relation, the `Entity-description` argument provides further description about some entity or entities in the `Foreground`, expanding the narrative forward of which `Foreground` is a part, or expanding on the setting relevant for interpreting the `Foreground`. The internal and external arguments describe distinct situations. (Bunt & Prasad 2016)
-		- cf. RST Elaboration (object-attribute)
-		- cf. RSTDTB Elaboration object-attribute, Elaboration additional
-		- cf. SDRT Background, Elaboration (DISCOR Commentary, Attribution, Source; ANNODIS Comment, Attribution, Frame, Temporal-location)
-		- cf. PDTB EntRel
-- **FUNCTIONAL_DEPENDENCE**
-	- **Antecedent-act**: External argument of a functional dependence, precedes the internal argument. (Not to be annotated.) (Bunt & Prasad 2016)
-	- **Dependent-act**: In a `FUNCTIONAL_DEPENDENCE` relation, the `Dependent-act` is a dialogue act with a responsive communicative function; the `Antecedent-act` is the dialogue act(s) that the `Dependent-act` responds to. (Bunt & Prasad 2016)
-- **FEEDBACK_DEPENDENCE**
-	- **Feedback-scope**: External argument of a feedback dependence, precedes the internal argument. (Not to be annotated.) (Bunt & Prasad 2016)
-	- **Feedback-act**:	In a `FEEDBACK_DEPENDENCE` relation, the `Feedback-act` that provides or elicits information about the understanding or evaluation by one of the dialogue participants of the `Feedback-scope` argument, a communicative event that occurred earlier in the discourse. (Bunt & Prasad 2016)
-
-> Note: The relation definitions follow Prasad and Bunt (2015) and Bunt and Prasad (2016). RST, RSTDTB, SDRT and PDTB mapping follows Bunt and Prasad (2016).
-
-> Note: Role labels are taken from ISO SemAF. The `Condition` relation corresponds to ISO SemAF CONDITION with internal argument role "Antecedent". The `Negated_Condition` relation corresponds to ISO SemAF NEGATIVE CONDITION with internal argument role "Negated_Antecedent". 
-
-> Note: For `Feedback-act`, annotate if and only if turn-taking or interruptions occurred  
-
-> Note: Consider replacing `Feedback-act` and `Dependent-act` annotations by dialogue act annotations.
-
-> Note: Annotate Dependence relations only in the absence of explicit discourse markers, example:
-
-	- P1: I can never find my remote control.	P2: That’s [because] they don’t have a fixed place.		(Reason, not Inform, from Butt & Prasad 2016)
-
-### SemAF+PDTB
-
-PDTB: Arg2 is internal argument, Arg1 is external
-
 In the following, we refer to the internal argument as utterance, to the external argument as (contextual) anchor. The order of anchor and utterance is flexible. For implicit discourse markers, the anchor should generally precede the utterance, explicit discourse can be used by the speaker to underline that the anchor follows the utterance.
 
 - **CAUSAL**: In a `CAUSAL` relation, the `Reason` provides a reason or justification for the `Result` to come about or occur. (cf. ISO SemAF CAUSE, Bunt & Prasad 2016)
+	- subset of PDTB CONTINGENCY
 	- **Reason**: 
 		- the situation described in the utterance is the reason (cause or justification) for the situation described in the anchor, as typically expressed with the connective _because_ (cf. PDTB Reason, Prasad et al. 2007, p.26, 29)
 			
@@ -532,8 +338,9 @@ In the following, we refer to the internal argument as utterance, to the externa
 		- cf. RSTDTB Consequence, Result
 		- cf. SDRT Result (DISCOR Result, ANNODIS Result)
 	- **Cause**: For causal relations between utterance and anchor, annotators should normally apply `Reason` or `Result`. When `Cause` is used in annotation, it means that the annotators could not uniquely specify the directionality, but that they found the causal association with the anchor to be the primary discourse relation for the utterance at hand. (cf. Prasad et al. 2007, p.28)
-- **CONDITION**
-	- a `CONDITION` relation a hypothetical (unrealized) scenario with its (possible) consequence. The consequence is a situation that holds when the condition is true. This involves causal influence, but unlike `CAUSAL` relations, the truth value of the arguments of a `CONDITION` relation cannot be determined independently of the connective. (PDTB Condition, Prasad et al. 2007, p.26,29). 
+- **CONDITIONAL**
+	- a `CONDITIONAL` relation a hypothetical (unrealized) scenario with its (possible) consequence. The consequence is a situation that holds when the condition is true. This involves causal influence, but unlike `CAUSAL` relations, the truth value of the arguments of a `CONDITIONAL` relation cannot be determined independently of the connective. (PDTB Condition, Prasad et al. 2007, p.26,29; SemAF CONDITION).
+	- subset of PDTB CONTINGENCY 
 	- **Condition** 
 		- the utterance represents a `Condition`, i.e., an unrealized situation which, when realized, would lead to the `Consequence` described in the anchor. If the utterance holds true, the anchor is caused to hold true at some instant in all possible futures. This can be a generic truth about the world (PDTB Condition/generic), a statement that describes a regular outcome every time the condition holds true (PDTB Condition/generic) or a single time that this is the case (PDTB Condition/general). Following ISO SemAF, this is independent of whether the `Consequence` is believed to be true (PDTB Condition/factual present, Condition/factual past) or not (counterfactuals, PDTB Condition/unreal present, PDTB Condition/unreal past). If the condition is not true, the anchor should express what the consequences would had been if it had. Note that it is possible that the anchor can be true in the future independently of the utterance. (PDTB Condition, Prasad et al. 2007, p.30-31; Bunt & Prasad 2016, SemAF: Condition/Antecedent)
 
@@ -562,15 +369,16 @@ In the following, we refer to the internal argument as utterance, to the externa
 		- ?cf. RSTDTB Contingency
 		- cf. SDRT Consequence (DISCOR Consequence)
 - **NEGATIVE_CONDITION**: In a `NEGATIVE_CONDITION` relation, the `Negated_Condition` is an unrealized situation which, when **not** realized, would lead to the `Consequent`. (Bunt & Prasad 2016)
-	- **Negated_Condition**: The utterance describes an unrealized situation which, when not realized, leads to the `Consequence` described in the anchor. A diagnostic discourse marker is _unless_.
+	- Note: In PDTB, _unless_ would normally be annotated as EXPANSION/Alternative/disjunctive, but Bund and Prasad (2016) explicitly link it with PDTB Condition, instead. We thus see that as a special case of Condition, as well.
+	- **Neg_Condition**: The utterance describes an unrealized situation which, when not realized, leads to the `Consequence` described in the anchor. A diagnostic discourse marker is _unless_.
 		- cf. ANNODIS ?Conditional
 		- cf. PDTB Condition
-	- **Consequence**: The anchor describes an unrealized situation which, when not realized, leads to the `Consequence` described in the utterace. A diagnostic discourse marker is _otherwise_.
+	- **Neg_Consequence**: The anchor describes an unrealized situation which, when not realized, leads to the `Neg_Consequence` described in the utterace. A diagnostic discourse marker is _otherwise_. (SemAF Consequence)
 		- cf. ?RST Otherwise
 		- cf. ?RSTDTB Otherwise
 		- cf. SDRT Consequence (DISCOR Consequence)
 - **PURPOSE** In a `PURPOSE` relation, the `Goal` enables the `Enablement`. (Bunt & Prasad 2016) This relation is similar to `CAUSAL` and `CONDITION` relations, the main difference is that the former are neutral with respect to individual engagement whereas `PURPOSE` relations presume some level of agency on behalf of the speaker, the hearer or another agent addressed or involved in the situation described.
-	- Note: There is no clear PDTB2 counterpart. **TODO** check RST/RSTDTB Purpose
+	- Note: There is no clear PDTB2 counterpart. **TODO** check RST/RSTDTB Purpose. PDTB doesn't seem to have _in order to_ (which would be a diagnostic discourse marker), but _so that_ is annotated (2/2) as PDTB result. So, it seems safe to group this together with other PDTB CONTINGENCY relations.
 	- cf. RST ?Purpose, RSTDTB ?Purpose
 	- **Goal**: The utterance represents a goal (purpose) enabled by the anchor.
 		- cf. SDRT Explanation (DISCOR Explanation, ANNODIS Goal)
@@ -578,6 +386,7 @@ In the following, we refer to the internal argument as utterance, to the externa
 	- **Enablement**: The utterance describes a situation that enables the goal (purpose) described in the anchor.
 
 - **MANNER**, cf. SDRT (ANNODIS, DISCOR) Elaboration
+	- Missing from PDTB, and not clear what a diagnostic discourse marker could be. PDTB2 has _similarly_ as a signal of Conjunction. In that view, MANNER would fall under PDTB EXPANSION relations
 	- **Means**: In a `MANNER` relation, the `Means` argument describes a way in which the `Achievement` comes about or occurs. (Bunt & Prasad 2016)
 		- cf. RSTDTB Means, ?Manner
 	- **Achievement**: In a `MANNER` relation, the `Means` argument describes a way in which the `Achievement` comes about or occurs. (Bunt & Prasad 2016)
@@ -585,7 +394,9 @@ In the following, we refer to the internal argument as utterance, to the externa
 - **CONCESSION**
 	- `CONCESSION` is an expected causal relation between two arguments, where the `Expectation-raiser` is expected to cause the situation described in the other argument, but is cancelled or denied by the `Contra-expectation` argument. Concession highlights a difference between utterance and anchor where expectations raised by one argument are then denied by the other. The connective indicates that one of the arguments describes a situation A which causes C, while the other asserts (or implies) ¬C. Alternatively, one argument denotes a fact that triggers a set of potential consequences, while the other denies one or more of them. (cf. Bunt & Prasad 2016, Prasad et al. 2007, p.32,34) A diagnostic discourse marker (either at `Expectation-raiser` or `Contra-expectation`) is _although_, a diagnostic discourse marker at Contra-expectation is _however_.
 
-	Note that concessive connectives can also be used in a rhetorical or pragmatic way where their semantic conditions do not hold. Such cases of "apparent Concession" are included under `CONCESSION`, as well, but MUST be documented in comments (cf. Prasad et al. 2007, p. 27)	
+	Note that concessive connectives can also be used in a rhetorical or pragmatic way where their semantic conditions do not hold. Such cases of "apparent Concession" are included under `CONCESSION`, as well, but MUST be documented in comments (cf. Prasad et al. 2007, p. 27)
+
+	Following PDTB, CONCESSION relations are under PDTB2 COMPARISON.
 
 	- cf. SDRT (DISCOR, ANNODIS) Contrast
 	- **Expectation-raiser**: The utterance creates an expectation (a situation that is expected to cause the situation described in the other argument) that is cancelled or denied by the anchor. (cf. Bunt & Prasad 2016; PDTB "expectation", Prasad et al. 2007, p.34)
@@ -621,6 +432,8 @@ In the following, we refer to the internal argument as utterance, to the externa
 
 		- (118) “It’s just sort of a one-upsmanship thing with some people,” added Larry Shapiro. “They like to talk about having the new Red Rock Terrace one of Diamond Creek’s Cabernets or the Dunn 1985 Cabernet, or the Petrus. Producers have seen this market opening up and they’re now creating wines that appeal to these people.” That explains why the number of these wines is expanding so rapidly. **But** consumers who buy at this level are also more knowledgeable than they were a few years ago. (PDTB2, 0071)
 
+	- In accordance with PDTB2, CONTRAST falls under PDTB COMPARISON.
+
 	- cf. RST Contrast
 	- cf. RSTDTB Comparison
 	- cf. SDRT (DISCOR, ANNODIS) Contrast
@@ -628,15 +441,19 @@ In the following, we refer to the internal argument as utterance, to the externa
 
 - **EXCEPTION**: In an `EXCEPTION` relation, the `Regular` argument evokes a set of circumstances in which the described situation holds, while the `Exception` argument indicates one or more instances where it doesn't. (Bunt & Prasad 2016)
 	
+	- Intutitively, this involves an element of contrast, but we follow PDTB2 in considering it a form of PDTB EXPANSION.
+
 	- **Regular**: In an `EXCEPTION` relation, the `Regular` argument evokes a set of circumstances in which the described situation holds, while the `Exception` argument indicates one or more instances where it doesn't (Bunt & Prasad 2016). Not clear whether this situation exists in AURIS, as it requires a discourse marker to mark the regular rather than the exception. It could exist in cases in which paired discourse markers (like _either ... or_ or _on the one hand ... on the other hand_) mark `EXCEPTION` relations.
 
-	- **Exception**: The utterances specifies an exception to the generalization specified by the anchor. In other words, the situation described in the anchor is false because the sitation described in the utterance is true (but if the utterance were false, the anchor would be true). (Prasad et al. 2007, p.36)
+	- **Exception**: The utterances specifies an exception to the generalization specified by the anchor. In other words, the situation described in the anchor is false because the sitation described in the utterance is true (but if the utterance were false, the anchor would be true). (Prasad et al. 2007, p.36) According to PDTB2, possible discourse markers are _instead_ or _rather_ -- both of these are, however, more regularly used with other discourse relations, so that they are not diagnostic discourse markers.
 		
 		- (133) Boston Co. officials declined to comment on Moody’s action on the unit’s financial performance this year **except** to deny a published report that outside accountants had discovered evidence of significant accounting errors in the first three quarters’ results. (PDTB2, 1103)
 
 		- cf. PDTB Exception
 
 - **SIMILARITY**: `SIMILARITY` is a symmetric relation in which one or more similarities between the utterance and the anchor are highlighted with respect to what each predicates as a whole or to some entities they mention (Bunt & Prasad 2016). 
+
+	- This definition recalls aspects of the defonition of Contrast, so SIMILARITY could be seen as a subclass of PDTB COMPARISON. The PDTB2 mapping by Bunt and Prasad (2016), however, puts it under PDTB EXPANSION.
 
 	- PDTB2 Conjunction: Bunt & Prasad (2016) provide no other PDTB counterpart but PDTB2 conjunction. But this seems to be incorrect as it has a much looser definition closer to SDRT Narration: The situation described in the utterance provides additional, discourse new, information that is related to the situation described in the anchor, but is not related to the anchor in any other, more specific discourse relation. The semantics are thus no more than that of a logical ∧ (and). Diagnostic connectives are _also_, _in addition_, _additionally_, _further_, etc. ("conjunction", Prasad et al. 2007, p.37)
 
@@ -656,6 +473,9 @@ In the following, we refer to the internal argument as utterance, to the externa
 
 		- cf. RST ?Antithesis
 		- cf. PDTB Chosen Alternative
+	
+	- Following Bunt and Prasad (2016), this can be put under PDTB Expansion. However, RST Antithesis is much more defined along the lines of contrast, so, it might be better put there?
+
 - **CONJUNCTION**: `CONJUNCTION` is a symmetric relation in which the internal and the external arguments bear the same relation to some other situation evoked in the discourse. Their conjunction indicates that they are doing the same thing with respect to that situation, or are doing it together. (Bunt & Prasad 2016)
 	- Bunt and Prasad (2016) put PDTB List here:
 
@@ -672,6 +492,7 @@ In the following, we refer to the internal argument as utterance, to the externa
 	- cf. SDRT (DISCOR, ANNODIS) Continuation
 	- cf. PDTB Conjunction, List
 
+	- According to Bunt and Prasad (2016), this is to be put under PDTB EXPANSION
 	- Note: because of the largely underspecified semantics (if the PDTB definition is adopted), this must be annotated after anything else (except for SIMILARITY, maybe).
 
 - **DISJUNCTION**: `DISJUNCTION` is a symmetric relation in which the utterance and the anchor denote alternative situations (Bunt & Prasad 2016; Prasad et al. 2007, p.36). Following ISO SemAF, we do not distinguish as to whether both situations can hold simultaneously (logical or) or they are mutually exclusive (exclusive or). A diagnostic discourse marker is _or_:
@@ -684,6 +505,9 @@ In the following, we refer to the internal argument as utterance, to the externa
 	- cf. RSTDTB Disjunction
 	- cf. SDRT (DISCOR, ANNODIS) Alternation
 	- cf. PDTB Disjunctive, Conjunctive
+
+	- following Bunt and Prasad (2016), this is to be put under PDTB EXPANSION
+
 - **EXEMPLIFICATION**: In an `EXEMPLICATION` relation, the `Set` describes a set of situations; the `Instance` is an element of that set (Bunt & Prasad 2016).
 
 	- **Set**: In an `EXEMPLICATION` relation, the `Set` describes a set of situations; the `Instance` is an element of that set (Bunt & Prasad 2016). It is not clear wether this relation exists in AURIS, because PDTB2 does not provide designated discourse markers for this constellation. It might be relevant for paired discourse markers.
@@ -697,7 +521,10 @@ In the following, we refer to the internal argument as utterance, to the externa
 		- cf. SDRT (DISCOR, ANNODIS) Elaboration
 		- cf. PDTB Instantiation
 
+	- Following Bunt and Prasad (2016), this is to be put under PDTB EXPANSION
+
 - **ELABORATION**: In an `ELABORATION` relation, both arguments are the same situation, but the `Specific` argument contains more detail than the `Broad` argument. (Bunt & Prasad 2016)
+	- Following Bunt and Prasad (2016), this is to be put under PDTB EXPANSION
 	- **Broad**: The utterance describes the same situation as the anchor, but the anchor provides more detail. Typically, the utterance summarizes the anchor, or in some cases expresses a conclusion or generalization based on the anchor. Diagnostic discourse markers include _in sum_, _overall_, _finally_, etc. (Bunt & Prasad 2016; PDTB2 Restatement/generalization in Prasad et al. 2007, p.35)
 		
 		- (125) If the contract is as successful as some expect, it may do much to restore confidence in futures trading in Hong Kong. **[Implicit = in other words,]]** “The contract is definitely important to the exchange,” says Robert Gilmore, executive director of the Securities and Futures Commission. (PDTB2, 0700)
@@ -721,6 +548,8 @@ In the following, we refer to the internal argument as utterance, to the externa
 
 	- (129) He said the assets to be sold would be “non-insurance” assets, including a beer company and a real estate firm, and wouldn’t include any pieces of Farmers. **[Implicit = in other words]** “We won’t put any burden on Farmers,” he said. (PDTB2, 2403)
 
+	- Following Bunt and Prasad (2016), this is to be put under PDTB EXPANSION
+	
 	- cf. RST Restatement
 	- cf. RSTDTB Summary
 	- cf. SDRT (DISCOR, ANNODIS) Elaboration
@@ -732,6 +561,8 @@ In the following, we refer to the internal argument as utterance, to the externa
 
 	- cf. RSTDTB Temporal-same-time
 	- cf. PDTB Synchronous
+
+	- Following Bunt and Prasad (2016), this is to be put under PDTB TEMPORAL
 
 - **ASYNCHRONY**: the situation described in utterance stands in a temporal order with the situation described in the anchor, i.e., the role `Before` temporally precedes the `After` role. (Bunt & Prasad 2016) (cf. Prasad et al. 2007, p.27).
 
@@ -751,6 +582,9 @@ In the following, we refer to the internal argument as utterance, to the externa
 		- cf. RSTDTB Temporal-after, Sequence
 		- cf. SDRT (DISCOR, ANNODIS) Narration
 		- cf. PDTB Succession
+
+	- Following Bunt and Prasad (2016), this is to be put under PDTB TEMPORAL
+
 - **EXPANSION**: In an `EXPANSION` relation, the `Entity-description` argument provides further description about some entity or entities in the `Foreground`, expanding the narrative forward of which `Foreground` is a part, or expanding on the setting relevant for interpreting the `Foreground`. Utterance and anchor describe distinct situations (Bunt & Prasad 2016).
 	- **Foreground**: The utterance introduces the entity or entities that are elaborated in the anchor. In AURIS, this role probably does not exist as a discourse marker, unless a dedicated discourse marker can be found that marks the `Foreground` rather than (or in addition to) the `Entity-description`. 
 	- **Entity-description**: The utterance argument provides further description about some entity or entities in the anchor, expanding the narrative forward of which anchor is a part, or expanding on the setting relevant for interpreting the anchor. Utterance and anchor describe different situations (Bunt & Prasad 2016).
@@ -776,28 +610,16 @@ entity-based coherence relation could be perceived between the sentences" (Prasa
 				If an entity relation holds between the utterance and several candidate anchors (as in ex. 95), annotate the relation to the closest anchor candidate:
 
 				- (95) HOLIDAY ADS: Seagram will run two interactive ads in December magazines promoting its Chivas Regal and Crown Royal brands. The Chivas ad illustrates – via a series of pullouts – the wild reactions from the pool man, gardener and others if not given Chivas for Christmas. The three-page Crown Royal ad features a black-and-white shot of a boring holiday party – and a set of colorful stickers with which readers can dress it up. **[EntRel]** Both ads were designed by Omnicom’s DDB Needham agency. (PDTB2, 0989)
+		- Following Bunt and Prasad (2016), this is to be put under PDTB EntRel (not EXPANSION), but the definition is actually more specific than that.
 
 - **FUNCTIONAL_DEPENDENCE**
 	- **Antecedent-act**: External argument of a functional dependence, precedes the internal argument. (Not to be annotated.) (Bunt & Prasad 2016)
 	- **Dependent-act**: In a `FUNCTIONAL_DEPENDENCE` relation, the `Dependent-act` is a dialogue act with a responsive communicative function; the `Antecedent-act` is the dialogue act(s) that the `Dependent-act` responds to. (Bunt & Prasad 2016)
+	- not considered in PDTB2
 - **FEEDBACK_DEPENDENCE**
 	- **Feedback-scope**: External argument of a feedback dependence, precedes the internal argument. (Not to be annotated.) (Bunt & Prasad 2016)
 	- **Feedback-act**:	In a `FEEDBACK_DEPENDENCE` relation, the `Feedback-act` that provides or elicits information about the understanding or evaluation by one of the dialogue participants of the `Feedback-scope` argument, a communicative event that occurred earlier in the discourse. (Bunt & Prasad 2016)
-
-The PDTB2 top-level relations have not been mapped to SemAF roles:
-
-	- **CONTINGENCY**
-		- "the connective indicates that one of the situations described in Arg1 and Arg2 causally influences the other" (Prasad et al. 2007, p.28)
-
-	- **TEMPORAL**
-		- "the connective indicates that the situations described in the arguments are related temporally. The class level tag “TEMPORAL” does not specify if the situations are temporally ordered or overlapping." (Prasad et al. 2007, p. 27)
-
-	- **COMPARISON**
-		- "the connective indicates that a discourse relation is established between Arg1 and Arg2 in order to highlight prominent differences between the two situations. Semantically, the truth of both arguments is independent of the connective or the established relation." (Prasad et al. 2007, p.32)
-
-	- **EXPANSION**
-		- "relations which expand the discourse and move its narrative or exposition forward." (Prasad et al. 2007, p.34)
-
+	- not considered in PDTB2
 
 ## Troubleshooting
 
@@ -874,3 +696,7 @@ Also, when disambiguating explicit or inserting implicit discourse markers, cons
 TED-MDB guidelines?
 
 NB: for Dialog data, cf. https://dialogbank.lsv.uni-saarland.de/
+
+
+
+

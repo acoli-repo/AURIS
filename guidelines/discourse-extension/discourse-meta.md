@@ -22,3 +22,19 @@ Some features set AURIS apart from other schemas:
 
 AURIS is unique in grounding its annotations in utterances rather than discourse markers (as PDTB, ISO SemAF) or discourse segments (as RST, SDRT). In comparison to ISO SemAF, this leads to a shift of focus, as we annotate roles for asymmetric discourse relations rather than discourse relations. However, AURIS annotations are 1:1 mappable to ISO SemAF.
 
+
+
+The core assumption of the Penn Discourse Treebank is that discourse markers establish discourse-level predicates that
+take two abstract objects such as events, states, and propositions as their arguments. This is somewhat problematic for cases in which implicit discourse markers are to be annotated or in which a discourse relation is expressed by an alternative lexicalization, because there is no structural anchor to attach discourse annotations to. in AURIS, we adopt an alternative view and interpret discourse relations along the lines of anaphoric relations. Not in the sense that entity coreference is involved (although this is likely, and sometimes, required for certain discourse relations), but in the sense that a discourse relation serves to anchor a discourse unit in the preceding context. Like a referring expressions thus calls for an antecedent to be found, we see the task of (shallow) discourse parsing as the task to identify the anchor of an utterance. And, as we aim for a complete analysis, for *every* utterance. This idea is similar to models of global coherence such as RST and SDRT, but unlike these, we posit no structural constraints on discourse relations. In particular, we do not require that discourse relations constitute a tree structure. However, _some_ limitations are posited, but not out of theoretical, but practical considerations:
+
+- We annotate only one discourse relation per utterance. If more than one explicit discourse marker is found, this should be the meaning of the first discourse marker. If no discourse marker is found, this would be the relation that links it with the closest candidate anchor possible. 
+
+- We rely on syntactic (orthographic) sentences to serve as discourse segments. On the theoretical side, this is because we assume that overt syntactic and morphological cues already are sufficient indicators of intrasentential discourse relations. On the practical side, this decision allows us to efficiently preprocess data and to use a simple, tabular annotation format.
+
+- Within each utterance, we identify the main predicate. Discourse relations to be annotated, are concerned with the anchoring of that predicate (and its arguments) in discourse. The anchoring of dependent clauses that modify the predicate are beyond scope.
+
+- For identifying the main predicate, we rely on the dependency analysis of the Universal Dependencies. That is, every conjunct is represented by (and reducible to) its first element.
+
+- Traditionally, attribution has been modelled as an aspect of discourse stucture ... but in fact, verbs of attribution often serve to provide episthemic information, provenance or, in technical terms, metadata about the utterance rather than represent its actual content. For this reason, the main predicate of an attribution sentence is defined as the main verb, but as the reported statement, if given.
+
+Beyond that, the AURIS annotation scheme is based on ISO SemAF, because that claims to be theory-neutral. However, as the full specification is not publicly available (unless being paid for), and too massively underspecified to be of practical use (Żurowski et al. 2023), practical definitions and examples are largely drawn from the second edition of the Penn Discourse Treebank (PDTB2) in its ISO SemAF interpretation as given by Bunt and Prasad (2016). 
