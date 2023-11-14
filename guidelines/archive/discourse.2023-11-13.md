@@ -224,12 +224,12 @@ See the list of diagnostic markers in the appendix
 The relation inventory is primarily drawn from the Penn Discourse Treebank, as interpreted by ISO SemAF. We follow PDTB in providing a hierarchical organization of discourse relations, over which annotation preferences are to be drawn:
 
 - **COMPARISON** "the connective indicates that a discourse relation is established between Arg1 and Arg2 in order to highlight prominent differences between the two situations. Semantically, the truth of both arguments is independent of the connective or the established relation." (Prasad et al. 2007, p.32)
-- **CONTINGENCY** one of the situations described in utterance and anchor causally influences the other, i.e., it provides a reason, explanation or justification in the other situation (Prasad et al. 2007, p.28; Webber et al. 2019, p.19)
-- **TEMPORAL** the situations described in the arguments are intended to be related temporally. (Prasad et al. 2007, p. 27; Webber et al. 2019, p.18)
+- **CONTINGENCY** "the connective indicates that one of the situations described in Arg1 and Arg2 causally influences the other" (Prasad et al. 2007, p.28)
+- **TEMPORAL** "the connective indicates that the situations described in the arguments are related temporally. The class level tag “TEMPORAL” does not specify if the situations are temporally ordered or overlapping." (Prasad et al. 2007, p. 27)
 - **EXPANSION** (other) "relations which expand the discourse and move its narrative or exposition forward." (Prasad et al. 2007, p.34)
 
 To these, we add two additional top-level categories:
-- **DIALOG** for SemAF dependence relations (added for feedback- and question-response annotations of dialog acts, also comprising PDTB3 Hypophora)
+- **DIALOG** for SemAF dependence relations
 - **EntRel** for entity relations not falling under any of the categories above. 
 
 ### Annotation principles
@@ -319,46 +319,24 @@ For asymmetric relations, we annotate the ISO SemAF role of the internal argumen
 
 In the following, we refer to the internal argument as utterance, to the external argument as (contextual) anchor. The order of anchor and utterance is flexible. For implicit discourse markers, the anchor should generally precede the utterance, explicit discourse can be used by the speaker to underline that the anchor follows the utterance.
 
-- **CAUSAL**: In a `CAUSAL` relation, the `Reason` provides a reason, explanation or justification for the `Result` to come about or occur, but not in a conditional relation. (cf. ISO SemAF CAUSE, Bunt & Prasad 2016; Webber et al. 2019, p.19)
+- **CAUSAL**: In a `CAUSAL` relation, the `Reason` provides a reason or justification for the `Result` to come about or occur. (cf. ISO SemAF CAUSE, Bunt & Prasad 2016)
 	- subset of PDTB CONTINGENCY
 	- **Reason**: 
-		- the situation described in the utterance is the reason (cause, explanation or justification) for the situation described in the anchor, as typically expressed with the connective _because_ (cf. PDTB2 Reason, Prasad et al. 2007, p.26, 29; Webber et al. 2019, p.19)
+		- the situation described in the utterance is the reason (cause or justification) for the situation described in the anchor, as typically expressed with the connective _because_ (cf. PDTB Reason, Prasad et al. 2007, p.26, 29)
 			
-			- (69) But service on the line is expected to resume by noon today. **[Implicit=since]** “We had no serious damage on the railroad,” said a Southern Pacific spokesman. (PDTB3, wsj 1803)
-			- (70) By 11:59 p.m. tonight, President Bush must order $16 billion of automatic, across-the-board cuts in government spending to comply with the Gramm-Rudman budget law. **The cuts are necessary because** Congress and the administration have failed to reach agreement on a deficit-cutting bill. (PDTB3, wsj 2384)
+			- (102) Use of dispersants was approved **when** a test on the third day showed some positive results, officials said. (CONTINGENCY:Cause:reason) (PDTB2, 1347)
 
-		- Note that `Reason` also includes epistemic, rhetorical or pragmatic uses of causal connectives, e.g., where the utterance provides justification for a claim expressed in the anchor, as marked, for example, with the connective _because_. Ex. (104) illustrates such a case  Here, there is no causal influence between the two situations (PDTB2 Justification/Pragmatic Cause, Prasad et al. 2007, p.29; PDTB3 CONTINGENCY/Cause+Belief/reason, Webber et al. 2019, p.20).
-				
-			- (104) Mrs Yeargin is lying. [Implicit = because] They found students in an advanced class a year earlier who said she gave them similar help. (PDTB2, 0044)
-
-			- (77) The nations of southern Africa know a lot about managing elephants; **[Implicit=as]** their herds are thriving. (PDTB3, wsj 2047)
-
-			- (78) And until last Friday, it seemed those efforts were starting to pay off. **[Implicit=because]** “Some of those folks were coming back,” says Leslie Quick Jr., chairman, of discount brokers Quick & Reilly Group Inc. (PDTB3, wsj 1866)
-
-		- Likewise, `Reason` is also used when the utterance provides a reason for the speaker uttering the speech act represented by the anchor. The speech act is implicit (PDTB3 Contingency.Cause+SpeechAct.Reason, Webber et al. 2019, p.21)
-
-			- (81) “Maybe I’m a little stuffy, **but** I wouldn’t sell them,” sniffs Bob Machon, owner of Papa’s Sports Cards in Menlo Park, California. (PDTB3, wsj 1560, INTRASENTENTIAL)
+		- Note that `Reason` also includes epistemic, rhetorical or pragmatic uses of causal connectives, esp. where the utterance provides justification for a claim expressed in the anchor, as marked, for example, with the connective _because_. Ex. (104) illustrates such a case  Here, there is no causal influence between the two situations. ... Epistemic uses of the connective “because” are labelled as “Pragmatic cause:justification”. " (PDTB Justification/Pragmatic Cause, Prasad et al. 2007, p.29)
+				- (104) Mrs Yeargin is lying. [Implicit = because] They found students in an advanced class a year earlier who said she gave them similar help. (CONTINGENCY:Pragmatic Cause:justification) (PDTB2, 0044)
 
 		- cf. RST Vol. cause, Non-vol. cause, Evidence, Justify
 		- cf. RSTDTB Cause, Evidence, Explanation-argumentation, Reason
 		- cf. SDRT Explanation (DISCOR Explanation, ANNODIS Explanation)
-	- **Result**: The situation described in the utterance is interpreted as the result (effect) of the situation presented in the anchor. A typical discourse marker is “as a result”. (cf. PDTB Result, Prasad et al. 2007, p.26,29; Webber et al. 2019, p.20)
-
-		- (72) Now, though, enormous costs for earthquake relief will pile on top of outstanding costs for hurricane relief. “**That obviously means that** we won’t have enough for all of the emergencies that are now facing us, ... ,” Mr. Fitzwater said. (PDTB3, wsj 1824)
-		- (73) “We are going to explode lower,” says the flamboyant market seer, . . . **[Implicit=so]** Anyone telling you to buy stocks in this market is technically irresponsible. (PDTB3, wsj 0359)
-
-		- `Result` also applies for episthemic uses of causal markers, when the anchor gives the evidence justifying the claim given in the utterance (PDTB3 Contingency.Cause+Belief.Result, Webber et al. 2019, p.21)
-
-			- (80) There were no {sell} lists and the calendar is lightening up a bit. **[Implicit=so]** There’s light at the end of the tunnel for municipalities. (PDTB3, wsj 0351)
-
-		- Likewise, `Result` is to be used when the anchor is the reason for the speaker to produce the (speech act represented by the) utterance. (PDTB3 Contingency.Cause+SpeechAct.Result, Webber et al. 2019, p.21)
-
-			- (83) Surviving scandal has become a rite of political passage at a time when a glut of scandal has blunted this town’s sensibility. **[implicit=so]** Let the president demand strict new ethics rules. (PDTB3, wsj 0909)
-
+	- **Result**: The situation described in the utterance is interpreted as the result (effect) of the situation presented in the anchor. A typical discourse marker is “as a result”. (cf. PDTB Result, Prasad et al. 2007, p.26,29)
+		- (103) In addition, its machines are typically easier to operate, **so** customers require less assistance from software. (PDTB2, 1887)
 		- cf. RST Vol. result, Non-vol. result
 		- cf. RSTDTB Consequence, Result
 		- cf. SDRT Result (DISCOR Result, ANNODIS Result)
-		- PDTB3 introduced Cause/negative-result for intrasentential relations, specifically for the English construction _too X to Y_ (Webber et al. 2019, p.18,20). This does not seem to be relevant for intersentential relations. 
 	- **Cause**: For causal relations between utterance and anchor, annotators should normally apply `Reason` or `Result`. When `Cause` is used in annotation, it means that the annotators could not uniquely specify the directionality, but that they found the causal association with the anchor to be the primary discourse relation for the utterance at hand. (cf. Prasad et al. 2007, p.28)
 - **CONDITIONAL**
 	- a `CONDITIONAL` relation a hypothetical (unrealized) scenario with its (possible) consequence. The consequence is a situation that holds when the condition is true. This involves causal influence, but unlike `CAUSAL` relations, the truth value of the arguments of a `CONDITIONAL` relation cannot be determined independently of the connective. (PDTB Condition, Prasad et al. 2007, p.26,29; SemAF CONDITION).
@@ -370,7 +348,7 @@ In the following, we refer to the internal argument as utterance, to the externa
 
 		- `Condition` also includes rhetorical or pragmatic uses of conditional constructions whose interpretation deviates from the standard semantics described above. Specifically, these are cases of explicit _if_ tokens although utterance and anchor are not causally related, but presented as if they were. In all cases, the anchor holds true independently of the anchor, there is no causal relation between the two arguments. We distinguish two primary cases:
 			- _relevant context information_: The utterance provides the context in which the description of the situation in anchor is relevant. A frequently cited example for this type of conditional is (113). Note that this is an intrasentential relation in this case and not to be annotated in AURIS.
-				- (113) If you are thirsty, there’s beer in the fridge. (constructed, INTRASENTENTIAL)
+				- (113) If you are thirsty, there’s beer in the fridge. (constructed)
 			- _implicit assertion_: refers to a special use of if-constructions when the conditional involves an (implicit) assertion. In (115), the utterance ("O’ Connor is your man") is not a consequent state that will result if the condition expressed in the anchor holds true. Instead, the discourse marker _if_ in this case implicitly asserts that O’Connor will keep the crime rates high. Again, note that this is an intrasentential example. To be replaced by an intersentential relation. 
 				- (115) In 1966, on route to a re-election rout of Democrat Frank O’Connor, GOP Gov. Nelson Rockefeller of New York appeared in person saying, “**If** you want to keep the crime rates high, O’Connor is your man.” (PDTB2, 0041)
 
@@ -390,50 +368,25 @@ In the following, we refer to the internal argument as utterance, to the externa
 
 		- ?cf. RSTDTB Contingency
 		- cf. SDRT Consequence (DISCOR Consequence)
-- **NEGATIVE_CONDITION**: In a `NEGATIVE_CONDITION` relation, the `Negated_Condition` is an unrealized situation which, if it does **not** occur, would lead to the `Consequent` (Bunt & Prasad 2016; Webber et al. 2019, p.23)
-	- Note: In PDTB2, _unless_ would normally be annotated as EXPANSION/Alternative/disjunctive, but Bund and Prasad (2016) explicitly link it with PDTB2 Condition, instead. PDTB3 introduced CONTINGENCY/Negative Condition for intrasentential relations (Webber et al. 2019, p.18)
-
+- **NEGATIVE_CONDITION**: In a `NEGATIVE_CONDITION` relation, the `Negated_Condition` is an unrealized situation which, when **not** realized, would lead to the `Consequent`. (Bunt & Prasad 2016)
+	- Note: In PDTB, _unless_ would normally be annotated as EXPANSION/Alternative/disjunctive, but Bund and Prasad (2016) explicitly link it with PDTB Condition, instead. We thus see that as a special case of Condition, as well.
 	- **Neg_Condition**: The utterance describes an unrealized situation which, when not realized, leads to the `Consequence` described in the anchor. A diagnostic discourse marker is _unless_.
-
-		- (100) But a Soviet bank here would be crippled **unless** Moscow found a way to settle the $188 million debt, which was lent to the country’s short-lived democratic Kerensky government before the Communists seized power in 1917. (Webber et al. 2019, p.23, INTRASENTENTIAL)
-		- (101) **Unless** the Federal Reserve eases interest rates soon to stimulate the economy, profits could remain disappointing. (PDTB3, wsj 0322, INTRASENTENTIAL)
-		- (102) Sandoz said it expects a ”substantial increase” in consolidated profit for the full year, **barring** major currency rate change. (PDTB3, wsj 2089, INTRASENTENTIAL)
-
-		- This also includes episthemic uses of conditional discourse markers, esp., when the consequent is an implicit speech act. However, there have been no annotations of this kind found in PDTB3 (PDTB3 Contingency.Negative-condition+SpeechAct in Webber et al. 2019, p.23).
-
-			- (103) **Unless** you’re on a diet, there are some cookies in the cupboard. (Webber et al. 2019, p.23)
-
 		- cf. ANNODIS ?Conditional
-		- cf. PDTB2 Condition
+		- cf. PDTB Condition
 	- **Neg_Consequence**: The anchor describes an unrealized situation which, when not realized, leads to the `Neg_Consequence` described in the utterace. A diagnostic discourse marker is _otherwise_. (SemAF Consequence)
-
-		- (98) The National Institutes of Health policy would require researchers to cut financial ties with health-care businesses **or** lose their government money. (PDTB3, wsj 0975, INTRASENTENTIAL)
-		- (99) This will prevent a slide in industrial production, which will **otherwise** cause new panic buying. (PDTB3, wsj 1646, INTRASENTENTIAL)
-
 		- cf. ?RST Otherwise
 		- cf. ?RSTDTB Otherwise
 		- cf. SDRT Consequence (DISCOR Consequence)
-- **PURPOSE** In a `PURPOSE` relation, the `Goal` enables the `Enablement`, i.e., one utterance presents an action that an AGENT undertakes with the purpose of the GOAL conveyed by the other utterance being achieved. Usually (but not always), the agent undertaking the action is the same agent aiming to achieve the goal (Bunt & Prasad 2016; Webber et al. 2019, p.21). This relation is similar to `CAUSAL` and `CONDITION` relations, the main difference is that the former are neutral with respect to individual engagement whereas `PURPOSE` relations presume some level of agency on behalf of the speaker, the hearer or another agent addressed or involved in the situation described.
-
+- **PURPOSE** In a `PURPOSE` relation, the `Goal` enables the `Enablement`. (Bunt & Prasad 2016) This relation is similar to `CAUSAL` and `CONDITION` relations, the main difference is that the former are neutral with respect to individual engagement whereas `PURPOSE` relations presume some level of agency on behalf of the speaker, the hearer or another agent addressed or involved in the situation described.
 	- Note: There is no clear PDTB2 counterpart. **TODO** check RST/RSTDTB Purpose. PDTB doesn't seem to have _in order to_ (which would be a diagnostic discourse marker), but _so that_ is annotated (2/2) as PDTB result. So, it seems safe to group this together with other PDTB CONTINGENCY relations.
-	- PDTB3 introduced Purpose for intrasentential relations (Webber et al. 2019, p.18)
 	- cf. RST ?Purpose, RSTDTB ?Purpose
-	- **Goal**: The utterance represents a goal (purpose) enabled by the situation described in the anchor, i.e., the action undertaken to achieve the goal (PDTB3 Contingency.Purpose.Arg2-as-goal. Webber et al. 2019, p.21). All PDTB3 examples are intrasentential. This is possibly not relevant for AURIS.
-		- (86) Skilled ringers use their wrists to advance or retard the next swing, so that one bell can swap places with another in the following change. (PDTB3, wsj 0089)
-		- (87) In September, the company said it was seeking offers for its five radio stations in order to concentrate on its programming business. (PDTB3, wsj 0115)
-
+	- **Goal**: The utterance represents a goal (purpose) enabled by the anchor.
 		- cf. SDRT Explanation (DISCOR Explanation, ANNODIS Goal)
-		- cf. PDTB2 Result
-		- cf. PDTB3 CONTINGENCY.Purpose.Arg2-as-Goal
-	- **Enablement**: The utterance describes a situation that enables the goal (purpose) described in the anchor, i.e., the action undertaken to achieve the goal (PDTB3 Contingency.Purpose.Arg1-as-goal. Webber et al. 2019, p.21). All PDTB3 examples are intrasentential. This is possibly not relevant for AURIS.
-		- cf. PDTB3 CONTINGENCY.Purpose.Arg1-as-Goal
-
-		- (84) There are the strict monetarists, who believe that floating exchange rates free an economy to stabilize its price level **by** stabilizing the monetary aggregate. (PDTB3, wsj 0553, INTRASENTENTIAL)
-		- (85) She ordered the foyer done in a different plaid planting, and **[Implicit=for that purpose]** made the landscape architects study a book on tartans. (PDTB3, wsj 0984)
+		- cf. PDTB Result
+	- **Enablement**: The utterance describes a situation that enables the goal (purpose) described in the anchor.
 
 - **MANNER**, cf. SDRT (ANNODIS, DISCOR) Elaboration
-	- Missing from PDTB2, and not clear what a diagnostic discourse marker could be. PDTB2 has _similarly_ as a signal of Conjunction. In that view, MANNER would fall under PDTB EXPANSION relations
-	- cf. PDTB3 EXPANSION/Manner relation, introduced for intrasentential relations in PDTB3 (Webber et al. 2019, p.18) 
+	- Missing from PDTB, and not clear what a diagnostic discourse marker could be. PDTB2 has _similarly_ as a signal of Conjunction. In that view, MANNER would fall under PDTB EXPANSION relations
 	- **Means**: In a `MANNER` relation, the `Means` argument describes a way in which the `Achievement` comes about or occurs. (Bunt & Prasad 2016)
 		- cf. RSTDTB Means, ?Manner
 	- **Achievement**: In a `MANNER` relation, the `Means` argument describes a way in which the `Achievement` comes about or occurs. (Bunt & Prasad 2016)
@@ -441,7 +394,7 @@ In the following, we refer to the internal argument as utterance, to the externa
 - **CONCESSION**
 	- `CONCESSION` is an expected causal relation between two arguments, where the `Expectation-raiser` is expected to cause the situation described in the other argument, but is cancelled or denied by the `Contra-expectation` argument. Concession highlights a difference between utterance and anchor where expectations raised by one argument are then denied by the other. The connective indicates that one of the arguments describes a situation A which causes C, while the other asserts (or implies) ¬C. Alternatively, one argument denotes a fact that triggers a set of potential consequences, while the other denies one or more of them. (cf. Bunt & Prasad 2016, Prasad et al. 2007, p.32,34) A diagnostic discourse marker (either at `Expectation-raiser` or `Contra-expectation`) is _although_, a diagnostic discourse marker at Contra-expectation is _however_.
 
-	Note that concessive connectives can also be used in a rhetorical or pragmatic way where their semantic conditions do not hold. Such cases of "apparent Concession" are included under `CONCESSION`, as well, but MUST be documented in comments (cf. Prasad et al. 2007, p. 27).
+	Note that concessive connectives can also be used in a rhetorical or pragmatic way where their semantic conditions do not hold. Such cases of "apparent Concession" are included under `CONCESSION`, as well, but MUST be documented in comments (cf. Prasad et al. 2007, p. 27)
 
 	Following PDTB, CONCESSION relations are under PDTB2 COMPARISON.
 
@@ -452,7 +405,7 @@ In the following, we refer to the internal argument as utterance, to the externa
 
 		- cf. RST ?Concession
 		- cf. RSTDTB ?Concession, ?Antithesis, ?Preference
-		- cf. PDTB2 Expectation, PDTB3 Concession/arg1-as-denier
+		- cf. PDTB Expectation
 
 	- **Contra-expectation**: The utterance cancels or denies a situation that is expected after processing the anchor. This corresponds to the "Expecation-denier" role in Bunt & Prasad (2016), clif. Prasad et al. (2007, p.34) A diagnostic discourse marker of contra-expectation is _however_. Note that _but_, taken as diagnostic discourse marker of `CONTRAST` is usually also applicable to `CONCESSION`. Annotate `CONCESSION` for cases in which `however` can be used in place of `but`.
 
@@ -460,7 +413,7 @@ In the following, we refer to the internal argument as utterance, to the externa
 
 		- cf. RST ?Concession
 		- cf. RSTDTB ?Concession, ?Antithesis, ?Preference
-		- cf. PDTB2 Contra-Expectation, PDTB3 Concession/arg2-as-denier
+		- cf. PDTB Contra-Expectation
 
 	- **Concession**: Instances which are ambiguous between “expectation” and “contra-expectation”, where the context or the annotators’ world knowledge is not sufficient to specify the subtype are tagged as `CONCESSION` (Prasad et al. 2007, p.34)
 
@@ -500,7 +453,7 @@ In the following, we refer to the internal argument as utterance, to the externa
 
 - **SIMILARITY**: `SIMILARITY` is a symmetric relation in which one or more similarities between the utterance and the anchor are highlighted with respect to what each predicates as a whole or to some entities they mention (Bunt & Prasad 2016). 
 
-	- This definition recalls aspects of the definition of Contrast, so SIMILARITY could be seen as a subclass of PDTB COMPARISON. In PDTB3, Similarity was indeed introduced as a subclass of COMPARISON (Webber et al. 2019, p.18). The PDTB2 mapping by Bunt and Prasad (2016), however, linked it with PDTB Conjunction and thus puts it under PDTB EXPANSION. 
+	- This definition recalls aspects of the defonition of Contrast, so SIMILARITY could be seen as a subclass of PDTB COMPARISON. The PDTB2 mapping by Bunt and Prasad (2016), however, puts it under PDTB EXPANSION.
 
 	- PDTB2 Conjunction: Bunt & Prasad (2016) provide no other PDTB counterpart but PDTB2 conjunction. But this seems to be incorrect as it has a much looser definition closer to SDRT Narration: The situation described in the utterance provides additional, discourse new, information that is related to the situation described in the anchor, but is not related to the anchor in any other, more specific discourse relation. The semantics are thus no more than that of a logical ∧ (and). Diagnostic connectives are _also_, _in addition_, _additionally_, _further_, etc. ("conjunction", Prasad et al. 2007, p.37)
 
@@ -524,13 +477,15 @@ In the following, we refer to the internal argument as utterance, to the externa
 	- Following Bunt and Prasad (2016), this can be put under PDTB Expansion. However, RST Antithesis is much more defined along the lines of contrast, so, it might be better put there?
 
 - **CONJUNCTION**: `CONJUNCTION` is a symmetric relation in which the internal and the external arguments bear the same relation to some other situation evoked in the discourse. Their conjunction indicates that they are doing the same thing with respect to that situation, or are doing it together. (Bunt & Prasad 2016)
-	- Bunt & Prasad (2016) put PDTB2 conjunction here. But this seems to be incorrect as it has a much looser definition closer to SDRT Narration: The situation described in the utterance provides additional, discourse new, information that is related to the situation described in the anchor, but is not related to the anchor in any other, more specific discourse relation. The semantics are thus no more than that of a logical ∧ (and). Diagnostic connectives are _also_, _in addition_, _additionally_, _further_, etc. ("conjunction", Prasad et al. 2007, p.37)
+	- Bunt and Prasad (2016) put PDTB List here:
+
+		- "Arg1 and Arg2 are members of a list, defined in the prior discourse. “List” does not require the situations specified in Arg1 and Arg2 to be directly related." (Prasad et al. 2007, p.37)
+			
+			- (135) But other than the fact that besuboru is played with a ball and a bat, it’s unrecognizable: Fans politely return foul balls to stadium ushers; **[Implicit = and]** the strike zone expands depending on the size of the hitter; (EXPANSION:List) (PDTB2, 0037)
+
+	- Bunt & Prasad (2016) also put PDTB2 conjunction here. But this seems to be incorrect as it has a much looser definition closer to SDRT Narration: The situation described in the utterance provides additional, discourse new, information that is related to the situation described in the anchor, but is not related to the anchor in any other, more specific discourse relation. The semantics are thus no more than that of a logical ∧ (and). Diagnostic connectives are _also_, _in addition_, _additionally_, _further_, etc. ("conjunction", Prasad et al. 2007, p.37)
 
 		- (134) Food prices are expected to be unchanged, but energy costs jumped as much as 4%, said Gary Ciminero, economist at Fleet/Norstar Financial Group. He **also** says he thinks “core inflation,” which excludes the volatile food and energy prices, was strong last month. (PDTB2 conjunction, 2400)
-
-	- Bunt and Prasad (2016) put PDTB2 List here "Arg1 and Arg2 are members of a list, defined in the prior discourse. “List” does not require the situations specified in Arg1 and Arg2 to be directly related" (Prasad et al. 2007, p.37). This is in line with the inclusion of PDTB2 List under PDTB3 Conjunction (Webber et al. 2019, p.18).
-			
-			- (135) But other than the fact that besuboru is played with a ball and a bat, it’s unrecognizable: Fans politely return foul balls to stadium ushers; **[Implicit = and]** the strike zone expands depending on the size of the hitter; (PDTB2, 0037)
 
 	- cf. RST Joint
 	- cf. RSTDTB List
@@ -574,7 +529,7 @@ In the following, we refer to the internal argument as utterance, to the externa
 		
 		- (125) If the contract is as successful as some expect, it may do much to restore confidence in futures trading in Hong Kong. **[Implicit = in other words,]]** “The contract is definitely important to the exchange,” says Robert Gilmore, executive director of the Securities and Futures Commission. (PDTB2, 0700)
 
-		- cf. PDTB2 Generalization, PDTB3 Level-of-Detail/arg2-as-detail
+		- cf. PDTB Generalization
 
 	- **Specific**: The utterance describes the situation described in the anchor in more detail. Diagnostic discourse markers include _specifically_, _indeed_ and _in fact_." (PDTB Restatement/specification, Prasad et al. 2007, p.35)
 		
@@ -585,7 +540,7 @@ In the following, we refer to the internal argument as utterance, to the externa
 		- cf. RST Elaboration
 		- cf. RSTDTB Conclusion, Elaboration general-specific, Elaboration whole-part, Elaboration process-step
 		- cf. SDRT (DISCOR, ANNODIS) Elaboration
-		- cf. PDTB2 Specification, PDTB3 Level-of-Detail/arg1-as-detail
+		- cf. PDTB Specification
 
 - **RESTATEMENT**: `RESTATEMENT` is a symmetric relation in which the utterance describes the same situation as the anchor, but from different perspectives, e.g., when describing the same situation as presented before using the speaker’s own words. It is inferred that the situations described in anchor and utterance hold true at the same time. (Bunt & Prasad 2016; PDTB2 Restatement/equivalence, Prasad et al. 2007, p.35-36). A diagnostic discourse marker is _in other words_.
 
@@ -602,9 +557,7 @@ In the following, we refer to the internal argument as utterance, to the externa
 
 - **SYNCHRONY**: `SYNCHRONY` applies if the situations described in the utterance and the anchorhave some degree of temporal overlap, i.e., if the two situations started and ended at the same time, if one was temporally embedded in the other, or if the two crossed. Diagnostic connectives are _while_ and _when_ (Bunt & Prasad 2016; PDTB2 Synchronuous in Prasad et al. 2007, p.27-28). 
 
-	- (58) Then, in late-afternoon trading, hundred-thousand-share buy orders for UAL hit the market, including a 200,000-share order through Bear Stearns that seemed to spark UAL’s late price surge. **Almost simultaneously**, PaineWebber began a very visible buy program for dozens of stocks. (PDTB3, wsj 1208)
-
-	- (60) The parishioners of St. Michael and All Angels stop to chat at the church door, as members here always have. **[Implicit=while]** In the tower, five men and women pull rhythmically on ropes attached to the same five bells that first sounded here in 1614. (PDTB3, wsj 0089)
+	- (101) Knowing a tasty – and free – meal **when** they eat one, the executives gave the chefs a standing ovation. (PDTB2, 0010, INTRASENTENTIAL)
 
 	- cf. RSTDTB Temporal-same-time
 	- cf. PDTB Synchronous
@@ -616,7 +569,7 @@ In the following, we refer to the internal argument as utterance, to the externa
 	- cf. RST Sequence
 	- **Before**: The situation described in the utterance temporally precedes the situation described in the anchor. A diagnostic discourse marker is _before_ (Bunt & Prasad 2016; PDTB2 precedence in Prasad et al. 2007, p.28)
 		
-		- (66) John D. Carney, 45, was named to succeed Mr. Hatch as president of Eastern Edison. Previously he was vice president of Eastern Edison. (PDTB3, wsj 0019)
+		- (99) But a Soviet bank here would be crippled unless Moscow found a way to settle the $188 million debt, which was lent to the country’s short-lived democratic Kerensky government **before** the Communists seized power in 1917. (PDTB2, 0035, INTRASENTENTIAL)
 
 		- cf. RSTDTB Temporal-before, Inverted-sequence
 		- cf. DISCOR Precondition, ANNODIS Flashback
@@ -624,9 +577,7 @@ In the following, we refer to the internal argument as utterance, to the externa
 
 	- **After**: The situation described in the anchor temporally precedes the situation described in the utterance (Bunt & Prasad 2016; PDTB2 succession in Prasad et al. 2007, p.28). A diagnostic discourse marker is _after_.
 
-		- (61) A buffet breakfast was held in the museum, where food and drinks are banned to everyday visitors. **Then**, in the guests’ honor, the speedway hauled out four drivers, crews and even the official Indianapolis 500 announcer for a 10-lap exhibition race. (PDTB3, wsj 0010)
-
-		- (64) The Artist has his routine. He spends his days sketching passers-by, or trying to. **[Implicit=then]** At night he returns to the condemned building he calls home. (PDTB3, wsj 0039)
+		- (100) No matter who owns PS of New Hampshire, **after** it emerges from bankruptcy proceedings its rates will be among the highest in the nation, he said. (PDTB2, 0013, INTRASENTENTIAL)
 
 		- cf. RSTDTB Temporal-after, Sequence
 		- cf. SDRT (DISCOR, ANNODIS) Narration
@@ -665,27 +616,10 @@ entity-based coherence relation could be perceived between the sentences" (Prasa
 	- **Antecedent-act**: External argument of a functional dependence, precedes the internal argument. (Not to be annotated.) (Bunt & Prasad 2016)
 	- **Dependent-act**: In a `FUNCTIONAL_DEPENDENCE` relation, the `Dependent-act` is a dialogue act with a responsive communicative function; the `Antecedent-act` is the dialogue act(s) that the `Dependent-act` responds to. (Bunt & Prasad 2016)
 	- not considered in PDTB2
-
-- **FEEDBACK_DEPENDENCE**: In a `FEEDBACK_DEPENDENCE` relation, the `Feedback-act` that provides or elicits information about the understanding or evaluation by one of the dialogue participants of the `Feedback-scope` argument, a communicative event that occurred earlier in the discourse. As with Entity Relations, no explicit or implicit connective is identified and annotated: The only elements of the relation are the utterance and the anchor (Bunt & Prasad 2016; PDTB Hypophora in Webber et al. 2019, p.9).
-	- **Feedback-scope**: The utterance provides a question that is answered by the anchor. (This is a hypothetical inverse of the feedback-act relation, not to be annotated.) 
-	- **Feedback-act**:	The utterance provides an answer to a question expressed in the anchor. Normally, the question should precede the answer. For a question seeking information, the response should aim to fulfill that need by addressing it explicitly, or, alternatively, indicate that the information need cannot be fulfilled, as in (23) below. 
-
-		- (19) If not now, when? **[HYPOPHORA]** “When the fruit is ripe, it falls from the tree by itself,” he says.” (PDTB3, wsj 0300)
-		- (20) Of all the ethnic tensions in America, which is the most troublesome right now? **[HYPOPHORA]** A good bet would be the tension between blacks and Jews in New York City. (PDTB3, wsj 2369)
-		- (21) But can Mr. Hahn carry it off? **[HYPOPHORA]** In this instance, industry observers say, he is entering uncharted waters. (PDTB3, wsj 0100)
-		- (22) So can a magazine survive by downright thumbing its nose at major advertisers? **[HYPOPHORA]** Garbage magazine, billed as ”The Practical Journal for the Environment,” is about to find out. (PDTB3, wsj 0062)
-		- (23) With all this, can stock prices hold their own? **[HYPOPHORA]** ”The question is unanswerable at this point” she says. (PDTB3, wsj 0681)
-
-	The relation type `Feedback-act` does not apply when the subsequent text relates to a question in other ways – for example, in the case of rhetorical questions that are posed for dramatic effect or to make an assertion, rather than to elicit an answer (Webber et al. 2019, p.9):
-
-		- (24) Remember Pinnochio? **[Implicit=similarly]** Consider Jim Courtier. (PDTB3, wsj 0041)
-
-	If the subsequent text is not an answer (direct or indirect) or a denial that an answer is possible, another relation should also be annotated (Webber et al. 2019, p.9):
-
-		- (25) Since chalk first touched slate, schoolchildren have wanted to know: What’s on the test? **[Implicit=however]** These days, students can often find the answer in test-coaching workbooks and worksheets their teachers give them in the weeks prior to taking standardized achievement tests. (PDTB3, wsj 0045)
-
-	- missing from PDTB2, added with PDTB3 as top-level category "Hypophora".
-	- "In HYPOPHORA relations, one argument (commonly Arg1) expresses a question and the other argument (commonly Arg2) provides an answer. 
+- **FEEDBACK_DEPENDENCE**
+	- **Feedback-scope**: External argument of a feedback dependence, precedes the internal argument. (Not to be annotated.) (Bunt & Prasad 2016)
+	- **Feedback-act**:	In a `FEEDBACK_DEPENDENCE` relation, the `Feedback-act` that provides or elicits information about the understanding or evaluation by one of the dialogue participants of the `Feedback-scope` argument, a communicative event that occurred earlier in the discourse. (Bunt & Prasad 2016)
+	- not considered in PDTB2
 
 ## Troubleshooting
 
@@ -756,7 +690,6 @@ Also, when disambiguating explicit or inserting implicit discourse markers, cons
 
 - Rashmi Prasad, Eleni Miltsakaki, Nikhil Dinesh, Alan Lee, Aravind Joshi, Livio Robaldo (2007), The Penn Discourse Treebank 2.0 Annotation Manual, December 17, 2007, https://www.cis.upenn.edu/~elenimi/pdtb-manual.pdf, accessed 2023-11-09
 
-- Bonnie Webber, Rashmi Prasad, Alan Lee, Aravind Joshi (2019), The Penn Discourse Treebank 3.0 Annotation Manual, Language Data Consortium, https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf, accessed 2023-11-13
 
 ## Possible Addenda
 
@@ -764,5 +697,6 @@ TED-MDB guidelines?
 
 NB: for Dialog data, cf. https://dialogbank.lsv.uni-saarland.de/
 
-Note that PDTB3 changed the definition of its arguments and shifted from a syntactically based identification of Arg1 (external argument) and Arg2 (internal argument) to a positional identification of Arg1 as first and Arg2 as second argument (except for subordinating conjunctions, where the old definition holds). As ISO SemAF was defined in relation to PDTB2, not PDTB3, our definitions are based on the older definitions. Subsequent updates to the definition of PDTB2 roles that pertain to this change in definitions have not been adopted here.
+
+
 
