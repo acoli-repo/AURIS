@@ -4,6 +4,8 @@ We annotate discourse relations between sentences and thus annotate entire sente
 
 Although complete sentences are the unit of annotation, the sentence may include material not relevant for the discourse relation at hand. Instead, annotators should focus on the main clause of the sentence (or, for attribution verbs, the main clause of the reported speech contained in the current sentence).
 
+Note that because these guidelines are partially based on the Penn Discourse Treebank, which also accounts for intrasentential discourse relations, we still include examples of intrasentential relations in the definition of discourse relations. In the future, these are to be replaced by real-world intersentential corpus examples. 
+
 ## Task and Procedure
 
 Goal of the annotation is to annotate every sentence with at least one discourse relation. It is neither required nor expected that the annotation of discourse relations leads to a tree structure.
@@ -223,7 +225,7 @@ See the list of diagnostic markers in the appendix
 
 The relation inventory is primarily drawn from the Penn Discourse Treebank, as interpreted by ISO SemAF. We follow PDTB in providing a hierarchical organization of discourse relations, over which annotation preferences are to be drawn:
 
-- **COMPARISON** "the connective indicates that a discourse relation is established between Arg1 and Arg2 in order to highlight prominent differences between the two situations. Semantically, the truth of both arguments is independent of the connective or the established relation." (Prasad et al. 2007, p.32)
+- **ADVERSATIVITY** "the connective indicates that a discourse relation is established between Arg1 and Arg2 in order to highlight prominent differences between the two situations. Semantically, the truth of both arguments is independent of the connective or the established relation." (PDTB2 COMPARISON, Prasad et al. 2007, p.32)
 - **CONTINGENCY** one of the situations described in utterance and anchor causally influences the other, i.e., it provides a reason, explanation or justification in the other situation (Prasad et al. 2007, p.28; Webber et al. 2019, p.19)
 - **TEMPORAL** the situations described in the arguments are intended to be related temporally. (Prasad et al. 2007, p. 27; Webber et al. 2019, p.18)
 - **EXPANSION** (other) "relations which expand the discourse and move its narrative or exposition forward." (Prasad et al. 2007, p.34)
@@ -237,7 +239,7 @@ To these, we add two additional top-level categories:
 - if there is more than one explicit discourse marker, annotate the first explicit discourse marker
 - if there is no discourse marker or the discourse marker is ambiguous with respect to the discourse relation it encodes:
 	- annotate the most specific discourse relation possible, using the following preference hierachy
-		- COMPARISON > CONTINGENCY > TEMPORAL > EXPANSION > DIALOG > EntRel > NoRel
+		- ADVERSATIVITY > CONTINGENCY > TEMPORAL > EXPANSION > DIALOG > EntRel > NoRel
 
 The logic behind that ranking is that this hierarchy ranges from semantically highly constrained (i.e., very specific) to semantically less constrained (i.e., more generic) relation types:
 
@@ -249,11 +251,13 @@ The logic behind that ranking is that this hierarchy ranges from semantically hi
 
 > Note: The PDTB2 top-level relations have not been directly mapped to SemAF roles, but rather, they constitute a higher level of organization *over* SemAF roles
 
+> Note: The top-level class ADVERSATIVITY has been introduced for PDTB2 COMPARISON, to avoid conflation with PDTB3 COMPARISON, because PDTB3 has revised the definition of COMPARISON to also include Similarity relations, which were previously grouped with EXPANSION. However, Webber et al. (2019, p. 23-24) note that annotators had difficulties to distinguish Contrast and Concession, thus demonstrating the need for a common superclass. These difficulties do not extend, however, to SIMILARITY. As an alternative to the PDTB3 approach of extending the scope of COMPARISON, we would prefer to stay with the original definition, but use a more specific designation, say, ADVERSATIVITY.
+
 ### Overall hierarchy
 
 The top level of the hierarchy follows PDTB2, the middle level represents SemAF relations, the third level represents SemAF attribute roles.
 
-- **COMPARISON**
+- **ADVERSATIVITY**
 	- `Concession` (SemAF Concession)
 		- `expectation-raiser` (SemAF Concession/Expectation-raiser)
 		- `contra-expectation` (SemAF Concession/Expectation-denier)
@@ -439,16 +443,23 @@ In the following, we refer to the internal argument as utterance, to the externa
 	- **Achievement**: In a `MANNER` relation, the `Means` argument describes a way in which the `Achievement` comes about or occurs. (Bunt & Prasad 2016)
 
 - **CONCESSION**
-	- `CONCESSION` is an expected causal relation between two arguments, where the `Expectation-raiser` is expected to cause the situation described in the other argument, but is cancelled or denied by the `Contra-expectation` argument. Concession highlights a difference between utterance and anchor where expectations raised by one argument are then denied by the other. The connective indicates that one of the arguments describes a situation A which causes C, while the other asserts (or implies) ¬C. Alternatively, one argument denotes a fact that triggers a set of potential consequences, while the other denies one or more of them. (cf. Bunt & Prasad 2016, Prasad et al. 2007, p.32,34) A diagnostic discourse marker (either at `Expectation-raiser` or `Contra-expectation`) is _although_, a diagnostic discourse marker at Contra-expectation is _however_.
+	- `CONCESSION` is an expected causal relation between two arguments, where the `Expectation-raiser` is expected to cause the situation described in the other argument, but is cancelled or denied by the `Contra-expectation` argument. `CONCESSION` is used when an expected causal relation is cancelled or denied by the situation described in one of the arguments. At the same time, concession is related to CONTRAST in that it highlights a difference between utterance and anchor where expectations raised by one argument are then denied by the other. The connective indicates that one of the arguments describes a situation A which causes C, while the other asserts (or implies) ¬C. Alternatively, one argument denotes a fact that triggers a set of potential consequences, while the other denies one or more of them. (cf. Bunt & Prasad 2016, Prasad et al. 2007, p.32,34; Webber et al. 2019, p.24) A diagnostic discourse marker (either at `Expectation-raiser` or `Contra-expectation`) is _although_, a diagnostic discourse marker at Contra-expectation is _however_.
 
-	Note that concessive connectives can also be used in a rhetorical or pragmatic way where their semantic conditions do not hold. Such cases of "apparent Concession" are included under `CONCESSION`, as well, but MUST be documented in comments (cf. Prasad et al. 2007, p. 27).
+	Note that concessive connectives can also be used in a rhetorical or pragmatic way where their semantic conditions do not hold. Such cases of "apparent Concession" are included under `CONCESSION`, as well, but MUST be documented in comments (cf. Prasad et al. 2007, p. 27). This includes cases in which the speech act associated with the `Expectation-raiser` is cancelled or denied by the `Contra-expectation` or its speech act. So far, this has only be observed for `Contra-expectation`, see there for examples (PDTB3 Comparison.Concession+SpeechAct, Webber et al. 2019, p. 24).
 
-	Following PDTB, CONCESSION relations are under PDTB2 COMPARISON.
+	Following PDTB2, CONCESSION relations are under ADVERSATIVITY (PDTB2 COMPARISON).
 
 	- cf. SDRT (DISCOR, ANNODIS) Contrast
-	- **Expectation-raiser**: The utterance creates an expectation (a situation that is expected to cause the situation described in the other argument) that is cancelled or denied by the anchor. (cf. Bunt & Prasad 2016; PDTB "expectation", Prasad et al. 2007, p.34)
+	- **Expectation-raiser**: The utterance creates an expectation (a situation that is expected to cause the situation described in the other argument) that is cancelled or denied by the anchor. (cf. Bunt & Prasad 2016; PDTB "expectation", Prasad et al. 2007, p.34) A diagnostic discourse marker is _although_ (Webber et al. 2019, p.23-24)
 
 		- (119) **Although** the purchasing managers’ index continues to indicate a slowing economy, it isn’t signaling an imminent recession, said Robert Bretz, chairman of the association’s survey committee and director of materials management at Pitney Bowes Inc., Stamford, Conn. (PDTB2, 0036; INTRASENTENTIAL)
+
+		- (104) The documents also said that **although** the 64-year-old Mr. Cray has been working on the project for more than six years, the Cray-3 machine is at least another year away from a fully operational prototype. (PDTB3, wsj 0018; INTRASENTENTIAL)
+
+		- (105) It’s as if investors, the past few days, are betting that something is going to go wrong – **even if** they don’t know what. (PDTB3, wsj 0359; INTRASENTENTIAL)
+
+		- (106) **[Implicit=although]** Barely visible on Hong Kong’s property scene in 1985, by last year Japan had
+become the top foreign investor. (PDTB3, wsj 0524; INTRASENTENTIAL)
 
 		- cf. RST ?Concession
 		- cf. RSTDTB ?Concession, ?Antithesis, ?Preference
@@ -458,18 +469,36 @@ In the following, we refer to the internal argument as utterance, to the externa
 
 		- (120) The Texas oilman has acquired a 26.2% stake valued at more than $1.2 billion in an automotive-lighting company, Koito Manufacturing Co. **But** he has failed to gain any influence at the company. (PDTB2, 0082)
 
+		- (107) Last Friday, 96 stocks on the Big Board hit new 12-month lows. **But** by Mr. Granville’s count, 493 issues were within one point of such lows. (PDTB3, wsj 0359)
+
+		- (109) American Brands “just had a different approach,” Mr. Wathen says. **[Implicit=however]** “Their approach didn’t work.” (PDTB3, wsj 0305)
+
+		- `Contra-expectation` also applies to cases in which concessive connectives are used in a rhetorical or pragmatic way where their semantic conditions do not hold (cf. Prasad et al. 2007, p. 27). Such cases of "apparent Concession" MUST be documented in comments. This includes cases in which the speech act associated with the anchor is cancelled or denied by the utterance or its speech act (PDTB3 Comparison.Concession+SpeechAct, Webber et al. 2019, p. 24-25):
+
+			- (110) Congress closed this loophole last year, **or** thought it did. (PDTB3, wsj 1574; INTRASENTENTIAL)
+
+			This can be paraphrased as follows, with its implicit SAs made explicit: _While (Although) I say Congress closed this loophole last year, it might be more accurate to say Congress thought it closed this loophope last year_.
+
+			- (111) He lived in Peking, **or** should I say Beijing, for 20 years. (Webber et al. 2019, p. 25; INTRASENTENTIAL)
+
+			Here, the anchor speech act is explicit, although the utterance speech act (the one that is denied) is (as required) implicit. It can be paraphrased as _While (Although) I say He lived in Peking, it might be more accurate to say he lived in Beijing_.
+
 		- cf. RST ?Concession
 		- cf. RSTDTB ?Concession, ?Antithesis, ?Preference
 		- cf. PDTB2 Contra-Expectation, PDTB3 Concession/arg2-as-denier
 
 	- **Concession**: Instances which are ambiguous between “expectation” and “contra-expectation”, where the context or the annotators’ world knowledge is not sufficient to specify the subtype are tagged as `CONCESSION` (Prasad et al. 2007, p.34)
 
-		- (121) Besides, to a large extent, Mr. Jones may already be getting what he wants out of the team, **even though** it keeps losing. (COMPARISON:Concession) (PDTB2, 1411)
+		- (121) Besides, to a large extent, Mr. Jones may already be getting what he wants out of the team, **even though** it keeps losing. (PDTB2, 1411)
 
 - **CONTRAST**: `CONTRAST` is a symmetric relation in which one or more differences between the internal argument and the external argument are highlighted with respect to what each predicates as a whole or to some entities they mention. Semantically, the truth of both arguments is independent of the connective or the established relation (Bunt & Prasad 2016, Prasad et al. 2007, p.32). In `CONTRAST`, the utterance and the anchor share a predicate or property and a difference is highlighted with respect to the values assigned to the shared property. However, neither argument describes a situation that is asserted on the basis of the other one, and thus, there is no directionality in the interpretation of the arguments. This is the main difference in comparison with the otherwise similar `CONCESSION` relation. (PDTB2 Contrast, Prasad et al. 2007, p.32) A diagnostic discourse marker for contrast is _but_.
 	- This includes cases in which the connective indicates that the values assigned to some shared property are taken to be alternatives ("juxtaposition", Prasad et al. 2007, p.32-33).
 
 		- (116) Operating revenue rose 69% to A$8.48 billion from A$5.01 billion. **But** the net interest bill jumped 85% to A$686.7 million from A$371.1 million. (PDTB2 1449)
+
+		- (113) After all, gold prices usually soar when inflation is high. Utility stocks, **on the other hand**, thrive on disinflation ... (PDTB3, wsj 0359)
+
+		- (114) Mr. Edelman said the decision ”has nothing to do with Marty Ackerman.” **[implicit=on the contrary]** Mr. Ackerman contended that it was a direct response to his efforts to gain control of Datapoint. (PDTB3, wsj 0333)
 
 	- This also includes cases in which the connective indicates that the values assigned to some shared property are the extremes of a gradable scale, e.g., _tall-short_, _accept-reject_, etc. ("opposition", Prasad et al. 2007, p.33)
 
@@ -479,12 +508,14 @@ In the following, we refer to the internal argument as utterance, to the externa
 
 		- (118) “It’s just sort of a one-upsmanship thing with some people,” added Larry Shapiro. “They like to talk about having the new Red Rock Terrace one of Diamond Creek’s Cabernets or the Dunn 1985 Cabernet, or the Petrus. Producers have seen this market opening up and they’re now creating wines that appeal to these people.” That explains why the number of these wines is expanding so rapidly. **But** consumers who buy at this level are also more knowledgeable than they were a few years ago. (PDTB2, 0071)
 
-	- In accordance with PDTB2, CONTRAST falls under PDTB COMPARISON.
+	- In accordance with PDTB2, CONTRAST falls under ADVERSATIVITY (PDTB2 COMPARISON).
 
 	- cf. RST Contrast
 	- cf. RSTDTB Comparison
 	- cf. SDRT (DISCOR, ANNODIS) Contrast
 	- cf. PDTB Justaposition, Opposition
+
+	- Note that is has been observed that annotators face difficulties to distinguish CONCESSION and CONTRAST. As a diagnostic test, check by paraphrasing with _although_, whether a causal relation that is expected on the basis of one argument is denied by the other. If this is possible, annotate CONCESSION, if not, annotate CONTRAST (Webber et al. 2019, p.23-24).
 
 - **EXCEPTION**: In an `EXCEPTION` relation, the `Regular` argument evokes a set of circumstances in which the described situation holds, while the `Exception` argument indicates one or more instances where it doesn't. (Bunt & Prasad 2016)
 	
@@ -498,9 +529,11 @@ In the following, we refer to the internal argument as utterance, to the externa
 
 		- cf. PDTB Exception
 
-- **SIMILARITY**: `SIMILARITY` is a symmetric relation in which one or more similarities between the utterance and the anchor are highlighted with respect to what each predicates as a whole or to some entities they mention (Bunt & Prasad 2016). 
+- **SIMILARITY**: `SIMILARITY` is a symmetric relation in which one or more similarities between the utterance and the anchor are highlighted with respect to what each predicates as a whole or to some entities they mention (Bunt & Prasad 2016; Webber et al. 2019, p.25). A diagnostic discourse marker is _similarly_.
 
-	- This definition recalls aspects of the definition of Contrast, so SIMILARITY could be seen as a subclass of PDTB COMPARISON. In PDTB3, Similarity was indeed introduced as a subclass of COMPARISON (Webber et al. 2019, p.18). The PDTB2 mapping by Bunt and Prasad (2016), however, linked it with PDTB Conjunction and thus puts it under PDTB EXPANSION. 
+	- (115) ... that even after Monday’s 10% decline, the Straits Times index is up 24% this year, so investors who bailed out generally did so profitably. **Similarly**, Kuala Lumpur’s composite index yesterday ended 27.5% above its 1988 close. (PDTB3, wsj 2230)
+	
+	- This definition recalls aspects of the definition of Contrast, so SIMILARITY can be seen as a subclass of PDTB COMPARISON. In PDTB3, Similarity was indeed introduced as a subclass of COMPARISON (Webber et al. 2019, p.18). The PDTB2 mapping by Bunt and Prasad (2016), however, linked it with PDTB Conjunction and thus puts it under PDTB EXPANSION. We follow this approach here.
 
 	- PDTB2 Conjunction: Bunt & Prasad (2016) provide no other PDTB counterpart but PDTB2 conjunction. But this seems to be incorrect as it has a much looser definition closer to SDRT Narration: The situation described in the utterance provides additional, discourse new, information that is related to the situation described in the anchor, but is not related to the anchor in any other, more specific discourse relation. The semantics are thus no more than that of a logical ∧ (and). Diagnostic connectives are _also_, _in addition_, _additionally_, _further_, etc. ("conjunction", Prasad et al. 2007, p.37)
 
