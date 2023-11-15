@@ -207,6 +207,10 @@ Prasad et al. 2007: "In Example (68), a causal relation is inferred between rais
 
 > Note: Unlike PDTB2, the annotation of implicit relations is not limited to adjacent utterances.
 
+As for implicit relations, the anchor always precedes the utterance. In the following, it would be logically possible to annotate Reason to point from the first utterance to the second, but because of ordering preferences for implicit relations, we only annotate the inverse relation Result:
+
+- (x) Carl is crazy; **[Implicit = this is why]** he beats his wife. (Prasad and Bunt 2015)
+
 ## Alternative lexicalizations
 
 Many researchers distinguish discourse markers and alternative lexicalizations, i.e., a phrasal expression that conveys the meaning of a discourse marker that could be used in its place in a more or less equivalent way (e.g., "This observation leads us to conclude that ..." in place of "Thus, ..."). If such phrases are no longer than 5 words, annotators should annotate such phrases as explicit discourse markers. If such phrases are longer than 5 words, proceed as follows:
@@ -264,6 +268,12 @@ If no relation can be established with the last preceding utterance, explore the
 
 In this example, the anchor of the implicit Contrast (7.5) is three utterances back (7.2).
 
+- (w.1) [ANCHOR:] P1: Is it safe to put my camera through here? 
+- (w.2) P1: It’s a very expensive camera you know. 
+- (w.3) **[Dependent-act: ANSWER]** P2: Yes, that’s perfectly safe. (Bunt and Prasad 2016)
+
+Here, no discourse relation, nor an entity relation can be established between w.3 and w.2, so that w.1 is to be considered (and can be confirmed as) anchor.
+
 ### Overall hierarchy
 
 The top level of the hierarchy follows PDTB2, the middle level represents SemAF relations, the third level represents SemAF attribute roles.
@@ -312,7 +322,7 @@ The top level of the hierarchy follows PDTB2, the middle level represents SemAF 
 	- `Elaboration` (SemAF Elaboration)
 		- `broad` (SemAF Elaboration/Broad)
 		- `specific` (SemAF Elaboration/Specific)
-	- `Restatement` 
+	- `Restatement` (SemAF Restatement)
 - **DIALOG**
 	- `Functional-Dependence` (SemAF Functional-dependence)
 		- `antecedent-act` (SemAF Antecedent-act)
@@ -436,6 +446,14 @@ In a `CAUSAL` relation, the `Reason` provides a reason, explanation or justifica
 
 The situation described in the utterance is the reason (cause, explanation or justification) for the situation described in the anchor, as typically expressed with the connective _because_ (cf. PDTB2 Reason, Prasad et al. 2007, p.26, 29; Webber et al. 2019, p.19)
 
+- (2) But a strong level of investor withdrawal is much more unlikely this time around, fund managers said.	**A major reason is that** investors already have sharply scaled back their purchases of stock funds since Black Monday. (Prasad and Bunt 2015, (2))
+
+- (3) Some have raised their cash positions to record levels. **[Implicit Because]** High cash positions help buffer a fund when the market falls. (Prasad and Bunt 2015, (3))
+
+- (x) P1: I can never find my remote control.	P2: That’s **because** they don’t have a fixed place. (Bunt and Prasad 2016)
+
+Note that in the last example, we do not annotate `Dialog` because an overt discourse markers indicates a higher-ranking discourse relation.
+
 - (69) But service on the line is expected to resume by noon today. **[Implicit=since]** “We had no serious damage on the railroad,” said a Southern Pacific spokesman. (PDTB3, wsj 1803)
 
 - (70) By 11:59 p.m. tonight, President Bush must order $16 billion of automatic, across-the-board cuts in government spending to comply with the Gramm-Rudman budget law. **The cuts are necessary because** Congress and the administration have failed to reach agreement on a deficit-cutting bill. (PDTB3, wsj 2384)
@@ -446,7 +464,9 @@ The situation described in the utterance is the reason (cause, explanation or ju
 
 Note that `Reason` also includes epistemic, rhetorical or pragmatic uses of causal connectives, e.g., where the utterance provides justification for a claim expressed in the anchor, as marked, for example, with the connective _because_. Ex. (104) illustrates such a case  Here, there is no causal influence between the two situations (PDTB2 Justification/Pragmatic Cause, Prasad et al. 2007, p.29; PDTB3 CONTINGENCY/Cause+Belief/reason, Webber et al. 2019, p.20).
 				
-- (104) Mrs Yeargin is lying. [Implicit = because] They found students in an advanced class a year earlier who said she gave them similar help. (PDTB2, 0044)
+- (104) Mrs Yeargin is lying. **[Implicit = because]** They found students in an advanced class a year earlier who said she gave them similar help. (PDTB2, 0044)
+
+- (x) Sears is negotiating to refinance its Sears Tower for close to $850 million, sources said. **[Implicit = because]** The retailer was unable to find a buyer for the building. (Prasad and Bunt 2015)
 
 - (77) The nations of southern Africa know a lot about managing elephants; **[Implicit=as]** their herds are thriving. (PDTB3, wsj 2047)
 
@@ -465,7 +485,7 @@ Likewise, `Reason` is also used when the utterance provides a reason for the spe
 
 The situation described in the utterance is interpreted as the result (effect) of the situation presented in the anchor. A typical discourse marker is “as a result”. (cf. PDTB Result, Prasad et al. 2007, p.26,29; Webber et al. 2019, p.20)
 
-- (72) Now, though, enormous costs for earthquake relief will pile on top of outstanding costs for hurricane relief. “**That obviously means that** we won’t have enough for all of the emergencies that are now facing us, ... ,” Mr. Fitzwater said. (PDTB3, wsj 1824)
+- (72) Now, though, enormous costs for earthquake relief will pile on top of outstanding costs for hurricane relief. “**That obviously means that** we won’t have enough for all of the emergencies that are now facing us, and we will have to consider appropriate requests for follow-on funding,” Mr. Fitzwater said. (PDTB3, wsj 1824; Prasad and Bunt 2015)
 
 - (73) “We are going to explode lower,” says the flamboyant market seer, . . . **[Implicit=so]** Anyone telling you to buy stocks in this market is technically irresponsible. (PDTB3, wsj 0359)
 
@@ -650,6 +670,8 @@ provide a tax credit for working students. **[CONTEXT:]** If we want to support 
 
 - (123) But the battle is more than Justin bargained for. **[implicit=indeed]** ”I had no idea I was getting in so deep,” says Mr. Kaye, who founded Justin in 1982. (PDTB3, wsj 2418)
 
+- (y) When the consumer had no more money and remembered the policy, he would learn at the company’s headquarters about the so-called policy surrender value coefficient. **In other words,** he did not receive what he had paid. (Żurowski et al. 2023, p.486)
+
 > Notes:
 > - Following Bunt and Prasad (2016), this is put under EXPANSION
 > - cf. RST Restatement
@@ -826,9 +848,11 @@ In comparison with the disfavoured alternative presented in the anchor, the situ
 
 #### Similarity (`Similarity`)
 
-`SIMILARITY` is a symmetric relation in which one or more similarities between the utterance and the anchor are highlighted with respect to what each predicates as a whole or to some entities they mention (Bunt & Prasad 2016; Webber et al. 2019, p.25). Diagnostic discourse markers include _similarly_ and _like_.
+`SIMILARITY` is a symmetric relation in which one or more similarities between the utterance and the anchor are highlighted with respect to what each predicates as a whole or to some entities they mention (Bunt & Prasad 2016; Webber et al. 2019, p.25). Diagnostic discourse markers include _similarly_,  _like_ or _also_.
 
 - (115) ... that even after Monday’s 10% decline, the Straits Times index is up 24% this year, so investors who bailed out generally did so profitably. **Similarly**, Kuala Lumpur’s composite index yesterday ended 27.5% above its 1988 close. (PDTB3, wsj 2230)
+
+- (x) Cats don’t like to swim. They **also** have problems with changing their place of residence. (Żurowski et al. 2023, p.486, translated from Polish)
 	
 > **Note**: This definition recalls aspects of the definition of Contrast, so SIMILARITY can be seen as a subclass of PDTB COMPARISON. In PDTB3, Similarity was indeed introduced as a subclass of COMPARISON (Webber et al. 2019, p.18). The PDTB2 mapping by Bunt and Prasad (2016), however, linked it with PDTB Conjunction and thus puts it under PDTB EXPANSION. We follow this approach here.
 
@@ -877,11 +901,13 @@ The situation described in the utterance temporally precedes the situation descr
 
 ##### Asynchrony.after (`After`)
 
-The situation described in the anchor temporally precedes the situation described in the utterance (Bunt & Prasad 2016; PDTB2 succession in Prasad et al. 2007, p.28). A diagnostic discourse marker is _after_.
+The situation described in the anchor temporally precedes the situation described in the utterance (Bunt & Prasad 2016; PDTB2 succession in Prasad et al. 2007, p.28). A diagnostic discourse marker is _after (that)_ or _ then_.
 
 - (61) A buffet breakfast was held in the museum, where food and drinks are banned to everyday visitors. **Then**, in the guests’ honor, the speedway hauled out four drivers, crews and even the official Indianapolis 500 announcer for a 10-lap exhibition race. (PDTB3, wsj 0010)
 
 - (64) The Artist has his routine. He spends his days sketching passers-by, or trying to. **[Implicit=then]** At night he returns to the condemned building he calls home. (PDTB3, wsj 0039)
+
+- (x) The daughters will bake cakes. **Then**, it will be time for presents. (Żurowski et al. 2023, p.486, translated from Polish)
 
 > Notes:
 > - cf. RSTDTB Temporal-after, Sequence
@@ -901,13 +927,24 @@ The hypothetical relation of the anchor of a functional dependence, precedes the
 
 In a `FUNCTIONAL_DEPENDENCE` relation, the `Dependent-act` is a dialogue act with a responsive communicative function; the `Antecedent-act` is the dialogue act(s) that the `Dependent-act` responds to. (Bunt & Prasad 2016)
 
+> Note: In their examples, Żurowski et al. 2023, seem to have confused Functional dependence (not involving a question) and feedback dependence (involving a question). But maybe, I'm wrong, Prasad and Bunt also present questions here.
+
+- (w) P1: Is it safe to put my camera through here? It’s a very expensive camera you know. **[Dependent-act: ANSWER]** P2: Yes, that’s perfectly safe. (Bunt and Prasad 2016)
+
+- (x) So, are you satisfied? **[Dependent-act]** Yes, we are.	(Żurowski et al. 2023, p.487, translated from Polish)
+
+- (y) A: What newspapers do you read? **[Dependent-act: Answer]** B: I read uh the local newspaper, and I also try and read one of the uh major dailies like the Chicago Tribune, or the New York Times or something like that (Prasad and Bunt 2015)
+
+- (z) B: I really like NPR a lot **[Dependent-act: Agreement]** A: Yeah that's pretty good (Prasad and Bunt 2015)
+
+
+
+
 > Notes: not considered in PDTB2
 
 #### Feedback dependence
 
-In a `FEEDBACK_DEPENDENCE` relation, the `Feedback-act` that provides or elicits information about the understanding or evaluation by one of the dialogue participants of the `Feedback-scope` argument, a communicative event that occurred earlier in the discourse. As with Entity Relations, no explicit or implicit connective is identified and annotated: The only elements of the relation are the utterance and the anchor (Bunt & Prasad 2016; PDTB Hypophora in Webber et al. 2019, p.9).
-
-
+In a `FEEDBACK_DEPENDENCE` relation, the `Feedback-act` provides or elicits information about the understanding or evaluation by one of the dialogue participants of the `Feedback-scope` argument, a communicative event that occurred earlier in the discourse. As with Entity Relations, no explicit or implicit connective is identified and annotated: The only elements of the relation are the utterance and the anchor (Bunt & Prasad 2016; PDTB Hypophora in Webber et al. 2019, p.9).
 
 ##### Feedback dependence.feedback-scope (not to be annotated)
 
@@ -929,6 +966,8 @@ The utterance provides an answer to a question expressed in the anchor. Normally
 
 - (9) How can we turn this situation around? **[HYPOPHORA]** Reform starts in the Pentagon. (Prasad et al. 2017, p. 11)
 
+- (x) But our children are different. **[Feedback-act]** Yes, they are different. (Żurowski et al. 2023, p.487, translated from Polish)
+
 The relation type `Feedback-act` does not apply when the subsequent text relates to a question in other ways – for example, in the case of rhetorical questions that are posed for dramatic effect or to make an assertion, rather than to elicit an answer (Webber et al. 2019, p.9):
 
 - (24) Remember Pinnochio? **[Implicit=similarly]** Consider Jim Courtier. (PDTB3, wsj 0041)
@@ -940,11 +979,21 @@ If the subsequent text is not an answer (direct or indirect) or a denial that an
 > Notes:
 > - missing from PDTB2, added with PDTB3 as top-level category "Hypophora": "In HYPOPHORA relations, one argument (commonly Arg1) expresses a question and the other argument (commonly Arg2) provides an answer.""
 
+Original examples from Bunt and Prasad (2015) seem to put all questions into functional dependence.
+
+- (x.1) A: go south and you’ll pass some cliffs on your right. **[Feedback-act]** B: okay
+- (x.2) A: and keep going down south. **[Feedback-act]** B: mmhmm
+- (x.3) A: we are going to go due south straight south and then we’re going to turn straight back round and head north past an old mill on the right hand side. **[Feedback-act]** B: due south and then back up again
+
 ### Entity relations (`EntRel`)
 
 In an entity relation, the utterance provides further description about some entity or entities introduced in the anchor, expanding the narrative forward of which the anchor is a part, or expanding on the setting relevant for interpreting the anchor. Utterance and anchor describe distinct situations, and the anchor may seen as a "foreground" that introduces the entities elaborated in the utterance (Bunt & Prasad 2016). Entity relations are not marked by explicit discourse markers, but defined by coreference between their referrring expressions, the anchor *must* always precede the utterance.
 
 > Note: Our naming follows PDTB2 and PDTB3. According to Bunt and Prasad (2016), entity relations are equivalent to the SemAF relation "Expansion", but here, we refrained from this name because it would create an unfortunate overlap with the top-level class `EXPANSION` which does *not* overlap with PDTB entity relations.
+
+> Note: Żurowski et al. 2023 (p.487) report the SemAF relation "Expansion" with roles "Narrative" and "Expander". This differs from scientificially published version of ISO SemAF. They give the following example
+
+- (x) She insisted that I go to college. **[EntRel]** During the occupation, she put herself in great danger to save me ...	(Żurowski et al. 2023, p.487, translated from Polish)
 
 > Note: ISO SemAF distinguishes two argument roles here, "foreground" and "entity description". As the foreground is always the anchor and the entity description is always the utterance, all AURIS annotations for entity relations are actually instances of SemAF entity description. Foreground is never explicitly annotated.
 
