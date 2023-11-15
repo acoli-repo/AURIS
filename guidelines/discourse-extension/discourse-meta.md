@@ -38,3 +38,6 @@ take two abstract objects such as events, states, and propositions as their argu
 - Traditionally, attribution has been modelled as an aspect of discourse stucture ... but in fact, verbs of attribution often serve to provide episthemic information, provenance or, in technical terms, metadata about the utterance rather than represent its actual content. For this reason, the main predicate of an attribution sentence is defined as the main verb, but as the reported statement, if given.
 
 Beyond that, the AURIS annotation scheme is based on ISO SemAF, because that claims to be theory-neutral. However, as the full specification is not publicly available (unless being paid for), and too massively underspecified to be of practical use (Żurowski et al. 2023), practical definitions and examples are largely drawn from the second edition of the Penn Discourse Treebank (PDTB2) in its ISO SemAF interpretation as given by Bunt and Prasad (2016). 
+
+
+Note that unlike any other scheme we are aware of, we formulate the task of shallow discourse parsing from an utterance-centric position. By comparison, ISO SemAF and PDTB are formulated from a marker-centric perspective. The advantage is that this approach allows to more easily compare with RST and SDRT annotations, because these typically lack explicit annotations of discourse markers.

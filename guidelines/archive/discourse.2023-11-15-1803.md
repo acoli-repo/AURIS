@@ -253,17 +253,6 @@ The logic behind that ranking is that this hierarchy ranges from semantically hi
 
 > Note: The top-level class ADVERSATIVITY has been introduced for PDTB2 COMPARISON, to avoid conflation with PDTB3 COMPARISON, because PDTB3 has revised the definition of COMPARISON to also include Similarity relations, which were previously grouped with EXPANSION. However, Webber et al. (2019, p. 23-24) note that annotators had difficulties to distinguish Contrast and Concession, thus demonstrating the need for a common superclass. These difficulties do not extend, however, to SIMILARITY. As an alternative to the PDTB3 approach of extending the scope of COMPARISON, we would prefer to stay with the original definition, but use a more specific designation, say, ADVERSATIVITY.
 
-If no relation can be established with the last preceding utterance, explore the one before, etc. Note that, as a result, the anchor of an utterance does not have to be in the preceding utterance:
-
-- (7.1) Kidder, Peabody & Co. is trying to struggle back. 
-- (7.2) [ANCHOR:] Only a few months ago, the 124-year-old securities firm seemed to be on the verge of a meltdown, racked by internal squabbles and defections. 
-- (7.3) Its relationship with parent General Electric Co. had been frayed since a big Kidder insider-trading scandal two years ago. 
-- (7.4) Chief executives and presidents had come and gone.
-- (7.5) **[Implicit Contrast, But]** Now, the firm says it’s at a turning point. 
-- (7.6) By the end of this year, 63-year-old Chairman Silas Cathcart – the former chairman of Illinois Tool Works who was derided as a ”tool-and-die man” when GE brought him in to clean up Kidder in 1987 – retires to his Lake Forest, Ill., home, possibly to build a shopping mall on some land he owns. (Prasad et al. 2017, p. 10)
-
-In this example, the anchor of the implicit Contrast (7.5) is three utterances back (7.2).
-
 ### Overall hierarchy
 
 The top level of the hierarchy follows PDTB2, the middle level represents SemAF relations, the third level represents SemAF attribute roles.
@@ -405,8 +394,6 @@ This includes cases in which the connective indicates that the values assigned t
 
 - (114) Mr. Edelman said the decision ”has nothing to do with Marty Ackerman.” **[implicit=on the contrary]** Mr. Ackerman contended that it was a direct response to his efforts to gain control of Datapoint. (PDTB3, wsj 0333)
 
-- (2) The Manhattan U.S. attorney’s office stressed criminal cases from 1980 to 1987, averaging 43 for every 100,000 adults. **But** the New Jersey U.S. attorney averaged 16. (Prasad et al. 2017, p.8)
-
 This also includes cases in which the connective indicates that the values assigned to some shared property are the extremes of a gradable scale, e.g., _tall-short_, _accept-reject_, etc. ("opposition", Prasad et al. 2007, p.33)
 
 - (117) Most bond prices fell on concerns about this week’s new supply and disappointment that stock prices didn’t stage a sharp decline. Junk bond prices moved higher, **however**. (PDTB2, 1464)
@@ -439,10 +426,6 @@ The situation described in the utterance is the reason (cause, explanation or ju
 - (69) But service on the line is expected to resume by noon today. **[Implicit=since]** “We had no serious damage on the railroad,” said a Southern Pacific spokesman. (PDTB3, wsj 1803)
 
 - (70) By 11:59 p.m. tonight, President Bush must order $16 billion of automatic, across-the-board cuts in government spending to comply with the Gramm-Rudman budget law. **The cuts are necessary because** Congress and the administration have failed to reach agreement on a deficit-cutting bill. (PDTB3, wsj 2384)
-
-- (4) When the plant was destroyed, ”I think everyone got concerned that the same thing would happen at our plant,” a KerrMcGee spokeswoman said. **That prompted** Kerr-McGee to consider moving the potentially volatile storage facilities and cross-blending operations away from town. (Prasad et al. 2017, p.8)
-
-- (12) Although bullish dollar sentiment has fizzled, many currency analysts say a massive sell-off probably won’t occur in the near future. **[Implicit, because]** While Wall Street’s tough times and lower U.S. interest rates continue to undermine the dollar, weakness in the pound and the yen is expected to offset those factors. ”By default,” the dollar probably will be able to hold up pretty well in coming days, says Francoise Soares-Kemp, a foreign-exchange adviser at Credit Suisse. ”We’re close to the bottom” of the near-term ranges, she contends. (Prasad et al. 2017, p.12)
 
 Note that `Reason` also includes epistemic, rhetorical or pragmatic uses of causal connectives, e.g., where the utterance provides justification for a claim expressed in the anchor, as marked, for example, with the connective _because_. Ex. (104) illustrates such a case  Here, there is no causal influence between the two situations (PDTB2 Justification/Pragmatic Cause, Prasad et al. 2007, p.29; PDTB3 CONTINGENCY/Cause+Belief/reason, Webber et al. 2019, p.20).
 				
@@ -689,8 +672,6 @@ The utterance describes a situation as holding in a set of circumstances, while 
 
 - (129) Swiveling in his chair, Mr. Straszheim replies that the new outlook, though still weak, doesn’t justify calling a recession right now. “It’s all in this handout you don’t want to look at. We could still have a recession” at some point. **[Implicit=generally]** One of Mr. Straszheim’s recurring themes is that the state of the economy isn’t a simple black or white. (PDTB3, wsj 0569)
 
-- (8) NBC’s re-creations are produced by Cosgrove-Meurer Productions, which also makes the successful primetime NBC Entertainment series Unsolved Mysteries. **[Implicit: More generally]** The marriage of news and theater, if not exactly in evitable, has been consummated nonetheless. (Prasad et al. 2017, p. 11)
-
 > Note: PDTB3 Instantiation.Arg1-as-instance
 
 ##### Exemplification.instance (`Instance`)
@@ -702,8 +683,6 @@ The utterance provides one or more instances of the circumstances described by t
 - (130) The computers were crude by today’s standards. Apple II owners, for example, had to use their television sets as screens and stored data on audiocassettes. (PDTB3, wsj 0022)
 
 - (131) And regional offices were “egregiously overstaffed,” he claims. **[Implicit=for example]** One office had 19 people doing the work of three, ... (PDTB3, wsj 0305)
-
-- (3) So far, the mega-issues are a hit with investors. **[Implicit, For example]** Earlier this year, Tata Iron & Steel Co.’s offer of $355 million of convertible debentures was oversubscribed. (Prasad et al. 2017, p.8)
 
 > Notes:
 > - cf. RST Elaboration (set-member)
@@ -733,8 +712,6 @@ The utterance describes the situation described in the anchor in more detail. Di
 - (123) A Lorillard spokewoman said, “This is an old story. **[Implicit = in fact]** We’re talking about years ago before anyone heard of asbestos having any questionable properties.” (PDTB2, 0003)
 		
 - (124) An enormous turtle has succeeded where the government has failed: **[Implicit = specifically]** He has made speaking Filipino respectable. (PDTB2, 0804)
-
-- (14) The Treasury Department said the U.S. trade deficit may worsen next year, after two years of significant improvement. **[Implicit=Specifically]** In its report to Congress on international economic policies, the Treasury said that any improvement in the broadest measure of trade, known as the current account, ”is likely at best to be very modest,” and ”the possibility of deterioration in the current account next year cannot be excluded.” (Prasad et al. 2017, p. 12)
 
 > Notes:
 > - cf. RST Elaboration
@@ -907,8 +884,6 @@ In a `FUNCTIONAL_DEPENDENCE` relation, the `Dependent-act` is a dialogue act wit
 
 In a `FEEDBACK_DEPENDENCE` relation, the `Feedback-act` that provides or elicits information about the understanding or evaluation by one of the dialogue participants of the `Feedback-scope` argument, a communicative event that occurred earlier in the discourse. As with Entity Relations, no explicit or implicit connective is identified and annotated: The only elements of the relation are the utterance and the anchor (Bunt & Prasad 2016; PDTB Hypophora in Webber et al. 2019, p.9).
 
-
-
 ##### Feedback dependence.feedback-scope (not to be annotated)
 
 The hypothetical relation in which the utterance provides a question that is answered by the anchor. (This is a hypothetical inverse of the feedback-act relation, not to be annotated.) 
@@ -926,8 +901,6 @@ The utterance provides an answer to a question expressed in the anchor. Normally
 - (22) So can a magazine survive by downright thumbing its nose at major advertisers? **[HYPOPHORA]** Garbage magazine, billed as ”The Practical Journal for the Environment,” is about to find out. (PDTB3, wsj 0062)
 
 - (23) With all this, can stock prices hold their own? **[HYPOPHORA]** ”The question is unanswerable at this point” she says. (PDTB3, wsj 0681)
-
-- (9) How can we turn this situation around? **[HYPOPHORA]** Reform starts in the Pentagon. (Prasad et al. 2017, p. 11)
 
 The relation type `Feedback-act` does not apply when the subsequent text relates to a question in other ways – for example, in the case of rhetorical questions that are posed for dramatic effect or to make an assertion, rather than to elicit an answer (Webber et al. 2019, p.9):
 
@@ -947,8 +920,6 @@ In an entity relation, the utterance provides further description about some ent
 > Note: Our naming follows PDTB2 and PDTB3. According to Bunt and Prasad (2016), entity relations are equivalent to the SemAF relation "Expansion", but here, we refrained from this name because it would create an unfortunate overlap with the top-level class `EXPANSION` which does *not* overlap with PDTB entity relations.
 
 > Note: ISO SemAF distinguishes two argument roles here, "foreground" and "entity description". As the foreground is always the anchor and the entity description is always the utterance, all AURIS annotations for entity relations are actually instances of SemAF entity description. Foreground is never explicitly annotated.
-
-> Note: For cross-paragraph link annotation, Prasad et al. (2017) distinguish "semantic" entity relations (where the narrative is expanded forward) and "other" entity relations (were only coreference establishes a link). However, this division had been abandoned for PDTB3.
 
 > Notes:
 > - cf. RST Elaboration (object-attribute)
@@ -1035,17 +1006,15 @@ Also, when disambiguating explicit or inserting implicit discourse markers, cons
 
 ## References
 
-- Bunt, Harry and Prasad, Rashmi (2016), ISO DR-Core (ISO 24617-8), Core concepts for the annotation of discourse relations, In: Proceedings 12th Joint ACL-ISO Workshop on Interoperable Semantic Annotation (ISA-12), p. 45-54
+- Sebastian Żurowski, Daniel Ziembicki, Aleksandra Tomaszewska, Maciej Ogrodniczuk and Agata Drozd (2023), Adopting ISO 24617-8 for Discourse Relations Annotation in Polish: Challenges and Future Directions. In Proceedings of the 4th Conference on Language, Data and Knowledge (pp. 482-492).
 
-- Rashmi Prasad, Eleni Miltsakaki, Nikhil Dinesh, Alan Lee, Aravind Joshi, Livio Robaldo (2007), The Penn Discourse Treebank 2.0 Annotation Manual, December 17, 2007, https://www.cis.upenn.edu/~elenimi/pdtb-manual.pdf, accessed 2023-11-09
+- Bunt, Harry and Prasad, Rashmi (2016), ISO DR-Core (ISO 24617-8), Core concepts for the annotation of discourse relations, In: Proceedings 12th Joint ACL-ISO Workshop on Interoperable Semantic Annotation (ISA-12), p. 45-54
 
 - Rashmi Prasad and Harry Bunt (2015), Semantic Relations in Discourse: The Current State of ISO 24617-8, Proceedings of the 11th Joint ACL-ISO Workshop on Interoperable Semantic Annotation (ISA-11), https://aclanthology.org/W15-0210
 
-- Rashmi Prasad, Katherine Forbey-Riley and Alan Lee (2017), Towards Full Text Shallow Discourse Relation Annotation: Experiments with Cross-Paragraph Implicit Relations in the PDTB, Proceedings of the SIGDIAL 2017 Conference, pages 7–16, Saarbrücken, Germany, 15-17 August 2017.
+- Rashmi Prasad, Eleni Miltsakaki, Nikhil Dinesh, Alan Lee, Aravind Joshi, Livio Robaldo (2007), The Penn Discourse Treebank 2.0 Annotation Manual, December 17, 2007, https://www.cis.upenn.edu/~elenimi/pdtb-manual.pdf, accessed 2023-11-09
 
 - Bonnie Webber, Rashmi Prasad, Alan Lee, Aravind Joshi (2019), The Penn Discourse Treebank 3.0 Annotation Manual, Language Data Consortium, https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf, accessed 2023-11-13
-
-- Sebastian Żurowski, Daniel Ziembicki, Aleksandra Tomaszewska, Maciej Ogrodniczuk and Agata Drozd (2023), Adopting ISO 24617-8 for Discourse Relations Annotation in Polish: Challenges and Future Directions. In Proceedings of the 4th Conference on Language, Data and Knowledge (pp. 482-492).
 
 ## Possible Addenda
 
