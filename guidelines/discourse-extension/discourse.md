@@ -301,10 +301,7 @@ The top level of the hierarchy follows PDTB2, the middle level represents SemAF 
 	- `Elaboration` (SemAF Elaboration)
 		- `broad` (SemAF Elaboration/Broad)
 		- `specific` (SemAF Elaboration/Specific)
-	- `Restatement`
-	- ?`Expansion` (SemAF Expansion)
-		- `foreground` (SemAF Expansion/Foreground)
-		- `background` (SemAF Expansion/Background)
+	- `Restatement` 
 - **DIALOG**
 	- `Functional-Dependence` (SemAF Functional-dependence)
 		- `antecedent-act` (SemAF Antecedent-act)
@@ -312,7 +309,7 @@ The top level of the hierarchy follows PDTB2, the middle level represents SemAF 
 	- `Feedback-Dependence` (SemAF Feedback-dependence)
 		- `feedback-scope` (SemAF Feedback-dependence/Feedback-scope)
 		- `feedback-act` (SemAF Feedback-dependence/Feedback-act)
-- **EntRel**
+- **EntRel** (SemAF Expansion/Entity description)
 	- coreference between a preceding utterance and the current one.
 
 ## Individual Relations
@@ -759,46 +756,6 @@ The utterance describes the situation described in the anchor in more detail. Di
 > - cf. SDRT (DISCOR, ANNODIS) Elaboration
 > - cf. PDTB Equivalence
 
-#### Expansion
-
-In an `EXPANSION` relation, the `Entity-description` argument provides further description about some entity or entities in the `Foreground`, expanding the narrative forward of which `Foreground` is a part, or expanding on the setting relevant for interpreting the `Foreground`. Utterance and anchor describe distinct situations (Bunt & Prasad 2016).
-
-##### Expansion.foreground (`Foreground`)
-
-The utterance introduces the entity or entities that are elaborated in the anchor. In AURIS, this role probably does not exist as a discourse marker, unless a dedicated discourse marker can be found that marks the `Foreground` rather than (or in addition to) the `Entity-description`. 
-
-##### Expansion.entity-description (`Entity-description`)
-
-The utterance argument provides further description about some entity or entities in the anchor, expanding the narrative forward of which anchor is a part, or expanding on the setting relevant for interpreting the anchor. Utterance and anchor describe different situations (Bunt & Prasad 2016).
-
-> Notes:
-> - cf. RST Elaboration (object-attribute)
-> - cf. RSTDTB Elaboration object-attribute, Elaboration additional
-> - cf. SDRT Background, Elaboration (DISCOR Commentary, Attribution, Source; ANNODIS Comment, Attribution, Frame, Temporal-location)
-> - cf. PDTB EntRel: "for cases where only an entity-based coherence relation could be perceived between the sentences" (Prasad et al. 2007, p.18)
-
-On PDTB2 EntRel:
-
-- "EntRel captures cases where the implicit relation between adjacent sentences is not between their AO interpretations, but is rather a form of entity-based coherence (...) in which the same entity is realized in both sentences, either directly (...) or indirectly (...). Note that entity realization here also includes reification of an abstract object (AO) mentioned in the first sentence, such as with the demonstrative _this_ in Example (92), and the definite description _the appointments_ in Example (93). ... " (Prasad et al. 2007, p.23-25)
-
-	- (89) Hale Milgrim, 41 years old, senior vice president, marketing at Elecktra Entertainment Inc., was named president of Capitol Records Inc., a unit of this entertainment concern. **[EntRel]** Mr. Milgrim succeeds David Berman, who resigned last month. (PDTB2 0945)
-
-	- (90) The purchase price was disclosed in a preliminary prospectus issued in connection with MGM Grand’s planned offering of six million common shares. **[EntRel]** The luxury airline and casino company, 98.6%-owned by investor Kirk Kerkorian and his Tracinda Corp., earlier this month announced its agreements to acquire the properties, but didn’t disclose the purchase price. (PDTB2 0981)
-
-	- (91) Last year the public was afforded a preview of Ms. Bartlett’s creation in a table-model version, at a BPC exhibition. **[EntRel]** The labels were breathy: “Within its sheltering walls is a microcosm of a thousand years in garden design ... At the core of it all is a love for plants.” (PDTB2, 0984)
-
-	- (92) She has done little more than recycle her standard motifs – trees, water, landscape fragments, rudimentary square houses, circles, triangles, rectangles – and fit them into a grid, as if she were making one of her gridded two-dimensional works for a gallery wall. But for South Gardens, the grid was to be a 3-D network of masonry or hedge walls with real plants inside them. **[EntRel]** In a letter to the BPCA, kelly/varnell called this “arbitrary and amateurish.” (PDTB2 0984)
-
-	- (93) Ronald J. Taylor, 48, was named chairman of this insurance firm’s reinsurance brokerage group and its major unit, G.L. Hodson & Son Inc. Robert G. Hodson, 65, retired as chairman but will remain a consultant. Stephen A. Crane, 44, senior vice president and chief financial and planning officer of the parent, was named president and chief executive of the brokerage group and the unit, succeeding Mr. Taylor. **[EntRel]** The appointments are effective Nov. 1. (PDTB2 0948)
-
-	- (94) Proceeds from the offering are expected to be used for remodeling the company’s Desert Inn resort in Las Vegas, refurbishing certain aircraft of the MGM Grand Air unit, and to acquire the property for the new resort. **[EntRel]** The company said it estimates the Desert Inn remodeling will cost about $32 million, and the refurbishment of the three DC-8-62 aircraft, made by McDonnell Douglas Corp., will cost around $24.5 million. (PDTB2 0981)
-
-If an entity relation holds between the utterance and several candidate anchors (as in ex. 95), annotate the relation to the closest anchor candidate:
-
-- (95) HOLIDAY ADS: Seagram will run two interactive ads in December magazines promoting its Chivas Regal and Crown Royal brands. The Chivas ad illustrates – via a series of pullouts – the wild reactions from the pool man, gardener and others if not given Chivas for Christmas. The three-page Crown Royal ad features a black-and-white shot of a boring holiday party – and a set of colorful stickers with which readers can dress it up. **[EntRel]** Both ads were designed by Omnicom’s DDB Needham agency. (PDTB2, 0989)
-
-> **Note**: Following Bunt and Prasad (2016), this is to be put under PDTB EntRel (not EXPANSION), but the definition is actually more specific than that.
-
 ### TEMPORAL
 
 #### Synchrony (`Synchrony`)
@@ -891,6 +848,38 @@ If the subsequent text is not an answer (direct or indirect) or a denial that an
 
 > Notes:
 > - missing from PDTB2, added with PDTB3 as top-level category "Hypophora": "In HYPOPHORA relations, one argument (commonly Arg1) expresses a question and the other argument (commonly Arg2) provides an answer.""
+
+### Entity relations (`EntRel`)
+
+In an entity relation, the utterance provides further description about some entity or entities introduced in the anchor, expanding the narrative forward of which the anchor is a part, or expanding on the setting relevant for interpreting the anchor. Utterance and anchor describe distinct situations, and the anchor may seen as a "foreground" that introduces the entities elaborated in the utterance (Bunt & Prasad 2016). Entity relations are not marked by explicit discourse markers, but defined by coreference between their referrring expressions, the anchor *must* always precede the utterance.
+
+> Note: Our naming follows PDTB2 and PDTB3. According to Bunt and Prasad (2016), entity relations are equivalent to the SemAF relation "Expansion", but here, we refrained from this name because it would create an unfortunate overlap with the top-level class `EXPANSION` which does *not* overlap with PDTB entity relations.
+
+> Note: ISO SemAF distinguishes two argument roles here, "foreground" and "entity description". As the foreground is always the anchor and the entity description is always the utterance, all AURIS annotations for entity relations are actually instances of SemAF entity description. Foreground is never explicitly annotated.
+
+> Notes:
+> - cf. RST Elaboration (object-attribute)
+> - cf. RSTDTB Elaboration object-attribute, Elaboration additional
+> - cf. SDRT Background, Elaboration (DISCOR Commentary, Attribution, Source; ANNODIS Comment, Attribution, Frame, Temporal-location)
+> - cf. PDTB EntRel: "for cases where only an entity-based coherence relation could be perceived between the sentences" (Prasad et al. 2007, p.18)
+
+- "EntRel captures cases where the implicit relation between adjacent sentences is not between their AO interpretations, but is rather a form of entity-based coherence (...) in which the same entity is realized in both sentences, either directly (...) or indirectly (...). Note that entity realization here also includes reification of an abstract object (AO) mentioned in the first sentence, such as with the demonstrative _this_ in Example (92), and the definite description _the appointments_ in Example (93). ... " (Prasad et al. 2007, p.23-25)
+
+	- (89) Hale Milgrim, 41 years old, senior vice president, marketing at Elecktra Entertainment Inc., was named president of Capitol Records Inc., a unit of this entertainment concern. **[EntRel]** Mr. Milgrim succeeds David Berman, who resigned last month. (PDTB2 0945)
+
+	- (90) The purchase price was disclosed in a preliminary prospectus issued in connection with MGM Grand’s planned offering of six million common shares. **[EntRel]** The luxury airline and casino company, 98.6%-owned by investor Kirk Kerkorian and his Tracinda Corp., earlier this month announced its agreements to acquire the properties, but didn’t disclose the purchase price. (PDTB2 0981)
+
+	- (91) Last year the public was afforded a preview of Ms. Bartlett’s creation in a table-model version, at a BPC exhibition. **[EntRel]** The labels were breathy: “Within its sheltering walls is a microcosm of a thousand years in garden design ... At the core of it all is a love for plants.” (PDTB2, 0984)
+
+	- (92) She has done little more than recycle her standard motifs – trees, water, landscape fragments, rudimentary square houses, circles, triangles, rectangles – and fit them into a grid, as if she were making one of her gridded two-dimensional works for a gallery wall. But for South Gardens, the grid was to be a 3-D network of masonry or hedge walls with real plants inside them. **[EntRel]** In a letter to the BPCA, kelly/varnell called this “arbitrary and amateurish.” (PDTB2 0984)
+
+	- (93) Ronald J. Taylor, 48, was named chairman of this insurance firm’s reinsurance brokerage group and its major unit, G.L. Hodson & Son Inc. Robert G. Hodson, 65, retired as chairman but will remain a consultant. Stephen A. Crane, 44, senior vice president and chief financial and planning officer of the parent, was named president and chief executive of the brokerage group and the unit, succeeding Mr. Taylor. **[EntRel]** The appointments are effective Nov. 1. (PDTB2 0948)
+
+	- (94) Proceeds from the offering are expected to be used for remodeling the company’s Desert Inn resort in Las Vegas, refurbishing certain aircraft of the MGM Grand Air unit, and to acquire the property for the new resort. **[EntRel]** The company said it estimates the Desert Inn remodeling will cost about $32 million, and the refurbishment of the three DC-8-62 aircraft, made by McDonnell Douglas Corp., will cost around $24.5 million. (PDTB2 0981)
+
+If an entity relation holds between the utterance and several candidate anchors (as in ex. 95), annotate the relation to the closest anchor candidate:
+
+- (95) HOLIDAY ADS: Seagram will run two interactive ads in December magazines promoting its Chivas Regal and Crown Royal brands. The Chivas ad illustrates – via a series of pullouts – the wild reactions from the pool man, gardener and others if not given Chivas for Christmas. The three-page Crown Royal ad features a black-and-white shot of a boring holiday party – and a set of colorful stickers with which readers can dress it up. **[EntRel]** Both ads were designed by Omnicom’s DDB Needham agency. (PDTB2, 0989)
 
 ## Troubleshooting
 
