@@ -952,9 +952,42 @@ The situation described in the anchor temporally precedes the situation describe
 Two kinds of discourse relations which are specific to dialogue are (1) functional dependence relations, such as those between an answer and the
 question that it answers, or an ‘accept apology’ and the apology which is accepted; and (2) feedback dependence relations, such as the relation between a feedback utterance like “sure” or a head nod, and the utterance that the feedback is about; or between “you see?” and the utterance that the speaker is eliciting information about (Bunt et al. 2012, p.431)
 
+Dialog relations are defined for expressing semantic relations between dialogue acts, e.g. for indicating which question is answered by a certain answer act (functional dependence relation), or which utterance a feedback act responds to (feedback dependence relation) (Bunt et al. 2019).
+
+Communicative functions according to Bunt et al. (2018,2019):
+
+	Inform
+	- Agreement
+	- Disagreement
+	- - Correction
+	- Answer
+	- - Confirm
+	- - Disconfirm
+	Question
+	- Set-Question
+	- Propositional Question
+	- - Check-Question
+	- Choice-Question
+	Request
+	- Instruct
+	- - Address Offer
+	- - - Accept Offer
+	- - - Decline Offer
+	Suggest
+	Address Request
+	- Accept Request
+	- Decline Request
+	Offer
+	- Promise
+	Address Suggest
+	- Accept Suggest
+	- Decline Suggest
+
 #### Functional dependence
 
 Functional dependence relations occur with dialogue acts that are responsive in nature, such as Answer, Confirmation, Agreement, Accept Apology, and Decline Offer. The semantic content of these types of dialogue act depend crucially on which previous dialogue act they respond to, and it’s probably not a coincidence that they can be expressed by utterances that by themselves have no semantic content, such as “Yes”, “No thanks”, “No problem”, and “OK”. (Bunt et al. 2012, p.432).
+
+dialogue acts that are responsive in nature, such as Answer, Confirmation, Disagreement, Accept Apology, and Decline Offer (Bunt et al. 2019)
 
 ##### Functional dependence.antecedent-act (not to be annotated)
 
@@ -982,7 +1015,9 @@ In a `FUNCTIONAL_DEPENDENCE` relation, the `Dependent-act` is a dialogue act wit
 
 In a `FEEDBACK_DEPENDENCE` relation, the `Feedback-act` provides or elicits information about the understanding or evaluation by one of the dialogue participants of the `Feedback-scope` argument, a communicative event that occurred earlier in the discourse. As with Entity Relations, no explicit or implicit connective is identified and annotated: The only elements of the relation are the utterance and the anchor (Bunt & Prasad 2016; PDTB Hypophora in Webber et al. 2019a, p.9).
 
-For feedback dependence relations the semantic content of a feedback act necessarily depends on the utterance(s) that the feedback is about. The difference to functional dependence is that the semantic content of a feedback act may be determined by what was said before rather than by the semantic content of a previous dialogue act.
+For feedback dependence relations the semantic content of a feedback act necessarily depends on the utterance(s) that the feedback is about. The difference to functional dependence is that the semantic content of a feedback act may be determined by what was said before rather than by the semantic content of a previous dialogue act. (Bunt et al. 2012)
+
+Feedback acts are about the processing of something that was said before. The nature of this ‘something’ depends on the kind of feedback. Feedback by means of expressions like “OK”, “Uh-huh”, or “Really?” is about one or more previous dialogue acts, while feedback by means of “Tuesday?” or “What did you say?” is about a previous utterance segment, rather than about a dialogue act. The ISO 24617-2 annotation scheme therefore allows both dialogue acts and functional segments as antecedents for feedback dependence relations. The ISO scheme is in fact not quite correct at this point, since segment-related feedback is not necessarily about a functional segment; it may be about any previous segment, functional or not, such as a single word or a sequence of words within a functional segment. In the latter case the ISO scheme only allows annotating a feedback dependence relation to the functional segment containing the expression that the feedback act refers to (Bunt et al. 2019).
 
 ##### Feedback dependence.feedback-scope (not to be annotated)
 
@@ -1126,9 +1161,15 @@ Also, when disambiguating explicit or inserting implicit discourse markers, cons
 
 ## References
 
+- Harry Bunt, Jan Alexandersson, Jae-Woong Choe, Alex Chengyu Fang, Koiti Hasida, Volha Petukhova, Andrei Popescu-Belis and David Traum (2017), ISO 24617-2: A semantically-based standard for dialogue annotation. LREC 2012.
+
 - Harry Bunt and Prasad, Rashmi (2016), ISO DR-Core (ISO 24617-8), Core concepts for the annotation of discourse relations, In: Proceedings 12th Joint ACL-ISO Workshop on Interoperable Semantic Annotation (ISA-12), p. 45-54
 
-- Harry Bunt, Jan Alexandersson, Jae-Woong Choe, Alex Chengyu Fang, Koiti Hasida, Volha Petukhova, Andrei Popescu-Belis and David Traum (2017), ISO 24617-2: A semantically-based standard for dialogue annotation. LREC 2012.
+- Harry Bunt, Emer Gilmartin, Simon Keizer, Catherine Pelachaud, Volha Petukhova, Laurent Prévot, and Mariët Theune (2018), Downward compatible revision of dialogue annotation. In Proceedings 14th Joint ACL-ISO Workshop on Interoperable Semantic Annotation, pp. 21-34. 2018.
+
+- Harry Bunt, Volha Petukhova, Andrei Malchanau, Alex Fang, and Kars Wijnhoven (2019), The DialogBank: dialogues with interoperable annotations. Language Resources and Evaluation 53 (2019): 213-249.
+
+- Harry Bunt, Volha Petukhova, Emer Gilmartin, Catherine Pelachaud, Alex Fang, et al. (2020), The ISO Standard for Dialogue Act Annotation, Second Edition. Proceedings of the 12th Language Resources and Evaluation Conference, May 2020, Marseille, France.
 
 - Rashmi Prasad, Eleni Miltsakaki, Nikhil Dinesh, Alan Lee, Aravind Joshi, Livio Robaldo (2007), The Penn Discourse Treebank 2.0 Annotation Manual, December 17, 2007, https://www.cis.upenn.edu/~elenimi/pdtb-manual.pdf, accessed 2023-11-09
 
