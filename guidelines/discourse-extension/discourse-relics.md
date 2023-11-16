@@ -280,3 +280,85 @@
 > Note: Annotate Dependence relations only in the absence of explicit discourse markers, example:
 
 	- P1: I can never find my remote control.	P2: That’s [because] they don’t have a fixed place.		(Reason, not Inform, from Butt & Prasad 2016)
+
+
+### Dialog (ISO 2010)
+
+excerpt
+
+#### Communicative functions
+
+From the communicative functions according to , the following subset is relevant for annotation:
+
+##### providing information: Inform
+
+The speaker performs a dialog act in order to make the information in the utterance known to the addressee. The speaker assumes that this information is correct (ISO 2010, Bunt et al. 2018, 2019).
+In AURIS, this is only to be annotated if it occurs after turn-taking and no other discourse relation applies.
+
+###### `Answer`
+
+The anchor is an utterance that expresses an information-seeking function (i.e., a question). The utterance has the communicative function to make the requested information available to the addresee. The speaker believes the utterance to be correct (ISO 2010).
+
+- (2.1) S: "what does the display say?"
+- (2.2) H: **[ANSWER]** "send error document ready" (DIAMOND corpus, ISO 2010)
+
+We do not differentiate types of asnwers. However, note that we distinguish answers that address an information need from responses to requests for a particular action. Both can take questions as their anchors, but a commitment (or denial) of future actions on behalf of the speaker is to be annotated as `Offer`.
+
+###### `Agreement`
+
+The anchor describes a situation that the speaker presents as a true statement. With the utterance, the addressee confirms that he believes that this statement is indeed true (ISO 2010). Use if the utterance can be paraphrased by "Exactly!".
+
+###### `Disagreement`
+
+The anchor describes a situation that the speaker presents as a true statement. With the utterance, the addresee informs the speaker that he believes that this statement is false (ISO 2010).
+
+- (1.1) J: "do you know where to find ink saving?"
+- (1.2) S: **[Answer]** "ehm.. oh I think to the left of the ink cartridge"
+- (1.3) J: **[Disagreement]** "ehm... no" (DIAMOND corpus, ISO 2010)
+
+##### committing to future actions: commissives
+
+Generally speaking, commissives are concerned with statements about future actions on behalf of the speaker.
+
+###### `Offer`
+
+With the utterance, the speaker commits himself to perform a particular action. The speaker assumes that the addressee refers the action to be performed (ISO 2010). The anchor of an `Offer` relation should be an utterance that caused the speaker to assume that the addressee wants him to perform the offered activity. 
+
+- (1.1) CAMOETO: Nice runs! Are you running any supporting mods such as DP?
+- (1.2) ParadigmDawg: **[Offer]** I will look that up for you since it is in the original post (https://x3.xbimmers.com/forums/showthread.php?t=1604114, accessed 2023-11-16)
+
+We do not differentiate different kinds of offers, such as promises or accepting requests:
+
+- (2.a) SKubrick: I've noticed the date ranges don't update very frequently and the percentages are different from what I'm calculating manually. 
+- (2.b) SKubrick: Is there any way to update the date range or select a specific date range to view? ...
+- (2.b) karstenkoehler: **[Offer]** Sure, happy to help. @SKubrick! 
+- (2.c) karstenkoehler: I've added a short example to my previous post. (https://community.hubspot.com/t5/Email-Marketing-Tool/Email-Health-Tool/m-p/400198, accessed 2023-11-16)
+
+Offers also includes a _negative_ response to requests:
+
+- (3.a) Unknown ID: We'll investigate it. 
+- (3.b) Unknown ID: Is it possible for us to meet in person?
+- (3.c) Alibaba: **[Offer (declineRequest)]** Not now. 
+- (3.d) Alibaba: Maybe in a week or two. 
+- (3.e) Alibaba: I'll stay in contact. (https://forums.spacebattles.com/threads/oracle-persona-5-time-travel.1098423/, accessed 2023-11-16)
+
+In Alibaba's response, the first statement (3.c) directly responds (3.b), but is subsequently elaborated into a refined offer. Note that this elaboration is to be modelled by EXPANSION relations that take (3.c) as their anchor, not directly as feedback responses to (3.b).
+
+###### `Address Suggest`
+
+With the utterance, the speaker commits himself (or declines) to perform an action that was suggested to him (ISO 2010). The anchor is the utterance of the addressee that made him believe that was a suggested action. The main difference to `Offer` is that the addressee is neutral about his proposal or that the speaker himself is the main beneficiary of the proposal.
+
+- (4.1) Admiral James: Do you want to tour the waterfront area?
+- (4.2) Congressman Norblad: **[Address Suggest]** I would like to.
+- (4.3) Admiral James: Maybe, we can do it in a little less than half an hour.
+- (4.4) Chairman Doyle: **[Address Suggest]** Let's do that before we come home back here. (U.S. Congress. House. Commitee on the Armed Services (1957/1958), Hearings Vol. 3. 85th Congress, 1st and 2nd Session. p. 3122)
+
+We include both positive and negative responses to suggestions under `Address Suggest`.
+
+##### asking for future actions: directives
+
+This includes two main groups of communicative functions.
+
+With `Suggest`, the speaker aims to make the addressee aware that a certain action, described by the utterance, is potentially promising for achieving a certain goal, which is either named explicitly or contextually salient (ISO 2010). In AURIS, `Suggest` should not be annotated, instead, `Suggest` utterances serve as anchors for `Address Suggest` relations. As for the discourse relation of a suggestion statement, take both the utterance and the expected response into account.
+
+With `Request`, the speaker aims to elicit a commitment of the addressee to perform a particular activity in a particular way (ISO 2010). In AURIS, `Request` should not be annotated, instead, `Request` utterances serve as anchors for `Offer` relations. As for the discourse relation of a request statement, take both the utterance and the expected response into account.
