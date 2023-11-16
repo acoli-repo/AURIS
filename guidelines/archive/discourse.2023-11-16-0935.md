@@ -949,109 +949,55 @@ The situation described in the anchor temporally precedes the situation describe
 
 ### DIALOG
 
-Dialog relations are to be annotated if and only if turn-taking between multiple speakers applies. In this case, annotate the discourse function.
-
 Two kinds of discourse relations which are specific to dialogue are (1) functional dependence relations, such as those between an answer and the
 question that it answers, or an ‘accept apology’ and the apology which is accepted; and (2) feedback dependence relations, such as the relation between a feedback utterance like “sure” or a head nod, and the utterance that the feedback is about; or between “you see?” and the utterance that the speaker is eliciting information about (Bunt et al. 2012, p.431)
 
 Dialog relations are defined for expressing semantic relations between dialogue acts, e.g. for indicating which question is answered by a certain answer act (functional dependence relation), or which utterance a feedback act responds to (feedback dependence relation) (Bunt et al. 2019).
 
-#### Communicative functions
+Communicative functions according to Bunt et al. (2018,2019):
 
-From the communicative functions according to ISO (2010), Bunt et al. (2018,2019), the following subset is relevant for annotation:
+	Inform
+	- Agreement
+	- Disagreement
+	- - Correction
+	- Answer
+	- - Confirm
+	- - Disconfirm
+	Question
+	- Set-Question
+	- Propositional Question
+	- - Check-Question
+	- Choice-Question
+	Request
+	- Instruct
+	- - Address Offer
+	- - - Accept Offer
+	- - - Decline Offer
+	Suggest
+	Address Request
+	- Accept Request
+	- Decline Request
+	Offer
+	- Promise
+	Address Suggest
+	- Accept Suggest
+	- Decline Suggest
 
-##### seeking information: `Question`
-
-A question is a dialog act performed by the speaker in order to obtain information, described by semantic content, from the addressee. The speaker genuinely wants to obtain the information he is asking about, in particular, this does not involve rhetorical questions (ISO 2010). 
-
-In AURIS, questions are not to be annotated unless they occur immediately after turn-taking or at the beginning of a discourse. This is because they, normally, serve as the anchor of an information-providing utterance that they precede. For the annotation of discourse relations to questions, annotate the discourse function of the _expected_ answer. The answer, then, should be linked to the question by means of a Functional Dependence.dependent-act relation.
-
-The ISO sub-categories propositional questions, set questions or choice questions are not relevant to AURIS. 
-
-##### providing information: Inform
-
-The speaker performs a dialog act in order to make the information in the utterance known to the addressee. The speaker assumes that this information is correct (ISO 2010).
-In AURIS, this is only to be annotated if it occurs after turn-taking and no other discourse relation applies.
-
-###### `Answer`
-
-The anchor is an utterance that expresses an information-seeking function (i.e., a question). The utterance has the communicative function to make the requested information available to the addresee. The speaker believes the utterance to be correct (ISO 2010).
-
-- (2.1) S: "what does the display say?"
-- (2.2) H: **[ANSWER]** "send error document ready" (DIAMOND corpus, ISO 2010)
-
-We do not differentiate types of asnwers. However, note that we distinguish answers that address an information need from responses to requests for a particular action. Both can take questions as their anchors, but a commitment (or denial) of future actions on behalf of the speaker is to be annotated as `Offer`.
-
-###### `Agreement`
-
-The anchor describes a situation that the speaker presents as a true statement. With the utterance, the addressee confirms that he believes that this statement is indeed true (ISO 2010). Use if the utterance can be paraphrased by "Exactly!".
-
-###### `Disagreement`
-
-The anchor describes a situation that the speaker presents as a true statement. With the utterance, the addresee informs the speaker that he believes that this statement is false (ISO 2010).
-
-- (1.1) J: "do you know where to find ink saving?"
-- (1.2) S: **[Answer]** "ehm.. oh I think to the left of the ink cartridge"
-- (1.3) J: **[Disagreement]** "ehm... no" (DIAMOND corpus, ISO 2010)
-
-##### committing to future actions: commissives
-
-Generally speaking, commissives are concerned with statements about future actions on behalf of the speaker.
-
-###### `Offer`
-
-With the utterance, the speaker commits himself to perform a particular action. The speaker assumes that the addressee refers the action to be performed (ISO 2010). The anchor of an `Offer` relation should be an utterance that caused the speaker to assume that the addressee wants him to perform the offered activity. 
-
-- (1.1) CAMOETO: Nice runs! Are you running any supporting mods such as DP?
-- (1.2) ParadigmDawg: **[Offer]** I will look that up for you since it is in the original post (https://x3.xbimmers.com/forums/showthread.php?t=1604114, accessed 2023-11-16)
-
-We do not differentiate different kinds of offers, such as promises or accepting requests:
-
-- (2.a) SKubrick: I've noticed the date ranges don't update very frequently and the percentages are different from what I'm calculating manually. 
-- (2.b) SKubrick: Is there any way to update the date range or select a specific date range to view? ...
-- (2.b) karstenkoehler: **[Offer]** Sure, happy to help. @SKubrick! 
-- (2.c) karstenkoehler: I've added a short example to my previous post. (https://community.hubspot.com/t5/Email-Marketing-Tool/Email-Health-Tool/m-p/400198, accessed 2023-11-16)
-
-Offers also includes a _negative_ response to requests:
-
-- (3.a) Unknown ID: We'll investigate it. 
-- (3.b) Unknown ID: Is it possible for us to meet in person?
-- (3.c) Alibaba: **[Offer (declineRequest)]** Not now. 
-- (3.d) Alibaba: Maybe in a week or two. 
-- (3.e) Alibaba: I'll stay in contact. (https://forums.spacebattles.com/threads/oracle-persona-5-time-travel.1098423/, accessed 2023-11-16)
-
-In Alibaba's response, the first statement (3.c) directly responds (3.b), but is subsequently elaborated into a refined offer. Note that this elaboration is to be modelled by EXPANSION relations that take (3.c) as their anchor, not directly as feedback responses to (3.b).
-
-###### `Address Suggest`
-
-With the utterance, the speaker commits himself (or declines) to perform an action that was suggested to him (ISO 2010). The anchor is the utterance of the addressee that made him believe that was a suggested action. The main difference to `Offer` is that the addressee is neutral about his proposal or that the speaker himself is the main beneficiary of the proposal.
-
-- (4.1) Admiral James: Do you want to tour the waterfront area?
-- (4.2) Congressman Norblad: **[Address Suggest]** I would like to.
-- (4.3) Admiral James: Maybe, we can do it in a little less than half an hour.
-- (4.4) Chairman Doyle: **[Address Suggest]** Let's do that before we come home back here. (U.S. Congress. House. Commitee on the Armed Services (1957/1958), Hearings Vol. 3. 85th Congress, 1st and 2nd Session. p. 3122)
-
-We include both positive and negative responses to suggestions under `Address Suggest`.
-
-##### asking for future actions: directives
-
-This includes two main groups of communicative functions.
-
-With `Suggest`, the speaker aims to make the addressee aware that a certain action, described by the utterance, is potentially promising for achieving a certain goal, which is either named explicitly or contextually salient (ISO 2010). In AURIS, `Suggest` should not be annotated, instead, `Suggest` utterances serve as anchors for `Address Suggest` relations. As for the discourse relation of a suggestion statement, take both the utterance and the expected response into account.
-
-With `Request`, the speaker aims to elicit a commitment of the addressee to perform a particular activity in a particular way (ISO 2010). In AURIS, `Request` should not be annotated, instead, `Request` utterances serve as anchors for `Offer` relations. As for the discourse relation of a request statement, take both the utterance and the expected response into account.
-
-##### Functional dependence
+#### Functional dependence
 
 Functional dependence relations occur with dialogue acts that are responsive in nature, such as Answer, Confirmation, Agreement, Accept Apology, and Decline Offer. The semantic content of these types of dialogue act depend crucially on which previous dialogue act they respond to, and it’s probably not a coincidence that they can be expressed by utterances that by themselves have no semantic content, such as “Yes”, “No thanks”, “No problem”, and “OK”. (Bunt et al. 2012, p.432).
 
-Functional dependence relations involve dialogue acts that are responsive in nature (Bunt et al. 2019) and that involve the explicit elicitation of the response (say., a question) as an anchor. They cover the following Communicative Functions: `Answer`, `Offer` (if elicited) and `Address Suggest`.
+dialogue acts that are responsive in nature, such as Answer, Confirmation, Disagreement, Accept Apology, and Decline Offer (Bunt et al. 2019)
 
-The ancedent act of a functional dependence relation always serves as an anchor and precedes the utterance, so it is not to be annotated.
+##### Functional dependence.antecedent-act (not to be annotated)
+
+The hypothetical relation of the anchor of a functional dependence, precedes the utterance. Not to be annotated. (Bunt & Prasad 2016)
 
 ##### Functional dependence.dependent-act (`Dependent-act`)
 
 In a `FUNCTIONAL_DEPENDENCE` relation, the `Dependent-act` is a dialogue act with a responsive communicative function; the `Antecedent-act` is the dialogue act(s) that the `Dependent-act` responds to. (Bunt & Prasad 2016)
+
+> Note: In their examples, Żurowski et al. 2023, seem to have confused Functional dependence (not involving a question) and feedback dependence (involving a question). But maybe, I'm wrong, Prasad and Bunt also present questions here.
 
 - (v) A: Is there an earlier connection? **[Dependent-act]** B: No, I’m sorry, there isn’t. (Bunt et al. 2012, p.432)
 
@@ -1062,6 +1008,28 @@ In a `FUNCTIONAL_DEPENDENCE` relation, the `Dependent-act` is a dialogue act wit
 - (y) A: What newspapers do you read? **[Dependent-act: Answer]** B: I read uh the local newspaper, and I also try and read one of the uh major dailies like the Chicago Tribune, or the New York Times or something like that (Prasad and Bunt 2015)
 
 - (z) B: I really like NPR a lot **[Dependent-act: Agreement]** A: Yeah that's pretty good (Prasad and Bunt 2015)
+
+> Notes: not considered in PDTB2
+
+#### Feedback dependence
+
+In a `FEEDBACK_DEPENDENCE` relation, the `Feedback-act` provides or elicits information about the understanding or evaluation by one of the dialogue participants of the `Feedback-scope` argument, a communicative event that occurred earlier in the discourse. As with Entity Relations, no explicit or implicit connective is identified and annotated: The only elements of the relation are the utterance and the anchor (Bunt & Prasad 2016; PDTB Hypophora in Webber et al. 2019a, p.9).
+
+For feedback dependence relations the semantic content of a feedback act necessarily depends on the utterance(s) that the feedback is about. The difference to functional dependence is that the semantic content of a feedback act may be determined by what was said before rather than by the semantic content of a previous dialogue act. (Bunt et al. 2012)
+
+Feedback acts are about the processing of something that was said before. The nature of this ‘something’ depends on the kind of feedback. Feedback by means of expressions like “OK”, “Uh-huh”, or “Really?” is about one or more previous dialogue acts, while feedback by means of “Tuesday?” or “What did you say?” is about a previous utterance segment, rather than about a dialogue act. The ISO 24617-2 annotation scheme therefore allows both dialogue acts and functional segments as antecedents for feedback dependence relations. The ISO scheme is in fact not quite correct at this point, since segment-related feedback is not necessarily about a functional segment; it may be about any previous segment, functional or not, such as a single word or a sequence of words within a functional segment. In the latter case the ISO scheme only allows annotating a feedback dependence relation to the functional segment containing the expression that the feedback act refers to (Bunt et al. 2019).
+
+##### Feedback dependence.feedback-scope (not to be annotated)
+
+The hypothetical relation in which the utterance provides a question that is answered by the anchor. (This is a hypothetical inverse of the feedback-act relation, not to be annotated.) 
+
+##### Feedback dependence.feedback-act (`Feedback-act`)
+
+The utterance provides an answer to a question expressed in the anchor. Normally, the question should precede the answer. For a question seeking information, the response should aim to fulfill that need by addressing it explicitly, or, alternatively, indicate that the information need cannot be fulfilled, as in (23) below. 
+
+- (8.a) A: I would like to come on Tursday. **[Feedback-act]** B: On Thursday? (Bunt et al. 2012, p.433)
+
+- (8.b) A: That’s at two-thirty. **[Feedback-act]** B: I see. (Bunt et al. 2012, p.433)
 
 - (19) If not now, when? **[HYPOPHORA]** “When the fruit is ripe, it falls from the tree by itself,” he says.” (PDTB3, wsj 0300)
 
@@ -1089,27 +1057,6 @@ If the subsequent text is not an answer (direct or indirect) or a denial that an
 > - missing from PDTB2, added with PDTB3 as top-level category "Hypophora": "In HYPOPHORA relations, one argument (commonly Arg1) expresses a question and the other argument (commonly Arg2) provides an answer.""
 
 Original examples from Bunt and Prasad (2015) seem to put all questions into functional dependence.
-
-
-> Notes: not considered in PDTB2
-
-#### Feedback dependence: `Feedback`
-
-In a `FEEDBACK_DEPENDENCE` relation, the `Feedback-act` provides or elicits information about the understanding or evaluation by one of the dialogue participants of the `Feedback-scope` argument, a communicative event that occurred earlier in the discourse. As with Entity Relations, no explicit or implicit connective is identified and annotated: The only elements of the relation are the utterance and the anchor (Bunt & Prasad 2016; PDTB Hypophora in Webber et al. 2019a, p.9).
-
-For feedback dependence relations the semantic content of a feedback act necessarily depends on the utterance(s) that the feedback is about. The difference to functional dependence is that the semantic content of a feedback act may be determined by what was said before rather than by the semantic content of a previous dialogue act (Bunt et al. 2012).
-
-Feedback acts are about the processing of something that was said before. The nature of this ‘something’ depends on the kind of feedback. Feedback by means of expressions like “OK”, “Uh-huh”, or “Really?” is about one or more previous dialogue acts, while feedback by means of “Tuesday?” or “What did you say?” is about a previous utterance segment, rather than about a dialogue act (Bunt et al. 2019).
-
-The difference between feedback dependence and functional dependence is that feedback dependence is not solicited by the speaker. We do not distinguish communicative functions of feedback relations
-
-In a feedback depedence relation, the anchor precedes the utterance and defines the feedback scope, the utterance represents the feedback act. 
-
-The utterance provides an answer to a question expressed in the anchor. Normally, the question should precede the answer. For a question seeking information, the response should aim to fulfill that need by addressing it explicitly, or, alternatively, indicate that the information need cannot be fulfilled, as in (23) below. 
-
-- (8.a) A: I would like to come on Tursday. **[Feedback-act]** B: On Thursday? (Bunt et al. 2012, p.433)
-
-- (8.b) A: That’s at two-thirty. **[Feedback-act]** B: I see. (Bunt et al. 2012, p.433)
 
 - (x.1) A: go south and you’ll pass some cliffs on your right. **[Feedback-act]** B: okay
 - (x.2) A: and keep going down south. **[Feedback-act]** B: mmhmm
@@ -1223,8 +1170,6 @@ Also, when disambiguating explicit or inserting implicit discourse markers, cons
 - Harry Bunt, Volha Petukhova, Andrei Malchanau, Alex Fang, and Kars Wijnhoven (2019), The DialogBank: dialogues with interoperable annotations. Language Resources and Evaluation 53 (2019): 213-249.
 
 - Harry Bunt, Volha Petukhova, Emer Gilmartin, Catherine Pelachaud, Alex Fang, et al. (2020), The ISO Standard for Dialogue Act Annotation, Second Edition. Proceedings of the 12th Language Resources and Evaluation Conference, May 2020, Marseille, France.
-
-- ISO (2010), Language resource management — Semantic annotation framework — Part 2: Dialogue acts, ISO/TC37/SC4 N723 Date: 2010-07-14, ISO/DIS 24617-2, ISO/TC 37/SC 4/WG 2, pre-publication draft from https://semantic-annotation.uvt.nl/DIS24617-2.pdf, referenced as ISO/DIS 24617-2
 
 - Rashmi Prasad, Eleni Miltsakaki, Nikhil Dinesh, Alan Lee, Aravind Joshi, Livio Robaldo (2007), The Penn Discourse Treebank 2.0 Annotation Manual, December 17, 2007, https://www.cis.upenn.edu/~elenimi/pdtb-manual.pdf, accessed 2023-11-09
 
