@@ -282,6 +282,24 @@ In this example, the anchor of the implicit Contrast (7.5) is three utterances b
 
 Here, no discourse relation, nor an entity relation can be established between w.3 and w.2, so that w.1 is to be considered (and can be confirmed as) anchor.
 
+- (9.1) [ANCHOR:] A: So I can be there at 10:30.
+- (9.2) A: I don’t know about Peterson.
+- (9.3) **[Dependent-act]** B: 10:30, okay.
+- (9.4) B: We’ll start at 10:15 with the formalities. (Bunt et al. 2012, p.433)
+
+If an utterance can take more than one sentence as anchor, annotate the most proximate anchor, only:
+
+- (10.1) B: We’re gonna be selling this remote control for twenty five euro
+- (10.2) B: and we’re aiming to make fifty million euro
+- (10.3) B: so we’re gonna be selling this on an international scale
+- (10.4) [ANCHOR:] B: and we don’t want it to cost more than twelve fifty euros
+- (10.5) **[Dependent-act (positive feedback)]** D: Okay
+- (10.6) [ANCHOR:] B: So fifty percent of the selling price
+- (10.7) **[Dependent-act (negative feedback)]** D: Can we go over that again (Bunt et al., 2012, p.432-433)
+
+According to Bunt et al. (2012), (10.5) actually refers back to (10.1) - (10.4), but we annotate only (10.4) as anchor.
+(10.7), however, takes scope over (10.1) - (10.4) _and_ (10.6), but we only annotate the relation to (10.6). 
+
 ### Overall hierarchy
 
 The top level of the hierarchy follows PDTB2, the middle level represents SemAF relations, the third level represents SemAF attribute roles.
@@ -931,7 +949,12 @@ The situation described in the anchor temporally precedes the situation describe
 
 ### DIALOG
 
+Two kinds of discourse relations which are specific to dialogue are (1) functional dependence relations, such as those between an answer and the
+question that it answers, or an ‘accept apology’ and the apology which is accepted; and (2) feedback dependence relations, such as the relation between a feedback utterance like “sure” or a head nod, and the utterance that the feedback is about; or between “you see?” and the utterance that the speaker is eliciting information about (Bunt et al. 2012, p.431)
+
 #### Functional dependence
+
+Functional dependence relations occur with dialogue acts that are responsive in nature, such as Answer, Confirmation, Agreement, Accept Apology, and Decline Offer. The semantic content of these types of dialogue act depend crucially on which previous dialogue act they respond to, and it’s probably not a coincidence that they can be expressed by utterances that by themselves have no semantic content, such as “Yes”, “No thanks”, “No problem”, and “OK”. (Bunt et al. 2012, p.432).
 
 ##### Functional dependence.antecedent-act (not to be annotated)
 
@@ -943,6 +966,8 @@ In a `FUNCTIONAL_DEPENDENCE` relation, the `Dependent-act` is a dialogue act wit
 
 > Note: In their examples, Żurowski et al. 2023, seem to have confused Functional dependence (not involving a question) and feedback dependence (involving a question). But maybe, I'm wrong, Prasad and Bunt also present questions here.
 
+- (v) A: Is there an earlier connection? **[Dependent-act]** B: No, I’m sorry, there isn’t. (Bunt et al. 2012, p.432)
+
 - (w) P1: Is it safe to put my camera through here? It’s a very expensive camera you know. **[Dependent-act: ANSWER]** P2: Yes, that’s perfectly safe. (Bunt and Prasad 2016)
 
 - (x) So, are you satisfied? **[Dependent-act]** Yes, we are.	(Żurowski et al. 2023, p.487, translated from Polish)
@@ -951,14 +976,13 @@ In a `FUNCTIONAL_DEPENDENCE` relation, the `Dependent-act` is a dialogue act wit
 
 - (z) B: I really like NPR a lot **[Dependent-act: Agreement]** A: Yeah that's pretty good (Prasad and Bunt 2015)
 
-
-
-
 > Notes: not considered in PDTB2
 
 #### Feedback dependence
 
 In a `FEEDBACK_DEPENDENCE` relation, the `Feedback-act` provides or elicits information about the understanding or evaluation by one of the dialogue participants of the `Feedback-scope` argument, a communicative event that occurred earlier in the discourse. As with Entity Relations, no explicit or implicit connective is identified and annotated: The only elements of the relation are the utterance and the anchor (Bunt & Prasad 2016; PDTB Hypophora in Webber et al. 2019a, p.9).
+
+For feedback dependence relations the semantic content of a feedback act necessarily depends on the utterance(s) that the feedback is about. The difference to functional dependence is that the semantic content of a feedback act may be determined by what was said before rather than by the semantic content of a previous dialogue act.
 
 ##### Feedback dependence.feedback-scope (not to be annotated)
 
@@ -967,6 +991,10 @@ The hypothetical relation in which the utterance provides a question that is ans
 ##### Feedback dependence.feedback-act (`Feedback-act`)
 
 The utterance provides an answer to a question expressed in the anchor. Normally, the question should precede the answer. For a question seeking information, the response should aim to fulfill that need by addressing it explicitly, or, alternatively, indicate that the information need cannot be fulfilled, as in (23) below. 
+
+- (8.a) A: I would like to come on Tursday. **[Feedback-act]** B: On Thursday? (Bunt et al. 2012, p.433)
+
+- (8.b) A: That’s at two-thirty. **[Feedback-act]** B: I see. (Bunt et al. 2012, p.433)
 
 - (19) If not now, when? **[HYPOPHORA]** “When the fruit is ripe, it falls from the tree by itself,” he says.” (PDTB3, wsj 0300)
 
@@ -1098,7 +1126,9 @@ Also, when disambiguating explicit or inserting implicit discourse markers, cons
 
 ## References
 
-- Bunt, Harry and Prasad, Rashmi (2016), ISO DR-Core (ISO 24617-8), Core concepts for the annotation of discourse relations, In: Proceedings 12th Joint ACL-ISO Workshop on Interoperable Semantic Annotation (ISA-12), p. 45-54
+- Harry Bunt and Prasad, Rashmi (2016), ISO DR-Core (ISO 24617-8), Core concepts for the annotation of discourse relations, In: Proceedings 12th Joint ACL-ISO Workshop on Interoperable Semantic Annotation (ISA-12), p. 45-54
+
+- Harry Bunt, Jan Alexandersson, Jae-Woong Choe, Alex Chengyu Fang, Koiti Hasida, Volha Petukhova, Andrei Popescu-Belis and David Traum (2017), ISO 24617-2: A semantically-based standard for dialogue annotation. LREC 2012.
 
 - Rashmi Prasad, Eleni Miltsakaki, Nikhil Dinesh, Alan Lee, Aravind Joshi, Livio Robaldo (2007), The Penn Discourse Treebank 2.0 Annotation Manual, December 17, 2007, https://www.cis.upenn.edu/~elenimi/pdtb-manual.pdf, accessed 2023-11-09
 
@@ -1109,7 +1139,6 @@ Also, when disambiguating explicit or inserting implicit discourse markers, cons
 - Bonnie Webber, Rashmi Prasad, Alan Lee, Aravind Joshi (2019a), The Penn Discourse Treebank 3.0 Annotation Manual, Language Data Consortium, https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf, accessed 2023-11-13
 
 - Bonnie Webber, Rashmi Prasad and Alan Lee (2019b), Ambiguity in Explicit Discourse Connectives, COLING-2019, Gothenburg, Sweden.
-
 
 - Sebastian Żurowski, Daniel Ziembicki, Aleksandra Tomaszewska, Maciej Ogrodniczuk and Agata Drozd (2023), Adopting ISO 24617-8 for Discourse Relations Annotation in Polish: Challenges and Future Directions. In Proceedings of the 4th Conference on Language, Data and Knowledge (pp. 482-492).
 
