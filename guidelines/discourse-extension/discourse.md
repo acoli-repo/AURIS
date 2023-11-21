@@ -85,13 +85,6 @@ If the main clause of a sentence carries no discourse marker, annotate the most 
 
 Annotate the current sentence with the implicit discourse marker [HOW?]. The current sentence is considered the internal argument. With implicit discourse relations, the external argument normally precedes the internal argument.
 
-	(ex)
-		EXTERNAL ARG (NARRATIVE) She insisted that I go to college.
-		DISCOURSE MARKER: Ø
-		INTERNAL ARG (EXPANDER) During the occupation, she put herself in great danger to save me ...
-
-		(Żurowski et al. 2023, p.487, translated from Polish)
-
 NB: maybe change terminology: instead of external argument, we speak about SOURCE and TARGET of relation? or about UTTERANCE and ANCHOR? This would make sense because we aim to annotate every utterance. 
 
 > Note: Our approach on argument identification follows the Penn Discourse Treebank. Our internal argument corresponds to the PDTB ARG2, our external argument corresponds to the PDTB ARG1. There is no systematic relation between internal and extenal arguments and ARG1 and ARG2 as defined in ISO SemAF.
@@ -350,6 +343,7 @@ The top level of the hierarchy follows PDTB2, the middle level represents SemAF 
 		- `specific` (SemAF Elaboration/Specific)
 	- `Restatement` (SemAF Restatement)
 	- `Hypophora` (missing in SemAF)
+	- `Attribution` (missing in SemAF)
 - **DIALOG**
 	- `Functional-Dependence` (SemAF Functional-dependence/dependent-act)
 		- `Answer` (SemAF Dialog, communicative function `Answer`
@@ -950,7 +944,7 @@ The situation described in the anchor temporally precedes the situation describe
 > - cf. PDTB Succession
 > - Following Bunt and Prasad (2016), this is put under TEMPORAL
 
-#### Hypophora
+##### Hypophora
 
 Hypophora is used for answers to rhetorical questions. The discourse relation that links these answers to the preceding discourse is to be annotated on the question.
 
@@ -968,6 +962,15 @@ Hypophora is used for answers to rhetorical questions. The discourse relation th
 
 > Notes:
 > - missing from PDTB2, added with PDTB3 as top-level category "Hypophora": "In HYPOPHORA relations, one argument (commonly Arg1) expresses a question and the other argument (commonly Arg2) provides an answer.""
+
+##### Attribution
+
+We do not consider attribution a discourse relation in its own right. However, as we perform sentence-level annotation over pre-determined sentence splits, it is possible that an attribution phrase gets detached from the reported statement. In those cases, annotate the utterance expressing the attribution with an `Attribution` relation that takes the statement (resp., its closest sentence) as anchor:
+
+- (1.1) **[Attribution]** Now, let’s read what He said in Matthew 6:9-10:
+- (1.2) [Anchor] After this manner therefore pray ye: Our Father which art in heaven, Hallowed be thy name. (https://kcmcanada.ca/04-2021-partner-letter/, accessed 2023-11-16)
+
+Note that the example in (1.1) originally had a paragraph break between the attribution sentence and the statement.
 
 ### DIALOG
 
