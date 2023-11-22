@@ -497,7 +497,7 @@ The utterance represents a goal (purpose) enabled by the situation described in 
 - (30.1) *Skilled ringers use their wrists to advance or retard the next swing, **so that** one bell can swap places with another in the following change.* (PDTB3, wsj 0089, INTRASENTENTIAL)
 - (30.2) *In September, the company said it was seeking offers for its five radio stations **in order to** concentrate on its programming business.* (PDTB3, wsj 0115, INTRASENTENTIAL)
 
-##### `enablement`
+##### Purpose.enablement (`Enablement`)
 
 The utterance describes a situation that enables the goal (purpose) described in the anchor, i.e., the action undertaken to achieve the goal (Webber et al. 2019a, p.21). A diagnostic marger is _for that purpose_.
 
