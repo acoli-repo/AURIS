@@ -76,8 +76,10 @@ Based on the identification of the backward-looking center, Centering Theory dis
 - If the backward-looking center of the preceding utterance is not the same as the backward-looking center of the current utterance
     - Annotate `SHIFT`
 
-Centering Theory then predicts that `CONTINUE` relations are more coherence than `RETAIN` than `SHIFT`.
+Centering Theory then predicts that `CONTINUE` relations are more coherent than `RETAIN` than `SHIFT`.
 
 Our texts are most written language, and sometimes the flow of utterances is interrupted by comments (e.g., "(Laughter.)", written as a sentence in a transcript) or metadata (e.g., headlines). Therefore, in cases in which the preceding utterance does not carry `CB` annotation, we consider the latest preceding utterance with a `CB`, instead. However, the centering transition is to be annotated in round brackets, then.
 
-> Note: In our framework, Centering transitions are automatically induced from `CB` annotation. So, this is not to be manually annotated. 7
+> **Note**: So far, Centering transitions have not been annotated yet. We expect this to be automatically derived from `CB` annotations.
+
+> **Implementation note**: As sentence segmentation may be imperfect, consider the following possible repair technique: If previous sentence has no `CB`, resort to the last established `CB`, annotate relation in round brackets. This repair technique is designed to increase robustness against incorrect segmentations and textual fragments (e.g. headlines) interrupting the continuous flow of written text.

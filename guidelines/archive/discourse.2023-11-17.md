@@ -1,179 +1,190 @@
-# A. Discourse Relations
-
-The annotation of discourse relations adopts a different format and is thus described in an appendix to the AURIS guidelines.
+# [DRAFT] Discourse Annotation
 
 We annotate discourse relations between sentences and thus annotate entire sentences, only. For this reason, manual discourse annotation is conducted on a different format, but using the same set of technologies (i.e., Spreadsheet Software).
 
-Although complete sentences are the unit of annotation, the sentence may include material not relevant for the discourse relation at hand. Instead, annotators should focus on the main clause of the sentence.
-There is an exception for attribution verbs, for which the main clause of the attributed statement (i.e., the reported speech) is to be annotated.
+Although complete sentences are the unit of annotation, the sentence may include material not relevant for the discourse relation at hand. Instead, annotators should focus on the main clause of the sentence (or, for attribution verbs, the main clause of the reported speech contained in the current sentence).
 
-> Note that these guidelines are partially based on the Penn Discourse Treebank, which also accounts for intrasentential discourse relations. We thus still include examples of intrasentential relations in the definition of discourse relations. In the future, these are to be replaced by real-world intersentential corpus examples. 
+Note that because these guidelines are partially based on the Penn Discourse Treebank, which also accounts for intrasentential discourse relations, we still include examples of intrasentential relations in the definition of discourse relations. In the future, these are to be replaced by real-world intersentential corpus examples. 
 
-The Goal of the annotation is to annotate every sentence with one **discourse relation**. It is neither required nor expected that the annotation of discourse relations leads to a tree structure. The refer to the sentence that is annotated as the **utterance**, the sentence that it is linked to by the discourse relation as the **(contextual) anchor**. If a discourse relation is indicated by an explicit discourse marker, this is syntactically integrated with the utterance. Accordingly, the applicability of a discourse relation can be tested by means of a paraphrase or substitution test where a diagnostic discourse marker is inserted: If the insertion of a diagnostic discourse marker does not change the meaning of the utterance in its context, the corresponding discourse relation can be annotated. A list of diagnostic markers is provided in an appendix.
+## Task and Procedure
 
-The order of anchor and utterance is flexible, but in many cases, the anchor precedes the utterance. For implicit discourse markers, the anchor should generally precede the utterance, explicit discourse can be used by the speaker to underline that the anchor follows the utterance. A notable special case is the first part of a paired discourse marker, such as *On the one hand ... . On the other hand ...*. Here, the first utterance, marked with *on the one hand*, takes the second as its anchor, whereas the second takes the first as its anchor. If an utterance carries more than one explicit discourse marker, we annotate the first discourse marker, only.
+Goal of the annotation is to annotate every sentence with at least one discourse relation. It is neither required nor expected that the annotation of discourse relations leads to a tree structure.
 
-> **Note**: This section is concerned with the annotation of discourse relations, i.e., semantic or functional relations between utterances. As for relations between discourse referents (coreference, Centering Transitions), this is subject to Sect. 5 of the AURIS guidelines.
+Tasks:
 
-## A.1 Preparation and Format
-
-Annotation is done using Spreadsheet software such as MS Excel or LibreOffice. We provide automated pre-annotations as well as formulas to dynamically populate the spreadsheet file. For annotating a file with pre-annotations, say `doyle_bask.14.tsv`, please proceed as follows:
-
-1. Copy `discourse-template.xlsx` to `doyle_bask.14.xlsx` (take the name of your source file as a basis)
-2. Open `doyle_bask.14.tsv` in your Spreadsheet software (or, alternatively, in a text editor)
-3. Select the full content of `doyle_bask.14.tsv`
-	- Text editor, Windows/Linux: press `<CTRL>+A` to select all
-	- Spreadsheet software, Windows/Linux: go to upper left corner (cell `A1`), press `<SHIFT>+<CTRL>+<END>` to select table data
-4. Copy the content of `doyle_bask.14.tsv`
-	- Windows/Linux: press `<CTRL>+C`
-5. Open `doyle_bask.14.xlsx` in your Spreadsheet software
-6. Go to cell `A3` (first cell, third line)
-7. Paste the content of `doyle_bask.14.tsv` into `doyle_bask.14.xlsx`
-	- Windows/Linux: press `<CTRL>+V`
-8. Copy the formulas (colored cells) from row `3`
-	- Windows/Linux: nagivate to `G3`, press `<SHIFT>+<END>` to select all formulas
-9. Select from `G3` until the end of the table
-	- Windows/Linux: navigate to `G3`, press `<SHIFT>+<CTRL>+<END>`
-10. Paste formulas into the selected area, confirm consent to overwrite
-	- Windows/Linux: press `<CTRL>+V`
-11. If successful, the entire table should have the same colored columns as the template.
-
-After preparation, your table should look as follows:
-
-![template.png](template.png)
-
-(Note that you can resize column width and height as needed.)
-
-Empty cells should be filled with `_`, automated pre-annotations are marked with question marks. After annotations, no question marks should remain.
-
-The spreadsheet file contains the following columns:
-
-- `ID` (col A) sentence number
-- `PREDICATE` (col D) main verb, automatically annotated
-- `TEXT` (col E) utterance to be annotated
-- `MARKER` (col G) possible discourse marker. Automatically identified discourse markers are marked by a question mark. To be replaced with actual discourse marker (without question mark).
-- `TARGET` (col H) ID of the utterance that serves as anchor of the discourse relation.
-- `RELATION` (col I) discourse relation
-- `COMMENT` (col J) free-text comment
-
-Note that in the template, several columns are hidden. These are auxiliary columns that annotators don't need to look into.
-
-Also note that automated pre-annotations might be incorrect. Except for `MARKER` (whose annotations should be replaced anyway), correcting an incorrect pre-annotation requires to leave a comment, either in an accompanying text file (annotation log), with reference to the corresponding sentence ID, or in the `COMMENT` column.
-
-## A.2 Annotation Tasks and Procedure
-
-Annotation involves the following sub-tasks. Some of these tasks are automated, however, automated annotations, if found to be incorrect, should be corrected. In those cases, leave a comment in the `COMMENT` column.
-
-1. For every sentence, identify the main predicate
-	- Pre-annotation in `PREDICATE`. If the annotator believes the predicate to be incorrect, fix that column and leave a comment with an explanation.
-2. For every sentence, identify the primary discourse marker (pre-annotation in `MARKER`)
-	- Pre-annotation in `MARKER`. Should be manually confirmed or revised.
-3. if there is an explicit discourse marker:
-	1. annotate the anchor of the discourse relation (i.e., the sentence it refers to) in column `TARGET`, identified by its numerical ID. If there are multiple candidate anchors, annotate the closest anchor.
-	2. annotate the discourse relation in `RELATION`
-4. if there is no explicit discourse marker:
-	1. the preceding target candidate is the (main predicate of the) preceding sentence.
-	2. check whether the preceding target candidate is the target of a discourse relation with the (main predicate of the) preceding clause by asking yourself the following questions:
+1. [to be automated] For every sentence, identify the main clause
+2. [to be automated] For every sentence, identify the primary discourse marker
+3. if there is a discourse marker:
+	1. annotate the target of the discourse relation (i.e., the sentence it refers to), identified by its numerical ID
+	2. annotate the discourse relation
+4. if there is no discourse marker:
+	1. the preceding target candidate is the (main clause of the) preceding sentence.
+	2. check whether the preceding target candidate is the target of a discourse relation with the (main clause of the) preceding clause by asking yourself the following questions:
 		1. is there a logical connection between these utterances that could be described in terms of a discourse relation?
-		2. Is there an discourse marker *at the current utterance* that could be used to make this explicit? Annotate this discourse marker in `MARKER`, put it in round brackets to mark it as an implicit discourse marker.
-		3. If a discourse relation (and, optionally, an implicit `MARKER`) has been confirmed, annotate the `TARGET` and the `RELATION`; continue in 5.
-		4. If no discourse relation could be annotated, check the following utterance as candidate anchor, then extend further into preceding context until an anchor has been found or it can be assumed that no anchor exists. If the latter, explain why you think so in `COMMENT`.
+		2. what would be an explicit discourse marker *at the current utterance* that would make this explicit?
+
+			> Note: It seems most practical to answer these questions in tandem, i.e., to check first which discourse marker could be applied without having the text sounding unnatural and then identify the corresponding discourse relation on that basis. Inserting (or substituting) discourse markers is an established technique for checking the applicability of a discourse relation.
+		3. if a discourse relation can be annotated, annotate the target, the discourse relation and the (implicit) discourse marker; continue in 5.
+	3. the following target candidate is the (main clause of the) following sentence.
+		- apply the procedure of 4.2 to the following target candidate
+	4. if no discourse relation with either preceding nor following target candidates can be established, then
+		- set the preceding target candidate to the utterance preceding it,
+		- set the following target candidate to the utterance following it
+
+		and iterate in 4.2
 5. use the `COMMENT` column to provide additional comments, e.g., if no target and/or discourse relation could be established.
 6. continue with the next sentence.
 
-> **Note**: For 4.2.1 and 4.2.2, it seems most practical to answer these questions in tandem, i.e., to check first which discourse marker could be applied without having the text sounding unnatural and then identify the corresponding discourse relation on that basis. Inserting (or paraphrasing with) diagnosting discourse markers is an established technique for testing the applicability of a discourse relation. See Sect. A.4.2 for more detailed instructions.
+> Note: This section is not concerned with the annotation of centering transitions. These are part of Sect. 5 and (to be) automatically induced from (manual) CB annotations.
 
-## A.3 Identifying the Main Predicate
+## 0. Centering transitions [move out of here]
 
-For every sentence, we annotate the discourse relations of its core statement. Syntactically, the core statement is represented by the main predicate and its syntactic dependents. The main predicate is identified by the following rules:
+Centering transitions are not to be manually annotated
 
-1. By default, the main predicate is the syntactic head of the first main clause in the current sentence
-2. If the syntactic head is a nominal, adjectival or adverbial predicate of a copula clause with an explicit verb, the predicate consists of the copula in conjunction with the predicate.
-3. If the syntactic head is an attribution verb (*say*, *write*, *think*, etc.) and the current sentence contains a reported statement (direct or indirect speech), the main predicate of the sentence is the main predicate of the reported statement.
+TODO: extrapolate coherence relations from CB annotation:
 
-> **Note 1**: For syntactic analysis, we expect pre-annotation in accordance with Universal Dependencies 2.x. See [there](https://universaldependencies.org/u/overview/syntax.html) for the definition of syntactic heads.
+- no CB: no-CB
+- same CB, CB=SBJ: CONTINUE
+- same CB, CB!=SBJ: RETAIN
+- different CB, CB=SBJ: SMOOTH-SHIFT
+- different CB, CB!=SBJ: ROUGH-SHIFT
 
-Rule 3 is designed to rule out verbs of attribution as main predicates. Here, we follow ISO 24617-8 in excluding them from discourse annotation (if the sentence contains a reported statement). In (1), the discourse relation doesn't hold between the communication acts (*Mr. Edelman said X. Mr. Ackerman contended Y.*) but between their respective statements (*X, [implicit:Concession] Y*). The respective main predicates are marked:
+possible repair technique:
+- if previous sentence has no CB, resort to the last established CB, annotate relation in round brackets
 
-- (1) _[Mr. Edelman said]<sub>ATTRIBUTION</sub> the decision ”[**has nothing to do**]<sub>PRED</sub> with Marty Ackerman.” [Mr. Ackerman contended]<sub>ATTRIBUTION</sub> that it [**was a direct response**]<sub>PRED</sub> to his efforts to gain control of Datapoint._ (PDTB3, wsj 0333)
+this repair technique is designed to increase robustness against incorrect segmentations and textual fragments (e.g. headlines) interrupting the continuous flow of written text
 
-## A.4 Annotating Discourse Markers
+## Data format
 
-Discourse markers are cues that overtly mark discourse relations. For English, this primarily includes
+We 
 
-- adverbials (ADVP and PP, e.g., *however*, *otherwise*, *then*, *as a result*, *for example*),
-- coordinating conjunctions (e.g., *and*, *or*, *nor*), and
-- subordinating conjunctions (e.g., *because*, *when*, *since*, *although*).
+## 1.1 Scope of Annotation
 
-We distinguish three kinds of discourse markers: 
+Discourse relations hold between discourse segments. Here, we concentrate on discourse relations between sentences, only.
 
-- Explicit discourse markers are stated in the text. Annotators should write them as plain strings.
-- Alternative lexicalizations are phrasal expressions that convey the same meaning as a discourse marker and that could be paraphrased by a discourse marker. They are, however, not grammaticalized as discourse markers. Annotators should write these phrases as plain strings, and add a discourse marker that could be used as paraphrase after that in square brackets.
-- Implicit discourse markers are not stated in the text. Annotators should write them in round brackets.
+TBC: We annotate the entire sentence with a discourse relation, with automated pre-annotation for discourse relations, based on discourse marker statistics.
 
-### A.4.1 Annotating Explicit Discourse Markers
+- we could actually annotate complete sentences rather than the head word, then, we generate data for discourse annotation from the *parsed* text, so that we have identical tokenization
+- we can write this into a spreadsheets, with pre-annotations going before the actual sentence, sentence number, so that we just annotate the (absolute) ID of the external argument. people could enable word wrap to actually read the text properly.
 
-Explicit discourse markers are drawn from the following grammatical classes (Prasad et al. 2007):
+For Discourse Annotation, we adopt the role inventory of ISO 24617-8 as described by Żurowski et al. (2023) for Polish, ...
 
-- adverbials (ADVP and PP):
+Note that we do not directly quote from the ISO-24617-8 norm, because this is available only upon payment at https://www.iso.org/obp/ui/#iso:std:iso:24617:-8:ed-1:v1:en.
 
-	- (2) *The magazine Success, **however**, was for years lackluster and unfocused.* (PDTB2, 1903)
-	- (3) ***As a result**, industry operated out of small, expensive, highly inefficient industrial units.* (PDTB2, 0629)
+## Argument roles
 
-	- DO NOT ANNOTATE adverbials modifying clauses other than the main predicate. In line with Universal Dependency syntax, the clause connected with the conjunction _and_ in (4) is syntactically analyzed as a dependent of the first clause. It does thus not carry the main predicate and neither _and_ nor _as a result_ should be annotated.
+For every discourse relation, we distinguish the internal argument and the external argument. Annotate the (syntactic head of the?) internal argument for
 
-		- (4) *Polyvinyl chloride capacity “has overtaken demand **and** we are experiencing reduced profit margins **as a result**”, ...* (PDTB2, 2083)
+- canonical form of the discourse marker
+- discourse relation
+- offset of the external argument (-1 for )
 
-- coordinating conjunctions, but only if attached to the main predicate of an utterance:
+If the main clause of a sentence carries a discourse marker, this clause is the internal argument of this discourse marker. The sentence that the discourse marker refers to is the external argument. The external argument can precede or follow the internal argument.
+
+If the main clause of a sentence carries no discourse marker, annotate the most suitable discourse relation based on an insertion test for different discourse markers based on the following hierarchy: ...
+
+Annotate the current sentence with the implicit discourse marker [HOW?]. The current sentence is considered the internal argument. With implicit discourse relations, the external argument normally precedes the internal argument.
+
+NB: maybe change terminology: instead of external argument, we speak about SOURCE and TARGET of relation? or about UTTERANCE and ANCHOR? This would make sense because we aim to annotate every utterance. 
+
+> Note: Our approach on argument identification follows the Penn Discourse Treebank. Our internal argument corresponds to the PDTB ARG2, our external argument corresponds to the PDTB ARG1. There is no systematic relation between internal and extenal arguments and ARG1 and ARG2 as defined in ISO SemAF.
+
+## Pre-Annotation
+
+For every sentence, we annotate the word that expresses its core predicate. Here, we refer to this word as the (semantic) nucleus, further abbreviated as NUC. The NUC is to be automatically identified with the following rules:
+
+1. initial NUC candidate is the syntactic head according to UD
+2. if the current NUC candidate is a nominal, adjectival or adverbial predicate of a copula clause with an explicit verb, make the copular verb the NUC candidate.
+3. if the current NUC candidate is an attribution verb, then
+	- set the NUC candidate to the first directly dependent finite verb
+	- if this is not possible, set the NUC candidate to the first direct dependent with clausal dependents
+	- if this is not possible, set the NUC candidate to its first csubj, ccomp or xcomp argument
+	- if this is not possible, keep the NUC candidate
+4. iterate in 2. until the NUC candidate cannot be further propagated downwards
+5. set the NUC to the current NUC candidate
+
+- rule 2. is necessary because of an unfortunate design decision in UD. 
+- rule 3. is designed to rule out verbs of attribution as core predicates. Traditionally, these are assigned a special status. Here, they are excluded from discourse annotation.
+
+## Automated discourse marker identification
+
+For every sentence, discourse markers are heuristically identified as follows:
+- lexicalize the top nodes of the parse tree (skip all words with depth larger than 3)
+- if that contains a candidate discourse marker known from our discourse marker lexicon, assume that this is a sentence-level discourse marker
+- keep the longest candidate discourse marker found
+- keep the alphabetically first candidate discourse marker found
+
+However, not every candidate discourse marker is an actual discourse marker (e.g., the prepositions "for" and "to"), and not every discourse marker applies to the sentence level (it could also connect clauses within a sentence). Thus, automated discourse marker identification is to be taken with a grain of salt, and automatically identified discourse markers are to be verified first, before being used in annotation.
+
+For automated discourse marker identification, we largely follow discourse marker lists provided by PDTB2.
+
+## Manual annotation of explicit discourse markers
+
+We distinguish two primary kinds of discourse markers: 
+- explicit discourse markers are stated in the text. annotators should write them as plain strings.
+- implicit discourse markers are not stated in the text. annotators should write them in round brackets.
+
+Following Prasad et al. (2007), explicit discourse markers are drawn from the following grammatical classes:
+
+- adverbials (ADVP and PP, e.g., however, otherwise, then, as a result, for example)
+
+	- (12) Working Woman, with circulation near one million, and Working Mother, with 625,000 circulation, are legitimate magazine success stories. The magazine Success, **however**, was for years lackluster and unfocused. (PDTB2, 1903)
+
+	- (13) In the past, the socialist policies of the government strictly limited the size of new steel mills, petrochemical plants, car factories and other industrial concerns to conserve resources and restrict the profits businessmen could make. As a result, industry operated out of small, expensive, highly inefficient industrial units. (PDTB2, 0629)
+
+	- (39) Such problems will require considerable skill to resolve. **However**, neither Mr. Baum nor Mr. Harper has much international experience. (PDTB2, 0109)
+
+	- DO NOT ANNOTATE adverbials modifying clauses other than the main predicate:
+
+		- (33) Polyvinyl chloride capacity “has overtaken demand and we are experiencing reduced profit margins **as a result**”, ... (PDTB2, 2083)
+
+		In line with Universal Dependency syntax, the clause connected with the conjunction _and_ is syntactically analyzed as a dependent of the first clause. It does thus not carry the main predicate.
+
+- coordinating conjunctions (e.g., and, or, nor), but only if attached to the main predicate of an utterance.
 	
-	- (5) *Only 19% of the purchasing managers reported better export orders in October, down from 27% in September. **And** 8% said export orders were down last month, compared with 6% the month before.* (PDTB2, 0036)
+	- (11) The report offered new evidence that the nation’s export growth, though still continuing, may be slowing. Only 19% of the purchasing managers reported better export orders in October, down from 27% in September. **And** 8% said export orders were down last month, compared with 6% the month before. (PDTB2, 0036)
 
-	- DO NOT ANNOTATE conjunctions not modifying the main predicate:
+	- (38) Metropolitan Houston’s population has held steady over the past six years. And personal income, after slumping in the mid-1980s, has returned to its 1982 level in real dollar terms. (PDTB2, 2444)
 
-		- (6) *The House has voted to raise the ceiling to $3.1 trillion, **but** the Senate isn’t expected to act until next week at the earliest.* (PDTB2, 0008)
-		- (7) *More common chrysotile fibers are curly **and** are more easily rejected by the body, Dr. Mossman explained.* (PDTB2, 0003)
+	- DO NOT ANNOTATE
 
-- subordinating conjunctions, but only if attached to the main predicate of an utterance:
+		- (10) The House has voted to raise the ceiling to $3.1 trillion, **but** the Senate isn’t expected to act until next week at the earliest. (PDTB2, 0008)
+
+		- (i) More common chrysotile fibers are curly **and** are more easily rejected by the body, Dr. Mossman explained. (PDTB2, 0003)
+
+- subordinating conjunctions (e.g., because, when, since, although), but only if attached to the main predicate of an utterance:
 		
-	- (8) *Why do local real-estate markets overreact to regional economic cycles? **Because** real-estate purchases and leases are such major long-term commitments that most companies and individuals make these decisions only when confident of future economic stability and growth.* (PDTB2, 2444)
+	- (37) Why do local real-estate markets overreact to regional economic cycles? **Because** real-estate purchases and leases are such major long-term commitments that most companies and individuals make these decisions only when confident of future economic stability and growth. (PDTB2, 2444)
 
-	- DO NOT ANNOTATE conjunctions not modifying the main predicate:
+	- This is expected to occur rarely.
 
-		- (9) ***Since** McDonald’s menu prices rose this year, the actual decline may have been more.* (PDTB2, 1280, conjunction of a pre-posed dependent clause)
+	- DO NOT ANNOTATE
 
-		- (10) *The federal government suspended sales of U.S. savings bonds **because** Congress hasn’t lifted the ceiling on government debt.* (PDTB2, 0008, conjunction of a post-posed dependent clause)
+		- (8) **Since** McDonald’s menu prices rose this year, the actual decline may have been more. (PDTB2, 1280)
 
-If the main predicate carries more than one discourse marker, annotate the first discourse marker, only:
+		- (9) The federal government suspended sales of U.S. savings bonds **because** Congress hasn’t lifted the ceiling on government debt. (PDTB2, 0008)
 
-- (11) *Small businesses say a recent trend is like a dream come true: more-affordable rates for employee-health insurance, initially at least. **But** then they wake up to a nightmare.* (PDTB3, wsj 0518; Webber et al. 2019b)
+	> Note: Differently from PDTB, annotate subordinating conjunctions only if they apply to the main predicate of the sentence.
 
-Here the, _but_ and _then_ encode independent discourse relations, the first indicating Concession, the second a temporal relation. However, _but then_ can also be analyzed as a single discourse marker, indicating Concession:
+The position of connectives in the utterance they modify is restricted to initial position for subordinating and coordinating conjunctions, but adverbials may also occur medially (or finally):
 
-- (12) *To many, it was a ceremony more befitting a king than a rural judge seated in the isolated foothills of the southern Allegheny Mountains. **But then** Judge O’Kicki often behaved like a man who would be king – and, some say, an arrogant and abusive one.* (PDTB3, wsj 0267; Webber et al. 2019b)
+	- (31) Despite the economic slowdown, there are few clear signs that growth is coming to a halt. **As a result**, Fed officials may be divided over whether to ease credit. (PDTB2, 0072)
 
-Note that the first discourse marker may also occur at medial (or final) positions within a clause:
+	- (32) The chief culprits, he says, are big companies and business groups that buy huge amounts of land “not for their corporate use, but for resale at huge profit.” . . . The Ministry of Finance, **as a result**, has proposed a series of measures that would restrict business investment in real estate . . . (PDTB2, 0761)
 
-- (13) *The Ministry of Finance, **as a result**, has proposed a series of measures that would restrict business investment in real estate ...* (PDTB2, 0761, medial discourse marker)
-
-Adverbials should be annotated as discourse markers only if they establish a relation between utterance and anchor. Interjections such as _well_, focus markers such as _anyway_, and clausal adverbials such as _strangely_, _probably_, _frankly_, _in all likelihood_ etc. are not annotated as discourse markers.
+In line with Prasad et al. (2007), adverbials that do not denote relations between two utterances have not been annotated as discourse connectives. Interjections such as _well_ and focus markers such as _anyway_ or _now_, etc. are only to be annotated if they establish a relation between two utterances, not if they serve to indicate dialog act, organizational or focus structure of the discourse. Likewise, clausal adverbials such as _strangely_, _probably_, _frankly_, _in all likelihood_ etc. are not annotated as discourse connectives since they take a single utterance as argument.
 	
-> Note that not all words and phrases that *can* serve as discourse markers actually do so under all circumstances: Some tokens can also serve other functions, e.g., _for_ can be a causal discourse marker (and then, be substituted with _because_), but it can also serve as a preposition indicating the beneficiary of an action. Likewise, discourse markers that serve to connect parts of the same utterance are beyond the scope of AURIS. Such expressions are not annotated as discourse connectives.
+	> Note: As a temporal expression, _now_ can be annotated if it serves to establish a comparison between an earlier (or a future) state and the current situation. 
 
-In the current workflow, the first candidate discourse marker is automatically annotated. However, note that this has been heuristically extracted and may include discourse markers not modifying the main predicate, or expressions that *could* serve as discourse markers but that don't in this particular context. Thus, in the column `MARKER`, these are always shown with a question mark and to be confirmed (or replaced) by manual annotation. Discourse markers with question marks are considered an error.
+Not all tokens of words and phrases that can serve as discourse markers actually do so: Some tokens can also serve other functions, e.g., _for_ can be a causal discourse marker (and then, be substituted with _because_), but also serve as a preposition indicating the beneficiary of an action. EXAMPLES. Likewise, discourse markers that serve to connect parts of the same utterance are beyond the scope of AURIS. Such expressions are not annotated as discourse connectives.
 
-### A.4.2 Annotation of implicit discourse markers
+Because of the uncertainties of automated pre-annotation for discourse markers, automatically identified discourse markers are always marked by a question mark. To confirm a discourse marker, annotators should remove the question mark. Discourse markers with question marks are considered an error.
 
-If an utterance does not feature an explicit discourse marker, annotators should try to test whether an explicit discourse marker could be inserted or whether another discourse relations applies. Example (14) shows an example of an implicit *because* inserted to connect two adjacent utterances
+## Annotation of implicit discourse markers
 
-- (14) *Some have raised their cash positions to record levels. **[Implicit = because]** High cash positions help buffer a fund when the market falls.* (PDTB2, 0983)
+If an utterance does not feature an explicit discourse marker, annotators should try to test whether an explicit discourse marker could be inserted (using a list of lexically-defined explicit connectives, following the order of discourse markers as given on that list):
 
-In discourse relations with implicit discourse markers, the anchor always precedes the utterance. In the following, it would be logically possible to annotate Reason to point from the first utterance to the second, but because of ordering preferences for implicit relations, we only annotate the inverse relation Result:
-
-- (15) Carl is crazy. **[Implicit = this is why]** he beats his wife. (Prasad and Bunt 2015, punctuation adjusted)
-
-For annotating implicit discourse markers, annotators should use the list of discourse relations and their diagnostic discourse markers, and check it the order specified in Sect. **BELOW**.
-
-1. check whether the preceding sentence could be an anchor
+1. check whether the preceding utterance could be an anchor
 	1. by inserting the first discourse marker on the list, if that fails
 	2. by inserting the second discourse marker, etc.
 	3. if both utterances are connected by a coherence relation between two referring expressions, insert no marker, but annotate EntRel
@@ -181,85 +192,108 @@ For annotating implicit discourse markers, annotators should use the list of dis
 	1. using the same procedure
 3. iterate until an anchor and an implicit discourse marker have been found or no possible anchor can be expected anymore (e.g., because the text deals with different topics)
 
+Prasad et al. 2007: "In Example (68), a causal relation is inferred between raising cash positions to record levels and high cash positions helping to buffer a fund, even though no Explicit connective appears in the text to express this relation. Similarly, in Example (69), a consequence relation is inferred between the increase in the number of rooms and the increase in the number of jobs, though no Explicit connective expresses this relation."
+
+	- (68) Several leveraged funds don’t want to cut the amount they borrow because it would slash the income they pay shareholders, fund officials said. But a few funds have taken other defensive steps. Some have raised their cash positions to record levels. **[Implicit = because]** High cash positions help buffer a fund when the market falls. (PDTB2, 0983)
+
+	- (69) The projects already under construction will increase Las Vegas’s supply of hotel rooms by 11,795, or nearly 20%, to 75,500. **[Implicit = so]** By a rule of thumb of 1.5 new jobs for each new hotel room, Clark County will have nearly 18,000 new jobs. (PDTB2, 0994)
+
 > Note: Unlike PDTB2, the annotation of implicit relations is not limited to adjacent utterances.
 
-### A.4.3 Alternative Lexicalizations
+As for implicit relations, the anchor always precedes the utterance. In the following, it would be logically possible to annotate Reason to point from the first utterance to the second, but because of ordering preferences for implicit relations, we only annotate the inverse relation Result:
 
-Many researchers distinguish discourse markers and alternative lexicalizations, i.e., a phrasal expression that conveys the meaning of a discourse marker that could be used in its place in a more or less equivalent way (e.g., *This observation leads us to conclude that ...* in place of *Thus, ...*). If such phrases are no longer than 5 words, annotators should annotate such phrases as explicit discourse markers. If such phrases are longer than 5 words, proceed as follows:
+- (x) Carl is crazy; **[Implicit = this is why]** he beats his wife. (Prasad and Bunt 2015)
 
-- provide a common discourse marker that could be used in place of the alternative lexicalization, write the alternative lexicalization and put the discourse marker in **square brackets** afterwards.
+## Alternative lexicalizations and multiple discourse markers
+
+Many researchers distinguish discourse markers and alternative lexicalizations, i.e., a phrasal expression that conveys the meaning of a discourse marker that could be used in its place in a more or less equivalent way (e.g., "This observation leads us to conclude that ..." in place of "Thus, ..."). If such phrases are no longer than 5 words, annotators should annotate such phrases as explicit discourse markers. If such phrases are longer than 5 words, proceed as follows:
+
+- provide a common discourse marker that could be used in place of the alternative lexicalization, write it in **square brackets**, add the alternative lexicalization afterwards
 
 If the discourse marker you provided could also be used *in addition to* the alternative lexicalization, then treat this as implicit discourse marker, i.e.,
 
 - provide the discourse marker you inferred in round brackets. 
 
-## A.5 Relation Inventory
+See the list of diagnostic markers in the appendix
 
-AURIS discourse relations are organized in a hierarchy that is also used to define selection preferences for annotation.
+> Note: We annotate at most one discourse marker per sentence. If multiple discourse markers apply, this defaults to the first discourse marker.
 
-### A.5.1 Top-Level Organization
+In the following examples, we annotate the first discourse marker only
 
-- **ADVERSATIVITY**: discourse relations concerned with highlighting prominent differences between the situations presented in utterance and anchor.
-- **CONTINGENCY**: discourse relations in which one of the situations described in utterance and anchor causally influences the other, i.e., it provides a reason, explanation or justification in the other situation.
-- **TEMPORAL**: the situations described in utterance and anchor are related temporally.
-- **EXPANSION**: other relations which expand the discourse and move its narrative or exposition forward.
-- **DIALOG**: discourse relations for turn-taking in dialog.
-- **EntRel**: utterance and anchor are not related by any of the other types of discourse relations, but indirectly by addressing the same entities 
+- (14) Small businesses say a recent trend is like a dream come true: more-affordable rates for employee-health insurance, initially at least. **But** then they wake up to a nightmare. (PDTB3, wsj 0518; Webber et al. 2019b)
 
-In addition to these, we use **NoRel** to mark utterances for which no anchor can be established.
+Here the, _but_ and _then_ encode independent discourse relations, the first indicating Concession, the second a temporal relation. However, _but then_ can also be analyzed as a single discourse marker, indicating Concession:
 
-### A.5.2 Annotation Principles
+- (15) To many, it was a ceremony more befitting a king than a rural judge seated in the isolated foothills of the southern Allegheny Mountains. **But then** Judge O’Kicki often behaved like a man who would be king – and, some say, an arrogant and abusive one. (PDTB3, wsj 0267; Webber et al. 2019b)
 
-- if the main predicate carries more than one explicit discourse marker, annotate the first explicit discourse marker
+## Annotation procedure and relation inventory
+
+The relation inventory is primarily drawn from the Penn Discourse Treebank, as interpreted by ISO SemAF. We follow PDTB in providing a hierarchical organization of discourse relations, over which annotation preferences are to be drawn:
+
+- **ADVERSATIVITY** "the connective indicates that a discourse relation is established between Arg1 and Arg2 in order to highlight prominent differences between the two situations. Semantically, the truth of both arguments is independent of the connective or the established relation." (PDTB2 COMPARISON, Prasad et al. 2007, p.32)
+- **CONTINGENCY** one of the situations described in utterance and anchor causally influences the other, i.e., it provides a reason, explanation or justification in the other situation (Prasad et al. 2007, p.28; Webber et al. 2019a, p.19)
+- **TEMPORAL** the situations described in the arguments are intended to be related temporally. (Prasad et al. 2007, p. 27; Webber et al. 2019a, p.18)
+- **EXPANSION** (other) "relations which expand the discourse and move its narrative or exposition forward." (Prasad et al. 2007, p.34)
+
+To these, we add two additional top-level categories:
+- **DIALOG** for SemAF dependence relations (added for feedback- and question-response annotations of dialog acts, also comprising PDTB3 Hypophora)
+- **EntRel** for entity relations not falling under any of the categories above. 
+
+### Annotation principles
+
+- if there is more than one explicit discourse marker, annotate the first explicit discourse marker
 - if there is no discourse marker or the discourse marker is ambiguous with respect to the discourse relation it encodes:
-
 	- annotate the most specific discourse relation possible, using the following preference hierachy
-
 		- ADVERSATIVITY > CONTINGENCY > TEMPORAL > EXPANSION > DIALOG > EntRel > NoRel
 
-The logic behind this ranking is that it describes a spectrum from semantically highly constrained (i.e., very specific) to semantically less constrained (i.e., more generic) relation types, and that annotators should annotate the most specific discourse relation applicable.
+The logic behind that ranking is that this hierarchy ranges from semantically highly constrained (i.e., very specific) to semantically less constrained (i.e., more generic) relation types:
 
 - adversative relations can involve a causal element (especially CONCESSION), so that these are considered more specific than causal
-- causal (CONTINGENCY) relations imply a temporal element (cause precedes or overlaps with result), so that these are more specific than temporal
-- as a means of driving the discourse forward, TEMPORAL relations are a subset of expansion relations
+- causal (contingency) relations imply a temporal element (cause precedes or overlaps with result), so that these are more specific than temporal
+- as a means of driving the discourse forward, temporal relations are a subset of expansion relations
 - In general, dialog acts apply to all utterances, but in the context of discourse annotations, they should be limited to cases in which no other discourse relations apply. So, their annotation priority is below that of Expansion. Nevertheless, if over signals require a functional dependence or feedback dependence annotation, these should be used.
 - we follow the view of PDTB that entity relations should be annotated only if no other relation applies. `EntRel` relations are a fallback to enable the annotation of discourse relations whose attachment is unclear, but still evident from coreference links.
 
+> Note: The PDTB2 top-level relations have not been directly mapped to SemAF roles, but rather, they constitute a higher level of organization *over* SemAF roles
+
+> Note: The top-level class ADVERSATIVITY has been introduced for PDTB2 COMPARISON, to avoid conflation with PDTB3 COMPARISON, because PDTB3 has revised the definition of COMPARISON to also include Similarity relations, which were previously grouped with EXPANSION. However, Webber et al. (2019a, p. 23-24) note that annotators had difficulties to distinguish Contrast and Concession, thus demonstrating the need for a common superclass. These difficulties do not extend, however, to SIMILARITY. As an alternative to the PDTB3 approach of extending the scope of COMPARISON, we would prefer to stay with the original definition, but use a more specific designation, say, ADVERSATIVITY.
+
 If no relation can be established with the last preceding utterance, explore the one before, etc. Note that, as a result, the anchor of an utterance does not have to be in the preceding utterance:
 
-- (16.1) *Kidder, Peabody & Co. is trying to struggle back.*
-- (16.2) [ANCHOR:] *Only a few months ago, the 124-year-old securities firm seemed to be on the verge of a meltdown, racked by internal squabbles and defections.* 
-- (16.3) *Its relationship with parent General Electric Co. had been frayed since a big Kidder insider-trading scandal two years ago.*
-- (16.4) *Chief executives and presidents had come and gone.*
-- (16.5) ***[Implicit Contrast = But]** Now, the firm says it’s at a turning point.* 
-- (16.6) "By the end of this year, 63-year-old Chairman Silas Cathcart – the former chairman of Illinois Tool Works who was derided as a ”tool-and-die man” when GE brought him in to clean up Kidder in 1987 – retires to his Lake Forest, Ill., home, possibly to build a shopping mall on some land he owns."" (Prasad et al. 2017, p. 10)
+- (7.1) Kidder, Peabody & Co. is trying to struggle back. 
+- (7.2) [ANCHOR:] Only a few months ago, the 124-year-old securities firm seemed to be on the verge of a meltdown, racked by internal squabbles and defections. 
+- (7.3) Its relationship with parent General Electric Co. had been frayed since a big Kidder insider-trading scandal two years ago. 
+- (7.4) Chief executives and presidents had come and gone.
+- (7.5) **[Implicit Contrast, But]** Now, the firm says it’s at a turning point. 
+- (7.6) By the end of this year, 63-year-old Chairman Silas Cathcart – the former chairman of Illinois Tool Works who was derided as a ”tool-and-die man” when GE brought him in to clean up Kidder in 1987 – retires to his Lake Forest, Ill., home, possibly to build a shopping mall on some land he owns. (Prasad et al. 2017, p. 10)
 
-In this example, the anchor of the implicit Contrast (16.5) is three sentences back (16.2).
+In this example, the anchor of the implicit Contrast (7.5) is three utterances back (7.2).
 
-- (17.1) [ANCHOR:] P1: *Is it safe to put my camera through here?*
-- (17.2) P1: *It’s a very expensive camera you know.* 
-- (17.3) **[Answer]** P2: *Yes, that’s perfectly safe.* (Bunt and Prasad 2016)
+- (w.1) [ANCHOR:] P1: Is it safe to put my camera through here? 
+- (w.2) P1: It’s a very expensive camera you know. 
+- (w.3) **[Dependent-act: ANSWER]** P2: Yes, that’s perfectly safe. (Bunt and Prasad 2016)
 
-For (17.3), no discourse relation, nor an entity relation can be established between with (17.2), so that (17.1) has to be considered (and can be confirmed) as anchor.
+Here, no discourse relation, nor an entity relation can be established between w.3 and w.2, so that w.1 is to be considered (and can be confirmed as) anchor.
 
-- (18.1) [ANCHOR:] A: *So I can be there at 10:30.*
-- (18.2) A: *I don’t know about Peterson.*
-- (18.3) **[Feedback]** B: *10:30, okay.*
-- (18.4) B: *We’ll start at 10:15 with the formalities.* (Bunt et al. 2012, p.433)
+- (9.1) [ANCHOR:] A: So I can be there at 10:30.
+- (9.2) A: I don’t know about Peterson.
+- (9.3) **[Dependent-act]** B: 10:30, okay.
+- (9.4) B: We’ll start at 10:15 with the formalities. (Bunt et al. 2012, p.433)
 
 If an utterance can take more than one sentence as anchor, annotate the most proximate anchor, only:
 
-- (19.1) B: *We’re gonna be selling this remote control for twenty five euro*
-- (19.2) B: *and we’re aiming to make fifty million euro*
-- (19.3) B: *so we’re gonna be selling this on an international scale*
-- (19.4) [ANCHOR:] B: *and we don’t want it to cost more than twelve fifty euros*
-- (19.5) **[Feedback]** D: *Okay*
-- (19.6) [ANCHOR:] B: *So fifty percent of the selling price*
-- (19.7) **[Feedback]** D: *Can we go over that again* (Bunt et al., 2012, p.432-433)
+- (10.1) B: We’re gonna be selling this remote control for twenty five euro
+- (10.2) B: and we’re aiming to make fifty million euro
+- (10.3) B: so we’re gonna be selling this on an international scale
+- (10.4) [ANCHOR:] B: and we don’t want it to cost more than twelve fifty euros
+- (10.5) **[Dependent-act (positive feedback)]** D: Okay
+- (10.6) [ANCHOR:] B: So fifty percent of the selling price
+- (10.7) **[Dependent-act (negative feedback)]** D: Can we go over that again (Bunt et al., 2012, p.432-433)
 
-According to Bunt et al. (2012), (19.5) actually refers back to (19.1) - (19.4), but we annotate only (19.4) as anchor. (19.7), then, takes scope over (19.1) - (19.4) _and_ (19.6), but we only annotate the relation to (19.6). 
+According to Bunt et al. (2012), (10.5) actually refers back to (10.1) - (10.4), but we annotate only (10.4) as anchor.
+(10.7), however, takes scope over (10.1) - (10.4) _and_ (10.6), but we only annotate the relation to (10.6). 
 
-### A.5.3 Overall hierarchy
+### Overall hierarchy
 
 The top level of the hierarchy follows PDTB2, the middle level represents SemAF relations, the third level represents SemAF attribute roles.
 
@@ -322,13 +356,17 @@ The top level of the hierarchy follows PDTB2, the middle level represents SemAF 
 - **EntRel** (SemAF Expansion/Entity description)
 	- coreference between a preceding utterance and the current one.
 
-## BIS HIER
+## Individual Relations
 
-## A.6 Individual Relations
+> Note: ISO 24617-8 has been heavily criticized for being poorly defined (e.g., by Żurowski et al. 2023). We provide operationalizable definitions by exploiting the correspondence with established RST, SDRT and PDTB definitions as given by proponents of ISO SemAF. These definitions are primarily based on PDTB 2.0 (Prasad et al. 2007).
+
+For asymmetric relations, we annotate the ISO SemAF role of the internal argument. For symmetric relations, we annotate the ISO SemAF relation at the second argument.
+
+In the following, we refer to the internal argument as utterance, to the external argument as (contextual) anchor. The order of anchor and utterance is flexible. For implicit discourse markers, the anchor should generally precede the utterance, explicit discourse can be used by the speaker to underline that the anchor follows the utterance.
 
 ### ADVERSATORY
 
-Discourse relations concerned with highlighting differences between the situations described in the utterance and the anchor (PDTB2 COMPARISON).
+Discourse relations concerned with highlighting differences between the situations described in the utterance and the anchor. (PDTB2 COMPARISON)
 
 #### Concession 
 
@@ -424,7 +462,7 @@ Note that is has been observed that annotators face difficulties to distinguish 
 
 #### Causal
 
-In a `CAUSAL` relation, the `Reason` provides a reason, explanation or justification for the `Result` to come about or occur, but not in a conditional relation. (cf. ISO 24617-8 CAUSE, Bunt & Prasad 2016; Webber et al. 2019a, p.19)
+In a `CAUSAL` relation, the `Reason` provides a reason, explanation or justification for the `Result` to come about or occur, but not in a conditional relation. (cf. ISO SemAF CAUSE, Bunt & Prasad 2016; Webber et al. 2019a, p.19)
 - subset of PDTB CONTINGENCY
 
 ##### Causal.reason (`Reason`)
@@ -498,7 +536,7 @@ A `CONDITIONAL` relation relates a hypothetical (unrealized) scenario with its (
 
 ##### Conditional.condition (`Condition`)
 
-The utterance represents a `Condition`, i.e., an unrealized situation which, when realized, would lead to the `Consequence` described in the anchor. If the utterance holds true, the anchor is caused to hold true at some instant in all possible futures. This can be a generic truth about the world (PDTB Condition/generic), a statement that describes a regular outcome every time the condition holds true (PDTB Condition/generic) or a single time that this is the case (PDTB Condition/general). Following ISO 24617-8, this is independent of whether the `Consequence` is believed to be true (PDTB Condition/factual present, Condition/factual past) or not (counterfactuals, PDTB Condition/unreal present, PDTB Condition/unreal past). If the condition is not true, the anchor should express what the consequences would had been if it had. Note that it is possible that the anchor can be true in the future independently of the utterance. (PDTB Condition, Prasad et al. 2007, p.30-31; Bunt & Prasad 2016, SemAF: Condition/Antecedent)
+The utterance represents a `Condition`, i.e., an unrealized situation which, when realized, would lead to the `Consequence` described in the anchor. If the utterance holds true, the anchor is caused to hold true at some instant in all possible futures. This can be a generic truth about the world (PDTB Condition/generic), a statement that describes a regular outcome every time the condition holds true (PDTB Condition/generic) or a single time that this is the case (PDTB Condition/general). Following ISO SemAF, this is independent of whether the `Consequence` is believed to be true (PDTB Condition/factual present, Condition/factual past) or not (counterfactuals, PDTB Condition/unreal present, PDTB Condition/unreal past). If the condition is not true, the anchor should express what the consequences would had been if it had. Note that it is possible that the anchor can be true in the future independently of the utterance. (PDTB Condition, Prasad et al. 2007, p.30-31; Bunt & Prasad 2016, SemAF: Condition/Antecedent)
 
 - (108') "Orange County is taking in at least $4 billion nationwide by boiler rooms every year", Mr. McClelland says. "**Because** I've heard that there is $40 billion in total, and that's 10%." (reformulated after PDTB2, 1568, cf. 108)
 
@@ -626,7 +664,7 @@ The utterance describes a situation that enables the goal (purpose) described in
 
 #### Disjunction (`Disjunction`)
 
-`DISJUNCTION` is a symmetric relation in which the utterance and the anchor denote alternative situations (Bunt & Prasad 2016; Prasad et al. 2007, p.36). Following ISO 24617-8, we do not distinguish as to whether both situations can hold simultaneously (logical or) or they are mutually exclusive (exclusive or). A diagnostic discourse marker is _or_:
+`DISJUNCTION` is a symmetric relation in which the utterance and the anchor denote alternative situations (Bunt & Prasad 2016; Prasad et al. 2007, p.36). Following ISO SemAF, we do not distinguish as to whether both situations can hold simultaneously (logical or) or they are mutually exclusive (exclusive or). A diagnostic discourse marker is _or_:
 
 - (130) Today’s Fidelity ad goes a step further, encouraging investors to stay in the market **or** even to plunge in with Fidelity. (both alternatives [can] hold, PDTB2 conjunctive, 2201)
 
@@ -843,7 +881,7 @@ In comparison with the disfavoured alternative presented in the anchor, the situ
 
 - (8) “They continue to pay their bills and will do so,” says Ms. Sanger. “We’re confident we’ll be paying our bills for spring merchandise **as well**.” (PDTB3 Conjunction, wsj 1002; Webber et al. 2019b)
 
-> **Note**: This definition recalls aspects of the definition of Contrast, so SIMILARITY can be seen as a subclass of PDTB COMPARISON. In PDTB3, Similarity was indeed introduced as a subclass of COMPARISON (Webber et al. 2019a, p.18). The PDTB2 mapping by Bunt and Prasad (2016), however, linked it with PDTB Conjunction and thus puts it under PDTB EXPANSION. We follow this approach here. Note that Webber et al. (2019b) point out that splitting PDTB2 EXPANSION.Conjunction into PDTB3 EXPANSION.Conjunction and PDTB3 COMPARISON.Similarity created novel ambiguities. In line with ISO 24617-8, these are not distinguished here.
+> **Note**: This definition recalls aspects of the definition of Contrast, so SIMILARITY can be seen as a subclass of PDTB COMPARISON. In PDTB3, Similarity was indeed introduced as a subclass of COMPARISON (Webber et al. 2019a, p.18). The PDTB2 mapping by Bunt and Prasad (2016), however, linked it with PDTB Conjunction and thus puts it under PDTB EXPANSION. We follow this approach here. Note that Webber et al. (2019b) point out that splitting PDTB2 EXPANSION.Conjunction into PDTB3 EXPANSION.Conjunction and PDTB3 COMPARISON.Similarity created novel ambiguities. In line with ISO SemAF, these are not distinguished here.
 
 > **Note**: PDTB2 Conjunction: Bunt & Prasad (2016) provide no other PDTB counterpart but PDTB2 conjunction. But this seems to be incorrect as it has a much looser definition closer to SDRT Narration: The situation described in the utterance provides additional, discourse new, information that is related to the situation described in the anchor, but is not related to the anchor in any other, more specific discourse relation. The semantics are thus no more than that of a logical ∧ (and). Diagnostic connectives are _also_, _in addition_, _additionally_, _further_, etc. ("conjunction", Prasad et al. 2007, p.37)
 
@@ -956,7 +994,7 @@ In AURIS, functional dependence relations involve the explicit elicitation of th
 
 The ancedent act of a functional dependence relation always serves as an anchor and precedes the utterance, so it is not to be annotated.
 
-> Note in ISO 24617-8, the utterance occupies the Dependent-act role, the anchor the Antecedent-act
+> Note in ISO SemAF, the utterance occupies the Dependent-act role, the anchor the Antecedent-act
 
 Following ISO (2010; cf. Bunt et al. 2018, 2019), the following communicative functions are relevant and should be annotated in AURIS as sub-types of functional dependence:
 - `Answer`
@@ -1077,11 +1115,11 @@ In an entity relation, the utterance provides further description about some ent
 
 > Note: Our naming follows PDTB2 and PDTB3. According to Bunt and Prasad (2016), entity relations are equivalent to the SemAF relation "Expansion", but here, we refrained from this name because it would create an unfortunate overlap with the top-level class `EXPANSION` which does *not* overlap with PDTB entity relations.
 
-> Note: Żurowski et al. 2023 (p.487) report the SemAF relation "Expansion" with roles "Narrative" and "Expander". This differs from scientificially published version of ISO 24617-8. They give the following example
+> Note: Żurowski et al. 2023 (p.487) report the SemAF relation "Expansion" with roles "Narrative" and "Expander". This differs from scientificially published version of ISO SemAF. They give the following example
 
 - (x) She insisted that I go to college. **[EntRel]** During the occupation, she put herself in great danger to save me ...	(Żurowski et al. 2023, p.487, translated from Polish)
 
-> Note: ISO 24617-8 distinguishes two argument roles here, "foreground" and "entity description". As the foreground is always the anchor and the entity description is always the utterance, all AURIS annotations for entity relations are actually instances of SemAF entity description. Foreground is never explicitly annotated.
+> Note: ISO SemAF distinguishes two argument roles here, "foreground" and "entity description". As the foreground is always the anchor and the entity description is always the utterance, all AURIS annotations for entity relations are actually instances of SemAF entity description. Foreground is never explicitly annotated.
 
 > Note: For cross-paragraph link annotation, Prasad et al. (2017) distinguish "semantic" entity relations (where the narrative is expanded forward) and "other" entity relations (were only coreference establishes a link). However, this division had been abandoned for PDTB3.
 
@@ -1122,7 +1160,7 @@ If an entity relation holds between the utterance and several candidate anchors 
 
 	- (22) **On the one hand**, Mr. Front says, it would be misguided to sell into “a classic panic.” 
 
-- Apparent cases of multiple utterance. In the following example, utterances 4.-7. constitute an elaboration of 3. However, we adopt the SDRT view on such constellations, that is, if 4 elaborates 3 and 5 elaborates 3, a narration relation hold between 4 and 5. Because we annotate the closest anchor for each utterance, only the narration is to be annotated, but not the elaboration. (Note that these are SDRT relations, but the argumentation holds for ISO 24617-8 labels, as well.)
+- Apparent cases of multiple utterance. In the following example, utterances 4.-7. constitute an elaboration of 3. However, we adopt the SDRT view on such constellations, that is, if 4 elaborates 3 and 5 elaborates 3, a narration relation hold between 4 and 5. Because we annotate the closest anchor for each utterance, only the narration is to be annotated, but not the elaboration. (Note that these are SDRT relations, but the argumentation holds for ISO SemAF labels, as well.)
 
 	(83) 
 		1. Legal controversies in America have a way of assuming a symbolic significance far exceeding what is involved in the particular case. 
@@ -1168,24 +1206,6 @@ Also, when disambiguating explicit or inserting implicit discourse markers, cons
 ### German
 
 
-## Sources / Relations with other schemes
-
-ISO 24617-8 has been heavily criticized for being poorly defined (e.g., by Żurowski et al. 2023). We provide operationalizable definitions by exploiting the correspondence with established RST, SDRT and PDTB definitions as given by proponents of ISO 24617-8. These definitions are primarily based on PDTB 2.0 (Prasad et al. 2007).
-
-The AURIS Discourse schema is grounded in the role inventory of ISO 24617-8. Note that we do not directly quote from the ISO-24617-8 norm, because they do not provide the necessary level of detailed description, and they are available only upon payment from https://www.iso.org/obp/ui/#iso:std:iso:24617:-8:ed-1:v1:en. Instead, the primary basis for designing these guidelines is the Penn Discourse Treebank (PDTB), and the ISO 24617-8 mapping provided by Bunt and Prasad (2016). Unlike PDTB, AURIS does not annotate minimal spans, but complete sentences. The AURIS terms *utterance* and *anchor* correspond to `ARG2` (internal argument of a discourse marker) and `ARG1` (external argument) in the terminology of PDTB2. (Note that these terms have been partially re-defined for PDTB3, the exact correspondence is with the original PDTB2 definitions.)
-
-The guidelines for discourse relation annotation are primarily based on those of the Penn Discourse Treebank (PDTB), using the ISO 24617-8 relation inventory as defined by Bunt and Prasad (2016). The first level is based on PDTB2 (not PDTB3), the second level is represented by ISO 24617-8 relations (discourse relations that are symmetric or underspecified in their directionality), the third level by ISO 24617-8 roles (asymmetric discourse relations.)
-
-The top-level organization of discourse relations corresponds to PDTB2: CONTINGENCY (Prasad et al. 2007, p.28; Webber et al. 2019a, p.19), TEMPORAL (Prasad et al. 2007, p. 27; Webber et al. 2019a, p.18), EXPANSION (Prasad et al. 2007, p.34). The definition for ADVERSATIVITY is based on the PDTB2 definition of COMPARISON (Prasad et al. 2007, p.32), which (for PDTB2) included Contrast and Concession. We decided to rename it to highlight that the PDTB3 relation Similarity continues to be grouped with EXPANSION (as in PDTB2), not with Contrast and Concession (as in PDTB3). This reflects the the distribution of discourse markers, as those associated with Similarity overlap with those of Conjunction (in EXPANSION), whereas they do not overlap with the common pool of adversative discourse markers (esp., *but*). As for PDTB EntRel relations, these have unfortunately been named EXPANSION in ISO 24617-8, but we follow PDTB in considering them a separate top-level group. DIALOG was added for ISO 24617-8 dialog annotations: PDTB annotations primarily addressed monologuous data.
-
-> Note: The top-level class ADVERSATIVITY has been introduced for PDTB2 COMPARISON, to avoid conflation with PDTB3 COMPARISON, because PDTB3 has revised the definition of COMPARISON to also include Similarity relations, which were previously grouped with EXPANSION. However, Webber et al. (2019a, p. 23-24) note that annotators had difficulties to distinguish Contrast and Concession, thus demonstrating the need for a common superclass. These difficulties do not extend, however, to SIMILARITY. As an alternative to the PDTB3 approach of extending the scope of COMPARISON, we would prefer to stay with the original definition, but use a more specific designation, say, ADVERSATIVITY.
-
-For asymmetric relations, we annotate the ISO 24617-8 role of the internal argument. For symmetric relations, we annotate the ISO 24617-8 relation at the second argument.
-
-In the following, we refer to the internal argument as utterance, to the external argument as (contextual) anchor. 
-
-
-
 ## References
 
 - Harry Bunt, Jan Alexandersson, Jae-Woong Choe, Alex Chengyu Fang, Koiti Hasida, Volha Petukhova, Andrei Popescu-Belis and David Traum (2017), ISO 24617-2: A semantically-based standard for dialogue annotation. LREC 2012.
@@ -1218,6 +1238,6 @@ TED-MDB guidelines?
 
 NB: for Dialog data, cf. https://dialogbank.lsv.uni-saarland.de/
 
-Note that PDTB3 changed the definition of its arguments and shifted from a syntactically based identification of Arg1 (external argument) and Arg2 (internal argument) to a positional identification of Arg1 as first and Arg2 as second argument (except for subordinating conjunctions, where the old definition holds). As ISO 24617-8 was defined in relation to PDTB2, not PDTB3, our definitions are based on the older definitions. Subsequent updates to the definition of PDTB2 roles that pertain to this change in definitions have not been adopted here.
+Note that PDTB3 changed the definition of its arguments and shifted from a syntactically based identification of Arg1 (external argument) and Arg2 (internal argument) to a positional identification of Arg1 as first and Arg2 as second argument (except for subordinating conjunctions, where the old definition holds). As ISO SemAF was defined in relation to PDTB2, not PDTB3, our definitions are based on the older definitions. Subsequent updates to the definition of PDTB2 roles that pertain to this change in definitions have not been adopted here.
 
 TODO: we could add attribution for cases in which sentence splitting separates the attribution phrase from the reported statement. In our attribution relation, the utterance is the attribution statement, attribution triggered by either the verb or an orthographic mark such as a colon (_:_)
