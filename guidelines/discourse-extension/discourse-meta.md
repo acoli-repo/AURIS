@@ -41,3 +41,76 @@ Beyond that, the AURIS annotation scheme is based on ISO SemAF, because that cla
 
 
 Note that unlike any other scheme we are aware of, we formulate the task of shallow discourse parsing from an utterance-centric position. By comparison, ISO SemAF and PDTB are formulated from a marker-centric perspective. The advantage is that this approach allows to more easily compare with RST and SDRT annotations, because these typically lack explicit annotations of discourse markers.
+
+
+
+
+## Sources / Relations with other schemes
+
+ISO 24617-8 has been heavily criticized for being poorly defined (e.g., by Żurowski et al. 2023). We provide operationalizable definitions by exploiting the correspondence with established RST, SDRT and PDTB definitions as given by proponents of ISO 24617-8. These definitions are primarily based on PDTB 2.0 (Prasad et al. 2007).
+
+The AURIS Discourse schema is grounded in the role inventory of ISO 24617-8. Note that we do not directly quote from the ISO-24617-8 norm, because they do not provide the necessary level of detailed description, and they are available only upon payment from https://www.iso.org/obp/ui/#iso:std:iso:24617:-8:ed-1:v1:en. Instead, the primary basis for designing these guidelines is the Penn Discourse Treebank (PDTB), and the ISO 24617-8 mapping provided by Bunt and Prasad (2016). Unlike PDTB, AURIS does not annotate minimal spans, but complete sentences. The AURIS terms *utterance* and *anchor* correspond to `ARG2` (internal argument of a discourse marker) and `ARG1` (external argument) in the terminology of PDTB2. (Note that these terms have been partially re-defined for PDTB3, the exact correspondence is with the original PDTB2 definitions.)
+
+The guidelines for discourse relation annotation are primarily based on those of the Penn Discourse Treebank (PDTB), using the ISO 24617-8 relation inventory as defined by Bunt and Prasad (2016). The first level is based on PDTB2 (not PDTB3), the second level is represented by ISO 24617-8 relations (discourse relations that are symmetric or underspecified in their directionality), the third level by ISO 24617-8 roles (asymmetric discourse relations.)
+
+The top-level organization of discourse relations corresponds to PDTB2: CONTINGENCY (Prasad et al. 2007, p.28; Webber et al. 2019a, p.19), TEMPORAL (Prasad et al. 2007, p. 27; Webber et al. 2019a, p.18), EXPANSION (Prasad et al. 2007, p.34). The definition for ADVERSATIVITY is based on the PDTB2 definition of COMPARISON (Prasad et al. 2007, p.32), which (for PDTB2) included Contrast and Concession. We decided to rename it to highlight that the PDTB3 relation Similarity continues to be grouped with EXPANSION (as in PDTB2), not with Contrast and Concession (as in PDTB3). This reflects the the distribution of discourse markers, as those associated with Similarity overlap with those of Conjunction (in EXPANSION), whereas they do not overlap with the common pool of adversative discourse markers (esp., *but*). As for PDTB EntRel relations, these have unfortunately been named EXPANSION in ISO 24617-8, but we follow PDTB in considering them a separate top-level group. DIALOG was added for ISO 24617-8 dialog annotations: PDTB annotations primarily addressed monologuous data.
+
+> Note: The top-level class ADVERSATIVITY has been introduced for PDTB2 COMPARISON, to avoid conflation with PDTB3 COMPARISON, because PDTB3 has revised the definition of COMPARISON to also include Similarity relations, which were previously grouped with EXPANSION. However, Webber et al. (2019a, p. 23-24) note that annotators had difficulties to distinguish Contrast and Concession, thus demonstrating the need for a common superclass. These difficulties do not extend, however, to SIMILARITY. As an alternative to the PDTB3 approach of extending the scope of COMPARISON, we would prefer to stay with the original definition, but use a more specific designation, say, ADVERSATIVITY.
+
+For asymmetric relations, we annotate the ISO 24617-8 role of the internal argument. For symmetric relations, we annotate the ISO 24617-8 relation at the second argument.
+
+In the following, we refer to the internal argument as utterance, to the external argument as (contextual) anchor. 
+
+Prasad and Bunt's (2016) definition of `Similarity` recalls aspects of the definition of Contrast, so SIMILARITY can be seen as a subclass of PDTB COMPARISON. In PDTB3, Similarity was indeed introduced as a subclass of COMPARISON (Webber et al. 2019a, p.18). The PDTB2 mapping by Bunt and Prasad (2016), however, linked it with PDTB Conjunction and thus puts it under PDTB EXPANSION. We follow this approach here. Note that Webber et al. (2019b) point out that splitting PDTB2 EXPANSION.Conjunction into PDTB3 EXPANSION.Conjunction and PDTB3 COMPARISON.Similarity created novel ambiguities. In line with ISO 24617-8, these are not distinguished here.
+
+> Notes:
+> - `Hypophora` is missing from both PDTB2 and ISO SemAF, added here with PDTB3 as top-level category "Hypophora": "In HYPOPHORA relations, one argument (commonly Arg1) expresses a question and the other argument (commonly Arg2) provides an answer.""
+
+Functional dependence: Note in ISO 24617-8, the utterance occupies the Dependent-act role, the anchor the Antecedent-act. The ancedent act of a functional dependence relation always serves as an anchor and precedes the utterance, so it is not to be annotated.
+
+For turn-taking relations, the scheme has been extended with a subset of ISO/DIS 24617-2 communicative functions. This is, however, limited to top-level categories, at the moment.
+
+> Note: For Answer, the sDialog act of utterance corresponds to ISO/DIS 24617-2 "Answer", dialog act of anchor corresponds to ISO/DIS 24617-2 "Question".
+
+In offer relations, The dialog act of the utterance corresponds to ISO/DIS 24617-2 "Offer", dialog act of anchor corresponds to ISO/DIS 24617-2 "Request".
+
+> Note: for `address-suggest`, the ISO/DIS 24617-2 dialog act of the utterance is "Address Suggest", the dialog act of the anchor is "Suggest".
+
+> For the AURIS `Feedback` relation, the utterance corresponds to the SemAF role "Feedback act", the anchor the SemAF roile "Feedback scope".
+
+
+Expansion/Expander
+Expansion/Entity Description
+
+On EntRel:
+
+	- Note: Our naming follows PDTB2 and PDTB3. According to Bunt and Prasad (2016), entity relations are equivalent to the SemAF relation "Expansion", but here, we refrained from this name because it would create an unfortunate overlap with the top-level class `EXPANSION` which does *not* overlap with PDTB entity relations.
+
+	- Note: Żurowski et al. 2023 (p.487) report the SemAF relation "Expansion" with roles "Narrative" and "Expander". This differs from scientificially published version of ISO 24617-8. They give the following example
+
+	- Note: ISO 24617-8 distinguishes two argument roles here, "foreground" and "entity description". As the foreground is always the anchor and the entity description is always the utterance, all AURIS annotations for entity relations are actually instances of SemAF entity description. Foreground is never explicitly annotated.
+
+	- Note: For cross-paragraph link annotation, Prasad et al. (2017) distinguish "semantic" entity relations (where the narrative is expanded forward) and "other" entity relations (were only coreference establishes a link). However, this division had been abandoned for PDTB3.
+
+
+
+## Possible Addenda
+
+TED-MDB guidelines? (no)
+
+NB: for Dialog data, cf. https://dialogbank.lsv.uni-saarland.de/
+
+Note that PDTB3 changed the definition of its arguments and shifted from a syntactically based identification of Arg1 (external argument) and Arg2 (internal argument) to a positional identification of Arg1 as first and Arg2 as second argument (except for subordinating conjunctions, where the old definition holds). As ISO 24617-8 was defined in relation to PDTB2, not PDTB3, our definitions are based on the older definitions. Subsequent updates to the definition of PDTB2 roles that pertain to this change in definitions have not been adopted here.
+
+TODO: we could add attribution for cases in which sentence splitting separates the attribution phrase from the reported statement. In our attribution relation, the utterance is the attribution statement, attribution triggered by either the verb or an orthographic mark such as a colon (_:_)
+
+## Appendix: List of diagnostic discourse markers
+
+You can use the following list to confirm whether a discourse relation holds. If you can use these discourse markers in place of the explicit discourse marker or the alternative lexicalization at hand, or insert them into a sentence without implicit discourse marker, take this as an indicator that the respective discourse relation holds.
+
+Also, when disambiguating explicit or inserting implicit discourse markers, consult this list from top to bottom: If a discourse marker holds, do not consider other candidate markers further below. We currently provide lists for English and German. Discourse marker lists for other languages can be provided upon demand.
+
+
+
+- English and German diagnostic discourse markers
+
