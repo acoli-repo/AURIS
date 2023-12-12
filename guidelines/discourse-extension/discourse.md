@@ -334,11 +334,9 @@ The top level of the hierarchy follows PDTB2, the middle level represents SemAF 
 | - `Feedback`                       | (turn-taking not initiated by the addressee)                   |
 | **EntRel**                         | (no relation other than coreference between utterance and anchor) |
 
-> **TODO**: add diagnostic markers, assert annotation preference, check preferential order
-
 ## A.6 Individual Relations
 
-When annotating discourse relations, choose the most specific relation possible.
+When annotating discourse relations, choose the most specific relation possible. 
 
 ### `ADVERSATORY`
 
@@ -820,8 +818,6 @@ In an entity relation, the utterance provides further description about some ent
 If an entity relation holds between the utterance and several candidate anchors (as in ex. 56.2), annotate the relation to the closest anchor candidate:
 
 - (56.2) HOLIDAY ADS: Seagram will run two interactive ads in December magazines promoting its Chivas Regal and Crown Royal brands. The Chivas ad illustrates – via a series of pullouts – the wild reactions from the pool man, gardener and others if not given Chivas for Christmas. The three-page Crown Royal ad features a black-and-white shot of a boring holiday party – and a set of colorful stickers with which readers can dress it up. **[EntRel]** Both ads were designed by Omnicom’s DDB Needham agency. (PDTB2, 0989)
-
-BIS HIER
 
 ## A.7 Troubleshooting
 

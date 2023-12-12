@@ -52,7 +52,7 @@ The template file and the target file contain the following columns:
 
 | Fig. 1. Template file                              |
 | -------------------------------------------------- |
-| [!Screenshot from template file](img/template.png) |
+| ![Screenshot from template file](img/template.png) |
 
 Open your new file `xyz.xlsx` in your preferred spreadsheet software. You can use any tool you like, but it **must** support reading and writing MS Excel 365 files (`*.xlsx`) and they **should** support Excel formulas. Possible tools include MS Office tools, LibreOffice/OpenOffice, Google Spreadsheet (in Google Docs), etc. If you have difficulties using or getting these tools, please get in touch with your instructor.
 
@@ -72,7 +72,7 @@ After copying the pre-annotated data into the target file, you need to copy the 
 
 | Fig. 2. Target file                            |
 | ---------------------------------------------- |
-| [!Screenshot from target file](img/target.png) |
+| ![Screenshot from target file](img/target.png) |
 
 ## 2.4 Annotation Procedure
 
