@@ -43,9 +43,13 @@ A referent is IN FOCUS<sup>[1](lit.md#is1)</sup> if it meets at least one of the
 2.  It is part of the interpretation of a previous part of the same
     sentence.
 
-    > (3) You can wear my scarf if you can find <ins>it.</ins>
+    > (3.a) You can wear my scarf if you can find <ins>it.</ins>
 
-    > (4) If you stand on this chair, <ins>the chair</ins> will break.
+    > (3.b) If you stand on this chair, <ins>the chair</ins> will break.
+
+    Note that this also includes group references. In the following example, *Murillo* (Lopez' "master") is `IN FOCUS` because of a (recurring) group reference to him and Lopez appears earlier in the sentence:
+
+    > (4)  I had excited the suspicion of Lopez<sub>l</sub>, the secretary. ... He<sub>l</sub> and his master<sub>m</sub> dragged me to my room ... They<sub>l+m</sub> had gagged me, and Murillo<sub>m</sub> twisted my arm round until I gave him the address.
 
 3.  It is the interpretation of the syntactic focus of the immediately
     preceding clause (i.e., postcopular position of a cleft or
@@ -193,8 +197,8 @@ The annotation of group references is tricky if they involve referents with diff
 
 - If a group was previously mentioned (as a group, i.e., `REF=OLD` in the sense of Sect. 4.5), information status is defined with reference to this last mention as a group. It does not matter whether individual members of the group have been mentioned since then.
 - If a group is referred to for the first time (i.e., `REF=GROUP` in the sense of Sect. 4.5), assign it the information status of the lowest-ranking element, e.g., if it contains a `FAMILIAR` referent along with an `IN FOCUS` referent, annotate `FAMILIAR`, not `IN FOCUS`.
-- If the last mention of a group that includes the current referent 
 
-If a referent `X` is subsequently referred to with a group reference (either with initial group reference/`REF=GROUP` or recurring group reference/`REF=OLD`), its information status is defined as the highest status the referent can be assigned on grounds of its direct mention (direct antecedent) *or* a mention of one of the groups that contain it.
+If a referent `X` is subsequently referred to with a group reference (either with initial group reference/`REF=GROUP` or recurring group reference/`REF=OLD`), its information status is defined as the highest status the referent can be assigned on grounds of the direct mention of a direct antecedent *or* a mention of a groups that contain it.
 
-> Note that this refers only to groups for which the text gives an *explicit* and *exhaustive* definition. That is, a general reference to a class that includes the referent, but may also include other entities not mentioned in the text, does not count as a group reference.
+> Note that this applies only to groups for which the text gives an *explicit* and *exhaustive* definition. That is, a general reference to a class that includes the referent, but may also include other entities not mentioned in the text, does not count as a group reference. 
+
