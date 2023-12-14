@@ -334,21 +334,17 @@ The top level of the hierarchy follows PDTB2, the middle level represents SemAF 
 | - `Feedback`                       | (turn-taking not initiated by the addressee)                   |
 | **EntRel**                         | (no relation other than coreference between utterance and anchor) |
 
-## A.6 Individual Relations
-
-When annotating discourse relations, choose the most specific relation possible. 
-
-### `ADVERSATORY`
+## A.6 Discourse Relations: `ADVERSATIVITY`
 
 Discourse relations concerned with highlighting differences between the situations described in the utterance and the anchor.
 
-#### `Concession`
+### A.6.1 `Concession`
 
 `Concession` is used when an causal relation expected from one of the arguments is cancelled or denied by the situation described in the other. Concession is related to CONTRAST in that it highlights a difference between utterance and anchor. Semantically, the connective indicates that one of the sentences describes a situation A which causes C, while the other asserts (or implies) ¬C. Alternatively, one sentences denotes a fact that triggers a set of potential consequences, while the other denies one or more of them (cf. Bunt & Prasad 2016, Prasad et al. 2007, p.32,34; Webber et al. 2019a, p.24). Diagnostic discourse markers (either at the `expectation-raiser` or the `contra-expectation` argument) are _although_ or _even though_, a diagnostic discourse marker at `contra-expectation` is _however_. Note that _but_, taken as diagnostic discourse marker of `Contrast` is usually also applicable to `Concession`. Annotate `Concession` for cases in which `however` can be used in place of `but`.
 
 > Note that concessive connectives can also be used in a rhetorical or pragmatic way where their semantic conditions do not hold. Such cases of "apparent Concession" are included here, as well, but MUST be documented in comments. This includes cases in which the speech act associated with the `expectation-raiser` is cancelled or denied by the `contra-expectation` or its speech act. So far, this has been observed for `contra-expectation`, only (Webber et al., 2019, p.24, PDTB3 Comparison.Concession+SpeechAct).
 
-##### `expectation-raiser`
+#### `expectation-raiser`
 
 The utterance creates an expectation (a situation that is expected to cause the situation described in the other argument) that is cancelled or denied by the anchor. The main diagnostic discourse marker is _although_ (PDTB "expectation", Prasad et al. 2007, p.34, Webber et al. 2019a, p.23-24, Bunt & Prasad 2016). 
 
@@ -358,7 +354,7 @@ The utterance creates an expectation (a situation that is expected to cause the 
 	- Soord: *The first and biggest challenge was getting here, because the US doesn't make it easy for musicians to get in. ... Our sound engineer didn't get his visa until the day before we left.*
 	- Harrison: *And that was **even though** we applied six months before.* (https://www.innerviews.org/inner/the-pineapple-thief, accessed 2023-11-23)
 
-##### `contra-expectation`
+#### `contra-expectation`
 
 The utterance cancels or denies a situation that is expected after processing the anchor (cf. Prasad et al. 2007, p.34). A diagnostic discourse marker _however_. 
 
@@ -368,13 +364,13 @@ The utterance cancels or denies a situation that is expected after processing th
 
 `Contra-expectation` also applies to cases in which concessive connectives are used in a rhetorical or pragmatic way where their semantic conditions do not hold (cf. Prasad et al. 2007, p. 27). Such cases of "apparent Concession" MUST be documented in comments. 
 
-##### `concession`
+#### `concession`
 
 Annotate utterances whose discourse relation is ambiguous between “expectation” and “contra-expectation”, or where the context or the annotators’ world knowledge is not sufficient to specify the subtype as `concession` (Prasad et al. 2007, p.34).
 
 - (22) Besides, to a large extent, Mr. Jones may already be getting what he wants out of the team, **even though** it keeps losing. (PDTB2, 1411)
 
-### `Contrast`
+### A.6.2 `Contrast`
 
 In `Contrast`, the utterance and the anchor share a predicate or property and a difference is highlighted with respect to the values assigned to the shared property. The truth of both arguments is independent of the connective or the established relation, i.e., neither argument describes a situation that is asserted on the basis of the other one, and thus, there is no directionality in the interpretation of the arguments (Bunt & Prasad 2016, Prasad et al. 2007, p.32). This is the main difference in comparison with the otherwise similar `Concession` relation. A diagnostic discourse marker for contrast is _but_.
 
@@ -394,13 +390,13 @@ Note that explicit discourse markers can also be used to underline a "pragmatic"
 
 > If annotators face difficulties to distinguish `Concession` and `Contrast`, check by paraphrasing with _although_ or _however_, whether a causal relation that is expected on the basis of one argument is denied by the other. If this is possible, annotate `Concession`, if not, annotate `Contrast`.
 
-### CONTINGENCY
+## A.7 Discourse Relations: `CONTINGENCY`
 
-#### Causal
+### A.7.1 `Causal`
 
 In a `Causal` relation, one argument (`reason`) provides a reason, explanation or justification for the situation (`result`) described in other to come about or occur (cf. ISO 24617-8 CAUSE, Bunt & Prasad 2016; Webber et al. 2019a, p.19).
 
-##### `reason`
+#### `reason`
 
 The utterance prodives the reason (cause, explanation or justification) for the situation described in the anchor, as typically expressed with the connective _because_ (cf. PDTB2 Reason, Prasad et al. 2007, p.26, 29; Webber et al. 2019a, p.19).
 
@@ -417,7 +413,7 @@ The `reason` relation also includes epistemic, rhetorical or pragmatic uses of c
 - (24.6) Mrs Yeargin is lying. **[Implicit = because]** They found students in an advanced class a year earlier who said she gave them similar help. (PDTB2, 0044)
 - (24.7) And until last Friday, it seemed those efforts were starting to pay off. **[Implicit=because]** “Some of those folks were coming back,” says Leslie Quick Jr., chairman, of discount brokers Quick & Reilly Group Inc. (PDTB3, wsj 1866)
 
-##### `result`
+#### `result`
 
 The situation described in the utterance is interpreted as the result (effect) of the situation presented in the anchor. A diagnostic discourse marker is _as a result_ (cf. PDTB Result, Prasad et al. 2007, p.26,29; Webber et al. 2019a, p.20).
 
@@ -435,15 +431,15 @@ Likewise, `result` is to be used when the anchor is the reason for the speaker t
 
 > Note: PDTB3 introduced Cause/negative-result for intrasentential relations, specifically for the English construction _too X to Y_ (Webber et al. 2019a, p.18,20). This does not seem to be relevant for intersentential relations. 
 
-##### `cause`
+#### `cause`
 
 For causal relations between utterance and anchor, annotators should normally apply `reason` or `result`. Only if the annotators could not uniquely specify the directionality, they should use `cause`, instead.
 
-#### `Conditional` 
+### A.7.2 `Conditional` 
 
 A `Conditional` relation relates a hypothetical (unrealized) scenario with its (possible) consequence. The consequence is a situation that holds when the condition is true. Unlike `Causal` relations, the truth value of the arguments of a `Conditional` relation cannot be determined independently of the connective. (PDTB Condition, Prasad et al. 2007, p.26,29; SemAF CONDITION).
 
-##### `condition`
+#### `condition`
 
 The utterance represents a `condition`, an unrealized situation which, when realized, would lead to the consequence described in the anchor. If the utterance holds true, the anchor is caused to hold true at some instant in all possible futures. This can be a generic truth about the world, a statement that describes a regular outcome every time the condition holds true, or a single time that this is the case. Following ISO 24617-8, this is independent of whether the `consequence` is believed to be true (factuals) or not (counterfactuals). If the condition is not true, the anchor should express what the consequences would had been if it had (Prasad et al. 2007, p.30-31; Bunt & Prasad 2016). A diagnostic discourse marker is _if_.
 
@@ -459,19 +455,19 @@ The utterance represents a `condition`, an unrealized situation which, when real
 
 	- (26.3) *In 1966, on route to a re-election rout of Democrat Frank O’Connor, GOP Gov. Nelson Rockefeller of New York appeared in person saying, “**If** you want to keep the crime rates high, O’Connor is your man.”* (PDTB2, 0041)
 
-##### `consequence`
+#### `consequence`
 
 The anchor represents a condition, i.e., an unrealized situation which, when realized, would lead to the `consequence` described in the utterance. As for the logical relation between condition and consequence, the same conditions hold as described above (cf. Bunt & Prasad 2016). A diagnostic paraphrase is _under this condition_, possible discourse markers are _then_ and _so_ (which can also be used for temporal and causal relations).
 
 - (27) *“I’ve heard that there is $40 billion taken in nationwide by boiler rooms every year,” Mr. McClelland says. “**If that’s true [So]**, Orange County has to be at least 10% of that.”* (PDTB2, 1568)
 
-#### `Negative Condition`
+### A.7.3 `Negative Condition`
 
 One sentence represents an unrealized situation (negated condition)  which, if it does **not** occur, would lead to the consequent described in the other (Bunt & Prasad 2016; Webber et al. 2019a, p.23).
 
 > **Note**: It is possible that this is not an intersentential relation. In PDTB2, _unless_ would normally be annotated as EXPANSION/Alternative/disjunctive, but Bunt and Prasad (2016) explicitly link it with PDTB2 Condition, instead. PDTB3 introduced CONTINGENCY/Negative Condition for intrasentential relations (Webber et al. 2019a, p.18).
 
-##### `neg_condition`
+#### `neg_condition`
 
 The utterance describes an unrealized situation which, when not realized, leads to the `Consequence` described in the anchor. A diagnostic discourse marker is _unless_.
 
@@ -483,52 +479,52 @@ This also includes episthemic uses of conditional discourse markers, esp., when 
 
 - (28.3) * **Unless** you’re on a diet, there are some cookies in the cupboard.* (Webber et al. 2019a, p.23)
 
-##### `neg_consequence`
+#### `neg_consequence`
 
 The anchor describes an unrealized situation which, when not realized, leads to the negative consequence described by the utterance. A diagnostic discourse marker is _otherwise_.
 
 - (29) *This will prevent a slide in industrial production, which will **otherwise** cause new panic buying.* (PDTB3, wsj 1646, INTRASENTENTIAL)
 
-#### `Purpose`
+### A.7.4 `Purpose`
 
 In a `Purpose` relation, the `goal` enables the `enablement`, i.e., one sentence presents an action that an AGENT undertakes with the purpose of the GOAL conveyed by the other sentence being achieved. Usually (but not always), the agent undertaking the action is the same agent aiming to achieve the goal (Bunt & Prasad 2016; Webber et al. 2019a, p.21). This relation is similar to `Causal` and `Conditional` relations, the main difference is that the former are neutral with respect to individual engagement whereas `Purpose` relations presume some level of agency on behalf of the speaker, the hearer or another agent addressed or involved in the situation described. `Purpose` requires a volitional agent, a diagnostic marker for the `goal` role is _in order to_, a diagnostic marker for the `enablement` is _for that purpose_ (Webber et al. 2019b).
 
 > **Note**: In PDTB2, purpose seems to have been grouped together with Cause and Condition. PDTB3 introduced Purpose specifically for intrasentential relations (Webber et al. 2019a, p.18). It is thus possible that it does not apply to intersentential relations.
 
-##### `goal`
+#### `goal`
 
 The utterance represents a goal (purpose) enabled by the situation described in the anchor, i.e., the action undertaken to achieve the goal (Webber et al. 2019a, p.21). All PDTB3 examples are intrasentential. This is possibly not relevant for AURIS.
 
 - (30.1) *Skilled ringers use their wrists to advance or retard the next swing, **so that** one bell can swap places with another in the following change.* (PDTB3, wsj 0089, INTRASENTENTIAL)
 - (30.2) *In September, the company said it was seeking offers for its five radio stations **in order to** concentrate on its programming business.* (PDTB3, wsj 0115, INTRASENTENTIAL)
 
-##### `enablement`
+#### `enablement`
 
 The utterance describes a situation that enables the goal (purpose) described in the anchor, i.e., the action undertaken to achieve the goal (Webber et al. 2019a, p.21). A diagnostic marger is _for that purpose_.
 
 - (31) *She ordered the foyer done in a different plaid planting, and **[Implicit=for that purpose]** made the landscape architects study a book on tartans.* (PDTB3, wsj 0984, INTRASENTENTIAL)
 
-### `TEMPORAL`
+## A.8 Discourse Relations: `TEMPORAL`
 
-#### `Synchrony`
+### A.8.1 `Synchrony`
 
 `Synchrony` applies if the situations described in the utterance and the anchor have some degree of temporal overlap, i.e., if the two situations started and ended at the same time, if one was temporally embedded in the other, or if the two crossed. Diagnostic connectives are _while_ and _when_ (Bunt & Prasad 2016; PDTB2 Synchronuous in Prasad et al. 2007, p.27-28). 
 
 - (32.1) *Then, in late-afternoon trading, hundred-thousand-share buy orders for UAL hit the market, including a 200,000-share order through Bear Stearns that seemed to spark UAL’s late price surge. **Almost simultaneously**, PaineWebber began a very visible buy program for dozens of stocks.* (PDTB3, wsj 1208)
 - (32.2) *The parishioners of St. Michael and All Angels stop to chat at the church door, as members here always have. **[Implicit=while]** In the tower, five men and women pull rhythmically on ropes attached to the same five bells that first sounded here in 1614.* (PDTB3, wsj 0089)
 
-#### Asynchrony
+### A.8.2 Asynchrony
 
 The utterance stands in a temporal order with the situation described in the anchor (Bunt & Prasad 2016, Prasad et al. 2007, p.27).
 
-##### `before`
+#### `before`
 
 The situation described in the utterance temporally precedes the situation described in the anchor. A diagnostic discourse marker is _before (that)_ (Bunt & Prasad 2016; Prasad et al. 2007, p.28).
 		
 - (33.1) *John D. Carney, 45, was named to succeed Mr. Hatch as president of Eastern Edison. **Previously** he was vice president of Eastern Edison.* (PDTB3, wsj 0019)
 - (33.2) *The Japanese are in the early stage right now,” said Thomas Kenney, .... “ **Before**, they were interested in hard assets and they saw magazines as soft.* (PDTB3, wsj 1650; Webber et al. 2019b)
 
-##### `after`
+#### `after`
 
 The situation described in the anchor temporally precedes the situation described in the utterance (Bunt & Prasad 2016; Prasad et al. 2007, p.28). Diagnostic discourse markers are _after (that)_ and _then_ (temporal).
 
@@ -536,9 +532,9 @@ The situation described in the anchor temporally precedes the situation describe
 - (34.2) *The Artist has his routine. He spends his days sketching passers-by, or trying to. **[Implicit=then]** At night he returns to the condemned building he calls home.* (PDTB3, wsj 0039)
 - (34.3) *The daughters will bake cakes. **Then**, it will be time for presents.* (Żurowski et al. 2023, p.486, translated from Polish)
 
-### `EXPANSION`
+## A.9 Discourse Relations: `EXPANSION`
 
-#### `Conjunction`
+### A.9.1 `Conjunction`
 
 In `Conjunction`, utterance and anchor feature the same relation to some other situation evoked in the discourse. As an example, this includes a list, defined in prior discourse, where `Conjunction` is the relation between the list elements. A discourse marker for conjunction indicates that utterance and anchor, or the entities mentioned therein are doing the same thing with respect to that situation (Bunt & Prasad 2016). The situation described in the utterance provides additional, discourse new, information that is related to the situation described in the anchor, but not in any other, more specific discourse relation. The semantics are thus no more than that of a logical ∧ (and). Diagnostic connectives are _also_, _in addition_, _additionally_, _further_, etc. (Prasad et al. 2007, p.37; Webber et al. 2019a, p.25-26). A frequent discourse marker is also _and_, but note that this is ambiguous between this and other discourse relations.
 
@@ -548,7 +544,7 @@ In `Conjunction`, utterance and anchor feature the same relation to some other s
 - (35.2) *I can adjust the amount of insurance I want against the amount going into investment; **[Implicit=Conjunction]** I can pay more or less than the so-called target premium in a given year.* (PDTB3, wsj 0041)
 - (35.3) *But other than the fact that besuboru is played with a ball and a bat, it’s unrecognizable: Fans politely return foul balls to stadium ushers; **[Implicit = further]** the strike zone expands depending on the size of the hitter;* (PDTB2, 0037)
 
-#### `Disjunction`
+### A.9.2 `Disjunction`
 
 In `Disjunction`, utterance and anchor denote alternative situations that bear the same relation to some other situation evoked in the discourse and that make a similar contribution with respect to that third situation (Bunt & Prasad 2016; Prasad et al. 2007, p.36; Webber et al. 2019a, p.26). We do not distinguish as to whether both situations can hold simultaneously (logical or) or they are mutually exclusive (exclusive or). A diagnostic discourse marker is _or_.
 
@@ -556,7 +552,7 @@ In `Disjunction`, utterance and anchor denote alternative situations that bear t
 based on something called ”scholarship,” rather than on the government’s idea of ”service.” **Or** we might
 provide a tax credit for working students. [CONTEXT:] If we want to support students, we might adopt the idea used in other countries of offering more scholarships based on something called “scholarship,” rather than on the government’s idea of “service.”.* (PDTB3, wsj 2407)
 
-#### `Restatement`
+### A.9.3 `Restatement`
 
 In `Restatement`, the utterance describes the same situation as the anchor, but from a different perspective, e.g., when describing the same situation as presented before using the speaker’s own words (Bunt & Prasad 2016; PDTB2 Restatement/equivalence, Prasad et al. 2007, p.35-36, Webber et al. 2019a, p.26). A diagnostic discourse marker is _in other words_.
 
@@ -565,13 +561,13 @@ In `Restatement`, the utterance describes the same situation as the anchor, but 
 - (37.3) *But the battle is more than Justin bargained for. **[implicit=indeed]** ”I had no idea I was getting in so deep,” says Mr. Kaye, who founded Justin in 1982.* (PDTB3, wsj 2418)
 - (37.4) *When the consumer had no more money and remembered the policy, he would learn at the company’s headquarters about the so-called policy surrender value coefficient. **In other words,** he did not receive what he had paid.* (Żurowski et al. 2023, p.486)
 
-#### `Exception`
+### A.9.4 `Exception`
 
 In `Exception`, the `regular` evokes a set of circumstances in which the described situation holds, while the `exception` indicates one or more instances where it doesn't (Bunt & Prasad 2016; Webber et al. 2019a, p.27).
 	
 > Note: Intutitively, this involves an element of contrast, but we follow PDTB2 in considering it a form of PDTB EXPANSION.
 
-##### `regular`
+#### `regular`
 
 The utterance evokes a set of circumstances in which the described situation holds, while the anchor represents an exception, i.e., it indicates one or more instances where it doesn't (Bunt & Prasad 2016). 
 
@@ -579,24 +575,24 @@ The utterance evokes a set of circumstances in which the described situation hol
 
 > **Note**: It is yet to be confirmed whether this relation exists in AURIS, as it requires a discourse marker to mark the regular rather than the exception. It could exist in cases in which paired discourse markers (like _either ... or_ or _on the one hand ... on the other hand_) mark `EXCEPTION` relations.
 
-##### `exception`
+#### `exception`
 
 The utterances specifies an exception to the generalization specified by the anchor. In other words, the situation described in the anchor is false because the sitation described in the utterance is true (but if the utterance were false, the anchor would be true), cf. (Prasad et al. 2007, p.36). According to PDTB2, possible discourse markers are _instead_ or _rather_ -- both of these are, however, more regularly used with other discourse relations, so that they are not diagnostic discourse markers.
 		
 - (39) *Boston Co. officials declined to comment on Moody’s action on the unit’s financial performance this year **except** to deny a published report that outside accountants had discovered evidence of significant accounting errors in the first three quarters’ results.* (PDTB2, 1103, INTRASENTENTIAL)
 
-#### `Exemplification`
+### A.9.5 `Exemplification`
 
 In `Exemplification`, one sentence describes a set of situations; the other an element of that set (Bunt & Prasad 2016).
 
-##### `set`
+#### `set`
 
 The utterance describes a situation as holding in a set of circumstances, while the anchor describes one or more of those circumstances (Webber et al. 2019a, p.27). Diagnostic discourse markers include _(more) generally_ or _in general_:
 
 - (40.1) *Swiveling in his chair, Mr. Straszheim replies that the new outlook, though still weak, doesn’t justify calling a recession right now. “It’s all in this handout you don’t want to look at. We could still have a recession” at some point. **[Implicit=generally]** One of Mr. Straszheim’s recurring themes is that the state of the economy isn’t a simple black or white.* (PDTB3, wsj 0569)
 - (40.2) *NBC’s re-creations are produced by Cosgrove-Meurer Productions, which also makes the successful primetime NBC Entertainment series Unsolved Mysteries. **[Implicit: More generally]** The marriage of news and theater, if not exactly in evitable, has been consummated nonetheless.* (Prasad et al. 2017, p. 11)
 
-##### `instance`
+#### `instance`
 
 The utterance provides one or more instances of the circumstances described by the anchor. The anchor evokes a set and the utterance describes it in further detail. It may be a set of events, a set of reasons, or a generic set of events, behaviors, attitudes, etc. Diagnostic discourse markes are _for example_, _for instance_, _in particular_ and _specifically_ (Prasad et al. 2007, p.34; Webber et al. 2019a, p.27).
 
@@ -605,18 +601,18 @@ The utterance provides one or more instances of the circumstances described by t
 - (41.3) *And regional offices were “egregiously overstaffed,” he claims. **[Implicit=for example]** One office had 19 people doing the work of three, ...* (PDTB3, wsj 0305)
 - (41.4) *So far, the mega-issues are a hit with investors. **[Implicit, For example]** Earlier this year, Tata Iron & Steel Co.’s offer of $355 million of convertible debentures was oversubscribed.* (Prasad et al. 2017, p.8)
 
-#### `Elaboration`
+### A.9.6 `Elaboration`
 
 Both sentences describe the same situation, but in less or more detail (Bunt & Prasad 2016; PDTB3 Level-of-Detail in Webber et al. 2019a, p.27). 
 
-##### `broad`
+#### `broad`
 
 The utterance describes the same situation as the anchor, but the anchor provides more detail. Typically, the utterance summarizes the anchor, or in some cases expresses a conclusion or generalization  (Bunt & Prasad 2016; PDTB2 Restatement/generalization in Prasad et al. 2007, p.35). Diagnostic discourse markers include _in sum_, _in short_, _overall_, and _finally_.
 		
 - (42.1) *If the contract is as successful as some expect, it may do much to restore confidence in futures trading in Hong Kong. **[Implicit = Overall,]]** “The contract is definitely important to the exchange,” says Robert Gilmore, executive director of the Securities and Futures Commission.* (PDTB2, 0700)
 - (42.2) *Many modern scriptwriters seem to be incapable of writing drama, or anything else, without foul-mouthed cursing. Sex and violence are routinely included even when they are irrelevant to the script, and high-tech special effects are continually substituted for good plot and character development. **In short**, we have a movie and television industry that is either incapable or petrified of making a movie unless it carries a PG-13 or R rating.* (PDTB3, wsj 0911)
 
-##### `specific`
+#### `specific`
 
 The utterance describes the situation described in the anchor in more detail. Diagnostic discourse markers include _specifically_, _indeed_ and _in fact_ (Prasad et al. 2007, p.35).
 		
@@ -624,31 +620,31 @@ The utterance describes the situation described in the anchor in more detail. Di
 - (43.2) *An enormous turtle has succeeded where the government has failed: **[Implicit = specifically]** He has made speaking Filipino respectable.* (PDTB2, 0804)
 - (43.3) *The Treasury Department said the U.S. trade deficit may worsen next year, after two years of significant improvement. **[Implicit=Specifically]** In its report to Congress on international economic policies, the Treasury said that any improvement in the broadest measure of trade, known as the current account, ”is likely at best to be very modest,” and ”the possibility of deterioration in the current account next year cannot be excluded.”* (Prasad et al. 2017, p. 12)
 
-#### `Manner`
+### A.9.7 `Manner`
 
 In `Manner`, the `means` argument describes a way in which the `achievement` comes about or occurs (Bunt & Prasad 2016). Manner answers “how” questions such as “How were the children playing?” (Webber et al. 2019a, p.28).
 
 > **Note**: As PDTB3 introduced Manner specifically for intrasentential relations, it is yet to be confirmed whether this is a relevant category for AURIS. Also note that Webber et al. 2019a (p.28) emphasized that manner is typically accompanied by other relations (Purpose, Result or Condition).
 
-##### `means`
+#### `means`
 
 The utterance describes the means, i.a. a way in which the achievement presented in the anchor comes about or occurs (Bunt & Prasad 2016). For intrasentential manner relations, a diagnostic discourse marker is _by_, a diagnostic paraphrase is _the manner of/in which/by which_ (Webber et al. 2019a, p.29-30).
 
 - (44.1) *Taking a cue from California, more politicians will launch their campaigns **by** backing initiatives, says David Magleby of Brigham Young University.* (PDTB3, wsj 0120, INTRASENTENTIAL)
 - (44.2) *In China, a great number of workers are engaged in pulling out the male organs of rice plants **[Implicit=by]** using tweezers.* (PDTB3, wsj 0209, INTRASENTENTIAL)
 
-##### `achievement`
+#### `achievement`
 
 The anchor describes a way in which the achievement described in the utterance comes about or occurs (Bunt & Prasad 2016). A diagnostic discourse marker is _thereby_.
 
 - (45.1) *McCaw is offering $125 a share for 22 million LIN shares, **thereby** challenging LIN’s proposal to spin off its television properties, pay shareholders a $20-a-share special dividend and combine its cellular-telephone operations with BellSouth’s cellular business.* (PDTB3, wsj 2443, INTRASENTENTIAL)
 - (45.2) *Long-debated proposals to simplify the more than 150 civil penalties **[Implicit=thereby]** and make them fairer and easier to administer are in the House tax bill.* (PDTB3, wsj 0293)
 
-#### `Substitution`
+### A.9.8 `Substitution`
 
 Two mutually exclusive alternatives are evoked in the discourse but only one is taken, the other is ruled out. A diagnostic discourse marker is the connective _instead_ (PDTB2 chosen alternative, Prasad et al. 2007, p.36; Webber et al. 2019a, p.29-30). To some extent, the same discourse markers can be used for `Substitution` and `Exception`, the difference is that `Exception` is an observation and grounded in facts, whereas `Substitution` involves a conscious choice or preference.
 
-##### `disfavoured-alternative`
+#### `disfavoured-alternative`
 
 In comparison with the favoured alternative presented in the anchor, the situation described in the utterance is disfavored or rejected alternative (Bunt & Prasad 2016). A diagnostic discourse marker is the connective _rather than_.
 
@@ -656,7 +652,7 @@ In comparison with the favoured alternative presented in the anchor, the situati
 - (45.2) * **Rather than** sell 39-cents-a-pound Delicious, maybe we can sell 79-cents-a-pound Fujis,” says Chuck Tryon, ...* (PDTB3, wsj 1128, INTRASENTENTIAL)
 - (45.3) *Intervention, he added, is useful only to smooth disorderly markets, **not** to fundamentally influence the dollar’s value.* (PDTB3, wsj 0240, INTRASENTENTIAL)
 
-##### `favoured-alternative`
+#### `favoured-alternative`
 
 In comparison with the disfavoured alternative presented in the anchor, the situation described in the utterance is favored, and the alternative presented in the anchor is rules out (Bunt & Prasad 2016, Webber et al. 2019a, p.30). A diagnostic discourse marker is the connective _rather_.
 
@@ -666,7 +662,7 @@ In comparison with the disfavoured alternative presented in the anchor, the situ
 
 > **Note**: Following Bunt and Prasad (2016), this is grouped under PDTB Expansion. However, RST Antithesis is much more defined along the lines of contrast, so, it might be better put there?
 
-#### `Similarity`
+### A.9.9 `Similarity`
 
 In `Similarity`, one or more similarities between the utterance and the anchor are highlighted with respect to what each predicates as a whole or to some entities they mention (Bunt & Prasad 2016; Webber et al. 2019a, p.25). Diagnostic discourse markers include _similarly_,  _like_ or _also_. We also take the discourse marker _as well_ to designate `Similarity`.
 
@@ -677,7 +673,7 @@ In `Similarity`, one or more similarities between the utterance and the anchor a
 
 > **Note**: `Similarity` is closely related to `Conjunction`. Annotate `Similarity` if an element of comparison (but not contrast) is involved, annotate `Conjunction` is no such aspect is to be found.
 
-##### `Hypophora`
+#### A.9.10 `Hypophora`
 
 Hypophora is used when the utterance represents an answer to a rhetorical question presented in the anchor. If there is a semantic discourse relation connecting the situation described with another anchor in the discourse, annotate this as the relation of the question (the anchor of `Hypophora`). The diagnostic criterion is that the anchor has the form of a question, that the answer is immediately provided by the speaker and that no answer from the addressee is expected. 
 
@@ -687,7 +683,7 @@ Note that this also includes reported answers as in (48.2).
 
 - (48.2) But can Mr. Hahn carry it off? **[HYPOPHORA]** In this instance, industry observers say, he is entering uncharted waters. (PDTB3, wsj 0100)
 
-##### `Attribution`
+#### A.9.11 `Attribution`
 
 We do not consider attribution a discourse relation in its own right. However, as we perform sentence-level annotation over pre-determined sentence splits, it is possible that an attribution phrase gets detached from the reported statement. In those cases, annotate the utterance expressing the attribution with an `Attribution` relation that takes the statement (resp., its closest sentence) as anchor:
 
@@ -695,7 +691,7 @@ We do not consider attribution a discourse relation in its own right. However, a
 
 Note that example (49) originally had a *paragraph break* between the attribution sentence and the statement.
 
-### `DIALOG`
+## A.10 Discourse Relations: `DIALOG`
 
 Dialog relations are to be annotated if and only if turn-taking between multiple speakers applies and no other discourse relation is explicitly signalled. In this case, annotate the discourse function.
 
@@ -706,13 +702,13 @@ We follow ISO 24617-8 (Bunt et al. 2012, p.431; Bunt et al. 2019) in distinguish
 
 > **Note**: AURIS dialog relations are only to be annotated if they occur after turn-taking and no other discourse relation applies. Dialog relations do not apply when the subsequent text relates to a question in other ways – for example, in the case of rhetorical questions that are posed for dramatic effect or to make an assertion, rather than to elicit an answer (Webber et al. 2019a, p.9). Rhetorical questions are excluded from this group and to be annoted as `Hypophora`, instead.
 
-#### `Functional dependence` 
+### A.10.1 `Functional dependence` 
 
 In `Functional dependence`, the utterance is a dialogue act that is responsive in nature and that address the information communicated in the utterances; the anchor is the dialogue act that the utterance responds to (Bunt & Prasad 2016, Bunt et al. 2019). Diagostic paraphrases include (semantically empty) responses such as “Yes”, “No thanks”, “No problem”, and “OK” (Bunt et al. 2012, p.432). In AURIS, functional dependence relations involve the explicit elicitation of the response as an anchor -- either directly by a question, request or suggestion, or indirectly with a statement that the addressee reacts to. 
 
 Following ISO (2010; cf. Bunt et al. 2018, 2019), the following communicative functions are relevant and should be annotated in AURIS as sub-types of functional dependence: `Answer`, `Offer`, `Address Suggest`, `Agreement`, `Disagreement`
 
-###### `answer`
+#### `answer`
 
 The utterance is a dialog act performed by the speaker in order to make the information in the utterance known to the addressee in response to the anchor. The anchor expresses an information-seeking function (e.g., a question). The speaker believes the utterance to be correct (ISO 2010, Bunt et al. 2018, 2019). If an answer involves feedback particles like _yes_, _no_ or _perhaps_, these should be annotated as explicit discourse marker. Do not annotate an implicit discourse marker.
 
@@ -724,7 +720,7 @@ The utterance is a dialog act performed by the speaker in order to make the info
 
 We do not differentiate types of asnwers. However, note that we distinguish answers that address an information need from responses to requests for a particular action. Both can take questions as their anchors, but a commitment (or denial) of future actions on behalf of the speaker is to be annotated as `Offer`.
 
-###### `agreement`
+#### `agreement`
 
 The anchor describes a situation that the speaker presents as a true statement. With the utterance, the addressee confirms that he believes that this statement is indeed true (ISO 2010). Use if the utterance can be paraphrased by "Exactly!".
 
@@ -733,7 +729,7 @@ The anchor describes a situation that the speaker presents as a true statement. 
 
 The `agreement` relation is similar to (a positive) `answer` in that it addresses an information need of the addressee, for the case of Agreement, however, it is not solicited by a question, but by a speech act that invites a (positive) feedback response.
 
-###### `disagreement`
+#### `disagreement`
 
 The anchor describes a situation that the speaker presents as a true statement. With the utterance, the addresee informs the speaker that he believes that this statement is false (ISO 2010).
 
@@ -744,7 +740,7 @@ The anchor describes a situation that the speaker presents as a true statement. 
 
 The `agreement` relation is similar to a negative `answer` in that it addresses an information need of the addressee, for the case of Agreement, however, it is not solicited by a question, but by a speech act that is refuted by the speaker.
 
-###### `offer`
+#### `offer`
 
 With the utterance, the speaker commits himself to perform a particular action. The speaker assumes that the addressee refers the action to be performed. The anchor is the sentence that caused the speaker to assume that the addressee wants him to perform the offered activity (ISO 2010, Bunt et al. 2018, 2019). 
 
@@ -773,7 +769,7 @@ Offers also includes a _negative_ response to requests (i.e., declined requests)
 
 In Alibaba's response, the first statement directly responds to the preceding sentence, but is subsequently elaborated into a refined offer. Note that this elaboration is to be modelled by `EXPANSION` relations that take _Not now_ as their anchor, not directly as feedback responses to the statements of Unknown ID.
 
-###### `address-suggest`
+#### `address-suggest`
 
 With the utterance, the speaker commits himself (or declines) to perform an action that was suggested to him. The anchor is an utterance of the addressee that made the speaker believe that was a suggested action. The main difference to `offer` is that the addressee is neutral about his proposal or that the speaker himself is the main beneficiary of the proposal (ISO 2010, Bunt et al. 2018, 2019).
 
@@ -785,11 +781,11 @@ With the utterance, the speaker commits himself (or declines) to perform an acti
 
 We include both positive and negative responses to suggestions under `address-suggest`.
 
-###### `dependent-act`
+#### `dependent-act`
 
 If an utterance dialog act is in response to the content of an utterance by the addressee but none of the aforementioned communicative functions applies, annotate as `dependent-act` and leave a comment.
 
-#### `Feedback`
+### A.10.2 `Feedback`
 
 Feedback utterances are about the processing of a communicative event that occured earlier in the discourse. 
 
@@ -807,7 +803,7 @@ Feedback includes phenomena such as clarification questions (55.1) and confirmat
 	- A: *and keep going down south.* **[Feedback]** B: *mmhmm*
 	- A: *we are going to go due south straight south and then we’re going to turn straight back round and head north past an old mill on the right hand side.* **[Feedback]** B: *due south and then back up again*
 
-### `EntRel`: Entity relations
+## A.11 Entity Relations: `EntRel`
 
 If no other discourse relation can be annotated, but the utterance stands in an entity-based coherence relation with the anchor (i.e., anchor and utterance contain referring expressions that stand in an anphoric/coreferential relation with each other), then annotate an entity relation (`EntRel`).
 
@@ -819,7 +815,7 @@ If an entity relation holds between the utterance and several candidate anchors 
 
 - (56.2) HOLIDAY ADS: Seagram will run two interactive ads in December magazines promoting its Chivas Regal and Crown Royal brands. The Chivas ad illustrates – via a series of pullouts – the wild reactions from the pool man, gardener and others if not given Chivas for Christmas. The three-page Crown Royal ad features a black-and-white shot of a boring holiday party – and a set of colorful stickers with which readers can dress it up. **[EntRel]** Both ads were designed by Omnicom’s DDB Needham agency. (PDTB2, 0989)
 
-## A.7 Troubleshooting
+## A.12 Troubleshooting
 
 - pairwise discourse markers: Annotate independently. As both parts refer to each other, this creates a cycle in the annotation.
 
@@ -866,7 +862,11 @@ If an entity relation holds between the utterance and several candidate anchors 
 
 	- (57.5) _Advocates said_ the 90-cent-an-hour rise, to $4.25 an hour by April 1991, is too small for the working poor, while opponents argued that the increase will still hurt small business and cost many thousands of jobs. (PDTB2 0098) 
 
-## A.8 Relation Mapping
+## A.13 Addenda
+
+The following addenda are not relevant for annotation, but for conversion of data between different schemas.
+
+### A.13.1 Relation Mapping
 
 The following table provides a mapping between AURIS relations and other schemas, based on Bunt and Prasad (2016). AURIS definitions are primarily based on (descriptions and applications of) ISO 24617-8 and guidelines for PDTB1, PDTB2 and PDTB3.
 
@@ -930,7 +930,7 @@ The following table provides a mapping between AURIS relations and other schemas
 | - `Feedback`               | Feedback-dependence/feedback-act |                                       |              |                                     |
 | **EntRel**                    | Expansion/Entity description  | EntRel                                | Background, Elaboration | Elaboration (object-attribute, additional) |
 
-## A.9 References
+## References
 
 - Harry Bunt, Jan Alexandersson, Jae-Woong Choe, Alex Chengyu Fang, Koiti Hasida, Volha Petukhova, Andrei Popescu-Belis and David Traum (2017), ISO 24617-2: A semantically-based standard for dialogue annotation. LREC 2012.
 
