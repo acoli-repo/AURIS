@@ -57,7 +57,7 @@ Personal pronouns include (the language-specific counterparts of) English *I, me
 
 Note that so-called "generic pronouns" (*we, you, they*, in German *wir, du, sie* (without specific reference), *man, einer*) are considered as indefinite, but that they cannot be automatically identified. Thus, they are annotated as primary markables.
 
-> Note: Reflexive pronouns (English *herself*, etc.) are not PM. Pronouns that are formally ambiguous as to whether they are reflexive or personal pronouns (e.g., German *mich* "me; myself"), are PM, and should be manually marked as `REF=BOUND` in the annotation. 
+> Note: Reflexive pronouns (English *herself*, etc.) are not to be annotated. Pronouns that are formally ambiguous as to whether they are reflexive or personal pronouns (e.g., German *mich* "me; myself") should be annotated, but marked as `REF=BOUND` in the annotation. 
 
 > Note: Other non-referring pronouns (e.g., expletive *it* or generic *you* in the sense of "anyone") are likewise not to be deleted but to be annotated manually.
 
@@ -141,7 +141,7 @@ Definite NPs containing adjectives like *other*
 Typical instances of proper names are geographic places
 (*Philadelphia*), persons (*Judge Jenkins*), companies (*Morgan
 Stanley & Co.*), newspaper titles (*The New York Times*), political, social or financial institution names (*Congress, European Investment
-Bank* ). Proper names can include noun modifiers or be heads of a definite or indefinite description. In this case, the whole description has to be marked up, not just the head.
+Bank* ). Proper names can include noun modifiers or be heads of a definite or indefinite description. 
 
 > (10.a)  *\[Bertolt <ins>Brecht</ins>\]* (full name)
 
@@ -233,10 +233,6 @@ With optional sub-types:
 - indefinite pronouns, e.g., *somebody*, or German *man*. Also includes pronominal indefinite quantifiers, e.g., *some* in *some of that*.
 
 
-### 1.5.3 Other expressions
-
-We consider every syntactic argument of a verb to be a potentially referring expression. If not matched by any of the aforementioned conditions, we treat verbal arguments as secondary markables. This can happen if an argument is a foreign language expression that is not assigned proper POS tags, but instead just marked as foreign (e.g., `X` in Universal Dependencies). Note that the annotation of referentiality for `other` nominals is tentative, only.
-
 ### 1.6 Do NOT annotate
 
 ### 1.6.1 Non-referring and bound expressions
@@ -245,9 +241,9 @@ We consider every syntactic argument of a verb to be a potentially referring exp
 
 	> (21) *Then, when it would have been easier to resist them, nothing was done* (expletive *it*).
 
--   *Es*-pronouns, pronominal adverbs, which are controllers of relative clauses
+-   pronominal adverbs, which are controllers of relative clauses
 
-	> (22) *Dazu kommt, dass in Werder am 24. Februar ein Bu¨rgermeister gewa¨hlt wird und es bisher als sicher galt, dass CDU-Amtsinhaber Werner Gr¨oße unangefochten bleibt.*
+	> (22) *Dazu kommt, dass in Werder am 24. Februar ein Bürgermeister gewählt wird und es bisher als sicher galt, dass CDU-Amtsinhaber Werner Größe unangefochten bleibt.*
 
 	*Dazu\...dass, es\...dass* should not be annotated as markables (*Dazu* and *es* are controllers of relative clauses).
 
@@ -259,8 +255,11 @@ We consider every syntactic argument of a verb to be a potentially referring exp
 
 -   relative pronouns
 
-	Relative pronouns are annotated together with the whole relative clause it triggers as one single markable (cf. *\[The car that went through his garden wall\]\...*). If a form cannot be unambiguously classified as a relative pronoun, apply the following test: it is a relative pronoun if it can be substituted by "which" respectively "welch" in German.
-	However, relative pronouns in possessive constructions (i.e. for which the test for relative pronouns fails) are annotated as possessive pronouns (see possessive NPs, p. 10).
+	If a form cannot be unambiguously classified as a relative pronoun, apply the following test: it is a relative pronoun if it can be substituted by "which" respectively "welch" in German.
+
+	> (23.d.) *The car that went through his garden wall\...* (constructed)
+
+	However, relative pronouns in possessive constructions (i.e. for which the test for relative pronouns fails) are annotated as possessive pronouns (see possessive NPs).
 
 	> (24) *Und so schielen die Israelis nach Washington, an dessen /\*welchem Tropf sie wirtschaftlich und militärisch hängen,\...*
 	> (24') *Und so schielen die Israelis nach Washington, das/welches sie wirtschaftlich und militärisch unterstützt* (*das* is a relative pronoun).
@@ -283,7 +282,7 @@ We consider every syntactic argument of a verb to be a potentially referring exp
 
 ### 1.6.2 Idioms and Collocations
 
-Primary markables in idioms and collocations, if identifiable in automated pre-annotation.
+Primary markables in idioms and collocations.
 
 > (28) *It sent Kate into the pits when she learned from her "friend" Martha, who seemed to get off on laying bad trips on people, that Harvey was getting it on with Carol.* \[Gib94, p.265\]
 
@@ -291,4 +290,4 @@ According to Gibbs, we find several idiomatic phrases in this example, some of w
 
 However, they should not be annotated as such, e.g. *into the pits* meaning "to be depressed", *get it on* meaning "having sexual relations", neither *the pits* nor *it* can be referred to.
 
-Note that we consider only *conventionalized* idiomatic expressions as idioms in our sense, i.e. markables within productive metaphors are annotated as usual, e.g. *das schlingernde City-Schiff City-Schiff* - a metaphor that occurred and can only be understood with respect to a specific text.
+Note that we consider only *conventionalized* idiomatic expressions as idioms in our sense, i.e. markables within productive metaphors are annotated as usual, e.g. *das schlingernde City-Schiff* - a metaphor that occurred and can only be understood with respect to a specific text.

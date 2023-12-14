@@ -64,13 +64,11 @@ The antecedent of an event anaphor is normally a sentence, a clause or verb phra
 
 > (2) *Gestern hat Bayern München schon wieder gewonnen<sub>1</sub>. \[Das\]<sub>1</sub> hat Jan ziemlich gestört. Marianne hingegen war \[davon\]<sub>1</sub> begeistert.* (Non-event anaphors skipped.)
 
-Note that antecedents of event anaphors are not automatically pre-annotated but have to be manually created.
-
 ## 2.4 Referentiality
 
 Every markable that is not assigned an antecedent is to be annotated for referentiality. 
 
-In spreadsheet-based annotations, some of the values are automatically suggested in `REF_AUTO`. Please make sure to verify all of them. Automated pre-annotation generates the value `?OLD` for all candidate anaphors ("primary markables") and, optionally, `?NEW` for all other candidate referring expressions ("secondary markables"). 
+In spreadsheet-based annotations, some of the values are automatically suggested in `REF_AUTO`. Please make sure to verify all of them. 
 
 1. `OLD`: A unit of discourse that can be interpreted based on the preceding context ("discourse-old").<sup>[2](lit.md#coref2)</sup>
 
@@ -92,7 +90,7 @@ In spreadsheet-based annotations, some of the values are automatically suggested
 
 	Note that the second reference to *the companies* in (9.c) is annotated as a **plain anaphoric reference** to the established group, not as a group reference to the individual companies mentioned in the meantime.
 
-4. `BOUND`: Pronouns that are syntactically bound, e.g. reflexive pronouns. Also, possessive pronouns governed by nominal expressions in the same sentence are annotated as `BOUND`, cf. in (8.b) below *Mit <ins>seinem</ins><sub>3,BOUND</sub> Tor*.<sup>[6](lit.md#coref6)</sup>
+4. `BOUND`: Pronouns that are syntactically bound are not to be annotated if they can be unambiguously identified by their form. This includes reflexive pronouns and possessive pronouns governed by nominal expressions in the same sentence, cf. in (8.b) below *Mit <ins>seinem</ins><sub>3,BOUND</sub> Tor*.<sup>[6](lit.md#coref6)</sup>.
 
 	> Notes: Reflexive pronouns (which are obligatorily bound) are not annotated as markables if they can be identified on grounds of their form (e.g., English *himself*, German *sich*). Only if a form is ambiguous between a reflexive and pronominal reading (e.g., German *mich*), reflexive pronouns are annotated as `BOUND`.
 
@@ -146,17 +144,21 @@ In spreadsheet-based annotations, some of the values are automatically suggested
 	
 	> (14.c) *Und dann warf sie \[die Flinte\]<sub>NM</sub> \[ins Korn\]<sub>NM</sub>.* (German)
 
-	> Note: Referring expressions in productive, transparent metaphors that are sufficiently transparent should be annotated like anaphoric expressions. The annotator may add `AMBIG:IDIOM`if not sure about their annotation. In (7.d), *der Spatz in der Hand*, a definite NP in German, can be generic, part of an idiom, or referring:
+	> Note: Referring expressions in productive, transparent metaphors that are sufficiently transparent should be annotated like anaphoric expressions. The annotator may add `AMBIG:IDIOM` if not sure about their annotation. In (7.d), *der Spatz in der Hand*, a definite NP in German, can be generic, part of an idiom, or referring:
 
 	> (14.d) *Lieber \[der Spatz in der Hand\] als \[die Taube auf dem Dach\]*    (PCC, 12666) "A bird in the hand is worth two in the bush" (Context: a mayor finds an investor for his town willing to make only minimal investments).
 
 	> (14.e) *So lässt sich \[das schlingernde City-Schiff\]<sub>PM</sub> vielleicht doch noch auf einen erfolgversprechenden Kurs bringen.* (German, maz-18914, here, a reference to a city is made, but combined with the metaphorical image of a ship in troubled water, for which the substitution test would fail)
 
+	Note that we also annotate apparent referring expressions in grammaticalized phrases as `IDIOM`, e.g., *in the face of* in (14.f)
+
+	> (14.f) People in the **Face** of Modern Warfare (Fel, S., Niewiadomska, I., & Lenart-Kłoś, K. (2022). People in the Face of Modern Warfare: Relationships Between Resource Distribution and Behaviour of Participants in the Hostilities in Ukraine. V&R unipress.)
+
 8. `other`: other, non-referring expression, please provide a description in round parentheses. Includes, for example, NPs under the scope of a negation that cannot be referred to
 
 	> (15) *I didn\'t buy \[a new car\]<sub>NM</sub> after all.*
 
-## 2.7 Example
+## 2.5 Example
 
 > (16.a) *\[Die einstige <ins>Fußball-Weltmacht</ins>\]<sub>1,CAT</sub> zittert \[vor einem <ins>Winzling</ins>\]<sub>2,CAT,AMBIG(2,6)</sub>.*
 >      "\[The former football World Power\]<sub>d</sub> is shivering \[in the face of a mite\]<sub>s</sub>."
@@ -249,8 +251,8 @@ In case of doubt between syntactic cataphora or anaphora, decision has to be mad
 > (25.a) *Die einstige Fußball-Weltmacht zittert \[vor einem
 Winzling\]s.*
 
-> (25.b) *\[Mit \[seinem\]s Tor zum 1:0 fu¨r die Ukraine\] stu¨rzte
-\[der 1,62 Meter große Gennadi Subow\]s \[die deutsche Nationalelf\] voru¨bergehend in ein Trauma.*
+> (25.b) *\[Mit \[seinem\]s Tor zum 1:0 für die Ukraine\] stürzte
+\[der 1,62 Meter große Gennadi Subow\]s \[die deutsche Nationalelf\] vorübergehend in ein Trauma.*
 
 In the example, *seinem* refers to *Gennadi Subow* who was introduced in the very first sentence as *vor einem Winzling*. Following the preferences, we establish an anaphoric (cataphoric) link to the right.
 Thus, the anaphoric chain looks as follows:
