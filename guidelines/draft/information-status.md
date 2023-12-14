@@ -180,3 +180,21 @@ An interpretation is TYPE IDENTIFIABLE if the sense of the phrase (the descripti
 
 > (23) Whenever Mary passes that store, she always picks up <ins>a
      newspaper</ins>.
+
+## 5.3 Troubleshooting
+
+### 5.3.1 Only annotate referring expressions
+
+If a word is annotated as `REF=GEN`, `REF=BOUND`, `REF=IDIOM` or `REF=other` (Sect. 4.5), do not annotate it for information status.
+
+### 5.3.2 Group references
+
+The annotation of group references is tricky if they involve referents with different information status.
+
+- If a group was previously mentioned (as a group, i.e., `REF=OLD` in the sense of Sect. 4.5), information status is defined with reference to this last mention as a group. It does not matter whether individual members of the group have been mentioned since then.
+- If a group is referred to for the first time (i.e., `REF=GROUP` in the sense of Sect. 4.5), assign it the information status of the lowest-ranking element, e.g., if it contains a `FAMILIAR` referent along with an `IN FOCUS` referent, annotate `FAMILIAR`, not `IN FOCUS`.
+- If the last mention of a group that includes the current referent 
+
+If a referent `X` is subsequently referred to with a group reference (either with initial group reference/`REF=GROUP` or recurring group reference/`REF=OLD`), its information status is defined as the highest status the referent can be assigned on grounds of its direct mention (direct antecedent) *or* a mention of one of the groups that contain it.
+
+> Note that this refers only to groups for which the text gives an *explicit* and *exhaustive* definition. That is, a general reference to a class that includes the referent, but may also include other entities not mentioned in the text, does not count as a group reference.
