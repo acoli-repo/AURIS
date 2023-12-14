@@ -49,15 +49,19 @@ A referent is IN FOCUS<sup>[1](lit.md#is1)</sup> if it meets at least one of the
 
     Note that this also includes group references. In the following example, *Murillo* (Lopez' "master") is `IN FOCUS` because of a (recurring) group reference to him and Lopez appears earlier in the sentence:
 
-    > (4)  I had excited the suspicion of Lopez<sub>l</sub>, the secretary. ... He<sub>l</sub> and his master<sub>m</sub> dragged me to my room ... They<sub>l+m</sub> had gagged me, and Murillo<sub>m</sub> twisted my arm round until I gave him the address.
+    > (4)  I had excited the suspicion of Lopez<sub>l</sub>, the secretary. ... He<sub>l</sub> and his master<sub>m</sub> dragged me to my room ... They<sub>l+m</sub> had gagged me, and Murillo<sub>m</sub> twisted my arm round until I gave him the address. (AURIS, doyle_wist.02.txt)
+
+    Similarly, Holmes in (5) is `IN_FOCUS` because he is included in the *we* reference earlier in the sentence:
+
+    > (5) **We** moved cautiously along the track as if we were bound for the house, but **Holmes** halted us when we were about two hundred yards from it. (AURIS, doyle_bask.14.txt)
 
 3.  It is the interpretation of the syntactic focus of the immediately
     preceding clause (i.e., postcopular position of a cleft or
     existential sentence).
 
-    > (5) There was a mouse on the table. <ins>It</ins> was very large.
+    > (6.a) There was a mouse on the table. <ins>It</ins> was very large.
 
-    > (6) It was the dog that Bill was afraid of. <ins>He</ins> was very
+    > (6.b) It was the dog that Bill was afraid of. <ins>He</ins> was very
     large.
 
 4.  It is a higher level topic that is part of the interpretation of the

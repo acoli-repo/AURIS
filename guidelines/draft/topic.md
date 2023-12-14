@@ -3,12 +3,15 @@
 We provide a partial annotation of information structure, only, by focusing on information status and familiarity topics. As for the latter, we adopt the approach and the terminology of Centering Theory, and thus speak of "backward-looking center" (CB)
 
 The topic of an utterance is defined the entity (referent) that the utterance is construed about. Traditionally, two cases are distinguished:
+
 - **aboutness topic**: an entity in the current utterance about which the speaker wanted to provide more information.
 - **familiarity topic**: the entity of the current utterance that is closest to the focus (or center) of attention (in the sense of Gundel et al. 1993), thus most likely to be the entity that the current sentence is about
 
 The direct annotation of aboutness topics is notoriously difficult, so that we resort to the annotation of (a specific operationalization of) familiarity topics, instead.
 
-### 6.1 Familiarity Topic: Backward-Looking Center (`CB`)
+### 6.1 Familiarity Topic
+
+### 6.1.1 Backward-Looking Center (`CB`)
 
 After IS annotation, CB annotation is to be done in the `CB` column.
 
@@ -34,7 +37,7 @@ CB annotation is partially pre-annotated, but has to be manually refined.
 Selected CB examples:
 - antecedent SUBJECT (main clause, Grosz et al. 1995, ex. 6)
 
-    > (1.a) * **Susan**  gave Betsy a pet hamster.*
+    > (1.a) **Susan**  gave Betsy a pet hamster.
 
     > (1.b) <ins>She</ins> reminded her that such hamsters were quite shy.
 
@@ -63,6 +66,15 @@ Selected CB examples:
     > (5.a) *It was a store **John** had frequented for many years.*
     
     > (5.b) *<ins>He</ins> was excited that he could finally buy a piano.*
+
+# 6.1.2 Trouble-shooting
+
+For determining `CB` status, we consult the last direct realization of the referent. This includes two cases:
+
+- The referent is explicitly mentioned in the last utterance, or
+- The referent is indirectly evoked in a group reference that includes it and the a number of other previously entities (cf. Sect. 4.5). This can be an initial group reference (`REF=GROUP`) or a recurring group reference (`REF=OLD`)
+
+> Note: The automated pre-annotation scripts check the first condition, but not the second. 
 
 # 6.2 Topic Continuity: Centering Transitions (`Centering`)
 
