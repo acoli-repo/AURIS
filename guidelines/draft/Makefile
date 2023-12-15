@@ -1,6 +1,6 @@
 SHELL=bash
 
-all: prep compile excerpts full
+all: prep compile pdf
 
 prep:
 	cd word-level; make
@@ -13,8 +13,9 @@ compile:
 		fi;\
 	done
 
-excerpts:
-	for x in word sentence; do \
-		pdftk $$x-level-title.pdf $$x-level/mini.pdf cat outout $$x-level-excerpt.pdf;\
-		pdftk $$x-level-title.pdf $$x-level/all.pdf cat outout $$x-level.pdf;\
+pdf:
+	@# unfortunately, this fails because pdftk uses an outdated version of iText
+	@for x in word sentence; do \
+		pdftk $$x-level-title.pdf $$x-level/mini.pdf cat outout $$x-level-excerpt.pdf || echo $$x-level-excerpt.pdf failed 1>&2;\
+		pdftk $$x-level-title.pdf $$x-level/all.pdf cat outout $$x-level.pdf || echo $$x-level.pdf failed 1>&2;\
 	done;\
