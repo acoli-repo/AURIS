@@ -1,6 +1,6 @@
-AURIS Discourse Extension, Christian Chiarcos, University of Augsburg, Germany, draft version of 2023-11-28
+AURIS Discourse Extension, Christian Chiarcos, University of Augsburg, Germany, draft version of 2023-12-15
 
-# A. Discourse Relations
+# 1. Discourse Relations
 
 The annotation of discourse relations adopts a different format and is thus described in an appendix to the AURIS guidelines.
 
@@ -26,7 +26,7 @@ The order of anchor and utterance is flexible, but in many cases, the anchor pre
 
 > **Note**: This section is concerned with the annotation of discourse relations, i.e., semantic or functional relations between utterances. As for relations between discourse referents (coreference, Centering Transitions), this is subject to Sect. 5 of the AURIS guidelines.
 
-## A.1 Preparation and Format
+## 1.1 Preparation and Format
 
 Annotation is done using Spreadsheet software such as MS Excel or LibreOffice. We provide automated pre-annotations as well as formulas to dynamically populate the spreadsheet file. For annotating a file with pre-annotations, say `doyle_bask.14.tsv`, please proceed as follows:
 
@@ -71,7 +71,7 @@ Note that in the template, several columns are hidden. These are auxiliary colum
 
 Also note that automated pre-annotations might be incorrect. Except for `MARKER` (whose annotations should be replaced anyway), correcting an incorrect pre-annotation requires to leave a comment, either in an accompanying text file (annotation log), with reference to the corresponding sentence ID, or in the `COMMENT` column.
 
-## A.2 Annotation Tasks and Procedure
+## 1.2 Annotation Tasks and Procedure
 
 Annotation involves the following sub-tasks. Some of these tasks are automated, however, automated annotations, if found to be incorrect, should be corrected. In those cases, leave a comment in the `COMMENT` column.
 
@@ -94,7 +94,7 @@ Annotation involves the following sub-tasks. Some of these tasks are automated, 
 
 > **Note**: For 4.2.1 and 4.2.2, it seems most practical to answer these questions in tandem, i.e., to check first which discourse marker could be applied without having the text sounding unnatural and then identify the corresponding discourse relation on that basis. Inserting (or paraphrasing with) diagnosting discourse markers is an established technique for testing the applicability of a discourse relation. See Sect. A.4.2 for more detailed instructions.
 
-## A.3 Identifying the Main Predicate
+## 1.3 Identifying the Main Predicate
 
 For every sentence, we annotate the discourse relations of its core statement. Syntactically, the core statement is represented by the main predicate and its syntactic dependents. The main predicate is identified by the following rules:
 
@@ -108,7 +108,7 @@ Rule 3 is designed to rule out verbs of attribution as main predicates. Here, we
 
 - (1) _[Mr. Edelman said]<sub>ATTRIBUTION</sub> the decision ”[**has nothing to do**]<sub>PRED</sub> with Marty Ackerman.” [Mr. Ackerman contended]<sub>ATTRIBUTION</sub> that it [**was a direct response**]<sub>PRED</sub> to his efforts to gain control of Datapoint._ (PDTB3, wsj 0333)
 
-## A.4 Annotating Discourse Markers
+## 1.4 Annotating Discourse Markers
 
 Discourse markers are cues that overtly mark discourse relations. For English, this primarily includes
 
@@ -122,7 +122,7 @@ We distinguish three kinds of discourse markers:
 - Alternative lexicalizations are phrasal expressions that convey the same meaning as a discourse marker and that could be paraphrased by a discourse marker. They are, however, not grammaticalized as discourse markers. Annotators should write these phrases as plain strings, and add a discourse marker that could be used as paraphrase after that in square brackets.
 - Implicit discourse markers are not stated in the text. Annotators should write them in round brackets.
 
-### A.4.1 Annotating Explicit Discourse Markers
+### 1.4.1 Annotating Explicit Discourse Markers
 
 Explicit discourse markers are drawn from the following grammatical classes (Prasad et al. 2007):
 
@@ -172,7 +172,7 @@ Adverbials should be annotated as discourse markers only if they establish a rel
 
 In the current workflow, the first candidate discourse marker is automatically annotated. However, note that this has been heuristically extracted and may include discourse markers not modifying the main predicate, or expressions that *could* serve as discourse markers but that don't in this particular context. Thus, in the column `MARKER`, these are always shown with a question mark and to be confirmed (or replaced) by manual annotation. Discourse markers with question marks are considered an error.
 
-### A.4.2 Annotation of implicit discourse markers
+### 1.4.2 Annotation of implicit discourse markers
 
 If an utterance does not feature an explicit discourse marker, annotators should try to test whether an explicit discourse marker could be inserted or whether another discourse relations applies. Example (14) shows an example of an implicit *because* inserted to connect two adjacent utterances
 
@@ -194,7 +194,7 @@ For annotating implicit discourse markers, annotators should use the list of dis
 
 > Note: Unlike PDTB2, the annotation of implicit relations is not limited to adjacent utterances.
 
-### A.4.3 Alternative Lexicalizations
+### 1.4.3 Alternative Lexicalizations
 
 Many researchers distinguish discourse markers and alternative lexicalizations, i.e., a phrasal expression that conveys the meaning of a discourse marker that could be used in its place in a more or less equivalent way (e.g., *This observation leads us to conclude that ...* in place of *Thus, ...*). If such phrases are no longer than 5 words, annotators should annotate such phrases as explicit discourse markers. If such phrases are longer than 5 words, proceed as follows:
 
@@ -204,11 +204,11 @@ If the discourse marker you provided could also be used *in addition to* the alt
 
 - provide the discourse marker you inferred in round brackets. 
 
-## A.5 Relation Inventory
+## 1.5 Relation Inventory
 
 AURIS discourse relations are organized in a hierarchy that is also used to define selection preferences for annotation.
 
-### A.5.1 Top-Level Organization
+### 1.5.1 Top-Level Organization
 
 - **ADVERSATIVITY**: discourse relations concerned with highlighting prominent differences between the situations presented in utterance and anchor.
 - **CONTINGENCY**: discourse relations in which one of the situations described in utterance and anchor causally influences the other, i.e., it provides a reason, explanation or justification in the other situation.
@@ -219,7 +219,7 @@ AURIS discourse relations are organized in a hierarchy that is also used to defi
 
 In addition to these, we use **NoRel** to mark utterances for which no anchor can be established.
 
-### A.5.2 Annotation Principles
+### 1.5.2 Annotation Principles
 
 - if the main predicate carries more than one explicit discourse marker, annotate the first explicit discourse marker
 - if there is no discourse marker or the discourse marker is ambiguous with respect to the discourse relation it encodes:
@@ -270,7 +270,7 @@ If an utterance can take more than one sentence as anchor, annotate the most pro
 
 According to Bunt et al. (2012), (19.5) actually refers back to (19.1) - (19.4), but we annotate only (19.4) as anchor. (19.7), then, takes scope over (19.1) - (19.4) _and_ (19.6), but we only annotate the relation to (19.6). 
 
-### A.5.3 Overall hierarchy and diagnostic markers
+### 1.5.3 Overall hierarchy and diagnostic markers
 
 The top level of the hierarchy follows PDTB2, the middle level represents SemAF relations, the third level represents SemAF attribute roles.
 
@@ -334,11 +334,11 @@ The top level of the hierarchy follows PDTB2, the middle level represents SemAF 
 | - `Feedback`                       | (turn-taking not initiated by the addressee)                   |
 | **EntRel**                         | (no relation other than coreference between utterance and anchor) |
 
-## A.6 Discourse Relations: `ADVERSATIVITY`
+## 1.6 Discourse Relations: `ADVERSATIVITY`
 
 Discourse relations concerned with highlighting differences between the situations described in the utterance and the anchor.
 
-### A.6.1 `Concession`
+### 1.6.1 `Concession`
 
 `Concession` is used when an causal relation expected from one of the arguments is cancelled or denied by the situation described in the other. Concession is related to CONTRAST in that it highlights a difference between utterance and anchor. Semantically, the connective indicates that one of the sentences describes a situation A which causes C, while the other asserts (or implies) ¬C. Alternatively, one sentences denotes a fact that triggers a set of potential consequences, while the other denies one or more of them (cf. Bunt & Prasad 2016, Prasad et al. 2007, p.32,34; Webber et al. 2019a, p.24). Diagnostic discourse markers (either at the `expectation-raiser` or the `contra-expectation` argument) are _although_ or _even though_, a diagnostic discourse marker at `contra-expectation` is _however_. Note that _but_, taken as diagnostic discourse marker of `Contrast` is usually also applicable to `Concession`. Annotate `Concession` for cases in which `however` can be used in place of `but`.
 
@@ -370,7 +370,7 @@ Annotate utterances whose discourse relation is ambiguous between “expectation
 
 - (22) Besides, to a large extent, Mr. Jones may already be getting what he wants out of the team, **even though** it keeps losing. (PDTB2, 1411)
 
-### A.6.2 `Contrast`
+### 1.6.2 `Contrast`
 
 In `Contrast`, the utterance and the anchor share a predicate or property and a difference is highlighted with respect to the values assigned to the shared property. The truth of both arguments is independent of the connective or the established relation, i.e., neither argument describes a situation that is asserted on the basis of the other one, and thus, there is no directionality in the interpretation of the arguments (Bunt & Prasad 2016, Prasad et al. 2007, p.32). This is the main difference in comparison with the otherwise similar `Concession` relation. A diagnostic discourse marker for contrast is _but_.
 
@@ -390,9 +390,9 @@ Note that explicit discourse markers can also be used to underline a "pragmatic"
 
 > If annotators face difficulties to distinguish `Concession` and `Contrast`, check by paraphrasing with _although_ or _however_, whether a causal relation that is expected on the basis of one argument is denied by the other. If this is possible, annotate `Concession`, if not, annotate `Contrast`.
 
-## A.7 Discourse Relations: `CONTINGENCY`
+## 1.7 Discourse Relations: `CONTINGENCY`
 
-### A.7.1 `Causal`
+### 1.7.1 `Causal`
 
 In a `Causal` relation, one argument (`reason`) provides a reason, explanation or justification for the situation (`result`) described in other to come about or occur (cf. ISO 24617-8 CAUSE, Bunt & Prasad 2016; Webber et al. 2019a, p.19).
 
@@ -435,7 +435,7 @@ Likewise, `result` is to be used when the anchor is the reason for the speaker t
 
 For causal relations between utterance and anchor, annotators should normally apply `reason` or `result`. Only if the annotators could not uniquely specify the directionality, they should use `cause`, instead.
 
-### A.7.2 `Conditional` 
+### 1.7.2 `Conditional` 
 
 A `Conditional` relation relates a hypothetical (unrealized) scenario with its (possible) consequence. The consequence is a situation that holds when the condition is true. Unlike `Causal` relations, the truth value of the arguments of a `Conditional` relation cannot be determined independently of the connective. (PDTB Condition, Prasad et al. 2007, p.26,29; SemAF CONDITION).
 
@@ -461,7 +461,7 @@ The anchor represents a condition, i.e., an unrealized situation which, when rea
 
 - (27) *“I’ve heard that there is $40 billion taken in nationwide by boiler rooms every year,” Mr. McClelland says. “**If that’s true [So]**, Orange County has to be at least 10% of that.”* (PDTB2, 1568)
 
-### A.7.3 `Negative Condition`
+### 1.7.3 `Negative Condition`
 
 One sentence represents an unrealized situation (negated condition)  which, if it does **not** occur, would lead to the consequent described in the other (Bunt & Prasad 2016; Webber et al. 2019a, p.23).
 
@@ -485,7 +485,7 @@ The anchor describes an unrealized situation which, when not realized, leads to 
 
 - (29) *This will prevent a slide in industrial production, which will **otherwise** cause new panic buying.* (PDTB3, wsj 1646, INTRASENTENTIAL)
 
-### A.7.4 `Purpose`
+### 1.7.4 `Purpose`
 
 In a `Purpose` relation, the `goal` enables the `enablement`, i.e., one sentence presents an action that an AGENT undertakes with the purpose of the GOAL conveyed by the other sentence being achieved. Usually (but not always), the agent undertaking the action is the same agent aiming to achieve the goal (Bunt & Prasad 2016; Webber et al. 2019a, p.21). This relation is similar to `Causal` and `Conditional` relations, the main difference is that the former are neutral with respect to individual engagement whereas `Purpose` relations presume some level of agency on behalf of the speaker, the hearer or another agent addressed or involved in the situation described. `Purpose` requires a volitional agent, a diagnostic marker for the `goal` role is _in order to_, a diagnostic marker for the `enablement` is _for that purpose_ (Webber et al. 2019b).
 
@@ -504,16 +504,16 @@ The utterance describes a situation that enables the goal (purpose) described in
 
 - (31) *She ordered the foyer done in a different plaid planting, and **[Implicit=for that purpose]** made the landscape architects study a book on tartans.* (PDTB3, wsj 0984, INTRASENTENTIAL)
 
-## A.8 Discourse Relations: `TEMPORAL`
+## 1.8 Discourse Relations: `TEMPORAL`
 
-### A.8.1 `Synchrony`
+### 1.8.1 `Synchrony`
 
 `Synchrony` applies if the situations described in the utterance and the anchor have some degree of temporal overlap, i.e., if the two situations started and ended at the same time, if one was temporally embedded in the other, or if the two crossed. Diagnostic connectives are _while_ and _when_ (Bunt & Prasad 2016; PDTB2 Synchronuous in Prasad et al. 2007, p.27-28). 
 
 - (32.1) *Then, in late-afternoon trading, hundred-thousand-share buy orders for UAL hit the market, including a 200,000-share order through Bear Stearns that seemed to spark UAL’s late price surge. **Almost simultaneously**, PaineWebber began a very visible buy program for dozens of stocks.* (PDTB3, wsj 1208)
 - (32.2) *The parishioners of St. Michael and All Angels stop to chat at the church door, as members here always have. **[Implicit=while]** In the tower, five men and women pull rhythmically on ropes attached to the same five bells that first sounded here in 1614.* (PDTB3, wsj 0089)
 
-### A.8.2 Asynchrony
+### 1.8.2 Asynchrony
 
 The utterance stands in a temporal order with the situation described in the anchor (Bunt & Prasad 2016, Prasad et al. 2007, p.27).
 
@@ -532,9 +532,9 @@ The situation described in the anchor temporally precedes the situation describe
 - (34.2) *The Artist has his routine. He spends his days sketching passers-by, or trying to. **[Implicit=then]** At night he returns to the condemned building he calls home.* (PDTB3, wsj 0039)
 - (34.3) *The daughters will bake cakes. **Then**, it will be time for presents.* (Żurowski et al. 2023, p.486, translated from Polish)
 
-## A.9 Discourse Relations: `EXPANSION`
+## 1.9 Discourse Relations: `EXPANSION`
 
-### A.9.1 `Conjunction`
+### 1.9.1 `Conjunction`
 
 In `Conjunction`, utterance and anchor feature the same relation to some other situation evoked in the discourse. As an example, this includes a list, defined in prior discourse, where `Conjunction` is the relation between the list elements. A discourse marker for conjunction indicates that utterance and anchor, or the entities mentioned therein are doing the same thing with respect to that situation (Bunt & Prasad 2016). The situation described in the utterance provides additional, discourse new, information that is related to the situation described in the anchor, but not in any other, more specific discourse relation. The semantics are thus no more than that of a logical ∧ (and). Diagnostic connectives are _also_, _in addition_, _additionally_, _further_, etc. (Prasad et al. 2007, p.37; Webber et al. 2019a, p.25-26). A frequent discourse marker is also _and_, but note that this is ambiguous between this and other discourse relations.
 
@@ -544,7 +544,7 @@ In `Conjunction`, utterance and anchor feature the same relation to some other s
 - (35.2) *I can adjust the amount of insurance I want against the amount going into investment; **[Implicit=Conjunction]** I can pay more or less than the so-called target premium in a given year.* (PDTB3, wsj 0041)
 - (35.3) *But other than the fact that besuboru is played with a ball and a bat, it’s unrecognizable: Fans politely return foul balls to stadium ushers; **[Implicit = further]** the strike zone expands depending on the size of the hitter;* (PDTB2, 0037)
 
-### A.9.2 `Disjunction`
+### 1.9.2 `Disjunction`
 
 In `Disjunction`, utterance and anchor denote alternative situations that bear the same relation to some other situation evoked in the discourse and that make a similar contribution with respect to that third situation (Bunt & Prasad 2016; Prasad et al. 2007, p.36; Webber et al. 2019a, p.26). We do not distinguish as to whether both situations can hold simultaneously (logical or) or they are mutually exclusive (exclusive or). A diagnostic discourse marker is _or_.
 
@@ -552,7 +552,7 @@ In `Disjunction`, utterance and anchor denote alternative situations that bear t
 based on something called ”scholarship,” rather than on the government’s idea of ”service.” **Or** we might
 provide a tax credit for working students. [CONTEXT:] If we want to support students, we might adopt the idea used in other countries of offering more scholarships based on something called “scholarship,” rather than on the government’s idea of “service.”.* (PDTB3, wsj 2407)
 
-### A.9.3 `Restatement`
+### 1.9.3 `Restatement`
 
 In `Restatement`, the utterance describes the same situation as the anchor, but from a different perspective, e.g., when describing the same situation as presented before using the speaker’s own words (Bunt & Prasad 2016; PDTB2 Restatement/equivalence, Prasad et al. 2007, p.35-36, Webber et al. 2019a, p.26). A diagnostic discourse marker is _in other words_.
 
@@ -561,7 +561,7 @@ In `Restatement`, the utterance describes the same situation as the anchor, but 
 - (37.3) *But the battle is more than Justin bargained for. **[implicit=indeed]** ”I had no idea I was getting in so deep,” says Mr. Kaye, who founded Justin in 1982.* (PDTB3, wsj 2418)
 - (37.4) *When the consumer had no more money and remembered the policy, he would learn at the company’s headquarters about the so-called policy surrender value coefficient. **In other words,** he did not receive what he had paid.* (Żurowski et al. 2023, p.486)
 
-### A.9.4 `Exception`
+### 1.9.4 `Exception`
 
 In `Exception`, the `regular` evokes a set of circumstances in which the described situation holds, while the `exception` indicates one or more instances where it doesn't (Bunt & Prasad 2016; Webber et al. 2019a, p.27).
 	
@@ -581,7 +581,7 @@ The utterances specifies an exception to the generalization specified by the anc
 		
 - (39) *Boston Co. officials declined to comment on Moody’s action on the unit’s financial performance this year **except** to deny a published report that outside accountants had discovered evidence of significant accounting errors in the first three quarters’ results.* (PDTB2, 1103, INTRASENTENTIAL)
 
-### A.9.5 `Exemplification`
+### 1.9.5 `Exemplification`
 
 In `Exemplification`, one sentence describes a set of situations; the other an element of that set (Bunt & Prasad 2016).
 
@@ -601,7 +601,7 @@ The utterance provides one or more instances of the circumstances described by t
 - (41.3) *And regional offices were “egregiously overstaffed,” he claims. **[Implicit=for example]** One office had 19 people doing the work of three, ...* (PDTB3, wsj 0305)
 - (41.4) *So far, the mega-issues are a hit with investors. **[Implicit, For example]** Earlier this year, Tata Iron & Steel Co.’s offer of $355 million of convertible debentures was oversubscribed.* (Prasad et al. 2017, p.8)
 
-### A.9.6 `Elaboration`
+### 1.9.6 `Elaboration`
 
 Both sentences describe the same situation, but in less or more detail (Bunt & Prasad 2016; PDTB3 Level-of-Detail in Webber et al. 2019a, p.27). 
 
@@ -620,7 +620,7 @@ The utterance describes the situation described in the anchor in more detail. Di
 - (43.2) *An enormous turtle has succeeded where the government has failed: **[Implicit = specifically]** He has made speaking Filipino respectable.* (PDTB2, 0804)
 - (43.3) *The Treasury Department said the U.S. trade deficit may worsen next year, after two years of significant improvement. **[Implicit=Specifically]** In its report to Congress on international economic policies, the Treasury said that any improvement in the broadest measure of trade, known as the current account, ”is likely at best to be very modest,” and ”the possibility of deterioration in the current account next year cannot be excluded.”* (Prasad et al. 2017, p. 12)
 
-### A.9.7 `Manner`
+### 1.9.7 `Manner`
 
 In `Manner`, the `means` argument describes a way in which the `achievement` comes about or occurs (Bunt & Prasad 2016). Manner answers “how” questions such as “How were the children playing?” (Webber et al. 2019a, p.28).
 
@@ -640,7 +640,7 @@ The anchor describes a way in which the achievement described in the utterance c
 - (45.1) *McCaw is offering $125 a share for 22 million LIN shares, **thereby** challenging LIN’s proposal to spin off its television properties, pay shareholders a $20-a-share special dividend and combine its cellular-telephone operations with BellSouth’s cellular business.* (PDTB3, wsj 2443, INTRASENTENTIAL)
 - (45.2) *Long-debated proposals to simplify the more than 150 civil penalties **[Implicit=thereby]** and make them fairer and easier to administer are in the House tax bill.* (PDTB3, wsj 0293)
 
-### A.9.8 `Substitution`
+### 1.9.8 `Substitution`
 
 Two mutually exclusive alternatives are evoked in the discourse but only one is taken, the other is ruled out. A diagnostic discourse marker is the connective _instead_ (PDTB2 chosen alternative, Prasad et al. 2007, p.36; Webber et al. 2019a, p.29-30). To some extent, the same discourse markers can be used for `Substitution` and `Exception`, the difference is that `Exception` is an observation and grounded in facts, whereas `Substitution` involves a conscious choice or preference.
 
@@ -662,7 +662,7 @@ In comparison with the disfavoured alternative presented in the anchor, the situ
 
 > **Note**: Following Bunt and Prasad (2016), this is grouped under PDTB Expansion. However, RST Antithesis is much more defined along the lines of contrast, so, it might be better put there?
 
-### A.9.9 `Similarity`
+### 1.9.9 `Similarity`
 
 In `Similarity`, one or more similarities between the utterance and the anchor are highlighted with respect to what each predicates as a whole or to some entities they mention (Bunt & Prasad 2016; Webber et al. 2019a, p.25). Diagnostic discourse markers include _similarly_,  _like_ or _also_. We also take the discourse marker _as well_ to designate `Similarity`.
 
@@ -673,7 +673,7 @@ In `Similarity`, one or more similarities between the utterance and the anchor a
 
 > **Note**: `Similarity` is closely related to `Conjunction`. Annotate `Similarity` if an element of comparison (but not contrast) is involved, annotate `Conjunction` is no such aspect is to be found.
 
-#### A.9.10 `Hypophora`
+#### 1.9.10 `Hypophora`
 
 Hypophora is used when the utterance represents an answer to a rhetorical question presented in the anchor. If there is a semantic discourse relation connecting the situation described with another anchor in the discourse, annotate this as the relation of the question (the anchor of `Hypophora`). The diagnostic criterion is that the anchor has the form of a question, that the answer is immediately provided by the speaker and that no answer from the addressee is expected. 
 
@@ -683,7 +683,7 @@ Note that this also includes reported answers as in (48.2).
 
 - (48.2) But can Mr. Hahn carry it off? **[HYPOPHORA]** In this instance, industry observers say, he is entering uncharted waters. (PDTB3, wsj 0100)
 
-#### A.9.11 `Attribution`
+#### 1.9.11 `Attribution`
 
 We do not consider attribution a discourse relation in its own right. However, as we perform sentence-level annotation over pre-determined sentence splits, it is possible that an attribution phrase gets detached from the reported statement. In those cases, annotate the utterance expressing the attribution with an `Attribution` relation that takes the statement (resp., its closest sentence) as anchor:
 
@@ -691,7 +691,7 @@ We do not consider attribution a discourse relation in its own right. However, a
 
 Note that example (49) originally had a *paragraph break* between the attribution sentence and the statement.
 
-## A.10 Discourse Relations: `DIALOG`
+## 1.10 Discourse Relations: `DIALOG`
 
 Dialog relations are to be annotated if and only if turn-taking between multiple speakers applies and no other discourse relation is explicitly signalled. In this case, annotate the discourse function.
 
@@ -702,7 +702,7 @@ We follow ISO 24617-8 (Bunt et al. 2012, p.431; Bunt et al. 2019) in distinguish
 
 > **Note**: AURIS dialog relations are only to be annotated if they occur after turn-taking and no other discourse relation applies. Dialog relations do not apply when the subsequent text relates to a question in other ways – for example, in the case of rhetorical questions that are posed for dramatic effect or to make an assertion, rather than to elicit an answer (Webber et al. 2019a, p.9). Rhetorical questions are excluded from this group and to be annoted as `Hypophora`, instead.
 
-### A.10.1 `Functional dependence` 
+### 1.10.1 `Functional dependence` 
 
 In `Functional dependence`, the utterance is a dialogue act that is responsive in nature and that address the information communicated in the utterances; the anchor is the dialogue act that the utterance responds to (Bunt & Prasad 2016, Bunt et al. 2019). Diagostic paraphrases include (semantically empty) responses such as “Yes”, “No thanks”, “No problem”, and “OK” (Bunt et al. 2012, p.432). In AURIS, functional dependence relations involve the explicit elicitation of the response as an anchor -- either directly by a question, request or suggestion, or indirectly with a statement that the addressee reacts to. 
 
@@ -785,7 +785,7 @@ We include both positive and negative responses to suggestions under `address-su
 
 If an utterance dialog act is in response to the content of an utterance by the addressee but none of the aforementioned communicative functions applies, annotate as `dependent-act` and leave a comment.
 
-### A.10.2 `Feedback`
+### 1.10.2 `Feedback`
 
 Feedback utterances are about the processing of a communicative event that occured earlier in the discourse. 
 
@@ -803,7 +803,7 @@ Feedback includes phenomena such as clarification questions (55.1) and confirmat
 	- A: *and keep going down south.* **[Feedback]** B: *mmhmm*
 	- A: *we are going to go due south straight south and then we’re going to turn straight back round and head north past an old mill on the right hand side.* **[Feedback]** B: *due south and then back up again*
 
-## A.11 Entity Relations: `EntRel`
+## 1.11 Entity Relations: `EntRel`
 
 If no other discourse relation can be annotated, but the utterance stands in an entity-based coherence relation with the anchor (i.e., anchor and utterance contain referring expressions that stand in an anphoric/coreferential relation with each other), then annotate an entity relation (`EntRel`).
 
@@ -815,7 +815,7 @@ If an entity relation holds between the utterance and several candidate anchors 
 
 - (56.2) HOLIDAY ADS: Seagram will run two interactive ads in December magazines promoting its Chivas Regal and Crown Royal brands. The Chivas ad illustrates – via a series of pullouts – the wild reactions from the pool man, gardener and others if not given Chivas for Christmas. The three-page Crown Royal ad features a black-and-white shot of a boring holiday party – and a set of colorful stickers with which readers can dress it up. **[EntRel]** Both ads were designed by Omnicom’s DDB Needham agency. (PDTB2, 0989)
 
-## A.12 Troubleshooting
+## 1.12 Troubleshooting
 
 - pairwise discourse markers: Annotate independently. As both parts refer to each other, this creates a cycle in the annotation.
 
@@ -861,98 +861,4 @@ If an entity relation holds between the utterance and several candidate anchors 
 	In the following example, the main predicate is the reported statement in the first relative clause ("the 90-cent-an-hour rise ... is too small for the working poor"). In line with UD conventions, we consider the coordinated main clause ("opponents argued ...") to be subordinate to  the first main clause. 
 
 	- (57.5) _Advocates said_ the 90-cent-an-hour rise, to $4.25 an hour by April 1991, is too small for the working poor, while opponents argued that the increase will still hurt small business and cost many thousands of jobs. (PDTB2 0098) 
-
-## A.13 Addenda
-
-The following addenda are not relevant for annotation, but for conversion of data between different schemas.
-
-### A.13.1 Relation Mapping
-
-The following table provides a mapping between AURIS relations and other schemas, based on Bunt and Prasad (2016). AURIS definitions are primarily based on (descriptions and applications of) ISO 24617-8 and guidelines for PDTB1, PDTB2 and PDTB3.
-
-| AURIS                         | ISO 24617-8                   | PDTB2 (PDTB3)                          | SDRT       | RST (RSTDTB)                         | 
-| ----------------------------- | ----------------------------- | ---------------------------------------| ---------- | ------------------------------------ |
-| `ADVERSATIVITY`               |                               | COMPARISON                             |            |                                      |
-| - `Concession`                | Concession                    | Concession                             | (Contrast) | Concession (Antithesis, Preference)  |
-| &nbsp; - `expectation-raiser` | Concession/Expectation-raiser | Expectation (Concession.arg1-as-denier)|            |                                      |
-| &nbsp; - `contra-expectation` | Concession/Expectation-denier | Contra-Expectation (Concession.arg2-as-denier) |    |                                      |
-| &nbsp; - `concession` 		| Concession                    | Concession                             |            |                                      |
-| - `Contrast`                  | Contrast                      | Contrast, juxtaposition, opposition    | Contrast   | Contrast (Comparison)                |
-| `CONTINGENCY`                 |                               | CONTINGENCY                            |            |                                      |
-| - `Causal`                    | Cause                         | Cause                                  |            |                                      | 
-| &nbsp; - `reason`             | Cause/Reason                  | Cause.reason, justification, explanation | Explanation | Vol./Non-vol. Cause, Evidence, Justify (Explanation-argumentation, Reason) | 
-| &nbsp; - `result`             | Cause/Result                  | Cause.result                           | Result     | Vol./Non-vol. Result                 |
-| &nbsp; - `cause`              | Cause                         | Cause                                  |            |                                      |
-| - `Conditional`               | Condition                     |                                        |            |                                      |
-| &nbsp; - `condition`          | Condition/Antecedent          | Condition                              | (Conditional) | Condition (Hypothetical)          |
-| &nbsp; - `consequence`        | Condition/Consequent          | (inverse of Condition)                 | Consequence | (Contingency)                       |
-| - `Negative_Condition`        | Negative Condition            |                                        |             |                                     |
-| &nbsp; - `neg_condition` | Negative Condition/Negated Antecedent | Condition (Negative Condition)      | (Conditional) |                                   |
-| &nbsp; - `neg_consequence`    | Negative Condition/Consequent | (inverse of Condition)                 | Consequence | Otherwise                           |
-| - `Purpose`                   | Purpose                       | (Purpose)                              |             | Purpose                             |
-| &nbsp; - `goal`               | Purpose/Goal                  | Result (Purpose.Arg2-as-goal)          | (Explanation, Goal) |                             |
-| &nbsp; - `enablement`         | Purpose/Enablement            | (Purpose.Arg1-as-goal)                 |             |                                     |
-| `TEMPORAL`                    |                               | TEMPORAL                               |             |                                     |
-| - `Synchrony`                 | Synchrony                     | Synchronuous                           |             | (Temporal-same-time)                |
-| - `Asynchrony`                | Asynchrony                    |                                        |             | Sequence                            | 
-| &nbsp; - `before`             | Asynchrony/Before             | precedence               | (Precondition, Flashback) | (Temporal-before, Inverted-sequence) |
-| &nbsp; - `after`              | Asynchrony/After              | succession                             | Narration   | (Temporal-after, Sequence)          |
-| `EXPANSION`                   |                               | EXPANSION                              |             |                                     |
-| - `Exception`                 | Exception                     | Exception                              |             |                                     |
-| &nbsp; - `regular`            | Exception/Regular             | (Exception.Arg1-as-excpt)              |             |                                     |
-| &nbsp; - `exception`          | Exception/Exception           | Exception (Arg2-as-excpt)              |             |                                     |
-| - `Substitution`              | Substitution                  |                                        |             | Antithesis                          |
-| &nbsp; - `disfavoured`        | Substitution/Disfavoured-alternative | (Substitution.Arg1-as-Subst)    |             |                                     |
-| &nbsp; - `favoured`           | Substitution/Favoured-alternative | Chosen-alternative (Substitution.Arg2-as-Subst) | |                                    | 
-| - `Exemplification`           | Exemplification               |                                       |              |                                     |
-| &nbsp; - `set`                | Exemplification/Set           | (Instantiation.Arg1-as-instance)      |              |                                     |
-| &nbsp; - `instance`           | Exemplification/Instance      | Instantiation (Arg2-as-instance)      | Elaboration  | Elaboration (set-member, Example)   |
-| - `Elaboration`               | Elaboration                   | (Level-of-detail)                     |              |                                     |
-| &nbsp; - `broad`              | Elaboration/Broad             | Generalization (Level-of-detail.Arg1-as-detail) |    |                                     | 
-| &nbsp; - `specific`           | Elaboration/Specific          | Restatement.specification (Level-of-detail.Arg2-as-detail) | Elaboration  | Elaboration (general-specific, whole-part, process-step; Conclusion) |
-| - `Manner`                    | Manner                        | (Manner)                               | Elaboration |                                     |
-| &nbsp; - `means`              | Manner/Means                  | (Manner.Arg2-as-manner)                |             | (Means, Manner)                     |
-| &nbsp; - `achievement`        | Manner/Achievement            | (Manner.Arg1-as-manner)                |             |                                     |
-| - `Restatement`               | Restatement                   | Restatement.equivalence (Equivalence) | Elaboration  | Restatement (Summary)               |
-| - `Disjunction`               | Disjunction                   | conjunctive, disjunctive              | Alternation  | Joint (Disjunction)                 |
-| - `Conjunction`               | Conjunction                   | Conjunction, List                     | Continuation | Joint (List)                        |
-| - `Similarity`                | Conjunction (Similarity)      |                                       | Parallel     | (Analogy, Proportion)               |
-| - `Hypophora`                 | n/a                           | n/a (Hypophora)                       |              |                                     |
-| - `Attribution`               | n/a                           | (Attribution)                         |              |                                     |
-| `DIALOG`               | ISO 24617-2, communicative functions |                                       |              |                                     |
-| - `Functional-Dependence`     | Functional-dependence/dependent-act |                                 |              |                                     |
-| &nbsp; - `answer`             | ISO 24617-2: `Answer`         |                                       |              |                                     |
-| &nbsp; - `offer`              | ISO 24617-2: `Offer`          |                                       |              |                                     |
-| &nbsp; - `address suggest`   | ISO 24617-2: `Address Suggest` |                                       |              |                                     |
-| &nbsp; - `agreement`          | ISO 24617-2: `Agreement`      |                                       |              |                                     |
-| &nbsp; - `disagreement`       | ISO 24617-2: `Disagreement`   |                                       |              |                                     |
-| &nbsp; - `dependent-act`      | other dialog act)             |                                       |              |                                     |
-| - `Feedback`               | Feedback-dependence/feedback-act |                                       |              |                                     |
-| **EntRel**                    | Expansion/Entity description  | EntRel                                | Background, Elaboration | Elaboration (object-attribute, additional) |
-
-## References
-
-- Harry Bunt, Jan Alexandersson, Jae-Woong Choe, Alex Chengyu Fang, Koiti Hasida, Volha Petukhova, Andrei Popescu-Belis and David Traum (2017), ISO 24617-2: A semantically-based standard for dialogue annotation. LREC 2012.
-
-- Harry Bunt and Prasad, Rashmi (2016), ISO DR-Core (ISO 24617-8), Core concepts for the annotation of discourse relations, In: Proceedings 12th Joint ACL-ISO Workshop on Interoperable Semantic Annotation (ISA-12), p. 45-54
-
-- Harry Bunt, Emer Gilmartin, Simon Keizer, Catherine Pelachaud, Volha Petukhova, Laurent Prévot, and Mariët Theune (2018), Downward compatible revision of dialogue annotation. In Proceedings 14th Joint ACL-ISO Workshop on Interoperable Semantic Annotation, pp. 21-34. 2018.
-
-- Harry Bunt, Volha Petukhova, Andrei Malchanau, Alex Fang, and Kars Wijnhoven (2019), The DialogBank: dialogues with interoperable annotations. Language Resources and Evaluation 53 (2019): 213-249.
-
-- Harry Bunt, Volha Petukhova, Emer Gilmartin, Catherine Pelachaud, Alex Fang, et al. (2020), The ISO Standard for Dialogue Act Annotation, Second Edition. Proceedings of the 12th Language Resources and Evaluation Conference, May 2020, Marseille, France.
-
-- ISO (2010), Language resource management — Semantic annotation framework — Part 2: Dialogue acts, ISO/TC37/SC4 N723 Date: 2010-07-14, ISO/DIS 24617-2, ISO/TC 37/SC 4/WG 2, pre-publication draft from https://semantic-annotation.uvt.nl/DIS24617-2.pdf, referenced as ISO/DIS 24617-2
-
-- Rashmi Prasad, Eleni Miltsakaki, Nikhil Dinesh, Alan Lee, Aravind Joshi, Livio Robaldo (2007), The Penn Discourse Treebank 2.0 Annotation Manual, December 17, 2007, https://www.cis.upenn.edu/~elenimi/pdtb-manual.pdf, accessed 2023-11-09
-
-- Rashmi Prasad and Harry Bunt (2015), Semantic Relations in Discourse: The Current State of ISO 24617-8, Proceedings of the 11th Joint ACL-ISO Workshop on Interoperable Semantic Annotation (ISA-11), https://aclanthology.org/W15-0210
-
-- Rashmi Prasad, Katherine Forbey-Riley and Alan Lee (2017), Towards Full Text Shallow Discourse Relation Annotation: Experiments with Cross-Paragraph Implicit Relations in the PDTB, Proceedings of the SIGDIAL 2017 Conference, pages 7–16, Saarbrücken, Germany, 15-17 August 2017.
-
-- Bonnie Webber, Rashmi Prasad, Alan Lee, Aravind Joshi (2019a), The Penn Discourse Treebank 3.0 Annotation Manual, Language Data Consortium, https://catalog.ldc.upenn.edu/docs/LDC2019T05/PDTB3-Annotation-Manual.pdf, accessed 2023-11-13
-
-- Bonnie Webber, Rashmi Prasad and Alan Lee (2019b), Ambiguity in Explicit Discourse Connectives, COLING-2019, Gothenburg, Sweden.
-
-- Sebastian Żurowski, Daniel Ziembicki, Aleksandra Tomaszewska, Maciej Ogrodniczuk and Agata Drozd (2023), Adopting ISO 24617-8 for Discourse Relations Annotation in Polish: Challenges and Future Directions. In Proceedings of the 4th Conference on Language, Data and Knowledge (pp. 482-492).
 
