@@ -27,7 +27,7 @@ Annotate all referents in the order that they occur in the text with
 
 3. `COMMENT` (optional comment): can contain free-text comments as well as ambiguity annotations (see below).
 
-In spreadsheet-based annotations, some of the values for refentiality are automatically suggested (`REF_AUTO`). This may help your decision for the annotation of `REF`, but please make sure to verify that properly.
+> Note: In spreadsheet-based annotations, some of the values for refentiality are automatically suggested (`REF_AUTO`). This may help your decision for the annotation of `REF`, but please make sure to verify that properly.
 
 Follow the following steps (and see below for additional instructions on the annotation of `REF`):
 
@@ -44,9 +44,9 @@ For every referent, after annotating discourse referent index and referentiality
 
 For annotating coreference, use user-defined abbreviation/mnemnonic/tag that indicates which referent a referring expression refers to, or `_` if the expression is not referential.
 
-> Note: The discourse referent tag, or "index", is an abbreviation that a user should chose at the first mention of the referent. Chains of antecedents and anaphors should all have the same index.	
+> Note: The discourse referent tag, or "index", is an abbreviation that a user should chose at the first mention of the referent. Chains of antecedents and anaphors should all have the same index. Create abbreviations/mnemnonics as you see fit. 
 
-> Note: In this document, we use numerical indexes for presentational reasons. In annotation, create abbreviations/mnemnonics as you see fit. Numerical indices are discouraged in actual annotation. 
+> Note: If annotating **on paper**, a suitable means of annotation is with numerical indices. For reasons of space, we also follow this practice in this document. However, when doing annotation **with the computer**, numerical indices are discouraged. Instead, use mnemnonics and create meaningful abbreviations as you see fit. 
 
 ### 4.3.1 Substitution Test
 
@@ -77,7 +77,7 @@ Note that antecedents of event anaphors are not automatically pre-annotated but 
 
 ## 4.4 Ambiguity
 
-Ambiguity can be annotated on demand in the `COMMENT` column.
+Ambiguity can be annotated on demand in the `COMMENT` column, see Appendix [WHERE].
 
 ### 4.4.1 Dealing with  Ambiguous Antecedents
 
@@ -99,50 +99,7 @@ For the example, the generic reading is excluded by the first preference.
 However, we still have the choice between two possible antecedents. The substitution test (see above) fails to determine a unique antecedent, as both possible substitutions are plausible, depending on whether "size" refers to physical size or anticipated defeat. 
 The second and third criteria are designed to produce longer anaphoric chains. They result in a preference for the German team as the antecedent of die Kicker.
 
-In annotation, then, **mark the ambiguity** (in `COMMENT`)
-
-### 4.4.2 Types of Ambiguity
-
-Ambiguity is to be annotated in the `COMMENT` field, using pre-defined tags (if applicable) or plain text descriptions (otherwise). Optionally, ambiguity tags can be followed by a more detailed description in round parentheses `(...)`.
-
-The following tags can be used to mark ambiguous 
-
-1. `AMBIG:COREF` (ambiguous antecedent):<sup>[7](lit.md#coref7)</sup> There is uncertainty as to which is the \"right\" antecedent for an anaphor (or, controller for a cataphor). See above for antecedent selection preferences, provide referent index for all equally likely antecedents in round parentheses
-
-	> (4) *In a letter, \[prosecutors\]<sub>p</sub> told \[Mr. Antar's lawyers\]<sub>l</sub> that because of the recent Supreme Court rulings, \[they\]<sub>p/l</sub>*<sub>?</sub> *could expect that any fees collected from Mr. Antar may be seized.*
-
-2. `AMBIG:REL`: There is uncertainty as to whether an anaphoric relation exists or which type it is (anaphoric vs. bridging or event, i.e. contextual inference)
-
-	This is sometimes the case with definite NPs. In the example below: If it is unclear whether the *confrontation* is identical to the *conflict*, the coreference should be annotated and the markable should be marked with this attribute. It is not necessary to provide a more detailed description.
-
-	> (5) *This <ins>conflict</ins> is ... Therefore, the <ins>confrontation</ins> ...*
-
-3. `AMBIG:IDIOM`: There is uncertainty as to whether a markable could be understood as a referential expression or as part of an idiom. Annotate anaphoric reading and mark the ambiguity.
-
-4. `AMBIG:EXPL`: There is uncertainty as to whether a pronoun is an expletive (and therefore non-referring) or whether it is anaphoric. Annotate the anaphoric relations and mark the ambiguity. No description necessary.
-
-	> (6) *At stake was an \$80,000 settlement involving who should pay what share of cleanup costs at the site of a former gas station, where underground fuel tanks had leaked and contaminated the soil. And the lawyers were just as eager as the judge to wrap \[it\] up.*
-
-	*It* can either be interpreted as referring to *an \$80,000 settlement* or as a part of a lexicalized expression *to wrap it up* where *it* does not have any particular reference. 
-
-	This can be made clearer with a constructed example:
-
-	> (7.a) *She looks out of the window. <ins>It</ins><sub>EXPL</sub> is dark.* (expletive)
-	
-	> (7.b) *Your <ins>cat</ins><sub>1</sub> has a nice color. <ins>It</ins><sub>1</sub> is dark, much more so than mine.* (anaphoric)
-	
-	> (7.c) *The <ins>cat</ins><sub>1</sub> is hard to see. <ins>It</ins><sub>1,AMBIG:EXPL</sub> is dark.* (ambiguous)
-
-5. `AMBIG:COREF_REL`: There is ambiguity with respect to both antecedent and relation
-
-	> (8) "There seems to be a move around the world to deregulate the genera- tion of electricity," Mr. Richardson said, and Canadian Utilities hopes to capitalize on it.
-
-	*On it* refers either to *a move around the world to deregulate the generation of electricity*, or to the whole clause beginning with
-	*there* and ending with *electricity* (event anaphora).
-
-6. `AMBIG:other`: other cases of ambiguity. Please provide a description in round parentheses.
-
-If more than one kind of ambiguity applies, e.g., both ambiguity of antecedent and ambiguity of an anaphoric relation, then provide all of the corresponding tags (and descriptions), separated by comma.
+In annotation, then, **mark the ambiguity** (in `COMMENT`, see Appendix on details).
 
 ## 4.5 Referentiality (`REF`)
 
@@ -150,7 +107,7 @@ Every markable that is not assigned an antecedent is to be annotated for referen
 
 In spreadsheet-based annotations, some of the values are automatically suggested in `REF_AUTO`. Please make sure to verify all of them. Automated pre-annotation generates the value `?OLD` for all candidate anaphors ("primary markables") and, optionally, `?NEW` for all other candidate referring expressions ("secondary markables"). 
 
-> **To be confirmed**: These values need to be manually replaced by the annotator. An annotation project that still contains `?OLD` or `?NEW` annotations will be considered incomplete and must not be further processed.
+> These values are useful for navigating in spreadsheets. They do not need to be manually corrected by the annotator. Instead, use the `REF` column to provide your own annotation. But also `?REF` can be automatically prepropulated, and any annotation project that still contains `?OLD` or `?NEW` annotations in the `REF` column will be considered incomplete and must not be further processed.
 
 1. `OLD`: A unit of discourse that can be interpreted based on the preceding context ("discourse-old").<sup>[2](lit.md#coref2)</sup>
 
@@ -172,7 +129,7 @@ In spreadsheet-based annotations, some of the values are automatically suggested
 
 	Note that the second reference to *the companies* in (9.c) is annotated as a **plain anaphoric reference** to the established group, not as a group reference to the individual companies mentioned in the meantime.
 
-4. `BOUND`: Pronouns that are syntactically bound, e.g. reflexive pronouns. Also, possessive pronouns governed by nominal expressions in the same sentence are annotated as `BOUND`, cf. in (8.b) below *Mit <ins>seinem</ins><sub>3,BOUND</sub> Tor*.<sup>[6](lit.md#coref6)</sup>
+4. `BOUND`: Pronouns that are syntactically bound, e.g. reflexive pronouns. Also, possessive pronouns governed by nominal expressions in the same sentence are annotated as `BOUND`, cf. in (8.b) below *Mit <ins>seinem</ins><sub>3,BOUND</sub> Tor*.<sup>[6](lit.md#coref6)</sup>.
 
 	> Notes: Reflexive pronouns (which are obligatorily bound) are not annotated as markables if they can be identified on grounds of their form (e.g., English *himself*, German *sich*). Only if a form is ambiguous between a reflexive and pronominal reading (e.g., German *mich*), reflexive pronouns are annotated as `BOUND`.
 
@@ -226,11 +183,15 @@ In spreadsheet-based annotations, some of the values are automatically suggested
 	
 	> (14.c) *Und dann warf sie \[die Flinte\]<sub>NM</sub> \[ins Korn\]<sub>NM</sub>.* (German)
 
-	> Note: Referring expressions in productive, transparent metaphors that are sufficiently transparent should be annotated like anaphoric expressions. The annotator may add `AMBIG:IDIOM`if not sure about their annotation. In (7.d), *der Spatz in der Hand*, a definite NP in German, can be generic, part of an idiom, or referring:
+	> Note: Referring expressions in productive, transparent metaphors that are sufficiently transparent should be annotated like anaphoric expressions. The annotator may add `AMBIG:IDIOM` if not sure about their annotation. In (7.d), *der Spatz in der Hand*, a definite NP in German, can be generic, part of an idiom, or referring:
 
 	> (14.d) *Lieber \[der Spatz in der Hand\] als \[die Taube auf dem Dach\]*    (PCC, 12666) "A bird in the hand is worth two in the bush" (Context: a mayor finds an investor for his town willing to make only minimal investments).
 
 	> (14.e) *So lässt sich \[das schlingernde City-Schiff\]<sub>PM</sub> vielleicht doch noch auf einen erfolgversprechenden Kurs bringen.* (German, maz-18914, here, a reference to a city is made, but combined with the metaphorical image of a ship in troubled water, for which the substitution test would fail)
+
+	Note that we also annotate apparent referring expressions in grammaticalized phrases as `IDIOM`, e.g., *in the face of* in (14.f)
+
+	> (14.f) People in the **Face** of Modern Warfare (Fel, S., Niewiadomska, I., & Lenart-Kłoś, K. (2022). People in the Face of Modern Warfare: Relationships Between Resource Distribution and Behaviour of Participants in the Hostilities in Ukraine. V&R unipress.)
 
 8. `other`: other, non-referring expression, please provide a description in round parentheses. Includes, for example, NPs under the scope of a negation that cannot be referred to
 
@@ -329,8 +290,8 @@ In case of doubt between syntactic cataphora or anaphora, decision has to be mad
 > (25.a) *Die einstige Fußball-Weltmacht zittert \[vor einem
 Winzling\]s.*
 
-> (25.b) *\[Mit \[seinem\]s Tor zum 1:0 fu¨r die Ukraine\] stu¨rzte
-\[der 1,62 Meter große Gennadi Subow\]s \[die deutsche Nationalelf\] voru¨bergehend in ein Trauma.*
+> (25.b) *\[Mit \[seinem\]s Tor zum 1:0 für die Ukraine\] stürzte
+\[der 1,62 Meter große Gennadi Subow\]s \[die deutsche Nationalelf\] vorübergehend in ein Trauma.*
 
 In the example, *seinem* refers to *Gennadi Subow* who was introduced in the very first sentence as *vor einem Winzling*. Following the preferences, we establish an anaphoric (cataphoric) link to the right.
 Thus, the anaphoric chain looks as follows:
