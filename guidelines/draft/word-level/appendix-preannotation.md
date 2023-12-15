@@ -1,6 +1,6 @@
-# X. Technical Appendix
+# B. Technical Appendix
 
-# X.1. Automated Pre-Annotation of Referring Expressions (Markables)
+# B.1. Automated Pre-Annotation of Referring Expressions (Markables)
 
 This text extends Sect. 3 with information about the automated pre-annotation of candidate referring expressions.
 
@@ -13,7 +13,7 @@ This document contains the guidelines for the algorithm. Normally, this is irrel
 
 We describe `NP_FORM` and `REF_AUTO` as part of markable identification. `GR` annotation is described separately.
 
-## X.1.1 Types of Markables
+## B.1.1 Types of Markables
 
 The annotation task is to process each text in reading order and annotate/verify all markables (automatically pre-annotated) and their antecedents (including cases in which these are not pre-annotated).
 
@@ -41,7 +41,7 @@ For every text,
 
 Candidate antecedents may also be outside this set, and will not be automatically annotated, in particular, event anaphor.
 
-## X.1.2 Identifying the Syntactic Head
+## B.1.2 Identifying the Syntactic Head
 
 We only annotate the syntactic heads of markables according to the Universal Depenency syntax (See Sect. 3.3). Markables must never overlap, so we annotate at most one markable per word.
 
@@ -62,7 +62,7 @@ When converting head-based annotation to span-based annotation in downstream tas
 \[<ins>целям</ins> \[Организации Объединенных <ins>Наций</ins>\]<sub>UN</sub>\]<sub>purp</sub>\]<sub>prosec</sub>.*
 (Russian, [www.unhchr.ch/udhr](http://www.unhchr.ch/udhr), shortened)
 
-## X.1.3 Primary Markables (`REF_AUTO`=`?OLD`)
+## B.1.3 Primary Markables (`REF_AUTO`=`?OLD`)
 
 Primary markables are automatically extracted from a syntactic analysis.<sub>[2](lit.md#refexp2)</sub>
 The following criteria define the algorithm. Normally, annotators do not have to annotate PMs and they can skip this section. However, if you feel there may be an anaphoric expression that was missed in automated extraction, please resort to these definitions.
@@ -71,7 +71,7 @@ The following criteria define the algorithm. Normally, annotators do not have to
 
 > Note: Annotators must never delete an incorrectly extracted PM annotation, but you can mark it as non-referential and add the comment `parser error` to the annotation.
 
-### X.1.3.1 Pronouns (`NP_TYPE`=`pron`)
+### B.1.3.1 Pronouns (`NP_TYPE`=`pron`)
 
 As defined in Sect. 3.4.1., pronouns include personal pronouns, demonstrative pronouns, pronominal adverbs, and possessived pronouns and *both* in nominal use (i.e. not as a determiner),<sup>[3](lit.md#refexp3)</sup>, e.g.,
 
@@ -93,7 +93,7 @@ If automated pre-annotation operates on a language/annotation schema that doesn'
 Annotate semi-demonstrative pronouns (English *such*, German *solch*) as `REF_AUTO=?NEW`. Do not annotate (unambiguous cases of) bound pronouns, e.g., relative pronouns (English *which*). Pronouns that are formally ambiguous as to whether they are relative or demonstrative pronouns (e.g., English *that* in relative clauses), are PM, and should be manually marked as `REF=BOUND` in the annotation.
 
 
-### X.1.3.2 Definite Descriptions (`NP_TYPE`=`def-np`)
+### B.1.3.2 Definite Descriptions (`NP_TYPE`=`def-np`)
 
 A description (NP or PP) is definite if it contains the determiner *both*, a demonstrative or possessive pronoun or a genitive attribution (Sect. 3.4.2). In automated pre-annotation, this should be made explicit with sub-types:
 
@@ -145,7 +145,7 @@ A description (NP or PP) is definite if it contains the determiner *both*, a dem
 	- `def-np.quant.other`: *the two other guys*
 	- `def-np.the.other`: *the other man* 
 
-### X.1.3.3  Proper Names and Titles (`NP_TYPE`=`ne`)
+### B.1.3.3  Proper Names and Titles (`NP_TYPE`=`ne`)
 
 Proper names include names of geographic places, persons, companies, political, social or financial institution names (Sect. 3.4.3).
 
@@ -160,7 +160,7 @@ Petrie Stores Corp.\]* should not be annotated!
 
 > (11.b) *\[Milton Petrie, chairman \[of Petrie Stores Corp.\] said\...*
 
-## X.1.4 Secondary Markables (no `REF_AUTO` annotation, but annotations for `NP_TYPE`)
+## B.1.4 Secondary Markables (no `REF_AUTO` annotation, but annotations for `NP_TYPE`)
 
 Every nominal phrase or pronoun which is neither primary markable nor (confirmed to be) syntactically bound, is subject to automated pre-annotation. Secondary markables are referring expressions that are unlikely/impossible anaphors, but that could *introduce* new discourse referents.
 
@@ -203,7 +203,7 @@ Common types of secondary markables the following `NP_TYPE`s:
 
 - Other expressions (`NP_TYPE`=`other`), e.g., for foreign language expressions (`X` in Universal Dependencies), if identifiable as a syntactic argument of a verb.
 
-## X.1.5 Automated Pre-Annotation
+## B.1.5 Automated Pre-Annotation
 
 - Check every nominal, pronoun, prepositional phrase, or proper name 
 - If it is a primary markable, pre-annotate it with referentiality `?OLD`
@@ -213,19 +213,19 @@ Common types of secondary markables the following `NP_TYPE`s:
 
 For every markable, annotate the syntactic head (as defined by the Universal Dependencies, exceptions as mentioned above) for type of referring expression.
 
-## X.1.6 Trouble-Shooting
+## B.1.6 Trouble-Shooting
 
-### X.1.6.1 Demonstratives
+### B.1.6.1 Demonstratives
 
 NPs with demonstrative determiner (English *this NP*, *that NP*, German *diese NP*, *jene NP*), and demonstrative pronouns (German *dieser*, English *this*, *that* [if not used as relative pronoun]) are primary markables.
 
 The demonstrative pronoun *such* (German *solch*) is considered as indefinite. Refererring expressions with *such* should not be annotated as primary markables.
 
-### X.1.6.2 Bound Pronouns
+### B.1.6.2 Bound Pronouns
 
 Do not annotate bound pronoun, if these can be identified on grounds of their form or annotations. If a pronoun is ambiguous in its surface form and cannot be unambiguously confirmed as bound pronoun from the syntactic annotation, treat it like a primary markable and annotate with referentiality `?OLD`. Only in these cases, the annotator should then annotate referentiality `BOUND`.
 
-### X.1.6.3 Treatment of Quantifiers
+### B.1.6.3 Treatment of Quantifiers
 
 Quantified NPs *(some of them, all the members)* are annotated as either definite or indefinite, whereas each case has to be considered individually. Substitution test: *all days* −→ *all these days* −→ definite.
 In automated pre-annotation, every nominal phrase whose form does not rule out a definite interpretation should be treated as primary markable.
@@ -234,7 +234,7 @@ We regard NPs with certain quantifiers in determiner position such as *both* as 
 
 *Both* in nominal use is annotated as a personal pronoun.
 
-### X.1.6.4 Possessive NPs
+### B.1.6.4 Possessive NPs
 
 Primary markables include
 
@@ -255,14 +255,14 @@ Possessive NPs with indefinite possessor (16.c) are secondary markables. However
 
 This is a primary markable because there is a reading, where the phrase could be replaced with *in the US efforts*.
 
-### X.1.6.5 Appositions
+### B.1.6.5 Appositions
 
 Appositions are treated like predications. That is, they serve neither as antecedents nor anaphors. So, in the following example, *chairman* in *chairman of
 Petrie Stores Corp.* should not be annotated!
 
 > (17) *\[Milton <ins>Petrie</ins>, chairman \[of Petrie Stores Corp.\] said\...*
 
-### X.1.6.6 Stranded Quantifiers
+### B.1.6.6 Stranded Quantifiers
 
 An NP can be incomplete by elision and, at first glance, not meet the criteria of a markable.  For example, individual numerals are not usually PM, but íf their head noun is elided, they serve as heads of NPs, they can require an antecedent. 
 
@@ -275,7 +275,7 @@ As these cases cannot be automatically identified, all pronominal numerals are t
 > 	(18') *Ich hatte \[zwei Stunden\]<sub>PM</sub> eingeplant, aber es wurden letzlich \[drei\]<sub>SM</sub>.* (German)
 >	(18") *I had planned for \[two hours\], but in the end, it was \[three\]<sub>SM</sub>* (English)
 
-### X.1.6.7 Proper Noun vs. definite NP
+### B.1.6.7 Proper Noun vs. definite NP
 
 Note that if a proper noun is not a head of an NP, the NP is annotated as definite or indefinite respectively.
 
@@ -287,7 +287,7 @@ In (19), *Yukon* is the head. *Yukon* is a proper name, so the whole phrase is a
 
 In (20), *office* is the head, *office* is not a proper name, so *the Yukon office* has to be annotated as a definite NP.
 
-## X.1.6 Grammatical role annotation (`GR`)
+## B.1.6 Grammatical role annotation (`GR`)
 
 Grammatical role annotation is extrapolated from (automated) annotation according to Universal Dependencies conventions (either UD v.1 or v.2), with the following rules:
 

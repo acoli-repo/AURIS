@@ -1,8 +1,8 @@
-# Y. Using the `COMMENT` column
+# A. Using the `COMMENT` column
 
 The `COMMENT` column can (and should) be used to provide free-text information. In addition, it can also be used to provide metadata in a structured format for documenting aspects of or difficulties in the annotation. 
 
-### Y.1 Ambiguous reference
+### A.1 Ambiguous reference
 
 Ambiguity is to be annotated in the `COMMENT` field, using pre-defined tags (if applicable) or plain text descriptions (otherwise). Optionally, ambiguity tags can be followed by a more detailed description in round parentheses `(...)`.
 
