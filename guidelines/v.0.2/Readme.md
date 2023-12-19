@@ -2,8 +2,8 @@
 
 Covers annotations for discourse, information structure and reference on two levels, provided in two parts
 
-- [A. word-level annotations](word-level/): reference, information status (givenness), topicality, focus
+- **A. word-level annotations**: [annotation guidelines (short)](word-level-excerpt.pdf) / [(full)](word-level.pdf) for reference, information status (givenness), topicality, focus
 
-- [B. sentence-level annotations](sentence-level/): coherence (discourse) relations
+- **B. sentence-level annotations**: [annotation guidelines (short)](sentence-level-excerpt.pdf) / [(full)](sentence-level.pdf) for coherence (discourse) relations
 
-Both guidelines are provided in excerpt form (excluding aspects of pre-annotation) and in full form (including appendices, literature reference and metadata)
+Both guidelines are provided in short form (excerpt excluding aspects of pre-annotation, for annotators) and in full form (including appendices, literature reference and metadata, for developers and researhcers)
