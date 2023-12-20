@@ -69,10 +69,8 @@ if args.words!=None:
 			# Copy content
 			for col,val,layout in zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ",line.split("\t"), FORMATS):
 				val=val.strip()
-				if col=="A":
-					word=val
-				if val!="":
-					worksheet.write(f'{col}{nr+2}', val, layout)
+				if col=="A": word=val
+				worksheet.write(f'{col}{nr+2}', val, layout) # we also "write" cells because of the locking !
 
 			# Create formulas and conditional formatting
 			if word!="" and word[0]!="#":
