@@ -21,45 +21,58 @@ workbook = xlsxwriter.Workbook(args.outfile)
 
 if args.words!=None:
 
-	worksheet = workbook.add_worksheet()
+	worksheet = workbook.add_worksheet("word-level annotation")
 
-	# formatting
-	bold = workbook.add_format({'bold': True})
-	coref_color=workbook.add_format({'bg_color': '#FFF5CE'})
-	ref_color=workbook.add_format({'bg_color': '#DDE8CB'})
-	is_color=workbook.add_format({'bg_color': '#DEE6EF'})
-	cb_color=workbook.add_format({'bg_color': '#E0C2CD'})
-	hid_color=workbook.add_format({'bg_color': '#EEEEEE'})
-	comm_color=workbook.add_format({'bg_color': '#B4C7DC'})
-
+	# 1. Create header
+	# 1.a formatting
 	COLS=["WORD","GR","NP_TYPE","REF_AUTO", "COREF", "REF", "IS", "CB", "GR_ANTE", "REF_DIST", "REF_DIST_ANTE","COMMENT"]
-	FORMATS=[bold]*len(COLS)
-	FORMATS[4]=workbook.add_format({'bold':True, 'bg_color': '#FFF5CE'})
-	FORMATS[5]=workbook.add_format({'bold':True, 'bg_color': '#DDE8CB'})
-	FORMATS[6]=workbook.add_format({'bold':True, 'bg_color': '#DEE6EF'})
-	FORMATS[7]=workbook.add_format({'bold':True, 'bg_color': '#E0C2CD'})
-	FORMATS[8]=workbook.add_format({'bold':True, 'bg_color': '#EEEEEE'})
-	FORMATS[9]=workbook.add_format({'bold':True, 'bg_color': '#EEEEEE'})
-	FORMATS[10]=workbook.add_format({'bold':True, 'bg_color': '#EEEEEE'})
-	FORMATS[11]=workbook.add_format({'bold':True, 'bg_color': '#B4C7DC'})
-	COL_LABEL=zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ",COLS,FORMATS) # extend IDs if necessary
+	FORMATS=[{'bold': True, 'align':'center', 'locked':True} for c in COLS]
+	FORMATS[4]['bg_color']='#FFF5CE' # COREF
+	FORMATS[5]['bg_color']='#DDE8CB' # REF
+	FORMATS[6]['bg_color']='#DEE6EF' # IS
+	FORMATS[7]['bg_color']='#E0C2CD' # CB
+	for x in range(8,11):			 # hidden
+		FORMATS[x]['bg_color']='#EEEEEE' 
+	FORMATS[11]['bg_color']='#B4C7DC' # COMMENT
 	
-	# Create header
-	for col,label,layout in COL_LABEL: 
+	FORMATS=[workbook.add_format(layout) for layout in FORMATS ]
+
+	# 1.b labels
+	for col,label,layout in zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ",COLS,FORMATS): # extend IDs if necessary
 		worksheet.write(f'{col}1', label, layout)
 
-	# Create body
+	# 2. Create body
+	# 2.a formatting
+	FORMATS=[
+		{'locked':True}, # WORD
+		{'align':'center','locked':False}, # GR
+		{'align':'center','locked':False}, # NP_TYPE
+		{'align':'center','locked':False}, # REF_AUTO
+		{'align':'center','locked':False,'bg_color': '#FFF5CE'}, # COREF
+		{'align':'center','locked':False,'bg_color': '#DDE8CB'}, # REF
+		{'align':'center','locked':False,'bg_color': '#DEE6EF'}, # IS
+		{'align':'center','locked':False,'bg_color': '#E0C2CD'}, # CB
+		{'bg_color': '#EEEEEE','locked':True}, # hidden
+		{'bg_color': '#EEEEEE','locked':True}, # hidden
+		{'bg_color': '#EEEEEE','locked':True}, # hidden
+		{'text_wrap': True, 'align':'left','bg_color': '#B4C7DC','locked':False} # COMMENT
+	]
+
+	FORMATS=[workbook.add_format(layout) if layout!=None else None for layout in FORMATS ]
+
+	# 2.b create content
 	with open(args.words,"rt",errors="ignore") as input:
 		for nr,line in enumerate(input):
 			line=line.rstrip()
 		
 			word=""
 			# Copy content
-			for col,val in zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ",line.split("\t")):
+			for col,val,layout in zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ",line.split("\t"), FORMATS):
+				val=val.strip()
 				if col=="A":
-					word=val.strip()
-				if val.strip()!="":
-					worksheet.write(f'{col}{nr+2}', val)
+					word=val
+				if val!="":
+					worksheet.write(f'{col}{nr+2}', val, layout)
 
 			# Create formulas and conditional formatting
 			if word!="" and word[0]!="#":
@@ -67,49 +80,49 @@ if args.words!=None:
 				# COREF
 				worksheet.write_formula(f'E{nr+2}', 
 					f'=IF(D{nr+2}="?OLD","!!!","")',
-					coref_color,'') # None and '' are required to trigger recalculation in LibreOffice
+					FORMATS[4],'') # '' required to trigger recalculation in LibreOffice
 
 				# REF
 				worksheet.write_formula(f'F{nr+2}', 
 					f'=IF(OR(E{nr+2}="",E{nr+2}="!!!"),"",IF(NOT(ISNA(VLOOKUP(E{nr+2},E$1:E{nr+1},1,FALSE()))),"OLD",IF(AND(E{nr+2}<>"",E{nr+2}<>"!!!"),"NEW","")))',
-					ref_color,'')
+					FORMATS[5],' ') # whitespace to make sure it is *not* re-calculated
 
 				# IS
 				worksheet.write_formula(f'G{nr+2}', 
 					f'=IF(OR(E{nr+2}="",E{nr+2}="!!!"),"",IF(OR(J{nr+2}=0,AND(J{nr+2}=1,K{nr+2}=1),AND(J{nr+2}=1,I{nr+2}="SBJ"),AND(J{nr+2}=1,I{nr+2}=0)),"?IN_FOCUS",IF(J{nr+2}<=2,"?ACTIVATED",IF(J{nr+2}<>"","?FAMILIAR",IF(F{nr+2}="NEW",IF(ISNA(VLOOKUP(E{nr+2},#REF!,1,FALSE())),"?TYPE_IDENTIFIABLE","?REFERENTIAL"),"_")))))',
-					is_color,'')
+					FORMATS[6],' ')
 
 				# CB
 				worksheet.write_formula(f"H{nr+2}",
 					f'=IF(J{nr+2}<>1,"",IF(I{nr+2}="SBJ","CB","?"))',
-					cb_color,'')
+					FORMATS[7],' ')
 
 				# GR_ANTE
 				worksheet.write_formula(f"I{nr+2}",
 					f'=IF(OR(E{nr+2}="",E{nr+2}="!!!",F{nr+2}="NEW"),"",INDEX(B{nr+1}:B$2,-1+SUMPRODUCT(MAX(ROW(E{nr+1}:E$2)*(E{nr+2}=E{nr+1}:E$2)))))',
-					hid_color,'')
+					FORMATS[8],' ')
 
 				# REF_DIST
 				worksheet.write_formula(f"J{nr+2}",
 					f'=IF(OR(E{nr+2}="",E{nr+2}="!!!",F{nr+2}="NEW"),"",COUNTBLANK(OFFSET(A$1,,,SUMPRODUCT(MAX(ROW(E$2:E{nr+2})*(E{nr+2}=E$2:E{nr+2})))))-COUNTBLANK(OFFSET(A$1,,,SUMPRODUCT(MAX(ROW(E$1:E{nr+1})*(E2=E$1:E{nr+1}))))))',
-					hid_color,'')
+					FORMATS[9],' ')
 
 				# REF_DIST_ANTE
 				worksheet.write_formula(f"K{nr+2}",
 					f'=IF(OR(E{nr+2}="",E{nr+2}="!!!",F{nr+2}="NEW"),"",INDEX(J$1:J{nr+1},SUMPRODUCT(MAX(ROW(E$1:E{nr+1})*(E{nr+2}=E$1:E{nr+1})))))',
-					hid_color,'')
+					FORMATS[10],' ')
 
-				# COMMENT
-				worksheet.write(f"L{nr+2}","", comm_color)
+				# COMMENT is empty
+				worksheet.write(f"L{nr+2}","",FORMATS[11])
 
-	# column formatting
-	worksheet.set_column('A:A', 20, None, {'align':'left'})
-	worksheet.set_column('B:B',None,None,{'align':'center'})
-	worksheet.set_column('C:C', 15,None,{'align':'center'})
-	worksheet.set_column('D:D', 10,None,{'align':'center'})
-	worksheet.set_column('E:H', None,None,{'align':'center'})
+	# 3. overall layout
+	worksheet.set_column('A:A', 20)
+	worksheet.set_column('C:C', 15)
+	worksheet.set_column('D:D', 10)
 	worksheet.set_column('I:K',None,None,{'hidden': True})
-	worksheet.set_column('L:L', 40,None,{'text_wrap': True, 'align':'left'}) # unfortunately, this is ignored by LibreOffice
+	worksheet.set_column('L:L', 40) 
+	worksheet.freeze_panes(1,1)
+	worksheet.protect()
 
 if args.sentences!=None:
 
