@@ -60,7 +60,7 @@ if args.words!=None:
 
 	FORMATS=[workbook.add_format(layout) if layout!=None else None for layout in FORMATS ]
 
-	merged_format=workbook.add_format({'locked': True,'text_wrap':True})
+	merged_format=workbook.add_format({'locked': False,'text_wrap':True})
 
 	# 2.b create content
 	with open(args.words,"rt",errors="ignore") as input:
@@ -68,9 +68,12 @@ if args.words!=None:
 			line=line.rstrip()
 
 			# spell out comments in merged cells
-			if line.lstrip().startswith('#'):
-				worksheet.merge_range(f'A{nr+2}:L{nr+2}', line.strip(), merged_format)
-			else:
+
+			if True:
+# 			if line.lstrip().startswith('#'):
+#				worksheet.merge_range(f'A{nr+2}:L{nr+2}', line.strip(), merged_format)
+#				# this doesn adjust row height: https://github.com/jmcnamara/XlsxWriter/issues/259
+#			else:
 		
 				word=""
 				# Copy content
@@ -121,6 +124,9 @@ if args.words!=None:
 					worksheet.write(f"L{nr+2}","",FORMATS[11])
 
 	# 3. overall layout
+	
+	# worksheet.autofit() doesn't do row height
+
 	worksheet.set_column('A:A', 20)
 	worksheet.set_column('C:C', 15)
 	worksheet.set_column('D:D', 10)
