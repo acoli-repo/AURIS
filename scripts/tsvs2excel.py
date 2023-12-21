@@ -14,10 +14,86 @@ args.add_argument("-s","--sentences", type=str, help="sentence-level pre-annotat
 args.add_argument("-w","--words", type=str, help="word-level pre-annotation in TSV format", default=None)
 args=args.parse_args()
 
-if args.words==None and args.sentence==None:
+if args.words==None and args.sentences==None:
 	raise Exception("at least one -s or -w argument needs to be provided")
 
 workbook = xlsxwriter.Workbook(args.outfile)
+
+if args.sentences!=None:
+
+	worksheet = workbook.add_worksheet("sentence-level annotation")
+
+	# 1. Create header
+	# 1.a formatting
+	COLS=["ID", "PRED_ID", "MARKER_AUTO", "PREDICATE", "TEXT", "SENTENCE", "MARKER", "TARGET", "RELATION", "COMMENT"]
+	FORMATS=[{'valign':'vcenter','bold': True, 'align':'center', 'locked':True} for c in COLS]
+	FORMATS[6]['bg_color']='#F7D1D5' # MARKER
+	FORMATS[7]['bg_color']='#FFF5CE' # TARGET
+	FORMATS[8]['bg_color']='#DEDCE6' # RELATION
+	FORMATS[9]['bg_color']='#B4C7DC' # COMMENT
+	
+	FORMATS=[workbook.add_format(layout) for layout in FORMATS ]
+
+	# 1.b labels
+	for col,label,layout in zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ",COLS,FORMATS): # extend IDs if necessary
+		worksheet.write(f'{col}1', label, layout)
+
+	# 2. Create body
+	# 2.a formatting
+	FORMATS=[
+		{'valign':'top','align':'center','locked':True}, 											# ID
+		{'valign':'top','align':'center','locked':True}, 											# PRED_ID, hidden
+		{'valign':'top','align':'center','locked':True}, 											# MARKER_AUTO, hidden
+		{'valign':'top','text_wrap':True,'align':'center','locked':False}, 						# PREDICATE
+		{'valign':'top','text_wrap':True,'align':'left','locked':True}, 							# TEXT
+		{'valign':'top','align':'center','locked':True}, 											# SENTENCE, hidden
+		{'valign':'top','text_wrap':True, 'align':'center','locked':False,'bg_color': '#F7D1D5'}, 	# MARKER
+		{'valign':'top','align':'center','locked':False,'bg_color': '#FFF5CE'}, 					# TARGET
+		{'valign':'top','text_wrap':True, 'align':'center','bg_color': '#DEDCE6','locked':False}, 	# RELATION
+		{'valign':'top','text_wrap': True, 'align':'left','bg_color': '#B4C7DC','locked':False}, 	# COMMENT
+	]
+
+	FORMATS=[workbook.add_format(layout) if layout!=None else None for layout in FORMATS ]
+
+	# 2.b create content
+	with open(args.sentences,"rt",errors="ignore") as input:
+		for nr,line in enumerate(input):
+			line=line.rstrip()
+
+			if line!="":
+
+				# Copy content
+				for col,val,layout in zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ",line.split("\t"), FORMATS):
+					worksheet.write(f'{col}{nr+2}', val.strip(), layout)
+
+				# Create formulas and placeholder values
+				if line[0]!="#":
+					
+					# MARKER
+					worksheet.write_formula(f'G{nr+2}', 
+						f'=IF(A{nr+2}=1,"_",IF(C{nr+2}="_","???",C{nr+2}))',
+						FORMATS[6],'') # '' required to trigger recalculation in LibreOffice
+
+					# TARGET
+					worksheet.write(f'H{nr+2}', "_", FORMATS[7])
+
+					# RELATION
+					worksheet.write(f'I{nr+2}', "_", FORMATS[8]) # TODO: replace by marker lookup
+
+					# COMMENT is empty
+					worksheet.write(f"J{nr+2}","",FORMATS[9])
+
+	# 3. overall layout
+	worksheet.set_default_row(60)
+	worksheet.set_column('B:C',None,None,{'hidden': True})
+	worksheet.set_column('D:D', 10)
+	worksheet.set_column('E:E', 80)
+	worksheet.set_column('F:F', None,None,{'hidden':True})
+	worksheet.set_column('G:G', 10)
+	worksheet.set_column('I:I', 10)
+	worksheet.set_column('J:J', 40) 
+	worksheet.freeze_panes(1,5)
+	worksheet.protect()
 
 if args.words!=None:
 
@@ -60,14 +136,10 @@ if args.words!=None:
 
 	FORMATS=[workbook.add_format(layout) if layout!=None else None for layout in FORMATS ]
 
-	merged_format=workbook.add_format({'locked': False,'text_wrap':True})
-
 	# 2.b create content
 	with open(args.words,"rt",errors="ignore") as input:
 		for nr,line in enumerate(input):
 			line=line.rstrip()
-
-			# spell out comments in merged cells
 
 			word=""
 			# Copy content
@@ -126,10 +198,6 @@ if args.words!=None:
 	worksheet.set_column('L:L', 40) 
 	worksheet.freeze_panes(1,1)
 	worksheet.protect()
-
-if args.sentences!=None:
-
-	print("TODO")
 
 workbook.close()
 
