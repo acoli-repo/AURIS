@@ -27,52 +27,46 @@ The raw files currently contain three columns:
 - `NP_FORM`: type of referring expression (noun phrase) 
 - `REF_AUTO`: predicted referentiality, i.e., `?OLD` or empty
 
-## 2.3 Import into Spreadsheet Software: Target Files
+## 2.3 XLSX files
 
-We provide a **template file** in `*.xlsx` format that contains a number of formulas to automatize parts of the annotation. When starting with a new raw file, say, `xyz.conll` or `xyz.tsv`, make a copy of the template file and rename it such that it matches the name of the raw file, e.g., `xyz.xlsx`. We further refer to this file as your **target file**.
+Annotators do not directly operate with raw files, but with `*.xlsx` files. This is the native format of MS Excel, but should be processable with any other common spreadsheet software. These files include 
 
-The template file and the target file contain the following columns:
+- all information from the raw files
+- pre-formatting for columns which are subject to annotations
+- formulas to pre-annotate some of these columns
 
-- `WORD`: words and punctuation characters as they occur in the text.
-- `GR`: grammatical role
-- `NP_FORM`: type of referring expression (noun phrase)
-- `REF_AUTO`: predicted referentiality, i.e., `?OLD` or empty
-- `COREF`: manual coreference annotation or `!!!` for an annotation to be done.
-- `REF`: manual annotation for referentiality, automatically pre-annotated after `COREF` annotation.
-- `IS`: manual annotation for information status ("givenness"), automatically pre-annotated after `COREF` annotation.
-- `CB`: manual annotation for backward-looking center ("topic"), automatically pre-annotated after `COREF` annotation.
-- the following columns (colored gray in template file) contain auxiliary annotations, these are not to be annotated, but part of the automated pre-annotation process
+An XLSX file may contain more than one worksheet. For word-level annotations, select the sheet named `word-level annotation`. Note that the worksheet is provided in **protected** mode. That means that only certain columns and certain fields can (and should) be changed by the annotator.
+
+> **Note on import**: These files contain a significant number of formulas and formatting instructions. It is normal that the import is relatively slow. If your spreadsheet software reports timeout errors, ignore them. If the problem persists, contact your instructor.
+
+> **Note on LibreOffice**: Import has been tested with LibreOffice and no failures have been reported. If you encounter difficulties with slow response times, save the file in the native LibreOffice format (`*.odt`) and use that instead of the original XLSX file.
+
+> **Note on protected mode**: In protected mode, columns and rows cannot be resized. If this is necessary, annotators are free to turn off protection. Please do not re-enable protection afterwards so that we can spot those files.
+
+The worksheet for word-level annotations contains the following columns:
+
+- `WORD`: words and punctuation characters as they occur in the text. In protected mode, this cannot be changed.
+- `GR`: grammatical role. Annotators should leave this intact unless a parser error is observed.
+- `NP_FORM`: type of referring expression (noun phrase). Annotators can correct this column.
+- `REF_AUTO`: predicted referentiality, i.e., `?OLD` or empty. Annotators should not correct this column. 
+- `COREF`: manual coreference annotation or `!!!` for an annotation to be done. **TO BE ANNOTATED**
+- `REF`: manual annotation for referentiality, automatically pre-annotated after `COREF` annotation. **TO BE ANNOTATED**
+- `IS`: manual annotation for information status ("givenness"), automatically pre-annotated after `COREF` annotation. **TO BE ANNOTATED**
+- `CB`: manual annotation for backward-looking center ("topic"), automatically pre-annotated after `COREF` annotation. **TO BE ANNOTATED**
+- the following three columns contain auxiliary annotations that are *hidden* (i.e., invisible to the annotator), these are not to be annotated, but part of the automated pre-annotation process
 	- `GR_ANTE`: grammatical role of the antecedent (factor in `IS` and `CB` annotation)
 	- `REF_DIST`: referential distance of the antecedent (factor in `IS` and `CB` annotation)
 	- `REF_DIST_ANTE`: referential distance annotation of the antecedent (factor in `IS` annotation)
 
-	> Note: In the current template file, these columns are *hidden*. They will be faithfully copied if all columns (E to L) are selected as a single block before being applied to (copied and pasted into) the following annotations (see Sect. 2.4). 
-
 - `COMMENT`: this is a free-text column for annotators to provide information about the annotation (e.g., ambiguity), free-text comments, or pointers to more lengthy descriptions. Lengthy comments increase row height, so annotators may want to adjust column width.
-
-| Fig. 1. Template file                              |
-| -------------------------------------------------- |
-| ![Screenshot from template file](img/template.png) |
 
 Open your new file `xyz.xlsx` in your preferred spreadsheet software. You can use any tool you like, but it **must** support reading and writing MS Excel 365 files (`*.xlsx`) and they **should** support Excel formulas. Possible tools include MS Office tools, LibreOffice/OpenOffice, Google Spreadsheet (in Google Docs), etc. If you have difficulties using or getting these tools, please get in touch with your instructor.
 
-For illustration, we use OpenOffice below. Other spreadsheet software should be similar.
+For illustration, we use OpenOffice in Fig. 1. Other spreadsheet software should be similar.
 
-Now, open the "raw" file (here, `xyz.tsv`) in your spreadsheet software. Normally, you should be able to open it by double-clicking on it. It should open as a new table. Select the entire table and copy and paste it into your target file. Make sure not to overwrite *the first three rows* of your target file (i.e., those that contain colored columns).
-
-> Note: To select the entire table under Windows or Linux, press `<CTRL>+<END>` to get to the lower right corner of your data. Then, press `<CTRL>+<SHIFT>+<POS1>` (`<CTRL>+<SHIFT>+<HOME>`) to select everything until the upper left corner. Then, press `<CTRL>+C` to copy the entire table and `<CTRL>+V` to insert it at its new place.  Google Docs (tested under Windows/Linux) uses Windows/Linux-style keys.
-
-> Note on MacOS: Mac keys are different. Normally, the `<MAC>` key should be used in place of `<CTRL>`.
-
-After copying the pre-annotated data into the target file, you need to copy the *pre-annotation formulas*, too:
-
-- Go to cell `E3` (third row, column `COREF`). The formulas are contained in the colored and the gray columns in that row. 
-- Select all formulas using `<CTRL>+<SHIFt>+<LEFT>`, copy them with `<CTRL>+C`. 
-- Go to cell `E4`. Press `<CTRL>+<SHIFT>+<END>` to select the table from cell `E4` to the end. Then, paste the formulas using `<CTRL>+V`. You should see colored columns for the entire text and some automated pre-annotations, now. These will update automatically during the annotation and have to be manually corrected when needed.
-
-| Fig. 2. Target file                            |
+| Fig. 1. Sample file                            |
 | ---------------------------------------------- |
-| ![Screenshot from target file](img/target.png) |
+| ![Screenshot from sample file](img/target.png) |
 
 ## 2.4 Annotation Procedure
 
