@@ -197,10 +197,12 @@ If a word is annotated as `REF=GEN`, `REF=BOUND`, `REF=IDIOM` or `REF=other` (Se
 
 ### 5.3.2 Group references
 
-The annotation of group references is tricky if they involve referents with different information status.
+The annotation of group references is tricky if they involve referents with different information status. The rule is to annotate the *lowest* IS status that applies to any of the group members.
 
 - If a group was previously mentioned (as a group, i.e., `REF=OLD` in the sense of Sect. 4.5), information status is defined with reference to this last mention as a group. It does not matter whether individual members of the group have been mentioned since then.
 - If a group is referred to for the first time (i.e., `REF=GROUP` in the sense of Sect. 4.5), assign it the information status of the lowest-ranking element, e.g., if it contains a `FAMILIAR` referent along with an `IN FOCUS` referent, annotate `FAMILIAR`, not `IN FOCUS`.
+
+### 5.3.3 Member references
 
 If a referent `X` is subsequently referred to with a group reference (either with initial group reference/`REF=GROUP` or recurring group reference/`REF=OLD`), its information status is defined as the highest status the referent can be assigned on grounds of the direct mention of a direct antecedent *or* a mention of a groups that contain it.
 

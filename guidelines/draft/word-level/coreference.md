@@ -129,6 +129,12 @@ In spreadsheet-based annotations, some of the values are automatically suggested
 
 	Note that the second reference to *the companies* in (9.c) is annotated as a **plain anaphoric reference** to the established group, not as a group reference to the individual companies mentioned in the meantime.
 
+	Note that `REF=GROUP` is only to be used if all group members are previously explicitly mentioned. If one or more have been left implicit, annotate `REF=NEW`, as in (9.d).
+
+	> (9.d) \[Peter\]<sub>1</sub> and \[his sister\]<sub>2</sub> are great musicians. \[The entire family\]<sub>3,REF=NEW</sub> is really talented.
+
+	In (9.d), we cannot link *the entire family* with *Peter* nor *his sister* because this expression may include more than these individuals. Annotate `GROUP` only in case the context makes it clear that no more family members do exist.
+
 4. `BOUND`: Pronouns that are syntactically bound, e.g. reflexive pronouns. Also, possessive pronouns governed by nominal expressions in the same sentence are annotated as `BOUND`, cf. in (8.b) below *Mit <ins>seinem</ins><sub>3,BOUND</sub> Tor*.<sup>[6](lit.md#coref6)</sup>.
 
 	> Notes: Reflexive pronouns (which are obligatorily bound) are not annotated as markables if they can be identified on grounds of their form (e.g., English *himself*, German *sich*). Only if a form is ambiguous between a reflexive and pronominal reading (e.g., German *mich*), reflexive pronouns are annotated as `BOUND`.
@@ -167,13 +173,17 @@ In spreadsheet-based annotations, some of the values are automatically suggested
 	
 	> (12.c) *\[<sub></sub><sub>Es</sub><sub></sub>\] galt zudem als sicher, dass . . .* (German)
 
-6. `PRED`: Non-referring expression: Predicative NPs in copular sentences
+6. `PRED`: Non-referring expression: Predicative NPs in phrases that express identity (copula sentences, 13.a-c), that assert a role (*as*-phrases, 13.d) or that presuppose identity (appositions).
 
 	> (13.a) *Nicht, dass beide eine Mehrheit für ihre Koalition suchten, war \[das Ärgerliche in den vergangenen Tagen\] ...* (German)
 
 	> (13.b) *The chief physician was \[a real professional\]<sub>NM</sub>.*
 	
 	> (13.c) *Max Müller is \[the greatest center forward of all time\]<sub>NM</sub>!*
+
+	> (13.d) *As \[the greatest center forward of all time\]<sub>NM</sub>, Max Müller is generally seen as ...*
+
+	> (13.e) *Max Müller, \[the greatest center forward of all time\]<sub>NM</sub>, is generally seen as ...*
 
 7. `IDIOM`: Non-referring expression: apparent referring expressions (e.g., definite NPs) in fixed, conventionalized idioms and corresponding collocations:
 
@@ -210,9 +220,9 @@ In spreadsheet-based annotations, some of the values are automatically suggested
 
 Note that here, the antecedent of die Kicker "kickers" depends on the understanding of the "size" metaphor, it can be either the Ukrainian team (presented as having short players), or the German team (which has not been favored in the first match), or a generic description (which would mean that the sentence is not directly linked with the discourse).
 
-## 4.6 Trouble Shooting
+## 4.7 Trouble Shooting
 
-### 4.6.1 Recurring Group Reference
+### 4.7.1 Recurring Group Reference
 
 Here is a very compact, constructed example:
 
@@ -224,7 +234,7 @@ Here is a very compact, constructed example:
 
 When annotating *They*, note that this group has been previously established. For this reason, we do *not* refer to the second respective mentions of *Peter* and *Malte*, but instead to the previously established index for the group introduced when annotating *Both*.
 
-### 4.6.2 Quantified NPs
+### 4.7.2 Quantified NPs
 
 Quantified expressions are either `OLD`/`GROUP` or `NEW`:
 
@@ -237,7 +247,7 @@ Leaving the first two cases aside, a substitution substitution test helps with t
 
 > (18) *people* −→ *all these people* → definite description −→ referential
 
-### 4.6.3 Pronominal Adverbs
+### 4.7.3 Pronominal Adverbs
 
 Depending on context, some words can be either referring expressions or not. This may be automatically pre-annotated, but must be marked as non-referring in their referentiality annotation (see above).
 
@@ -247,7 +257,7 @@ A notorious problem in German is the annotation of pronominal adverbs such as *d
 
 > (19.b) *\[<ins>Ich</ins>\]<sub>PM</sub> habe \[<ins>dir</ins>\]<sub>PM</sub> \[den <ins>Brief</ins>\]<sub>PM</sub> gezeigt, damit \[<ins>du</ins>\]<sub>PM</sub> bescheid weißt.* (German, non-referential *damit" "so that")
 
-### 4.6.4 Relative Possessive Pronouns
+### 4.7.4 Relative Possessive Pronouns
 
 Relative pronouns are syntactically bound and not to be annotated, but relative posessive pronouns in possessive constructions are
 treated as possessive pronouns. 
@@ -258,11 +268,11 @@ treated as possessive pronouns.
 
 > (20.b) *Und so schielten \[die Israelis\] \[nach Washington, das/welches \[sie\]* *wirtschaftlich stützt\].*
 
-### 4.6.5 Cataphora
+### 4.7.5 Cataphora
 
 We distinguish two types of forward-referring expressions, discourse cataphora and syntactic cataphora.
 
-#### 4.6.5.1 Discourse Cataphora (Anaphora of Anticipation)
+#### 4.7.5.1 Discourse Cataphora (Anaphora of Anticipation)
 
 Discourse cataphora is a label used for non-pronominal reference forward. Sometimes an author introduces a discourse referent by means of an underspecified NP, i.e. an NP that cannot be interpreted only on the basis of the reader's knowledge up to this point. This way the author tries to encourage the reader to continue reading, in order to catch up the missing information. In the example below, *die einstige
 Fußball-Weltmacht* and *vor einem Winzling* should be annotated as discourse cataphors, since their referents cannot be identified until introduced explicitly in the following text (*Deutschland* and
@@ -272,7 +282,7 @@ Fußball-Weltmacht* and *vor einem Winzling* should be annotated as discourse ca
 
 In case one goes on reading the text, it becomes clear that *die einstige Fußball-Weltmacht* refers to Germany, whereas *ein Winzling* refers either to the Ukraine or the 1.62 meter tall ukranian footballer who made the most impact in the match ^5^. Discourse cataphors have to be annotated as normal anaphors, i.e. in accordance with the Chain Principle (p. 12), i.e. the most recent referent mention to the left (if any) is considered to be an antecedent.
 
-#### 4.6.5.2 Syntactic cataphora
+#### 4.7.5.2 Syntactic cataphora
 
 > (22) *Through \[his\] lawyers, \[Mr. Antar\] has denied allegations in the SEC suit \...* (WSJ)
 
@@ -300,3 +310,13 @@ Thus, the anaphoric chain looks as follows:
 
 -   *Gennadi Subow* → *vor einem Winzling* (right+previous, Chain
     Principle)
+
+#### 4.7.6 Annotation of non-referring primary markables
+
+If a phrase that appears to be a referring expression (and has been identified by automated pre-annotation as such) but is not referential (i.e., `REF=GEN`, `REF=IDIOM`, `REF=BOUND`, `REF=other`, etc.), then leave the `COREF` column empty. Do not make up an ID. Also, do not write a placeholder symbol such as `_` or a whitespace, but just remove anything in these.
+
+#### 4.7.7 IDs of GROUP references
+
+If `REF=GROUP`, the annotator should introduce an ID for the group, but also specify the relation to the group members. Use the following notation: `GROUP_ID>ID1,ID2,ID3,...`. The separator symbol between group ID and member IDs should be `>`. The separator symbol between different member IDs should be `,`.
+
+An anaphor to the group should then refer to it with `GROUP_ID` (without member IDs). Note that this notation is not supported by pre-annotation scripts for `REF` and `IS`.
