@@ -69,64 +69,56 @@ if args.words!=None:
 
 			# spell out comments in merged cells
 
-			if True:
-# 			if line.lstrip().startswith('#'):
-#				worksheet.merge_range(f'A{nr+2}:L{nr+2}', line.strip(), merged_format)
-#				# this doesn adjust row height: https://github.com/jmcnamara/XlsxWriter/issues/259
-#			else:
-		
-				word=""
-				# Copy content
-				for col,val,layout in zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ",line.split("\t"), FORMATS):
-					val=val.strip()
-					if col=="A": word=val
-					worksheet.write(f'{col}{nr+2}', val, layout) # we also "write" cells because of the locking !
+			word=""
+			# Copy content
+			for col,val,layout in zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ",line.split("\t"), FORMATS):
+				val=val.strip()
+				if col=="A": word=val
+				worksheet.write(f'{col}{nr+2}', val, layout) # we also "write" cells because of the locking !
 
-				# Create formulas and conditional formatting
-				if word!="" and word[0]!="#":
-					
-					# COREF
-					worksheet.write_formula(f'E{nr+2}', 
-						f'=IF(D{nr+2}="?OLD","!!!","")',
-						FORMATS[4],'') # '' required to trigger recalculation in LibreOffice
+			# Create formulas and conditional formatting
+			if word!="" and word[0]!="#":
+				
+				# COREF
+				worksheet.write_formula(f'E{nr+2}', 
+					f'=IF(D{nr+2}="?OLD","!!!","")',
+					FORMATS[4],'') # '' required to trigger recalculation in LibreOffice
 
-					# REF
-					worksheet.write_formula(f'F{nr+2}', 
-						f'=IF(OR(E{nr+2}="",E{nr+2}="!!!"),"",IF(NOT(ISNA(VLOOKUP(E{nr+2},E$1:E{nr+1},1,FALSE()))),"OLD",IF(AND(E{nr+2}<>"",E{nr+2}<>"!!!"),"NEW","")))',
-						FORMATS[5],' ') # whitespace to make sure it is *not* re-calculated
+				# REF
+				worksheet.write_formula(f'F{nr+2}', 
+					f'=IF(OR(E{nr+2}="",E{nr+2}="!!!"),"",IF(NOT(ISNA(VLOOKUP(E{nr+2},E$1:E{nr+1},1,FALSE()))),"OLD",IF(AND(E{nr+2}<>"",E{nr+2}<>"!!!"),"NEW","")))',
+					FORMATS[5],' ') # whitespace to make sure it is *not* re-calculated
 
-					# IS
-					worksheet.write_formula(f'G{nr+2}', 
-						f'=IF(OR(E{nr+2}="",E{nr+2}="!!!"),"",IF(OR(J{nr+2}=0,AND(J{nr+2}=1,K{nr+2}=1),AND(J{nr+2}=1,I{nr+2}="SBJ"),AND(J{nr+2}=1,I{nr+2}=0)),"?IN_FOCUS",IF(J{nr+2}<=2,"?ACTIVATED",IF(J{nr+2}<>"","?FAMILIAR",IF(F{nr+2}="NEW",IF(ISNA(VLOOKUP(E{nr+2},#REF!,1,FALSE())),"?TYPE_IDENTIFIABLE","?REFERENTIAL"),"_")))))',
-						FORMATS[6],' ')
+				# IS
+				worksheet.write_formula(f'G{nr+2}', 
+					f'=IF(OR(E{nr+2}="",E{nr+2}="!!!"),"",IF(OR(J{nr+2}=0,AND(J{nr+2}=1,K{nr+2}=1),AND(J{nr+2}=1,I{nr+2}="SBJ"),AND(J{nr+2}=1,I{nr+2}=0)),"?IN_FOCUS",IF(J{nr+2}<=2,"?ACTIVATED",IF(J{nr+2}<>"","?FAMILIAR",IF(F{nr+2}="NEW",IF(ISNA(VLOOKUP(E{nr+2},#REF!,1,FALSE())),"?TYPE_IDENTIFIABLE","?REFERENTIAL"),"_")))))',
+					FORMATS[6],' ')
 
-					# CB
-					worksheet.write_formula(f"H{nr+2}",
-						f'=IF(J{nr+2}<>1,"",IF(I{nr+2}="SBJ","CB","?"))',
-						FORMATS[7],' ')
+				# CB
+				worksheet.write_formula(f"H{nr+2}",
+					f'=IF(J{nr+2}<>1,"",IF(I{nr+2}="SBJ","CB","?"))',
+					FORMATS[7],' ')
 
-					# GR_ANTE
-					worksheet.write_formula(f"I{nr+2}",
-						f'=IF(OR(E{nr+2}="",E{nr+2}="!!!",F{nr+2}="NEW"),"",INDEX(B{nr+1}:B$2,-1+SUMPRODUCT(MAX(ROW(E{nr+1}:E$2)*(E{nr+2}=E{nr+1}:E$2)))))',
-						FORMATS[8],' ')
+				# GR_ANTE
+				worksheet.write_formula(f"I{nr+2}",
+					f'=IF(OR(E{nr+2}="",E{nr+2}="!!!",F{nr+2}="NEW"),"",INDEX(B{nr+1}:B$2,-1+SUMPRODUCT(MAX(ROW(E{nr+1}:E$2)*(E{nr+2}=E{nr+1}:E$2)))))',
+					FORMATS[8],' ')
 
-					# REF_DIST
-					worksheet.write_formula(f"J{nr+2}",
-						f'=IF(OR(E{nr+2}="",E{nr+2}="!!!",F{nr+2}="NEW"),"",COUNTBLANK(OFFSET(A$1,,,SUMPRODUCT(MAX(ROW(E$2:E{nr+2})*(E{nr+2}=E$2:E{nr+2})))))-COUNTBLANK(OFFSET(A$1,,,SUMPRODUCT(MAX(ROW(E$1:E{nr+1})*(E2=E$1:E{nr+1}))))))',
-						FORMATS[9],' ')
+				# REF_DIST
+				worksheet.write_formula(f"J{nr+2}",
+					f'=IF(OR(E{nr+2}="",E{nr+2}="!!!",F{nr+2}="NEW"),"",COUNTBLANK(OFFSET(A$1,,,SUMPRODUCT(MAX(ROW(E$2:E{nr+2})*(E{nr+2}=E$2:E{nr+2})))))-COUNTBLANK(OFFSET(A$1,,,SUMPRODUCT(MAX(ROW(E$1:E{nr+1})*(E2=E$1:E{nr+1}))))))',
+					FORMATS[9],' ')
 
-					# REF_DIST_ANTE
-					worksheet.write_formula(f"K{nr+2}",
-						f'=IF(OR(E{nr+2}="",E{nr+2}="!!!",F{nr+2}="NEW"),"",INDEX(J$1:J{nr+1},SUMPRODUCT(MAX(ROW(E$1:E{nr+1})*(E{nr+2}=E$1:E{nr+1})))))',
-						FORMATS[10],' ')
+				# REF_DIST_ANTE
+				worksheet.write_formula(f"K{nr+2}",
+					f'=IF(OR(E{nr+2}="",E{nr+2}="!!!",F{nr+2}="NEW"),"",INDEX(J$1:J{nr+1},SUMPRODUCT(MAX(ROW(E$1:E{nr+1})*(E{nr+2}=E$1:E{nr+1})))))',
+					FORMATS[10],' ')
 
-					# COMMENT is empty
-					worksheet.write(f"L{nr+2}","",FORMATS[11])
+				# COMMENT is empty
+				worksheet.write(f"L{nr+2}","",FORMATS[11])
 
 	# 3. overall layout
-	
-	# worksheet.autofit() doesn't do row height
-
+	# worksheet.autofit()  # diabled, was meant for row height, but doesn't do it
 	worksheet.set_column('A:A', 20)
 	worksheet.set_column('C:C', 15)
 	worksheet.set_column('D:D', 10)
