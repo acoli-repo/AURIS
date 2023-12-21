@@ -18,7 +18,7 @@ This is the format for "raw" files, as produced by automated preprocessing. It c
 
 The **raw files** are produced by automated pre-annotation. As part of pre-annotation, we perform tokenization (splitting words and punctuation), the detection of referring expressions, and the prediction of `?OLD` (for candidate anaphors, "primary markables") and `?NEW` (for other candidate referring expressions, "secondary markables").
 
-Note that as part of text extracting and automated pre-annotation, some errors can occur, e.g., incorrectly split words, or incorrect type of referring expressions. **Please, do NOT fix these errors.** Instead, add a comment starting with `#` before the sentence. In your spreadsheet software, you might need to insert a row first.
+Note that as part of text extracting and automated pre-annotation, some errors can occur, e.g., incorrectly split words, or incorrect type of referring expressions. **Please, do NOT fix these errors.** Instead, you can add a comment in the `COMMENT` column in Spreadsheet annotation.
 
 The raw files currently contain three columns:
 
@@ -27,7 +27,7 @@ The raw files currently contain three columns:
 - `NP_FORM`: type of referring expression (noun phrase) 
 - `REF_AUTO`: predicted referentiality, i.e., `?OLD` or empty
 
-## 2.3 XLSX files
+## 2.3 XLSX (Spreadsheet) files
 
 Annotators do not directly operate with raw files, but with `*.xlsx` files. This is the native format of MS Excel, but should be processable with any other common spreadsheet software. These files include 
 

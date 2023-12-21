@@ -28,32 +28,12 @@ The order of anchor and utterance is flexible, but in many cases, the anchor pre
 
 ## 1.1 Preparation and Format
 
-Annotation is done using Spreadsheet software such as MS Excel or LibreOffice. We provide automated pre-annotations as well as formulas to dynamically populate the spreadsheet file. For annotating a file with pre-annotations, say `doyle_bask.14.tsv`, please proceed as follows:
+Annotation is done using Spreadsheet software such as MS Excel, LibreOffice or Google Spreadsheets. We provide files for annotation in MS Excel (`*.xslx`) format. These contain the original text along with automated pre-annotations, formulas to dynamically populate the spreadsheet depending on other annotations and special formatting for elements to be annotated.
 
-1. Copy `discourse-template.xlsx` to `doyle_bask.14.xlsx` (take the name of your source file as a basis)
-2. Open `doyle_bask.14.tsv` in your Spreadsheet software (or, alternatively, in a text editor)
-3. Select the full content of `doyle_bask.14.tsv`
-	- Text editor, Windows/Linux: press `<CTRL>+A` to select all
-	- Spreadsheet software, Windows/Linux: go to upper left corner (cell `A1`), press `<SHIFT>+<CTRL>+<END>` to select table data
-4. Copy the content of `doyle_bask.14.tsv`
-	- Windows/Linux: press `<CTRL>+C`
-5. Open `doyle_bask.14.xlsx` in your Spreadsheet software
-6. Go to cell `A3` (first cell, third line)
-7. Paste the content of `doyle_bask.14.tsv` into `doyle_bask.14.xlsx`
-	- Windows/Linux: press `<CTRL>+V`
-8. Copy the formulas (colored cells) from row `3`
-	- Windows/Linux: nagivate to `G3`, press `<SHIFT>+<END>` to select all formulas
-9. Select from `G3` until the end of the table
-	- Windows/Linux: navigate to `G3`, press `<SHIFT>+<CTRL>+<END>`
-10. Paste formulas into the selected area, confirm consent to overwrite
-	- Windows/Linux: press `<CTRL>+V`
-11. If successful, the entire table should have the same colored columns as the template.
-
-After preparation, your table should look as follows:
+If you open an XSLX file to be annotated, it can contain more than one worksheet. Select the worksheet named `sentence-level annotation`. If successful, your table should have a structure as illustrated in Fig. 1:
 
 ![template.png](template.png)
-
-(Note that you can resize column width and height as needed.)
+Fig. 1: Sample file
 
 Empty cells should be filled with `_`, automated pre-annotations are marked with question marks. After annotations, no question marks should remain.
 
@@ -70,6 +50,8 @@ The spreadsheet file contains the following columns:
 Note that in the template, several columns are hidden. These are auxiliary columns that annotators don't need to look into.
 
 Also note that automated pre-annotations might be incorrect. Except for `MARKER` (whose annotations should be replaced anyway), correcting an incorrect pre-annotation requires to leave a comment, either in an accompanying text file (annotation log), with reference to the corresponding sentence ID, or in the `COMMENT` column.
+
+> **Note on protected mode**: In protected mode, columns and rows cannot be resized. If this is necessary, annotators are free to turn off protection. Please do not re-enable protection afterwards so that we can spot those files.
 
 ## 1.2 Annotation Tasks and Procedure
 
