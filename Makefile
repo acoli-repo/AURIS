@@ -1,14 +1,59 @@
 SHELL=bash
 
-all: conllu refexp discourse
+all: ready-for-annotation
+
+update:
+	if [ -e ready-for-annotation ]; then rm -rf ready-for-annotation; fi;
+	if [ -e conllu ]; then rm -rf conllu; fi;
+	make update-discourse_pre
+	make update-refexp
+	make ready-for-annotation
+
+ready-for-annotation: 
+	if [ ! -e refexp ]; then make refexp; fi;
+	if [ ! -e discourse_pre ]; then make discourse_pre; fi;
+
+	@if [ ! -e ready-for-annotation ]; then \
+		LANGS=`find discourse_pre/*/ refexp/*/ | cut -f 2 -d '/' | sort -u | egrep '[a-z][a-z]'`;\
+		for lang in $$LANGS; do \
+			#echo language $$lang 1>&2;\
+			FILES=`find discourse_pre/$$lang/ refexp/$$lang/ \
+				   | egrep 'tsv$$' \
+				   | sed -e s/'.*\/'//g -e s/'\.tsv$$'// -e s/'\.conllu$$'//g -e s/'\.conll$$'//g \
+				   | sort -u`;\
+			for file in $$FILES; do \
+				#echo  $$lang: $$file 1>&2;\
+				disc=`find discourse_pre/$$lang/ | grep -m 1 '/'$$file`;\
+				ref=`find refexp/$$lang/ | grep -m 1 '/'$$file`;\
+				path=`if [ ! dirname $$disc 2>/dev/null ]; then dirname $$ref; fi | sed s/'^[^\/]*\/'//`;\
+				path=ready-for-annotation/$$lang/$$path;\
+				if [ ! -e $$path ]; then mkdir -p $$path; fi;\
+				tgt=$$path/$$file.xlsx;\
+				if [ ! -e $$tgt ]; then \
+					ARGS="scripts/tsvs2excel.py -s $$disc -w $$ref $$tgt";\
+					if echo $$disc | grep -v '/' >&/dev/null; then \
+						ARGS="scripts/tsvs2excel.py -w $$ref $$tgt";\
+					fi;\
+					if echo $$ref | grep -v '/' >&/dev/null; then \
+						ARGS="scripts/tsvs2excel.py -s $$disc $$tgt";\
+					fi;\
+					echo python3 $$ARGS 1>&2;\
+					python3 $$ARGS;\
+				fi;\
+				echo 1>&2;\
+			done;\
+		done;\
+	fi;\
 
 rdf4discourse:
 	if [ ! -e rdf4discourse ]; then \
 		git clone https://github.com/acoli-repo/rdf4discourse;\
 	fi;
 
-discourse: conllu conll-rdf rdf4discourse
-	@if [ ! -e discourse ]; then mkdir discourse; fi
+discourse_pre: update-discourse_pre
+
+update-discourse_pre: conllu conll-rdf rdf4discourse
+	@if [ ! -e discourse_pre ]; then mkdir discourse_pre; fi
 	@cd conllu;\
 	TIMEOUT="nice timeout --preserve-status 2h ";\
 	for lang in */; do \
@@ -16,7 +61,7 @@ discourse: conllu conll-rdf rdf4discourse
 		dimlex=`ls -l ../rdf4discourse/discourse-markers/linked/$$lang/*.ttl | sort -n -k 4 | head -n 1 | sed s/'.* '//g;`;\
 		for file in `find $$lang | grep 'conllu$$'`; do \
 			echo $$file 1>&2; \
-			tgt=../discourse/`echo $$file | sed s/'\.conllu$$'//`.tsv;\
+			tgt=../discourse_pre/`echo $$file | sed s/'\.conllu$$'//`.tsv;\
 			tgtdir=`dirname $$tgt`;\
 			if [ ! -e $$tgtdir ]; then mkdir -p $$tgtdir; fi;\
 			cat $$file \
@@ -31,7 +76,7 @@ discourse: conllu conll-rdf rdf4discourse
 			| $$TIMEOUT ../conll-rdf/run.sh CoNLLRDFFormatter -query ../sparql/discourse4.sparql \
 			| egrep '^[0-9]' \
 			| tee $$tgt;\
-		done > ../discourse/$$lang.tsv;\
+		done > ../discourse_pre/$$lang.tsv;\
 	done;
 
 udpipe:
@@ -190,7 +235,9 @@ conll-rdf:
 		#./compile.sh;\
 	fi;
 
-refexp: conll-rdf
+refexp: update-refexp
+
+update-refexp: conll-rdf
 	@make conllu;\
 	cd conllu;\
 	for lang in */; do \

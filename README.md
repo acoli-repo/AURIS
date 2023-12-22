@@ -11,12 +11,26 @@ AURIS is designed to build on and complement CoNLL-U corpora, and uses a CoNLL f
 ## Corpus (under construction)
 
 - [`txt/`](txt): Plain text files (input to pre-annotation)
-- [`conllu/`](conllu): Syntactically annotated files from `txt/` (automatically parsed, UD compliant)
-- [`refexp/`](refexp): "Raw" tsv/CoNLL files with automated (static) pre-annotation, input to manual annotation
-- [`is/`](is): Manual annotations for coreference and information status, Excel format
-- [`template.xlsx`](template.xlsx): Excel template, includes formulas for dynamic pre-annotation
+- [`ready-for-annotation/`](ready-for-annotation/): Spreadsheet (Excel) files with pre-annotation
 
-Pre-annotated ("raw") files can be built from plain text with `make` (see [`Makefile`](Makefile)).
+To add texts to the corpus, deposit them as plain text in `txt/$lang`, with `$lang` being the BCP47 identifier for your language (e.g., `en` for English) and run `make`. Note that only data from supported languages will be processed.
+
+Spreadsheet files are built from plain text with 
+
+	make update
+
+(see [`Makefile`](Makefile))
+
+Auxiliary files produced during pre-annotation
+
+- [`conllu/`](conllu): Syntactically annotated files from `txt/` (automatically parsed, UD compliant)
+- [`refexp/`](refexp): "Raw" word-level TSV/CoNLL files with automated (static) pre-annotation, input to manual annotation
+- [`discourse_pre/`](discourse_pre): "Raw" sentence-level TSV files with automated (static) pre-annotation, input to manual annotation
+
+Legacy data:
+
+- [`is/`](is): Older manual annotations for coreference and information status, Excel format
+- [`discourse_annotated/`](is): Older manual annotations for coreference and information status, Excel format
 
 ## Source data
 
