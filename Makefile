@@ -2,9 +2,8 @@ SHELL=bash
 
 all: ready-for-annotation
 
-update:
+update: update-conllu
 	if [ -e ready-for-annotation ]; then rm -rf ready-for-annotation; fi;
-	if [ -e conllu ]; then rm -rf conllu; fi;
 	make update-discourse_pre
 	make update-refexp
 	make ready-for-annotation
@@ -50,7 +49,8 @@ rdf4discourse:
 		git clone https://github.com/acoli-repo/rdf4discourse;\
 	fi;
 
-discourse_pre: update-discourse_pre
+discourse_pre: 
+	if [ ! -e discourse_pre ]; then make update-discourse_pre; fi
 
 update-discourse_pre: conllu conll-rdf rdf4discourse
 	@if [ ! -e discourse_pre ]; then mkdir discourse_pre; fi
@@ -69,10 +69,13 @@ update-discourse_pre: conllu conll-rdf rdf4discourse
 				'file://conllu/'$$file'#' \
 				ID FORM LEMMA UPOS XPOS FEATS HEAD EDGE DEPS MISC \
 				-u ../sparql/discourse1.$$lang.sparql \
+			| tee $$tgt.1.ttl \
 			| $$TIMEOUT ../conll-rdf/run.sh CoNLLRDFUpdater -custom -model $$dimlex "http://purl.org/acoli/dimlex" \
 				-updates ../sparql/discourse2_new.sparql \
+			| tee $$tgt.2.ttl \
 			| $$TIMEOUT ../conll-rdf/run.sh CoNLLRDFUpdater -custom \
 				-updates ../sparql/discourse3.sparql \
+			| tee $$tgt.3.ttl \
 			| $$TIMEOUT ../conll-rdf/run.sh CoNLLRDFFormatter -query ../sparql/discourse4.sparql \
 			| egrep '^[0-9]' \
 			| tee $$tgt;\
@@ -213,7 +216,10 @@ txt/bibl:
 		done; \
 	done || echo 'warning: unclear return code' 1>&2
 
-conllu: udpipe txt txt/bibl txt/doyle
+conllu: 
+	if [ ! -e conllu ]; then make update-conllu; fi;
+
+update-conllu: udpipe txt txt/bibl txt/doyle
 	@LANGS="en";\
 	echo "warning: we're supporting only "$$LANGS" at the moment" 1>&2;\
 	for lang in $$LANGS; do \
@@ -235,7 +241,8 @@ conll-rdf:
 		#./compile.sh;\
 	fi;
 
-refexp: update-refexp
+refexp: 
+	if [ ! -e refexp ]; then mkdir update-refexp; fi
 
 update-refexp: conll-rdf
 	@make conllu;\
