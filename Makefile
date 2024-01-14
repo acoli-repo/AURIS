@@ -22,7 +22,7 @@ ready-for-annotation:
 				   | sort -u`;\
 			for file in $$FILES; do \
 				#echo  $$lang: $$file 1>&2;\
-				disc=`find discourse_pre/$$lang/ | grep -m 1 '/'$$file`;\
+				disc=`find discourse_pre/$$lang/ | grep 'tsv$$' | grep -m 1 '/'$$file`;\
 				ref=`find refexp/$$lang/ | grep -m 1 '/'$$file`;\
 				path=`if [ ! dirname $$disc 2>/dev/null ]; then dirname $$ref; fi | sed s/'^[^\/]*\/'//`;\
 				path=ready-for-annotation/$$lang/$$path;\
