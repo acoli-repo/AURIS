@@ -17,4 +17,7 @@
 			- `fb` (doyle): 1000 tok / 60 min (`COREF`, `REF`, `IS`, no `CB`)
 - discourse relations
 	- v.0.2
-		- tbc
+		- jc: 60 min für 23 sätze ~ 460 tokens, d.h. 7.7 tokens/min
+
+
+teddy: 3760 sätze, 73391 tokens ~ 20 tokens
