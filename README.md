@@ -40,6 +40,13 @@ Legacy data:
 - [`is/`](is): Older manual annotations for coreference and information status, Excel format
 - [`discourse_annotated/`](is): Older manual annotations for coreference and information status, Excel format
 
+### For developers
+
+- For adding new languages / data in your local installation, you need to install and build [UDpipe v1.0](https://ufal.mff.cuni.cz/udpipe/1/users-manual) under `udpipe/`. Our [`Makefile`](Makefile) assumes to find the executable under `udpipe/src/udpipe`.
+- Models need to be installed separately. We expect modules to be found under `udpipe/models/$LANG/*.udpipe`, with `$LANG` to be replaced by a BCP47 language code (to be manually assigned). The command `make conllu` will use the *first* `\*.udpipe` file per directory for parsing.
+- So far, we only support English, using the [UD 2.5 EWT model](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131)
+- After adding a new language, you need to add the BCP47 code for the language to the variable `LANGS` under `update-conllu:` in [`Makefile`](Makefile) and then run `update-conllu`. This will update the `conllu/` subdirectories, subsequent processing steps will take the language( tag)s from these subdirectories.
+
 ## Source data
 
 - TED-MDB corpus (https://github.com/MurathanKurfali/Ted-MDB-Annotations), i.e., ted-mdb.1927, ted-mdb.1971, ted-mdb.1976, ted-mdb.1978, ted-mdb.2009, ted-mdb.2150
