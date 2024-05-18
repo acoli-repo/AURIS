@@ -27,3 +27,18 @@ mini.docx:
 	echo;\
 	cat mini.md;) | \
 	pandoc -f markdown -t docx > mini.docx
+
+../refexp-excerpt.docx:
+	basename=../refexp-excerpt;\
+	for file in terms.md format.md refexp.md coreference.md appendix-comments.md ;  do \
+		cat $$file; \
+		echo;\
+		echo;\
+	done > $$basename.md;\
+	( echo '# Table of Contents'; \
+	cat $$basename.md | egrep '^#' | \
+	sed -e s/'#\s'/'- '/g \
+		-e s/'#'/'\t'/g; \
+	echo;\
+	cat $$basename.md;) | \
+	pandoc -f markdown -t docx > $$basename.docx
