@@ -1,0 +1,1462 @@
+# newdoc id = txt/de/teddy-1429.txt
+# newpar
+# sent_id = 1
+# text = Vor einigen Jahren, hier bei TED, stellte Peter Skillman einen Design-Wettbewerb namens "Die Marshmallow-Herausforderung" vor.
+1	Vor	vor	ADP	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	case	_	_
+2	einigen	einige	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	3	det	_	_
+3	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	7	punct	_	_
+5	hier	hier	ADV	ADV	_	7	advmod	_	_
+6	bei	bei	ADP	APPR	_	7	case	_	_
+7	TED	Ted	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	3	punct	_	_
+9	stellte	stellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	Peter	Peter	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+11	Skillman	Skillman	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	flat	_	_
+12	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+13	Design	Design	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	compound	_	SpaceAfter=No
+14	-	-	PUNCT	$(	_	13	punct	_	SpaceAfter=No
+15	Wettbewerb	Wettbewerb	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obj	_	_
+16	namens	namens	ADP	NN	Case=Dat|Gender=Masc|Number=Sing|NumType=Card	19	case	_	_
+17	"	"	PUNCT	$(	_	18	punct	_	SpaceAfter=No
+18	Die	d	PRON	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	nmod	_	_
+19	Marshmallow	Marshmallow	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+20	-	-	PUNCT	$(	_	21	punct	_	SpaceAfter=No
+21	Herausforderung	Herausforderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	flat	_	SpaceAfter=No
+22	"	"	PUNCT	$(	_	19	punct	_	_
+23	vor	vor	ADP	NE	Case=Acc|Gender=Fem|Number=Sing	9	compound:prt	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Die Idee ist ziemlich einfach.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Idee	Idee	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	ziemlich	ziemlich	ADJ	ADV	_	5	advmod	_	_
+5	einfach	einfach	ADJ	ADV	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Vierer-teams müssen die größtmögliche freistehende Struktur mit 20 Spaghetti, ca. 1m Klebeband, ca. 1m Faden und einem Marshmallow bauen.
+1	Vierer-	Vierer-	NOUN	$(	_	2	dep	_	SpaceAfter=No
+2	teams	team	PROPN	NN	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+3	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	größtmögliche	größtmöglich	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	7	amod	_	_
+6	freistehende	freistehend	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	7	amod	_	_
+7	Struktur	Struktur	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_
+8	mit	mit	ADP	$(	_	10	case	_	_
+9	20	20	NUM	CARD	NumType=Card	10	nummod	_	_
+10	Spaghetti	Spaghetti	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	12	punct	_	_
+12	ca	ca	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	14	punct	_	_
+14	1m	1m	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+15	Klebeband	Klebeband	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	14	flat	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	17	punct	_	_
+17	ca	ca	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	14	appos	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	20	punct	_	_
+19	1m	1m	ADJ	NN	Case=Dat|Gender=Neut|Number=Sing	20	amod	_	_
+20	Faden	fade	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	24	obj	_	_
+21	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	23	cc	_	_
+22	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
+23	Marshmallow	Marshmallow	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	20	conj	_	_
+24	bauen	bauen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	24	punct	_	_
+
+# sent_id = 4
+# text = Der Marshmallow muss oben drauf sein.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Marshmallow	Marshmallow	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	oben	oben	ADV	CARD	NumType=Card	5	advmod	_	_
+5	drauf	drauf	PART	PAV	_	0	root	_	_
+6	sein	sein	AUX	VAINF	VerbForm=Inf	5	cop	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Und, obwohl es wirklich einfach scheint, ist es tatsächlich richtig schwer, weil es Leute drängt sehr schnell zusammenzuarbeiten.
+1	Und	und	CCONJ	ADJD	_	13	cc	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	7	punct	_	_
+3	obwohl	obwohl	SCONJ	NN	Case=Nom|Gender=Masc|Number=Sing	7	mark	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	wirklich	wirklich	ADJ	ADV	_	7	advmod	_	_
+6	einfach	einfach	ADJ	ADJD	_	7	advmod	_	_
+7	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	tatsächlich	tatsächlich	ADJ	ADV	_	13	advmod	_	_
+12	richtig	richtig	ADV	ADJD	_	13	advmod	_	_
+13	schwer	schwer	ADJ	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	18	punct	_	_
+15	weil	weil	SCONJ	KOUS	_	18	mark	_	_
+16	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur	18	nsubj	_	_
+18	drängt	drängen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+19	sehr	sehr	ADV	NN	Case=Acc|Gender=Fem|Number=Sing	20	advmod	_	_
+20	schnell	schnell	ADJ	ADV	_	21	advmod	_	_
+21	zusammenzuarbeiten	zusammenzuarbeiten	VERB	VVINF	VerbForm=Inf	18	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 6
+# text = Und so dachte ich, dass dies eine interessante Idee ist und ich habe es in einen Design-Workshop verwandelt.
+1	Und	und	CCONJ	ADJD	_	3	cc	_	_
+2	so	so	ADV	NE	Case=Nom|Gender=Neut|Number=Plur	3	advmod	_	_
+3	dachte	denken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	10	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	10	mark	_	_
+7	dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	_
+8	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	interessante	interessant	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	10	amod	_	_
+10	Idee	Idee	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	ccomp	_	_
+11	ist	sein	AUX	ADJD	_	10	cop	_	_
+12	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	21	cc	_	_
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+14	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
+15	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
+16	in	in	ADP	APPR	_	20	case	_	_
+17	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+18	Design	Design	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	20	compound	_	SpaceAfter=No
+19	-	-	PUNCT	$(	_	18	punct	_	SpaceAfter=No
+20	Workshop	Workshop	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	21	obl	_	_
+21	verwandelt	verwandelt	VERB	VVPP	VerbForm=Part	10	conj	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Es war ein riesiger Erfolg.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	war	sein	AUX	ADV	_	5	cop	_	_
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	riesiger	riesig	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
+5	Erfolg	Erfolg	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 8
+# text = Seitdem habe ich ungefähr 70 Workshops weltweit durchgeführt, mit Studenten, Entwicklern und Architekten, sogar mit CTOs der Fortune-50-Unternehmen und da ist etwas an dieser Aufgabe, was tiefe Eindrücke in die Natur der Zusammenarbeit ermöglicht und ich möchte einige davon mit Ihnen teilen.
+1	Seitdem	seitdem	ADV	PAV	_	8	advmod	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+4	ungefähr	ungefähr	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	5	advmod	_	_
+5	70	70	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Workshops	Workshop	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	obj	_	_
+7	weltweit	weltweit	ADJ	NN	Case=Dat|Gender=Neut|Number=Sing	8	advmod	_	_
+8	durchgeführt	durchführen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	11	punct	_	_
+10	mit	mit	ADP	CARD	NumType=Card	11	case	_	_
+11	Studenten	Student	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	13	punct	_	_
+13	Entwicklern	Entwickler	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	conj	_	_
+14	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	15	cc	_	_
+15	Architekten	Architekt	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	19	punct	_	_
+17	sogar	sogar	ADV	ADV	_	19	advmod	_	_
+18	mit	mit	ADP	ADJA	Case=Nom|Gender=Neut|Number=Plur	19	case	_	_
+19	CTOs	CTOs	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	8	conj	_	_
+20	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Fortune-50	Fortune-50	PROPN	ADJA	Case=Gen|Gender=Masc|Number=Sing|NumType=Card	19	nmod	_	SpaceAfter=No
+22	-	-	PUNCT	$(	_	23	punct	_	SpaceAfter=No
+23	Unternehmen	Unternehmen	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	21	flat	_	_
+24	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	26	cc	_	_
+25	da	da	ADV	ADV	_	26	advmod	_	_
+26	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+27	etwas	etwas	ADV	PIS	Definite=Ind|PronType=Ind	30	advmod	_	_
+28	an	an	ADP	APPR	_	30	case	_	_
+29	dieser	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	30	det	_	_
+30	Aufgabe	Aufgabe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+31	,	,	PUNCT	$,	_	40	punct	_	_
+32	was	was	PRON	NN	Case=Gen|Gender=Fem|Number=Plur	40	nsubj	_	_
+33	tiefe	tief	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	34	amod	_	_
+34	Eindrücke	Eindruck	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	40	obj	_	_
+35	in	in	ADP	APPR	_	37	case	_	_
+36	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	Natur	Natur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	34	nmod	_	_
+38	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	Zusammenarbeit	Zusammenarbeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	37	nmod	_	_
+40	ermöglicht	ermöglichen	VERB	VVFIN	VerbForm=Part	30	acl	_	_
+41	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	43	cc	_	_
+42	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	43	nsubj	_	_
+43	möchte	mögen	VERB	CARD	NumType=Card	40	conj	_	_
+44	einige	einige	PRON	PIAT	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	48	nsubj	_	_
+45	davon	davon	ADV	PAV	_	48	advmod	_	_
+46	mit	mit	ADP	$(	_	47	case	_	_
+47	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	48	obl	_	_
+48	teilen	teilen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	43	ccomp	_	SpaceAfter=No
+49	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 9
+# text = Normalerweise starten die meisten Leute sich selbst bezüglich der Aufgabe zu orientieren.
+1	Normalerweise	normalerweise	ADV	ADV	_	2	advmod	_	_
+2	starten	starten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	5	det	_	_
+4	meisten	meist	DET	NN	Case=Dat|Gender=Masc|Number=Sing	5	amod	_	_
+5	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur	2	nsubj	_	_
+6	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+7	selbst	selbst	ADV	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	advmod	_	_
+8	bezüglich	bezüglich	ADJ	APPR	_	2	advmod	_	_
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Aufgabe	Aufgabe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	iobj	_	_
+11	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	12	mark	_	_
+12	orientieren	orientieren	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 10
+# text = Sie reden darüber, sie überlegen, wie es aussehen wird, sie rangeln um Macht, dann investieren Sie ein wenig Zeit in Planung und Organisation.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	reden	reden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	darüber	darüber	ADV	PAV	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	5	punct	_	_
+5	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	2	obj	_	_
+6	überlegen	überlegen	ADJ	ADJD	_	2	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	10	punct	_	_
+8	wie	wie	SCONJ	NN	Case=Nom|Gender=Neut|Number=Sing	10	mark	_	_
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	aussehen	aussehen	VERB	VVFIN	VerbForm=Inf	2	ccomp	_	_
+11	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	14	punct	_	_
+13	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_
+14	rangeln	rangeln	VERB	NN	Case=Nom|Gender=Fem|Number=Plur	2	parataxis	_	_
+15	um	um	ADP	APPR	_	16	case	_	_
+16	Macht	Macht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	19	punct	_	_
+18	dann	dann	ADV	ADV	_	19	advmod	_	_
+19	investieren	investieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+20	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+21	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
+22	wenig	wenig	ADJ	NN	Case=Acc|Gender=Neut|Number=Sing	23	amod	_	_
+23	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+24	in	in	ADP	APPR	_	25	case	_	_
+25	Planung	Planung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
+26	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	27	cc	_	_
+27	Organisation	Organisation	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	25	conj	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 11
+# text = Sie skizzieren und legen Spaghetti aus.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	skizzieren	skizzieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	4	cc	_	_
+4	legen	legen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	Spaghetti	Spaghetti	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	aus	aus	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 12
+# text = Sie investieren einen Großteil ihrer Zeit in den Zusammenbau ständig wachsender Strukturen und schließlich, kurz bevor sie keine Zeit mehr haben, nimmt jemand den Marshmallow und sie setzen ihn behutsam auf die Spitze, treten einen Schritt zurück und "Ta-da"! bewundern sie ihre Arbeit.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	investieren	investieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Großteil	Großteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	ihrer	ihr	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	6	det:poss	_	_
+6	Zeit	Zeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Zusammenbau	Zusammenbau	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+10	ständig	ständig	ADJ	ADJD	_	11	advmod	_	_
+11	wachsender	wachsend	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	12	amod	_	_
+12	Strukturen	Struktur	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	22	obj	_	_
+13	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	22	cc	_	_
+14	schließlich	schließlich	ADV	ADV	_	22	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	22	punct	_	_
+16	kurz	kurz	ADJ	ADJD	_	22	advmod	_	_
+17	bevor	bevor	SCONJ	ADV	_	22	mark	_	_
+18	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	22	nsubj	_	_
+19	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	20	nmod	_	_
+20	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+21	mehr	mehr	PRON	ADV	_	22	obj	_	_
+22	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	24	punct	_	_
+24	nimmt	nehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl	_	_
+25	jemand	jemand	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	24	nsubj	_	_
+26	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Marshmallow	Marshmallow	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	30	obj	_	_
+28	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	30	cc	_	_
+29	sie	sie	PRON	NN	Case=Acc|Gender=Fem|Number=Sing	30	nsubj	_	_
+30	setzen	setzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+31	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	obj	_	_
+32	behutsam	behutsam	ADJ	ADJD	_	30	advmod	_	_
+33	auf	auf	ADP	APPR	_	35	case	_	_
+34	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	Spitze	Spitze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	30	obl	_	SpaceAfter=No
+36	,	,	PUNCT	$,	_	37	punct	_	_
+37	treten	treten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+38	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	Schritt	Schritt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	37	obj	_	_
+40	zurück	zurück	ADV	NE	Case=Gen|Gender=Masc|Number=Sing	37	compound:prt	_	_
+41	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	43	cc	_	_
+42	"	"	PUNCT	$(	_	43	punct	_	SpaceAfter=No
+43	Ta-da	Ta-da	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	37	conj	_	SpaceAfter=No
+44	"	"	PUNCT	$(	_	43	punct	_	SpaceAfter=No
+45	!	!	PUNCT	$.	_	46	punct	_	_
+46	bewundern	bewundern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+47	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	46	nsubj	_	_
+48	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	49	det:poss	_	_
+49	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	46	obj	_	SpaceAfter=No
+50	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 13
+# text = Was aber dann, fast immer, passiert ist, dass das "ta-da" zu einem "uh-oh" wird, weil das Gewicht des Marshmallows bewirkt, dass die ganze Sache sich verbiegt und einstürzt.
+1	Was	was	PRON	FM	Foreign=Yes	6	nsubj	_	_
+2	aber	aber	ADV	ADV	_	3	advmod	_	_
+3	dann	dann	ADV	ADV	_	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	1	punct	_	_
+5	fast	fast	ADV	ADV	_	6	advmod	_	_
+6	immer	immer	ADV	ADV	_	8	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	passiert	passieren	VERB	VVPP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	ist	sein	AUX	ADJD	_	8	cop	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	20	punct	_	_
+11	dass	dass	SCONJ	KOUS	_	20	mark	_	_
+12	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
+13	"	"	PUNCT	$(	_	14	punct	_	SpaceAfter=No
+14	ta-da	ta-da	PROPN	NE	Foreign=Yes	20	nsubj:pass	_	SpaceAfter=No
+15	"	"	PUNCT	$(	_	14	punct	_	_
+16	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	20	case	_	_
+17	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+18	"	"	PUNCT	$(	_	20	punct	_	SpaceAfter=No
+19	uh-	uh-	PUNCT	$(	_	20	punct	_	SpaceAfter=No
+20	oh	oh	CCONJ	ADJD	_	8	ccomp	_	SpaceAfter=No
+21	"	"	PUNCT	$(	_	20	punct	_	_
+22	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	20	aux:pass	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	29	punct	_	_
+24	weil	weil	SCONJ	KOUS	_	29	mark	_	_
+25	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	_
+26	Gewicht	Gewicht	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	29	nsubj	_	_
+27	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Marshmallows	Marshmallows	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+29	bewirkt	bewirken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	SpaceAfter=No
+30	,	,	PUNCT	$,	_	36	punct	_	_
+31	dass	dass	SCONJ	KOUS	_	36	mark	_	_
+32	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+33	ganze	ganz	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	34	amod	_	_
+34	Sache	Sache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	36	nsubj	_	_
+35	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	36	obj	_	_
+36	verbiegt	verbiegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	ccomp	_	_
+37	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	38	cc	_	_
+38	einstürzt	einstürzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	conj	_	SpaceAfter=No
+39	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 14
+# text = Es gibt eine Reihe von Leuten, die viel mehr "uh-oh"-Momente haben als andere, und unter den Schlechtesten sind frische BWL-Absolventen.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Reihe	Reihe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	von	von	ADP	FM	Foreign=Yes	6	case	_	_
+6	Leuten	Leute	NOUN	NN	Case=Dat|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	18	punct	_	_
+8	die	der	PRON	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	nsubj	_	_
+9	viel	viel	PRON	NN	Case=Nom|Gender=Fem|Number=Sing	10	det	_	_
+10	mehr	mehr	ADV	ADV	_	18	advmod	_	_
+11	"	"	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+12	uh	uh	PROPN	ADJD	_	10	compound	_	SpaceAfter=No
+13	-	-	PUNCT	$(	_	14	punct	_	SpaceAfter=No
+14	oh	oh	PROPN	ADJD	_	12	flat	_	SpaceAfter=No
+15	"	"	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+16	-	-	PUNCT	$(	_	17	punct	_	SpaceAfter=No
+17	Momente	Moment	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	12	flat	_	_
+18	haben	haben	VERB	VAINF	VerbForm=Inf	4	acl	_	_
+19	als	als	ADP	KOKOM	_	20	case	_	_
+20	andere	ander	PRON	ADJA	Case=Acc|Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	28	punct	_	_
+22	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	28	cc	_	_
+23	unter	unter	ADP	ADJD	_	25	case	_	_
+24	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Schlechtesten	Schlechtest	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	28	nmod	_	_
+26	sind	sein	AUX	ADJD	_	28	cop	_	_
+27	frische	frische	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	28	amod	_	_
+28	BWL	BWL	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
+29	-	-	PUNCT	$(	_	30	punct	_	SpaceAfter=No
+30	Absolventen	Absolvent	NOUN	NN	Case=Acc|Number=Plur	28	flat	_	SpaceAfter=No
+31	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 15
+# text = (Gelächter) Sie lügen, sie schummeln, sie sind verwirrt und produzieren wirklich dürftige Gebilde.
+1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+2	Gelächter	Gelächter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	dep	_	SpaceAfter=No
+3	)	)	PUNCT	$(	_	2	punct	_	_
+4	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+5	lügen	lügen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	8	punct	_	_
+7	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+8	schummeln	schummeln	VERB	FM	Foreign=Yes	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	12	punct	_	_
+10	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
+11	sind	sein	AUX	ADJD	_	12	cop	_	_
+12	verwirrt	verwirren	ADJ	VVPP	VerbForm=Part	5	ccomp	_	_
+13	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	14	cc	_	_
+14	produzieren	produzieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+15	wirklich	wirklich	ADJ	ADV	_	14	advmod	_	_
+16	dürftige	dürftig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	17	amod	_	_
+17	Gebilde	Gebilde	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 16
+# text = Und natürlich gibt es auch Teams die viel mehr "ta-da"-Gebilde haben und unter den Besten sind frische Absolventen des Kindergartens.
+1	Und	und	CCONJ	ADJD	_	3	cc	_	_
+2	natürlich	natürlich	ADJ	ADV	_	3	advmod	_	_
+3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+5	auch	auch	ADV	ADV	_	3	advmod	_	_
+6	Teams	Team	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	15	nsubj	_	_
+7	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	14	det	_	_
+8	viel	viel	PRON	NE	Foreign=Yes	14	det	_	_
+9	mehr	mehr	ADV	PIAT	Definite=Ind|PronType=Ind	14	det	_	_
+10	"	"	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+11	ta-da	ta-da	X	NE	Foreign=Yes	14	compound	_	SpaceAfter=No
+12	"	"	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+13	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+14	Gebilde	Gebilde	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+15	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	obj	_	_
+16	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	22	cc	_	_
+17	unter	unter	ADP	ADJD	_	19	case	_	_
+18	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Besten	gut	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	22	nmod	_	_
+20	sind	sein	AUX	ADJD	_	22	cop	_	_
+21	frische	frisch	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	22	amod	_	_
+22	Absolventen	Absolvent	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	conj	_	_
+23	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	24	det	_	_
+24	Kindergartens	Kindergarten	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 17
+# text = Und das ist ziemlich erstaunlich.
+1	Und	und	CCONJ	ADJD	_	5	cc	_	_
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	ist	sein	AUX	ADJD	_	5	cop	_	_
+4	ziemlich	ziemlich	ADV	ADV	_	5	advmod	_	_
+5	erstaunlich	erstaunlich	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 18
+# text = Wie uns Peter erzählte produzieren sie nicht nur die höchsten Türme, sondern auch die interessantesten Strukturen von allen.
+1	Wie	wie	ADP	NN	Case=Nom|Gender=Masc|Number=Sing	2	case	_	_
+2	uns	wir	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	4	obl	_	_
+3	Peter	Peter	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
+4	erzählte	erzählen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl	_	_
+5	produzieren	produzieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+7	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advmod	_	_
+8	nur	nur	ADV	CARD	NumType=Card	5	advmod	_	_
+9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	höchsten	hoch	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	11	amod	_	_
+11	Türme	Turm	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	17	punct	_	_
+13	sondern	sondern	CCONJ	NN	Case=Nom|Gender=Masc|Number=Plur	17	cc	_	_
+14	auch	auch	ADV	ADV	_	17	advmod	_	_
+15	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	interessantesten	interessant	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	17	amod	_	_
+17	Strukturen	Struktur	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	conj	_	_
+18	von	von	ADP	NE	Case=Dat|Gender=Fem|Number=Sing	19	case	_	_
+19	allen	alle	PRON	PIS	Case=Dat|Definite=Ind|Number=Plur|PronType=Ind	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 19
+# text = Was sie vielleicht fragen werden ist: Wie kommt das?
+1	Was	was	PRON	FM	Foreign=Yes	4	obj	_	_
+2	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+3	vielleicht	vielleicht	ADV	FM	Foreign=Yes	4	advmod	_	_
+4	fragen	fragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	werden	werden	AUX	NN	Case=Nom|Gender=Masc|Number=Plur	4	aux:pass	_	_
+6	ist	sein	AUX	NN	Case=Nom|Gender=Masc|Number=Sing	4	aux	_	SpaceAfter=No
+7	:	:	PUNCT	$.	_	9	punct	_	_
+8	Wie	wie	ADV	NN	Case=Nom|Gender=Neut|Number=Sing	9	advmod	_	_
+9	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+10	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	nsubj	_	SpaceAfter=No
+11	?	?	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Warum?
+1	Warum	warum	PROPN	PWAV	PronType=Int	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 21
+# text = Was ist mit denen?
+1	Was	was	PRON	FM	Foreign=Yes	2	nsubj	_	_
+2	ist	sein	AUX	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	mit	mit	ADP	$(	_	4	case	_	_
+4	denen	der	PRON	PDS	Case=Dat|Number=Plur|PronType=Dem	2	obl	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 22
+# text = Und Peter erzählt: "Keines der Kinder investiert Zeit darin Chef der Spaghetti GmbH zu sein".
+1	Und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	3	cc	_	_
+2	Peter	Peter	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	erzählt	erzählen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	$.	_	6	punct	_	_
+5	"	"	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+6	Keines	Kein	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	9	nsubj	_	_
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	8	det	_	_
+8	Kinder	Kind	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+9	investiert	investieren	VERB	VVFIN	VerbForm=Part	3	xcomp	_	_
+10	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+11	darin	darin	PRON	PAV	_	12	dep	_	_
+12	Chef	Chef	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Spaghetti	Spaghetti	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	GmbH	GmbH	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	14	flat	_	_
+16	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	9	mark	_	_
+17	sein	sein	AUX	VAINF	VerbForm=Inf	9	aux:pass	_	SpaceAfter=No
+18	"	"	PUNCT	$(	_	3	punct	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 23
+# text = Sie investieren keine Zeit in Machtkämpfe.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	investieren	investieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	4	nmod	_	_
+4	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Machtkämpfe	Machtkampf	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 24
+# text = Es gibt aber noch einen weiteren Grund.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	aber	aber	ADV	ADV	_	2	advmod	_	_
+4	noch	noch	ADV	CARD	NumType=Card	2	advmod	_	_
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	weiteren	weit	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
+7	Grund	Grund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 25
+# text = Und zwar, dass BWL-Studenten trainiert wurden, den einen richtigen Plan zu finden, ok!
+1	Und	und	CCONJ	ADJD	_	2	cc	_	_
+2	zwar	zsein	VERB	ADV	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	8	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	8	mark	_	_
+5	BWL	BWL	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	SpaceAfter=No
+6	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+7	Studenten	Student	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	flat	_	_
+8	trainiert	trainieren	VERB	VVPP	VerbForm=Part	2	ccomp	_	_
+9	wurden	werden	AUX	FM	Foreign=Yes	8	aux:pass	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	16	punct	_	_
+11	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	16	nsubj	_	_
+12	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	richtigen	richtig	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	14	amod	_	_
+14	Plan	Plan	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+15	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	16	mark	_	_
+16	finden	finden	VERB	VVINF	VerbForm=Inf	2	acl	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	18	punct	_	_
+18	ok	ok	ADJ	ADJD	_	16	conj	_	SpaceAfter=No
+19	!	!	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 26
+# text = Und ihn dann zu realisieren.
+1	Und	und	CCONJ	NN	Case=Nom|Gender=Masc|Number=Sing	5	cc	_	_
+2	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+3	dann	dann	ADV	ADV	_	5	advmod	_	_
+4	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	5	mark	_	_
+5	realisieren	realisieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 27
+# text = Was dann passiert, wenn sie den Marshmallow auf die Spitze packen, sie haben keine Zeit mehr und was passiert?
+1	Was	was	PRON	FM	Foreign=Yes	3	nsubj	_	_
+2	dann	dann	ADV	ADV	_	3	advmod	_	_
+3	passiert	passieren	VERB	VVPP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	12	punct	_	_
+5	wenn	wenn	SCONJ	VVFIN	_	12	mark	_	_
+6	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Marshmallow	Marshmallow	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+9	auf	auf	ADP	APPR	_	11	case	_	_
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Spitze	Spitze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+12	packen	packen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	15	punct	_	_
+14	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
+15	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+16	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	17	nmod	_	_
+17	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+18	mehr	mehr	ADV	ADV	_	15	advmod	_	_
+19	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	21	cc	_	_
+20	was	was	PRON	NN	Case=Acc|Gender=Fem|Number=Sing	21	nsubj	_	_
+21	passiert	passieren	VERB	VVPP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	SpaceAfter=No
+22	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 28
+# text = Es ist eine Krise.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Krise	Krise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 29
+# text = Klingt vertraut, was?
+1	Klingt	klingt	NOUN	ADJD	_	2	dep	_	_
+2	vertraut	vertrauen	VERB	ADJD	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	4	punct	_	_
+4	was	was	PRON	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 30
+# text = Was Kindergartenkinder anders machen ist, dass sie mit dem Marshmallow beginnen und Prototypen bauen, erfolgreiche Prototypen, immer mit dem Marshmallow an der Spitze, so dass sie mehrfach die Möglichkeit haben baufällige Prototypen zu reparieren.
+1	Was	was	PRON	FM	Foreign=Yes	4	nsubj	_	_
+2	Kindergartenkinder	Kindergartenkinder	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	anders	anders	ADV	ADV	_	4	advmod	_	_
+4	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+5	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	12	punct	_	_
+7	dass	dass	SCONJ	KOUS	_	12	mark	_	_
+8	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
+9	mit	mit	ADP	$(	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Marshmallow	Marshmallow	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	_
+12	beginnen	beginnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+13	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	15	cc	_	_
+14	Prototypen	Prototyp	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+15	bauen	bauen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	18	punct	_	_
+17	erfolgreiche	erfolgreich	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	18	amod	_	_
+18	Prototypen	Prototyp	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	18	punct	_	_
+20	immer	immer	ADV	ADV	_	23	advmod	_	_
+21	mit	mit	ADP	ADJA	Case=Nom|Gender=Neut|Number=Plur	23	case	_	_
+22	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
+23	Marshmallow	Marshmallow	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	18	nmod	_	_
+24	an	an	ADP	APPR	_	26	case	_	_
+25	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Spitze	Spitze	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	$,	_	38	punct	_	_
+28	so	so	ADV	NE	Case=Dat|Number=Plur	38	advmod	_	_
+29	dass	dass	SCONJ	KOUS	_	38	mark	_	_
+30	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	38	nsubj	_	_
+31	mehrfach	mehrfach	ADV	ADJD	_	38	advmod	_	_
+32	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	Möglichkeit	Möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	38	obj	_	_
+34	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	38	aux	_	_
+35	baufällige	baufällig	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	36	amod	_	_
+36	Prototypen	Prototyp	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	38	obj	_	_
+37	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	38	mark	_	_
+38	reparieren	reparieren	VERB	VVINF	VerbForm=Inf	4	advcl	_	SpaceAfter=No
+39	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 31
+# text = Konstrukteure erkennen diese Art der Zusammenarbeit als Kern eines iterativen Vorgangs.
+1	Konstrukteure	Konstrukteur	PROPN	ADJA	Case=Acc|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+3	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	Art	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Zusammenarbeit	Zusammenarbeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	als	als	ADP	KOKOM	_	8	case	_	_
+8	Kern	Kern	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	_
+9	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	iterativen	iterativ	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing	11	amod	_	_
+11	Vorgangs	Vorgang	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 32
+# text = Und mit jedem Versuch bekommen die Kinder unmittelbar Feedback was funktioniert und was nicht.
+1	Und	und	CCONJ	ADJD	_	5	cc	_	_
+2	mit	mit	ADP	ADJA	Case=Nom|Gender=Fem|Number=Plur	4	case	_	_
+3	jedem	jed	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
+4	Versuch	Versuch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	_
+5	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	7	det	_	_
+7	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+8	unmittelbar	unmittelbar	ADJ	NE	Foreign=Yes	9	amod	_	_
+9	Feedback	Feedback	NOUN	NN	Foreign=Yes	7	nmod	_	_
+10	was	was	PRON	NE	Foreign=Yes	11	nsubj	_	_
+11	funktioniert	funktionieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_
+12	und	und	CCONJ	NE	Foreign=Yes	14	cc	_	_
+13	was	was	PRON	NE	Foreign=Yes	14	nsubj	_	_
+14	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 33
+# text = So ist die Leistung, mit Prototypen zu arbeiten, wesentlich - aber sehen wir einmal, wie verschieden Teams agieren.
+1	So	so	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	4	advmod	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Leistung	Leistung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	9	punct	_	_
+6	mit	mit	ADP	ADJA	Case=Nom|Gender=Masc|Number=Plur	7	case	_	_
+7	Prototypen	Prototyp	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	obl	_	_
+8	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	9	mark	_	_
+9	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	4	acl	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	14	punct	_	_
+11	wesentlich	wesentlich	ADJ	ADJD	_	13	advmod	_	_
+12	-	-	PUNCT	$(	_	11	punct	_	_
+13	aber	aber	ADV	ADV	_	14	advmod	_	_
+14	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+15	wir	wir	PRON	ADJD	_	14	nsubj	_	_
+16	einmal	einmal	ADV	ADV	_	14	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	21	punct	_	_
+18	wie	wie	ADP	NN	Case=Nom|Gender=Fem|Number=Sing	20	case	_	_
+19	verschieden	verschieden	ADJ	ADJD	_	20	amod	_	_
+20	Teams	Team	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	21	obl	_	_
+21	agieren	agieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 34
+# text = Der Durchschnitt für die meisten liegt bei ca. 50cm, BWL-Studenten schaffen die Hälfte davon, Anwälte etwas mehr, aber nicht viel, Kindergartenkinder sind besser als die Erwachsenen.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Durchschnitt	Durchschnitt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	für	für	ADP	APPR	_	5	case	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	meisten	meist	PRON	NN	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	_
+6	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	bei	bei	ADP	APPR	_	8	case	_	_
+8	ca	ca	PROPN	FM	Foreign=Yes	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	10	punct	_	_
+10	50cm	50cm	PROPN	NN	Case=Nom|Number=Sing	15	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	12	punct	_	_
+12	BWL	BWL	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+13	-	-	PUNCT	$(	_	14	punct	_	SpaceAfter=No
+14	Studenten	Student	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	flat	_	_
+15	schaffen	schaffen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Hälfte	Hälfte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+18	davon	davon	ADV	PAV	_	15	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	20	punct	_	_
+20	Anwälte	Anwalt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	conj	_	_
+21	etwas	etwas	PRON	PIS	Definite=Ind|PronType=Ind	20	obj	_	_
+22	mehr	mehr	ADV	ADV	_	21	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	26	punct	_	_
+24	aber	aber	CCONJ	KON	_	26	cc	_	_
+25	nicht	nicht	PART	CARD	NumType=Card	26	advmod	_	_
+26	viel	viel	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+27	,	,	PUNCT	$,	_	30	punct	_	_
+28	Kindergartenkinder	Kindergartenkinder	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	30	nsubj	_	_
+29	sind	sein	AUX	ADJD	_	30	cop	_	_
+30	besser	gut	ADJ	ADJD	_	6	conj	_	_
+31	als	als	ADP	KOKOM	_	33	case	_	_
+32	die	der	DET	ART	Case=Acc|Number=Plur|PronType=Art	33	det	_	_
+33	Erwachsenen	Erwachsene	NOUN	NN	Case=Acc|Number=Plur	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 35
+# text = Wer ist am erfolgreichsten?
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	5	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	erfolgreichsten	erfolgreich	ADJ	NN	Case=Dat|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 36
+# text = Architekten und Ingenieure, zum Glück.
+1	Architekten	Architekt	NOUN	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	3	cc	_	_
+3	Ingenieure	Ingenieur	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	7	punct	_	_
+5-6	zum	_	_	_	_	_	_	_	_
+5	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Glück	Glück	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	1	conj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 37
+# text = 1m ist das Höchste, was ich gesehen habe.
+1	1m	1m	ADV	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Höchste	höch	NOUN	ADJA	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	8	punct	_	_
+6	was	was	PRON	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	gesehen	sehen	VERB	VVINF	VerbForm=Inf	4	acl	_	_
+9	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 38
+# text = Und warum?
+1	Und	und	CCONJ	ADJD	_	2	cc	_	_
+2	warum	warum	ADV	ADJD	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 39
+# text = Weil sie Dreiecke verstehen und sich-selbst-verstärkende geometrische Muster sind der Schlüssel um stabile Strukturen zu bauen.
+1	Weil	weil	SCONJ	KOUS	_	4	mark	_	_
+2	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+3	Dreiecke	Dreieck	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	obj	_	_
+4	verstehen	verstehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	7	cc	_	_
+6	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	SpaceAfter=No
+7	-selbst-verstärkende	-selbst-verstärkend	VERB	ADJA	Case=Nom|Gender=Fem|Number=Plur	4	conj	_	_
+8	geometrische	geometrisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	9	amod	_	_
+9	Muster	Muster	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+10	sind	sein	AUX	ADJD	_	17	aux:pass	_	_
+11	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Schlüssel	Schlüssel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+13	um	um	ADP	APPR	_	17	mark	_	_
+14	stabile	stabil	ADJ	ADJD	_	17	advmod	_	_
+15	Strukturen	Struktur	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_
+16	zu	zu	PART	NN	Case=Acc|Gender=Fem|Number=Plur	17	mark	_	_
+17	bauen	bauen	VERB	VVINF	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 40
+# text = CEOs liegen etwas über Durchschnitt.
+1	CEOs	CEO	PROPN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
+2	liegen	liegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	etwas	etwas	PRON	PIS	Definite=Ind|PronType=Ind	5	nsubj	_	_
+4	über	über	ADP	NN	Case=Acc|Gender=Fem|Number=Sing	5	case	_	_
+5	Durchschnitt	Durchschnitt	NOUN	ADJD	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 41
+# text = Aber hier wird es interessant.
+1	Aber	aber	CCONJ	KON	_	5	cc	_	_
+2	hier	hier	ADV	ADV	_	5	advmod	_	_
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+5	interessant	interessanen	VERB	ADJD	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 42
+# text = Setzt man ein Exekutive Administrator auf dem Team, werden sie signifikant besser.
+1	Setzt	setzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	1	nsubj	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Exekutive	Exekutive	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+5	Administrator	Administrator	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	4	appos	_	_
+6	auf	auf	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Team	Team	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	13	punct	_	_
+10	werden	werden	AUX	NN	Case=Dat|Gender=Neut|Number=Sing	13	cop	_	_
+11	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+12	signifikant	signifikant	ADJ	ADJD	_	13	advmod	_	_
+13	besser	gut	ADJ	ADJD	_	1	conj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 43
+# text = Es ist unglaublich.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	unglaublich	unglaublich	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 44
+# text = Sie sehen sich um und erkennen "Dieses Team wird gewinnen."
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	um	um	ADP	PTKVZ	_	6	mark	_	_
+5	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	6	cc	_	_
+6	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	2	advcl	_	_
+7	"	"	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+8	Dieses	dies	PRON	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	det	_	_
+9	Team	Team	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+10	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	gewinnen	gewinnen	VERB	VVINF	VerbForm=Inf	6	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+13	"	"	PUNCT	$(	_	2	punct	_	_
+
+# sent_id = 45
+# text = Sie können das vorhersagen.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	das	der	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	vorhersagen	vorhersagen	NOUN	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 46
+# text = Warum geht das?
+1	Warum	warum	ADV	PWAV	PronType=Int	2	advmod	_	_
+2	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	das	der	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	SpaceAfter=No
+4	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 47
+# text = Weil sie spezielle Fähigkeiten der Prozessbegleitung haben.
+1	Weil	weil	SCONJ	KOUS	_	7	mark	_	_
+2	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+3	spezielle	speziell	ADJ	NE	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
+4	Fähigkeiten	Fähigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Prozessbegleitung	Prozessbegleitung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 48
+# text = Sie leiten den Prozess, sie verstehen ihn.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	leiten	leiten	VERB	VVINF	VerbForm=Inf	0	root	_	_
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Prozess	Prozeß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	7	punct	_	_
+6	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+7	verstehen	verstehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+8	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 49
+# text = Und jenes Team, das regelt und auf die Arbeit achtet wird die Leistung des Teams signifikant verbessern.
+1	Und	und	CCONJ	ADJD	_	3	cc	_	_
+2	jenes	jen	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
+3	Team	Team	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	6	punct	_	_
+5	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	6	nsubj	_	_
+6	regelt	regeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_
+7	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	11	cc	_	_
+8	auf	auf	ADP	APPR	_	10	case	_	_
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+11	achtet	achten	VERB	VVPP	VerbForm=Part	6	conj	_	_
+12	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	aux:pass	_	_
+13	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Leistung	Leistung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	obj	_	_
+15	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Teams	Team	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+17	signifikant	signifikant	ADJ	ADJD	_	18	advmod	_	_
+18	verbessern	verbessern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	18	punct	_	_
+
+# sent_id = 50
+# text = Spezialisierte Fähigkeiten und Prozessfähigkeiten und deren Kombination führen zu Erfolg.
+1	Spezialisierte	spezialisiert	ADJ	NE	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	Fähigkeiten	Fähigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	nsubj	_	_
+3	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	4	cc	_	_
+4	Prozessfähigkeiten	Prozessfähigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	conj	_	_
+5	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	7	cc	_	_
+6	deren	der	DET	PDAT	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	7	nmod:poss	_	_
+7	Kombination	Kombination	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	conj	_	_
+8	führen	fahren|führen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	case	_	_
+10	Erfolg	Erfolg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 51
+# text = Wenn Sie 10 Teams haben, die typisch vorgehen, bekommen Sie ca. 6, die stabile Strukturen haben.
+1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+3	10	10	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Teams	Team	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	_
+5	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	9	punct	_	_
+7	die	der	DET	PRELS	Case=Nom|Number=Plur|PronType=Rel	9	nsubj	_	_
+8	typisch	typisch	ADJ	ADJD	_	9	advmod	_	_
+9	vorgehen	vorgehen	ADJ	NN	Case=Acc|Gender=Neut|Number=Sing	10	conj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	5	punct	_	_
+11	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+13	ca	ca	ADV	FM	Foreign=Yes	11	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	11	punct	_	_
+15	6	6	NUM	CARD	NumType=Card	11	appos	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	20	punct	_	_
+17	die	der	DET	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	19	det	_	_
+18	stabile	stabil	ADJ	ADJD	_	19	amod	_	_
+19	Strukturen	Struktur	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	20	obj	_	_
+20	haben	haben	VERB	VAINF	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 52
+# text = Ich versuchte nun etwas spannendes.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	versuchte	versuchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	nun	nun	ADV	ADV	_	2	advmod	_	_
+4	etwas	etwas	ADV	ADV	_	5	advmod	_	_
+5	spannendes	spannend	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	2	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 53
+# text = Ich dachte, bringen wir den Pokereinsatz gleich.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	dachte	denken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	4	punct	_	_
+4	bringen	bringen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	wir	wir	PRON	ADJD	_	4	nsubj	_	_
+6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Pokereinsatz	Pokereinsatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+8	gleich	gleich	ADV	PTKVZ	_	4	compound:prt	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 54
+# text = Also bot ich einen 10000 $ Preis an Software für die Gewinner.
+1	Also	also	ADV	ADV	_	2	advmod	_	_
+2	bot	bieten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+5	10000	10000	NUM	CARD	NumType=Card	6	nummod	_	_
+6	$	$	NOUN	XY	_	7	compound	_	_
+7	Preis	Preis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
+8	an	an	ADP	APPR	_	9	case	_	_
+9	Software	Software	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+10	für	für	ADP	APPR	_	12	case	_	_
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	12	det	_	_
+12	Gewinner	Gewinner	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 55
+# text = Was glauben Sie passierte mit diesen Design-Studenten?
+1	Was	was	ADV	FM	Foreign=Yes	2	advmod	_	_
+2	glauben	glauben	VERB	VVINF	VerbForm=Inf	0	root	_	_
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	passierte	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+5	mit	mit	ADP	$(	_	9	case	_	_
+6	diesen	dies	PRON	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	Design	Design	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+9	Studenten	Student	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+10	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 56
+# text = Was war das Ergebnis?
+1	Was	was	PRON	FM	Foreign=Yes	4	nsubj	_	_
+2	war	sein	AUX	ADV	_	4	cop	_	_
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Ergebnis	Ergebnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 57
+# text = Das hier passierte.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	nsubj	_	_
+2	hier	hier	ADV	ADV	_	3	advmod	_	_
+3	passierte	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 58
+# text = Nicht ein Team hatte eine stabile Struktur.
+1	Nicht	nicht	PART	CARD	NumType=Card	2	advmod	_	_
+2	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Team	Team	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	stabile	stabil	ADJ	ADJD	_	7	amod	_	_
+7	Struktur	Struktur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 59
+# text = Falls irgendwer eine 2,5cm hohe Konstruktion gebaut hätte, hätte er den Preis nach Hause getragen.
+1	Falls	Falls	SCONJ	KOUS	_	7	mark	_	_
+2	irgendwer	irgendwer	PRON	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	iobj	_	_
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+4	2,5cm	2,5cm	NUM	CARD	NumType=Card	6	nummod	_	_
+5	hohe	hoch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
+6	Konstruktion	Konstruktion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj:pass	_	_
+7	gebaut	bauen	VERB	VVPP	VerbForm=Part	16	advcl	_	_
+8	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	7	punct	_	_
+10	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
+11	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+12	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Preis	Preis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+14	nach	nach	ADP	ADJA	_	15	case	_	_
+15	Hause	Haus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	_
+16	getragen	tragen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = 60
+# text = Ist es also nicht interessant, dass hohe Wetteinsätze einen starken Effekt haben?
+1	Ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	also	also	ADV	ADV	_	5	advmod	_	_
+4	nicht	nicht	PART	CARD	NumType=Card	5	advmod	_	_
+5	interessant	interessanen	VERB	ADJD	_	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	13	punct	_	_
+7	dass	dass	SCONJ	KOUS	_	13	mark	_	_
+8	hohe	hoch	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	9	amod	_	_
+9	Wetteinsätze	Wetteinsatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+10	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	starken	stark	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	12	amod	_	_
+12	Effekt	Effekt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+13	haben	haben	VERB	VAINF	VerbForm=Inf	5	ccomp	_	SpaceAfter=No
+14	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 61
+# text = Wir wiederholten diese Übung mit denselben Studenten.
+1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
+2	wiederholten	wiederholen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	Übung	Übung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	_
+5	mit	mit	ADP	CARD	NumType=Card	7	case	_	_
+6	denselben	denselbe	PRON	ADJA	Case=Dat|Gender=Neut|Number=Sing	7	det	_	_
+7	Studenten	Student	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 62
+# text = Was glauben Sie passierte nun?
+1	Was	was	ADV	FM	Foreign=Yes	2	advmod	_	_
+2	glauben	glauben	VERB	VVINF	VerbForm=Inf	0	root	_	_
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	passierte	passieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+5	nun	nun	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 63
+# text = Nun verstanden Sie den Vorteil des "Prototyping".
+1	Nun	nun	ADV	ADV	_	2	advmod	_	_
+2	verstanden	verstehen	VERB	VVPP	VerbForm=Part	0	root	_	_
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Vorteil	Vorteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+7	"	"	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+8	Prototyping	Prototyping	NOUN	FM	Foreign=Yes	5	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 64
+# text = So wurde aus demselben, schlechten Team eines unter den besten.
+1	So	so	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	2	advmod	_	_
+2	wurde	werden	AUX	ADV	_	0	root	_	_
+3	aus	aus	ADP	APPR	_	4	case	_	_
+4	demselben	derselbe	PRON	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	8	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	schlechten	schlecht	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	7	amod	_	_
+7	Team	Team	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obj	_	_
+8	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	xcomp	_	_
+9	unter	unter	ADP	NE	Case=Gen|Gender=Neut|Number=Sing	11	case	_	_
+10	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	besten	gut	ADJ	ADJD	_	8	amod	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 65
+# text = Sie produzierten die höchste Konstruktion in der geringsten Zeit.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	produzierten	produzieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	höchste	hoch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
+5	Konstruktion	Konstruktion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	_
+6	in	in	ADP	APPR	_	9	case	_	_
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	geringsten	gering	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	9	amod	_	_
+9	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 66
+# text = Es gibt somit tief-greifende Lektionen für uns, über die Natur von Antrieb und Erfolg.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	somit	somit	ADV	NN	Case=Acc|Gender=Masc|Number=Plur	2	advmod	_	_
+4	tief	tief	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+6	greifende	greifend	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	7	amod	_	_
+7	Lektionen	Lektion	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	_
+8	für	für	ADP	APPR	_	7	case	_	_
+9	uns	wir	PRON	NE	Case=Dat|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	13	punct	_	_
+11	über	über	ADP	FM	Foreign=Yes	13	case	_	_
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Natur	Natur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+14	von	von	ADP	FM	Foreign=Yes	15	case	_	_
+15	Antrieb	Antrieb	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	_
+16	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	17	cc	_	_
+17	Erfolg	Erfolg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 67
+# text = Sie mögen fragen: Warum würde jemand tatsächlich Zeit investieren eine Marshmallow-Challenge zu kreieren?
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	mögen	mögen	VERB	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+3	fragen	fragen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+4	:	:	PUNCT	$.	_	10	punct	_	_
+5	Warum	warum	PROPN	PWAV	PronType=Int	10	nsubj	_	_
+6	würde	werden	AUX	NE	Case=Nom|Number=Sing	10	aux	_	_
+7	jemand	jemand	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	10	nsubj	_	_
+8	tatsächlich	tatsächlich	ADJ	ADV	_	9	amod	_	_
+9	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+10	investieren	investieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+11	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Marshmallow	Marshmallow	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	SpaceAfter=No
+13	-	-	PUNCT	$(	_	14	punct	_	SpaceAfter=No
+14	Challenge	Challenge	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	flat	_	_
+15	zu	zu	PART	NN	Case=Acc|Gender=Fem|Number=Plur	16	mark	_	_
+16	kreieren	kreieren	VERB	VVINF	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+17	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 68
+# text = Der Grund ist, ich helfe digitale Werkzeuge und Prozesse erstellen, um Teams zu helfen, Autos, Videospiele und "Visual Effects" zu erstellen.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Grund	Grund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	11	punct	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+6	helfe	helf	ADJ	NN	Case=Acc|Gender=Masc|Number=Plur	8	amod	_	_
+7	digitale	digital	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	8	amod	_	_
+8	Werkzeuge	Werkzeug	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	obj	_	_
+9	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	10	cc	_	_
+10	Prozesse	Prozeß	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	conj	_	_
+11	erstellen	erstellen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	16	punct	_	_
+13	um	um	ADP	KOUI	_	16	mark	_	_
+14	Teams	Team	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	16	obj	_	_
+15	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	16	mark	_	_
+16	helfen	helfen	VERB	VVINF	VerbForm=Inf	11	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	18	punct	_	_
+18	Autos	Auto	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	conj	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	20	punct	_	_
+20	Videospiele	Videospiel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	18	conj	_	_
+21	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	27	cc	_	_
+22	"	"	PUNCT	$(	_	23	punct	_	SpaceAfter=No
+23	Visual	Visual	PROPN	NE	Foreign=Yes	27	obj	_	_
+24	Effects	Effects	PROPN	NE	Foreign=Yes	23	flat	_	SpaceAfter=No
+25	"	"	PUNCT	$(	_	23	punct	_	_
+26	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	27	mark	_	_
+27	erstellen	erstellen	VERB	VVINF	VerbForm=Inf	11	conj	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 69
+# text = Und was die Marshmallow-Challenge tut ist, sie hilft ihnen versteckte Annahmen zu identifizieren.
+1	Und	und	CCONJ	ADJD	_	7	cc	_	_
+2	was	was	PRON	NN	Case=Gen|Gender=Fem|Number=Plur	7	nsubj	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Marshmallow	Marshmallow	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+5	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+6	Challenge	Challenge	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	_
+7	tut	tun	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	ist	sein	AUX	ADJD	_	7	cop	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	11	punct	_	_
+10	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+11	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+12	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	11	iobj	_	_
+13	versteckte	versteckt	ADJ	VVFIN	Case=Nom|Gender=Masc|Number=Sing	14	amod	_	_
+14	Annahmen	Annahme	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	16	obj	_	_
+15	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	16	mark	_	_
+16	identifizieren	identifizieren	VERB	VVINF	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 70
+# text = Denn offen gesagt, jedes Projekt hat seinen eigenen Marshmallow.
+1	Denn	denn	ADV	KON	_	3	advmod	_	_
+2	offen	offen	ADV	NN	Case=Acc|Gender=Masc|Number=Plur|NumType=Card	3	advmod	_	_
+3	gesagt	sagen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	7	punct	_	_
+5	jedes	jed	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	6	det	_	_
+6	Projekt	Projekt	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	nsubj	_	_
+7	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	seinen	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	10	det:poss	_	_
+9	eigenen	eigen	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	10	amod	_	_
+10	Marshmallow	Marshmallow	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 71
+# text = Die Herausforderung bietet eine gemeinsame Erfahrung, eine gemeinsame Sprache bzw. Grundhaltung, den richtigen Prototyp zu bauen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Herausforderung	Herausforderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	bietet	bieten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	gemeinsame	gemeinsam	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	_
+6	Erfahrung	Erfahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	10	punct	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	gemeinsame	gemeinsam	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	10	amod	_	_
+10	Sprache	Sprache	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	conj	_	_
+11	bzw	bzw	CCONJ	FM	Foreign=Yes	13	cc	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
+13	Grundhaltung	Grundhaltung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	19	punct	_	_
+15	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	richtigen	richtig	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	17	amod	_	_
+17	Prototyp	Prototyp	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+18	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	19	mark	_	_
+19	bauen	bauen	VERB	VVINF	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 72
+# text = Und dies ist der Wert dieser Erfahrung, dieser so einfache Übung.
+1	Und	und	CCONJ	ADJD	_	5	cc	_	_
+2	dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Wert	Wert	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	dieser	dies	PRON	PDAT	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	Erfahrung	Erfahrung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	12	punct	_	_
+9	dieser	dies	PRON	PDAT	Case=Gen|Gender=Neut|Number=Plur|PronType=Dem	12	det	_	_
+10	so	so	ADV	NN	Case=Gen|Gender=Neut|Number=Sing	11	advmod	_	_
+11	einfache	einfach	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	12	amod	_	_
+12	Übung	Übung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 73
+# text = Und jene von Ihnen, die es interessiert, können marshmallowchallenge.com besuchen.
+1	Und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	12	cc	_	_
+2	jene	jen	PRON	KOUS	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	12	nsubj	_	_
+3	von	von	ADP	FM	Foreign=Yes	4	case	_	_
+4	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	12	obl	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	8	punct	_	_
+6	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	8	nsubj	_	_
+7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	interessiert	interessiert	VERB	VVPP	VerbForm=Part	9	acl	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	4	punct	_	_
+10	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	marshmallowchallenge.com	marshmallowchallenge.com	ADP	NE	_	12	case	_	_
+12	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 74
+# text = Es ist ein Blog, wo man sieht, wie man die Marshmallows baut.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Blog	Blog	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	8	punct	_	_
+6	wo	wo	ADV	NE	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	8	advmod	_	_
+7	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	8	nsubj	_	_
+8	sieht	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	14	punct	_	_
+10	wie	wie	SCONJ	NN	Case=Nom|Gender=Neut|Number=Sing	14	mark	_	_
+11	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	14	nsubj	_	_
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	13	det	_	_
+13	Marshmallows	Marshmallow	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+14	baut	bauen	VERB	VVPP	VerbForm=Part	8	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 75
+# text = Es gibt eine Schritt-für-Schritt-Anleitung dort.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Schritt-	Schritt-	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	für	für	ADP	APPR	_	9	case	_	SpaceAfter=No
+6	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+7	Schritt	Schritt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+9	Anleitung	Anleitung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
+10	dort	dort	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 76
+# text = Sie finden verrückte Beispiele aus aller Welt, wie Leute das System optimieren und raffinieren.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	verrückte	verrückt	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	4	amod	_	_
+4	Beispiele	Beispiel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	obj	_	_
+5	aus	aus	ADP	APPR	_	7	case	_	_
+6	aller	alle	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	7	det	_	_
+7	Welt	Welt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	13	punct	_	_
+9	wie	wie	ADP	NN	Case=Dat|Gender=Fem|Number=Sing	13	case	_	_
+10	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur	13	nsubj	_	_
+11	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	System	System	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+13	optimieren	optimieren	VERB	VVINF	VerbForm=Inf	4	acl	_	_
+14	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	15	cc	_	_
+15	raffinieren	raffinieren	VERB	VVINF	VerbForm=Inf	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 77
+# text = Es gibt ebenfalls Weltrekorde.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ebenfalls	ebenfalls	ADV	ADV	_	2	advmod	_	_
+4	Weltrekorde	Weltrekord	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 78
+# text = Und die basale Lektion, glaube ich ist, das Konstruktion tatsächlich ein verbindender Sport ist.
+1	Und	und	CCONJ	ADJD	_	6	cc	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	basale	basal	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
+4	Lektion	Lektion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	glaube	glauben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+8	ist	sein	AUX	ADJD	_	6	cop	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	15	punct	_	_
+10	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Konstruktion	Konstruktion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+12	tatsächlich	tatsächlich	ADP	ADV	_	15	case	_	_
+13	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	verbindender	verbindend	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	15	amod	_	_
+15	Sport	Sport	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	ccomp	_	_
+16	ist	sein	AUX	ADJD	_	15	cop	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 79
+# text = Es verlangt, dass wir alle unsere Sinne auf die Aufgabe richten und, dass wir unser Denken optimal verwenden, wie unsere Gefühle und unser Tun, in der Herausforderung, die vor uns liegt.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	verlangt	verlangen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	12	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	12	mark	_	_
+5	wir	wir	PRON	ADJD	_	12	nsubj	_	_
+6	alle	alle	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+7	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	8	det:poss	_	_
+8	Sinne	Sinn	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+9	auf	auf	ADP	APPR	_	11	case	_	_
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Aufgabe	Aufgabe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+12	richten	richten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	_
+13	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	20	cc	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	20	punct	_	_
+15	dass	dass	SCONJ	KOUS	_	20	mark	_	_
+16	wir	wir	PRON	ADJD	_	20	nsubj	_	_
+17	unser	unser	PRON	NN	Case=Nom|Gender=Fem|Number=Sing	18	det:poss	_	_
+18	Denken	denken	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
+19	optimal	optimal	ADV	$(	_	20	advmod	_	_
+20	verwenden	verwend	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	31	punct	_	_
+22	wie	wie	SCONJ	NE	Case=Nom|Gender=Neut|Number=Sing	31	mark	_	_
+23	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	24	det:poss	_	_
+24	Gefühle	Gefühl	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	31	obj	_	_
+25	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	27	cc	_	_
+26	unser	unser	PRON	NN	Case=Acc|Gender=Fem|Number=Sing	27	det:poss	_	_
+27	Tun	tun	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+28	,	,	PUNCT	$,	_	31	punct	_	_
+29	in	in	ADP	APPR	_	31	case	_	_
+30	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	Herausforderung	Herausforderung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	$,	_	36	punct	_	_
+33	die	der	PRON	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	nsubj	_	_
+34	vor	vor	ADP	NE	Case=Acc|Gender=Fem|Number=Sing	35	case	_	_
+35	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	36	obl	_	_
+36	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	acl	_	SpaceAfter=No
+37	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 80
+# text = Und manchmal ist ein kleiner Prototyp dieser Erfahrung alles, was es braucht, uns von einem "uh-oh"- zu einem "ta-da"-Moment zu bringen.
+1	Und	und	CCONJ	ADJD	_	9	punct	_	_
+2	manchmal	manchmal	ADV	ADV	_	9	advmod	_	_
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	kleiner	klein	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+6	Prototyp	Prototyp	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+7	dieser	dies	PRON	PDAT	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	Erfahrung	Erfahrung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	alles	alle	PRON	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	13	punct	_	_
+11	was	was	PRON	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+12	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	30	punct	_	_
+15	uns	wir	PRON	VVPP	VerbForm=Part	30	obj	_	_
+16	von	von	ADP	FM	Foreign=Yes	25	case	_	_
+17	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+18	"	"	PUNCT	$(	_	19	punct	_	SpaceAfter=No
+19	uh-oh	uh-oh	ADJ	ADJD	_	25	amod	_	SpaceAfter=No
+20	"	"	PUNCT	$(	_	19	punct	_	SpaceAfter=No
+21	-	-	PUNCT	$(	_	19	punct	_	_
+22	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	25	case	_	_
+23	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	25	det	_	_
+24	"	"	PUNCT	$(	_	25	punct	_	SpaceAfter=No
+25	ta-da	ta-da	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	30	obl	_	SpaceAfter=No
+26	"	"	PUNCT	$(	_	25	punct	_	SpaceAfter=No
+27	-	-	PUNCT	$(	_	28	punct	_	SpaceAfter=No
+28	Moment	Moment	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	25	flat	_	_
+29	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	30	mark	_	_
+30	bringen	bringen	VERB	VVINF	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
+31	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 81
+# text = Und das kann einen großen Unterschied machen.
+1	Und	und	CCONJ	ADJD	_	7	cc	_	_
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	_
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	großen	groß	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	6	amod	_	_
+6	Unterschied	Unterschied	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+7	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 82
+# text = Vielen Dank.
+1	Vielen	viel	DET	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	amod	_	_
+2	Dank	Dank	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 83
+# text = (Applaus)
+1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+2	Applaus	Applaus	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\n
+

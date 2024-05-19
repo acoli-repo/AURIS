@@ -220,7 +220,7 @@ conllu:
 	if [ ! -e conllu ]; then make update-conllu; fi;
 
 update-conllu: udpipe txt txt/bibl txt/doyle
-	@LANGS="en";\
+	@LANGS="de en";\
 	echo "warning: we're supporting only "$$LANGS" at the moment" 1>&2;\
 	for lang in $$LANGS; do \
 		for file in txt/$$lang/*.txt; do \
@@ -228,7 +228,7 @@ update-conllu: udpipe txt txt/bibl txt/doyle
 			tgt=conllu/$$lang/`basename $$file | sed s/'.txt$$'//`.conllu;\
 			if [ ! -e $$tgt ] ; then \
 				echo $$file 1>&2; \
-				udpipe/src/udpipe `find udpipe/models/en/english* | head` --tokenize --tag --parse --output=conllu $$file > $$tgt;\
+				udpipe/src/udpipe `find udpipe/models/$$lang/*udpipe | head` --tokenize --tag --parse --output=conllu $$file > $$tgt;\
 				echo 1>&2;\
 			fi;\
 		done;\
