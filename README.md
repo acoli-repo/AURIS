@@ -46,7 +46,8 @@ Legacy data:
 - Models need to be installed separately. We expect modules to be found under `udpipe/models/$LANG/*.udpipe`, with `$LANG` to be replaced by a BCP47 language code (to be manually assigned). The command `make conllu` will use the *first* `\*.udpipe` file per directory for parsing.
 - After adding a new language, you need to add the BCP47 code for the language to the variable `LANGS` under `update-conllu:` in [`Makefile`](Makefile) and then run `make update-conllu`. This will update the `conllu/` subdirectories, subsequent processing steps will take the language( tag)s from these subdirectories.
 	- when running `make update-conllu`, the script will inform you about the installed UDPipe modules. Make sure these match the names of the subdirectories of `txt/`, as these files will serve as input.
-- The repository provides English pre-annotations, using the [UD 2.5 EWT model](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131)
+- The repository provides pre-annotations for English, using the [UD 2.5 EWT model](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131)
+- The repository provides pre-annotations for German, using the [UD 2.5 GSD model](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131). Note that is relatively error-prone regarding the handling of pronominal constructions.
 
 ## Source data
 
@@ -60,3 +61,7 @@ Legacy data:
 ## Complementary Material
 
 - [Augsburg Corpus of Bootstrapped Reference and Information Structure Annotations](https://github.com/acoli-repo/AURIS-bootstrap): extrapolated from over morphosyntactic marking in selected languages
+
+## Comments on individual languages
+
+We currently provide preprocessed files for English and German. Note that we remove multi-word expressions, e.g., for German cltiic determiners (*im*, *am*) are split off from prepositions (hence *in dem*, *von dem*). This may result in unnatural language in the token column, but the `# text` line on top maintains the original forms. 

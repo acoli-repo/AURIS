@@ -1,0 +1,120 @@
+PREFIX conll: <http://ufal.mff.cuni.cz/conll2009-st/task-description.html#> 
+PREFIX nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> 
+PREFIX powla: <http://purl.org/powla/powla.owl#> 
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX terms: <http://purl.org/acoli/open-ie/> 
+PREFIX x:     <http://purl.org/acoli/conll-rdf/xml#> 
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+
+#######################
+# find CORE predicate #
+#######################
+# The NUC of the sentence is to be automatically identified with the following rules:
+# 
+# 1. initial NUC candidate is the syntactic head according to UD
+
+INSERT { ?s conll:NUC ?w } 
+WHERE {  ?w conll:HEAD ?s. 
+         ?s a nif:Sentence. 
+};
+
+DELETE { ?v conll:NUC ?s }
+WHERE {  ?w conll:NUC ?s.
+		 ?v conll:NUC ?s. FILTER(?s != ?t).
+		 ?w conll:UPOS "VERB".
+		 ?v conll:UPOS ?tpos FILTER(?tpos != "VERB")
+};
+
+DELETE { ?s conll:NUC ?v }
+INSERT { ?s rdfs:comment ?msg }
+WHERE {  ?w conll:NUC ?s.
+		 ?v conll:NUC ?s. 
+		 ?w nif:nextWord+ ?v.
+		 ?v conll:WORD ?vWord; conll:ID ?vId.
+		 BIND(concat("WARNING: multiple head candidates, dropping ",str(?vId)," ",?vWord) as ?msg)
+};
+
+# 2. if the current NUC candidate is an attribution verb, then
+# 2.0 identify attribution verbs, pointing to the respective head
+#     Note: these have been translated from English using DeepL, pruned and manually extended, may not be exhaustive
+INSERT { ?w conll:ATTRIBUTION ?h }
+WHERE {  ?w conll:HEAD ?h.
+		 ?w conll:LEMMA ?wLemma.
+		FILTER(?wLemma in ("ablehnen", "abrufen", "adressieren", "akzeptieren", "analysieren", "anbieten", "andeuten", "anfeuern", "anfordern", "angeben", "ankündigen", "annehmen", "ansehen", "ansprechen", "antworten", "anzeigen", "argumentieren", "auffordern", "auflisten", "aufrechterhalten", "aufrufen", "ausdrücken", "ausrufen", "bedauern", "befehlen", "beglückwünschen", "begründen", "beharren", "behaupten", "beichten", "bejahen", "bekennen", "belegen", "bemerken", "beobachten", "beraten", "beschließen", "beschreiben", "beschweren", "bestätigen", "bestehen", "bestreiten", "beten", "beteuern", "betrachten", "beurteilen", "brüllen", "definieren", "deklamieren", "deklarieren", "demonstrieren", "denken", "deuten", "diskutieren", "drängen", "drohen", "einbeziehen", "einfügen", "einführen", "empfehlen", "entgegnen", "enthüllen", "entscheiden", "entschließen", "erinnern", "erkennen", "erklären", "erlauben", "erschließen", "erwähnen", "erwidern", "erzählen", "festlegen", "finden", "fortfahren", "fragen", "fühlen", "gewähren", "glauben", "grölen", "halten", "herausfordern", "hervorbringen", "hervorheben", "hinzufügen", "hören", "informieren", "interpretieren", "kategorisieren", "kennen", "klagen", "klären", "kommentieren", "kritisieren", "lachen", "lesen", "leugnen", "melden", "mitteilen", "murmeln", "nachprüfen", "notieren", "offenlegen", "phantasieren", "predigen", "quittieren", "realisieren", "rechtfertigen", "rezitieren", "rufen", "sagen", "scheinen", "schließen", "schluchzen", "schreiben", "schreien", "schwören", "sehen", "sicherstellen", "singen", "spekulieren", "spötteln", "sprechen", "spüren", "streiten", "trauern", "triumphieren", "übereinstimmen", "überreden", "übersetzen", "umreißen", "unterrichten", "unterstützen", "veranschaulichen", "vergleichen", "verhöhnen", "verkünden", "vermuten", "versichern", "versprechen", "verstehen", "versuchen", "verteidigen", "vervollständigen", "verweigern", "verwenden", "vorhersagen", "vorhersehen", "vorschlagen", "vorstellen", "wahrnehmen", "warnen", "widerlegen", "widersprechen", "wiederholen", "wundern", "wünschen", "wüten", "zeigen", "zitieren", "zugeben", "zugestehen", "zustimmen"))
+};
+
+# 2.a set the NUC candidate to the first dependent non-attribution verb
+DELETE { ?s conll:NUC ?v }
+INSERT { ?s conll:NUC ?w }
+WHERE { ?s conll:NUC ?v.
+		?w conll:ATTRIBUTION+ ?v. 
+		?w conll:UPOS "VERB".
+	    MINUS { ?w conll:ATTRIBUTION [] }
+};
+
+# 2.b if this is not possible, set the NUC candidate to the first direct dependent with clausal dependents
+DELETE { ?s conll:NUC ?v }
+INSERT { ?s conll:NUC ?w }
+WHERE { ?s conll:NUC ?v.
+		?v conll:ATTRIBUTION [].
+		?w conll:ATTRIBUTION+ ?v. 
+		MINUS { ?w conll:ATTRIBUTION [] }
+		?dep conll:HEAD ?w.
+		?dep conll:EDGE ?depEdge.
+		FILTER(replace(?depEdge,":.*","") in ("aux","nsubj","csubj","obj","xcomp","advcl"))
+};
+
+# 2.c if this is not possible, set the NUC candidate to its first csubj, ccomp or xcomp argument
+DELETE { ?s conll:NUC ?v }
+INSERT { ?s conll:NUC ?w }
+WHERE { ?s conll:NUC ?v.
+		?v conll:ATTRIBUTION [].
+		?w conll:ATTRIBUTION+ ?v. 
+		MINUS { ?w conll:ATTRIBUTION [] }
+		?w conll:EDGE ?wEdge.
+		FILTER(replace(?wEdge,":.*","") in ("csubj","ccomp","xcomp"))
+};
+
+# 2.d if this is not possible, keep the lowest NUC candidate
+DELETE { ?s conll:NUC ?v }
+INSERT { ?s conll:NUC ?w }
+WHERE { ?s conll:NUC ?v.
+		?v conll:ATTRIBUTION [].
+		?w conll:ATTRIBUTION+ ?v. 
+		MINUS { [] conll:ATTRIBUTION ?w }
+};
+
+# 2.e keep the first NUC candidate
+DELETE { ?s conll:NUC ?w }
+WHERE { ?s conll:NUC ?v,?w.
+	    ?v nif:nextWord+ ?w.
+};
+
+# 2.f remove ATTRIBUTION
+DELETE { ?x conll:ATTRIBUTION ?y }
+WHERE {  ?x conll:ATTRIBUTION ?y };
+
+# 3. if the current NUC candidate is a nominal, adjectival or adverbial
+#    predicate of a copula clause with an explicit verb, make the copular verb the NUC candidate.
+
+DELETE { ?s conll:NUC ?v }
+INSERT { ?s conll:NUC ?w }
+WHERE {  ?s conll:NUC ?v. 
+		 ?w conll:HEAD ?v. 
+		 ?w conll:EDGE ?wEdge. FILTER(strstarts(?wEdge,"cop"))
+};
+
+# 4. create conll:PRED attribute from conll:NUC
+INSERT { ?s conll:PRED ?pred_formatted }
+WHERE { ?s conll:NUC ?p .
+		{ SELECT ?p (GROUP_CONCAT(?lemma; separator=" ") AS ?pred)
+		  WHERE { ?s conll:NUC ?p. ?p conll:HEAD*/conll:LEMMA ?lemma }
+		  GROUP BY ?p
+		}
+		?p conll:LEMMA ?pLemma.
+		BIND(if(?pLemma=?pred, 
+		        ?pLemma, 
+		        concat(?pLemma," (",?pred,")")) 
+		     as ?pred_formatted)
+};

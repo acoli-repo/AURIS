@@ -1,0 +1,294 @@
+PREFIX conll: <http://ufal.mff.cuni.cz/conll2009-st/task-description.html#> 
+PREFIX nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> 
+PREFIX powla: <http://purl.org/powla/powla.owl#> 
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX terms: <http://purl.org/acoli/open-ie/> 
+PREFIX x:     <http://purl.org/acoli/conll-rdf/xml#> 
+
+###########################
+# eliminate non-markables #
+###########################
+
+# non-markables (REF=_)
+INSERT { ?w conll:REF "_" } 
+WHERE { 
+	# Reflexive pronouns (German *sich*, *derselbe*, *selbst*, *einander*, etc.) are not PM.
+	{ ?w conll:FEATS ?f FILTER(contains(?f,"Reflex=Yes")) } UNION
+	{ ?w conll:LEMMA ?l FILTER(contains(?l,"selb")) } UNION
+	{ ?w conll:XPOS "PRF" } UNION
+	# expletives
+	{ ?w conll:EDGE "expl" } UNION
+	# dependent nouns
+	{ ?w conll:EDGE "flat"} UNION
+	{ ?w conll:EDGE "compound"} UNION
+	# relatve pronouns
+	{ ?w conll:EDGE "mark"} UNION
+	{ ?w conll:UPOS "SCONJ" } UNION
+	{ ?w conll:FEATS ?f FILTER(contains(?f,"PronType=Rel"))} UNION
+	# non-nominals
+	{ ?w conll:EDGE "amod"} UNION
+	{ ?w conll:EDGE "advmod"} 
+};
+
+#################################
+# REF_EXP (NP_TYPE) annotations #
+#################################
+
+# REF_EXP
+# - indefinite and interrogative pronouns => ?NEW
+# - NP with indefinite "semi-demonstrative" (German "solch") => ?NEW
+# - NAME proper names => ?OLD ("primary markable")
+# - DEF_NP definite NP => ?OLD
+# - DEM_NP demonstrative NP => ?OLD
+# - POSS_NP possessive NP => ?NEW
+# - INDEF_NP indefinite NP => ?NEW (secondary markable)
+# - PPER personal pronouns => ?OLD
+# - PPOSS possessive pronouns => ?OLD
+# - PDEM substitutive demonstrative pronouns => ?OLD
+# - PADV pronominal adverbs => ?OLD
+# - PIND indefinite pronoun => ?NEW (secondary markable)
+
+# Note: to facilitate navigation during spreadsheet-based annotation, we remove `?NEW` in a final processing step.
+
+# - interrogative pronouns => ?NEW
+INSERT {
+	?w conll:REF "?NEW"; conll:REF_EXP "pron.pint"
+} WHERE {
+	?w conll:FEATS ?f FILTER(contains(?f,"PronType=Int"))
+	MINUS { ?w conll:REF [] }
+};
+
+# - NP with indefinite "semi-demonstrative" (German "solch") => ?NEW
+INSERT {
+	?w conll:REF "?NEW"; conll:REF_EXP "pron.pds"
+} WHERE {
+	?dep conll:LEMMA "solch"; conll:EDGE ?e; conll:HEAD ?w.
+	FILTER(strstarts(?e,"det") || strstarts(?e,"amod"))
+	MINUS { ?w conll:REF [] }
+};
+
+# - PPOSS possessive pronouns => ?OLD
+# 	- `det:poss`: German "ihr Haus"
+# 	- `nmod:poss`: German "deren Haus" (= possessive demonstrative)
+INSERT {
+	?w conll:REF_EXP "pron.ppos"; conll:REF "?OLD"
+} WHERE {
+	?w conll:EDGE ?e; conll:UPOS "PRON".
+	FILTER(?e in ("det:poss", "nmod:poss"))
+	MINUS { ?w conll:REF [] }
+};
+
+# - PDEM substitutive demonstrative pronouns => ?OLD
+INSERT {
+	?w conll:REF_EXP "pron.pds"; conll:REF "?OLD"
+} WHERE {
+	?w conll:UPOS "PRON"; conll:FEATS ?f.
+	FILTER(contains(?f,"PronType=Dem"))
+	MINUS { ?w conll:REF [] }
+};
+
+# - PADV pronominal adverbs => ?OLD, REF_EXP = pron.padv
+# German: systematic annotation only for XPOS
+INSERT {
+	?w conll:REF_EXP "pron.padv"; conll:REF "?OLD"
+} WHERE {
+	?w conll:XPOS "PAV".
+	MINUS { ?w conll:REF [] }
+};
+
+# - PIND indefinite pronoun => ?NEW (secondary markable)
+INSERT {
+	?w conll:REF "?NEW"; conll:REF_EXP "pron.pind"
+} WHERE {
+	{ ?w conll:FEATS ?f FILTER(contains(?f,"PronType=Ind")) } UNION
+	{ ?w conll:LEMMA ?l; conll:UPOS "PRON" FILTER(contains(?l,"one"))} 
+	MINUS { ?w conll:REF [] }
+};
+
+# - PPER personal pronouns => ?OLD
+INSERT {
+	?w conll:REF_EXP "pron.pper"; conll:REF "?OLD"
+} WHERE {
+	{ ?w conll:FEATS ?f FILTER(contains(?f,"PronType=Prs")) } UNION
+	{ ?w conll:UPOS "PRON"; conll:LEMMA ?l filter(?lemma in ("he","she","it","we","they","I","you"))}
+	MINUS { ?w conll:REF [] }
+};
+
+# - other pronouns => ?OLD
+INSERT {
+	?w conll:REF_EXP "pron"; conll:REF "?OLD"
+} WHERE {
+	?w conll:UPOS "PRON".
+	MINUS { ?w conll:REF [] }
+};
+
+INSERT {
+	?w conll:REF_EXP "ne"; conll:REF "?OLD"
+} WHERE {
+	?w conll:UPOS "PROPN".
+	MINUS { ?w conll:EDGE "compound" }
+	MINUS { ?w conll:EDGE "flat" }
+	MINUS { ?w conll:REF [] }
+};
+
+INSERT {
+	?w conll:REF_EXP "def-np.dem"; conll:REF "?OLD"
+} WHERE {
+	?def conll:FEATS ?f; conll:EDGE "det"; conll:HEAD ?w.
+	FILTER(contains(?f,"PronType=Dem"))
+	?w conll:UPOS "NOUN"
+	MINUS { ?w conll:REF [] }
+};
+
+INSERT {
+	?w conll:REF_EXP "def-np.poss"; conll:REF "?OLD"
+} WHERE {
+	?def conll:EDGE "nmod:poss"; conll:HEAD ?w.
+	?w conll:UPOS "NOUN"
+	MINUS { ?w conll:REF [] }
+};
+
+INSERT {
+	?w conll:REF_EXP "def-np.poss"; conll:REF "?OLD"
+} WHERE {
+	?dep conll:EDGE "nmod"; conll:HEAD ?w; conll:REF "?OLD"; conll:FEATS ?f
+	FILTER(contains(?f, "Case=Gen"))
+	MINUS { ?w conll:REF [] }
+};
+
+INSERT {
+	?w conll:REF_EXP "def-np.the"; conll:REF "?OLD"
+} WHERE {
+	?def conll:LEMMA "der"; conll:EDGE "det"; conll:HEAD ?w.
+	FILTER(contains(?f,"Definite=Def"))
+	?w conll:UPOS "NOUN"
+	MINUS { ?w conll:REF [] }
+};
+
+# quant-NP: this is for *der beiden N* and *der 500 N*
+INSERT {
+	?w conll:REF_EXP "def-np.quant"; conll:REF "?OLD"
+} WHERE {
+	{ 	?def conll:LEMMA "der"; conll:EDGE "det"; conll:HEAD ?w.
+		?card conll:UPOS "NUM"; conll:HEAD ?w. } UNION
+	{	?both conll:LEMMA "beide"; conll:HEAD ?w }
+	?w conll:UPOS "NOUN"
+	MINUS { ?w conll:REF [] }
+};
+
+# the-np
+INSERT {
+	?w conll:REF_EXP "def-np.the"; conll:REF "?OLD"
+} WHERE {
+	?def conll:LEMMA "der"; conll:EDGE "det"; conll:HEAD ?w.
+	?w conll:UPOS "NOUN"
+	MINUS { ?w conll:REF [] }
+};
+
+# enclitic determiners (must be definite)
+# NOTE: doesn't occur in corpus, these are all resolved to ADP+DET
+INSERT {
+	?w conll:REF_EXP "def-np.the"; conll:REF "?OLD"
+} WHERE {
+	?def conll:XPOS "APPRART"; conll:HEAD ?w.
+	?w conll:UPOS "NOUN"
+	MINUS { ?w conll:REF [] }
+};
+
+# def. nps in general
+INSERT {
+	?w conll:REF_EXP "def-np"; conll:REF "?OLD"
+} WHERE {
+	?def conll:FEATS ?f; conll:EDGE "det"; conll:HEAD ?w.
+	FILTER(contains(?f,"Definite=Def"))
+	?w conll:UPOS "NOUN"
+	MINUS { ?w conll:REF [] }
+};
+
+# other-NP: any def-np that contains "ander" => .other suffix
+DELETE {
+	?w conll:REF_EXP ?old.
+} INSERT {
+	?w conll:REF_EXP ?new
+} WHERE {
+	?other conll:LEMMA "ander"; conll:HEAD ?w.
+	?w conll:REF_EXP ?old. FILTER(strstarts(?old,"def-np"))	
+	BIND(concat(?old,".other") as ?new)
+};
+
+# indef-np.a
+INSERT {
+	?w conll:REF_EXP "indef-np.a"; conll:REF "?NEW"
+} WHERE {
+	?det conll:LEMMA "ein"; conll:EDGE ?e; conll:HEAD ?w.
+	FILTER(strstarts(?e,"det"))
+	?w conll:UPOS "NOUN".
+	MINUS { ?w conll:REF [] }
+};
+
+# indef-np.quant
+INSERT {
+	?w conll:REF_EXP "indef-np.quant"; conll:REF "?NEW"
+} WHERE {
+	{ ?quant conll:UPOS "NUM" } UNION
+	{ 
+		{ { ?quant conll:UPOS ?upos FILTER(?upos in ("ADJ","DET","PRON")) } UNION 
+		  { ?quant conll:XPOS ?xpos FILTER(?xpos in ("PIAT")) } }
+		?quant conll:LEMMA ?lemma 
+		FILTER(?lemma in ("einige","manch","viel","zahlreich","all","alle","allerlei", "paar", "etlich","jeglich","meist","meiste","genügend","etwas","kein","wenig", "weniger"))
+	}
+	?quant conll:HEAD ?w.
+	?w conll:UPOS "NOUN".
+	MINUS { ?w conll:REF [] }
+};
+
+# indef-np.bare: no determiner
+INSERT {
+	?w conll:REF_EXP "indef-np.bare"; conll:REF "?NEW"
+} WHERE {
+	?w conll:UPOS "NOUN".
+	MINUS { ?w conll:REF [] }
+	MINUS { [ conll:UPOS "DET" ] conll:HEAD ?w }
+};
+
+# indef-np: generic indefinite np
+INSERT {
+	?w conll:REF_EXP "indef-np"; conll:REF "?NEW"
+} WHERE {
+	?w conll:UPOS "NOUN".
+	MINUS { ?w conll:REF [] }
+};
+
+# other
+INSERT {
+	?w conll:REF_EXP "other"; conll:REF "?NEW"
+} WHERE {
+	?w conll:EDGE ?e.
+	FILTER(regex(?e,":.*","") in ("nmod", "nsubj", "obj", "dobj", "iobj", "obl"))
+	MINUS { ?w conll:REF [] }
+};
+
+##################
+# postprocessing #
+##################
+
+# remove `?NEW`
+# note: this is to facilitate spreadsheet-based annotation, so people can use <CTRL>+<DOWN> to jump to the next primary markable
+#       for doing the same for secondary markables, annotators should use the `REF_EXP` column. 
+
+DELETE {
+	?w conll:REF "?NEW"
+} WHERE {
+	?w conll:REF "?NEW"
+};
+
+
+# rename REF_EXP to NP_TYPE (for consistency with Chiarcos and Krasavina 2005)
+DELETE {
+	?w conll:REF_EXP ?re
+} INSERT {
+	?w conll:NP_TYPE ?re
+} WHERE {
+	?w conll:REF_EXP ?re
+	};

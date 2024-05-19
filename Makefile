@@ -4,14 +4,14 @@ all: ready-for-annotation
 
 update: update-conllu
 	if [ -e ready-for-annotation ]; then rm -rf ready-for-annotation; fi;
+	make update-ready-for-annotation
+
+ready-for-annotation: update-ready-for-annotation
+
+update-ready-for-annotation:
 	make update-discourse_pre
 	make update-refexp
-	make ready-for-annotation
-
-ready-for-annotation: 
-	if [ ! -e refexp ]; then make refexp; fi;
-	if [ ! -e discourse_pre ]; then make discourse_pre; fi;
-
+	
 	@if [ ! -e ready-for-annotation ]; then \
 		LANGS=`find discourse_pre/*/ refexp/*/ | cut -f 2 -d '/' | sort -u | egrep '[a-z][a-z]'`;\
 		for lang in $$LANGS; do \
@@ -256,6 +256,7 @@ update-refexp: conll-rdf
 				mkdir -p $$tgtdir;\
 			fi;\
 			cat $$file \
+			| egrep '^# text|^[0-9][0-9]*\s|^$$' \
 			| ../conll-rdf/run.sh CoNLLStreamExtractor \
 				'#' \
 				ID FORM LEMMA UPOS XPOS FEATS HEAD EDGE DEPS MISC \
