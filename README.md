@@ -48,6 +48,15 @@ Legacy data:
 	- when running `make update-conllu`, the script will inform you about the installed UDPipe modules. Make sure these match the names of the subdirectories of `txt/`, as these files will serve as input.
 - The repository provides pre-annotations for English, using the [UD 2.5 EWT model](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131)
 - The repository provides pre-annotations for German, using the [UD 2.5 GSD model](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131). Note that is relatively error-prone regarding the handling of pronominal constructions.
+- `make update-discourse_pre` seems to be blocked occasionally, esp., for longer files. When building new files for `ready-for-annotation`, these must be manually (timeout is implemented, but doesn't seem to grasp) terminated. As a possible workaround, start multiple `make update-discourse_pre` (resp. `make update`, etc.) threads shortly one after another. They are set up in a way that they don't overwrite each other's output, but skip files into which another instance is already writing into. 
+- Current setup was developed under and tested within Ubuntu 22.04L.
+
+## Known Issues
+
+We currently provide preprocessed files for English and German, only. Other languages on demand.
+
+- We remove multi-word expressions from the parser output, e.g., for German clitic determiners (*im*, *am*) are split off from prepositions (hence *in dem*, *von dem*). This may result in unnatural language in the token column, but the `# text` line on top should maintain the original forms. 
+- There seem to occur infinite loops or blockings in `make update-discourse_pre`, so that these were manually interrupted. As a result, the sentence-level content in the files in `ready-for-annotation/` may be incomplete.
 
 ## Source data
 
@@ -57,11 +66,10 @@ Legacy data:
 - Doyle: selected pieces of Arthur Conan Doyle (also subject to [FrameNet annotations](https://framenet.icsi.berkeley.edu/fulltextIndex)
 - ParCor: TED sub-corpus externally annotated for coreference (see [`preanno/parcor`](preanno/parcor/)).  
 - **TODO**: TED core corpus
+- **TODO**: add news text
+- **TODO**: add fairy tales
 
 ## Complementary Material
 
 - [Augsburg Corpus of Bootstrapped Reference and Information Structure Annotations](https://github.com/acoli-repo/AURIS-bootstrap): extrapolated from over morphosyntactic marking in selected languages
 
-## Comments on individual languages
-
-We currently provide preprocessed files for English and German. Note that we remove multi-word expressions, e.g., for German cltiic determiners (*im*, *am*) are split off from prepositions (hence *in dem*, *von dem*). This may result in unnatural language in the token column, but the `# text` line on top maintains the original forms. 
