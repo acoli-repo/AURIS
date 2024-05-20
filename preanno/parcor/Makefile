@@ -19,7 +19,7 @@ wmt17_test/test:
 		tar -xvf test.tgz;\
 	fi;
 
-news_txt/: parcor-full-news-source
+update_txt_w_news: parcor-full-news-source
 	#if [ ! -e news_txt ]; then \
 	#	mkdir news_txt;\
 	#fi;\
@@ -29,5 +29,11 @@ news_txt/: parcor-full-news-source
 		bbc.242405  bbc.242418  bbc.242436  bbc.242497  braunschweiger-zeitung.de.48722  \
 		brisbanetimes.com.au.130272  cbsnews.146232  cbsnews.146237  cbsnews.146271  cbsnews.146291  \
 		cbsnews.146310  cnn.167026  dailymail.co.uk.170661  dailymail.co.uk.170665 ; do \
-		find parcor-full-news-source | grep $$basename; \
+		for file in `find parcor-full-news-source | grep $$basename`; do \
+			lang=`echo $$file | cut -f 3 -d '/'`;\
+			tgtdir=../../txt/$$lang; \
+			if [ ! -e $$tgtdir ]; then mkdir -p $$tgtdir; fi; \
+			if [ ! -e $$tgtdir ]; then mkdir -p $$tgtdir; fi;\
+			cp $$file $$tgtdir/`basename $$file`;\
+		done;\
 	done;

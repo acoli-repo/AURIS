@@ -21,6 +21,10 @@ This is compiled from several source corpora. Some of these may provide addition
 	- `*/doyle.*.txt`: Arthur Conan Doyle, The Hound of the Baskervilles (chap. 14)
 		- license: public domain
 		- additional annotations are available as part of [FrameNet](https://framenet.icsi.berkeley.edu/fndrupal/fulltextIndex), for example
+- news data from WMT17 data set to be compiled as follows:
+
+		$> cd ../
+		$> make update_txt_w_news
 
 ## TODOs
 
