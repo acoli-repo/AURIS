@@ -1,0 +1,761 @@
+# newdoc id = txt/de/4929.txt
+# newpar
+# sent_id = 1
+# text = Am 27.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	27	27	NUM	CARD	NumType=Card	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Mai 1941 sank das deutsche Schlachtschiff Bismarck in einem heftigen Feuergefecht.
+1	Mai	Mai	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	dep	_	_
+2	1941	1941	NUM	CARD	NumType=Card	1	nmod	_	_
+3	sank	sinken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+5	deutsche	deutsch	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	6	amod	_	_
+6	Schlachtschiff	Schlachtschiff	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+7	Bismarck	Bismarck	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	6	appos	_	_
+8	in	in	ADP	APPR	_	11	case	_	_
+9	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+10	heftigen	heftig	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	11	amod	_	_
+11	Feuergefecht	Feuergefecht	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Nur 118 der 2.200 Besatzungsmitglieder überlebten.
+1	Nur	nur	ADV	ADV	_	2	advmod	_	_
+2	118	118	NUM	CARD	NumType=Card	6	obl	_	_
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	2.200	2.200	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Besatzungsmitglieder	Besatzungsmitglieder	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
+6	überlebten	überleben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Aber als ein britischer Zerstörer die Gefangenen aufnahm, fand man einen unerwarteten Überlebenden: eine schwarzweiße Katze, die sich an eine Planke klammerte.
+1	Aber	aber	CCONJ	KON	_	8	cc	_	_
+2	als	als	ADP	KOKOM	_	5	case	_	_
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	britischer	britisch	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
+5	Zerstörer	Zerstörer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	_
+6	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	7	det	_	_
+7	Gefangenen	Gefangene	NOUN	NN	Case=Nom|Number=Plur	8	nsubj	_	_
+8	aufnahm	aufnehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	fand	finden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	10	nsubj	_	_
+12	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	unerwarteten	unerwartet	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	14	amod	_	_
+14	Überlebenden	Überlebende	NOUN	NN	Case=Nom|Number=Plur	10	obj	_	SpaceAfter=No
+15	:	:	PUNCT	$.	_	18	punct	_	_
+16	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	schwarzweiße	schwarzweiße	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	18	amod	_	_
+18	Katze	Katze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	appos	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	25	punct	_	_
+20	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	25	nsubj	_	_
+21	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	25	obj	_	_
+22	an	an	ADP	APPR	_	24	case	_	_
+23	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Planke	Planke	NOUN	PTKANT	_	25	obl	_	_
+25	klammerte	klammern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	acl	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 5
+# text = In den Folgemonaten fing die Katze Ratten und hob die Moral der Briten, bis das Schiff von einem Torpedo getroffen wurde und sank.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Folgemonaten	Folgemonat	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+4	fing	fangen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Katze	Katze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nsubj	_	_
+7	Ratten	Ratten	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+8	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	9	cc	_	_
+9	hob	heben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Moral	Moral	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+12	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	Briten	Brite	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	21	punct	_	_
+15	bis	bis	SCONJ	KOUS	_	21	mark	_	_
+16	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Schiff	Schiff	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	21	nsubj:pass	_	_
+18	von	von	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	20	case	_	_
+19	einem	ein	DET	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	20	det	_	_
+20	Torpedo	Torpedo	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	_
+21	getroffen	treffen|triefen	VERB	VVPP	VerbForm=Part	4	advcl	_	_
+22	wurde	werden	AUX	NN	Case=Acc|Gender=Fem|Number=Plur	21	aux:pass	_	_
+23	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	24	cc	_	_
+24	sank	sinken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	conj	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Doch wie durch ein Wunder blieb die Katze am Leben.
+1	Doch	doch	ADV	KON	_	6	advmod	_	_
+2	wie	wie	ADV	NN	Case=Nom|Gender=Neut|Number=Sing	6	advmod	_	_
+3	durch	durch	ADP	APPR	_	5	case	_	_
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Wunder	Wunder	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nmod	_	_
+6	blieb	bleiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Katze	Katze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nsubj	_	_
+9-10	am	_	_	_	_	_	_	_	_
+9	an	an	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Leben	Leben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 7
+# text = Sie wurde "Unsinkbarer Sam" getauft, fuhr mit der geretteten Crew nach Gibraltar und diente auf drei anderen Schiffen, von denen ein weiteres sank, bevor sie sich im Belfaster Heim für Seeleute zur Ruhe setzte.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	_
+2	wurde	werden	AUX	NN	Case=Acc|Gender=Fem|Number=Plur	7	aux:pass	_	_
+3	"	"	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+4	Unsinkbarer	Unsinkbarer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+5	Sam	sam	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	SpaceAfter=No
+6	"	"	PUNCT	$(	_	4	punct	_	_
+7	getauft	taufen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	9	punct	_	_
+9	fuhr	fahren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+10	mit	mit	ADP	CARD	NumType=Card	13	case	_	_
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	geretteten	gerettet	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	13	amod	_	_
+13	Crew	Crew	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	9	obl	_	_
+14	nach	nach	ADP	NE	Case=Acc|Gender=Fem|Number=Sing	15	case	_	_
+15	Gibraltar	Gibraltar	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+16	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	17	cc	_	_
+17	diente	dienen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+18	auf	auf	ADP	APPR	_	21	case	_	_
+19	drei	drei	NUM	CARD	NumType=Card	21	nummod	_	_
+20	anderen	ander	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Plur	21	amod	_	_
+21	Schiffen	Schiff	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	27	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	27	punct	_	_
+23	von	von	ADP	FM	Foreign=Yes	24	case	_	_
+24	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Rel	27	nmod	_	_
+25	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	27	det	_	_
+26	weiteres	weit	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	27	amod	_	_
+27	sank	sank	NOUN	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	obj	_	SpaceAfter=No
+28	,	,	PUNCT	$,	_	41	punct	_	_
+29	bevor	bevor	SCONJ	KOUS	_	41	mark	_	_
+30	sie	sie	PRON	ADJA	Case=Acc|Gender=Fem|Number=Sing	41	nsubj	_	_
+31	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	41	obj	_	_
+32-33	im	_	_	_	_	_	_	_	_
+32	in	in	ADP	APPR	_	34	case	_	_
+33	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	Belfaster	Belfaster	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	41	obl	_	_
+35	Heim	Heim	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	34	appos	_	_
+36	für	für	ADP	APPR	_	37	case	_	_
+37	Seeleute	Seeleute	PROPN	NN	Case=Acc|Number=Plur	35	nmod	_	_
+38-39	zur	_	_	_	_	_	_	_	_
+38	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	40	case	_	_
+39	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	Ruhe	Ruhe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	41	obl	_	_
+41	setzte	setzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+42	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 8
+# text = Viele sehen Katzen wohl nicht als taugliche Matrosen oder kooperative Begleiter jeglicher Art.
+1	Viele	viel	PRON	NN	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	_
+2	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Katzen	Katze	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+4	wohl	wohl	ADV	CARD	NumType=Card	5	advmod	_	_
+5	nicht	nicht	PART	TRUNC	NumType=Card	2	advmod	_	_
+6	als	als	ADP	KOKOM	_	8	case	_	_
+7	taugliche	tauglich	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	8	amod	_	_
+8	Matrosen	Matrose	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	obl	_	_
+9	oder	oder	CCONJ	XY	_	11	cc	_	_
+10	kooperative	kooperativ	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	11	amod	_	_
+11	Begleiter	Begleiter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	conj	_	_
+12	jeglicher	jeglich	DET	ADJA	Case=Gen|Gender=Fem|Number=Sing	13	amod	_	_
+13	Art	Art	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Aber Katzen arbeiten seit Jahrtausenden mit uns Menschen zusammen und helfen uns so oft wie wir ihnen.
+1	Aber	aber	CCONJ	KON	_	3	cc	_	_
+2	Katzen	Katze	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	arbeiten	arbeiten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	seit	seit	ADP	ADJA	Case=Acc|Gender=Fem|Number=Plur	5	case	_	_
+5	Jahrtausenden	Jahrtausend	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	3	obl	_	_
+6	mit	mit	ADP	ADJA	Case=Nom|Gender=Fem|Number=Plur	7	case	_	_
+7	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	obj	_	_
+9	zusammen	zusammen	ADV	NN	Case=Acc|Gender=Masc|Number=Sing	3	compound:prt	_	_
+10	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	11	cc	_	_
+11	helfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+12	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	11	iobj	_	_
+13	so	so	ADV	NN	Case=Dat|Gender=Fem|Number=Sing	14	advmod	_	_
+14	oft	oft	ADV	CARD	NumType=Card	11	advmod	_	_
+15	wie	wie	ADP	NN	Case=Dat|Gender=Fem|Number=Sing	17	case	_	_
+16	wir	wir	PRON	ADJD	_	17	nsubj	_	_
+17	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	11	obl	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Wie wurden diese Einzelgänger vom wilden Raubtier zum Marineoffizier und Couchgenossen?
+1	Wie	wie	ADV	NE	Case=Nom|Gender=Neut|Number=Sing	2	advmod	_	_
+2	wurden	werden	AUX	FM	Foreign=Yes	0	root	_	_
+3	diese	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	Einzelgänger	Einzelgänger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+5-6	vom	_	_	_	_	_	_	_	_
+5	von	von	ADP	FM	Foreign=Yes	8	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+7	wilden	wild	ADJ	VVINF	VerbForm=Inf	8	amod	_	_
+8	Raubtier	Raubtier	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	_
+9-10	zum	_	_	_	_	_	_	_	_
+9	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Marineoffizier	Marineoffizier	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	_
+12	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	13	cc	_	_
+13	Couchgenossen	Couchgenosse	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+14	?	?	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 11
+# text = Die Domestizierung der modernen Hauskatze lässt sich im Fruchtbaren Halbmond über 10.000 Jahre bis zum Beginn der Jungsteinzeit zurückverfolgen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Domestizierung	Domestizierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	modernen	modern	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	5	amod	_	_
+5	Hauskatze	Hauskatze	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+6	lässt	lassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
+8-9	im	_	_	_	_	_	_	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Fruchtbaren	fruchtbar	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
+11	Halbmond	Halbmond	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	10	flat	_	_
+12	über	über	ADP	NE	Case=Gen|Gender=Masc|Number=Sing	14	case	_	_
+13	10.000	10.000	NUM	CARD	NumType=Card	14	nummod	_	_
+14	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obl	_	_
+15	bis	bis	ADP	APPR	_	18	case	_	_
+16-17	zum	_	_	_	_	_	_	_	_
+16	zu	zu	ADP	NN	Case=Dat|Gender=Fem|Number=Plur	18	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Beginn	Beginn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	21	obl	_	_
+19	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Jungsteinzeit	Jungsteinzeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	zurückverfolgen	zurückverfolgen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 12
+# text = Die Menschen zähmten die Natur und produzierten mehr Nahrung, als sie essen konnten.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	zähmten	zähmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Natur	Natur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	7	cc	_	_
+7	produzierten	produzieren	VERB	NE	Case=Acc|Number=Sing	3	conj	_	_
+8	mehr	mehr	ADV	ADV	_	7	advmod	_	_
+9	Nahrung	Nahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	13	punct	_	_
+11	als	als	SCONJ	KOUS	_	13	mark	_	_
+12	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+13	essen	essen	VERB	VVINF	VerbForm=Inf	3	advcl	_	_
+14	konnten	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 13
+# text = Sie lagerten ihr überschüssiges Korn in großen Gruben und niedrigen Lehmsilos.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	lagerten	lagern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ihr	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	5	det:poss	_	_
+4	überschüssiges	überschüssig	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	5	amod	_	_
+5	Korn	Korn	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obj	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	großen	groß	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	8	amod	_	_
+8	Gruben	Grube	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	nmod	_	_
+9	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	11	cc	_	_
+10	niedrigen	niedrig	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing	11	amod	_	_
+11	Lehmsilos	Lehmsilos	NOUN	NN	_	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 14
+# text = Aber diese Lager zogen Scharen von Nagetieren und deren Jäger an -- Felis silvestris lybica, die Wildkatze, die in Nordafrika und Südwestasien heimisch war.
+1	Aber	aber	CCONJ	KON	_	4	cc	_	_
+2	diese	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	Lager	Lage	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	zogen	ziehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	Scharen	Scharen	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
+6	von	von	ADP	FM	Foreign=Yes	7	case	_	_
+7	Nagetieren	Nagetieren	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+8	und	und	CCONJ	NE	Foreign=Yes	10	cc	_	_
+9	deren	der	DET	PDAT	Case=Gen|Number=Plur|PronType=Dem	10	nmod:poss	_	_
+10	Jäger	Jäger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	conj	_	_
+11	an	an	ADP	APPR	_	15	case	_	_
+12	--	--	PUNCT	$(	_	13	punct	_	_
+13	Felis	Felis	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	15	amod	_	_
+14	silvestris	silvestris	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	_
+15	lybica	lybica	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	18	punct	_	_
+17	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	Wildkatze	Wildkatze	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	appos	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	25	punct	_	_
+20	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	25	nsubj	_	_
+21	in	in	ADP	APPR	_	22	case	_	_
+22	Nordafrika	Nordafrika	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	25	nmod	_	_
+23	und	und	CCONJ	NE	Case=Dat|Gender=Neut|Number=Sing	24	cc	_	_
+24	Südwestasien	Südwestasien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	22	conj	_	_
+25	heimisch	heimisch	ADJ	ADJD	_	18	acl	_	_
+26	war	sein	AUX	ADV	_	25	cop	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 15
+# text = Wildkatzen waren schnelle, gnadenlose Jäger und unserer heutigen Hauskatze in Größe und Aussehen sehr ähnlich.
+1	Wildkatzen	Wildkatzen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	schnelle	schnell	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	6	punct	_	_
+5	gnadenlose	gnadenlos	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	6	amod	_	_
+6	Jäger	Jäger	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	conj	_	_
+7	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	9	cc	_	_
+8	unserer	unser	PRON	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	9	det:poss	_	_
+9	heutigen	heutigen	VERB	ADJA	Case=Gen|Gender=Fem|Number=Sing	3	conj	_	_
+10	Hauskatze	Hauskatze	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+11	in	in	ADP	APPR	_	12	case	_	_
+12	Größe	Größe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	_
+13	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	14	cc	_	_
+14	Aussehen	Aussehen	NOUN	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+15	sehr	sehr	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	16	advmod	_	_
+16	ähnlich	ähnlich	ADJ	NN	Case=Acc|Gender=Neut|Number=Sing	9	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 16
+# text = Doch die frühere Wildkatze hatte ein gestreiftes Fell, war muskulöser und distanzierter gegenüber anderen Katzen und Menschen.
+1	Doch	doch	ADV	KON	_	8	advmod	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	frühere	früh	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
+4	Wildkatze	Wildkatze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nsubj	_	_
+5	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+7	gestreiftes	gestreift	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	8	amod	_	_
+8	Fell	Fell	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	war	sein	AUX	ADV	_	11	cop	_	_
+11	muskulöser	muskulöser	ADJ	NN	Case=Acc|Gender=Neut|Number=Plur	0	root	_	_
+12	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	13	cc	_	_
+13	distanzierter	distanziert	ADJ	ADJA	_	16	conj	_	_
+14	gegenüber	gegenüber	ADP	APPR	_	16	case	_	_
+15	anderen	ander	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	16	amod	_	_
+16	Katzen	Katze	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	nmod	_	_
+17	und	und	CCONJ	NE	Foreign=Yes	18	cc	_	_
+18	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 17
+# text = Die Beutemenge in den Kornspeichern lockte die typischen Einzelgänger an.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Beutemenge	Beutemenge	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	Kornspeichern	Kornspeicher	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	_
+6	lockte	locken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	typischen	typisch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	9	amod	_	_
+9	Einzelgänger	Einzelgänger	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+10	an	an	ADP	PTKVZ	_	6	compound:prt	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 18
+# text = Als sich die Wildkatzen beim Fressen an Menschen und andere Katzen gewöhnten, tolerierten wohl auch die Bauern Katzen aufgrund der kostenlosen Schädlingsbekämpfung.
+1	Als	als	SCONJ	KOUS	_	13	mark	_	_
+2	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	13	obj	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	Wildkatzen	Wildkatzen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+5-6	beim	_	_	_	_	_	_	_	_
+5	bei	bei	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Fressen	Fresse	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	13	obl	_	_
+8	an	an	ADP	APPR	_	9	case	_	_
+9	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	nmod	_	_
+10	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	12	cc	_	_
+11	andere	ander	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	12	amod	_	_
+12	Katzen	Katze	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	conj	_	_
+13	gewöhnten	gewöhnten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	13	punct	_	_
+15	tolerierten	tolerieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+16	wohl	wohl	ADV	CARD	NumType=Card	15	advmod	_	_
+17	auch	auch	ADV	ADV	_	15	advmod	_	_
+18	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	Bauern	Bauer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+20	Katzen	Katzen	PROPN	NN	Case=Nom|Gender=Fem|Number=Plur	19	appos	_	_
+21	aufgrund	aufgrund	ADP	APPR	_	24	case	_	_
+22	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	kostenlosen	kostenlosen	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	24	amod	_	_
+24	Schädlingsbekämpfung	Schädlingsbekämpfung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = 19
+# text = Diese Beziehung war so vorteilhaft, dass die Katzen mit den Steinzeitbauern von Anatolien nach Europa und in den Mittelmeerraum auswanderten.
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	Beziehung	Beziehung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	war	sein	AUX	ADV	_	5	cop	_	_
+4	so	so	ADV	NE	Case=Dat|Number=Plur	5	advmod	_	_
+5	vorteilhaft	vorteilhafen	VERB	ADJD	_	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	21	punct	_	_
+7	dass	dass	SCONJ	KOUS	_	21	mark	_	_
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	Katzen	Katze	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	21	nsubj	_	_
+10	mit	mit	ADP	$(	_	12	case	_	_
+11	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	Steinzeitbauern	Steinzeitbauer	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	nmod	_	_
+13	von	von	ADP	FM	Foreign=Yes	14	case	_	_
+14	Anatolien	Anatolien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	_
+15	nach	nach	ADP	CARD	_	16	case	_	_
+16	Europa	Europa	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	_
+17	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	21	cc	_	_
+18	in	in	ADP	APPR	_	20	case	_	_
+19	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Mittelmeerraum	Mittelmeerraum	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	21	obl	_	_
+21	auswanderten	auswandern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 20
+# text = Schädlinge waren eine Plage der Seefahrt.
+1	Schädlinge	Schädling	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Plage	Plage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Seefahrt	Seefahrt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 21
+# text = Sie fraßen Vorräte und nagten Taue an.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	fraßen	fritzen	VERB	ADV	_	0	root	_	_
+3	Vorräte	Vorrat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+4	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	5	cc	_	_
+5	nagten	nagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+6	Taue	Tau	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	_
+7	an	an	ADP	PTKVZ	_	5	compound:prt	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 22
+# text = Deswegen waren Katzen längst unersetzliche Schiffskumpane geworden.
+1	Deswegen	deswegen	ADV	PAV	_	7	advmod	_	_
+2	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+3	Katzen	Katze	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+4	längst	längst	ADV	ADV	_	7	advmod	_	_
+5	unersetzliche	unersetzlich	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	_
+6	Schiffskumpane	Schiffskumpan	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	xcomp	_	_
+7	geworden	werden	VERB	ADJA	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 23
+# text = Ungefähr zur selben Zeit, als die anatolischen Katzen Segel setzten, domestizierten die Ägypter ihre eigenen heimischen Katzen.
+1	Ungefähr	ungefähr	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	5	advmod	_	_
+2-3	zur	_	_	_	_	_	_	_	_
+2	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	5	case	_	_
+3	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	selben	selb	DET	NN	Case=Dat|Gender=Fem|Number=Sing	5	amod	_	_
+5	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	12	punct	_	_
+7	als	als	SCONJ	KOUS	_	12	mark	_	_
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	anatolischen	anatolisch	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	10	amod	_	_
+10	Katzen	Katze	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
+11	Segel	Segel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	12	obj	_	_
+12	setzten	setzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	acl	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	12	punct	_	_
+14	domestizierten	domestizieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	Ägypter	Ägypter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+17	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	20	det:poss	_	_
+18	eigenen	eigen	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	20	amod	_	_
+19	heimischen	heimisch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	20	amod	_	_
+20	Katzen	Katze	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	14	obj	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 24
+# text = Man verehrte sie, weil sie Giftschlangen erlegten, Vögel fingen und Ratten töteten.
+1	Man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	verehrte	verehren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	8	punct	_	_
+5	weil	weil	SCONJ	KOUS	_	8	mark	_	_
+6	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+7	Giftschlangen	Giftschlang	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	obj	_	_
+8	erlegten	erlegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	11	punct	_	_
+10	Vögel	Vogel	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	fingen	fingen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	acl	_	_
+12	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	14	cc	_	_
+13	Ratten	Ratte	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	_
+14	töteten	töten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 25
+# text = So erlangten Katzen Bedeutung für die ägyptische Religion.
+1	So	so	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	2	advmod	_	_
+2	erlangten	erlangen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Katzen	Katzen	PROPN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
+4	Bedeutung	Bedeutung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	für	für	ADP	APPR	_	8	case	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	ägyptische	ägyptisch	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	8	amod	_	_
+8	Religion	Religion	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 26
+# text = Sie wurden unsterblich durch Fresken, Hieroglyphen, Statuen und sogar Gräber, wo sie mit ihren Besitzern mumifiziert wurden.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	wurden	werden	AUX	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+3	unsterblich	unsterblich	ADJ	ADJD	_	5	advmod	_	_
+4	durch	durch	ADP	APPR	_	5	case	_	_
+5	Fresken	Fresko	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	7	punct	_	_
+7	Hieroglyphen	Hieroglyphe	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	9	punct	_	_
+9	Statuen	Statue	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	conj	_	_
+10	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	12	cc	_	_
+11	sogar	sogar	ADV	ADV	_	12	advmod	_	_
+12	Gräber	Gräber	PROPN	NN	Case=Gen|Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	19	punct	_	_
+14	wo	wo	ADV	NE	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	19	advmod	_	_
+15	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	19	nsubj:pass	_	_
+16	mit	mit	ADP	ADJA	Case=Nom|Gender=Fem|Number=Plur	18	case	_	_
+17	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	18	det:poss	_	_
+18	Besitzern	Besitzer	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
+19	mumifiziert	mumifizieren	VERB	VVPP	VerbForm=Part	5	acl	_	_
+20	wurden	werden	AUX	FM	Foreign=Yes	19	aux:pass	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 27
+# text = Ägyptische Schiffskatzen befuhren den Nil und hielten giftige Flussschlangen fern.
+1	Ägyptische	ägyptisch	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	2	amod	_	_
+2	Schiffskatzen	Schiffskatzen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	befuhren	befuhren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Nil	Nil	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+6	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	7	cc	_	_
+7	hielten	halten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+8	giftige	giftig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	9	amod	_	_
+9	Flussschlangen	Flussschlang	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	obj	_	_
+10	fern	fern	ADV	PTKVZ	_	7	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 28
+# text = Später stiegen sie auf größere Schiffe um und segelten von Hafen zu Hafen.
+1	Später	spät	ADJ	ADJD	_	2	advmod	_	_
+2	stiegen	steigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
+4	auf	auf	ADP	APPR	_	6	case	_	_
+5	größere	groß	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	6	amod	_	_
+6	Schiffe	Schiff	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	_
+7	um	um	ADP	PTKVZ	_	2	compound:prt	_	_
+8	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	9	cc	_	_
+9	segelten	segeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	von	von	ADP	FM	Foreign=Yes	11	case	_	_
+11	Hafen	Hafen	NOUN	NE	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+12	zu	zu	ADP	NN	Case=Acc|Gender=Masc|Number=Plur	13	case	_	_
+13	Hafen	Hafen	NOUN	NE	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 29
+# text = Im Römischen Reich beförderten Schiffe zwischen Indien und Ägypten die Nachfahren der zentralasiatischen WIldkatze F. s. ornata.
+1-2	Im	_	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	4	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+3	Römischen	römisch	PROPN	ADJA	Case=Dat|Gender=Neut|Number=Sing	4	amod	_	_
+4	Reich	Reich	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	_
+5	beförderten	befördert	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	amod	_	_
+6	Schiffe	Schiff	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	_
+7	zwischen	zwischen	ADP	ADJA	Case=Acc|Gender=Masc|Number=Sing	8	case	_	_
+8	Indien	Indien	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	_
+9	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	10	cc	_	_
+10	Ägypten	Ägypten	PROPN	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	12	det	_	_
+12	Nachfahren	Nachfahren	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	zentralasiatischen	zentralasiatisch	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	15	amod	_	_
+15	WIldkatze	WIldkatze	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+16	F.	F.	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	15	appos	_	_
+17	s.	s.	X	FM	Foreign=Yes	16	flat	_	_
+18	ornata	ornata	X	NE	Foreign=Yes	16	flat	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 30
+# text = Jahrhunderte später, im Mittelalter, fuhren ägyptische Katzen auf Schiffen der Wikinger bis in die Ostsee.
+1	Jahrhunderte	Jahrhundert	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	nmod	_	_
+2	später	spät	ADJ	ADJD	_	8	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	6	punct	_	_
+4-5	im	_	_	_	_	_	_	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Mittelalter	Mittelalter	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	fuhren	fahren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	ägyptische	ägyptisch	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	10	amod	_	_
+10	Katzen	Katze	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+11	auf	auf	ADP	APPR	_	12	case	_	_
+12	Schiffen	Schiff	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	8	obl	_	_
+13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	Wikinger	Wikinger	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+15	bis	bis	ADP	APPR	_	18	case	_	_
+16	in	in	ADP	APPR	_	18	case	_	_
+17	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Ostsee	Ostsee	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 31
+# text = Sowohl nahöstliche als auch nordafrikanische Wildkatzen, damals vermutlich bereits zahm, reisten weiter quer durch Europa und setzten schließlich Segel nach Australien und Amerika.
+1	Sowohl	sowohl	CCONJ	KON	_	2	cc	_	_
+2	nahöstliche	nahöstlich	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	6	amod	_	_
+3	als	als	CCONJ	KON	_	5	cc	_	_
+4	auch	auch	ADV	ADV	_	5	advmod	_	_
+5	nordafrikanische	nordafrikanisch	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	2	conj	_	_
+6	Wildkatzen	Wildkatzen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	11	punct	_	_
+8	damals	damals	ADV	ADV	_	11	advmod	_	_
+9	vermutlich	vermutlich	ADJ	ADV	_	11	advmod	_	_
+10	bereits	bereits	ADV	ADV	_	11	advmod	_	_
+11	zahm	zehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	13	punct	_	_
+13	reisten	reisen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+14	weiter	weiter	ADV	ADV	_	15	advmod	_	_
+15	quer	quer	ADV	ADJD	_	13	advmod	_	_
+16	durch	durch	ADP	APPR	_	17	case	_	_
+17	Europa	Europa	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	15	nmod	_	_
+18	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	19	cc	_	_
+19	setzten	setzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+20	schließlich	schließlich	ADV	ADV	_	19	advmod	_	_
+21	Segel	Segel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	19	obj	_	_
+22	nach	nach	ADP	CARD	_	23	case	_	_
+23	Australien	Australien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	_
+24	und	und	CCONJ	NE	Case=Dat|Gender=Neut|Number=Sing	25	cc	_	_
+25	Amerika	Amerika	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 32
+# text = Heute stammen die meisten Hauskatzen von der nahöstlichen oder ägyptischen Linie von F. s. lybica ab.
+1	Heute	heute	ADV	ADV	_	2	advmod	_	_
+2	stammen	stammen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	5	det	_	_
+4	meisten	meist	DET	NN	Case=Dat|Gender=Masc|Number=Sing	5	amod	_	_
+5	Hauskatzen	Hauskatzen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+6	von	von	ADP	NE	Case=Acc|Gender=Masc|Number=Sing	11	case	_	_
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+8	nahöstlichen	nahöstlich	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	11	amod	_	_
+9	oder	oder	CCONJ	XY	_	10	cc	_	_
+10	ägyptischen	ägyptisch	ADJ	PPOSAT	Gender=Fem|Number=Sing|Poss=Yes	8	conj	_	_
+11	Linie	Linie	NOUN	NE	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
+12	von	von	ADP	NE	Case=Dat|Gender=Fem|Number=Sing	13	case	_	_
+13	F.	F.	X	NE	Case=Dat|Number=Sing	2	nmod	_	_
+14	s.	s.	X	VVIMP	Mood=Imp|Number=Sing|VerbForm=Fin	13	dep	_	_
+15	lybica	lybica	X	NE	Case=Dat|Gender=Fem|Number=Sing	14	dep	_	_
+16	ab	ab	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 33
+# text = Aber genaue Analysen der Genome und Fellmuster moderner Katzen verraten:
+1	Aber	aber	CCONJ	KON	_	3	cc	_	_
+2	genaue	genau	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+3	Analysen	Analyse	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Genome	Genome	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	7	cc	_	_
+7	Fellmuster	Fellmuster	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+8	moderner	modern	ADJ	ADJA	_	9	amod	_	_
+9	Katzen	Katze	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nmod	_	_
+10	verraten	verraten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+11	:	:	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 34
+# text = Im Gegensatz zu Hunden, die über Jahrhunderte gezielt gezüchtet wurden, sind moderne Katzen ihren Vorfahren sehr ähnlich.
+1-2	Im	_	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Gegensatz	Gegensatz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	nmod	_	_
+4	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	5	case	_	_
+5	Hunden	Hund	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	11	punct	_	_
+7	die	der	PRON	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	nsubj:pass	_	_
+8	über	über	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	9	case	_	_
+9	Jahrhunderte	Jahrhundert	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	obl	_	_
+10	gezielt	gezielt	ADJ	ADJD	_	11	advmod	_	_
+11	gezüchtet	züchten	VERB	VVPP	VerbForm=Part	3	acl	_	_
+12	wurden	werden	AUX	FM	Foreign=Yes	11	aux:pass	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	11	punct	_	_
+14	sind	sein	AUX	ADJD	_	20	cop	_	_
+15	moderne	modern	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	16	amod	_	_
+16	Katzen	Katze	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+17	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	18	det:poss	_	_
+18	Vorfahren	Vorfahr|Vorfahren	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+19	sehr	sehr	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	20	advmod	_	_
+20	ähnlich	ähnlich	ADJ	NN	Case=Acc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	20	punct	_	_
+
+# sent_id = 35
+# text = Wir haben sie zwar sozialer und fügsamer gemacht, aber ihr natürliches Verhalten hat sich kaum verändert.
+1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	2	obj	_	_
+4	zwar	zwar	ADV	ADV	_	2	advmod	_	_
+5	sozialer	sozial	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	2	xcomp	_	_
+6	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	8	cc	_	_
+7	fügsamer	fügsam	ADV	ADJD	_	8	advmod	_	_
+8	gemacht	machen	ADJ	VVPP	VerbForm=Part	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	17	punct	_	_
+10	aber	aber	CCONJ	KON	_	17	cc	_	_
+11	ihr	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	13	det:poss	_	_
+12	natürliches	natürlich	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	13	amod	_	_
+13	Verhalten	Verhalten	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	nsubj	_	_
+14	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+15	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	17	obj	_	_
+16	kaum	kaum	ADV	ADV	_	17	advmod	_	_
+17	verändert	verändern	ADJ	VVPP	VerbForm=Part	5	conj	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 36
+# text = Anders gesagt: Katzen von heute sind in etwa, was sie immer waren: Wildtiere.
+1	Anders	anders	ADV	ADV	_	2	advmod	_	_
+2	gesagt	sagen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	$.	_	4	punct	_	_
+4	Katzen	Katze	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+5	von	von	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	6	case	_	_
+6	heute	heute	ADV	ADV	_	16	advmod	_	_
+7	sind	sein	AUX	ADJD	_	16	cop	_	_
+8	in	in	ADP	APPR	_	9	case	_	_
+9	etwa	etwa	ADV	ADV	_	13	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	9	punct	_	_
+11	was	was	PRON	NN	Case=Gen|Gender=Fem|Number=Plur	13	nsubj	_	_
+12	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+13	immer	immer	ADV	ADV	_	16	advmod	_	_
+14	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	SpaceAfter=No
+15	:	:	PUNCT	$.	_	13	punct	_	_
+16	Wildtiere	Wildtier	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	parataxis	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 37
+# text = Gnadenlose Jäger.
+1	Gnadenlose	Gnadenlose	PROPN	ADJA	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+2	Jäger	Jäger	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	1	flat	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 38
+# text = Geschöpfe, die uns nicht als ihre Halter sehen.
+1	Geschöpfe	Geschopf	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	9	punct	_	_
+3	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	9	nsubj	_	_
+4	uns	wir	PRON	NE	Case=Gen|Gender=Masc|Number=Sing	9	obj	_	_
+5	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advmod	_	_
+6	als	als	ADP	KOKOM	_	8	case	_	_
+7	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Poss=Yes	8	det:poss	_	_
+8	Halter	Halter	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
+9	sehen	sehen	VERB	VVINF	VerbForm=Inf	1	acl	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 39
+# text = Angesichts unserer langen gemeinsamen Geschichte haben sie wohl recht.
+1	Angesichts	angesichts	ADP	APPR	_	5	case	_	_
+2	unserer	unser	PRON	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	5	det:poss	_	_
+3	langen	lang	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	5	amod	_	_
+4	gemeinsamen	gemeinsam	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	5	amod	_	_
+5	Geschichte	Geschichte	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+6	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	sie	sie	PRON	VVINF	VerbForm=Inf	6	nsubj	_	_
+8	wohl	wohl	ADV	CARD	NumType=Card	6	advmod	_	_
+9	recht	recht	ADV	NN	Case=Nom|Gender=Masc|Number=Sing	6	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\n
+
