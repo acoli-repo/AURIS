@@ -4,6 +4,27 @@ build with
 
 	$> make
 
+## Licensing
+
+- Originally distributed via https://www.statmt.org/wmt17/translation-task.html
+	- As of May 20, 2024, this URL is not operational
+	- Original usage conditions on this site stated "The data released for the WMT17 new translation task can be freely used for research purposes, we just ask that you cite the WMT17 shared task overview paper:"
+
+		@InProceedings{bojar-EtAl:2017:WMT1,
+		  author    = {Bojar, Ond
+		{r}ej  and  Chatterjee, Rajen  and  Federmann, Christian  and  Graham, Yvette  and  Haddow, Barry  and  Huang, Shujian  and  Huck, Matthias  and  Koehn, Philipp  and  Liu, Qun  and  Logacheva, Varvara  and  Monz, Christof  and  Negri, Matteo  and  Post, Matt  and  Rubino, Raphael  and  Specia, Lucia  and  Turchi, Marco},
+		  title     = {Findings of the 2017 Conference on Machine Translation (WMT17)},
+		  booktitle = {Proceedings of the Second Conference on Machine Translation, Volume 2: Shared Task Papers},
+		  month     = {September},
+		  year      = {2017},
+		  address   = {Copenhagen, Denmark},
+		  publisher = {Association for Computational Linguistics},
+		  pages     = {169--214},
+		  url       = {http://www.aclweb.org/anthology/W17-4717}
+		}
+
+- Note that this license statement needs to be carried over for the news data. The Teddy data is compiled independently, after we figured out the ID mapping.
+
 ## ID mapping
 
 | ParCor, TED ID | Teddy TED ID |
