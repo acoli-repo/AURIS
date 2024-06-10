@@ -65,9 +65,10 @@ We currently provide preprocessed files for English and German, only. Other lang
 - Bible: excerpts from the [ACoLi Bible Corpus](https://github.com/acoli-repo/acoli-corpora/tree/master/biblical)
 - Doyle: selected pieces of Arthur Conan Doyle (also subject to [FrameNet annotations](https://framenet.icsi.berkeley.edu/fulltextIndex)
 - ParCor: TED sub-corpus externally annotated for coreference (see [`preanno/parcor`](preanno/parcor/)).  
+- ParCor: News texts from WMT17 (see [`preanno/parcor`](preanno/parcor/))
 - **TODO**: TED core corpus
-- **TODO**: add news text
 - **TODO**: add fairy tales
+- **TODO**: any europarl coref/discourse annotations?
 
 ## Complementary Material
 
