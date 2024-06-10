@@ -1,0 +1,929 @@
+# newdoc id = txt/de/augsburger-allgemeine.de.44740.txt
+# newpar
+# sent_id = 1
+# text = Flucht: "Jede geflüchtete Frau hat Erfahrungen mit sexueller Gewalt" Sexuelle Gewalt gehört für Frauen, die alleine fliehen, fast schon zum Alltag.
+1	Flucht	Flucht	NOUN	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	$.	_	7	punct	_	_
+3	"	"	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+4	Jede	jed	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	6	det	_	_
+5	geflüchtete	geflüchtet	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
+6	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+8	Erfahrungen	Erfahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+9	mit	mit	ADP	CARD	NumType=Card	11	case	_	_
+10	sexueller	sexuell	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	11	amod	_	_
+11	Gewalt	Gewalt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	$(	_	15	punct	_	SpacesAfter=\n
+13	Sexuelle	sexuell	NOUN	ADJA	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+14	Gewalt	Gewalt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+15	gehört	gehören	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_
+16	für	für	ADP	APPR	_	17	case	_	_
+17	Frauen	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	21	punct	_	_
+19	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	21	nsubj	_	_
+20	alleine	alleine	ADV	ADV	_	21	advmod	_	_
+21	fliehen	fliehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	27	punct	_	_
+23	fast	fast	ADV	ADV	_	27	advmod	_	_
+24	schon	schon	ADV	ADV	_	27	advmod	_	_
+25-26	zum	_	_	_	_	_	_	_	_
+25	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	27	case	_	_
+26	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Alltag	Alltag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Wenn sie in Deutschland ankommen, sind sie oft traumatisiert.
+1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	_
+2	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+3	in	in	ADP	APPR	_	4	case	_	_
+4	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
+5	ankommen	ankommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	sind	sein	AUX	ADJD	_	10	cop	_	_
+8	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+9	oft	oft	ADV	APPR	NumType=Card	10	advmod	_	_
+10	traumatisiert	traumatisieren	VERB	VVFIN	VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Ein Haus bietet Zuflucht.
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Haus	Haus	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	bietet	bieten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Zuflucht	Zuflucht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = In einer großen Küche sitzen vier Frauen.
+1	In	in	ADP	APPR	_	4	case	_	_
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	großen	groß	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	4	amod	_	_
+4	Küche	Küche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+5	sitzen	sitzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	vier	vier	NUM	NE	Case=Gen|Gender=Fem|Number=Sing	7	nummod	_	_
+7	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Jede hat ein Baby dabei, das höchstens ein Jahr alt ist.
+1	Jede	jed	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Baby	Baby	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+5	dabei	dabei	ADV	PAV	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	11	punct	_	_
+7	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	11	nsubj	_	_
+8	höchstens	höchstens	ADV	ADV	_	11	advmod	_	_
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	nmod	_	_
+11	alt	alt	ADJ	ADJD	_	2	acl	_	_
+12	ist	sein	AUX	ADJD	_	11	cop	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Eine hat ihren kleinen Sohn in den Arm gelegt.
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	nsubj	_	_
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+3	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	5	det:poss	_	_
+4	kleinen	klein	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	_
+5	Sohn	Sohn	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Arm	Arm	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_
+9	gelegt	legen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Er guckt mit großen Augen neugierig in den Raum.
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	guckt	gucken	VERB	ADJD	_	0	root	_	_
+3	mit	mit	ADP	ADJA	Case=Nom|Gender=Masc|Number=Plur	5	case	_	_
+4	großen	groß	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	5	amod	_	_
+5	Augen	Auge	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	obl	_	_
+6	neugierig	neugierig	ADJ	ADJD	_	2	advmod	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Raum	Raum	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Seine Mutter starrt auf die Tischplatte.
+1	Seine	sein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	2	det:poss	_	_
+2	Mutter	Mutter	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	starrt	starrt	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	auf	auf	ADP	APPR	_	6	case	_	_
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Tischplatte	Tischplatte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Bis sie merkt, dass sie beobachtet wird.
+1	Bis	bis	ADP	APPR	_	2	case	_	_
+2	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	3	obl	_	_
+3	merkt	merken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	7	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	7	mark	_	_
+6	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	7	nsubj:pass	_	_
+7	beobachtet	beobachten	VERB	VVPP	VerbForm=Part	3	ccomp	_	_
+8	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	aux:pass	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Sie lächelt kurz und küsst den Kleinen.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	lächelt	lächeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	kurz	kurz	ADJ	ADJD	_	2	advmod	_	_
+4	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	5	cc	_	_
+5	küsst	küssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Kleinen	klein	NOUN	NN	Case=Nom|Number=Plur	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Die Szene wirkt normal.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Szene	Szene	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	wirkt	wirken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	normal	normal	ADV	VVINF	VerbForm=Inf	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Bis man mit Katrin Bahr spricht.
+1	Bis	bis	ADP	APPR	_	6	dep	_	_
+2	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	6	nsubj	_	_
+3	mit	mit	ADP	$,	NumType=Card	4	case	_	_
+4	Katrin	Katrin	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+5	Bahr	Bahr	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	4	flat	_	_
+6	spricht	sprechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Sie ist Bereichs-Geschäftsführerin von Condrobs, einem Träger für soziale Hilfsangebote in Bayern, und beschäftigt sich unter anderem mit dem Thema Frauen auf der Flucht.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	Bereichs	Bereich	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	$(	_	3	punct	_	SpaceAfter=No
+5	Geschäftsführerin	Geschäftsführerin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+6	von	von	ADP	NE	Case=Gen|Gender=Masc|Number=Sing	7	case	_	_
+7	Condrobs	Condrobs	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	10	punct	_	_
+9	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Träger	Träger	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+11	für	für	ADP	APPR	_	13	case	_	_
+12	soziale	sozial	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	13	amod	_	_
+13	Hilfsangebote	Hilfsangebot	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nmod	_	_
+14	in	in	ADP	APPR	_	15	case	_	_
+15	Bayern	Bayern	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	18	punct	_	_
+17	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	18	cc	_	_
+18	beschäftigt	beschäftigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+19	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	18	obj	_	_
+20	unter	unter	ADP	ADJD	_	21	case	_	_
+21	anderem	ander	PRON	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	18	obl	_	_
+22	mit	mit	ADP	$(	_	24	case	_	_
+23	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	24	det	_	_
+24	Thema	Thema	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	_
+25	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	24	nmod	_	_
+26	auf	auf	ADP	APPR	_	28	case	_	_
+27	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Flucht	Flucht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Die vier Frauen in der Küche sind Geflüchtete.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	vier	vier	NUM	NE	Case=Gen|Gender=Fem|Number=Sing	3	nummod	_	_
+3	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Küche	Küche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	_
+7	sind	sein	AUX	ADJD	_	8	cop	_	_
+8	Geflüchtete	Geflüchtete	NOUN	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Sie leben im Münchner Norden in einer der wenigen dezentralen Unterkünfte für alleingeflüchtete Frauen und ihre Kinder in Bayern.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	leben	leben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	im	_	_	_	_	_	_	_	_
+3	in	in	ADP	APPR	_	6	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	Münchner	Münchner	PROPN	ADJA	_	6	amod	_	_
+6	Norden	Norden	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+7	in	in	ADP	APPR	_	8	case	_	_
+8	einer	ein	PRON	PIS	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	obl	_	_
+9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+10	wenigen	wenig	DET	PIAT	Case=Gen|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	12	amod	_	_
+11	dezentralen	dezentral	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing	12	amod	_	_
+12	Unterkünfte	Unterkunft	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	nmod	_	_
+13	für	für	ADP	APPR	_	15	case	_	_
+14	alleingeflüchtete	alleingeflüchtet	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	15	amod	_	_
+15	Frauen	Frau	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	nmod	_	_
+16	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	18	cc	_	_
+17	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Poss=Yes	18	det:poss	_	_
+18	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	conj	_	_
+19	in	in	ADP	APPR	_	20	case	_	_
+20	Bayern	Bayern	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Im Januar hat Condrobs die Einrichtung zusammen mit Pro Familia und der Münchner Frauenhilfe aufgemacht.
+1-2	Im	_	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Januar	Januar	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+4	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+5	Condrobs	Condrobs	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Einrichtung	Einrichtung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+8	zusammen	zusammen	ADV	NN	Case=Acc|Gender=Masc|Number=Sing	10	advmod	_	_
+9	mit	mit	ADP	$(	_	10	case	_	_
+10	Pro	pro	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
+11	Familia	Familia	PROPN	PIAT	Case=Acc|Gender=Neut|Number=Sing	10	flat	_	_
+12	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	15	cc	_	_
+13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	Münchner	Münchner	PROPN	ADJA	_	15	amod	_	_
+15	Frauenhilfe	Frauenhilfe	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	conj	_	_
+16	aufgemacht	aufmachen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Unlängst wurde sie offiziell eröffnet.
+1	Unlängst	Unlängst	ADV	ADV	_	5	advmod	_	_
+2	wurde	werden	AUX	ADJA	Case=Nom|Gender=Fem|Number=Sing	5	aux:pass	_	_
+3	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	5	nsubj:pass	_	_
+4	offiziell	offiziell	ADJ	XY	_	5	advmod	_	_
+5	eröffnet	eröffnen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = 60 Personen leben dort - etwa 40 Frauen und 20 Kinder.
+1	60	60	NUM	CARD	NumType=Card	2	nummod	_	_
+2	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	leben	leben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dort	dort	ADV	ADV	_	3	advmod	_	_
+5	-	-	PUNCT	$(	_	7	punct	_	_
+6	etwa	etwa	ADV	ADV	_	7	advmod	_	_
+7	40	40	NUM	CARD	NumType=Card	8	nummod	_	_
+8	Frauen	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+9	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	11	cc	_	_
+10	20	20	NUM	CARD	NumType=Card	11	nummod	_	_
+11	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Männer gibt es keine - auch nicht als Besucher.
+1	Männer	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+4	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|Polarity=Neg|PronType=Neg	6	nmod	_	_
+5	-	-	PUNCT	$(	_	4	punct	_	_
+6	auch	auch	ADV	ADV	_	7	advmod	_	_
+7	nicht	nicht	PART	CARD	NumType=Card	2	advmod	_	_
+8	als	als	ADP	KOKOM	_	9	case	_	_
+9	Besucher	Besucher	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Die Ausnahme ist ein Wachmann vor der Tür.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Ausnahme	Ausnahme	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Wachmann	Wachmann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	vor	vor	ADP	NE	Case=Acc|Gender=Fem|Number=Sing	8	case	_	_
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Tür	Tür	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 21
+# text = "Es ist nicht übertrieben zu sagen: Jede Frau, die hier ankommt, hat auf ihrer Flucht Erfahrungen mit sexueller Gewalt gemacht", sagt Bahr.
+1	"	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+2	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+4	nicht	nicht	PART	CARD	NumType=Card	7	advmod	_	_
+5	übertrieben	übertreiben	ADV	ADJD	_	7	advmod	_	_
+6	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	7	mark	_	_
+7	sagen	sagen	VERB	VVINF	VerbForm=Inf	24	xcomp	_	SpaceAfter=No
+8	:	:	PUNCT	$.	_	10	punct	_	_
+9	Jede	jed	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	10	det	_	_
+10	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	14	punct	_	_
+12	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	14	nsubj	_	_
+13	hier	hier	ADV	ADV	_	14	advmod	_	_
+14	ankommt	ankommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	16	punct	_	_
+16	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+17	auf	auf	ADP	APPR	_	19	case	_	_
+18	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	19	det:poss	_	_
+19	Flucht	Flucht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	obl	_	_
+20	Erfahrungen	Erfahrung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	24	obj	_	_
+21	mit	mit	ADP	$(	_	23	case	_	_
+22	sexueller	sexuell	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	23	amod	_	_
+23	Gewalt	Gewalt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	nmod	_	_
+24	gemacht	machen	VERB	VVPP	VerbForm=Part	27	ccomp	_	SpaceAfter=No
+25	"	"	PUNCT	$(	_	24	punct	_	SpaceAfter=No
+26	,	,	PUNCT	$,	_	27	punct	_	_
+27	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+28	Bahr	Bahr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	nsubj	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	27	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = "Männer fliehen wegen Kriegen, weil sie politisch verfolgt werden, weil ihnen Folter oder der Tod drohen oder weil ihre Familien sie als Hoffnungsträger nach Europa schicken", erzählt sie.
+1	"	"	PUNCT	$(	_	3	punct	_	SpaceAfter=No
+2	Männer	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	fliehen	fliehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	advcl	_	_
+4	wegen	wegen	ADP	NN	Case=Dat|Gender=Masc|Number=Plur	5	case	_	_
+5	Kriegen	Krieg	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	10	punct	_	_
+7	weil	weil	SCONJ	KOUS	_	10	mark	_	_
+8	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+9	politisch	politisch	ADJ	ADJD	_	10	advmod	_	_
+10	verfolgt	verfolgen	VERB	ADJD	_	3	advcl	_	_
+11	werden	werden	AUX	NE	Case=Acc|Number=Plur	10	aux:pass	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	19	punct	_	_
+13	weil	weil	SCONJ	KOUS	_	19	mark	_	_
+14	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	15	iobj	_	_
+15	Folter	Folter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+16	oder	oder	CCONJ	XY	_	18	cc	_	_
+17	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Tod	Tod	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	conj	_	_
+19	drohen	drohen	VERB	ADJA	Case=Gen|Gender=Masc|Number=Sing	10	advcl	_	_
+20	oder	oder	CCONJ	XY	_	29	cc	_	_
+21	weil	weil	SCONJ	KOUS	_	29	mark	_	_
+22	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes	23	det:poss	_	_
+23	Familien	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	29	nsubj	_	_
+24	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	29	nsubj	_	_
+25	als	als	ADP	KOKOM	_	26	case	_	_
+26	Hoffnungsträger	Hoffnungsträger	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	obl	_	_
+27	nach	nach	ADP	CARD	_	28	case	_	_
+28	Europa	Europa	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	29	obl	_	_
+29	schicken	schicken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	SpaceAfter=No
+30	"	"	PUNCT	$(	_	29	punct	_	SpaceAfter=No
+31	,	,	PUNCT	$,	_	3	punct	_	_
+32	erzählt	erzählen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+33	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	32	obj	_	SpaceAfter=No
+34	.	.	PUNCT	$.	_	32	punct	_	SpacesAfter=\n
+
+# sent_id = 23
+# text = Bei Frauen überwiegen andere Gründe für die Flucht: "Viele stehlen sich heimlich davon, weil sie keinen anderen Ausweg sehen".
+1	Bei	bei	ADP	APPR	_	2	case	_	_
+2	Frauen	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	12	obl	_	_
+3	überwiegen	überwiegen	ADP	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	case	_	_
+4	andere	ander	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	5	amod	_	_
+5	Gründe	Grund	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	obl	_	_
+6	für	für	ADP	APPR	_	8	case	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Flucht	Flucht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+9	:	:	PUNCT	$.	_	12	punct	_	_
+10	"	"	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+11	Viele	viel	PRON	NN	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	_
+12	stehlen	stehlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	12	obj	_	_
+14	heimlich	heimlich	ADJ	ADJD	_	12	advmod	_	_
+15	davon	davon	ADV	PAV	_	12	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	22	punct	_	_
+17	weil	weil	SCONJ	KOUS	_	22	mark	_	_
+18	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	22	nsubj	_	_
+19	keinen	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	21	nmod	_	_
+20	anderen	ander	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	21	amod	_	_
+21	Ausweg	Ausweg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_
+22	sehen	sehen	VERB	VVFIN	VerbForm=Inf	12	advcl	_	SpaceAfter=No
+23	"	"	PUNCT	$(	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 24
+# text = In ihrer Heimat haben sie Erfahrung mit sexueller Gewalt, Zwangsehen, Ehrenmorden, Sklaverei oder Zwangsprostitution gemacht.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	3	det:poss	_	_
+3	Heimat	Heimat	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+4	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+5	sie	sie	PRON	ADJA	Case=Acc|Gender=Fem|Number=Sing	4	nsubj	_	_
+6	Erfahrung	Erfahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	mit	mit	ADP	$(	_	9	case	_	_
+8	sexueller	sexuell	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	9	amod	_	_
+9	Gewalt	Gewalt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	11	punct	_	_
+11	Zwangsehen	Zwangsehen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	13	punct	_	_
+13	Ehrenmorden	Ehrenmorde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	15	punct	_	_
+15	Sklaverei	Sklaverei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	conj	_	_
+16	oder	oder	CCONJ	XY	_	17	cc	_	_
+17	Zwangsprostitution	Zwangsprostitution	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	conj	_	_
+18	gemacht	machen	ADJ	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n
+
+# sent_id = 25
+# text = Das treibt sie fort.
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	treibt	treiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	2	obj	_	_
+4	fort	fort	ADV	PTKVZ	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 26
+# text = Auf der Flucht geht das weiter.
+1	Auf	auf	ADP	APPR	_	3	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Flucht	Flucht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+4	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+6	weiter	weiter	ADV	ADV	_	4	compound:prt	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 27
+# text = "Dass Schlepper zum Beispiel für eine Flasche Wasser eine sexuelle Handlung fordern, ist keine Seltenheit", sagt Bahr.
+1	"	"	PUNCT	$(	_	14	punct	_	SpaceAfter=No
+2	Dass	dass	SCONJ	KOUS	_	14	mark	_	_
+3	Schlepper	Schlepper	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	nsubj	_	_
+4-5	zum	_	_	_	_	_	_	_	_
+4	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	_
+7	für	für	ADP	APPR	_	9	case	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Flasche	Flasche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	_
+10	Wasser	Wasser	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	appos	_	_
+11	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	sexuelle	sexuell	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	13	amod	_	_
+13	Handlung	Handlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+14	fordern	fordern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	14	punct	_	_
+16	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	keine	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	18	nmod	_	_
+18	Seltenheit	Seltenheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	SpaceAfter=No
+19	"	"	PUNCT	$(	_	14	punct	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	14	punct	_	_
+21	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	Bahr	Bahr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	21	punct	_	SpacesAfter=\n
+
+# sent_id = 28
+# text = Und die Frauen sind alleine, sie werden nicht von ihren Familien geschützt.
+1	Und	und	CCONJ	ADJD	_	5	cc	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+4	sind	sein	AUX	ADJD	_	5	cop	_	_
+5	alleine	alleine	ADV	ADV	_	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	13	punct	_	_
+7	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	13	nsubj:pass	_	_
+8	werden	werden	AUX	NE	Case=Acc|Number=Plur	13	aux:pass	_	_
+9	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advmod	_	_
+10	von	von	ADP	FM	Foreign=Yes	12	case	_	_
+11	ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Poss=Yes	12	det:poss	_	_
+12	Familien	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	obl	_	_
+13	geschützt	schützen	VERB	VVPP	VerbForm=Part	5	acl	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 29
+# text = Wer glaube, dass das ende, sobald sie in Deutschland ankämen, irre, erzählt Bahr.
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	2	nsubj	_	_
+2	glaube	glauben	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	16	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	16	mark	_	_
+5	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	nsubj	_	_
+6	ende	end	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	16	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	12	punct	_	_
+8	sobald	sobald	SCONJ	KOUS	_	12	mark	_	_
+9	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
+10	in	in	ADP	APPR	_	11	case	_	_
+11	Deutschland	Deutschland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	_
+12	ankämen	ankäm	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	14	punct	_	_
+14	irre	irre	ADJ	ADJA	_	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	12	punct	_	_
+16	erzählt	erzählen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+17	Bahr	Bahr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 30
+# text = Auch hier würden alleinstehende Frauen in Flüchtlingsunterkünften oft als minderwertig betrachtet und schlimmstenfalls missbraucht.
+1	Auch	auch	ADV	ADV	_	2	advmod	_	_
+2	hier	hier	ADV	ADV	_	4	advmod	_	_
+3	würden	werden	AUX	NN	Foreign=Yes	4	aux	_	_
+4	alleinstehende	alleinstehend	VERB	ADJA	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+5	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+6	in	in	ADP	APPR	_	7	case	_	_
+7	Flüchtlingsunterkünften	Flüchtlingsunterkünft	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	nmod	_	_
+8	oft	oft	ADV	CARD	NumType=Card	4	advmod	_	_
+9	als	als	ADP	KOKOM	_	10	case	_	_
+10	minderwertig	minderwertig	ADJ	ADJD	_	11	amod	_	_
+11	betrachtet	betrachten	VERB	VVPP	VerbForm=Part	4	conj	_	_
+12	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	14	cc	_	_
+13	schlimmstenfalls	schlimmstenfalls	ADV	ADV	_	14	advmod	_	_
+14	missbraucht	mißbrauchen	VERB	VVPP	VerbForm=Part	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 31
+# text = Das führt dazu, dass etwa 90 Prozent der Frauen, die in der Unterkunft im Münchner Norden wohnen, traumatisiert sind, schätzt sie.
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	führt	führen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dazu	dazu	PRON	PAV	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	22	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	22	mark	_	_
+6	etwa	etwa	ADV	ADV	_	7	advmod	_	_
+7	90	90	NUM	CARD	NumType=Card	8	nummod	_	_
+8	Prozent	Prozent	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	22	nsubj	_	_
+9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	Frauen	Frau	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	20	punct	_	_
+12	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	20	nsubj	_	_
+13	in	in	ADP	APPR	_	15	case	_	_
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Unterkunft	Unterkunft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	_
+16-17	im	_	_	_	_	_	_	_	_
+16	in	in	ADP	APPR	_	19	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	Münchner	Münchner	PROPN	ADJA	_	19	amod	_	_
+19	Norden	Norden	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	15	nmod	_	_
+20	wohnen	wohnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	8	punct	_	_
+22	traumatisiert	traumatisieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+23	sind	sein	AUX	ADJD	_	22	cop	_	SpaceAfter=No
+24	,	,	PUNCT	$,	_	25	punct	_	_
+25	schätzt	schätzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_
+26	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	25	obj	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 32
+# text = "Einige der Kinder sind sicher nicht freiwillig entstanden".
+1	"	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+2	Einige	einige	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	9	nsubj	_	_
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	4	det	_	_
+4	Kinder	Kind	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+5	sind	sein	AUX	ADJD	_	9	aux	_	_
+6	sicher	sicher	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	9	advmod	_	_
+7	nicht	nicht	PART	NN	Case=Gen|Gender=Masc|Number=Plur	8	advmod	_	_
+8	freiwillig	freiwillig	ADJ	ADJD	_	9	advmod	_	_
+9	entstanden	entstehen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+10	"	"	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 33
+# text = Viele Frauen seien es so gewohnt, dass sie nichts sagen.
+1	Viele	viel	PRON	NE	Case=Nom|Gender=Fem|Number=Sing	2	det	_	_
+2	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+3	seien	sein	VERB	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+5	so	so	ADV	NE	Case=Nom|Gender=Neut|Number=Plur	6	advmod	_	_
+6	gewohnt	wohnen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	11	punct	_	_
+8	dass	dass	SCONJ	KOUS	_	11	mark	_	_
+9	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+10	nichts	nichts	PRON	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+11	sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 34
+# text = "Oder sie trauen sich nicht, offen über das Erlebte zu sprechen, weil die Scham zu groß ist".
+1	"	"	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+2	Oder	oder	CCONJ	NE	Case=Nom|Gender=Fem|Number=Sing	4	cc	_	_
+3	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+4	trauen	trauen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	_
+6	nicht	nicht	PART	CARD	NumType=Card	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	13	punct	_	_
+8	offen	offen	ADV	NN	Case=Nom|Gender=Fem|Number=Sing|NumType=Card	13	advmod	_	_
+9	über	über	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	11	case	_	_
+10	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Erlebte	erlebte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+12	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	13	mark	_	_
+13	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	19	punct	_	_
+15	weil	weil	SCONJ	KOUS	_	19	mark	_	_
+16	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	Scham	Scham	NOUN	NE	Case=Acc|Gender=Masc|Number=Sing	19	nsubj	_	_
+18	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	19	mark	_	_
+19	groß	grießen	VERB	ADJD	_	4	advcl	_	_
+20	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	SpaceAfter=No
+21	"	"	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 35
+# text = Da sie sich oft nicht zu helfen wüssten, brauche es mehr Unterkünfte nur für sie, fordert Bahr.
+1	Da	da	SCONJ	KOUS	_	8	mark	_	_
+2	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	_
+4	oft	oft	ADV	APPR	NumType=Card	8	advmod	_	_
+5	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advmod	_	_
+6	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	7	mark	_	_
+7	helfen	helfen	VERB	VVINF	VerbForm=Inf	8	xcomp	_	_
+8	wüssten	wüssen	VERB	NN	Case=Acc|Gender=Masc|Number=Plur	10	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	brauche	brauchen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+12	mehr	mehr	ADV	ADV	_	10	advmod	_	_
+13	Unterkünfte	Unterkunft	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+14	nur	nur	ADV	CARD	NumType=Card	13	advmod	_	_
+15	für	für	ADP	APPR	_	16	case	_	_
+16	sie	sie	PRON	ADJA	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	18	punct	_	_
+18	fordert	fordern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+19	Bahr	Bahr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 36
+# text = In Bayern sind die sieben Bezirksregierungen für die Unterbringung von Flüchtlingen zuständig.
+1	In	in	ADP	APPR	_	2	case	_	_
+2	Bayern	Bayern	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	_
+3	sind	sein	AUX	ADJD	_	12	cop	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	sieben	sieben	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Bezirksregierungen	Bezirksregierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
+7	für	für	ADP	APPR	_	9	case	_	_
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Unterbringung	Unterbringung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
+10	von	von	ADP	FM	Foreign=Yes	11	case	_	_
+11	Flüchtlingen	Flüchtlingen	PROPN	NN	Case=Dat|Gender=Masc|Number=Plur	9	nmod	_	_
+12	zuständig	zuständig	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 37
+# text = Auf die Frage, ob sie von einem ähnlichen Projekt wie in München in ihrem Zuständigkeitsbereich wüssten, antworten einige mit Nein.
+1	Auf	auf	ADP	APPR	_	3	case	_	_
+2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Frage	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	17	punct	_	_
+5	ob	ob	SCONJ	ADJA	Case=Nom|Gender=Fem|Number=Sing|NumType=Card	17	mark	_	_
+6	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	_
+7	von	von	ADP	FM	Foreign=Yes	10	case	_	_
+8	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+9	ähnlichen	ähnlich	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	10	amod	_	_
+10	Projekt	Projekt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	_
+11	wie	wie	ADP	NE	Case=Gen|Gender=Neut|Number=Sing	13	case	_	_
+12	in	in	ADP	APPR	_	13	case	_	_
+13	München	München	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	_
+14	in	in	ADP	APPR	_	16	case	_	_
+15	ihrem	ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	16	det:poss	_	_
+16	Zuständigkeitsbereich	Zuständigkeitsbereich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	_
+17	wüssten	wüssen	VERB	NN	Case=Gen|Gender=Masc|Number=Sing	3	ccomp	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	19	punct	_	_
+19	antworten	antworten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl	_	_
+20	einige	einige	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	19	obj	_	_
+21	mit	mit	ADP	ADJA	Case=Nom|Gender=Masc|Number=Plur	22	case	_	_
+22	Nein	nein	PROPN	PTKVZ	_	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 38
+# text = In der Oberpfalz und Oberfranken etwa gibt es so etwas in Unterkünften der Regierungen nicht.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Oberpfalz	Oberpfalz	NOUN	NE	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+4	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	5	cc	_	_
+5	Oberfranken	Oberfranken	NOUN	NE	Case=Gen|Number=Plur	3	conj	_	_
+6	etwa	etwa	ADV	ADV	_	3	advmod	_	_
+7	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
+9	so	so	ADV	NE	Case=Nom|Gender=Neut|Number=Plur	10	advmod	_	_
+10	etwas	etwas	ADV	ADV	_	7	advmod	_	_
+11	in	in	ADP	APPR	_	12	case	_	_
+12	Unterkünften	Unterkünft	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	_
+13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	Regierungen	Regierung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+15	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 39
+# text = Auch in Schwaben werden allein geflüchtete Frauen nicht getrennt untergebracht, sagt Karl-Heinz Meyer, Pressesprecher der Regierung.
+1	Auch	auch	ADV	ADV	_	10	advmod	_	_
+2	in	in	ADP	APPR	_	3	case	_	_
+3	Schwaben	Schwabe	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	_
+4	werden	werden	AUX	NE	Case=Dat|Gender=Neut|Number=Sing	10	aux:pass	_	_
+5	allein	allein	ADV	ADV	_	6	advmod	_	_
+6	geflüchtete	geflüchtet	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	7	amod	_	_
+7	Frauen	Frauen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj:pass	_	_
+8	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advmod	_	_
+9	getrennt	trennen	ADJ	VVPP	VerbForm=Part	10	advmod	_	_
+10	untergebracht	unterbringen	VERB	VVPP	VerbForm=Part	12	acl	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	10	punct	_	_
+12	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	Karl	Karl	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+14	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+15	Heinz	Heinz	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	_
+16	Meyer	Meyer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	18	punct	_	_
+18	Pressesprecher	Pressesprecher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	appos	_	_
+19	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Regierung	Regierung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 40
+# text = In Oberbayern, Unter- und Mittelfranken gibt es in manchen Gemeinschaftsunterkünften Stockwerke oder eigene Häuser nur für alleinstehende Frauen und deren Kinder.
+1	In	in	ADP	APPR	_	2	case	_	_
+2	Oberbayern	Oberbayern	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	4	punct	_	_
+4	Unter	unter	NOUN	NE	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No
+5	-	-	PUNCT	$(	_	7	punct	_	_
+6	und	und	CCONJ	NN	Case=Dat|Gender=Neut|Number=Sing	7	cc	_	_
+7	Mittelfranken	Mittelfranken	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	4	conj	_	_
+8	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	manchen	manch	DET	PIAT	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	12	det	_	_
+12	Gemeinschaftsunterkünften	Gemeinschaftsunterkünft	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	obl	_	_
+13	Stockwerke	Stockwerke	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	conj	_	_
+14	oder	oder	CCONJ	XY	_	16	cc	_	_
+15	eigene	eigen	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	16	amod	_	_
+16	Häuser	Haus	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	conj	_	_
+17	nur	nur	ADV	CARD	_	8	advmod	_	_
+18	für	für	ADP	APPR	_	20	case	_	_
+19	alleinstehende	alleinstehend	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	20	amod	_	_
+20	Frauen	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obl	_	_
+21	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	23	cc	_	_
+22	deren	der	PRON	PDAT	Case=Gen|Number=Plur|PronType=Dem	23	nmod:poss	_	_
+23	Kinder	Kind	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	20	conj	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 41
+# text = Die Ausnahme ist Niederbayern, dort gibt es zwei zentrale Unterkünfte ausschließlich für Frauen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Ausnahme	Ausnahme	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	Niederbayern	Niederbayern	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	7	punct	_	_
+6	dort	dort	ADV	ADV	_	7	advmod	_	_
+7	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
+9	zwei	zwei	NUM	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	nummod	_	_
+10	zentrale	zentral	ADJ	ADV	_	11	amod	_	_
+11	Unterkünfte	Unterkunft	NOUN	ADJA	Case=Nom|Gender=Fem|Number=Sing|NumType=Card	7	obj	_	_
+12	ausschließlich	ausschließlich	ADV	ADV	_	7	advmod	_	_
+13	für	für	ADP	APPR	_	14	case	_	_
+14	Frauen	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 42
+# text = Auch der Ausschuss "Rechte der Frau und Gleichstellung der Geschlechter" im Europaparlament fordert, dass Frauen getrennt von Männern untergebracht werden müssen.
+1	Auch	auch	ADV	ADV	_	3	advmod	_	_
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Ausschuss	Ausschuß	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+4	"	"	PUNCT	$(	_	5	punct	_	SpaceAfter=No
+5	Rechte	Recht|Rechte	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	appos	_	_
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Frau	Frau	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	9	cc	_	_
+9	Gleichstellung	Gleichstellung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	conj	_	_
+10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	det	_	_
+11	Geschlechter	Geschlecht	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	$(	_	5	punct	_	_
+13-14	im	_	_	_	_	_	_	_	_
+13	in	in	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Europaparlament	Europaparlament	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	_
+16	fordert	fordern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	23	punct	_	_
+18	dass	dass	SCONJ	KOUS	_	23	mark	_	_
+19	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	23	nsubj:pass	_	_
+20	getrennt	getrennt	ADJ	VVPP	_	23	advmod	_	_
+21	von	von	ADP	FM	Foreign=Yes	22	case	_	_
+22	Männern	Mann	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	23	obl	_	_
+23	untergebracht	untergebrachen	VERB	VVPP	VerbForm=Part	16	ccomp	_	_
+24	werden	werden	AUX	NE	Case=Acc|Number=Plur	23	aux:pass	_	_
+25	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n
+
+# sent_id = 43
+# text = In einer Studie, die für den Ausschuss veröffentlicht wurde, heißt es: "Es ist sehr wichtig, dass Männer und Frauen getrennt beherbergt werden."
+1	In	in	ADP	APPR	_	3	case	_	_
+2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Studie	Studie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	9	punct	_	_
+5	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	9	nsubj:pass	_	_
+6	für	für	ADP	APPR	_	8	case	_	_
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Ausschuss	Ausschuß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+9	veröffentlicht	veröffentlichen	VERB	VVPP	VerbForm=Part	3	acl	_	_
+10	wurde	werden	AUX	KON	_	9	aux:pass	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	9	punct	_	_
+12	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	SpaceAfter=No
+14	:	:	PUNCT	$.	_	19	punct	_	_
+15	"	"	PUNCT	$(	_	19	punct	_	SpaceAfter=No
+16	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+17	ist	sein	AUX	ADJD	_	19	cop	_	_
+18	sehr	sehr	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	19	advmod	_	_
+19	wichtig	wichtig	ADJ	NE	Case=Acc|Gender=Neut|Number=Sing	12	parataxis	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	26	punct	_	_
+21	dass	dass	SCONJ	KOUS	_	26	mark	_	_
+22	Männer	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	26	nsubj:pass	_	_
+23	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	24	cc	_	_
+24	Frauen	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	22	conj	_	_
+25	getrennt	trennen	ADJ	VVPP	_	26	advmod	_	_
+26	beherbergt	beherbergen	VERB	VVPP	VerbForm=Part	19	ccomp	_	_
+27	werden	werden	AUX	NE	Case=Acc|Number=Plur	26	aux:pass	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	12	punct	_	SpaceAfter=No
+29	"	"	PUNCT	$(	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 44
+# text = "Fehlt die Privatsphäre oder werden Männer und Frauen zusammen untergebracht, kann es zu - fortwährender - Gewalt gegen Frauen kommen".
+1	"	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+2	Fehlt	fehlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Privatsphäre	Privatsphäre	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+5	oder	oder	CCONJ	XY	_	11	cc	_	_
+6	werden	werden	AUX	NE	Case=Acc|Number=Plur	11	aux:pass	_	_
+7	Männer	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj:pass	_	_
+8	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	9	cc	_	_
+9	Frauen	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	conj	_	_
+10	zusammen	zusammen	ADV	NN	Case=Acc|Gender=Masc|Number=Sing	11	advmod	_	_
+11	untergebracht	unterbringen	VERB	VVPP	VerbForm=Part	2	conj	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	2	punct	_	_
+13	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+14	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+15	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	19	case	_	_
+16	-	-	PUNCT	$(	_	17	punct	_	_
+17	fortwährender	fortwährend	NOUN	ADJA	Case=Dat|Gender=Fem|Number=Sing	19	compound	_	_
+18	-	-	PUNCT	$(	_	17	punct	_	_
+19	Gewalt	Gewalt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	22	obl	_	_
+20	gegen	gegen	ADP	APPR	_	21	case	_	_
+21	Frauen	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	19	nmod	_	_
+22	kommen	kommen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+23	"	"	PUNCT	$(	_	22	punct	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	22	punct	_	SpacesAfter=\n
+
+# sent_id = 45
+# text = Vor allem die Waschräume sollten getrennt und für Frauen leicht zugänglich sein, steht in der Studie.
+1	Vor	vor	ADP	NN	Case=Nom|Gender=Masc|Number=Sing	2	case	_	_
+2	allem	alle	PRON	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	6	obl	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	Waschräume	Waschraum	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	getrennt	trennen	VERB	VVPP	_	14	acl	_	_
+7	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	11	cc	_	_
+8	für	für	ADP	APPR	_	9	case	_	_
+9	Frauen	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	nmod	_	_
+10	leicht	leicht	ADJ	ADJD	_	11	advmod	_	_
+11	zugänglich	zugänglich	ADJ	ADJD	_	6	conj	_	_
+12	sein	sein	AUX	VAINF	VerbForm=Inf	11	cop	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	6	punct	_	_
+14	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	in	in	ADP	APPR	_	17	case	_	_
+16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Studie	Studie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 46
+# text = Wie sehr die Frauen dieses Schutzbedürfnis verspüren, kann man am Andrang ablesen, den es auf das Haus in München gibt.
+1	Wie	wie	ADV	ADJA	_	2	advmod	_	_
+2	sehr	sehr	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	4	advmod	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+5	dieses	dies	PRON	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
+6	Schutzbedürfnis	Schutzbedürfnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+7	verspüren	verspüren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	14	punct	_	_
+9	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+10	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	14	nsubj	_	_
+11-12	am	_	_	_	_	_	_	_	_
+11	an	an	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Andrang	Andrang	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	_
+14	ablesen	ablesen	VERB	VVINF	VerbForm=Inf	7	conj	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	23	punct	_	_
+16	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	23	obj	_	_
+17	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+18	auf	auf	ADP	APPR	_	20	case	_	_
+19	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Haus	Haus	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	23	obl	_	_
+21	in	in	ADP	APPR	_	22	case	_	_
+22	München	München	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	20	nmod	_	_
+23	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 47
+# text = "Seit sich herumgesprochen hat, dass es uns gibt, haben wir eine lange Warteliste", sagt Bahr.
+1	"	"	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+2	Seit	seit	ADP	APPR	_	3	case	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obl	_	_
+4	herumgesprochen	herumgesprochen	VERB	ADJA	Case=Dat|Gender=Neut|Number=Sing	12	advcl	_	_
+5	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	10	punct	_	_
+7	dass	dass	SCONJ	KOUS	_	10	mark	_	_
+8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	10	iobj	_	_
+10	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	4	punct	_	_
+12	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	wir	wir	PRON	ADJD	_	12	nsubj	_	_
+14	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	lange	lang	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	16	amod	_	_
+16	Warteliste	Warteliste	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+17	"	"	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	19	punct	_	_
+19	sagt	sagen	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+20	Bahr	Bahr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	nsubj	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 48
+# text = Man könnte leicht ein zweites Haus aufmachen.
+1	Man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	7	nsubj	_	_
+2	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+3	leicht	leicht	ADJ	ADJD	_	7	advmod	_	_
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+5	zweites	zweit	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	6	amod	_	_
+6	Haus	Haus	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+7	aufmachen	aufmachen	VERB	ADJA	Case=Acc|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+

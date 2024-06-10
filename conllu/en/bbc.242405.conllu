@@ -1,0 +1,562 @@
+# newdoc id = txt/en/bbc.242405.txt
+# newpar
+# sent_id = 1
+# text = Royal Bank of Scotland to disappear for customers outside Scotland
+1	Royal	Royal	PROPN	NNP	Number=Sing	2	compound	_	_
+2	Bank	Bank	PROPN	NNP	Number=Sing	0	root	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	Scotland	Scotland	PROPN	NNP	Number=Sing	2	nmod	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	disappear	disappear	VERB	VB	VerbForm=Inf	2	acl	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	customers	customer	NOUN	NNS	Number=Plur	6	obl	_	_
+9	outside	outside	ADP	IN	_	10	case	_	_
+10	Scotland	Scotland	PROPN	NNP	Number=Sing	8	nmod	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = The brand RBS is to be reduced to a back office role, according to the bank's chief executive.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	brand	brand	NOUN	NN	Number=Sing	3	compound	_	_
+3	RBS	Rb	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	to	to	PART	TO	_	7	mark	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	reduced	reduce	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	ccomp	_	_
+8	to	to	ADP	IN	_	12	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+10	back	back	NOUN	NN	Number=Sing	11	compound	_	_
+11	office	office	NOUN	NN	Number=Sing	12	compound	_	_
+12	role	role	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	according	accord	VERB	VBG	VerbForm=Ger	20	case	_	_
+15	to	to	ADP	IN	_	14	fixed	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	bank	bank	NOUN	NN	Number=Sing	20	nmod:poss	_	SpaceAfter=No
+18	's	's	PART	POS	_	17	case	_	_
+19	chief	chief	NOUN	NN	Number=Sing	20	compound	_	_
+20	executive	executive	ADJ	JJ	Degree=Pos	12	amod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Royal Bank of Scotland will disappear for customers outside Scotland.
+1	Royal	Royal	PROPN	NNP	Number=Sing	2	compound	_	_
+2	Bank	Bank	PROPN	NNP	Number=Sing	6	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	Scotland	Scotland	PROPN	NNP	Number=Sing	2	nmod	_	_
+5	will	will	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	disappear	disappear	VERB	VB	VerbForm=Inf	0	root	_	_
+7	for	for	ADP	IN	_	8	case	_	_
+8	customers	customer	NOUN	NNS	Number=Plur	6	obl	_	_
+9	outside	outside	ADP	IN	_	10	case	_	_
+10	Scotland	Scotland	PROPN	NNP	Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Ross McEwan told BBC Scotland that the RBS brand was associated with the bank's global ambitions.
+1	Ross	Ross	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	McEwan	McEwan	PROPN	NNP	Number=Sing	1	flat	_	_
+3	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	BBC	Bbc	PROPN	NNP	Number=Sing	3	iobj	_	_
+5	Scotland	Scotland	PROPN	NNP	Number=Sing	4	flat	_	_
+6	that	that	SCONJ	IN	_	11	mark	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	RBS	Rb	NOUN	NN	Number=Sing	9	compound	_	_
+9	brand	brand	NOUN	NN	Number=Sing	11	nsubj:pass	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux:pass	_	_
+11	associated	associate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+12	with	with	ADP	IN	_	17	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	bank	bank	NOUN	NN	Number=Sing	17	nmod:poss	_	SpaceAfter=No
+15	's	's	PART	POS	_	14	case	_	_
+16	global	global	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	ambitions	ambition	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = It has retreated from them since it nearly collapsed eight years ago and had to be bailed out.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	retreated	retreat	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	from	from	ADP	IN	_	5	case	_	_
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obl	_	_
+6	since	since	SCONJ	IN	_	9	mark	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	nearly	nearly	ADV	RB	_	9	advmod	_	_
+9	collapsed	collapse	VERB	VBN	Tense=Past|VerbForm=Part	3	advcl	_	_
+10	eight	eight	NUM	CD	NumType=Card	11	nummod	_	_
+11	years	year	NOUN	NNS	Number=Plur	12	obl:npmod	_	_
+12	ago	ago	ADV	RB	_	9	advmod	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	conj	_	_
+15	to	to	PART	TO	_	17	mark	_	_
+16	be	be	AUX	VB	VerbForm=Inf	17	aux:pass	_	_
+17	bailed	bail	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	xcomp	_	_
+18	out	out	ADP	RP	_	17	compound:prt	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = During that time, brand strategists have used 'RBS' to protect other consumer finance brands.
+1	During	during	ADP	IN	_	3	case	_	_
+2	that	that	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+3	time	time	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	brand	brand	NOUN	NN	Number=Sing	6	compound	_	_
+6	strategists	strategist	NOUN	NNS	Number=Plur	8	nsubj	_	_
+7	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	used	use	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+9	'	'	PUNCT	``	_	10	punct	_	SpaceAfter=No
+10	RBS	Rb	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
+11	'	'	PUNCT	''	_	10	punct	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	protect	protect	VERB	VB	VerbForm=Inf	8	advcl	_	_
+14	other	other	ADJ	JJ	Degree=Pos	17	amod	_	_
+15	consumer	consumer	NOUN	NN	Number=Sing	17	compound	_	_
+16	finance	finance	NOUN	NN	Number=Sing	17	compound	_	_
+17	brands	brand	NOUN	NNS	Number=Plur	13	obj	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = It was backed with millions of pounds in sponsorship of international sport, from Six Nations rugby to Wimbledon champion Andy Murray.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	backed	back	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	with	with	ADP	IN	_	5	case	_	_
+5	millions	million	NOUN	NNS	Number=Plur	3	obl	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	pounds	pound	NOUN	NNS	Number=Plur	5	nmod	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	sponsorship	sponsorship	NOUN	NN	Number=Sing	3	obl	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	international	international	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	sport	sport	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	3	punct	_	_
+14	from	from	ADP	IN	_	16	case	_	_
+15	Six	six	PROPN	NNP	Number=Sing	16	compound	_	_
+16	Nations	Nations	PROPN	NNP	Number=Sing	3	obl	_	_
+17	rugby	rugby	ADP	IN	_	22	case	_	_
+18	to	to	ADP	IN	_	22	case	_	_
+19	Wimbledon	Wimbledon	PROPN	NNP	Number=Sing	22	compound	_	_
+20	champion	champion	PROPN	NNP	Number=Sing	22	compound	_	_
+21	Andy	Andy	PROPN	NNP	Number=Sing	20	flat	_	_
+22	Murray	Murray	PROPN	NNP	Number=Sing	16	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = But now, it has been judged right to let more national brands come to the fore.
+1	But	but	CCONJ	CC	_	7	cc	_	_
+2	now	now	ADV	RB	_	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	7	punct	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	_
+5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	aux:pass	_	_
+7	judged	judge	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	right	right	ADJ	JJ	Degree=Pos	7	advmod	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	let	let	VERB	VB	VerbForm=Inf	7	advcl	_	_
+11	more	more	ADV	RBR	_	12	advmod	_	_
+12	national	national	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	brands	brand	NOUN	NNS	Number=Plur	10	obj	_	_
+14	come	come	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+15	to	to	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	fore	fore	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Royal Bank of Scotland will be used with Scottish customers, but will not be initialised.
+1	Royal	Royal	PROPN	NNP	Number=Sing	2	compound	_	_
+2	Bank	Bank	PROPN	NNP	Number=Sing	7	nsubj:pass	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	Scotland	Scotland	PROPN	NNP	Number=Sing	2	nmod	_	_
+5	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+8	with	with	ADP	IN	_	10	case	_	_
+9	Scottish	scottish	PROPN	NNP	Number=Sing	10	compound	_	_
+10	customers	customer	NOUN	NNS	Number=Plur	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	16	punct	_	_
+12	but	but	CCONJ	CC	_	16	cc	_	_
+13	will	will	AUX	MD	VerbForm=Fin	16	aux	_	_
+14	not	not	PART	RB	_	16	advmod	_	_
+15	be	be	AUX	VB	VerbForm=Inf	16	aux:pass	_	_
+16	initialised	initialise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	conj	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = In England and Wales, all RBS references, outside head office and the stock exchange listing, will be changed to NatWest.
+1	In	in	ADP	IN	_	2	case	_	_
+2	England	England	PROPN	NNP	Number=Sing	21	obl	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	Wales	Wales	NOUN	NNS	Number=Plur	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	all	all	DET	DT	_	8	det	_	_
+7	RBS	Rbs	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	references	reference	NOUN	NNS	Number=Plur	2	conj	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	outside	outside	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	head	head	NOUN	NN	Number=Sing	12	compound	_	_
+12	office	office	NOUN	NN	Number=Sing	2	conj	_	_
+13	and	and	CCONJ	CC	_	17	cc	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+15	stock	stock	NOUN	NN	Number=Sing	17	compound	_	_
+16	exchange	exchange	NOUN	NN	Number=Sing	17	compound	_	_
+17	listing	listing	NOUN	NN	Number=Sing	2	conj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	_
+19	will	will	AUX	MD	VerbForm=Fin	21	aux	_	_
+20	be	be	AUX	VB	VerbForm=Inf	21	aux:pass	_	_
+21	changed	change	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+22	to	to	ADP	IN	_	23	case	_	_
+23	NatWest	NatWest	PROPN	NNP	Number=Sing	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	.	_	21	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = The Ulster
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	Ulster	Ulster	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 12
+# text = Bank brand is already used for customers in the Republic of Ireland and Northern Ireland.
+1	Bank	Bank	PROPN	NNP	Number=Sing	2	compound	_	_
+2	brand	brand	PROPN	NNP	Number=Sing	5	nsubj:pass	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	already	already	ADV	RB	_	5	advmod	_	_
+5	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	customers	customer	NOUN	NNS	Number=Plur	5	obl	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	Republic	Republic	PROPN	NNP	Number=Sing	7	nmod	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	Ireland	Ireland	PROPN	NNP	Number=Sing	10	nmod	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	Northern	Northern	PROPN	NNP	Number=Sing	15	compound	_	_
+15	Ireland	Ireland	PROPN	NNP	Number=Sing	10	conj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = There are other, smaller brands for private banking, which will get more prominence - Coutts, Adam & Co, Drummond, and Holt's Military Bank.
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	other	other	ADJ	JJ	Degree=Pos	6	amod	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	smaller	smaller	ADJ	JJR	Degree=Cmp	6	amod	_	_
+6	brands	brand	NOUN	NNS	Number=Plur	2	nsubj	_	_
+7	for	for	ADP	IN	_	9	case	_	_
+8	private	private	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	banking	banking	NOUN	NN	Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	6	punct	_	_
+11	which	which	PRON	WDT	PronType=Rel	13	nsubj	_	_
+12	will	will	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	get	get	VERB	VB	VerbForm=Inf	6	acl:relcl	_	_
+14	more	more	ADJ	JJR	Degree=Cmp	17	amod	_	_
+15	prominence	prominence	NOUN	NN	Number=Sing	17	compound	_	_
+16	-	-	PUNCT	HYPH	_	17	punct	_	_
+17	Coutts	Coutt	NOUN	NNS	Number=Plur	13	obj	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	_	_
+19	Adam	Adam	PROPN	NNP	Number=Sing	17	conj	_	_
+20	&	&	CCONJ	CC	_	21	cc	_	_
+21	Co	co	PROPN	NNP	Number=Sing	17	conj	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	23	punct	_	_
+23	Drummond	Drummond	PROPN	NNP	Number=Sing	17	conj	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	29	punct	_	_
+25	and	and	CCONJ	CC	_	29	cc	_	_
+26	Holt	Holt	PROPN	NNP	Number=Sing	29	nmod:poss	_	SpaceAfter=No
+27	's	's	PART	POS	_	26	case	_	_
+28	Military	military	PROPN	NNP	Number=Sing	29	compound	_	_
+29	Bank	Bank	PROPN	NNP	Number=Sing	17	conj	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Mr McEwan was interviewed during a tour of customers and staff in Inverness-shire.
+1	Mr	Mr	PROPN	NNP	Number=Sing	4	nsubj:pass	_	_
+2	McEwan	McEwan	PROPN	NNP	Number=Sing	1	flat	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	interviewed	interview	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	during	during	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	tour	tour	NOUN	NN	Number=Sing	4	obl	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	customers	customer	NOUN	NNS	Number=Plur	7	nmod	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	staff	staff	NOUN	NNS	Number=Plur	9	conj	_	_
+12	in	in	ADP	IN	_	15	case	_	_
+13	Inverness	Inverness	NOUN	NN	Number=Sing	15	compound	_	SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	15	punct	_	SpaceAfter=No
+15	shire	shire	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = He told BBC Scotland: "The RBS brand will end up becoming our investor brand and the one that our staff are employed with, because we are now becoming much more a bank of brands."
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	BBC	BBC	PROPN	NNP	Number=Sing	2	obj	_	_
+4	Scotland	Scotland	PROPN	NNP	Number=Sing	3	flat	_	SpaceAfter=No
+5	:	:	PUNCT	:	_	2	punct	_	_
+6	"	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+7	The	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	RBS	Rb	PROPN	NNP	Number=Sing	9	compound	_	_
+9	brand	brand	NOUN	NN	Number=Sing	11	nsubj	_	_
+10	will	will	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	end	end	VERB	VB	VerbForm=Inf	2	ccomp	_	_
+12	up	up	ADP	RP	_	11	compound:prt	_	_
+13	becoming	become	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+14	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+15	investor	investor	NOUN	NN	Number=Sing	16	compound	_	_
+16	brand	brand	NOUN	NN	Number=Sing	13	obj	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	one	one	NOUN	NN	Number=Sing	16	conj	_	_
+20	that	that	SCONJ	IN	_	24	mark	_	_
+21	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+22	staff	staff	NOUN	NN	Number=Sing	24	nsubj:pass	_	_
+23	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	aux:pass	_	_
+24	employed	employ	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	acl	_	_
+25	with	with	ADP	IN	_	24	obl	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	2	punct	_	_
+27	because	because	SCONJ	IN	_	31	mark	_	_
+28	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	31	nsubj	_	_
+29	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	31	aux	_	_
+30	now	now	ADV	RB	_	31	advmod	_	_
+31	becoming	become	VERB	VBG	Tense=Pres|VerbForm=Part	2	advcl	_	_
+32	much	much	ADV	RB	_	33	advmod	_	_
+33	more	more	ADV	RBR	_	31	advmod	_	_
+34	a	a	DET	DT	Definite=Ind|PronType=Art	35	det	_	_
+35	bank	bank	NOUN	NN	Number=Sing	31	obj	_	_
+36	of	of	ADP	IN	_	37	case	_	_
+37	brands	brand	NOUN	NNS	Number=Plur	35	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+39	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = As the bank itself became a global brand, RBS became the global brand.
+1	As	as	SCONJ	IN	_	5	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	bank	bank	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	itself	itself	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nmod:npmod	_	_
+5	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	advcl	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	global	global	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	brand	brand	NOUN	NN	Number=Sing	5	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	11	punct	_	_
+10	RBS	RBS	PROPN	NNP	Number=Sing	11	nsubj	_	_
+11	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	global	global	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	brand	brand	NOUN	NN	Number=Sing	11	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = I'm now saying we no longer have global aspirations, we have local aspirations.
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	'm	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	now	now	ADV	RB	_	4	advmod	_	_
+4	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+6	no	no	ADV	RB	_	7	advmod	_	_
+7	longer	longer	ADV	RBR	Degree=Cmp	8	advmod	_	_
+8	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+9	global	global	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	aspirations	aspiration	NOUN	NNS	Number=Plur	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	8	punct	_	_
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+13	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+14	local	local	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	aspirations	aspiration	NOUN	NNS	Number=Plur	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Each one of those brands will stand for something quite different in their own communities, and our staff will work with customers under those brands.
+1	Each	each	DET	DT	_	2	det	_	_
+2	one	one	NUM	CD	NumType=Card	7	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	those	those	DET	DT	Number=Plur|PronType=Dem	5	det	_	_
+5	brands	brands	NOUN	NNS	Number=Plur	2	nmod	_	_
+6	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	stand	stand	VERB	VB	VerbForm=Inf	0	root	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	something	something	PRON	NN	Number=Sing	7	obj	_	_
+10	quite	quite	ADV	RB	_	11	advmod	_	_
+11	different	different	ADJ	JJ	Degree=Pos	9	amod	_	_
+12	in	in	ADP	IN	_	15	case	_	_
+13	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	own	own	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	communities	community	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	21	punct	_	_
+17	and	and	CCONJ	CC	_	21	cc	_	_
+18	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	staff	staff	NOUN	NN	Number=Sing	21	nsubj	_	_
+20	will	will	AUX	MD	VerbForm=Fin	21	aux	_	_
+21	work	work	VERB	VB	VerbForm=Inf	9	conj	_	_
+22	with	with	ADP	IN	_	23	case	_	_
+23	customers	customer	NOUN	NNS	Number=Plur	21	obl	_	_
+24	under	under	ADP	IN	_	26	case	_	_
+25	those	those	DET	DT	Number=Plur|PronType=Dem	26	det	_	_
+26	brands	brands	NOUN	NNS	Number=Plur	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = RBS had already stated that it would not to continue its Six Nations sponsorship, and it has been raising the profile of different brands in its sports sponsorship.
+1	RBS	Rb	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	already	already	ADV	RB	_	4	advmod	_	_
+4	stated	state	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	that	that	SCONJ	IN	_	10	mark	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+7	would	would	AUX	MD	VerbForm=Fin	10	aux	_	_
+8	not	not	PART	RB	_	10	advmod	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	continue	continue	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+11	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+12	Six	six	PROPN	NNP	Number=Sing	13	compound	_	_
+13	Nations	Nations	PROPN	NNP	Number=Sing	14	compound	_	_
+14	sponsorship	sponsorship	NOUN	NN	Number=Sing	10	obj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	20	punct	_	_
+16	and	and	CCONJ	CC	_	20	cc	_	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+18	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	been	be	AUX	VBN	Tense=Past|VerbForm=Part	20	aux	_	_
+20	raising	raise	VERB	VBG	Tense=Pres|VerbForm=Part	4	conj	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	profile	profile	NOUN	NN	Number=Sing	20	obj	_	_
+23	of	of	ADP	IN	_	25	case	_	_
+24	different	different	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	brands	brand	NOUN	NNS	Number=Plur	22	nmod	_	_
+26	in	in	ADP	IN	_	29	case	_	_
+27	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+28	sports	sport	NOUN	NNS	Number=Plur	29	compound	_	_
+29	sponsorship	sponsorship	NOUN	NN	Number=Sing	20	obl	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = "The time is right for us to move to the bank of brands, because underneath (we've been asking) how do we focus on making this a better bank for customers?"
+1	"	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	time	time	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	right	right	ADV	RB	_	7	advmod	_	_
+6	for	for	ADP	IN	_	7	case	_	_
+7	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	move	move	VERB	VB	VerbForm=Inf	7	advcl	_	_
+10	to	to	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	bank	bank	NOUN	NN	Number=Sing	9	obl	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	brands	brand	NOUN	NNS	Number=Plur	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	7	punct	_	_
+16	because	because	SCONJ	IN	_	22	mark	_	_
+17	underneath	underneath	ADV	RB	_	22	advmod	_	_
+18	(	(	PUNCT	-LRB-	_	22	punct	_	SpaceAfter=No
+19	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	SpaceAfter=No
+20	've	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	been	be	AUX	VBN	Tense=Past|VerbForm=Part	22	aux	_	_
+22	asking	ask	VERB	VBG	Tense=Pres|VerbForm=Part	7	advcl	_	SpaceAfter=No
+23	)	)	PUNCT	-RRB-	_	22	punct	_	_
+24	how	how	ADV	WRB	PronType=Int	27	advmod	_	_
+25	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	27	aux	_	_
+26	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	_
+27	focus	focus	VERB	VB	VerbForm=Inf	22	ccomp	_	_
+28	on	on	SCONJ	IN	_	29	mark	_	_
+29	making	make	VERB	VBG	VerbForm=Ger	27	advcl	_	_
+30	this	this	PRON	DT	Number=Sing|PronType=Dem	29	obj	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+32	better	better	ADJ	JJR	Degree=Cmp	33	amod	_	_
+33	bank	bank	NOUN	NN	Number=Sing	29	obj	_	_
+34	for	for	ADP	IN	_	35	case	_	_
+35	customers	customer	NOUN	NNS	Number=Plur	33	nmod	_	SpaceAfter=No
+36	?	?	PUNCT	.	_	7	punct	_	SpaceAfter=No
+37	"	"	PUNCT	''	_	7	punct	_	_
+
+# sent_id = 21
+# text = said the chief executive.
+1	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	chief	chief	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	executive	executive	ADJ	JJ	Degree=Pos	1	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = It would have been very cynical three years ago if we'd said we're going to be a great bank for customers and put those brands out there.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	6	aux	_	_
+3	have	have	AUX	VB	VerbForm=Inf	6	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	cop	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	cynical	cynical	ADJ	JJ	Degree=Pos	0	root	_	_
+7	three	three	NUM	CD	NumType=Card	8	nummod	_	_
+8	years	year	NOUN	NNS	Number=Plur	9	obl:npmod	_	_
+9	ago	ago	ADV	RB	_	6	advmod	_	_
+10	if	if	SCONJ	IN	_	13	mark	_	_
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	SpaceAfter=No
+12	'd	would	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	said	say	VERB	VBN	Tense=Past|VerbForm=Part	6	advcl	_	_
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	SpaceAfter=No
+15	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	13	ccomp	_	_
+17	to	to	PART	TO	_	21	mark	_	_
+18	be	be	AUX	VB	VerbForm=Inf	21	cop	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+20	great	great	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	bank	bank	NOUN	NN	Number=Sing	16	xcomp	_	_
+22	for	for	ADP	IN	_	23	case	_	_
+23	customers	customer	NOUN	NNS	Number=Plur	21	nmod	_	_
+24	and	and	CCONJ	CC	_	25	cc	_	_
+25	put	put	VERB	VB	VerbForm=Inf	21	conj	_	_
+26	those	those	DET	DT	Number=Plur|PronType=Dem	27	det	_	_
+27	brands	brands	NOUN	NNS	Number=Plur	25	obj	_	_
+28	out	out	ADV	RB	_	29	advmod	_	_
+29	there	there	ADV	RB	PronType=Dem	25	advmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 23
+# text = But with the work we've been doing, focussing on the customers needs, not our own, I think you're seeing a lot of change.
+1	But	but	CCONJ	CC	_	21	cc	_	_
+2	with	with	ADP	IN	_	4	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	work	work	NOUN	NN	Number=Sing	21	obl	_	_
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
+6	've	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	8	aux	_	_
+8	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	4	acl:relcl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	4	punct	_	_
+10	focussing	focusse	VERB	VBG	VerbForm=Ger	4	acl	_	_
+11	on	on	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	customers	customer	NOUN	NNS	Number=Plur	14	compound	_	_
+14	needs	need	NOUN	NNS	Number=Plur	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	_
+16	not	not	CCONJ	CC	_	18	cc	_	_
+17	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+18	own	own	ADJ	JJ	Degree=Pos	4	conj	_	SpaceAfter=No
+19	,	,	PUNCT	,	_	21	punct	_	_
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+21	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	24	nsubj	_	SpaceAfter=No
+23	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	seeing	see	VERB	VBG	Tense=Pres|VerbForm=Part	21	ccomp	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+26	lot	lot	NOUN	NN	Number=Sing	24	obj	_	_
+27	of	of	ADP	IN	_	28	case	_	_
+28	change	change	NOUN	NN	Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	21	punct	_	SpacesAfter=\n
+
+# sent_id = 24
+# text = We can bring those brands back up again, so I think the time is right.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	bring	bring	VERB	VB	VerbForm=Inf	0	root	_	_
+4	those	those	DET	DT	Number=Plur|PronType=Dem	5	det	_	_
+5	brands	brands	NOUN	NNS	Number=Plur	3	obj	_	_
+6	back	back	ADV	RB	_	3	advmod	_	_
+7	up	up	ADP	RP	_	3	compound:prt	_	_
+8	again	again	ADV	RB	_	3	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	3	punct	_	_
+10	so	so	ADV	RB	_	12	advmod	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	time	time	NOUN	NN	Number=Sing	16	nsubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	right	right	ADJ	JJ	Degree=Pos	12	ccomp	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+

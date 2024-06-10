@@ -1,0 +1,480 @@
+# newdoc id = txt/en/bbc.242497.txt
+# newpar
+# sent_id = 1
+# text = Queensferry Crossing: Bridge now connected to Fife The £1.35bn project is now due to be complete by May 2017 Engineers have joined the Queensferry Crossing's north deck and viaduct - meaning the bridge is now connected to Fife.
+1	Queensferry	Queensferry	PROPN	NNP	Number=Sing	4	compound	_	_
+2	Crossing	crossing	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	:	:	PUNCT	:	_	1	punct	_	_
+4	Bridge	bridge	PROPN	NNP	Number=Sing	6	nsubj	_	_
+5	now	now	ADV	RB	_	6	advmod	_	_
+6	connected	connect	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	Fife	Fife	VERB	VB	VerbForm=Inf	6	advcl	_	SpacesAfter=\n
+9	The	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+10	£	£	SYM	$	_	13	compound	_	SpaceAfter=No
+11	1.35	1.35	NUM	CD	NumType=Card	13	nummod	_	SpaceAfter=No
+12	bn	bn	NUM	CD	NumType=Card	13	nummod	_	_
+13	project	project	NOUN	NN	Number=Sing	16	nsubj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	now	now	ADV	RB	_	16	advmod	_	_
+16	due	due	ADJ	JJ	Degree=Pos	8	ccomp	_	_
+17	to	to	PART	TO	_	19	mark	_	_
+18	be	be	AUX	VB	VerbForm=Inf	19	cop	_	_
+19	complete	complete	ADJ	JJ	Degree=Pos	16	advcl	_	_
+20	by	by	ADP	IN	_	21	case	_	_
+21	May	May	PROPN	NNP	Number=Sing	23	compound	_	_
+22	2017	2017	NUM	CD	NumType=Card	21	nummod	_	SpacesAfter=\n
+23	Engineers	Engineers	NOUN	NNS	Number=Plur	25	nsubj	_	_
+24	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	joined	join	VERB	VBN	Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+27	Queensferry	Queensferry	PROPN	NNP	Number=Sing	28	compound	_	_
+28	Crossing	crossing	PROPN	NNP	Number=Sing	31	nmod:poss	_	SpaceAfter=No
+29	's	's	PART	POS	_	28	case	_	_
+30	north	north	NOUN	NN	Number=Sing	31	compound	_	_
+31	deck	deck	NOUN	NN	Number=Sing	25	obj	_	_
+32	and	and	CCONJ	CC	_	33	cc	_	_
+33	viaduct	viaduct	NOUN	NN	Number=Sing	31	conj	_	_
+34	-	-	PUNCT	,	_	16	punct	_	_
+35	meaning	mean	VERB	VBG	VerbForm=Ger	16	parataxis	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	bridge	bridge	NOUN	NN	Number=Sing	40	nsubj:pass	_	_
+38	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux:pass	_	_
+39	now	now	ADV	RB	_	40	advmod	_	_
+40	connected	connect	VERB	VBN	Tense=Past|VerbForm=Part	35	ccomp	_	_
+41	to	to	ADP	IN	_	42	case	_	_
+42	Fife	Fife	PROPN	NNP	Number=Sing	40	obl	_	SpaceAfter=No
+43	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = It is the first of four closures between the "deck fans," which are now nearing completion around each of the bridge's three towers.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	first	first	NOUN	NN	Number=Sing	0	root	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	four	four	NUM	CD	NumType=Card	7	nummod	_	_
+7	closures	closure	NOUN	NNS	Number=Plur	4	nmod	_	_
+8	between	between	ADP	IN	_	12	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+10	"	"	PUNCT	``	_	12	punct	_	SpaceAfter=No
+11	deck	deck	NOUN	NN	Number=Sing	12	compound	_	_
+12	fans	fan	NOUN	NNS	Number=Plur	7	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	4	punct	_	SpaceAfter=No
+14	"	"	PUNCT	''	_	4	punct	_	_
+15	which	which	PRON	WDT	PronType=Rel	18	nsubj	_	_
+16	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	now	now	ADV	RB	_	18	advmod	_	_
+18	nearing	near	VERB	VBG	Tense=Pres|VerbForm=Part	4	acl:relcl	_	_
+19	completion	completion	NOUN	NN	Number=Sing	18	obj	_	_
+20	around	around	ADP	IN	_	21	case	_	_
+21	each	each	DET	DT	_	18	obl	_	_
+22	of	of	ADP	IN	_	27	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	bridge	bridge	NOUN	NN	Number=Sing	27	nmod:poss	_	SpaceAfter=No
+25	's	's	PART	POS	_	24	case	_	_
+26	three	three	NUM	CD	NumType=Card	27	nummod	_	_
+27	towers	towers	NOUN	NNS	Number=Plur	21	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = The bridge section from
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	bridge	bridge	NOUN	NN	Number=Sing	3	compound	_	_
+3	section	section	NOUN	NN	Number=Sing	0	root	_	_
+4	from	from	ADP	IN	_	3	nmod	_	_
+
+# sent_id = 4
+# text = Fife is now 600 metres long and weighs 30,000 tonnes.
+1	Fife	Fife	NOUN	NN	Number=Sing	10	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+3	now	now	ADV	RB	_	10	advmod	_	_
+4	600	600	NUM	CD	NumType=Card	5	nummod	_	_
+5	metres	metre	NOUN	NNS	Number=Plur	10	nsubj	_	_
+6	long	long	ADJ	JJ	Degree=Pos	10	amod	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	weighs	weigh	ADJ	JJ	Degree=Pos	6	conj	_	_
+9	30,000	30,000	NUM	CD	NumType=Card	10	nummod	_	_
+10	tonnes	tonne	NOUN	NNS	Number=Plur	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = It has 10,000 tonnes of steel and 20,000 tonnes of concrete and 46 stay-cables.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	10,000	10,000	NUM	CD	NumType=Card	4	nummod	_	_
+4	tonnes	tonne	NOUN	NNS	Number=Plur	2	obj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	steel	steel	NOUN	NN	Number=Sing	4	nmod	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	20,000	20,000	NUM	CD	NumType=Card	9	nummod	_	_
+9	tonnes	tonne	NOUN	NNS	Number=Plur	4	conj	_	_
+10	of	of	ADP	IN	_	16	case	_	_
+11	concrete	concrete	NOUN	NN	Number=Sing	16	compound	_	_
+12	and	and	CCONJ	CC	_	14	cc	_	_
+13	46	46	NUM	CD	NumType=Card	14	nummod	_	_
+14	stay	stay	NOUN	NN	Number=Sing	11	conj	_	SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	16	punct	_	SpaceAfter=No
+16	cables	cable	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = The £1.35bn project is now due to be complete by May 2017.
+1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+2	£	£	SYM	$	_	5	compound	_	SpaceAfter=No
+3	1.35	1.35	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
+4	bn	bn	NUM	CD	NumType=Card	5	nummod	_	_
+5	project	project	NOUN	NN	Number=Sing	8	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	now	now	ADV	RB	_	8	advmod	_	_
+8	due	due	ADJ	JJ	Degree=Pos	0	root	_	_
+9	to	to	PART	TO	_	11	mark	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	cop	_	_
+11	complete	complete	ADJ	JJ	Degree=Pos	8	advcl	_	_
+12	by	by	ADP	IN	_	13	case	_	_
+13	May	May	PROPN	NNP	Number=Sing	11	obl	_	_
+14	2017	2017	NUM	CD	NumType=Card	13	nummod	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Economy Secretary Keith Brown visited the site today and was among the first to walk from the land on to the bridge.
+1	Economy	economy	NOUN	NN	Number=Sing	3	compound	_	_
+2	Secretary	Secretary	PROPN	NNP	Number=Sing	3	compound	_	_
+3	Keith	Keith	PROPN	NNP	Number=Sing	5	nsubj	_	_
+4	Brown	Brown	PROPN	NNP	Number=Sing	3	flat	_	_
+5	visited	visit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	site	site	NOUN	NN	Number=Sing	5	obj	_	_
+8	today	today	NOUN	NN	Number=Sing	5	obl:tmod	_	_
+9	and	and	CCONJ	CC	_	13	cc	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+11	among	among	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	5	conj	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	walk	walk	VERB	VB	VerbForm=Inf	13	advcl	_	_
+16	from	from	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	land	land	NOUN	NN	Number=Sing	15	obl	_	_
+19	on	on	ADP	IN	_	22	case	_	_
+20	to	to	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	bridge	bridge	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = He said: "This is a historic and symbolic moment in the building of the Queensferry Crossing.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	:	_	2	punct	_	_
+4	"	"	PUNCT	``	_	2	punct	_	SpaceAfter=No
+5	This	this	PRON	DT	Number=Sing|PronType=Dem	11	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+8	historic	historic	ADJ	JJ	Degree=Pos	11	amod	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	symbolic	symbolic	ADJ	JJ	Degree=Pos	8	conj	_	_
+11	moment	moment	NOUN	NN	Number=Sing	2	ccomp	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	building	building	NOUN	NN	Number=Sing	11	nmod	_	_
+15	of	of	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	Queensferry	Queensferry	PROPN	NNP	Number=Sing	18	compound	_	_
+18	Crossing	crossing	PROPN	NNP	Number=Sing	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = We're all witnessing engineering on a truly epic scale on this project, with over 30,000 tonnes of concrete and steel used just to build this part of the bridge.
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	all	all	ADV	RB	_	4	advmod	_	_
+4	witnessing	witnesse	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	engineering	engineering	NOUN	NN	Number=Sing	4	obj	_	_
+6	on	on	ADP	IN	_	10	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+8	truly	truly	ADV	RB	_	9	advmod	_	_
+9	epic	epic	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	scale	scale	NOUN	NN	Number=Sing	4	obl	_	_
+11	on	on	ADP	IN	_	13	case	_	_
+12	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+13	project	project	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	4	punct	_	_
+15	with	with	ADP	IN	_	18	case	_	_
+16	over	over	ADV	RB	_	17	advmod	_	_
+17	30,000	30,000	NUM	CD	NumType=Card	18	nummod	_	_
+18	tonnes	tonne	NOUN	NNS	Number=Plur	4	obl	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	concrete	concrete	NOUN	NN	Number=Sing	18	nmod	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	steel	steel	NOUN	NN	Number=Sing	20	conj	_	_
+23	used	use	VERB	VBN	Tense=Past|VerbForm=Part	18	acl	_	_
+24	just	just	ADV	RB	_	26	advmod	_	_
+25	to	to	PART	TO	_	26	mark	_	_
+26	build	build	VERB	VB	VerbForm=Inf	23	xcomp	_	_
+27	this	this	DET	DT	Number=Sing|PronType=Dem	28	det	_	_
+28	part	part	NOUN	NN	Number=Sing	26	obj	_	_
+29	of	of	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	bridge	bridge	NOUN	NN	Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Despite the massive size and weight of the bridge completing the closure between the viaduct and bridge deck is a delicate operation involving extremely precise tolerances for fit up.
+1	Despite	despite	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	massive	massive	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	size	size	NOUN	NN	Number=Sing	22	nsubj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	weight	weight	NOUN	NN	Number=Sing	4	conj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	bridge	bridge	NOUN	NN	Number=Sing	4	nmod	_	_
+10	completing	complete	VERB	VBG	VerbForm=Ger	9	acl	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	closure	closure	NOUN	NN	Number=Sing	10	obj	_	_
+13	between	between	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	viaduct	viaduct	NOUN	NN	Number=Sing	12	nmod	_	_
+16	and	and	CCONJ	CC	_	18	cc	_	_
+17	bridge	bridge	NOUN	NN	Number=Sing	18	compound	_	_
+18	deck	deck	NOUN	NN	Number=Sing	15	conj	_	_
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+21	delicate	delicate	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	operation	operation	NOUN	NN	Number=Sing	0	root	_	_
+23	involving	involve	VERB	VBG	VerbForm=Ger	22	acl	_	_
+24	extremely	extremely	ADV	RB	_	25	advmod	_	_
+25	precise	precise	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	tolerances	tolerance	NOUN	NNS	Number=Plur	23	obj	_	_
+27	for	for	ADP	IN	_	28	case	_	_
+28	fit	fit	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	ccomp	_	_
+29	up	up	ADP	RP	_	28	compound:prt	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	22	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Overall, nearly 79% of the total bridge deck is now in place, the final section of deck is having its concrete deck cast in Rosyth today, meaning all the deck is ready to be lifted into place on the bridge.
+1	Overall	overall	ADV	RB	_	14	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	14	punct	_	_
+3	nearly	nearly	ADV	RB	_	4	advmod	_	_
+4	79	79	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
+5	%	%	SYM	NN	Number=Sing	14	nsubj	_	_
+6	of	of	ADP	IN	_	10	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+8	total	total	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	bridge	bridge	NOUN	NN	Number=Sing	10	compound	_	_
+10	deck	deck	NOUN	NN	Number=Sing	5	nmod	_	_
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	now	now	ADV	RB	_	14	advmod	_	_
+13	in	in	ADP	IN	_	14	case	_	_
+14	place	place	NOUN	NN	Number=Sing	36	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	14	punct	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	final	final	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	section	section	NOUN	NN	Number=Sing	22	nsubj	_	_
+19	of	of	ADP	IN	_	20	case	_	_
+20	deck	deck	NOUN	NN	Number=Sing	18	nmod	_	_
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	14	acl:relcl	_	_
+23	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	nmod:poss	_	_
+24	concrete	concrete	NOUN	NN	Number=Sing	25	compound	_	_
+25	deck	deck	NOUN	NN	Number=Sing	26	compound	_	_
+26	cast	cast	NOUN	NN	Number=Sing	22	obj	_	_
+27	in	in	ADP	IN	_	28	case	_	_
+28	Rosyth	Rosyth	PROPN	NNP	Number=Sing	22	obl	_	_
+29	today	today	NOUN	NN	Number=Sing	22	obl:tmod	_	SpaceAfter=No
+30	,	,	PUNCT	,	_	14	punct	_	_
+31	meaning	mean	VERB	VBG	VerbForm=Ger	14	acl	_	_
+32	all	all	DET	PDT	_	34	det:predet	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	deck	deck	NOUN	NN	Number=Sing	31	obj	_	_
+35	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	_
+36	ready	ready	ADJ	JJ	Degree=Pos	0	root	_	_
+37	to	to	PART	TO	_	39	mark	_	_
+38	be	be	AUX	VB	VerbForm=Inf	39	aux:pass	_	_
+39	lifted	lift	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	36	xcomp	_	_
+40	into	into	ADP	IN	_	41	case	_	_
+41	place	place	NOUN	NN	Number=Sing	39	obl	_	_
+42	on	on	ADP	IN	_	44	case	_	_
+43	the	the	DET	DT	Definite=Def|PronType=Art	44	det	_	_
+44	bridge	bridge	NOUN	NN	Number=Sing	41	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	.	_	36	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Michael Martin, Forth Crossing Bridge Constructors project director said: "The first closure on any bridge project is always a significant milestone.
+1	Michael	Michael	PROPN	NNP	Number=Sing	10	nsubj	_	_
+2	Martin	Martin	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	Forth	forth	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Crossing	crossing	PROPN	NNP	Number=Sing	7	compound	_	_
+6	Bridge	bridge	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Constructors	Constructors	PROPN	NNPS	Number=Plur	1	appos	_	_
+8	project	project	NOUN	NN	Number=Sing	9	compound	_	_
+9	director	director	NOUN	NN	Number=Sing	1	appos	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	:	:	PUNCT	:	_	10	punct	_	_
+12	"	"	PUNCT	``	_	10	punct	_	SpaceAfter=No
+13	The	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	15	amod	_	_
+15	closure	closure	NOUN	NN	Number=Sing	24	nsubj	_	_
+16	on	on	ADP	IN	_	19	case	_	_
+17	any	any	DET	DT	_	19	det	_	_
+18	bridge	bridge	NOUN	NN	Number=Sing	19	compound	_	_
+19	project	project	NOUN	NN	Number=Sing	15	nmod	_	_
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+21	always	always	ADV	RB	_	24	advmod	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+23	significant	significant	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	milestone	milestone	NOUN	NN	Number=Sing	10	ccomp	_	SpaceAfter=No
+25	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = On this fantastic project, this closure represents leading edge civil engineering.
+1	On	on	ADP	IN	_	4	case	_	_
+2	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+3	fantastic	fantastic	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	project	project	NOUN	NN	Number=Sing	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	8	punct	_	_
+6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	closure	closure	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	represents	represent	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	leading	lead	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+10	edge	edge	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	civil	civil	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	engineering	engineering	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = After installing the last road deck section and connecting it to the expanding North Tower road deck, we then had to close the remaining gap on the north - or landward - side.
+1	After	after	SCONJ	IN	_	2	mark	_	_
+2	installing	install	VERB	VBG	VerbForm=Ger	21	advcl	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+4	last	last	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	road	road	NOUN	NN	Number=Sing	6	compound	_	_
+6	deck	deck	NOUN	NN	Number=Sing	7	compound	_	_
+7	section	section	NOUN	NN	Number=Sing	2	obj	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	connecting	connect	VERB	VBG	VerbForm=Ger	2	conj	_	_
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	to	to	ADP	IN	_	17	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+13	expanding	expand	VERB	VBG	VerbForm=Ger	17	amod	_	_
+14	North	North	PROPN	NNP	Number=Sing	15	compound	_	_
+15	Tower	Tower	PROPN	NNP	Number=Sing	17	compound	_	_
+16	road	road	NOUN	NN	Number=Sing	17	compound	_	_
+17	deck	deck	NOUN	NN	Number=Sing	9	obl	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	21	punct	_	_
+19	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
+20	then	then	ADV	RB	PronType=Dem	21	advmod	_	_
+21	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	close	close	VERB	VB	VerbForm=Inf	21	xcomp	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+25	remaining	remain	VERB	VBG	VerbForm=Ger	26	amod	_	_
+26	gap	gap	NOUN	NN	Number=Sing	23	obj	_	_
+27	on	on	ADP	IN	_	29	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	north	north	NOUN	NN	Number=Sing	23	nmod	_	_
+30	-	-	PUNCT	,	_	21	punct	_	_
+31	or	or	CCONJ	CC	_	34	cc	_	_
+32	landward	landward	NOUN	NN	Number=Sing	34	compound	_	_
+33	-	-	PUNCT	HYPH	_	34	punct	_	_
+34	side	side	NOUN	NN	Number=Sing	21	conj	_	SpaceAfter=No
+35	.	.	PUNCT	.	_	21	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = This was done by pulling the northern approach viaduct 700 millimetres southwards.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj:pass	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	by	by	SCONJ	IN	_	5	mark	_	_
+5	pulling	pull	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+7	northern	northern	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	approach	approach	NOUN	NN	Number=Sing	12	compound	_	_
+9	viaduct	viaduct	NOUN	NN	Number=Sing	12	compound	_	_
+10	700	700	NUM	CD	NumType=Card	9	nummod	_	_
+11	millimetres	millimetre	NOUN	NNS	Number=Plur	12	compound	_	_
+12	southwards	southward	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = This was a massive and, at the same time, very delicate operation.
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	massive	massive	ADJ	JJ	Degree=Pos	0	root	_	_
+5	and	and	CCONJ	CC	_	14	cc	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	14	punct	_	_
+7	at	at	ADP	IN	_	10	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	same	same	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	time	time	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	_
+12	very	very	ADV	RB	_	13	advmod	_	_
+13	delicate	delicate	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	operation	operation	NOUN	NN	Number=Sing	4	conj	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Massive because the viaduct is 222 metres long, weighs approximately 6,000 tonnes and had to be pulled up a gradient of about 3%.
+1	Massive	massive	ADJ	JJ	Degree=Pos	0	root	_	_
+2	because	because	SCONJ	IN	_	8	mark	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	viaduct	viaduct	NOUN	NN	Number=Sing	8	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	222	222	NUM	CD	NumType=Card	7	nummod	_	_
+7	metres	metre	NOUN	NNS	Number=Plur	8	obl:npmod	_	_
+8	long	long	ADJ	JJ	Degree=Pos	1	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	10	punct	_	_
+10	weighs	weigh	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+11	approximately	approximately	ADV	RB	_	12	advmod	_	_
+12	6,000	6,000	NUM	CD	NumType=Card	13	nummod	_	_
+13	tonnes	tonne	NOUN	NNS	Number=Plur	10	obj	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	conj	_	_
+16	to	to	PART	TO	_	18	mark	_	_
+17	be	be	AUX	VB	VerbForm=Inf	18	aux:pass	_	_
+18	pulled	pull	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	xcomp	_	_
+19	up	up	ADP	RP	_	18	compound:prt	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+21	gradient	gradient	NOUN	NN	Number=Sing	18	obj	_	_
+22	of	of	ADP	IN	_	25	case	_	_
+23	about	about	ADV	RB	_	24	advmod	_	_
+24	3	3	NUM	CD	NumType=Card	25	nummod	_	SpaceAfter=No
+25	%	%	SYM	NN	Number=Sing	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Delicate because the tolerances the team were working to were tiny - just a few millimetres either way.
+1	Delicate	delicate	ADJ	JJ	Degree=Pos	0	root	_	_
+2	because	because	SCONJ	IN	_	8	mark	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	tolerances	tolerance	NOUN	NNS	Number=Plur	8	nsubj	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	team	team	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	1	advcl	_	_
+9	to	to	PART	TO	_	11	mark	_	_
+10	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	11	cop	_	_
+11	tiny	tiny	ADJ	JJ	Degree=Pos	8	advcl	_	_
+12	-	-	PUNCT	,	_	8	punct	_	_
+13	just	just	ADV	RB	_	16	advmod	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+15	few	few	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	millimetres	millimetre	NOUN	NNS	Number=Plur	8	parataxis	_	_
+17	either	either	CCONJ	CC	_	18	cc:preconj	_	_
+18	way	way	NOUN	NN	Number=Sing	16	obl:npmod	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Happily, it all went very well.
+1	Happily	happily	ADV	RB	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	all	all	DET	DT	_	3	det	_	_
+5	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	very	very	ADV	RB	_	7	advmod	_	_
+7	well	well	ADV	RB	Degree=Pos	5	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+

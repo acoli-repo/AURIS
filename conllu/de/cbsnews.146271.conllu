@@ -1,0 +1,525 @@
+# newdoc id = txt/de/cbsnews.146271.txt
+# newpar
+# sent_id = 1
+# text = Mutter eines 6-Jährigen mit Mikrozephalie: "Es wird besser" Wie die meisten 6-Jährigen liebt Edmund Picciuto das Singen, Spielzeuge und natürlich seine Mutter.
+1	Mutter	Mutter	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+2	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+3	6	6	NUM	NN	Case=Nom|Gender=Fem|Number=Sing|NumType=Card	5	nummod	_	SpaceAfter=No
+4	-	-	PUNCT	$(	_	3	punct	_	SpaceAfter=No
+5	Jährigen	jährigen	NOUN	ADJA	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	_
+6	mit	mit	ADP	$(	_	7	case	_	_
+7	Mikrozephalie	Mikrozephalie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	$.	_	12	punct	_	_
+9	"	"	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+10	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	expl	_	_
+11	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	aux:pass	_	_
+12	besser	gut	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+13	"	"	PUNCT	$(	_	19	punct	_	SpacesAfter=\n
+14	Wie	wie	SCONJ	ADJA	_	19	mark	_	_
+15	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	18	det	_	_
+16	meisten	meist	DET	NN	Case=Dat|Gender=Masc|Number=Sing	18	amod	_	_
+17	6	6	NUM	XY	NumType=Card	18	nummod	_	SpaceAfter=No
+18	-Jährigen	-Jährige	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+19	liebt	lieben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+20	Edmund	Edmund	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+21	Picciuto	Picciuto	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	20	flat	_	_
+22	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
+23	Singen	singen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	19	obj	_	SpaceAfter=No
+24	,	,	PUNCT	$,	_	25	punct	_	_
+25	Spielzeuge	Spielzeug	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	23	conj	_	_
+26	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	29	cc	_	_
+27	natürlich	natürlich	ADJ	ADV	_	29	amod	_	_
+28	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	29	det:poss	_	_
+29	Mutter	mutter	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
+30	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Aber wie die wenigsten seiner Altergenossen hat Edmund Mikrozephalie, das Ergebnis einer genetischen Störung, über die seine Mutter Elizabeth Picciuto während ihrer Schwangerschaft nichts wusste.
+1	Aber	aber	CCONJ	KON	_	7	cc	_	_
+2	wie	wie	ADP	NN	Case=Nom|Gender=Fem|Number=Sing	4	case	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	wenigsten	wenigst	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+5	seiner	sein	DET	PPER	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	det:poss	_	_
+6	Altergenossen	Altergenosse	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
+7	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	Edmund	Edmund	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+9	Mikrozephalie	Mikrozephalie	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	12	punct	_	_
+11	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Ergebnis	Ergebnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	obj	_	_
+13	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	genetischen	genetisch	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	15	amod	_	_
+15	Störung	Störung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	27	punct	_	_
+17	über	über	ADP	NN	Case=Gen|Gender=Fem|Number=Sing	18	case	_	_
+18	die	der	PRON	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	nmod	_	_
+19	seine	sein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	20	det:poss	_	_
+20	Mutter	mutter	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
+21	Elizabeth	Elizabeth	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	20	appos	_	_
+22	Picciuto	Picciuto	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	21	flat	_	_
+23	während	während	ADP	NN	Case=Gen|Gender=Masc|Number=Plur	25	case	_	_
+24	ihrer	ihr	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	25	det:poss	_	_
+25	Schwangerschaft	Schwangerschaft	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+26	nichts	nichts	PRON	CARD	NumType=Card	27	obj	_	_
+27	wusste	wissen	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Als er das erste Mal nach Hause kam, war mein erster Gedanke, Ich schaffe das nicht.
+1	Als	als	SCONJ	KOUS	_	8	mark	_	_
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+4	erste	erst	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	5	amod	_	_
+5	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_
+6	nach	nach	ADP	ADJA	_	7	case	_	_
+7	Hause	Haus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	_
+8	kam	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	war	sein	AUX	ADV	_	13	cop	_	_
+11	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	13	det:poss	_	_
+12	erster	erst	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	13	amod	_	_
+13	Gedanke	Gedanke	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	16	punct	_	_
+15	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	schaffe	schaffen	VERB	NN	Case=Acc|Gender=Neut|Number=Plur	13	ccomp	_	_
+17	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
+18	nicht	nicht	PART	CARD	NumType=Card	16	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Ich schaffe das nicht.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	schaffe	schaffen	VERB	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	nicht	nicht	PART	CARD	NumType=Card	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Darauf habe ich mich nicht eingelassen.
+1	Darauf	darauf	ADV	PAV	_	6	advmod	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	obj	_	_
+5	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advmod	_	_
+6	eingelassen	einlassen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Was überhaupt nicht stimmt -- natürlich hat man sich darauf eingelassen," sagte sie.
+1	Was	was	PRON	FM	Foreign=Yes	4	nsubj	_	_
+2	überhaupt	überhaupt	ADV	ADV	_	3	advmod	_	_
+3	nicht	nicht	PART	CARD	NumType=Card	4	advmod	_	_
+4	stimmt	stimmen	VERB	ADJD	_	6	acl	_	_
+5	--	--	PUNCT	$(	_	4	punct	_	_
+6	natürlich	natürlich	ADV	ADJD	_	7	advmod	_	_
+7	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	7	nsubj	_	_
+9	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
+10	darauf	darauf	ADV	PAV	_	9	advmod	_	_
+11	eingelassen	eingelas	NOUN	VVPP	VerbForm=Part	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	14	punct	_	SpaceAfter=No
+13	"	"	PUNCT	$(	_	14	punct	_	_
+14	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+15	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Ihrem Ehemann Vincent und ihr wurde mitgeteilt, dass Edmund sie unter Umständen nie erkennen wird können und, dass er möglicherweise nicht einmal überleben wird.
+1	Ihrem	ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	2	det:poss	_	_
+2	Ehemann	Ehemann	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	0	root	_	_
+3	Vincent	Vincent	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	2	appos	_	_
+4	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	7	cc	_	_
+5	ihr	ihr	PRON	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	iobj	_	_
+6	wurde	werden	AUX	NN	Case=Acc|Gender=Fem|Number=Plur	7	aux:pass	_	_
+7	mitgeteilt	mitteilen	VERB	VVPP	VerbForm=Part	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	15	punct	_	_
+9	dass	dass	SCONJ	KOUS	_	15	mark	_	_
+10	Edmund	Edmund	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+11	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	15	nsubj:pass	_	_
+12	unter	unter	ADP	ADJD	_	13	case	_	_
+13	Umständen	Umstand	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	15	obl	_	_
+14	nie	nie	ADV	ADV	_	15	advmod	_	_
+15	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	7	ccomp	_	_
+16	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+17	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+18	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	25	cc	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	25	punct	_	_
+20	dass	dass	SCONJ	KOUS	_	25	mark	_	_
+21	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj:pass	_	_
+22	möglicherweise	möglicherweise	ADV	ADV	_	23	advmod	_	_
+23	nicht	nicht	PART	CARD	NumType=Card	25	advmod	_	_
+24	einmal	einmal	ADV	ADV	_	23	advmod	_	_
+25	überleben	überleben	VERB	VVPP	VerbForm=Part	15	conj	_	_
+26	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	25	aux:pass	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Manche Ärzte gingen sogar so weit, dass sie vorschlugen, ihn zu institutionalisieren.
+1	Manche	manch	DET	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	gingen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	sogar	sogar	ADV	ADV	_	3	advmod	_	_
+5	so	so	ADV	NE	Case=Dat|Number=Plur	6	advmod	_	_
+6	weit	weit	ADJ	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	10	punct	_	_
+8	dass	dass	SCONJ	KOUS	_	10	mark	_	_
+9	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+10	vorschlugen	vorschlagen	VERB	NN	Case=Nom|Gender=Neut|Number=Plur	3	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	14	punct	_	_
+12	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+13	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	14	mark	_	_
+14	institutionalisieren	institutionalisieren	VERB	VVINF	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = "Meine erste Antwort darauf war 'Ich wusste nicht, dass das Leute noch immer machen,'" erklärte Picciuto.
+1	"	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+2	Meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	4	det:poss	_	_
+3	erste	erst	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
+4	Antwort	Antwort	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+5	darauf	darauf	ADV	PAV	_	4	advmod	_	_
+6	war	sein	AUX	ADV	_	9	cop	_	_
+7	'	'	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+8	Ich	ich	PRON	NN	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	wusste	wissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	ccomp	_	_
+10	nicht	nicht	PART	CARD	NumType=Card	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	17	punct	_	_
+12	dass	dass	SCONJ	KOUS	_	17	mark	_	_
+13	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur	17	nsubj	_	_
+15	noch	noch	ADV	CARD	NumType=Card	17	advmod	_	_
+16	immer	immer	ADV	ADV	_	17	advmod	_	_
+17	machen	machen	VERB	VVINF	VerbForm=Inf	9	ccomp	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	19	punct	_	SpaceAfter=No
+19	'	'	PUNCT	$(	_	17	punct	_	SpaceAfter=No
+20	"	"	PUNCT	$(	_	9	punct	_	_
+21	erklärte	erklären	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+22	Picciuto	Picciuto	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	21	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Edmund kann mit Hilfe einer Gehhilfe laufen.
+1	Edmund	Edmund	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	7	cc	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	mit	mit	ADP	CARD	NumType=Card	4	case	_	_
+4	Hilfe	Hilfe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+5	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Gehhilfe	Gehhilfe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	iobj	_	_
+7	laufen	laufen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Edmund konnte bis zu seinem dritten Lebensjahr weder sitzen noch krabbeln und er kann noch immer nicht sprechen.
+1	Edmund	Edmund	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+2	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+3	bis	bis	ADP	APPR	_	11	case	_	_
+4	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	7	case	_	_
+5	seinem	sein	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes	7	det:poss	_	_
+6	dritten	dritt	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	7	amod	_	_
+7	Lebensjahr	Lebensjahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
+8	weder	weder	CCONJ	NN	Case=Nom|Gender=Neut|Number=Plur	9	cc	_	_
+9	sitzen	sitzen	NOUN	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+10	noch	noch	ADV	CARD	NumType=Card	11	advmod	_	_
+11	krabbeln	krabbeln	VERB	NN	Case=Dat|Gender=Neut|Number=Plur	0	root	_	_
+12	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	18	cc	_	_
+13	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+14	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+15	noch	noch	ADV	CARD	NumType=Card	18	advmod	_	_
+16	immer	immer	ADV	ADV	_	17	advmod	_	_
+17	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advmod	_	_
+18	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	11	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Aber er macht langsam Fortschritte.
+1	Aber	aber	CCONJ	KON	_	3	cc	_	_
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	langsam	langsam	ADJ	ADJD	_	3	advmod	_	_
+5	Fortschritte	Fortschritte	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Er kann mit Unterstützung laufen und Fahrradfahren.
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	mit	mit	ADP	ADJA	Case=Nom|Gender=Fem|Number=Plur	4	case	_	_
+4	Unterstützung	Unterstützung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+5	laufen	laufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	7	cc	_	_
+7	Fahrradfahren	Fahrradfahren	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Er liebt es auch, mit seinen zwei Brüdern zu spielen und zu singen.
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	liebt	lieben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	auch	auch	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	11	punct	_	_
+6	mit	mit	ADP	$(	_	9	case	_	_
+7	seinen	sein	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Plur|Poss=Yes	9	det:poss	_	_
+8	zwei	zwei	NUM	NN	Case=Dat|Gender=Masc|Number=Plur	9	nummod	_	_
+9	Brüdern	Bruder	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	11	obl	_	_
+10	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	11	mark	_	_
+11	spielen	spallen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	_
+12	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	14	cc	_	_
+13	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	14	mark	_	_
+14	singen	singen	VERB	VVINF	VerbForm=Inf	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Elizabeth zeigt die Zeichensprache, die sich Edmund für "Bitte sing mir etwas vor" ausgedacht hat."
+1	Elizabeth	Elizabeth	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	zeigt	zeigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Zeichensprache	Zeichensprache	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	12	punct	_	_
+6	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	12	nsubj	_	_
+7	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	12	obj	_	_
+8	Edmund	Edmund	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	12	nsubj	_	_
+9	für	für	ADP	APPR	_	12	case	_	_
+10	"	"	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+11	Bitte	Bitte	PART	PTKANT	_	12	mark	_	_
+12	sing	sehen	VERB	NE	Case=Gen|Number=Sing	4	acl	_	_
+13	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+14	etwas	etwas	PRON	PIS	Definite=Ind|Gender=Neut|PronType=Ind	12	nsubj	_	_
+15	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	12	compound:prt	_	SpaceAfter=No
+16	"	"	PUNCT	$(	_	12	punct	_	_
+17	ausgedacht	ausgedachen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl	_	_
+18	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+20	"	"	PUNCT	$(	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = "Wir bringen ihm Zeichensprache bei," erzählte Picciuto CBS News.
+1	"	"	PUNCT	$(	_	3	punct	_	SpaceAfter=No
+2	Wir	wir	PRON	ADJD	_	3	nsubj	_	_
+3	bringen	bringen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+4	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+5	Zeichensprache	Zeichensprache	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	bei	bei	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	9	punct	_	SpaceAfter=No
+8	"	"	PUNCT	$(	_	9	punct	_	_
+9	erzählte	erzähln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+10	Picciuto	Picciuto	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+11	CBS	CBS	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	10	flat	_	_
+12	News	News	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	10	flat	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Aber es ist keine typische Zeichensprache -- sagt sie.
+1	Aber	aber	CCONJ	KON	_	6	cc	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Neg|PronType=Neg	6	nmod	_	_
+5	typische	typisch	ADJ	NE	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+6	Zeichensprache	Zeichensprache	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	--	--	PUNCT	$(	_	6	punct	_	_
+8	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 18
+# text = Edmund hat einige Zeichen alleine erfunden.
+1	Edmund	Edmund	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	einige	einige	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	4	det	_	_
+4	Zeichen	Zeichen	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
+5	alleine	alleine	ADV	ADV	_	6	advmod	_	_
+6	erfunden	erfinden	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Mikrozephalie hat eine Vielzahl an Ursachen: genetische wie bei Edmund sowie Infektionen mit Viren wie Masern oder dem Zikavirus während der Schwangerschaft.
+1	Mikrozephalie	Mikrozephalie	CCONJ	NE	Case=Nom|Gender=Fem|Number=Sing	2	cc	_	_
+2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Vielzahl	Vielzahl	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	an	an	ADP	APPR	_	6	case	_	_
+6	Ursachen	Ursache	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+7	:	:	PUNCT	$.	_	8	punct	_	_
+8	genetische	genetische	ADV	ADJA	Case=Nom|Gender=Fem|Number=Sing	2	advmod	_	_
+9	wie	wie	CCONJ	NN	Case=Nom|Gender=Fem|Number=Sing	11	cc	_	_
+10	bei	bei	ADP	APPR	_	11	case	_	_
+11	Edmund	Edmund	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	8	conj	_	_
+12	sowie	sowie	CCONJ	NE	Case=Dat|Gender=Neut|Number=Sing	13	cc	_	_
+13	Infektionen	Infektion	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	11	conj	_	_
+14	mit	mit	ADP	CARD	NumType=Card	15	case	_	_
+15	Viren	Virus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	nmod	_	_
+16	wie	wie	ADP	NN	Case=Nom|Gender=Neut|Number=Sing	17	case	_	_
+17	Masern	Maser	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	_
+18	oder	oder	CCONJ	XY	_	20	cc	_	_
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Zikavirus	Zikavirus	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	conj	_	_
+21	während	während	ADP	NN	Case=Gen|Gender=Masc|Number=Plur	23	case	_	_
+22	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Schwangerschaft	Schwangerschaft	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Die Symptome und Prognosen können stark variieren.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	_
+2	Symptome	Symptom	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+3	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	4	cc	_	_
+4	Prognosen	Prognose	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	conj	_	_
+5	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	stark	stark	ADJ	NN	Case=Acc|Gender=Masc|Number=Sing	7	advmod	_	_
+7	variieren	variieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 21
+# text = Es ist noch zu früh zu sagen, wie es das Leben der mit dem Zikavirus Infizierten beeinflussen wird.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	ist	sein	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	noch	noch	ADV	CARD	NumType=Card	2	advmod	_	_
+4	zu	zu	PART	NN	Case=Nom|Number=Plur	7	mark	_	_
+5	früh	früh	ADV	ADJD	_	4	advmod	_	_
+6	zu	zu	PART	NN	Case=Nom|Number=Plur	7	mark	_	_
+7	sagen	sagen	VERB	VVINF	VerbForm=Inf	2	csubj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	18	punct	_	_
+9	wie	wie	SCONJ	NN	Case=Nom|Gender=Neut|Number=Sing	18	mark	_	_
+10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	_
+11	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Leben	Leben	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+14	mit	mit	ADP	$(	_	16	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Zikavirus	Zikavirus	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	_
+17	Infizierten	infiziert	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	18	amod	_	_
+18	beeinflussen	beeinflussen	VERB	VVPP	VerbForm=Part	2	advcl	_	_
+19	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	aux:pass	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = Picciuto erinnert sich an den emotionalen Preis einer ungewissen Zukunft.
+1	Picciuto	Picciuto	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	erinnert	erinnern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	an	an	ADP	APPR	_	7	case	_	_
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	emotionalen	emotional	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
+7	Preis	Preis	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+8	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	ungewissen	ungewissen	ADV	NN	Case=Acc|Gender=Fem|Number=Plur	10	amod	_	_
+10	Zukunft	Zukunft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 23
+# text = Ich fragte ständig, was wird geschehen?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	fragte	fragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ständig	ständig	ADJ	ADJD	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	7	punct	_	_
+5	was	was	PRON	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj:pass	_	_
+6	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	aux:pass	_	_
+7	geschehen	geschehen	VERB	VVPP	VerbForm=Part	2	acl	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 24
+# text = Was wird geschehen?
+1	Was	was	PRON	FM	Foreign=Yes	3	nsubj:pass	_	_
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	aux:pass	_	_
+3	geschehen	geschehen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 25
+# text = Und sie weiß es noch immer nicht wirklich.
+1	Und	und	CCONJ	ADJD	_	3	cc	_	_
+2	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	weiß	wissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	noch	noch	ADV	CARD	NumType=Card	3	advmod	_	_
+6	immer	immer	ADV	ADV	_	7	advmod	_	_
+7	nicht	nicht	PART	CARD	NumType=Card	3	advmod	_	_
+8	wirklich	wirklich	ADJ	ADJD	_	3	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 26
+# text = Ich habe schon seit langer Zeit nicht mehr nach der Prognose gefragt, weil ich nicht erwarte, dass sie mir jemand wirklich sagen kann.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+3	schon	schon	ADV	ADV	_	12	advmod	_	_
+4	seit	seit	ADP	ADJA	Case=Acc|Gender=Fem|Number=Sing	6	case	_	_
+5	langer	lang	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	6	amod	_	_
+6	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+7	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advmod	_	_
+8	mehr	mehr	ADV	ADV	_	7	advmod	_	_
+9	nach	nach	ADP	ADJA	_	11	case	_	_
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Prognose	Prognose	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+12	gefragt	fragen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	17	punct	_	_
+14	weil	weil	SCONJ	KOUS	_	17	mark	_	_
+15	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+16	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advmod	_	_
+17	erwarte	erwarten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	advcl	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	24	punct	_	_
+19	dass	dass	SCONJ	KOUS	_	24	mark	_	_
+20	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	24	nsubj	_	_
+21	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	24	iobj	_	_
+22	jemand	jemand	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	24	nsubj	_	_
+23	wirklich	wirklich	ADV	ADV	_	24	advmod	_	_
+24	sagen	sagen	VERB	VVINF	VerbForm=Inf	17	ccomp	_	_
+25	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 27
+# text = Aber Picciuto hat einen hoffnungsvollen Ratschlag für Mütter von Säuglingen mit Geburtsschäden, die durch den Zikavirus verursacht wurden.
+1	Aber	aber	CCONJ	KON	_	3	cc	_	_
+2	Picciuto	Picciuto	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	hoffnungsvollen	hoffnungsvoll	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	6	amod	_	_
+6	Ratschlag	Ratschlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+7	für	für	ADP	APPR	_	8	case	_	_
+8	Mütter	Mütter	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	_
+9	von	von	ADP	NE	Case=Dat|Gender=Masc|Number=Sing	10	case	_	_
+10	Säuglingen	Säuglingen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	_
+11	mit	mit	ADP	CARD	NumType=Card	12	case	_	_
+12	Geburtsschäden	Geburtsschaden	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	18	punct	_	_
+14	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	18	nsubj:pass	_	_
+15	durch	durch	ADP	APPR	_	17	case	_	_
+16	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Zikavirus	Zikavirus	NOUN	NE	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
+18	verursacht	verursachen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	_
+19	wurden	werden	AUX	NN	Case=Acc|Gender=Fem|Number=Sing	18	aux:pass	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 28
+# text = Es wird besser.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	besser	gut	ADJ	ADJD	_	2	xcomp	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 29
+# text = Sie wissen, dass es für Sie besser werden wird.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	wissen	wissen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	9	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	9	mark	_	_
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+6	für	für	ADP	APPR	_	7	case	_	_
+7	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nmod	_	_
+8	besser	gut	ADJ	ADJD	_	9	xcomp	_	_
+9	werden	werden	VERB	NN	Case=Dat|Gender=Neut|Number=Sing	2	ccomp	_	_
+10	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 30
+# text = Sie werden Ihr Kind lieben und Ihr Kind wird Sie lieben.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj:pass	_	_
+2	werden	werden	AUX	NE	Case=Acc|Number=Plur	5	aux:pass	_	_
+3	Ihr	Ihr|ihr	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	4	det:poss	_	_
+4	Kind	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	xcomp	_	_
+5	lieben	lieben	VERB	VVPP	VerbForm=Part	0	root	_	_
+6	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	11	cc	_	_
+7	Ihr	Ihr|ihr	PRON	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	8	det:poss	_	_
+8	Kind	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	xcomp	_	_
+9	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	aux:pass	_	_
+10	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj:pass	_	_
+11	lieben	lieben	VERB	VVPP	VerbForm=Part	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,527 @@
+# newdoc id = txt/de/cbsnews.146310.txt
+# newpar
+# sent_id = 1
+# text = Mahaj Brown, 6, "von Kugeln durchlöchert", überlebt Schießerei in Philadelphia Die Polizei teilt mit, dass der 6-jährige Junge in Philadelphia angeschossen wurde, diese Woche bereits das zweite Mal, dass ein 6-jähriges Kind angeschossen wird.
+1	Mahaj	Mahaj	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+2	Brown	Brown	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	4	punct	_	_
+4	6	6	PROPN	CARD	NumType=Card	1	appos	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	9	punct	_	_
+6	"	"	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+7	von	von	ADP	FM	Foreign=Yes	8	case	_	_
+8	Kugeln	Kugel	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	nmod	_	_
+9	durchlöchert	durchlöchern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	SpaceAfter=No
+10	"	"	PUNCT	$(	_	1	punct	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	13	punct	_	_
+12	überlebt	überleben	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	amod	_	_
+13	Schießerei	Schießerei	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	18	obj	_	_
+14	in	in	ADP	APPR	_	15	case	_	_
+15	Philadelphia	Philadelphia	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	SpacesAfter=\n
+16	Die	der	PRON	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	nmod	_	_
+17	Polizei	Polizei	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+18	teilt	teilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	mit	mit	ADP	CARD	NumType=Card	18	compound:prt	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	29	punct	_	_
+21	dass	dass	SCONJ	KOUS	_	29	mark	_	_
+22	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+23	6	6	NUM	NN	Case=Nom|Gender=Fem|Number=Sing|NumType=Card	25	compound	_	SpaceAfter=No
+24	-	-	PUNCT	$(	_	23	punct	_	SpaceAfter=No
+25	jährige	jährige	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	26	amod	_	_
+26	Junge	jung	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	nsubj:pass	_	_
+27	in	in	ADP	APPR	_	28	case	_	_
+28	Philadelphia	Philadelphia	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	29	obl	_	_
+29	angeschossen	angeschossen	VERB	VVPP	VerbForm=Part	18	ccomp	_	_
+30	wurde	werden	AUX	KON	_	29	aux:pass	_	SpaceAfter=No
+31	,	,	PUNCT	$,	_	45	punct	_	_
+32	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	33	det	_	_
+33	Woche	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	45	obj	_	_
+34	bereits	bereits	ADV	ADV	_	37	advmod	_	_
+35	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	37	det	_	_
+36	zweite	zweit	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	37	amod	_	_
+37	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	45	obl	_	SpaceAfter=No
+38	,	,	PUNCT	$,	_	45	punct	_	_
+39	dass	dass	SCONJ	KOUS	_	45	mark	_	_
+40	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+41	6	6	NUM	NN	Case=Nom|Gender=Fem|Number=Sing|NumType=Card	43	compound	_	SpaceAfter=No
+42	-	-	PUNCT	$(	_	41	punct	_	SpaceAfter=No
+43	jähriges	jähriges	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	44	amod	_	_
+44	Kind	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	45	nsubj:pass	_	_
+45	angeschossen	angeschossen	VERB	VVPP	VerbForm=Part	29	conj	_	_
+46	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	45	aux:pass	_	SpaceAfter=No
+47	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Die Großeltern des Jungen identifizierten ihn für CBS Philadelphia als Mahaj Brown.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Großeltern	Großeltern	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Jungen	Junge	NOUN	ADJA	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	identifizierten	identifizieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	für	für	ADP	APPR	_	9	case	_	_
+8	CBS	CBS	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	9	nmod	_	_
+9	Philadelphia	Philadelphia	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
+10	als	als	ADP	KOKOM	_	11	case	_	_
+11	Mahaj	Mahaj	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+12	Brown	Brown	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	11	flat	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Die Großeltern gaben an, dass Brown mehrere Schussverletzungen erlitt, einschließlich in der Lende, Bein, Arm und Bauch, aber dass er bei seinem Transport ins Krankenhaus bei Bewusstsein war.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Großeltern	Großeltern	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	gaben	geben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	an	an	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	10	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	10	mark	_	_
+7	Brown	Brown	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+8	mehrere	mehrere	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	Schussverletzungen	Schussverletzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+10	erlitt	erleiden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	15	punct	_	_
+12	einschließlich	einschließlich	ADV	ADV	_	15	advmod	_	_
+13	in	in	ADP	APPR	_	15	case	_	_
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Lende	Lende	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	17	punct	_	_
+17	Bein	Bein	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	19	punct	_	_
+19	Arm	Arm	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	15	conj	_	_
+20	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	21	cc	_	_
+21	Bauch	Bauch	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	34	punct	_	_
+23	aber	aber	CCONJ	KON	_	34	cc	_	_
+24	dass	dass	SCONJ	KOUS	_	34	mark	_	_
+25	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	_
+26	bei	bei	ADP	APPR	_	28	case	_	_
+27	seinem	sein	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	28	det:poss	_	_
+28	Transport	Transport	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	34	obl	_	_
+29-30	ins	_	_	_	_	_	_	_	_
+29	in	in	ADP	APPR	_	31	case	_	_
+30	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	31	det	_	_
+31	Krankenhaus	Krankenhaus	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	34	obl	_	_
+32	bei	bei	ADP	APPR	_	33	case	_	_
+33	Bewusstsein	Bewußtsein	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	31	nmod	_	_
+34	war	sein	AUX	NE	Case=Dat|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+35	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = "Er hat viel durchgemacht, sein kleiner Körper war von Kugeln durchlöchert," teilte seine Großmutter Delores Melendez dem Sender mit.
+1	"	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+2	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	viel	viel	DET	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	5	det	_	_
+5	durchgemacht	durchgemacht	NOUN	VVPP	VerbForm=Part	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	13	punct	_	_
+7	sein	sein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	9	det:poss	_	_
+8	kleiner	klein	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	9	amod	_	_
+9	Körper	Körper	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+10	war	sein	AUX	ADV	_	13	cop	_	_
+11	von	von	ADP	FM	Foreign=Yes	12	case	_	_
+12	Kugeln	Kugel	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	nmod	_	_
+13	durchlöchert	durchlöchern	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	16	punct	_	SpaceAfter=No
+15	"	"	PUNCT	$(	_	16	punct	_	_
+16	teilte	teilt	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+17	seine	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	18	det:poss	_	_
+18	Großmutter	Großmutter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+19	Delores	Delores	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	18	appos	_	_
+20	Melendez	Melendez	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	19	flat	_	_
+21	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Sender	Sender	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	16	iobj	_	_
+23	mit	mit	ADP	$(	_	16	compound:prt	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ich kann das einfach nicht glauben.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	das	der	PRON	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	nsubj	_	_
+4	einfach	einfach	ADV	ADV	_	6	advmod	_	_
+5	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advmod	_	_
+6	glauben	glauben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Der Zustand des Jungen wurde in einem Krankenhaus als kritisch eingestuft und er musste sich mehreren Operationen unterziehen.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Zustand	Zustand	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Jungen	Junge	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	wurde	werden	AUX	ADV	_	11	aux:pass	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Krankenhaus	Krankenhaus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	_
+9	als	als	ADP	KOKOM	_	10	case	_	_
+10	kritisch	kritisch	ADJ	ADJD	_	11	xcomp	_	_
+11	eingestuft	einstufen	VERB	VVPP	VerbForm=Part	0	root	_	_
+12	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	18	cc	_	_
+13	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+14	musste	müssen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
+15	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	18	obj	_	_
+16	mehreren	mehrere	PRON	ADJA	Case=Acc|Gender=Masc|Number=Sing	17	det	_	_
+17	Operationen	Operation	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	obj	_	_
+18	unterziehen	unterziehen	VERB	VVINF	VerbForm=Inf	11	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Die Familie des Jungen teilte dem Sender mit, dass er voraussichtlich wieder genesen wird.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Jungen	Junge	NOUN	ADJA	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	teilte	teilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Sender	Sender	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	iobj	_	_
+8	mit	mit	ADP	$(	_	5	compound:prt	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	14	punct	_	_
+10	dass	dass	SCONJ	KOUS	_	14	mark	_	_
+11	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+12	voraussichtlich	voraussichtlich	ADJ	ADJD	_	14	advmod	_	_
+13	wieder	wieder	ADV	NN	Case=Acc|Gender=Neut|Number=Plur	14	advmod	_	_
+14	genesen	nesen	VERB	VVINF	VerbForm=Inf	5	ccomp	_	_
+15	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Er hätte die erste Klasse in einer örtlichen Grundschule beginnen sollen.
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+2	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	erste	erst	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	5	amod	_	_
+5	Klasse	Klasse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+6	in	in	ADP	APPR	_	9	case	_	_
+7	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	örtlichen	örtlich	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	9	amod	_	_
+9	Grundschule	Grundschule	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
+10	beginnen	beginnen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+11	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Brown war einer von vier Personen die in Germantown angeschossen wurden.
+1	Brown	Brown	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	war	sein	AUX	ADV	_	3	cop	_	_
+3	einer	ein	PRON	PIS	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+4	von	von	ADP	FM	Foreign=Yes	6	case	_	_
+5	vier	vier	NUM	NE	Case=Dat|Gender=Masc|Number=Sing	6	nummod	_	_
+6	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nmod	_	_
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	nsubj:pass	_	_
+8	in	in	ADP	APPR	_	9	case	_	_
+9	Germantown	Germantown	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	_
+10	angeschossen	angeschossen	VERB	VVPP	VerbForm=Part	6	acl	_	_
+11	wurden	werden	AUX	FM	Foreign=Yes	10	aux:pass	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Ebenfalls angeschossen wurden drei Männer: zwei im Alter von 29 Jahren und ein 32-Jähriger.
+1	Ebenfalls	ebenfalls	ADV	ADV	_	2	advmod	_	_
+2	angeschossen	angeschossen	VERB	VVPP	VerbForm=Part	0	root	_	_
+3	wurden	werden	AUX	FM	Foreign=Yes	2	aux:pass	_	_
+4	drei	drei	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Männer	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj:pass	_	SpaceAfter=No
+6	:	:	PUNCT	$.	_	7	punct	_	_
+7	zwei	zwei	NUM	NN	Case=Nom|Gender=Neut|Number=Sing	2	appos	_	_
+8-9	im	_	_	_	_	_	_	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Alter	Alter	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	_
+11	von	von	ADP	NE	Case=Dat|Gender=Neut|Number=Sing	13	case	_	_
+12	29	29	NUM	CARD	NumType=Card	13	nummod	_	_
+13	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	10	nmod	_	_
+14	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	18	cc	_	_
+15	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
+16	32	32	NUM	CARD	NumType=Card	18	compound	_	SpaceAfter=No
+17	-	-	PUNCT	$(	_	16	punct	_	SpaceAfter=No
+18	Jähriger	jähriger	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Einer der 29-jährigen Männer ist im kritischen Zustand;
+1	Einer	ein	PRON	PIS	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+2	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+3	29-	29-	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+4	jährigen	jährigen	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing	5	amod	_	_
+5	Männer	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	nmod	_	_
+6	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	im	_	_	_	_	_	_	_	_
+7	in	in	ADP	APPR	_	10	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	kritischen	kritisch	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	10	amod	_	_
+10	Zustand	Zustand	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	;	;	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 12
+# text = die anderen zwei Opfer sind laut CBS Philadelphia im stabilen Zustand.
+1	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	4	det	_	_
+2	anderen	ander	ADJ	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	4	amod	_	_
+3	zwei	zwei	NUM	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	nummod	_	_
+4	Opfer	Opfer	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	_
+5	sind	sein	AUX	ADJD	_	8	cop	_	_
+6	laut	laut	ADP	APPR	_	7	case	_	_
+7	CBS	CBS	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	_
+8	Philadelphia	Philadelphia	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	0	root	_	_
+9-10	im	_	_	_	_	_	_	_	_
+9	in	in	ADP	APPR	_	12	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	stabilen	stabil	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	amod	_	_
+12	Zustand	Zustand	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Der Junge wurde auf dem Vordersitz eines Autos zusammen mit dem 29-Jährigen, der sich in einem kritischen Zustand befindet, angeschossen aufgefunden, berichtet der Sender.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Junge	Junge	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	nsubj:pass	_	_
+3	wurde	werden	AUX	ADV	_	25	aux:pass	_	_
+4	auf	auf	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Vordersitz	Vordersitz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	25	obl	_	_
+7	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Autos	Autos	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	zusammen	zusammen	ADV	NN	Case=Gen|Gender=Fem|Number=Plur	14	advmod	_	_
+10	mit	mit	ADP	$(	_	14	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+12	29	29	NUM	CARD	NumType=Card	14	compound	_	SpaceAfter=No
+13	-	-	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+14	Jährigen	jährigen	NOUN	ADJA	Case=Dat|Gender=Neut|Number=Sing	25	obl	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	22	punct	_	_
+16	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	22	nsubj	_	_
+17	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	22	expl:pv	_	_
+18	in	in	ADP	APPR	_	21	case	_	_
+19	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	kritischen	kritisch	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	21	amod	_	_
+21	Zustand	Zustand	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	22	obl	_	_
+22	befindet	befinden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	22	punct	_	_
+24	angeschossen	angeschossen	ADV	VVPP	VerbForm=Part	25	advmod	_	_
+25	aufgefunden	auffinden	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+26	,	,	PUNCT	$,	_	27	punct	_	_
+27	berichtet	berichten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	parataxis	_	_
+28	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	Sender	Sender	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	SpaceAfter=No
+30	.	.	PUNCT	$.	_	25	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Die anderen zwei Opfer befanden sich nicht im Auto und die Polizei ermittelt gerade, ob sich unter einem der verletzten Männer der Täter befinden könnte.
+1	Die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	4	det	_	_
+2	anderen	ander	ADJ	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	4	amod	_	_
+3	zwei	zwei	NUM	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	nummod	_	_
+4	Opfer	Opfer	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+5	befanden	befinden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+7	nicht	nicht	PART	CARD	NumType=Card	5	advmod	_	_
+8-9	im	_	_	_	_	_	_	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Auto	Auto	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
+11	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	14	cc	_	_
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Polizei	Polizei	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	nsubj	_	_
+14	ermittelt	ermitteln	VERB	VVPP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+15	gerade	gerade	ADV	ADV	_	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	26	punct	_	_
+17	ob	ob	SCONJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	mark	_	_
+18	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	26	nsubj	_	_
+19	unter	unter	ADP	ADJD	_	20	case	_	_
+20	einem	ein	PRON	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	obl	_	_
+21	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	verletzten	verletzten	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	amod	_	_
+23	Männer	Mann	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	26	nsubj	_	_
+24	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	Täter	Täter	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+26	befinden	befinden	VERB	VVINF	VerbForm=Inf	14	ccomp	_	_
+27	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	aux	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Ermittler teilten CBS Philadelphia mit, dass es anscheinend zu einem Kreuzfeuer zwischen mehreren Schützen gekommen sei.
+1	Ermittler	Ermittler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	teilten	teilen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	CBS	CBS	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+4	Philadelphia	Philadelphia	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	_
+5	mit	mit	ADP	$(	_	2	compound:prt	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	16	punct	_	_
+7	dass	dass	SCONJ	KOUS	_	16	mark	_	_
+8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+9	anscheinend	anscheinend	ADV	ADV	_	16	advmod	_	_
+10	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	12	case	_	_
+11	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Kreuzfeuer	Kreuzfeuer	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	_
+13	zwischen	zwischen	ADP	NN	Case=Dat|Gender=Masc|Number=Sing	15	case	_	_
+14	mehreren	mehrere	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	Schützen	Schütze|Schützen	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	16	obl	_	_
+16	gekommen	kommen	VERB	VVPP	VerbForm=Part	2	ccomp	_	_
+17	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Patronenhülsen für Sturmgewehre, die zu verschiedenen Sturmgewehren zurückverfolgt wurden, übersähten den Tatort.
+1	Patronenhülsen	Patronenhülsen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+2	für	für	ADP	APPR	_	3	case	_	_
+3	Sturmgewehre	Sturmgewehre	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	9	punct	_	_
+5	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	9	nsubj:pass	_	_
+6	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	case	_	_
+7	verschiedenen	verschieden	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	8	amod	_	_
+8	Sturmgewehren	Sturmgewehren	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	obl	_	_
+9	zurückverfolgt	zurückverfolgen	VERB	VVPP	VerbForm=Part	3	acl	_	_
+10	wurden	werden	AUX	FM	Foreign=Yes	9	aux:pass	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	9	punct	_	_
+12	übersähten	übersähen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Tatort	Tatort	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Es scheint, dass es sich hierbei eindeutig um einen andauernden Kampf gehandelt habe.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	13	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	13	mark	_	_
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+6	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	13	obj	_	_
+7	hierbei	hierbei	ADV	PAV	_	13	advmod	_	_
+8	eindeutig	eindeutig	ADV	ADV	_	13	advmod	_	_
+9	um	um	ADP	APPR	_	13	mark	_	_
+10	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	andauernden	andauernd	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	12	amod	_	_
+12	Kampf	Kampf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+13	gehandelt	handeln	VERB	VVPP	VerbForm=Part	2	ccomp	_	_
+14	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Auf der Straße, auf beiden Seiten des Gehwegs, befanden sich Hülsen.
+1	Auf	auf	ADP	APPR	_	3	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Straße	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	7	punct	_	_
+5	auf	auf	ADP	APPR	_	7	case	_	_
+6	beiden	beide	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	7	det	_	_
+7	Seiten	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	conj	_	_
+8	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Gehwegs	Gehweg	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	3	punct	_	_
+11	befanden	befinden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+13	Hülsen	Hülsen	NOUN	NE	Case=Acc|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = So scheint es hier mehrere bewaffnete Kämpfer gegeben zu haben, die sehr aktiv beteiligt waren," teilte Polizeihautpmann Anthony Ginaldi der Polizei in Philadelphia dem Sender mit.
+1	So	so	ADV	ADJA	Case=Nom|Gender=Neut|Number=Sing	2	advmod	_	_
+2	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	hier	hier	ADV	ADV	_	2	advmod	_	_
+5	mehrere	mehrere	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+6	bewaffnete	bewaffnet	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	7	amod	_	_
+7	Kämpfer	Kämpfer	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+8	gegeben	geben	VERB	VVPP	VerbForm=Part	2	xcomp	_	_
+9	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	mark	_	_
+10	haben	haben	AUX	VAINF	VerbForm=Inf	8	aux	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	15	punct	_	_
+12	die	der	PRON	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	nsubj	_	_
+13	sehr	sehr	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	14	advmod	_	_
+14	aktiv	aktiv	ADJ	ADJD	_	15	advmod	_	_
+15	beteiligt	beteiligen	ADJ	VVPP	VerbForm=Part	2	acl	_	_
+16	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	cop	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	19	punct	_	SpaceAfter=No
+18	"	"	PUNCT	$(	_	19	punct	_	_
+19	teilte	teilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl	_	_
+20	Polizeihautpmann	Polizeihautpmann	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+21	Anthony	Anthony	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	20	flat	_	_
+22	Ginaldi	Ginaldi	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	20	flat	_	_
+23	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Polizei	Polizei	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+25	in	in	ADP	APPR	_	26	case	_	_
+26	Philadelphia	Philadelphia	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	_
+27	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Sender	Sender	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	iobj	_	_
+29	mit	mit	ADP	$(	_	19	compound:prt	_	SpaceAfter=No
+30	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Es wurden auch mehrere Häuser und Fahrzeuge in dem Gebiet getroffen.
+1	Es	es	PRON	PPER	PronType=Prs	11	expl	_	_
+2	wurden	werden	AUX	FM	Foreign=Yes	11	aux:pass	_	_
+3	auch	auch	ADV	ADV	_	11	advmod	_	_
+4	mehrere	mehrere	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	5	det	_	_
+5	Häuser	Haus	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	nsubj:pass	_	_
+6	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	7	cc	_	_
+7	Fahrzeuge	Fahrzeug	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	5	conj	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Gebiet	Gebiet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
+11	getroffen	treffen|triefen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 21
+# text = Es kam zu keinen Festnahmen und die Polizei überprüft derzeit Berichten zufolge das Überwachungsvideo.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	kam	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	5	case	_	_
+4	keinen	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	5	nmod	_	_
+5	Festnahmen	Festnahmen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	2	obl	_	_
+6	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	9	cc	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Polizei	Polizei	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	nsubj	_	_
+9	überprüft	überprüfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	derzeit	derzeit	ADV	ADV	_	11	advmod	_	_
+11	Berichten	Bericht	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+12	zufolge	zufolge	ADP	NE	Foreign=Yes	14	case	_	_
+13	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Überwachungsvideo	Überwachungsvideo	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = Am Dienstag wurde ein weiteres 6-jähriges Mädchen durch einen Querschläger am Arm getroffen, als sie vor ihrem Haus in der Wohngegend der West Oak Lane spielte.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Dienstag	Dienstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	_
+4	wurde	werden	AUX	ADV	_	17	aux:pass	_	_
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+6	weiteres	weit	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	10	amod	_	_
+7	6	6	NUM	XY	NumType=Card	9	compound	_	SpaceAfter=No
+8	-	-	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+9	jähriges	jähriges	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	10	amod	_	_
+10	Mädchen	Mädchen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	17	nsubj:pass	_	_
+11	durch	durch	ADP	APPR	_	13	case	_	_
+12	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Querschläger	Querschläger	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_
+14-15	am	_	_	_	_	_	_	_	_
+14	an	an	ADP	APPR	_	16	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Arm	Arm	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	_
+17	getroffen	treffen|triefen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	31	punct	_	_
+19	als	als	SCONJ	KOUS	_	31	mark	_	_
+20	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	31	nsubj	_	_
+21	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	23	case	_	_
+22	ihrem	ihr	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes	23	det:poss	_	_
+23	Haus	Haus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	31	obl	_	_
+24	in	in	ADP	APPR	_	26	case	_	_
+25	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Wohngegend	Wohngegend	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	31	obl	_	_
+27	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	West	West	NOUN	NE	Foreign=Yes	26	nmod	_	_
+29	Oak	Oak	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	28	appos	_	_
+30	Lane	Lane	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	29	flat	_	_
+31	spielte	spielen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	advcl	_	SpaceAfter=No
+32	.	.	PUNCT	$.	_	17	punct	_	SpacesAfter=\n
+
+# sent_id = 23
+# text = Sie erholt sich und die Polizei sucht noch nach einem Verdächtigen.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	erholt	erholen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	7	cc	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Polizei	Polizei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	sucht	suchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	noch	noch	ADV	CARD	NumType=Card	7	advmod	_	_
+9	nach	nach	ADP	XY	NumType=Card	11	case	_	_
+10	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Verdächtigen	Verdächtige	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+

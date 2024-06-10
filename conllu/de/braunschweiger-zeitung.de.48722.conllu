@@ -1,0 +1,648 @@
+# newdoc id = txt/de/braunschweiger-zeitung.de.48722.txt
+# newpar
+# sent_id = 1
+# text = Wer baut Braunschweigs günstige Wohnungen?
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	2	nsubj	_	_
+2	baut	bauen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Braunschweigs	Braunschweig	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+4	günstige	günstig	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	5	amod	_	_
+5	Wohnungen	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Die SPD und Grüne meinen:
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	SPD	SPD	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	und	und	CCONJ	NE	Foreign=Yes	4	cc	_	_
+4	Grüne	Grüne	PROPN	NN	Case=Nom|Number=Plur	2	conj	_	_
+5	meinen	mein	PRON	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Investoren sollen künftig viel stärker in die Pflicht genommen werden.
+1	Investoren	Investor	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj:pass	_	_
+2	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+3	künftig	künftig	ADV	ADJD	_	9	advmod	_	_
+4	viel	viel	ADV	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	5	advmod	_	_
+5	stärker	stark	ADJ	ADJD	_	9	advmod	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Pflicht	Pflicht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+9	genommen	nehmen	VERB	VVPP	VerbForm=Part	0	root	_	_
+10	werden	werden	AUX	NE	Case=Acc|Number=Plur	9	aux:pass	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Wie reagiert man auf die schlechte Nachricht, dass Braunschweig in den nächsten Jahren fast 1300 günstige Wohnungen verlieren wird?
+1	Wie	wie	ADV	ADJA	_	2	advmod	_	_
+2	reagiert	reagieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	2	nsubj	_	_
+4	auf	auf	ADP	APPR	_	7	case	_	_
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	schlechte	schlecht	ADJ	NN	Case=Acc|Gender=Fem|Number=Sing	7	amod	_	_
+7	Nachricht	Nachricht	NOUN	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	19	punct	_	_
+9	dass	dass	SCONJ	KOUS	_	19	mark	_	_
+10	Braunschweig	Braunschweig	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	_
+11	in	in	ADP	APPR	_	14	case	_	_
+12	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	14	det	_	_
+13	nächsten	nah	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Plur	14	amod	_	_
+14	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	19	obl	_	_
+15	fast	fast	ADV	ADV	_	16	advmod	_	_
+16	1300	1300	NUM	CARD	NumType=Card	18	nummod	_	_
+17	günstige	günstig	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	18	amod	_	_
+18	Wohnungen	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
+19	verlieren	verlieren	VERB	VVINF	VerbForm=Inf	2	ccomp	_	_
+20	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	SpaceAfter=No
+21	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Die SPD schlägt zur nächsten Ratssitzung ein "Handlungskonzept Wohnen" vor.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	SPD	SPD	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	schlägt	schlagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	zur	_	_	_	_	_	_	_	_
+4	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	7	case	_	_
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	nächsten	nah	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	7	amod	_	_
+7	Ratssitzung	Ratssitzung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+8	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+9	"	"	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+10	Handlungskonzept	Handlungskonzept	NOUN	FM	Foreign=Yes	11	nmod	_	_
+11	Wohnen	wohn	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+12	"	"	PUNCT	$(	_	11	punct	_	_
+13	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	3	compound:prt	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Doch Streit ist programmiert.
+1	Doch	doch	CCONJ	KON	_	4	cc	_	_
+2	Streit	Streit	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	ist	sein	AUX	ADJD	_	4	cop	_	_
+4	programmiert	programmieren	ADJ	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = In erster Linie geht es um die Frage: Wer soll die günstigen Wohnungen eigentlich bauen?
+1	In	in	ADP	APPR	_	3	case	_	_
+2	erster	erst	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	3	amod	_	_
+3	Linie	Linie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+4	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+6	um	um	ADP	APPR	_	8	case	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Frage	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	:	:	PUNCT	$.	_	16	punct	_	_
+10	Wer	wer	PRON	PWS	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	16	nsubj	_	_
+11	soll	sollen	AUX	NN	Case=Acc|Gender=Masc|Number=Plur	16	aux	_	_
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	günstigen	günstig	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	14	amod	_	_
+14	Wohnungen	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
+15	eigentlich	eigentlich	ADJ	ADV	_	16	advmod	_	_
+16	bauen	bauen	VERB	VVINF	VerbForm=Inf	4	parataxis	_	SpaceAfter=No
+17	?	?	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Eine Regelung fehlt bislang.
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Regelung	Regelung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	fehlt	fehlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	bislang	bislang	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = SPD-Fraktionsvorsitzender Christoph Bratmann meint: "Wir sind uns mit den Grünen einig: Wer auf städtischen Flächen bauen will, muss künftig 20 Prozent aller Wohnungen als Sozialwohnungen ausweisen."
+1	SPD	SPD	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	SpaceAfter=No
+2	-	-	PUNCT	$(	_	1	punct	_	SpaceAfter=No
+3	Fraktionsvorsitzender	Fraktionsvorsitzende	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	Christoph	Christoph	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+5	Bratmann	Bratmann	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	_
+6	meint	meinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	SpaceAfter=No
+7	:	:	PUNCT	$.	_	9	punct	_	_
+8	"	"	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+9	Wir	wir	PRON	ADJD	_	15	nsubj	_	_
+10	sind	sein	AUX	ADJD	_	15	cop	_	_
+11	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	15	iobj	_	_
+12	mit	mit	ADP	$(	_	14	case	_	_
+13	den	der	DET	ART	Case=Dat|Number=Plur|PronType=Art	14	det	_	_
+14	Grünen	Grüne	PROPN	NN	Case=Dat|Number=Plur	15	compound	_	_
+15	einig	einig	PRON	ADJD	_	0	root	_	SpaceAfter=No
+16	:	:	PUNCT	$.	_	21	punct	_	_
+17	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	21	nsubj	_	_
+18	auf	auf	ADP	APPR	_	20	case	_	_
+19	städtischen	städtisch	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	20	amod	_	_
+20	Flächen	Fläche	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	21	obl	_	_
+21	bauen	bauen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	csubj	_	_
+22	will	wollen	AUX	NE	Case=Acc|Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	21	punct	_	_
+24	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+25	künftig	künftig	ADV	ADJD	_	32	advmod	_	_
+26	20	20	NUM	CARD	NumType=Card	27	nummod	_	_
+27	Prozent	Prozent	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	32	nsubj	_	_
+28	aller	alle	PRON	PIAT	Case=Gen|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	29	det	_	_
+29	Wohnungen	Wohnung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	27	nmod	_	_
+30	als	als	ADP	KOKOM	_	31	case	_	_
+31	Sozialwohnungen	Sozialwohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	32	obl	_	_
+32	ausweisen	ausweisen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis	_	SpaceAfter=No
+33	.	.	PUNCT	$.	_	32	punct	_	SpaceAfter=No
+34	"	"	PUNCT	$(	_	32	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Die günstigen Wohnungen können allerdings auch im Bestand entstehen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	günstigen	günstig	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	3	amod	_	_
+3	Wohnungen	Wohnung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	10	nsubj	_	_
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+5	allerdings	allerdings	ADV	ADV	_	10	advmod	_	_
+6	auch	auch	ADV	ADV	_	10	advmod	_	_
+7-8	im	_	_	_	_	_	_	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Bestand	Bestand	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
+10	entstehen	entstehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Der große Streitpunkt im Rathaus sei jedoch, so Bratmann: "Wie geht man mit Investoren um, die auf privaten Flächen bauen wollen?"
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	große	groß	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+3	Streitpunkt	Streitpunkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+4-5	im	_	_	_	_	_	_	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Rathaus	Rathaus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	_
+7	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	jedoch	jedoch	ADV	ADV	_	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	11	punct	_	_
+10	so	so	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	11	advmod	_	_
+11	Bratmann	Bratmann	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+12	:	:	PUNCT	$.	_	15	punct	_	_
+13	"	"	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+14	Wie	Wie	ADV	ADJA	_	15	advmod	_	_
+15	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
+16	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	15	nsubj	_	_
+17	mit	mit	ADP	CARD	NumType=Card	18	case	_	_
+18	Investoren	Investor	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	15	obl	_	_
+19	um	um	ADP	PTKVZ	_	15	compound:prt	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	25	punct	_	_
+21	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	25	nsubj	_	_
+22	auf	auf	ADP	APPR	_	24	case	_	_
+23	privaten	privat	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	24	amod	_	_
+24	Flächen	Fläche	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	25	obl	_	_
+25	bauen	bauen	VERB	VVINF	VerbForm=Inf	15	acl	_	_
+26	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	SpaceAfter=No
+27	?	?	PUNCT	$.	_	15	punct	_	SpaceAfter=No
+28	"	"	PUNCT	$(	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = "Wir wollen, dass Investoren auf solchen Flächen mindestens 10 Prozent, aber möglichst 20 Prozent der Wohnungen als Sozialwohnungen bauen."
+1	"	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+2	Wir	wir	PRON	VVINF	VerbForm=Inf	3	nsubj	_	_
+3	wollen	wollen	VERB	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	22	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	22	mark	_	_
+6	Investoren	Investor	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	_
+7	auf	auf	ADP	APPR	_	9	case	_	_
+8	solchen	solch	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	Flächen	Fläche	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	22	obl	_	_
+10	mindestens	mindestens	ADV	ADV	_	11	advmod	_	_
+11	10	10	NUM	CARD	NumType=Card	12	nummod	_	_
+12	Prozent	Prozent	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	16	punct	_	_
+14	aber	aber	CCONJ	KON	_	16	cc	_	_
+15	möglichst	möglichst	ADV	ADV	_	16	advmod	_	_
+16	20	20	NUM	CARD	NumType=Card	17	nummod	_	_
+17	Prozent	Prozent	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	22	nsubj	_	_
+18	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	Wohnungen	Wohnung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_
+20	als	als	ADP	KOKOM	_	21	case	_	_
+21	Sozialwohnungen	Sozialwohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	22	obl	_	_
+22	bauen	bauen	VERB	VVINF	VerbForm=Inf	3	ccomp	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	3	punct	_	SpaceAfter=No
+24	"	"	PUNCT	$(	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Ein neues städtisches Wohnungsbau-Förderprogramm, das Millionen kosten wird und noch finanziert werden muss, soll für Anreize sorgen.
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+2	neues	neu	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	6	amod	_	_
+3	städtisches	städtisch	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	6	amod	_	_
+4	Wohnungsbau	Wohnungsbau	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	compound	_	SpaceAfter=No
+5	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+6	Förderprogramm	Förderprogramm	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	10	punct	_	_
+8	das	der	DET	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	10	nsubj	_	_
+9	Millionen	Million	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	obj	_	_
+10	kosten	kosten	VERB	VVINF	VerbForm=Inf	6	acl	_	_
+11	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux:pass	_	_
+12	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	14	cc	_	_
+13	noch	noch	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	14	advmod	_	_
+14	finanziert	finanzieren	VERB	VVPP	VerbForm=Part	10	conj	_	_
+15	werden	werden	AUX	NE	Case=Acc|Number=Plur	10	aux:pass	_	_
+16	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	10	punct	_	_
+18	soll	sollen	AUX	NN	Case=Acc|Gender=Masc|Number=Plur	21	aux	_	_
+19	für	für	ADP	APPR	_	20	case	_	_
+20	Anreize	Anreize	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	21	obl	_	_
+21	sorgen	sorgen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	21	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Das Problem, so Bratmann: "Es gibt momentan noch keine Einigung zwischen den Fraktionen."
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	_
+4	so	so	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	5	advmod	_	_
+5	Bratmann	Bratmann	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+6	:	:	PUNCT	$.	_	9	punct	_	_
+7	"	"	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+8	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
+9	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+10	momentan	momentan	ADV	CARD	NumType=Card	9	advmod	_	_
+11	noch	noch	ADV	CARD	NumType=Card	9	advmod	_	_
+12	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	13	nmod	_	_
+13	Einigung	Einigung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+14	zwischen	zwischen	ADP	ADJA	Case=Gen|Gender=Fem|Number=Sing	16	case	_	_
+15	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	Fraktionen	Fraktion	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	9	punct	_	SpaceAfter=No
+18	"	"	PUNCT	$(	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Die CDU möchte Investoren möglichst wenige Vorschriften machen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	CDU	CDU	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+3	möchte	mögen	AUX	CARD	NumType=Card	8	aux	_	_
+4	Investoren	Investor	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+5	möglichst	möglichst	ADV	ADV	_	6	advmod	_	_
+6	wenige	wenig	DET	ADV	_	7	amod	_	_
+7	Vorschriften	Vorschrift	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
+8	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Die Linke will noch härte Auflagen für Investoren.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Linke	Linke	NOUN	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	will	wollen	AUX	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+4	noch	noch	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	6	advmod	_	_
+5	härte	härt	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	amod	_	_
+6	Auflagen	Auflage	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+7	für	für	ADP	APPR	_	8	case	_	_
+8	Investoren	Investor	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Ungeachtet dessen, so Bratmann, bahne sich eine Verschärfung der Situation auf dem Wohnungsmarkt an.
+1	Ungeachtet	ungeachtet	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	dessen	der	PRON	PDAT	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	_
+4	so	so	ADV	NE	Case=Nom|Gender=Fem|Number=Sing	5	advmod	_	_
+5	Bratmann	Bratmann	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	7	punct	_	_
+7	bahne	bahnen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+8	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
+9	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Verschärfung	Verschärfung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Situation	Situation	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	auf	auf	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Wohnungsmarkt	Wohnungsmarkt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	_
+16	an	an	ADP	PTKVZ	_	7	compound:prt	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Wird das Handlungskonzept umgesetzt, wird das für zusätzliche Aufgaben in der Bauverwaltung sorgen.
+1	Wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Handlungskonzept	Handlungskonzept	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	_
+4	umgesetzt	umsetzen	VERB	VVPP	VerbForm=Part	14	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	14	aux:pass	_	_
+7	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	nsubj:pass	_	_
+8	für	für	ADP	APPR	_	10	case	_	_
+9	zusätzliche	zusätzlich	ADJ	NN	Case=Acc|Gender=Masc|Number=Plur	10	amod	_	_
+10	Aufgaben	Aufgabe	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	obl	_	_
+11	in	in	ADP	APPR	_	13	case	_	_
+12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Bauverwaltung	Bauverwaltung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	_
+14	sorgen	sorgen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Mehr Personal wird benötigt.
+1	Mehr	mehr	PRON	PIS	Definite=Ind|PronType=Ind	2	det	_	_
+2	Personal	Personal	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	_
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	aux:pass	_	_
+4	benötigt	benötigen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Es ist unklar, ob wir die Fachkräfte bekommen werden.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	unklar	unklar	ADJ	NE	Case=Dat|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	9	punct	_	_
+5	ob	ob	SCONJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	mark	_	_
+6	wir	wir	PRON	ADJD	_	9	nsubj	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	Fachkräfte	Fachkraft	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+9	bekommen	bekommen	VERB	VVPP	VerbForm=Part	3	ccomp	_	_
+10	werden	werden	AUX	NE	Case=Acc|Number=Plur	9	aux:pass	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 21
+# text = Doch noch steht das Programm nicht gänzlich: Denn die rund 1260 neuen Wohnungen, die sollten ohnehin gebaut werden.
+1	Doch	doch	ADV	KON	_	3	advmod	_	_
+2	noch	noch	ADV	CARD	NumType=Card	3	advmod	_	_
+3	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Programm	Programm	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+6	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advmod	_	_
+7	gänzlich	gänzlich	ADJ	ADJD	_	3	advmod	_	SpaceAfter=No
+8	:	:	PUNCT	$.	_	14	punct	_	_
+9	Denn	Denn	SCONJ	KON	_	14	mark	_	_
+10	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	14	det	_	_
+11	rund	rund	ADV	ADV	_	12	advmod	_	_
+12	1260	1260	NUM	CARD	NumType=Card	13	nmod	_	_
+13	neuen	neu	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	14	amod	_	_
+14	Wohnungen	Wohnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	19	punct	_	_
+16	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	19	nsubj:pass	_	_
+17	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
+18	ohnehin	ohnehin	ADV	ADV	_	19	advmod	_	_
+19	gebaut	bauen	VERB	VVPP	VerbForm=Part	14	acl	_	_
+20	werden	werden	AUX	NE	Case=Acc|Number=Plur	19	aux:pass	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = Wie aber gleicht man den Verlust von weiteren rund 1300 günstigen Wohnungen aus, deren Förderung in den nächsten Jahren auslaufen wird?
+1	Wie	wie	ADV	ADJA	_	2	advmod	_	_
+2	aber	aber	ADV	ADV	_	3	advmod	_	_
+3	gleicht	gleichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	3	nsubj	_	_
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Verlust	Verlust	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+7	von	von	ADP	NE	Case=Acc|Gender=Masc|Number=Sing	12	case	_	_
+8	weiteren	weit	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	amod	_	_
+9	rund	rund	ADV	ADV	_	10	advmod	_	_
+10	1300	1300	NUM	CARD	NumType=Card	11	nummod	_	_
+11	günstigen	günstig	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	12	amod	_	_
+12	Wohnungen	Wohnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	nmod	_	_
+13	aus	aus	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	21	punct	_	_
+15	deren	der	DET	PRELAT	Case=Gen|Number=Plur|PronType=Rel	16	nmod:poss	_	_
+16	Förderung	Förderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	nsubj:pass	_	_
+17	in	in	ADP	APPR	_	20	case	_	_
+18	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	20	det	_	_
+19	nächsten	nah	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Plur	20	amod	_	_
+20	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	21	obl	_	_
+21	auslaufen	auslaufen	VERB	VVPP	VerbForm=Part	3	acl	_	_
+22	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	21	aux:pass	_	SpaceAfter=No
+23	?	?	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 23
+# text = Allein bis zum Jahr 2020 werden es 500 Wohnungen sein.
+1	Allein	allein	ADV	ADV	_	5	advmod	_	_
+2	bis	bis	ADP	APPR	_	5	case	_	_
+3-4	zum	_	_	_	_	_	_	_	_
+3	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	_
+6	2020	2020	NUM	CARD	NumType=Card	5	nmod	_	_
+7	werden	werden	AUX	NN	Case=Dat|Gender=Neut|Number=Sing	0	root	_	_
+8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	500	500	NUM	CARD	NumType=Card	10	nummod	_	_
+10	Wohnungen	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	xcomp	_	_
+11	sein	sein	AUX	VAINF	VerbForm=Inf	10	cop	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 24
+# text = Um das zu verhindern, so die planungspolitische Sprecherin Nicole Palm, sollten jetzt auslaufende Bindungen von der Stadt angekauft werden.
+1	Um	um	ADP	KOUI	_	4	mark	_	_
+2	das	der	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	_
+3	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	4	mark	_	_
+4	verhindern	verhindern	VERB	VVINF	VerbForm=Inf	20	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	so	so	ADV	NE	Case=Nom|Gender=Neut|Number=Plur	9	advmod	_	_
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	planungspolitische	planungspolitisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	9	amod	_	_
+9	Sprecherin	Sprecherin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+10	Nicole	Nicole	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	9	appos	_	_
+11	Palm	Palm	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	9	punct	_	_
+13	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	_
+14	jetzt	jetzt	ADV	ADV	_	20	advmod	_	_
+15	auslaufende	auslaufend	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	16	amod	_	_
+16	Bindungen	Bindung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	nsubj:pass	_	_
+17	von	von	ADP	FM	Foreign=Yes	19	case	_	_
+18	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Stadt	Stadt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+20	angekauft	angekaufen	VERB	VVPP	VerbForm=Part	0	root	_	_
+21	werden	werden	AUX	NE	Case=Gen|Gender=Masc|Number=Plur	20	aux:pass	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	20	punct	_	SpacesAfter=\n
+
+# sent_id = 25
+# text = Außerdem müsste darüber nachgedacht werden, Wohnungen wieder zurück in die Preisbindung zu holen.
+1	Außerdem	außerdem	ADV	PAV	_	4	advmod	_	_
+2	müsste	müssen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	darüber	darüber	ADV	PAV	_	4	advmod	_	_
+4	nachgedacht	nachdenken	VERB	VVPP	VerbForm=Part	0	root	_	_
+5	werden	werden	AUX	NN	Case=Nom|Gender=Fem|Number=Sing	4	aux:pass	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	14	punct	_	_
+7	Wohnungen	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	obj	_	_
+8	wieder	wieder	ADV	NN	Case=Gen|Gender=Neut|Number=Sing	14	advmod	_	_
+9	zurück	zurück	ADV	NN	Case=Gen|Gender=Neut|Number=Sing	14	advmod	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Preisbindung	Preisbindung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
+13	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	14	mark	_	_
+14	holen	holen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 26
+# text = Das ist in der Weststadt möglich.
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Weststadt	Weststadt	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
+6	möglich	möglich	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 27
+# text = Auf einen Schlag ließe sich das Problem lösen.
+1	Auf	auf	ADP	APPR	_	3	case	_	_
+2	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Schlag	Schlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+4	ließe	lassen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	_
+6	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	obj	_	_
+8	lösen	lösen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 28
+# text = Denn in der Weststadt laufen zum Jahresende Fristen aus.
+1	Denn	denn	ADV	KON	_	5	advmod	_	_
+2	in	in	ADP	APPR	_	4	case	_	_
+3	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Weststadt	Weststadt	NOUN	NE	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+5	laufen	laufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6-7	zum	_	_	_	_	_	_	_	_
+6	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Jahresende	Jahresende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
+9	Fristen	Fristen	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	8	appos	_	_
+10	aus	aus	ADP	PTKVZ	_	5	compound:prt	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 29
+# text = Rund 1800 Wohnungen könnte man dort zurück in die Preisbindung für günstige Wohnungen holen.
+1	Rund	rund	ADJ	ADJD	_	2	dep	_	_
+2	1800	1800	NUM	CARD	NumType=Card	3	nummod	_	_
+3	Wohnungen	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	_
+4	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	_
+5	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	14	nsubj	_	_
+6	dort	dort	ADV	ADV	_	14	advmod	_	_
+7	zurück	zurück	ADV	NE	Case=Nom|Number=Sing	14	advmod	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Preisbindung	Preisbindung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
+11	für	für	ADP	APPR	_	13	case	_	_
+12	günstige	günstig	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	13	amod	_	_
+13	Wohnungen	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	obl	_	_
+14	holen	holen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 30
+# text = Nur: Das wollen die Eigentümer, die Wohnungsbaugesellschaften nicht.
+1	Nur	nur	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+2	:	:	PUNCT	$.	_	4	punct	_	_
+3	Das	der	PRON	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	nmod	_	_
+4	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	Eigentümer	Eigentümer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	9	punct	_	_
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	Wohnungsbaugesellschaften	Wohnungsbaugesellschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	conj	_	_
+10	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 31
+# text = Denn wird die Zahl der Sozialwohnungen in der Weststadt wieder drastisch erhöht, entfernt man sich vom Ziel der sogenannten Durchmischung.
+1	Denn	denn	ADV	KON	_	12	advmod	_	_
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	aux:pass	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Zahl	Zahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj:pass	_	_
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	Sozialwohnungen	Sozialwohnung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Weststadt	Weststadt	NOUN	NE	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
+10	wieder	wieder	ADV	NN	Case=Gen|Gender=Neut|Number=Sing	12	advmod	_	_
+11	drastisch	drastisch	ADJ	ADJD	_	12	advmod	_	_
+12	erhöht	erhöhen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	14	punct	_	_
+14	entfernt	entfernt	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	_
+15	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	14	nsubj	_	_
+16	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	_
+17-18	vom	_	_	_	_	_	_	_	_
+17	von	von	ADP	FM	Foreign=Yes	19	case	_	_
+18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+19	Ziel	Ziel	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	_
+20	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	sogenannten	sogenannt	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	22	amod	_	_
+22	Durchmischung	Durchmischung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 32
+# text = Eine Konzentration von Sozialschwachen in nur wenigen Stadtteilen soll es nicht mehr geben.
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Konzentration	Konzentration	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+3	von	von	ADP	FM	Foreign=Yes	4	case	_	_
+4	Sozialschwachen	Sozialschwachen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	_
+5	in	in	ADP	APPR	_	8	case	_	_
+6	nur	nur	ADV	CARD	_	8	advmod	_	_
+7	wenigen	wenig	DET	PIAT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+8	Stadtteilen	Stadtteil	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	nmod	_	_
+9	soll	sollen	AUX	NN	Case=Nom|Gender=Masc|Number=Plur	13	aux	_	_
+10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+11	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advmod	_	_
+12	mehr	mehr	ADV	ADV	_	11	advmod	_	_
+13	geben	geben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 33
+# text = Die Grünen rechnen damit, dass es noch Bewegung in der Diskussion geben wird.
+1	Die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	2	det	_	_
+2	Grünen	grüne	PROPN	NN	Case=Nom|Number=Plur	3	nsubj	_	_
+3	rechnen	rechnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	damit	damit	ADV	PAV	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	13	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	13	mark	_	_
+7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+8	noch	noch	ADV	CARD	NumType=Card	13	advmod	_	_
+9	Bewegung	Bewegung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nsubj:pass	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Diskussion	Diskussion	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
+13	geben	geben	VERB	VVPP	VerbForm=Part	3	ccomp	_	_
+14	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	aux:pass	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 34
+# text = Fraktionsvorsitzender Holger Herlitschke meint: "Für eine breite Mehrheit muss die CDU mit ins Boot."
+1	Fraktionsvorsitzender	Fraktionsvorsitzende	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	Holger	Holger	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	Herlitschke	Herlitschke	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
+4	meint	meinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	$.	_	13	punct	_	_
+6	"	"	PUNCT	$(	_	13	punct	_	SpaceAfter=No
+7	Für	für	ADP	APPR	_	10	case	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	breite	breit	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	10	amod	_	_
+10	Mehrheit	Mehrheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	_
+11	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	CDU	CDU	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	4	parataxis	_	_
+14	mit	mit	ADP	$(	_	17	case	_	_
+15-16	ins	_	_	_	_	_	_	_	_
+15	in	in	ADP	APPR	_	17	case	_	_
+16	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Boot	Boot	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	17	punct	_	SpaceAfter=No
+19	"	"	PUNCT	$(	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 35
+# text = Die habe sich zwar auf mehr Bauplätze für Einfamilienhäuser konzentriert.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
+4	zwar	zwar	ADV	ADV	_	10	advmod	_	_
+5	auf	auf	ADP	APPR	_	7	case	_	_
+6	mehr	mehr	PRON	PIAT	Definite=Ind|PronType=Ind	7	det	_	_
+7	Bauplätze	Bauplatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	obl	_	_
+8	für	für	ADP	APPR	_	9	case	_	_
+9	Einfamilienhäuser	Einfamilienhaus	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	obl	_	_
+10	konzentriert	konzentrieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 36
+# text = Was aber nicht heißt, dass nicht doch noch ein Kompromiss gefunden werden kann.
+1	Was	was	PRON	FM	Foreign=Yes	4	nsubj	_	_
+2	aber	aber	ADV	ADV	_	4	advmod	_	_
+3	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advmod	_	_
+4	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	12	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	12	mark	_	_
+7	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advmod	_	_
+8	doch	doch	ADV	ADV	_	12	advmod	_	_
+9	noch	noch	ADV	CARD	NumType=Card	12	advmod	_	_
+10	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Kompromiss	Kompromiß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+12	gefunden	finden	VERB	VVPP	VerbForm=Part	4	ccomp	_	_
+13	werden	werden	AUX	NE	Case=Acc|Number=Plur	12	aux:pass	_	_
+14	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,888 @@
+# newdoc id = txt/en/cbsnews.146291.txt
+# newpar
+# sent_id = 1
+# text = Heavy rain, flooding prompts rescues in Louisiana, Mississippi Heavy rain and widespread flooding in Louisiana lead the governor to declare a state of emergency on Friday, with more rain expected over the state through Saturday.
+1	Heavy	heavy	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	rain	rain	NOUN	NN	Number=Sing	18	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	2	punct	_	_
+4	flooding	flood	VERB	VBG	VerbForm=Ger	6	amod	_	_
+5	prompts	prompt	NOUN	NNS	Number=Plur	6	compound	_	_
+6	rescues	rescue	NOUN	NNS	Number=Plur	2	conj	_	_
+7	in	in	ADP	IN	_	8	case	_	_
+8	Louisiana	Louisiana	PROPN	NNP	Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	2	punct	_	_
+10	Mississippi	Mississippi	PROPN	NNP	Number=Sing	11	compound	_	SpacesAfter=\n
+11	Heavy	heavy	PROPN	NNP	Number=Sing	12	compound	_	_
+12	rain	rain	NOUN	NN	Number=Sing	2	appos	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	widespread	widespread	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	flooding	flooding	NOUN	NN	Number=Sing	12	conj	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	Louisiana	Louisiana	PROPN	NNP	Number=Sing	2	nmod	_	_
+18	lead	lead	VERB	VB	VerbForm=Inf	0	root	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	governor	governor	NOUN	NN	Number=Sing	18	obj	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	declare	declare	VERB	VB	VerbForm=Inf	18	xcomp	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+24	state	state	NOUN	NN	Number=Sing	22	obj	_	_
+25	of	of	ADP	IN	_	26	case	_	_
+26	emergency	emergency	NOUN	NN	Number=Sing	24	nmod	_	_
+27	on	on	ADP	IN	_	28	case	_	_
+28	Friday	Friday	PROPN	NNP	Number=Sing	26	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	,	_	18	punct	_	_
+30	with	with	ADP	IN	_	32	case	_	_
+31	more	more	ADJ	JJR	Degree=Cmp	32	amod	_	_
+32	rain	rain	NOUN	NN	Number=Sing	18	obl	_	_
+33	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part	32	acl	_	_
+34	over	over	ADP	IN	_	36	case	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+36	state	state	NOUN	NN	Number=Sing	33	obl	_	_
+37	through	through	ADP	IN	_	38	case	_	_
+38	Saturday	Saturday	PROPN	NNP	Number=Sing	33	obl	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	18	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Numerous rivers in southeast Louisiana and southern Mississippi were overflowing their banks and threatening widespread flooding after extreme rainfall, the National Weather Service reported.
+1	Numerous	numerous	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	rivers	rivers	NOUN	NNS	Number=Plur	10	nsubj	_	_
+3	in	in	ADP	IN	_	5	case	_	_
+4	southeast	southeast	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Louisiana	Louisiana	PROPN	NNP	Number=Sing	2	nmod	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	southern	southern	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	Mississippi	Mississippi	PROPN	NNP	Number=Sing	5	conj	_	_
+9	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	overflowing	overflow	VERB	VBG	Tense=Pres|VerbForm=Part	25	ccomp	_	_
+11	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+12	banks	bank	NOUN	NNS	Number=Plur	10	obj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	threatening	threaten	VERB	VBG	VerbForm=Ger	10	conj	_	_
+15	widespread	widespread	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	flooding	flooding	NOUN	NN	Number=Sing	14	obj	_	_
+17	after	after	ADP	IN	_	19	case	_	_
+18	extreme	extreme	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	rainfall	rainfall	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	10	punct	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+22	National	National	PROPN	NNP	Number=Sing	24	compound	_	_
+23	Weather	weather	PROPN	NNP	Number=Sing	24	compound	_	_
+24	Service	Service	PROPN	NNP	Number=Sing	25	nsubj	_	_
+25	reported	report	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	25	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Louisiana Gov. John Bel
+1	Louisiana	Louisiana	PROPN	NNP	Number=Sing	3	compound	_	_
+2	Gov.	Gov.	PROPN	NNP	Number=Sing	1	flat	_	_
+3	John	John	PROPN	NNP	Number=Sing	0	root	_	_
+4	Bel	Bel	PROPN	NNP	Number=Sing	3	flat	_	_
+
+# sent_id = 4
+# text = Edwards said state officials are in constant contact with local officials, and assistance is already on the move to affected parishes.
+1	Edwards	Edwards	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	state	state	NOUN	NN	Number=Sing	4	compound	_	_
+4	officials	official	NOUN	NNS	Number=Plur	8	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	constant	constant	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	contact	contact	NOUN	NN	Number=Sing	2	ccomp	_	_
+9	with	with	ADP	IN	_	11	case	_	_
+10	local	local	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	officials	official	NOUN	NNS	Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	19	punct	_	_
+13	and	and	CCONJ	CC	_	19	cc	_	_
+14	assistance	assistance	NOUN	NN	Number=Sing	19	nsubj	_	_
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+16	already	already	ADV	RB	_	19	advmod	_	_
+17	on	on	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	move	move	NOUN	NN	Number=Sing	2	conj	_	_
+20	to	to	ADP	IN	_	22	case	_	_
+21	affected	affect	VERB	VBN	Tense=Past|VerbForm=Part	22	amod	_	_
+22	parishes	parish	NOUN	NNS	Number=Plur	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Mike
+1	Mike	Mike	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 6
+# text = Steele, a spokesman for the Governor's Office of Homeland Security and Emergency Preparedness, said requests were coming in for high-water vehicles, boats and sandbags.
+1	Steele	Steele	PROPN	NNP	Number=Sing	17	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	spokesman	spokesman	NOUN	NN	Number=Sing	1	appos	_	_
+5	for	for	ADP	IN	_	9	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	Governor	Governor	PROPN	NNP	Number=Sing	9	nmod:poss	_	SpaceAfter=No
+8	's	's	PART	POS	_	7	case	_	_
+9	Office	Office	PROPN	NNP	Number=Sing	4	nmod	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	Homeland	Homeland	PROPN	NNP	Number=Sing	12	compound	_	_
+12	Security	Security	PROPN	NNP	Number=Sing	9	nmod	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	Emergency	emergency	PROPN	NNP	Number=Sing	15	compound	_	_
+15	Preparedness	preparedness	PROPN	NNP	Number=Sing	9	conj	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	17	punct	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	requests	request	NOUN	NNS	Number=Plur	20	nsubj	_	_
+19	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux	_	_
+20	coming	come	VERB	VBG	Tense=Pres|VerbForm=Part	17	ccomp	_	_
+21	in	in	ADV	RB	_	20	advmod	_	_
+22	for	for	ADP	IN	_	26	case	_	_
+23	high	high	ADJ	JJ	Degree=Pos	25	amod	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	_	25	punct	_	SpaceAfter=No
+25	water	water	NOUN	NN	Number=Sing	26	compound	_	_
+26	vehicles	vehicle	NOUN	NNS	Number=Plur	20	obl	_	SpaceAfter=No
+27	,	,	PUNCT	,	_	28	punct	_	_
+28	boats	boat	NOUN	NNS	Number=Plur	26	conj	_	_
+29	and	and	CCONJ	CC	_	30	cc	_	_
+30	sandbags	sandbag	NOUN	NNS	Number=Plur	26	conj	_	SpaceAfter=No
+31	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Steele said Tangipahoa Parish alone requested tens of thousands of sandbags.
+1	Steele	Steele	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Tangipahoa	Tangipahoa	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Parish	Parish	PROPN	NNP	Number=Sing	6	nsubj	_	_
+5	alone	alone	ADV	RB	_	4	advmod	_	_
+6	requested	request	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+7	tens	ten	NOUN	NNS	Number=Plur	6	obj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	thousands	thousand	NOUN	NNS	Number=Plur	7	nmod	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	sandbags	sandbag	NOUN	NNS	Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = A flood watch remains in effect until Saturday across most of south Louisiana.
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	flood	flood	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	watch	watch	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	remains	remains	NOUN	NNS	Number=Plur	3	obj	_	_
+5	in	in	ADP	IN	_	6	case	_	_
+6	effect	effect	NOUN	NN	Number=Sing	4	nmod	_	_
+7	until	until	ADP	IN	_	8	case	_	_
+8	Saturday	Saturday	PROPN	NNP	Number=Sing	3	obl	_	_
+9	across	across	ADP	IN	_	10	case	_	_
+10	most	most	ADJ	JJS	Degree=Sup	3	obl	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	south	south	ADV	RB	_	13	advmod	_	_
+13	Louisiana	Louisiana	PROPN	NNP	Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = The weather service said in a statement that an additional 3 to 5 inches could fall over the area.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	weather	weather	NOUN	NN	Number=Sing	3	compound	_	_
+3	service	service	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	statement	statement	NOUN	NN	Number=Sing	4	obl	_	_
+8	that	that	SCONJ	IN	_	16	mark	_	_
+9	an	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+10	additional	additional	ADJ	JJ	Degree=Pos	14	amod	_	_
+11	3	3	NUM	CD	NumType=Card	14	nummod	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	5	5	NUM	CD	NumType=Card	11	nmod	_	_
+14	inches	inch	NOUN	NNS	Number=Plur	16	nsubj	_	_
+15	could	could	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	fall	fall	VERB	VB	VerbForm=Inf	4	ccomp	_	_
+17	over	over	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	area	area	NOUN	NN	Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = In south Alabama, a flood watch was in effect Friday as rain continued in the Mobile area.
+1	In	in	ADP	IN	_	3	case	_	_
+2	south	south	ADV	RB	_	3	advmod	_	_
+3	Alabama	Alabama	PROPN	NNP	Number=Sing	11	obl	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	11	punct	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	flood	flood	NOUN	NN	Number=Sing	7	compound	_	_
+7	watch	watch	NOUN	NN	Number=Sing	11	nsubj	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	effect	effect	NOUN	NN	Number=Sing	11	compound	_	_
+11	Friday	Friday	PROPN	NNP	Number=Sing	14	obl	_	_
+12	as	as	ADP	IN	_	14	mark	_	_
+13	rain	rain	NOUN	NN	Number=Sing	14	nsubj	_	_
+14	continued	continue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	in	in	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	Mobile	mobile	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	area	area	NOUN	NN	Number=Sing	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = The Comite River near Baton Rouge and Amite River near Denham Springs, both in Louisiana, were predicted to set record crests over the weekend.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	Comite	Comite	PROPN	NNP	Number=Sing	3	compound	_	_
+3	River	River	PROPN	NNP	Number=Sing	19	nsubj:pass	_	_
+4	near	near	ADP	IN	_	9	case	_	_
+5	Baton	Baton	PROPN	NNP	Number=Sing	9	compound	_	_
+6	Rouge	Rouge	PROPN	NNP	Number=Sing	5	flat	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	Amite	Amite	PROPN	NNP	Number=Sing	9	compound	_	_
+9	River	River	PROPN	NNP	Number=Sing	3	nmod	_	_
+10	near	near	ADP	IN	_	12	case	_	_
+11	Denham	Denham	PROPN	NNP	Number=Sing	12	compound	_	_
+12	Springs	Springs	PROPN	NNPS	Number=Plur	3	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	19	punct	_	_
+14	both	both	CCONJ	CC	_	16	cc:preconj	_	_
+15	in	in	ADP	IN	_	16	case	_	_
+16	Louisiana	Louisiana	PROPN	NNP	Number=Sing	19	obl	_	SpaceAfter=No
+17	,	,	PUNCT	,	_	19	punct	_	_
+18	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	aux:pass	_	_
+19	predicted	predict	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	set	set	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	record	record	NOUN	NN	Number=Sing	23	compound	_	_
+23	crests	crest	NOUN	NNS	Number=Plur	21	obj	_	_
+24	over	over	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	weekend	weekend	NOUN	NN	Number=Sing	21	obl	_	SpaceAfter=No
+27	.	.	PUNCT	.	_	19	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Forecaster Alek Krautmann said both rivers could flood many houses in suburban areas near Baton Rouge.
+1	Forecaster	Forecaster	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2	Alek	Alek	PROPN	NNP	Number=Sing	1	flat	_	_
+3	Krautmann	Krautmann	PROPN	NNP	Number=Sing	1	flat	_	_
+4	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	both	both	DET	DT	_	6	det	_	_
+6	rivers	rivers	NOUN	NNS	Number=Plur	7	nsubj	_	_
+7	could	could	AUX	MD	VerbForm=Fin	4	ccomp	_	_
+8	flood	flood	NOUN	NN	Number=Sing	10	compound	_	_
+9	many	many	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	houses	house	NOUN	NNS	Number=Plur	7	obj	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	suburban	suburban	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	areas	area	NOUN	NNS	Number=Plur	10	nmod	_	_
+14	near	near	ADP	IN	_	16	case	_	_
+15	Baton	Baton	PROPN	NNP	Number=Sing	16	compound	_	_
+16	Rouge	Rouge	PROPN	NNP	Number=Sing	10	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = He also said that flooding downstream in Ascension Parish is a threat, as those swollen rivers will be slow to drain into Lake Maurepas.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	also	also	ADV	RB	_	3	advmod	_	_
+3	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	12	mark	_	_
+5	flooding	flood	VERB	VBG	VerbForm=Ger	6	amod	_	_
+6	downstream	downstream	NOUN	NN	Number=Sing	12	nsubj	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	Ascension	Ascension	PROPN	NNP	Number=Sing	9	compound	_	_
+9	Parish	Parish	PROPN	NNP	Number=Sing	6	nmod	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	threat	threat	NOUN	NN	Number=Sing	3	ccomp	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	12	punct	_	_
+14	as	as	SCONJ	IN	_	20	mark	_	_
+15	those	those	DET	DT	Number=Plur|PronType=Dem	17	det	_	_
+16	swollen	swollen	VERB	VBN	Tense=Past|VerbForm=Part	17	amod	_	_
+17	rivers	rivers	NOUN	NNS	Number=Plur	20	nsubj	_	_
+18	will	will	AUX	MD	VerbForm=Fin	20	aux	_	_
+19	be	be	AUX	VB	VerbForm=Inf	20	cop	_	_
+20	slow	slow	ADJ	JJ	Degree=Pos	12	advcl	_	_
+21	to	to	PART	TO	_	22	mark	_	_
+22	drain	drain	VERB	VB	VerbForm=Inf	20	advcl	_	_
+23	into	into	ADP	IN	_	25	case	_	_
+24	Lake	Lake	PROPN	NNP	Number=Sing	25	compound	_	_
+25	Maurepas	Maurepas	PROPN	NNP	Number=Sing	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = The Tickfaw River, just south of the Mississippi state line in Liverpool, Louisiana, was already at the highest level ever recorded at 9 a.m. Friday.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	Tickfaw	Tickfaw	PROPN	NNP	Number=Sing	3	compound	_	_
+3	River	River	PROPN	NNP	Number=Sing	22	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	6	punct	_	_
+5	just	just	ADV	RB	_	6	advmod	_	_
+6	south	south	ADV	RB	_	3	advmod	_	_
+7	of	of	ADP	IN	_	11	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+9	Mississippi	Mississippi	PROPN	NNP	Number=Sing	11	compound	_	_
+10	state	state	NOUN	NN	Number=Sing	11	compound	_	_
+11	line	line	NOUN	NN	Number=Sing	3	nmod	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	Liverpool	Liverpool	PROPN	NNP	Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	13	punct	_	_
+15	Louisiana	Louisiana	PROPN	NNP	Number=Sing	13	appos	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	22	punct	_	_
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+18	already	already	ADV	RB	_	22	advmod	_	_
+19	at	at	ADP	IN	_	22	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+21	highest	highest	ADJ	JJS	Degree=Sup	22	amod	_	_
+22	level	level	NOUN	NN	Number=Sing	0	root	_	_
+23	ever	ever	ADV	RB	_	24	advmod	_	_
+24	recorded	record	VERB	VBN	Tense=Past|VerbForm=Part	22	acl	_	_
+25	at	at	ADP	IN	_	27	case	_	_
+26	9	9	NUM	CD	NumType=Card	27	nummod	_	_
+27	a.m.	a.m.	NOUN	NN	Number=Sing	24	obl	_	_
+28	Friday	Friday	PROPN	NNP	Number=Sing	24	obl:tmod	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	22	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Rescuers were still plucking people from floodwaters in Amite and Wilkinson counties in southwest Mississippi.
+1	Rescuers	rescuer	NOUN	NNS	Number=Plur	4	nsubj	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	still	still	ADV	RB	_	4	advmod	_	_
+4	plucking	pluck	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	people	people	NOUN	NNS	Number=Plur	4	obj	_	_
+6	from	from	ADP	IN	_	7	case	_	_
+7	floodwaters	floodwater	NOUN	NNS	Number=Plur	5	nmod	_	_
+8	in	in	ADP	IN	_	12	case	_	_
+9	Amite	Amite	PROPN	NNP	Number=Sing	12	compound	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	Wilkinson	Wilkinson	PROPN	NNP	Number=Sing	9	conj	_	_
+12	counties	county	NOUN	NNS	Number=Plur	7	nmod	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	southwest	southwest	PROPN	NNP	Number=Sing	15	compound	_	_
+15	Mississippi	Mississippi	PROPN	NNP	Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Leroy Hansford, his wife and stepson were among those rescued earlier Friday near Gloster.
+1	Leroy	Leroy	PROPN	NNP	Number=Sing	10	nsubj	_	_
+2	Hansford	Hansford	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	wife	wife	NOUN	NN	Number=Sing	1	appos	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	stepson	stepson	NOUN	NN	Number=Sing	5	conj	_	_
+8	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	cop	_	_
+9	among	among	ADP	IN	_	10	case	_	_
+10	those	those	PRON	DT	Number=Plur|PronType=Dem	0	root	_	_
+11	rescued	rescue	VERB	VBN	Tense=Past|VerbForm=Part	10	acl	_	_
+12	earlier	earlier	ADJ	JJR	Degree=Cmp	13	amod	_	_
+13	Friday	Friday	PROPN	NNP	Number=Sing	11	obl:tmod	_	_
+14	near	near	ADP	IN	_	15	case	_	_
+15	Gloster	Gloster	PROPN	NNP	Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Hansford, 62, says waters from Beaver Creek, which is normally more than 400 feet away from his house, rose quickly overnight.
+1	Hansford	Hansford	PROPN	NNP	Number=Sing	5	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	,	_	1	punct	_	_
+3	62	62	NUM	CD	NumType=Card	1	list	_	SpaceAfter=No
+4	,	,	PUNCT	,	_	5	punct	_	_
+5	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	waters	water	NOUN	NNS	Number=Plur	23	nsubj	_	_
+7	from	from	ADP	IN	_	8	case	_	_
+8	Beaver	beaver	PROPN	NNP	Number=Sing	6	nmod	_	_
+9	Creek	Creek	PROPN	NNP	Number=Sing	8	appos	_	SpaceAfter=No
+10	,	,	PUNCT	,	_	9	punct	_	_
+11	which	which	PRON	WDT	PronType=Rel	14	nsubj	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	normally	normally	ADV	RB	_	14	advmod	_	_
+14	more	more	ADJ	JJR	Degree=Cmp	9	acl:relcl	_	_
+15	than	than	ADP	IN	_	17	case	_	_
+16	400	400	NUM	CD	NumType=Card	17	nummod	_	_
+17	feet	foot	NOUN	NNS	Number=Plur	14	obl	_	_
+18	away	away	ADV	RB	_	17	advmod	_	_
+19	from	from	ADP	IN	_	21	case	_	_
+20	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	house	house	NOUN	NN	Number=Sing	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	,	_	23	punct	_	_
+23	rose	rise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+24	quickly	quickly	ADV	RB	_	25	advmod	_	_
+25	overnight	overnight	ADV	RB	_	23	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = He said another stepson who lives nearby alerted him.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	another	another	DET	DT	_	4	det	_	_
+4	stepson	stepson	NOUN	NN	Number=Sing	2	obj	_	_
+5	who	who	PRON	WP	PronType=Rel	8	nsubj	_	_
+6	lives	live	NOUN	NNS	Number=Plur	8	nsubj	_	_
+7	nearby	nearby	ADV	RB	_	6	advmod	_	_
+8	alerted	alert	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = "We woke up and the water kept on coming," Hansford said.
+1	"	"	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	woke	wake	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	ccomp	_	_
+4	up	up	ADP	RP	_	3	compound:prt	_	_
+5	and	and	CCONJ	CC	_	8	cc	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	water	water	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	kept	keep	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+9	on	on	ADP	IN	_	10	mark	_	_
+10	coming	come	VERB	VBG	VerbForm=Ger	8	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	14	punct	_	SpaceAfter=No
+12	"	"	PUNCT	''	_	14	punct	_	_
+13	Hansford	Hansford	PROPN	NNP	Number=Sing	14	nsubj	_	_
+14	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = It came up to my waist.
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	up	up	ADV	RB	_	2	advmod	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	waist	waist	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 21
+# text = His wife told Hansford that it's the highest she's seen the creek in the 48 years she's lived there.
+1	His	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	wife	wife	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	told	tell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	Hansford	Hansford	PROPN	NNP	Number=Sing	3	obj	_	_
+5	that	that	SCONJ	IN	_	9	mark	_	_
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	SpaceAfter=No
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	highest	highest	NOUN	NN	Number=Sing	3	ccomp	_	_
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj:pass	_	SpaceAfter=No
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+12	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	acl:relcl	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	creek	creek	NOUN	NN	Number=Sing	12	obj	_	_
+15	in	in	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	48	48	NUM	CD	NumType=Card	18	nummod	_	_
+18	years	year	NOUN	NNS	Number=Plur	21	obl	_	_
+19	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj:pass	_	SpaceAfter=No
+20	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	_	_
+21	lived	liv	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	acl:relcl	_	_
+22	there	there	ADV	RB	PronType=Dem	21	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = Hansford said he and his family members all have disabilities, and he's the only one who can swim.
+1	Hansford	Hansford	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+4	and	and	CCONJ	CC	_	7	cc	_	_
+5	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	family	family	NOUN	NN	Number=Sing	7	compound	_	_
+7	members	member	NOUN	NNS	Number=Plur	3	conj	_	_
+8	all	all	DET	DT	_	3	det	_	_
+9	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+10	disabilities	disabilitie	NOUN	NNS	Number=Plur	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	17	punct	_	_
+12	and	and	CCONJ	CC	_	17	cc	_	_
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	SpaceAfter=No
+14	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	only	only	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	one	one	NOUN	NN	Number=Sing	2	conj	_	_
+18	who	who	PRON	WP	PronType=Rel	20	nsubj	_	_
+19	can	can	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	swim	swim	VERB	VB	VerbForm=Inf	17	acl:relcl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 23
+# text = Hansford said emergency workers rescued all three in a large military-style truck and took them to the fire station in Gloster, where they were sheltering Friday.
+1	Hansford	Hansford	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	emergency	emergency	NOUN	NN	Number=Sing	4	compound	_	_
+4	workers	worker	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	rescued	rescue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+6	all	all	DET	DT	_	7	det	_	_
+7	three	three	NUM	CD	NumType=Card	5	obj	_	_
+8	in	in	ADP	IN	_	14	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+10	large	large	ADJ	JJ	Degree=Pos	14	amod	_	_
+11	military	military	ADJ	JJ	Degree=Pos	13	amod	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	13	punct	_	SpaceAfter=No
+13	style	style	NOUN	NN	Number=Sing	14	compound	_	_
+14	truck	truck	NOUN	NN	Number=Sing	7	nmod	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+17	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
+18	to	to	ADP	IN	_	21	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	fire	fire	NOUN	NN	Number=Sing	21	compound	_	_
+21	station	station	NOUN	NN	Number=Sing	16	obl	_	_
+22	in	in	ADP	IN	_	23	case	_	_
+23	Gloster	Gloster	PROPN	NNP	Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	,	_	21	punct	_	_
+25	where	where	ADV	WRB	PronType=Rel	28	advmod	_	_
+26	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	28	nsubj	_	_
+27	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	aux	_	_
+28	sheltering	shelter	VERB	VBG	Tense=Pres|VerbForm=Part	21	acl:relcl	_	_
+29	Friday	Friday	PROPN	NNP	Number=Sing	28	obl:tmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 24
+# text = Krautmann says flooding is "quickly becoming widespread" as heavy rains continue, saying officials are considering evacuation orders.
+1	Krautmann	Krautmann	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	flooding	flooding	NOUN	NN	Number=Sing	7	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	"	"	PUNCT	``	_	7	punct	_	SpaceAfter=No
+6	quickly	quickly	ADV	RB	_	7	advmod	_	_
+7	becoming	become	VERB	VBG	VerbForm=Ger	2	ccomp	_	_
+8	widespread	widespread	ADJ	JJ	Degree=Pos	7	xcomp	_	SpaceAfter=No
+9	"	"	PUNCT	''	_	8	punct	_	_
+10	as	as	ADP	IN	_	12	case	_	_
+11	heavy	heavy	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	rains	rain	NOUN	NNS	Number=Plur	7	obl	_	_
+13	continue	continue	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	15	punct	_	_
+15	saying	say	VERB	VBG	VerbForm=Ger	13	xcomp	_	_
+16	officials	official	NOUN	NNS	Number=Plur	18	nsubj	_	_
+17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	considering	consider	VERB	VBG	Tense=Pres|VerbForm=Part	15	ccomp	_	_
+19	evacuation	evacuation	NOUN	NN	Number=Sing	20	compound	_	_
+20	orders	order	NOUN	NNS	Number=Plur	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 25
+# text = Krautmann says one observer near Livingston reported 13.75 inches of rain from midnight to Friday morning.
+1	Krautmann	Krautmann	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	one	one	NUM	CD	NumType=Card	7	nsubj	_	_
+4	observer	observer	ADV	RB	_	6	advmod	_	_
+5	near	near	ADP	IN	_	6	case	_	_
+6	Livingston	Livingston	PROPN	NNP	Number=Sing	3	nmod	_	_
+7	reported	report	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+8	13.75	13.75	NUM	CD	NumType=Card	9	nummod	_	_
+9	inches	inch	NOUN	NNS	Number=Plur	7	obj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	rain	rain	NOUN	NN	Number=Sing	9	nmod	_	_
+12	from	from	ADP	IN	_	13	case	_	_
+13	midnight	midnight	NOUN	NN	Number=Sing	11	nmod	_	_
+14	to	to	ADP	IN	_	16	case	_	_
+15	Friday	Friday	PROPN	NNP	Number=Sing	16	compound	_	_
+16	morning	morning	NOUN	NN	Number=Sing	7	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 26
+# text = Krautmann said the ground was heavily saturated by rainfall since Wednesday.
+1	Krautmann	Krautmann	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	ground	ground	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+6	heavily	heavily	ADV	RB	_	7	advmod	_	_
+7	saturated	saturate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+8	by	by	ADP	IN	_	9	case	_	_
+9	rainfall	rainfall	NOUN	NN	Number=Sing	7	obl	_	_
+10	since	since	ADP	IN	_	11	case	_	_
+11	Wednesday	Wednesday	PROPN	NNP	Number=Sing	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 27
+# text = Heavy rain and street flooding prompted the rescue of residents from their homes in Tangipahoa Parish and the cancellation of classes in five school districts, authorities said.
+1	Heavy	heavy	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	rain	rain	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	and	and	CCONJ	CC	_	5	cc	_	_
+4	street	street	NOUN	NN	Number=Sing	5	compound	_	_
+5	flooding	flooding	NOUN	NN	Number=Sing	2	conj	_	_
+6	prompted	prompt	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	ccomp	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	rescue	rescue	NOUN	NN	Number=Sing	6	obj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	residents	resident	NOUN	NNS	Number=Plur	8	nmod	_	_
+11	from	from	ADP	IN	_	13	case	_	_
+12	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	homes	home	NOUN	NNS	Number=Plur	6	obl	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	Tangipahoa	Tangipahoa	PROPN	NNP	Number=Sing	16	compound	_	_
+16	Parish	Parish	PROPN	NNP	Number=Sing	13	nmod	_	_
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	cancellation	cancellation	NOUN	NN	Number=Sing	6	conj	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	classes	classis	NOUN	NNS	Number=Plur	19	nmod	_	_
+22	in	in	ADP	IN	_	25	case	_	_
+23	five	five	NUM	CD	NumType=Card	24	nummod	_	_
+24	school	school	NOUN	NN	Number=Sing	25	compound	_	_
+25	districts	district	NOUN	NNS	Number=Plur	19	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	,	_	6	punct	_	_
+27	authorities	authority	NOUN	NNS	Number=Plur	28	nsubj	_	_
+28	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+29	.	.	PUNCT	.	_	28	punct	_	SpacesAfter=\n
+
+# sent_id = 28
+# text = CBS affiliate WWL reports that an alderwoman in Tangipahoa said 200 homes flooded.
+1	CBS	Cb	PROPN	NNP	Number=Sing	3	compound	_	_
+2	affiliate	affiliate	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	WWL	WWL	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	reports	report	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	SCONJ	IN	_	10	mark	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	alderwoman	alderwoman	NOUN	NN	Number=Sing	10	nsubj	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	Tangipahoa	Tangipahoa	PROPN	NNP	Number=Sing	7	nmod	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	_	_
+11	200	200	NUM	CD	NumType=Card	12	nummod	_	_
+12	homes	home	NOUN	NNS	Number=Plur	10	obj	_	_
+13	flooded	flood	VERB	VBN	Tense=Past|VerbForm=Part	12	acl	_	SpaceAfter=No
+14	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 29
+# text = Residents had been evacuated to two churches but both are now flooding.
+1	Residents	resident	NOUN	NNS	Number=Plur	4	nsubj:pass	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	evacuated	evacuate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	to	to	ADP	IN	_	7	case	_	_
+6	two	two	NUM	CD	NumType=Card	7	nummod	_	_
+7	churches	church	NOUN	NNS	Number=Plur	4	obl	_	_
+8	but	but	CCONJ	CC	_	9	cc	_	_
+9	both	both	DET	DT	_	7	conj	_	_
+10	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	now	now	ADV	RB	_	12	advmod	_	_
+12	flooding	flood	VERB	VBG	Tense=Pres|VerbForm=Part	4	ccomp	_	SpaceAfter=No
+13	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 30
+# text = Parish President Robby Miller said authorities rescued 72 people and seven pets stranded by high water.
+1	Parish	Parish	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	President	President	PROPN	NNP	Number=Sing	5	nsubj	_	_
+3	Robby	Robby	PROPN	NNP	Number=Sing	2	flat	_	_
+4	Miller	Miller	PROPN	NNP	Number=Sing	2	flat	_	_
+5	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	authorities	authority	NOUN	NNS	Number=Plur	7	nsubj	_	_
+7	rescued	rescue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+8	72	72	NUM	CD	NumType=Card	9	nummod	_	_
+9	people	people	NOUN	NNS	Number=Plur	7	obj	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	seven	seven	NUM	CD	NumType=Card	12	nummod	_	_
+12	pets	pet	NOUN	NNS	Number=Plur	9	conj	_	_
+13	stranded	strand	VERB	VBN	Tense=Past|VerbForm=Part	9	acl	_	_
+14	by	by	ADP	IN	_	16	case	_	_
+15	high	high	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	water	water	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 31
+# text = Shelters have been opened in the town of Amite and the city of Hammond to house those who were evacuated.
+1	Shelters	shelter	NOUN	NNS	Number=Plur	4	nsubj:pass	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	opened	open	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	town	town	NOUN	NN	Number=Sing	4	obl	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	Amite	Amite	PROPN	NNP	Number=Sing	7	nmod	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	city	city	NOUN	NN	Number=Sing	9	conj	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	Hammond	Hammond	PROPN	NNP	Number=Sing	12	nmod	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	house	house	VERB	VB	VerbForm=Inf	12	acl	_	_
+17	those	those	PRON	DT	Number=Plur|PronType=Dem	16	obj	_	_
+18	who	who	PRON	WP	PronType=Rel	20	nsubj:pass	_	_
+19	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	aux:pass	_	_
+20	evacuated	evacuate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	acl:relcl	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 32
+# text = "They will be allowed to return home once the water starts to recede," he said.
+1	"	"	PUNCT	``	_	5	punct	_	SpaceAfter=No
+2	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj:pass	_	_
+3	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	ccomp	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	return	return	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	home	home	ADV	RB	_	7	advmod	_	_
+9	once	once	ADV	RB	NumType=Mult	12	advmod	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	water	water	NOUN	NN	Number=Sing	12	nsubj	_	_
+12	starts	start	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+13	to	to	PART	TO	_	14	mark	_	_
+14	recede	recede	VERB	VB	VerbForm=Inf	12	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	,	_	18	punct	_	SpaceAfter=No
+16	"	"	PUNCT	''	_	18	punct	_	_
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+18	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	.	_	18	punct	_	SpacesAfter=\n
+
+# sent_id = 33
+# text = In the Tangipahoa Parish city of Hammond, close to two dozen streets were closed because of high water, and sandbags were made available for pickup by residents hoping to keep water out of homes and businesses.
+1	In	in	ADP	IN	_	5	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+3	Tangipahoa	Tangipahoa	PROPN	NNP	Number=Sing	4	compound	_	_
+4	Parish	Parish	PROPN	NNP	Number=Sing	5	compound	_	_
+5	city	city	NOUN	NN	Number=Sing	9	obl	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	Hammond	Hammond	PROPN	NNP	Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	,	_	9	punct	_	_
+9	close	close	ADV	JJ	Degree=Pos	15	nsubj:pass	_	_
+10	to	to	ADP	IN	_	13	case	_	_
+11	two	two	NUM	CD	NumType=Card	13	nummod	_	_
+12	dozen	dozen	NOUN	NN	Number=Sing	13	compound	_	_
+13	streets	street	NOUN	NNS	Number=Plur	9	obl	_	_
+14	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	closed	close	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+16	because	because	ADP	IN	_	19	case	_	_
+17	of	of	ADP	IN	_	16	fixed	_	_
+18	high	high	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	water	water	NOUN	NN	Number=Sing	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	,	_	24	punct	_	_
+21	and	and	CCONJ	CC	_	24	cc	_	_
+22	sandbags	sandbag	NOUN	NNS	Number=Plur	24	nsubj:pass	_	_
+23	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux:pass	_	_
+24	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	conj	_	_
+25	available	available	ADJ	JJ	Degree=Pos	24	xcomp	_	_
+26	for	for	ADP	IN	_	27	case	_	_
+27	pickup	pickup	NOUN	NN	Number=Sing	24	obl	_	_
+28	by	by	ADP	IN	_	29	case	_	_
+29	residents	resident	NOUN	NNS	Number=Plur	27	nmod	_	_
+30	hoping	hope	VERB	VBG	VerbForm=Ger	27	acl	_	_
+31	to	to	PART	TO	_	32	mark	_	_
+32	keep	keep	VERB	VB	VerbForm=Inf	30	xcomp	_	_
+33	water	water	NOUN	NN	Number=Sing	32	obj	_	_
+34	out	out	ADP	IN	_	36	case	_	_
+35	of	of	ADP	IN	_	36	case	_	_
+36	homes	home	NOUN	NNS	Number=Plur	32	obl	_	_
+37	and	and	CCONJ	CC	_	38	cc	_	_
+38	businesses	business	NOUN	NNS	Number=Plur	36	conj	_	SpaceAfter=No
+39	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 34
+# text = "The last major flood we had was in March," said city administrator Lacy Landrum.
+1	"	"	PUNCT	``	_	13	punct	_	SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+3	last	last	ADJ	JJ	Degree=Pos	5	amod	_	_
+4	major	major	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	flood	flood	NOUN	NN	Number=Sing	13	nsubj	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	March	March	PROPN	NNP	Number=Sing	7	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	SpaceAfter=No
+12	"	"	PUNCT	''	_	13	punct	_	_
+13	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	city	city	NOUN	NN	Number=Sing	15	compound	_	_
+15	administrator	administrator	NOUN	NN	Number=Sing	16	compound	_	_
+16	Lacy	Lacy	PROPN	NNP	Number=Sing	13	appos	_	_
+17	Landrum	Landrum	PROPN	NNP	Number=Sing	16	flat	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 35
+# text = This one is on track to be a similar event.
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	one	one	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	on	on	ADP	IN	_	5	case	_	_
+5	track	track	NOUN	NN	Number=Sing	0	root	_	_
+6	to	to	PART	TO	_	10	mark	_	_
+7	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	similar	similar	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	event	event	NOUN	NN	Number=Sing	5	acl	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 36
+# text = In Mississippi, Harrison County Emergency Manager Rupert Lacy said steady rain continued on the Gulf Coast.
+1	In	in	ADP	IN	_	2	case	_	_
+2	Mississippi	Mississippi	PROPN	NNP	Number=Sing	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	10	punct	_	_
+4	Harrison	Harrison	PROPN	NNP	Number=Sing	5	compound	_	_
+5	County	County	PROPN	NNP	Number=Sing	7	compound	_	_
+6	Emergency	emergency	NOUN	NN	Number=Sing	7	compound	_	_
+7	Manager	manager	NOUN	NN	Number=Sing	8	compound	_	_
+8	Rupert	Rupert	PROPN	NNP	Number=Sing	10	nsubj	_	_
+9	Lacy	Lacy	PROPN	NNP	Number=Sing	8	flat	_	_
+10	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	steady	steady	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	rain	rain	NOUN	NN	Number=Sing	10	obj	_	_
+13	continued	continue	VERB	VBN	Tense=Past|VerbForm=Part	12	acl	_	_
+14	on	on	ADP	IN	_	17	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	Gulf	Gulf	PROPN	NNP	Number=Sing	17	compound	_	_
+17	Coast	Coast	PROPN	NNP	Number=Sing	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 37
+# text = He said a handful of houses were reported as flooded Thursday, but none have been reported so far Friday.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	handful	handful	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	houses	house	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	reported	report	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+9	as	as	SCONJ	IN	_	10	mark	_	_
+10	flooded	flood	VERB	VBN	Tense=Past|VerbForm=Part	8	advcl	_	_
+11	Thursday	Thursday	PROPN	NNP	Number=Sing	10	obl:tmod	_	SpaceAfter=No
+12	,	,	PUNCT	,	_	17	punct	_	_
+13	but	but	CCONJ	CC	_	17	cc	_	_
+14	none	none	NOUN	NN	Number=Sing	17	nsubj:pass	_	_
+15	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	been	be	AUX	VBN	Tense=Past|VerbForm=Part	17	aux:pass	_	_
+17	reported	report	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	_
+18	so	so	ADV	RB	_	19	advmod	_	_
+19	far	far	ADV	RB	Degree=Pos	17	advmod	_	_
+20	Friday	Friday	PROPN	NNP	Number=Sing	17	obl:tmod	_	SpaceAfter=No
+21	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 38
+# text = Keith Townson, manager of Shopper Value Foods in Amite, has lived in the area for 40 years.
+1	Keith	Keith	PROPN	NNP	Number=Sing	13	nsubj	_	_
+2	Townson	Townson	PROPN	NNP	Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	,	_	1	punct	_	_
+4	manager	manager	NOUN	NN	Number=Sing	1	appos	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	Shopper	Shopper	PROPN	NNP	Number=Sing	8	compound	_	_
+7	Value	value	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Foods	Foods	PROPN	NNP	Number=Sing	4	nmod	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	Amite	Amite	PROPN	NNP	Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	,	_	13	punct	_	_
+12	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	lived	live	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	area	area	NOUN	NN	Number=Sing	13	obl	_	_
+17	for	for	ADP	IN	_	19	case	_	_
+18	40	40	NUM	CD	NumType=Card	19	nummod	_	_
+19	years	year	NOUN	NNS	Number=Plur	13	obl	_	SpaceAfter=No
+20	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 39
+# text = "I've seen water in some places I have never seen before," Townson said, "and it's still coming down."
+1	"	"	PUNCT	``	_	17	punct	_	SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	've	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	17	ccomp	_	_
+5	water	water	NOUN	NN	Number=Sing	4	obj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	some	some	DET	DT	_	8	det	_	_
+8	places	place	NOUN	NNS	Number=Plur	4	obl	_	_
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+10	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	never	never	ADV	RB	_	12	advmod	_	_
+12	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+13	before	before	ADV	RB	_	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	,	_	17	punct	_	SpaceAfter=No
+15	"	"	PUNCT	''	_	17	punct	_	_
+16	Townson	Townson	PROPN	NNP	Number=Sing	17	nsubj	_	_
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+18	,	,	PUNCT	,	_	19	punct	_	_
+19	"	"	PUNCT	''	_	17	punct	_	SpaceAfter=No
+20	and	and	CCONJ	CC	_	24	cc	_	_
+21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	SpaceAfter=No
+22	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	still	still	ADV	RB	_	24	advmod	_	_
+24	coming	come	VERB	VBG	Tense=Pres|VerbForm=Part	17	conj	_	_
+25	down	down	ADV	RB	_	24	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	.	_	17	punct	_	SpaceAfter=No
+27	"	"	PUNCT	''	_	17	punct	_	SpacesAfter=\n
+
