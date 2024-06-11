@@ -7,6 +7,7 @@ AURIS is designed to build on and complement CoNLL-U corpora, and uses a CoNLL f
 ## Guidelines
 
 - [`guidelines/`](guidelines)
+- [annotated sample file (for both sentence-level and word-level annotations)](annotators/teddy-4929.example.xlsx), [log file](annotators/teddy-4929.example.log)
 
 ## Corpus (under construction)
 

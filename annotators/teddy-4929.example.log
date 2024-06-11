@@ -1,0 +1,18 @@
+sample log file regarding the annotation of teddy-4929.example.xlsx
+===================================================================
+
+(most comments pertain to the annotation of Information Status/Givenness, no specific comments for coreference annotation beyond those in the comment column. These log files protocol suggested clarifications mostly, annotators can also add problematic examples, first, and then discuss them with the rest of the annotation team.)
+
+
+- problems with the annotation of classes that change over time, e.g., a population of animals in the antiquity and today. these are not the same group of entities, and (depending on perspective), they are not the same referent (because they underwent selection pressures), but they still can be seen as describing the same class of entities (say, domesticated cats, as in TED 4929). For COREF annotation, the annotator should take an informed decision and document his/her reasoning (see COMMENT column). For IS annotation, we build on coreference annotation, if different identifiers are used, we annotate them as distinct entities. in the following example, the coreference annotation distinguished ancient domesticated populations from modern, so, although the "probable" domesticated cats are subject of the first clause, the modern domesticated cats are FAMILIAR only, not IN FOCUS.  to
+
+      > And [both the Near Eastern and North African wildcats – probably tamed at this point] -- continued to travel across Europe, eventually setting sail for Australia and the Americas. Today, [most house cats] have descended from either the Near Eastern or the Egyptian lineage of F.s.lybica.
+
+- in general, first- and second-person pronouns are assumed to be part of a shared experience (and thus, FAMILIAR or higher), even though they do not necessarily share the same physical space. This includes plural pronouns (unless they are used in a generic way), e.g. `And as the wildcats learned to tolerate the presence of humans and other cats during mealtime, [we] think that farmers likewise tolerated the cats in exchange for free pest control.` (TED 4029), this includes the speaker
+- the treatment of discourse-new proper names (e.g., geopolitical entities) is problematic, because it boils down to whether knowledge about them can be presupposed for the addressee. this involves guesswork about the intended audience. use your own intuition! Commonly known named entities should be FAMILIAR (or higher), entities for which you (or your model audience) would require looking up (say, in Wikipedia) should be UNIQUELY IDENTIFIABLE if the context makes clear what kind of entitiy this is, e.g., a person, a state, a city, ... If you are uncertain about which type of entity this is (person, state, animal), annotate REFERENTIAL or TYPE IDENTIFIABLE.
+- for distance metrics in IS annotation, we count the last grammatical sentences, only. If there is a fragment or a non-sentential phrase in between, this is not counted, e.g., orthographic sentence (3) in the following example. As a result, "we" have been mentioned in the past two utterances and are thus ACTIVATED rather FAMILIAR:
+
+     > (1) And apart from making them more social and docile, [we]’ve done little to alter their natural behaviors.
+     > (2) In other words, cats today are more or less as they’ve always been: Wild animals.
+     > (3) Fierce hunters.
+     > (4) Creatures that don’t see [us] as their keepers.
