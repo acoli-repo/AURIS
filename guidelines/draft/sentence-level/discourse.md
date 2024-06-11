@@ -197,9 +197,9 @@ AURIS discourse relations are organized in a hierarchy that is also used to defi
 - **TEMPORAL**: the situations described in utterance and anchor are related temporally.
 - **EXPANSION**: other relations which expand the discourse and move its narrative or exposition forward.
 - **DIALOG**: discourse relations for turn-taking in dialog.
-- **EntRel**: utterance and anchor are not related by any of the other types of discourse relations, but indirectly by addressing the same entities 
+- **NoRel**: utterance and anchor are not related by any of the other types of discourse relations.
 
-In addition to these, we use **NoRel** to mark utterances for which no anchor can be established.
+In addition to these, we use **NoRel** to mark utterances for which no discourse relation can be established. Specific cases of **NoRel** are **EntRel**, **Fragment** and **Attribution** which are used to indicate links between elements whose relation is not explained by discourse relations, but rather by coreference (**EntRel**), syntax (**Fragment**) or semantics (**Attribution**). Annotate **NoRel** if none of these relations apply and no anchor can be established.
 
 ### 1.5.2 Annotation Principles
 
@@ -208,7 +208,7 @@ In addition to these, we use **NoRel** to mark utterances for which no anchor ca
 
 	- annotate the most specific discourse relation possible, using the following preference hierachy
 
-		- ADVERSATIVITY > CONTINGENCY > TEMPORAL > EXPANSION > DIALOG > EntRel > NoRel
+		- ADVERSATIVITY > CONTINGENCY > TEMPORAL > EXPANSION > DIALOG > EntRel > other NoRel
 
 The logic behind this ranking is that it describes a spectrum from semantically highly constrained (i.e., very specific) to semantically less constrained (i.e., more generic) relation types, and that annotators should annotate the most specific discourse relation applicable.
 
@@ -304,7 +304,6 @@ The top level of the hierarchy follows PDTB2, the middle level represents SemAF 
 | &nbsp; - `specific`                | _specifically_, _indeed_, _in fact_                            |
 | - `Restatement`                    | _in other words_                                               |
 | - `Hypophora`                      | (anchor is a rhetorical question)                              |      
-| - `Attribution`                    | (verbs of attributions, if detached by sentence splitting from reported statement) |
 | **DIALOG**                         | (only if turn-taking occurs)                                   |
 | - `Functional-Dependence`          | (sub-classified for communicative functions)                   |
 | &nbsp; - `answer`                  | _yes_, _no_ (factual answers, anchor is question)              |
@@ -315,6 +314,9 @@ The top level of the hierarchy follows PDTB2, the middle level represents SemAF 
 | &nbsp; - `dependent-act`           | (other communicative function)                                 |
 | - `Feedback`                       | (turn-taking not initiated by the addressee)                   |
 | **EntRel**                         | (no relation other than coreference between utterance and anchor) |
+| **NoRel**                          | (no discourse relation)                                        |
+| &nbsp; - `Attribution`             | (verbs of attributions, if detached by sentence splitting from reported statement) |
+| &nbsp; - `Fragment`                | (parts of a statement separated from their matrix sentence by orthographic means or a parser error) |
 
 ## 1.6 Discourse Relations: `ADVERSATIVITY`
 
@@ -665,14 +667,6 @@ Note that this also includes reported answers as in (48.2).
 
 - (48.2) But can Mr. Hahn carry it off? **[HYPOPHORA]** In this instance, industry observers say, he is entering uncharted waters. (PDTB3, wsj 0100)
 
-#### 1.9.11 `Attribution`
-
-We do not consider attribution a discourse relation in its own right. However, as we perform sentence-level annotation over pre-determined sentence splits, it is possible that an attribution phrase gets detached from the reported statement. In those cases, annotate the utterance expressing the attribution with an `Attribution` relation that takes the statement (resp., its closest sentence) as anchor:
-
-- (49) **[Attribution]** Now, let’s read what He said in Matthew 6:9-10: [Anchor] After this manner therefore pray ye: Our Father which art in heaven, Hallowed be thy name. (https://kcmcanada.ca/04-2021-partner-letter/, accessed 2023-11-16)
-
-Note that example (49) originally had a *paragraph break* between the attribution sentence and the statement.
-
 ## 1.10 Discourse Relations: `DIALOG`
 
 Dialog relations are to be annotated if and only if turn-taking between multiple speakers applies and no other discourse relation is explicitly signalled. In this case, annotate the discourse function.
@@ -785,9 +779,32 @@ Feedback includes phenomena such as clarification questions (55.1) and confirmat
 	- A: *and keep going down south.* **[Feedback]** B: *mmhmm*
 	- A: *we are going to go due south straight south and then we’re going to turn straight back round and head north past an old mill on the right hand side.* **[Feedback]** B: *due south and then back up again*
 
-## 1.11 Entity Relations: `EntRel`
+## 1.11 No Discourse Relation: `NoRel`
 
-If no other discourse relation can be annotated, but the utterance stands in an entity-based coherence relation with the anchor (i.e., anchor and utterance contain referring expressions that stand in an anphoric/coreferential relation with each other), then annotate an entity relation (`EntRel`).
+If no discourse relation from the AURIS inventory can be established, use **NoRel** relations. Specific cases of **NoRel** are **EntRel**, **Fragment** and **Attribution** which are used to indicate links between elements whose relation is not explained by discourse relations, but rather by coreference (**EntRel**), syntax (**Fragment**) or semantics (**Attribution**). Annotate **NoRel** if and only if none of these relations apply and no anchor can be established.
+
+### 1.11.1 Detached verbs of attribution: `Attribution`
+
+We do not consider attribution a discourse relation in its own right. However, as we perform sentence-level annotation over pre-determined sentence splits, it is possible that an attribution phrase gets detached from the reported statement. In those cases, annotate the utterance expressing the attribution with an `Attribution` relation that takes the statement (resp., its closest sentence) as anchor:
+
+- (49) **[Attribution]** Now, let’s read what He said in Matthew 6:9-10: [Anchor] After this manner therefore pray ye: Our Father which art in heaven, Hallowed be thy name. (https://kcmcanada.ca/04-2021-partner-letter/, accessed 2023-11-16)
+
+Note that example (49) originally had a *paragraph break* between the attribution sentence and the statement.
+
+> Prefer `Attribution` over `EntRel`: Annotate `Attribution` for attribution verbs separated from their statements, including examples with coreferent entities (as in 49).
+
+### 1.11.2 Syntactic Fragments: `Fragment`
+
+In syntactic preprocessing, parser errors can occur that lead to the splitting of syntactic units (sentences) into non-grammatical fragments. If these constitute independent statements (e.g., [partial] clauses) for which a discourse relation or an attribution relation can be established, annotate the corresponding relation, otherwise, annotate non-independent statements as `Fragment`. The Anchor of a fragment is the (partial) sentence that contains the main predicate.
+
+`[Nicknamed]FRAGMENT
+[Unsinkable Sam , he rode to Gibraltar with the rescued crew and served as a ship cat on three more vessels – one of which also sank before retiring to the Belfast Home for Sailors]ANCHOR .`
+
+The fragment that contains the main predicate is to be given annotations that apply to the complete sentence.
+
+### 1.11.3 Entity Relations: `EntRel`
+
+If no discourse relation can be annotated and neither `Attribution` nor `Fragment` are applicable, annotate `EntRel` if the utterance stands in an entity-based coherence relation with the anchor (i.e., anchor and utterance contain referring expressions that stand in an anphoric/coreferential relation with each other).
 
 In an entity relation, the utterance provides further description about some entity or entities introduced in the anchor, expanding the narrative forward of which the anchor is a part, or expanding on the setting relevant for interpreting the anchor. Utterance and anchor describe distinct situations, and the anchor may seen as a "foreground" that introduces the entities elaborated in the utterance (Bunt & Prasad 2016). Entity relations are not marked by explicit discourse markers, but defined by coreference between their referrring expressions, the anchor *must* always precede the utterance.
 
