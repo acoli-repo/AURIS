@@ -1,0 +1,1316 @@
+# newdoc id = txt/fr/teddy-953.txt
+# newpar
+# sent_id = 1
+# text = Un jour, le chroniqueur du Los Angeles Times Steve Lopez se promenait dans les rues du centre-ville de Los Angeles quand il entendit une belle musique.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	jour	jour	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	chroniqueur	chroniqueur	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+6-7	du	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Los	Los	PROPN	_	_	5	nmod	_	_
+9	Angeles	Angeles	PROPN	_	_	8	flat:name	_	_
+10	Times	Times	PROPN	_	_	8	flat:name	_	_
+11	Steve	Steve	PROPN	_	_	8	flat:name	_	_
+12	Lopez	Lopez	PROPN	_	_	8	flat:name	_	_
+13	se	se	PRON	_	Person=3|PronType=Prs	14	obj	_	_
+14	promenait	promener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+15	dans	dans	ADP	_	_	17	case	_	_
+16	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	rues	rue	NOUN	_	Gender=Fem|Number=Plur	14	obl:mod	_	_
+18-19	du	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	centre-ville	centre-ville	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	Los	Los	PROPN	_	_	17	nmod	_	_
+23	Angeles	Angeles	PROPN	_	_	22	flat:name	_	_
+24	quand	quand	SCONJ	_	_	26	mark	_	_
+25	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+26	entendit	entendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	advcl	_	_
+27	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	belle	beau	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
+29	musique	musique	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 2
+# text = Elle venait d'un homme, un afro-américain, charmant, en haillons, sans-abri, qui jouait sur un violon qui n'avait plus que deux cordes.
+1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	venait	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	homme	homme	NOUN	_	Gender=Masc|Number=Sing	2	obl:arg	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	afro-américain	afro-américain	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	charmant	charmant	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	en	en	ADP	_	_	13	case	_	_
+13	haillons	haillon	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	sans-abri	sans-abri	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	qui	qui	PRON	_	PronType=Rel	18	nsubj	_	_
+18	jouait	jouer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+19	sur	sur	ADP	_	_	21	case	_	_
+20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	violon	violon	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+22	qui	qui	PRON	_	PronType=Rel	24	nsubj	_	_
+23	n'	ne	ADV	_	Polarity=Neg	24	advmod	_	SpaceAfter=No
+24	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	acl:relcl	_	_
+25	plus	plus	ADV	_	_	24	advmod	_	_
+26	que	que	SCONJ	_	_	28	case	_	_
+27	deux	deux	NUM	_	_	28	nummod	_	_
+28	cordes	corde	NOUN	_	Gender=Fem|Number=Plur	24	obl:mod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 3
+# text = Cette histoire, beaucoup d'entre vous la connaissent, car les chroniques de Steve ont inspiré un livre, qui a été adapté à l'écran, [NdT : "Le Soliste" sorti en 2009] avec Robert Downey Jr dans le rôle de Steve Lopez, et Jamie Fox dans celui de Nathaniel Ayers Anthony, le contrebassiste issu de l'École Juilliard dont la carrière prometteuse fut écourtée par une tragique schizophrénie paranoïde.
+1	Cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	histoire	histoire	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	9	punct	_	_
+4	beaucoup	beaucoup	ADV	_	_	9	nsubj	_	_
+5	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
+6	entre	entre	ADP	_	_	5	fixed	_	_
+7	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	4	obl:arg	_	_
+8	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	connaissent	connaître	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	17	punct	_	_
+11	car	car	CCONJ	_	_	17	cc	_	_
+12	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	chroniques	chronique	NOUN	_	Gender=Fem|Number=Plur	17	nsubj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	Steve	Steve	PROPN	_	_	13	nmod	_	_
+16	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux:tense	_	_
+17	inspiré	inspirer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	livre	livre	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	24	punct	_	_
+21	qui	qui	PRON	_	PronType=Rel	24	nsubj:pass	_	_
+22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:tense	_	_
+23	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	aux:pass	_	_
+24	adapté	adapter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+25	à	à	ADP	_	_	27	case	_	_
+26	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	écran	écran	NOUN	_	Gender=Masc|Number=Sing	24	obl:arg	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	_
+29	[	[	PUNCT	_	_	30	punct	_	SpaceAfter=No
+30	NdT	NdT	X	_	_	24	conj	_	_
+31	:	:	PUNCT	_	_	30	punct	_	_
+32	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+33	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	flat:name	_	_
+34	Soliste	soliste	PROPN	_	_	30	flat:name	_	SpaceAfter=No
+35	"	"	PUNCT	_	_	30	punct	_	_
+36	sorti	sortir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	acl	_	_
+37	en	en	ADP	_	_	38	case	_	_
+38	2009	2009	NUM	_	_	36	obl	_	SpaceAfter=No
+39	]	]	PUNCT	_	_	30	punct	_	_
+40	avec	avec	ADP	_	_	41	case	_	_
+41	Robert	Robert	PROPN	_	_	30	nmod	_	_
+42	Downey	Downey	PROPN	_	_	41	flat:name	_	_
+43	Jr	Jr	PROPN	_	_	41	flat:name	_	_
+44	dans	dans	ADP	_	_	46	case	_	_
+45	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	_
+47	de	de	ADP	_	_	48	case	_	_
+48	Steve	Steve	PROPN	_	_	46	nmod	_	_
+49	Lopez	Lopez	PROPN	_	_	48	flat:name	_	SpaceAfter=No
+50	,	,	PUNCT	_	_	52	punct	_	_
+51	et	et	CCONJ	_	_	52	cc	_	_
+52	Jamie	Jamie	PROPN	_	_	41	conj	_	_
+53	Fox	Fox	PROPN	_	_	52	flat:name	_	_
+54	dans	dans	ADP	_	_	55	case	_	_
+55	celui	celui	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	52	nmod	_	_
+56	de	de	ADP	_	_	57	case	_	_
+57	Nathaniel	Nathaniel	PROPN	_	_	55	nmod	_	_
+58	Ayers	Ayers	PROPN	_	_	57	flat:name	_	_
+59	Anthony	Anthony	PROPN	_	_	57	flat:name	_	SpaceAfter=No
+60	,	,	PUNCT	_	_	62	punct	_	_
+61	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+62	contrebassiste	contrebassiste	NOUN	_	Gender=Masc|Number=Sing	41	appos	_	_
+63	issu	issu	ADJ	_	Gender=Masc|Number=Sing	62	amod	_	_
+64	de	de	ADP	_	_	66	case	_	_
+65	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	66	det	_	SpaceAfter=No
+66	École	école	NOUN	_	Gender=Fem|Number=Sing	63	obl:arg	_	_
+67	Juilliard	Juilliard	PROPN	_	_	66	appos	_	_
+68	dont	dont	PRON	_	PronType=Rel	70	nmod	_	_
+69	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	70	det	_	_
+70	carrière	carrière	NOUN	_	Gender=Fem|Number=Sing	73	nsubj:pass	_	_
+71	prometteuse	prometteur	ADJ	_	Gender=Fem|Number=Sing	70	amod	_	_
+72	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	73	aux:pass	_	_
+73	écourtée	écourter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	66	acl:relcl	_	_
+74	par	par	ADP	_	_	77	case	_	_
+75	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	77	det	_	_
+76	tragique	tragique	ADJ	_	Gender=Fem|Number=Sing	77	amod	_	_
+77	schizophrénie	schizophréni	NOUN	_	Gender=Fem|Number=Sing	73	obl:agent	_	_
+78	paranoïde	paranoïde	ADJ	_	Gender=Fem|Number=Sing	77	amod	_	SpaceAfter=No
+79	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 4
+# text = Nathaniel abandonna Julliard, subit une rupture totale, et 30 ans plus tard, il était sans-abri dans les rues de Skid Row, au centre-ville de Los Angeles.
+1	Nathaniel	Nathaniel	PROPN	_	_	2	nsubj	_	_
+2	abandonna	abandonna	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+3	Julliard	Julliard	PROPN	_	_	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	subit	subir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	rupture	rupture	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	totale	total	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	18	punct	_	_
+10	et	et	CCONJ	_	_	18	cc	_	_
+11	30	30	NUM	_	_	12	nummod	_	_
+12	ans	an	NOUN	_	Gender=Masc|Number=Plur	18	obl:mod	_	_
+13	plus	plus	ADV	_	_	14	advmod	_	_
+14	tard	tard	ADV	_	_	12	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	12	punct	_	_
+16	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+17	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	aux:tense	_	_
+18	sans-abri	sans-abrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+19	dans	dans	ADP	_	_	21	case	_	_
+20	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	rues	rue	NOUN	_	Gender=Fem|Number=Plur	18	obl:mod	_	_
+22	de	de	ADP	_	_	23	case	_	_
+23	Skid	Skid	PROPN	_	_	21	nmod	_	_
+24	Row	Row	PROPN	_	_	23	flat:name	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	28	punct	_	_
+26-27	au	_	_	_	_	_	_	_	_
+26	à	à	ADP	_	_	28	case	_	_
+27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	centre-ville	centre-ville	NOUN	_	Gender=Masc|Number=Sing	18	obl:mod	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	Los	Los	PROPN	_	_	28	nmod	_	_
+31	Angeles	Angeles	PROPN	_	_	30	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 5
+# text = Je vous encourage tous à lire le livre de Steve, ou à regarder le film, pour comprendre non seulement le lien merveilleux qui s'est créé entre ces deux hommes, mais aussi comment la musique a contribué à façonner ce lien, et a finalement été l'instrument, si vous me passez ce calembour, qui a aidé Nathaniel sortir de la rue.
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	3	obj	_	_
+3	encourage	encourager	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tous	tout	PRON	_	Gender=Masc|Number=Plur	3	obl:mod	_	_
+5	à	à	ADP	_	_	6	mark	_	_
+6	lire	lire	VERB	_	VerbForm=Inf	4	acl	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	livre	livre	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	Steve	Steve	PROPN	_	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	ou	ou	CCONJ	_	_	14	cc	_	_
+13	à	à	ADP	_	_	14	mark	_	_
+14	regarder	regarder	VERB	_	VerbForm=Inf	6	conj	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	film	film	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	pour	pour	ADP	_	_	19	mark	_	_
+19	comprendre	comprendre	VERB	_	VerbForm=Inf	14	advcl	_	_
+20	non	non	ADV	_	_	19	advmod	_	_
+21	seulement	seulement	ADV	_	_	20	fixed	_	_
+22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	lien	lien	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+24	merveilleux	merveilleux	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
+25	qui	qui	PRON	_	PronType=Rel	28	nsubj	_	_
+26	s'	se	PRON	_	Person=3|PronType=Prs	28	obj	_	SpaceAfter=No
+27	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux:tense	_	_
+28	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	acl:relcl	_	_
+29	entre	entre	ADP	_	_	32	case	_	_
+30	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	32	det	_	_
+31	deux	deux	NUM	_	_	32	nummod	_	_
+32	hommes	homme	NOUN	_	Gender=Masc|Number=Plur	28	obl	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	40	punct	_	_
+34	mais	mais	CCONJ	_	_	40	cc	_	_
+35	aussi	aussi	ADV	_	_	40	advmod	_	_
+36	comment	comment	ADV	_	_	35	fixed	_	_
+37	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	musique	musique	NOUN	_	Gender=Fem|Number=Sing	40	nsubj	_	_
+39	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux:tense	_	_
+40	contribué	contribuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+41	à	à	ADP	_	_	42	mark	_	_
+42	façonner	façonner	VERB	_	VerbForm=Inf	40	xcomp	_	_
+43	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	44	det	_	_
+44	lien	lien	NOUN	_	Gender=Masc|Number=Sing	42	obj	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	51	punct	_	_
+46	et	et	CCONJ	_	_	51	cc	_	_
+47	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	aux:tense	_	_
+48	finalement	finalement	ADV	_	_	51	advmod	_	_
+49	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	51	cop	_	_
+50	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	SpaceAfter=No
+51	instrument	instrument	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+52	,	,	PUNCT	_	_	56	punct	_	_
+53	si	si	SCONJ	_	_	56	mark	_	_
+54	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	56	nsubj	_	_
+55	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	56	iobj	_	_
+56	passez	passer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+57	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	58	det	_	_
+58	calembour	calembour	NOUN	_	Gender=Masc|Number=Sing	56	obj	_	SpaceAfter=No
+59	,	,	PUNCT	_	_	62	punct	_	_
+60	qui	qui	PRON	_	PronType=Rel	62	nsubj	_	_
+61	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	62	aux:tense	_	_
+62	aidé	aider	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	56	conj	_	_
+63	Nathaniel	Nathaniel	PROPN	_	_	62	obj	_	_
+64	sortir	sortir	VERB	_	VerbForm=Inf	62	xcomp	_	_
+65	de	de	ADP	_	_	67	case	_	_
+66	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	67	det	_	_
+67	rue	rue	NOUN	_	Gender=Fem|Number=Sing	64	obl:arg	_	SpaceAfter=No
+68	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 6
+# text = J'ai rencontré M. Ayers en 2008, il ya deux ans, au Walt Disney Concert Hall.
+1	J'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
+3	rencontré	rencontrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	M.	monsieur	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpacesAfter=\n
+5	Ayers	Ayers	PROPN	_	_	4	flat:name	_	_
+6	en	en	ADP	_	_	7	case	_	_
+7	2008	2008	NUM	_	_	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	ya	yer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+11	deux	deux	NUM	_	_	12	nummod	_	_
+12	ans	an	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14-15	au	_	_	_	_	_	_	_	_
+14	à	à	ADP	_	_	16	case	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Walt	Walt	PROPN	_	_	10	obl:mod	_	_
+17	Disney	Disney	PROPN	_	_	16	flat:name	_	_
+18	Concert	Concert	PROPN	_	_	16	flat:name	_	_
+19	Hall	Hall	PROPN	_	_	16	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 7
+# text = Il venait tout juste d'écouter un concert des première et quatrième symphonies de Beethoven, il est venu en coulisses et s'est présenté.
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	venait	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	tout	tout	ADV	_	_	4	advmod	_	_
+4	juste	juste	ADV	_	_	2	advmod	_	_
+5	d'	de	ADP	_	_	6	mark	_	SpaceAfter=No
+6	écouter	écouter	VERB	_	VerbForm=Inf	2	xcomp	_	_
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	concert	concert	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9-10	des	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	14	case	_	_
+10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+11	première	premier	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+12	et	et	CCONJ	_	_	13	cc	_	_
+13	quatrième	quatrième	ADJ	_	Gender=Fem|Number=Sing	11	conj	_	_
+14	symphonies	symphonie	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	Beethoven	Beethoven	PROPN	_	_	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj:pass	_	_
+19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
+20	venu	venir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+21	en	en	ADP	_	_	22	case	_	_
+22	coulisses	coulisse	NOUN	_	Gender=Fem|Number=Plur	20	obl	_	_
+23	et	et	CCONJ	_	_	26	cc	_	_
+24	s'	se	PRON	_	Person=3|PronType=Prs	26	expl:comp	_	SpaceAfter=No
+25	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:tense	_	_
+26	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 8
+# text = Il parlait d'une manière très joviale et sociable de Yo-Yo Ma et d'Hillary Clinton, des raisons pour lesquelles les Dodgers ne gagneraient jamais les Séries Mondiales, à cause de la traitrise des figurations du premier violon dans le dernier mouvement de la Quatrième Symphonie de Beethoven.
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	parlait	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	d'	de	ADP	_	_	5	case	_	SpaceAfter=No
+4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	manière	manière	NOUN	_	Gender=Fem|Number=Sing	2	obl:arg	_	_
+6	très	très	ADV	_	_	7	advmod	_	_
+7	joviale	jovial	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+8	et	et	CCONJ	_	_	9	cc	_	_
+9	sociable	sociable	ADJ	_	Gender=Fem|Number=Sing	7	conj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Yo-Yo	Yo-Yo	PROPN	_	_	5	nmod	_	_
+12	Ma	Ma	PROPN	_	_	11	flat:name	_	_
+13	et	et	CCONJ	_	_	15	cc	_	_
+14	d'	de	ADP	_	_	15	case	_	SpaceAfter=No
+15	Hillary	Hillary	PROPN	_	_	11	conj	_	_
+16	Clinton	Clinton	PROPN	_	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18-19	des	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	20	case	_	_
+19	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	raisons	raison	NOUN	_	Gender=Fem|Number=Plur	11	conj	_	_
+21	pour	pour	ADP	_	_	22	case	_	_
+22	lesquelles	lequel	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	26	obl:mod	_	_
+23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
+24	Dodgers	Dodgers	PROPN	_	_	26	nsubj	_	_
+25	ne	ne	ADV	_	Polarity=Neg	26	advmod	_	_
+26	gagneraient	gagner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	20	acl:relcl	_	_
+27	jamais	jamais	ADV	_	Polarity=Neg	26	advmod	_	_
+28	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	Séries	série	NOUN	_	Gender=Fem|Number=Plur	26	obj	_	_
+30	Mondiales	mondial	ADJ	_	Gender=Fem|Number=Plur	29	amod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	32	punct	_	_
+32	à	à	ADP	_	_	26	advmod	_	_
+33	cause	cause	NOUN	_	Gender=Fem|Number=Sing	32	fixed	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	traitrise	traîtrise	NOUN	_	Gender=Fem|Number=Sing	32	obl:arg	_	_
+37-38	des	_	_	_	_	_	_	_	_
+37	de	de	ADP	_	_	39	case	_	_
+38	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+39	figurations	figuration	NOUN	_	Gender=Fem|Number=Plur	36	nmod	_	_
+40-41	du	_	_	_	_	_	_	_	_
+40	de	de	ADP	_	_	43	case	_	_
+41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+42	premier	premier	ADJ	_	Gender=Masc|Number=Sing	43	amod	_	_
+43	violon	violon	NOUN	_	Gender=Masc|Number=Sing	39	nmod	_	_
+44	dans	dans	ADP	_	_	47	case	_	_
+45	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+46	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	47	amod	_	_
+47	mouvement	mouvement	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	_
+48	de	de	ADP	_	_	51	case	_	_
+49	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+50	Quatrième	quatrième	ADJ	_	Gender=Fem|Number=Sing	51	amod	_	_
+51	Symphonie	symphonie	NOUN	_	Gender=Fem|Number=Sing	47	nmod	_	_
+52	de	de	ADP	_	_	53	case	_	_
+53	Beethoven	Beethoven	PROPN	_	_	51	nmod	_	SpaceAfter=No
+54	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 9
+# text = Et nous avons parlé musique.
+1	Et	et	CCONJ	_	_	4	cc	_	_
+2	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+4	parlé	parler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	musique	musique	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Et j'ai reçu un courriel de Steve quelques jours plus tard me disant que Nathaniel aimerait que je lui donne un cours de violon.
+1	Et	et	CCONJ	_	_	4	cc	_	_
+2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+4	reçu	recevoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	courriel	courriel	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	Steve	Steve	PROPN	_	_	6	nmod	_	_
+9	quelques	quelque	DET	_	Gender=Masc|Number=Plur	10	det	_	_
+10	jours	jour	NOUN	_	Gender=Masc|Number=Plur	4	obl	_	_
+11	plus	plus	ADV	_	_	12	advmod	_	_
+12	tard	tard	ADV	_	_	14	advmod	_	_
+13	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	14	expl:comp	_	_
+14	disant	dire	VERB	_	Tense=Pres|VerbForm=Part	10	acl	_	_
+15	que	que	SCONJ	_	_	17	mark	_	_
+16	Nathaniel	Nathaniel	PROPN	_	_	17	nsubj	_	_
+17	aimerait	aimer	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+18	que	que	SCONJ	_	_	21	mark	_	_
+19	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+20	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	21	iobj	_	_
+21	donne	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	cours	cours	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	violon	violon	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 11
+# text = Maintenant, je devrais préciser que Nathaniel refuse de se soigner parce que quand il a été traité ce fut avec des électrochocs, de la Thorazine et des menottes, et que, toute sa vie, il a souffert de ce traumatisme.
+1	Maintenant	maintenant	ADV	_	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	devrais	devr	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	préciser	préciser	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	que	que	SCONJ	_	_	8	mark	_	_
+7	Nathaniel	Nathaniel	PROPN	_	_	8	nsubj	_	_
+8	refuse	refuser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+9	de	de	ADP	_	_	11	mark	_	_
+10	se	se	PRON	_	Person=3|PronType=Prs	11	expl:comp	_	_
+11	soigner	soigner	VERB	_	VerbForm=Inf	8	xcomp	_	_
+12	parce	parce	ADV	_	_	24	mark	_	_
+13	que	que	SCONJ	_	_	12	fixed	_	_
+14	quand	quand	SCONJ	_	_	18	mark	_	_
+15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj:pass	_	_
+16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:tense	_	_
+17	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	aux:pass	_	_
+18	traité	traiter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	advcl	_	_
+19	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	24	nsubj	_	_
+20	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	cop	_	_
+21	avec	avec	ADP	_	_	24	case	_	_
+22-23	des	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	électrochocs	électrochoc	NOUN	_	Gender=Masc|Number=Plur	8	advcl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	28	punct	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Thorazine	Thorazine	PROPN	_	_	24	conj	_	_
+29	et	et	CCONJ	_	_	32	cc	_	_
+30-31	des	_	_	_	_	_	_	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	32	det	_	_
+32	menottes	menotte	NOUN	_	Gender=Fem|Number=Plur	24	conj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	43	punct	_	_
+34	et	et	CCONJ	_	_	43	cc	_	_
+35	que	que	SCONJ	_	_	43	mark	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	39	punct	_	_
+37	toute	tout	ADJ	_	Gender=Fem|Number=Sing	39	amod	_	_
+38	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	39	det	_	_
+39	vie	vie	NOUN	_	Gender=Fem|Number=Sing	43	advcl	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	_
+41	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	43	nsubj	_	_
+42	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux:tense	_	_
+43	souffert	souffrir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	conj	_	_
+44	de	de	ADP	_	_	46	case	_	_
+45	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	46	det	_	_
+46	traumatisme	traumatisme	NOUN	_	Gender=Masc|Number=Sing	43	obl:arg	_	SpaceAfter=No
+47	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 12
+# text = Mais, maintenant, il en résulte qu'il est enclin à ces épisodes schizophréniques.
+1	Mais	mais	CCONJ	_	_	7	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	maintenant	maintenant	ADV	_	_	7	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	en	en	PRON	_	Person=3	7	iobj	_	_
+7	résulte	résulter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	qu'	que	SCONJ	_	_	11	mark	_	SpaceAfter=No
+9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	enclin	enclin	ADJ	_	Gender=Masc|Number=Sing	7	ccomp	_	_
+12	à	à	ADP	_	_	14	case	_	_
+13	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	14	det	_	_
+14	épisodes	épisode	NOUN	_	Gender=Masc|Number=Plur	11	obl:arg	_	_
+15	schizophréniques	schizophrénique	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 13
+# text = Dans les pires de leurs manifestations, il explose, et puis disparait pendant des jours, errant dans les rues de Skid Row, exposé à ses horreurs, les tourments de son esprit déchaînés sur lui.
+1	Dans	dans	ADP	_	_	3	case	_	_
+2	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	pires	pire	NOUN	_	Gender=Fem|Number=Plur	9	obl:mod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	leurs	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	6	det	_	_
+6	manifestations	manifestation	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	explose	exploser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	et	et	CCONJ	_	_	13	cc	_	_
+12	puis	puis	ADV	_	_	13	cc	_	_
+13	disparait	dispare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+14	pendant	pendant	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	_
+15-16	des	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	jours	jour	NOUN	_	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	errant	errer	VERB	_	Tense=Pres|VerbForm=Part	13	advcl	_	_
+20	dans	dans	ADP	_	_	22	case	_	_
+21	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	rues	rue	NOUN	_	Gender=Fem|Number=Plur	19	obl:mod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	Skid	Skid	PROPN	_	_	22	nmod	_	_
+25	Row	Row	PROPN	_	_	24	flat:name	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	exposé	exposer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+28	à	à	ADP	_	_	30	case	_	_
+29	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	30	det	_	_
+30	horreurs	horreur	NOUN	_	Gender=Masc|Number=Plur	27	obl:mod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	27	punct	_	_
+32	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	tourments	tourment	NOUN	_	Gender=Masc|Number=Plur	19	obj	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	36	det	_	_
+36	esprit	esprit	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+37	déchaînés	déchaîner	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	36	acl	_	_
+38	sur	sur	ADP	_	_	39	case	_	_
+39	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	37	obl	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 14
+# text = Et Nathanial était dans un tel état de aggitation quand nous avons commencé notre première leçon au Walt Disney Concert Hall qu'il y avait une sorte de reflet maniaque dans ses yeux, il avait l'air perdu.
+1	Et	et	CCONJ	_	_	7	cc	_	_
+2	Nathanial	Nathanial	PROPN	_	_	7	nsubj	_	_
+3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+4	dans	dans	ADP	_	_	7	case	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	tel	tel	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+7	état	état	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	aggitation	aggitation	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	quand	quand	SCONJ	_	_	13	mark	_	_
+11	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+12	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
+13	commencé	commencer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+14	notre	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det	_	_
+15	première	premier	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+16	leçon	leçon	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+17-18	au	_	_	_	_	_	_	_	_
+17	à	à	ADP	_	_	19	case	_	_
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Walt	Walt	PROPN	_	_	13	obl:arg	_	_
+20	Disney	Disney	PROPN	_	_	19	flat:name	_	_
+21	Concert	Concert	PROPN	_	_	19	flat:name	_	_
+22	Hall	Hall	PROPN	_	_	19	flat:name	_	_
+23	qu'	que	PRON	_	PronType=Rel	26	obj	_	SpaceAfter=No
+24	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	expl:subj	_	_
+25	y	y	PRON	_	_	26	expl:comp	_	_
+26	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	acl:relcl	_	_
+27	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	reflet	reflet	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+31	maniaque	maniaque	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	_
+32	dans	dans	ADP	_	_	34	case	_	_
+33	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	34	det	_	_
+34	yeux	oeil	NOUN	_	Gender=Masc|Number=Plur	26	obl:mod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	37	punct	_	_
+36	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
+37	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	conj	_	_
+38	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	SpaceAfter=No
+39	air	air	NOUN	_	Gender=Masc|Number=Sing	37	obj	_	_
+40	perdu	perdu	ADJ	_	Gender=Masc|Number=Sing	39	amod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 15
+# text = Et il parlait de démons invisibles et de fumée, et comment quelqu'un l'empoisonnait dans son sommeil.
+1	Et	et	CCONJ	_	_	3	cc	_	_
+2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	parlait	parler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	démons	démon	NOUN	_	Gender=Masc|Number=Plur	3	obl:arg	_	_
+6	invisibles	invisible	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
+7	et	et	CCONJ	_	_	9	cc	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	fumée	fumée	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	15	punct	_	_
+11	et	et	CCONJ	_	_	15	cc	_	_
+12	comment	comment	ADV	_	_	15	advmod	_	_
+13	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+14	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	15	obj	_	SpaceAfter=No
+15	empoisonnait	empoisonner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+16	dans	dans	ADP	_	_	18	case	_	_
+17	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det	_	_
+18	sommeil	sommeil	NOUN	_	Gender=Masc|Number=Sing	15	obl:arg	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 16
+# text = Et j'ai eu peur, pas pour moi, mais j'ai eu peur de le perdre, qu'il se mette à sombrer dans l'une de ses crises, et que je ruine sa relation avec le violon si je commençais à parler de portées et d'arpèges et des autres formes intéressantes de la pédagogie didactique du violon.
+1	Et	et	CCONJ	_	_	4	cc	_	_
+2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+4	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	peur	peur	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	_
+8	pour	pour	ADP	_	_	9	case	_	_
+9	moi	soi	PRON	_	Number=Sing|Person=1	4	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	14	punct	_	_
+11	mais	mais	CCONJ	_	_	14	cc	_	_
+12	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	SpaceAfter=No
+13	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux:tense	_	_
+14	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+15	peur	peur	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	perdre	perdre	NOUN	_	Gender=Masc|Number=Sing	14	obl:arg	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	23	punct	_	_
+20	qu'	que	SCONJ	_	_	23	mark	_	SpaceAfter=No
+21	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	se	se	PRON	_	Person=3|PronType=Prs	23	expl:comp	_	_
+23	mette	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+24	à	à	ADP	_	_	25	mark	_	_
+25	sombrer	sombrer	VERB	_	VerbForm=Inf	23	xcomp	_	_
+26	dans	dans	ADP	_	_	28	case	_	_
+27	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	une	un	PRON	_	Gender=Fem|Number=Sing	25	obl:arg	_	_
+29	de	de	ADP	_	_	31	case	_	_
+30	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	31	det	_	_
+31	crises	crise	NOUN	_	Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	36	punct	_	_
+33	et	et	CCONJ	_	_	36	cc	_	_
+34	que	que	SCONJ	_	_	36	mark	_	_
+35	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	36	nsubj	_	_
+36	ruine	ruiner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+37	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	38	det	_	_
+38	relation	relation	NOUN	_	Gender=Fem|Number=Sing	36	obj	_	_
+39	avec	avec	ADP	_	_	41	case	_	_
+40	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	violon	violon	NOUN	_	Gender=Masc|Number=Sing	36	obl:mod	_	_
+42	si	si	SCONJ	_	_	44	mark	_	_
+43	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	44	nsubj	_	_
+44	commençais	commençais	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	36	advcl	_	_
+45	à	à	ADP	_	_	46	mark	_	_
+46	parler	parler	VERB	_	VerbForm=Inf	44	xcomp	_	_
+47	de	de	ADP	_	_	48	case	_	_
+48	portées	portée	NOUN	_	Gender=Fem|Number=Plur	46	obl:arg	_	_
+49	et	et	CCONJ	_	_	51	cc	_	_
+50	d'	de	ADP	_	_	51	case	_	SpaceAfter=No
+51	arpèges	arpège	NOUN	_	Gender=Masc|Number=Plur	48	conj	_	_
+52	et	et	CCONJ	_	_	56	cc	_	_
+53-54	des	_	_	_	_	_	_	_	_
+53	de	de	ADP	_	_	56	case	_	_
+54	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	56	det	_	_
+55	autres	autre	ADJ	_	Gender=Fem|Number=Plur	56	amod	_	_
+56	formes	forme	NOUN	_	Gender=Fem|Number=Plur	48	conj	_	_
+57	intéressantes	intéressant	ADJ	_	Gender=Fem|Number=Plur	56	amod	_	_
+58	de	de	ADP	_	_	60	case	_	_
+59	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	60	det	_	_
+60	pédagogie	pédagogie	NOUN	_	Gender=Fem|Number=Sing	56	nmod	_	_
+61	didactique	didactique	ADJ	_	Gender=Fem|Number=Sing	60	amod	_	_
+62-63	du	_	_	_	_	_	_	_	_
+62	de	de	ADP	_	_	64	case	_	_
+63	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	64	det	_	_
+64	violon	violon	NOUN	_	Gender=Masc|Number=Sing	60	nmod	_	SpaceAfter=No
+65	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 17
+# text = (Rires) Alors, j'ai simplement commencé à jouer.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Rires	Rires	PROPN	_	_	9	parataxis	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+4	Alors	alors	ADV	_	_	9	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	SpaceAfter=No
+7	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
+8	simplement	simplement	ADV	_	_	9	advmod	_	_
+9	commencé	commencer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	à	à	ADP	_	_	11	mark	_	_
+11	jouer	jouer	VERB	_	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 18
+# text = J'ai joué le premier mouvement du concerto pour violon de Beethoven.
+1	J'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
+3	joué	jouer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	premier	premier	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+6	mouvement	mouvement	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+7-8	du	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	concerto	concerto	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+10	pour	pour	ADP	_	_	11	case	_	_
+11	violon	violon	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	Beethoven	Beethoven	PROPN	_	_	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 19
+# text = Et comme je jouais, j'ai vu qu' un changement profond se produisait dans les yeux Nathaniel.
+1	Et	et	CCONJ	_	_	8	cc	_	_
+2	comme	comme	SCONJ	_	_	4	mark	_	_
+3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	jouais	jouais	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	SpaceAfter=No
+7	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
+8	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	qu	qre	SCONJ	_	_	15	mark	_	SpaceAfter=No
+10	'	'	PUNCT	_	_	15	punct	_	_
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	changement	changement	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+13	profond	profond	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+14	se	se	PRON	_	Person=3|PronType=Prs	15	expl:pass	_	_
+15	produisait	produire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	_	_
+16	dans	dans	ADP	_	_	18	case	_	_
+17	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	yeux	oeil	NOUN	_	Gender=Masc|Number=Plur	15	obl:mod	_	_
+19	Nathaniel	Nathaniel	PROPN	_	_	18	appos	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 20
+# text = C'était comme s'il était sous l'emprise d'un produit pharmaceutique invisible, une réaction chimique, dont la musique que je jouais était le catalyseur.
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	28	nsubj	_	SpaceAfter=No
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	cop	_	_
+3	comme	comme	SCONJ	_	_	6	mark	_	_
+4	s'	si	SCONJ	_	_	6	mark	_	SpaceAfter=No
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	advcl	_	_
+7	sous	sous	ADP	_	_	9	case	_	_
+8	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	emprise	emprise	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+10	d'	de	ADP	_	_	12	case	_	SpaceAfter=No
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	produit	produit	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+13	pharmaceutique	pharmaceutique	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+14	invisible	invisible	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	6	punct	_	_
+16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	réaction	réaction	NOUN	_	Gender=Fem|Number=Sing	28	nsubj	_	_
+18	chimique	chimique	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	22	punct	_	_
+20	dont	dont	PRON	_	PronType=Rel	22	nmod	_	_
+21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	musique	musique	NOUN	_	Gender=Fem|Number=Sing	17	appos	_	_
+23	que	que	PRON	_	PronType=Rel	25	obj	_	_
+24	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+25	jouais	jouais	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	22	acl:relcl	_	_
+26	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	cop	_	_
+27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	catalyseur	catalyseur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 21
+# text = Et la rage maniaque de Nathaniel s'est transformée en compréhension, en curiosité tranquille, et en grâce.
+1	Et	et	CCONJ	_	_	9	cc	_	_
+2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	rage	rage	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+4	maniaque	maniaque	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	Nathaniel	Nathaniel	PROPN	_	_	3	nmod	_	_
+7	s'	se	PRON	_	Person=3|PronType=Prs	9	expl:pass	_	SpaceAfter=No
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
+9	transformée	transformer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	en	en	ADP	_	_	11	case	_	_
+11	compréhension	compréhension	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	en	en	ADP	_	_	14	case	_	_
+14	curiosité	curiosité	NOUN	_	Gender=Fem|Number=Sing	9	obl	_	_
+15	tranquille	tranquille	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	et	et	CCONJ	_	_	19	cc	_	_
+18	en	en	ADP	_	_	19	case	_	_
+19	grâce	grâce	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 22
+# text = Et comme par miracle, il a levé son propre violon, et il a commencé à jouer à l'oreille, des extraits de concertos pour violon qu'il m'a alors demandé de compléter, Mendelssohn, Tchaïkovski, Sibelius.
+1	Et	et	CCONJ	_	_	8	cc	_	_
+2	comme	comme	SCONJ	_	_	4	mark	_	_
+3	par	par	ADP	_	_	4	case	_	_
+4	miracle	miracle	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
+8	levé	lever	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	_
+10	propre	propre	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+11	violon	violon	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	16	punct	_	_
+13	et	et	CCONJ	_	_	16	cc	_	_
+14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:tense	_	_
+16	commencé	commencer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+17	à	à	ADP	_	_	18	mark	_	_
+18	jouer	jouer	VERB	_	VerbForm=Inf	16	xcomp	_	_
+19	à	à	ADP	_	_	21	case	_	_
+20	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	oreille	oreille	NOUN	_	Gender=Fem|Number=Sing	18	obl:arg	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	25	punct	_	_
+23-24	des	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	extraits	extrait	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	concertos	concerto	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	_
+28	pour	pour	ADP	_	_	29	case	_	_
+29	violon	violon	NOUN	_	Gender=Masc|Number=Sing	27	nmod	_	_
+30	qu'	que	PRON	_	PronType=Rel	35	obj	_	SpaceAfter=No
+31	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+32	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	35	obj	_	SpaceAfter=No
+33	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux:tense	_	_
+34	alors	alors	ADV	_	_	35	advmod	_	_
+35	demandé	demander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+36	de	de	ADP	_	_	37	mark	_	_
+37	compléter	compléter	VERB	_	VerbForm=Inf	35	xcomp	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	39	punct	_	_
+39	Mendelssohn	Mendelssohn	PROPN	_	_	37	obj	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	41	punct	_	_
+41	Tchaïkovski	Tchaïkovski	PROPN	_	_	39	conj	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	43	punct	_	_
+43	Sibelius	Sibelius	PROPN	_	_	39	conj	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 23
+# text = Et nous avons commencé à parler de musique, de Bach à Beethoven, de Brahms, Bruckner, tous les B, de Bartók, jusqu'à Esa-Pekka Salonen.
+1	Et	et	CCONJ	_	_	4	cc	_	_
+2	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+4	commencé	commencer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	à	à	ADP	_	_	6	mark	_	_
+6	parler	parler	VERB	_	VerbForm=Inf	4	xcomp	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	musique	musique	NOUN	_	Gender=Fem|Number=Sing	6	obl:arg	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	Bach	Bach	PROPN	_	_	8	conj	_	_
+12	à	à	ADP	_	_	13	case	_	_
+13	Beethoven	Beethoven	PROPN	_	_	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	Brahms	Brahms	PROPN	_	_	11	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	Bruckner	Bruckner	PROPN	_	_	11	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	22	punct	_	_
+20	tous	tout	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	_
+21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	22	det	_	_
+22	B	B	X	_	_	11	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	Bartók	Bartók	PROPN	_	_	11	conj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	_	_
+27	jusqu'	jusque	ADV	_	_	29	advmod	_	SpaceAfter=No
+28	à	à	ADP	_	_	29	case	_	_
+29	Esa-Pekka	Esa-Pekka	PROPN	_	_	11	conj	_	_
+30	Salonen	Salonen	PROPN	_	_	29	flat:name	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 24
+# text = Et j'ai compris que non seulement il avait une connaissance encyclopédique de la musique, mais qu'il avait un lien avec cette musique, à un niveau personnel.
+1	Et	et	CCONJ	_	_	4	cc	_	_
+2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+4	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	que	que	SCONJ	_	_	9	mark	_	_
+6	non	non	ADV	_	_	9	advmod	_	_
+7	seulement	seulement	ADV	_	_	6	fixed	_	_
+8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	connaissance	connaissance	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	encyclopédique	encyclopédique	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	musique	musique	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	20	punct	_	_
+17	mais	mais	CCONJ	_	_	20	cc	_	_
+18	qu'	que	SCONJ	_	_	20	mark	_	SpaceAfter=No
+19	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	conj	_	_
+21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	lien	lien	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+23	avec	avec	ADP	_	_	25	case	_	_
+24	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	25	det	_	_
+25	musique	musique	NOUN	_	Gender=Fem|Number=Sing	20	obl:mod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	_	_
+27	à	à	ADP	_	_	29	case	_	_
+28	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	20	obl:mod	_	_
+30	personnel	personnel	ADJ	_	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 25
+# text = Il en a parlé avec le genre de passion et de compréhension que je partage avec mes collègues de l'Orchestre Philharmonique de Los Angeles.
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	en	en	PRON	_	Person=3	4	expl:comp	_	_
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+4	parlé	parler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	avec	avec	ADP	_	_	7	case	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	genre	genre	NOUN	_	Gender=Masc|Number=Sing	4	obl:mod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	passion	passion	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	et	et	CCONJ	_	_	12	cc	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	compréhension	compréhension	NOUN	_	Gender=Fem|Number=Sing	9	conj	_	_
+13	que	que	PRON	_	PronType=Rel	15	obj	_	_
+14	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	partage	partager	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+16	avec	avec	ADP	_	_	18	case	_	_
+17	mes	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	18	det	_	_
+18	collègues	collègue	NOUN	_	Gender=Masc|Number=Plur	15	obl:arg	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	Orchestre	orchestre	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+22	Philharmonique	philharmonique	ADJ	_	Gender=Masc|Number=Sing	21	amod	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	Los	Los	PROPN	_	_	21	nmod	_	_
+25	Angeles	Angeles	PROPN	_	_	24	flat:name	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 26
+# text = En jouant de la musique, et en parlant de musique, cet homme s'était transformé, de l'homme dérangé, paranoïaque, qui errait dans les rues du centre-ville de Los Angeles, en ce charmant, érudit, et brillant musicien issu de Juilliard.
+1	En	en	ADP	_	_	2	mark	_	_
+2	jouant	jouer	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	musique	musique	NOUN	_	Gender=Fem|Number=Sing	2	obl:arg	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	et	et	CCONJ	_	_	9	cc	_	_
+8	en	en	ADP	_	_	9	mark	_	_
+9	parlant	parler	VERB	_	Tense=Pres|VerbForm=Part	2	conj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	musique	musique	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	17	punct	_	_
+13	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	homme	homme	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+15	s'	se	PRON	_	Person=3|PronType=Prs	17	expl:comp	_	SpaceAfter=No
+16	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux:tense	_	_
+17	transformé	transformer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	21	punct	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	homme	homme	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
+22	dérangé	déranger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	paranoïaque	paranoïaque	NOUN	_	Gender=Fem|Number=Sing	21	appos	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	27	punct	_	_
+26	qui	qui	PRON	_	PronType=Rel	27	nsubj	_	_
+27	errait	errer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	acl:relcl	_	_
+28	dans	dans	ADP	_	_	30	case	_	_
+29	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	rues	rue	NOUN	_	Gender=Fem|Number=Plur	27	obl:arg	_	_
+31-32	du	_	_	_	_	_	_	_	_
+31	de	de	ADP	_	_	33	case	_	_
+32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	centre-ville	centre-ville	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	Los	Los	PROPN	_	_	30	nmod	_	_
+36	Angeles	Angeles	PROPN	_	_	35	flat:name	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	40	punct	_	_
+38	en	en	ADP	_	_	40	case	_	_
+39	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	40	det	_	_
+40	charmant	charmant	NOUN	_	Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	42	punct	_	_
+42	érudit	érudit	NOUN	_	Gender=Masc|Number=Sing	40	conj	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	45	punct	_	_
+44	et	et	CCONJ	_	_	45	cc	_	_
+45	brillant	briller	ADJ	_	Gender=Masc|Number=Sing	46	amod	_	_
+46	musicien	musicien	NOUN	_	Gender=Masc|Number=Sing	40	appos	_	_
+47	issu	issu	ADJ	_	Gender=Masc|Number=Sing	46	amod	_	_
+48	de	de	ADP	_	_	49	case	_	_
+49	Juilliard	Juilliard	PROPN	_	_	47	obl:arg	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 27
+# text = La musique est médecine.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	musique	musique	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	médecine	médecin	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 28
+# text = La musique nous change.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	musique	musique	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	4	iobj	_	_
+4	change	changer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 29
+# text = Et pour Nathaniel, la musique c'est la santé mentale.
+1	Et	et	CCONJ	_	_	10	cc	_	_
+2	pour	pour	ADP	_	_	3	case	_	_
+3	Nathaniel	Nathaniel	PROPN	_	_	10	obl:mod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	musique	musique	NOUN	_	Gender=Fem|Number=Sing	10	dislocated	_	_
+7	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	10	nsubj	_	SpaceAfter=No
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	santé	santé	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+11	mentale	mental	ADJ	_	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 30
+# text = Parce que la musique lui permet de prendre ses pensées et ses délires, et de les ramener grâce à son imagination et sa créativité, dans la réalité.
+1	Parce	parce	ADV	_	_	6	mark	_	_
+2	que	que	SCONJ	_	_	1	fixed	_	_
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	musique	musique	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+6	permet	permettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	de	de	ADP	_	_	8	mark	_	_
+8	prendre	prendre	VERB	_	VerbForm=Inf	6	xcomp	_	_
+9	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	10	det	_	_
+10	pensées	pensée	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+11	et	et	CCONJ	_	_	13	cc	_	_
+12	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	13	det	_	_
+13	délires	délire	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	18	punct	_	_
+15	et	et	CCONJ	_	_	18	cc	_	_
+16	de	de	ADP	_	_	18	mark	_	_
+17	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	18	obj	_	_
+18	ramener	ramener	VERB	_	VerbForm=Inf	6	conj	_	_
+19	grâce	grâce	ADV	_	_	18	advmod	_	_
+20	à	à	ADP	_	_	22	case	_	_
+21	son	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det	_	_
+22	imagination	imagination	NOUN	_	Gender=Fem|Number=Sing	19	obl:arg	_	_
+23	et	et	CCONJ	_	_	25	cc	_	_
+24	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	25	det	_	_
+25	créativité	créativité	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	_	_
+27	dans	dans	ADP	_	_	29	case	_	_
+28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	réalité	réalité	NOUN	_	Gender=Fem|Number=Sing	18	obl:mod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 31
+# text = Et c'est une évasion de son état tourmenté.
+1	Et	et	CCONJ	_	_	5	cc	_	_
+2	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	évasion	évasion	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_
+8	état	état	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	tourmenté	tourmenté	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 32
+# text = Et j'ai compris que c'était l'essence même de l'art.
+1	Et	et	CCONJ	_	_	4	cc	_	_
+2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+4	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	que	que	SCONJ	_	_	9	mark	_	_
+6	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	9	nsubj	_	SpaceAfter=No
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	essence	essence	NOUN	_	Gender=Fem|Number=Sing	4	ccomp	_	_
+10	même	même	ADV	_	_	13	advmod	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	art	art	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 33
+# text = C'est la raison pour laquelle nous avons créé la musique, pour prendre quelque chose qui existe en chacun de nous, au niveau le plus fondamental de notre être, de nos émotions, et grâce à notre prisme artistique, par notre créativité, nous sommes en mesure de façonner ces émotions dans la réalité.
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	raison	raison	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	pour	pour	ADP	_	_	6	case	_	_
+6	laquelle	lequel	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	9	obl:mod	_	_
+7	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+8	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
+9	créé	créer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	musique	musique	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	pour	pour	ADP	_	_	14	mark	_	_
+14	prendre	prendre	VERB	_	VerbForm=Inf	9	advcl	_	_
+15	quelque	quelque	DET	_	Gender=Fem|Number=Sing	16	det	_	_
+16	chose	chose	NOUN	_	Gender=Fem|Number=Sing	14	obj	_	_
+17	qui	qui	PRON	_	PronType=Rel	18	nsubj	_	_
+18	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	en	en	ADP	_	_	20	case	_	_
+20	chacun	chacun	PRON	_	Gender=Masc|Number=Sing	18	obl	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	18	obl:mod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	26	punct	_	_
+24-25	au	_	_	_	_	_	_	_	_
+24	à	à	ADP	_	_	26	case	_	_
+25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	advmod	_	_
+28	plus	plus	ADV	_	_	27	fixed	_	_
+29	fondamental	fondamental	ADJ	_	Gender=Masc|Number=Sing	26	amod	_	_
+30	de	de	ADP	_	_	32	case	_	_
+31	notre	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	32	det	_	_
+32	être	être	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	36	punct	_	_
+34	de	de	ADP	_	_	36	case	_	_
+35	nos	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	36	det	_	_
+36	émotions	émotion	NOUN	_	Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	39	punct	_	_
+38	et	et	CCONJ	_	_	39	cc	_	_
+39	grâce	grâce	ADV	_	_	50	advmod	_	_
+40	à	à	ADP	_	_	42	case	_	_
+41	notre	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	42	det	_	_
+42	prisme	prisme	NOUN	_	Gender=Masc|Number=Sing	39	obl:arg	_	_
+43	artistique	artistique	ADJ	_	Gender=Masc|Number=Sing	42	amod	_	SpaceAfter=No
+44	,	,	PUNCT	_	_	47	punct	_	_
+45	par	par	ADP	_	_	47	case	_	_
+46	notre	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	47	det	_	_
+47	créativité	créativité	NOUN	_	Gender=Fem|Number=Sing	39	obl:arg	_	SpaceAfter=No
+48	,	,	PUNCT	_	_	47	punct	_	_
+49	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	50	nsubj	_	_
+50	sommes	être	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+51	en	en	ADP	_	_	50	advmod	_	_
+52	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	51	fixed	_	_
+53	de	de	ADP	_	_	54	mark	_	_
+54	façonner	façonner	VERB	_	VerbForm=Inf	51	xcomp	_	_
+55	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	56	det	_	_
+56	émotions	émotion	NOUN	_	Gender=Fem|Number=Plur	54	obj	_	_
+57	dans	dans	ADP	_	_	59	case	_	_
+58	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+59	réalité	réalité	NOUN	_	Gender=Fem|Number=Sing	54	obl:arg	_	SpaceAfter=No
+60	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 34
+# text = Et la réalité de cette expression atteint chacun d'entre nous, et nous émeut, nous inspire et nous unit.
+1	Et	et	CCONJ	_	_	7	cc	_	_
+2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	réalité	réalité	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	expression	expression	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	atteint	atteindre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	chacun	chacun	PRON	_	Gender=Masc|Number=Sing	7	obj	_	_
+9	d'	de	ADP	_	_	11	case	_	SpaceAfter=No
+10	entre	entre	ADP	_	_	9	fixed	_	_
+11	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	et	et	CCONJ	_	_	15	cc	_	_
+14	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
+15	émeut	émouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
+18	inspire	inspirer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+19	et	et	CCONJ	_	_	21	cc	_	_
+20	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
+21	unit	unir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 35
+# text = Et en ce qui concerne Nathaniel, la musique l'a ramené dans parmi ses amis.
+1	Et	et	CCONJ	_	_	3	cc	_	_
+2	en	en	ADP	_	_	3	case	_	_
+3	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	0	root	_	_
+4	qui	qui	PRON	_	PronType=Rel	5	nsubj	_	_
+5	concerne	concerner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	Nathaniel	Nathaniel	PROPN	_	_	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	12	punct	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	musique	musique	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+10	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
+12	ramené	ramener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+13	dans	dans	ADP	_	_	16	case	_	_
+14	parmi	parmi	ADP	_	_	16	case	_	_
+15	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	16	det	_	_
+16	amis	ami	NOUN	_	Gender=Masc|Number=Plur	12	obl:mod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 36
+# text = La puissance rédemptrice de la musique l'a ramené dans la famille des musiciens qui l'ont compris, ont reconnu ses talents et qui le respectaient.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	puissance	puissance	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	rédemptrice	rédempteur	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	musique	musique	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+7	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
+8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
+9	ramené	ramener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	ccomp	_	_
+10	dans	dans	ADP	_	_	12	case	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	famille	famille	NOUN	_	Gender=Fem|Number=Sing	9	obl:mod	_	_
+13-14	des	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	musiciens	musicien	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	_
+16	qui	qui	PRON	_	PronType=Rel	19	nsubj	_	_
+17	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
+18	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux:tense	_	_
+19	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl:relcl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	9	punct	_	_
+21	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux:tense	_	_
+22	reconnu	reconnaître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+23	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	24	det	_	_
+24	talents	talent	NOUN	_	Gender=Masc|Number=Plur	22	nsubj	_	_
+25	et	et	CCONJ	_	_	28	cc	_	_
+26	qui	qui	PRON	_	PronType=Rel	28	nsubj	_	_
+27	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+28	respectaient	respect	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	24	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 37
+# text = Et je continuerai toujours à faire de la musique avec Nathaniel, que nous soyons au Walt Disney Concert Hall, ou sur Skid Row, parce qu'il me rappelle pourquoi je suis devenu musicien.
+1	Et	et	CCONJ	_	_	3	cc	_	_
+2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	continuerai	continuer	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	toujours	toujours	ADV	_	_	3	advmod	_	_
+5	à	à	ADP	_	_	6	mark	_	_
+6	faire	faire	VERB	_	VerbForm=Inf	3	xcomp	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	musique	musique	NOUN	_	Gender=Fem|Number=Sing	6	obl:arg	_	_
+10	avec	avec	ADP	_	_	11	case	_	_
+11	Nathaniel	Nathaniel	PROPN	_	_	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	que	que	PRON	_	PronType=Rel	15	obj	_	_
+14	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
+15	soyons	soyons	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+16-17	au	_	_	_	_	_	_	_	_
+16	à	à	ADP	_	_	18	case	_	_
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Walt	Walt	PROPN	_	_	15	obl:arg	_	_
+19	Disney	Disney	PROPN	_	_	18	flat:name	_	_
+20	Concert	Concert	PROPN	_	_	18	flat:name	_	_
+21	Hall	Hall	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	25	punct	_	_
+23	ou	ou	CCONJ	_	_	25	cc	_	_
+24	sur	sur	ADP	_	_	25	case	_	_
+25	Skid	Skid	PROPN	_	_	18	conj	_	_
+26	Row	Row	PROPN	_	_	25	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	32	punct	_	_
+28	parce	parce	ADV	_	_	32	mark	_	_
+29	qu'	que	SCONJ	_	_	28	fixed	_	SpaceAfter=No
+30	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
+31	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	32	iobj	_	_
+32	rappelle	rappeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+33	pourquoi	pourquoi	ADV	_	_	36	advmod	_	_
+34	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	36	nsubj	_	_
+35	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	36	aux:tense	_	_
+36	devenu	devenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	ccomp	_	_
+37	musicien	musicien	NOUN	_	Gender=Masc|Number=Sing	36	xcomp	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 38
+# text = Merci.
+1	Merci	merci	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 39
+# text = (Applaudissements) Bruno Giussani: Je vous remercie.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Applaudissements	Applaudissements	PROPN	_	_	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+4	Bruno	Bruno	PROPN	_	_	2	flat:name	_	_
+5	Giussani	Giussani	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	9	punct	_	_
+7	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	9	obj	_	_
+9	remercie	remercier	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 40
+# text = Merci.
+1	Merci	merci	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 41
+# text = Robert Gupta . Robert Gupta: Je veux jouer quelque chose que j'ai honteusement volé aux violoncellistes.
+1	Robert	Robert	PROPN	_	_	0	root	_	_
+2	Gupta	Gupta	PROPN	_	_	1	flat:name	_	_
+3	.	.	PUNCT	_	_	4	punct	_	_
+4	Robert	Robert	PROPN	_	_	1	flat:name	_	_
+5	Gupta	Gupta	PROPN	_	_	1	flat:name	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	8	punct	_	_
+7	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+9	jouer	jouer	VERB	_	VerbForm=Inf	8	xcomp	_	_
+10	quelque	quelque	DET	_	Gender=Fem|Number=Sing	11	det	_	_
+11	chose	chose	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	que	que	PRON	_	PronType=Rel	16	obj	_	_
+13	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	SpaceAfter=No
+14	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux:tense	_	_
+15	honteusement	honteusement	ADV	_	_	16	advmod	_	_
+16	volé	voler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+17-18	aux	_	_	_	_	_	_	_	_
+17	à	à	ADP	_	_	19	case	_	_
+18	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	violoncellistes	violoncelliste	NOUN	_	Gender=Masc|Number=Plur	16	obl:arg	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 42
+# text = Alors, s'il vous plaît pardonnez-moi.
+1	Alors	alors	ADV	_	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	s'	se	SCONJ	_	_	6	mark	_	SpaceAfter=No
+4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	6	obj	_	_
+6	plaît	plaire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+7	pardonnez	pardonnir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	-moi	soi	PRON	_	Number=Sing|Person=1	7	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 43
+# text = (Musique)
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Musique	musique	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	SpacesAfter=\s\n
+

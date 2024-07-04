@@ -1,0 +1,2150 @@
+# newdoc id = txt/fr/teddy-1132.txt
+# newpar
+# sent_id = 1
+# text = Pendant un temps, je me suis intéressé à l'effet placebo, ce qui peut paraître bizarre pour un magicien comme sujet de prédilection, à moins que vous ne regardiez la chose comme moi : soit "quelque chose de faux peut être tellement crédible que ça devient quelque chose de vrai".
+1	Pendant	pendant	ADP	_	_	3	case	_	_
+2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	temps	temps	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+7	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux:tense	_	_
+8	intéressé	intéresser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	à	à	ADP	_	_	11	case	_	_
+10	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	effet	effet	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
+12	placebo	placebo	X	_	_	11	appos	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	8	parataxis	_	_
+15	qui	qui	PRON	_	PronType=Rel	16	nsubj	_	_
+16	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17	paraître	paraître	VERB	_	VerbForm=Inf	16	xcomp	_	_
+18	bizarre	bizarre	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+19	pour	pour	ADP	_	_	21	case	_	_
+20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	magicien	magicien	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+22	comme	comme	ADP	_	_	23	case	_	_
+23	sujet	sujet	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	prédilection	prédilection	NOUN	_	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	27	punct	_	_
+27	à	à	ADP	_	_	17	advmod	_	_
+28	moins	moins	ADV	_	_	27	fixed	_	_
+29	que	que	SCONJ	_	_	32	mark	_	_
+30	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	32	nsubj	_	_
+31	ne	ne	ADV	_	Polarity=Neg	32	advmod	_	_
+32	regardiez	regardier	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	27	ccomp	_	_
+33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	chose	chose	NOUN	_	Gender=Fem|Number=Sing	32	obj	_	_
+35	comme	comme	ADP	_	_	36	case	_	_
+36	moi	soi	PRON	_	Number=Sing|Person=1	34	nmod	_	_
+37	:	:	PUNCT	_	_	44	punct	_	_
+38	soit	soit	ADV	_	_	44	advmod	_	_
+39	"	"	PUNCT	_	_	44	punct	_	SpaceAfter=No
+40	quelque	quelque	DET	_	Gender=Fem|Number=Sing	41	det	_	_
+41	chose	chose	NOUN	_	Gender=Fem|Number=Sing	44	nsubj	_	_
+42	de	de	ADP	_	_	43	case	_	_
+43	faux	faux	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	_
+44	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	parataxis	_	_
+45	être	être	AUX	_	VerbForm=Inf	47	cop	_	_
+46	tellement	tellement	ADV	_	_	47	advmod	_	_
+47	crédible	crédible	ADJ	_	Gender=Fem|Number=Sing	44	xcomp	_	_
+48	que	que	SCONJ	_	_	50	mark	_	_
+49	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	50	nsubj	_	_
+50	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	ccomp	_	_
+51	quelque	quelque	DET	_	Gender=Fem|Number=Sing	52	det	_	_
+52	chose	chose	NOUN	_	Gender=Fem|Number=Sing	50	xcomp	_	_
+53	de	de	ADP	_	_	54	case	_	_
+54	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing	52	amod	_	SpaceAfter=No
+55	"	"	PUNCT	_	_	50	punct	_	SpaceAfter=No
+56	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 2
+# text = En d'autres termes, des pilules de sucre ont des effets mesurables dans certains types d'études, l'effet placebo, juste parce que la personne pense que ce qui lui arrive est un effet pharmaceutique.
+1	En	en	ADP	_	_	4	case	_	_
+2	d'	un	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	4	det	_	SpaceAfter=No
+3	autres	autre	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	_
+4	termes	terme	NOUN	_	Gender=Masc|Number=Plur	31	obl:mod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6-7	des	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	pilules	pilule	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	sucre	sucre	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+11	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_
+12-13	des	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	effets	effet	NOUN	_	Gender=Masc|Number=Plur	11	obl:arg	_	_
+15	mesurables	mesurable	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+16	dans	dans	ADP	_	_	18	case	_	_
+17	certains	certain	DET	_	Gender=Masc|Number=Plur	18	det	_	_
+18	types	type	NOUN	_	Gender=Masc|Number=Plur	11	obl:mod	_	_
+19	d'	de	ADP	_	_	20	case	_	SpaceAfter=No
+20	études	étude	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	4	punct	_	_
+22	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
+23	effet	effet	NOUN	_	Gender=Masc|Number=Sing	31	nsubj	_	_
+24	placebo	placebo	NOUN	_	Gender=Fem|Number=Sing	23	appos	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	31	punct	_	_
+26	juste	juste	ADV	_	_	31	advmod	_	_
+27	parce	parce	ADV	_	_	31	mark	_	_
+28	que	que	SCONJ	_	_	27	fixed	_	_
+29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	personne	personne	NOUN	_	Gender=Fem|Number=Sing	31	nsubj	_	_
+31	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+32	que	que	SCONJ	_	_	39	mark	_	_
+33	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	39	nsubj	_	_
+34	qui	qui	PRON	_	PronType=Rel	36	nsubj	_	_
+35	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	36	iobj	_	_
+36	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	_
+37	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
+38	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	effet	effet	NOUN	_	Gender=Masc|Number=Sing	31	ccomp	_	_
+40	pharmaceutique	pharmaceutique	ADJ	_	Gender=Masc|Number=Sing	39	amod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 3
+# text = Pour la gestion de la douleur, par exemple, s'ils y croient assez fort, il y a un effet mesurable dans leur corps que l'on nomme l'effet placebo.
+1	Pour	pour	ADP	_	_	3	case	_	_
+2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	gestion	gestion	NOUN	_	Gender=Fem|Number=Sing	14	obl:mod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	par	par	ADP	_	_	3	advmod	_	_
+9	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	8	fixed	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	3	punct	_	_
+11	s'	si	SCONJ	_	_	14	mark	_	SpaceAfter=No
+12	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
+13	y	y	PRON	_	_	14	obl:mod	_	_
+14	croient	croire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	assez	assez	ADV	_	_	16	advmod	_	_
+16	fort	fort	ADV	_	_	14	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	expl:subj	_	_
+19	y	y	PRON	_	_	20	expl:comp	_	_
+20	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	effet	effet	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+23	mesurable	mesurable	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+24	dans	dans	ADP	_	_	26	case	_	_
+25	leur	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	det	_	_
+26	corps	corps	NOUN	_	Gender=Masc|Number=Sing	20	obl:mod	_	_
+27	que	que	SCONJ	_	_	30	mark	_	_
+28	l'	l'	DET	_	Definite=Def|Number=Sing|PronType=Art	30	nsubj	_	SpaceAfter=No
+29	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	28	fixed	_	_
+30	nomme	nommer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+31	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	effet	effet	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	_
+33	placebo	placebo	NOUN	_	_	32	appos	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 4
+# text = Quelque chose de factice devient quelque chose de réel grâce à la perception de quelqu'un.
+1	Quelque	quelque	DET	_	Gender=Fem|Number=Sing	2	det	_	_
+2	chose	chose	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	factice	factice	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+5	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	quelque	quelque	DET	_	Gender=Fem|Number=Sing	7	det	_	_
+7	chose	chose	NOUN	_	Gender=Fem|Number=Sing	5	xcomp	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	réel	réel	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+10	grâce	grâce	ADV	_	_	5	advmod	_	_
+11	à	à	ADP	_	_	13	case	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	perception	perception	NOUN	_	Gender=Fem|Number=Sing	10	obl:arg	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 5
+# text = Pour qu'on se comprenne, je vais vous montrer quelque chose de rudimentaire, un tour de magie très simple.
+1	Pour	pour	ADP	_	_	5	mark	_	_
+2	qu'	que	SCONJ	_	_	1	fixed	_	SpaceAfter=No
+3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+4	se	se	PRON	_	Person=3|PronType=Prs	5	obj	_	_
+5	comprenne	comprendre	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	10	iobj	_	_
+10	montrer	montrer	VERB	_	VerbForm=Inf	8	xcomp	_	_
+11	quelque	quelque	DET	_	Gender=Fem|Number=Sing	12	det	_	_
+12	chose	chose	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	rudimentaire	rudimentaire	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	tour	tour	NOUN	_	Gender=Masc|Number=Sing	12	appos	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	magie	magie	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+20	très	très	ADV	_	_	21	advmod	_	_
+21	simple	simple	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 6
+# text = Je vais vous montrer comment ça marche.
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	4	iobj	_	_
+4	montrer	montrer	VERB	_	VerbForm=Inf	2	xcomp	_	_
+5	comment	comment	ADV	_	_	7	advmod	_	_
+6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	nsubj	_	_
+7	marche	marche	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 7
+# text = C'est un tour qui a été dans tous les livres de magie pour enfants depuis les années 50.
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tour	tour	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	qui	qui	PRON	_	PronType=Rel	11	nsubj	_	_
+6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
+7	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	cop	_	_
+8	dans	dans	ADP	_	_	11	case	_	_
+9	tous	tout	ADJ	_	Gender=Masc|Number=Plur	11	amod	_	_
+10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	livres	livre	NOUN	_	Gender=Masc|Number=Plur	4	acl:relcl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	magie	magie	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+14	pour	pour	ADP	_	_	15	case	_	_
+15	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+16	depuis	depuis	ADP	_	_	18	case	_	_
+17	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	années	année	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
+19	50	50	NUM	_	_	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 8
+# text = Je l'ai moi-même appris du Cub Scout Magic dans les années 70.
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux:tense	_	_
+4	moi-même	moi-même	PRON	_	Gender=Masc|Number=Sing|Person=1|Reflex=Yes	5	obj	_	_
+5	appris	apprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	du	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Cub	cub	PROPN	_	_	5	obl:arg	_	_
+9	Scout	Scout	PROPN	_	_	8	flat:name	_	_
+10	Magic	Magic	PROPN	_	_	8	flat:name	_	_
+11	dans	dans	ADP	_	_	13	case	_	_
+12	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	années	année	NOUN	_	Gender=Fem|Number=Plur	5	obl:mod	_	_
+14	70	70	NUM	_	_	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 9
+# text = Je vais vous le faire puis vous l'expliquer.
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	5	iobj	_	_
+4	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	faire	faire	VERB	_	VerbForm=Inf	2	xcomp	_	_
+6	puis	puis	ADV	_	_	9	cc	_	_
+7	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	9	iobj	_	_
+8	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
+9	expliquer	expliquer	VERB	_	VerbForm=Inf	2	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 10
+# text = Je vous expliquerai pourquoi je vous l'ai expliqué.
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	3	iobj	_	_
+3	expliquerai	expliquer	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	pourquoi	pourquoi	ADV	_	_	9	advmod	_	_
+5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+6	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	9	iobj	_	_
+7	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	9	obj	_	SpaceAfter=No
+8	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
+9	expliqué	expliquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 11
+# text = Voilà ce qui se passe.
+1	Voilà	voilà	VERB	_	_	0	root	_	_
+2	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	1	obj	_	_
+3	qui	qui	PRON	_	PronType=Rel	5	nsubj	_	_
+4	se	se	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	_
+5	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 12
+# text = Le couteau, que vous pouvez examiner ; ma main, que vous pouvez examiner.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	couteau	couteau	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	nsubj	_	_
+6	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	acl	_	_
+7	examiner	examiner	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	;	;	PUNCT	_	_	6	punct	_	_
+9	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
+10	main	main	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	6	punct	_	_
+12	que	que	SCONJ	_	_	14	mark	_	_
+13	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	14	nsubj	_	_
+14	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+15	examiner	examiner	VERB	_	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 13
+# text = Je vais juste tenir le couteau dans mon poing comme ceci.
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	juste	juste	ADV	_	_	2	advmod	_	_
+4	tenir	tenir	VERB	_	VerbForm=Inf	2	xcomp	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	couteau	couteau	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	dans	dans	ADP	_	_	9	case	_	_
+8	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_
+9	poing	poing	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	_
+10	comme	comme	ADP	_	_	11	case	_	_
+11	ceci	ceci	PRON	_	Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 14
+# text = Je retrousse ma manche.
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	retrousse	retrousser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	_
+4	manche	manche	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 15
+# text = Pour être sûr qu'il n'y a rien dans mes manches, je vais juste serrer mon poignet ici.
+1	Pour	pour	ADP	_	_	3	mark	_	_
+2	être	être	AUX	_	VerbForm=Inf	3	cop	_	_
+3	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	15	advcl	_	_
+4	qu'	que	SCONJ	_	_	8	mark	_	SpaceAfter=No
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	expl:subj	_	_
+6	n'	ne	ADV	_	Polarity=Neg	8	advmod	_	SpaceAfter=No
+7	y	y	PRON	_	_	8	expl:comp	_	_
+8	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	rien	rien	PRON	_	Number=Sing	8	obj	_	_
+10	dans	dans	ADP	_	_	12	case	_	_
+11	mes	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	12	det	_	_
+12	manches	manche	NOUN	_	Gender=Fem|Number=Plur	8	obl:mod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	3	punct	_	_
+14	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	juste	juste	ADV	_	_	17	advmod	_	_
+17	serrer	serrer	VERB	_	VerbForm=Inf	15	xcomp	_	_
+18	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det	_	_
+19	poignet	poignet	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20	ici	ici	ADV	_	_	17	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 16
+# text = Comme ça vous pouvez voir qu'à aucun moment quoi que ce soit ne peut passer.
+1	Comme	comme	SCONJ	_	_	4	mark	_	_
+2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
+3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	nsubj	_	_
+4	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	voir	voir	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	qu'	que	SCONJ	_	_	9	mark	_	SpaceAfter=No
+7	à	à	ADP	_	_	9	case	_	_
+8	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	9	det	_	_
+9	moment	moment	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
+10	quoi	quoi	PRON	_	PronType=Rel	16	obj	_	_
+11	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+12	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	11	nsubj	_	_
+13	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:tense	_	_
+14	ne	ne	ADV	_	Polarity=Neg	15	advmod	_	_
+15	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+16	passer	passer	VERB	_	VerbForm=Inf	15	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Tant que je serre rien ne peut sortir de ma manche.
+1	Tant	tant	ADV	_	_	4	mark	_	_
+2	que	que	SCONJ	_	_	1	fixed	_	_
+3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	serre	serrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	rien	rien	PRON	_	Number=Sing	4	obj	_	_
+6	ne	ne	ADV	_	Polarity=Neg	7	advmod	_	_
+7	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	xcomp	_	_
+8	sortir	sortir	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	_
+11	manche	manche	NOUN	_	Gender=Fem|Number=Sing	8	obl:arg	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 18
+# text = L'objet de ce tour est assez simple.
+1	L'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	objet	objet	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	tour	tour	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	assez	assez	ADV	_	_	8	advmod	_	_
+8	simple	simple	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 19
+# text = Je vais ouvrir ma main, en espérant, si tout va bien, que mon magnétisme purement animal tiendra le couteau en place.
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ouvrir	ouvrir	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	_
+5	main	main	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	en	en	ADP	_	_	8	mark	_	_
+8	espérant	espérer	VERB	_	Tense=Pres|VerbForm=Part	2	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	si	si	SCONJ	_	_	12	mark	_	_
+11	tout	tout	PRON	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+12	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+13	bien	bien	ADV	_	_	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	20	punct	_	_
+15	que	que	SCONJ	_	_	20	mark	_	_
+16	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det	_	_
+17	magnétisme	magnétisme	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
+18	purement	purement	ADV	_	_	19	advmod	_	_
+19	animal	animal	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+20	tiendra	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	conj	_	_
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	couteau	couteau	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+23	en	en	ADP	_	_	24	case	_	_
+24	place	place	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 20
+# text = En fait, il tient si bien que je peux le secouer et que le couteau ne tombe pas.
+1	En	en	ADP	_	_	5	advmod	_	_
+2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	tient	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	si	si	ADV	_	_	5	advmod	_	_
+7	bien	bien	ADV	_	_	6	fixed	_	_
+8	que	que	SCONJ	_	_	10	mark	_	_
+9	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+11	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+12	secouer	secouer	VERB	_	VerbForm=Inf	10	xcomp	_	_
+13	et	et	CCONJ	_	_	18	cc	_	_
+14	que	que	SCONJ	_	_	18	mark	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	couteau	couteau	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+17	ne	ne	ADV	_	Polarity=Neg	18	advmod	_	_
+18	tombe	tomber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+19	pas	pas	ADV	_	Polarity=Neg	18	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 21
+# text = Rien ne rentre ni ne sort de ma manche, pas de truc.
+1	Rien	rien	PRON	_	_	3	nsubj	_	_
+2	ne	ne	ADV	_	Polarity=Neg	3	advmod	_	_
+3	rentre	rentrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ni	ni	CCONJ	_	_	6	cc	_	_
+5	ne	ne	ADV	_	Polarity=Neg	6	advmod	_	_
+6	sort	sortir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_
+9	manche	manche	NOUN	_	Gender=Fem|Number=Sing	6	obl:arg	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	pas	pas	ADV	_	Polarity=Neg	13	advmod	_	_
+12	de	un	ADP	_	_	13	case	_	_
+13	truc	truc	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = Vous pouvez tout examiner.
+1	Vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	nsubj	_	_
+2	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tout	tout	PRON	_	Gender=Masc|Number=Sing	4	obj	_	_
+4	examiner	examiner	VERB	_	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 23
+# text = Ta-da !
+1	Ta-da	Ta-da	PROPN	_	_	0	root	_	_
+2	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 24
+# text = (Applaudissements)
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Applaudissements	Applaudissement	NOUN	_	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 25
+# text = Voilà, c'est un tour que j'apprends souvent aux jeunes enfants qui s'intéressent à la magie, parce que vous pouvez apprendre pas mal de choses sur l'illusion en l'étudiant de façon méthodologique - même si c'est un tour très simple.
+1	Voilà	voilà	VERB	_	_	6	dislocated	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	tour	tour	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7	que	que	PRON	_	PronType=Rel	9	obj	_	_
+8	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	SpaceAfter=No
+9	apprends	apprendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	souvent	souvent	ADV	_	_	9	advmod	_	_
+11-12	aux	_	_	_	_	_	_	_	_
+11	à	à	ADP	_	_	14	case	_	_
+12	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	jeunes	jeune	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+14	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	9	obl:arg	_	_
+15	qui	qui	PRON	_	PronType=Rel	17	nsubj	_	_
+16	s'	se	PRON	_	Person=3|PronType=Prs	17	expl:comp	_	SpaceAfter=No
+17	intéressent	intéresser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+18	à	à	ADP	_	_	20	case	_	_
+19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	magie	magie	NOUN	_	Gender=Fem|Number=Sing	17	obl:arg	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	25	punct	_	_
+22	parce	parce	ADV	_	_	25	mark	_	_
+23	que	que	SCONJ	_	_	22	fixed	_	_
+24	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	25	nsubj	_	_
+25	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+26	apprendre	apprendre	VERB	_	VerbForm=Inf	25	xcomp	_	_
+27	pas	pas	ADV	_	_	26	advmod	_	_
+28	mal	mal	ADV	_	_	26	obj	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	choses	chose	NOUN	_	Gender=Fem|Number=Plur	28	obl:arg	_	_
+31	sur	sur	ADP	_	_	33	case	_	_
+32	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+33	illusion	illusion	NOUN	_	Gender=Fem|Number=Sing	26	obl	_	_
+34	en	en	ADP	_	_	36	case	_	_
+35	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
+36	étudiant	étudiant	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	façon	façon	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	_
+39	méthodologique	méthodologique	ADJ	_	Gender=Fem|Number=Sing	38	amod	_	_
+40	-	-	PUNCT	_	_	25	punct	_	_
+41	même	même	ADV	_	_	46	advmod	_	_
+42	si	si	SCONJ	_	_	46	mark	_	_
+43	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	46	nsubj	_	SpaceAfter=No
+44	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	cop	_	_
+45	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	tour	tour	NOUN	_	Gender=Masc|Number=Sing	6	advcl	_	_
+47	très	très	ADV	_	_	48	advmod	_	_
+48	simple	simple	ADJ	_	Gender=Masc|Number=Sing	46	amod	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 26
+# text = Il y a probablement beaucoup de gens dans la salle qui connaissent ce tour.
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+2	y	y	PRON	_	_	3	expl:comp	_	_
+3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	probablement	probablement	ADV	_	_	3	advmod	_	_
+5	beaucoup	beaucoup	ADV	_	_	3	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	gens	gen	NOUN	_	Gender=Masc|Number=Plur	5	obl:arg	_	_
+8	dans	dans	ADP	_	_	10	case	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	salle	salle	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	_
+11	qui	qui	PRON	_	PronType=Rel	12	nsubj	_	_
+12	connaissent	connaître	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	tour	tour	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 27
+# text = Je tiens le couteau dans ma main.
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	tiens	tenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	couteau	couteau	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	dans	dans	ADP	_	_	7	case	_	_
+6	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	_
+7	main	main	NOUN	_	Gender=Fem|Number=Sing	2	obl:mod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 28
+# text = Je dis que je vais tenir mon poignet pour être bien sûr que rien ne rentre ni ne sort de ma manche.
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	dis	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj:caus	_	_
+5	vais	aller	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	aux:caus	_	_
+6	tenir	tenir	VERB	_	VerbForm=Inf	2	ccomp	_	_
+7	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_
+8	poignet	poignet	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	pour	pour	ADP	_	_	16	mark	_	_
+10	être	être	AUX	_	VerbForm=Inf	16	aux:tense	_	_
+11	bien	bien	ADV	_	_	16	mark	_	_
+12	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	11	fixed	_	_
+13	que	que	SCONJ	_	_	11	fixed	_	_
+14	rien	rien	PRON	_	Number=Sing	16	nsubj	_	_
+15	ne	ne	ADV	_	Polarity=Neg	16	advmod	_	_
+16	rentre	rentrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+17	ni	ni	CCONJ	_	_	19	cc	_	_
+18	ne	ne	ADV	_	Polarity=Neg	19	advmod	_	_
+19	sort	sortir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det	_	_
+22	manche	manche	NOUN	_	Gender=Fem|Number=Sing	19	obl:arg	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 29
+# text = C'est un mensonge.
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	mensonge	mensonge	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 30
+# text = La raison pour laquelle je tiens mon poignet, c'est parce que c'est en fait le secret de l'illusion.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	raison	raison	NOUN	_	Gender=Fem|Number=Sing	19	dislocated	_	_
+3	pour	pour	ADP	_	_	4	case	_	_
+4	laquelle	lequel	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	6	obl	_	_
+5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	tiens	tenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+7	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_
+8	poignet	poignet	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	2	punct	_	_
+10	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	19	nsubj	_	SpaceAfter=No
+11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+12	parce	parce	ADV	_	_	19	mark	_	_
+13	que	que	SCONJ	_	_	12	fixed	_	_
+14	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	19	nsubj	_	SpaceAfter=No
+15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+16	en	en	ADP	_	_	19	advmod	_	_
+17	fait	fait	NOUN	_	Gender=Masc|Number=Sing	16	fixed	_	_
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	secret	secret	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	illusion	illusion	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 31
+# text = Au moment quand ma main s'écarte de vous pour s'éloigner, ce doigt juste ici, mon index, passe de là où il est à une position pointant comme ceci.
+1-2	Au	_	_	_	_	_	_	_	_
+1	À	à	ADP	_	_	3	case	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	moment	moment	NOUN	_	Gender=Masc|Number=Sing	23	obl:mod	_	_
+4	quand	quand	SCONJ	_	_	8	mark	_	_
+5	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
+6	main	main	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	s'	se	PRON	_	Person=3|PronType=Prs	8	expl:comp	_	SpaceAfter=No
+8	écarte	écarter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	8	obl:arg	_	_
+11	pour	pour	ADP	_	_	13	mark	_	_
+12	s'	se	PRON	_	Person=3|PronType=Prs	13	expl:comp	_	SpaceAfter=No
+13	éloigner	éloigner	VERB	_	VerbForm=Inf	8	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	8	punct	_	_
+15	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+16	doigt	doigt	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
+17	juste	juste	ADV	_	_	18	advmod	_	_
+18	ici	ici	ADV	_	_	16	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det	_	_
+21	index	index	NOUN	_	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	16	punct	_	_
+23	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	là	là	ADV	_	_	23	advmod	_	_
+26	où	où	ADV	_	PronType=Rel	31	advmod	_	_
+27	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+28	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+29	à	à	ADP	_	_	31	case	_	_
+30	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	position	position	NOUN	_	Gender=Fem|Number=Sing	23	obj	_	_
+32	pointant	pointer	VERB	_	Tense=Pres|VerbForm=Part	31	acl	_	_
+33	comme	comme	ADP	_	_	34	case	_	_
+34	ceci	ceci	PRON	_	Number=Sing	32	obl:mod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 32
+# text = Pas mal.
+1	Pas	pas	ADV	_	_	2	advmod	_	_
+2	mal	mal	ADV	_	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 33
+# text = Il y a quelqu'un qui n'a pas eu d'enfance ici.
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+2	y	y	PRON	_	_	3	expl:comp	_	_
+3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	qui	qui	PRON	_	PronType=Rel	9	nsubj	_	_
+6	n'	ne	ADV	_	Polarity=Neg	9	advmod	_	SpaceAfter=No
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:tense	_	_
+8	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	_
+9	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+10	d'	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	enfance	enfance	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	ici	ici	ADV	_	_	9	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 34
+# text = (Rires) Donc, c'est comme ça, d'ici, voilà.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Rires	Rires	PROPN	_	_	9	dislocated	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+4	Donc	donc	ADV	_	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	9	nsubj	_	SpaceAfter=No
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	comme	comme	ADP	_	_	9	case	_	_
+9	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	14	punct	_	_
+11	d'	de	ADP	_	_	14	advmod	_	SpaceAfter=No
+12	ici	ici	ADV	_	_	11	fixed	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	voilà	voilà	VERB	_	_	9	parataxis	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 35
+# text = Quand je bouge, mon doigt change de place.
+1	Quand	quand	SCONJ	_	_	3	mark	_	_
+2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	bouge	bouger	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
+6	doigt	doigt	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	change	changer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	place	place	NOUN	_	Gender=Fem|Number=Sing	7	obl:arg	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 36
+# text = On pourrait parler de pourquoi c'est une illusion, pourquoi vous ne remarquez pas qu'il n'y a que 3 doigts ici, parce que l'esprit, dans la manière qu'il a de traiter l'information, il ne compte pas un, deux, trois.
+1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	pourrait	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	parler	parler	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	de	de	ADP	_	_	9	mark	_	_
+5	pourquoi	pourquoi	ADV	_	_	4	fixed	_	_
+6	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	9	nsubj	_	SpaceAfter=No
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	illusion	illusion	NOUN	_	Gender=Fem|Number=Sing	3	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	14	punct	_	_
+11	pourquoi	pourquoi	ADV	_	_	14	advmod	_	_
+12	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	14	nsubj	_	_
+13	ne	ne	ADV	_	Polarity=Neg	14	advmod	_	_
+14	remarquez	remarquer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	acl	_	_
+15	pas	pas	ADV	_	Polarity=Neg	14	advmod	_	_
+16	qu'	que	SCONJ	_	_	20	mark	_	SpaceAfter=No
+17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	expl:subj	_	_
+18	n'	ne	ADV	_	Polarity=Neg	20	advmod	_	SpaceAfter=No
+19	y	y	PRON	_	_	20	expl:comp	_	_
+20	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+21	que	que	ADV	_	_	23	advmod	_	_
+22	3	3	NUM	_	_	23	nummod	_	_
+23	doigts	doigt	NOUN	_	Gender=Masc|Number=Plur	20	obj	_	_
+24	ici	ici	ADV	_	_	20	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	29	punct	_	_
+26	parce	parce	ADV	_	_	29	cc	_	_
+27	que	que	SCONJ	_	_	26	fixed	_	_
+28	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	SpaceAfter=No
+29	esprit	esprit	NOUN	_	Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	33	punct	_	_
+31	dans	dans	ADP	_	_	33	case	_	_
+32	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	manière	manière	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+34	qu'	que	PRON	_	PronType=Rel	36	obj	_	SpaceAfter=No
+35	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	_
+36	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	_
+37	de	de	ADP	_	_	38	mark	_	_
+38	traiter	traiter	VERB	_	VerbForm=Inf	36	xcomp	_	_
+39	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	SpaceAfter=No
+40	information	information	NOUN	_	Gender=Fem|Number=Sing	38	obj	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	44	punct	_	_
+42	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	44	nsubj	_	_
+43	ne	ne	ADV	_	Polarity=Neg	44	advmod	_	_
+44	compte	compter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+45	pas	pas	ADV	_	Polarity=Neg	44	advmod	_	_
+46	un	un	NUM	_	_	44	obj	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	48	punct	_	_
+48	deux	deux	NUM	_	_	46	conj	_	SpaceAfter=No
+49	,	,	PUNCT	_	_	50	punct	_	_
+50	trois	trois	NUM	_	_	46	conj	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 37
+# text = Il regroupe.
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	regroupe	regrouper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 38
+# text = Ce n'est pas vraiment le sujet.
+1	Ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	7	nsubj	_	_
+2	n'	ne	ADV	_	Polarity=Neg	7	advmod	_	SpaceAfter=No
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	_
+5	vraiment	vraiment	ADV	_	_	7	advmod	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sujet	sujet	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 39
+# text = Là, j'ouvre ma main.
+1	Là	là	ADV	_	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+4	ouvre	ouvrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
+6	main	main	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 40
+# text = Apparemment ça tient, pas par magnétisme animal mais par tromperie, mon index étant ici.
+1	Apparemment	apparemment	ADV	_	_	3	advmod	_	_
+2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
+3	tient	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	pas	pas	ADV	_	Polarity=Neg	7	advmod	_	_
+6	par	par	ADP	_	_	7	case	_	_
+7	magnétisme	magnétisme	NOUN	_	Gender=Masc|Number=Sing	3	obl:mod	_	_
+8	animal	animal	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+9	mais	mais	CCONJ	_	_	16	cc	_	_
+10	par	par	ADP	_	_	11	case	_	_
+11	tromperie	tromperie	NOUN	_	Gender=Fem|Number=Sing	16	obl:mod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det	_	_
+14	index	index	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+15	étant	être	AUX	_	Tense=Pres|VerbForm=Part	16	cop	_	_
+16	ici	ici	ADV	_	_	3	conj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 41
+# text = Après quand je ferme mon doigt, pareil, je recule : ce mouvement couvre d'une certaine manière le retrait du doigt.
+1	Après	après	ADP	_	_	4	mark	_	_
+2	quand	quand	SCONJ	_	_	4	mark	_	_
+3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	ferme	fermer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+5	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
+6	doigt	doigt	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	pareil	pareil	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	4	punct	_	_
+10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	recule	reculer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	:	:	PUNCT	_	_	15	punct	_	_
+13	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	mouvement	mouvement	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+15	couvre	couvrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
+16	d'	de	ADP	_	_	19	case	_	SpaceAfter=No
+17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	certaine	certain	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+19	manière	manière	NOUN	_	Gender=Fem|Number=Sing	15	obl:mod	_	_
+20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	retrait	retrait	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+22-23	du	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	doigt	doigt	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 42
+# text = J'enlève cette main.
+1	J'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No
+2	enlève	enlever	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	main	main	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 43
+# text = Je vous redonne le couteau.
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	3	iobj	_	_
+3	redonne	redonner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	couteau	couteau	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 44
+# text = C'est un tour que vous pouvez faire à vos amis et voisins.
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tour	tour	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	que	que	PRON	_	PronType=Rel	8	obj	_	_
+6	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	7	nsubj	_	_
+7	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	faire	faire	VERB	_	VerbForm=Inf	7	xcomp	_	_
+9	à	à	ADP	_	_	11	case	_	_
+10	vos	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det	_	_
+11	amis	ami	NOUN	_	Gender=Masc|Number=Plur	8	obl:mod	_	_
+12	et	et	CCONJ	_	_	13	cc	_	_
+13	voisins	voisin	NOUN	_	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 45
+# text = Merci.
+1	Merci	merci	INTJ	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 46
+# text = Maintenant, qu'est-ce que ça a à voir avec l'effet placebo ?
+1	Maintenant	maintenant	ADV	_	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	qu'	que	PRON	_	PronType=Int	5	nsubj	_	SpaceAfter=No
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+5	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	0	root	_	_
+6	que	que	PRON	_	PronType=Rel	8	obj	_	_
+7	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	_
+8	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+9	à	à	ADP	_	_	10	mark	_	_
+10	voir	voir	VERB	_	VerbForm=Inf	8	xcomp	_	_
+11	avec	avec	ADP	_	_	13	case	_	_
+12	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	effet	effet	NOUN	_	Gender=Masc|Number=Sing	10	obl:mod	_	_
+14	placebo	placebo	X	_	_	13	appos	_	_
+15	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 47
+# text = J'ai lu une étude, il y a près d'un an qui m'a vraiment ouvert l'esprit.
+1	J'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
+3	lu	lire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	étude	étude	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	expl:subj	_	_
+8	y	y	PRON	_	_	9	expl:comp	_	_
+9	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	près	près	ADV	_	_	9	obj	_	_
+11	d'	de	ADP	_	_	13	case	_	SpaceAfter=No
+12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	an	an	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	_
+14	qui	qui	PRON	_	PronType=Rel	20	nsubj	_	_
+15	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	20	iobj	_	SpaceAfter=No
+16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+17	vraiment	vraiment	ADV	_	_	18	advmod	_	_
+18	ouvert	ouvert	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+19	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	esprit	esprit	NOUN	_	Gender=Masc|Number=Sing	13	acl:relcl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 48
+# text = Je ne suis ni un docteur ni un chercheur, donc ça, pour moi, c'était une chose ahurissante.
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	ne	ne	ADV	_	Polarity=Neg	6	advmod	_	_
+3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	ni	ni	CCONJ	_	_	6	cc	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	docteur	docteur	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7	ni	ni	CCONJ	_	_	9	cc	_	_
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	chercheur	chercheur	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	donc	donc	CCONJ	_	_	12	cc	_	_
+12	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	pour	pour	ADP	_	_	15	case	_	_
+15	moi	soi	PRON	_	Number=Sing|Person=1	6	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	20	punct	_	_
+17	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	20	nsubj	_	SpaceAfter=No
+18	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
+19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	chose	chose	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
+21	ahurissante	ahurissant	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 49
+# text = Il s'avère que si vous administrez un placebo sous la forme d'un comprimé blanc, c'est comme la forme d'une aspirine, c'est juste un comprimé blanc et rond, il a un effet mesurable.
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	s'	se	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	SpaceAfter=No
+3	avère	avérer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	ADV	_	_	7	advmod	_	_
+5	si	si	SCONJ	_	_	7	mark	_	_
+6	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	7	nsubj	_	_
+7	administrez	administr	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	placebo	placebo	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	sous	sous	ADP	_	_	12	case	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	forme	forme	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	_
+13	d'	de	ADP	_	_	15	case	_	SpaceAfter=No
+14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	comprimé	comprimé	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16	blanc	blanc	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	22	punct	_	_
+18	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	22	nsubj	_	SpaceAfter=No
+19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+20	comme	comme	ADP	_	_	22	case	_	_
+21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	forme	forme	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
+23	d'	de	ADP	_	_	25	case	_	SpaceAfter=No
+24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	aspirine	aspirine	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	31	punct	_	_
+27	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	31	nsubj	_	SpaceAfter=No
+28	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+29	juste	juste	ADV	_	_	31	advmod	_	_
+30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	comprimé	comprimé	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	_
+32	blanc	blanc	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
+33	et	et	CCONJ	_	_	34	cc	_	_
+34	rond	rond	ADJ	_	Gender=Masc|Number=Sing	32	conj	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	37	punct	_	_
+36	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	nsubj	_	_
+37	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+38	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	effet	effet	NOUN	_	Gender=Masc|Number=Sing	37	obj	_	_
+40	mesurable	mesurable	ADJ	_	Gender=Masc|Number=Sing	39	amod	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 50
+# text = Si vous changez la forme du placebo, comme par exemple un comprimé plus petit, et de couleur bleue, avec une lettre en creux, c'est en fait plus efficace de façon mesurable bien qu'aucun des deux produits ne soit un médicament - ce sont des comprimés de sucre.
+1	Si	si	SCONJ	_	_	3	mark	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
+3	changez	changer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	34	advcl	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	forme	forme	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	du	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	placebo	placebo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	14	punct	_	_
+10	comme	comme	SCONJ	_	_	14	mark	_	_
+11	par	par	ADP	_	_	14	advmod	_	_
+12	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	11	fixed	_	_
+13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	comprimé	comprimé	NOUN	_	Gender=Masc|Number=Sing	3	advcl	_	_
+15	plus	plus	ADV	_	_	16	advmod	_	_
+16	petit	petit	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	et	et	CCONJ	_	_	20	cc	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	couleur	couleur	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
+21	bleue	bleu	ADJ	_	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	25	punct	_	_
+23	avec	avec	ADP	_	_	25	case	_	_
+24	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	lettre	lettre	NOUN	_	Gender=Fem|Number=Sing	20	obl:mod	_	_
+26	en	en	ADP	_	_	27	case	_	_
+27	creux	creux	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	3	punct	_	_
+29	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	34	nsubj	_	SpaceAfter=No
+30	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+31	en	en	ADP	_	_	34	advmod	_	_
+32	fait	fait	NOUN	_	Gender=Masc|Number=Sing	31	fixed	_	_
+33	plus	plus	ADV	_	_	34	advmod	_	_
+34	efficace	efficace	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+35	de	de	ADP	_	_	36	case	_	_
+36	façon	façon	NOUN	_	Gender=Fem|Number=Sing	34	obl:mod	_	_
+37	mesurable	mesurable	ADJ	_	Gender=Fem|Number=Sing	36	amod	_	_
+38	bien	bien	ADV	_	_	48	mark	_	_
+39	qu'	que	SCONJ	_	_	38	fixed	_	SpaceAfter=No
+40	aucun	aucun	PRON	_	Gender=Masc|Number=Sing	48	nsubj	_	_
+41-42	des	_	_	_	_	_	_	_	_
+41	de	de	ADP	_	_	44	case	_	_
+42	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	_	_
+43	deux	deux	NUM	_	_	44	nummod	_	_
+44	produits	produit	NOUN	_	Gender=Masc|Number=Plur	40	nmod	_	_
+45	ne	ne	ADV	_	Polarity=Neg	48	advmod	_	_
+46	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	cop	_	_
+47	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	médicament	médicament	NOUN	_	Gender=Masc|Number=Sing	34	advcl	_	_
+49	-	-	PUNCT	_	_	50	punct	_	_
+50	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	48	appos	_	_
+51	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	54	cop	_	_
+52-53	des	_	_	_	_	_	_	_	_
+52	de	de	ADP	_	_	54	case	_	_
+53	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	54	det	_	_
+54	comprimés	comprimé	NOUN	_	Gender=Masc|Number=Plur	34	obl:arg	_	_
+55	de	de	ADP	_	_	56	case	_	_
+56	sucre	sucre	NOUN	_	Gender=Masc|Number=Sing	54	nmod	_	SpaceAfter=No
+57	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 51
+# text = Mais un comprimé blanc n'est pas aussi bon qu'une comprimé bleu Quoi ?
+1	Mais	mais	CCONJ	_	_	9	cc	_	_
+2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	comprimé	comprimé	NOUN	_	Gender=Masc|Number=Sing	9	nsubj	_	_
+4	blanc	blanc	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+5	n'	ne	ADV	_	Polarity=Neg	9	advmod	_	SpaceAfter=No
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	pas	pas	ADV	_	Polarity=Neg	9	advmod	_	_
+8	aussi	aussi	ADV	_	_	9	advmod	_	_
+9	bon	bon	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+10	qu'	que	SCONJ	_	_	12	case	_	SpaceAfter=No
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	comprimé	comprimé	NOUN	_	Gender=Masc|Number=Sing	9	obl:mod	_	_
+13	bleu	bleu	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+14	Quoi	quoi	PROPN	_	_	12	appos	_	_
+15	?	?	PUNCT	_	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 52
+# text = Ca m'a secoué.
+1	Ca	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
+2	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	4	obj	_	SpaceAfter=No
+3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+4	secoué	secouer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 53
+# text = Il s'avère que ça ne s'arrête pas là.
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	_
+2	s'	se	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	SpaceAfter=No
+3	avère	avérer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	8	mark	_	_
+5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	_
+6	ne	ne	ADV	_	Polarity=Neg	8	advmod	_	_
+7	s'	se	PRON	_	Person=3|PronType=Prs	8	expl:pass	_	SpaceAfter=No
+8	arrête	arrêter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	pas	pas	ADV	_	Polarity=Neg	8	advmod	_	_
+10	là	là	ADV	_	_	8	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 54
+# text = Si vous avez des gélules, elles sont plus efficaces que les cachets sous toutes les formes.
+1	Si	si	SCONJ	_	_	3	mark	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
+3	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+4-5	des	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	gélules	gélule	NOUN	_	Gender=Fem|Number=Plur	3	obl:arg	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+9	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	plus	plus	ADV	_	_	11	advmod	_	_
+11	efficaces	efficace	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
+12	que	que	SCONJ	_	_	14	case	_	_
+13	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	cachets	cachet	NOUN	_	Gender=Masc|Number=Plur	11	obl:mod	_	_
+15	sous	sous	ADP	_	_	18	case	_	_
+16	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	18	amod	_	_
+17	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	formes	forme	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 55
+# text = Une gélule colorée, qui est jaune d'un coté et rouge de l'autre, est meilleure qu'une gélule blanche.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	gélule	gélule	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
+3	colorée	colorer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	qui	qui	PRON	_	PronType=Rel	7	nsubj	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	jaune	jaune	ADJ	_	Gender=Masc|Number=Sing	2	acl:relcl	_	_
+8	d'	de	ADP	_	_	10	case	_	SpaceAfter=No
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	coté	côté	NOUN	_	Gender=Masc|Number=Sing	7	obl:arg	_	_
+11	et	et	CCONJ	_	_	12	cc	_	_
+12	rouge	rouge	NOUN	_	Gender=Masc|Number=Sing	10	conj	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	autre	autre	PRON	_	Number=Sing	10	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	2	punct	_	_
+17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	meilleure	meilleur	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+19	qu'	que	SCONJ	_	_	21	case	_	SpaceAfter=No
+20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	gélule	gélule	NOUN	_	Gender=Fem|Number=Sing	18	obl:mod	_	_
+22	blanche	blanc	ADJ	_	Gender=Fem|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 56
+# text = Le dosage a quelque chose à voir avec ça.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	dosage	dosage	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	quelque	quelque	DET	_	Gender=Fem|Number=Sing	5	det	_	_
+5	chose	chose	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	à	à	ADP	_	_	7	mark	_	_
+7	voir	voir	VERB	_	VerbForm=Inf	5	acl	_	_
+8	avec	avec	ADP	_	_	9	case	_	_
+9	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	obl:arg	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 57
+# text = Un cachet deux fois par jour n'est pas aussi bon que trois cachets...
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	cachet	cachet	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+3	deux	deux	NUM	_	_	4	nummod	_	_
+4	fois	fois	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+5	par	par	ADP	_	_	6	case	_	_
+6	jour	jour	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+7	n'	ne	ADV	_	Polarity=Neg	11	advmod	_	SpaceAfter=No
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	pas	pas	ADV	_	Polarity=Neg	11	advmod	_	_
+10	aussi	aussi	ADV	_	_	11	advmod	_	_
+11	bon	bon	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+12	que	que	SCONJ	_	_	14	case	_	_
+13	trois	trois	NUM	_	_	14	nummod	_	_
+14	cachets	cachet	NOUN	_	Gender=Masc|Number=Plur	11	obl:mod	_	SpaceAfter=No
+15	...	...	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 58
+# text = Je ne me souviens plus des statistiques... désolé.
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	ne	ne	ADV	_	Polarity=Neg	4	advmod	_	_
+3	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	4	expl:comp	_	_
+4	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	plus	plus	ADV	_	_	4	obj	_	_
+6-7	des	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	statistiques	statistique	NOUN	_	Gender=Fem|Number=Plur	5	obl:arg	_	SpaceAfter=No
+9	...	...	PUNCT	_	_	10	punct	_	_
+10	désolé	désoler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 59
+# text = Ce que je veux dire, c'est que les dosages ont quelque chose à voir avec ça.
+1	Ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	8	dislocated	_	_
+2	que	que	PRON	_	PronType=Rel	5	obj	_	_
+3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	dire	dire	VERB	_	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	1	punct	_	_
+7	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	8	nsubj	_	SpaceAfter=No
+8	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	que	que	SCONJ	_	_	12	mark	_	_
+10	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	dosages	dosage	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
+12	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+13	quelque	quelque	DET	_	Gender=Fem|Number=Sing	14	det	_	_
+14	chose	chose	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	à	à	ADP	_	_	16	mark	_	_
+16	voir	voir	VERB	_	VerbForm=Inf	14	acl	_	_
+17	avec	avec	ADP	_	_	18	case	_	_
+18	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	obl:arg	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 60
+# text = La forme y est aussi pour quelque chose.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	forme	forme	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	y	y	PRON	_	_	8	obl:mod	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	aussi	aussi	ADV	_	_	8	advmod	_	_
+6	pour	pour	ADP	_	_	8	case	_	_
+7	quelque	quelque	DET	_	Gender=Fem|Number=Sing	8	det	_	_
+8	chose	chose	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 61
+# text = Si vous voulez le placebo ultime, vous avez l'aiguille.
+1	Si	si	SCONJ	_	_	3	mark	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
+3	voulez	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	placebo	placebo	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	ultime	ultime	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	9	nsubj	_	_
+9	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	aiguille	aiguille	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 62
+# text = Une seringue avec quelque chose d'inerte, quelques centimètres cubes de quelque chose d'inerte que vous injectez au patient.
+1	Une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	seringue	seringue	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	avec	avec	ADP	_	_	5	case	_	_
+4	quelque	quelque	DET	_	Gender=Fem|Number=Sing	5	det	_	_
+5	chose	chose	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
+7	inerte	inerte	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	quelques	quelque	DET	_	Gender=Masc|Number=Plur	10	det	_	_
+10	centimètres	centimètre	NOUN	_	Gender=Masc|Number=Plur	5	appos	_	_
+11	cubes	cube	NOUN	_	Gender=Masc|Number=Plur	10	appos	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	quelque	quelque	DET	_	Gender=Fem|Number=Sing	14	det	_	_
+14	chose	chose	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+15	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
+16	inerte	inerte	ADJ	_	Gender=Masc|Number=Sing	14	nmod	_	_
+17	que	que	SCONJ	_	_	19	mark	_	_
+18	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	19	nsubj	_	_
+19	injectez	injecter	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	acl	_	_
+20-21	au	_	_	_	_	_	_	_	_
+20	à	à	ADP	_	_	22	case	_	_
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	patient	patient	NOUN	_	Gender=Masc|Number=Sing	19	obl:arg	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 63
+# text = C'est une image tellement puissante dans son esprit, c'est tellement plus fort que le comprimé blanc.
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	image	image	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	tellement	tellement	ADV	_	_	6	advmod	_	_
+6	puissante	puissant	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+7	dans	dans	ADP	_	_	9	case	_	_
+8	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_
+9	esprit	esprit	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	14	punct	_	_
+11	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	14	expl:subj	_	SpaceAfter=No
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	tellement	tellement	ADV	_	_	14	advmod	_	_
+14	plus	plus	ADV	_	_	15	advmod	_	_
+15	fort	fort	ADV	_	_	4	advmod	_	_
+16	que	que	SCONJ	_	_	18	case	_	_
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	comprimé	comprimé	NOUN	_	Gender=Masc|Number=Sing	15	obl:mod	_	_
+19	blanc	blanc	ADJ	_	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 64
+# text = Le graphique, je vais vous le montrer à un autre moment quand on aura des diapos.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	graphique	graphique	NOUN	_	Gender=Masc|Number=Sing	5	dislocated	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	8	iobj	_	_
+7	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	montrer	montrer	VERB	_	VerbForm=Inf	5	xcomp	_	_
+9	à	à	ADP	_	_	12	case	_	_
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	autre	autre	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+12	moment	moment	NOUN	_	Gender=Masc|Number=Sing	8	obl:mod	_	_
+13	quand	quand	SCONJ	_	_	15	mark	_	_
+14	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+15	aura	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	advcl	_	_
+16-17	des	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	diapos	diapos	NOUN	_	Gender=Masc|Number=Plur	15	obl:arg	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 65
+# text = Ce que je veux dire, c'est que le comprimé blanc n'est pas aussi bon que le comprimé bleu, qui n'est pas aussi bon que la gélule, qui n'est pas aussi bonne que l'aiguille.
+1	Ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	8	dislocated	_	_
+2	que	que	PRON	_	PronType=Rel	5	obj	_	_
+3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	dire	dire	VERB	_	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	1	punct	_	_
+7	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	8	nsubj	_	SpaceAfter=No
+8	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	que	que	SCONJ	_	_	17	mark	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	comprimé	comprimé	NOUN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+12	blanc	blanc	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+13	n'	ne	ADV	_	Polarity=Neg	17	advmod	_	SpaceAfter=No
+14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	pas	pas	ADV	_	Polarity=Neg	17	advmod	_	_
+16	aussi	aussi	ADV	_	_	17	advmod	_	_
+17	bon	bon	ADJ	_	Gender=Masc|Number=Sing	8	ccomp	_	_
+18	que	que	SCONJ	_	_	20	case	_	_
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	comprimé	comprimé	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	_
+21	bleu	bleu	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	28	punct	_	_
+23	qui	qui	PRON	_	PronType=Rel	28	nsubj	_	_
+24	n'	ne	ADV	_	Polarity=Neg	28	advmod	_	SpaceAfter=No
+25	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+26	pas	pas	ADV	_	Polarity=Neg	28	advmod	_	_
+27	aussi	aussi	ADV	_	_	28	advmod	_	_
+28	bon	bon	ADJ	_	Gender=Masc|Number=Sing	20	acl:relcl	_	_
+29	que	que	SCONJ	_	_	31	case	_	_
+30	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	gélule	gélule	NOUN	_	Gender=Fem|Number=Sing	28	obl:mod	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	38	punct	_	_
+33	qui	qui	PRON	_	PronType=Rel	38	nsubj	_	_
+34	n'	ne	ADV	_	Polarity=Neg	38	advmod	_	SpaceAfter=No
+35	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
+36	pas	pas	ADV	_	Polarity=Neg	38	advmod	_	_
+37	aussi	aussi	ADV	_	_	38	advmod	_	_
+38	bonne	bon	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	20	acl:relcl	_	_
+39	que	que	SCONJ	_	_	41	case	_	_
+40	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	SpaceAfter=No
+41	aiguille	aiguille	NOUN	_	Gender=Fem|Number=Sing	38	obl:mod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 66
+# text = Aucun ne possède de qualité pharmaceutique réelle.
+1	Aucun	aucun	PRON	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	ne	ne	ADV	_	Polarity=Neg	3	advmod	_	_
+3	possède	posséder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	qualité	qualité	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	_
+6	pharmaceutique	pharmaceutique	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+7	réelle	réel	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 67
+# text = Ce n'est que votre croyance qui le rend réel dans votre corps et donne un effet plus fort.
+1	Ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
+2	n'	ne	ADV	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	que	que	ADV	_	_	6	advmod	_	_
+5	votre	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
+6	croyance	croyance	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+7	qui	qui	PRON	_	PronType=Rel	9	nsubj	_	_
+8	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	rend	rendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	réel	réel	ADJ	_	Gender=Masc|Number=Sing	9	xcomp	_	_
+11	dans	dans	ADP	_	_	13	case	_	_
+12	votre	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det	_	_
+13	corps	corps	NOUN	_	Gender=Masc|Number=Sing	9	obl:arg	_	_
+14	et	et	CCONJ	_	_	15	cc	_	_
+15	donne	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	effet	effet	NOUN	_	Gender=Masc|Number=Sing	15	obj	_	_
+18	plus	plus	ADV	_	_	19	advmod	_	_
+19	fort	fort	ADV	_	_	17	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 68
+# text = Je voulais voir si je pouvais prendre cette idée et l'appliquer un tour de magie.
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	voulais	voulais	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	voir	voir	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	si	si	SCONJ	_	_	6	mark	_	_
+5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	pouvais	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+7	prendre	prendre	VERB	_	VerbForm=Inf	6	xcomp	_	_
+8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	idée	idée	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	et	et	CCONJ	_	_	12	cc	_	_
+11	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	12	obj	_	SpaceAfter=No
+12	appliquer	appliquer	VERB	_	VerbForm=Inf	3	conj	_	_
+13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	tour	tour	NOUN	_	Gender=Masc|Number=Sing	12	obl	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	magie	magie	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 69
+# text = Prendre quelque chose qui est apparemment un tour truqué et lui donner l'apparence de la réalité.
+1	Prendre	prendre	VERB	_	VerbForm=Inf	0	root	_	_
+2	quelque	quelque	DET	_	Gender=Fem|Number=Sing	3	det	_	_
+3	chose	chose	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	qui	qui	PRON	_	PronType=Rel	8	nsubj	_	_
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	apparemment	apparemment	ADV	_	_	8	advmod	_	_
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	tour	tour	NOUN	_	Gender=Masc|Number=Sing	3	acl:relcl	_	_
+9	truqué	truqué	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+10	et	et	CCONJ	_	_	12	cc	_	_
+11	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	12	iobj	_	_
+12	donner	donner	VERB	_	VerbForm=Inf	1	conj	_	_
+13	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	apparence	apparence	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	réalité	réalité	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 70
+# text = Nous savons de cette étude que, quand vous voulez la réalité, vous prenez l'aiguille.
+1	Nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	savons	savoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	étude	étude	NOUN	_	Gender=Fem|Number=Sing	2	obl:arg	_	_
+6	que	que	SCONJ	_	_	15	mark	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	quand	quand	SCONJ	_	_	10	mark	_	_
+9	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	10	nsubj	_	_
+10	voulez	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	réalité	réalité	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	10	punct	_	_
+14	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	15	nsubj	_	_
+15	prenez	prendre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	acl	_	_
+16	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	aiguille	aiguille	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 71
+# text = Voici une épingle à chapeau de 18 cm.
+1	Voici	voici	VERB	_	_	0	root	_	_
+2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	épingle	épingle	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	à	à	ADP	_	_	5	case	_	_
+5	chapeau	chapeau	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	18	18	NUM	_	_	8	nummod	_	_
+8	cm	cm	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 72
+# text = C'est très pointu.
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj:pass	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	très	très	ADV	_	_	4	advmod	_	_
+4	pointu	pointre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 73
+# text = Je vais juste la stériliser un peu.
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	juste	juste	ADV	_	_	5	advmod	_	_
+4	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	stériliser	stériliser	VERB	_	VerbForm=Inf	2	xcomp	_	_
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	advmod	_	_
+7	peu	peu	ADV	_	_	6	fixed	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 74
+# text = C'est vraiment ma chair.
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	vraiment	vraiment	ADV	_	_	5	advmod	_	_
+4	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	_
+5	chair	chair	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 75
+# text = Ce n'est pas la chair que fait pousser Damian.
+1	Ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
+2	n'	ne	ADV	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	chair	chair	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7	que	que	PRON	_	PronType=Rel	9	obj	_	_
+8	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:caus	_	_
+9	pousser	pousser	VERB	_	VerbForm=Inf	6	acl:relcl	_	_
+10	Damian	Damian	PROPN	_	_	6	appos	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 76
+# text = C'est ma peau juste là.
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	_
+4	peau	peau	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	juste	juste	ADV	_	_	6	advmod	_	_
+6	là	là	ADV	_	_	4	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 77
+# text = Ce n'est pas un effet spécial de Hollywood.
+1	Ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
+2	n'	ne	ADV	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	effet	effet	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7	spécial	spécial	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Hollywood	Hollywood	PROPN	_	_	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 78
+# text = Je vais percer ma peau et passer cette aiguille à travers jusqu'à l'autre coté.
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	percer	percer	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	_
+5	peau	peau	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	et	et	CCONJ	_	_	7	cc	_	_
+7	passer	passer	VERB	_	VerbForm=Inf	3	conj	_	_
+8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	aiguille	aiguille	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	à	à	ADP	_	_	7	advmod	_	_
+11	travers	travers	NOUN	_	Gender=Masc|Number=Sing	10	fixed	_	_
+12	jusqu'	jusque	ADV	_	_	16	advmod	_	SpaceAfter=No
+13	à	à	ADP	_	_	16	case	_	_
+14	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+15	autre	autre	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+16	coté	côté	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 79
+# text = Si vous ne supportez pas la vue du sang, si vous tombez dans les pommes facilement - je faisais ce tour à des amis dans ma chambre d'hôtel hier soir à certaines personnes que je ne connaissais pas, et une dame a presque tourné de l'oeil - si vous êtes sensibles, regardez ailleurs les 30 prochaines secondes.
+1	Si	si	SCONJ	_	_	4	mark	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	nsubj	_	_
+3	ne	ne	ADV	_	Polarity=Neg	4	advmod	_	_
+4	supportez	supporter	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+5	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	vue	vue	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+8-9	du	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	sang	sang	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	4	punct	_	_
+12	si	si	SCONJ	_	_	14	mark	_	_
+13	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	14	nsubj	_	_
+14	tombez	tomber	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+15	dans	dans	ADP	_	_	17	case	_	_
+16	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	pommes	pomme	NOUN	_	Gender=Fem|Number=Plur	14	obl:mod	_	_
+18	facilement	facilement	ADV	_	_	14	advmod	_	_
+19	-	-	PUNCT	_	_	4	punct	_	_
+20	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+21	faisais	faire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
+23	tour	tour	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+24	à	à	ADP	_	_	27	case	_	_
+25-26	des	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	amis	ami	NOUN	_	Gender=Masc|Number=Plur	21	obl:arg	_	_
+28	dans	dans	ADP	_	_	30	case	_	_
+29	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	30	det	_	_
+30	chambre	chambre	NOUN	_	Gender=Fem|Number=Sing	21	obl:mod	_	_
+31	d'	de	ADP	_	_	32	case	_	SpaceAfter=No
+32	hôtel	hôtel	NOUN	_	Gender=Masc|Number=Sing	30	nmod	_	_
+33	hier	hier	ADV	_	_	30	advmod	_	_
+34	soir	soir	NOUN	_	Gender=Masc|Number=Sing	33	obl	_	_
+35	à	à	ADP	_	_	37	case	_	_
+36	certaines	certain	DET	_	Gender=Fem|Number=Plur	37	det	_	_
+37	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	30	nmod	_	_
+38	que	que	PRON	_	PronType=Rel	41	obj	_	_
+39	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	41	nsubj	_	_
+40	ne	ne	ADV	_	Polarity=Neg	41	advmod	_	_
+41	connaissais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	37	acl:relcl	_	_
+42	pas	pas	ADV	_	Polarity=Neg	41	advmod	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	49	punct	_	_
+44	et	et	CCONJ	_	_	49	cc	_	_
+45	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	dame	dame	NOUN	_	Gender=Fem|Number=Sing	49	nsubj	_	_
+47	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	aux:tense	_	_
+48	presque	presque	ADV	_	_	49	advmod	_	_
+49	tourné	tourner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	conj	_	_
+50	de	de	ADP	_	_	52	case	_	_
+51	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	SpaceAfter=No
+52	oeil	oeil	NOUN	_	Gender=Masc|Number=Sing	49	obl:arg	_	_
+53	-	-	PUNCT	_	_	57	punct	_	_
+54	si	si	SCONJ	_	_	57	mark	_	_
+55	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	57	nsubj	_	_
+56	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	57	cop	_	_
+57	sensibles	sensible	ADJ	_	Gender=Masc|Number=Plur	21	advcl	_	SpaceAfter=No
+58	,	,	PUNCT	_	_	57	punct	_	_
+59	regardez	regarder	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+60	ailleurs	ailleurs	ADV	_	_	59	advmod	_	_
+61	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	64	det	_	_
+62	30	30	NUM	_	_	64	nummod	_	_
+63	prochaines	prochain	ADJ	_	Gender=Fem|Number=Plur	64	amod	_	_
+64	secondes	seconde	NOUN	_	Gender=Fem|Number=Plur	59	obj	_	SpaceAfter=No
+65	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 80
+# text = En fait, vous savez quoi, je vais faire la partie difficile derrière.
+1	En	en	ADP	_	_	5	advmod	_	_
+2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	nsubj	_	_
+5	savez	savoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+6	quoi	quoi	PRON	_	_	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	faire	faire	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	partie	partie	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13	difficile	difficile	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+14	derrière	derrière	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 81
+# text = Vous pouvez voir mais vous pouvez aussi regarder ailleurs.
+1	Vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	nsubj	_	_
+2	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	voir	voir	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	mais	mais	CCONJ	_	_	6	cc	_	_
+5	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	nsubj	_	_
+6	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	aussi	aussi	ADV	_	_	6	advmod	_	_
+8	regarder	regarder	VERB	_	VerbForm=Inf	6	xcomp	_	_
+9	ailleurs	ailleurs	ADV	_	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 82
+# text = Donc, voilà ce qui se passe, juste là, le début de ma chair dans la partie inférieure du bras, je vais juste percer un peu.
+1	Donc	donc	ADV	_	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	voilà	voilà	VERB	_	_	0	root	_	_
+4	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	3	obj	_	_
+5	qui	qui	PRON	_	PronType=Rel	7	nsubj	_	_
+6	se	se	PRON	_	Person=3|PronType=Prs	7	expl:comp	_	_
+7	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	juste	juste	ADV	_	_	10	advmod	_	_
+10	là	là	ADV	_	_	3	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	début	début	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det	_	_
+16	chair	chair	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17	dans	dans	ADP	_	_	19	case	_	_
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	partie	partie	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	inférieure	inférieur	ADJ	_	Gender=Fem|Number=Sing	19	amod	_	_
+21-22	du	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	bras	bras	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	_
+25	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+26	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+27	juste	juste	ADV	_	_	28	advmod	_	_
+28	percer	percer	VERB	_	VerbForm=Inf	26	xcomp	_	_
+29	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	advmod	_	_
+30	peu	peu	ADV	_	_	29	fixed	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 83
+# text = Je suis désolé mec.
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
+3	désolé	désoler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	mec	mec	ADV	_	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 84
+# text = Je te fais peur ?
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	te	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	3	iobj	_	_
+3	fais	faire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	peur	peur	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+5	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 85
+# text = Puis juste un peu à travers ma peau, ça sort de l'autre coté comme ça.
+1	Puis	puis	ADV	_	_	11	cc	_	_
+2	juste	juste	ADV	_	_	11	advmod	_	_
+3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	advmod	_	_
+4	peu	peu	ADV	_	_	3	fixed	_	_
+5	à	à	ADP	_	_	8	case	_	_
+6	travers	travers	NOUN	_	Gender=Masc|Number=Sing	5	fixed	_	_
+7	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_
+8	peau	peau	NOUN	_	Gender=Fem|Number=Sing	11	obl:mod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	nsubj	_	_
+11	sort	sortir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	de	de	ADP	_	_	15	case	_	_
+13	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+14	autre	autre	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	_
+15	coté	côté	NOUN	_	Gender=Masc|Number=Sing	11	obl:arg	_	_
+16	comme	comme	ADP	_	_	17	case	_	_
+17	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	obl:mod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 86
+# text = On est en gros dans la même situation qu'avec le tour du couteau.
+1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	en	en	ADP	_	_	4	case	_	_
+4	gros	gros	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	dans	dans	ADP	_	_	8	case	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	même	même	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	_
+8	situation	situation	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+9	qu'	que	SCONJ	_	_	12	cc	_	SpaceAfter=No
+10	avec	avec	ADP	_	_	12	case	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tour	tour	NOUN	_	Gender=Masc|Number=Sing	8	conj	_	_
+13-14	du	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	couteau	couteau	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 87
+# text = En quelque sorte.
+1	En	en	ADP	_	_	3	case	_	_
+2	quelque	quelque	DET	_	Gender=Fem|Number=Sing	3	det	_	_
+3	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 88
+# text = Vous ne pouvez pas compter mes doigts là ?
+1	Vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
+2	ne	ne	ADV	_	Polarity=Neg	3	advmod	_	_
+3	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	pas	pas	ADV	_	Polarity=Neg	3	advmod	_	_
+5	compter	compter	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	mes	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det	_	_
+7	doigts	doigt	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	_
+8	là	là	ADV	_	_	7	advmod	_	_
+9	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 89
+# text = Laissez moi vous les montrer.
+1	Laissez	laisser	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	moi	soi	PRON	_	Number=Sing|Person=1	1	obj	_	_
+3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	iobj	_	_
+4	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+5	montrer	montrer	VERB	_	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 90
+# text = En voilà un, deux trois, quatre, cinq. Oui, bon...
+1	En	en	ADP	_	_	6	case	_	_
+2	voilà	voilà	VERB	_	_	1	fixed	_	_
+3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	deux	deux	NUM	_	_	6	nummod	_	_
+6	trois	trois	NUM	_	_	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	quatre	quatre	NUM	_	_	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	cinq	cinq	PRON	_	Number=Plur	6	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	12	punct	_	_
+12	Oui	oui	INTJ	_	_	14	cc	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	bon	bon	ADJ	_	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+15	...	...	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 91
+# text = Je sais ce que les gens se disent quand ils voient ça.
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	obj	_	_
+4	que	que	PRON	_	PronType=Rel	8	obj	_	_
+5	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	gens	gens	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
+7	se	se	PRON	_	Person=3|PronType=Prs	8	expl:comp	_	_
+8	disent	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+9	quand	quand	SCONJ	_	_	11	mark	_	_
+10	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+11	voient	voir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+12	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 92
+# text = Ils font : "il n'est pas assez bête pour se planter des choses à travers la peau pour nous amuser quelques minutes."
+1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	:	:	PUNCT	_	_	10	punct	_	_
+4	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+6	n'	ne	ADV	_	Polarity=Neg	10	advmod	_	SpaceAfter=No
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	pas	pas	ADV	_	Polarity=Neg	10	advmod	_	_
+9	assez	assez	ADV	_	_	10	advmod	_	_
+10	bête	bête	ADJ	_	Gender=Fem|Number=Sing	2	xcomp	_	_
+11	pour	pour	ADP	_	_	13	mark	_	_
+12	se	se	PRON	_	Person=3|PronType=Prs	13	expl:comp	_	_
+13	planter	planter	VERB	_	VerbForm=Inf	10	advcl	_	_
+14-15	des	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	choses	chose	NOUN	_	Gender=Fem|Number=Plur	13	obl:arg	_	_
+17	à	à	ADP	_	_	20	case	_	_
+18	travers	travers	NOUN	_	Gender=Masc|Number=Sing	17	fixed	_	_
+19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	peau	peau	NOUN	_	Gender=Fem|Number=Sing	13	obl:mod	_	_
+21	pour	pour	ADP	_	_	23	mark	_	_
+22	nous	le	PRON	_	Number=Plur|Person=1|PronType=Prs	23	iobj	_	_
+23	amuser	amuser	VERB	_	VerbForm=Inf	13	advcl	_	_
+24	quelques	quelque	DET	_	Gender=Fem|Number=Plur	25	det	_	_
+25	minutes	minute	NOUN	_	Gender=Fem|Number=Plur	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 93
+# text = Laissez-moi vous donner un aperçu.
+1	Laissez	laisser	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	-moi	soi	PRON	_	Number=Sing|Person=1	4	nsubj:caus	_	_
+3	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	4	iobj	_	_
+4	donner	donner	VERB	_	VerbForm=Inf	1	xcomp	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	aperçu	aperçu	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 94
+# text = A quoi ça ressemble d'ici ?
+1	A	à	ADP	_	_	2	case	_	_
+2	quoi	quoi	PRON	_	_	4	obl:mod	_	_
+3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
+4	ressemble	ressembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	d'	de	ADP	_	_	4	advmod	_	SpaceAfter=No
+6	ici	ici	ADV	_	_	5	fixed	_	_
+7	?	?	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 95
+# text = Pas mal.
+1	Pas	pas	ADV	_	_	2	advmod	_	_
+2	mal	mal	ADV	_	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 96
+# text = Ouais, je sais.
+1	Ouais	Ouais	ADJ	_	Gender=Masc|Number=Plur	4	advcl	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 97
+# text = Les gens du fond se disent : "bon, je n'ai pas vraiment vu ça." Les personnes dans la salle adjacente commencent à entrer dans la nôtre.
+1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	gens	gens	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fond	fond	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	se	se	PRON	_	Person=3|PronType=Prs	7	expl:pass	_	_
+7	disent	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	:	:	PUNCT	_	_	14	punct	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	bon	bon	ADJ	_	Gender=Masc|Number=Sing	14	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	n'	ne	ADV	_	Polarity=Neg	14	advmod	_	SpaceAfter=No
+14	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+15	pas	pas	ADV	_	Polarity=Neg	17	advmod	_	_
+16	vraiment	vraiment	ADV	_	_	17	advmod	_	_
+17	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	ccomp	_	_
+18	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	27	punct	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	27	punct	_	_
+21	Les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	personnes	personne	NOUN	_	Gender=Fem|Number=Plur	27	nsubj	_	_
+23	dans	dans	ADP	_	_	25	case	_	_
+24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	salle	salle	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+26	adjacente	adjacent	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	_
+27	commencent	commencer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
+28	à	à	ADP	_	_	29	mark	_	_
+29	entrer	entrer	VERB	_	VerbForm=Inf	27	xcomp	_	_
+30	dans	dans	ADP	_	_	32	case	_	_
+31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	nôtre	nôtre	NOUN	_	Gender=Masc|Number=Sing	29	obl:arg	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 98
+# text = Laissez-moi vous montrer de près.
+1	Laissez-moi	Laissez-moi	PRON	_	Gender=Fem|Number=Sing|Person=1|Reflex=Yes	3	obj	_	_
+2	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	3	iobj	_	_
+3	montrer	montrer	VERB	_	VerbForm=Inf	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	près	près	ADV	_	_	3	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 99
+# text = C'est vraiment ma peau.
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	vraiment	vraiment	ADV	_	_	5	advmod	_	_
+4	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	_
+5	peau	peau	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 100
+# text = Ce n'est pas un effet spécial de Hollywood.
+1	Ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	6	nsubj	_	_
+2	n'	ne	ADV	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	_
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	effet	effet	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+7	spécial	spécial	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Hollywood	Hollywood	PROPN	_	_	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 101
+# text = C'est ma chair et je peux tourner.
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	_
+4	chair	chair	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	et	et	CCONJ	_	_	7	cc	_	_
+6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+8	tourner	tourner	VERB	_	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 102
+# text = Je suis désolé.
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux:tense	_	_
+3	désolé	désoler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 103
+# text = Si vous vous sentez mal, regardez ailleurs, ne regardez pas ça.
+1	Si	si	SCONJ	_	_	4	mark	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	nsubj	_	_
+3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	iobj	_	_
+4	sentez	sentir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+5	mal	mal	ADV	_	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	regardez	regarder	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	ailleurs	ailleurs	ADV	_	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	ne	ne	ADV	_	Polarity=Neg	11	advmod	_	_
+11	regardez	regarder	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	conj	_	_
+12	pas	pas	ADV	_	Polarity=Neg	11	advmod	_	_
+13	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 104
+# text = Les gens du fond ou ceux qui regarderont la vidéo des années plus tard diront : "ouais, c'est pas mal l'espèce d'effet là, mais si c'était vrai, voyez, il y a un trou ici et, si c'était vrai, ça saignerait."
+1	Les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	gens	gens	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	_
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fond	fond	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	ou	ou	CCONJ	_	_	7	cc	_	_
+7	ceux	celui	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	5	conj	_	_
+8	qui	qui	PRON	_	PronType=Rel	9	nsubj	_	_
+9	regarderont	regarder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	7	acl:relcl	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	vidéo	vidéo	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12-13	des	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	années	année	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
+15	plus	plus	ADV	_	_	16	advmod	_	_
+16	tard	tard	ADV	_	_	9	advmod	_	_
+17	diront	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+18	:	:	PUNCT	_	_	27	punct	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	ouais	ouai	NOUN	_	Gender=Masc|Number=Plur	27	dislocated	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	27	nsubj	_	SpaceAfter=No
+23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+24	pas	pas	ADV	_	Polarity=Neg	27	advmod	_	_
+25	mal	mal	ADV	_	_	27	advmod	_	_
+26	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	espèce	espèce	NOUN	_	Gender=Fem|Number=Sing	17	parataxis	_	_
+28	d'	de	ADP	_	_	27	advmod	_	SpaceAfter=No
+29	effet	effet	NOUN	_	Gender=Masc|Number=Sing	28	fixed	_	_
+30	là	là	ADV	_	_	27	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	38	punct	_	_
+32	mais	mais	CCONJ	_	_	38	cc	_	_
+33	si	si	SCONJ	_	_	36	mark	_	_
+34	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	36	nsubj	_	SpaceAfter=No
+35	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	cop	_	_
+36	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing	38	advcl	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	36	punct	_	_
+38	voyez	vovoir	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	27	conj	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	42	punct	_	_
+40	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	expl:subj	_	_
+41	y	y	PRON	_	_	42	expl:comp	_	_
+42	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	conj	_	_
+43	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	trou	trou	NOUN	_	Gender=Masc|Number=Sing	42	obj	_	_
+45	ici	ici	ADV	_	_	44	advmod	_	_
+46	et	et	CCONJ	_	_	54	cc	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	46	punct	_	_
+48	si	si	SCONJ	_	_	51	mark	_	_
+49	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	51	nsubj	_	SpaceAfter=No
+50	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	51	cop	_	_
+51	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing	54	advcl	_	SpaceAfter=No
+52	,	,	PUNCT	_	_	51	punct	_	_
+53	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	54	nsubj	_	_
+54	saignerait	saignerait	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	conj	_	SpaceAfter=No
+55	.	.	PUNCT	_	_	54	punct	_	SpaceAfter=No
+56	"	"	PUNCT	_	_	54	punct	_	_
+
+# sent_id = 105
+# text = Eh bien laissez-moi vous sortir un peu de sang.
+1	Eh	eh	INTJ	_	_	3	advmod	_	_
+2	bien	bien	ADV	_	_	1	fixed	_	_
+3	laissez	laisser	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	-moi	soi	PRON	_	Number=Sing|Person=1	6	obj	_	_
+5	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	6	iobj	_	_
+6	sortir	sortir	VERB	_	VerbForm=Inf	3	xcomp	_	_
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	advmod	_	_
+8	peu	peu	ADV	_	_	7	fixed	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	sang	sang	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 106
+# text = Oui, le voilà.
+1	Oui	oui	INTJ	_	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	voilà	voilà	VERB	_	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 107
+# text = Normalement maintenant, je devrais enlever l'aiguille.
+1	Normalement	normalement	ADV	_	_	2	advmod	_	_
+2	maintenant	maintenant	ADV	_	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	devrais	devr	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	enlever	enlever	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	aiguille	aiguille	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 108
+# text = Je nettoierais mon bras et je vous montrerais qu'il n'y a pas de blessures mais je pense que dans ce contexte et dans l'idée de prendre quelque chose de factice et de le rendre réel, je vais juste le laisser comme ça et quitter la scène.
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	nettoierais	nettoier	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	_
+4	bras	bras	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	et	et	CCONJ	_	_	8	cc	_	_
+6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	8	iobj	_	_
+8	montrerais	montrer	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	qu'	que	SCONJ	_	_	13	mark	_	SpaceAfter=No
+10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	expl:subj	_	_
+11	n'	ne	ADV	_	Polarity=Neg	13	advmod	_	SpaceAfter=No
+12	y	y	PRON	_	_	13	expl:comp	_	_
+13	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+14	pas	pas	ADV	_	Polarity=Neg	13	advmod	_	_
+15	de	un	DET	_	Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	blessures	blessure	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
+17	mais	mais	CCONJ	_	_	19	cc	_	_
+18	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+20	que	que	SCONJ	_	_	41	mark	_	_
+21	dans	dans	ADP	_	_	23	case	_	_
+22	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
+23	contexte	contexte	NOUN	_	Gender=Masc|Number=Sing	41	obl:mod	_	_
+24	et	et	CCONJ	_	_	27	cc	_	_
+25	dans	dans	ADP	_	_	27	case	_	_
+26	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	idée	idée	NOUN	_	Gender=Fem|Number=Sing	23	conj	_	_
+28	de	de	ADP	_	_	29	mark	_	_
+29	prendre	prendre	VERB	_	VerbForm=Inf	27	acl	_	_
+30	quelque	quelque	DET	_	Gender=Fem|Number=Sing	31	det	_	_
+31	chose	chose	NOUN	_	Gender=Fem|Number=Sing	29	obj	_	_
+32	de	de	ADP	_	_	33	case	_	_
+33	factice	factice	NOUN	_	Gender=Fem|Number=Sing	31	nmod	_	_
+34	et	et	CCONJ	_	_	37	cc	_	_
+35	de	de	ADP	_	_	37	mark	_	_
+36	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	37	obj	_	_
+37	rendre	rendre	VERB	_	VerbForm=Inf	33	conj	_	_
+38	réel	réel	ADJ	_	Gender=Masc|Number=Sing	37	xcomp	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	23	punct	_	_
+40	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	41	nsubj	_	_
+41	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+42	juste	juste	ADV	_	_	44	advmod	_	_
+43	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	44	obj	_	_
+44	laisser	laisser	VERB	_	VerbForm=Inf	41	xcomp	_	_
+45	comme	comme	ADP	_	_	46	case	_	_
+46	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	44	obl:mod	_	_
+47	et	et	CCONJ	_	_	48	cc	_	_
+48	quitter	quitter	VERB	_	VerbForm=Inf	44	conj	_	_
+49	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	scène	scène	NOUN	_	Gender=Fem|Number=Sing	48	obj	_	SpaceAfter=No
+51	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 109
+# text = On se reverra plusieurs fois ces prochains jours.
+1	On	on	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	se	se	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
+3	reverra	revoyer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	plusieurs	plusieurs	DET	_	Gender=Fem|Number=Plur	5	det	_	_
+5	fois	fois	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
+6	ces	ce	DET	_	Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+7	prochains	prochain	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
+8	jours	jour	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 110
+# text = J'espère que vous allez le vouloir.
+1	J'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No
+2	espère	espérer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	nsubj	_	_
+5	allez	aller	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	vouloir	vouloir	VERB	_	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 111
+# text = Merci beaucoup.
+1	Merci	merci	INTJ	_	_	0	root	_	_
+2	beaucoup	beaucoup	ADV	_	_	1	advmod	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\s\n
+

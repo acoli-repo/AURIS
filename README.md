@@ -47,8 +47,10 @@ Legacy data:
 - Models need to be installed separately. We expect modules to be found under `udpipe/models/$LANG/*.udpipe`, with `$LANG` to be replaced by a BCP47 language code (to be manually assigned). The command `make conllu` will use the *first* `\*.udpipe` file per directory for parsing.
 - After adding a new language, you need to add the BCP47 code for the language to the variable `LANGS` under `update-conllu:` in [`Makefile`](Makefile) and then run `make update-conllu`. This will update the `conllu/` subdirectories, subsequent processing steps will take the language( tag)s from these subdirectories.
 	- when running `make update-conllu`, the script will inform you about the installed UDPipe modules. Make sure these match the names of the subdirectories of `txt/`, as these files will serve as input.
-- The repository provides pre-annotations for English, using the [UD 2.5 EWT model](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131)
-- The repository provides pre-annotations for German, using the [UD 2.5 GSD model](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131). Note that is relatively error-prone regarding the handling of pronominal constructions.
+- The repository provides pre-annotations
+	- for English, using the [UD 2.5 EWT model](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131)
+	- for German, using the [UD 2.5 GSD model](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131). Note that is relatively error-prone regarding the handling of pronominal constructions.
+	- [**IN PROGRRESS**] for French, using the [UD 2.5 GSD model](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131). Detection of referring expressions is partially inspired by the [DEMOCRAT corpus](https://www.ortolang.fr/market/corpora/democrat/v1.1).
 - `make update-discourse_pre` seems to be blocked occasionally, esp., for longer files. When building new files for `ready-for-annotation`, these must be manually (timeout is implemented, but doesn't seem to grasp) terminated. As a possible workaround, start multiple `make update-discourse_pre` (resp. `make update`, etc.) threads shortly one after another. They are set up in a way that they don't overwrite each other's output, but skip files into which another instance is already writing into. 
 - Current setup was developed under and tested within Ubuntu 22.04L.
 
