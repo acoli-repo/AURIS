@@ -58,31 +58,39 @@ update-discourse_pre: conllu conll-rdf rdf4discourse
 	TIMEOUT="nice timeout --preserve-status 1h ";\
 	for lang in */; do \
 		lang=`echo $$lang | sed s/'\/'//g;`;\
-		dimlex=`ls -l ../rdf4discourse/discourse-markers/linked/$$lang/*.ttl | sort -n -k 4 | head -n 1 | sed s/'.* '//g;`;\
-		for file in `find $$lang | grep 'conllu$$'`; do \
-			echo $$file 1>&2; \
-			tgt=../discourse_pre/`echo $$file | sed s/'\.conllu$$'//`.tsv;\
-			tgtdir=`dirname $$tgt`;\
-			if [ ! -e $$tgtdir ]; then mkdir -p $$tgtdir; fi;\
-			if [ -e $$tgt ]; then echo found $$tgt, keeping it 1>&2; \
+		if [ ! -e ../sparql/discourse1.$$lang.sparql ]; then \
+			echo error: did not find ../sparql/discourse1.$$lang.sparql, skipping language $$lang 1>&2;\
+		else \
+			dimlex=`ls -l ../rdf4discourse/discourse-markers/linked/$$lang/*.ttl | sort -n -k 4 | head -n 1 | sed s/'.* '//g;`;\
+			if [ ! -e $$dimlex ] ; then \
+				echo error: did not find ../sparql/discourse1.$$lang.sparql, skipping language $$lang 1>&2;\
 			else \
-				cat $$file \
-				| $$TIMEOUT ../conll-rdf/run.sh CoNLLStreamExtractor \
-					'file://conllu/'$$file'#' \
-					ID FORM LEMMA UPOS XPOS FEATS HEAD EDGE DEPS MISC \
-					-u ../sparql/discourse1.$$lang.sparql \
-				| tee $$tgt.1.ttl \
-				| $$TIMEOUT ../conll-rdf/run.sh CoNLLRDFUpdater -custom -model $$dimlex "http://purl.org/acoli/dimlex" \
-					-updates ../sparql/discourse2_new.sparql \
-				| tee $$tgt.2.ttl \
-				| $$TIMEOUT ../conll-rdf/run.sh CoNLLRDFUpdater -custom \
-					-updates ../sparql/discourse3.sparql \
-				| tee $$tgt.3.ttl \
-				| $$TIMEOUT ../conll-rdf/run.sh CoNLLRDFFormatter -query ../sparql/discourse4.sparql \
-				| egrep '^[0-9]' \
-				| tee $$tgt;\
+				for file in `find $$lang | grep 'conllu$$'`; do \
+					echo $$file 1>&2; \
+					tgt=../discourse_pre/`echo $$file | sed s/'\.conllu$$'//`.tsv;\
+					tgtdir=`dirname $$tgt`;\
+					if [ ! -e $$tgtdir ]; then mkdir -p $$tgtdir; fi;\
+					if [ -e $$tgt ]; then echo found $$tgt, keeping it 1>&2; \
+					else \
+						cat $$file \
+						| $$TIMEOUT ../conll-rdf/run.sh CoNLLStreamExtractor \
+							'file://conllu/'$$file'#' \
+							ID FORM LEMMA UPOS XPOS FEATS HEAD EDGE DEPS MISC \
+							-u ../sparql/discourse1.$$lang.sparql \
+						| tee $$tgt.1.ttl \
+						| $$TIMEOUT ../conll-rdf/run.sh CoNLLRDFUpdater -custom -model $$dimlex "http://purl.org/acoli/dimlex" \
+							-updates ../sparql/discourse2_new.sparql \
+						| tee $$tgt.2.ttl \
+						| $$TIMEOUT ../conll-rdf/run.sh CoNLLRDFUpdater -custom \
+							-updates ../sparql/discourse3.sparql \
+						| tee $$tgt.3.ttl \
+						| $$TIMEOUT ../conll-rdf/run.sh CoNLLRDFFormatter -query ../sparql/discourse4.sparql \
+						| egrep '^[0-9]' \
+						| tee $$tgt;\
+					fi;\
+				done > ../discourse_pre/$$lang.tsv;\
 			fi;\
-		done > ../discourse_pre/$$lang.tsv;\
+		fi;\
 	done;
 
 udpipe:
