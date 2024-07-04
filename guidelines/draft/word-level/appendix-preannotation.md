@@ -97,6 +97,8 @@ Annotate semi-demonstrative pronouns (English *such*, German *solch*) as `REF_AU
 
 A description (NP or PP) is definite if it contains the determiner *both*, a demonstrative or possessive pronoun or a genitive attribution (Sect. 3.4.2). In automated pre-annotation, this should be made explicit with sub-types:
 
+> Note: In languages without morphosyntactic definiteness marking, automated preannotation should consider every NOUN that is the head of a noun phrase a potential anaphor, and thus annotate these as `NP_TYPE=def-np.bare`.
+
 - **demonstrative NP** (`NP_TYPE`=`def-np.dem`)
 
 	> (4) *\[that <ins>pizza</ins>\]*, *\[this <ins>pizza</ins>\]*
@@ -127,10 +129,6 @@ A description (NP or PP) is definite if it contains the determiner *both*, a dem
 
 	> Note: Stede et al. (2016) include *all*+NP here. needs to be double-checked.
 
-- **NP with definite article** (`NP_TYPE`=`def-np.the`): any NP with a definite article not covered by any aforementioned def-np category
-
-	> (8) *\[the <ins>pizza</ins>\]*
-
 - **definite NP with "other"** (`NP_TYPE`=`def-np.other`), i.e., definite NPs containing adjectives like *other*
 
 	> (9) *the other man*
@@ -144,6 +142,15 @@ A description (NP or PP) is definite if it contains the determiner *both*, a dem
 	- `def-np.poss.other`: *his other goal*
 	- `def-np.quant.other`: *the two other guys*
 	- `def-np.the.other`: *the other man* 
+
+- **NP with definite article** (`NP_TYPE`=`def-np.the`): any NP with a definite article not covered by any aforementioned def-np category
+
+	> (8) *\[the <ins>pizza</ins>\]*
+
+- *in languages without morphosyntactic definiteness marking*: NP without determiner for which a definite interpretation cannot be ruled out should be annotated `NP_TYPE=def-np.bare`. Note that this applies to the heads of noun phrases only.
+
+	> (8.a) *Я стоял \[на <ins>коврике</ins> у камина\]* (Russian)
+	> "I stood upon the hearth-rug" (the original source sentence, Doyle, Hound of the Baskervilles)
 
 ### B.1.3.3  Proper Names and Titles (`NP_TYPE`=`ne`)
 

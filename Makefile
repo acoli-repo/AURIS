@@ -252,29 +252,33 @@ update-refexp: conll-rdf
 	cd conllu;\
 	for lang in */; do \
 		lang=`echo $$lang | sed s/'\/'//g;`;\
-		for file in `find $$lang | grep 'conllu$$'`; do \
-			echo $$file 1>&2; \
-			tgtdir=`dirname ../refexp/$$file`;\
-			if [ ! -e $$tgtdir ]; then \
-				mkdir -p $$tgtdir;\
-			fi;\
-			tgt=$$tgtdir/`basename $$file | sed s/'\.conll[u]?$$'//`.tsv;\
-			if [ -e $$tgt ]; then echo found $$tgt, keeping it 1>&2; \
-			else \
-				cat $$file \
-				| egrep '^# text|^[0-9][0-9]*\s|^$$' \
-				| ../conll-rdf/run.sh CoNLLStreamExtractor \
-					'#' \
-					ID FORM LEMMA UPOS XPOS FEATS HEAD EDGE DEPS MISC \
-					-u 	../sparql/refexp.$$lang.sparql \
-						../sparql/gr.sparql \
-				| ../conll-rdf/run.sh CoNLLRDFFormatter -conll ID FORM GR NP_TYPE REF \
-				| egrep '^# text|^[0-9]|^$$' \
-				| grep -B 1 -A 1 '^[0-9]' \
-				| grep -v s/"^\-\-$$"// \
-				| sed s/"^[0-9][0-9]*\t"// \
-				| perl -pe "s/\t_/\t/g;" \
-				> $$tgt; \
-			fi;\
-		done;\
+		if [ ! -e ../sparql/refexp.$$lang.sparql ]; then \
+			echo "warning: did not find ../sparql/refexp."$$lang.sparql, skipping $$lang 1>&2;\
+		else \
+			for file in `find $$lang | grep 'conllu$$'`; do \
+				echo $$file 1>&2; \
+				tgtdir=`dirname ../refexp/$$file`;\
+				if [ ! -e $$tgtdir ]; then \
+					mkdir -p $$tgtdir;\
+				fi;\
+				tgt=$$tgtdir/`basename $$file | sed s/'\.conll[u]?$$'//`.tsv;\
+				if [ -e $$tgt ]; then echo found $$tgt, keeping it 1>&2; \
+				else \
+					cat $$file \
+					| egrep '^# text|^[0-9][0-9]*\s|^$$' \
+					| ../conll-rdf/run.sh CoNLLStreamExtractor \
+						'#' \
+						ID FORM LEMMA UPOS XPOS FEATS HEAD EDGE DEPS MISC \
+						-u 	../sparql/refexp.$$lang.sparql \
+							../sparql/gr.sparql \
+					| ../conll-rdf/run.sh CoNLLRDFFormatter -conll ID FORM GR NP_TYPE REF \
+					| egrep '^# text|^[0-9]|^$$' \
+					| grep -B 1 -A 1 '^[0-9]' \
+					| grep -v s/"^\-\-$$"// \
+					| sed s/"^[0-9][0-9]*\t"// \
+					| perl -pe "s/\t_/\t/g;" \
+					> $$tgt; \
+				fi;\
+			done;\
+		fi;\
 	done;

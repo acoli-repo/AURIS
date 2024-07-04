@@ -1,0 +1,245 @@
+PREFIX conll: <http://ufal.mff.cuni.cz/conll2009-st/task-description.html#> 
+PREFIX nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> 
+PREFIX powla: <http://purl.org/powla/powla.owl#> 
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX terms: <http://purl.org/acoli/open-ie/> 
+PREFIX x:     <http://purl.org/acoli/conll-rdf/xml#> 
+
+###########################
+# eliminate non-markables #
+###########################
+
+# non-markables (REF=_)
+INSERT { ?w conll:REF "_" } 
+WHERE { 
+	# Reflexive pronouns (English *herself*, etc.) are not PM.
+	{ ?w conll:FEATS ?f FILTER(contains(?f,"Reflex=Yes")) } UNION
+	{ ?w conll:LEMMA ?l FILTER(?l in ("себя","свой")) } UNION
+	# expletives
+	{ ?w conll:EDGE "expl" } UNION
+	# dependent nouns
+	{ ?w conll:EDGE "flat"} UNION
+	{ ?w conll:EDGE "compound"} UNION
+	# relatve pronouns
+	{ ?w conll:EDGE "mark"} UNION
+	{ ?w conll:UPOS "SCONJ" } UNION
+	# non-nominals
+	{ ?w conll:EDGE "amod"} UNION
+	{ ?w conll:EDGE "advmod"} 
+};
+
+#################################
+# REF_EXP (NP_TYPE) annotations #
+#################################
+
+# REF_EXP
+# - interrogative pronouns => ?NEW
+# - certain quantifiers => ?NEW [TBC: which?]
+# - NP with indefinite "semi-demonstrative" (English "such") => ?NEW [TBC]
+# - NAME proper names => ?OLD ("primary markable")
+# - DEM_NP demonstrative NP => ?OLD
+# - POSS_NP possessive NP => ?NEW
+# - bare NP (definite or indefinite) => ?OLD
+# - PPER personal pronouns => ?OLD
+# - PPOSS possessive pronouns => ?OLD
+# - PDEM substitutive demonstrative pronouns => ?OLD
+# - PADV pronominal adverbs => ?OLD
+# - PIND indefinite pronoun => ?NEW (secondary markable)
+# - PRON
+
+
+# UD PRON
+
+# Note: to facilitate navigation during spreadsheet-based annotation, we remove `?NEW` in a final processing step.
+
+# - interrogative pronouns => ?NEW
+INSERT {
+	?w conll:REF "?NEW"; conll:REF_EXP "pron.pint"
+} WHERE {
+	# ?w conll:FEATS ?f FILTER(contains(?f,"PronType=Int")) # doesn't exist for Russian UD
+	
+	?w conll:UPOS "PRON";
+	   conll:LEMMA ?l FILTER (regex(?l,"^(который|что|кто|зачем)"))
+
+	MINUS { ?w conll:REF [] }
+};
+
+# - NP with indefinite "semi-demonstrative" (cf. English "such") => ?NEW
+INSERT {
+	?w conll:REF "?NEW"; conll:REF_EXP "pron.pds"
+} WHERE {
+	?dep conll:LEMMA "такой"; conll:EDGE ?e; conll:HEAD ?w.
+	FILTER(strstarts(?e,"det") || strstarts(?e,"amod"))
+	MINUS { ?w conll:REF [] }
+};
+
+# - PPOSS possessive pronouns => ?OLD
+INSERT {
+	?w conll:REF_EXP "pron.ppos"; conll:REF "?OLD"
+} WHERE {
+	# ?w conll:EDGE "nmod:poss"; conll:UPOS "PRON". # not used for Russian UD
+	?w conll:UPOS "DET";
+		conll:LEMMA ?l
+		FILTER(?l in ("наш", "мой", "ваш", "его", "их", "твой", "ее", "емо", "мой", "ваш"))
+
+	MINUS { ?w conll:REF [] }
+};
+
+# - PDEM substitutive demonstrative pronouns => ?OLD
+INSERT {
+	?w conll:REF_EXP "pron.pds"; conll:REF "?OLD"
+} WHERE {
+	?w conll:UPOS "PRON"; conll:LEMMA ?l
+	FILTER(?l in ("то","это","этот","тем","нечто","тот" ))
+
+	MINUS { ?w conll:REF [] }
+};
+
+# - PADV pronominal adverbs => ?OLD, REF_EXP = pron.padv
+# not applicable to Russian
+
+# - PIND indefinite pronoun => ?NEW (secondary markable)
+INSERT {
+	?w conll:REF "?NEW"; conll:REF_EXP "pron.pind"
+} WHERE {
+	?w conll:UPOS "PRON"; conll:LEMMA ?l
+	FILTER(?l in ("что-то", "ничто", "кто-то", "никто", "что-либо", "кто-нибудь", "что-нибудь", "чем", "кто-либо"))
+	MINUS { ?w conll:REF [] }
+};
+
+# - PPER personal pronouns => ?OLD
+INSERT {
+	?w conll:REF_EXP "pron.pper"; conll:REF "?OLD"
+} WHERE {
+	?w conll:UPOS "PRON"; conll:LEMMA ?l filter(?lemma in ("я", "мы", "они", "он", "вы", "она", "ты", "оно", "его", "их", "ее"))
+	MINUS { ?w conll:REF [] }
+};
+
+# - other pronouns => ?OLD
+INSERT {
+	?w conll:REF_EXP "pron"; conll:REF "?OLD"
+} WHERE {
+	?w conll:UPOS "PRON".
+	MINUS { ?w conll:REF [] }
+};
+
+INSERT {
+	?w conll:REF_EXP "ne"; conll:REF "?OLD"
+} WHERE {
+	?w conll:UPOS "PROPN".
+	MINUS { ?w conll:EDGE "compound" }
+	MINUS { ?w conll:EDGE "flat" }
+	MINUS { ?w conll:REF [] }
+};
+
+INSERT {
+	?w conll:REF_EXP "def-np.dem"; conll:REF "?OLD"
+} WHERE {
+	?def conll:LEMMA ?l; conll:EDGE "det"; conll:HEAD ?w.
+	FILTER(?l in ("тот", "то", "этот", "это", "сей"))
+	?w conll:UPOS "NOUN"
+	MINUS { ?w conll:REF [] }
+};
+
+INSERT {
+	?w conll:REF_EXP "def-np.poss"; conll:REF "?OLD"
+} WHERE {
+	?def conll:EDGE ?e; conll:HEAD ?w; conll:LEMMA ?l.
+	FILTER(?e in ("det","nmod"))
+	FILTER(?l in ("тот", "то", "этот", "это", "сей"))
+	?w conll:UPOS "NOUN"
+	MINUS { ?w conll:REF [] }
+};
+
+INSERT {
+	?w conll:REF_EXP "def-np.poss"; conll:REF "?OLD"
+} WHERE {
+	?w conll:UPOS "NOUN".
+	?dep conll:EDGE "nmod"; conll:FEATS ?f; conll:HEAD ?w; conll:REF "?OLD"
+	FILTER(regex(".*Case=Gen.*",?f))
+	MINUS { ?w conll:REF [] }
+};
+
+# def-np.the not applicable to Russian
+# def-np.quant not applicable to Russian
+# def-np.other not applicable to Russian 
+# indef-np.a not applicable to Russian
+
+INSERT {
+	?w conll:REF_EXP "indef-np"; conll:REF "?NEW"
+} WHERE {
+	?det conll:LEMMA ?lemma; conll:EDGE ?e; conll:HEAD ?w.
+	FILTER(?lemma in ("какой-то", "никакой", "какой-либо", "некий", "какой-нибудь", "чьей-то", "чёй-то", "чей"))
+	FILTER(strstarts(?e,"det"))
+	?w conll:UPOS "NOUN".
+	MINUS { ?w conll:REF [] }
+};
+
+# indef-np.quant
+INSERT {
+	?w conll:REF_EXP "indef-np.quant"; conll:REF "?NEW"
+} WHERE {
+	{ 	?card conll:UPOS "NUM"; conll:HEAD ?w. } UNION
+	{	?both conll:LEMMA ?l; conll:HEAD ?w 
+		FILTER(?l in ("весь", "каждый", "один", "все", "третий", "сколькой", "каждый", "всего", "весь"))
+	}
+	?quant conll:HEAD ?w.
+	?w conll:UPOS "NOUN".
+	MINUS { ?w conll:REF [] }
+};
+
+# indef-np: interrogative NPs, not foreseen as a category
+INSERT {
+	?w conll:REF_EXP "indef-np"; conll:REF "?NEW"
+} WHERE {
+	?pint conll:EDGE "det"; conll:LEMMA ?l; conll:HEAD ?w 
+		FILTER(?l in ("какой","некоторый","чтот"))
+	?pint conll:HEAD ?w.
+	?w conll:UPOS "NOUN".
+	MINUS { ?w conll:REF [] }
+};
+
+# def-np.bare: no determiner (we consider these *potentially* anaphoric, hence definite nps)
+INSERT {
+	?w conll:REF_EXP "def-np.bare"; conll:REF "?OLD"
+} WHERE {
+	?w conll:UPOS "NOUN".
+	MINUS { ?w conll:REF [] }
+	MINUS { [ conll:UPOS "DET" ] conll:HEAD ?w }
+	FILTER(regex(?e,":.*","") in ("nmod", "nsubj", "obj", "dobj", "iobj", "obl"))
+};
+
+# other
+INSERT {
+	?w conll:REF_EXP "other"; conll:REF "?OLD"
+} WHERE {
+	?w conll:EDGE ?e.
+	FILTER(regex(?e,":.*","") in ("nmod", "nsubj", "obj", "dobj", "iobj", "obl"))
+	MINUS { ?w conll:REF [] }
+};
+
+##################
+# postprocessing #
+##################
+
+# remove `?NEW`
+# note: this is to facilitate spreadsheet-based annotation, so people can use <CTRL>+<DOWN> to jump to the next primary markable
+#       for doing the same for secondary markables, annotators should use the `REF_EXP` column. 
+
+DELETE {
+	?w conll:REF "?NEW"
+} WHERE {
+	?w conll:REF "?NEW"
+};
+
+
+# rename REF_EXP to NP_TYPE (for consistency with Chiarcos and Krasavina 2005)
+DELETE {
+	?w conll:REF_EXP ?re
+} INSERT {
+	?w conll:NP_TYPE ?re
+} WHERE {
+	?w conll:REF_EXP ?re
+	};
+
