@@ -1,0 +1,940 @@
+# newdoc id = txt/ru/bbc.242334.txt
+# newpar
+# sent_id = 1
+# text = Россия и Турция: "Альянс плохих"?
+1	Россия	Россия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	Турция	Турция	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	1	punct	_	_
+5	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	Альянс	Альянс	PROPN	_	_	1	parataxis	_	_
+7	плохих	плохой	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+9	?	?	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Это был жест, который завершил кризис.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	жест	жест	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	который	который	PRON	_	Case=Nom	6	nsubj	_	_
+6	завершил	завершить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+7	кризис	кризис	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Лидеры России и Турции встретились во вторник, чтобы пожать руки и объявить официальный конец восьмимесячной войне слов и экономических санкций.
+1	Лидеры	лидер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	Турции	Турция	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	conj	_	_
+5	встретились	встретиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	во	в	ADP	_	_	7	case	_	_
+7	вторник	вторник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	чтобы	чтобы	SCONJ	_	Mood=Cnd	10	mark	_	_
+10	пожать	пожать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	advcl	_	_
+11	руки	рука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	объявить	объявить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	conj	_	_
+14	официальный	официальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	конец	конец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+16	восьмимесячной	восьмимесячный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	войне	война	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	13	iobj	_	_
+18	слов	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	_
+19	и	и	CCONJ	_	_	21	cc	_	_
+20	экономических	экономический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	санкций	санкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Но когда Владимир Путин приветствовал своего турецкого коллегу в позолоченном зале дворца в Санкт-Петербурге, у меня сложилось устойчивое впечатление, что Анкара хочет этого примирения больше.
+1	Но	но	CCONJ	_	_	18	cc	_	_
+2	когда	когда	SCONJ	_	_	5	mark	_	_
+3	Владимир	Владимир	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	Путин	Путин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	_
+5	приветствовал	приветствовать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	advcl	_	_
+6	своего	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	8	det	_	_
+7	турецкого	турецкий	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	коллегу	коллега	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	позолоченном	золочить	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+11	зале	зал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+12	дворца	дворец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	Санкт-Петербурге	Санкт-Петербург	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	5	punct	_	_
+16	у	у	ADP	_	_	17	case	_	_
+17	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	18	obl	_	_
+18	сложилось	сложиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+19	устойчивое	устойчивый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	впечатление	впечатление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	24	punct	_	_
+22	что	что	SCONJ	_	_	24	mark	_	_
+23	Анкара	Анкара	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_
+24	хочет	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl	_	_
+25	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	26	det	_	_
+26	примирения	примирение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	obl	_	_
+27	больше	большой	ADV	_	Degree=Cmp	24	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Было рукопожатие, да.
+1	Было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	рукопожатие	рукопожатие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	да	да	PART	_	_	1	parataxis	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Но улыбка господина Путина выглядела натянутой, а он едва ли излучал тепло даже по его собственным сдержанным стандартам.
+1	Но	но	CCONJ	_	_	5	cc	_	_
+2	улыбка	улыбка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	господина	господин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	Путина	Путин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	appos	_	_
+5	выглядела	выглядеть	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	натянутой	натянуть	VERB	_	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	12	punct	_	_
+8	а	а	CCONJ	_	_	12	cc	_	_
+9	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+10	едва	едва	ADV	_	Degree=Pos	12	advmod	_	_
+11	ли	ли	PART	_	_	10	fixed	_	_
+12	излучал	излучать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+13	тепло	тепло	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+14	даже	даже	PART	_	_	19	advmod	_	_
+15	по	по	ADP	_	_	19	case	_	_
+16	его	его	DET	_	_	19	det	_	_
+17	собственным	собственный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	19	amod	_	_
+18	сдержанным	сдержанный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	19	amod	_	_
+19	стандартам	стандарт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Реджеп Тайип Эрдоган в противоположность этому говорил неоднократно о своем "дорогом друге" господине Путине — пять раз, согласно одному отчету.
+1	Реджеп	Реджеп	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	Тайип	Тайип	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	Эрдоган	Эрдоган	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	противоположность	противоположность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+6	этому	это	DET	_	Case=Dat|Gender=Masc|Number=Sing	5	det	_	_
+7	говорил	говорить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	неоднократно	неоднократно	ADV	_	Degree=Pos	7	advmod	_	_
+9	о	о	ADP	_	_	13	case	_	_
+10	своем	свой	DET	_	Case=Loc|Gender=Masc|Number=Sing	13	det	_	_
+11	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+12	дорогом	дорогой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	друге	друг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	господине	господин	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	_
+16	Путине	Путин	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	15	appos	_	_
+17	—	—	PUNCT	_	_	16	punct	_	_
+18	пять	пять	NUM	_	Case=Acc	19	nummod:gov	_	_
+19	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	23	punct	_	_
+21	согласно	согласно	ADP	_	_	23	case	_	_
+22	одному	один	NUM	_	Case=Dat|Gender=Masc	23	nummod	_	_
+23	отчету	отчет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Я потерял счет.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	потерял	терять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	счет	счет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Он также обещал, что отношения с Россией вернутся не только на их докризисный уровень, но даже выше.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	_
+3	обещал	обещать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	9	punct	_	_
+5	что	что	SCONJ	_	_	9	mark	_	_
+6	отношения	отношение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	Россией	Россия	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	_
+9	вернутся	вернуться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	3	ccomp	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	только	только	PART	_	_	15	advmod	_	_
+12	на	на	ADP	_	_	15	case	_	_
+13	их	их	DET	_	_	15	det	_	_
+14	докризисный	докризисный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	уровень	уровень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	но	но	CCONJ	_	_	19	cc	_	_
+18	даже	даже	PART	_	_	19	advmod	_	_
+19	выше	высокий	ADJ	_	Degree=Cmp	15	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = На следующий день одна газета описала действия господина Эрдогана как если бы ничего плохого никогда не случалось.
+1	На	на	ADP	_	_	3	case	_	_
+2	следующий	следующий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+4	одна	один	NUM	_	Case=Nom|Gender=Fem	5	nummod:gov	_	_
+5	газета	газета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	описала	описать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	действия	действие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
+8	господина	господин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	Эрдогана	Эрдоган	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	appos	_	_
+10	как	как	SCONJ	_	_	17	mark	_	_
+11	если	если	SCONJ	_	_	10	fixed	_	_
+12	бы	бы	AUX	_	_	17	aux	_	_
+13	ничего	ничто	PRON	_	Case=Gen	17	nsubj	_	_
+14	плохого	плохой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+15	никогда	никогда	ADV	_	Degree=Pos	17	advmod	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	случалось	случаться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = По-моему, его энтузиазм предполагал обратное.
+1	По-моему	по-моему	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	его	он	DET	_	_	4	det	_	_
+4	энтузиазм	энтузиазм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	предполагал	предполагать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	обратное	обратный	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Но затягивающаяся прохлада, исходящая от господина Путина, показала, что российский лидер не забыл ничего.
+1	Но	но	CCONJ	_	_	10	cc	_	_
+2	затягивающаяся	затягивающаяся	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	3	amod	_	_
+3	прохлада	прохлада	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	исходящая	исходить	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	acl	_	_
+6	от	от	ADP	_	_	7	case	_	_
+7	господина	господин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+8	Путина	Путин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	appos	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	показала	показать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	16	punct	_	_
+12	что	что	SCONJ	_	_	16	mark	_	_
+13	российский	российский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	лидер	лидер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	забыл	забыть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	ccomp	_	_
+17	ничего	ничто	PRON	_	Case=Gen	16	obl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Фактически, причиной кризиса было первое, о чём он упомянул во вступительных комментариях:
+1	Фактически	фактически	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	причиной	причина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+4	кризиса	кризис	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+6	первое	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	о	о	ADP	_	_	9	case	_	_
+9	чём	что	PRON	_	Case=Loc	11	obl	_	_
+10	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+11	упомянул	упомянуть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+12	во	в	ADP	_	_	14	case	_	_
+13	вступительных	вступительный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	14	amod	_	_
+14	комментариях	комментарий	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 14
+# text = Турция сбила российский истребитель на сирийской границе.
+1	Турция	Турция	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	сбила	сбить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	российский	российский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	истребитель	истребитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	сирийской	сирийский	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	границе	граница	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Реакция Москвы в этот момент была неистовой.
+1	Реакция	реакция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	Москвы	Москва	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	5	det	_	_
+5	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+6	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
+7	неистовой	неистовый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Господин Путин разразился гневной тирадой, обвиняя Анкару в ударе Москвы в спину.
+1	Господин	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Путин	Путин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	разразился	разразиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	гневной	гневный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	тирадой	тирада	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	обвиняя	обвинять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	3	advcl	_	_
+8	Анкару	Анкара	PROPN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	ударе	удар	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+11	Москвы	Москва	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	спину	спина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Оскорбление было еще сильнее, исходя от предполагаемого друга.
+1	Оскорбление	оскорбление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	еще	еще	ADV	_	Degree=Pos	4	advmod	_	_
+4	сильнее	сильно	ADV	_	Degree=Cmp	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	исходя	исходить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	advcl	_	_
+7	от	от	ADP	_	_	9	case	_	_
+8	предполагаемого	предполагать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	друга	друг	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Восстановление реального доверия будет трудным, вероятно невозможным.
+1	Восстановление	восстановление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	реального	реальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	доверия	доверие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+5	трудным	трудный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	вероятно	вероятно	ADV	_	Degree=Pos	8	obl	_	_
+8	невозможным	невозможный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Российское общественное мнение также изменилось с ноября.
+1	Российское	российский	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+2	общественное	общественный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	мнение	мнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+4	также	также	ADV	_	Degree=Pos	5	advmod	_	_
+5	изменилось	измениться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	с	с	ADP	_	_	7	case	_	_
+7	ноября	ноябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = На протяжении месяцев контролируемые государством СМИ проводили ошеломляющее, тотальное наступление на Анкару.
+1	На	на	ADP	_	_	2	case	_	_
+2	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+3	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	контролируемые	контролировать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	6	acl	_	_
+5	государством	государство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	_
+6	СМИ	сми	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+7	проводили	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	ошеломляющее	ошеломлять	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	7	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	тотальное	тотальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	наступление	наступление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	conj	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	Анкару	Анкара	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 21
+# text = Внезапно показалось, что турков должны считать виновными во всём.
+1	Внезапно	внезапно	ADV	_	Degree=Pos	2	advmod	_	_
+2	показалось	казаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	что	что	SCONJ	_	_	6	mark	_	_
+5	турков	турок	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+6	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	ccomp	_	_
+7	считать	считать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	виновными	виновный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	obl	_	_
+9	во	в	ADP	_	_	10	case	_	_
+10	всём	всто	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = Самыми серьезными были обвинения от представителей высшего руководства, что собственная семья господина Эрдогана нажилась на нелегальной торговле нефтью из зон Сирии, контролируемых так называемым Исламским Государством.
+1	Самыми	самый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	2	amod	_	_
+2	серьезными	серьезный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	0	root	_	_
+3	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
+4	обвинения	обвинение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	_
+5	от	от	ADP	_	_	6	case	_	_
+6	представителей	представитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	высшего	высший	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	руководства	руководство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	15	punct	_	_
+10	что	что	SCONJ	_	_	15	mark	_	_
+11	собственная	собственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	семья	семья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+13	господина	господин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	Эрдогана	Эрдоган	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	нажилась	нажиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	ccomp	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	нелегальной	нелегальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	торговле	торговля	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_
+19	нефтью	нефть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	obl	_	_
+20	из	из	ADP	_	_	21	case	_	_
+21	зон	зона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	obl	_	_
+22	Сирии	Сирия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	контролируемых	контролировать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	21	acl	_	_
+25	так	так	ADV	_	Degree=Pos	26	advmod	_	_
+26	называемым	называть	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	28	acl	_	_
+27	Исламским	исламский	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	Государством	государство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	24	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 23
+# text = Он отрицал это решительно.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	отрицал	отрицать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	решительно	решительно	ADV	_	Degree=Pos	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 24
+# text = Но в Санкт-Петербурге поступил официальный сигнал, что пришло время двигаться дальше.
+1	Но	но	CCONJ	_	_	4	cc	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	Санкт-Петербурге	Санкт-Петербург	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+4	поступил	поступить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	официальный	официальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	сигнал	сигнал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	что	что	SCONJ	_	_	9	mark	_	_
+9	пришло	прийти	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	ccomp	_	_
+10	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+11	двигаться	двигаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	9	xcomp	_	_
+12	дальше	далеко	ADV	_	Degree=Cmp	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 25
+# text = В конце концов, эта встреча произошла только потому, что господин Путин получил извинение, которое он требовал от президента Эрдогана.
+1	В	в	ADP	_	_	7	advmod	_	_
+2	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	концов	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	6	det	_	_
+6	встреча	встреча	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	произошла	произойти	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	только	только	PART	_	_	9	advmod	_	_
+9	потому	потому	ADV	_	Degree=Pos	7	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	14	punct	_	_
+11	что	что	SCONJ	_	_	14	mark	_	_
+12	господин	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+13	Путин	Путин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	_
+14	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	_
+15	извинение	извинение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	которое	который	PRON	_	Case=Acc	19	obj	_	_
+18	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+19	требовал	требовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
+20	от	от	ADP	_	_	21	case	_	_
+21	президента	президент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	obl	_	_
+22	Эрдогана	Эрдоган	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	appos	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 26
+# text = Россия могла претендовать на победу своего рода.
+1	Россия	Россия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	могла	мочь	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	претендовать	претендовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	победу	победа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+6	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing	7	det	_	_
+7	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 27
+# text = Для Анкары преимущества объявления перемирия ясны.
+1	Для	для	ADP	_	_	2	case	_	_
+2	Анкары	Анкара	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+3	преимущества	преимущество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
+4	объявления	объявление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	перемирия	перемирия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	ясны	ясный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 28
+# text = В первую очередь, Эрдогану нужны все друзья, которых он может получить, после того как он был почти свергнут со своего поста в прошлом месяце при попытке переворота.
+1	В	в	ADP	_	_	6	discourse	_	_
+2	первую	первый	ADJ	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	fixed	_	_
+3	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	Эрдогану	Эрдоган	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	нужны	нужный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+7	все	весь	DET	_	Case=Nom|Number=Plur	8	det	_	_
+8	друзья	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	iobj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	которых	который	PRON	_	Case=Acc	13	obj	_	_
+11	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+12	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+13	получить	получить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	21	punct	_	_
+15	после	после	ADP	_	_	16	case	_	_
+16	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	obl	_	_
+17	как	как	SCONJ	_	_	21	mark	_	_
+18	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
+19	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	21	cop	_	_
+20	почти	почти	ADV	_	Degree=Pos	21	advmod	_	_
+21	свергнут	свергнуть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	12	conj	_	_
+22	со	с	ADP	_	_	24	case	_	_
+23	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing	24	det	_	_
+24	поста	пост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	obl	_	_
+25	в	в	ADP	_	_	27	case	_	_
+26	прошлом	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	месяце	месяц	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	_
+28	при	при	ADP	_	_	29	case	_	_
+29	попытке	попытка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	obl	_	_
+30	переворота	переворот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 29
+# text = Повторные террористические атаки на Турцию явно потрясли его тоже.
+1	Повторные	повторный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+2	террористические	террористический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	атаки	атака	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	Турцию	Турция	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+6	явно	явно	ADV	_	Degree=Pos	7	advmod	_	_
+7	потрясли	потрясти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	obj	_	_
+9	тоже	тоже	PART	_	_	7	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 30
+# text = Есть также экономическая причина.
+1	Есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	также	также	PART	_	_	3	advmod	_	_
+3	экономическая	экономический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	причина	причина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 31
+# text = Российские санкции сильно ударили — особенно запрет на чартерные полеты, которые обычно привозят несколько миллионов русских туристов на турецкое побережье ежегодно.
+1	Российские	российский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	санкции	санкция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+3	сильно	сильно	ADV	_	Degree=Pos	4	advmod	_	_
+4	ударили	ударить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	—	—	PUNCT	_	_	7	punct	_	_
+6	особенно	особенно	ADV	_	Degree=Pos	7	obl	_	_
+7	запрет	запрет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	parataxis	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	чартерные	чартерный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	полеты	полет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	которые	который	PRON	_	Case=Nom	14	nsubj	_	_
+13	обычно	обычно	ADV	_	Degree=Pos	14	advmod	_	_
+14	привозят	привозить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+15	несколько	несколько	NUM	_	Case=Nom	16	nummod:gov	_	_
+16	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
+17	русских	русский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	туристов	турист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
+19	на	на	ADP	_	_	21	case	_	_
+20	турецкое	турецкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	побережье	побережье	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obl	_	_
+22	ежегодно	ежегодно	ADV	_	Degree=Pos	14	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 32
+# text = Количество резко упало почти на 90 %.
+1	Количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	резко	резко	ADV	_	Degree=Pos	3	advmod	_	_
+3	упало	падать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	почти	почти	ADV	_	Degree=Pos	7	obl	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	90	90	NUM	_	_	7	nummod	_	_
+7	%	%	SYM	_	_	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 33
+# text = Что касается России, туроператоры и чартерные компании здесь, конечно, почувствуют облегчение, когда полеты наконец возобновят.
+1	Что	что	PRON	_	Case=Nom	2	nsubj	_	_
+2	касается	касаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	13	advcl	_	_
+3	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	туроператоры	туроператор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+6	и	и	CCONJ	_	_	8	cc	_	_
+7	чартерные	чартерный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	компании	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	conj	_	_
+9	здесь	здесь	ADV	_	Degree=Pos	13	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	конечно	конечно	ADV	_	Degree=Pos	13	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	почувствуют	почувствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+14	облегчение	облегчение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	19	punct	_	_
+16	когда	когда	SCONJ	_	_	19	mark	_	_
+17	полеты	полет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+18	наконец	наконец	ADV	_	Degree=Pos	19	advmod	_	_
+19	возобновят	возобновить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 34
+# text = Они ставят на пик конца сезона на Средиземном море.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	ставят	ставить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	пик	пик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+5	конца	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	сезона	сезон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	Средиземном	средиземный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	море	море	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 35
+# text = И даже на этой неделе государственное телевидение предсказывало более дешевые фрукты и овощи, как только турецкий импорт сельскохозяйственной продукции будет разрешен вновь.
+1	И	и	CCONJ	_	_	8	cc	_	_
+2	даже	даже	PART	_	_	5	advmod	_	_
+3	на	на	ADP	_	_	5	case	_	_
+4	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing	5	det	_	_
+5	неделе	неделя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+6	государственное	государственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	телевидение	телевидение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+8	предсказывало	предсказывать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	более	более	ADV	_	Degree=Cmp	10	obl	_	_
+10	дешевые	дешевый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	фрукты	фрукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	овощи	овощ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	22	punct	_	_
+15	как	как	SCONJ	_	_	22	mark	_	_
+16	только	только	PART	_	_	15	fixed	_	_
+17	турецкий	турецкий	DET	_	Case=Nom|Gender=Masc|Number=Sing	18	det	_	_
+18	импорт	импорт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj:pass	_	_
+19	сельскохозяйственной	сельскохозяйственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	продукции	продукция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+21	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	aux:pass	_	_
+22	разрешен	разрешить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	advcl	_	_
+23	вновь	вновь	ADV	_	Degree=Pos	22	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 36
+# text = "Туристы туда, помидоры обратно сюда," как было сказано в отчете в газете Ведомости.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Туристы	турист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+3	туда	туда	ADV	_	Degree=Pos	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	помидоры	помидор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+6	обратно	обратно	ADV	_	Degree=Pos	7	advmod	_	_
+7	сюда	сюда	ADV	_	Degree=Pos	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	7	punct	_	_
+10	как	как	SCONJ	_	_	12	mark	_	_
+11	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	_	_
+12	сказано	сказать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	advcl	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	отчете	отчет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	газете	газета	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	_
+17	Ведомости	Ведомость	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 37
+# text = Но визит также имел дополнительную политическую ценность для Москвы.
+1	Но	но	CCONJ	_	_	4	cc	_	_
+2	визит	визит	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	также	также	ADV	_	Degree=Pos	4	advmod	_	_
+4	имел	иметь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	дополнительную	дополнительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+6	политическую	политический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	ценность	ценность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+8	для	для	ADP	_	_	9	case	_	_
+9	Москвы	Москва	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 38
+# text = Анкара зла на Запад за то, что она считает слабым ответом на попытку переворота.
+1	Анкара	анкара	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	зла	зло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	Запад	Запад	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_
+5	за	за	ADP	_	_	6	case	_	_
+6	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	что	что	SCONJ	_	_	10	mark	_	_
+9	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
+10	считает	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	_	_
+11	слабым	слабый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	ответом	ответ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	попытку	попытка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+15	переворота	переворот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 39
+# text = Добавьте к этому ее затянувшееся недовольство черепашьим темпом разговоров о присоединении к ЕС и шаг господина Путина — который стремится воспользоваться прохладой и постепенно разрушить турецкие связи с Западом.
+1	Добавьте	добавить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+2	к	к	ADP	_	_	3	case	_	_
+3	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	1	obl	_	_
+4	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	6	nmod	_	_
+5	затянувшееся	затянуть	VERB	_	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	6	amod	_	_
+6	недовольство	недовольство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+7	черепашьим	черепаший	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	темпом	темп	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	_
+9	разговоров	разговор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	о	о	ADP	_	_	11	case	_	_
+11	присоединении	присоединение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	nmod	_	_
+12	к	к	ADP	_	_	13	case	_	_
+13	ЕС	ЕС	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	шаг	шаг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
+16	господина	господин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	Путина	Путин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	appos	_	_
+18	—	—	PUNCT	_	_	20	punct	_	_
+19	который	который	PRON	_	Case=Nom	20	nsubj	_	_
+20	стремится	стремиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	17	acl:relcl	_	_
+21	воспользоваться	пользоваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	20	xcomp	_	_
+22	прохладой	прохлада	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	21	obl	_	_
+23	и	и	CCONJ	_	_	25	cc	_	_
+24	постепенно	постепенно	ADV	_	Degree=Pos	25	advmod	_	_
+25	разрушить	разрушить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	21	conj	_	_
+26	турецкие	турецкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	27	amod	_	_
+27	связи	связь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	25	obj	_	_
+28	с	с	ADP	_	_	29	case	_	_
+29	Западом	Запад	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 40
+# text = Российский лидер, конечно, выиграл бонусные баллы с Анкарой за призыв к поддержке избранных органов власти после попытки государственного переворота.
+1	Российский	российский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	лидер	лидер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	конечно	конечно	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	выиграл	выиграть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	бонусные	бонусный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	баллы	балл	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+9	с	с	ADP	_	_	10	case	_	_
+10	Анкарой	Анкара	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+11	за	за	ADP	_	_	12	case	_	_
+12	призыв	призыв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+13	к	к	ADP	_	_	14	case	_	_
+14	поддержке	поддержка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	_
+15	избранных	избрать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	16	amod	_	_
+16	органов	орган	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+17	власти	власть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	после	после	ADP	_	_	19	case	_	_
+19	попытки	попытка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+20	государственного	государственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	переворота	переворот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 41
+# text = Имейте в виду, это данность для Москвы, которая имеет свой собственный глубоко укоренившийся страх смены режима.
+1	Имейте	иметь	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+2	в	в	ADP	_	_	1	advmod	_	_
+3	виду	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	данность	данность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	Москвы	Москва	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	которая	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	16	det	_	_
+13	собственный	собственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+14	глубоко	глубоко	ADV	_	Degree=Pos	15	advmod	_	_
+15	укоренившийся	укорениться	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	16	acl	_	_
+16	страх	страх	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	obj	_	_
+17	смены	смена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	режима	режим	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 42
+# text = Итак, саммит в этом блестящем дворце на морском побережье позволил России и Турции представить то, что один аналитик описал мне как "альянс плохих": две страны, которые чувствуют себя отвергнутыми и униженными Западом, объединяют силы.
+1	Итак	итак	ADV	_	Degree=Pos	3	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	саммит	аммить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	в	в	ADP	_	_	7	case	_	_
+5	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	7	det	_	_
+6	блестящем	блестящий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	дворце	дворец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	морском	морской	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	побережье	побережье	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+11	позволил	позволить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	nsubj	_	_
+12	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	Турции	Турция	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	_
+15	представить	представить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+16	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	21	punct	_	_
+18	что	что	SCONJ	_	_	21	mark	_	_
+19	один	один	NUM	_	Case=Nom|Gender=Masc	20	nummod:gov	_	_
+20	аналитик	аналитик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+21	описал	описать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	acl	_	_
+22	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	21	iobj	_	_
+23	как	как	SCONJ	_	_	25	mark	_	_
+24	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	альянс	альянс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	obl	_	_
+26	плохих	плохой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	25	punct	_	SpaceAfter=No
+28	:	:	PUNCT	_	_	25	punct	_	_
+29	две	два	NUM	_	Case=Nom|Gender=Fem	30	nummod:gov	_	_
+30	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40	obl	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	33	punct	_	_
+32	которые	который	PRON	_	Case=Nom	33	nsubj	_	_
+33	чувствуют	чувствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	acl:relcl	_	_
+34	себя	себя	PRON	_	Case=Acc	33	obj	_	_
+35	отвергнутыми	отвергнуть	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	33	xcomp	_	_
+36	и	и	CCONJ	_	_	37	cc	_	_
+37	униженными	унижеть	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	35	conj	_	_
+38	Западом	Запад	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	37	obl	_	SpaceAfter=No
+39	,	,	PUNCT	_	_	30	punct	_	_
+40	объединяют	объединять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	parataxis	_	_
+41	силы	сила	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	40	nsubj	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 43
+# text = Все же, несмотря на публичный показ примирения, эти двое по-прежнему имеют существенные различия.
+1	Все	все	PART	_	_	13	advmod	_	_
+2	же	же	PART	_	_	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	несмотря	несмотря	ADV	_	Polarity=Neg	7	case	_	_
+5	на	на	ADP	_	_	4	fixed	_	_
+6	публичный	публичный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	показ	показ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
+8	примирения	примирение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	эти	этот	DET	_	Case=Nom|Number=Plur	11	det	_	_
+11	двое	двое	NUM	_	Case=Nom	13	nsubj	_	_
+12	по-прежнему	по-прежнему	ADV	_	Degree=Pos	13	advmod	_	_
+13	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+14	существенные	существенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	различия	различие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 44
+# text = Ключевой является Сирия, где Москва недавно позиционировала себя в качестве миротворца, но где Россия и Турция поддерживают противоположные стороны.
+1	Ключевой	ключевой	PROPN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	2	iobj	_	_
+2	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	Сирия	Сирия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	8	punct	_	_
+5	где	где	ADV	_	Degree=Pos	8	advmod	_	_
+6	Москва	Москва	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+7	недавно	недавно	ADV	_	Degree=Pos	8	advmod	_	_
+8	позиционировала	позиционировать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+9	себя	себя	PRON	_	Case=Acc	8	obj	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	fixed	_	_
+12	миротворца	миротворец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	19	punct	_	_
+14	но	но	CCONJ	_	_	19	cc	_	_
+15	где	где	ADV	_	Degree=Pos	19	advmod	_	_
+16	Россия	Россия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	Турция	Турция	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	conj	_	_
+19	поддерживают	поддерживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+20	противоположные	противоположный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	21	amod	_	_
+21	стороны	сторона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 45
+# text = Возможно, говорит само за себя то, что после почти трех часов первоначальных переговоров, пока два президента давали пресс-конференцию, они даже не затронули эту тему.
+1	Возможно	возможно	ADV	_	Degree=Pos	3	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	само	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	nsubj	_	_
+5	за	за	ADP	_	_	6	case	_	_
+6	себя	себя	PRON	_	Case=Acc	4	nmod	_	_
+7	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	26	punct	_	_
+9	что	что	SCONJ	_	_	26	mark	_	_
+10	после	после	ADP	_	_	13	case	_	_
+11	почти	почти	ADV	_	Degree=Pos	12	advmod	_	_
+12	трех	три	NUM	_	Case=Gen	13	nummod	_	_
+13	часов	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	obl	_	_
+14	первоначальных	первоначальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	переговоров	переговоры	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	13	punct	_	_
+17	пока	пока	SCONJ	_	_	20	mark	_	_
+18	два	два	NUM	_	Case=Nom|Gender=Masc	19	nummod:gov	_	_
+19	президента	президент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	nsubj	_	_
+20	давали	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	26	advcl	_	_
+21	пресс-конференцию	пресс-конференция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	20	punct	_	_
+23	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	26	nsubj	_	_
+24	даже	даже	PART	_	_	25	advmod	_	_
+25	не	не	PART	_	_	26	advmod	_	_
+26	затронули	затронуть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	acl	_	_
+27	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	28	det	_	_
+28	тему	тема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 46
+# text = Президент Турции умышленно избегал ответа на вопрос об их различиях, в то время как господин Путин предпочёл сделать на них акцент.
+1	Президент	президент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	Турции	Турция	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	умышленно	умышленно	ADV	_	Degree=Pos	4	advmod	_	_
+4	избегал	избегать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	ответа	ответ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
+8	об	о	ADP	_	_	10	case	_	_
+9	их	их	DET	_	_	10	det	_	_
+10	различиях	различие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	18	punct	_	_
+12	в	в	ADP	_	_	18	cc	_	_
+13	то	тот	DET	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	fixed	_	_
+14	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	fixed	_	_
+15	как	как	SCONJ	_	_	12	fixed	_	_
+16	господин	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+17	Путин	Путин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	appos	_	_
+18	предпочёл	предпочести	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+19	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	них	они	PRON	_	Case=Acc|Number=Plur|Person=3	19	obl	_	_
+22	акцент	акцент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 47
+# text = Нет четкого согласия в том, как они могут найти общий язык по Сирии.
+1	Нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	четкого	четкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	согласия	согласие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nsubj	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	как	как	ADV	_	Degree=Pos	9	advmod	_	_
+8	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	9	nsubj	_	_
+9	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl	_	_
+10	найти	найти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	общий	общий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	язык	язык	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+13	по	по	ADP	_	_	14	case	_	_
+14	Сирии	Сирия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 48
+# text = Но после месяцев открытой враждебности — и принимая во внимание возможность полной катастрофы, когда член НАТО Турция сбила российский реактивный истребитель,- точно лучше, что два лидера по крайней мере разговаривают снова.
+1	Но	но	CCONJ	_	_	8	cc	_	_
+2	после	после	ADP	_	_	3	case	_	_
+3	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+4	открытой	открытый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	враждебности	враждебность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	—	—	PUNCT	_	_	3	punct	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	принимая	принимать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	0	root	_	_
+9	во	в	ADP	_	_	10	case	_	_
+10	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_
+11	возможность	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+12	полной	полный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	катастрофы	катастрофа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	19	punct	_	_
+15	когда	когда	SCONJ	_	_	19	mark	_	_
+16	член	член	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+17	НАТО	НАТО	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	Турция	Турция	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	appos	_	_
+19	сбила	сбить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+20	российский	российский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+21	реактивный	реактивный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	истребитель	истребитель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	26	punct	_	SpaceAfter=No
+24	-	-	PUNCT	_	_	26	punct	_	_
+25	точно	точно	ADV	_	Degree=Pos	26	advmod	_	_
+26	лучше	хороший	ADJ	_	Degree=Cmp	19	conj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	34	punct	_	_
+28	что	что	SCONJ	_	_	34	mark	_	_
+29	два	два	NUM	_	Case=Nom|Gender=Masc	30	nummod:gov	_	_
+30	лидера	лидер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	34	nsubj	_	_
+31	по	по	ADP	_	_	34	advmod	_	_
+32	крайней	крайний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	31	fixed	_	_
+33	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	31	fixed	_	_
+34	разговаривают	разговаривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	ccomp	_	_
+35	снова	снова	ADV	_	Degree=Pos	34	advmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+

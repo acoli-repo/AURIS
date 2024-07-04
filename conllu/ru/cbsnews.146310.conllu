@@ -1,0 +1,449 @@
+# newdoc id = txt/ru/cbsnews.146310.txt
+# newpar
+# sent_id = 1
+# text = Махаж Браун, 6, "изрешеченный пулями", остается в живых после перестрелки в Филадельфии Полиция сообщает, что в Филадельфии стреляли в 6-летнего мальчика, регистрируя вторую стрельбу в 6-летнего в городе на этой неделе.
+1	Махаж	Махаж	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+2	Браун	Браун	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	6	6	NUM	_	_	2	nummod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	изрешеченный	изрешечить	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	_
+8	пулями	пуля	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+9	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	7	punct	_	_
+11	остается	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	живых	живой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	obl	_	_
+14	после	после	ADP	_	_	15	case	_	_
+15	перестрелки	перестрелка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	Филадельфии	Филадельфия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	SpacesAfter=\n
+18	Полиция	Полиций	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+19	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	24	punct	_	_
+21	что	что	SCONJ	_	_	24	mark	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	Филадельфии	Филадельфия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	obl	_	_
+24	стреляли	стрелять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	ccomp	_	_
+25	в	в	ADP	_	_	27	case	_	_
+26	6-летнего	6-летний	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	мальчика	мальчик	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	регистрируя	регистрировать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	24	advcl	_	_
+30	вторую	второй	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	стрельбу	стрельба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	obj	_	_
+32	в	в	ADP	_	_	33	case	_	_
+33	6-летнего	6-летний	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	29	obl	_	_
+34	в	в	ADP	_	_	35	case	_	_
+35	городе	город	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	33	nmod	_	_
+36	на	на	ADP	_	_	38	case	_	_
+37	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing	38	det	_	_
+38	неделе	неделя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Бабушка и дедушка ребенка опознали его для CBS Филадельфия как Махаж Браун.
+1	Бабушка	бабушка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	дедушка	дедушка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+4	ребенка	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	опознали	опознать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	obj	_	_
+7	для	для	ADP	_	_	9	case	_	_
+8	CBS	CBS	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+9	Филадельфия	Филадельфия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	obl	_	_
+10	как	как	SCONJ	_	_	11	mark	_	_
+11	Махаж	Махаж	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	advcl	_	_
+12	Браун	Браун	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Бабушка и дедушка говорят, Браун получил многочисленные огнестрельные ранения, включая в себя его пах, ногу, руку и живот, но был в сознании, когда его перевезли в больницу.
+1	Бабушка	бабушка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	дедушка	дедушка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+4	говорят	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	Браун	Браун	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	многочисленные	многочисленный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+9	огнестрельные	огнестрельный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	ранения	ранение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	включая	включая	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	7	advcl	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	себя	себя	PRON	_	Case=Acc	12	obl	_	_
+15	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	obj	_	_
+16	пах	пахнуть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	ногу	нога	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	руку	рука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	conj	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	живот	живот	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	27	punct	_	_
+24	но	но	CCONJ	_	_	27	cc	_	_
+25	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	27	cop	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	сознании	сознание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	31	punct	_	_
+29	когда	когда	SCONJ	_	_	31	mark	_	_
+30	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	31	obj	_	_
+31	перевезли	перевезти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	27	acl	_	_
+32	в	в	ADP	_	_	33	case	_	_
+33	больницу	больница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
+34	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = "Ему сильно досталось, его маленькое тело было изрешечено пулями", — говорит его бабушка Делорес Мелендез станции.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	4	iobj	_	_
+3	сильно	сильно	ADV	_	Degree=Pos	4	advmod	_	_
+4	досталось	достаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	10	punct	_	_
+6	его	его	DET	_	_	8	det	_	_
+7	маленькое	маленький	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	тело	тело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj:pass	_	_
+9	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	изрешечено	изрешечить	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	_
+11	пулями	пуля	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	—	—	PUNCT	_	_	15	punct	_	_
+15	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+16	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	15	obj	_	_
+17	бабушка	бабушка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+18	Делорес	Делорес	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	appos	_	_
+19	Мелендез	Мелендез	ADP	_	_	20	case	_	_
+20	станции	станция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Я просто не могу в это поверить.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	_
+2	просто	просто	PART	_	_	3	advmod	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
+7	поверить	верить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Мальчик числится в больнице в критическом состоянии и пережил несколько операций.
+1	Мальчик	мальчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	числится	числиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	больнице	больница	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	критическом	критический	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	пережил	пережить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+10	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	11	nummod:gov	_	_
+11	операций	операция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Семья сказала станции, что ожидается, что он поправится.
+1	Семья	семья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	сказала	сказать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	станции	станция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	что	что	PRON	_	Case=Nom	6	nsubj:pass	_	_
+6	ожидается	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	что	что	SCONJ	_	_	10	mark	_	_
+9	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+10	поправится	поправить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	6	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Он должен был пойти в первый класс в местной начальной школе.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
+4	пойти	пойти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	класс	класс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+8	в	в	ADP	_	_	11	case	_	_
+9	местной	местный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+10	начальной	начальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	школе	школа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Браун был одним из четырех людей, в которых стреляли в квартале Джермантаун.
+1	Браун	Браун	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	одним	один	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+4	из	из	ADP	_	_	6	case	_	_
+5	четырех	четыре	NUM	_	Case=Gen	6	nummod	_	_
+6	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	которых	который	PRON	_	Case=Loc	10	obl	_	_
+10	стреляли	стрелять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	квартале	квартал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+13	Джермантаун	Джермантаун	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Также стреляли в трех мужчин: двух 29-летних и одного 32-летнего.
+1	Также	также	ADV	_	Degree=Pos	2	advmod	_	_
+2	стреляли	стрелять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	трех	три	NUM	_	Case=Loc	5	nummod	_	_
+5	мужчин	мужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	_
+7	двух	два	NUM	_	Case=Gen	8	nummod	_	_
+8	29-летних	29-летний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	parataxis	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	одного	один	NUM	_	Case=Gen|Gender=Masc	11	nummod	_	_
+11	32-летнего	32-летний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Сообщается, что один из 29-летних мужчин - в критическом состоянии; две другие жертвы были зарегистрированы в стабильном состоянии, согласно CBS Филадельфия.
+1	Сообщается	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	11	punct	_	_
+3	что	что	SCONJ	_	_	11	mark	_	_
+4	один	один	NUM	_	Case=Nom|Gender=Masc	11	nsubj	_	_
+5	из	из	ADP	_	_	7	case	_	_
+6	29-летних	29-летний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	мужчин	мужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+8	-	-	PUNCT	_	_	4	punct	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	критическом	критический	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	ccomp	_	SpaceAfter=No
+12	;	;	PUNCT	_	_	1	punct	_	_
+13	две	два	NUM	_	Case=Nom|Gender=Fem	15	nummod:gov	_	_
+14	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	жертвы	жертва	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	17	nsubj:pass	_	_
+16	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	aux:pass	_	_
+17	зарегистрированы	регистрировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	conj	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	стабильном	стабильный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	согласно	согласно	ADP	_	_	23	case	_	_
+23	CBS	CBS	PROPN	_	Foreign=Yes	1	conj	_	_
+24	Филадельфия	Филадельфия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Ребенок был найден расстрелянным на переднем сидении машины рядом с 29-летним в критическом состоянии, докладывает станция.
+1	Ребенок	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	найден	найти	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	расстрелянным	расстрелять	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	xcomp	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	переднем	передний	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	сидении	сидение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+8	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	рядом	рядом	ADV	_	Degree=Pos	4	advmod	_	_
+10	с	с	ADP	_	_	11	case	_	_
+11	29-летним	29-летний	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	9	obl	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	критическом	критический	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	докладывает	докладывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+17	станция	станция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Две другие жертвы были не в машине, и полиция расследует, мог ли кто-то из раненых мужчин быть стрелявшим.
+1	Две	два	NUM	_	Case=Nom|Gender=Fem	3	nummod:gov	_	_
+2	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	жертвы	жертва	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+4	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
+5	не	не	PART	_	_	7	advmod	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	машине	машина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	полиция	полиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+11	расследует	расследовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	conj	_	_
+14	ли	ли	PART	_	_	13	advmod	_	_
+15	кто-то	кто-то	PRON	_	Case=Nom	20	nsubj	_	_
+16	из	из	ADP	_	_	18	case	_	_
+17	раненых	раненый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	мужчин	мужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+19	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	cop	_	_
+20	стрелявшим	стрелять	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Следователи сообщают CBS Филадельфии, что, по-видимому, была перестрелка между несколькими вооруженными людьми.
+1	Следователи	следователь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	сообщают	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	CBS	CBS	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+4	Филадельфии	Филадельфия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	10	punct	_	_
+6	что	что	SCONJ	_	_	10	mark	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	по-видимому	по-видимому	ADV	_	Degree=Pos	10	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	была	быть	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+11	перестрелка	перестрелка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+12	между	между	ADP	_	_	15	case	_	_
+13	несколькими	несколько	NUM	_	Case=Ins	15	nummod	_	_
+14	вооруженными	вооруженный	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	15	amod	_	_
+15	людьми	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Гильзы от полуавтоматического оружия, приписываемые разным экземплярам полуавтоматического оружия, устилали место действия.
+1	Гильзы	гильза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+2	от	от	ADP	_	_	4	case	_	_
+3	полуавтоматического	полуавтоматический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	оружия	оружие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	приписываемые	приписывать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	1	acl	_	_
+7	разным	разный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	8	amod	_	_
+8	экземплярам	экземпляр	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	6	iobj	_	_
+9	полуавтоматического	полуавтоматический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	оружия	оружие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	6	punct	_	_
+12	устилали	устилать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	место	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+14	действия	действие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Кажется, что это определенно была продолжительная битва.
+1	Кажется	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	8	punct	_	_
+3	что	что	SCONJ	_	_	8	mark	_	_
+4	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+5	определенно	определенный	ADV	_	Degree=Pos	8	advmod	_	_
+6	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
+7	продолжительная	продолжительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	битва	битва	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	ccomp	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Были гильзы на улице, на обеих сторонах тротуара.
+1	Были	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	гильзы	гильза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	улице	улица	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	обеих	оба	NUM	_	Case=Gen|Gender=Fem	8	nummod	_	_
+8	сторонах	сторона	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	1	obl	_	_
+9	тротуара	тротуар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Поэтому, судя по всему, там было несколько вооруженных бойцов и они были активно вовлечены в перестрелку", — сообщил станции капитан полиции Филадельфии Энтони Джинальди.
+1	Поэтому	поэтому	ADV	_	Degree=Pos	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	судя	судить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	parataxis	_	_
+4	по	по	ADP	_	_	5	case	_	_
+5	всему	все	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	там	там	ADV	_	Degree=Pos	8	advmod	_	_
+8	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	несколько	несколько	NUM	_	Case=Nom	11	nummod:gov	_	_
+10	вооруженных	вооружить	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	бойцов	боец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nsubj	_	_
+12	и	и	CCONJ	_	_	16	cc	_	_
+13	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	16	nsubj:pass	_	_
+14	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	16	aux:pass	_	_
+15	активно	активно	ADV	_	Degree=Pos	16	advmod	_	_
+16	вовлечены	вовлечь	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	conj	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	перестрелку	перестрелка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	—	—	PUNCT	_	_	22	punct	_	_
+22	сообщил	сообщить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	parataxis	_	_
+23	станции	станция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	22	obj	_	_
+24	капитан	капитан	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nmod	_	_
+25	полиции	полиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	Филадельфии	Филадельфия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	Энтони	Энтони	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+28	Джинальди	Джинальди	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	27	flat:name	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Многие дома и машины в этой зоне также были задеты.
+1	Многие	много	NUM	_	_	2	amod	_	_
+2	дома	дом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	conj	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing	7	det	_	_
+7	зоне	зона	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+8	также	также	ADV	_	Degree=Pos	10	advmod	_	_
+9	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	aux:pass	_	_
+10	задеты	задеть	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Не было произведено никаких арестов, и полиция, по сообщениям, просматривает камеры видеонаблюдения.
+1	Не	не	PART	_	_	3	advmod	_	_
+2	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	произведено	произвести	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	никаких	никакой	DET	_	Case=Gen|Number=Plur	5	det	_	_
+5	арестов	арест	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nsubj:pass	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	13	punct	_	_
+7	и	и	CCONJ	_	_	13	cc	_	_
+8	полиция	полиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	по	по	ADP	_	_	11	case	_	_
+11	сообщениям	сообщение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	8	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	просматривает	просматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+14	камеры	камера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	_
+15	видеонаблюдения	видеонаблюдение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 21
+# text = Другой 6-летний ребенок, девочка, была поражена в руку шальной пулей вторник, когда играла перед своим домом в районе West Oak Lane.
+1	Другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	6-летний	6-летний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	ребенок	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	девочка	девочка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	aux:pass	_	_
+8	поражена	поражить	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	руку	рука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+11	шальной	шальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	пулей	пуля	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+13	вторник	вторник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	когда	когда	SCONJ	_	_	16	mark	_	_
+16	играла	играть	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
+17	перед	перед	ADP	_	_	19	case	_	_
+18	своим	свой	DET	_	Case=Ins|Gender=Masc|Number=Sing	19	det	_	_
+19	домом	дом	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	районе	район	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	nmod	_	_
+22	West	West	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+23	Oak	Oak	PROPN	_	Foreign=Yes	21	flat:foreign	_	_
+24	Lane	Lane	PROPN	_	Foreign=Yes	21	flat:foreign	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = Она восстанавливается, и полиция все еще ищет подозреваемого.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	восстанавливается	восстанавливаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	8	punct	_	_
+4	и	и	CCONJ	_	_	8	cc	_	_
+5	полиция	полиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+6	все	все	PART	_	_	7	advmod	_	_
+7	еще	еще	ADV	_	Degree=Pos	8	advmod	_	_
+8	ищет	искать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+9	подозреваемого	подозреваемый	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+

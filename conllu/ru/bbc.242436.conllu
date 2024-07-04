@@ -1,0 +1,635 @@
+# newdoc id = txt/ru/bbc.242436.txt
+# newpar
+# sent_id = 1
+# text = Путин увольняет главу администрации Сергея Иванова Российский президент Владимир Путин неожиданно уволил своего главу администрации Сергея Иванова.
+1	Путин	Путин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	увольняет	увольнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
+3	главу	глава	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	администрации	администрация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	Сергея	Сергей	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	Иванова	Иванов	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	flat:name	_	SpacesAfter=\n
+7	Российский	российский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	президент	президент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+9	Владимир	Владимир	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_
+10	Путин	Путин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_
+11	неожиданно	неожиданно	ADV	_	Degree=Pos	12	advmod	_	_
+12	уволил	уволить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	своего	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	14	det	_	_
+14	главу	глава	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+15	администрации	администрация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	Сергея	Сергей	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	Иванова	Иванов	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Иванов был частью доверенного ближнего круга Путина на протяжении многих лет.
+1	Иванов	Иванов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	частью	часть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+4	доверенного	доверить	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	ближнего	ближний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	круга	круг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+7	Путина	Путин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	_
+10	многих	много	NUM	_	_	11	amod	_	_
+11	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Этот 63-летний теперь был назначен представителем по вопросам окружающей среды и транспорта.
+1	Этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
+2	63-летний	63-летний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	теперь	теперь	ADV	_	Degree=Pos	5	advmod	_	_
+4	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	назначен	назначить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	представителем	представитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+7	по	по	ADP	_	_	8	case	_	_
+8	вопросам	вопрос	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	6	nmod	_	_
+9	окружающей	окружать	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	10	amod	_	_
+10	среды	среда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	транспорта	транспорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Заявление из Кремля гласит, что Путин "постановил освободить Иванова от его обязанностей главы российской администрации президента," но не назвал причину.
+1	Заявление	заявление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	Кремля	Кремль	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	гласит	гласить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	что	что	SCONJ	_	_	9	mark	_	_
+7	Путин	Путин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	постановил	постановить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	ccomp	_	_
+10	освободить	освободить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	Иванова	Иванов	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	от	от	ADP	_	_	14	case	_	_
+13	его	его	DET	_	_	14	det	_	_
+14	обязанностей	обязанность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	obl	_	_
+15	главы	глава	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	российской	российский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	администрации	администрация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+18	президента	президент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	23	punct	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	23	punct	_	_
+21	но	но	CCONJ	_	_	23	cc	_	_
+22	не	не	PART	_	_	23	advmod	_	_
+23	назвал	назвать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
+24	причину	причина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Заместитель господина Иванова с 2012 г., Антон Вайно, был назначен его преемником.
+1	Заместитель	заместитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+2	господина	господин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Иванова	Иванов	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	с	с	ADP	_	_	6	case	_	_
+5	2012	2012	NUM	_	_	6	nummod	_	_
+6	г.	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	Антон	Антон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+9	Вайно	Вайно	ADV	_	Degree=Pos	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	1	punct	_	_
+11	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	_	_
+12	назначен	назначить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+13	его	его	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	14	nmod	_	_
+14	преемником	преемник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Господин Вайно, 44, бывший дипломат.
+1	Господин	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	Вайно	Вайно	ADV	_	Degree=Pos	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	44	44	NUM	_	_	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	бывший	бывший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	дипломат	дипломат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Родившийся в столице Эстонии Таллине в 1972 г., он окончил престижный Московский Государственный Университет Международных Отношений (МГИМО) и служил в посольстве Токио.
+1	Родившийся	рождаться	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	5	acl	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	столице	столица	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	obl	_	_
+4	Эстонии	Эстония	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	Таллине	Таллин	PROPN	_	Animacy=Anim|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	1972	1972	NUM	_	_	8	nummod	_	_
+8	г.	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+11	окончил	окончить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	престижный	престижный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+13	Московский	московский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+14	Государственный	государственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	Университет	университет	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+16	Международных	международный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	Отношений	отношение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	МГИМО	МГИМО	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	appos	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	служил	служить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	посольстве	посольство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	obl	_	_
+25	Токио	Токио	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Позже он был главой управления протокола президента и аппарата правительства, сообщает веб-сайт Кремля (на русском языке).
+1	Позже	поздно	ADV	_	Degree=Cmp	4	advmod	_	_
+2	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	главой	глава	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+5	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	протокола	протокол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	президента	президент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	аппарата	аппарат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	conj	_	_
+10	правительства	правительство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	4	punct	_	_
+12	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	веб-сайт	веб-сайт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+14	Кремля	Кремль	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+16	на	на	ADP	_	_	18	case	_	_
+17	русском	русский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	языке	язык	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	parataxis	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Во время назначения он сказал Путину: "Спасибо за ваше доверие".
+1	Во	во	ADP	_	_	3	case	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	назначения	назначение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+4	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+5	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	Путину	Путин	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	5	iobj	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	5	punct	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Спасибо	спасибо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	parataxis	_	_
+10	за	за	ADP	_	_	12	case	_	_
+11	ваше	ваш	DET	_	Case=Acc|Gender=Neut|Number=Sing	12	det	_	_
+12	доверие	доверие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Я думаю, самая важная задача администрации — это поддерживать вашу деятельность как главы государства с точки зрения разработки проектов законов и контроля за тем, как выполняются ваши указания.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	думаю	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	самая	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	важная	важный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	задача	задача	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	obl	_	_
+7	администрации	администрация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	—	—	PUNCT	_	_	10	punct	_	_
+9	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+10	поддерживать	поддерживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	obl	_	_
+11	вашу	ваш	DET	_	Case=Acc|Gender=Fem|Number=Sing	12	det	_	_
+12	деятельность	деятельность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+13	как	как	SCONJ	_	_	14	mark	_	_
+14	главы	глава	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	acl	_	_
+15	государства	государство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	точки	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+18	зрения	зрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	compound	_	_
+19	разработки	разработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+20	проектов	проект	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+21	законов	закон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	контроля	контроль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	conj	_	_
+24	за	за	ADP	_	_	25	case	_	_
+25	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	23	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	_
+27	как	как	ADV	_	Degree=Pos	28	advmod	_	_
+28	выполняются	выполнять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	25	acl	_	_
+29	ваши	ваш	DET	_	Case=Acc|Number=Plur	30	det	_	_
+30	указания	указание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	28	obj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Путин сообщил одному российскому телеканалу в пятницу, что Иванов просил освободить его от этой должности и рекомендовал, чтобы Вайно заменил его.
+1	Путин	Путин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	сообщил	сообщить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	одному	один	NUM	_	Case=Dat|Gender=Masc	5	nummod	_	_
+4	российскому	российский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	телеканалу	телеканал	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	iobj	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	пятницу	пятница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	что	что	PRON	_	Case=Acc	11	mark	_	_
+10	Иванов	Иванов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	просил	просить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+12	освободить	освободить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	obj	_	_
+14	от	от	ADP	_	_	16	case	_	_
+15	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	16	det	_	_
+16	должности	должность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	рекомендовал	рекомендовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	22	punct	_	_
+20	чтобы	чтобы	SCONJ	_	Mood=Cnd	22	mark	_	_
+21	Вайно	Вайно	ADV	_	Degree=Pos	22	advmod	_	_
+22	заменил	заменить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	ccomp	_	_
+23	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Убеждают ли улыбки?
+1	Убеждают	убеждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ли	ли	PART	_	_	1	advmod	_	_
+3	улыбки	улыбка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Это ход, который озадачил Москву.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	ход	ход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	который	который	PRON	_	Case=Acc	5	obj	_	_
+5	озадачил	озадачить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+6	Москву	Москва	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Сергей Иванов долгое время являлся одним из ближайших сторонников Владимира Путина и, как и он, служил в советской службе безопасности, КГБ.
+1	Сергей	Сергей	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	Иванов	Иванов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	долгое	долгий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+5	являлся	являться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	одним	один	NUM	_	Case=Ins|Gender=Masc	5	nummod	_	_
+7	из	из	ADP	_	_	9	case	_	_
+8	ближайших	ближайший	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	сторонников	сторонник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+10	Владимира	Владимир	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	Путина	Путин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	flat:name	_	_
+12	и	и	CCONJ	_	_	16	cc	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	как	как	SCONJ	_	_	16	mark	_	_
+15	и	и	PART	_	_	16	advmod	_	_
+16	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	служил	служить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	советской	советский	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	службе	служба	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	obl	_	_
+22	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	КГБ	КГБ	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Как глава администрации он был одним из наиболее могущественных людей в стране.
+1	Как	как	SCONJ	_	_	6	mark	_	_
+2	глава	глава	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	администрации	администрация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+5	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+6	одним	один	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+7	из	из	ADP	_	_	10	case	_	_
+8	наиболее	наиболее	ADV	_	Degree=Pos	9	obl	_	_
+9	могущественных	могущественный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	стране	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = На совещании с президентом Путиным, которое показали по государственному телевидению, оба мужчины заявили, что глава администрации ушел в отставку по собственному желанию.
+1	На	на	ADP	_	_	2	case	_	_
+2	совещании	совещание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	obl	_	_
+3	с	с	ADP	_	_	4	case	_	_
+4	президентом	президент	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_
+5	Путиным	Путин	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	которое	который	PRON	_	Case=Nom	8	nsubj	_	_
+8	показали	показать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+9	по	по	ADP	_	_	11	case	_	_
+10	государственному	государственный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	телевидению	телевидение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	2	punct	_	_
+13	оба	оба	NUM	_	Case=Nom|Gender=Masc	14	nummod:gov	_	_
+14	мужчины	мужчина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+15	заявили	заявить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	20	punct	_	_
+17	что	что	SCONJ	_	_	20	mark	_	_
+18	глава	глава	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+19	администрации	администрация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	ушел	уйти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	ccomp	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	отставку	отставка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_
+23	по	по	ADP	_	_	25	case	_	_
+24	собственному	собственный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	желанию	желание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Но несмотря на улыбки на камеру, это мало кого здесь убедило — особенно сейчас, прямо перед парламентскими выборами.
+1	Но	но	CCONJ	_	_	12	cc	_	_
+2	несмотря	несмотря	ADV	_	Polarity=Neg	4	case	_	_
+3	на	на	ADP	_	_	2	fixed	_	_
+4	улыбки	улыбка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	obl	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	камеру	камера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+9	мало	мало	ADV	_	Degree=Pos	12	advmod	_	_
+10	кого	кто	PRON	_	Case=Acc	12	obj	_	_
+11	здесь	здесь	ADV	_	Degree=Pos	12	advmod	_	_
+12	убедило	убедить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	—	—	PUNCT	_	_	12	punct	_	_
+14	особенно	особенно	ADV	_	Degree=Pos	15	advmod	_	_
+15	сейчас	сейчас	ADV	_	Degree=Pos	12	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	20	punct	_	_
+17	прямо	прямо	ADV	_	Degree=Pos	20	obl	_	_
+18	перед	перед	ADP	_	_	20	case	_	_
+19	парламентскими	парламентский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	20	amod	_	_
+20	выборами	выборы	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Итак, это непредвиденные последствия какой-то борьбы за власть?
+1	Итак	итак	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+4	непредвиденные	непредвиденный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	последствия	последствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	0	root	_	_
+6	какой-то	какой-то	DET	_	Case=Gen|Gender=Fem|Number=Sing	7	det	_	_
+7	борьбы	борьба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	за	за	ADP	_	_	9	case	_	_
+9	власть	власть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	?	?	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Пока никто не знает.
+1	Пока	пока	ADV	_	Degree=Pos	4	advmod	_	_
+2	никто	никто	PRON	_	Case=Nom	4	nsubj	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	знает	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Но официальное заявление — что человек, за которого когда-то агитировали как за потенциального президента, внезапно захотел управлять российской экологической политикой — было встречено с огромным скептицизмом.
+1	Но	но	CCONJ	_	_	3	cc	_	_
+2	официальное	официальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	заявление	заявление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	25	nsubj:pass	_	_
+4	—	—	PUNCT	_	_	18	punct	_	_
+5	что	что	SCONJ	_	_	18	mark	_	_
+6	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	за	за	ADP	_	_	9	case	_	_
+9	которого	который	PRON	_	Case=Acc	11	obl	_	_
+10	когда-то	когда-то	ADV	_	Degree=Pos	11	advmod	_	_
+11	агитировали	агитировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+12	как	как	SCONJ	_	_	15	mark	_	_
+13	за	за	ADP	_	_	15	case	_	_
+14	потенциального	потенциальный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	президента	президент	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	6	punct	_	_
+17	внезапно	внезапно	ADV	_	Degree=Pos	18	advmod	_	_
+18	захотел	захотеть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	25	advcl	_	_
+19	управлять	управлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+20	российской	российский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+21	экологической	экологический	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	политикой	политика	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	obl	_	_
+23	—	—	PUNCT	_	_	18	punct	_	_
+24	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	25	aux:pass	_	_
+25	встречено	встретить	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+26	с	с	ADP	_	_	28	case	_	_
+27	огромным	огромный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	скептицизмом	скептицизм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\n
+
+# sent_id = 21
+# text = В замечаниях Путину, процитированных на веб-сайте Кремля, Иванов сказал: "Это правда, что в начале 2012 я просил Вас в беседе доверить мне эту очень сложную должность, даже, можно сказать, проблемную должность, на четыре года.
+1	В	в	ADP	_	_	2	case	_	_
+2	замечаниях	замечание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	12	obl	_	_
+3	Путину	Путин	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	iobj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	процитированных	цитировать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	веб-	веб-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	сайте	сайт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+9	Кремля	Кремль	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	Иванов	Иванов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+12	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	12	punct	_	_
+14	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+15	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+16	правда	правда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	23	punct	_	_
+18	что	что	SCONJ	_	_	23	mark	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	начале	начало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	23	obl	_	_
+21	2012	2012	NUM	_	_	20	nummod	_	_
+22	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	23	nsubj	_	_
+23	просил	просить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	acl	_	_
+24	Вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	23	obj	_	_
+25	в	в	ADP	_	_	26	case	_	_
+26	беседе	беседа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	obl	_	_
+27	доверить	доверить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	23	xcomp	_	_
+28	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	27	iobj	_	_
+29	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	32	det	_	_
+30	очень	очень	ADV	_	Degree=Pos	31	obl	_	_
+31	сложную	сложный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	должность	должность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	obj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	40	punct	_	_
+34	даже	даже	PART	_	_	40	advmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	40	punct	_	_
+36	можно	можно	ADV	_	Degree=Pos	40	parataxis	_	_
+37	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	36	csubj	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	40	punct	_	_
+39	проблемную	проблемный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	40	amod	_	_
+40	должность	должность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	conj	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	44	punct	_	_
+42	на	на	ADP	_	_	44	case	_	_
+43	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	44	nummod:gov	_	_
+44	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	conj	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = Что ж, получается, я был главой администрации президента четыре года и восемь месяцев.
+1	Что	что	PRON	_	Case=Nom	8	parataxis	_	_
+2	ж	же	PART	_	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	получается	получаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	8	nsubj	_	_
+7	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
+8	главой	глава	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+9	администрации	администрация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	президента	президент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	12	nummod:gov	_	_
+12	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	восемь	восемь	NUM	_	Case=Acc	15	nummod:gov	_	_
+15	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 23
+# text = Иванов вступил в должность в декабре 2011.
+1	Иванов	Иванов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	вступил	вступить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	должность	должность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	декабре	декабрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+7	2011	2011	NUM	_	_	6	nummod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 24
+# text = Ранее он работал в качестве заместителя премьер-министра и министра обороны.
+1	Ранее	рано	ADV	_	Degree=Pos	3	advmod	_	_
+2	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+3	работал	работать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	fixed	_	_
+6	заместителя	заместитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+7	премьер-министра	премьер-министр	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	министра	министр	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	conj	_	_
+10	обороны	оборона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 25
+# text = Он член Российского Совета безопасности и бывший член службы государственной безопасности КГБ, как и г-н Путин.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	член	член	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	Российского	российский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	Совета	Совет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	и	и	CCONJ	_	_	8	cc	_	_
+7	бывший	бывший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	член	член	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+9	службы	служба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	государственной	государственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	КГБ	КГБ	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	как	как	SCONJ	_	_	16	mark	_	_
+15	и	и	PART	_	_	16	advmod	_	_
+16	г-н	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	acl	_	_
+17	Путин	Путин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 26
+# text = В конце 1990-х годов, когда Путин был главой Федеральной службы безопасности (ФСБ), которая пришла на смену КГБ, Иванов был назначен его заместителем.
+1	В	в	ADP	_	_	2	case	_	_
+2	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	_
+3	1990-х	1990-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	годов	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	когда	когда	SCONJ	_	_	9	mark	_	_
+7	Путин	Путин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+8	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	_
+9	главой	глава	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_
+10	Федеральной	федеральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	службы	служба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	ФСБ	ФСБ	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	parataxis	_	SpaceAfter=No
+15	)	)	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	которая	который	PRON	_	Case=Nom	18	nsubj	_	_
+18	пришла	прийти	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	смену	смена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
+21	КГБ	КГБ	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	25	punct	_	_
+23	Иванов	Иванов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj:pass	_	_
+24	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	25	aux:pass	_	_
+25	назначен	назначить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	18	conj	_	_
+26	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	27	nmod	_	_
+27	заместителем	заместитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	25	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 27
+# text = Когда Путин пришел к власти, он назвал Иванова в числе пяти людей, которым он больше всего доверял.
+1	Когда	когда	SCONJ	_	_	3	mark	_	_
+2	Путин	Путин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	пришел	прийти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
+4	к	к	ADP	_	_	5	case	_	_
+5	власти	власть	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	_
+7	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+8	назвал	назвать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	Иванова	Иванов	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+12	пяти	пять	NUM	_	Case=Gen	13	nummod	_	_
+13	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	19	punct	_	_
+15	которым	который	PRON	_	Case=Dat	19	iobj	_	_
+16	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+17	больше	много	NUM	_	_	18	nummod:gov	_	_
+18	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	obl	_	_
+19	доверял	доверясти	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 28
+# text = Когда-то считалось, что Иванов мог бы стать президентом России после второго срока Путина, так как третий срок для Путина противоречил бы конституции.
+1	Когда-то	когда-то	ADV	_	Degree=Pos	2	advmod	_	_
+2	считалось	считать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	что	что	SCONJ	_	_	6	mark	_	_
+5	Иванов	Иванов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+7	бы	бы	AUX	_	_	6	aux	_	_
+8	стать	стать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	6	xcomp	_	_
+9	президентом	президент	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+10	России	Россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	после	после	ADP	_	_	13	case	_	_
+12	второго	второй	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	срока	срок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+14	Путина	Путин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	22	punct	_	_
+16	так	так	ADV	_	Degree=Pos	22	mark	_	_
+17	как	как	SCONJ	_	_	16	fixed	_	_
+18	третий	третий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	срок	срок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+20	для	для	ADP	_	_	21	case	_	_
+21	Путина	Путин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+22	противоречил	противоречить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	_
+23	бы	бы	AUX	_	_	22	aux	_	_
+24	конституции	конституция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 29
+# text = Однако этот пост занял другой близкий сторонник Путина, Дмитрий Медведев.
+1	Однако	однако	ADV	_	Degree=Pos	4	parataxis	_	_
+2	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
+3	пост	пост	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
+4	занял	занять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	близкий	близкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	сторонник	сторонник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+8	Путина	Путин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	Дмитрий	Дмитрий	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+11	Медведев	Медведев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 30
+# text = Путин стал премьер-министром до возвращения к президентству спустя всего три с половиной года.
+1	Путин	Путин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	стал	стать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	премьер-министром	премьер-министр	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+4	до	до	ADP	_	_	5	case	_	_
+5	возвращения	возвращение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+6	к	к	ADP	_	_	7	case	_	_
+7	президентству	президентство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	_
+8	спустя	спустя	ADP	_	_	9	case	_	_
+9	всего	весь	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+10	три	три	NUM	_	Case=Nom	13	nummod:gov	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	половиной	половина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	nmod	_	_
+13	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+

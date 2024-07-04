@@ -1,0 +1,3334 @@
+# newdoc id = txt/ru/teddy-1755.txt
+# newpar
+# sent_id = 1
+# text = (Видео) Николас Негропонте: Можем переключить на видеодиск, который уже в режиме проигрывания?
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Видео	видео	ADV	_	Degree=Pos	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+4	Николас	Николас	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	Негропонте	Негропонте	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	4	punct	_	_
+7	Можем	Мож	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+8	переключить	переключить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	видеодиск	видеодиск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	который	который	PRON	_	Case=Nom	15	nsubj	_	_
+13	уже	уже	ADV	_	Degree=Pos	15	obl	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	режиме	режим	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	acl:relcl	_	_
+16	проигрывания	проигрывание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+17	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 2
+# text = Мне по-настоящему интересно, как взаимодействуют люди и компьютеры.
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	3	iobj	_	_
+2	по-настоящему	по-настоящему	ADV	_	Degree=Pos	3	obl	_	_
+3	интересно	интересный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	как	как	SCONJ	_	_	6	mark	_	_
+6	взаимодействуют	взаимодействовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
+7	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	компьютеры	компьютер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 3
+# text = Вскоре в будущем мы будем пользоваться ТВ-экранами или их эквивалентом для чтения электронных книг.
+1	Вскоре	вскоре	ADV	_	Degree=Pos	6	advmod	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+4	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	6	nsubj	_	_
+5	будем	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+6	пользоваться	пользоваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	root	_	_
+7	ТВ	тв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	экранами	экран	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	7	nmod	_	_
+10	или	или	CCONJ	_	_	12	cc	_	_
+11	их	они	DET	_	_	12	det	_	_
+12	эквивалентом	эквивалент	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	conj	_	_
+13	для	для	ADP	_	_	14	case	_	_
+14	чтения	чтение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+15	электронных	электронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	книг	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 4
+# text = (Музыка, разговоры)
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Музыка	музыка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	разговоры	разговор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+5	)	)	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 5
+# text = В сенсорных высокотехнологичных дисплеях интересно то, что можно на них работать, не отрывая пальцев.
+1	В	в	ADP	_	_	4	case	_	_
+2	сенсорных	сенсорный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	4	amod	_	_
+3	высокотехнологичных	высокотехнологичный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	4	amod	_	_
+4	дисплеях	дисплей	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	obl	_	_
+5	интересно	интересный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+6	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	что	что	PRON	_	Case=Acc	9	mark	_	_
+9	можно	можно	ADV	_	Degree=Pos	6	acl	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	них	они	PRON	_	Case=Acc|Number=Plur|Person=3	12	obl	_	_
+12	работать	работать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	csubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	отрывая	отрывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	12	advcl	_	_
+16	пальцев	палец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 6
+# text = Есть и другой вариант, когда компьютеры физически расположены на человеке.
+1	Есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	и	и	PART	_	_	3	advmod	_	_
+3	другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	вариант	вариант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	когда	когда	SCONJ	_	_	9	mark	_	_
+7	компьютеры	компьютер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+8	физически	физически	ADV	_	Degree=Pos	9	advmod	_	_
+9	расположены	расположить	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	4	acl	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	человеке	человек	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 7
+# text = Внезапно 11-го сентября мир стал шире.
+1	Внезапно	внезапно	ADV	_	Degree=Pos	5	advmod	_	_
+2	11-го	11-й	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	сентября	сентябрь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obl	_	_
+4	мир	мир	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	стал	стать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	шире	широкий	ADJ	_	Degree=Cmp	5	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 8
+# text = НН: Спасибо.
+1	НН	Нн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Спасибо	спасибо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	parataxis	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 9
+# text = (Аплодисменты) Спасибо.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Аплодисменты	аплодисменты	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+4	Спасибо	спасибо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	appos	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 10
+# text = Когда меня попросили выступить с речью, меня также попросили просмотреть все мои 14 выступлений на TED, в хронологическом порядке.
+1	Когда	когда	SCONJ	_	_	3	mark	_	_
+2	меня	я	PRON	_	Case=Acc|Number=Sing|Person=1	3	obj	_	_
+3	попросили	просить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	_
+4	выступить	выступить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	речью	речь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	меня	я	PRON	_	Case=Acc|Number=Sing|Person=1	10	obj	_	_
+9	также	также	ADV	_	Degree=Pos	10	advmod	_	_
+10	попросили	просить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	просмотреть	смотреть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	все	все	DET	_	Case=Acc|Number=Plur	13	det	_	_
+13	мои	мой	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+14	14	14	NUM	_	_	15	nummod	_	_
+15	выступлений	выступление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	obl	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	TED	TED	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	21	punct	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	хронологическом	хронологический	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	порядке	порядок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 11
+# text = Первое длилось 2 часа.
+1	Первое	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	длилось	длиться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	2	2	NUM	_	_	4	nummod	_	_
+4	часа	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 12
+# text = Второе — час, а затем остальные — по полчаса, и всё, что я заметил, это как моя лысина увеличивается.
+1	Второе	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+2	—	—	PUNCT	_	_	3	punct	_	_
+3	час	час	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	а	а	CCONJ	_	_	7	cc	_	_
+6	затем	затем	ADV	_	Degree=Pos	7	advmod	_	_
+7	остальные	остальной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	conj	_	_
+8	—	—	PUNCT	_	_	7	punct	_	_
+9	по	по	ADP	_	_	11	case	_	_
+10	пол	пол	NUM	_	_	11	nummod	_	SpaceAfter=No
+11	часа	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	orphan	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	24	punct	_	_
+13	и	и	CCONJ	_	_	24	cc	_	_
+14	всё	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	24	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	что	что	PRON	_	Case=Acc	18	obj	_	_
+17	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	18	nsubj	_	_
+18	заметил	заметить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	acl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	24	punct	_	_
+20	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	24	nsubj	_	_
+21	как	как	SCONJ	_	_	24	advmod	_	_
+22	моя	мой	DET	_	Case=Nom|Gender=Fem|Number=Sing	23	det	_	_
+23	лысина	лысина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_
+24	увеличивается	увеличиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 13
+# text = (Смех) Представьте увидеть свою жизнь, 30 её лет, прошедшей перед глазами.
+1	(	(	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Смех	смех	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+4	Представьте	представить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+5	увидеть	видеть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	7	det	_	_
+7	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	30	30	NUM	_	_	11	nummod	_	_
+10	её	она	DET	_	_	11	det	_	_
+11	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	прошедшей	пройти	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	acl	_	_
+14	перед	перед	ADP	_	_	15	case	_	_
+15	глазами	глаз	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 14
+# text = Для меня, по крайней мере, это было шокирующе.
+1	Для	для	ADP	_	_	2	case	_	_
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	по	по	ADP	_	_	10	advmod	_	_
+5	крайней	крайний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	4	fixed	_	_
+6	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	fixed	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+9	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	_
+10	шокирующе	шокируюстый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 15
+# text = В моём выступлении я попытаюсь поделить с вами тем, что произошло за эти 30 лет, а затем сделаю предсказание и немного расскажу вам, что я делаю дальше.
+1	В	в	ADP	_	_	3	case	_	_
+2	моём	мой	DET	_	Case=Loc|Gender=Neut|Number=Sing	3	det	_	_
+3	выступлении	выступление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+4	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	5	nsubj	_	_
+5	попытаюсь	пытаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	поделить	делить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	вами	вы	PRON	_	Case=Ins|Number=Plur|Person=2	6	obl	_	_
+9	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	что	что	PRON	_	Case=Nom	12	nsubj	_	_
+12	произошло	произойти	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+13	за	за	ADP	_	_	16	case	_	_
+14	эти	этот	DET	_	Case=Acc|Number=Plur	15	det	_	_
+15	30	30	NUM	_	_	16	nummod	_	_
+16	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	а	а	CCONJ	_	_	20	cc	_	_
+19	затем	затем	ADV	_	Degree=Pos	20	advmod	_	_
+20	сделаю	сделать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+21	предсказание	предсказание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
+22	и	и	CCONJ	_	_	24	cc	_	_
+23	немного	немного	ADV	_	Degree=Pos	24	advmod	_	_
+24	расскажу	рассказать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	5	conj	_	_
+25	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	24	iobj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	_	_
+27	что	что	PRON	_	Case=Acc	29	obj	_	_
+28	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	29	nsubj	_	_
+29	делаю	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	24	ccomp	_	_
+30	дальше	далеко	ADV	_	Degree=Cmp	29	advmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 16
+# text = На слайде первый TED в моей жизни.
+1	На	на	ADP	_	_	2	case	_	_
+2	слайде	слайд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	_
+3	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	TED	TED	PROPN	_	Foreign=Yes	2	flat:foreign	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	моей	мой	DET	_	Case=Loc|Gender=Fem|Number=Sing	7	det	_	_
+7	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 17
+# text = Он настолько же важен, ведь до него я провёл 15 лет в исследованиях, у меня был тыл, так что выступить было просто.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+2	настолько	настолько	ADV	_	Degree=Pos	4	obl	_	_
+3	же	же	PART	_	_	2	advmod	_	_
+4	важен	важный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	10	punct	_	_
+6	ведь	ведь	SCONJ	_	_	10	mark	_	_
+7	до	до	ADP	_	_	8	case	_	_
+8	него	оно	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	10	obl	_	_
+9	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	10	nsubj	_	_
+10	провёл	провести	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+11	15	15	NUM	_	_	12	nummod	_	_
+12	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	исследованиях	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	у	у	ADP	_	_	17	case	_	_
+17	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	18	obl	_	_
+18	был	быть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
+19	тыл	тыл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	25	punct	_	_
+21	так	так	ADV	_	Degree=Pos	25	mark	_	_
+22	что	что	SCONJ	_	_	21	fixed	_	_
+23	выступить	выступить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	25	csubj	_	_
+24	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	25	cop	_	_
+25	просто	простой	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	18	advcl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 18
+# text = Не то чтобы я был Фидель Кастро и мог говорить 2 часа подряд, или Баки Фуллер.
+1	Не	не	PART	_	_	2	advmod	_	_
+2	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+3	чтобы	чтобы	SCONJ	_	Mood=Cnd	5	mark	_	_
+4	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	5	nsubj	_	_
+5	был	быть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	acl	_	_
+6	Фидель	Фидель	ADP	_	_	7	case	_	_
+7	Кастро	Кастро	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+10	говорить	говорить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	2	2	NUM	_	_	12	nummod	_	_
+12	часа	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+13	подряд	подряд	ADV	_	Degree=Pos	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	или	или	CCONJ	_	_	16	cc	_	_
+16	Баки	баки	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+17	Фуллер	Фуллер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	flat:name	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 19
+# text = У меня было 15 лет материала и Media Lab, готовая к открытию.
+1	У	у	ADP	_	_	2	case	_	_
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	3	obl	_	_
+3	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	15	15	NUM	_	_	5	nummod	_	_
+5	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nsubj	_	_
+6	материала	материал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	conj	_	_
+7	и	и	CCONJ	_	_	6	cc	_	_
+8	Media	Media	PROPN	_	Foreign=Yes	5	flat:foreign	_	_
+9	Lab	Lab	PROPN	_	Foreign=Yes	5	flat:foreign	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	готовая	готовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+12	к	к	ADP	_	_	13	case	_	_
+13	открытию	открытие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 20
+# text = Так что было легко.
+1	Так	так	ADV	_	Degree=Pos	4	mark	_	_
+2	что	что	SCONJ	_	_	1	fixed	_	_
+3	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	легко	легкий	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 21
+# text = Но есть кое-что об этом периоде и произошедшем, что действительно важно.
+1	Но	но	CCONJ	_	_	2	cc	_	_
+2	есть	быть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+3	кое-что	кое-что	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	об	о	ADP	_	_	6	case	_	_
+5	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	6	det	_	_
+6	периоде	период	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	произошедшем	произойти	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	что	что	SCONJ	_	_	12	mark	_	_
+11	действительно	действительно	ADV	_	Degree=Pos	12	obl	_	_
+12	важно	важный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	8	ccomp	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 22
+# text = Первое: это был период, когда компьютеры ещё не были для людей.
+1	Первое	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+4	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+5	период	период	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	13	punct	_	_
+7	когда	когда	SCONJ	_	_	13	mark	_	_
+8	компьютеры	компьютер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+9	ещё	еще	ADV	_	Degree=Pos	10	advmod	_	_
+10	не	не	PART	_	_	13	advmod	_	_
+11	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	_	_
+12	для	для	ADP	_	_	13	case	_	_
+13	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	acl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 23
+# text = А другое, происходящее в этот период: нас считали изнеженными компьютерными учёными.
+1	А	а	CCONJ	_	_	2	cc	_	_
+2	другое	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	происходящее	происходить	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	conj	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	7	det	_	_
+7	период	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	7	punct	_	_
+9	нас	мы	PRON	_	Case=Acc|Number=Plur|Person=1	10	obj	_	_
+10	считали	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+11	изнеженными	изнежеть	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	xcomp	_	_
+12	компьютерными	компьютерный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	13	amod	_	_
+13	учёными	учёный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 24
+# text = Вроде как не серьёзные.
+1	Вроде	вроде	ADV	_	Degree=Pos	4	parataxis	_	_
+2	как	как	SCONJ	_	_	4	mark	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	серьёзные	серьезный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 25
+# text = Я покажу вам, в ретроспективе, более интересное и более принятое, чем оно было в то время.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	покажу	показать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	2	iobj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	ретроспективе	ретроспектива	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	более	более	ADV	_	Degree=Cmp	9	obl	_	_
+9	интересное	интересный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	acl	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	более	более	ADV	_	Degree=Cmp	12	advmod	_	_
+12	принятое	принятый	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	чем	чем	SCONJ	_	_	16	mark	_	_
+15	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	16	nsubj	_	_
+16	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing	19	det	_	_
+19	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 26
+# text = Я охарактеризую годы и даже вернусь в прошлое к своей самой ранней работе.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
+2	охарактеризую	охарактеризый	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+3	годы	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	0	root	_	_
+4	и	и	CCONJ	_	_	6	cc	_	_
+5	даже	даже	PART	_	_	6	advmod	_	_
+6	вернусь	вернуться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	3	conj	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	прошлое	прошлое	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+9	к	к	ADP	_	_	13	case	_	_
+10	своей	свой	DET	_	Case=Dat|Gender=Fem|Number=Sing	13	det	_	_
+11	самой	самый	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+12	ранней	ранний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	работе	работа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 27
+# text = Это то, чем я занимался в 60-е: весьма прямое манипулирование, под сильным влиянием, пока изучал архитектуру архитектора Моше Сафди.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	чем	что	PRON	_	Case=Ins	6	obl	_	_
+5	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	6	nsubj	_	_
+6	занимался	заниматься	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	acl:relcl	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	60-е	60-й	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	obl	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	6	punct	_	_
+10	весьма	весьма	ADV	_	Degree=Pos	11	obl	_	_
+11	прямое	прямой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	манипулирование	манипулирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	под	под	ADP	_	_	16	case	_	_
+15	сильным	сильный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	влиянием	влияние	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	пока	пока	SCONJ	_	_	19	mark	_	_
+19	изучал	изучать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	acl	_	_
+20	архитектуру	архитектура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+21	архитектора	архитектор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	Моше	Моша	ADJ	_	Degree=Cmp	21	appos	_	_
+23	Сафди	Сафди	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 28
+# text = Можете видеть, что мы даже создали роботизированные штуки, способные строить структуры типа среды обитания.
+1	Можете	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	видеть	видеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	7	punct	_	_
+4	что	что	SCONJ	_	_	7	mark	_	_
+5	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	7	nsubj	_	_
+6	даже	даже	PART	_	_	7	advmod	_	_
+7	создали	создать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+8	роботизированные	роботизированный	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	amod	_	_
+9	штуки	штука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	способные	способный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	acl	_	_
+12	строить	строить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	структуры	структура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	obj	_	_
+14	типа	тип	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	среды	среда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	обитания	обитание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 29
+# text = Для меня это было ещё не Media Lab, но начало того, что я называл сенсорных технологий.
+1	Для	для	ADP	_	_	2	case	_	_
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	7	nmod	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+4	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
+5	ещё	еще	ADV	_	Degree=Pos	7	obl	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	Media	Media	PROPN	_	Foreign=Yes	0	root	_	_
+8	Lab	Lab	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	но	но	CCONJ	_	_	11	cc	_	_
+11	начало	начало	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	conj	_	_
+12	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	что	что	PRON	_	Case=Acc	16	obj	_	_
+15	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	16	nsubj	_	_
+16	называл	называть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	acl	_	_
+17	сенсорных	сенсорный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	технологий	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 30
+# text = Я выбрал пальцы частично потом, что все считали это нелепым.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	выбрал	выбрать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	пальцы	палец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+4	частично	частично	ADV	_	Degree=Pos	5	advmod	_	_
+5	потом	потом	ADV	_	Degree=Pos	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	что	что	SCONJ	_	_	9	mark	_	_
+8	все	все	PRON	_	Animacy=Anim|Case=Nom|Number=Plur	9	nsubj	_	_
+9	считали	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+10	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	нелепым	нелепый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 31
+# text = Были опубликованы статьи о том, как глупо использовать пальцы.
+1	Были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	aux:pass	_	_
+2	опубликованы	опубликовать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	статьи	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj:pass	_	_
+4	о	о	ADP	_	_	5	case	_	_
+5	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	как	как	ADV	_	Degree=Pos	8	obl	_	_
+8	глупо	глупо	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	5	acl	_	_
+9	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	csubj	_	_
+10	пальцы	палец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 32
+# text = 3 причины: первая — у них низкое разрешение, вторая — рука будет заграждать то, на что смотришь, и третья, моя любимая причина, — пальцы будут пачкать экран, следовательно, пальцы никогда не станут средством для манипуляций.
+1	3	3	NUM	_	_	2	nummod	_	_
+2	причины	причина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	_
+4	первая	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	parataxis	_	_
+5	—	—	PUNCT	_	_	4	punct	_	_
+6	у	у	ADP	_	_	7	case	_	_
+7	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	4	obl	_	_
+8	низкое	низкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	разрешение	разрешение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	вторая	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	acl	_	_
+12	—	—	PUNCT	_	_	15	punct	_	_
+13	рука	рука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+14	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	_
+15	заграждать	заграждать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+16	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	что	что	PRON	_	Case=Acc	20	obl	_	_
+20	смотришь	смотреть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	третья	третий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	27	punct	_	_
+25	моя	мой	DET	_	Case=Nom|Gender=Fem|Number=Sing	27	det	_	_
+26	любимая	любимый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	причина	причина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	acl:relcl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	32	punct	_	_
+29	—	—	PUNCT	_	_	32	punct	_	_
+30	пальцы	палец	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	32	nsubj	_	_
+31	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	aux	_	_
+32	пачкать	пачкать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	27	csubj	_	_
+33	экран	экран	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	32	obj	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	40	punct	_	_
+35	следовательно	следовательно	ADV	_	Degree=Pos	40	parataxis	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	40	punct	_	_
+37	пальцы	палец	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	40	nsubj	_	_
+38	никогда	никогда	ADV	_	Degree=Pos	40	advmod	_	_
+39	не	не	PART	_	_	40	advmod	_	_
+40	станут	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	32	conj	_	_
+41	средством	средство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	40	obl	_	_
+42	для	для	ADP	_	_	43	case	_	_
+43	манипуляций	манипуляция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	41	nmod	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 33
+# text = Это — устройство, созданное нами в 70-х, который никогда даже не был выбран.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	—	—	PUNCT	_	_	1	punct	_	_
+3	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	созданное	создать	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	_
+6	нами	мы	PRON	_	Case=Ins|Number=Plur|Person=1	5	obl	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	70-х	70-й	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	15	punct	_	_
+10	который	который	PRON	_	Case=Nom	15	nsubj:pass	_	_
+11	никогда	никогда	ADV	_	Degree=Pos	15	advmod	_	_
+12	даже	даже	PART	_	_	15	advmod	_	_
+13	не	не	PART	_	_	15	advmod	_	_
+14	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	aux:pass	_	_
+15	выбран	выбрать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	acl:relcl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 34
+# text = Он не просто сенсорно-чувствителен, но и чувствителен к давлению.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	просто	просто	PART	_	_	4	advmod	_	_
+4	сенсорно	сенсорный	ADV	_	Degree=Pos	0	root	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	чувствителен	чувствительный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	но	но	CCONJ	_	_	10	cc	_	_
+9	и	и	PART	_	_	8	advmod	_	_
+10	чувствителен	чувствительный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	6	conj	_	_
+11	к	к	ADP	_	_	12	case	_	_
+12	давлению	давление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 35
+# text = (Видео) Голос: Жёлтый круг, там.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Видео	видео	ADV	_	Degree=Pos	4	parataxis	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+4	Голос	голос	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	4	punct	_	_
+6	Жёлтый	Жёлтый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	круг	круг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	parataxis	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	там	там	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 36
+# text = НН: Более поздняя работа, и опять же, до TED1,— (Видео) Голос: Сдвинь его налево от ромба.
+1	НН	Нн	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Более	более	ADV	_	Degree=Cmp	4	obl	_	_
+4	поздняя	поздний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	18	punct	_	_
+7	и	и	CCONJ	_	_	18	cc	_	_
+8	опять	опять	ADV	_	Degree=Pos	18	advmod	_	_
+9	же	же	PART	_	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	до	до	ADP	_	_	12	case	_	_
+12	TED1	TED1	PROPN	_	Foreign=Yes	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	SpaceAfter=No
+14	—	—	PUNCT	_	_	16	punct	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	Видео	видео	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	flat:foreign	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	_
+18	Голос	голос	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+19	:	:	PUNCT	_	_	18	punct	_	_
+20	Сдвинь	Сдвинь	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	18	parataxis	_	_
+21	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	obj	_	_
+22	налево	налево	ADV	_	Degree=Pos	20	advmod	_	_
+23	от	от	ADP	_	_	24	case	_	_
+24	ромба	ромба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 37
+# text = Создай там большой зелёный круг.
+1	Создай	создать	PART	_	_	2	advmod	_	_
+2	там	там	ADV	_	Degree=Pos	0	root	_	_
+3	большой	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	зелёный	зелёный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	круг	круг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 38
+# text = Мужчина: Ах, чёрт возьми!
+1	Мужчина	мужчина	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Ах	ах	INTJ	_	_	6	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	чёрт	чёрт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	возьми	брать	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	1	parataxis	_	SpaceAfter=No
+7	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 39
+# text = НН:
+1	НН	Нн	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 40
+# text = Это предназначено для параллельного интерфейса, то есть когда говоришь и показываешь, то есть было, если желаете, множество каналов.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	предназначено	предназначить	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+3	для	для	ADP	_	_	5	case	_	_
+4	параллельного	параллельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	интерфейса	интерфейс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	16	punct	_	_
+7	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	mark	_	_
+8	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	fixed	_	_
+9	когда	когда	SCONJ	_	_	10	mark	_	_
+10	говоришь	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	показываешь	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	mark	_	_
+15	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	fixed	_	_
+16	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	если	если	SCONJ	_	_	19	mark	_	_
+19	желаете	желать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	множество	множество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	_
+22	каналов	канал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 41
+# text = Затем случился Энтеббе.
+1	Затем	затем	ADV	_	Degree=Pos	2	advmod	_	_
+2	случился	случиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	Энтеббе	Энтеббе	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 42
+# text = 1976 год.
+1	1976	1976	NUM	_	_	2	nummod	_	_
+2	год	год	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 43
+# text = Самолёт Air France был угнан, транспортирован в Энтеббе, и израильтяне не просто провели выдающуюся спасательную операцию, они сделали это частично потому, что практиковались на физической модели аэропорта.
+1	Самолёт	самолет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+2	Air	Air	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	France	France	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+4	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	угнан	угнать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	транспортирован	транспортировать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	Энтеббе	Энтеббе	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	15	punct	_	_
+11	и	и	CCONJ	_	_	15	cc	_	_
+12	израильтяне	израильтянин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+13	не	не	PART	_	_	14	advmod	_	_
+14	просто	просто	PART	_	_	15	advmod	_	_
+15	провели	провести	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+16	выдающуюся	выдающийся	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	18	amod	_	_
+17	спасательную	спасательный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	операцию	операция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	_
+20	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	21	nsubj	_	_
+21	сделали	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+22	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_
+23	частично	частично	ADV	_	Degree=Pos	24	advmod	_	_
+24	потому	потому	ADV	_	Degree=Pos	21	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	27	punct	_	_
+26	что	что	SCONJ	_	_	27	mark	_	_
+27	практиковались	практиковаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	24	advcl	_	_
+28	на	на	ADP	_	_	30	case	_	_
+29	физической	физический	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	модели	модель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	27	obl	_	_
+31	аэропорта	аэропорт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 44
+# text = Так как они построили аэропорт, они создали модель в пустыне, а когда прибыли в Энтеббе, то знали куда идти, ибо, по сути, были там.
+1	Так	так	ADV	_	Degree=Pos	4	mark	_	_
+2	как	как	SCONJ	_	_	1	fixed	_	_
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+4	построили	строить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
+5	аэропорт	аэропорт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	8	nsubj	_	_
+8	создали	создать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	модель	модель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	пустыне	пустыня	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	20	punct	_	_
+13	а	а	CCONJ	_	_	20	cc	_	_
+14	когда	когда	SCONJ	_	_	15	mark	_	_
+15	прибыли	прибыль	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	20	advcl	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	Энтеббе	Энтеббе	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	то	то	SCONJ	_	_	20	mark	_	_
+20	знали	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+21	куда	куда	ADV	_	Degree=Pos	22	advmod	_	_
+22	идти	идти	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	xcomp	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	30	punct	_	_
+24	ибо	ибо	SCONJ	_	_	30	mark	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	по	по	ADP	_	_	27	case	_	_
+27	сути	суть	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	30	parataxis	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	30	cop	_	_
+30	там	там	ADV	_	Degree=Pos	22	advmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 45
+# text = Правительство США попросило некоторых из нас, 1976 год, могли ли мы повторить это в вычислительном смысле, и, конечно, некоторые, вроде меня, ответили да.
+1	Правительство	правительство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	США	США	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	1	nmod	_	_
+3	попросило	просить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	некоторых	некоторый	DET	_	Case=Gen|Number=Plur	3	det	_	_
+5	из	из	ADP	_	_	6	case	_	_
+6	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	1976	1976	NUM	_	_	9	nummod	_	_
+9	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+12	ли	ли	PART	_	_	11	advmod	_	_
+13	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	11	nsubj	_	_
+14	повторить	повторить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+15	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	вычислительном	вычислительный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	смысле	смысл	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	29	punct	_	_
+20	и	и	CCONJ	_	_	29	cc	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	29	punct	_	_
+22	конечно	конечно	ADV	_	Degree=Pos	29	parataxis	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	29	punct	_	_
+24	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	29	nsubj	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	29	punct	_	_
+26	вроде	вроде	ADP	_	_	27	case	_	_
+27	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	29	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	ответили	ответить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+30	да	да	PART	_	_	29	advmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 46
+# text = Мгновенно у нас на руках контракт с Министерством Обороны, и мы создаём этот грузовик и прицеп.
+1	Мгновенно	мгновенно	ADV	_	Degree=Pos	0	root	_	_
+2	у	у	ADP	_	_	3	case	_	_
+3	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	1	obl	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	руках	рука	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	nmod	_	_
+6	контракт	контракт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	nsubj	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	Министерством	Министерство	PROPN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	nmod	_	_
+9	Обороны	Оборона	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	1	conj	_	_
+13	создаём	создаё	ADP	_	_	15	case	_	_
+14	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	15	det	_	_
+15	грузовик	грузовик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	прицеп	прицеп	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 47
+# text = Мы создали своего рода симуляцию, ведь были видео-диски, и, опять же, это был 76-й год.
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+2	создали	создать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing	4	det	_	_
+4	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+5	симуляцию	симуляция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	ведь	ведь	SCONJ	_	_	8	mark	_	_
+8	были	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+9	видео-диски	видео-диска	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	19	punct	_	_
+11	и	и	CCONJ	_	_	19	cc	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	19	punct	_	_
+13	опять	опять	ADV	_	Degree=Pos	19	obl	_	_
+14	же	же	PART	_	_	13	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	19	punct	_	_
+16	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	_
+17	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	cop	_	_
+18	76-й	76-й	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	год	год	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 48
+# text = А затем, годами позднее, вот этот грузовик и Google Maps.
+1	А	а	CCONJ	_	_	2	cc	_	_
+2	затем	затем	ADV	_	Degree=Pos	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	годами	год	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	obl	_	_
+5	позднее	поздно	ADV	_	Degree=Cmp	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	вот	вот	PART	_	_	8	advmod	_	_
+8	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	9	det	_	_
+9	грузовик	грузовик	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	Google	Гугл	PROPN	_	Foreign=Yes	9	conj	_	_
+12	Maps	Maps	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 49
+# text = Люди всё ещё думали: нет, это не серьёзная компьютерная наука.
+1	Люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	всё	все	PART	_	_	3	advmod	_	_
+3	ещё	еще	ADV	_	Degree=Pos	4	advmod	_	_
+4	думали	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	4	punct	_	_
+6	нет	нет	PART	_	_	12	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	серьёзная	серьёзный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	компьютерная	компьютерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	наука	наука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	parataxis	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 50
+# text = И был такой человек по имени Джерри Вейснер, — к слову, президент MIT — который считал это компьютерной наукой.
+1	И	и	CCONJ	_	_	2	cc	_	_
+2	был	быть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
+4	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	по	по	ADP	_	_	6	case	_	_
+6	имени	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	Джерри	Джерри	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	Вейснер	Вейснер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	14	punct	_	_
+10	—	—	PUNCT	_	_	14	punct	_	_
+11	к	к	ADP	_	_	12	case	_	_
+12	слову	слово	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	14	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	президент	президент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_
+15	MIT	MIT	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	—	—	PUNCT	_	_	18	punct	_	_
+17	который	который	PRON	_	Case=Nom	18	nsubj	_	_
+18	считал	считать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	acl:relcl	_	_
+19	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
+20	компьютерной	компьютерный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	наукой	наука	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 51
+# text = Одним из законов для любого, кто в жизни хочет что-то начать: убедись, что твой президент в деле.
+1	Одним	один	NUM	_	Case=Ins|Gender=Masc	0	root	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	законов	закон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	любого	любой	DET	_	Case=Gen|Gender=Masc|Number=Sing	3	det	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	10	punct	_	_
+7	кто	кто	PRON	_	Case=Nom	10	nsubj	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+10	хочет	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+11	что-то	что-то	PRON	_	Case=Acc	12	obj	_	_
+12	начать	начать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	12	punct	_	_
+14	убедись	убедиться	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Mid	12	parataxis	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	20	punct	_	_
+16	что	что	SCONJ	_	_	20	mark	_	_
+17	твой	твой	DET	_	Case=Nom|Gender=Masc|Number=Sing	18	det	_	_
+18	президент	президент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	деле	дело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	ccomp	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 52
+# text = Так что, пока я занимался Media Lab, как будто горилла за рулём.
+1	Так	так	ADV	_	Degree=Pos	6	advmod	_	_
+2	что	что	SCONJ	_	_	1	fixed	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	пока	пока	SCONJ	_	_	6	mark	_	_
+5	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	6	nsubj	_	_
+6	занимался	заниматься	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	Media	Media	PROPN	_	Foreign=Yes	6	obj	_	_
+8	Lab	Lab	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	14	punct	_	_
+10	как	как	SCONJ	_	_	14	mark	_	_
+11	будто	будто	PART	_	_	10	fixed	_	_
+12	горилла	горилла	PART	_	_	14	advmod	_	_
+13	за	за	ADP	_	_	14	case	_	_
+14	рулём	руль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	acl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 53
+# text = Если бы вас остановили за превышение скорости, полицейский заглянул бы в окно, увидел бы, кто сидит на переднем сидении, и такой:
+1	Если	если	SCONJ	_	_	4	mark	_	_
+2	бы	бы	AUX	_	_	4	aux	_	_
+3	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	4	obj	_	_
+4	остановили	остановить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	_
+5	за	за	ADP	_	_	6	case	_	_
+6	превышение	превышение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+7	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	4	punct	_	_
+9	полицейский	полицейский	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	заглянул	заглянуть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	бы	бы	AUX	_	_	10	aux	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	окно	окно	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	увидел	видеть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
+16	бы	бы	AUX	_	_	15	aux	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	кто	кто	PRON	_	Case=Nom	19	nsubj	_	_
+19	сидит	сидеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	ccomp	_	_
+20	на	на	ADP	_	_	22	case	_	_
+21	переднем	передний	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	сидении	сидения	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+26	:	:	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 54
+# text = «О, езжайте, сэр».
+1	«О	«о	ADV	_	Degree=Pos	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	езжайте	езжать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	сэр»	сэр»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 55
+# text = У нас это сошло с рук.
+1	У	у	ADP	_	_	2	case	_	_
+2	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	4	obl	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	сошло	сойти	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	рук	рука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 56
+# text = И это миленькое устройство, между прочим.
+1	И	и	CCONJ	_	_	4	cc	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	миленькое	миленький	DET	_	Case=Nom|Gender=Neut|Number=Sing	4	det	_	_
+4	устройство	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	между	между	ADP	_	_	4	discourse	_	_
+7	прочим	прочее	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	fixed	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 57
+# text = Это линзовидная фотография Джерри Вайснера, где единственным объектом, который меняется, являются губы.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	линзовидная	линзовидный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	фотография	фотография	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+4	Джерри	Джерри	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	Вайснера	Вайснер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	где	где	ADV	_	Degree=Pos	9	advmod	_	_
+8	единственным	единственный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	объектом	объект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	который	который	PRON	_	Case=Nom	12	nsubj	_	_
+12	меняется	меняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	conj	_	_
+15	губы	губа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 58
+# text = Когда двигаешь эту часть лентикулярного листа его фотографии, она будет синхронизироваться с губами с нулевой пропускной способностью.
+1	Когда	когда	SCONJ	_	_	2	mark	_	_
+2	двигаешь	двигавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
+3	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	4	det	_	_
+4	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	лентикулярного	лентикулярный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	листа	лист	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	его	его	DET	_	_	8	det	_	_
+8	фотографии	фотография	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	2	punct	_	_
+10	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	12	nsubj	_	_
+11	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
+12	синхронизироваться	синхронизироваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	root	_	_
+13	с	с	ADP	_	_	14	case	_	_
+14	губами	губа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	12	obl	_	_
+15	с	с	ADP	_	_	18	case	_	_
+16	нулевой	нулевой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+17	пропускной	пропускной	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	способностью	способность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 59
+# text = В то время это была конференц-связь Это было в Media Lab — то, что мы намеревались создать, что в мире компьютеров, издательств, и тому подобных сложится воедино.
+1	В	в	ADP	_	_	3	case	_	_
+2	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing	3	det	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	nmod	_	_
+4	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+5	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
+6	конференц-	конференц-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	связь	связь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+8	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+9	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	Media	Media	PROPN	_	Foreign=Yes	0	root	_	_
+12	Lab	Lab	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	—	—	PUNCT	_	_	14	punct	_	_
+14	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	appos	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	что	что	SCONJ	_	_	18	mark	_	_
+17	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	18	nsubj	_	_
+18	намеревались	намереваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	14	acl	_	_
+19	создать	создать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	xcomp	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	31	punct	_	_
+21	что	что	SCONJ	_	_	31	mark	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	31	obl	_	_
+24	компьютеров	компьютер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	издательств	издательство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	24	conj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	31	punct	_	_
+28	и	и	CCONJ	_	_	31	cc	_	_
+29	тому	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	31	iobj	_	_
+30	подобных	подобный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	29	amod	_	_
+31	сложится	сложиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	19	ccomp	_	_
+32	воедино	воедино	ADV	_	Degree=Pos	31	advmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 60
+# text = Опять же, не принято единодушно, но большей частью сообщества TED ранних лет.
+1	Опять	опять	ADV	_	Degree=Pos	5	advmod	_	_
+2	же	же	PART	_	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	принято	принять	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	единодушно	единодушно	ADV	_	Degree=Pos	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	но	но	CCONJ	_	_	9	cc	_	_
+9	большей	больший	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	conj	_	_
+10	частью	часть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_
+11	сообщества	сообщество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	TED	TED	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	ранних	ранний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 61
+# text = А это и было нашей целью.
+1	А	а	CCONJ	_	_	6	cc	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+3	и	и	PART	_	_	6	advmod	_	_
+4	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+5	нашей	наш	DET	_	Case=Ins|Gender=Fem|Number=Sing	6	det	_	_
+6	целью	цель	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 62
+# text = И это создало Media Lab.
+1	И	и	CCONJ	_	_	3	cc	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	создало	создать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	Media	Media	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	Lab	Lab	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 63
+# text = И из-за моего возраста могу сказать с полной уверенностью: я был в будущем.
+1	И	и	CCONJ	_	_	5	cc	_	_
+2	из-за	из-за	ADP	_	_	4	case	_	_
+3	моего	мой	DET	_	Case=Gen|Gender=Masc|Number=Sing	4	det	_	_
+4	возраста	возраст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+5	могу	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	полной	полный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	уверенностью	уверенность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	6	punct	_	_
+11	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	14	nsubj	_	_
+12	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	ccomp	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 64
+# text = По факту, несколько раз я был там.
+1	По	по	ADP	_	_	2	case	_	_
+2	факту	факт	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	5	nummod:gov	_	_
+5	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+6	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	8	nsubj	_	_
+7	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
+8	там	там	ADV	_	Degree=Pos	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 65
+# text = И причина тому, что множество раз в жизни я говорил: «О, через 10 лет это произойдёт», а потом 10 лет проходили.
+1	И	и	CCONJ	_	_	2	cc	_	_
+2	причина	причина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	тому	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	iobj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	11	punct	_	_
+5	что	что	SCONJ	_	_	11	mark	_	_
+6	множество	множество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+7	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+10	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	11	nsubj	_	_
+11	говорил	говорить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	acl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	«О	«О	ADV	_	Degree=Pos	19	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	через	через	ADP	_	_	17	case	_	_
+16	10	10	NUM	_	_	17	nummod	_	_
+17	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	conj	_	_
+18	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	_
+19	произойдёт»	произойдёт»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	25	punct	_	_
+21	а	а	CCONJ	_	_	25	cc	_	_
+22	потом	потом	ADV	_	Degree=Pos	25	advmod	_	_
+23	10	10	NUM	_	_	24	nummod	_	_
+24	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	25	obl	_	_
+25	проходили	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 66
+# text = И ты говоришь: «О, через 5 лет произойдёт».
+1	И	и	CCONJ	_	_	3	cc	_	_
+2	ты	ты	PRON	_	Case=Nom|Number=Sing|Person=2	3	nsubj	_	_
+3	говоришь	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	_	_	3	punct	_	_
+5	«О	«о	ADV	_	Degree=Pos	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	через	через	ADP	_	_	9	case	_	_
+8	5	5	NUM	_	_	9	nummod	_	_
+9	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	conj	_	_
+10	произойдёт»	произойдёт»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 67
+# text = И 5 лет проходило.
+1	И	и	CCONJ	_	_	4	cc	_	_
+2	5	5	NUM	_	_	3	nummod	_	_
+3	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	проходило	проходить	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 68
+# text = Я говорю это с некоторым чувством, что был в будущем несколько раз.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	говорю	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	с	с	ADP	_	_	6	case	_	_
+5	некоторым	некоторый	DET	_	Case=Ins|Gender=Neut|Number=Sing	6	det	_	_
+6	чувством	чувство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	что	что	PRON	_	Case=Nom	11	nsubj	_	_
+9	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	acl:relcl	_	_
+12	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	13	nummod:gov	_	_
+13	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	iobj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 69
+# text = Самая цитируемая сказанная мной фраза — информационные технологии не о компьютерах — поначалу не получила резонанса, а затем — да, потому как люди уловили, что средство подачи информации не было главным.
+1	Самая	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	цитируемая	цитируемай	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	сказанная	сказать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	_
+4	мной	я	PRON	_	Case=Ins|Number=Sing|Person=1	3	obl	_	_
+5	фраза	фраза	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+6	—	—	PUNCT	_	_	8	punct	_	_
+7	информационные	информационный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	технологии	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	conj	_	_
+9	не	не	PART	_	_	11	advmod	_	_
+10	о	о	ADP	_	_	11	case	_	_
+11	компьютерах	компьютер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	nmod	_	_
+12	—	—	PUNCT	_	_	15	punct	_	_
+13	поначалу	поначалу	ADV	_	Degree=Pos	15	advmod	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	получила	получить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+16	резонанса	резонанс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	26	punct	_	_
+18	а	а	CCONJ	_	_	26	cc	_	_
+19	затем	затем	ADV	_	Degree=Pos	26	advmod	_	_
+20	—	—	PUNCT	_	_	26	punct	_	_
+21	да	да	PART	_	_	26	parataxis	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	потому	потому	ADV	_	Degree=Pos	26	mark	_	_
+24	как	как	SCONJ	_	_	23	fixed	_	_
+25	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
+26	уловили	уловить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	15	conj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	34	punct	_	_
+28	что	что	SCONJ	_	_	34	mark	_	_
+29	средство	средство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	34	nsubj	_	_
+30	подачи	подача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	_
+31	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+32	не	не	PART	_	_	34	advmod	_	_
+33	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	34	cop	_	_
+34	главным	главный	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	26	ccomp	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 70
+# text = Я показываю этот автомобиль с несколько неказистом слайде, чтобы, опять же, рассказать вам историю, немного иллюстрирующую мою жизнь.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	показываю	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	4	det	_	_
+4	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	7	nummod:gov	_	_
+7	неказистом	неказист	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+8	слайде	слайд	ADV	_	Degree=Pos	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	15	punct	_	_
+10	чтобы	чтобы	SCONJ	_	Mood=Cnd	15	mark	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	опять	опять	ADV	_	Degree=Pos	15	advmod	_	_
+13	же	же	PART	_	_	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	рассказать	рассказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	advcl	_	_
+16	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	15	iobj	_	_
+17	историю	история	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	немного	немного	ADV	_	Degree=Pos	20	advmod	_	_
+20	иллюстрирующую	иллюстрировать	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	17	acl	_	_
+21	мою	мой	DET	_	Case=Acc|Gender=Fem|Number=Sing	22	det	_	_
+22	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 71
+# text = Это — работа моего студента, защитившего диссертацию «Водитель на заднем сидении».
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	—	—	PUNCT	_	_	1	punct	_	_
+3	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+4	моего	мой	DET	_	Case=Gen|Gender=Masc|Number=Sing	5	det	_	_
+5	студента	студент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	защитившего	защитить	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	acl	_	_
+8	диссертацию	диссертация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	«Водитель	«Водитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	заднем	задний	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	nmod	_	_
+12	сидении»	сидении»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 72
+# text = Это случилось на расцвете GPS, автомобиль имел данные о своём нахождении и мог передать голосовые инструкции водителю: когда повернуть направо, когда налево и так далее.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	случилось	случиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	расцвете	расцвет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	GPS	GPS	PROPN	_	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	имел	иметь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+9	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	8	obj	_	_
+10	о	о	ADP	_	_	12	case	_	_
+11	своём	свой	DET	_	Case=Loc|Gender=Neut|Number=Sing	12	det	_	_
+12	нахождении	нахождение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	nmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+15	передать	передать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	голосовые	голосовой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+17	инструкции	инструкция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
+18	водителю	водитель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	15	iobj	_	SpaceAfter=No
+19	:	:	PUNCT	_	_	15	punct	_	_
+20	когда	когда	SCONJ	_	_	21	mark	_	_
+21	повернуть	повернуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	advcl	_	_
+22	направо	направо	ADV	_	Degree=Pos	21	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	когда	когда	ADV	_	Degree=Pos	25	advmod	_	_
+25	налево	налево	ADV	_	Degree=Pos	21	advmod	_	_
+26	и	и	CCONJ	_	_	25	discourse	_	_
+27	так	так	ADV	_	Degree=Pos	26	fixed	_	_
+28	далее	далее	ADV	_	Degree=Pos	26	fixed	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 73
+# text = Оказалось, что многое в инструкциях того периода было довольно сложным, например, что значит «поверните направо на следующем повороте»?
+1	Оказалось	оказаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	11	punct	_	_
+3	что	что	SCONJ	_	_	11	mark	_	_
+4	многое	многое	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	инструкциях	инструкция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	4	nmod	_	_
+7	того	тот	DET	_	Case=Gen|Gender=Masc|Number=Sing	8	det	_	_
+8	периода	период	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+9	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
+10	довольно	довольно	ADV	_	Degree=Pos	11	obl	_	_
+11	сложным	сложный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	1	ccomp	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	16	punct	_	_
+13	например	например	ADV	_	Degree=Pos	16	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	что	что	PRON	_	Case=Acc	16	obj	_	_
+16	значит	значить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+17	«поверните	«повернить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	16	xcomp	_	_
+18	направо	направо	ADV	_	Degree=Pos	17	advmod	_	_
+19	на	на	ADP	_	_	21	case	_	_
+20	следующем	следующий	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	повороте»	повороте»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+22	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 74
+# text = Если подъезжаешь к улице, то следующий поворот направо, должно быть, после неё.
+1	Если	если	SCONJ	_	_	2	mark	_	_
+2	подъезжаешь	подъезжать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	_
+3	к	к	ADP	_	_	4	case	_	_
+4	улице	улица	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	то	то	SCONJ	_	_	15	mark	_	_
+7	следующий	следующий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	поворот	поворот	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+9	направо	направо	ADV	_	Degree=Pos	15	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	15	parataxis	_	_
+12	быть	быть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	11	punct	_	_
+14	после	после	ADP	_	_	15	case	_	_
+15	неё	она	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 75
+# text = И много там таких проблем.
+1	И	и	CCONJ	_	_	2	cc	_	_
+2	много	много	ADV	_	Degree=Pos	0	root	_	_
+3	там	там	ADV	_	Degree=Pos	2	advmod	_	_
+4	таких	такой	DET	_	Case=Gen|Number=Plur	5	det	_	_
+5	проблем	проблема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 76
+# text = Студент защитил отличную диссертацию, а бюро патентов MIT сказало: «Не патентуй.
+1	Студент	студент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	защитил	защитить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	отличную	отличный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	диссертацию	диссертация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	10	punct	_	_
+6	а	а	CCONJ	_	_	10	cc	_	_
+7	бюро	бюро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	10	nsubj	_	_
+8	патентов	патент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	MIT	MIT	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	сказало	сказать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	10	punct	_	_
+12	«Не	«Н	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+13	патентуй	патентуе	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	10	parataxis	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 77
+# text = Такой патент никогда не примут.
+1	Такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
+2	патент	патент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	никогда	никогда	ADV	_	Degree=Pos	5	advmod	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	примут	принять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 78
+# text = Обязательства слишком большие.
+1	Обязательства	обязательство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+2	слишком	слишком	ADV	_	Degree=Pos	3	obl	_	_
+3	большие	большой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 79
+# text = Будут проблемы со страховкой.
+1	Будут	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	_
+3	со	с	ADP	_	_	4	case	_	_
+4	страховкой	страховка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 80
+# text = Не патентуй».
+1	Не	не	PART	_	_	2	advmod	_	_
+2	патентуй»	патентуй»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 81
+# text = И мы не стали.
+1	И	и	CCONJ	_	_	4	cc	_	_
+2	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	4	nsubj	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 82
+# text = Но это показывает, как люди иногда не видят происходящего.
+1	Но	но	CCONJ	_	_	3	cc	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	показывает	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	9	punct	_	_
+5	как	как	SCONJ	_	_	9	mark	_	_
+6	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+7	иногда	иногда	ADV	_	Degree=Pos	9	advmod	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	видят	видеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
+10	происходящего	происходить	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 83
+# text = Некоторые работы — быстренько пробегусь — различные сенсорные устройства.
+1	Некоторые	некоторый	DET	_	Case=Nom|Number=Plur	2	det	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+3	—	—	PUNCT	_	_	2	punct	_	_
+4	быстренько	быстренько	ADV	_	Degree=Pos	5	advmod	_	_
+5	пробегусь	пробегусь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	9	acl	_	_
+6	—	—	PUNCT	_	_	5	punct	_	_
+7	различные	различный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+8	сенсорные	сенсорный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	устройства	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 84
+# text = Можете узнать тут молодого Йо-Йо Ма и проследить за его движениями, как он играет на виолончели или гипер-виолончели.
+1	Можете	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	узнать	узнать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3	тут	тут	ADV	_	Degree=Pos	2	advmod	_	_
+4	молодого	молодой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	Йо-Йо	йо-йо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	_
+6	Ма	М	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	проследить	проследить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	conj	_	_
+9	за	за	ADP	_	_	11	case	_	_
+10	его	его	DET	_	_	11	det	_	_
+11	движениями	движение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	как	как	SCONJ	_	_	15	mark	_	_
+14	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+15	играет	играть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	виолончели	виолончель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obl	_	_
+18	или	или	CCONJ	_	_	19	cc	_	_
+19	гипер	гипер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	conj	_	SpaceAfter=No
+20	-	-	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	виолончели	виолончель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	appos	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 85
+# text = Так парни и ходили в то время.
+1	Так	так	ADV	_	Degree=Pos	4	advmod	_	_
+2	парни	парень	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	ходили	ходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing	7	det	_	_
+7	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 86
+# text = Теперь это немного опрятнее и общепринято.
+1	Теперь	теперь	ADV	_	Degree=Pos	4	advmod	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	немного	немного	ADV	_	Degree=Pos	4	obl	_	_
+4	опрятнее	опрятный	ADJ	_	Degree=Cmp	0	root	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	общепринято	общепринятый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 87
+# text = Хочу быстро упомянуть трёх героев.
+1	Хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	быстро	быстро	ADV	_	Degree=Pos	3	advmod	_	_
+3	упомянуть	упомянуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+4	трёх	три	NUM	_	Animacy=Anim|Case=Acc	5	nummod:gov	_	_
+5	героев	герой	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 88
+# text = Марвин Минский, многому научивший меня о здравом смысле.
+1	Марвин	Марвин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Минский	минский	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	многому	многое	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	iobj	_	_
+5	научивший	научить	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	1	acl	_	_
+6	меня	я	PRON	_	Case=Acc|Number=Sing|Person=1	5	obj	_	_
+7	о	о	ADP	_	_	9	case	_	_
+8	здравом	здравый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	смысле	смысл	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 89
+# text = Коротко скажу о Мюриэле Купере имевшей важное значение для Рикки Вурмана, да и для TED, и когда она поднялась на сцену, первое, что она сказала, было: «Я познакомила Рикки с Никки».
+1	Коротко	коротко	ADV	_	Degree=Pos	2	advmod	_	_
+2	скажу	сказать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	о	о	ADP	_	_	4	case	_	_
+4	Мюриэле	Мюриэла	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	Купере	Купер	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	4	flat:name	_	_
+6	имевшей	иметь	VERB	_	Aspect=Imp|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	xcomp	_	_
+7	важное	важный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	значение	значение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	Рикки	Рикки	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+11	Вурмана	Вурман	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	16	punct	_	_
+13	да	да	CCONJ	_	_	16	cc	_	_
+14	и	и	PART	_	_	13	advmod	_	_
+15	для	для	ADP	_	_	16	case	_	_
+16	TED	TED	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	21	punct	_	_
+18	и	и	CCONJ	_	_	21	cc	_	_
+19	когда	когда	SCONJ	_	_	21	mark	_	_
+20	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	21	nsubj	_	_
+21	поднялась	подняться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	сцену	сцена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	первое	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	21	conj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	29	punct	_	_
+27	что	что	PRON	_	Case=Acc	29	obj	_	_
+28	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	29	nsubj	_	_
+29	сказала	сказать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	25	acl:relcl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	31	punct	_	_
+31	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	29	cop	_	SpaceAfter=No
+32	:	:	PUNCT	_	_	29	punct	_	_
+33	«Я	«Я	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	34	nsubj	_	_
+34	познакомила	знакомить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	29	parataxis	_	_
+35	Рикки	Рикки	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	34	obj	_	_
+36	с	с	ADP	_	_	37	case	_	_
+37	Никки»	Никки»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	obl	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 90
+# text = А никто меня не зовёт Никки, а Ричарда — Рикки, так что никто не знал, о ком она говорила.
+1	А	а	CCONJ	_	_	5	cc	_	_
+2	никто	никто	PRON	_	Case=Nom	5	nsubj	_	_
+3	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	5	obl	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	зовёт	зоть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	Никки	Никки	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	а	а	CCONJ	_	_	9	cc	_	_
+9	Ричарда	Ричард	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	conj	_	_
+10	—	—	PUNCT	_	_	11	punct	_	_
+11	Рикки	Рикки	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	orphan	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	17	punct	_	_
+13	так	так	ADV	_	Degree=Pos	17	mark	_	_
+14	что	что	SCONJ	_	_	13	fixed	_	_
+15	никто	никто	PRON	_	Case=Nom	17	nsubj	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	знал	знать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	22	punct	_	_
+19	о	о	ADP	_	_	20	case	_	_
+20	ком	кто	PRON	_	Case=Loc	22	obl	_	_
+21	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	22	nsubj	_	_
+22	говорила	говорить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 91
+# text = И, конечно же, Сеймур Пейперт — человек, сказавший: «Нельзя думать о мышлении, если только не думаешь о мышлении о чём-то».
+1	И	и	CCONJ	_	_	6	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	конечно	конечно	ADV	_	Degree=Pos	6	parataxis	_	_
+4	же	же	PART	_	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	Сеймур	Сеймур	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+7	Пейперт	Пейперт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	_
+8	—	—	PUNCT	_	_	9	punct	_	_
+9	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	сказавший	сказать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	acl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	«Нельзя	«Нельзя	ADV	_	Degree=Pos	14	advmod	_	_
+14	думать	думать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+15	о	о	ADP	_	_	16	case	_	_
+16	мышлении	мышление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	21	punct	_	_
+18	если	если	SCONJ	_	_	21	mark	_	_
+19	только	только	PART	_	_	21	advmod	_	_
+20	не	не	PART	_	_	21	advmod	_	_
+21	думаешь	думать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	14	advcl	_	_
+22	о	о	ADP	_	_	23	case	_	_
+23	мышлении	мышление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	obl	_	_
+24	о	о	ADP	_	_	25	case	_	_
+25	чём-то»	чём-то»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 92
+# text = Можете поразмышлять над этим позднее — весьма глубокое утверждение.
+1	Можете	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	поразмышлять	размышлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3	над	над	ADP	_	_	4	case	_	_
+4	этим	это	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	_
+5	позднее	поздно	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+6	—	—	PUNCT	_	_	5	punct	_	_
+7	весьма	весьма	ADV	_	Degree=Pos	8	obl	_	_
+8	глубокое	глубокий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	утверждение	утверждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 93
+# text = Я показываю некоторые слайды с TED 2, возможно, немного глуповатые.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	показываю	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	некоторые	некоторый	DET	_	Case=Acc|Number=Plur	4	det	_	_
+4	слайды	слайд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	TED	TED	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+7	2	2	NUM	_	_	6	nummod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	12	punct	_	_
+9	возможно	возможно	ADV	_	Degree=Pos	12	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	немного	немного	ADV	_	Degree=Pos	12	obl	_	_
+12	глуповатые	глуповатый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 94
+# text = Тогда я думал, что смысл телевидения в отображении.
+1	Тогда	тогда	ADV	_	Degree=Pos	3	advmod	_	_
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
+3	думал	думать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	9	punct	_	_
+5	что	что	SCONJ	_	_	9	mark	_	_
+6	смысл	смысл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+7	телевидения	телевидение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	отображении	отображение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 95
+# text = Теперь мы прошли TED 1 и где-то во временах TED 2.
+1	Теперь	теперь	ADV	_	Degree=Pos	3	advmod	_	_
+2	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
+3	прошли	пройти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	TED	TED	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	1	1	NUM	_	_	3	nummod	_	_
+6	и	и	CCONJ	_	_	9	cc	_	_
+7	где-то	где-то	ADV	_	Degree=Pos	9	advmod	_	_
+8	во	в	ADP	_	_	9	case	_	_
+9	временах	время	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	3	conj	_	_
+10	TED	TED	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	2	2	NUM	_	_	9	nummod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 96
+# text = Тут мне бы хотелось упомянуть: хотя вы и можете представить себе интеллект в устройствах, сегодня я смотрю на некоторые работы в области интернета вещей и думаю, что они, своего рода, трагически жалкие потому как происходит следующее: берёт человек панель от духовки и накладывает её на мобильник, или дверной ключ на мобильник, просто берёт и даёт вам, а это, по сути, то, что вам не нужно.
+1	Тут	тут	ADV	_	Degree=Pos	4	advmod	_	_
+2	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	4	iobj	_	_
+3	бы	бы	AUX	_	_	4	aux	_	_
+4	хотелось	хотеться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	упомянуть	упомянуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	_
+7	хотя	хотя	SCONJ	_	_	10	mark	_	_
+8	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	10	nsubj	_	_
+9	и	и	PART	_	_	10	advmod	_	_
+10	можете	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	19	advcl	_	_
+11	представить	представить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	себе	себя	PRON	_	Case=Dat	11	iobj	_	_
+13	интеллект	интеллект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	устройствах	устройство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	10	punct	_	_
+17	сегодня	сегодня	ADV	_	Degree=Pos	19	advmod	_	_
+18	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	19	nsubj	_	_
+19	смотрю	смотреть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+20	на	на	ADP	_	_	22	case	_	_
+21	некоторые	некоторый	DET	_	Case=Acc|Number=Plur	22	det	_	_
+22	работы	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obl	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	nmod	_	_
+25	интернета	интернет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	вещей	вещь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	думаю	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	19	conj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	61	punct	_	_
+30	что	что	SCONJ	_	_	61	mark	_	_
+31	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	61	nsubj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	34	punct	_	_
+33	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing	34	det	_	_
+34	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	61	obl	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	37	punct	_	_
+36	трагически	трагически	ADV	_	Degree=Pos	37	obl	_	_
+37	жалкие	жалкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	61	nsubj	_	_
+38	потому	потому	ADV	_	Degree=Pos	40	mark	_	_
+39	как	как	SCONJ	_	_	38	fixed	_	_
+40	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	61	advcl	_	_
+41	следующее	следующий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	40	nsubj	_	SpaceAfter=No
+42	:	:	PUNCT	_	_	40	punct	_	_
+43	берёт	брать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	40	parataxis	_	_
+44	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	45	nsubj	_	_
+45	панель	панель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	43	nsubj	_	_
+46	от	от	ADP	_	_	47	case	_	_
+47	духовки	духовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	45	nmod	_	_
+48	и	и	CCONJ	_	_	49	cc	_	_
+49	накладывает	накладывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	43	conj	_	_
+50	её	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	49	obj	_	_
+51	на	на	ADP	_	_	52	case	_	_
+52	мобильник	мобильник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	49	obl	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	56	punct	_	_
+54	или	или	CCONJ	_	_	56	cc	_	_
+55	дверной	дверной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	56	amod	_	_
+56	ключ	ключ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	52	conj	_	_
+57	на	на	ADP	_	_	58	case	_	_
+58	мобильник	мобильник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	56	nmod	_	SpaceAfter=No
+59	,	,	PUNCT	_	_	40	punct	_	_
+60	просто	просто	PART	_	_	61	advmod	_	_
+61	берёт	брать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	ccomp	_	_
+62	и	и	CCONJ	_	_	63	cc	_	_
+63	даёт	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	61	conj	_	_
+64	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	63	iobj	_	SpaceAfter=No
+65	,	,	PUNCT	_	_	77	punct	_	_
+66	а	а	CCONJ	_	_	77	cc	_	_
+67	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	77	nsubj	_	SpaceAfter=No
+68	,	,	PUNCT	_	_	77	punct	_	_
+69	по	по	ADP	_	_	70	case	_	_
+70	сути	суть	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	72	parataxis	_	SpaceAfter=No
+71	,	,	PUNCT	_	_	70	punct	_	_
+72	то	то	SCONJ	_	_	77	mark	_	SpaceAfter=No
+73	,	,	PUNCT	_	_	77	punct	_	_
+74	что	что	SCONJ	_	_	77	mark	_	_
+75	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	77	iobj	_	_
+76	не	не	PART	_	_	77	advmod	_	_
+77	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	61	conj	_	SpaceAfter=No
+78	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 97
+# text = Вы хотите ставить курицу в духовку, а духовка будет отвечать: «О, это — курица!» — и готовит курицу.
+1	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	2	nsubj	_	_
+2	хотите	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ставить	ставить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	курицу	курица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	духовку	духовка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	а	а	CCONJ	_	_	11	cc	_	_
+9	духовка	духовка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+10	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
+11	отвечать	отвечать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	conj	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	«О	«о	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	17	punct	_	_
+15	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+16	—	—	PUNCT	_	_	17	punct	_	_
+17	курица	курица	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+18	!	!	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	»	»	PUNCT	_	_	17	punct	_	_
+20	—	—	PUNCT	_	_	17	punct	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	готовит	готовить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	_
+23	курицу	курица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 98
+# text = «Так, приготовление курицы для Николаса, а он её любит так-то и так-то».
+1	«Так	«Так	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	приготовление	приготовление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	conj	_	_
+4	курицы	курица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	Николаса	Николас	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	а	а	CCONJ	_	_	11	cc	_	_
+9	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+10	её	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	11	obl	_	_
+11	любит	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+12	так-то	так-то	ADV	_	Degree=Pos	11	advmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	так-то»	так-то»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 99
+# text = Вместо того, чтобы интеллект внедрить в устройство, мы сегодня начали обратно ставить его на сотовые или ближе к пользователю — не особо просвещённый взгляд на интернет вещей.
+1	Вместо	вместо	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	чтобы	чтобы	SCONJ	_	Mood=Cnd	6	mark	_	_
+5	интеллект	интеллект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	внедрить	внедрить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	advcl	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	устройство	устройство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	2	punct	_	_
+10	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	12	nsubj	_	_
+11	сегодня	сегодня	ADV	_	Degree=Pos	12	advmod	_	_
+12	начали	начать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	обратно	обратно	ADV	_	Degree=Pos	12	advmod	_	_
+14	ставить	ставить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+15	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	obj	_	_
+16	на	на	ADP	_	_	26	case	_	_
+17	сотовые	сотовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	26	amod	_	_
+18	или	или	CCONJ	_	_	19	cc	_	_
+19	ближе	близкий	ADJ	_	Degree=Cmp	17	conj	_	_
+20	к	к	ADP	_	_	21	case	_	_
+21	пользователю	пользователь	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	19	obl	_	_
+22	—	—	PUNCT	_	_	17	punct	_	_
+23	не	не	PART	_	_	24	advmod	_	_
+24	особо	особо	ADV	_	Degree=Pos	25	obl	_	_
+25	просвещённый	просвещённый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	взгляд	взгляд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
+27	на	на	ADP	_	_	28	case	_	_
+28	интернет	интернет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	nmod	_	_
+29	вещей	вещь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 100
+# text = Снова телевидение.
+1	Снова	снова	ADV	_	Degree=Pos	2	advmod	_	_
+2	телевидение	телевидение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 101
+# text = Сегодня я говорил, что телевидение тогда, в 1990-м году, телевидение будущего выглядело вот так.
+1	Сегодня	сегодня	ADV	_	Degree=Pos	3	advmod	_	_
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
+3	говорил	говорить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	15	punct	_	_
+5	что	что	SCONJ	_	_	15	mark	_	_
+6	телевидение	телевидение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+7	тогда	тогда	ADV	_	Degree=Pos	15	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	1990-м	1990-й	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	7	punct	_	_
+13	телевидение	телевидение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+14	будущего	будущее	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	выглядело	выглядеть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	_	_
+16	вот	вот	PART	_	_	17	advmod	_	_
+17	так	так	ADV	_	Degree=Pos	15	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 102
+# text = Люди цинично посмеивались, смеялись без особого признания.
+1	Люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	цинично	цинично	ADV	_	Degree=Pos	3	advmod	_	_
+3	посмеивались	посмеиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	смеялись	смеяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	_
+6	без	без	ADP	_	_	8	case	_	_
+7	особого	особый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	признания	признание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 103
+# text = Телекоммуникации в 1990-х.
+1	Телекоммуникации	телекоммуникация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	1990-х	1990-й	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	1	obl	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 104
+# text = Джордж Гилдер решил, что назовёт эту диаграмму «выключатель Негропонте».
+1	Джордж	Джордж	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Гилдер	Гилдер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	решил	решить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	что	что	SCONJ	_	_	6	mark	_	_
+6	назовёт	назоть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
+7	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	8	det	_	_
+8	диаграмму	диаграмма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+9	«выключатель	«выключатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+10	Негропонте»	Негропонте»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 105
+# text = Я несколько менее известен, чем Джордж, так что, когда он назвал её «выключатель Негропонте», название привязалось, но идея того, что устройства на земле пойдут в воздух, а штуки из воздуха перейдут на землю, принялась.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	_
+2	несколько	несколько	ADV	_	Degree=Pos	3	advmod	_	_
+3	менее	менее	ADV	_	Degree=Cmp	4	obl	_	_
+4	известен	известный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	чем	чем	SCONJ	_	_	7	mark	_	_
+7	Джордж	Джордж	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	14	punct	_	_
+9	так	так	ADV	_	Degree=Pos	14	mark	_	_
+10	что	что	SCONJ	_	_	9	fixed	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	когда	когда	SCONJ	_	_	14	mark	_	_
+13	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+14	назвал	назвать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	_
+15	её	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	14	obl	_	_
+16	«выключатель	«выключатель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	obl	_	_
+17	Негропонте»	Негропонте»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	название	название	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+20	привязалось	привязать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	42	punct	_	_
+22	но	но	CCONJ	_	_	42	cc	_	_
+23	идея	идея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	42	nsubj	_	_
+24	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	30	punct	_	_
+26	что	что	SCONJ	_	_	30	mark	_	_
+27	устройства	устройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	30	nsubj	_	_
+28	на	на	ADP	_	_	29	case	_	_
+29	земле	земля	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	27	nmod	_	_
+30	пойдут	пойти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	24	acl	_	_
+31	в	в	ADP	_	_	32	case	_	_
+32	воздух	воздух	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obl	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	38	punct	_	_
+34	а	а	CCONJ	_	_	38	cc	_	_
+35	штуки	штука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	38	nsubj	_	_
+36	из	из	ADP	_	_	37	case	_	_
+37	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	_
+38	перейдут	перейти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	30	conj	_	_
+39	на	на	ADP	_	_	40	case	_	_
+40	землю	земля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	38	obl	_	SpaceAfter=No
+41	,	,	PUNCT	_	_	42	punct	_	_
+42	принялась	приняться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 106
+# text = Это — оригинальный слайд того года, и он работал строго по плану.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	—	—	PUNCT	_	_	1	punct	_	_
+3	оригинальный	оригинальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	слайд	слайд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+5	того	тот	DET	_	Case=Gen|Gender=Masc|Number=Sing	6	det	_	_
+6	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	и	и	CCONJ	_	_	10	cc	_	_
+9	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+10	работал	работать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+11	строго	строго	ADV	_	Degree=Pos	13	obl	_	_
+12	по	по	ADP	_	_	13	case	_	_
+13	плану	план	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 107
+# text = Мы запустили журнал Wired.
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+2	запустили	запустить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	журнал	журнал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	Wired	Wired	PROPN	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 108
+# text = Помню, мы периодически ставили колонку администратора, и один недовольный родитель позвонил с жалобами, что его сын отказался от подписки на Sports Illustrated в пользу Wired.
+1	Помню	помнить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	5	nsubj	_	_
+4	периодически	периодически	ADV	_	Degree=Pos	5	advmod	_	_
+5	ставили	ставить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	колонку	колонка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	администратора	администратор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	13	punct	_	_
+9	и	и	CCONJ	_	_	13	cc	_	_
+10	один	один	NUM	_	Case=Nom|Gender=Masc	12	nummod:gov	_	_
+11	недовольный	недовольный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	родитель	родитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+13	позвонил	звонить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	жалобами	жалоба	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	20	punct	_	_
+17	что	что	SCONJ	_	_	20	mark	_	_
+18	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	19	nmod	_	_
+19	сын	сын	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+20	отказался	отказаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	13	ccomp	_	_
+21	от	от	ADP	_	_	22	case	_	_
+22	подписки	подписка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	obl	_	_
+23	на	на	ADP	_	_	22	case	_	_
+24	Sports	Sports	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+25	Illustrated	Illustrated	PROPN	_	Foreign=Yes	22	flat:foreign	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	пользу	польза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_
+28	Wired	Wired	PROPN	_	Foreign=Yes	27	flat:foreign	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 109
+# text = Он спросил: «Вы какой-то порно-журнал или что-то такое?», и никак не мог взять в толк, почему его сын интересуется Wired.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	спросил	спросить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	_
+4	«Вы	«В	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+5	какой-то	какой-то	DET	_	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
+6	порно	порно	ADV	_	Degree=Pos	8	compound	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	журнал	журнал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+9	или	или	CCONJ	_	_	10	cc	_	_
+10	что-то	что-то	PRON	_	Case=Nom	8	conj	_	_
+11	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	10	det	_	SpaceAfter=No
+12	?	?	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	»	»	PUNCT	_	_	10	punct	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	18	punct	_	_
+15	и	и	CCONJ	_	_	18	cc	_	_
+16	никак	никак	ADV	_	Degree=Pos	17	advmod	_	_
+17	не	не	PART	_	_	18	advmod	_	_
+18	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+19	взять	брать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	толк	толк	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	26	punct	_	_
+23	почему	почему	ADV	_	Degree=Pos	26	advmod	_	_
+24	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	25	nmod	_	_
+25	сын	сын	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+26	интересуется	интересоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	19	conj	_	_
+27	Wired	Wired	PROPN	_	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 110
+# text = Немного ускорюсь.
+1	Немного	немного	ADV	_	Degree=Pos	2	advmod	_	_
+2	ускорюсь	ускориться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 111
+# text = Вот моё любимое — 1995 год, последняя страница журнала Newsweek.
+1	Вот	вот	PART	_	_	2	advmod	_	_
+2	моё	емо	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+3	любимое	любимый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+4	—	—	PUNCT	_	_	2	punct	_	_
+5	1995	1995	NUM	_	_	6	nummod	_	_
+6	год	год	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	последняя	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	страница	страница	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_
+10	журнала	журнал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	Newsweek	Ньюсвик	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 112
+# text = Ладно.
+1	Ладно	ладно	PART	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 113
+# text = Читайте.
+1	Читайте	читать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 114
+# text = (Смех) [Николас Негропонте, директор MIT Media Lab, прогнозирует, что скоро книги и газеты будут продаваться в интернет.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Смех	смех	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+4	[	[	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	Николас	Николас	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+6	Негропонте	Негропонте	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	директор	директор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+9	MIT	MIT	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	Media	Media	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+11	Lab	Lab	PROPN	_	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	прогнозирует	прогнозировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	21	punct	_	_
+15	что	что	SCONJ	_	_	21	mark	_	_
+16	скоро	скоро	ADV	_	Degree=Pos	21	advmod	_	_
+17	книги	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	21	nsubj	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	газеты	газета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	17	conj	_	_
+20	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	_	_
+21	продаваться	продавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	13	ccomp	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	интернет	интернет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 115
+# text = Ну да.]
+1	Ну	ну	PART	_	_	2	discourse	_	_
+2	да	да	PART	_	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	]	]	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 116
+# text = Признайте, приятно, по крайней мере, мне, когда кто-то говорит, как чертовски вы неправы.
+1	Признайте	Признать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	приятно	приятный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	1	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	9	punct	_	_
+5	по	по	ADP	_	_	9	advmod	_	_
+6	крайней	крайний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	5	fixed	_	_
+7	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	fixed	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	5	punct	_	_
+9	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	1	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	когда	когда	SCONJ	_	_	13	mark	_	_
+12	кто-то	кто-то	PRON	_	Case=Nom	13	nsubj	_	_
+13	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	18	punct	_	_
+15	как	как	SCONJ	_	_	18	mark	_	_
+16	чертовски	чертовски	ADV	_	Degree=Pos	18	obl	_	_
+17	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	18	nsubj	_	_
+18	неправы	неправ	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	13	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 117
+# text = Вышла книга «Жизнь в цифровом мире».
+1	Вышла	выйти	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
+3	«Жизнь	«Жизнь	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	цифровом	цифровой	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	obl	_	_
+6	мире»	мире»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 118
+# text = Мне это дало возможность стать более известным в профессиональной прессе и вынести свои идеи в свет, а также позволило нам построить новую Media Lab, которую, если вы не были, стоит посетить, ведь это прекрасное архитектурное строение, кроме того, что восхитительное место работы.
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	3	iobj	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	дало	дать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	возможность	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	стать	стать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	4	obl	_	_
+6	более	более	ADV	_	Degree=Cmp	7	obl	_	_
+7	известным	известный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	obl	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	профессиональной	профессиональный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	прессе	пресса	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	вынести	вынести	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	conj	_	_
+13	свои	свой	DET	_	Case=Acc|Number=Plur	14	det	_	_
+14	идеи	идея	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	obj	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	свет	свет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	а	а	CCONJ	_	_	20	cc	_	_
+19	также	также	PART	_	_	18	fixed	_	_
+20	позволило	позволить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+21	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	20	iobj	_	_
+22	построить	строить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+23	новую	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	obj	_	_
+24	Media	Media	PROPN	_	Foreign=Yes	23	flat:foreign	_	_
+25	Lab	Lab	PROPN	_	Foreign=Yes	23	flat:foreign	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	34	punct	_	_
+27	которую	который	PRON	_	Case=Acc	35	obj	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	если	если	SCONJ	_	_	32	mark	_	_
+30	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	32	nsubj	_	_
+31	не	не	PART	_	_	32	advmod	_	_
+32	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	34	advcl	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	acl:relcl	_	_
+35	посетить	посетить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	34	csubj	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	41	punct	_	_
+37	ведь	ведь	PART	_	_	38	advmod	_	_
+38	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	41	det	_	_
+39	прекрасное	прекрасный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	41	amod	_	_
+40	архитектурное	архитектурный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	41	amod	_	_
+41	строение	строение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	conj	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	44	punct	_	_
+43	кроме	кроме	ADP	_	_	44	case	_	_
+44	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	41	acl:relcl	_	SpaceAfter=No
+45	,	,	PUNCT	_	_	46	punct	_	_
+46	что	что	SCONJ	_	_	44	acl	_	_
+47	восхитительное	восхитительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	48	amod	_	_
+48	место	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	46	obj	_	_
+49	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	48	nmod	_	SpaceAfter=No
+50	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 119
+# text = Вот о чём мы говорили на TED.
+1	Вот	вот	PART	_	_	5	advmod	_	_
+2	о	о	ADP	_	_	3	case	_	_
+3	чём	что	PRON	_	Case=Loc	5	obl	_	_
+4	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	5	nsubj	_	_
+5	говорили	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	TED	TED	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 120
+# text = [Сегодня мультимедиа — громоздкая.
+1	[	[	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Сегодня	сегодня	ADV	_	Degree=Pos	3	advmod	_	_
+3	мультимедиа	мультимедиа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+4	—	—	PUNCT	_	_	5	punct	_	_
+5	громоздкая	громоздкой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 121
+# text = Это изменится, когда появятся компактные, яркие, экраны с высоким разрешением — 1995 год].
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	изменится	измениться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	когда	когда	SCONJ	_	_	5	mark	_	_
+5	появятся	появиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+6	компактные	компактный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	яркие	яркий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	экраны	экран	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	conj	_	_
+11	с	с	ADP	_	_	13	case	_	_
+12	высоким	высокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	разрешением	разрешение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	nmod	_	_
+14	—	—	PUNCT	_	_	16	punct	_	_
+15	1995	1995	NUM	_	_	16	nummod	_	_
+16	год	год	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	]	]	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 122
+# text = Мы дожили и до них.
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+2	дожили	дожить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	и	и	CCONJ	_	_	5	advmod	_	_
+4	до	до	ADP	_	_	5	case	_	_
+5	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 123
+# text = Я ожидал этого каждый год.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	ожидал	ожидать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	_
+4	каждый	каждый	DET	_	Case=Acc|Gender=Masc|Number=Sing	5	det	_	_
+5	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 124
+# text = Это была вечеринка, какой Рикки Вурман никогда не видывал, он пригласил своих старых друзей, включая меня.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	вечеринка	вечеринка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	10	punct	_	_
+5	какой	какой	DET	_	Case=Nom|Gender=Masc|Number=Sing	6	det	_	_
+6	Рикки	Рикки	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+7	Вурман	Вурман	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	_
+8	никогда	никогда	ADV	_	Degree=Pos	10	advmod	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	видывал	видывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+13	пригласил	пригласить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+14	своих	свой	DET	_	Case=Acc|Number=Plur	16	det	_	_
+15	старых	старый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	друзей	друг	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	включая	включая	ADV	_	Degree=Pos	3	conj	_	_
+19	меня	я	PRON	_	Case=Acc|Number=Sing|Person=1	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 125
+# text = А затем что-то для меня переменилось коренным образом.
+1	А	а	CCONJ	_	_	6	cc	_	_
+2	затем	затем	ADV	_	Degree=Pos	6	advmod	_	_
+3	что-то	что-то	PRON	_	Case=Acc	6	obj	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	6	obl	_	_
+6	переменилось	перемениться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	коренным	коренной	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 126
+# text = Я больше увлёкся компьютерами и образованием под влиянием Сеймура, особенно рассматривая образование, как нечто, наиболее приближенное к компьютерному программированию.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
+2	больше	больше	ADV	_	Degree=Cmp	3	advmod	_	_
+3	увлёкся	увлёчься	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	компьютерами	компьютер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	obl	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	образованием	образование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	conj	_	_
+7	под	под	ADP	_	_	8	case	_	_
+8	влиянием	влияние	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	nmod	_	_
+9	Сеймура	Сеймура	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	особенно	особенно	ADV	_	Degree=Pos	12	advmod	_	_
+12	рассматривая	рассматривать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	3	advcl	_	_
+13	образование	образование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	как	как	SCONJ	_	_	16	mark	_	_
+16	нечто	нечто	PRON	_	Case=Nom	12	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	наиболее	наиболее	ADV	_	Degree=Pos	19	advmod	_	_
+19	приближенное	приближенный	VERB	_	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	acl	_	_
+20	к	к	ADP	_	_	22	case	_	_
+21	компьютерному	компьютерный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	программированию	программирование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 127
+# text = Когда пишешь компьютерную программу, нужно не просто составить список параметров, применить некий алгоритм, и перевести его в набор инструкций, но, если там есть ошибка, а во всех программах она есть, необходимо её удалить.
+1	Когда	когда	SCONJ	_	_	2	mark	_	_
+2	пишешь	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+3	компьютерную	компьютерный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	программу	программа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	просто	просто	PART	_	_	9	advmod	_	_
+9	составить	составить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	csubj	_	_
+10	список	список	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	параметров	параметр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	применить	применить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	conj	_	_
+14	некий	некий	DET	_	Case=Acc|Gender=Masc|Number=Sing	15	det	_	_
+15	алгоритм	алгоритм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	перевести	перевести	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	conj	_	_
+19	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	obj	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	набор	набор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
+22	инструкций	инструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	38	punct	_	_
+24	но	но	CCONJ	_	_	38	cc	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	38	punct	_	_
+26	если	если	SCONJ	_	_	28	mark	_	_
+27	там	там	ADV	_	Degree=Pos	28	advmod	_	_
+28	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	38	advcl	_	_
+29	ошибка	ошибка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	28	nsubj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	36	punct	_	_
+31	а	а	CCONJ	_	_	36	cc	_	_
+32	во	в	ADP	_	_	34	case	_	_
+33	всех	весь	DET	_	Case=Loc|Number=Plur	34	det	_	_
+34	программах	программа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	36	obl	_	_
+35	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	36	nsubj	_	_
+36	есть	быть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	conj	_	SpaceAfter=No
+37	,	,	PUNCT	_	_	28	punct	_	_
+38	необходимо	необходимый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	18	conj	_	_
+39	её	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	40	obj	_	_
+40	удалить	удалить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	38	csubj	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 128
+# text = Нужно влезть туда, поменять программу и выполнить заново, и так далее.
+1	Нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+2	влезть	влезть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	csubj	_	_
+3	туда	туда	ADV	_	Degree=Pos	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	поменять	менять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	conj	_	_
+6	программу	программа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	выполнить	выполнить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	conj	_	_
+9	заново	заново	ADV	_	Degree=Pos	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	и	и	CCONJ	_	_	1	conj	_	_
+12	так	так	ADV	_	Degree=Pos	11	fixed	_	_
+13	далее	далее	ADV	_	Degree=Pos	11	fixed	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 129
+# text = Вот такая итерация — весьма удачный аналог обучению.
+1	Вот	вот	PART	_	_	2	advmod	_	_
+2	такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	3	det	_	_
+3	итерация	итерация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+4	—	—	PUNCT	_	_	3	punct	_	_
+5	весьма	весьма	ADV	_	Degree=Pos	6	obl	_	_
+6	удачный	удачный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	аналог	аналог	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
+8	обучению	обучение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	iobj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 130
+# text = Это привело меня к собственной работе с Сеймуром в таких местах, как Камбоджа, и началу программы «Ноутбук каждому ребёнку».
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	привело	привести	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	меня	я	PRON	_	Case=Acc|Number=Sing|Person=1	2	obj	_	_
+4	к	к	ADP	_	_	6	case	_	_
+5	собственной	собственный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	работе	работа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	Сеймуром	Сеймуром	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	таких	такой	DET	_	Case=Loc|Number=Plur	11	det	_	_
+11	местах	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	как	как	SCONJ	_	_	14	mark	_	_
+14	Камбоджа	Камбодж	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	началу	начало	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	conj	_	_
+18	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	«Ноутбук	«Ноутбук	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	_
+20	каждому	каждый	DET	_	Case=Dat|Gender=Masc|Number=Sing	21	det	_	_
+21	ребёнку»	ребёнку»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 131
+# text = Достаточно TED выступлений Пройдусь очень быстро.
+1	Достаточно	достаточный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+2	TED	TED	PROPN	_	Foreign=Yes	3	amod	_	_
+3	выступлений	выступление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	obl	_	_
+4	Пройдусь	Пройдуться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	1	csubj	_	_
+5	очень	очень	ADV	_	Degree=Pos	6	advmod	_	_
+6	быстро	быстро	ADV	_	Degree=Pos	4	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 132
+# text = Это дало нам шанс делать нечто в относительно широком масштабе в области образования, развития и вычислительной техники.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	дало	дать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	2	iobj	_	_
+4	шанс	шанс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	делать	делать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	csubj	_	_
+6	нечто	нечто	PRON	_	Case=Nom	4	parataxis	_	_
+7	в	в	ADP	_	_	10	case	_	_
+8	относительно	относительно	ADV	_	Degree=Pos	9	obl	_	_
+9	широком	широкий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	масштабе	масштаб	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	области	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
+13	образования	образование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	conj	_	_
+16	и	и	CCONJ	_	_	18	cc	_	_
+17	вычислительной	вычислительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	техники	техника	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 133
+# text = Не так много людей знают, что «Ноутбук каждому ребёнку» был проектом стоимостью 1 миллиард долларов.
+1	Не	не	PART	_	_	2	advmod	_	_
+2	так	так	ADV	_	Degree=Pos	3	advmod	_	_
+3	много	много	ADV	_	Degree=Pos	5	nsubj	_	_
+4	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+5	знают	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	12	punct	_	_
+7	что	что	SCONJ	_	_	12	mark	_	_
+8	«Ноутбук	«Ноутбук	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+9	каждому	каждый	DET	_	Case=Dat|Gender=Masc|Number=Sing	10	det	_	_
+10	ребёнку»	ребёнку»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	_
+12	проектом	проект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	ccomp	_	_
+13	стоимостью	стоимость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	nmod	_	_
+14	1	1	NUM	_	_	15	nummod	_	_
+15	миллиард	миллиард	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	nummod:gov	_	_
+16	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 134
+# text = Так оно и есть все 7 лет, что я им руковожу, но важнее всего, что Всемирный Банк ничего не внёс, АМР — тоже ничего.
+1	Так	так	ADV	_	Degree=Pos	7	advmod	_	_
+2	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	7	nsubj	_	_
+3	и	и	PART	_	_	7	advmod	_	_
+4	есть	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+5	все	весь	DET	_	Case=Nom|Number=Plur	6	det	_	_
+6	7	7	NUM	_	_	7	nummod	_	_
+7	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	12	punct	_	_
+9	что	что	SCONJ	_	_	12	mark	_	_
+10	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	12	nsubj	_	_
+11	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	12	iobj	_	_
+12	руковожу	руководить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	но	но	CCONJ	_	_	15	cc	_	_
+15	важнее	важный	ADJ	_	Degree=Cmp	7	conj	_	_
+16	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	23	punct	_	_
+18	что	что	SCONJ	_	_	23	mark	_	_
+19	Всемирный	всемирный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	Банк	банк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+21	ничего	ничто	PRON	_	Case=Gen	23	obl	_	_
+22	не	не	PART	_	_	23	advmod	_	_
+23	внёс	внёс	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	ccomp	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	28	punct	_	_
+25	АМР	Амр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+26	—	—	PUNCT	_	_	28	punct	_	_
+27	тоже	тоже	PART	_	_	28	advmod	_	_
+28	ничего	ничто	PRON	_	Case=Gen	23	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 135
+# text = По большей части, это были страны, использующие свои ресурсы, что весьма интересно.
+1	По	по	ADP	_	_	3	case	_	_
+2	большей	больший	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	части	часть	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+6	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
+7	страны	страна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	использующие	использовать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	acl	_	_
+10	свои	свой	DET	_	Case=Acc|Number=Plur	11	det	_	_
+11	ресурсы	ресурс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	9	punct	_	_
+13	что	что	PRON	_	Case=Nom	15	nsubj	_	_
+14	весьма	весьма	ADV	_	Degree=Pos	15	obl	_	_
+15	интересно	интересный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	7	acl:relcl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 136
+# text = Для меня это было очень интересно в свете того, что я планировал далее.
+1	Для	для	ADP	_	_	2	case	_	_
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	6	obl	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+4	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+5	очень	очень	ADV	_	Degree=Pos	6	obl	_	_
+6	интересно	интересный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	свете	свет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+9	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	что	что	PRON	_	Case=Acc	13	obj	_	_
+12	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	13	nsubj	_	_
+13	планировал	планировать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	acl	_	_
+14	далее	далеко	ADV	_	Degree=Pos	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 137
+# text = Вот во всех этих местах программа заработала.
+1	Вот	вот	PART	_	_	5	advmod	_	_
+2	во	в	ADP	_	_	5	case	_	_
+3	всех	весь	DET	_	Case=Loc|Number=Plur	5	det	_	_
+4	этих	этот	DET	_	Case=Loc|Number=Plur	5	det	_	_
+5	местах	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	7	obl	_	_
+6	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	заработала	заработать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 138
+# text = Затем я провёл эксперимент, которой имел место в Эфиопии.
+1	Затем	затем	ADV	_	Degree=Pos	3	advmod	_	_
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
+3	провёл	провести	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	которой	который	PRON	_	Case=Ins	7	obl	_	_
+7	имел	иметь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+8	место	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	Эфиопии	Эфиопия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 139
+# text = И вот, каким он был.
+1	И	и	CCONJ	_	_	6	cc	_	_
+2	вот	вот	PART	_	_	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	каким	какой	DET	_	Case=Ins|Gender=Masc|Number=Sing	5	det	_	_
+5	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+6	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 140
+# text = Эксперимент в том, возможно ли обучение там, где нет школ.
+1	Эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	возможно	возможный	ADV	_	Degree=Pos	7	parataxis	_	_
+6	ли	ли	PART	_	_	5	advmod	_	_
+7	обучение	обучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	acl	_	_
+8	там	там	ADV	_	Degree=Pos	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	где	где	ADV	_	Degree=Pos	11	advmod	_	_
+11	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	школ	школа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 141
+# text = Мы раздали планшеты без каких-либо инструкций и позволили детям разобраться самим.
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+2	раздали	раздасть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	планшеты	планшет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+4	без	без	ADP	_	_	6	case	_	_
+5	каких-либо	какой-либо	DET	_	Case=Gen|Number=Plur	6	det	_	_
+6	инструкций	инструкция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obl	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	позволили	позволить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+9	детям	ребенок	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	8	iobj	_	_
+10	разобраться	разобраться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	8	xcomp	_	_
+11	самим	сам	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	10	iobj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 142
+# text = За короткое время они не только их включили и стали использовать вплоть до 50 приложений на ребёнка в течение пяти дней, они распевали песенку АВС за двухнедельный период, и они взломали Андроид за 6 месяцев.
+1	За	за	ADP	_	_	3	case	_	_
+2	короткое	короткий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_
+4	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	8	nsubj	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	только	только	PART	_	_	7	advmod	_	_
+7	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	8	obj	_	_
+8	включили	включать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+11	использовать	использовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	вплоть	вплоть	ADV	_	Degree=Pos	15	case	_	_
+13	до	до	ADP	_	_	12	fixed	_	_
+14	50	50	NUM	_	_	15	nummod	_	_
+15	приложений	приложение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	obl	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	ребёнка	ребенок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	в	в	ADP	_	_	21	case	_	_
+19	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	fixed	_	_
+20	пяти	пять	NUM	_	Case=Gen	21	nummod	_	_
+21	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	24	punct	_	_
+23	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	24	nsubj	_	_
+24	распевали	распевать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+25	песенку	песенка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+26	АВС	АВС	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	25	appos	_	_
+27	за	за	ADP	_	_	29	case	_	_
+28	двухнедельный	двухнедельный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	период	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	33	punct	_	_
+31	и	и	CCONJ	_	_	33	cc	_	_
+32	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	33	nsubj	_	_
+33	взломали	взломать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+34	Андроид	Андроид	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	obj	_	_
+35	за	за	ADP	_	_	37	case	_	_
+36	6	6	NUM	_	_	37	nummod	_	_
+37	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	obl	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 143
+# text = Вот это было очень занятно.
+1	Вот	вот	PART	_	_	2	advmod	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+4	очень	очень	ADV	_	Degree=Pos	5	obl	_	_
+5	занятно	занятный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 144
+# text = Вот, пожалуй, лучшее фото, что у меня есть.
+1	Вот	вот	PART	_	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	пожалуй	пожалуй	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	лучшее	лучший	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	фото	фото	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	что	что	SCONJ	_	_	11	mark	_	_
+9	у	у	ADP	_	_	10	case	_	_
+10	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	11	obl	_	_
+11	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 145
+# text = Ребёнок справа для вас как бы провозгласил себя учителем.
+1	Ребёнок	Ребёнка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	справа	справа	ADV	_	Degree=Pos	1	advmod	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	7	obl	_	_
+5	как	как	ADV	_	Degree=Pos	7	advmod	_	_
+6	бы	бы	PART	_	_	5	fixed	_	_
+7	провозгласил	провозгласить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	себя	себя	PRON	_	Case=Acc	7	obj	_	_
+9	учителем	учитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 146
+# text = Посмотрите на малыша слева и далее.
+1	Посмотрите	смотреть	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+2	на	на	ADP	_	_	3	case	_	_
+3	малыша	малыш	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	1	obl	_	_
+4	слева	слева	ADV	_	Degree=Pos	3	advmod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	далее	далее	ADV	_	Degree=Pos	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 147
+# text = Совсем нет взрослых здесь.
+1	Совсем	совсем	ADV	_	Degree=Pos	2	advmod	_	_
+2	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	взрослых	взрослый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nsubj	_	_
+4	здесь	здесь	ADV	_	Degree=Pos	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 148
+# text = Я задумался: а можно ли сделать то же самое в более крупном масштабе?
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	задумался	задуматься	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	_
+4	а	а	CCONJ	_	_	5	cc	_	_
+5	можно	можно	ADV	_	Degree=Pos	2	parataxis	_	_
+6	ли	ли	PART	_	_	5	advmod	_	_
+7	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	csubj	_	_
+8	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	же	же	PART	_	_	8	advmod	_	_
+10	самое	самый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+11	в	в	ADP	_	_	14	case	_	_
+12	более	более	ADV	_	Degree=Cmp	13	obl	_	_
+13	крупном	крупный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	масштабе	масштаб	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+15	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 149
+# text = Чего не хватает?
+1	Чего	что	PRON	_	Case=Gen	3	nsubj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	хватает	хватать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 150
+# text = Дети сейчас дают пресс-конференцию, и как бы пишут на грязи.
+1	Дети	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	сейчас	сейчас	ADV	_	Degree=Pos	3	advmod	_	_
+3	дают	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	пресс-конференцию	пресс-конференция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	и	и	CCONJ	_	_	9	cc	_	_
+7	как	как	ADV	_	Degree=Pos	9	advmod	_	_
+8	бы	бы	PART	_	_	7	fixed	_	_
+9	пишут	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	грязи	грязь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 151
+# text = И ответ: а чего не хватает?
+1	И	и	CCONJ	_	_	2	cc	_	_
+2	ответ	ответ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	_
+4	а	а	CCONJ	_	_	7	cc	_	_
+5	чего	что	PRON	_	Case=Gen	7	nsubj	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	хватает	хватать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	SpaceAfter=No
+8	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 152
+# text = Я пропущу свой прогноз, так как времени мало, и вот вопрос: что произойдёт?
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	пропущу	пропуще	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	4	det	_	_
+4	прогноз	прогноз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	так	так	ADV	_	Degree=Pos	9	mark	_	_
+7	как	как	SCONJ	_	_	6	fixed	_	_
+8	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nsubj	_	_
+9	мало	мало	ADV	_	Degree=Pos	2	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	и	и	CCONJ	_	_	13	cc	_	_
+12	вот	вот	PART	_	_	13	advmod	_	_
+13	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+14	:	:	PUNCT	_	_	13	punct	_	_
+15	что	что	PRON	_	Case=Nom	16	nsubj	_	_
+16	произойдёт	произойдёть	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	13	parataxis	_	SpaceAfter=No
+17	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 153
+# text = Думаю, трудность в том, чтобы присоединить последний миллиард людей, что совсем иначе, нежели подключение следующего миллиарда, а иначе это потому, что следующий миллиард это как фрукт, висящий низко, а вот последний миллиард — это деревни.
+1	Думаю	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	трудность	трудность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	чтобы	чтобы	SCONJ	_	Mood=Cnd	8	mark	_	_
+8	присоединить	присоединить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	advcl	_	_
+9	последний	последний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	миллиард	миллиард	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+11	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	15	punct	_	_
+13	что	что	PRON	_	Case=Nom	15	nsubj	_	_
+14	совсем	совсем	ADV	_	Degree=Pos	15	advmod	_	_
+15	иначе	иначе	ADV	_	Degree=Pos	5	acl:relcl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	нежели	нежели	SCONJ	_	_	18	mark	_	_
+18	подключение	подключение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	advcl	_	_
+19	следующего	следующий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	миллиарда	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	25	punct	_	_
+22	а	а	CCONJ	_	_	25	cc	_	_
+23	иначе	иначе	ADV	_	Degree=Pos	25	advmod	_	_
+24	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	25	nsubj	_	_
+25	потому	потому	ADV	_	Degree=Pos	15	conj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	30	punct	_	_
+27	что	что	SCONJ	_	_	30	mark	_	_
+28	следующий	следующий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	миллиард	миллиард	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	_
+30	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	advcl	_	_
+31	как	как	SCONJ	_	_	32	mark	_	_
+32	фрукт	фрукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	acl	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	34	punct	_	_
+34	висящий	висеть	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	32	acl	_	_
+35	низко	низко	ADV	_	Degree=Pos	34	advmod	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	43	punct	_	_
+37	а	а	CCONJ	_	_	43	cc	_	_
+38	вот	вот	PART	_	_	37	advmod	_	_
+39	последний	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	_
+40	миллиард	миллиард	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	43	nmod	_	_
+41	—	—	PUNCT	_	_	43	punct	_	_
+42	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	43	nsubj	_	_
+43	деревни	деревня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	34	conj	_	SpaceAfter=No
+44	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 154
+# text = Деревенские и бедные люди — понятия разные.
+1	Деревенские	деревенский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	бедные	бедный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	1	conj	_	_
+4	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	—	—	PUNCT	_	_	4	punct	_	_
+6	понятия	понятие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	0	root	_	_
+7	разные	разный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 155
+# text = Бедность обычно создаётся нашим обществом, а люди в этом обществе вовсе не бедны в том же смысле.
+1	Бедность	бедность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	обычно	обычно	ADV	_	Degree=Pos	3	advmod	_	_
+3	создаётся	создаёться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	нашим	наш	DET	_	Case=Ins|Gender=Neut|Number=Sing	5	det	_	_
+5	обществом	общество	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	14	punct	_	_
+7	а	а	CCONJ	_	_	14	cc	_	_
+8	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	этом	этот	DET	_	Case=Loc|Gender=Neut|Number=Sing	11	det	_	_
+11	обществе	общество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	_
+12	вовсе	вовсе	ADV	_	Degree=Pos	13	advmod	_	_
+13	не	не	PART	_	_	14	advmod	_	_
+14	бедны	бедный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	3	conj	_	_
+15	в	в	ADP	_	_	18	case	_	_
+16	том	тот	DET	_	Case=Loc|Gender=Masc|Number=Sing	18	det	_	_
+17	же	же	PART	_	_	16	advmod	_	_
+18	смысле	смысл	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 156
+# text = Может, они и простоваты, но способ подхода к ним, установки связи с ними история программы «Ноутбук каждому ребёнку» и эксперимент в Эфиопии вселяют в меня уверенность, что мы можем сделать это за короткое время.
+1	Может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
+4	и	и	PART	_	_	5	advmod	_	_
+5	простоваты	простовать	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	26	punct	_	_
+7	но	но	CCONJ	_	_	26	cc	_	_
+8	способ	способ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	obl	_	_
+9	подхода	подход	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	к	к	ADP	_	_	11	case	_	_
+11	ним	они	PRON	_	Case=Dat|Number=Plur|Person=3	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	установки	установка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	conj	_	_
+14	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	ними	они	PRON	_	Case=Ins|Number=Plur|Person=3	14	nmod	_	_
+17	история	история	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_
+18	программы	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	«Ноутбук	«Ноутбук	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	appos	_	_
+20	каждому	каждый	DET	_	Case=Dat|Gender=Masc|Number=Sing	21	det	_	_
+21	ребёнку»	ребёнку»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	эксперимент	эксперимент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	conj	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	Эфиопии	Эфиопия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	nmod	_	_
+26	вселяют	вселять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	меня	я	PRON	_	Case=Acc|Number=Sing|Person=1	26	obl	_	_
+29	уверенность	уверенность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	33	punct	_	_
+31	что	что	SCONJ	_	_	33	mark	_	_
+32	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	33	nsubj	_	_
+33	можем	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	26	ccomp	_	_
+34	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	33	xcomp	_	_
+35	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	34	obj	_	_
+36	за	за	ADP	_	_	38	case	_	_
+37	короткое	короткий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	38	amod	_	_
+38	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	34	obl	_	SpaceAfter=No
+39	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 157
+# text = Мой план таков — к сожалению, я не смог привезти своих партнёров, чтобы представить их, — сделать это с помощью стационарного спутника.
+1	Мой	мой	DET	_	Case=Nom|Gender=Masc|Number=Sing	2	det	_	_
+2	план	план	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	таков	таков	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+4	—	—	PUNCT	_	_	10	punct	_	_
+5	к	к	ADP	_	_	6	case	_	_
+6	сожалению	сожаление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	10	parataxis	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	10	nsubj	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	смог	мочь	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	xcomp	_	_
+11	привезти	привезти	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	своих	свой	DET	_	Case=Acc|Number=Plur	13	det	_	_
+13	партнёров	партнер	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	чтобы	чтобы	SCONJ	_	Mood=Cnd	16	mark	_	_
+16	представить	представить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	advcl	_	_
+17	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	20	obj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	—	—	PUNCT	_	_	20	punct	_	_
+20	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+21	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
+22	с	с	ADP	_	_	25	case	_	_
+23	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	22	fixed	_	_
+24	стационарного	стационарный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	спутника	спутник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 158
+# text = По многим причинам стационарные спутники — не самое лучшее решение, но и по многим причинам — да.
+1	По	по	ADP	_	_	3	case	_	_
+2	многим	много	NUM	_	_	3	amod	_	_
+3	причинам	причина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	0	root	_	_
+4	стационарные	стационарный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	спутники	спутник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+6	—	—	PUNCT	_	_	10	punct	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	самое	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	лучшее	лучший	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	решение	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	16	punct	_	_
+12	но	но	CCONJ	_	_	16	cc	_	_
+13	и	и	PART	_	_	12	advmod	_	_
+14	по	по	ADP	_	_	16	case	_	_
+15	многим	много	NUM	_	_	16	amod	_	_
+16	причинам	причина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	10	conj	_	_
+17	—	—	PUNCT	_	_	18	punct	_	_
+18	да	да	PART	_	_	16	parataxis	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 159
+# text = За 2 миллиарда долларов можно подключить более 100 миллионов человек, но я выбрал 2 — оставлю тут изображение на слайде.
+1	За	за	ADP	_	_	4	case	_	_
+2	2	2	NUM	_	_	3	nummod	_	_
+3	миллиарда	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nummod:gov	_	_
+4	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+5	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+6	подключить	подключить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	csubj	_	_
+7	более	более	ADV	_	Degree=Cmp	9	nummod:gov	_	_
+8	100	100	NUM	_	_	9	nummod	_	_
+9	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+10	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	но	но	CCONJ	_	_	14	cc	_	_
+13	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	14	nsubj	_	_
+14	выбрал	выбрать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+15	2	2	NUM	_	_	14	nummod	_	_
+16	—	—	PUNCT	_	_	17	punct	_	_
+17	оставлю	оставить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	14	xcomp	_	_
+18	тут	тут	ADV	_	Degree=Pos	17	advmod	_	_
+19	изображение	изображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	слайде	слайд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 160
+# text = 2 миллиарда долларов — сумма, которые мы тратили в Афганистане еженедельно.
+1	2	2	NUM	_	_	2	nummod	_	_
+2	миллиарда	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nummod:gov	_	_
+3	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	_
+4	—	—	PUNCT	_	_	3	punct	_	_
+5	сумма	сумма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	которые	который	PRON	_	Case=Acc	9	obj	_	_
+8	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	9	nsubj	_	_
+9	тратили	тратить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	Афганистане	Афганистан	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+12	еженедельно	еженедельно	ADV	_	Degree=Pos	9	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 161
+# text = Конечно, если мы сможем подключить Африку и последний миллиард человек за такую сумму, то надо это сделать.
+1	Конечно	конечно	ADV	_	Degree=Pos	17	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	если	если	SCONJ	_	_	5	mark	_	_
+4	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	5	nsubj	_	_
+5	сможем	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	17	advcl	_	_
+6	подключить	подключить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	Африку	Африка	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	и	и	CCONJ	_	_	14	cc	_	_
+9	последний	последний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	миллиард	миллиард	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_
+11	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+12	за	за	ADP	_	_	14	case	_	_
+13	такую	такой	DET	_	Case=Acc|Gender=Fem|Number=Sing	14	det	_	_
+14	сумму	сумма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	5	punct	_	_
+16	то	то	SCONJ	_	_	17	mark	_	_
+17	надо	надо	ADV	_	Degree=Pos	0	root	_	_
+18	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	_
+19	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	csubj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 162
+# text = Спасибо большое.
+1	Спасибо	спасибо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	большое	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 163
+# text = (Аплодисменты) Крис Андерсон:
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Аплодисменты	аплодисменты	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+4	Крис	Крис	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+5	Андерсон	Андерсон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 164
+# text = Подождите немного.
+1	Подождите	подождать	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+2	немного	немного	ADV	_	Degree=Pos	1	advmod	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 165
+# text = НН: Вы мне выделите дополнительное время?
+1	НН	Нн	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	5	nsubj	_	_
+4	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	5	iobj	_	_
+5	выделите	выделить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+6	дополнительное	дополнительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No
+8	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 166
+# text = КА: Нет, но это было чертовски умно.
+1	КА	к	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Нет	нет	PART	_	_	1	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	но	но	CCONJ	_	_	9	cc	_	_
+6	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+7	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	_
+8	чертовски	чертовска	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+9	умно	умный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	3	conj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 167
+# text = Отличный ход.
+1	Отличный	отличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	ход	ход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 168
+# text = Николас, каков ваш прогноз?
+1	Николас	Николы	ADV	_	Degree=Pos	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	каков	каков	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	1	conj	_	_
+4	ваш	ваш	DET	_	Case=Nom|Gender=Masc|Number=Sing	5	det	_	_
+5	прогноз	прогноз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 169
+# text = НН: Спасибо, за вопрос.
+1	НН	Нн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Спасибо	спасибо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	за	за	ADP	_	_	6	case	_	_
+6	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 170
+# text = Я скажу, каков мой прогноз.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	скажу	сказать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	каков	каков	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	obl	_	_
+5	мой	мой	DET	_	Case=Nom|Gender=Masc|Number=Sing	6	det	_	_
+6	прогноз	прогноз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 171
+# text = Моё предсказание, именно предсказание, на срок через 30 лет.
+1	Моё	еМо	DET	_	_	2	det	_	_
+2	предсказание	предсказание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	именно	именно	PART	_	_	5	advmod	_	_
+5	предсказание	предсказание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	срок	срок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	conj	_	_
+9	через	через	ADP	_	_	11	case	_	_
+10	30	30	NUM	_	_	11	nummod	_	_
+11	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 172
+# text = Меня здесь не будет.
+1	Меня	я	PRON	_	Case=Acc|Number=Sing|Person=1	4	nsubj	_	_
+2	здесь	здесь	ADV	_	Degree=Pos	4	advmod	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	будет	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 173
+# text = Кое-что об обучении чтению: мы потребляли большие объёмы информации, проходящие через глаза.
+1	Кое-что	кое-что	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	root	_	_
+2	об	о	ADP	_	_	3	case	_	_
+3	обучении	обучение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	_
+4	чтению	чтение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	iobj	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	1	punct	_	_
+6	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	7	nsubj	_	_
+7	потребляли	потреблять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+8	большие	большой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	объёмы	объем	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+10	информации	информация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	проходящие	проходить	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	conj	_	_
+13	через	через	ADP	_	_	14	case	_	_
+14	глаза	глаз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 174
+# text = Вероятно, это очень неэффективный канал.
+1	Вероятно	вероятно	ADV	_	Degree=Pos	6	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+4	очень	очень	ADV	_	Degree=Pos	5	obl	_	_
+5	неэффективный	неэффективный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	канал	канал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 175
+# text = Моё предсказание: мы будем проглатывать информацию.
+1	Моё	еМо	DET	_	_	2	det	_	_
+2	предсказание	предсказание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	_
+4	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	6	nsubj	_	_
+5	будем	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+6	проглатывать	проглатывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	parataxis	_	_
+7	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 176
+# text = Принимаешь таблетку — и ты знаешь английский.
+1	Принимаешь	Принимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	таблетку	таблетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+3	—	—	PUNCT	_	_	6	punct	_	_
+4	и	и	CCONJ	_	_	6	cc	_	_
+5	ты	ты	PRON	_	Case=Nom|Number=Sing|Person=2	6	nsubj	_	_
+6	знаешь	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+7	английский	английский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 177
+# text = Другую — и знаешь Шекспира.
+1	Другую	другой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+2	—	—	PUNCT	_	_	1	punct	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	знаешь	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+5	Шекспира	Шекспир	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 178
+# text = И сделать это можно через кровь.
+1	И	и	CCONJ	_	_	4	cc	_	_
+2	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	csubj	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	через	через	ADP	_	_	6	case	_	_
+6	кровь	кровь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 179
+# text = Как только она попадает в кровь, по сосудам доходит до мозга, и так как таблетка знает, что у мозга есть разные зоны, она вводит информацию в нужную.
+1	Как	как	SCONJ	_	_	4	mark	_	_
+2	только	только	PART	_	_	1	fixed	_	_
+3	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	4	nsubj	_	_
+4	попадает	попадать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	кровь	кровь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	по	по	ADP	_	_	9	case	_	_
+9	сосудам	сосуд	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	10	obl	_	_
+10	доходит	доходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	до	до	ADP	_	_	12	case	_	_
+12	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	28	punct	_	_
+14	и	и	CCONJ	_	_	28	cc	_	_
+15	так	так	ADV	_	Degree=Pos	18	mark	_	_
+16	как	как	SCONJ	_	_	15	fixed	_	_
+17	таблетка	таблетка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+18	знает	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	23	punct	_	_
+20	что	что	SCONJ	_	_	23	mark	_	_
+21	у	у	ADP	_	_	22	case	_	_
+22	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	obl	_	_
+23	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	ccomp	_	_
+24	разные	разный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	25	amod	_	_
+25	зоны	зона	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	23	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	28	punct	_	_
+27	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	28	nsubj	_	_
+28	вводит	вводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
+29	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	28	obj	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	нужную	нужный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 180
+# text = Так что — проглатывание.
+1	Так	так	ADV	_	Degree=Pos	4	parataxis	_	_
+2	что	что	SCONJ	_	_	1	fixed	_	_
+3	—	—	PUNCT	_	_	1	punct	_	_
+4	проглатывание	проглатывание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 181
+# text = КА: Ты когда-нибудь общался с Реем Курцвейлом?
+1	КА	к	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Ты	ты	PRON	_	Case=Nom|Number=Sing|Person=2	5	nsubj	_	_
+4	когда-нибудь	когда-нибудь	ADV	_	Degree=Pos	5	advmod	_	_
+5	общался	общаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	1	appos	_	_
+6	с	с	ADP	_	_	7	case	_	_
+7	Реем	Рей	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+8	Курцвейлом	Курцвейл	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	flat:name	_	SpaceAfter=No
+9	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 182
+# text = НН: Нет, но я общался с Эдом Бойденом и одним из присутствующих спикеров, Хью Херром, и ещё другими людьми.
+1	НН	Нн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Нет	нет	PART	_	_	1	parataxis	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	но	но	CCONJ	_	_	7	cc	_	_
+6	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	7	nsubj	_	_
+7	общался	общаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	Эдом	Эд	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+10	Бойденом	Бойден	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	flat:name	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	одним	один	NUM	_	Case=Ins|Gender=Masc	3	conj	_	_
+13	из	из	ADP	_	_	15	case	_	_
+14	присутствующих	присутствовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	15	amod	_	_
+15	спикеров	спикер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	Хью	Хь	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	conj	_	_
+18	Херром	Херр	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	23	punct	_	_
+20	и	и	CCONJ	_	_	23	cc	_	_
+21	ещё	еще	ADV	_	Degree=Pos	22	obl	_	_
+22	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	23	amod	_	_
+23	людьми	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 183
+# text = Это не так уж и надуманно, так что — через 30 лет.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	так	так	ADV	_	Degree=Pos	0	root	_	_
+4	уж	уж	PART	_	_	3	advmod	_	_
+5	и	и	PART	_	_	6	advmod	_	_
+6	надуманно	надуманно	ADV	_	Degree=Pos	3	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	13	punct	_	_
+8	так	так	ADV	_	Degree=Pos	13	mark	_	_
+9	что	что	SCONJ	_	_	8	fixed	_	_
+10	—	—	PUNCT	_	_	13	punct	_	_
+11	через	через	ADP	_	_	13	case	_	_
+12	30	30	NUM	_	_	13	nummod	_	_
+13	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 184
+# text = КА: Посмотрим.
+1	КА	к	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Посмотрим	смотреть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	1	parataxis	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 185
+# text = Мы вернёмся и через 30 лет прокрутим это видео, и потом все примем красную таблетку.
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+2	вернёмся	вернёться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	и	и	PART	_	_	6	advmod	_	_
+4	через	через	ADP	_	_	6	case	_	_
+5	30	30	NUM	_	_	6	nummod	_	_
+6	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+7	прокрутим	прокрутить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	xcomp	_	_
+8	это	этот	DET	_	Case=Acc|Gender=Neut|Number=Sing	9	det	_	_
+9	видео	видео	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	14	punct	_	_
+11	и	и	CCONJ	_	_	14	cc	_	_
+12	потом	потом	ADV	_	Degree=Pos	14	advmod	_	_
+13	все	все	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+14	примем	принять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	7	conj	_	_
+15	красную	красный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	таблетку	таблетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 186
+# text = Спасибо за это.
+1	Спасибо	спасибо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	за	за	ADP	_	_	3	case	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 187
+# text = Николас Негропонте!
+1	Николас	Николас	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Негропонте	Негропонте	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 188
+# text = НН: Спасибо.
+1	НН	Нн	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	Спасибо	спасибо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	parataxis	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\s\n
+

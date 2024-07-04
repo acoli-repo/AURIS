@@ -1,0 +1,502 @@
+# newdoc id = txt/ru/cbsnews.146271.txt
+# newpar
+# sent_id = 1
+# text = Мать 6-летнего ребенка с микроцефалией: "Становится лучше"
+1	Мать	мать	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	6-летнего	6-летний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	ребенка	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	микроцефалией	микроцефалия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	5	punct	_	_
+7	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	Становится	становиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	5	parataxis	_	_
+9	лучше	хороший	ADV	_	Degree=Cmp	8	advmod	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Как большинство шестилетних детей, Эдмунд Пиксивто любит пение, игрушки и, конечно же, свою маму.
+1	Как	как	SCONJ	_	_	2	mark	_	_
+2	большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	parataxis	_	_
+3	шестилетних	шестилетний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	детей	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	2	punct	_	_
+6	Эдмунд	Эдмунд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	Пиксивто	Пиксивто	PROPN	_	_	6	flat:name	_	_
+8	любит	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	пение	пение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	игрушки	игрушка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	conj	_	_
+12	и	и	CCONJ	_	_	18	cc	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	18	punct	_	_
+14	конечно	конечно	ADV	_	Degree=Pos	18	parataxis	_	_
+15	же	же	PART	_	_	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	18	det	_	_
+18	маму	мама	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Но в отличие от большинства своих сверстников, у Эдмунда микроцефалия — результат генетического нарушения, о котором его мама Элизабет Пиксивто не знала во время беременности.
+1	Но	но	CCONJ	_	_	13	cc	_	_
+2	в	в	ADP	_	_	5	case	_	_
+3	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	fixed	_	_
+4	от	от	ADP	_	_	2	fixed	_	_
+5	большинства	большинство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+6	своих	свой	DET	_	Case=Gen|Number=Plur	7	det	_	_
+7	сверстников	сверстник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	5	punct	_	_
+9	у	у	ADP	_	_	11	case	_	_
+10	Эдмунда	Эдмунд	PROPN	_	_	11	amod	_	_
+11	микроцефалия	микроцефалий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+12	—	—	PUNCT	_	_	11	punct	_	_
+13	результат	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+14	генетического	генетический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	нарушения	нарушение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	24	punct	_	_
+17	о	о	ADP	_	_	18	case	_	_
+18	котором	который	PRON	_	Case=Loc	24	obl	_	_
+19	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	20	nmod	_	_
+20	мама	мама	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_
+21	Элизабет	Элизабет	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	20	appos	_	_
+22	Пиксивто	Пиксивто	PROPN	_	_	21	flat:name	_	_
+23	не	не	PART	_	_	24	advmod	_	_
+24	знала	знать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
+25	во	во	ADP	_	_	27	case	_	_
+26	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	fixed	_	_
+27	беременности	беременность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Когда он впервые приехал домой, моя первая мысль была — я не смогу сделать это.
+1	Когда	когда	SCONJ	_	_	4	mark	_	_
+2	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+3	впервые	впервые	ADV	_	Degree=Pos	4	advmod	_	_
+4	приехал	приехать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	_	_
+5	домой	домой	ADV	_	Degree=Pos	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	моя	мой	DET	_	Case=Nom|Gender=Fem|Number=Sing	9	det	_	_
+8	первая	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	мысль	мысль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+10	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	_
+11	—	—	PUNCT	_	_	10	punct	_	_
+12	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	14	nsubj	_	_
+13	не	не	PART	_	_	14	advmod	_	_
+14	смогу	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+15	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Я не смогу сделать это.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	смогу	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Я не подписывалась на это.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj:pass	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	подписывалась	подписывать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Что, на самом деле, не правда — конечно ты подписываешься на это", - сказал она.
+1	Что	что	PRON	_	Case=Acc	12	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	на	на	ADP	_	_	5	case	_	_
+4	самом	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	деле	дело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	правда	правда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	parataxis	_	_
+9	—	—	PUNCT	_	_	8	punct	_	_
+10	конечно	конечно	ADV	_	Degree=Pos	12	parataxis	_	_
+11	ты	ты	PRON	_	Case=Nom|Number=Sing|Person=2	12	nsubj	_	_
+12	подписываешься	подписываеться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	-	-	PUNCT	_	_	18	punct	_	_
+18	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	parataxis	_	_
+19	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	18	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Ей и ее мужу Винсенту сказали, что Эдмунд, возможно, никогда не узнает их и что он может даже не выжить.
+1	Ей	она	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3	6	iobj	_	_
+2	и	и	CCONJ	_	_	4	cc	_	_
+3	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	4	nmod	_	_
+4	мужу	муж	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	1	conj	_	_
+5	Винсенту	Винсент	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	6	iobj	_	_
+6	сказали	сказать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	15	punct	_	_
+8	что	что	SCONJ	_	_	15	mark	_	_
+9	Эдмунд	Эдмунд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	возможно	возможно	ADV	_	Degree=Pos	15	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	никогда	никогда	ADV	_	Degree=Pos	15	advmod	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	узнает	узнать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	_
+16	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	15	obl	_	_
+17	и	и	CCONJ	_	_	20	cc	_	_
+18	что	что	SCONJ	_	_	20	mark	_	_
+19	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
+20	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	_
+21	даже	даже	PART	_	_	23	advmod	_	_
+22	не	не	PART	_	_	23	advmod	_	_
+23	выжить	выжить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	xcomp	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Некоторые врачи даже предлагали поместить его в специализированное лечебное учреждение.
+1	Некоторые	некоторый	DET	_	Case=Nom|Number=Plur	2	det	_	_
+2	врачи	врач	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	даже	даже	PART	_	_	4	advmod	_	_
+4	предлагали	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	поместить	поместить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	obj	_	_
+7	в	в	ADP	_	_	10	case	_	_
+8	специализированное	специализированный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+9	лечебное	лечебный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	учреждение	учреждение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = "Мой первый ответ был: «Я не думала, что люди так еще делают»", — пояснила Пиксивто.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Мой	мой	DET	_	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
+3	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	ответ	ответ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+5	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	4	punct	_	_
+7	«Я	«Я	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	думала	думать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	15	punct	_	_
+11	что	что	SCONJ	_	_	15	mark	_	_
+12	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+13	так	так	ADV	_	Degree=Pos	15	advmod	_	_
+14	еще	еще	ADV	_	Degree=Pos	15	obl	_	_
+15	делают»	делают»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	ccomp	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	—	—	PUNCT	_	_	19	punct	_	_
+19	пояснила	пояснить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	conj	_	_
+20	Пиксивто	Пиксивто	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Эдмунд ходит с помощью ходунков.
+1	Эдмунд	Эдмунд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	ходит	ходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	с	с	ADP	_	_	5	case	_	_
+4	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	fixed	_	_
+5	ходунков	ходунок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Эдмунд не сидел и не ползал, пока ему не исполнилось три, и он до сих пор не говорит.
+1	Эдмунд	Эдмунд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	сидел	сидеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	и	и	CCONJ	_	_	6	cc	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	ползал	лзать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	пока	пока	SCONJ	_	_	11	mark	_	_
+9	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	11	iobj	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	исполнилось	исполниться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	advcl	_	_
+12	три	три	NUM	_	Case=Nom	11	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	20	punct	_	_
+14	и	и	CCONJ	_	_	20	cc	_	_
+15	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	20	nsubj	_	_
+16	до	до	ADP	_	_	20	advmod	_	_
+17	сих	сей	DET	_	Case=Gen|Number=Plur	16	fixed	_	_
+18	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	fixed	_	_
+19	не	не	PART	_	_	20	advmod	_	_
+20	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Но он медленно проходит некоторые этапы.
+1	Но	но	CCONJ	_	_	4	cc	_	_
+2	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+3	медленно	медленно	ADV	_	Degree=Pos	4	advmod	_	_
+4	проходит	проходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	некоторые	некоторый	DET	_	Case=Acc|Number=Plur	6	det	_	_
+6	этапы	этап	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Он ходит с посторонней помощью и катается на велосипеде.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	ходит	ходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	с	с	ADP	_	_	5	case	_	_
+4	посторонней	посторонний	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	катается	катать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	велосипеде	велосипед	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Он также любит играть со своими двумя братьями и пение.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	также	также	ADV	_	Degree=Pos	1	obl	_	_
+3	любит	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	со	с	ADP	_	_	8	case	_	_
+6	своими	свой	DET	_	Case=Ins|Number=Plur	8	det	_	_
+7	двумя	два	NUM	_	Case=Ins	8	nummod	_	_
+8	братьями	брат	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	пение	пение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Элизабет показывает жест, который Эдмунд придумал для "пожалуйста, спой мне".
+1	Элизабет	Элизабет	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	показывает	показывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	жест	жест	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	который	который	PRON	_	Case=Acc	7	obj	_	_
+6	Эдмунд	Эдмунд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	придумал	придумать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+8	для	для	ADP	_	_	12	case	_	_
+9	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+10	пожалуйста	пожалуйста	ADV	_	Degree=Pos	12	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	спой	спая	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	obl	_	_
+13	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	12	iobj	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = "Мы обучаем его языку жестов", — сказала Пиксивто CBS News.
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
+3	обучаем	обучать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	его	он	DET	_	_	5	det	_	_
+5	языку	язык	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	жестов	жест	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+7	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	—	—	PUNCT	_	_	10	punct	_	_
+10	сказала	сказать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+11	Пиксивто	Пиксивто	PROPN	_	_	10	nsubj	_	_
+12	CBS	CBS	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	News	News	PROPN	_	Foreign=Yes	11	flat:foreign	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Но не просто обычный язык жестов — она говорит, что Эдмунд изобрел свои собственные жесты.
+1	Но	но	CCONJ	_	_	5	cc	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	просто	просто	PART	_	_	5	advmod	_	_
+4	обычный	обычный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	язык	язык	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	жестов	жест	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	—	—	PUNCT	_	_	9	punct	_	_
+8	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
+9	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	что	что	SCONJ	_	_	13	mark	_	_
+12	Эдмунд	Эдмунд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+13	изобрел	изобрести	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	ccomp	_	_
+14	свои	свой	DET	_	Case=Acc|Number=Plur	16	det	_	_
+15	собственные	собственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	жесты	жест	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Микроцефалия может возникать вследствие целого ряда различных обстоятельств: генетических, таких как у Эдмунда, инфекций во время беременности от таких вирусов, как корь и Зика.
+1	Микроцефалия	Микроцефалий	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	возникать	возникать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	вследствие	вследствие	ADP	_	_	6	case	_	_
+5	целого	целый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	ряда	ряд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+7	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	обстоятельств	обстоятельство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	8	punct	_	_
+10	генетических	генетический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	таких	такой	DET	_	Case=Gen|Number=Plur	10	det	_	_
+13	как	как	SCONJ	_	_	15	mark	_	_
+14	у	у	ADP	_	_	15	case	_	_
+15	Эдмунда	Эдмунд	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	инфекций	инфекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	conj	_	_
+18	во	во	ADP	_	_	20	case	_	_
+19	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	fixed	_	_
+20	беременности	беременность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+21	от	от	ADP	_	_	23	case	_	_
+22	таких	такой	DET	_	Case=Gen|Number=Plur	23	det	_	_
+23	вирусов	вирус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	_
+25	как	как	SCONJ	_	_	26	mark	_	_
+26	корь	корь	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	obl	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	Зика	Зик	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Симптомы и прогноз могут существенно различаться.
+1	Симптомы	симптом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	прогноз	прогноз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	conj	_	_
+4	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	существенно	существенно	ADV	_	Degree=Pos	6	advmod	_	_
+6	различаться	различаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	4	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 21
+# text = Еще слишком рано говорить о том, как это скажется на жизни тех, кто инфицирован вирусом Зика.
+1	Еще	еще	ADV	_	Degree=Pos	2	advmod	_	_
+2	слишком	слишком	ADV	_	Degree=Pos	3	advmod	_	_
+3	рано	рано	ADV	_	Degree=Pos	4	advmod	_	_
+4	говорить	говорить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+5	о	о	ADP	_	_	6	case	_	_
+6	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	как	как	ADV	_	Degree=Pos	10	advmod	_	_
+9	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+10	скажется	сказаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	6	acl	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+13	тех	тот	DET	_	Case=Gen|Number=Plur	12	det	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	кто	кто	PRON	_	Case=Nom	16	nsubj:pass	_	_
+16	инфицирован	инфицировать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	13	acl:relcl	_	_
+17	вирусом	вирус	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	_
+18	Зика	Зик	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = Пиксивто вспоминает эмоциональные потери из-за неопределенного будущего.
+1	Пиксивто	Пиксивто	PRON	_	Case=Nom	2	nsubj	_	_
+2	вспоминает	вспоминать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	эмоциональные	эмоциональный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	_
+4	потери	потеря	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+5	из-за	из-за	ADP	_	_	7	case	_	_
+6	неопределенного	неопределенной	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	будущего	будущее	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 23
+# text = Я все время говорила, что произойдет?
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	_
+2	все	весь	DET	_	Case=Acc|Gender=Neut|Number=Sing	3	det	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+4	говорила	говорить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	что	что	PRON	_	Case=Nom	7	nsubj	_	_
+7	произойдет	произойти	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	ccomp	_	SpaceAfter=No
+8	?	?	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 24
+# text = Что произойдет?
+1	Что	что	PRON	_	Case=Nom	2	nsubj	_	_
+2	произойдет	произойти	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 25
+# text = И она до сих пор не знает.
+1	И	и	CCONJ	_	_	7	cc	_	_
+2	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	7	nsubj	_	_
+3	до	до	ADP	_	_	7	advmod	_	_
+4	сих	сей	DET	_	Case=Gen|Number=Plur	3	fixed	_	_
+5	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	fixed	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	знает	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 26
+# text = Я на самом деле не запрашивала прогноз на всю жизнь, потому что я не жду, что кто-то действительно сможет сказать мне.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	6	nsubj	_	_
+2	на	на	ADP	_	_	4	case	_	_
+3	самом	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	деле	дело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	запрашивала	запрашивать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	прогноз	прогноз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	всю	весь	DET	_	Case=Acc|Gender=Fem|Number=Sing	10	det	_	_
+10	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	16	punct	_	_
+12	потому	потому	ADV	_	Degree=Pos	16	mark	_	_
+13	что	что	SCONJ	_	_	12	fixed	_	_
+14	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	16	nsubj	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	жду	ждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	21	punct	_	_
+18	что	что	SCONJ	_	_	21	mark	_	_
+19	кто-то	кто-то	PRON	_	Case=Nom	21	nsubj	_	_
+20	действительно	действительно	ADV	_	Degree=Pos	21	advmod	_	_
+21	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	16	ccomp	_	_
+22	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+23	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	22	iobj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 27
+# text = Но у Пиксивто есть обнадеживающий совет для матерей детей с врожденными дефектами из-за Зика.
+1	Но	но	CCONJ	_	_	4	cc	_	_
+2	у	у	ADP	_	_	3	case	_	_
+3	Пиксивто	Пиксивто	PROPN	_	_	4	obl	_	_
+4	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	обнадеживающий	обнадеживать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	amod	_	_
+6	совет	совет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	матерей	мать	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+9	детей	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	с	с	ADP	_	_	12	case	_	_
+11	врожденными	врожденный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	_
+12	дефектами	дефект	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	nmod	_	_
+13	из-за	из-за	ADP	_	_	14	case	_	_
+14	Зика	Зик	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 28
+# text = Становится лучше.
+1	Становится	становиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+2	лучше	хорошо	ADV	_	Degree=Cmp	1	advmod	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 29
+# text = Вы знаете, что всё для вас станет лучше.
+1	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	2	nsubj	_	_
+2	знаете	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	8	punct	_	_
+4	что	что	SCONJ	_	_	8	mark	_	_
+5	всё	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	8	obl	_	_
+8	станет	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	2	ccomp	_	_
+9	лучше	хорошо	ADJ	_	Degree=Cmp	8	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 30
+# text = Вы будете любить своего ребенка, а ваш ребенок будет любить вас.
+1	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	3	nsubj	_	_
+2	будете	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	любить	любить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+4	своего	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	5	det	_	_
+5	ребенка	ребенок	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	11	punct	_	_
+7	а	а	CCONJ	_	_	11	cc	_	_
+8	ваш	ваш	DET	_	Case=Nom|Gender=Masc|Number=Sing	9	det	_	_
+9	ребенок	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+10	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
+11	любить	любить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	conj	_	_
+12	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+

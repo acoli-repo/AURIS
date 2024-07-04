@@ -1,0 +1,413 @@
+# newdoc id = txt/ru/abcnews.199762.txt
+# newpar
+# sent_id = 1
+# text = 28-летний повар найден мертвым в торговом центре Сан-Франциско 28-летний повар, который недавно переехал в Сан-Франциско, был найден мертвым в лестничном пролете местного торгового центра на этой неделе.
+1	28-летний	28-летний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	повар	повар	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+3	найден	найти	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	мертвым	мертвый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	obl	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	торговом	торговый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	центре	центр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+8	Сан-Франциско	Сан-Франциско	ADV	_	Degree=Pos	9	obl	_	SpacesAfter=\n
+9	28-летний	28-летний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	повар	повар	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	который	который	PRON	_	Case=Nom	14	nsubj	_	_
+13	недавно	недавно	ADV	_	Degree=Pos	14	advmod	_	_
+14	переехал	переехать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	Сан-Франциско	Сан-Франциско	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	aux:pass	_	_
+19	найден	найти	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	14	xcomp	_	_
+20	мертвым	мертвый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	19	obl	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	лестничном	лестничный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	пролете	пролет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
+24	местного	местный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+25	торгового	торговый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	центра	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+27	на	на	ADP	_	_	29	case	_	_
+28	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing	29	det	_	_
+29	неделе	неделя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Однако брат жертвы говорит, что он не может вообразить кого-то, кто желал бы причинить ему боль, отмечая: "Наконец-то дела у него шли на лад".
+1	Однако	однако	ADV	_	Degree=Pos	4	advmod	_	_
+2	брат	брат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	жертвы	жертва	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	что	что	SCONJ	_	_	9	mark	_	_
+7	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_
+10	вообразить	вообразить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	кого-то	кто-то	PRON	_	Case=Acc	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	кто	кто	PRON	_	Case=Nom	14	nsubj	_	_
+14	желал	желать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+15	бы	бы	AUX	_	_	14	aux	_	_
+16	причинить	причинить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+17	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	16	iobj	_	_
+18	боль	боль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	отмечая	отмечать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	9	advcl	_	SpaceAfter=No
+21	:	:	PUNCT	_	_	20	punct	_	_
+22	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+23	Наконец	наконец	ADV	_	Degree=Pos	29	advmod	_	SpaceAfter=No
+24	-	-	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	то	то	PART	_	_	23	discourse	_	_
+26	дела	дело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nsubj	_	_
+27	у	у	ADP	_	_	28	case	_	_
+28	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	29	obl	_	_
+29	шли	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	20	parataxis	_	_
+30	на	на	ADP	_	_	31	case	_	_
+31	лад	лад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+32	"	"	PUNCT	_	_	29	punct	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = - Тело, найденное в Вестфилд Молл в среду утром, было опознано как 28-летний житель Сан-Франциско Фрэнк Галисия, - сообщило бюро судебно-медицинской экспертизы Сан-Франциско.
+1	-	-	PUNCT	_	_	13	punct	_	_
+2	Тело	тело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	найденное	найти	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	Вестфилд	Вестфилд	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+7	Молл	Молл	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	среду	среда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+10	утром	утро	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	4	punct	_	_
+12	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	aux:pass	_	_
+13	опознано	познать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+14	как	как	SCONJ	_	_	16	mark	_	_
+15	28-летний	28-летний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	житель	житель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	obl	_	_
+17	Сан-Франциско	Сан-Франциско	ADV	_	Degree=Pos	16	advmod	_	_
+18	Фрэнк	Фрэнк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	appos	_	_
+19	Галисия	Галисия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	appos	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	-	-	PUNCT	_	_	22	punct	_	_
+22	сообщило	сообщить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	parataxis	_	_
+23	бюро	бюро	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	_
+24	судебно	судебный	ADJ	_	Degree=Pos	26	compound	_	SpaceAfter=No
+25	-	-	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	медицинской	медицинский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	27	amod	_	_
+27	экспертизы	экспертиза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	obl	_	_
+28	Сан-Франциско	Сан-Франциско	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Департамент Полиции Сан-Франциско сообщает, что смерть была классифицирована как убийство и расследование продолжается.
+1	Департамент	департамент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	Полиции	полиция	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	Сан-Франциско	Сан-Франциско	ADV	_	Degree=Pos	4	advmod	_	_
+4	сообщает	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	что	что	SCONJ	_	_	9	mark	_	_
+7	смерть	смерть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+8	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	классифицирована	классифицировать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	ccomp	_	_
+10	как	как	SCONJ	_	_	11	mark	_	_
+11	убийство	убийство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	obl	_	_
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	расследование	расследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+14	продолжается	продолжаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	conj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Брат жертвы, Луис Галисия, рассказал каналу KGO телерадиокомпании ABC в Сан-Франциско, что Фрэнк, прошлом повар линии раздачи в Бостоне, получил свою работу мечты в качестве повара в ресторане San Francisco's Sons & Daughters шесть месяцев назад.
+1	Брат	брат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	жертвы	жертва	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	Луис	Луис	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+5	Галисия	Галисия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	1	punct	_	_
+7	рассказал	рассказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	каналу	канал	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	iobj	_	_
+9	KGO	KGO	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	телерадиокомпании	телерадиокомпание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	ABC	ABC	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	Сан-Франциско	Сан-Франциский	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	7	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	25	punct	_	_
+15	что	что	SCONJ	_	_	25	mark	_	_
+16	Фрэнк	Фрэнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	прошлом	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	повар	повар	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	appos	_	_
+20	линии	линия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	раздачи	раздача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	Бостоне	Бостон	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	16	punct	_	_
+25	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	ccomp	_	_
+26	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	27	det	_	_
+27	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+28	мечты	мечта	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+29	в	в	ADP	_	_	31	case	_	_
+30	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	29	fixed	_	_
+31	повара	повар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+32	в	в	ADP	_	_	33	case	_	_
+33	ресторане	ресторан	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	31	nmod	_	_
+34	San	San	PROPN	_	Foreign=Yes	33	flat:foreign	_	_
+35	Francisco's	Francisco's	PROPN	_	Foreign=Yes	33	flat:foreign	_	_
+36	Sons	Sons	PROPN	_	Foreign=Yes	33	flat:foreign	_	_
+37	&	&	PUNCT	_	_	40	punct	_	_
+38	Daughters	Daughters	PROPN	_	Foreign=Yes	37	flat:foreign	_	_
+39	шесть	шесть	NUM	_	Case=Acc	40	nummod:gov	_	_
+40	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	conj	_	_
+41	назад	назад	ADV	_	Degree=Pos	40	advmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Представитель Sons & Daughters сказал, что они были "шокированы и подавлены" его смертью.
+1	Представитель	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	Sons	Sons	PROPN	_	Foreign=Yes	1	flat:foreign	_	_
+3	&	&	PUNCT	_	_	1	punct	_	_
+4	Daughters	Daughters	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	11	punct	_	_
+7	что	что	SCONJ	_	_	11	mark	_	_
+8	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	11	nsubj:pass	_	_
+9	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	шокированы	шокировать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	ccomp	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	подавлены	подавить	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	11	conj	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	16	punct	_	_
+15	его	его	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	nmod	_	_
+16	смертью	смерть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = "Мы маленькая команда, которая работает как дружная семья и его будет очень не хватать", - сказал представитель.
+1	"	"	PUNCT	_	_	4	punct	_	SpaceAfter=No
+2	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	4	nsubj	_	_
+3	маленькая	маленький	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	команда	команда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	которая	который	PRON	_	Case=Nom	7	nsubj	_	_
+7	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+8	как	как	SCONJ	_	_	10	mark	_	_
+9	дружная	дружной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	семья	семья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	advcl	_	_
+11	и	и	CCONJ	_	_	16	cc	_	_
+12	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	16	obl	_	_
+13	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	_
+14	очень	очень	ADV	_	Degree=Pos	15	advmod	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	хватать	хватать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	conj	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	-	-	PUNCT	_	_	20	punct	_	_
+20	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+21	представитель	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Наши мысли и соболезнования семье и друзьям Фрэнка в этот трудный период.
+1	Наши	наш	DET	_	Case=Nom|Number=Plur	2	det	_	_
+2	мысли	мысль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	соболезнования	соболезнование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	conj	_	_
+5	семье	семья	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	iobj	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	друзьям	друг	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	5	conj	_	_
+8	Фрэнка	Фрэнк	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	в	в	ADP	_	_	12	case	_	_
+10	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	12	det	_	_
+11	трудный	трудный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	период	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Луис Галисия сказал, что Фрэнк сначала останавливался в хостелах, но в последнее время "Наконец-то дела у него шли на лад".
+1	Луис	Луис	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Галисия	Галисия	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	8	punct	_	_
+5	что	что	SCONJ	_	_	8	mark	_	_
+6	Фрэнк	Фрэнк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+7	сначала	сначала	ADV	_	Degree=Pos	8	advmod	_	_
+8	останавливался	останавливаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	3	ccomp	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	хостелах	хостел	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	23	punct	_	_
+12	но	но	CCONJ	_	_	23	cc	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	последнее	последний	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	obl	_	_
+16	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+17	Наконец	наконец	ADV	_	Degree=Pos	23	advmod	_	SpaceAfter=No
+18	-	-	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	то	то	PART	_	_	17	discourse	_	_
+20	дела	дело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nsubj	_	_
+21	у	у	ADP	_	_	22	case	_	_
+22	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	23	obl	_	_
+23	шли	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+24	на	на	ADP	_	_	25	case	_	_
+25	лад	лад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+26	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = "Он нашел квартиру, он встречался с девушкой", - Луис Галисия сказал KGO.
+1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+2	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+3	нашел	найти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	квартиру	квартира	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+7	встречался	встречаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	девушкой	девушка	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	-	-	PUNCT	_	_	15	punct	_	_
+13	Луис	Луис	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	amod	_	_
+14	Галисия	Галисия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+15	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+16	KGO	KGO	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Луис Галисия сказал, что не может вообразить кого-то, кто желал бы причинить боль его младшему брату.
+1	Луис	Луис	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Галисия	Галисия	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	что	что	SCONJ	_	_	7	mark	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
+8	вообразить	вообразить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	кого-то	кто-то	PRON	_	Case=Acc	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	кто	кто	PRON	_	Case=Nom	12	nsubj	_	_
+12	желал	желать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+13	бы	бы	AUX	_	_	12	aux	_	_
+14	причинить	причинить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+15	боль	боль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+16	его	его	DET	_	_	18	det	_	_
+17	младшему	младший	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	брату	брат	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	14	iobj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Он имел добрую душу и большое сердце.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	имел	иметь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	добрую	добрый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	душу	душа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	и	и	CCONJ	_	_	7	cc	_	_
+6	большое	большой	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	сердце	сердце	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Его способом связи с семьей всегда было приготовить нам какое-нибудь блюдо, приготовить нам ужин", - сказал Луис Галисия.
+1	Его	его	DET	_	_	2	det	_	_
+2	способом	способ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+3	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	семьей	семья	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	nmod	_	_
+6	всегда	всегда	ADV	_	Degree=Pos	8	advmod	_	_
+7	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	_	_
+8	приготовить	приготовить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	_
+9	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	8	iobj	_	_
+10	какое-нибудь	какой-нибудь	DET	_	Case=Acc|Gender=Neut|Number=Sing	11	det	_	_
+11	блюдо	блюдо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	приготовить	приготовить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	conj	_	_
+14	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	13	iobj	_	_
+15	ужин	ужин	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	-	-	PUNCT	_	_	19	punct	_	_
+19	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+20	Луис	Луис	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+21	Галисия	Галисия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Он никогда не хотел быть замешанным в какой-либо ссоре.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+2	никогда	никогда	ADV	_	Degree=Pos	4	advmod	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	хотел	хотеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	cop	_	_
+6	замешанным	замешать	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	obl	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	какой-либо	какой-либо	DET	_	Case=Loc|Gender=Fem|Number=Sing	9	det	_	_
+9	ссоре	ссора	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Он был братом, который плыл по течению.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	братом	брат	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	который	который	PRON	_	Case=Nom	6	nsubj	_	_
+6	плыл	плыть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+7	по	по	ADP	_	_	8	case	_	_
+8	течению	течение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = "При всем плохом, что происходит с этим миром, он был тем неограненным алмазом, который ярко сиял каждый день", - сказал он.
+1	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+2	При	при	ADP	_	_	4	case	_	_
+3	всем	все	DET	_	Case=Loc|Gender=Neut|Number=Sing	4	det	_	_
+4	плохом	плохой	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	что	что	PRON	_	Case=Nom	7	nsubj	_	_
+7	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+8	с	с	ADP	_	_	10	case	_	_
+9	этим	этот	DET	_	Case=Ins|Gender=Masc|Number=Sing	10	det	_	_
+10	миром	мир	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	4	punct	_	_
+12	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+13	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	cop	_	_
+14	тем	тот	DET	_	Case=Ins|Gender=Masc|Number=Sing	16	det	_	_
+15	неограненным	неограненный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	алмазом	алмаз	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	который	который	PRON	_	Case=Nom	20	nsubj	_	_
+19	ярко	ярко	ADV	_	Degree=Pos	20	advmod	_	_
+20	сиял	сиять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+21	каждый	каждый	DET	_	Case=Acc|Gender=Masc|Number=Sing	22	det	_	_
+22	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	_
+25	-	-	PUNCT	_	_	26	punct	_	_
+26	сказал	сказать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	parataxis	_	_
+27	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	26	nsubj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Всех, кто владеет информацией, просят позвонить на Горячую Линию SFPD по номеру 415-575-4444.
+1	Всех	все	PRON	_	Animacy=Anim|Case=Acc|Number=Plur	7	obj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	кто	кто	PRON	_	Case=Nom	4	nsubj	_	_
+4	владеет	владеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+5	информацией	информация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	1	punct	_	_
+7	просят	просить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	позвонить	звонить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	на	на	ADP	_	_	11	case	_	_
+10	Горячую	горячий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	Линию	линия	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+12	SFPD	SFPD	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	по	по	ADP	_	_	14	case	_	_
+14	номеру	номер	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	_
+15	415	415	NUM	_	_	14	nummod	_	SpaceAfter=No
+16	-575	-575	NUM	_	_	15	nummod	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	4444	4444	NUM	_	_	16	nummod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+

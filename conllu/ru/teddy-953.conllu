@@ -1,0 +1,1041 @@
+# newdoc id = txt/ru/teddy-953.txt
+# newpar
+# sent_id = 1
+# text = Однажды обозреватель газеты Лос-Анджелес Таймз - Стив Лопес - прогуливался по центральным улицам Лос-Анджелеса, и вдруг он услышал прекрасную музыку.
+1	Однажды	однажды	ADV	_	Degree=Pos	10	advmod	_	_
+2	обозреватель	обозреватель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+3	газеты	газета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	Лос-Анджелес	Лос-Анджелес	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+5	Таймз	Таймз	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	_
+6	-	-	PUNCT	_	_	7	punct	_	_
+7	Стив	Стив	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+8	Лопес	Лопес	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	_
+9	-	-	PUNCT	_	_	2	punct	_	_
+10	прогуливался	прогуливать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	по	по	ADP	_	_	13	case	_	_
+12	центральным	центральный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	13	amod	_	_
+13	улицам	улица	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	10	obl	_	_
+14	Лос-Анджелеса	Лос-Анджелес	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	19	punct	_	_
+16	и	и	CCONJ	_	_	19	cc	_	_
+17	вдруг	вдруг	ADV	_	Degree=Pos	19	advmod	_	_
+18	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+19	услышал	слышать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
+20	прекрасную	прекрасный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	музыку	музыка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 2
+# text = Она исходила от мужчины, афро-американца, очаровательного, одетого в лохмотья, бездомного, который играл на двуструнной скрипке.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
+2	исходила	исходить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	от	от	ADP	_	_	4	case	_	_
+4	мужчины	мужчина	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	афро	афро	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+8	американца	американец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	orphan	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	очаровательного	очаровательный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	одетого	одеть	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	conj	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	лохмотья	лохмотья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	бездомного	бездомный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	который	который	PRON	_	Case=Nom	19	nsubj	_	_
+19	играл	играть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+20	на	на	ADP	_	_	22	case	_	_
+21	двуструнной	двуструнный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	скрипке	скрипка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 3
+# text = Я рассказываю вам историю, которую многие из вас знают, потому что колонки Стива стали основой для книги, по которой потом сняли фильм с Робертом Дауни младшим в роли Стива Лопеса и Джеми Фокс в роли Натаниела Энтони Айерса, обучавшегося в престижной музыкальной школе Juilliard на контрабасиста, но его многообещающая карьера внезапно оборвалась, когда он трагически заболел параноидальной шизофренией.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	рассказываю	рассказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	2	iobj	_	_
+4	историю	история	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	10	punct	_	_
+6	которую	который	PRON	_	Case=Acc	10	obj	_	_
+7	многие	много	NUM	_	_	10	nsubj	_	_
+8	из	из	ADP	_	_	9	case	_	_
+9	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	7	nmod	_	_
+10	знают	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	16	punct	_	_
+12	потому	потому	ADV	_	Degree=Pos	16	mark	_	_
+13	что	что	SCONJ	_	_	12	fixed	_	_
+14	колонки	колонка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	_
+15	Стива	Стив	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	10	advcl	_	_
+17	основой	основа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	obl	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	24	punct	_	_
+21	по	по	ADP	_	_	22	case	_	_
+22	которой	который	PRON	_	Case=Dat	24	obl	_	_
+23	потом	потом	ADV	_	Degree=Pos	24	advmod	_	_
+24	сняли	снять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	acl:relcl	_	_
+25	фильм	фильм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
+26	с	с	ADP	_	_	27	case	_	_
+27	Робертом	Роберт	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	25	nmod	_	_
+28	Дауни	Дауни	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	27	flat:name	_	_
+29	младшим	младший	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	24	obl	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	роли	роль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	29	nmod	_	_
+32	Стива	Стив	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
+33	Лопеса	Лопес	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	32	flat:name	_	_
+34	и	и	CCONJ	_	_	36	cc	_	_
+35	Джеми	тоДж	DET	_	Case=Ins|Number=Plur	36	det	_	_
+36	Фокс	Фокс	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	conj	_	_
+37	в	в	ADP	_	_	38	case	_	_
+38	роли	роль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	36	nmod	_	_
+39	Натаниела	Натаниел	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	_
+40	Энтони	Энтони	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	39	flat:name	_	_
+41	Айерса	Айерс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	39	flat:name	_	SpaceAfter=No
+42	,	,	PUNCT	_	_	43	punct	_	_
+43	обучавшегося	обучаться	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	39	acl	_	_
+44	в	в	ADP	_	_	47	case	_	_
+45	престижной	престижный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	47	amod	_	_
+46	музыкальной	музыкальный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	47	amod	_	_
+47	школе	школа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	43	obl	_	_
+48	Juilliard	Juilliard	PROPN	_	Foreign=Yes	47	flat:foreign	_	_
+49	на	на	ADP	_	_	50	case	_	_
+50	контрабасиста	контрабасист	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	43	obl	_	SpaceAfter=No
+51	,	,	PUNCT	_	_	57	punct	_	_
+52	но	но	CCONJ	_	_	57	cc	_	_
+53	его	он	DET	_	_	55	det	_	_
+54	многообещающая	многообещать	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	55	amod	_	_
+55	карьера	карьера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	57	nsubj	_	_
+56	внезапно	внезапно	ADV	_	Degree=Pos	57	advmod	_	_
+57	оборвалась	обрыться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	43	conj	_	SpaceAfter=No
+58	,	,	PUNCT	_	_	62	punct	_	_
+59	когда	когда	SCONJ	_	_	62	mark	_	_
+60	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	62	nsubj	_	_
+61	трагически	трагически	ADV	_	Degree=Pos	62	advmod	_	_
+62	заболел	заболеть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	57	advcl	_	_
+63	параноидальной	параноидальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	64	amod	_	_
+64	шизофренией	шизофрения	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	62	obl	_	SpaceAfter=No
+65	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 4
+# text = Натаниел бросил Juilliard, он переживал полный срыв нервной деятельности, и на протяжении 30 лет он бродяжничал по улицам Скид Роу в центре Лос Анджелеса.
+1	Натаниел	Натаниеть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	бросил	бросить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	xcomp	_	_
+3	Juilliard	Juilliard	PROPN	_	Foreign=Yes	1	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+6	переживал	переживывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+7	полный	полный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	срыв	срыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	obj	_	_
+9	нервной	нервный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	деятельности	деятельность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	18	punct	_	_
+12	и	и	CCONJ	_	_	18	cc	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	18	obl	_	_
+15	30	30	NUM	_	_	16	nummod	_	_
+16	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+17	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	nsubj	_	_
+18	бродяжничал	бродяжничать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+19	по	по	ADP	_	_	20	case	_	_
+20	улицам	улица	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	18	obl	_	_
+21	Скид	Скид	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	obl	_	_
+22	Роу	Роу	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	flat:name	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	центре	центр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	nmod	_	_
+25	Лос	Лос	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	appos	_	_
+26	Анджелеса	Анджелес	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 5
+# text = Я настоятельно рекомендую всем вам прочитать книгу Стива или посмотреть фильм, чтобы понять не только удивительную связь, появившуюся между этими двумя людьми, но и то, как музыка помогла сформироваться этой связи, музыка, которая была полностью инструментальной, простите мой каламбур, помогла Натаниелю перестать бродяжничать.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
+2	настоятельно	настоятельно	ADV	_	Degree=Pos	3	advmod	_	_
+3	рекомендую	рекомендой	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	всем	весь	PRON	_	Animacy=Anim|Case=Dat|Number=Plur	6	iobj	_	_
+5	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	6	iobj	_	_
+6	прочитать	прочесть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+7	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	Стива	Стив	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	или	или	CCONJ	_	_	10	cc	_	_
+10	посмотреть	смотреть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	conj	_	_
+11	фильм	фильм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	чтобы	чтобы	SCONJ	_	Mood=Cnd	14	mark	_	_
+14	понять	понять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	advcl	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	только	только	PART	_	_	17	advmod	_	_
+17	удивительную	удивительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	связь	связь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	появившуюся	появиться	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	18	acl	_	_
+21	между	между	ADP	_	_	24	case	_	_
+22	этими	этот	DET	_	Case=Ins|Number=Plur	24	det	_	_
+23	двумя	два	NUM	_	Case=Ins	24	nummod	_	_
+24	людьми	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	28	punct	_	_
+26	но	но	CCONJ	_	_	28	cc	_	_
+27	и	и	PART	_	_	26	advmod	_	_
+28	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	conj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	32	punct	_	_
+30	как	как	SCONJ	_	_	32	mark	_	_
+31	музыка	музыка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	_
+32	помогла	помочь	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	28	acl	_	_
+33	сформироваться	сформироваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	32	xcomp	_	_
+34	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	35	det	_	_
+35	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	obl	_	SpaceAfter=No
+36	,	,	PUNCT	_	_	37	punct	_	_
+37	музыка	музыка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	32	conj	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	42	punct	_	_
+39	которая	который	PRON	_	Case=Nom	42	nsubj	_	_
+40	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	42	cop	_	_
+41	полностью	полностью	ADV	_	Degree=Pos	42	obl	_	_
+42	инструментальной	инструментальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	37	acl:relcl	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	44	punct	_	_
+44	простите	простить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	32	conj	_	_
+45	мой	мой	DET	_	Case=Acc|Gender=Masc|Number=Sing	46	det	_	_
+46	каламбур	каламбура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	44	obj	_	SpaceAfter=No
+47	,	,	PUNCT	_	_	48	punct	_	_
+48	помогла	помочь	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	32	conj	_	_
+49	Натаниелю	Натаниель	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	48	obj	_	_
+50	перестать	перестать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	48	xcomp	_	_
+51	бродяжничать	бродяжничать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	50	xcomp	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 6
+# text = Я встретил Айерса в 2008 году, два года назад, в концертном холле Уолта Диснея.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	встретил	встретить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	Айерса	Айерс	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	2008	2008	NUM	_	_	6	nummod	_	_
+6	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	9	nummod:gov	_	_
+9	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+10	назад	назад	ADV	_	Degree=Pos	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	концертном	концертный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	холле	холл	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	conj	_	_
+15	Уолта	Уолт	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	Диснея	Дисней	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 7
+# text = Он только что прослушал исполнение первой и четвертой симфоний Бетховена и зашёл за кулисы представиться.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+2	только	только	PART	_	_	4	advmod	_	_
+3	что	что	SCONJ	_	_	2	fixed	_	_
+4	прослушал	прослушать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	исполнение	исполнение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	первой	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	четвертой	четвертый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	conj	_	_
+9	симфоний	симфония	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+10	Бетховена	Бетховен	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	зашёл	зашёть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+13	за	за	ADP	_	_	14	case	_	_
+14	кулисы	кулис	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obl	_	_
+15	представиться	представить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	12	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 8
+# text = Он был очень весел и держался по-компанейски, рассказывал про Йо-Йо Ма и Хилари Клинтон, и том, что Доджерс никогда не попадут в первенство США по бейсболу, и всё из-за коварного пассажа первой скрипки в финале четвертой симфонии Бетховена.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	очень	очень	ADV	_	Degree=Pos	4	obl	_	_
+4	весел	веселый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	держался	держаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	_
+7	по-компанейски	по-компанейски	ADV	_	Degree=Pos	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	рассказывал	рассказывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+10	про	про	ADP	_	_	11	case	_	_
+11	Йо-Йо	йо-йо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
+12	Ма	М	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	Хилари	Хиллари	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	conj	_	_
+15	Клинтон	Клинтон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	14	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	24	punct	_	_
+20	что	что	SCONJ	_	_	24	mark	_	_
+21	Доджерс	Доджерс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+22	никогда	никогда	ADV	_	Degree=Pos	24	advmod	_	_
+23	не	не	PART	_	_	24	advmod	_	_
+24	попадут	попасть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	18	acl	_	_
+25	в	в	ADP	_	_	26	case	_	_
+26	первенство	первенство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obl	_	_
+27	США	США	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	26	nmod	_	_
+28	по	по	ADP	_	_	29	case	_	_
+29	бейсболу	бейсбол	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	35	punct	_	_
+31	и	и	CCONJ	_	_	35	cc	_	_
+32	всё	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	35	nsubj	_	_
+33	из-за	из-за	ADP	_	_	35	case	_	_
+34	коварного	коварный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+35	пассажа	пассаж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	conj	_	_
+36	первой	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
+37	скрипки	скрипка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	35	nmod	_	_
+38	в	в	ADP	_	_	39	case	_	_
+39	финале	финал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	35	nmod	_	_
+40	четвертой	четвертый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	41	amod	_	_
+41	симфонии	симфония	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	_
+42	Бетховена	Бетховен	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	41	nmod	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 9
+# text = И так мы заговорили о музыке.
+1	И	и	CCONJ	_	_	4	cc	_	_
+2	так	так	ADV	_	Degree=Pos	4	advmod	_	_
+3	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	4	nsubj	_	_
+4	заговорили	заговорить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	о	о	ADP	_	_	6	case	_	_
+6	музыке	музыка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 10
+# text = Спустя несколько дней я получил письмо от Стива, в котором говорилось, что Натаниел хочет взять у меня урок игры на скрипке.
+1	Спустя	спустя	ADP	_	_	3	case	_	_
+2	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	3	nummod:gov	_	_
+3	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+4	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	5	nsubj	_	_
+5	получил	получить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	письмо	письмо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	от	от	ADP	_	_	8	case	_	_
+8	Стива	Стив	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	котором	который	PRON	_	Case=Loc	12	obl	_	_
+12	говорилось	говорить	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	6	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	что	что	SCONJ	_	_	16	mark	_	_
+15	Натаниел	Натаниел	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+16	хочет	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	ccomp	_	_
+17	взять	брать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	у	у	ADP	_	_	19	case	_	_
+19	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	17	obl	_	_
+20	урок	урок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+21	игры	игра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	скрипке	скрипка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 11
+# text = Я должен упомянуть, что Натаниел отказывается от лечения, потому что его лечили шоковой терапией и аминозином,и применяли наручники, и этот шрам остался у него на всю жизнь.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+3	упомянуть	упомянуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	что	что	SCONJ	_	_	7	mark	_	_
+6	Натаниел	Натаниел	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	отказывается	отказываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	ccomp	_	_
+8	от	от	ADP	_	_	9	case	_	_
+9	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	14	punct	_	_
+11	потому	потому	ADV	_	Degree=Pos	14	mark	_	_
+12	что	что	SCONJ	_	_	11	fixed	_	_
+13	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	obj	_	_
+14	лечили	лечить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	_
+15	шоковой	шоковый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	терапией	терапия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	аминозином	аминозин	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	21	punct	_	SpaceAfter=No
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	применяли	применять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+22	наручники	наручники	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	27	punct	_	_
+24	и	и	CCONJ	_	_	27	cc	_	_
+25	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	26	det	_	_
+26	шрам	шр	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	27	iobj	_	_
+27	остался	остаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	7	conj	_	_
+28	у	у	ADP	_	_	29	case	_	_
+29	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	27	obl	_	_
+30	на	на	ADP	_	_	32	case	_	_
+31	всю	весь	DET	_	Case=Acc|Gender=Fem|Number=Sing	32	det	_	_
+32	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	obl	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 12
+# text = Но, в результате этого, он подвержен шизофреническим приступам.
+1	Но	но	CCONJ	_	_	8	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+5	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	_
+7	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+8	подвержен	подверженный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+9	шизофреническим	шизофренический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	10	amod	_	_
+10	приступам	приступ	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	8	iobj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 13
+# text = Худшие из которых могут проявляться как вспышки гнева, и затем он пропадает на несколько дней, скитаясь по улицам Скид Роу, наедине со своими страхами, испытывая муки от собственного разума, который он не может контролировать.
+1	Худшие	Хусти	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	4	xcomp	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	которых	который	PRON	_	Case=Gen	1	obl	_	_
+4	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	проявляться	являться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	1	xcomp	_	_
+6	как	как	SCONJ	_	_	7	mark	_	_
+7	вспышки	вспышка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	advcl	_	_
+8	гнева	гнев	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	13	punct	_	_
+10	и	и	CCONJ	_	_	13	cc	_	_
+11	затем	затем	ADV	_	Degree=Pos	13	advmod	_	_
+12	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
+13	пропадает	пропадать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+14	на	на	ADP	_	_	16	case	_	_
+15	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	16	nummod:gov	_	_
+16	дней	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	скитаясь	скитаться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	13	advcl	_	_
+19	по	по	ADP	_	_	20	case	_	_
+20	улицам	улица	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	18	obl	_	_
+21	Скид	Скид	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+22	Роу	Роу	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	29	punct	_	_
+24	наедине	наедине	ADV	_	Degree=Pos	29	advmod	_	_
+25	со	с	ADP	_	_	27	case	_	_
+26	своими	свой	DET	_	Case=Ins|Number=Plur	27	det	_	_
+27	страхами	страх	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	24	obl	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	испытывая	испытывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	21	acl	_	_
+30	муки	мука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	29	obj	_	_
+31	от	от	ADP	_	_	33	case	_	_
+32	собственного	собственный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	разума	разум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	38	punct	_	_
+35	который	который	PRON	_	Case=Acc	39	obj	_	_
+36	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	38	nsubj	_	_
+37	не	не	PART	_	_	38	advmod	_	_
+38	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	acl:relcl	_	_
+39	контролировать	контролировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	38	xcomp	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 14
+# text = И Натаниел пребывал в таком возбужденном состоянии в начале нашего первого урока в концертном холле Уолта Диснея; его глаза блестели как у маньяка, он был потерянным.
+1	И	и	CCONJ	_	_	3	cc	_	_
+2	Натаниел	Натаниел	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	пребывал	пребывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	в	в	ADP	_	_	7	case	_	_
+5	таком	такой	DET	_	Case=Loc|Gender=Neut|Number=Sing	7	det	_	_
+6	возбужденном	возбудить	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	состоянии	состояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	начале	начало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	_
+10	нашего	наш	DET	_	Case=Gen|Gender=Masc|Number=Sing	12	det	_	_
+11	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	урока	урок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	концертном	концертный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	холле	холл	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+16	Уолта	Уолт	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	Диснея	Дисней	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	flat:name	_	SpaceAfter=No
+18	;	;	PUNCT	_	_	3	punct	_	_
+19	его	его	DET	_	_	20	det	_	_
+20	глаза	глаз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+21	блестели	блестеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+22	как	как	SCONJ	_	_	24	mark	_	_
+23	у	у	ADP	_	_	24	case	_	_
+24	маньяка	маньяк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	28	punct	_	_
+26	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	28	nsubj	_	_
+27	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	28	cop	_	_
+28	потерянным	терять	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 15
+# text = Он говорил о невидимых демонах и дыме, и как кто-то пытался отравить его во сне.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	говорил	говорить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	о	о	ADP	_	_	5	case	_	_
+4	невидимых	невидимый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	5	amod	_	_
+5	демонах	демон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	obl	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	дыме	дым	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	12	punct	_	_
+9	и	и	CCONJ	_	_	12	cc	_	_
+10	как	как	SCONJ	_	_	2	mark	_	_
+11	кто-то	кто-то	PRON	_	Case=Nom	12	nsubj	_	_
+12	пытался	пытаться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	_
+13	отравить	отравить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	obj	_	_
+15	во	в	ADP	_	_	16	case	_	_
+16	сне	сон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 16
+# text = И я боялся не за себя, но я боялся, что я его потеряю, что он погрузится в одно из тех своих состояний, и что я разрушу его отношения со скрипкой, если я начну говорить о звукорядах и арпеджио и других увлекательных формах дидактических методик обучения игре на скрипке.
+1	И	и	CCONJ	_	_	3	cc	_	_
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
+3	боялся	бояться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	не	не	PART	_	_	6	advmod	_	_
+5	за	за	ADP	_	_	6	case	_	_
+6	себя	себя	PRON	_	Case=Acc	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	но	но	CCONJ	_	_	10	cc	_	_
+9	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	10	nsubj	_	_
+10	боялся	бояться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	что	что	SCONJ	_	_	15	mark	_	_
+13	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	15	nsubj	_	_
+14	его	оно	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	15	obj	_	_
+15	потеряю	потерять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	что	что	SCONJ	_	_	19	mark	_	_
+18	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+19	погрузится	погрузиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	15	ccomp	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	одно	один	NUM	_	Case=Acc|Gender=Neut	19	nummod:gov	_	_
+22	из	из	ADP	_	_	25	case	_	_
+23	тех	тот	DET	_	Case=Gen|Number=Plur	25	det	_	_
+24	своих	свой	DET	_	Case=Gen|Number=Plur	25	det	_	_
+25	состояний	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	21	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	30	punct	_	_
+27	и	и	CCONJ	_	_	30	cc	_	_
+28	что	что	SCONJ	_	_	30	mark	_	_
+29	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	30	nsubj	_	_
+30	разрушу	разрусать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	19	conj	_	_
+31	его	его	DET	_	_	32	det	_	_
+32	отношения	отношение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	30	obj	_	_
+33	со	с	ADP	_	_	34	case	_	_
+34	скрипкой	скрипка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	38	punct	_	_
+36	если	если	SCONJ	_	_	38	mark	_	_
+37	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	38	nsubj	_	_
+38	начну	начать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	30	advcl	_	_
+39	говорить	говорить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	38	xcomp	_	_
+40	о	о	ADP	_	_	41	case	_	_
+41	звукорядах	звукоряд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	39	obl	_	_
+42	и	и	CCONJ	_	_	43	cc	_	_
+43	арпеджио	арпеджио	PROPN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	41	conj	_	_
+44	и	и	CCONJ	_	_	47	cc	_	_
+45	других	другой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	47	amod	_	_
+46	увлекательных	увлекательный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	47	amod	_	_
+47	формах	форма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	41	conj	_	_
+48	дидактических	дидактический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	49	amod	_	_
+49	методик	методика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	47	nmod	_	_
+50	обучения	обучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	49	nmod	_	_
+51	игре	игра	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	50	iobj	_	_
+52	на	на	ADP	_	_	53	case	_	_
+53	скрипке	скрипка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	51	nmod	_	SpaceAfter=No
+54	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 17
+# text = (Смех) Итак, я просто начал играть.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Смех	смех	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	parataxis	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+4	Итак	итак	ADV	_	Degree=Pos	8	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	8	nsubj	_	_
+7	просто	просто	PART	_	_	8	advmod	_	_
+8	начал	начать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 18
+# text = Я играл первую часть концерта для скрипки Бетховена.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	играл	играть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	первую	первый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	концерта	концерт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	скрипки	скрипка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	Бетховена	Бетховен	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 19
+# text = И когда я играл, Я заметил разительные изменения в глазах Натаниела.
+1	И	и	CCONJ	_	_	7	cc	_	_
+2	когда	когда	SCONJ	_	_	4	mark	_	_
+3	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	_
+4	играл	играть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	7	nsubj	_	_
+7	заметил	заметить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	разительные	разительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	obj	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	глазах	глаз	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	nmod	_	_
+12	Натаниела	Натаниел	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 20
+# text = Как-будто он был под воздействием какого-то невидимого лекарства, какой-то химической реакции, катализатором которой была моя музыка.
+1	Как	как	SCONJ	_	_	6	mark	_	SpaceAfter=No
+2	-будто	-будто	PART	_	_	6	advmod	_	_
+3	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+4	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+5	под	под	ADP	_	_	6	case	_	_
+6	воздействием	воздействие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	root	_	_
+7	какого-то	какой-то	DET	_	Case=Gen|Gender=Neut|Number=Sing	9	det	_	_
+8	невидимого	невидимый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	лекарства	лекарство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	какой-то	какой-то	DET	_	Case=Gen|Gender=Fem|Number=Sing	13	det	_	_
+12	химической	химический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	реакции	реакция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	19	punct	_	_
+15	катализатором	катализатор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	19	nmod	_	_
+16	которой	который	PRON	_	Case=Gen	15	nmod	_	_
+17	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	cop	_	_
+18	моя	мой	DET	_	Case=Nom|Gender=Fem|Number=Sing	19	det	_	_
+19	музыка	музыка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 21
+# text = И маниакальное бешенство Натаниела уступило место пониманию, спокойному любопытству и благодати.
+1	И	и	CCONJ	_	_	5	cc	_	_
+2	маниакальное	маниакальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	бешенство	бешенство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+4	Натаниела	Натаниел	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	уступило	уступить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	место	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	пониманию	понимание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	iobj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	спокойному	спокойный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	любопытству	любопытство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	conj	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	благодати	благодать	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 22
+# text = И каким-то чудом он взял свою скрипку и начал воспроизводить на слух определённые фрагменты концертов для скрипки, которые он потом попросил меня доиграть до конца, Мендельсона, Чайковского, Сибелиуса.
+1	И	и	CCONJ	_	_	5	cc	_	_
+2	каким-то	какой-то	DET	_	Case=Ins|Gender=Neut|Number=Sing	3	det	_	_
+3	чудом	чудо	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	_
+4	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+5	взял	брать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	7	det	_	_
+7	скрипку	скрипка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	начал	начать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+10	воспроизводить	воспроизводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	слух	слух	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+13	определённые	определённый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	фрагменты	фрагмент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+15	концертов	концерт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	для	для	ADP	_	_	17	case	_	_
+17	скрипки	скрипка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	22	punct	_	_
+19	которые	который	PRON	_	Case=Acc	22	obj	_	_
+20	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	22	nsubj	_	_
+21	потом	потом	ADV	_	Degree=Pos	22	advmod	_	_
+22	попросил	просить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
+23	меня	я	PRON	_	Case=Acc|Number=Sing|Person=1	22	obj	_	_
+24	доиграть	доиграть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	xcomp	_	_
+25	до	до	ADP	_	_	26	case	_	_
+26	конца	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	28	punct	_	_
+28	Мендельсона	Мендельсон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	Чайковского	Чайковский	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	32	punct	_	_
+32	Сибелиуса	Сибелиус	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	26	conj	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 23
+# text = И потом мы начали разговор о музыке - от Баха до Бетховена и Брамса, Брукнера, все на "Б", от Бартока вплоть до Эса-Пекка Салонен.
+1	И	и	CCONJ	_	_	4	cc	_	_
+2	потом	потом	ADV	_	Degree=Pos	4	advmod	_	_
+3	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	4	nsubj	_	_
+4	начали	начать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	разговор	разговор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	о	о	ADP	_	_	7	case	_	_
+7	музыке	музыка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
+8	-	-	PUNCT	_	_	10	punct	_	_
+9	от	от	ADP	_	_	10	case	_	_
+10	Баха	Бах	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	parataxis	_	_
+11	до	до	ADP	_	_	12	case	_	_
+12	Бетховена	Бетховен	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	Брамса	Брамс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	Брукнера	Брукнер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	21	punct	_	_
+18	все	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_
+19	на	на	ADP	_	_	21	case	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	Б	Б	PROPN	_	_	4	conj	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	от	от	ADP	_	_	25	case	_	_
+25	Бартока	Барток	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	conj	_	_
+26	вплоть	вплоть	ADV	_	Degree=Pos	28	case	_	_
+27	до	до	ADP	_	_	26	fixed	_	_
+28	Эса-Пекка	Эса-Пекка	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+29	Салонен	Салонен	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	appos	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 24
+# text = Я понял, что он обладает не только энциклопедическими знаниями по музыке, но он был связан с этом музыкой на личностном уровне.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	понял	понять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	6	punct	_	_
+4	что	что	SCONJ	_	_	6	mark	_	_
+5	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+6	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	только	только	PART	_	_	9	advmod	_	_
+9	энциклопедическими	энциклопедический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+10	знаниями	знание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	6	obl	_	_
+11	по	по	ADP	_	_	12	case	_	_
+12	музыке	музыка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	17	punct	_	_
+14	но	но	CCONJ	_	_	17	cc	_	_
+15	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	nsubj:pass	_	_
+16	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	aux:pass	_	_
+17	связан	связать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	этом	этот	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_
+20	музыкой	музыка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obl	_	_
+21	на	на	ADP	_	_	23	case	_	_
+22	личностном	личностный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	уровне	уровень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 25
+# text = Он говорил о ней с той страстью и пониманием, которыми я делюсь со своими коллегами в Филармонии Лос-Анджелеса.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	говорил	говорить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	о	о	ADP	_	_	4	case	_	_
+4	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	2	obl	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	той	тот	DET	_	Case=Ins|Gender=Fem|Number=Sing	7	det	_	_
+7	страстью	страсть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	obl	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	пониманием	понимание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	которыми	который	PRON	_	Case=Ins	13	obl	_	_
+12	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	13	nsubj	_	_
+13	делюсь	делиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	7	acl:relcl	_	_
+14	со	с	ADP	_	_	16	case	_	_
+15	своими	свой	DET	_	Case=Ins|Number=Plur	16	det	_	_
+16	коллегами	коллега	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	13	obl	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	Филармонии	филармония	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	_
+19	Лос-Анджелеса	Лос-Анджелес	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 26
+# text = Исполнение музыки и разговоры о музыке трансформировали этого человека из психически неуравновешенного параноика, который бродяжничал по в обаятельного, эрудированного, потрясающего музыканта, учившегося в Juilliard.
+1	Исполнение	исполнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+2	музыки	музыка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	разговоры	разговор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
+5	о	о	ADP	_	_	6	case	_	_
+6	музыке	музыка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
+7	трансформировали	трансформировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	этого	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	9	det	_	_
+9	человека	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	из	из	ADP	_	_	13	case	_	_
+11	психически	психически	ADV	_	Degree=Pos	12	advmod	_	_
+12	неуравновешенного	неуравновешенный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	параноика	параноик	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	16	punct	_	_
+15	который	который	PRON	_	Case=Nom	16	nsubj	_	_
+16	бродяжничал	бродяжничать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+17	по	по	ADP	_	_	24	case	_	_
+18	в	в	ADP	_	_	24	case	_	_
+19	обаятельного	обаятельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	acl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	эрудированного	эрудированный	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	потрясающего	потрясающий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	conj	_	_
+24	музыканта	музыкант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	учившегося	учиться	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	24	conj	_	_
+27	в	в	ADP	_	_	26	case	_	_
+28	Juilliard	Juilliard	PROPN	_	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 27
+# text = Музыка - лекарство.
+1	Музыка	музыка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	-	-	PUNCT	_	_	1	punct	_	_
+3	лекарство	лекарство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 28
+# text = Музыка меняет нас.
+1	Музыка	музыка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	меняет	менять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	нас	мы	PRON	_	Case=Acc|Number=Plur|Person=1	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 29
+# text = А для Натаниела музыка - душевное равновесие.
+1	А	а	CCONJ	_	_	7	cc	_	_
+2	для	для	ADP	_	_	3	case	_	_
+3	Натаниела	Натаниел	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+4	музыка	музыка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+5	-	-	PUNCT	_	_	4	punct	_	_
+6	душевное	душевный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	равновесие	равновесие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 30
+# text = Потому что музыка позволяет ему связать его мысли и иллюзии, через его воображение и творчество с реальностью.
+1	Потому	потому	ADV	_	Degree=Pos	4	mark	_	_
+2	что	что	SCONJ	_	_	1	fixed	_	_
+3	музыка	музыка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	4	iobj	_	_
+6	связать	связать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+7	его	его	DET	_	_	8	det	_	_
+8	мысли	мысль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	иллюзии	иллюзия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	4	punct	_	_
+12	через	через	ADP	_	_	14	case	_	_
+13	его	его	DET	_	_	14	det	_	_
+14	воображение	воображение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	творчество	творчество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	conj	_	_
+17	с	с	ADP	_	_	18	case	_	_
+18	реальностью	реальность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 31
+# text = И это спасение от его мучительного состояния.
+1	И	и	CCONJ	_	_	3	cc	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	спасение	спасение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	root	_	_
+4	от	от	ADP	_	_	7	case	_	_
+5	его	его	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	7	nmod	_	_
+6	мучительного	мучительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	состояния	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 32
+# text = И я для себя понял, что это и есть сущность искусства.
+1	И	и	CCONJ	_	_	5	cc	_	_
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	5	nsubj	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	себя	себя	PRON	_	Case=Gen	5	obl	_	_
+5	понял	понять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	11	punct	_	_
+7	что	что	SCONJ	_	_	11	mark	_	_
+8	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+9	и	и	PART	_	_	11	advmod	_	_
+10	есть	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
+11	сущность	сущность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	ccomp	_	_
+12	искусства	искусство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 33
+# text = Именно для этого мы и создавали музыку, мы берём что-то существующее внутри каждого из нас, являющееся нашим стержнем - наши эмоции, и посредством нашего художественного видения, нашего творчества, мы можем выразить эти эмоции в реальности.
+1	Именно	именно	PART	_	_	3	advmod	_	_
+2	для	для	ADP	_	_	3	case	_	_
+3	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+4	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	6	nsubj	_	_
+5	и	и	PART	_	_	6	advmod	_	_
+6	создавали	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	музыку	музыка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	12	punct	_	_
+9	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	12	nsubj	_	_
+10	берём	берем	ADP	_	_	11	case	_	_
+11	что-то	что-то	PRON	_	Case=Acc	12	obl	_	_
+12	существующее	существовать	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	conj	_	_
+13	внутри	внутри	ADV	_	Degree=Pos	14	advmod	_	_
+14	каждого	каждый	DET	_	Case=Acc|Gender=Masc|Number=Sing	12	det	_	_
+15	из	из	ADP	_	_	16	case	_	_
+16	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	являющееся	являться	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	14	acl	_	_
+19	нашим	наш	DET	_	Case=Ins|Gender=Masc|Number=Sing	20	det	_	_
+20	стержнем	стержень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	_
+21	-	-	PUNCT	_	_	23	punct	_	_
+22	наши	наш	DET	_	Case=Nom|Number=Plur	23	det	_	_
+23	эмоции	эмоция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	18	parataxis	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	35	punct	_	_
+25	и	и	CCONJ	_	_	35	cc	_	_
+26	посредством	посредств	ADP	_	_	29	case	_	_
+27	нашего	наш	DET	_	Case=Gen|Gender=Neut|Number=Sing	29	det	_	_
+28	художественного	художественный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+29	видения	видение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	obl	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	32	punct	_	_
+31	нашего	наш	DET	_	Case=Gen|Gender=Neut|Number=Sing	32	det	_	_
+32	творчества	творчество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	conj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	35	punct	_	_
+34	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	35	nsubj	_	_
+35	можем	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	23	conj	_	_
+36	выразить	выразить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	35	xcomp	_	_
+37	эти	этот	DET	_	Case=Acc|Number=Plur	38	det	_	_
+38	эмоции	эмоция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	36	obj	_	_
+39	в	в	ADP	_	_	40	case	_	_
+40	реальности	реальность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	36	obl	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 34
+# text = И реальность этого выражения не оставляет равнодушным ни одного из нас, она волнует нас, вдохновляет и объединяет нас.
+1	И	и	CCONJ	_	_	6	cc	_	_
+2	реальность	реальность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	4	det	_	_
+4	выражения	выражение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	оставляет	оставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	равнодушным	равнодушный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	obl	_	_
+8	ни	ни	PART	_	_	9	advmod	_	_
+9	одного	один	NUM	_	Case=Gen|Gender=Masc	7	nummod	_	_
+10	из	из	ADP	_	_	11	case	_	_
+11	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	14	nsubj	_	_
+14	волнует	волновать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+15	нас	мы	PRON	_	Case=Acc|Number=Plur|Person=1	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	вдохновляет	вдохновлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	объединяет	объединять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+20	нас	мы	PRON	_	Case=Acc|Number=Plur|Person=1	19	obj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 35
+# text = В случае Натаниела, музыка вернула его в круг его друзей.
+1	В	в	ADP	_	_	2	case	_	_
+2	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+3	Натаниела	Натаниел	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	2	punct	_	_
+5	музыка	музыка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	вернула	вернуть	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	obj	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	круг	круг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+10	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	11	nmod	_	_
+11	друзей	друг	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 36
+# text = Целительная сила музыки вернула его в семью музыкантов, где его понимали, ценили его таланты и уважали его.
+1	Целительная	Целительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	сила	сила	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	музыки	музыка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	вернула	вернуть	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	4	obj	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	семью	семья	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+8	музыкантов	музыкант	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	12	punct	_	_
+10	где	где	ADV	_	Degree=Pos	12	advmod	_	_
+11	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	obj	_	_
+12	понимали	понимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	ценили	ценить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	_
+15	его	его	DET	_	_	16	det	_	_
+16	таланты	талант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	уважали	уважать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	_
+19	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	18	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 37
+# text = Я всегда буду исполнять музыку с Натаниелом, независимо от того, выступаем мы в концертном холле Уолта Диснея или в районе Скид Роу, потому что он напоминает мне почему я стал музыкантом.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	_
+2	всегда	всегда	ADV	_	Degree=Pos	4	advmod	_	_
+3	буду	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+4	исполнять	исполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+5	музыку	музыка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	с	с	ADP	_	_	7	case	_	_
+7	Натаниелом	Натаниел	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	независимо	независимо	ADV	_	Degree=Pos	4	advmod	_	_
+10	от	от	ADP	_	_	11	case	_	_
+11	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	выступаем	выступать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl	_	_
+14	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	13	nsubj	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	концертном	концертный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	холле	холл	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+18	Уолта	Уолт	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	Диснея	Дисней	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	flat:name	_	_
+20	или	или	CCONJ	_	_	22	cc	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	районе	район	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	conj	_	_
+23	Скид	Скид	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	appos	_	_
+24	Роу	Роу	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	29	punct	_	_
+26	потому	потому	ADV	_	Degree=Pos	29	mark	_	_
+27	что	что	SCONJ	_	_	26	fixed	_	_
+28	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	29	nsubj	_	_
+29	напоминает	напоминать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+30	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	29	iobj	_	_
+31	почему	почему	ADV	_	Degree=Pos	29	advmod	_	_
+32	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	29	nsubj	_	_
+33	стал	стать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	29	ccomp	_	_
+34	музыкантом	музыкант	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 38
+# text = Спасибо.
+1	Спасибо	спасибо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 39
+# text = (Аплодисменты) Бруно Гюссани: Спасибо.
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Аплодисменты	аплодисменты	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	_
+4	Бруно	Бруно	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+5	Гюссани	Гюссани	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	SpaceAfter=No
+6	:	:	PUNCT	_	_	2	punct	_	_
+7	Спасибо	спасибо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	parataxis	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 40
+# text = Спасибо.
+1	Спасибо	спасибо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 41
+# text = Роберт Гупта.
+1	Роберт	Роберт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Гупта	Гупет	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 42
+# text = Роберт Гупта:
+1	Роберт	Роберт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Гупта	Гупет	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 43
+# text = Я хочу исполнить вещицу, которую я бессовестно украл у виолончелистов.
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	исполнить	исполнить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	вещицу	вещица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	9	punct	_	_
+6	которую	который	PRON	_	Case=Acc	9	obj	_	_
+7	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	9	nsubj	_	_
+8	бессовестно	бессовестно	ADV	_	Degree=Pos	9	advmod	_	_
+9	украл	красть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+10	у	у	ADP	_	_	11	case	_	_
+11	виолончелистов	виолончелист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 44
+# text = Поэтому пожалуйста простите мне.
+1	Поэтому	поэтому	ADV	_	Degree=Pos	3	advmod	_	_
+2	пожалуйста	пожалуйста	ADV	_	Degree=Pos	3	advmod	_	_
+3	простите	простить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+4	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	3	iobj	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 45
+# text = (Музыка)
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Музыка	музыка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	_	_	2	punct	_	SpacesAfter=\s\n
+

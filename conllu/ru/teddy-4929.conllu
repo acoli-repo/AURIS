@@ -1,0 +1,784 @@
+# newdoc id = txt/ru/teddy-4929.txt
+# newpar
+# sent_id = 1
+# text = 27 мая 1941 года в ходе сражений был потоплен немецкий линкор «Бисмарк».
+1	27	27	NUM	_	_	9	nummod	_	_
+2	мая	май	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	flat	_	_
+3	1941	1941	NUM	_	_	4	nummod	_	_
+4	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	ходе	ход	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	fixed	_	_
+7	сражений	сражение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	obl	_	_
+8	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	потоплен	топить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+10	немецкий	немецкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	линкор	линкор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+12	«Бисмарк»	«Бисмарк»	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 2
+# text = Из находившихся на его борту 2 200 членов экипажа выжили 118 человек.
+1	Из	из	ADP	_	_	2	mark	_	_
+2	находившихся	находиться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	10	advcl	_	_
+3	на	на	ADP	_	_	5	case	_	_
+4	его	его	DET	_	_	5	det	_	_
+5	борту	борт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+6	2	2	NUM	_	_	8	nummod	_	_
+7	200	200	NUM	_	_	6	nummod	_	_
+8	членов	член	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nsubj	_	_
+9	экипажа	экипаж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	выжили	выжить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	118	118	NUM	_	_	12	nummod	_	_
+12	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 3
+# text = Но когда англичане подплыли на эсминце взять в плен выживших, то к немалому удивлению они обнаружили среди спасшихся чёрно-белого кота, ухватившегося за дрейфующую доску.
+1	Но	но	CCONJ	_	_	17	cc	_	_
+2	когда	когда	SCONJ	_	_	4	mark	_	_
+3	англичане	англичанин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	подплыли	подплыть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	advcl	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	эсминце	эсминец	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
+7	взять	брать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	плен	плен	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+10	выживших	выжить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	4	punct	_	_
+12	то	то	SCONJ	_	_	17	mark	_	_
+13	к	к	ADP	_	_	15	case	_	_
+14	немалому	немалый	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	удивлению	удивление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	17	obl	_	_
+16	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	17	nsubj	_	_
+17	обнаружили	обнаружить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+18	среди	среди	ADP	_	_	19	case	_	_
+19	спасшихся	спасшихся	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
+20	чёрно-белого	чёрно-белый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	кота	кот	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	ухватившегося	ухватиться	VERB	_	Animacy=Anim|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	21	acl	_	_
+24	за	за	ADP	_	_	26	case	_	_
+25	дрейфующую	дрейфующий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	доску	доска	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 4
+# text = Какое-то время кот-счастливчик гонял мышей и повышал боевой дух англичан, когда внезапно корпус эсминца протаранила торпеда и судно пошло ко дну.
+1	Какое-то	какой-то	DET	_	Case=Acc|Gender=Neut|Number=Sing	2	det	_	_
+2	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+3	кот-счастливчик	кот-счастливчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	гонял	гонясти	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	мышей	мышь	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	повышал	повышать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+8	боевой	боевой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	дух	дух	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	англичан	англичанин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	16	punct	_	_
+12	когда	когда	SCONJ	_	_	16	mark	_	_
+13	внезапно	внезапно	ADV	_	Degree=Pos	16	advmod	_	_
+14	корпус	корпус	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	obj	_	_
+15	эсминца	эсминнец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	протаранила	протаранить	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	_
+17	торпеда	торпед	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	судно	судно	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	conj	_	_
+20	пошло	пойти	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	xcomp	_	_
+21	ко	к	ADP	_	_	22	case	_	_
+22	дну	дно	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 5
+# text = Но — о чудо! — только не наш кот.
+1	Но	но	CCONJ	_	_	3	cc	_	_
+2	—	—	PUNCT	_	_	1	punct	_	_
+3	о	о	INTJ	_	_	0	root	_	_
+4	чудо	чудо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	parataxis	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	4	punct	_	_
+6	—	—	PUNCT	_	_	4	punct	_	_
+7	только	только	PART	_	_	9	advmod	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	наш	наш	DET	_	Case=Nom|Gender=Masc|Number=Sing	10	det	_	_
+10	кот	кот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 6
+# text = Получив кличку Непотопляемый Сэм, кот вместе с подобравшим его экипажем отправился на Гибралтар и затем служил корабельным котом ещё на трёх судах — одно из них даже было потоплено, — а остаток жизни провёл Доме ветеранов флота в Белфасте.
+1	Получив	получить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	12	advcl	_	_
+2	кличку	кличка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+3	Непотопляемый	Непотопляемый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	Сэм	Сэм	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	кот	кот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	parataxis	_	_
+7	вместе	вместе	ADV	_	Degree=Pos	12	advmod	_	_
+8	с	с	ADP	_	_	11	case	_	_
+9	подобравшим	подобрать	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+10	его	его	DET	_	_	11	det	_	_
+11	экипажем	экипаж	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+12	отправился	отправиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	Гибралтар	Гибралтар	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	затем	затем	ADV	_	Degree=Pos	17	advmod	_	_
+17	служил	служить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	_
+18	корабельным	корабельный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	котом	кот	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	_
+20	ещё	еще	ADV	_	Degree=Pos	23	obl	_	_
+21	на	на	ADP	_	_	23	case	_	_
+22	трёх	три	NUM	_	Case=Loc	23	nummod	_	_
+23	судах	суд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	17	obl	_	_
+24	—	—	PUNCT	_	_	30	punct	_	_
+25	одно	один	NUM	_	Case=Nom|Gender=Neut	30	nsubj:pass	_	_
+26	из	из	ADP	_	_	27	case	_	_
+27	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	25	nmod	_	_
+28	даже	даже	PART	_	_	30	advmod	_	_
+29	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	30	aux:pass	_	_
+30	потоплено	топить	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	17	parataxis	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	36	punct	_	_
+32	—	—	PUNCT	_	_	30	punct	_	_
+33	а	а	CCONJ	_	_	36	cc	_	_
+34	остаток	остаток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	36	nsubj	_	_
+35	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	_
+36	провёл	провести	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	30	conj	_	_
+37	Доме	Дом	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	36	obj	_	_
+38	ветеранов	ветеран	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	37	nmod	_	_
+39	флота	флот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	_
+40	в	в	ADP	_	_	41	case	_	_
+41	Белфасте	Белфаст	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 7
+# text = Многие думают, что от кошек на кораблях мало толку или что они не сильно-то и людям помогают.
+1	Многие	много	NUM	_	_	2	nsubj	_	_
+2	думают	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	9	punct	_	_
+4	что	что	SCONJ	_	_	9	mark	_	_
+5	от	от	ADP	_	_	6	case	_	_
+6	кошек	кошка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	obl	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	кораблях	корабль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	nmod	_	_
+9	мало	мало	ADV	_	Degree=Pos	2	ccomp	_	_
+10	толку	толк	NOUN	_	Animacy=Inan|Case=Par|Gender=Masc|Number=Sing	9	nsubj	_	_
+11	или	или	CCONJ	_	_	15	cc	_	_
+12	что	что	SCONJ	_	_	15	mark	_	_
+13	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	15	nsubj	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	сильно-то	сильно-то	ADV	_	Degree=Pos	9	conj	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	9	conj	_	_
+18	помогают	помогать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	csubj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 8
+# text = Однако тысячи лет кошки трудились бок о бок с людьми и помогали нам не меньше, чем мы им.
+1	Однако	однако	ADV	_	Degree=Pos	5	advmod	_	_
+2	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+3	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	кошки	кошка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	трудились	трудиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	бок	бок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	о	о	ADP	_	_	8	case	_	_
+8	бок	бок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
+9	с	с	ADP	_	_	10	case	_	_
+10	людьми	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	8	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	помогали	помогать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+13	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	12	iobj	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	меньше	мало	NUM	_	_	12	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	чем	чем	SCONJ	_	_	19	mark	_	_
+18	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	19	nsubj	_	_
+19	им	они	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 9
+# text = Так как эти гуляющие сами по себе одиночки проделали путь от диких хищников до офицеров флота и любителей полежать на диване?
+1	Так	так	ADV	_	Degree=Pos	9	mark	_	_
+2	как	как	SCONJ	_	_	1	fixed	_	_
+3	эти	этот	DET	_	Case=Nom|Number=Plur	8	det	_	_
+4	гуляющие	гуляющий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+5	сами	сам	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+6	по	по	ADP	_	_	7	case	_	_
+7	себе	себя	PRON	_	Case=Dat	5	nmod	_	_
+8	одиночки	одиночка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+9	проделали	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	путь	путь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	от	от	ADP	_	_	13	case	_	_
+12	диких	дикий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	хищников	хищник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+14	до	до	ADP	_	_	15	case	_	_
+15	офицеров	офицер	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	obl	_	_
+16	флота	флот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	любителей	любитель	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	19	obj	_	_
+19	полежать	лежать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	obl	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	диване	диван	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+22	?	?	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 10
+# text = Считается, что кошек одомашнили в регионе Плодородного полумесяца в начале неолита более 10 000 лет назад.
+1	Считается	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	что	что	SCONJ	_	_	5	mark	_	_
+4	кошек	кошка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	5	obj	_	_
+5	одомашнили	одомашнить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	ccomp	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	регионе	регион	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+8	Плодородного	Плодородный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	полумесяца	полумесяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	начале	начало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	9	nmod	_	_
+12	неолита	неолит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	более	более	ADV	_	Degree=Cmp	15	nummod:gov	_	_
+14	10 000	10 000	NUM	_	_	15	nummod	_	_
+15	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+16	назад	назад	ADV	_	Degree=Pos	13	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 11
+# text = Люди уже научились подчинять себе природу, в результате чего первобытные земледельцы начали производить больше пищи, чем съедалось за один раз.
+1	Люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	уже	уже	ADV	_	Degree=Pos	3	advmod	_	_
+3	научились	научиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	подчинять	дчинять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	себе	себя	PRON	_	Case=Dat	4	iobj	_	_
+6	природу	природа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	13	punct	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+10	чего	что	PRON	_	Case=Gen	9	nmod	_	_
+11	первобытные	первобытный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	земледельцы	земледелец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+13	начали	начать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+14	производить	производить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	больше	больше	ADV	_	Degree=Cmp	16	nummod:gov	_	_
+16	пищи	пища	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	чем	чем	SCONJ	_	_	19	mark	_	_
+19	съедалось	съедать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	15	advcl	_	_
+20	за	за	ADP	_	_	22	case	_	_
+21	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	22	nummod:gov	_	_
+22	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 12
+# text = Запасы продовольствия стали хранить в глубоких ямах и глиняных сосудах, к которым начали стекаться полчища грызунов, а также охотящиеся на них хищники — Felis Silvestris Lybica, или степные кошки, обитающие в Северной Африке и Юго-Западной Азии.
+1	Запасы	запас	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	продовольствия	продовольствие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+3	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	хранить	хранить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	глубоких	глубокий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	7	amod	_	_
+7	ямах	яма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_
+8	и	и	CCONJ	_	_	10	cc	_	_
+9	глиняных	глиняный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	10	amod	_	_
+10	сосудах	сосуд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	к	к	ADP	_	_	13	case	_	_
+13	которым	который	PRON	_	Case=Dat	15	obl	_	_
+14	начали	начать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+15	стекаться	стекаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	14	xcomp	_	_
+16	полчища	полчище	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	_
+17	грызунов	грызун	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	21	punct	_	_
+19	а	а	CCONJ	_	_	21	cc	_	_
+20	также	также	PART	_	_	19	fixed	_	_
+21	охотящиеся	охотиться	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	7	conj	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	них	они	PRON	_	Case=Acc|Number=Plur|Person=3	21	obl	_	_
+24	хищники	хищник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nsubj:pass	_	_
+25	—	—	PUNCT	_	_	26	punct	_	_
+26	Felis	Felis	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+27	Silvestris	Silvestris	PROPN	_	Foreign=Yes	24	flat:foreign	_	_
+28	Lybica	Lybica	PROPN	_	Foreign=Yes	24	flat:foreign	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	32	punct	_	_
+30	или	или	CCONJ	_	_	32	cc	_	_
+31	степные	степной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	32	amod	_	_
+32	кошки	кошка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	24	conj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	34	punct	_	_
+34	обитающие	обитать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	32	acl	_	_
+35	в	в	ADP	_	_	37	case	_	_
+36	Северной	Северный	PROPN	_	_	37	amod	_	_
+37	Африке	Африка	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	34	obl	_	_
+38	и	и	CCONJ	_	_	40	cc	_	_
+39	Юго-Западной	Юго-Западный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	40	amod	_	_
+40	Азии	Азия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	37	conj	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 13
+# text = Степные кошки показали себя шустрыми, жестокими и сильными охотниками.
+1	Степные	степной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	кошки	кошка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	показали	показать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	себя	себя	PRON	_	Case=Acc	3	obj	_	_
+5	шустрыми	шустрый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	жестокими	жестокий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	conj	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	сильными	сильный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	conj	_	_
+10	охотниками	охотник	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 14
+# text = По размерам и внешности они очень походили на современных домашних кошек.
+1	По	по	ADP	_	_	2	case	_	_
+2	размерам	размер	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	7	obl	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	внешности	внешность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	conj	_	_
+5	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	7	nsubj	_	_
+6	очень	очень	ADV	_	Degree=Pos	7	advmod	_	_
+7	походили	походить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	на	на	ADP	_	_	11	case	_	_
+9	современных	современный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+10	домашних	домашний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	кошек	кошка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 15
+# text = Отличались они более выраженной мускулатурой, полосатой шерстью и тем, что не шли на контакт с людьми и другими кошками.
+1	Отличались	отличать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+2	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	1	nsubj	_	_
+3	более	более	ADV	_	Degree=Cmp	4	advmod	_	_
+4	выраженной	выразить	VERB	_	Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	_
+5	мускулатурой	мускулатура	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	полосатой	полосатый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	шерстью	шерсть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	conj	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	1	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	что	что	SCONJ	_	_	14	mark	_	_
+13	не	не	PART	_	_	14	advmod	_	_
+14	шли	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	acl	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	контакт	контакт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
+17	с	с	ADP	_	_	18	case	_	_
+18	людьми	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	16	nmod	_	_
+19	и	и	CCONJ	_	_	21	cc	_	_
+20	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	21	amod	_	_
+21	кошками	кошка	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Plur	16	conj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 16
+# text = В амбарах кишмя кишели грызуны, и изобилие корма привлекало туда обычно неконтактных кошачих.
+1	В	в	ADP	_	_	2	case	_	_
+2	амбарах	амбар	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_
+3	кишмя	кишмя	ADV	_	Degree=Pos	4	advmod	_	_
+4	кишели	кишеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	грызуны	грызун	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	10	punct	_	_
+7	и	и	CCONJ	_	_	10	cc	_	_
+8	изобилие	изобилие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+9	корма	корм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	привлекало	привлекать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+11	туда	туда	ADV	_	Degree=Pos	10	advmod	_	_
+12	обычно	обычно	ADV	_	Degree=Pos	13	obl	_	_
+13	неконтактных	неконтактный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	кошачих	кошачий	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 17
+# text = Постепенно дикие кошки привыкли к присутствию во время трапезы людей и других кошек, и, наверное, первобытные земледельцы так же стали подпускать к себе кошек для борьбы с вредителями.
+1	Постепенно	постепенно	ADV	_	Degree=Pos	4	advmod	_	_
+2	дикие	дикий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	кошки	кошка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+4	привыкли	привыкнуть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	к	к	ADP	_	_	6	case	_	_
+6	присутствию	присутствие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
+7	во	во	ADP	_	_	9	case	_	_
+8	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	fixed	_	_
+9	трапезы	трапеза	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+10	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	и	и	CCONJ	_	_	13	cc	_	_
+12	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	кошек	кошка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	23	punct	_	_
+15	и	и	CCONJ	_	_	23	cc	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	23	punct	_	_
+17	наверное	наверное	ADV	_	Degree=Pos	23	parataxis	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	23	punct	_	_
+19	первобытные	первобытный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+20	земледельцы	земледелец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+21	так	так	ADV	_	Degree=Pos	23	advmod	_	_
+22	же	же	PART	_	_	21	advmod	_	_
+23	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+24	подпускать	подпускать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	xcomp	_	_
+25	к	к	ADP	_	_	26	case	_	_
+26	себе	себя	PRON	_	Case=Dat	24	obl	_	_
+27	кошек	кошка	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	24	obj	_	_
+28	для	для	ADP	_	_	29	case	_	_
+29	борьбы	борьба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+30	с	с	ADP	_	_	31	case	_	_
+31	вредителями	вредитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 18
+# text = Сотрудничество оказалось настолько успешным, что вместе с племенами эпохи неолита кошки расселились из современной Анатолии по Европе и Средиземноморью.
+1	Сотрудничество	сотрудничество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	оказалось	оказаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	настолько	настолько	ADV	_	Degree=Pos	4	obl	_	_
+4	успешным	успешный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	13	punct	_	_
+6	что	что	SCONJ	_	_	13	mark	_	_
+7	вместе	вместе	ADV	_	Degree=Pos	13	advmod	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	племенами	племя	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	7	obl	_	_
+10	эпохи	эпоха	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	неолита	неолит	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	кошки	кошка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	расселились	расселиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	3	advcl	_	_
+14	из	из	ADP	_	_	16	case	_	_
+15	современной	современный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	Анатолии	Анатолия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+17	по	по	ADP	_	_	18	case	_	_
+18	Европе	Европа	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	Средиземноморью	Средиземноморь	PROPN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 19
+# text = Крысы были также бедствием для моряков.
+1	Крысы	крыса	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+2	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	также	также	ADV	_	Degree=Pos	4	obl	_	_
+4	бедствием	бедствие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	0	root	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	моряков	моряк	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 20
+# text = Они поедали запасы провизии и перегрызали корабельные верёвки, поэтому кошки с древних времён стали незаменимыми помощниками моряков.
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	поедали	поесть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	запасы	запас	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+4	провизии	провизия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	перегрызали	перегрызать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+7	корабельные	корабельный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	верёвки	верёвка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	15	punct	_	_
+10	поэтому	поэтому	ADV	_	Degree=Pos	15	advmod	_	_
+11	кошки	кошка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
+12	с	с	ADP	_	_	14	case	_	_
+13	древних	древний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	времён	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+15	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	_
+16	незаменимыми	незаменимый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	amod	_	_
+17	помощниками	помощник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	15	obl	_	_
+18	моряков	моряк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 21
+# text = Примерно в то же время, когда анатолийские коты-путешественники пустились по́ морю, диких африканских кошек приручили древние египтяне.
+1	Примерно	примерно	ADV	_	Degree=Pos	5	obl	_	_
+2	в	в	ADP	_	_	5	case	_	_
+3	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing	5	det	_	_
+4	же	же	PART	_	_	3	advmod	_	_
+5	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	12	punct	_	_
+7	когда	когда	SCONJ	_	_	12	mark	_	_
+8	анатолийские	анатолийский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	коты	кот	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	путешественники	путешественник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	appos	_	_
+12	пустились	пустить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	5	acl	_	_
+13	по́	по́	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
+14	морю	море	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	12	iobj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	18	punct	_	_
+16	диких	дикий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+17	африканских	африканский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	кошек	кошка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	14	conj	_	_
+19	приручили	приручить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+20	древние	древний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	21	amod	_	_
+21	египтяне	египтянин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 22
+# text = Благодаря способностям бороться с ядовитыми змеями, ловить птиц и крыс, домашние кошки стали играть важную роль в древнеегипетской культуре.
+1	Благодаря	благодаря	ADP	_	_	2	case	_	_
+2	способностям	способность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	15	obl	_	_
+3	бороться	бороться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	2	obl	_	_
+4	с	с	ADP	_	_	6	case	_	_
+5	ядовитыми	ядовитый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+6	змеями	змей	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	ловить	ловить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	conj	_	_
+9	птиц	птица	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	8	obl	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	крыс	крыса	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	2	punct	_	_
+13	домашние	домашний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	кошки	кошка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
+15	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+16	играть	играть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+17	важную	важный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	древнеегипетской	древнеегипетский	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	культуре	культура	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 23
+# text = Их увековечивали в настенных росписях, иероглифах, статуях, и даже в гробницах мумии кошек хоронили вместе с владельцами.
+1	Их	они	PRON	_	Case=Acc|Number=Plur|Person=3	2	obj	_	_
+2	увековечивали	увековечивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	настенных	настенный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	5	amod	_	_
+5	росписях	роспись	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	иероглифах	иероглиф	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	статуях	статуя	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	17	punct	_	_
+11	и	и	CCONJ	_	_	17	cc	_	_
+12	даже	даже	PART	_	_	14	advmod	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	гробницах	гробница	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	17	obl	_	_
+15	мумии	мумия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	кошек	кошка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+17	хоронили	хоронить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+18	вместе	вместе	ADV	_	Degree=Pos	17	advmod	_	_
+19	с	с	ADP	_	_	20	case	_	_
+20	владельцами	владелец	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 24
+# text = Египетские корабельные кошки плавали по всему Нилу и помогали бороться с речными змеями.
+1	Египетские	египетский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+2	корабельные	корабельный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	кошки	кошка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+4	плавали	плавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	по	по	ADP	_	_	7	case	_	_
+6	всему	весь	DET	_	Case=Dat|Gender=Masc|Number=Sing	7	det	_	_
+7	Нилу	Нил	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	помогали	помогать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+10	бороться	бороться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	9	xcomp	_	_
+11	с	с	ADP	_	_	13	case	_	_
+12	речными	речной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	13	amod	_	_
+13	змеями	змей	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 25
+# text = А попав на большие суда, они стали странствовать по морям из порта в порт.
+1	А	а	CCONJ	_	_	8	cc	_	_
+2	попав	попасть	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	8	advcl	_	_
+3	на	на	ADP	_	_	5	case	_	_
+4	большие	большой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	суда	суд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	8	nsubj	_	_
+8	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	странствовать	странствовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	по	по	ADP	_	_	11	case	_	_
+11	морям	море	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	9	obl	_	_
+12	из	из	ADP	_	_	13	case	_	_
+13	порта	порт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	порт	порт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 26
+# text = Во времена Римской империи на торговых судах из Индии и Египта прибыли представители породы индийской степной кошки.
+1	Во	в	ADP	_	_	2	case	_	_
+2	времена	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	12	obl	_	_
+3	Римской	римский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	империи	империя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	на	на	ADP	_	_	7	case	_	_
+6	торговых	торговый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	7	amod	_	_
+7	судах	суд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	obl	_	_
+8	из	из	ADP	_	_	9	case	_	_
+9	Индии	Индия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	Египта	Египет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
+12	прибыли	прибыть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+14	породы	порода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	индийской	индийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+16	степной	степной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	кошки	кошка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 27
+# text = Спустя много лет, в Средние века, на кораблях отважных викингов египетские кошки доплыли аж до побережья Балтийского моря.
+1	Спустя	спустя	ADP	_	_	3	case	_	_
+2	много	много	ADV	_	Degree=Pos	3	nummod:gov	_	_
+3	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	Средние	средний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	века	век	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	кораблях	корабль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	conj	_	_
+11	отважных	отважный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	викингов	викинг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	египетские	египетский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	кошки	кошка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
+15	доплыли	доплыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+16	аж	аж	PART	_	_	18	advmod	_	_
+17	до	до	ADP	_	_	18	case	_	_
+18	побережья	побережье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
+19	Балтийского	балтийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	моря	море	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 28
+# text = Далее, скорее всего, уже одомашненные ближневосточные и североафриканские кошки продолжили своё турне по Европе и затем отправились в Австралию и Америку.
+1	Далее	далее	ADV	_	Degree=Pos	12	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	скорее	скорее	ADV	_	Degree=Pos	12	parataxis	_	_
+4	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	уже	уже	ADV	_	Degree=Pos	7	advmod	_	_
+7	одомашненные	одомашнеть	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	_
+8	ближневосточные	ближневосточный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	североафриканские	североафриканский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	conj	_	_
+11	кошки	кошка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
+12	продолжили	продолжить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	своё	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	14	det	_	_
+14	турне	турне	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+15	по	по	ADP	_	_	16	case	_	_
+16	Европе	Европа	PROPN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	_
+17	и	и	CCONJ	_	_	19	cc	_	_
+18	затем	затем	ADV	_	Degree=Pos	19	advmod	_	_
+19	отправились	отправиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	12	conj	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	Австралию	Австралия	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	Америку	Америка	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	conj	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 29
+# text = Большинство современных домашних кошек ведут свою родословную либо от ближневосточных, либо от египетских потомков степных кошек.
+1	Большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	современных	современный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+3	домашних	домашний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	кошек	кошка	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+5	ведут	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	7	det	_	_
+7	родословную	родословная	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	obj	_	_
+8	либо	либо	CCONJ	_	_	10	cc	_	_
+9	от	от	ADP	_	_	10	case	_	_
+10	ближневосточных	ближневосточный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	либо	либо	CCONJ	_	_	15	cc	_	_
+13	от	от	ADP	_	_	15	case	_	_
+14	египетских	египетский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	потомков	потомок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	conj	_	_
+16	степных	степной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	кошек	кошка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 30
+# text = Однако, как обнаружилось в результате изучения генома и окраса шерсти, в отличие от собак, которых веками разводили методами селекции, современные кошки генетически очень похожи на своих древних предков.
+1	Однако	однако	ADV	_	Degree=Pos	28	obl	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	как	как	SCONJ	_	_	4	mark	_	_
+4	обнаружилось	обнаружиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	28	parataxis	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+7	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	генома	геном	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	окраса	окраса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	conj	_	_
+11	шерсти	шерсть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	4	punct	_	_
+13	в	в	ADP	_	_	16	case	_	_
+14	отличие	отличие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	fixed	_	_
+15	от	от	ADP	_	_	13	fixed	_	_
+16	собак	собака	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	28	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	которых	который	PRON	_	Case=Acc	20	obj	_	_
+19	веками	веко	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	20	obl	_	_
+20	разводили	водить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+21	методами	метод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	20	obl	_	_
+22	селекции	селекция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	16	punct	_	_
+24	современные	современный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	25	amod	_	_
+25	кошки	кошка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	28	nsubj	_	_
+26	генетически	генетически	ADV	_	Degree=Pos	28	obl	_	_
+27	очень	очень	ADV	_	Degree=Pos	28	obl	_	_
+28	похожи	похожий	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+29	на	на	ADP	_	_	32	case	_	_
+30	своих	свой	DET	_	Case=Gen|Number=Plur	32	det	_	_
+31	древних	древний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	32	amod	_	_
+32	предков	предок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 31
+# text = И за исключением того, что мы сделали их более общительными и послушными, нам практически не удалось изменить их модели поведения.
+1	И	и	CCONJ	_	_	18	cc	_	_
+2	за	за	ADP	_	_	4	case	_	_
+3	исключением	исключение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	fixed	_	_
+4	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	что	что	SCONJ	_	_	8	mark	_	_
+7	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	8	nsubj	_	_
+8	сделали	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	acl	_	_
+9	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	8	obj	_	_
+10	более	более	ADV	_	Degree=Cmp	11	obl	_	_
+11	общительными	общительный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	obl	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	послушными	послушный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	4	punct	_	_
+15	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	18	iobj	_	_
+16	практически	практически	ADV	_	Degree=Pos	17	advmod	_	_
+17	не	не	PART	_	_	18	advmod	_	_
+18	удалось	удаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+19	изменить	изменить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	csubj	_	_
+20	их	они	DET	_	_	21	det	_	_
+21	модели	модель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
+22	поведения	поведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 32
+# text = Другими словами, кошки и сегодня являются теми, кем были всегда, — дикими животными, хладнокровными охотниками, существами, не признающими нас своими хозяевами.
+1	Другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	2	amod	_	_
+2	словами	слово	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	7	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	кошки	кошка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	сегодня	сегодня	ADV	_	Degree=Pos	4	conj	_	_
+7	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	теми	тот	DET	_	Case=Ins|Number=Plur	7	det	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	кем	кто	PRON	_	Case=Ins	11	nsubj	_	_
+11	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	всегда	всегда	ADV	_	Degree=Pos	11	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	—	—	PUNCT	_	_	16	punct	_	_
+15	дикими	дикий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	16	amod	_	_
+16	животными	животное	NOUN	_	Animacy=Anim|Case=Ins|Gender=Neut|Number=Plur	12	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	хладнокровными	хладнокровный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	19	amod	_	_
+19	охотниками	охотник	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	существами	существо	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	16	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	24	punct	_	_
+23	не	не	PART	_	_	24	advmod	_	_
+24	признающими	признать	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	16	conj	_	_
+25	нас	мы	PRON	_	Case=Acc|Number=Plur|Person=1	24	obj	_	_
+26	своими	свой	DET	_	Case=Ins|Number=Plur	27	det	_	_
+27	хозяевами	хозяин	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	24	obl	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 33
+# text = И с учётом многовековой совместной истории они вполне имеют на это право.
+1	И	и	CCONJ	_	_	3	cc	_	_
+2	с	с	ADP	_	_	3	case	_	_
+3	учётом	учет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+4	многовековой	многовековой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+5	совместной	совместный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	истории	история	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+7	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	9	nsubj	_	_
+8	вполне	вполне	ADV	_	Degree=Pos	9	advmod	_	_
+9	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	это	это	DET	_	Case=Acc|Gender=Neut|Number=Sing	12	det	_	_
+12	право	право	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\n
+
