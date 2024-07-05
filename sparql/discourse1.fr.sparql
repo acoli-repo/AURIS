@@ -1,0 +1,123 @@
+PREFIX conll: <http://ufal.mff.cuni.cz/conll2009-st/task-description.html#> 
+PREFIX nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> 
+PREFIX powla: <http://purl.org/powla/powla.owl#> 
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX terms: <http://purl.org/acoli/open-ie/> 
+PREFIX x:     <http://purl.org/acoli/conll-rdf/xml#> 
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+
+#######################
+# find CORE predicate #
+#######################
+# The NUC of the sentence is to be automatically identified with the following rules:
+# 
+# 1. initial NUC candidate is the syntactic head according to UD
+
+INSERT { ?s conll:NUC ?w } 
+WHERE {  ?w conll:HEAD ?s. 
+         ?s a nif:Sentence. 
+};
+
+DELETE { ?v conll:NUC ?s }
+WHERE {  ?w conll:NUC ?s.
+		 ?v conll:NUC ?s. FILTER(?s != ?t).
+		 ?w conll:UPOS "VERB".
+		 ?v conll:UPOS ?tpos FILTER(?tpos != "VERB")
+};
+
+DELETE { ?s conll:NUC ?v }
+INSERT { ?s rdfs:comment ?msg }
+WHERE {  ?w conll:NUC ?s.
+		 ?v conll:NUC ?s. 
+		 ?w nif:nextWord+ ?v.
+		 ?v conll:WORD ?vWord; conll:ID ?vId.
+		 BIND(concat("WARNING: multiple head candidates, dropping ",str(?vId)," ",?vWord) as ?msg)
+};
+
+# 2. if the current NUC candidate is an attribution verb, then
+# 2.0 identify attribution verbs, pointing to the respective head
+# machine-translated from German and English using Google Translate and DeepL, filtered for single-word expressions, filtered for infinitives (as detected by UDpipe)
+INSERT { ?w conll:ATTRIBUTION ?h }
+WHERE {  ?w conll:HEAD ?h.
+		 ?w conll:LEMMA ?wLemma.
+		FILTER(?wLemma in ("affirmer", "répondre", "parler", "accepter", "assurer", "décider", "justifier", "reconnaître", "supposer", "voir", "demander", "dire", "interpréter", "jurer", "menacer", "refuser", "admettre", "argumenter", "comprendre", "contester", "déclarer", "définir", "démontrer", "discuter", "indiquer", "introduire", "montrer", "observer", "pleurer", "proposer", "ajouter", "analyser", "annoncer", "avertir", "chanter", "communiquer", "comparer", "confesser", "confirmer", "conseiller", "crier", "critiquer", "croire", "déclamer", "décrire", "défendre", "écrire", "enseigner", "expliquer", "exprimer", "féliciter", "illustrer", "impliquer", "informer", "insérer", "insister", "lire", "marmonner", "noter", "percevoir", "permettre", "prévoir", "prier", "réciter", "recommander", "réfuter", "remarquer", "répéter", "révéler", "rire", "sembler", "soutenir", "suggérer", "traduire", "trouver", "utiliser", "vérifier", "accorder", "adresser", "catégoriser", "commenter", "défier", "divulguer", "écouter", "encourager", "entendre", "énumérer", "envisager", "établir", "fantasmer", "juger", "maintenir", "mentionner", "penser", "prêcher", "promettre", "réaliser", "rugir", "s'étonner", "s'exclamer", "s'opposer", "savoir", "sentir", "souhaiter", "spéculer", "tenir", "triompher", "accuser", "aider", "appeler", "apprendre", "avouer", "citer", "clarifier", "compléter", "concéder", "conclure", "considérer", "continuer", "convaincre", "convenir", "esquisser", "essayer", "exhorter", "exiger", "fermer", "hurler", "inclure", "invoquer", "offrir", "persuader", "proclamer", "produire", "prononcer", "raconter", "raisonner", "rappeler", "regarder", "rejeter", "signaler", "souligner", "vouloir", "aborder", "acquitter", "approuver", "attester", "brailler", "commander", "concourir", "connaître", "consister", "continuer", "contre-attaquer", "contrer", "correspondre", "découvrir", "dénoncer", "développer", "dévoiler", "discourir", "énoncer", "enrager", "faire", "frapper", "imaginer", "inciter", "inviter", "nettoyer", "objecter", "ordonner", "poursuivre", "pousser", "préciser", "prétendre", "prouver", "questionner", "rapporter", "réclamer", "récupérer", "regretter", "répliquer", "ridiculer", "s'accorder", "s'affliger", "s'assurer", "s'exprimer", "S'ouvrir", "sangloter"))
+};
+
+# 2.a set the NUC candidate to the first dependent non-attribution verb
+DELETE { ?s conll:NUC ?v }
+INSERT { ?s conll:NUC ?w }
+WHERE { ?s conll:NUC ?v.
+		?w conll:ATTRIBUTION+ ?v. 
+		?w conll:UPOS "VERB".
+	    MINUS { ?w conll:ATTRIBUTION [] }
+};
+
+# 2.b if this is not possible, set the NUC candidate to the first direct dependent with clausal dependents
+DELETE { ?s conll:NUC ?v }
+INSERT { ?s conll:NUC ?w }
+WHERE { ?s conll:NUC ?v.
+		?v conll:ATTRIBUTION [].
+		?w conll:ATTRIBUTION+ ?v. 
+		MINUS { ?w conll:ATTRIBUTION [] }
+		?dep conll:HEAD ?w.
+		?dep conll:EDGE ?depEdge.
+		FILTER(replace(?depEdge,":.*","") in ("aux","nsubj","csubj","obj","xcomp","advcl"))
+};
+
+# 2.c if this is not possible, set the NUC candidate to its first csubj, ccomp or xcomp argument
+DELETE { ?s conll:NUC ?v }
+INSERT { ?s conll:NUC ?w }
+WHERE { ?s conll:NUC ?v.
+		?v conll:ATTRIBUTION [].
+		?w conll:ATTRIBUTION+ ?v. 
+		MINUS { ?w conll:ATTRIBUTION [] }
+		?w conll:EDGE ?wEdge.
+		FILTER(replace(?wEdge,":.*","") in ("csubj","ccomp","xcomp"))
+};
+
+# 2.d if this is not possible, keep the lowest NUC candidate
+DELETE { ?s conll:NUC ?v }
+INSERT { ?s conll:NUC ?w }
+WHERE { ?s conll:NUC ?v.
+		?v conll:ATTRIBUTION [].
+		?w conll:ATTRIBUTION+ ?v. 
+		MINUS { [] conll:ATTRIBUTION ?w }
+};
+
+# 2.e keep the first NUC candidate
+DELETE { ?s conll:NUC ?w }
+WHERE { ?s conll:NUC ?v,?w.
+	    ?v nif:nextWord+ ?w.
+};
+
+# 2.f remove ATTRIBUTION
+DELETE { ?x conll:ATTRIBUTION ?y }
+WHERE {  ?x conll:ATTRIBUTION ?y };
+
+# 3. if the current NUC candidate is a nominal, adjectival or adverbial
+#    predicate of a copula clause with an explicit verb, make the copular verb the NUC candidate.
+
+DELETE { ?s conll:NUC ?v }
+INSERT { ?s conll:NUC ?w }
+WHERE {  ?s conll:NUC ?v. 
+		 ?w conll:HEAD ?v. 
+		 ?w conll:EDGE ?wEdge. FILTER(strstarts(?wEdge,"cop"))
+};
+
+# 4. create conll:PRED attribute from conll:NUC
+INSERT { ?s conll:PRED ?pred_formatted }
+WHERE { ?s conll:NUC ?p .
+		{ SELECT ?p (GROUP_CONCAT(?lemma; separator=" ") AS ?pred)
+		  WHERE { ?s conll:NUC ?p. ?p conll:HEAD*/conll:LEMMA ?lemma }
+		  GROUP BY ?p
+		}
+		?p conll:LEMMA ?pLemma.
+		BIND(if(?pLemma=?pred, 
+		        ?pLemma, 
+		        concat(?pLemma," (",?pred,")")) 
+		     as ?pred_formatted)
+};
+
+
+
