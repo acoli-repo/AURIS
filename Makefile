@@ -12,9 +12,8 @@ update-ready-for-annotation:
 	make update-discourse_pre
 	make update-refexp
 	
-	@if [ ! -e ready-for-annotation ]; then \
-		LANGS=`find discourse_pre/*/ refexp/*/ | cut -f 2 -d '/' | sort -u | egrep '[a-z][a-z]'`;\
-		for lang in $$LANGS; do \
+	@LANGS=`find discourse_pre/*/ refexp/*/ | cut -f 2 -d '/' | sort -u | egrep '[a-z][a-z]'`;\
+	 for lang in $$LANGS; do \
 			#echo language $$lang 1>&2;\
 			FILES=`find discourse_pre/$$lang/ refexp/$$lang/ \
 				   | egrep 'tsv$$' \
@@ -39,11 +38,10 @@ update-ready-for-annotation:
 					echo python3 $$ARGS 1>&2;\
 					python3 $$ARGS;\
 				fi;\
-				echo 1>&2;\
 			done;\
-		done;\
-	fi;\
-
+			echo 1>&2;\
+	 done;\
+	
 rdf4discourse:
 	if [ ! -e rdf4discourse ]; then \
 		git clone https://github.com/acoli-repo/rdf4discourse;\
