@@ -50,7 +50,7 @@ Legacy data:
 - The repository provides pre-annotations
 	- for English, using the [UD 2.5 EWT model](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131)
 	- for German, using the [UD 2.5 GSD model](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131). Note that is relatively error-prone regarding the handling of pronominal constructions.
-	- [**IN PROGRRESS**] for French, using the [UD 2.5 GSD model](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131). Detection of referring expressions is partially inspired by the [DEMOCRAT corpus](https://www.ortolang.fr/market/corpora/democrat/v1.1).
+	- [**IN PROGRRESS**] for French, using the [UD 2.5 GSD model](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131).
 	- for Russian, using the [UD 2.5 SyntagRus model](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131).
 - `make update-discourse_pre` seems to be blocked occasionally, esp., for longer files. When building new files for `ready-for-annotation`, these must be manually (timeout is implemented, but doesn't seem to grasp) terminated. As a possible workaround, start multiple `make update-discourse_pre` (resp. `make update`, etc.) threads shortly one after another. They are set up in a way that they don't overwrite each other's output, but skip files into which another instance is already writing into. 
 - Current setup was developed under and tested within Ubuntu 22.04L.
@@ -61,7 +61,9 @@ We currently provide preprocessed files for English, German and Russian, only. O
 
 - We remove multi-word expressions from the parser output, e.g., for German clitic determiners (*im*, *am*) are split off from prepositions (hence *in dem*, *von dem*). This may result in unnatural language in the token column, but the `# text` line on top should maintain the original forms. 
 - There seem to occur infinite loops or blockings in `make update-discourse_pre`, so that these were manually interrupted. As a result, the sentence-level content in the files in `ready-for-annotation/` may be incomplete.
-- The Russian discourse marker lexicon is incomplete, pre-annotation for sentence-level annotation is thus sub-standard.
+- Russian sentence-level: Discourse marker lexicon is incomplete, pre-annotation for sentence-level annotation is thus sub-standard.
+- Russian word-level: Extraction of referring expressions not covered by UD Feats, hence form-based; check forms/lemmas against larger corpora
+- French word-level: Quantifiers currently not supported
 
 ## Source data
 
