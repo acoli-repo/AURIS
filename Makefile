@@ -8,7 +8,7 @@ update: update-conllu
 
 ready-for-annotation: update-ready-for-annotation
 
-update-ready-for-annotation:
+update-ready-for-annotation: update-conllu
 	make update-discourse_pre
 	make update-refexp
 	
