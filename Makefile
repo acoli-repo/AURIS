@@ -237,7 +237,9 @@ update-conllu: udpipe txt txt/bibl txt/doyle
 			tgt=conllu/$$lang/`basename $$file | sed s/'.txt$$'//`.conllu;\
 			if [ ! -e $$tgt ] ; then \
 				echo $$file 1>&2; \
-				udpipe/src/udpipe `find udpipe/models/$$lang/*udpipe | head` --tokenize --tag --parse --output=conllu $$file > $$tgt;\
+				cat $$file \
+				| grep -v '^#' \
+				| udpipe/src/udpipe `find udpipe/models/$$lang/*udpipe | head` --tokenize --tag --parse --output=conllu > $$tgt;\
 				echo 1>&2;\
 			fi;\
 		done;\

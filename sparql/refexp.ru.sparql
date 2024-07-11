@@ -170,7 +170,8 @@ INSERT {
 	?w conll:REF_EXP "indef-np"; conll:REF "?NEW"
 } WHERE {
 	?det conll:LEMMA ?lemma; conll:EDGE ?e; conll:HEAD ?w.
-	FILTER(?lemma in ("какой-то", "никакой", "какой-либо", "некий", "какой-нибудь", "чьей-то", "чёй-то", "чей"))
+	FILTER(?lemma in ("какой-то", "никакой", "какой-либо", "некий", "какой-нибудь", "чьей-то", # anybody, but a woman
+		"чёй-то")) 
 	FILTER(strstarts(?e,"det"))
 	?w conll:UPOS "NOUN".
 	MINUS { ?w conll:REF [] }
@@ -194,7 +195,7 @@ INSERT {
 	?w conll:REF_EXP "indef-np"; conll:REF "?NEW"
 } WHERE {
 	?pint conll:EDGE "det"; conll:LEMMA ?l; conll:HEAD ?w 
-		FILTER(?l in ("какой","некоторый","чтот"))
+		FILTER(?l in ("какой","некоторый","чтот")) # чтот might be чтотот "etwas", but can be an error
 	?pint conll:HEAD ?w.
 	?w conll:UPOS "NOUN".
 	MINUS { ?w conll:REF [] }
