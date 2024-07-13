@@ -95,6 +95,8 @@ udpipe:
 	if [ ! -e udpipe ]; then echo install UDPipe v.1.0 in `pwd`/udpipe 1>&2; exit 1; fi;
 
 txt/doyle:
+	@# for creating doyle files from bilinguis.com, do wget -r -np and run:
+	@# for lang1 in *; do mkdir -p bask/$lang1; for file in `find $lang1 | grep html | grep -m 1 c14`; do echo '# url: ' https://bilinguis.com/book/baskerville/$file; echo; cat $file | xmllint --html --recover - --xpath "//div[@lang='"$lang1"']" 2>/dev/null; break; done | pandoc -f html -t markdown | grep -v ':::' | sed s/'^$'/'<br>'/g | perl -pe 's/\s+/ /g; s/<br>/\n\n/g;' > bask/$lang1/doyle_bask.14.txt; done
 	@if [ ! -e txt/doyle/de ]; then \
 		mkdir -p txt/doyle/de; \
 		cd txt/doyle/de; \
