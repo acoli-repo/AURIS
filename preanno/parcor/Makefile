@@ -1,9 +1,30 @@
-all: wmt17_test/split
+all: conll wmt17_test/split
 
 parcor-full:
 	if [ ! -e parcor-full ]; then \
 		git clone https://github.com/chardmeier/parcor-full.git;\
 	fi;
+
+conll: parcor-full
+	if [ ! -e conll ]; then \
+		for file in `find parcor-full | grep '.mmax$$'`; do \
+			tgt=conll/`echo $$file | cut -f 2- -d '/' | sed s/'\.mmax$$'//`.conll;\
+			echo $$file '>' $$tgt 1>&2;\
+			tgtdir=`dirname $$tgt`;\
+			if [ ! -e $$tgtdir ]; then \
+				mkdir -p $$tgtdir;\
+			fi;\
+			python3 parcor2conll.py $$file > $$tgt;\
+			echo 1>&2;\
+		done;\
+	fi;\
+	for file in `grep -L '^[0-9]' $$(find conll | grep '\.conll$$')` \
+				`grep -L -P '^[0-9]*\t[^\t]*\t.*[^_\t\n\r]' $$(find conll | grep '\.conll$$')`; do \
+		if [ -e $$file ]; then \
+			echo removing empty $$file 1>&2;\
+			rm $$file;\
+		fi;\
+	done;
 
 wmt17_test/split: wmt17_test/test
 	if [ ! -e wmt17_test/split ]; then mkdir wmt17_test/split; fi

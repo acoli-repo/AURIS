@@ -1,0 +1,286 @@
+if [ ! -e conll ]; then \
+	for file in `find parcor-full | grep '.mmax$'`; do \
+		tgt=conll/`echo $file | cut -f 2- -d '/' | sed s/'\.mmax$'//`.conll;\
+		echo $file '>' $tgt 1>&2;\
+		tgtdir=`dirname $tgt`;\
+		if [ ! -e $tgtdir ]; then \
+			mkdir -p $tgtdir;\
+		fi;\
+		python3 parcor2conll.py $file > $tgt;\
+		echo 1>&2;\
+	done;\
+fi;\
+for file in `grep -L '^[0-9]' $(find conll | grep '\.conll$')` \
+			`grep -L -P '^[0-9]*\t[^\t]*\t.*[^_\t\n\r]' $(find conll | grep '\.conll$')`; do \
+	if [ -e $file ]; then \
+		echo removing empty $file 1>&2;\
+		rm $file;\
+	fi;\
+done;
+parcor-full/inter-anno-PT/002_792.mmax > conll/inter-anno-PT/002_792.conll
+
+parcor-full/inter-anno-PT/003_799.mmax > conll/inter-anno-PT/003_799.conll
+warning: no sentence id in {'id': 'word_2825', 'word': 'salvo'}
+warning: no sentence id in {'id': 'word_2864', 'word': '.'}
+
+parcor-full/damaged/TED/EN/009_805.mmax > conll/damaged/TED/EN/009_805.conll
+warning: markable file parcor-full/damaged/TED/EN/Markables/009_805_checks_level.xml declared but not found
+
+parcor-full/damaged/TED/DE/009_805.mmax > conll/damaged/TED/DE/009_805.conll
+warning: markable file parcor-full/damaged/TED/DE/Markables/009_805_checks_level.xml declared but not found
+
+parcor-full/corpus/news/EN/10.mmax > conll/corpus/news/EN/10.conll
+
+parcor-full/corpus/news/EN/23.mmax > conll/corpus/news/EN/23.conll
+
+parcor-full/corpus/news/EN/21.mmax > conll/corpus/news/EN/21.conll
+
+parcor-full/corpus/news/EN/18.mmax > conll/corpus/news/EN/18.conll
+
+parcor-full/corpus/news/EN/17.mmax > conll/corpus/news/EN/17.conll
+
+parcor-full/corpus/news/EN/09.mmax > conll/corpus/news/EN/09.conll
+
+parcor-full/corpus/news/EN/13.mmax > conll/corpus/news/EN/13.conll
+
+parcor-full/corpus/news/EN/04.mmax > conll/corpus/news/EN/04.conll
+
+parcor-full/corpus/news/EN/24.mmax > conll/corpus/news/EN/24.conll
+
+parcor-full/corpus/news/EN/19.mmax > conll/corpus/news/EN/19.conll
+
+parcor-full/corpus/news/EN/22.mmax > conll/corpus/news/EN/22.conll
+
+parcor-full/corpus/news/EN/05.mmax > conll/corpus/news/EN/05.conll
+
+parcor-full/corpus/news/EN/20.mmax > conll/corpus/news/EN/20.conll
+
+parcor-full/corpus/news/EN/08.mmax > conll/corpus/news/EN/08.conll
+
+parcor-full/corpus/news/EN/16.mmax > conll/corpus/news/EN/16.conll
+
+parcor-full/corpus/news/EN/07.mmax > conll/corpus/news/EN/07.conll
+
+parcor-full/corpus/news/EN/25.mmax > conll/corpus/news/EN/25.conll
+
+parcor-full/corpus/news/EN/03.mmax > conll/corpus/news/EN/03.conll
+
+parcor-full/corpus/news/EN/01.mmax > conll/corpus/news/EN/01.conll
+
+parcor-full/corpus/news/DE/10.mmax > conll/corpus/news/DE/10.conll
+
+parcor-full/corpus/news/DE/23.mmax > conll/corpus/news/DE/23.conll
+
+parcor-full/corpus/news/DE/21.mmax > conll/corpus/news/DE/21.conll
+
+parcor-full/corpus/news/DE/18.mmax > conll/corpus/news/DE/18.conll
+
+parcor-full/corpus/news/DE/17.mmax > conll/corpus/news/DE/17.conll
+
+parcor-full/corpus/news/DE/09.mmax > conll/corpus/news/DE/09.conll
+
+parcor-full/corpus/news/DE/13.mmax > conll/corpus/news/DE/13.conll
+
+parcor-full/corpus/news/DE/04.mmax > conll/corpus/news/DE/04.conll
+
+parcor-full/corpus/news/DE/24.mmax > conll/corpus/news/DE/24.conll
+
+parcor-full/corpus/news/DE/19.mmax > conll/corpus/news/DE/19.conll
+
+parcor-full/corpus/news/DE/22.mmax > conll/corpus/news/DE/22.conll
+
+parcor-full/corpus/news/DE/05.mmax > conll/corpus/news/DE/05.conll
+
+parcor-full/corpus/news/DE/20.mmax > conll/corpus/news/DE/20.conll
+
+parcor-full/corpus/news/DE/08.mmax > conll/corpus/news/DE/08.conll
+
+parcor-full/corpus/news/DE/16.mmax > conll/corpus/news/DE/16.conll
+
+parcor-full/corpus/news/DE/07.mmax > conll/corpus/news/DE/07.conll
+
+parcor-full/corpus/news/DE/25.mmax > conll/corpus/news/DE/25.conll
+
+parcor-full/corpus/news/DE/03.mmax > conll/corpus/news/DE/03.conll
+
+parcor-full/corpus/news/DE/01.mmax > conll/corpus/news/DE/01.conll
+
+parcor-full/corpus/news/PT/10.mmax > conll/corpus/news/PT/10.conll
+
+parcor-full/corpus/news/PT/23.mmax > conll/corpus/news/PT/23.conll
+
+parcor-full/corpus/news/PT/21.mmax > conll/corpus/news/PT/21.conll
+
+parcor-full/corpus/news/PT/17.mmax > conll/corpus/news/PT/17.conll
+
+parcor-full/corpus/news/PT/09.mmax > conll/corpus/news/PT/09.conll
+
+parcor-full/corpus/news/PT/13.mmax > conll/corpus/news/PT/13.conll
+
+parcor-full/corpus/news/PT/24.mmax > conll/corpus/news/PT/24.conll
+
+parcor-full/corpus/news/PT/19.mmax > conll/corpus/news/PT/19.conll
+
+parcor-full/corpus/news/PT/22.mmax > conll/corpus/news/PT/22.conll
+
+parcor-full/corpus/news/PT/20.mmax > conll/corpus/news/PT/20.conll
+
+parcor-full/corpus/news/PT/08.mmax > conll/corpus/news/PT/08.conll
+warning: markable file parcor-full/corpus/news/PT/Markables/08_coref_level.xml declared but not found
+warning: missing word form for word_223
+
+parcor-full/corpus/news/PT/07.mmax > conll/corpus/news/PT/07.conll
+
+parcor-full/corpus/TED/EN/002_792.mmax > conll/corpus/TED/EN/002_792.conll
+
+parcor-full/corpus/TED/EN/003_799.mmax > conll/corpus/TED/EN/003_799.conll
+
+parcor-full/corpus/TED/EN/008_824.mmax > conll/corpus/TED/EN/008_824.conll
+
+parcor-full/corpus/TED/EN/010_837.mmax > conll/corpus/TED/EN/010_837.conll
+
+parcor-full/corpus/TED/EN/001_769.mmax > conll/corpus/TED/EN/001_769.conll
+
+parcor-full/corpus/TED/EN/006_785.mmax > conll/corpus/TED/EN/006_785.conll
+
+parcor-full/corpus/TED/EN/000_779.mmax > conll/corpus/TED/EN/000_779.conll
+
+parcor-full/corpus/TED/EN/004_767.mmax > conll/corpus/TED/EN/004_767.conll
+
+parcor-full/corpus/TED/EN/007_783.mmax > conll/corpus/TED/EN/007_783.conll
+
+parcor-full/corpus/TED/EN/005_790.mmax > conll/corpus/TED/EN/005_790.conll
+
+parcor-full/corpus/TED/FR/002_792.mmax > conll/corpus/TED/FR/002_792.conll
+
+parcor-full/corpus/TED/FR/003_799.mmax > conll/corpus/TED/FR/003_799.conll
+
+parcor-full/corpus/TED/FR/008_824.mmax > conll/corpus/TED/FR/008_824.conll
+
+parcor-full/corpus/TED/FR/010_837.mmax > conll/corpus/TED/FR/010_837.conll
+
+parcor-full/corpus/TED/FR/001_769.mmax > conll/corpus/TED/FR/001_769.conll
+
+parcor-full/corpus/TED/FR/006_785.mmax > conll/corpus/TED/FR/006_785.conll
+
+parcor-full/corpus/TED/FR/000_779.mmax > conll/corpus/TED/FR/000_779.conll
+
+parcor-full/corpus/TED/FR/004_767.mmax > conll/corpus/TED/FR/004_767.conll
+
+parcor-full/corpus/TED/FR/007_783.mmax > conll/corpus/TED/FR/007_783.conll
+
+parcor-full/corpus/TED/FR/005_790.mmax > conll/corpus/TED/FR/005_790.conll
+
+parcor-full/corpus/TED/DE/002_792.mmax > conll/corpus/TED/DE/002_792.conll
+
+parcor-full/corpus/TED/DE/003_799.mmax > conll/corpus/TED/DE/003_799.conll
+
+parcor-full/corpus/TED/DE/008_824.mmax > conll/corpus/TED/DE/008_824.conll
+
+parcor-full/corpus/TED/DE/010_837.mmax > conll/corpus/TED/DE/010_837.conll
+
+parcor-full/corpus/TED/DE/001_769.mmax > conll/corpus/TED/DE/001_769.conll
+
+parcor-full/corpus/TED/DE/006_785.mmax > conll/corpus/TED/DE/006_785.conll
+
+parcor-full/corpus/TED/DE/000_779.mmax > conll/corpus/TED/DE/000_779.conll
+
+parcor-full/corpus/TED/DE/004_767.mmax > conll/corpus/TED/DE/004_767.conll
+
+parcor-full/corpus/TED/DE/007_783.mmax > conll/corpus/TED/DE/007_783.conll
+
+parcor-full/corpus/TED/DE/005_790.mmax > conll/corpus/TED/DE/005_790.conll
+
+parcor-full/corpus/TED/PT/002_792.mmax > conll/corpus/TED/PT/002_792.conll
+
+parcor-full/corpus/TED/PT/003_799.mmax > conll/corpus/TED/PT/003_799.conll
+warning: no sentence id in {'id': 'word_2825', 'word': 'salvo'}
+warning: no sentence id in {'id': 'word_2864', 'word': '.'}
+
+parcor-full/corpus/TED/PT/008_824.mmax > conll/corpus/TED/PT/008_824.conll
+warning: no sentence id in {'id': 'word_1017', 'word': '.', 'coref_id': 'markable_322', 'coref_coref_class': 'set_39', 'coref_mention': 'clause', 'coref_clausetype': 'antecedent'}
+
+parcor-full/corpus/TED/PT/010_837.mmax > conll/corpus/TED/PT/010_837.conll
+warning: file parcor-full/corpus/TED/PT/Basedata/010_837_words.xml declared but not found
+warning: markable file parcor-full/corpus/TED/PT/Markables/010_837_coref_level.xml declared but not found
+
+parcor-full/corpus/TED/PT/001_769.mmax > conll/corpus/TED/PT/001_769.conll
+warning: no sentence id in {'id': 'word_492', 'word': '.'}
+
+parcor-full/corpus/TED/PT/006_785.mmax > conll/corpus/TED/PT/006_785.conll
+
+parcor-full/corpus/TED/PT/000_779.mmax > conll/corpus/TED/PT/000_779.conll
+
+parcor-full/corpus/TED/PT/004_767.mmax > conll/corpus/TED/PT/004_767.conll
+warning: no sentence id in {'id': 'word_1227', 'word': '.'}
+warning: no sentence id in {'id': 'word_3656', 'word': '?'}
+
+parcor-full/corpus/TED/PT/007_783.mmax > conll/corpus/TED/PT/007_783.conll
+
+parcor-full/corpus/TED/PT/009_805.mmax > conll/corpus/TED/PT/009_805.conll
+
+parcor-full/corpus/TED/PT/005_790.mmax > conll/corpus/TED/PT/005_790.conll
+
+parcor-full/corpus/DiscoMT/EN/011_2053.mmax > conll/corpus/DiscoMT/EN/011_2053.conll
+
+parcor-full/corpus/DiscoMT/EN/003_1894.mmax > conll/corpus/DiscoMT/EN/003_1894.conll
+
+parcor-full/corpus/DiscoMT/EN/009_2043.mmax > conll/corpus/DiscoMT/EN/009_2043.conll
+
+parcor-full/corpus/DiscoMT/EN/000_1756.mmax > conll/corpus/DiscoMT/EN/000_1756.conll
+
+parcor-full/corpus/DiscoMT/EN/010_205.mmax > conll/corpus/DiscoMT/EN/010_205.conll
+
+parcor-full/corpus/DiscoMT/EN/007_1953.mmax > conll/corpus/DiscoMT/EN/007_1953.conll
+
+parcor-full/corpus/DiscoMT/EN/005_1938.mmax > conll/corpus/DiscoMT/EN/005_1938.conll
+
+parcor-full/corpus/DiscoMT/EN/006_1950.mmax > conll/corpus/DiscoMT/EN/006_1950.conll
+
+parcor-full/corpus/DiscoMT/EN/002_1825.mmax > conll/corpus/DiscoMT/EN/002_1825.conll
+
+parcor-full/corpus/DiscoMT/EN/001_1819.mmax > conll/corpus/DiscoMT/EN/001_1819.conll
+
+parcor-full/corpus/DiscoMT/FR/011_2053.mmax > conll/corpus/DiscoMT/FR/011_2053.conll
+
+parcor-full/corpus/DiscoMT/FR/003_1894.mmax > conll/corpus/DiscoMT/FR/003_1894.conll
+
+parcor-full/corpus/DiscoMT/FR/009_2043.mmax > conll/corpus/DiscoMT/FR/009_2043.conll
+
+parcor-full/corpus/DiscoMT/FR/000_1756.mmax > conll/corpus/DiscoMT/FR/000_1756.conll
+
+parcor-full/corpus/DiscoMT/FR/010_205.mmax > conll/corpus/DiscoMT/FR/010_205.conll
+
+parcor-full/corpus/DiscoMT/FR/007_1953.mmax > conll/corpus/DiscoMT/FR/007_1953.conll
+
+parcor-full/corpus/DiscoMT/FR/005_1938.mmax > conll/corpus/DiscoMT/FR/005_1938.conll
+
+parcor-full/corpus/DiscoMT/FR/006_1950.mmax > conll/corpus/DiscoMT/FR/006_1950.conll
+
+parcor-full/corpus/DiscoMT/FR/002_1825.mmax > conll/corpus/DiscoMT/FR/002_1825.conll
+
+parcor-full/corpus/DiscoMT/FR/001_1819.mmax > conll/corpus/DiscoMT/FR/001_1819.conll
+
+parcor-full/corpus/DiscoMT/DE/011_2053.mmax > conll/corpus/DiscoMT/DE/011_2053.conll
+
+parcor-full/corpus/DiscoMT/DE/003_1894.mmax > conll/corpus/DiscoMT/DE/003_1894.conll
+
+parcor-full/corpus/DiscoMT/DE/009_2043.mmax > conll/corpus/DiscoMT/DE/009_2043.conll
+
+parcor-full/corpus/DiscoMT/DE/000_1756.mmax > conll/corpus/DiscoMT/DE/000_1756.conll
+
+parcor-full/corpus/DiscoMT/DE/010_205.mmax > conll/corpus/DiscoMT/DE/010_205.conll
+
+parcor-full/corpus/DiscoMT/DE/007_1953.mmax > conll/corpus/DiscoMT/DE/007_1953.conll
+
+parcor-full/corpus/DiscoMT/DE/005_1938.mmax > conll/corpus/DiscoMT/DE/005_1938.conll
+
+parcor-full/corpus/DiscoMT/DE/006_1950.mmax > conll/corpus/DiscoMT/DE/006_1950.conll
+
+parcor-full/corpus/DiscoMT/DE/002_1825.mmax > conll/corpus/DiscoMT/DE/002_1825.conll
+
+parcor-full/corpus/DiscoMT/DE/001_1819.mmax > conll/corpus/DiscoMT/DE/001_1819.conll
+
+removing empty conll/corpus/TED/PT/010_837.conll
+removing empty conll/corpus/news/PT/08.conll
+removing empty conll/corpus/TED/PT/009_805.conll
