@@ -1,0 +1,988 @@
+# orig: parcor, corpus/news/DE/07
+
+# id	word	coref_id	coref_coref_class	coref_mention	coref_type	coref_type_of_pronoun	coref_audience	coref_split	coref_antetype	coref_agreement	coref_position	coref_nptype	coref_anacata	coref_npmod	coref_sub_apposition	coref_comparative	coref_vptype	coref_clausetype
+
+# text: Russland und Türkei : Eine " Allianz von Außenseitern " ?
+1	Russland	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Türkei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Allianz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Außenseitern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es war eine Geste , die eine Krise beendete .
+1	Es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	eine	markable_1	set_0	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	Geste	markable_1	set_0	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	die	markable_2	set_0	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+7	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Krise	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	beendete	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die Anführer Russlands und der Türkei trafen sich am Dienstag , um sich die Hände zu geben und ein offizielles Ende des acht Monate lang andauernden Krieges der Worte und wirtschaftlichen Sanktionen zu verkünden .
+1	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Anführer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Russlands	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Türkei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	trafen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	am	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Dienstag	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Hände	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	geben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	offizielles	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Ende	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	des	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	acht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Monate	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	lang	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	andauernden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	Krieges	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	Worte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	wirtschaftlichen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	Sanktionen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	verkünden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Aber als Vladimir Putin seinen türkischen Gegenspieler im vergoldeten Saal des St. Petersburger Palastes in Empfang nimmt , kann ich mich nicht des Eindrucks verwehren , dass Ankara diese Versöhnung am meisten will .
+1	Aber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Vladimir	markable_65	set_23	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	Putin	markable_65	set_23	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	seinen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	türkischen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Gegenspieler	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	vergoldeten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Saal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	des	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	St.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Petersburger	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Palastes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Empfang	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	nimmt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	kann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	mich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	des	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Eindrucks	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	verwehren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	Ankara	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	diese	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	Versöhnung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	am	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	meisten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	will	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es gab den Handschlag , ja .
+1	Es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	gab	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Handschlag	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ja	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Aber Putins Lächeln wirkte schmallippig und er strahlte kaum Wärme aus , selbst für seine zurückhaltenden Verhältnisse .
+1	Aber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Putins	markable_3	set_23	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+3	Lächeln	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	wirkte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	schmallippig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	er	markable_4	set_23	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+8	strahlte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	kaum	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Wärme	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	aus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	selbst	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	seine	markable_5	set_23	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+16	zurückhaltenden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Verhältnisse	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Recep Tayyip Erdogan hingegen sprach wiederholt von seinem " lieben Freund " Putin - laut einem Bericht ganze fünf Male .
+1	Recep	markable_6	set_10	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	Tayyip	markable_6	set_10	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	Erdogan	markable_6	set_10	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	hingegen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	sprach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	wiederholt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	seinem	markable_7	set_10	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+9	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	lieben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Freund	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Putin	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	laut	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	einem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Bericht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	ganze	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	fünf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Male	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich konnte es nicht mehr zählen .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	konnte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	mehr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	zählen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Er versprach auch , dass die Beziehungen zu Russland nicht nur zu ihrem alten Niveau vor der Krise zurückkehren würden , sondern sich sogar noch verbessern werden .
+1	Er	markable_8	set_10	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	versprach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	auch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	die	markable_9	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	Beziehungen	markable_9	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	zu	markable_9	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	Russland	markable_9	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	nur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	ihrem	markable_10	set_5	pronoun	anaphoric	possessive	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+14	alten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Niveau	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	vor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Krise	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	zurückkehren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	würden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	sondern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	sogar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	noch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	verbessern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Am nächsten Tag beschrieb eine Zeitung , dass sich Erdogan so benommen hätte , als wäre nie etwas Schlimmes geschehen .
+1	Am	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	nächsten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Tag	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	beschrieb	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Zeitung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Erdogan	markable_12	set_10	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+11	so	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	benommen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	hätte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	wäre	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	nie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	etwas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Schlimmes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	geschehen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Mir schien sein Enthusiasmus eher das Gegenteil anzudeuten .
+1	Mir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	schien	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	sein	markable_11	set_10	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+4	Enthusiasmus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	eher	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Gegenteil	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	anzudeuten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Aber eine von Putin ausstrahlende , nachhaltige Kühle zeigte , dass der Staatschef Russlands nichts vergessen hatte .
+1	Aber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Putin	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	ausstrahlende	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	nachhaltige	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Kühle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	zeigte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	der	markable_15	set_23	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+13	Staatschef	markable_15	set_23	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+14	Russlands	markable_15	set_23	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+15	nichts	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	vergessen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	hatte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Vielmehr war die Ursache der Krise das Erste , was er in seinen Einführungsworten erwähnte : der Abschuss eines russischen Kampfflugzeugs an der syrischen Grenze durch die Türkei .
+1	Vielmehr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Ursache	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Krise	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Erste	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	er	markable_13	set_23	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+12	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	seinen	markable_14	set_23	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+14	Einführungsworten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	erwähnte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Abschuss	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	eines	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	russischen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Kampfflugzeugs	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	syrischen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	Grenze	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	durch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	Türkei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Moskaus Reaktion zu der Zeit war wutentbrannt .
+1	Moskaus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Reaktion	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Zeit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	wutentbrannt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Putin teilte aus und beschuldigte Ankara , Russland in den Rücken gefallen zu sein .
+1	Putin	markable_59	set_23	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	teilte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	aus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	beschuldigte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Ankara	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Russland	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Rücken	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	gefallen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	sein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Das Vergehen war sogar noch größer , da es von einem vermeintlichen Freund begangen wurde .
+1	Das	markable_16	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	Vergehen	markable_16	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	sogar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	noch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	größer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	es	markable_17	set_8	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+10	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	einem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	vermeintlichen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Freund	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	begangen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	wurde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Das Vetrauen wieder aufzubauen wird schwierig , wenn nicht sogar unmöglich werden .
+1	Das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Vetrauen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	wieder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	aufzubauen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	wird	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	schwierig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	wenn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	sogar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	unmöglich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die öffentliche Meinung in Russland hat sich seit November gewandelt .
+1	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	öffentliche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Meinung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Russland	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	hat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	seit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	November	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	gewandelt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Monate lang führten die staatlich kontrollierten Medien einen heftigen , uneingeschränkten Angriff auf Ankara aus .
+1	Monate	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	lang	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	führten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	staatlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	kontrollierten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Medien	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	einen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	heftigen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	uneingeschränkten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Angriff	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Ankara	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	aus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Auf einmal schien es , als würden die Türken für alles die Schuld tragen .
+1	Auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	einmal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	schien	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	würden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Türken	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	alles	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Schuld	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	tragen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Am ernsthaftesten waren die Anschuldigungen von leitenden Beamten , dass Erdogans eigene Familie vom illegalen Ölhandel in Gebieten Syriens profitiert hätte , die vom sogenannten Islamischen Staat kontrolliert werden .
+1	Am	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	ernsthaftesten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	waren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Anschuldigungen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	leitenden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Beamten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	dass	markable_23	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+11	Erdogans	markable_21|markable_23	set_10|set_11	np|clause	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	antecedent
+12	eigene	markable_23	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+13	Familie	markable_23	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+14	vom	markable_23	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+15	illegalen	markable_23	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+16	Ölhandel	markable_23	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+17	in	markable_23	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+18	Gebieten	markable_23|markable_18	set_11|set_9	clause|np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	antecedent
+19	Syriens	markable_23|markable_18	set_11|set_9	clause|np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	antecedent
+20	profitiert	markable_23	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+21	hätte	markable_23	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+22	,	markable_23	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+23	die	markable_19|markable_23	set_9|set_11	pronoun|clause	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	antecedent
+24	vom	markable_23	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+25	sogenannten	markable_23	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+26	Islamischen	markable_23	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+27	Staat	markable_23	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+28	kontrolliert	markable_23	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+29	werden	markable_23	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+30	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Er hat dies vehement bestritten .
+1	Er	markable_20	set_10	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	hat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	dies	markable_22	set_11	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+4	vehement	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	bestritten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Aber in St . Petersburg lautete die offizielle Botschaft , dass es Zeit sei , nach vorne zu blicken .
+1	Aber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	St	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Petersburg	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	lautete	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	offizielle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Botschaft	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Zeit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	sei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	nach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	vorne	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	blicken	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Schließlich fand dieses Treffen nur deshalb statt , weil Putin vom Präsidenten Erdogan die Entschuldigung erhielt , die er hören wollte .
+1	Schließlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	fand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	dieses	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Treffen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	nur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	deshalb	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	statt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	weil	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Putin	markable_26	set_23	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+11	vom	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Präsidenten	markable_60	set_10	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+13	Erdogan	markable_60	set_10	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+14	die	markable_24	set_13	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+15	Entschuldigung	markable_24	set_13	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	erhielt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	die	markable_25	set_13	pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+19	er	markable_27	set_23	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+20	hören	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	wollte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Russland konnte eine Art Sieg verbuchen .
+1	Russland	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	konnte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Art	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Sieg	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	verbuchen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Für Ankara liegen die Vorteile eines Waffenstillstands klar auf der Hand .
+1	Für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Ankara	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	liegen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Vorteile	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	eines	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Waffenstillstands	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	klar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Hand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Erdogan benötigt in erster Linie alle Freunde , die er bekommen kann , nachdem er letzten Monat bei einem gescheiterten Staatsstreich fast seines Amtes enthoben wurde .
+1	Erdogan	markable_30	set_10	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	benötigt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	erster	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Linie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	alle	markable_28	set_14	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	Freunde	markable_28	set_14	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	die	markable_29	set_14	pronoun	anaphoric	possessive	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+10	er	markable_31	set_10	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+11	bekommen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	kann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	nachdem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	er	markable_32	set_10	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+16	letzten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Monat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	bei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	einem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	gescheiterten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Staatsstreich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	fast	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	seines	markable_33	set_10	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+24	Amtes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	enthoben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	wurde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Wiederholte Terrorangriffe auf die Türkei haben ihn ebenfalls erschüttert .
+1	Wiederholte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Terrorangriffe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Türkei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	haben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	ihn	markable_34	set_10	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+8	ebenfalls	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	erschüttert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Aber es gibt auch wirtschaftliche Motive .
+1	Aber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	gibt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	auch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	wirtschaftliche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Motive	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Russische Sanktionen haben die Türkei hart getroffen - insbesondere das Verbot von Charterflügen , die jedes Jahr üblicherweise mehrere Millionen russische Touristen an die türkische Küste bringen .
+1	Russische	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Sanktionen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	haben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Türkei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	hart	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	getroffen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	insbesondere	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Verbot	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Charterflügen	markable_35	set_18	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	die	markable_36	set_18	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+16	jedes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Jahr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	üblicherweise	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	mehrere	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Millionen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	russische	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	Touristen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	türkische	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	Küste	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	bringen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die Anzahl ist um fast 90 % zurückgegangen .
+1	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Anzahl	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	fast	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	90	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	%	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	zurückgegangen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: In Russland werden Reiseveranstalter und Chartergesellschaften erleichtert sein , wenn die Flüge wieder aufgenommen werden .
+1	In	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Russland	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Reiseveranstalter	markable_61	set_31	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	und	markable_62	set_31	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	Chartergesellschaften	markable_62	set_31	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	erleichtert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	sein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	wenn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Flüge	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	wieder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	aufgenommen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sie zählen auf einen spätsaisonalen Ansturm ans Mittelmeer .
+1	Sie	markable_38	set_31	pronoun	anaphoric	personal	_	split reference	_	plural	subject	_	_	_	_	_	_	_
+2	zählen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	einen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	spätsaisonalen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Ansturm	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	ans	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Mittelmeer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Diese Woche prognostizierte das Staatsfernsehen billigeres Obst und Gemüse , sobald die türkischen Agrarimporte wieder erlaubt werden .
+1	Diese	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Woche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	prognostizierte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Staatsfernsehen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	billigeres	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Obst	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Gemüse	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	sobald	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	türkischen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Agrarimporte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	wieder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	erlaubt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ein Bericht in Vedemosti formulierte es folgendermaßen : " Touristen dort lang , Tomaten hier lang . "
+1	Ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Bericht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Vedemosti	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	formulierte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	folgendermaßen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Touristen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	dort	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	lang	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Tomaten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	hier	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	lang	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Aber der Besuch hatte einen zusätzlichen politischen Wert für Moskau .
+1	Aber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Besuch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	hatte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	einen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	zusätzlichen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	politischen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Wert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Moskau	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ankara ist auf den Westen wütend , da es dessen Reaktion auf die versuchte Machtübernahme als schwache Antwort betrachtet .
+1	Ankara	markable_41	set_20	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	den	markable_42	set_21	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	Westen	markable_42	set_21	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	wütend	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	es	markable_39	set_20	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+10	dessen	markable_40	set_21	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+11	Reaktion	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	versuchte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Machtübernahme	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	schwache	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Antwort	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	betrachtet	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Dazu kommen der anhaltende Groll über das Schneckentempo der EU-Beitrittsverhandlungen und Putin - der erpicht darauf ist , aus der kühlen Stimmung Nutzen zu ziehen und die Beziehung der Türkei zum Westen zu verringern .
+1	Dazu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	kommen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	anhaltende	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Groll	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	über	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Schneckentempo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	EU-Beitrittsverhandlungen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Putin	markable_43	set_23	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+13	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	der	markable_44	set_23	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+15	erpicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	darauf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	aus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	kühlen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	Stimmung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	Nutzen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	ziehen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	Beziehung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	Türkei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	zum	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	Westen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	verringern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Der russische Staatschef gewann in Ankara mit Sicherheit einen Bonus dafür , dass er nach dem versuchten Staatsstreich Unterstützung für die gewählten Staatsorgane forderte .
+1	Der	markable_45	set_23	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+2	russische	markable_45	set_23	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+3	Staatschef	markable_45	set_23	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+4	gewann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Ankara	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Sicherheit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	einen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Bonus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	dafür	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	er	markable_46	set_23	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+15	nach	markable_47	set_24	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+16	dem	markable_47	set_24	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+17	versuchten	markable_47	set_24	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+18	Staatsstreich	markable_47	set_24	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+19	Unterstützung	markable_47	set_24	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+20	für	markable_47	set_24	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+21	die	markable_47	set_24	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+22	gewählten	markable_47	set_24	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+23	Staatsorgane	markable_47	set_24	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+24	forderte	markable_47	set_24	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+25	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Das ist für Moskau wohlgemerkt eine Selbstverständlichkeit , das selbst eine tiefsitzende Angst vor Regimewechseln hat .
+1	Das	markable_48	set_24	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Moskau	markable_49	set_25	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	wohlgemerkt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Selbstverständlichkeit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	das	markable_50	set_25	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+10	selbst	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	tiefsitzende	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Angst	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	vor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Regimewechseln	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	hat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Das Gipfeltreffen in diesem glanzvollen Palast am Meer ermöglichte es Russland und der Türkei , eine , wie es mir ein Analytiker einst beschrieb , " Allianz von Außenseitern " darzustellen : zwei Länder , die sich vom Westen verstoßen und schlecht behandelt fühlen und sich nun verbünden .
+1	Das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Gipfeltreffen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	diesem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	glanzvollen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Palast	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	am	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Meer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	ermöglichte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Russland	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Türkei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	mir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	Analytiker	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	einst	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	beschrieb	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	Allianz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	Außenseitern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	darzustellen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	zwei	markable_51	set_26	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+34	Länder	markable_51	set_26	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+35	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	die	markable_52	set_26	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+37	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	vom	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	Westen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	verstoßen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	schlecht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+43	behandelt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+44	fühlen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+45	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+46	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+47	nun	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+48	verbünden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+49	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Dennoch , trotz der öffentlichen Versöhnung , bestehen zwischen den beiden noch immer große Differenzen .
+1	Dennoch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	trotz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	öffentlichen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Versöhnung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	bestehen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	zwischen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	den	markable_53	set_26	np	_	_	_	simple antecedent	entity	_	_	nom-ellipsis	_	_	_	_	_	_
+11	beiden	markable_53	set_26	np	_	_	_	simple antecedent	entity	_	_	nom-ellipsis	_	_	_	_	_	_
+12	noch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	immer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	große	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Differenzen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die größte Differenz ist Syrien , wo sich Moskau vor kurzem die Rolle als Friedensstifter gab , aber wo Russland und die Türkei gegensätzliche Seiten unterstützen .
+1	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	größte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Differenz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Syrien	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	wo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Moskau	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	vor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	kurzem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Rolle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Friedensstifter	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	gab	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	aber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	wo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Russland	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	Türkei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	gegensätzliche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	Seiten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	unterstützen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es könnte bezeichnend sein , dass nach fast drei Stunden an Erstgesprächen beide Präsidenten auf der Pressekonferenz aussagten , dass sie das Thema nicht einmal gestreift hätten .
+1	Es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	könnte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	bezeichnend	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	sein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	nach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	fast	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	drei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Stunden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Erstgesprächen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	beide	markable_54	set_27	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	Präsidenten	markable_54	set_27	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+15	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Pressekonferenz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	aussagten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	sie	markable_55	set_27	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+22	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	Thema	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	einmal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	gestreift	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	hätten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Der Präsident der Türkei vermied es absichtlich auf eine Frage über ihre Differenzen zu antworten , während Putin sich dazu entschied diese zu betonen .
+1	Der	markable_63	set_10	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+2	Präsident	markable_63	set_10	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+3	der	markable_63	set_10	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+4	Türkei	markable_63	set_10	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+5	vermied	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	absichtlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Frage	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	über	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	ihre	markable_57|markable_56	set_28|set_27	np|pronoun	anaphoric	possessive	_	simple antecedent	entity	plural	non-subject	antecedent	_	_	_	_	_	_
+13	Differenzen	markable_57	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	antworten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	während	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Putin	markable_64	set_23	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+19	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	dazu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	entschied	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	diese	markable_58	set_28	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+23	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	betonen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es liegt kein eindeutiger Konsens darüber vor , wo ein gemeinsamer Nenner zu Syrien gefunden werden kann .
+1	Es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	liegt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	kein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	eindeutiger	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Konsens	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	darüber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	vor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	wo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	gemeinsamer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Nenner	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Syrien	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	gefunden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	kann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Aber nach Monaten offener Feindseligkeiten - und angesichts des Potenzials für ein vollkommenes Disaster , als das NATO-Mitglied Türkei den russischen Kampfjet abschoss - ist es sicherlich besser , dass die zwei Staatschefs zumindest wieder miteinander reden .
+1	Aber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	nach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Monaten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	offener	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Feindseligkeiten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	angesichts	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	des	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Potenzials	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	vollkommenes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Disaster	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	NATO-Mitglied	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Türkei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	russischen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	Kampfjet	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	abschoss	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	sicherlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	besser	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	zwei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	Staatschefs	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	zumindest	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	wieder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	miteinander	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	reden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+

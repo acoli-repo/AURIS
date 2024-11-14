@@ -1,0 +1,1083 @@
+# orig: parcor, corpus/TED/DE/009_805
+
+# id	word	coref_id	coref_coref_class	coref_mention	coref_type	coref_type_of_pronoun	coref_audience	coref_split	coref_antetype	coref_agreement	coref_position	coref_nptype	coref_anacata	coref_npmod	coref_sub_apposition	coref_comparative	coref_vptype	coref_clausetype	checks_id	checks_check
+
+# text: Als Steve Lopez , Kolumnist der Los Angeles Times , eines Tages durch die Straßen im Zentrum von Los Angeles ging , hörte er eine wundervolle Musik .
+1	Als	markable_0	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+2	Steve	markable_0	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+3	Lopez	markable_224|markable_223	set_0|empty	np|np	none	_	_	simple antecedent	_	none	none	antecedent|np	_	_	none	_	_	_	_	_
+4	,	markable_224|markable_223	set_0|empty	np|np	none	_	_	simple antecedent	_	none	none	antecedent|np	_	_	none	_	_	_	_	_
+5	Kolumnist	markable_224|markable_223	set_0|empty	np|np	none	_	_	simple antecedent	_	none	none	antecedent|np	_	_	none	_	_	_	_	_
+6	der	markable_224	set_0	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+7	Los	markable_224	set_0	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+8	Angeles	markable_224	set_0	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+9	Times	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	eines	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Tages	markable_1	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+13	durch	markable_1	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+14	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Straßen	markable_225	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+16	im	markable_225	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+17	Zentrum	markable_225	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+18	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Los	markable_2	set_0	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+20	Angeles	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	ging	markable_3	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+22	,	markable_3	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+23	hörte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	er	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	eine	markable_4	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+26	wundervolle	markable_4	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+27	Musik	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	.	markable_5	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+
+# text: Sie kam von einem Mann , einem Afro-Amerikaner , sympathisch , rau , obdachlos , der auf einer Geige spielte , die nur noch zwei Saiten hatte .
+1	Sie	markable_5	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+2	kam	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	von	markable_6	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+4	einem	markable_6	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+5	Mann	markable_6	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	einem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Afro-Amerikaner	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	sympathisch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	rau	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	obdachlos	markable_7	set_49	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+15	,	markable_7	set_49	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+16	der	markable_307	set_49	pronoun	anaphoric	relative	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+17	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	einer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Geige	markable_8	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+20	spielte	markable_8	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+21	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	nur	markable_9	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+24	noch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	zwei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	Saiten	markable_10	set_50	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+27	hatte	markable_10	set_50	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+28	.	markable_308	set_50	pronoun	anaphoric	relative	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+
+# text: Viele von Ihnen werden die Geschichte kennen , denn aus Steves Artikel darüber wurde später ein Buch , das wiederum verfilmt wurde , mit Robert Downey junior als Steve Lopez und Jamie Foxx als Nathaniel Anthony Ayers , dem Kontrabassisten , der am Juilliard-Konservatorium studierte und dessen vielversprechende Karriere tragischerweise früh durch seine paranoide Schizophrenie beendet wurde .
+1	Viele	markable_11	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+2	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Ihnen	markable_12	empty	pronoun	addressee reference	_	deictic you	_	_	you (pl.)	you (non-subject)	_	_	_	_	_	_	_	_	_
+4	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Geschichte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	kennen	markable_226	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	denn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	aus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Steves	markable_13	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+12	Artikel	markable_13	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+13	darüber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	wurde	markable_14	set_51	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+15	später	markable_14	set_51	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+16	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Buch	markable_309	set_51	pronoun	anaphoric	relative	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+18	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	wiederum	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	verfilmt	markable_15	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+22	wurde	markable_15	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+23	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	Robert	markable_227	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+26	Downey	markable_227	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+27	junior	markable_227	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+28	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	Steve	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	Lopez	markable_228	set_53	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+31	und	markable_228	set_53	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+32	Jamie	markable_228	set_53	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+33	Foxx	markable_228	set_53	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+34	als	markable_229|markable_228	empty|set_53	np|np	none	_	_	simple antecedent	_	none	none	np|antecedent	_	_	none	_	_	_	_	_
+35	Nathaniel	markable_229|markable_228	empty|set_53	np|np	none	_	_	simple antecedent	_	none	none	np|antecedent	_	_	none	_	_	_	_	_
+36	Anthony	markable_228	set_53	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+37	Ayers	markable_230|markable_228	empty|set_53	np|np	none	_	_	simple antecedent	_	none	none	np|antecedent	_	_	none	_	_	_	_	_
+38	,	markable_230|markable_228	empty|set_53	np|np	none	_	_	simple antecedent	_	none	none	np|antecedent	_	_	none	_	_	_	_	_
+39	dem	markable_230|markable_228	empty|set_53	np|np	none	_	_	simple antecedent	_	none	none	np|antecedent	_	_	none	_	_	_	_	_
+40	Kontrabassisten	markable_228	set_53	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+41	,	markable_228|markable_16	set_53|set_52	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_	_	_
+42	der	markable_228|markable_16	set_53|set_52	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_	_	_
+43	am	markable_228|markable_16	set_53|set_52	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_	_	_
+44	Juilliard-Konservatorium	markable_228|markable_16	set_53|set_52	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_	_	_
+45	studierte	markable_228|markable_310	set_53|set_52	np|pronoun	anaphoric	relative	_	simple antecedent	entity	they (sg.)	it (non-subject)	antecedent	_	_	_	_	_	_	_	_
+46	und	markable_228	set_53	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+47	dessen	markable_228	set_53	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+48	vielversprechende	markable_228	set_53	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+49	Karriere	markable_228	set_53	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+50	tragischerweise	markable_228	set_53	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+51	früh	markable_228	set_53	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+52	durch	markable_228|markable_17	set_53|empty	np|np	none	_	_	simple antecedent	entity	none	none	antecedent|np	anaphoric	possessive	none	_	_	_	_	_
+53	seine	markable_228|markable_17	set_53|empty	np|np	none	_	_	simple antecedent	entity	none	none	antecedent|np	anaphoric	possessive	none	_	_	_	_	_
+54	paranoide	markable_228|markable_17	set_53|empty	np|np	none	_	_	simple antecedent	entity	none	none	antecedent|np	anaphoric	possessive	none	_	_	_	_	_
+55	Schizophrenie	markable_228	set_53	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+56	beendet	markable_228|markable_18	set_53|empty	np|np	none	_	_	simple antecedent	_	none	none	antecedent|np	_	_	none	_	_	_	_	_
+57	wurde	markable_228|markable_18	set_53|empty	np|np	none	_	_	simple antecedent	_	none	none	antecedent|np	_	_	none	_	_	_	_	_
+58	.	markable_228	set_53	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+
+# text: Nathaniel verließ Juilliard , erlitt einen Nervenzusammenbruch und 30 Jahre später lebte er als Obdachloser auf den Straßen von Skid Row im Zentrum von Los Angeles .
+1	Nathaniel	markable_231|markable_228	set_2|set_53	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_	_	_
+2	verließ	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Juilliard	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	erlitt	markable_19	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+6	einen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Nervenzusammenbruch	markable_20	set_2	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+8	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	30	markable_21	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+10	Jahre	markable_21	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+11	später	markable_21	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+12	lebte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	er	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	als	markable_22	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+15	Obdachloser	markable_22	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+16	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	den	markable_23	set_2	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+18	Straßen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Skid	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Row	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	im	markable_24	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+23	Zentrum	markable_24	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+24	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	Los	markable_232	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+26	Angeles	markable_232	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+27	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich empfehle Ihnen allen , Steves Buch zu lesen oder sich den Film anzusehen , damit Sie nicht nur die wunderbare Verbundenheit verstehen , die zwischen diesen beiden Männern entstanden ist , sondern auch , wie die Musik diese Verbindung herstellen half und wie sie schließlich das Instrument war , wenn dieses Wortspiel erlaubt ist , das mithalf , Nathaniel weg von der Straße zu kriegen .
+1	Ich	markable_233	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+2	empfehle	markable_233	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+3	Ihnen	markable_233	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+4	allen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	markable_25	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+6	Steves	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Buch	markable_26	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+8	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	lesen	markable_27	empty	pronoun	addressee reference	_	deictic you	_	_	you (pl.)	you (non-subject)	_	_	_	_	_	_	_	_	_
+10	oder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	den	markable_234	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+13	Film	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	anzusehen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	damit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Sie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	nur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	wunderbare	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	Verbundenheit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	verstehen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	zwischen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	diesen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	beiden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	Männern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	entstanden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	ist	markable_28	set_53	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_	_	_
+32	,	markable_28	set_53	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_	_	_
+33	sondern	markable_28	set_53	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_	_	_
+34	auch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	die	markable_29	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+38	Musik	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	diese	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	Verbindung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	herstellen	markable_30	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+42	half	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+43	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+44	wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+45	sie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+46	schließlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+47	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+48	Instrument	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+49	war	markable_31	empty	pronoun	addressee reference	_	deictic you	_	_	you (pl.)	you (subject)	_	_	_	_	_	_	_	_	_
+50	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+51	wenn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+52	dieses	markable_32	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+53	Wortspiel	markable_32	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+54	erlaubt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+55	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+56	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+57	das	markable_235	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+58	mithalf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+59	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+60	Nathaniel	markable_33	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+61	weg	markable_33	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+62	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+63	der	markable_34	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+64	Straße	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+65	zu	markable_236	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+66	kriegen	markable_236	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+67	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich traf Mr Ayers im Jahre 2008 , vor zwei Jahren , in der Walt Disney Concert Hall .
+1	Ich	markable_35	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+2	traf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Mr	markable_36	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+4	Ayers	markable_36	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+5	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Jahre	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	2008	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	markable_237|markable_37|markable_277	empty|empty|empty	np|np|np	none|none|none	_	_	simple antecedent|simple antecedent|simple antecedent	_	none|none|none	none|none|none	np|np|np	_	_	none|none|none	_	_	_	_	_
+9	vor	markable_237|markable_37|markable_277	empty|empty|empty	np|np|np	none|none|none	_	_	simple antecedent|simple antecedent|simple antecedent	_	none|none|none	none|none|none	np|np|np	_	_	none|none|none	_	_	_	_	_
+10	zwei	markable_37|markable_277	empty|empty	np|np	none|none	_	_	simple antecedent|simple antecedent	_	none|none	none|none	np|np	_	_	none|none	_	_	_	_	_
+11	Jahren	markable_37	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	in	markable_38	set_5	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+14	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Walt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Disney	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Concert	markable_39	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+18	Hall	markable_39	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+19	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Er hatte gerade eine Vorführung von Beethovens Erster und Vierter Sinfonie gehört und kam hinter die Bühne , um sich mir vorzustellen .
+1	Er	markable_238	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+2	hatte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	gerade	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Vorführung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Beethovens	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Erster	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Vierter	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Sinfonie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	gehört	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	und	markable_40	set_5	pronoun	anaphoric	reflexive	_	simple antecedent	entity	they (sg.)	it (non-subject)	_	_	_	_	_	_	_	_	_
+14	kam	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	hinter	markable_41	set_5	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+16	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Bühne	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	um	markable_42	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+20	sich	markable_42	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+21	mir	markable_42	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+22	vorzustellen	markable_42	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+23	.	markable_42	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+
+# text: Er sprach in einem sehr heiteren und geselligen Ton über Yo-Yo Ma und Hillary Clinton und darüber , wie die Dodgers es nie in die Baseball World Series schaffen würden .
+1	Er	markable_42	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+2	sprach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	in	markable_239	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+4	einem	markable_239	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+5	sehr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	heiteren	markable_240	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+7	und	markable_240	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+8	geselligen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Ton	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	über	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Yo-Yo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Ma	markable_241	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+13	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Hillary	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Clinton	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	darüber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	,	markable_43	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+19	wie	markable_43	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+20	die	markable_43	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+21	Dodgers	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	nie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	die	markable_44	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+26	Baseball	markable_44	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+27	World	markable_44	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+28	Series	markable_278|markable_44	empty|empty	np|np	none|none	_	_	simple antecedent|simple antecedent	_	none|none	none|none	np|np	_	_	none|none	_	_	_	_	_
+29	schaffen	markable_44	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+30	würden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Und das alles wegen der tückischen Passage der ersten Geige im letzten Satz von Beethovens Vierter Sinfonie .
+1	Und	markable_45	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+2	das	markable_45	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+3	alles	markable_45	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+4	wegen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	der	markable_242	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+6	tückischen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Passage	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	ersten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Geige	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	im	markable_46	empty	pronoun	speaker reference	_	exclusive we	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	letzten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Satz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Beethovens	markable_47	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+16	Vierter	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Sinfonie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	markable_48	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+
+# text: Wir kamen aufs Thema Musik zu sprechen .
+1	Wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	kamen	markable_49	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+3	aufs	markable_49	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+4	Thema	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Musik	markable_243	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+6	zu	markable_50	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+7	sprechen	markable_50	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+8	.	markable_50	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+
+# text: Und ein paar Tage später bekam ich eine E-Mail , in der stand , dass Nathaniel sich für Geigenunterricht bei mir interessierte .
+1	Und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	paar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Tage	markable_244	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+5	später	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	bekam	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	eine	markable_51	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+9	E-Mail	markable_279|markable_51	empty|empty	np|np	none|none	_	_	simple antecedent|simple antecedent	_	none|none	none|none	np|np	_	_	none|none	_	_	_	_	_
+10	,	markable_51	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+11	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	der	markable_52	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+13	stand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Nathaniel	markable_53	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+17	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Geigenunterricht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	bei	markable_245	set_15	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+21	mir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	interessierte	markable_54	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+23	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich muss noch erwähnen , dass Nathaniel eine medizinische Behandlung ablehnte , denn er war bereits mit Elektroschocks und mit Thorazin und Handschellen behandelt worden , ein Trauma , das ihn sein ganzes Leben verfolgt hat .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	muss	markable_55	set_15	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+3	noch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	erwähnen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	markable_56	empty	pronoun	antecedent	personal	_	_	_	none	none	_	_	_	_	_	_	_	_	_
+6	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Nathaniel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	eine	markable_280|markable_57	empty|empty	np|np	none|none	_	_	simple antecedent|simple antecedent	_	none|none	none|none	np|np	_	_	none|none	_	_	_	_	_
+9	medizinische	markable_57	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+10	Behandlung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	ablehnte	markable_267|markable_58	empty|empty	np|np	none|none	_	_	simple antecedent|simple antecedent	_	none|none	none|none	np|np	_	_	none|none	_	_	_	_	_
+12	,	markable_58	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+13	denn	markable_268|markable_58	empty|empty	np|np	none|none	_	_	simple antecedent|simple antecedent	_	none|none	none|none	np|np	_	_	none|none	_	_	_	_	_
+14	er	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	bereits	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	mit	markable_59	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+18	Elektroschocks	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Thorazin	markable_60	set_15	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (non-subject)	_	_	_	_	_	_	_	_	_
+22	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	Handschellen	markable_286|markable_61	set_15|empty	pronoun|np	anaphoric|none	possessive	_	simple antecedent|simple antecedent	entity	they (sg.)|none	it (non-subject)|none	np	_	_	none	_	_	_	_	_
+24	behandelt	markable_61	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+25	worden	markable_61	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+26	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	Trauma	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	das	markable_62	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+31	ihn	markable_62	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+32	sein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	ganzes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	Leben	markable_63	set_15	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+35	verfolgt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	hat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Als Folge davon ist er jetzt besonders anfällig für diese schizophrenen Phasen .
+1	Als	markable_64	set_54	np	none	_	_	simple antecedent	entity	none	none	np	anaphoric	possessive	none	_	_	_	_	_
+2	Folge	markable_64	set_54	np	none	_	_	simple antecedent	entity	none	none	np	anaphoric	possessive	none	_	_	_	_	_
+3	davon	markable_64	set_54	np	none	_	_	simple antecedent	entity	none	none	np	anaphoric	possessive	none	_	_	_	_	_
+4	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	er	markable_65	set_54	np	_	_	_	_	_	_	_	not sure. help!	_	_	_	_	_	_	_	_
+6	jetzt	markable_65	set_54	np	_	_	_	_	_	_	_	not sure. help!	_	_	_	_	_	_	_	_
+7	besonders	markable_65	set_54	np	_	_	_	_	_	_	_	not sure. help!	_	_	_	_	_	_	_	_
+8	anfällig	markable_65	set_54	np	_	_	_	_	_	_	_	not sure. help!	_	_	_	_	_	_	_	_
+9	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	diese	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	schizophrenen	markable_66	set_54	pronoun	anaphoric	personal	_	simple antecedent	entity	they (pl.)	none	_	_	_	_	_	_	_	_	_
+12	Phasen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	.	markable_67	set_15	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (non-subject)	_	_	_	_	_	_	_	_	_
+
+# text: Die sind manchmal so schlimm , dass sie ihn zu zerreißen drohen und er tagelang verschwindet , in den Straßen von Skid Row herumwandert , immer diesem Horror und den Folterqualen seines eigenen Geistes ausgesetzt .
+1	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	manchmal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	so	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	schlimm	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	dass	markable_68	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+8	sie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	ihn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	zu	markable_69	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+11	zerreißen	markable_69	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+12	drohen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	und	markable_246	set_13	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+14	er	markable_246	set_13	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+15	tagelang	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	verschwindet	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	in	markable_287|markable_70	set_13|empty	pronoun|np	anaphoric|none	personal	_	simple antecedent|simple antecedent	entity	they (sg.)|none	it (non-subject)|none	np	_	_	none	_	_	_	_	_
+19	den	markable_70	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+20	Straßen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	Skid	markable_71	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+23	Row	markable_71	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+24	herumwandert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	,	markable_288|markable_72	set_15|empty	pronoun|np	anaphoric|none	personal	_	simple antecedent|simple antecedent	entity	they (sg.)|none	it (subject)|none	np	_	_	none	_	_	_	_	_
+26	immer	markable_72	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+27	diesem	markable_72	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+28	Horror	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	den	markable_73	set_15	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (non-subject)	_	_	_	_	_	_	_	_	_
+31	Folterqualen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	seines	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	eigenen	markable_247	set_25	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+34	Geistes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	ausgesetzt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	.	markable_74	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+
+# text: Und in genau so einem Reizstadium befand sich Nathaniel , als wir mit unserer ersten Unterrichtsstunde in der Walt Disney Concert Hall begannen .
+1	Und	markable_74	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+2	in	markable_74	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+3	genau	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	so	markable_75	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+5	einem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Reizstadium	markable_76	empty	pronoun	speaker reference	_	exclusive we	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	befand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	sich	markable_289|markable_77	empty|empty	pronoun|np	speaker reference|none	_	all-inclusive we	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+9	Nathaniel	markable_77	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+10	,	markable_77	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+11	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	wir	markable_248|markable_78	empty|empty	np|np	none|none	_	_	simple antecedent|simple antecedent	_	none|none	none|none	np|np	_	_	none|none	_	_	_	_	_
+13	mit	markable_248|markable_78	empty|empty	np|np	none|none	_	_	simple antecedent|simple antecedent	_	none|none	none|none	np|np	_	_	none|none	_	_	_	_	_
+14	unserer	markable_78	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+15	ersten	markable_78	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+16	Unterrichtsstunde	markable_79	set_25	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+17	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	der	markable_80	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+19	Walt	markable_80	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+20	Disney	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Concert	markable_81	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+22	Hall	markable_81	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+23	begannen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	.	markable_290|markable_82	set_25|empty	pronoun|np	anaphoric|none	possessive	_	simple antecedent|simple antecedent	entity	they (sg.)|none	it (non-subject)|none	np	_	_	none	_	_	_	_	_
+
+# text: Er hatte dieses irre Flackern in seinen Augen und wirkte völlig verloren .
+1	Er	markable_82	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+2	hatte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	dieses	markable_83	set_25	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+4	irre	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Flackern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	seinen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Augen	markable_84	set_25	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+9	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	wirkte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	völlig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	verloren	markable_269|markable_85	empty|empty	np|np	none|none	_	_	simple antecedent|simple antecedent	_	none|none	none|none	np|np	_	_	none|none	_	_	_	_	_
+13	.	markable_269|markable_85	empty|empty	np|np	none|none	_	_	simple antecedent|simple antecedent	_	none|none	none|none	np|np	_	_	none|none	_	_	_	_	_
+
+# text: Er sprach über unsichtbare Dämonen und Rauch und darüber , wie ihn jemand im Schlaf vergiften wollte .
+1	Er	markable_85	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+2	sprach	markable_270|markable_85	empty|empty	np|np	none|none	_	_	simple antecedent|simple antecedent	_	none|none	none|none	np|np	_	_	none|none	_	_	_	_	_
+3	über	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	unsichtbare	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Dämonen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	und	markable_86	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+7	Rauch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	darüber	markable_87	set_25	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (non-subject)	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	wie	markable_291|markable_88	set_25|empty	pronoun|np	anaphoric|none	possessive	_	simple antecedent|simple antecedent	entity	they (sg.)|none	it (non-subject)|none	np	_	_	none	_	_	_	_	_
+12	ihn	markable_88	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+13	jemand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Schlaf	markable_89	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+16	vergiften	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	wollte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich hatte Angst , nicht meinetwegen , sondern ich hatte Angst , dass ich ihn verlieren könnte , dass er in einen seiner Zustände versinken könnte und dass ich ihm seine Beziehung zur Geige zerstören könnte , wenn ich anfing , über Tonleitern und Arpeggios und andere aufregende Formen der didaktischen Geigenpädagogik zu reden .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	hatte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Angst	markable_90	empty	np	_	_	_	_	_	_	_	np	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	meinetwegen	markable_91	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	sondern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	hatte	markable_92	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+11	Angst	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	ihn	markable_93	set_25	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (non-subject)	_	_	_	_	_	_	_	_	_
+16	verlieren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	könnte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	,	markable_94	set_25	pronoun	anaphoric	_	_	simple antecedent	_	none	none	_	_	_	_	_	_	_	_	_
+19	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	er	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	einen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	seiner	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Zustände	markable_95	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+25	versinken	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	könnte	markable_292|markable_96	set_25|empty	pronoun|np	anaphoric|none	possessive	_	simple antecedent|simple antecedent	entity	they (sg.)|none	it (non-subject)|none	np	_	_	none	_	_	_	_	_
+27	und	markable_96	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+28	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	ihm	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	seine	markable_97	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+32	Beziehung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	zur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	Geige	markable_293|markable_98	set_25|empty	pronoun|np	anaphoric|none	possessive	_	simple antecedent|simple antecedent	entity	they (sg.)|none	it (non-subject)|none	np	_	_	none	_	_	_	_	_
+35	zerstören	markable_98	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+36	könnte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	,	markable_99	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+38	wenn	markable_99	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+39	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	anfing	markable_100	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+41	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	über	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+43	Tonleitern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+44	und	markable_101|markable_271	empty|empty	np|np	none|none	_	_	simple antecedent|simple antecedent	_	none|none	none|none	np|np	_	_	none|none	_	_	_	_	_
+45	Arpeggios	markable_101	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+46	und	markable_101|markable_272	empty|empty	np|np	none|none	_	_	simple antecedent|simple antecedent	_	none|none	none|none	np|np	_	_	none|none	_	_	_	_	_
+47	andere	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+48	aufregende	markable_102	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+49	Formen	markable_102	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+50	der	markable_102	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+51	didaktischen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+52	Geigenpädagogik	markable_103	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+53	zu	markable_103|markable_281	empty|empty	np|np	none|none	_	_	simple antecedent|simple antecedent	_	none|none	none|none	np|np	_	_	none|none	_	_	_	_	_
+54	reden	markable_103	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+55	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich fing also einfach an zu spielen .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	fing	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	also	markable_104	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+4	einfach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	spielen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich spielte den ersten Satz von Beethovens Violinkonzert .
+1	Ich	markable_105	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+2	spielte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	den	markable_106	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+4	ersten	markable_106	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+5	Satz	markable_106	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+6	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Beethovens	markable_107	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+8	Violinkonzert	markable_107|markable_283|markable_282	empty|empty|empty	np|np|np	none|none|none	_	_	simple antecedent|simple antecedent|simple antecedent	_	none|none|none	none|none|none	np|np|np	_	_	none|none|none	_	_	_	_	_
+9	.	markable_107|markable_282	empty|empty	np|np	none|none	_	_	simple antecedent|simple antecedent	_	none|none	none|none	np|np	_	_	none|none	_	_	_	_	_
+
+# text: Und während ich spielte , fiel mir auf , dass in Nathaniels Augen eine vollkommene Veränderung vor sich ging .
+1	Und	markable_107	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+2	während	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	spielte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	markable_108	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+6	fiel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	mir	markable_109	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+8	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	dass	markable_110	empty	np	none	_	_	simple antecedent	entity	none	none	np	anaphoric	possessive	none	_	_	_	_	_
+11	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Nathaniels	markable_111	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+13	Augen	markable_111	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+14	eine	markable_111	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+15	vollkommene	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Veränderung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	vor	markable_249	set_26	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+18	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	ging	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es war , als ob er unter dem Einfluss einer unsichtbaren Arznei stand , eine chemische Reaktion , dessen Katalysator mein Spiel war .
+1	Es	markable_112	empty	pronoun	pleonastic	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	ob	markable_113	set_26	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+6	er	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	unter	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	dem	markable_114	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+9	Einfluss	markable_114	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+10	einer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	unsichtbaren	markable_115	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+12	Arznei	markable_115	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+13	stand	markable_115	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	eine	markable_116	set_27	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+16	chemische	markable_116|markable_284	set_27|empty	np|np	none	_	_	simple antecedent	_	none	none	antecedent|np	_	_	none	_	_	_	_	_
+17	Reaktion	markable_116	set_27	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+18	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	dessen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Katalysator	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	mein	markable_117|markable_294	empty|empty	np|np	none|none	_	_	simple antecedent|simple antecedent	_	none|none	none|none	np|np	_	_	none|none	_	_	_	_	_
+22	Spiel	markable_117	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+23	war	markable_118	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+24	.	markable_118	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+
+# text: Nathaniels manischer Zorn verwandelte sich in Verständnis , in eine ruhige Neugier und Anmut .
+1	Nathaniels	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	manischer	markable_119|markable_295	empty|set_27	np|pronoun	none|anaphoric	personal	_	simple antecedent|simple antecedent	entity	none|they (sg.)	none|it (non-subject)	np	_	_	none	_	_	_	_	_
+3	Zorn	markable_119	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+4	verwandelte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	in	markable_250	set_34	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+7	Verständnis	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	ruhige	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Neugier	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	und	markable_120	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+14	Anmut	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	markable_121	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+
+# text: Und wie durch ein Wunder nahm er seine Geige und begann , nach Gehör einige Ausschnitte von Violinkonzerten zu spielen und bat mich dann , sie zu Ende zu spielen : Mendelssohn , Tschaikowski , Sibelius .
+1	Und	markable_121	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+2	wie	markable_121	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+3	durch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Wunder	markable_122	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+6	nahm	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	er	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	seine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Geige	markable_123	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+10	und	markable_123	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+11	begann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	markable_124	set_34	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+13	nach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Gehör	markable_125|markable_296	empty|set_34	np|pronoun	none|anaphoric	possessive	_	simple antecedent|simple antecedent	entity	none|they (sg.)	none|it (non-subject)	np	_	_	none	_	_	_	_	_
+15	einige	markable_125	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+16	Ausschnitte	markable_125	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+17	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Violinkonzerten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	zu	markable_126	set_34	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+20	spielen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	bat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	mich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	dann	markable_127	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+25	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	sie	markable_128	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+27	zu	markable_128	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+28	Ende	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	zu	markable_129|markable_285	empty|empty	np|np	none|none	_	_	simple antecedent|simple antecedent	_	none|none	none|none	np|np	_	_	none|none	_	_	_	_	_
+30	spielen	markable_129	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+31	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	Mendelssohn	markable_130	set_34	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+33	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	Tschaikowski	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	,	markable_131	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+36	Sibelius	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Wir fingen dann an , über Musik zu sprechen , angefangen von Bach über Beethoven , Brahms , Bruckner und all die anderen Bs , von Bartók bis hin zu Esa-Pekka Salonen .
+1	Wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	fingen	markable_252|markable_251	empty|empty	np|np	none|none	_	_	simple antecedent|simple antecedent	_	none|none	none|none	np|np	_	_	none|none	_	_	_	_	_
+3	dann	markable_252	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+4	an	markable_252	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	über	markable_253	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+7	Musik	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	sprechen	markable_132	empty	pronoun	speaker reference	_	exclusive we	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	angefangen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Bach	markable_133	set_55	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+14	über	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Beethoven	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	,	markable_254	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+17	Brahms	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	,	markable_255	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+19	Bruckner	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	all	markable_256	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+22	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	anderen	markable_257	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+24	Bs	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	,	markable_134	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+26	von	markable_134	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+27	Bartók	markable_134	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+28	bis	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	hin	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	Esa-Pekka	markable_258	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+32	Salonen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	.	markable_135	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+
+# text: Und mir wurde klar , dass er nicht nur ein enzyklopädisches Wissen über Musik besaß , sondern ihn mit ihr auch eine enge persönliche Beziehung verband .
+1	Und	markable_135	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+2	mir	markable_135	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+3	wurde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	klar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	markable_259	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+6	dass	markable_259	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+7	er	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	nur	markable_136	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+10	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	enzyklopädisches	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Wissen	markable_137	set_34	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+13	über	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Musik	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	besaß	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	,	markable_138	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+17	sondern	markable_138	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+18	ihn	markable_138	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+19	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	ihr	markable_139	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+21	auch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	enge	markable_140	set_34	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+24	persönliche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	Beziehung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	verband	markable_141	set_55	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_	_	_
+27	.	markable_141	set_55	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_	_	_
+
+# text: Er sprach von ihr mit einer Leidenschaft und einem Verständnis , das ich sonst nur von meinen Kollegen in der Philharmonie von Los Angeles kenne .
+1	Er	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	sprach	markable_142	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+3	von	markable_142	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+4	ihr	markable_142	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+5	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	einer	markable_143	set_34	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+7	Leidenschaft	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	einem	markable_144	set_55	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+10	Verständnis	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	markable_145	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+12	das	markable_145	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+13	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	sonst	markable_146|markable_273	empty|empty	np|np	none|none	_	_	simple antecedent|simple antecedent	_	none|none	none|none	np|np	_	_	none|none	_	_	_	_	_
+15	nur	markable_146	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+16	von	markable_146|markable_274	empty|empty	np|np	none|none	_	_	simple antecedent|simple antecedent	_	none|none	none|none	np|np	_	_	none|none	_	_	_	_	_
+17	meinen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Kollegen	markable_147	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+19	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Philharmonie	markable_148|markable_297	empty|empty	np|np	none|none	_	_	simple antecedent|simple antecedent	_	none|none	none|none	np|np	_	_	none|none	_	_	_	_	_
+22	von	markable_148	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+23	Los	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Angeles	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	kenne	markable_260	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+26	.	markable_260	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+
+# text: Indem er Musik spielte und über Musik sprach , war aus diesem paranoiden , verwirrten Mann , der eben noch durch die Straßen von Los Angeles gezogen war , ein liebenswerter , gebildeter , ausgezeichneter , in Juilliard ausgebildeter Musiker geworden .
+1	Indem	markable_260	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+2	er	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Musik	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	spielte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	über	markable_149	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+7	Musik	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	sprach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	war	markable_150	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+11	aus	markable_151	set_34	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_	_	_
+12	diesem	markable_151	set_34	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_	_	_
+13	paranoiden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	verwirrten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Mann	markable_152	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+17	,	markable_152	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+18	der	markable_152	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+19	eben	markable_152	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+20	noch	markable_152	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+21	durch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	Straßen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	Los	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	Angeles	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	gezogen	markable_153	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+28	war	markable_153	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+29	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	ein	markable_154	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+31	liebenswerter	markable_261	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+32	,	markable_261	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+33	gebildeter	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	ausgezeichneter	markable_155	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+36	,	markable_155	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+37	in	markable_155	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+38	Juilliard	markable_155	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+39	ausgebildeter	markable_155	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+40	Musiker	markable_155	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+41	geworden	markable_155	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+42	.	markable_155	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+
+# text: Musik ist Medizin .
+1	Musik	markable_155	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Medizin	markable_156	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+4	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Musik verändert uns .
+1	Musik	markable_157	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+2	verändert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	uns	markable_158	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+4	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Für Nathaniel bedeutet Musik seelische Gesundheit .
+1	Für	markable_159	empty	pronoun	speaker reference	_	all-inclusive we	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Nathaniel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	bedeutet	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Musik	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	seelische	markable_262	set_41	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+6	Gesundheit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	markable_160	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+
+# text: Denn die Musik erlaubt es ihm , seine Gedanken und Wahnvorstellungen mit Hilfe seiner Vorstellungskraft und Kreativität in etwas Reales umzuformen .
+1	Denn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	die	markable_161	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+3	Musik	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	erlaubt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	es	markable_162	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+6	ihm	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	markable_163	set_41	pronoun	anaphoric	possessive	_	simple antecedent	entity	they (sg.)	it (non-subject)	_	_	_	_	_	_	_	_	_
+8	seine	markable_312	set_56	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_	_	_
+9	Gedanken	markable_312	set_56	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_	_	_
+10	und	markable_275|markable_164|markable_298|markable_312	empty|set_38|set_41|set_56	np|np|pronoun|vp	none|anaphoric	_	_	simple antecedent|simple antecedent	_	none|none	none|none	np|antecedent	_	_	none	_	antecedent	_	_	_
+11	Wahnvorstellungen	markable_275|markable_164|markable_312	empty|set_38|set_56	np|np|vp	none	_	_	simple antecedent	_	none	none	np|antecedent	_	_	none	_	antecedent	_	_	_
+12	mit	markable_164|markable_312	set_38|set_56	np|vp	_	_	_	_	_	_	_	antecedent	_	_	_	_	antecedent	_	_	_
+13	Hilfe	markable_276|markable_164|markable_312	empty|set_38|set_56	np|np|vp	none	_	_	simple antecedent	_	none	none	np|antecedent	_	_	none	_	antecedent	_	_	_
+14	seiner	markable_312	set_56	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_	_	_
+15	Vorstellungskraft	markable_312	set_56	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_	_	_
+16	und	markable_312	set_56	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_	_	_
+17	Kreativität	markable_165|markable_312	set_38|set_56	pronoun|vp	anaphoric	personal	_	simple antecedent	entity	they (pl.)	it (non-subject)	_	_	_	_	_	antecedent	_	_	_
+18	in	markable_312	set_56	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_	_	_
+19	etwas	markable_166|markable_299|markable_312	empty|set_41|set_56	np|pronoun|vp	none|anaphoric	possessive	_	simple antecedent|simple antecedent	entity	none|they (sg.)	none|it (non-subject)	np	_	_	none	_	antecedent	_	_	_
+20	Reales	markable_166|markable_312	empty|set_56	np|vp	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	antecedent	_	_	_
+21	umzuformen	markable_312	set_56	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_	_	_
+22	.	markable_167|markable_300|markable_312	empty|set_41|set_56	np|pronoun|vp	none|anaphoric	possessive	_	simple antecedent|simple antecedent	entity	none|they (sg.)	none|it (subject)	np	_	_	none	_	antecedent	_	_	_
+
+# text: Und so entflieht er seinen quälenden Zuständen .
+1	Und	markable_167|markable_312	empty|set_56	np|vp	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	antecedent	_	_	_
+2	so	markable_312	set_56	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_	_	_
+3	entflieht	markable_312	set_56	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_	_	_
+4	er	markable_168|markable_312	empty|set_56	np|vp	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	antecedent	_	_	_
+5	seinen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	quälenden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Zuständen	markable_311	set_56	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	it (subject)	_	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich verstand , dass genau dies das Wesen der Kunst ist .
+1	Ich	markable_169	set_42	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+2	verstand	markable_169	set_42	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	dass	markable_170|markable_301	empty|set_41	np|pronoun	none|anaphoric	possessive	_	simple antecedent|simple antecedent	entity	none|they (sg.)	none|it (non-subject)	np	_	_	none	_	_	_	_	_
+5	genau	markable_170	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+6	dies	markable_170	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+7	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Wesen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	der	markable_171	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+10	Kunst	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	markable_172	set_42	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+
+# text: Genau dies ist der Grund , warum wir Musik machen : damit wir etwas , das in uns allen , tief im Inneren steckt , unsere Gefühle , durch unsere künstlerische Linse , durch unsere Kreativität zur Wirklichkeit formen können .
+1	Genau	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	dies	markable_173	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+3	ist	markable_173	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+4	der	markable_173	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+5	Grund	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	markable_174	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+7	warum	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	wir	markable_175	set_42	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+9	Musik	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	machen	markable_176	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+11	:	markable_176	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+12	damit	markable_176	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+13	wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	etwas	markable_177	empty	pronoun	speaker reference	_	exclusive we	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	das	markable_178	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+17	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	uns	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	allen	markable_179	empty	pronoun	speaker reference	_	exclusive we	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	tief	markable_180	empty	np	none	_	_	simple antecedent	entity	none	none	np	anaphoric	possessive	none	_	_	_	_	_
+22	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	Inneren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	steckt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	,	markable_181	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+26	unsere	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	Gefühle	markable_182	empty	pronoun	speaker reference	_	all-inclusive we	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	durch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	unsere	markable_183|markable_303	empty|empty	np|pronoun	none|speaker reference	_	all-inclusive we	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+31	künstlerische	markable_183	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+32	Linse	markable_183	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+33	,	markable_183	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+34	durch	markable_183	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+35	unsere	markable_183|markable_302	empty|empty	np|pronoun	none|speaker reference	_	all-inclusive we	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+36	Kreativität	markable_183	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+37	zur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	Wirklichkeit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	formen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	können	markable_184|markable_304	empty|empty	np|pronoun	none|speaker reference	_	exclusive we	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+41	.	markable_184	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+
+# text: Und die Wirklichkeit jenes Ausdrucks erreicht uns alle , und bewegt , inspiriert und vereint uns .
+1	Und	markable_184	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+2	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Wirklichkeit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	jenes	markable_185|markable_305	empty|empty	np|pronoun	none|speaker reference	_	exclusive we	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+5	Ausdrucks	markable_185	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+6	erreicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	uns	markable_186	empty	pronoun	speaker reference	_	all-inclusive we	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	alle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	bewegt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	markable_187	empty	np	none	_	_	simple antecedent	entity	none	none	np	anaphoric	possessive	none	_	_	_	_	_
+13	inspiriert	markable_187	empty	np	none	_	_	simple antecedent	entity	none	none	np	anaphoric	possessive	none	_	_	_	_	_
+14	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	vereint	markable_188	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+16	uns	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Was Nathaniel anging , so brachte ihn die Musik zurück in eine Gemeinschaft von Freunden .
+1	Was	markable_189	empty	np	none	_	_	simple antecedent	entity	none	none	np	anaphoric	possessive	none	_	_	_	_	_
+2	Nathaniel	markable_189	empty	np	none	_	_	simple antecedent	entity	none	none	np	anaphoric	possessive	none	_	_	_	_	_
+3	anging	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	so	markable_190	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+6	brachte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	ihn	markable_191	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+8	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Musik	markable_192	empty	pronoun	speaker reference	_	all-inclusive we	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	zurück	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Gemeinschaft	markable_193	empty	pronoun	speaker reference	_	all-inclusive we	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Freunden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die erlösende Kraft der Musik brachte ihn zurück in eine Familie von Musikern , die ihn verstand , die sein Talent erkannte und ihn achtete .
+1	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	erlösende	markable_194	empty	pronoun	speaker reference	_	all-inclusive we	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Kraft	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Musik	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	brachte	markable_263	set_47	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+7	ihn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	zurück	markable_195	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+9	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	eine	markable_196	set_47	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (non-subject)	_	_	_	_	_	_	_	_	_
+11	Familie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Musikern	markable_197	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+14	,	markable_197	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+15	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	ihn	markable_198	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+17	verstand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	,	markable_199	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+19	die	markable_199	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+20	sein	markable_199	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+21	Talent	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	erkannte	markable_200	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+23	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	ihn	markable_201	set_47	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (non-subject)	_	_	_	_	_	_	_	_	_
+25	achtete	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Und ich werde immer wieder mit Nathaniel musizieren , egal ob in der Walt Disney Concert Hall oder in Skid Row , denn er erinnert mich daran , warum ich Musiker geworden bin .
+1	Und	markable_202	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+2	ich	markable_202	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+3	werde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	immer	markable_203	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+5	wieder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Nathaniel	markable_204	set_47	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (non-subject)	_	_	_	_	_	_	_	_	_
+8	musizieren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	egal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	ob	markable_205|markable_306	empty|set_47	np|pronoun	none|anaphoric	possessive	_	simple antecedent|simple antecedent	entity	none|they (sg.)	none|it (non-subject)	np	_	_	none	_	_	_	_	_
+12	in	markable_205	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+13	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Walt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Disney	markable_206	set_47	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (non-subject)	_	_	_	_	_	_	_	_	_
+16	Concert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Hall	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	oder	markable_207	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+19	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Skid	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Row	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	,	markable_208	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+23	denn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	er	markable_264	set_48	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	_	_
+25	erinnert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	mich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	daran	markable_209	empty	pronoun	speaker reference	_	exclusive we	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	warum	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	ich	markable_265	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+31	Musiker	markable_265	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+32	geworden	markable_265	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+33	bin	markable_265	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+34	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Vielen Dank .
+1	Vielen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Dank	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	.	markable_210	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+
+# text: Vielen Dank .
+1	Vielen	markable_210	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+2	Dank	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Danke .
+1	Danke	markable_211	set_48	pronoun	anaphoric	personal	_	simple antecedent	entity	they (sg.)	it (subject)	_	_	_	_	_	_	_	_	_
+2	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Robert Gupta .
+1	Robert	markable_212	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+2	Gupta	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	.	markable_213	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+
+# text: Ich möchte etwas spielen , das ich unverschämterweise den Cellisten gestohlen habe .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	möchte	markable_214	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+3	etwas	markable_214	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+4	spielen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	das	markable_215	empty	pronoun	addressee reference	_	deictic you	_	_	you (pl.)	you (subject)	_	_	_	_	_	_	_	_	_
+7	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	unverschämterweise	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	den	markable_216	empty	pronoun	addressee reference	_	deictic you	_	_	you (pl.)	you (subject)	_	_	_	_	_	_	_	_	_
+10	Cellisten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	gestohlen	markable_217	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+12	habe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	.	markable_266	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+
+# text: Ich hoffe , Sie verzeihen mir .
+1	Ich	markable_266	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+2	hoffe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	markable_218	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+4	Sie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	verzeihen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	mir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	markable_219	empty	np	none	_	_	simple antecedent	_	none	none	np	_	_	none	_	_	_	_	_
+

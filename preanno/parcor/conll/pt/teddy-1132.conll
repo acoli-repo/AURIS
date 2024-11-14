@@ -1,0 +1,1862 @@
+# orig: parcor, corpus/TED/PT/002_792
+
+# id	word	coref_id	coref_coref_class	coref_mention	coref_type	coref_type_of_pronoun	coref_audience	coref_split	coref_antetype	coref_agreement	coref_position	coref_nptype	coref_anacata	coref_npmod	coref_sub_apposition	coref_comparative	coref_vptype	coref_clausetype
+
+# text: Há algo tempo comecei a interessar-me pelo efeito placebo , o que pode parecer uma coisa estranha para um mágico se sentir interessado , a menos que a vejam nos termos que eu vejo , ou seja , " algo falso em que alguém acredita o suficiente ao ponto de se tornar real " .
+1	Há	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	algo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	tempo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	comecei	markable_94	set_1	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+5	a	markable_94	set_1	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+6	interessar-me	markable_94	set_1	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+7	pelo	markable_94|markable_96	set_1|set_0	clause|np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	antecedent
+8	efeito	markable_94|markable_96	set_1|set_0	clause|np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	antecedent
+9	placebo	markable_94|markable_96	set_1|set_0	clause|np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	antecedent
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	o	markable_95	set_1	pronoun	anaphoric	relative	_	simple antecedent	event	singular	subject	_	_	_	_	_	_	_
+12	que	markable_95	set_1	pronoun	anaphoric	relative	_	simple antecedent	event	singular	subject	_	_	_	_	_	_	_
+13	pode	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	parecer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	uma	markable_99	set_0	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	indefinite	_	_	_	_
+16	coisa	markable_99	set_0	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	indefinite	_	_	_	_
+17	estranha	markable_99	set_0	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	indefinite	_	_	_	_
+18	para	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	um	markable_97	set_2	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+20	mágico	markable_97	set_2	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+21	se	markable_98	set_2	pronoun	anaphoric	reflexive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+22	sentir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	interessado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	menos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	a	markable_100	set_0	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+29	vejam	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	nos	markable_101	set_3	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+31	termos	markable_101	set_3	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+32	que	markable_102	set_3	pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+33	eu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	vejo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	ou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	seja	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	algo	markable_104|markable_103|markable_285	empty|set_0|set_58	np|pronoun|np	pronoun	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_
+41	falso	markable_104|markable_285	empty|set_58	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_
+42	em	markable_105|markable_285	empty|set_58	pronoun|np	anaphoric	relative	_	simple antecedent	entity	none	none	antecedent	_	_	_	_	_	_
+43	que	markable_105|markable_285	empty|set_58	pronoun|np	anaphoric	relative	_	simple antecedent	entity	none	none	antecedent	_	_	_	_	_	_
+44	alguém	markable_106|markable_285	empty|set_58	pronoun|np	pronoun	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+45	acredita	markable_285	set_58	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+46	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+47	suficiente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+48	ao	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+49	ponto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+50	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+51	se	markable_107	set_58	pronoun	anaphoric	reflexive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+52	tornar	markable_334	set_58	pronoun	anaphoric	none	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+53	real	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+54	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+55	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Por outras palavras , os comprimidos de açúcar tem um efeito mensurável em certo tipo de estudos , o efeito placebo , apenas porque a pessoa pensa que o lhe está a acontecer é um tratamento farmacêutico ou algum tipo de ... Para o alívio da dor , por exemplo , se acreditarem nisso o suficiente , existe um efeito mensurável no corpo chamado efeito placebo .
+1	Por	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	outras	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	palavras	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	os	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	comprimidos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	açúcar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	tem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	efeito	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	mensurável	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	em	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	certo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	tipo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	estudos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	o	markable_108	set_0	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+20	efeito	markable_108	set_0	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+21	placebo	markable_108	set_0	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+22	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	apenas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	porque	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	a	markable_110	set_4	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+26	pessoa	markable_110	set_4	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+27	pensa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	lhe	markable_109	set_4	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+31	está	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	acontecer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	tratamento	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	farmacêutico	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	ou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	algum	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	tipo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	...	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+43	Para	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+44	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+45	alívio	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+46	da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+47	dor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+48	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+49	por	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+50	exemplo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+51	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+52	se	markable_111	set_4	pronoun	anaphoric	reflexive	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+53	acreditarem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+54	nisso	markable_112	set_6	pronoun	cataphoric	_	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+55	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+56	suficiente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+57	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+58	existe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+59	um	markable_113	set_6	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+60	efeito	markable_113	set_6	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+61	mensurável	markable_113	set_6	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+62	no	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+63	corpo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+64	chamado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+65	efeito	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+66	placebo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+67	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Algo falso torna-se algo real devido à percepção que alguém tem disso .
+1	Algo	markable_114|markable_286	set_52|set_7	pronoun|vp	pronoun	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+2	falso	markable_286	set_7	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+3	torna-se	markable_286|markable_310	set_7|set_52	vp|pronoun	anaphoric	reflexive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	antecedent	_
+4	algo	markable_115|markable_286	empty|set_7	pronoun|vp	pronoun	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+5	real	markable_286	set_7	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+6	devido	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	à	markable_116	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	percepção	markable_116	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	que	markable_117	set_8	pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+10	alguém	markable_118	empty	pronoun	pronoun	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	tem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	disso	markable_119	set_7	pronoun	anaphoric	demonstrative	_	simple antecedent	event	singular	non-subject	_	_	_	_	_	_	_
+13	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Para nos entendermos melhor quero começar por mostrar-vos um elementar truque de magia muito simples .
+1	Para	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	nos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	entendermos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	melhor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	quero	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	começar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	por	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	mostrar-vos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	um	markable_121	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	elementar	markable_121	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	truque	markable_121	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	de	markable_121	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	magia	markable_121	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	muito	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	simples	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: e vou mostrar-vos como é que funciona . Este truque tem aparecido em todos os livros de magia para crianças , pelo menos desde a década de 1950 .
+1	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	vou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	mostrar-vos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	como	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	funciona	markable_314	set_9	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Este	markable_120	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+10	truque	markable_120	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+11	tem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	aparecido	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	em	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	todos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	os	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	livros	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	magia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	para	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	crianças	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	pelo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	menos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	desde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	década	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	1950	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Eu aprendi-o no " Cub Scout Magic " nos anos 70 .
+1	Eu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	aprendi-o	markable_122	set_9	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+3	no	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Cub	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Scout	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Magic	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	nos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	anos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	70	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Vou fazê-lo para vocês , e a seguir vou explicar .
+1	Vou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	fazê-lo	markable_123	set_9	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+3	para	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	vocês	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	seguir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	vou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	explicar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: E a seguir vou explicar porque é que expliquei .
+1	E	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	seguir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	vou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	explicar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	porque	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	expliquei	markable_315	set_9	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Então , é assim .
+1	Então	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	assim	markable_124	set_9	pronoun	extratextual reference	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: A faca , que podem verificar ; a minha mão , que podem verificar .
+1	A	markable_126	set_11	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	faca	markable_126	set_11	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	que	markable_127	set_11	pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+5	podem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	verificar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	;	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	a	markable_128	set_12	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	minha	markable_128	set_12	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	mão	markable_128	set_12	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	que	markable_129	set_12	pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+13	podem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	verificar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Vou só segurar a faca assim na minha mão .
+1	Vou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	só	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	segurar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	a	markable_130	set_11	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+5	faca	markable_130	set_11	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+6	assim	markable_131	empty	pronoun	extratextual reference	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	na	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	minha	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	mão	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Vou puxar a manga para trás .
+1	Vou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	puxar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	a	markable_287	set_13	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	manga	markable_287	set_13	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	para	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	trás	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: E para assegurar que nada sobe ou desce pela minha manga vou apertar o meu pulso aqui .
+1	E	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	para	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	assegurar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	nada	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	sobe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	ou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	desce	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	pela	markable_288	set_13	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+10	minha	markable_288	set_13	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+11	manga	markable_288	set_13	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+12	vou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	apertar	markable_290	set_53	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+14	o	markable_290	set_53	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+15	meu	markable_290	set_53	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+16	pulso	markable_290	set_53	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+17	aqui	markable_290	set_53	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Deste modo podem ver que em nenhum momento nada se pode movimentar . Enquanto eu esteja a apertar aqui nada pode subir ou descer pela minha manga .
+1	Deste	markable_133	set_53	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+2	modo	markable_133	set_53	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+3	podem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	ver	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	em	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	nenhum	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	momento	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	nada	markable_134	empty	pronoun	pronoun	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	se	markable_135	empty	pronoun	anaphoric	reflexive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+11	pode	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	movimentar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Enquanto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	eu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	esteja	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	apertar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	aqui	markable_291	empty	pronoun	extratextual reference	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	nada	markable_136	empty	pronoun	pronoun	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	pode	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	subir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	ou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	descer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	pela	markable_305	set_13	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+26	minha	markable_305	set_13	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+27	manga	markable_305	set_13	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: E o objectivo disto é muito simples .
+1	E	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	objectivo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	disto	markable_137	set_9	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+5	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	muito	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	simples	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Vou abrir a minha mão , e , espero , se tudo correr bem , o meu puro magnetismo animal vai segurar a faca .
+1	Vou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	abrir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	a	markable_302	set_12	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+4	minha	markable_302	set_12	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+5	mão	markable_302	set_12	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	espero	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	se	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	tudo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	correr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	bem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	meu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	puro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	magnetismo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	animal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	vai	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	segurar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	a	markable_139	set_11	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+24	faca	markable_139	set_11	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+25	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: De facto , está tão bem segura que posso sacudi-la , e a faca não sai .
+1	De	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	facto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	markable_316	set_11	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+4	está	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	tão	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	bem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	segura	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	posso	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	sacudi-la	markable_140	set_11	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	a	markable_141	set_11	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+14	faca	markable_141	set_11	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+15	não	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	sai	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Nada sobe ou desce pela minha manga , nada de truques . E podem verificar tudo .
+1	Nada	markable_142	empty	pronoun	pronoun	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	sobe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	desce	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	pela	markable_307	set_13	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+6	minha	markable_307	set_13	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+7	manga	markable_307	set_13	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	nada	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	truques	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	E	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	podem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	verificar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	tudo	markable_143	empty	pronoun	pronoun	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Tcharam !
+1	Tcharam	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	!	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Então , este é um truque que costumo ensinar a crianças pequenas que estão interessadas em magia , porque é possível aprender bastante sobre ilusão ao estudar mesmo que seja um truque metodologicamente muito simples .
+1	Então	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	este	markable_144	set_9	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+4	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	um	markable_145	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	indefinite	_	_	_	_
+6	truque	markable_145	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	indefinite	_	_	_	_
+7	que	markable_146	set_9	pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+8	costumo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	ensinar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	a	markable_147	set_10	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	crianças	markable_147	set_10	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	pequenas	markable_147	set_10	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	que	markable_148	set_10	pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+14	estão	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	interessadas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	em	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	magia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	porque	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	possível	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	aprender	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	bastante	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	sobre	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	ilusão	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	ao	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	estudar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	mesmo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	seja	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	um	markable_292	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	indefinite	_	_	_	_
+32	truque	markable_292	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	indefinite	_	_	_	_
+33	metodologicamente	markable_292	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	indefinite	_	_	_	_
+34	muito	markable_292	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	indefinite	_	_	_	_
+35	simples	markable_292	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	indefinite	_	_	_	_
+36	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Provavelmente muitos de vocês nesta sala , conhecem este truque .
+1	Provavelmente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	muitos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	vocês	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	nesta	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	sala	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	conhecem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	este	markable_149	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+10	truque	markable_149	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: O que acontece é isto .
+1	O	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	acontece	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	isto	markable_311	set_14	pronoun	cataphoric	_	_	simple antecedent	event	singular	subject	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Eu seguro a faca na minha mão .
+1	Eu	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+2	seguro	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+3	a	markable_153|markable_152	set_11|set_14	np|clause	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	antecedent
+4	faca	markable_153|markable_152	set_11|set_14	np|clause	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	antecedent
+5	na	markable_152|markable_303	set_14|set_12	clause|np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	antecedent
+6	minha	markable_152|markable_303	set_14|set_12	clause|np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	antecedent
+7	mão	markable_152|markable_303	set_14|set_12	clause|np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	antecedent
+8	.	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+
+# text: Digo que vou agarrar o meu pulso para vos assegurar que nada sobe ou desce pela minha manga , o que é mentira .
+1	Digo	markable_152|markable_164	set_14|set_59	clause|clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent|antecedent
+2	que	markable_152|markable_164	set_14|set_59	clause|clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent|antecedent
+3	vou	markable_152|markable_164	set_14|set_59	clause|clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent|antecedent
+4	agarrar	markable_152|markable_164	set_14|set_59	clause|clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent|antecedent
+5	o	markable_152|markable_164	set_14|set_59	clause|clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent|antecedent
+6	meu	markable_152|markable_164	set_14|set_59	clause|clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent|antecedent
+7	pulso	markable_152|markable_164	set_14|set_59	clause|clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent|antecedent
+8	para	markable_152|markable_164	set_14|set_59	clause|clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent|antecedent
+9	vos	markable_152|markable_164	set_14|set_59	clause|clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent|antecedent
+10	assegurar	markable_152|markable_164	set_14|set_59	clause|clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent|antecedent
+11	que	markable_152|markable_164	set_14|set_59	clause|clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent|antecedent
+12	nada	markable_152|markable_154|markable_164	set_14|empty|set_59	clause|pronoun|clause	pronoun	_	_	_	_	_	_	_	_	_	_	_	_	antecedent|antecedent
+13	sobe	markable_152|markable_164	set_14|set_59	clause|clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent|antecedent
+14	ou	markable_152|markable_164	set_14|set_59	clause|clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent|antecedent
+15	desce	markable_152|markable_164	set_14|set_59	clause|clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent|antecedent
+16	pela	markable_152|markable_164|markable_308	set_14|set_59|set_13	clause|clause|np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	antecedent|antecedent
+17	minha	markable_152|markable_164|markable_308	set_14|set_59|set_13	clause|clause|np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	antecedent|antecedent
+18	manga	markable_152|markable_164|markable_308	set_14|set_59|set_13	clause|clause|np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	antecedent|antecedent
+19	,	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+20	o	markable_152|markable_163	set_14|set_59	clause|pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	antecedent
+21	que	markable_152|markable_163	set_14|set_59	clause|pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	antecedent
+22	é	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+23	mentira	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+24	.	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+
+# text: Eu estou a agarrar no pulso porque , isso é , na verdade , o segredo da ilusão .
+1	Eu	markable_152|markable_157	set_14|empty	clause|vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	antecedent
+2	estou	markable_152|markable_157	set_14|empty	clause|vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	antecedent
+3	a	markable_152|markable_157	set_14|empty	clause|vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	antecedent
+4	agarrar	markable_152|markable_157	set_14|empty	clause|vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	antecedent
+5	no	markable_152|markable_157	set_14|empty	clause|vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	antecedent
+6	pulso	markable_152|markable_157	set_14|empty	clause|vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	antecedent
+7	porque	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+8	,	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+9	isso	markable_152|markable_156	set_14|empty	clause|pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	antecedent
+10	é	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+11	,	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+12	na	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+13	verdade	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+14	,	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+15	o	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+16	segredo	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+17	da	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+18	ilusão	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+19	.	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+
+# text: No momento em que a minha mão deixa de estar voltada para vocês e fica virada para trás , este dedo aqui , o meu dedo indicador move-se do sítio onde está , para uma posição a apontar para fora assim .
+1	No	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+2	momento	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+3	em	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+4	que	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+5	a	markable_152|markable_304	set_14|set_12	clause|np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	antecedent
+6	minha	markable_152|markable_304	set_14|set_12	clause|np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	antecedent
+7	mão	markable_152|markable_304	set_14|set_12	clause|np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	antecedent
+8	deixa	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+9	de	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+10	estar	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+11	voltada	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+12	para	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+13	vocês	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+14	e	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+15	fica	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+16	virada	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+17	para	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+18	trás	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+19	,	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+20	este	markable_152|markable_158	set_14|set_22	clause|np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	antecedent
+21	dedo	markable_152|markable_158	set_14|set_22	clause|np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	antecedent
+22	aqui	markable_152|markable_293	set_14|empty	clause|pronoun	extratextual reference	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+23	,	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+24	o	markable_152|markable_160	set_14|set_22	clause|np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	antecedent
+25	meu	markable_152|markable_160	set_14|set_22	clause|np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	antecedent
+26	dedo	markable_152|markable_160	set_14|set_22	clause|np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	antecedent
+27	indicador	markable_152|markable_160	set_14|set_22	clause|np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	antecedent
+28	move-se	markable_152|markable_159	set_14|set_22	clause|pronoun	anaphoric	reflexive	_	simple antecedent	event	singular	non-subject	_	_	_	_	_	_	antecedent
+29	do	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+30	sítio	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+31	onde	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+32	está	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+33	,	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+34	para	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+35	uma	markable_152|markable_312	set_14|set_54	clause|vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	antecedent
+36	posição	markable_152|markable_312	set_14|set_54	clause|vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	antecedent
+37	a	markable_152|markable_312	set_14|set_54	clause|vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	antecedent
+38	apontar	markable_152|markable_312	set_14|set_54	clause|vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	antecedent
+39	para	markable_152|markable_312	set_14|set_54	clause|vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	antecedent
+40	fora	markable_152|markable_312	set_14|set_54	clause|vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	antecedent
+41	assim	markable_152|markable_161	set_14|set_54	clause|pronoun	extratextual reference	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+42	.	markable_152	set_14	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+
+# text: Essa é boa .
+1	Essa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	boa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Está aí alguém que não teve infância .
+1	Está	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	aí	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	alguém	markable_166	set_15	pronoun	antecedent	personal	_	_	_	none	none	_	_	_	_	_	_	_
+4	que	markable_167	set_15	pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+5	não	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	teve	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	infância	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Então , é assim que acontece , daqui , certo ?
+1	Então	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	assim	markable_168	set_14	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	none	_	_	_	_	_	_	_
+5	que	markable_169	empty	pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+6	acontece	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	daqui	markable_170	set_14	pronoun	extratextual reference	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	certo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: E enquanto eu me viro , o meu dedo move-se .
+1	E	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	enquanto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	eu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	me	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	viro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	o	markable_171	set_22	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+8	meu	markable_171	set_22	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+9	dedo	markable_171	set_22	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+10	move-se	markable_172	set_22	pronoun	anaphoric	reflexive	_	simple antecedent	event	singular	non-subject	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: E podemos falar sobre o porquê de isto ser enganador , porque é que não reparam que há apenas três dedos aqui em baixo . porque a mente , e a maneira como esta processa a informação , não conta , um , dois , três . A mente agrupa-os .
+1	E	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	podemos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	falar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	sobre	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	o	markable_174	set_17	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	porquê	markable_174	set_17	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	de	markable_174	set_17	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	isto	markable_175|markable_174	set_14|set_17	pronoun|np	anaphoric	demonstrative	_	simple antecedent	event	singular	non-subject	antecedent	_	_	_	_	_	_
+9	ser	markable_174	set_17	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	enganador	markable_174	set_17	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	porque	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	não	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	reparam	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	há	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	apenas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	três	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	dedos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	aqui	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	em	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	baixo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	porque	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	a	markable_176	set_20	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+28	mente	markable_176	set_20	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+29	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	maneira	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	como	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	esta	markable_177	set_20	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+35	processa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	informação	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	não	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	conta	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+43	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+44	dois	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+45	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+46	três	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+47	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+48	A	markable_178	set_20	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+49	mente	markable_178	set_20	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+50	agrupa-os	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+51	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Mas não é isso que interessa . Certo ? E então eu abro a minha mão .
+1	Mas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	não	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	isso	markable_173	set_17	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+5	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	interessa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Certo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	E	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	então	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	eu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	abro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	minha	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	mão	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Obviamente que a faca está segura , não por magnetismo animal , mas através de uma manha , o meu dedo indicador está aqui .
+1	Obviamente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	a	markable_294	set_11	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	faca	markable_294	set_11	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	está	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	segura	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	não	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	por	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	magnetismo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	animal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	mas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	através	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	uma	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	manha	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	meu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	dedo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	indicador	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	está	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	aqui	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: E quando fecho o meu dedo , a mesma coisa . enquanto me viro outra vez , este movimento como que encobre o meu dedo a encolher-se .
+1	E	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	quando	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	fecho	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	meu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	dedo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	mesma	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	coisa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	enquanto	markable_180	set_21	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+13	me	markable_180	set_21	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+14	viro	markable_180	set_21	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+15	outra	markable_180	set_21	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+16	vez	markable_180	set_21	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+17	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	este	markable_179	set_21	np	_	_	_	simple antecedent	event	_	_	np	anaphoric	demonstrative	_	_	_	_
+19	movimento	markable_179	set_21	np	_	_	_	simple antecedent	event	_	_	np	anaphoric	demonstrative	_	_	_	_
+20	como	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	encobre	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	o	markable_181	set_22	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+24	meu	markable_181	set_22	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+25	dedo	markable_181	set_22	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+26	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	encolher-se	markable_182	set_22	pronoun	anaphoric	reflexive	_	simple antecedent	event	singular	non-subject	_	_	_	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Tiro esta mão . Entrego a faca .
+1	Tiro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	esta	markable_184	set_12	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+3	mão	markable_184	set_12	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+4	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Entrego	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	a	markable_183	set_11	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+7	faca	markable_183	set_11	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+8	.	markable_183	set_11	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+
+# text: Aqui está um truque que podem fazer para os vossos amigos e vizinhos . Obrigado .
+1	Aqui	markable_186	empty	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+2	está	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	um	markable_185	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	truque	markable_185	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	que	markable_295	set_9	pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+6	podem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	fazer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	para	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	os	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	vossos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	amigos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	vizinhos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Obrigado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Agora , o que é que isto tem a ver com o efeito placebo ?
+1	Agora	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	isto	markable_187	set_9	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+8	tem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	ver	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	com	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	efeito	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	placebo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Li um estudo , há mais ou menos um ano que realmente me abriu os horizontes .
+1	Li	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	um	markable_189	set_25	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	estudo	markable_189	set_25	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	há	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	mais	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	ou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	menos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	ano	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	que	markable_188	set_25	pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+12	realmente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	me	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	abriu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	os	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	horizontes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Não sou médico ou investigador , então isto , para mim , foi algo surpreendente .
+1	Não	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	sou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	médico	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	ou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	investigador	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	então	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	isto	markable_190	set_25	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	para	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	mim	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	foi	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	algo	markable_191	empty	pronoun	pronoun	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	surpreendente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Acontece que se se administrar um placebo na forma de um comprimido branco , com o formato de uma aspirina , é apenas um comprimido branco redondo , tem um certo efeito mensurável .
+1	Acontece	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	se	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	se	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	administrar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	um	markable_192	set_26	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	placebo	markable_192	set_26	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	na	markable_192	set_26	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	forma	markable_192	set_26	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	de	markable_192	set_26	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	um	markable_194|markable_193|markable_192	set_28|set_27|set_26	np|np|np	_	_	_	_	_	_	_	antecedent|antecedent|antecedent	_	_	_	_	_	_
+12	comprimido	markable_194|markable_193|markable_192	set_28|set_27|set_26	np|np|np	_	_	_	_	_	_	_	antecedent|antecedent|antecedent	_	_	_	_	_	_
+13	branco	markable_194|markable_193|markable_192	set_28|set_27|set_26	np|np|np	_	_	_	_	_	_	_	antecedent|antecedent|antecedent	_	_	_	_	_	_
+14	,	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+15	com	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	o	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+17	formato	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+18	de	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+19	uma	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+20	aspirina	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+21	,	markable_317|markable_194	set_26|set_28	pronoun|np	anaphoric	none	_	simple antecedent	entity	singular	subject	antecedent	_	_	_	_	_	_
+22	é	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+23	apenas	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+24	um	markable_195|markable_194	set_27|set_28	np|np	_	_	_	simple antecedent	entity	_	_	np|antecedent	anaphoric	indefinite	_	_	_	_
+25	comprimido	markable_195|markable_194	set_27|set_28	np|np	_	_	_	simple antecedent	entity	_	_	np|antecedent	anaphoric	indefinite	_	_	_	_
+26	branco	markable_195|markable_194	set_27|set_28	np|np	_	_	_	simple antecedent	entity	_	_	np|antecedent	anaphoric	indefinite	_	_	_	_
+27	redondo	markable_195|markable_194	set_27|set_28	np|np	_	_	_	simple antecedent	entity	_	_	np|antecedent	anaphoric	indefinite	_	_	_	_
+28	,	markable_318|markable_194	set_26|set_28	pronoun|np	anaphoric	none	_	simple antecedent	entity	singular	subject	antecedent	_	_	_	_	_	_
+29	tem	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+30	um	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+31	certo	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+32	efeito	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+33	mensurável	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+34	.	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+
+# text: Mas se mudarmos a forma que damos ao placebo , por exemplo , se usarmos um comprimido mais pequeno , dermos-lhe a cor azul , e lhe estamparmos uma letra em cima , é de facto , mensuravelmente mais eficaz .
+1	Mas	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	se	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	mudarmos	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	a	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	forma	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	que	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	damos	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	ao	markable_194|markable_196	set_28|set_26	np|np	_	_	_	simple antecedent	entity	_	_	antecedent|np	anaphoric	def-article	_	_	_	_
+9	placebo	markable_194|markable_196	set_28|set_26	np|np	_	_	_	simple antecedent	entity	_	_	antecedent|np	anaphoric	def-article	_	_	_	_
+10	,	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	por	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	exemplo	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	,	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	se	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+15	usarmos	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	um	markable_194|markable_197	set_28|set_30	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_
+17	comprimido	markable_194|markable_197	set_28|set_30	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_
+18	mais	markable_194|markable_197	set_28|set_30	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_
+19	pequeno	markable_194|markable_197	set_28|set_30	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_
+20	,	markable_194|markable_197	set_28|set_30	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_
+21	dermos-lhe	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+22	a	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+23	cor	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+24	azul	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+25	,	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+26	e	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+27	lhe	markable_194|markable_198	set_28|set_30	np|pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	antecedent	_	_	_	_	_	_
+28	estamparmos	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+29	uma	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+30	letra	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+31	em	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+32	cima	markable_194	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+33	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	facto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	mensuravelmente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	mais	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	eficaz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Mesmo assim , nenhuma destas coisas tem nenhum fármaco - são comprimidos de açúcar .
+1	Mesmo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	assim	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	nenhuma	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	destas	markable_199	set_55	np	_	_	_	split reference	_	_	_	np	anaphoric	demonstrative	_	_	_	_
+6	coisas	markable_199	set_55	np	_	_	_	split reference	_	_	_	np	anaphoric	demonstrative	_	_	_	_
+7	tem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	nenhum	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	fármaco	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	são	markable_319	set_28	pronoun	anaphoric	none	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+12	comprimidos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	açúcar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Mas um comprimido branco não é tão bom quanto um comprimido azul .
+1	Mas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	um	markable_200	set_29	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	comprimido	markable_200	set_29	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	branco	markable_200	set_29	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	não	markable_200	set_29	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	é	markable_200	set_29	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	tão	markable_200	set_29	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	bom	markable_200	set_29	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	quanto	markable_200	set_29	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	um	markable_200	set_29	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	comprimido	markable_200	set_29	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	azul	markable_200	set_29	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	.	markable_200	set_29	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+
+# text: O quê ? Fiquei completamente surpreso .
+1	O	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	quê	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Fiquei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	completamente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	surpreso	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Afinal , nem sequer é aí que acaba .
+1	Afinal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	nem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	sequer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	aí	markable_201	set_29	pronoun	anaphoric	demonstrative	_	simple antecedent	event	singular	non-subject	_	_	_	_	_	_	_
+7	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	acaba	markable_320	set_29	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Se forem cápsulas , são mais eficazes que comprimidos de qualquer formato .
+1	Se	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+2	forem	markable_202|markable_321	set_31|set_55	clause|pronoun	anaphoric	none	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	antecedent
+3	cápsulas	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+4	,	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+5	são	markable_202|markable_322	set_31|set_55	clause|pronoun	anaphoric	none	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	antecedent
+6	mais	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+7	eficazes	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+8	que	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+9	comprimidos	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+10	de	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+11	qualquer	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+12	formato	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+13	.	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+
+# text: Uma cápsula colorida , que seja amarela numa ponta e vermelha na outra é melhor do que uma cápsula branca .
+1	Uma	markable_202|markable_206	set_31|empty	clause|np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	antecedent
+2	cápsula	markable_202|markable_206	set_31|empty	clause|np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	antecedent
+3	colorida	markable_202|markable_206	set_31|empty	clause|np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	antecedent
+4	,	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+5	que	markable_202|markable_207	set_31|empty	clause|pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	antecedent
+6	seja	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+7	amarela	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+8	numa	markable_202|markable_208	set_31|empty	clause|np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	antecedent
+9	ponta	markable_202|markable_208	set_31|empty	clause|np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	antecedent
+10	e	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+11	vermelha	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+12	na	markable_202|markable_209	set_31|empty	clause|np	_	_	_	simple antecedent	entity	_	_	comparative	_	_	_	part	_	antecedent
+13	outra	markable_202|markable_209	set_31|empty	clause|np	_	_	_	simple antecedent	entity	_	_	comparative	_	_	_	part	_	antecedent
+14	é	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+15	melhor	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+16	do	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+17	que	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+18	uma	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+19	cápsula	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+20	branca	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+21	.	markable_202	set_31	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+
+# text: A dosagem está relacionada com isto .
+1	A	markable_204	set_32	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	dosagem	markable_204	set_32	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	está	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	relacionada	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	com	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	isto	markable_203	set_31	pronoun	anaphoric	demonstrative	_	simple antecedent	event	singular	non-subject	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Um comprimido , duas vezes ao dia não é tão bom quanto três comprimidos ... Não me lembro das estatísticas agora . Desculpem .
+1	Um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	comprimido	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	duas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	vezes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ao	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	dia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	não	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	tão	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	bom	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	quanto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	três	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	comprimidos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	...	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Não	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	me	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	lembro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	estatísticas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	agora	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	Desculpem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Mas a questão é ...
+1	Mas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	questão	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	...	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: ... estas dosagens estão relacionadas com isso .
+1	...	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	estas	markable_210	set_32	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+3	dosagens	markable_210	set_32	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+4	estão	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	relacionadas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	com	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	isso	markable_211	set_31	pronoun	anaphoric	demonstrative	_	simple antecedent	event	singular	non-subject	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: E o formato está relacionado com isso .
+1	E	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	formato	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	está	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	relacionado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	com	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	isso	markable_212	set_31	pronoun	anaphoric	demonstrative	_	simple antecedent	event	singular	non-subject	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: E se quisermos o máximo do efeito placebo temos de pegar na agulha .
+1	E	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	se	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	quisermos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	máximo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	do	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	efeito	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	placebo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	temos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	pegar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	na	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	agulha	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Certo ? Uma seringa com algum inerte ... alguns centímetros cúbicos de algum inerte ... e injectamos isso num paciente ...
+1	Certo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Uma	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	seringa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	com	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	algum	markable_214	set_34	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	inerte	markable_214	set_34	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	...	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	alguns	markable_215	empty	pronoun	pronoun	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	centímetros	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	cúbicos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	algum	markable_216	set_34	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	indefinite	_	_	_	_
+14	inerte	markable_216	set_34	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	indefinite	_	_	_	_
+15	...	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	injectamos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	isso	markable_217	set_34	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	none	_	_	_	_	_	_	_
+19	num	markable_218	set_35	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	indefinite	_	_	_	_
+20	paciente	markable_218	set_35	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	indefinite	_	_	_	_
+21	...	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Bem , isto é uma imagem de tal forma poderosa na mente deles , É muito mais forte do que um comprimido branco .
+1	Bem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	isto	markable_219	set_33	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+4	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	uma	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	imagem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	tal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	forma	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	poderosa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	na	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	mente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	deles	markable_220	set_35	pronoun	anaphoric	possessive	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	É	markable_323	set_33	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+16	muito	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	mais	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	forte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	do	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	um	markable_221	set_27	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	indefinite	_	_	_	_
+22	comprimido	markable_221	set_27	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	indefinite	_	_	_	_
+23	branco	markable_221	set_27	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	indefinite	_	_	_	_
+24	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: É um grande ... este gráfico ... bem , vou mostrar-vos noutra altura , quando tivermos slides .
+1	É	markable_324	set_33	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	grande	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	...	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	este	markable_222	empty	pronoun	extratextual reference	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	gráfico	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	...	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	bem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	vou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	mostrar-vos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	noutra	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	altura	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	quando	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	tivermos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	slides	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: A questão é o comprimido branco não é tão bom quanto o comprimido azul que não é tão bom quanto a cápsula , que não é tão bom quanto a agulha .
+1	A	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	questão	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	o	markable_225	set_36	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	comprimido	markable_225	set_36	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	branco	markable_225	set_36	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	não	markable_225	set_36	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	é	markable_225	set_36	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	tão	markable_225	set_36	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	bom	markable_225	set_36	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	quanto	markable_225	set_36	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	o	markable_225|markable_224	set_36|set_60	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_
+13	comprimido	markable_225|markable_224	set_36|set_60	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_
+14	azul	markable_225|markable_224	set_36|set_60	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_
+15	que	markable_225|markable_226	set_36|set_60	np|pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	antecedent	_	_	_	_	_	_
+16	não	markable_225	set_36	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+17	é	markable_225	set_36	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+18	tão	markable_225	set_36	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+19	bom	markable_225	set_36	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+20	quanto	markable_225	set_36	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+21	a	markable_225|markable_227	set_36|set_61	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_
+22	cápsula	markable_225|markable_227	set_36|set_61	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_
+23	,	markable_225	set_36	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+24	que	markable_225|markable_229	set_36|set_61	np|pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	antecedent	_	_	_	_	_	_
+25	não	markable_225	set_36	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+26	é	markable_225	set_36	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+27	tão	markable_225	set_36	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+28	bom	markable_225	set_36	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+29	quanto	markable_225	set_36	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+30	a	markable_225	set_36	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+31	agulha	markable_225	set_36	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+32	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: E nenhum destes tem nenhuma qualidade farmacêutica . É apenas a vossa crença que o torna real no vosso corpo e faz um efeito mais forte .
+1	E	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	nenhum	markable_297	set_36	np	_	_	_	simple antecedent	entity	_	_	comparative	_	_	_	part	_	_
+3	destes	markable_297	set_36	np	_	_	_	simple antecedent	entity	_	_	comparative	_	_	_	part	_	_
+4	tem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	nenhuma	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	qualidade	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	farmacêutica	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	É	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	apenas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	a	markable_232	set_39	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	vossa	markable_232	set_39	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	crença	markable_232	set_39	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	que	markable_233	set_39	pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+15	o	markable_234	set_36	pronoun	anaphoric	personal	_	split reference	_	none	none	_	_	_	_	_	_	_
+16	torna	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	real	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	no	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	vosso	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	corpo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	faz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	efeito	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	mais	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	forte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Eu quis ver se podia pegar nesta ideia e aplicá-la num truque de magia .
+1	Eu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	quis	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ver	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	se	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	podia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	pegar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	nesta	markable_235	set_41	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	ideia	markable_235	set_41	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	aplicá-la	markable_236	set_41	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+11	num	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	truque	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	magia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: E pegar em algo que é obviamente um truque falso e fazê-lo parecer real .
+1	E	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	pegar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	em	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	algo	markable_237	set_40	pronoun	antecedent	none	_	_	_	none	none	_	_	_	_	_	_	_
+5	que	markable_238	set_40	pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+6	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	obviamente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	um	markable_239	set_42	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	truque	markable_239	set_42	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	falso	markable_239	set_42	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	fazê-lo	markable_240	set_42	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+13	parecer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	real	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: E nós sabemos a partir desse estudo que quando queremos realidade , pegamos na agulha .
+1	E	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	nós	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	sabemos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	partir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	desse	markable_241	empty	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+7	estudo	markable_241	empty	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+8	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	quando	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	queremos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	realidade	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	pegamos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	na	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	agulha	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Isto é um alfinete com cabeça , de 17 centímentros . É muito , muito aguçado . Vou esterilizá-lo um bocadinho .
+1	Isto	markable_242	set_43	pronoun	extratextual reference	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	um	markable_245	set_43	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	alfinete	markable_245	set_43	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	com	markable_245	set_43	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	cabeça	markable_245	set_43	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	,	markable_245	set_43	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	de	markable_245	set_43	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	17	markable_245	set_43	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	centímentros	markable_245	set_43	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	.	markable_325	set_43	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+12	É	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	muito	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	muito	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	aguçado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Vou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	esterilizá-lo	markable_246	set_43	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+20	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	bocadinho	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Isto é mesmo a minha carne . Não é a carne especial do Damian .
+1	Isto	markable_243	empty	pronoun	extratextual reference	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	mesmo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	minha	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	carne	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	markable_326	set_43	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+8	Não	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	carne	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	especial	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	do	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Damian	markable_247	empty	pronoun	antecedent	personal	_	_	_	none	none	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Isto é a minha pele . Não é um efeito especial de Hollywood .
+1	Isto	markable_244	empty	pronoun	extratextual reference	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	minha	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	pele	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Não	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	é	markable_327	set_43	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+9	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	efeito	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	especial	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Hollywood	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Vou furar a minha pele e espetar esta agulha até ao outro lado .
+1	Vou	markable_252	set_44	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+2	furar	markable_252	set_44	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+3	a	markable_252	set_44	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+4	minha	markable_252	set_44	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+5	pele	markable_252	set_44	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+6	e	markable_252	set_44	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+7	espetar	markable_252	set_44	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+8	esta	markable_252|markable_251	set_44|set_43	clause|np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	antecedent
+9	agulha	markable_252|markable_251	set_44|set_43	clause|np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	antecedent
+10	até	markable_252	set_44	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+11	ao	markable_252	set_44	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+12	outro	markable_252	set_44	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+13	lado	markable_252	set_44	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+14	.	markable_252	set_44	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+
+# text: Se forem sensíveis ou desmaiarem facilmente Estava a fazer isto para alguns amigos no quarto do hotel , a noite passada , e para algumas pessoas que eu não conhecia , e uma mulher quase desmaiou .
+1	Se	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	forem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	sensíveis	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	ou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	desmaiarem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	facilmente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Estava	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	fazer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	isto	markable_253	set_44	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	none	_	_	_	_	_	_	_
+11	para	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	alguns	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	amigos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	no	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	quarto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	do	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	hotel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	noite	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	passada	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	para	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	algumas	markable_254	set_45	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+26	pessoas	markable_254	set_45	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+27	que	markable_255	set_45	pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+28	eu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	não	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	conhecia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	uma	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	mulher	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	quase	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	desmaiou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Então , se ficam enjoados facilmente , sugiro que olhem para o lado durante os próximos 30 ... de facto .. sabem uma coisa , vou fazer a primeira parte má às escondidas .
+1	Então	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	se	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	ficam	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	enjoados	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	facilmente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	sugiro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	olhem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	para	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	lado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	durante	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	os	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	próximos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	30	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	...	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	facto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	..	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	sabem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	uma	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	coisa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	vou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	fazer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	primeira	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	parte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	má	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	às	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	escondidas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Tu consegues ver , podes olhar para o lado se quiseres .
+1	Tu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	consegues	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ver	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	podes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	olhar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	para	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	lado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	se	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	quiseres	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Então , isto é o que acontece , aqui , o início da minha carne na parte de baixo do meu braço , faço um pequeno furo .
+1	Então	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	isto	markable_263	set_56	pronoun	extratextual reference	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	acontece	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	aqui	markable_264	empty	pronoun	extratextual reference	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	início	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	minha	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	carne	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	na	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	parte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	baixo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	do	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	meu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	braço	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	faço	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	pequeno	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	furo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Desculpa . Estou a assustar-te ?
+1	Desculpa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Estou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	assustar-te	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: E depois , um bocadinho através da minha pele , e sai do outro lado , assim .
+1	E	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	depois	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	bocadinho	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	através	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	minha	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	pele	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	sai	markable_328	set_56	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+13	do	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	outro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	lado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	assim	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Agora , essencialmente , estamos na mesma posição em que estávamos com o truque da faca .
+1	Agora	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	essencialmente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	estamos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	na	markable_256	set_46	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	mesma	markable_256	set_46	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	posição	markable_256	set_46	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	em	markable_257	set_46	pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+10	que	markable_257	set_46	pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+11	estávamos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	com	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	o	markable_258	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+14	truque	markable_258	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+15	da	markable_258	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+16	faca	markable_258	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Mais ou menos .
+1	Mais	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	ou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	menos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Mas agora conseguem contar os meus dedos , não conseguem ?
+1	Mas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	agora	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	conseguem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	contar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	os	markable_261	set_47	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	meus	markable_261	set_47	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	dedos	markable_261	set_47	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	não	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	conseguem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Então , vou mostrá-los a vocês . Um , dois , três , quatro , cinco .
+1	Então	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	vou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	mostrá-los	markable_260	set_47	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+5	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	vocês	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	dois	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	três	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	quatro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	cinco	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sim , bem ...
+1	Sim	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	bem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	...	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Eu sei o que as pessoas pensam quando vêem isto .
+1	Eu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	sei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	as	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	pessoas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	pensam	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	quando	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	vêem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	isto	markable_266	set_47	pronoun	extratextual reference	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Pensam , " Bem , de certeza que ele não é parvo o suficiente para se espetar a própria pele para nos entreter por alguns minutos . "
+1	Pensam	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Bem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	certeza	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	ele	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	não	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	parvo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	suficiente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	para	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	se	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	espetar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	própria	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	pele	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	para	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	nos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	entreter	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	por	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	alguns	markable_267	empty	pronoun	pronoun	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	minutos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Então , dêem uma olhadela .
+1	Então	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	dêem	markable_298	empty	vp	_	_	_	_	_	_	_	_	_	_	_	_	not sure. help!	_
+4	uma	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	olhadela	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Que tal vos parece ? Bem bom .
+1	Que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	tal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	vos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	parece	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Bem	markable_329	set_47	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+7	bom	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sim , eu sei . E as pessoas lá atrás estão a dizer , " Ok . Eu não cheguei a ver aquilo . "
+1	Sim	markable_299	empty	pronoun	not sure. help!	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	eu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	sei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	E	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	as	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	pessoas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	lá	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	atrás	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	estão	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	dizer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Ok	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Eu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	não	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	cheguei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	ver	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	aquilo	markable_268	set_47	pronoun	extratextual reference	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: As pessoas na sala satélite estão a começar a entrar agora .
+1	As	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	pessoas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	na	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	sala	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	satélite	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	estão	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	começar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	entrar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	agora	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Deixem dar-vos um boa visão disto .
+1	Deixem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	dar-vos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	boa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	visão	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	disto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Isto é mesmo a minha pele . Não é nenhum efeito especial de Hollywood .
+1	Isto	markable_269	set_57	pronoun	extratextual reference	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	mesmo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	minha	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	pele	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Não	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	é	markable_330	set_57	pronoun	anaphoric	none	_	simple antecedent	entity	singular	none	_	_	_	_	_	_	_
+10	nenhum	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	efeito	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	especial	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Hollywood	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Isto é mesmo a minha carne , e posso dar voltas a isto .
+1	Isto	markable_271	set_48	pronoun	extratextual reference	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	mesmo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	a	markable_272	set_48	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	minha	markable_272	set_48	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	carne	markable_272	set_48	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	posso	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	dar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	voltas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	isto	markable_273	set_48	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+14	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Desculpem . Se estão a ficar enjoados , olhem para o lado , não olhem para a coisa .
+1	Desculpem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Se	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	estão	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ficar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	enjoados	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	olhem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	para	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	lado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	não	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	olhem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	para	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	a	markable_274	set_48	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+18	coisa	markable_274	set_48	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+19	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: As pessoas lá atrás ou as pessoas à distância de anos deste vídeo , ao ver isto vão dizer , " Bem , sim , aquilo até parece interessante tem ali alguma espécie de efeito , mas se fosse real ele estaria ... vejam há um buraco aqui e um buraco ali , e se fosse real ele estaria a sangrar .
+1	As	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	pessoas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	lá	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	atrás	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	ou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	as	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	pessoas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	à	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	distância	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	anos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	deste	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	vídeo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	ao	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	ver	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	isto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	vão	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	dizer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	Bem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	sim	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	aquilo	markable_275	set_48	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+27	até	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	parece	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	interessante	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	tem	markable_331	set_48	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+31	ali	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	alguma	markable_276	empty	pronoun	pronoun	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	espécie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	efeito	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	mas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	se	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	fosse	markable_332	set_48	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+40	real	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	ele	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	estaria	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+43	...	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+44	vejam	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+45	há	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+46	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+47	buraco	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+48	aqui	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+49	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+50	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+51	buraco	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+52	ali	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+53	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+54	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+55	se	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+56	fosse	markable_333	set_48	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+57	real	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+58	ele	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+59	estaria	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+60	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+61	sangrar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+62	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Bem , deixem-me arranjar algum sangue para vocês .
+1	Bem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	deixem-me	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	arranjar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	algum	markable_277	set_49	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	sangue	markable_277	set_49	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	para	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	vocês	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sim , cá está ele .
+1	Sim	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	cá	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	está	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	ele	markable_278	set_49	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Normalmente , nesta altura , eu tiro a seringa .
+1	Normalmente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	nesta	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	altura	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	eu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	tiro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	a	markable_279	set_43	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+9	seringa	markable_279	set_43	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Limpo o meu braço , e mostro que não há feridas .
+1	Limpo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	o	markable_280	empty	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	meu	markable_280	empty	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	braço	markable_280	empty	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	mostro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	não	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	há	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	feridas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Mas penso que , neste contexto e com a ideia de pegar em algo falso e torná-lo real , vou parar por aqui , e sair do palco .
+1	Mas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	penso	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	neste	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	contexto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	com	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	ideia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	pegar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	em	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	algo	markable_281|markable_301	set_50|empty	np|pronoun	pronoun	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+15	falso	markable_281	set_50	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	torná-lo	markable_282	set_50	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+18	real	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	vou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	parar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	por	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	aqui	markable_300	empty	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+24	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	sair	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	do	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	palco	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Vou ver-vos várias vezes nos próximos dias .
+1	Vou	markable_284	set_51	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+2	ver-vos	markable_284	set_51	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+3	várias	markable_284	set_51	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+4	vezes	markable_284	set_51	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+5	nos	markable_284	set_51	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+6	próximos	markable_284	set_51	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+7	dias	markable_284	set_51	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Espero que estejam desejosos que isso aconteça . Muito obrigado .
+1	Espero	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	estejam	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	desejosos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	isso	markable_283	set_51	pronoun	anaphoric	demonstrative	_	simple antecedent	event	singular	non-subject	_	_	_	_	_	_	_
+7	aconteça	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Muito	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	obrigado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+

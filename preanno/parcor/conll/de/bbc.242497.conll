@@ -1,0 +1,454 @@
+# orig: parcor, corpus/news/DE/13
+
+# id	word	coref_id	coref_coref_class	coref_mention	coref_type	coref_type_of_pronoun	coref_audience	coref_split	coref_antetype	coref_agreement	coref_position	coref_nptype	coref_anacata	coref_npmod	coref_sub_apposition	coref_comparative	coref_vptype	coref_clausetype
+
+# text: Queensferry Crossing : Brücke nun mit Fife verbunden
+1	Queensferry	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Crossing	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Brücke	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	nun	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Fife	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	verbunden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Das £ 1,35 Mrd. teure Projekt soll bis Mai 2017 fertiggestellt werden
+1	Das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	£	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	1,35	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Mrd.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	teure	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Projekt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	soll	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	bis	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Mai	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	2017	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	fertiggestellt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ingenieure haben das Norddeck des Queensferry Crossings mit dem Viadukt verbunden - was bedeutet , dass die Brücke jetzt mit Fife verbunden ist .
+1	Ingenieure	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+2	haben	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+3	das	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+4	Norddeck	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+5	des	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+6	Queensferry	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+7	Crossings	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+8	mit	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+9	dem	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+10	Viadukt	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+11	verbunden	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+12	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	was	markable_2	set_0	pronoun	anaphoric	relative	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+14	bedeutet	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Brücke	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	jetzt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Fife	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	verbunden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es ist das erste von vier Verschließungen der " Deckgebläse " , die sich der Fertigstellung um jeden der drei Türme der Brücke nähern .
+1	Es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	erste	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	vier	markable_4	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	Verschließungen	markable_4	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	der	markable_4	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	"	markable_4	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	Deckgebläse	markable_4	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	"	markable_4	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	die	markable_3	set_1	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+14	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Fertigstellung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	jeden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	drei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Türme	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	Brücke	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	nähern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Der Brückenabschnitt von Fife ist jetzt 600 Meter lang und wiegt 30.000 Tonnen .
+1	Der	markable_6	set_2	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	Brückenabschnitt	markable_6	set_2	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	von	markable_6	set_2	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	Fife	markable_6	set_2	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	jetzt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	600	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Meter	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	lang	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	wiegt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	30.000	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Tonnen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Er verfügt über 10.000 Tonnen Stahl und 20.000 Tonnen Beton sowie 46 Schrägseile .
+1	Er	markable_5	set_2	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	verfügt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	über	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	10.000	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Tonnen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Stahl	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	20.000	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Tonnen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Beton	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	sowie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	46	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Schrägseile	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Das £ 1,35 Mrd. teure Projekt soll bis Mai 2017 fertiggestellt werden .
+1	Das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	£	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	1,35	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Mrd.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	teure	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Projekt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	soll	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	bis	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Mai	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	2017	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	fertiggestellt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Wirtschaftsminister Keith Brown stattete der Baustelle heute einen Besuch ab und war einer der Ersten , die vom Land auf die Brücke gingen .
+1	Wirtschaftsminister	markable_8	set_3	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	Keith	markable_8	set_3	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	Brown	markable_8	set_3	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	stattete	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Baustelle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	heute	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	einen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Besuch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	ab	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	einer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Ersten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	vom	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Land	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	Brücke	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	gingen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Er sagte : " Das ist ein historischer und symbolischer Moment beim Bau des Queensferry Crossings .
+1	Er	markable_7	set_3	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	historischer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	symbolischer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Moment	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	beim	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Bau	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	des	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Queensferry	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Crossings	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Wir sind alle Zeugen einer Ingenieurskunst von einem wahrlich epischen Maße bei diesem Projekt mit über 30.000 Tonnen Beton und Stahl , die alleine für diesen Teil der Brücke verwendet wurden .
+1	Wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	alle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Zeugen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	einer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Ingenieurskunst	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	einem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	wahrlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	epischen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Maße	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	bei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	diesem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Projekt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	über	markable_9	set_4	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+17	30.000	markable_9	set_4	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+18	Tonnen	markable_9	set_4	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+19	Beton	markable_9	set_4	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+20	und	markable_9	set_4	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+21	Stahl	markable_9	set_4	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+22	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	die	markable_10	set_4	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+24	alleine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	diesen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	Teil	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	Brücke	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	verwendet	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	wurden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Trotz der massiven Größe und Gewichts des Brücke , ist die Fertigstellung des Verschlusses zwischen dem Viadukt und dem Brückendeck eine heikle Tätigkeit , die extrem präzise Toleranzen für die Passung erfordern .
+1	Trotz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	massiven	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Größe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Gewichts	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	des	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Brücke	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Fertigstellung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	des	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Verschlusses	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	zwischen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	dem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Viadukt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	dem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Brückendeck	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	eine	markable_11	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+22	heikle	markable_11	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+23	Tätigkeit	markable_11	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+24	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	die	markable_12	set_5	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+26	extrem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	präzise	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	Toleranzen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	Passung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	erfordern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Insgesamt sind fast 79 % der gesamten Brückendecks an ihrem Platz und der letzte Abschnitt des Decks bekommt heute in Rosyth einen Betonguss für das Deck , was bedeutet , dass das gesamte Deck bereit ist , auf der Brücke an seinen Platz gehoben zu werden .
+1	Insgesamt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	fast	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	79	markable_13	set_6	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	%	markable_13	set_6	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	der	markable_13	set_6	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	gesamten	markable_13	set_6	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	Brückendecks	markable_13	set_6	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	ihrem	markable_14	set_6	pronoun	anaphoric	possessive	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+11	Platz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	der	markable_15	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+14	letzte	markable_15	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+15	Abschnitt	markable_15	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+16	des	markable_15	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+17	Decks	markable_15	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+18	bekommt	markable_15	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+19	heute	markable_15	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+20	in	markable_15	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+21	Rosyth	markable_15	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+22	einen	markable_15	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+23	Betonguss	markable_15	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+24	für	markable_15	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+25	das	markable_15	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+26	Deck	markable_15	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+27	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	was	markable_16	set_7	pronoun	anaphoric	relative	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+29	bedeutet	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	das	markable_17	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+33	gesamte	markable_17	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+34	Deck	markable_17	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+35	bereit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	Brücke	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	seinen	markable_18	set_8	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+43	Platz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+44	gehoben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+45	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+46	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+47	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Michael Martin , Projektleiter von Forth Crossing Bridge Constructors sagte : " Der erste Verschluss stellt bei jedem Brückenprojekt einen erheblichen Meilenstein dar .
+1	Michael	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Martin	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Projektleiter	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Forth	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Crossing	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Bridge	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Constructors	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	erste	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Verschluss	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	stellt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	bei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	jedem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Brückenprojekt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	einen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	erheblichen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	Meilenstein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	dar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Bei diesem fantastischen Projekt stellt der Verschluss zukunftsweisenden Hoch- und Tiefbau dar .
+1	Bei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	diesem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	fantastischen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Projekt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	stellt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Verschluss	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	zukunftsweisenden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Hoch-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Tiefbau	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	dar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Nach der Installation des letzten Straßendeckabschnitts und dessen Verbindung mit dem im Ausbau befindlichen Nordturmdeck , mussten wir sodann die noch bestehende Lücke auf der Nord- oder Landseite schließen .
+1	Nach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Installation	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	des	markable_20	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	letzten	markable_20	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	Straßendeckabschnitts	markable_20	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	dessen	markable_19	set_9	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+9	Verbindung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	dem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Ausbau	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	befindlichen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Nordturmdeck	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	mussten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	sodann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	die	markable_21	set_10	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+21	noch	markable_21	set_10	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+22	bestehende	markable_21	set_10	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+23	Lücke	markable_21	set_10	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+24	auf	markable_21	set_10	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+25	der	markable_21	set_10	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+26	Nord-	markable_21	set_10	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+27	oder	markable_21	set_10	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+28	Landseite	markable_21	set_10	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+29	schließen	markable_21	set_10	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+30	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Dies wurde durch Ziehen der nördlichen Zubringerbrücke 700 Millimeter südlich erreicht .
+1	Dies	markable_22	set_10	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+2	wurde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	durch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Ziehen	markable_24	set_11	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+5	der	markable_24	set_11	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+6	nördlichen	markable_24	set_11	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+7	Zubringerbrücke	markable_24	set_11	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+8	700	markable_24	set_11	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+9	Millimeter	markable_24	set_11	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+10	südlich	markable_24	set_11	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+11	erreicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Dies war eine massive und gleichzeitig sehr heikle Tätigkeit .
+1	Dies	markable_23	set_11	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+2	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	massive	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	gleichzeitig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	sehr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	heikle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Tätigkeit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Massiv , da das Viadukt 222 Meter lang ist , ca. 6.000 Tonnen wiegt und bei einer Steigung von ca. 3 % nach oben gezogen werden musste .
+1	Massiv	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Viadukt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	222	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Meter	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	lang	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	ca.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	6.000	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Tonnen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	wiegt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	bei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	einer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Steigung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	ca.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	3	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	%	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	nach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	oben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	gezogen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	musste	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Heikel , da die Toleranzen , auf die das Team hinarbeitet , winzig waren - auf jeder Seite betrugen sie nur einige Millimeter .
+1	Heikel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	die	markable_25	set_12	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	Toleranzen	markable_25	set_12	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	die	markable_26	set_12	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+9	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Team	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	hinarbeitet	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	winzig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	waren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	jeder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Seite	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	betrugen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	sie	markable_27	set_12	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+21	nur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	einige	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	Millimeter	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Glücklicherweise verlief alles sehr gut .
+1	Glücklicherweise	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	verlief	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	alles	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	sehr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	gut	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+

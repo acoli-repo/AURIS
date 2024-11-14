@@ -1,0 +1,475 @@
+# orig: parcor, corpus/news/PT/22
+
+# id	word	coref_id	coref_coref_class	coref_mention	coref_type	coref_type_of_pronoun	coref_audience	coref_split	coref_antetype	coref_agreement	coref_position	coref_nptype	coref_anacata	coref_npmod	coref_sub_apposition	coref_comparative	coref_vptype	coref_clausetype
+
+# text: Mahaj Brown , com 6 anos , " cravejado de balas " , sobrevive a tiroteio em Filadélfia
+1	Mahaj	markable_23	set_0	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	Brown	markable_23	set_0	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	com	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	6	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	anos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	cravejado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	balas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	sobrevive	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	tiroteio	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	em	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Filadélfia	markable_51	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+
+# text: A polícia informa que um rapaz de 6 anos foi baleado em Filadélfia , marcando o segundo tiroteio de um rapaz de 6 anos na cidade esta semana .
+1	A	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	polícia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	informa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	um	markable_71|markable_24	set_11|set_0	vp|np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	indefinite	_	_	antecedent	_
+6	rapaz	markable_71|markable_25|markable_24	set_11|set_14|set_0	vp|np|np	_	_	_	simple antecedent	entity	_	_	antecedent|np	anaphoric	indefinite	_	_	antecedent	_
+7	de	markable_71|markable_25|markable_24	set_11|set_14|set_0	vp|np|np	_	_	_	simple antecedent	entity	_	_	antecedent|np	anaphoric	indefinite	_	_	antecedent	_
+8	6	markable_71|markable_25|markable_24	set_11|set_14|set_0	vp|np|np	_	_	_	simple antecedent	entity	_	_	antecedent|np	anaphoric	indefinite	_	_	antecedent	_
+9	anos	markable_71|markable_25|markable_24	set_11|set_14|set_0	vp|np|np	_	_	_	simple antecedent	entity	_	_	antecedent|np	anaphoric	indefinite	_	_	antecedent	_
+10	foi	markable_71	set_11	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+11	baleado	markable_71	set_11	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+12	em	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Filadélfia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	marcando	markable_64	set_11	pronoun	anaphoric	none	_	simple antecedent	event	singular	subject	_	_	_	_	_	_	_
+16	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	segundo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	tiroteio	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	rapaz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	6	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	anos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	na	markable_52	set_1	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+26	cidade	markable_52	set_1	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+27	esta	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	semana	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Os avós da criança identificaram-no na CBS Filadélfia como Mahaj Brown .
+1	Os	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	avós	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	da	markable_29	set_0	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+4	criança	markable_29	set_0	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+5	identificaram-no	markable_63	set_0	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+6	na	markable_35	set_12	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	CBS	markable_35	set_12	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	Filadélfia	markable_35	set_12	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	como	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Mahaj	markable_30	set_0	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+11	Brown	markable_30	set_0	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Os avós dizem que Brown sofreu múltiplos ferimentos de balas , incluindo na virilha , perna , braço e abdómen , mas que estava acordado quando foi transportado para o hospital .
+1	Os	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	avós	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	dizem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Brown	markable_31	set_0	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+6	sofreu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	múltiplos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	ferimentos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	balas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	incluindo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	na	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	virilha	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	perna	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	braço	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	abdómen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	mas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	estava	markable_65	set_0	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+25	acordado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	quando	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	foi	markable_66	set_0	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+28	transportado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	para	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	hospital	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: " Ele sofreu muito , o seu corpinho estava cravejado de balas " , diz a sua avó Delores Melendez à estação .
+1	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Ele	markable_32	set_0	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+3	sofreu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	muito	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	o	markable_33	set_0	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+7	seu	markable_33	set_0	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+8	corpinho	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	estava	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	cravejado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	balas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	diz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	a	markable_34	set_0	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+17	sua	markable_34	set_0	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+18	avó	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Delores	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Melendez	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	à	markable_36	set_12	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+22	estação	markable_36	set_12	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+23	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Não consigo acreditar .
+1	Não	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	consigo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	acreditar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: O rapaz está internado em estado crítico num hospital e já foi submetido a várias cirurgias .
+1	O	markable_37	set_0	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+2	rapaz	markable_37	set_0	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+3	está	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	internado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	em	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	estado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	crítico	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	num	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	hospital	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	já	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	foi	markable_67	set_0	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+13	submetido	markable_67	set_0	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+14	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	várias	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	cirurgias	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Família diz à estação que se espera que ele recupere .
+1	Família	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	diz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	à	markable_38	set_12	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+4	estação	markable_38	set_12	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+5	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	se	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	espera	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	ele	markable_39	set_0	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+10	recupere	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Estava preparado para começar a primeira classe numa escola primária local .
+1	Estava	markable_68	set_0	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	preparado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	para	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	começar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	primeira	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	classe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	numa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	escola	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	primária	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	local	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Brown estava entre quatro pessoas baleadas na secção de Germantown .
+1	Brown	markable_40	set_0	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	estava	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	entre	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	quatro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	pessoas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	baleadas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	na	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	secção	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Germantown	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Outros três homens foram também alvejados : dois de 29 anos e um de 32 anos .
+1	Outros	markable_41	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+2	três	markable_43|markable_41	set_6|set_7	np|clause	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	antecedent
+3	homens	markable_43|markable_41	set_6|set_7	np|clause	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	antecedent
+4	foram	markable_41	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+5	também	markable_41	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+6	alvejados	markable_41	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+7	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	dois	markable_49	set_3	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	de	markable_49	set_3	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	29	markable_49	set_3	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	anos	markable_49	set_3	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	32	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	anos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Um dos homens de 29 anos foi declarado em estado crítico ; as outras duas vítimas estavam em estado estável , de acordo com a CBS Philadelphia .
+1	Um	markable_46	set_4	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	dos	markable_47|markable_46	set_3|set_4	np|np	_	_	_	simple antecedent	entity	_	_	np|antecedent	anaphoric	def-article	_	_	_	_
+3	homens	markable_47|markable_46	set_3|set_4	np|np	_	_	_	simple antecedent	entity	_	_	np|antecedent	anaphoric	def-article	_	_	_	_
+4	de	markable_47|markable_46	set_3|set_4	np|np	_	_	_	simple antecedent	entity	_	_	np|antecedent	anaphoric	def-article	_	_	_	_
+5	29	markable_47|markable_46	set_3|set_4	np|np	_	_	_	simple antecedent	entity	_	_	np|antecedent	anaphoric	def-article	_	_	_	_
+6	anos	markable_47|markable_46	set_3|set_4	np|np	_	_	_	simple antecedent	entity	_	_	np|antecedent	anaphoric	def-article	_	_	_	_
+7	foi	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	declarado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	em	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	estado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	crítico	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	;	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	as	markable_48	set_4	np	_	_	_	simple antecedent	entity	_	_	comparative	_	_	_	gen	_	_
+14	outras	markable_48	set_4	np	_	_	_	simple antecedent	entity	_	_	comparative	_	_	_	gen	_	_
+15	duas	markable_48	set_4	np	_	_	_	simple antecedent	entity	_	_	comparative	_	_	_	gen	_	_
+16	vítimas	markable_48	set_4	np	_	_	_	simple antecedent	entity	_	_	comparative	_	_	_	gen	_	_
+17	estavam	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	em	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	estado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	estável	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	acordo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	com	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	a	markable_45	set_12	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+26	CBS	markable_45	set_12	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+27	Philadelphia	markable_45	set_12	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: A criança foi encontrada baleada no banco da frente de um carro juntamente com a pessoa de 29 anos em estado crítico , informa a estação .
+1	A	markable_53	set_0	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+2	criança	markable_53	set_0	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+3	foi	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	encontrada	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	baleada	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	no	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	banco	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	frente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	um	markable_56	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	carro	markable_56	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	juntamente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	com	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	a	markable_57	set_4	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+16	pessoa	markable_57	set_4	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+17	de	markable_57	set_4	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+18	29	markable_57	set_4	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+19	anos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	em	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	estado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	crítico	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	informa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	a	markable_58	set_12	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+26	estação	markable_58	set_12	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+27	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: As outras duas vítimas não estavam no carro e a polícia está a investigar se algum dos feridos pode ser um atirador .
+1	As	markable_54	set_4	np	_	_	_	simple antecedent	entity	_	_	comparative	_	_	_	gen	_	_
+2	outras	markable_54	set_4	np	_	_	_	simple antecedent	entity	_	_	comparative	_	_	_	gen	_	_
+3	duas	markable_54	set_4	np	_	_	_	simple antecedent	entity	_	_	comparative	_	_	_	gen	_	_
+4	vítimas	markable_54	set_4	np	_	_	_	simple antecedent	entity	_	_	comparative	_	_	_	gen	_	_
+5	não	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	estavam	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	no	markable_55	set_5	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+8	carro	markable_55	set_5	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+9	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	polícia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	está	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	investigar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	se	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	algum	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	dos	markable_44	set_6	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+18	feridos	markable_44	set_6	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+19	pode	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	ser	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	atirador	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Investigadores disseram à CBS Philadelphia que parece ter havido fogo cruzado entre múltiplos pistoleiros .
+1	Investigadores	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	disseram	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	à	markable_59	set_12	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+4	CBS	markable_59	set_12	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+5	Philadelphia	markable_59	set_12	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+6	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	parece	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	ter	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	havido	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	fogo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	cruzado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	entre	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	múltiplos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	pistoleiros	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Invólucros de cartuchos de armas de assalto , rastreadas a diferentes armas de assalto , estavam espalhados no local .
+1	Invólucros	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	cartuchos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	armas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	assalto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	rastreadas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	diferentes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	armas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	assalto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	estavam	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	espalhados	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	no	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	local	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Pelos vistos , esta foi definitivamente uma batalha contínua .
+1	Pelos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	vistos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	esta	markable_42	set_7	pronoun	anaphoric	demonstrative	_	simple antecedent	event	singular	non-subject	_	_	_	_	_	_	_
+5	foi	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	definitivamente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	uma	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	batalha	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	contínua	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Havia cartuchos na rua , em ambos os lados da calçada .
+1	Havia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	cartuchos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	na	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	rua	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	em	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	ambos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	os	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	lados	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	calçada	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Então parece que havia aqui vários combatentes armados e que eles estavam activamente envolvidos " , disse o Capitão da Polícia de Filadélfia Anthony Ginaldi à esquadra .
+1	Então	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	parece	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	havia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	aqui	markable_60	set_7	pronoun	anaphoric	demonstrative	_	simple antecedent	event	singular	non-subject	_	_	_	_	_	_	_
+6	vários	markable_61	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	combatentes	markable_61	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	armados	markable_61	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	eles	markable_62	set_8	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+12	estavam	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	activamente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	envolvidos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	disse	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Capitão	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Polícia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	Filadélfia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Anthony	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	Ginaldi	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	à	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	esquadra	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Vários veículos e casas na área também foram atingidos .
+1	Vários	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	veículos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	casas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	na	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	área	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	também	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	foram	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	atingidos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Não foram efectuadas detenções e a polícia está , alegadamente , a rever o vídeo de vigilância .
+1	Não	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	foram	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	efectuadas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	detenções	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	polícia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	está	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	alegadamente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	rever	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	vídeo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	vigilância	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Uma outra menina de 6 anos , uma rapariga , foi atingida no braço por uma bala perdida na terça-feira enquanto brincava em frente da sua casa no bairro de West Oak Lane .
+1	Uma	markable_26	set_13	np	_	_	_	simple antecedent	entity	_	_	comparative	_	_	_	gen	_	_
+2	outra	markable_72|markable_26	set_14|set_13	np|np	_	_	_	simple antecedent|simple antecedent	entity|entity	_	_	comparative|comparative	_	_	_	gen|gen	_	_
+3	menina	markable_72|markable_26	set_14|set_13	np|np	_	_	_	simple antecedent|simple antecedent	entity|entity	_	_	comparative|comparative	_	_	_	gen|gen	_	_
+4	de	markable_72|markable_26	set_14|set_13	np|np	_	_	_	simple antecedent|simple antecedent	entity|entity	_	_	comparative|comparative	_	_	_	gen|gen	_	_
+5	6	markable_72|markable_26	set_14|set_13	np|np	_	_	_	simple antecedent|simple antecedent	entity|entity	_	_	comparative|comparative	_	_	_	gen|gen	_	_
+6	anos	markable_72|markable_26	set_14|set_13	np|np	_	_	_	simple antecedent|simple antecedent	entity|entity	_	_	comparative|comparative	_	_	_	gen|gen	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	uma	markable_27	set_13	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	rapariga	markable_27	set_13	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	foi	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	atingida	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	no	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	braço	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	por	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	uma	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	bala	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	perdida	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	na	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	terça-feira	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	enquanto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	brincava	markable_69	set_13	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+23	em	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	frente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	da	markable_28	set_13	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+26	sua	markable_28	set_13	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+27	casa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	no	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	bairro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	West	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	Oak	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	Lane	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Está a recuperar , e a polícia continua à procura de um suspeito .
+1	Está	markable_70	set_13	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	recuperar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	polícia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	continua	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	à	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	procura	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	suspeito	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+

@@ -1,0 +1,594 @@
+# orig: parcor, corpus/news/DE/16
+
+# id	word	coref_id	coref_coref_class	coref_mention	coref_type	coref_type_of_pronoun	coref_audience	coref_split	coref_antetype	coref_agreement	coref_position	coref_nptype	coref_anacata	coref_npmod	coref_sub_apposition	coref_comparative	coref_vptype	coref_clausetype
+
+# text: Wer baut Braunschweigs günstige Wohnungen ?
+1	Wer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	baut	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Braunschweigs	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	günstige	markable_35	set_13	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	Wohnungen	markable_35	set_13	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die SPD und Grüne meinen : Investoren sollen künftig viel stärker in die Pflicht genommen werden .
+1	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	SPD	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Grüne	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	meinen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Investoren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	sollen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	künftig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	viel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	stärker	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Pflicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	genommen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Wie reagiert man auf die schlechte Nachricht , dass Braunschweig in den nächsten Jahren fast 1300 günstige Wohnungen verlieren wird ?
+1	Wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	reagiert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	man	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	schlechte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Nachricht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Braunschweig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	nächsten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Jahren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	fast	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	1300	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	günstige	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Wohnungen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	verlieren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	wird	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die SPD schlägt zur nächsten Ratssitzung ein " Handlungskonzept Wohnen " vor .
+1	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	SPD	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	schlägt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	zur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	nächsten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Ratssitzung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Handlungskonzept	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Wohnen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	vor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Doch Streit ist programmiert .
+1	Doch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Streit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	programmiert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: In erster Linie geht es um die Frage : Wer soll die günstigen Wohnungen eigentlich bauen ?
+1	In	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	erster	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Linie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	geht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Frage	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Wer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	soll	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	die	markable_36	set_13	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+13	günstigen	markable_36	set_13	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+14	Wohnungen	markable_36	set_13	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+15	eigentlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	bauen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Eine Regelung fehlt bislang .
+1	Eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Regelung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	fehlt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	bislang	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: SPD-Fraktionsvorsitzender Christoph Bratmann meint : " Wir sind uns mit den Grünen einig : Wer auf städtischen Flächen bauen will , muss künftig 20 Prozent aller Wohnungen als Sozialwohnungen ausweisen . "
+1	SPD-Fraktionsvorsitzender	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Christoph	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Bratmann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	meint	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	uns	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Grünen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	einig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Wer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	städtischen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Flächen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	bauen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	will	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	muss	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	künftig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	20	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	Prozent	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	aller	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	Wohnungen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	Sozialwohnungen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	ausweisen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die günstigen Wohnungen können allerdings auch im Bestand entstehen .
+1	Die	markable_37	set_13	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+2	günstigen	markable_37	set_13	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+3	Wohnungen	markable_37	set_13	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+4	können	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	allerdings	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	auch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Bestand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	entstehen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Der große Streitpunkt im Rathaus sei jedoch , so Bratmann : " Wie geht man mit Investoren um , die auf privaten Flächen bauen wollen ? "
+1	Der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	große	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Streitpunkt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Rathaus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	sei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	jedoch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	so	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Bratmann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	geht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	man	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Investoren	markable_1	set_0	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+18	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	die	markable_2	set_0	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+21	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	privaten	markable_3	set_12	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+23	Flächen	markable_3	set_12	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+24	bauen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	wollen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: " Wir wollen , dass Investoren auf solchen Flächen mindestens 10 Prozent , aber möglichst 20 Prozent der Wohnungen als Sozialwohnungen bauen . "
+1	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	wollen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Investoren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	solchen	markable_4	set_12	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+9	Flächen	markable_4	set_12	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+10	mindestens	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	10	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Prozent	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	aber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	möglichst	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	20	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Prozent	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Wohnungen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Sozialwohnungen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	bauen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ein neues städtisches Wohnungsbau-Förderprogramm , das Millionen kosten wird und noch finanziert werden muss , soll für Anreize sorgen .
+1	Ein	markable_6	set_3	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	neues	markable_6	set_3	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	städtisches	markable_6	set_3	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	Wohnungsbau-Förderprogramm	markable_6	set_3	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	das	markable_5	set_3	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+7	Millionen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	kosten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	wird	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	noch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	finanziert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	muss	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	soll	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Anreize	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	sorgen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Das Problem , so Bratmann : " Es gibt momentan noch keine Einigung zwischen den Fraktionen . "
+1	Das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Problem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	so	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Bratmann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	gibt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	momentan	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	noch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	keine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Einigung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	zwischen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Fraktionen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die CDU möchte Investoren möglichst wenige Vorschriften machen .
+1	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	CDU	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	möchte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Investoren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	möglichst	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	wenige	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Vorschriften	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	machen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die Linke will noch härte Auflagen für Investoren .
+1	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Linke	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	will	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	noch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	härte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Auflagen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Investoren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ungeachtet dessen , so Bratmann , bahne sich eine Verschärfung der Situation auf dem Wohnungsmarkt an .
+1	Ungeachtet	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	dessen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	so	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Bratmann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	bahne	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Verschärfung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Situation	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	dem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Wohnungsmarkt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Wird das Handlungskonzept umgesetzt , wird das für zusätzliche Aufgaben in der Bauverwaltung sorgen .
+1	Wird	markable_7	set_4	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+2	das	markable_7	set_4	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+3	Handlungskonzept	markable_7	set_4	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+4	umgesetzt	markable_7	set_4	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	wird	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	das	markable_8	set_4	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+8	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	zusätzliche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Aufgaben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Bauverwaltung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	sorgen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Mehr Personal wird benötigt .
+1	Mehr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Personal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	wird	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	benötigt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es ist unklar , ob wir die Fachkräfte bekommen werden .
+1	Es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	unklar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	ob	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Fachkräfte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	bekommen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Doch noch steht das Programm nicht gänzlich : Denn die rund 1260 neuen Wohnungen , die sollten ohnehin gebaut werden .
+1	Doch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	noch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	steht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Programm	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	gänzlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Denn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	rund	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	1260	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	neuen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Wohnungen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	sollten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	ohnehin	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	gebaut	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Wie aber gleicht man den Verlust von weiteren rund 1300 günstigen Wohnungen aus , deren Förderung in den nächsten Jahren auslaufen wird ?
+1	Wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	aber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	gleicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	man	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Verlust	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	weiteren	markable_11	set_6	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	rund	markable_11	set_6	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	1300	markable_11	set_6	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	günstigen	markable_11	set_6	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	Wohnungen	markable_11	set_6	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	aus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	deren	markable_12	set_6	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+16	Förderung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	nächsten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Jahren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	auslaufen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	wird	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Allein bis zum Jahr 2020 werden es 500 Wohnungen sein .
+1	Allein	markable_13	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+2	bis	markable_13	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+3	zum	markable_13	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+4	Jahr	markable_13	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+5	2020	markable_13	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+6	werden	markable_13	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+7	es	markable_13	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+8	500	markable_13	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+9	Wohnungen	markable_13	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+10	sein	markable_13	set_7	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Um das zu verhindern , so die planungspolitische Sprecherin Nicole Palm , sollten jetzt auslaufende Bindungen von der Stadt angekauft werden .
+1	Um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	das	markable_14	set_7	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	non-subject	_	_	_	_	_	_	_
+3	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	verhindern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	so	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	planungspolitische	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Sprecherin	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Nicole	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Palm	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	sollten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	jetzt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	auslaufende	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Bindungen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Stadt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	angekauft	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Außerdem müsste darüber nachgedacht werden , Wohnungen wieder zurück in die Preisbindung zu holen .
+1	Außerdem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	müsste	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	darüber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	nachgedacht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Wohnungen	markable_15	set_8	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+8	wieder	markable_15	set_8	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+9	zurück	markable_15	set_8	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+10	in	markable_15	set_8	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+11	die	markable_15	set_8	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+12	Preisbindung	markable_15	set_8	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+13	zu	markable_15	set_8	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+14	holen	markable_15	set_8	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Das ist in der Weststadt möglich .
+1	Das	markable_16	set_8	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Weststadt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	möglich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Auf einen Schlag ließe sich das Problem lösen .
+1	Auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	einen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Schlag	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	ließe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Problem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	lösen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Denn in der Weststadt laufen zum Jahresende Fristen aus .
+1	Denn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Weststadt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	laufen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	zum	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Jahresende	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Fristen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	aus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Rund 1800 Wohnungen könnte man dort zurück in die Preisbindung für günstige Wohnungen holen .
+1	Rund	markable_17	set_9	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+2	1800	markable_17	set_9	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+3	Wohnungen	markable_17	set_9	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+4	könnte	markable_17	set_9	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+5	man	markable_17	set_9	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+6	dort	markable_17	set_9	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+7	zurück	markable_17	set_9	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+8	in	markable_17	set_9	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+9	die	markable_17	set_9	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+10	Preisbindung	markable_17	set_9	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+11	für	markable_17	set_9	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+12	günstige	markable_17	set_9	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+13	Wohnungen	markable_17	set_9	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+14	holen	markable_17	set_9	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Nur : Das wollen die Eigentümer , die Wohnungsbaugesellschaften nicht .
+1	Nur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Das	markable_18	set_9	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+4	wollen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Eigentümer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Wohnungsbaugesellschaften	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Denn wird die Zahl der Sozialwohnungen in der Weststadt wieder drastisch erhöht , entfernt man sich vom Ziel der sogenannten Durchmischung .
+1	Denn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	wird	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Zahl	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Sozialwohnungen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Weststadt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	wieder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	drastisch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	erhöht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	entfernt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	man	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	vom	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Ziel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	sogenannten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Durchmischung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Eine Konzentration von Sozialschwachen in nur wenigen Stadtteilen soll es nicht mehr geben .
+1	Eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Konzentration	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Sozialschwachen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	nur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	wenigen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Stadtteilen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	soll	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	mehr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	geben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die Grünen rechnen damit , dass es noch Bewegung in der Diskussion geben wird .
+1	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Grünen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	rechnen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	damit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	noch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Bewegung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Diskussion	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	geben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	wird	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Fraktionsvorsitzender Holger Herlitschke meint : " Für eine breite Mehrheit muss die CDU mit ins Boot . "
+1	Fraktionsvorsitzender	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Holger	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Herlitschke	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	meint	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	breite	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Mehrheit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	muss	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	die	markable_19	set_10	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	CDU	markable_19	set_10	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	ins	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Boot	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die habe sich zwar auf mehr Bauplätze für Einfamilienhäuser konzentriert .
+1	Die	markable_21|markable_20	set_11|set_10	clause|pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	antecedent
+2	habe	markable_21	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+3	sich	markable_21	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+4	zwar	markable_21	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+5	auf	markable_21	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+6	mehr	markable_21	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+7	Bauplätze	markable_21	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+8	für	markable_21	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+9	Einfamilienhäuser	markable_21	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+10	konzentriert	markable_21	set_11	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Was aber nicht heißt , dass nicht doch noch ein Kompromiss gefunden werden kann .
+1	Was	markable_22	set_11	pronoun	anaphoric	relative	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+2	aber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	heißt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	doch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	noch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Kompromiss	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	gefunden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	kann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
