@@ -69,15 +69,23 @@ refexp: conllu conll ../../refexp ../../conll-rdf ../../conll-merge
                 | grep -v "ERROR org.apache.jena.riot" \
                 | tee $$tgt.3.ttl \
                 | ../../conll-rdf/run.sh CoNLLRDFFormatter \
-                	-conll ID FORM coref_class \
+                	-conll ID FORM coref_coref_class \
                 | grep -v '#' \
-                | tee $$tgt.4.unmerged; \
+                > $$tgt.4.unmerged; \
                 # | conll-merge $$refexp -- 0 1 \
                 echo python3 ../../conll-merge/experimental/align.py 500 $$refexp=0 $$tgt.4.unmerged=1 1>&2;\
                 python3 ../../conll-merge/experimental/align.py 500 $$refexp=0 $$tgt.4.unmerged=1 \
                 | sed s/'\t[?]'/'\t'/g \
                 | tee $$tgt;\
-                ## $$tgt.tmp 0 1 \
+                if egrep -m 1 'OLD|NEW' $$tgt >/dev/null; then \
+                	if egrep -m 1 'set_' $$tgt > /dev/null; then \
+                		rm $$tgt.*;\
+                	else \
+                		echo '  warning: '$$tgt contains no ParCor markables 1>&2;\
+                	fi;\
+                else \
+                	echo '  warning: '$$tgt contains no AURIS pre-annotation 1>&2;\
+                fi;\
 			fi;\
 		fi;\
 	done;

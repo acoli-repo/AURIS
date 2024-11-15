@@ -1,0 +1,531 @@
+*Die*					1	Die	set_12	
+# text = Royal Bank of Scotland für Kunden außerhalb Schottlands nicht mehr verfügbar Die Marke RBS soll laut dem Vorstandschef der Bank nurmehr auf eine Backoffice-Rolle reduziert werden.	10	mehr	_	
+Royal	SBJ	ne	OLD		11	auf	_	
+Bank					13	Bank	_	
+of					14	RBS	_	
+Scotland					15	Scotland	_	
+für					16	für	_	
+Kunden	other_2	def-np.poss	OLD		17	Kunden	_	
+außerhalb								
+Schottlands	other_3	ne	OLD					
+nicht								
+mehr								
+verfügbar								
+Die								
+Marke	SBJ_2	def-np.the	OLD					
+RBS	other_3	ne	OLD					
+soll								
+laut								
+dem								
+Vorstandschef	other_2	def-np.the	OLD		18	Vorstandschef	_	
+der					19	Schottlands	_	
+Bank	other_3	def-np.the	OLD		20	Bank	_	
+nurmehr								
+auf								
+eine								
+Backoffice								
+_								
+Rolle	other_2	indef-np.a						
+reduziert					14	reduziert	_	
+werden								
+.							
+	
+# text = Die Royal Bank of Scotland wird für Kunden außerhalb Schottlands nicht mehr verfügbar sein.				
+Die					1	Die	_	
+Royal	SBJ	ne	OLD		2	Royal	set_12	
+Bank					3	Bank	_	
+of					4	of	_	
+Scotland					5	Scotland	_	
+wird					6	wird	_	
+für					7	für	_	
+Kunden	other	def-np.poss	OLD		8	Kunden	_	
+außerhalb					9	außerhalb	_	
+Schottlands	other_2	ne	OLD		10	Schottlands	_	
+nicht					11	nicht	_	
+mehr					12	mehr	_	
+verfügbar					13	verfügbar	_	
+sein					14	sein	_	
+.				15	.	_
+		
+# text = Ross McEwan teilte der BBC Scotland mit, dass die Marke RBS mit den globalen Ambitionen der Bank verbunden waren.	
+Ross	SBJ	ne	OLD		1	Ross	_	
+McEwan					2	McEwan	_	
+teilte					3	teilte	_	
+der					4	der	_	
+BBC	SBJ_2	ne	OLD		5	BBC	_	
+Scotland	OBJ	ne	OLD		6	Scotland	set_13	
+mit					7	mit	_	
+,					8	,	_	
+dass					9	dass	_	
+die					10	die	_	
+Marke	SBJ_2	def-np.the	OLD		11	Marke	set_16	
+RBS	other_3	ne	OLD		12	RBS	_	
+mit					13	mit	_	
+den					14	den	_	
+globalen					15	globalen	_	
+Ambitionen	other_2	def-np.the	OLD		16	Ambitionen	_	
+der					17	der	_	
+Bank	other_3	def-np.the	OLD		18	Bank	set_12	
+verbunden					19	verbunden	_	
+waren					20	waren	_	
+.				21	.	_
+		
+# text = Die Bank hat sich seitdem distanziert, als sie vor acht Jahren fast kollabierte und gerettet werden musste.	
+Die					1	Die	_	
+Bank	SBJ	def-np.the	OLD		2	Bank	set_12	
+hat					3	hat	_	
+sich	OBJ				4	sich	_	
+seitdem					5	seitdem	_	
+distanziert					6	distanziert	_	
+,					7	,	_	
+als					8	als	_	
+sie	SBJ_2	pron	OLD		9	sie	set_12	
+vor					10	vor	_	
+acht					11	acht	_	
+Jahren	other_2	indef-np.quant			12	Jahren	set_2	
+fast					13	fast	_	
+kollabierte					14	kollabierte	_	
+und					15	und	_	
+gerettet					16	gerettet	_	
+werden					17	werden	_	
+musste					18	musste	_	
+.				19	.	_
+		
+--	
+# text = In dieser Zeit haben Markenstrategen \"RBS\" dazu verwendet, andere Endverbraucherfinanzmarken zu schützen.				
+In					1	In	_	
+dieser	other_2	pron.pds	OLD		2	dieser	_	
+Zeit	other	def-np.dem	OLD		3	Zeit	set_2	
+haben					4	haben	_	
+Markenstrategen	SBJ	ne	OLD		5	Markenstrategen	_	
+&quot;					6	''	_	
+RBS	other_2	ne	OLD		7	RBS	set_16	
+&quot;					8	''	_	
+dazu	other	pron.padv	OLD		9	dazu	_	
+verwendet					10	verwendet	_	
+,					11	,	_	
+andere					12	andere	_	
+Endverbraucherfinanzmarken	OBJ_2	indef-np.bare			13	Endverbraucherfinanzmarken	_	
+zu					14	zu	_	
+schützen					15	schützen	_	
+.				16	.	_
+		
+# text = Sie unterstützte den internationalen Sport mit Millionen Pfund an Sponsoring, vom Six Nations Rugby bis hin zum Wimbledon Sieger Andy Murray.	
+Sie	SBJ	pron.pper	OLD		1	Sie	set_12	
+unterstützte					2	unterstützte	_	
+den					3	den	_	
+internationalen					4	internationalen	_	
+Sport	OBJ	def-np.the	OLD		5	Sport	_	
+mit					6	mit	_	
+Millionen	other_3	indef-np.bare			7	Millionen	_	
+Pfund	other_2	ne	OLD		8	Pfund	_	
+an					9	an	_	
+Sponsoring	other	ne	OLD		10	Sponsoring	_	
+,								
+von								
+dem								
+Six	other	ne	OLD		13	Six	_	
+Nations								
+Rugby								
+bis								
+hin								
+zu	other_2	pron.pind						
+dem								
+Wimbledon	other	ne	OLD		19	Wimbledon	_	
+Sieger					20	Sieger	_	
+Andy								
+Murray								
+.				23	.	_
+		
+# text = Aber jetzt hat sie sich dazu entschieden, mehr nationale Marken in den Fokus zu rücken.	
+Aber					1	Aber	_	
+jetzt					2	jetzt	_	
+hat					3	hat	_	
+sie	SBJ	pron	OLD		4	sie	set_12	
+sich	OBJ				5	sich	_	
+dazu	other	pron.padv	OLD		6	dazu	_	
+entschieden					7	entschieden	_	
+,					8	,	_	
+mehr					9	mehr	_	
+nationale					10	nationale	_	
+Marken	OBJ_2	indef-np.bare			11	Marken	_	
+in					12	in	_	
+den					13	den	_	
+Fokus	other_2	def-np.the	OLD		14	Fokus	_	
+zu					15	zu	_	
+rücken					16	rücken	_	
+.				17	.	_
+		
+# text = Die Royal Bank of Scotland wird nur für Kunden in Schottland verfügbar sein, aber wird nicht initialisiert werden.	
+Die					1	Die	_	
+Royal	SBJ	ne	OLD		2	Royal	set_12	
+Bank					3	Bank	_	
+of					4	of	_	
+Scotland					5	Scotland	_	
+wird					6	wird	_	
+nur					7	nur	_	
+für					8	für	_	
+Kunden	other	indef-np.bare			9	Kunden	_	
+in					10	in	_	
+Schottland	other_2	ne	OLD		11	Schottland	_	
+verfügbar					12	verfügbar	_	
+sein					13	sein	_	
+,					14	,	_	
+aber					15	aber	_	
+wird					16	wird	_	
+nicht					17	nicht	_	
+initialisiert					18	initialisiert	_	
+werden					19	werden	_	
+.				20	.	_
+		
+# text = In England und Wales werden alle RSB Referenzen, der dezentrale Hauptsitz und die Börsennotierung zu NatWest wechseln.	
+In					1	In	_	
+England	other	ne	OLD		2	England	_	
+und					3	und	_	
+Wales	other_2	ne	OLD		4	Wales	_	
+werden					5	werden	_	
+alle	other_2	pron.pind			6	alle	_	
+RSB	OBJ	ne	OLD		7	RSB	_	
+Referenzen					8	Referenzen	_	
+,					9	,	_	
+der					10	der	_	
+dezentrale					11	dezentrale	_	
+Hauptsitz	other_2	def-np.the	OLD		12	Hauptsitz	_	
+und					13	und	_	
+die					14	die	_	
+Börsennotierung	other_2	def-np.the	OLD		15	Börsennotierung	_	
+zu	other_2	pron.pind			16	zu	_	
+NatWest	other	ne	OLD		17	NatWest	_	
+wechseln					18	wechseln	_	
+.				19	.	_
+		
+# text = Die Marke Ulster Bank wird bereits für Kunden in der Republik Irland und Nordirland verwendet.	
+Die					1	Die	_	
+Marke	SBJ	def-np.the	OLD		2	Marke	_	
+Ulster	other_2	ne	OLD		3	Ulster	_	
+Bank					4	Bank	_	
+wird					5	wird	_	
+bereits					6	bereits	_	
+für					7	für	_	
+Kunden	other_2	indef-np.bare			8	Kunden	_	
+in					9	in	_	
+der					10	der	_	
+Republik	other	def-np.the	OLD		11	Republik	_	
+Irland	other_2	ne	OLD		12	Irland	_	
+und					13	und	_	
+Nordirland	other_3	ne	OLD		14	Nordirland	_	
+verwendet					15	verwendet	_	
+.				16	.	_
+		
+# text = Es gibt andere, kleinere Marken für das Privatkundengeschäft, die mehr Bedeutung erhalten werden - Coutts, Adam & Co, Drummond und Holt's Military Bank.	
+Es					1	Es	_	
+gibt					2	gibt	_	
+andere	other_2	pron	OLD		3	andere	_	
+,					4	,	_	
+kleinere					5	kleinere	_	
+Marken	SBJ	indef-np.bare			6	Marken	set_4	
+für					7	für	_	
+das					8	das	_	
+Privatkundengeschäft	other_2	def-np.the	OLD		9	Privatkundengeschäft	_	
+,								
+die	SBJ_5							
+mehr								
+Bedeutung	OBJ_5	indef-np.bare						
+erhalten								
+werden								
+_								
+Coutts								
+,								
+Adam	other_5	ne	OLD					
+&amp;								
+Co	other_6	ne	OLD					
+,								
+Drummond	other_5	ne	OLD					
+und								
+Holt's	other_5	ne	OLD					
+Military								
+Bank	other_3	ne	OLD		27	Bank	_	
+.				28	.	_
+		
+# text = McEwan wurde während einer Besichtigungstour von Kunden und Mitarbeitern in Inverness-shire interviewt.	
+McEwan	SBJ	ne	OLD		1	McEwan	set_5	
+wurde					2	wurde	_	
+während					3	während	_	
+einer					4	einer	_	
+Besichtigungstour	other	indef-np.a			5	Besichtigungstour	_	
+von					6	von	_	
+Kunden	other_2	indef-np.bare			7	Kunden	_	
+und					8	und	_	
+Mitarbeitern	other_3	indef-np.bare			9	Mitarbeitern	_	
+in					10	in	_	
+Inverness-shire	other	ne	OLD		11	Inverness-shire	_	
+interviewt					12	interviewt	_	
+.				13	.	_
+		
+--	
+# text = Er teilte der BBC Scotland mit: \"Die Marke RSB wird zu unserer Investorenmarke sowie zu der Marke, unter der unsere Mitarbeiter beschäftigt sein werden, da wir jetzt mehr zu einer Bank von Marken werden.\"				
+Er	SBJ	pron.pper	OLD		1	Er	set_5	
+teilte					2	teilte	_	
+der					3	der	_	
+BBC	OBJ	ne	OLD		4	BBC	set_13	
+Scotland					5	Scotland	_	
+mit					6	mit	_	
+:					7	:	_	
+&quot;					8	''	_	
+Die					9	Die	_	
+Marke	SBJ_2	ne	OLD		10	Marke	set_16	
+RSB					11	RSB	_	
+wird					12	wird	_	
+zu	other_3	pron.pind			13	zu	_	
+unserer	other_3	pron.ppos	OLD		14	unserer	_	
+Investorenmarke	other_2	indef-np.bare			15	Investorenmarke	_	
+sowie					16	sowie	_	
+zu					17	zu	_	
+der					18	der	_	
+Marke	other_3	def-np.the	OLD		19	Marke	set_6	
+,					20	,	_	
+unter					21	unter	_	
+der	other_5	pron	OLD		22	der	set_6	
+unsere	other_6	pron.ppos	OLD		23	unsere	_	
+Mitarbeiter	OBJ_5	indef-np.bare			24	Mitarbeiter	_	
+beschäftigt					25	beschäftigt	_	
+sein					26	sein	_	
+werden					27	werden	_	
+,					28	,	_	
+da					29	da	_	
+wir	SBJ_3	pron	OLD		30	wir	_	
+jetzt					31	jetzt	_	
+mehr					32	mehr	_	
+zu	other_4	pron.pind			33	zu	_	
+einer					34	einer	_	
+Bank	other_3	indef-np.a			35	Bank	_	
+von					36	von	_	
+Marken	other_4	indef-np.bare			37	Marken	_	
+werden					38	werden	_	
+.					39	.	_	
+&quot;				40	''	_
+		
+# text = Als die Bank selber zu einer globalen Marke wurde, wurde RBS zur globalen Marke.	
+Als					1	Als	_	
+die					2	die	_	
+Bank	SBJ_2	def-np.the	OLD		3	Bank	_	
+selber					4	selber	_	
+zu					5	zu	_	
+einer					6	einer	_	
+globalen					7	globalen	_	
+Marke	other_2	indef-np.a			8	Marke	_	
+wurde					9	wurde	_	
+,					10	,	_	
+wurde					11	wurde	_	
+RBS	other	ne	OLD		12	RBS	set_16	
+zu	other_3	pron.pind						
+der					13	der	_	
+globalen					14	globalen	_	
+Marke	other_2	def-np.the	OLD		15	Marke	_	
+.				16	.	_
+		
+# text = Ich sage jetzt, dass wir keine globalen Ziele, sondern lokale Ziele verfolgen.	
+Ich	SBJ	pron.pper	OLD		1	Ich	_	
+sage					2	sage	_	
+jetzt					3	jetzt	_	
+,					4	,	_	
+dass					5	dass	_	
+wir	SBJ_2	pron	OLD		6	wir	_	
+keine	other_3	pron	OLD		7	keine	_	
+globalen					8	globalen	_	
+Ziele	OBJ_2	indef-np.quant			9	Ziele	_	
+,					10	,	_	
+sondern					11	sondern	_	
+lokale					12	lokale	_	
+Ziele	OBJ_2	indef-np.bare			13	Ziele	_	
+verfolgen					14	verfolgen	_	
+.				15	.	_
+		
+# text = Jede dieser Marken wird in ihren eigenen Gemeinden für etwas vollkommen anderes stehen und unsere Mitarbeiter werden unter diesen Marken mit den Kunden arbeiten.	
+Jede	SBJ	pron.pind			1	Jede	set_7	
+dieser	other_3	pron.pds	OLD		2	dieser	_	
+Marken	other_2	def-np.dem	OLD		3	Marken	_	
+wird					4	wird	_	
+in					5	in	_	
+ihren					6	ihren	set_7	
+eigenen					7	eigenen	_	
+Gemeinden	other	indef-np			8	Gemeinden	_	
+für					9	für	_	
+etwas					10	etwas	_	
+vollkommen					11	vollkommen	_	
+anderes	other	pron.pind			12	anderes	_	
+stehen					13	stehen	_	
+und					14	und	_	
+unsere	other_3	pron.ppos	OLD		15	unsere	_	
+Mitarbeiter	OBJ_2	indef-np.bare			16	Mitarbeiter	_	
+werden					17	werden	_	
+unter					18	unter	_	
+diesen	other_3	pron.pds	OLD		19	diesen	_	
+Marken	other_2	def-np.dem	OLD		20	Marken	_	
+mit					21	mit	_	
+den					22	den	_	
+Kunden	other_2	def-np.the	OLD		23	Kunden	_	
+arbeiten					24	arbeiten	_	
+.				25	.	_
+		
+# text = RBS hat bereits ausgesagt, dass es sein Six Nations Sponsoring nicht mehr fortführen wird und, dass es die Wahrnehmbarkeit der verschiedenen Marken in seinem Sport-Sponsoring erhöhen wird.	
+RBS	SBJ	ne	OLD		1	RBS	set_16	
+hat					2	hat	_	
+bereits					3	bereits	_	
+ausgesagt					4	ausgesagt	_	
+,					5	,	_	
+dass					6	dass	_	
+es	SBJ_2	pron.pper	OLD		7	es	set_16	
+sein					8	sein	_	
+Six	SBJ_2	indef-np			9	Six	_	
+Nations	other_3	ne	OLD		10	Nations	_	
+Sponsoring					11	Sponsoring	_	
+nicht					12	nicht	_	
+mehr					13	mehr	_	
+fortführen					14	fortführen	_	
+wird					15	wird	_	
+und					16	und	_	
+,					17	,	_	
+dass					18	dass	_	
+es	SBJ_3	pron.pper	OLD		19	es	set_16	
+die					20	die	_	
+Wahrnehmbarkeit	OBJ_3	def-np.the	OLD		21	Wahrnehmbarkeit	_	
+der					22	der	_	
+verschiedenen					23	verschiedenen	_	
+Marken	other_4	def-np.the	OLD		24	Marken	_	
+in					25	in	_	
+seinem					26	seinem	set_16	
+Sport					27	Sport	_	
+_								
+Sponsoring	other_3	indef-np			27	Sponsoring	_	
+erhöhen					28	erhöhen	_	
+wird					29	wird	_	
+.				30	.	_
+		
+--	
+# text = \"Es ist Zeit für uns, sich zur Bank der Marken zu entwickeln, denn wie konzentrieren wir uns im Inneren (wir haben gefragt) darauf, dies zu einer besseren Bank für Kunden zu machen?\" sagte der Vorstandschef.				
+&quot;								
+Es	SBJ_2	pron.pper	OLD					
+ist								
+Zeit	OBJ	indef-np.bare						
+für								
+uns	other_2	pron	OLD					
+,								
+sich	OBJ_3							
+zu	other_4	pron.pind						
+der								
+Bank	other_3	def-np.the	OLD					
+der								
+Marken	other_4	def-np.the	OLD					
+zu								
+entwickeln								
+,								
+denn								
+wie								
+konzentrieren								
+wir	SBJ_3	pron	OLD					
+uns	OBJ_3	pron	OLD					
+in								
+dem								
+Inneren	other_6	def-np.the	OLD					
+(								
+wir	SBJ_6	pron	OLD					
+haben								
+gefragt								
+)								
+darauf	other_4	pron.padv	OLD					
+,								
+dies	SBJ_6	pron.pds	OLD					
+zu	other_6	pron.pind						
+einer								
+besseren								
+Bank	other_5	indef-np.a						
+für								
+Kunden	other_4	indef-np.bare						
+zu								
+machen								
+?								
+&quot;								
+sagte					41	sagte	_	
+der								
+Vorstandschef	SBJ	def-np.the	OLD					
+.							
+	
+# text = Es wäre vor drei Jahren sehr zynisch gewesen, wenn wir gesagt hätten, dass wir für unsere Kunden eine tolle Bank sein werden und diese Marken lanciert hätten.				
+Es	SBJ	pron.pper	OLD		1	Es	_	
+wäre					2	wäre	_	
+vor					3	vor	_	
+drei					4	drei	_	
+Jahren	other	indef-np.quant			5	Jahren	_	
+sehr					6	sehr	_	
+zynisch					7	zynisch	_	
+gewesen					8	gewesen	_	
+,					9	,	_	
+wenn					10	wenn	_	
+wir	SBJ_2	pron	OLD		11	wir	_	
+gesagt					12	gesagt	_	
+hätten					13	hätten	_	
+,					14	,	_	
+dass					15	dass	_	
+wir	SBJ_3	pron	OLD		16	wir	_	
+für					17	für	_	
+unsere	other_4	pron.ppos	OLD		18	unsere	_	
+Kunden	other_3	indef-np.bare			19	Kunden	_	
+eine					20	eine	_	
+tolle					21	tolle	_	
+Bank	SBJ_3	indef-np.a			22	Bank	_	
+sein					23	sein	_	
+werden					24	werden	_	
+und					25	und	_	
+diese	other_5	pron.pds	OLD		26	diese	_	
+Marken	OBJ_4	def-np.dem	OLD		27	Marken	_	
+lanciert					28	lanciert	_	
+hätten					29	hätten	_	
+.				30	.	_
+		
+# text = Aber mit unserer Arbeit, dem Fokus auf Kundenbedürfnisse und nicht unsere eigenen, denke ich, wird man viele Veränderungen sehen.	
+Aber					1	Aber	_	
+mit					2	mit	_	
+unserer					3	unserer	_	
+Arbeit	other_2	indef-np.bare			4	Arbeit	_	
+,					5	,	_	
+dem					6	dem	_	
+Fokus	other_3	def-np.the	OLD		7	Fokus	_	
+auf					8	auf	_	
+Kundenbedürfnisse	other_4	indef-np.bare			9	Kundenbedürfnisse	_	
+und					10	und	_	
+nicht					11	nicht	_	
+unsere	other_4	pron.ppos	OLD		12	unsere	_	
+eigenen					13	eigenen	_	
+,					14	,	_	
+denke					15	denke	_	
+ich	SBJ_2	pron.pper	OLD		16	ich	_	
+,					17	,	_	
+wird					18	wird	_	
+man	SBJ	pron.pind			19	man	_	
+viele					20	viele	_	
+Veränderungen	OBJ	indef-np.quant			21	Veränderungen	_	
+sehen					22	sehen	_	
+.				23	.	_
+		
+# text = Wir können diese Marken wieder lancieren, daher denke ich, dass die Zeit gekommen ist.	
+Wir	SBJ	pron	OLD		1	Wir	_	
+können					2	können	_	
+diese	other_2	pron.pds	OLD		3	diese	_	
+Marken	OBJ	def-np.dem	OLD		4	Marken	_	
+wieder					5	wieder	_	
+lancieren					6	lancieren	_	
+,					7	,	_	
+daher					8	daher	_	
+denke					9	denke	_	
+ich	SBJ_2	pron.pper	OLD		10	ich	_	
+,					11	,	_	
+dass					12	dass	_	
+die					13	die	_	
+Zeit	SBJ_3	def-np.the	OLD		14	Zeit	_	
+gekommen					15	gekommen	_	
+ist					16	ist	_	
+.				17	.	_
+		
+
+

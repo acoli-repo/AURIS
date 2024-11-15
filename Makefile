@@ -303,3 +303,7 @@ update-refexp: conll-rdf
 		echo warning: $$file is empty 1>&2;\
 		mv $$file $$file.invalid;\
 	done;
+	@for file in `grep -L -P 'OLD|NEW' $$(find refexp | grep '.tsv$$')`; do \
+		echo warning: $$file seems not to contain pre-annotation 1>&2;\
+		mv $$file $$file.invalid;\
+	done;
