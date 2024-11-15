@@ -90,6 +90,10 @@ refexp: conllu conll ../../refexp ../../conll-rdf ../../conll-merge
 		fi;\
 	done;
 
+	@for file in `find refexp | grep '\.tsv'`; do \
+		sed -i.bak s/'\t_'/'\t'/g $$file;\
+	done;
+
 conll: parcor-full
 	@if [ ! -e conll ]; then \
 		for file in `find parcor-full | grep '.mmax$$'`; do \
