@@ -7,6 +7,81 @@ parcor-full:
 		git clone https://github.com/chardmeier/parcor-full.git;\
 	fi;
 
+conllu: conll ../../conllu
+	for file in `find conll | egrep '\.conll$$'`; do \
+		src=../../conllu/`echo $$file | cut -f 2- -d /`u;\
+		if [ -e $$src ]; then \
+			tgt=`echo $$src | cut -f 3- -d '/'`;\
+			tgtdir=`dirname $$tgt`;\
+			if [ ! -e $$tgtdir ]; then mkdir -p $$tgtdir; fi;\
+			echo $$src '>' $$tgt 1>&2;\
+			cp $$src $$tgt; \
+		else \
+			echo 1>&2;\
+			echo warning: Did not find $$src, skipping $$file 1>&2;\
+			echo 1>&2;\
+		fi;\
+	done;
+
+../../conll-rdf:
+	@cd ../..; make conll-rdf
+
+../../conll-merge:
+	@cd ../..; make conll-merge
+
+../../refexp:
+	@cd ../..; make refexp
+
+refexp: conllu conll ../../refexp ../../conll-rdf ../../conll-merge
+	@for conllu in `find conllu | egrep '\.conllu$$'`; do \
+		conll=conll/`echo $$conllu | cut -f 2- -d / | sed s/'\.conllu'//`.conll;\
+		refexp=../../refexp/`echo $$conllu | cut -f 2- -d /`.tsv;\
+		if [ ! -e $$refexp ]; then \
+			echo 1>&2;\
+			echo warning: Did not find $$refexp, skipping $$conllu 1>&2;\
+			echo 1>&2;\
+		else \
+			if [ ! -e $$conll ]; then \
+				echo 1>&2;\
+				echo warning: Did not find $$conll, skipping $$conllu 1>&2;\
+				echo 1>&2;\
+			else \
+				tgt=`echo $$refexp | cut -f 3- -d /`;\
+				tgtdir=`dirname $$tgt`;\
+				if [ ! -e $$tgtdir ]; then mkdir -p $$tgtdir; fi;\
+				echo $$conllu '+' $$conll '>' $$tgt 1>&2;\
+				# JAVA CoNLL-Merge works nicely, but sometimes creates locks and then stops \
+				# conll-merge $$conllu $$conll 1 1 -f\
+				echo python3 ../../conll-merge/experimental/align.py 500 $$conllu'=1' $$conll'=1' 1>&2;\
+				python3 ../../conll-merge/experimental/align.py 500 $$conllu'=1' $$conll'=1' \
+				| tee $$tgt.1.merged \
+				| grep -v '^?' \
+				| sed s/'\t[?]'/'\t_'/g \
+				| sed s/'"'/"''"/g \
+				| egrep '^[0-9]' \
+				| sed s/'^1\s'/'\n\n&'/g \
+				| tee $$tgt.2.pruned \
+         		| ../../conll-rdf/run.sh CoNLLStreamExtractor \
+                                         '#' \
+                                         ID FORM LEMMA UPOS XPOS FEATS HEAD EDGE DEPS MISC \
+                                         `egrep -v ':' $$conll | egrep -m 1 '#' | cut -f 2- -d '#'` \
+                                         -u conll2auris_coref.sparql \
+                | grep -v "ERROR org.apache.jena.riot" \
+                | tee $$tgt.3.ttl \
+                | ../../conll-rdf/run.sh CoNLLRDFFormatter \
+                	-conll ID FORM coref_class \
+                | grep -v '#' \
+                | tee $$tgt.4.unmerged; \
+                # | conll-merge $$refexp -- 0 1 \
+                echo python3 ../../conll-merge/experimental/align.py 500 $$refexp=0 $$tgt.4.unmerged=1 1>&2;\
+                python3 ../../conll-merge/experimental/align.py 500 $$refexp=0 $$tgt.4.unmerged=1 \
+                | sed s/'\t[?]'/'\t'/g \
+                | tee $$tgt;\
+                ## $$tgt.tmp 0 1 \
+			fi;\
+		fi;\
+	done;
+
 conll: parcor-full
 	@if [ ! -e conll ]; then \
 		for file in `find parcor-full | grep '.mmax$$'`; do \

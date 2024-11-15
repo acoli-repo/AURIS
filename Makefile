@@ -254,6 +254,11 @@ conll-rdf:
 		#./compile.sh;\
 	fi;
 
+conll-merge:
+	if [ ! -e conll-merge ]; then \
+		git clone https://github.com/acoli-repo/conll-merge;\
+	fi;
+
 refexp: 
 	if [ ! -e refexp ]; then mkdir update-refexp; fi
 
@@ -291,4 +296,10 @@ update-refexp: conll-rdf
 				fi;\
 			done;\
 		fi;\
+	done;
+
+	# validation
+	@for file in `grep -L -P '\t' $$(find refexp | grep '.tsv$$')`; do \
+		echo warning: $$file is empty 1>&2;\
+		mv $$file $$file.invalid;\
 	done;
