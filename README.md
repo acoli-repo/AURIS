@@ -50,8 +50,9 @@ Legacy data:
 - The repository provides pre-annotations
 	- for English, using the [UD 2.5 EWT model](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131)
 	- for German, using the [UD 2.5 GSD model](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131). Note that is relatively error-prone regarding the handling of pronominal constructions.
-	- [**IN PROGRRESS**] for French, using the [UD 2.5 GSD model](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131).
+	- for French, using the [UD 2.5 GSD model](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131).
 	- for Russian, using the [UD 2.5 SyntagRus model](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131).
+	- [**IN PROGRRESS**] for European and Brazilian Portuguese, using [UD 2.5 Bosque model](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131). Note that this is the only UD corpus at the time to cover both European and Brazilian vernaculars.
 - `make update-discourse_pre` seems to be blocked occasionally, esp., for longer files. When building new files for `ready-for-annotation`, these must be manually (timeout is implemented, but doesn't seem to grasp) terminated. As a possible workaround, start multiple `make update-discourse_pre` (resp. `make update`, etc.) threads shortly one after another. They are set up in a way that they don't overwrite each other's output, but skip files into which another instance is already writing into. 
 - Current setup was developed under and tested within Ubuntu 22.04L.
 
