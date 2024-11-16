@@ -231,7 +231,7 @@ conllu:
 	if [ ! -e conllu ]; then make update-conllu; fi;
 
 update-conllu: udpipe txt txt/bibl txt/doyle
-	@LANGS="de en fr ru";\
+	@LANGS="de en fr ru pt";\
 	echo "warning: we're supporting only "$$LANGS" at the moment" 1>&2;\
 	for lang in $$LANGS; do \
 		for file in txt/$$lang/*.txt; do \
