@@ -1,13 +1,17 @@
-annotation protocol for ted-mdb.1971.xlsx (auf deutsch, da deutscher Text)
+annotation protocol for ted-mdb.1971.xlsx 
 --------------------------------------------------------------------------
 
-Unsicherheiten und Probleme
+Uncertainties and problems
 
 
-- Demonstrativpronomen wird häufig als ?OLD markiert, obwohl nicht syntaktischer Kopf; Bsp. Z. 89, 174 etc.
+! - Sentence-level broken, see: https://github.com/acoli-repo/AURIS/issues/25
 
-- Z. 83ff - was ist hier syntaktischer Kopf für Antezedens des spezifischen Zeitpunkts, als Sprecher 12 war?
 
-- Z. 306: Problem der Nichtnutzung von Orthesen in diesem Nebensatz (ab Z. 295: "wenn" beschrieben). Wo syntaktischer Kopf für COREF ID "nichtnutzung_problem"?
+- Demonstrative pronouns are often pre-annotated, although not syntactical head; e.g. 89, 174 etc.
 
-- Z. 637: unklar, wessen Sinn gemeint ist
+- NP after possessive pronouns not marked by the parser, e.g. 71, 551, 568, 638 etc.
+
+- 292: "ankle" prosthesis unclear; interpreted as prosthesis in general
+
+- Subsets of e.g. prostheses: "uniform" or "customized" each annotated as REF=NEW entity, as long as no specific new REF-category has been created
+	see: https://github.com/acoli-repo/AURIS/issues/24

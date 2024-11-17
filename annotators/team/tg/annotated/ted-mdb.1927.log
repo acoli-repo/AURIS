@@ -1,16 +1,12 @@
-annotation protocol for ted-mdb.1927.xlsx (auf deutsch, da deutscher Text)
+annotation protocol for ted-mdb.1927.xlsx 
 --------------------------------------------------------------------------
 
-Unsicherheiten und Probleme
+Uncertainties and problems
 
+- institutional investors (92) as a subset "investoren_inst" of REF=GEN investors (21) "investoren" -> REF=NEW; see https://github.com/acoli-repo/AURIS/issues/24
 
-- Z. 92 Investoren: institutionelle Investoren als Untermenge zu REF GEN: Investoren -> trotzdem Entscheidung für REF NEW, weil es auch ein Antezedens ist
+- differentiation between the topic of sustainability (35) and the entity of sustainability (86)
 
-- Z. 45 ff: die "heißen Themen": Umwelt, Soziales, Unternehmen (Wirtschaft) geschachtelt in GROUPS behandelt
+- "wir": 128, 134 = interpreted here as a GROUP of speaker + listener. IDs to distinguish the entire population of the Earth as "menschheit" from the generic address to all people as "menschen"
 
-- Differenzierung Thema Nachhaltigkeit (Z. 35) und Entität Nachhaltigkeit (Z. 86) sinnvoll?
-
-- COREF "wir" z.B. Z. 128, 134 = deiktische Differenzierung als GROUP von Sprecher + Hörer
-
-- COREF "menschheit" ab Z. 143, 152 usw. als Gesamtmenge der Menschheit; keine "persönliche" Ansprache aller Individuen durch Sprecher(-> dafür ID "menschen" Z. 299)
-Z. 166 bezieht sich auf die Gesamtmenge der Menschheit in Zukunft; eigene COREF ID?
+- syntactic head of compounds often not recognized, e.g., 227, 405, 457, etc.
