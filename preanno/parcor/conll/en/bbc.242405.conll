@@ -1,0 +1,534 @@
+# orig: parcor, corpus/news/EN/08
+
+# id	word	coref_id	coref_coref_class	coref_mention	coref_type	coref_type_of_pronoun	coref_audience	coref_split	coref_antetype	coref_agreement	coref_position	coref_nptype	coref_anacata	coref_npmod	coref_sub_apposition	coref_comparative	coref_vptype	coref_clausetype
+
+# text: Royal Bank of Scotland to disappear for customers outside Scotland
+1	Royal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Bank	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Scotland	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	disappear	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	customers	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	outside	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Scotland	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: The brand RBS is to be reduced to a back office role , according to the bank 's chief executive .
+1	The	markable_29	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	brand	markable_29	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	RBS	markable_29	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	be	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	reduced	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	back	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	office	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	role	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	according	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	bank	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	chief	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	executive	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Royal Bank of Scotland will disappear for customers outside Scotland .
+1	Royal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Bank	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Scotland	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	will	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	disappear	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	customers	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	outside	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Scotland	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ross McEwan told BBC Scotland that the RBS brand was associated with the bank 's global ambitions .
+1	Ross	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	McEwan	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	told	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	BBC	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Scotland	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	that	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	the	markable_2	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+8	RBS	markable_2	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+9	brand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	associated	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	the	markable_4	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	bank	markable_4	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+15	's	markable_4	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	global	markable_4	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+17	ambitions	markable_4	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: It has retreated from them since it nearly collapsed eight years ago and had to be bailed out .
+1	It	markable_1	set_9	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	has	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	retreated	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	from	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	them	markable_3	set_1	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+6	since	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	it	markable_5	set_9	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+8	nearly	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	collapsed	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	eight	markable_6	set_3	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	years	markable_6	set_3	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	ago	markable_6	set_3	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	had	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	be	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	bailed	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	out	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: During that time , brand strategists have used ' RBS ' to protect other consumer finance brands .
+1	During	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	that	markable_7	set_3	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+3	time	markable_7	set_3	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	brand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	strategists	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	have	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	used	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	'	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	RBS	markable_9	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+11	'	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	protect	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	other	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	consumer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	finance	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	brands	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: It was backed with millions of pounds in sponsorship of international sport , from Six Nations rugby to Wimbledon champion Andy Murray .
+1	It	markable_8	set_9	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	backed	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	millions	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	pounds	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	sponsorship	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	international	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	sport	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	from	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Six	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Nations	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	rugby	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Wimbledon	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	champion	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Andy	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	Murray	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: But now , it has been judged right to let more national brands come to the fore .
+1	But	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	now	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	it	markable_10	set_9	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+5	has	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	been	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	judged	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	right	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	let	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	more	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	national	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	brands	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	come	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	fore	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Royal Bank of Scotland will be used with Scottish customers , but will not be initialised .
+1	Royal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Bank	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Scotland	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	will	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	be	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	used	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Scottish	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	customers	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	but	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	will	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	not	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	be	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	initialised	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: In England and Wales , all RBS references , outside head office and the stock exchange listing , will be changed to NatWest .
+1	In	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	England	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Wales	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	all	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	RBS	markable_26	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+8	references	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	outside	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	head	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	office	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	stock	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	exchange	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	listing	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	will	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	be	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	changed	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	NatWest	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: The Ulster Bank brand is already used for customers in the Republic of Ireland and Northern Ireland .
+1	The	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Ulster	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Bank	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	brand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	already	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	used	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	customers	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Republic	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Ireland	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Northern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Ireland	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: There are other , smaller brands for private banking , which will get more prominence - Coutts , Adam & Co , Drummond , and Holt 's Military Bank .
+1	There	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	are	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	other	markable_11	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	,	markable_11	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	smaller	markable_11	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	brands	markable_11	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	for	markable_11	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	private	markable_11	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	banking	markable_11	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	which	markable_12	set_5	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+12	will	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	get	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	more	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	prominence	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Coutts	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Adam	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	&	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Co	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	Drummond	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	Holt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	Military	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	Bank	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Mr McEwan was interviewed during a tour of customers and staff in Inverness-shire .
+1	Mr	markable_13	set_6	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	McEwan	markable_13	set_6	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	interviewed	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	during	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	tour	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	customers	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	staff	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Inverness-shire	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: He told BBC Scotland : `` The RBS brand will end up becoming our investor brand and the one that our staff are employed with , because we are now becoming much more a bank of brands . ''
+1	He	markable_14	set_6	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	told	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	BBC	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Scotland	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	``	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	The	markable_27	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+8	RBS	markable_27	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+9	brand	markable_27	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+10	will	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	end	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	up	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	becoming	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	our	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	investor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	brand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	one	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	that	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	our	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	staff	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	are	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	employed	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	because	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	we	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	are	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	now	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	becoming	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	much	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	more	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	bank	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	brands	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	''	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: As the bank itself became a global brand , RBS became the global brand .
+1	As	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	bank	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	itself	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	became	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	global	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	brand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	RBS	markable_28	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+11	became	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	global	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	brand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: I 'm now saying we no longer have global aspirations , we have local aspirations .
+1	I	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	'm	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	now	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	saying	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	we	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	no	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	longer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	have	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	global	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	aspirations	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	we	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	have	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	local	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	aspirations	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Each one of those brands will stand for something quite different in their own communities , and our staff will work with customers under those brands .
+1	Each	markable_15	set_7	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	one	markable_15	set_7	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	of	markable_15	set_7	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	those	markable_15	set_7	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	brands	markable_15	set_7	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	will	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	stand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	something	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	quite	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	different	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	their	markable_16	set_7	pronoun	anaphoric	possessive	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+14	own	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	communities	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	our	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	staff	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	will	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	work	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	customers	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	under	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	those	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	brands	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: RBS had already stated that it would not to continue its Six Nations sponsorship , and it has been raising the profile of different brands in its sports sponsorship .
+1	RBS	markable_18	set_9	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	had	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	already	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	stated	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	that	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	it	markable_19	set_9	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+7	would	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	not	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	continue	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	its	markable_17	set_9	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+12	Six	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Nations	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	sponsorship	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	it	markable_20	set_9	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+18	has	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	been	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	raising	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	profile	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	different	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	brands	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	its	markable_21	set_9	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+28	sports	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	sponsorship	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: `` The time is right for us to move to the bank of brands , because underneath ( we 've been asking ) how do we focus on making this a better bank for customers ? '' said the chief executive .
+1	``	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	The	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	time	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	right	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	us	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	move	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	bank	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	brands	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	because	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	underneath	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	(	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	we	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	've	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	been	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	asking	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	)	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	how	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	do	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	we	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	focus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	making	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	this	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	better	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	bank	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	customers	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	''	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	chief	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	executive	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: It would have been very cynical three years ago if we 'd said we 're going to be a great bank for customers and put those brands out there .
+1	It	markable_24	empty	pronoun	pleonastic	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	would	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	have	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	been	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	very	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	cynical	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	three	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	years	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	ago	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	if	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	we	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	'd	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	we	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	're	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	going	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	be	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	great	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	bank	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	customers	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	put	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	those	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	brands	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	out	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	there	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: But with the work we 've been doing , focussing on the customers needs , not our own , I think you 're seeing a lot of change .
+1	But	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	work	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	we	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	've	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	been	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	doing	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	focussing	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	customers	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	needs	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	not	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	our	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	own	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	I	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	think	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	you	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	're	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	seeing	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	lot	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	change	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: We can bring those brands back up again , so I think the time is right .
+1	We	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	can	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	bring	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	those	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	brands	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	back	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	up	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	again	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	so	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	I	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	think	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	time	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	right	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+

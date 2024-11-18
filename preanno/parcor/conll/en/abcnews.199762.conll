@@ -1,0 +1,408 @@
+# orig: parcor, corpus/news/EN/01
+
+# id	word	coref_id	coref_coref_class	coref_mention	coref_type	coref_type_of_pronoun	coref_audience	coref_split	coref_antetype	coref_agreement	coref_position	coref_nptype	coref_anacata	coref_npmod	coref_sub_apposition	coref_comparative	coref_vptype	coref_clausetype
+
+# text: 28-Year-Old Chef Found Dead at San Francisco Mall
+1	28-Year-Old	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Chef	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Found	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Dead	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	at	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	San	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Francisco	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Mall	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: A 28-year-old chef who had recently moved to San Francisco was found dead in the stairwell of a local mall this week .
+1	A	markable_1	set_15	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	28-year-old	markable_1	set_15	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	chef	markable_1	set_15	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	who	markable_2	set_15	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+5	had	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	recently	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	moved	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	San	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Francisco	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	found	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	dead	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	stairwell	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	local	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	mall	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	this	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	week	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: But the victim 's brother says he ca n't think of anyone who would want to hurt him , saying , `` Things were finally going well for him . ''
+1	But	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	the	markable_3	set_23	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	victim	markable_3	set_23	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	's	markable_3	set_23	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	brother	markable_3	set_23	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	says	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	he	markable_4	set_23	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+8	ca	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	n't	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	think	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	anyone	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	who	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	would	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	want	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	hurt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	him	markable_5	set_15	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+19	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	saying	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	``	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	Things	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	were	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	finally	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	going	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	well	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	him	markable_6	set_15	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+30	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	''	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: The body found at the Westfield Mall Wednesday morning was identified as 28-year-old San Francisco resident Frank Galicia , the San Francisco Medical Examiner 's Office said .
+1	The	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	body	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	found	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	at	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Westfield	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Mall	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Wednesday	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	morning	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	identified	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	as	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	28-year-old	markable_31	set_15	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+14	San	markable_31	set_15	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+15	Francisco	markable_31	set_15	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+16	resident	markable_31	set_15	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+17	Frank	markable_31	set_15	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+18	Galicia	markable_31	set_15	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+19	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	San	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	Francisco	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	Medical	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Examiner	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	Office	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: The San Francisco Police Department said the death was ruled a homicide and an investigation is ongoing .
+1	The	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	San	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Francisco	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Police	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Department	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	death	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	ruled	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	homicide	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	investigation	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	ongoing	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: The victim 's brother , Louis Galicia , told ABC station KGO in San Francisco that Frank , previously a line cook in Boston , had landed his dream job as line chef at San Francisco 's Sons & Daughters restaurant six months ago .
+1	The	markable_32|markable_33	set_15|set_23	np|np	_	_	_	simple antecedent|simple antecedent	entity|entity	_	_	np|np	anaphoric|anaphoric	def-article|def-article	_	_	_	_
+2	victim	markable_32|markable_33	set_15|set_23	np|np	_	_	_	simple antecedent|simple antecedent	entity|entity	_	_	np|np	anaphoric|anaphoric	def-article|def-article	_	_	_	_
+3	's	markable_33	set_23	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+4	brother	markable_33	set_23	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Louis	markable_34	set_23	np	_	_	_	_	_	_	_	apposition	_	_	none	_	_	_
+7	Galicia	markable_34	set_23	np	_	_	_	_	_	_	_	apposition	_	_	none	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	told	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	ABC	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	station	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	KGO	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	San	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Francisco	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	that	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Frank	markable_7	set_15	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+18	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	previously	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	line	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	cook	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Boston	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	had	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	landed	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	his	markable_8	set_15	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+29	dream	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	job	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	as	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	line	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	chef	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	at	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	San	markable_35	set_19	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+36	Francisco	markable_35	set_19	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+37	's	markable_35	set_19	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+38	Sons	markable_35	set_19	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+39	&	markable_35	set_19	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+40	Daughters	markable_35	set_19	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+41	restaurant	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	six	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+43	months	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+44	ago	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+45	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: A spokesperson for Sons & Daughters said they were `` shocked and devastated '' by his death .
+1	A	markable_37	set_20	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	spokesperson	markable_37	set_20	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	for	markable_37	set_20	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	Sons	markable_37|markable_9	set_20|set_19	np|np	_	_	_	simple antecedent	entity	_	_	antecedent|np	anaphoric	none	_	_	_	_
+5	&	markable_37|markable_9	set_20|set_19	np|np	_	_	_	simple antecedent	entity	_	_	antecedent|np	anaphoric	none	_	_	_	_
+6	Daughters	markable_37|markable_9	set_20|set_19	np|np	_	_	_	simple antecedent	entity	_	_	antecedent|np	anaphoric	none	_	_	_	_
+7	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	they	markable_10	set_19	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+9	were	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	``	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	shocked	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	devastated	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	''	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	by	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	his	markable_11	set_15	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+17	death	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: `` We are a small team that operates like a close knit family and he will be dearly missed , '' the spokesperson said .
+1	``	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	We	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	are	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	a	markable_12	set_6	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	small	markable_12	set_6	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	team	markable_12	set_6	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	that	markable_13	set_6	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+8	operates	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	like	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	close	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	knit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	family	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	he	markable_14	set_15	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+16	will	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	be	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	dearly	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	missed	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	''	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	the	markable_36	set_20	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+23	spokesperson	markable_36	set_20	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+24	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Our thoughts and condolences are with Frank 's family and friends at this difficult time .
+1	Our	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	thoughts	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	condolences	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	are	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Frank	markable_38	set_15	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+8	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	family	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	friends	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	at	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	this	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	difficult	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	time	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Louis Galicia said Frank initially stayed in hostels , but recently , `` Things were finally going well for him . ''
+1	Louis	markable_39	set_23	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	Galicia	markable_39	set_23	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+3	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Frank	markable_16	set_15	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+5	initially	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	stayed	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	hostels	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	but	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	recently	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	``	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Things	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	were	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	finally	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	going	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	well	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	him	markable_15	set_15	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+21	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	''	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: `` He found an apartment , he was dating a girl , '' Louis Galicia told KGO .
+1	``	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	He	markable_18	set_15	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+3	found	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	apartment	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	he	markable_17	set_15	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+8	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	dating	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	girl	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	''	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Louis	markable_40	set_23	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+15	Galicia	markable_40	set_23	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+16	told	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	KGO	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Louis Galicia said he could not think of anyone who would want to hurt his younger brother .
+1	Louis	markable_19	set_23	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	Galicia	markable_19	set_23	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+3	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	he	markable_20	set_23	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+5	could	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	not	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	think	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	anyone	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	who	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	would	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	want	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	hurt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	his	markable_21	set_23	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+16	younger	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	brother	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: He was a kind spirit with a big heart .
+1	He	markable_22	set_15	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	kind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	spirit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	big	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	heart	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: His way of connecting with the family was always making us a dish , making us dinner , '' Louis Galicia said .
+1	His	markable_23	set_15	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	way	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	connecting	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	family	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	always	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	making	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	us	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	dish	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	making	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	us	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	dinner	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	''	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Louis	markable_30	set_23	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+21	Galicia	markable_30	set_23	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+22	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: He never wanted to be in any kind of altercation .
+1	He	markable_24	set_15	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	never	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	wanted	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	be	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	any	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	kind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	altercation	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: He was the brother that went with the flow .
+1	He	markable_25	set_15	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	brother	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	that	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	went	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	flow	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: `` With everything else that 's going wrong with the world , he was that diamond in the rough that was shining bright every day , '' he said .
+1	``	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	With	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	everything	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	else	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	that	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	going	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	wrong	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	world	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	he	markable_26	set_15	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+14	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	that	markable_27	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	diamond	markable_27	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+17	in	markable_27	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+18	the	markable_27	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+19	rough	markable_27	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+20	that	markable_28	set_16	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+21	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	shining	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	bright	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	every	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	day	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	''	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	he	markable_29	set_23	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+29	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Anyone with information is asked to call the SFPD Tip Line at 415-575-4444 .
+1	Anyone	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	information	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	asked	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	call	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	SFPD	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Tip	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Line	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	at	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	415-575-4444	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+

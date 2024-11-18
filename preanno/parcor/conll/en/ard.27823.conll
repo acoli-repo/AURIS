@@ -1,0 +1,678 @@
+# orig: parcor, corpus/news/EN/04
+
+# id	word	coref_id	coref_coref_class	coref_mention	coref_type	coref_type_of_pronoun	coref_audience	coref_split	coref_antetype	coref_agreement	coref_position	coref_nptype	coref_anacata	coref_npmod	coref_sub_apposition	coref_comparative	coref_vptype	coref_clausetype
+
+# text: Comparing Clinton 's and Trump 's economic policies : It 's all about the money
+1	Comparing	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Clinton	markable_69|markable_50	set_39|set_27	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_
+3	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Trump	markable_70|markable_51	set_39|set_32	np|np	_	_	_	simple antecedent	entity	_	_	antecedent|np	anaphoric	none	_	_	_	_
+6	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	economic	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	policies	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	It	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	all	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	about	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	money	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Both Clinton and Trump want to invest in infrastructure and prevent the TTP trade agreement .
+1	Both	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Clinton	markable_71|markable_54	set_39|set_27	np|np	_	_	_	split reference|simple antecedent	entity	_	_	np|np	anaphoric|anaphoric	none|none	_	_	_	_
+3	and	markable_71	set_39	np	_	_	_	split reference	_	_	_	np	anaphoric	none	_	_	_	_
+4	Trump	markable_71|markable_55	set_39|set_32	np|pronoun	antecedent	personal	_	split reference	_	none	none	np	anaphoric	none	_	_	_	_
+5	want	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	invest	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	infrastructure	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	prevent	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	TTP	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	trade	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	agreement	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: But the two candidates for the US presidency disagree on taxes and energy policies , as well as on one fundamental issue .
+1	But	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	the	markable_2	set_39	np	_	_	_	split reference	_	_	_	np	anaphoric	def-article	_	_	_	_
+3	two	markable_2	set_39	np	_	_	_	split reference	_	_	_	np	anaphoric	def-article	_	_	_	_
+4	candidates	markable_2	set_39	np	_	_	_	split reference	_	_	_	np	anaphoric	def-article	_	_	_	_
+5	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	US	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	presidency	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	disagree	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	taxes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	energy	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	policies	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	as	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	well	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	as	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	one	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	fundamental	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	issue	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: There is a fundamental philosophical reason for the differences between Donald Trump 's and Hillary Clinton 's economic policies .
+1	There	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	a	markable_3	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	fundamental	markable_3	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	philosophical	markable_3	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	reason	markable_3	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	for	markable_3	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	the	markable_3	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	differences	markable_3	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	between	markable_3	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	Donald	markable_3|markable_52	set_1|set_32	np|np	_	_	_	simple antecedent	entity	_	_	antecedent|np	anaphoric	none	_	_	_	_
+12	Trump	markable_3|markable_52	set_1|set_32	np|np	_	_	_	simple antecedent	entity	_	_	antecedent|np	anaphoric	none	_	_	_	_
+13	's	markable_3	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	and	markable_3	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+15	Hillary	markable_3|markable_53	set_1|set_27	np|np	_	_	_	simple antecedent	entity	_	_	antecedent|np	anaphoric	none	_	_	_	_
+16	Clinton	markable_3|markable_53	set_1|set_27	np|np	_	_	_	simple antecedent	entity	_	_	antecedent|np	anaphoric	none	_	_	_	_
+17	's	markable_3	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+18	economic	markable_3	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+19	policies	markable_3	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+20	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: This is the role of the state .
+1	This	markable_4	set_1	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	role	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	state	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: If in doubt , Trump wants the state 's role to be minor , and warns of how the state can damage the economy with taxes and regulations .
+1	If	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	doubt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Trump	markable_10	set_32	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	wants	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	state	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	role	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	be	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	minor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	warns	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	how	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	state	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	can	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	damage	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	economy	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	taxes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	regulations	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Clinton wants to lead the economy to its death and regulate it to its death , he says .
+1	Clinton	markable_56	set_27	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	wants	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	lead	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	the	markable_5	set_3	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	economy	markable_5	set_3	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	its	markable_6	set_3	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+9	death	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	regulate	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	it	markable_7	set_3	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+13	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	its	markable_8	set_3	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+15	death	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	he	markable_9	set_32	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+18	says	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: He would do things totally differently , Trump says .
+1	He	markable_11	set_32	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	would	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	do	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	things	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	totally	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	differently	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Trump	markable_12	set_32	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+9	says	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: He would repeal regulations , and lead a wide-reaching tax reform with low rates for private individuals and companies .
+1	He	markable_13	set_32	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	would	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	repeal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	regulations	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	lead	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	wide-reaching	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	tax	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	reform	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	low	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	rates	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	private	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	individuals	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	companies	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Conversely , Clinton says that the state has particular tasks to fulfil , giving disadvantaged people opportunities - and it needs money to do so .
+1	Conversely	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Clinton	markable_17	set_27	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+4	says	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	that	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	the	markable_15	set_7	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	state	markable_15	set_7	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	has	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	particular	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	tasks	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	fulfil	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	giving	markable_66	set_37	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+15	disadvantaged	markable_66	set_37	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+16	people	markable_66	set_37	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+17	opportunities	markable_66	set_37	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+18	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	it	markable_14	set_7	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+21	needs	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	money	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	do	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	so	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: This would increase taxes for the rich , she says .
+1	This	markable_65	set_37	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+2	would	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	increase	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	taxes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	rich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	she	markable_16	set_27	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+10	says	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Interestingly , they have similar views on infrastructure .
+1	Interestingly	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	they	markable_18	set_27	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+4	have	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	similar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	views	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	infrastructure	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: There has to be investment in infrastructure , Trump and Clinton say almost verbatim .
+1	There	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	has	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	be	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	investment	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	infrastructure	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Trump	markable_57	set_32	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+10	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Clinton	markable_58	set_27	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+12	say	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	almost	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	verbatim	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: The Democratic candidate has even announced the largest investment in jobs since the Second World War .
+1	The	markable_59	set_27	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+2	Democratic	markable_59	set_27	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+3	candidate	markable_59	set_27	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+4	has	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	even	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	announced	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	largest	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	investment	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	jobs	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	since	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Second	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	World	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	War	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: State programs investing in infrastructure are classic Democrat policies , and are rejected by the tea party wing of the Republican party , which is critical of the state .
+1	State	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	programs	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	investing	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	infrastructure	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	are	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	classic	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Democrat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	policies	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	are	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	rejected	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	by	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	the	markable_19	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	tea	markable_19	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+17	party	markable_19	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+18	wing	markable_19	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+19	of	markable_19	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+20	the	markable_19	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+21	Republican	markable_19	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+22	party	markable_19	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+23	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	which	markable_20	set_9	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+25	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	critical	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	state	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Consequently , Trump could lead to discussions within the party .
+1	Consequently	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Trump	markable_60	set_32	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+4	could	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	lead	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	discussions	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	within	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	party	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: There are clearer differences to be seen in terms of energy and climate policies .
+1	There	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	are	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	clearer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	differences	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	be	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	seen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	terms	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	energy	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	climate	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	policies	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Trump wants to build coal-fired power stations and bring coal production in the USA back up .
+1	Trump	markable_22	set_32	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	wants	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	build	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	coal-fired	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	power	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	stations	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	bring	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	coal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	production	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	USA	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	back	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	up	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Drilling for oil should be permitted in protected areas , and he wants to withdraw from the Paris Climate Change Treaty .
+1	Drilling	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	oil	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	should	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	be	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	permitted	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	protected	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	areas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	he	markable_21	set_32	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+13	wants	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	withdraw	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	from	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Paris	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Climate	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Change	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Treaty	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: On the other hand , Clinton wants to use her investment program to extend renewable energies , saying : `` One country will become the superpower of renewable energies , and create millions of jobs . ''
+1	On	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	other	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	hand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Clinton	markable_23	set_27	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+7	wants	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	use	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	her	markable_24	set_27	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+11	investment	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	program	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	extend	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	renewable	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	energies	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	saying	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	``	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	One	markable_61	set_36	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+22	country	markable_61	set_36	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+23	will	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	become	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	superpower	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	renewable	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	energies	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	create	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	millions	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	jobs	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	''	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: `` It will either be China , Germany or America - and I want it to be us . ''
+1	``	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	It	markable_62	set_36	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+3	will	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	either	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	be	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	China	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Germany	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	or	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	America	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	I	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	want	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	it	markable_63	set_36	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+16	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	be	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	us	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	''	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: But it 's not just infrastructure that sees the two candidates taking a rather similar stance - they agree in terms of international trade agreements as well .
+1	But	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	it	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	not	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	just	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	infrastructure	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	that	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	sees	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	the	markable_25	set_39	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+10	two	markable_25	set_39	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+11	candidates	markable_25	set_39	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+12	taking	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	rather	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	similar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	stance	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	they	markable_26	set_39	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+19	agree	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	terms	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	international	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	trade	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	agreements	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	as	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	well	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Neither want to sign TTP , the trans-Pacific trade agreement .
+1	Neither	markable_27	set_39	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+2	want	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	sign	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	TTP	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	trans-Pacific	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	trade	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	agreement	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: At the same time , neither want to cut the USA off from international trade - they just want to protect American jobs better .
+1	At	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	same	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	time	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	neither	markable_28	set_39	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+7	want	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	cut	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	USA	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	off	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	from	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	international	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	trade	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	they	markable_29	set_39	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+18	just	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	want	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	protect	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	American	markable_30	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+23	jobs	markable_30	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+24	better	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: They should then also be better paid , Clinton demands .
+1	They	markable_31	set_16	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+2	should	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	then	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	also	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	be	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	better	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	paid	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Clinton	markable_33	set_27	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+10	demands	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: The current minimum wage of 7.25 US dollars is a pittance , she says .
+1	The	markable_36	set_20	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	current	markable_36	set_20	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	minimum	markable_36	set_20	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	wage	markable_36	set_20	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	of	markable_36	set_20	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	7.25	markable_36	set_20	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	US	markable_36	set_20	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	dollars	markable_36	set_20	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	pittance	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	she	markable_32	set_27	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+14	says	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: She wants to raise it to 15 dollars an hour .
+1	She	markable_34	set_27	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	wants	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	raise	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	it	markable_35	set_20	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+6	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	15	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	dollars	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	hour	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: It is not quite clear what Trump wants to do on this score : Once he said that the minimum wage had to be raised , then he said it should stay the same .
+1	It	markable_64	empty	pronoun	pleonastic	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	not	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	quite	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	clear	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	what	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Trump	markable_38	set_32	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+8	wants	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	do	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	this	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	score	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Once	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	he	markable_39	set_32	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+17	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	that	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	the	markable_42	set_23	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+20	minimum	markable_42	set_23	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+21	wage	markable_42	set_23	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+22	had	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	be	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	raised	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	then	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	he	markable_40	set_32	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+29	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	it	markable_41	set_23	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+31	should	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	stay	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	same	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: But the big discussion of the months to come will likely revolve around both parties ' tax policies .
+1	But	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	big	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	discussion	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	months	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	come	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	will	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	likely	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	revolve	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	around	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	both	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	parties	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	'	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	tax	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	policies	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Trump is on one side , wanting to relieve the burden on the economy and citizens to boost growth .
+1	Trump	markable_43	set_32	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	one	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	side	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	wanting	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	to	markable_46	set_25	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+9	relieve	markable_46	set_25	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+10	the	markable_46	set_25	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+11	burden	markable_46	set_25	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+12	on	markable_46	set_25	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+13	the	markable_46	set_25	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+14	economy	markable_46	set_25	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+15	and	markable_46	set_25	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+16	citizens	markable_46	set_25	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+17	to	markable_46	set_25	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+18	boost	markable_46	set_25	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+19	growth	markable_46	set_25	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+20	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: His critics state that this will just increase the budgetary deficit .
+1	His	markable_44	set_32	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	critics	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	state	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	that	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	this	markable_45	set_25	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+6	will	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	just	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	increase	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	budgetary	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	deficit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Clinton is on the opposite side : as a minimum , she wants the rich to pay more taxes , and her critics say that more taxes are not the solution either .
+1	Clinton	markable_47	set_27	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	opposite	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	side	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	as	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	minimum	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	she	markable_48	set_27	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+13	wants	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	rich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	pay	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	more	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	taxes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	her	markable_49	set_27	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+23	critics	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	say	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	that	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	more	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	taxes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	are	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	not	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	solution	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	either	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+

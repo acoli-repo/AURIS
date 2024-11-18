@@ -1,0 +1,846 @@
+# orig: parcor, corpus/news/EN/21
+
+# id	word	coref_id	coref_coref_class	coref_mention	coref_type	coref_type_of_pronoun	coref_audience	coref_split	coref_antetype	coref_agreement	coref_position	coref_nptype	coref_anacata	coref_npmod	coref_sub_apposition	coref_comparative	coref_vptype	coref_clausetype
+
+# text: Heavy rain , flooding prompts rescues in Louisiana , Mississippi
+1	Heavy	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	rain	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	flooding	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	prompts	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	rescues	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Louisiana	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Mississippi	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Heavy rain and widespread flooding in Louisiana lead the governor to declare a state of emergency on Friday , with more rain expected over the state through Saturday .
+1	Heavy	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	rain	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	widespread	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	flooding	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Louisiana	markable_3	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	lead	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	governor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	declare	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	state	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	emergency	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Friday	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	more	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	rain	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	expected	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	over	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	the	markable_4	set_1	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+26	state	markable_4	set_1	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+27	through	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	Saturday	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Numerous rivers in southeast Louisiana and southern Mississippi were overflowing their banks and threatening widespread flooding after extreme rainfall , the National Weather Service reported .
+1	Numerous	markable_1	set_0	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	rivers	markable_1	set_0	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	southeast	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Louisiana	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	southern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Mississippi	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	were	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	overflowing	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	their	markable_2	set_0	pronoun	anaphoric	possessive	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+12	banks	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	threatening	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	widespread	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	flooding	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	after	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	extreme	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	rainfall	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	National	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	Weather	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Service	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	reported	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Louisiana Gov . John Bel Edwards said state officials are in constant contact with local officials , and assistance is already on the move to affected parishes .
+1	Louisiana	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Gov	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	John	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Bel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Edwards	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	state	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	officials	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	are	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	constant	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	contact	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	local	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	officials	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	assistance	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	already	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	move	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	affected	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	parishes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Mike Steele , a spokesman for the Governor 's Office of Homeland Security and Emergency Preparedness , said requests were coming in for high-water vehicles , boats and sandbags .
+1	Mike	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Steele	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	spokesman	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Governor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Office	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Homeland	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Security	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Emergency	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Preparedness	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	requests	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	were	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	coming	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	high-water	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	vehicles	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	boats	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	sandbags	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Steele said Tangipahoa Parish alone requested tens of thousands of sandbags .
+1	Steele	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Tangipahoa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Parish	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	alone	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	requested	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	tens	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	thousands	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	sandbags	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: A flood watch remains in effect until Saturday across most of south Louisiana .
+1	A	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	flood	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	watch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	remains	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	effect	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	until	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Saturday	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	across	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	most	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	south	markable_5	set_2	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	Louisiana	markable_5	set_2	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: The weather service said in a statement that an additional 3 to 5 inches could fall over the area .
+1	The	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	weather	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	service	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	statement	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	that	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	additional	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	3	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	5	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	inches	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	could	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	fall	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	over	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	the	markable_6	set_2	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+19	area	markable_6	set_2	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+20	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: In south Alabama , a flood watch was in effect Friday as rain continued in the Mobile area .
+1	In	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	south	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Alabama	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	flood	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	watch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	effect	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Friday	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	as	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	rain	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	continued	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Mobile	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	area	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: The Comite River near Baton Rouge and Amite River near Denham Springs , both in Louisiana , were predicted to set record crests over the weekend .
+1	The	markable_7	set_4	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	Comite	markable_7	set_4	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	River	markable_7	set_4	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	near	markable_7	set_4	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	Baton	markable_7	set_4	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	Rouge	markable_7	set_4	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	and	markable_7	set_4	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	Amite	markable_7	set_4	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	River	markable_7	set_4	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	near	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Denham	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Springs	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	both	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Louisiana	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	were	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	predicted	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	set	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	record	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	crests	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	over	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	weekend	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Forecaster Alek Krautmann said both rivers could flood many houses in suburban areas near Baton Rouge .
+1	Forecaster	markable_49	set_33	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	Alek	markable_49	set_33	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	Krautmann	markable_49	set_33	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	both	markable_8	set_4	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+6	rivers	markable_8	set_4	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+7	could	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	flood	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	many	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	houses	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	suburban	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	areas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	near	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Baton	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Rouge	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: He also said that flooding downstream in Ascension Parish is a threat , as those swollen rivers will be slow to drain into Lake Maurepas .
+1	He	markable_50	set_33	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	also	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	that	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	flooding	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	downstream	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Ascension	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Parish	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	threat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	as	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	those	markable_9	set_4	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+16	swollen	markable_9	set_4	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+17	rivers	markable_9	set_4	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+18	will	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	be	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	slow	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	drain	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	into	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Lake	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	Maurepas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: The Tickfaw River , just south of the Mississippi state line in Liverpool , Louisiana , was already at the highest level ever recorded at 9 a.m. Friday .
+1	The	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Tickfaw	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	River	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	just	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	south	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Mississippi	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	state	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	line	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Liverpool	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Louisiana	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	already	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	at	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	highest	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	level	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	ever	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	recorded	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	at	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	9	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	a.m.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	Friday	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Rescuers were still plucking people from floodwaters in Amite and Wilkinson counties in southwest Mississippi .
+1	Rescuers	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	were	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	still	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	plucking	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	people	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	from	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	floodwaters	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Amite	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Wilkinson	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	counties	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	southwest	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Mississippi	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Leroy Hansford , his wife and stepson were among those rescued earlier Friday near Gloster .
+1	Leroy	markable_12	set_30	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	Hansford	markable_12	set_30	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	his	markable_51	set_30	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+5	wife	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	stepson	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	were	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	among	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	those	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	rescued	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	earlier	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Friday	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	near	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Gloster	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Hansford , 62 , says waters from Beaver Creek , which is normally more than 400 feet away from his house , rose quickly overnight .
+1	Hansford	markable_52	set_30	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	62	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	says	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	waters	markable_10	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	from	markable_10	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	Beaver	markable_10	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	Creek	markable_10	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	which	markable_11	set_16	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+12	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	normally	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	more	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	than	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	400	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	feet	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	away	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	from	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	his	markable_13	set_30	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+21	house	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	rose	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	quickly	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	overnight	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: He said another stepson who lives nearby alerted him .
+1	He	markable_14	set_30	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	another	markable_16	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	stepson	markable_16	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	who	markable_17	set_8	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+6	lives	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	nearby	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	alerted	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	him	markable_15	set_30	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: `` We woke up and the water kept on coming , '' Hansford said .
+1	``	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	We	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	woke	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	up	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	the	markable_18	set_12	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	water	markable_18	set_12	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	kept	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	coming	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	''	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Hansford	markable_20	set_30	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: It came up to my waist .
+1	It	markable_19	set_12	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	came	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	up	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	my	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	waist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: His wife told Hansford that it 's the highest she 's seen the creek in the 48 years she 's lived there .
+1	His	markable_21|markable_25	set_30|set_15	np|np	_	_	_	simple antecedent	entity	_	_	np|antecedent	anaphoric	none	_	_	_	_
+2	wife	markable_25	set_15	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	told	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Hansford	markable_53	set_30	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+5	that	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	it	markable_22	set_12	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+7	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	the	markable_23	set_12	np	_	_	_	simple antecedent	entity	_	_	nom-ellipsis	_	_	_	_	_	_
+9	highest	markable_23	set_12	np	_	_	_	simple antecedent	entity	_	_	nom-ellipsis	_	_	_	_	_	_
+10	she	markable_24	set_15	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+11	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	seen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	the	markable_26	set_16	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+14	creek	markable_26	set_16	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+15	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	48	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	years	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	she	markable_27	set_15	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+20	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	lived	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	there	markable_28	set_16	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+23	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Hansford said he and his family members all have disabilities , and he 's the only one who can swim .
+1	Hansford	markable_29	set_30	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	he	markable_30	set_30	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+4	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	his	markable_31	set_30	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+6	family	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	members	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	all	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	have	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	disabilities	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	he	markable_32	set_30	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+14	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	only	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	one	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	who	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	can	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	swim	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Hansford said emergency workers rescued all three in a large military-style truck and took them to the fire station in Gloster , where they were sheltering Friday .
+1	Hansford	markable_54	set_30	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	emergency	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	workers	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	rescued	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	all	markable_34	set_19	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	three	markable_34	set_19	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	large	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	military-style	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	truck	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	took	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	them	markable_35	set_19	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+16	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	fire	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	station	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Gloster	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	where	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	they	markable_36	set_19	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+25	were	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	sheltering	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	Friday	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Krautmann says flooding is `` quickly becoming widespread '' as heavy rains continue , saying officials are considering evacuation orders .
+1	Krautmann	markable_55	set_33	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	says	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	flooding	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	``	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	quickly	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	becoming	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	widespread	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	''	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	as	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	heavy	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	rains	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	continue	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	saying	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	officials	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	are	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	considering	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	evacuation	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	orders	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Krautmann says one observer near Livingston reported 13.75 inches of rain from midnight to Friday morning .
+1	Krautmann	markable_56	set_33	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	says	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	one	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	observer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	near	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Livingston	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	reported	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	13.75	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	inches	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	rain	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	from	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	midnight	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Friday	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	morning	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Krautmann said the ground was heavily saturated by rainfall since Wednesday .
+1	Krautmann	markable_57	set_33	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	ground	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	heavily	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	saturated	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	by	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	rainfall	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	since	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Wednesday	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Heavy rain and street flooding prompted the rescue of residents from their homes in Tangipahoa Parish and the cancellation of classes in five school districts , authorities said .
+1	Heavy	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	rain	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	street	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	flooding	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	prompted	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	rescue	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	residents	markable_37	set_20	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	from	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	their	markable_38	set_20	pronoun	anaphoric	possessive	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+13	homes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Tangipahoa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Parish	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	cancellation	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	classes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	five	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	school	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	districts	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	authorities	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: CBS affiliate WWL reports that an alderwoman in Tangipahoa said 200 homes flooded .
+1	CBS	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	affiliate	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	WWL	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	reports	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	that	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	alderwoman	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Tangipahoa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	200	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	homes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	flooded	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Residents had been evacuated to two churches but both are now flooding .
+1	Residents	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	had	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	been	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	evacuated	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	two	markable_39	set_21	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	churches	markable_39	set_21	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	but	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	both	markable_40	set_21	pronoun	nom substitution	_	_	simple antecedent	entity	_	_	_	_	_	_	_	_	_
+10	are	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	now	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	flooding	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Parish President Robby Miller said authorities rescued 72 people and seven pets stranded by high water .
+1	Parish	markable_43	set_23	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	President	markable_43	set_23	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	Robby	markable_43	set_23	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	Miller	markable_43	set_23	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	authorities	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	rescued	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	72	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	people	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	seven	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	pets	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	stranded	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	by	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	high	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	water	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Shelters have been opened in the town of Amite and the city of Hammond to house those who were evacuated .
+1	Shelters	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	have	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	been	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	opened	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	town	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Amite	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	city	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Hammond	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	house	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	those	markable_41	set_22	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+18	who	markable_41	set_22	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+19	were	markable_41	set_22	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+20	evacuated	markable_41	set_22	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+21	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: `` They will be allowed to return home once the water starts to recede , '' he said .
+1	``	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	They	markable_42	set_22	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+3	will	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	be	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	allowed	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	return	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	home	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	once	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	water	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	starts	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	recede	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	''	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	he	markable_44	set_23	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+18	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: In the Tangipahoa Parish city of Hammond , close to two dozen streets were closed because of high water , and sandbags were made available for pickup by residents hoping to keep water out of homes and businesses .
+1	In	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Tangipahoa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Parish	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	city	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Hammond	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	close	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	two	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	dozen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	streets	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	were	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	closed	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	because	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	high	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	water	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	sandbags	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	were	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	made	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	available	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	pickup	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	by	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	residents	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	hoping	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	keep	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	water	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	out	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	homes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	businesses	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: `` The last major flood we had was in March , '' said city administrator Lacy Landrum .
+1	``	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	The	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	last	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	major	markable_58	set_34	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	flood	markable_58	set_34	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	we	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	had	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	March	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	''	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	city	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	administrator	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Lacy	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Landrum	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: This one is on track to be a similar event .
+1	This	markable_59	set_34	np	_	_	_	simple antecedent	entity	_	_	nom-ellipsis	_	_	_	_	_	_
+2	one	markable_59	set_34	np	_	_	_	simple antecedent	entity	_	_	nom-ellipsis	_	_	_	_	_	_
+3	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	track	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	be	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	similar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	event	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: In Mississippi , Harrison County Emergency Manager Rupert Lacy said steady rain continued on the Gulf Coast .
+1	In	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Mississippi	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Harrison	markable_45	set_24	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	County	markable_45	set_24	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	Emergency	markable_45	set_24	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	Manager	markable_45	set_24	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	Rupert	markable_45	set_24	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	Lacy	markable_45	set_24	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	steady	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	rain	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	continued	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Gulf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Coast	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: He said a handful of houses were reported as flooded Thursday , but none have been reported so far Friday .
+1	He	markable_46	set_24	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	handful	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	houses	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	were	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	reported	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	as	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	flooded	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Thursday	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	but	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	none	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	have	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	been	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	reported	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	so	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	far	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Friday	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Keith Townson , manager of Shopper Value Foods in Amite , has lived in the area for 40 years .
+1	Keith	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Townson	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	manager	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Shopper	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Value	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Foods	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Amite	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	has	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	lived	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	area	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	40	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	years	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: `` I 've seen water in some places I have never seen before , '' Townson said , `` and it 's still coming down . ''
+1	``	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	I	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	've	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	seen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	water	markable_47	set_25	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	some	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	places	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	I	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	have	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	never	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	seen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	before	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	''	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Townson	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	``	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	it	markable_48	set_25	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+22	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	still	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	coming	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	down	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	''	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+

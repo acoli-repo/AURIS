@@ -1,0 +1,747 @@
+# orig: parcor, corpus/news/DE/17
+
+# id	word	coref_id	coref_coref_class	coref_mention	coref_type	coref_type_of_pronoun	coref_audience	coref_split	coref_antetype	coref_agreement	coref_position	coref_nptype	coref_anacata	coref_npmod	coref_sub_apposition	coref_comparative	coref_vptype	coref_clausetype
+
+# text: Pokémon Go , eine Jagd nach Gesundheit und Glück , die sich lohnt
+1	Pokémon	markable_51	set_30	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	Go	markable_51	set_30	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Jagd	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	nach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Gesundheit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Glück	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	lohnt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es ist faszinierend zuzusehen , wie sich die Welt verändert .
+1	Es	markable_43	empty	pronoun	pleonastic	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	faszinierend	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	zuzusehen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Welt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	verändert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Dass Teenager und Kind zum Spielen nicht mehr nach draußen gehen , sondern es vielmehr bevorzugen , ihre Freizeit damit zu verbringen , auf Bildschirme zu starren , wurde im letzten Jahrzehnt von vielen beklagt .
+1	Dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Teenager	markable_44	set_23	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	und	markable_45	set_23	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	Kind	markable_45	set_23	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	zum	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Spielen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	mehr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	nach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	draußen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	gehen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	sondern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	vielmehr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	bevorzugen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	ihre	markable_46	set_23	pronoun	anaphoric	possessive	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+19	Freizeit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	damit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	verbringen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	Bildschirme	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	starren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	wurde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	letzten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	Jahrzehnt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	vielen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	beklagt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Bei Pokemon Go geht es darum , Leute vom Sofa zu holen und aktiver werden zu lassen .
+1	Bei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Pokemon	markable_52	set_30	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+3	Go	markable_52	set_30	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+4	geht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	darum	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Leute	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	vom	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Sofa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	holen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	aktiver	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	lassen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die Zeit am Bildschirm war anfangs auf den Fernseher , dann auf Videospiele und zuletzt auf Smartphones beschränkt .
+1	Die	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+2	Zeit	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+3	am	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+4	Bildschirm	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+5	war	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+6	anfangs	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+7	auf	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+8	den	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+9	Fernseher	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+10	,	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+11	dann	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+12	auf	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+13	Videospiele	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+14	und	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+15	zuletzt	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+16	auf	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+17	Smartphones	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+18	beschränkt	markable_1	set_0	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+19	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Daher ist es toll zu sehen , dass sich Technologie und Aktivitäten im Freien nicht gegenseitig ausschließen .
+1	Daher	markable_2	set_0	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	non-subject	_	_	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	es	markable_47	empty	pronoun	pleonastic	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	toll	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	sehen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	dass	markable_48	set_24	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+9	sich	markable_48	set_24	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+10	Technologie	markable_48	set_24	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+11	und	markable_48	set_24	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+12	Aktivitäten	markable_48	set_24	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+13	im	markable_48	set_24	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+14	Freien	markable_48	set_24	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+15	nicht	markable_48	set_24	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+16	gegenseitig	markable_48	set_24	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+17	ausschließen	markable_48	set_24	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich beziehe mich dabei selbstverständlich auf den Pokémon Go-Wahn , eine App , die auf den Charakteren beruht , die zunächst für die Videospiele in den 1990ern erschaffen wurden ( später entstanden daraus eine Zeichentrickserie , Spielkarten und andere Spin-Offs ) .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	beziehe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	mich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	dabei	markable_49	set_24	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	non-subject	_	_	_	_	_	_	_
+5	selbstverständlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Pokémon	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Go-Wahn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	App	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	den	markable_3	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+17	Charakteren	markable_3	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+18	beruht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	die	markable_4	set_1	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+21	zunächst	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	die	markable_5	set_2	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+24	Videospiele	markable_5	set_2	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+25	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	1990ern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	erschaffen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	wurden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	(	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	später	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	entstanden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	daraus	markable_6	set_2	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	none	non-subject	_	_	_	_	_	_	_
+34	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	Zeichentrickserie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	Spielkarten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	andere	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	Spin-Offs	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	)	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Wie viele Phänomene der Popkultur sank das Interesse vor der Veröffentlichung des Spiels in den USA , Australien und Neuseeland Anfang Juli etwas .
+1	Wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	viele	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Phänomene	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Popkultur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	sank	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Interesse	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	vor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Veröffentlichung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	des	markable_50	set_30	pronoun	antecedent	personal	_	_	_	none	none	_	_	_	_	_	_	_
+13	Spiels	markable_50	set_30	pronoun	antecedent	personal	_	_	_	none	none	_	_	_	_	_	_	_
+14	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	USA	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Australien	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Neuseeland	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Anfang	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	Juli	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	etwas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die Markteinführung in anderen Ländern wurde durch die massive Nachfrage verschoben , die die Server überlastete .
+1	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Markteinführung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	anderen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Ländern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	wurde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	durch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	die	markable_7	set_3	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	massive	markable_7	set_3	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	Nachfrage	markable_7	set_3	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	verschoben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	die	markable_8	set_3	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+14	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Server	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	überlastete	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Innerhalb weniger Tage hatte Pokémon Go mehr Benutzer als Tinder und fast so viele wie Twitter .
+1	Innerhalb	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	weniger	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Tage	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	hatte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Pokémon	markable_10	set_30	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+6	Go	markable_10	set_30	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+7	mehr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Benutzer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Tinder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	fast	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	so	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	viele	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Twitter	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Wie funktioniert es ?
+1	Wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	funktioniert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	es	markable_9	set_30	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+4	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Kurz gesagt gehen die Spieler mit ihren Smartphones nach draußen und suchen nach Pokémons , die mit einem GPS nachverfolgt werden und , sobald sie einmal gefunden wurden , " fotografiert " ( über einen Screenshot auf dem Handy ) oder " gefangen genommen " werden können .
+1	Kurz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	gesagt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	gehen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Spieler	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	ihren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Smartphones	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	nach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	draußen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	suchen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	nach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Pokémons	markable_11	set_6	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	die	markable_12	set_6	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+17	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	einem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	GPS	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	nachverfolgt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	sobald	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	sie	markable_13	set_6	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+26	einmal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	gefunden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	wurden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	fotografiert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	(	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	über	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	einen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	Screenshot	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	dem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	Handy	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	)	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	oder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+43	gefangen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+44	genommen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+45	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+46	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+47	können	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+48	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Eine Generation , die das Spiel spielte , als sie noch jünger war , schloss sich dem Wahn an und sprang für die Suche vom Sofa .
+1	Eine	markable_14	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	Generation	markable_14	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	die	markable_15	set_8	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+5	das	markable_56	set_30	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+6	Spiel	markable_56	set_30	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+7	spielte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	sie	markable_16	set_8	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+11	noch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	jünger	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	schloss	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	dem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Wahn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	sprang	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Suche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	vom	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	Sofa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: In den USA führte das Spiel zu einem beträchtlichen Anstieg an Schritten , die die " durchschnittliche " Person jeden Tag zurücklegt .
+1	In	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	USA	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	führte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	das	markable_54	set_30	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+6	Spiel	markable_54	set_30	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+7	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	einem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	beträchtlichen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Anstieg	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Schritten	markable_17	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	die	markable_18	set_9	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+15	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	durchschnittliche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Person	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	jeden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Tag	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	zurücklegt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Cardiogram , eine App für Apple Watch , die 35.000 Benutzer nachverfolgt , teilte der Washington Post vor kurzem mit , dass innerhalb von zwei Tagen nach Markteinführung des Spiels , die Anzahl der nachverfolgten Leute , die jeden Tag 30 Minuten trainieren , von 45 Prozent auf 53 Prozent ansprang .
+1	Cardiogram	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	App	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Apple	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Watch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	35.000	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Benutzer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	nachverfolgt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	teilte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Washington	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Post	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	vor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	kurzem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	innerhalb	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	zwei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	Tagen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	nach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	Markteinführung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	des	markable_55	set_30	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+30	Spiels	markable_55	set_30	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+31	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	Anzahl	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	nachverfolgten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	Leute	markable_19|markable_21	set_10|set_11	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_
+37	,	markable_21	set_11	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+38	die	markable_21|markable_20	set_11|set_10	np|pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	antecedent	_	_	_	_	_	_
+39	jeden	markable_21	set_11	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+40	Tag	markable_21	set_11	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+41	30	markable_21	set_11	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+42	Minuten	markable_21	set_11	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+43	trainieren	markable_21	set_11	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+44	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+45	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+46	45	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+47	Prozent	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+48	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+49	53	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+50	Prozent	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+51	ansprang	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+52	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Das Unternehmen weiß nicht , wer davon Pokémon Go spielt - es sieht lediglich die Rohdaten zur Leistungssteigerung .
+1	Das	markable_23	set_12	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	Unternehmen	markable_23	set_12	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	weiß	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	wer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	davon	markable_22	set_11	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+8	Pokémon	markable_53	set_30	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+9	Go	markable_53	set_30	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+10	spielt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	es	markable_24	set_12	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+13	sieht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	lediglich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Rohdaten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	zur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Leistungssteigerung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Viele öffentliche Aufklärungskampagnen zur Gesundheit , die Leute dazu bringen wollen " sich 30 Minuten Zeit zu nehmen , " " vom Sofa zu kommen " und " jeden Tag aktiv zu sein " stießen auf taube Ohren , weil viele öffentliche Botschaften zur Gesundheit langweilig sind und von Leuten kommen , die elend aussehen .
+1	Viele	markable_25	set_13	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	öffentliche	markable_25	set_13	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	Aufklärungskampagnen	markable_25	set_13	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	zur	markable_25	set_13	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	Gesundheit	markable_25	set_13	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	die	markable_26	set_13	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+8	Leute	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	dazu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	bringen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	wollen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	30	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Minuten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Zeit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	nehmen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	vom	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	Sofa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	kommen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	jeden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	Tag	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	aktiv	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	sein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	stießen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	taube	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	Ohren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	weil	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	viele	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	öffentliche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+43	Botschaften	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+44	zur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+45	Gesundheit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+46	langweilig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+47	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+48	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+49	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+50	Leuten	markable_27	set_14	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+51	kommen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+52	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+53	die	markable_28	set_14	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+54	elend	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+55	aussehen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+56	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Dennoch kann die Bedeutung von Sport nicht überbewertet werden .
+1	Dennoch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	kann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Bedeutung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Sport	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	überbewertet	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Wer regelmäßig Sport treibt , reduziert seine Chancen , an Krebs oder Depressionen zu erkranken .
+1	Wer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	regelmäßig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Sport	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	treibt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	reduziert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	seine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Chancen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Krebs	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	oder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Depressionen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	erkranken	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Körperliche Betätigung hilft bei der Gewichtskontrolle , hohem Blutdruck , Diabetes und einer langen Liste an Vorteilen , die zu lange ist , um sie hier anzuführen .
+1	Körperliche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Betätigung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	hilft	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	bei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Gewichtskontrolle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	hohem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Blutdruck	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Diabetes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	einer	markable_29	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	langen	markable_29	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+15	Liste	markable_29	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	an	markable_29	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+17	Vorteilen	markable_29	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+18	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	die	markable_30	set_16	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+20	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	lange	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	sie	markable_31	set_16	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+26	hier	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	anzuführen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Aber das Wundervolle an Pokémon Go ist , dass es die Leute dazu bringt , etwas im Freien zu tun , dass ihnen Spaß macht .
+1	Aber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Wundervolle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Pokémon	markable_32	set_30	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+6	Go	markable_32	set_30	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+7	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	es	markable_33	set_30	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+11	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Leute	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	dazu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	bringt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	etwas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Freien	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	tun	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	ihnen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Spaß	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	macht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Somit werden drei Säulen der Gesundheit abgedeckt - Bewegung , frische Luft und Sonnenschein sowie Spaß .
+1	Somit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	drei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Säulen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Gesundheit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	abgedeckt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Bewegung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	frische	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Luft	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Sonnenschein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	sowie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Spaß	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Manche Leute schließen auf der Jagd sogar neue Freundschaften .
+1	Manche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Leute	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	schließen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Jagd	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	sogar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	neue	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Freundschaften	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Wie immer gibt es auch mürrische Spielverderber , die sich immer über etwas beschweren müssen .
+1	Wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	immer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	gibt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	auch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	mürrische	markable_35	set_18	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	Spielverderber	markable_35	set_18	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	die	markable_36	set_18	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+10	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	immer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	über	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	etwas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	beschweren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	müssen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Und ja , jemand könnte gegen eine Tür laufen .
+1	Und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	ja	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	jemand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	könnte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	gegen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Tür	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	laufen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Was soll 's ?
+1	Was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	soll	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es hat sich ein Durchbruch ereignet .
+1	Es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	hat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Durchbruch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ereignet	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Auch wenn Smartphone-Apps wie Fitbit bereits früher unsere Aktivität nachverfolgen konnten , gaben sie uns keinen Grund , Sport zu treiben , wie es dieses Spiel tut .
+1	Auch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	wenn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Smartphone-Apps	markable_37	set_19	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	wie	markable_37	set_19	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	Fitbit	markable_37	set_19	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	bereits	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	früher	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	unsere	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Aktivität	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	nachverfolgen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	konnten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	gaben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	sie	markable_38	set_19	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+15	uns	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	keinen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Grund	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Sport	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	treiben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	dieses	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	Spiel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	tut	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Das Neue wird seinen Reiz verlieren und die Verwendung wird mit der Zeit nachlassen .
+1	Das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Neue	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	wird	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	seinen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Reiz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	verlieren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Verwendung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	wird	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Zeit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	nachlassen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Aufgrund von Pokemons Erfolg wird es jedoch mehr Spiele geben , die Apps und virtuelle Realität mit dem Aktivwerden in der realen Welt vereinen werden und dabei vielen Leuten auf der Jagd helfen werden , aktiver , fitter und gesünder zu sein .
+1	Aufgrund	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Pokemons	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Erfolg	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	wird	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	jedoch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	mehr	markable_39	set_20	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	Spiele	markable_39	set_20	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	geben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	die	markable_40	set_20	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+13	Apps	markable_41	set_21	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+14	und	markable_41	set_21	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+15	virtuelle	markable_41	set_21	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+16	Realität	markable_41	set_21	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+17	mit	markable_41	set_21	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+18	dem	markable_41	set_21	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+19	Aktivwerden	markable_41	set_21	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+20	in	markable_41	set_21	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+21	der	markable_41	set_21	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+22	realen	markable_41	set_21	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+23	Welt	markable_41	set_21	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+24	vereinen	markable_41	set_21	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+25	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	dabei	markable_42	set_21	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	non-subject	_	_	_	_	_	_	_
+28	vielen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	Leuten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	Jagd	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	helfen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	aktiver	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	fitter	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	gesünder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	sein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+43	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Lesen Sie Dr. Joes Blog auf www.drjoetoday.com
+1	Lesen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Sie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Dr.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Joes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Blog	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	www.drjoetoday.com	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+

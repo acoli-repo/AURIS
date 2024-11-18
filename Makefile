@@ -231,7 +231,7 @@ conllu:
 	if [ ! -e conllu ]; then make update-conllu; fi;
 
 update-conllu: udpipe txt txt/bibl txt/doyle
-	@LANGS="de en fr ru";\
+	@LANGS="de en fr ru pt";\
 	echo "warning: we're supporting only "$$LANGS" at the moment" 1>&2;\
 	for lang in $$LANGS; do \
 		for file in txt/$$lang/*.txt; do \
@@ -252,6 +252,11 @@ conll-rdf:
 		git clone https://github.com/acoli-repo/conll-rdf.git;\
 		cd conll-rdf;\
 		#./compile.sh;\
+	fi;
+
+conll-merge:
+	if [ ! -e conll-merge ]; then \
+		git clone https://github.com/acoli-repo/conll-merge;\
 	fi;
 
 refexp: 
@@ -291,4 +296,14 @@ update-refexp: conll-rdf
 				fi;\
 			done;\
 		fi;\
+	done;
+
+	# validation
+	@for file in `grep -L -P '\t' $$(find refexp | grep '.tsv$$')`; do \
+		echo warning: $$file is empty 1>&2;\
+		mv $$file $$file.invalid;\
+	done;
+	@for file in `grep -L -P 'OLD|NEW' $$(find refexp | grep '.tsv$$')`; do \
+		echo warning: $$file seems not to contain pre-annotation 1>&2;\
+		mv $$file $$file.invalid;\
 	done;

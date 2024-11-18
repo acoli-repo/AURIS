@@ -1,0 +1,515 @@
+# orig: parcor, corpus/news/EN/03
+
+# id	word	coref_id	coref_coref_class	coref_mention	coref_type	coref_type_of_pronoun	coref_audience	coref_split	coref_antetype	coref_agreement	coref_position	coref_nptype	coref_anacata	coref_npmod	coref_sub_apposition	coref_comparative	coref_vptype	coref_clausetype	coref_<markable coref_class	coref_<markable agreement	coref_<markable clausetype	coref_<markable anacata
+
+# text: Golfer Langer is awarded the Sport Pyramid
+1	Golfer	markable_1	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_14	_	_	_
+2	Langer	markable_1	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_14	_	_	_
+3	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	awarded	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Sport	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Pyramid	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: His experience on horseback is negligible .
+1	His	markable_2	set_14	pronoun	anaphoric	possessive>	_	simple antecedent	entity	_	subject	_	_	_	_	_	_	_	_	singular	_	_
+2	experience	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	horseback	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	negligible	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: At the end of a golfing tournament in South Africa , Bernhard Langer and a colleague went for a ride along the beach for a bit of fun .
+1	At	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	end	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	golfing	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	tournament	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	South	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Africa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Bernhard	markable_30	set_14	np	_	_	_	simple antecedent>	entity	_	_	np	_	none	_	_	_	_	_	_	_	anaphoric
+13	Langer	markable_30	set_14	np	_	_	_	simple antecedent>	entity	_	_	np	_	none	_	_	_	_	_	_	_	anaphoric
+14	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	colleague	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	went	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	ride	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	along	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	beach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	bit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	fun	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: It was a first for the 58-year-old .
+1	It	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	first	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	the	markable_31	set_14	np	_	_	_	simple antecedent>	entity	_	_	np	_	def-article	_	_	_	_	_	_	_	anaphoric
+7	58-year-old	markable_31	set_14	np	_	_	_	simple antecedent>	entity	_	_	np	_	def-article	_	_	_	_	_	_	_	anaphoric
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: CHIO : `` Golden Sport Pyramid '' for Bernhard Langer
+1	CHIO	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	``	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Golden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Sport	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Pyramid	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	''	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Bernhard	markable_32	set_14	np	_	_	_	simple antecedent>	entity	_	_	np	_	none	_	_	_	_	_	_	_	anaphoric
+10	Langer	markable_32	set_14	np	_	_	_	simple antecedent>	entity	_	_	np	_	none	_	_	_	_	_	_	_	anaphoric
+
+# text: After a few minutes , the horse decided it wanted to go home , and raced back to its feeding trough at full tilt .
+1	After	markable_5	set_2	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+2	a	markable_5	set_2	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+3	few	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	minutes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	the	markable_3	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_17	_	_	_
+7	horse	markable_3	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_17	_	_	_
+8	decided	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	it	markable_33	set_17	pronoun	anaphoric	personal>	_	simple antecedent	entity	_	subject	_	_	_	_	_	_	_	_	singular	_	_
+10	wanted	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	go	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	home	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	raced	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	back	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	its	markable_4	set_17	pronoun	anaphoric	possessive>	_	simple antecedent	entity	_	non-subject	_	_	_	_	_	_	_	_	singular	_	_
+20	feeding	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	trough	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	at	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	full	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	tilt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: After a kilometre at this speed I was scared .
+1	After	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	kilometre	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	at	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	this	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	speed	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	I	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	scared	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: `` It was n't a good experience , '' said Langer .
+1	``	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	It	markable_6	set_2	pronoun	anaphoric	personal>	_	simple antecedent	event	_	subject	_	_	_	_	_	_	_	_	none	_	_
+3	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	n't	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	good	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	experience	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	''	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Langer	markable_7	set_14	np	_	_	_	simple antecedent>	entity	_	_	np	_	none	_	_	_	_	_	_	_	anaphoric
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: And with that , his riding career came to an end again .
+1	And	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	that	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	his	markable_8	set_14	pronoun	anaphoric	possessive>	_	simple antecedent	entity	_	subject	_	_	_	_	_	_	_	_	singular	_	_
+6	riding	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	career	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	came	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	end	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	again	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: On Saturday , Germany 's best golfer of all time - with 101 tournament wins under his belt - was once again near horses .
+1	On	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Saturday	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Germany	markable_9	set_14	np	_	_	_	simple antecedent>	entity	_	_	np	_	none	_	_	_	_	_	_	_	anaphoric
+5	's	markable_9	set_14	np	_	_	_	simple antecedent>	entity	_	_	np	_	none	_	_	_	_	_	_	_	anaphoric
+6	best	markable_9	set_14	np	_	_	_	simple antecedent>	entity	_	_	np	_	none	_	_	_	_	_	_	_	anaphoric
+7	golfer	markable_9	set_14	np	_	_	_	simple antecedent>	entity	_	_	np	_	none	_	_	_	_	_	_	_	anaphoric
+8	of	markable_9	set_14	np	_	_	_	simple antecedent>	entity	_	_	np	_	none	_	_	_	_	_	_	_	anaphoric
+9	all	markable_9	set_14	np	_	_	_	simple antecedent>	entity	_	_	np	_	none	_	_	_	_	_	_	_	anaphoric
+10	time	markable_9	set_14	np	_	_	_	simple antecedent>	entity	_	_	np	_	none	_	_	_	_	_	_	_	anaphoric
+11	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	101	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	tournament	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	wins	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	under	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	his	markable_10	set_14	pronoun	anaphoric	possessive>	_	simple antecedent	entity	_	non-subject	_	_	_	_	_	_	_	_	singular	_	_
+18	belt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	once	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	again	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	near	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	horses	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: He and his family toured the ALRV grounds , but he did not jump onto a horse for a photo .
+1	He	markable_11	set_14	pronoun	anaphoric	personal>	_	simple antecedent	entity	_	subject	_	_	_	_	_	_	_	_	singular	_	_
+2	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	his	markable_12	set_14	pronoun	anaphoric	possessive>	_	simple antecedent	entity	_	subject	_	_	_	_	_	_	_	_	singular	_	_
+4	family	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	toured	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	ALRV	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	grounds	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	but	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	he	markable_13	set_14	pronoun	anaphoric	personal>	_	simple antecedent	entity	_	subject	_	_	_	_	_	_	_	_	singular	_	_
+12	did	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	not	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	jump	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	onto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	horse	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	photo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: It was Langer 's first time in Aachen , and at CHIO .
+1	It	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Langer	markable_14	set_14	np	_	_	_	simple antecedent>	entity	_	_	np	_	none	_	_	_	_	_	_	_	anaphoric
+4	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	first	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	time	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Aachen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	at	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	CHIO	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: He had been thoroughly convinced .
+1	He	markable_15	set_14	pronoun	anaphoric	personal>	_	simple antecedent	entity	_	subject	_	_	_	_	_	_	_	_	singular	_	_
+2	had	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	been	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	thoroughly	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	convinced	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: The German Sport Aid foundation awarded the man from Anhausen with the Golden Sport Pyramid at a small gala event .
+1	The	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	German	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Sport	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Aid	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	foundation	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	awarded	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	man	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	from	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Anhausen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Golden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Sport	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Pyramid	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	at	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	small	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	gala	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	event	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: The friendly sportsman is not lacking for awards .
+1	The	markable_17	set_14	np	_	_	_	simple antecedent>	entity	_	_	np	_	none	_	_	_	_	_	_	_	anaphoric
+2	friendly	markable_17	set_14	np	_	_	_	simple antecedent>	entity	_	_	np	_	none	_	_	_	_	_	_	_	anaphoric
+3	sportsman	markable_17	set_14	np	_	_	_	simple antecedent>	entity	_	_	np	_	none	_	_	_	_	_	_	_	anaphoric
+4	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	not	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	lacking	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	awards	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: The Federal Cross of Merit , the Silver Laurel Leaf , Champions Tour Player of the Year ...
+1	The	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Federal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Cross	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Merit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Silver	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Laurel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Leaf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Champions	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Tour	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Player	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Year	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	...	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Even the British Queen has bestowed an honour upon him .
+1	Even	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	British	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Queen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	has	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	bestowed	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	honour	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	upon	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	him	markable_16	set_14	pronoun	anaphoric	personal>	_	simple antecedent	entity	_	non-subject	_	_	_	_	_	_	_	_	singular	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Langer is the 18th person to be awarded the Sport Pyramid .
+1	Langer	markable_18	set_14	np	_	_	_	simple antecedent>	entity	_	_	np	_	none	_	_	_	_	_	_	_	anaphoric
+2	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	18th	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	person	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	be	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	awarded	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	the	markable_20	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_10	_	_	_
+10	Sport	markable_20	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_10	_	_	_
+11	Pyramid	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: On Saturday , he met the first person to receive it , Hans Günter Winkler , in Aachen .
+1	On	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Saturday	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	he	markable_19	set_14	pronoun	anaphoric	personal>	_	simple antecedent	entity	_	subject	_	_	_	_	_	_	_	_	singular	_	_
+5	met	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	first	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	person	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	receive	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	it	markable_21	set_10	pronoun	anaphoric	personal>	_	simple antecedent	entity	_	non-subject	_	_	_	_	_	_	_	_	singular	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Hans	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Günter	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Winkler	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Aachen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: `` This award means a lot to me , '' said Langer , `` because it 's not just given for sporting success , but also for social commitment . ''
+1	``	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	This	markable_22	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_11	_	_	_
+3	award	markable_22	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_11	_	_	_
+4	means	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	lot	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	me	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	''	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	said	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Langer	markable_34	set_14	np	_	_	_	simple antecedent>	entity	_	_	np	_	none	_	_	_	_	_	_	_	anaphoric
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	``	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	because	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	it	markable_23	set_11	pronoun	anaphoric	personal>	_	simple antecedent	entity	_	subject	_	_	_	_	_	_	_	_	singular	_	_
+17	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	not	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	just	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	given	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	sporting	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	success	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	but	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	also	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	social	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	commitment	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	''	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Langer has been encouraging up-and-coming talent for years .
+1	Langer	markable_24	set_14	np	_	_	_	simple antecedent>	entity	_	_	np	_	none	_	_	_	_	_	_	_	anaphoric
+2	has	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	been	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	encouraging	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	up-and-coming	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	talent	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	years	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: And in this vein , he passed the prize money of 25,000 euros on straight away .
+1	And	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	this	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	vein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	he	markable_25	set_14	pronoun	anaphoric	personal>	_	simple antecedent	entity	_	subject	_	_	_	_	_	_	_	_	singular	_	_
+7	passed	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	prize	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	money	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	25,000	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	euros	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	straight	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	away	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: The two-time US master 's champion was inaugurated into the `` Hall of Fame for German Sport '' on Saturday , along with 15 other outstanding sportspeople .
+1	The	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	two-time	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	US	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	master	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	champion	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	inaugurated	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	into	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	``	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Hall	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Fame	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	German	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Sport	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	''	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Saturday	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	along	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	15	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	other	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	outstanding	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	sportspeople	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Those given the award include track athletes Hartwig Gauder and Harald Schmitt , gymnast Eberhard Gienger , fencers Cornelia Hanisch , Alexander Putsch and Arnd Schmitt , rower Peter-Michael Kolbe , bob-sleigh rider Meinhard Nehmer , judo player Frank Wieneke , show-jumper Alwin Schockemöhle , and , posthumously , handball player Erhard Wunderlich .
+1	Those	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	given	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	award	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	include	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	track	markable_35	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_19	_	_	_
+7	athletes	markable_35	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_19	_	_	_
+8	Hartwig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Gauder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	and	markable_36	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_19	_	_	_
+11	Harald	markable_36	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_19	_	_	_
+12	Schmitt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	markable_37	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_19	_	_	_
+14	gymnast	markable_37	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_19	_	_	_
+15	Eberhard	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Gienger	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	,	markable_38	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_19	_	_	_
+18	fencers	markable_38	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_19	_	_	_
+19	Cornelia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Hanisch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	,	markable_39	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_19	_	_	_
+22	Alexander	markable_39	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_19	_	_	_
+23	Putsch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	and	markable_40	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_19	_	_	_
+25	Arnd	markable_40	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_19	_	_	_
+26	Schmitt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	,	markable_41	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_19	_	_	_
+28	rower	markable_41	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_19	_	_	_
+29	Peter-Michael	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	Kolbe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	bob-sleigh	markable_42	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_19	_	_	_
+33	rider	markable_42	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_19	_	_	_
+34	Meinhard	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	Nehmer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	,	markable_43	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_19	_	_	_
+37	judo	markable_43	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_19	_	_	_
+38	player	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	Frank	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	Wieneke	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	,	markable_44	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_19	_	_	_
+42	show-jumper	markable_44	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_19	_	_	_
+43	Alwin	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+44	Schockemöhle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+45	,	markable_45	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_19	_	_	_
+46	and	markable_45	_	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_	set_19	_	_	_
+47	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+48	posthumously	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+49	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+50	handball	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+51	player	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+52	Erhard	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+53	Wunderlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+54	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Many of these sport legends came to Aachen on Saturday .
+1	Many	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	these	markable_26	set_19	np	_	_	_	split reference>	_	_	_	np	_	demonstrative	_	_	_	_	_	_	_	anaphoric
+4	sport	markable_26	set_19	np	_	_	_	split reference>	_	_	_	np	_	demonstrative	_	_	_	_	_	_	_	anaphoric
+5	legends	markable_26	set_19	np	_	_	_	split reference>	_	_	_	np	_	demonstrative	_	_	_	_	_	_	_	anaphoric
+6	came	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Aachen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Saturday	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: After the official part , the illustrious gathering wandered to the show-jumping stadium , where the Lavazza Prize was underway .
+1	After	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	official	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	part	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	illustrious	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	gathering	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	wandered	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	show-jumping	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	stadium	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	where	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Lavazza	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Prize	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	underway	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Bernhard Langer kept his distance from the large animals .
+1	Bernhard	markable_28	set_14	np	_	_	_	simple antecedent>	entity	_	_	np	_	none	_	_	_	_	_	_	_	anaphoric
+2	Langer	markable_28	set_14	np	_	_	_	simple antecedent>	entity	_	_	np	_	none	_	_	_	_	_	_	_	anaphoric
+3	kept	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	his	markable_29	set_14	pronoun	anaphoric	possessive>	_	simple antecedent	entity	_	non-subject	_	_	_	_	_	_	_	_	singular	_	_
+5	distance	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	from	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	large	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	animals	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+

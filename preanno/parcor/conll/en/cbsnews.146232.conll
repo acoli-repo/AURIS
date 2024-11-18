@@ -1,0 +1,765 @@
+# orig: parcor, corpus/news/EN/18
+
+# id	word	coref_id	coref_coref_class	coref_mention	coref_type	coref_type_of_pronoun	coref_audience	coref_split	coref_antetype	coref_agreement	coref_position	coref_nptype	coref_anacata	coref_npmod	coref_sub_apposition	coref_comparative	coref_vptype	coref_clausetype
+
+# text: Simone Biles nails all-around gold in women 's gymnastics
+1	Simone	markable_45	set_37	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	Biles	markable_45	set_37	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	nails	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	all-around	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	gold	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	women	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	gymnastics	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Forget the pressure .
+1	Forget	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	the	markable_1	set_0	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	pressure	markable_1	set_0	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	.	markable_1	set_0	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+
+# text: Forget the hype .
+1	Forget	markable_1	set_0	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	the	markable_1	set_0	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	hype	markable_1	set_0	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Simone Biles is immune to all of it .
+1	Simone	markable_46	set_37	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	Biles	markable_46	set_37	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+3	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	immune	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	all	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	it	markable_2	set_0	pronoun	anaphoric	personal	_	split reference	_	none	non-subject	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Dynamic on vault .
+1	Dynamic	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	vault	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Effortless on beam .
+1	Effortless	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	beam	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Jaw-dropping on floor .
+1	Jaw-dropping	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	floor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Brilliant all over .
+1	Brilliant	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	all	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	over	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: And now , finally , an Olympic champion .
+1	And	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	now	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	finally	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Olympic	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	champion	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: The 19-year-old American gymnast soared to the all-around title on Thursday , putting the gap between herself and the rest of the world on full display under the Olympic spotlight .
+1	The	markable_4	set_37	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+2	19-year-old	markable_4	set_37	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+3	American	markable_4	set_37	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+4	gymnast	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	soared	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	all-around	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	title	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Thursday	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	putting	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	gap	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	between	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	herself	markable_3	set_37	pronoun	anaphoric	reflexive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+18	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	rest	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	world	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	full	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	display	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	under	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	Olympic	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	spotlight	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Her total of 62.198 was well clear of silver medalist and `` Final Five '' teammate Aly Raisman and Russian bronze medalist Aliya Mustafina .
+1	Her	markable_5	set_37	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	total	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	62.198	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	well	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	clear	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	silver	markable_62	set_40	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	medalist	markable_62	set_40	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	and	markable_62	set_40	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	``	markable_62	set_40	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	Final	markable_62	set_40	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	Five	markable_62	set_40	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+15	''	markable_62	set_40	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	teammate	markable_62	set_40	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+17	Aly	markable_62	set_40	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+18	Raisman	markable_62	set_40	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+19	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Russian	markable_66	set_42	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+21	bronze	markable_66	set_42	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+22	medalist	markable_66	set_42	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+23	Aliya	markable_66	set_42	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+24	Mustafina	markable_66	set_42	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+25	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: United States ' Simone Biles performs on the balance beam during the artistic gymnastics women 's individual all-around final at the 2016 Summer Olympics in Rio de Janeiro , Brazil , Thursday .
+1	United	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	States	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	'	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Simone	markable_50	set_37	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+5	Biles	markable_50	set_37	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+6	performs	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	balance	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	beam	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	during	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	artistic	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	gymnastics	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	women	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	individual	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	all-around	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	final	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	at	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	2016	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	Summer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Olympics	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	Rio	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	Janeiro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	Brazil	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	Thursday	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Biles became the fourth straight American woman to win the all-around title and fifth overall while cementing her reputation as the best of her generation and perhaps ever .
+1	Biles	markable_7|markable_58	set_37|set_35	np|clause	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	antecedent
+2	became	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+3	the	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+4	fourth	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+5	straight	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+6	American	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+7	woman	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+8	to	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+9	win	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+10	the	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+11	all-around	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+12	title	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+13	and	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+14	fifth	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+15	overall	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+16	while	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+17	cementing	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+18	her	markable_6|markable_58	set_37|set_35	pronoun|clause	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	antecedent
+19	reputation	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+20	as	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+21	the	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+22	best	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+23	of	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+24	her	markable_58|markable_8	set_35|set_37	clause|pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	antecedent
+25	generation	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+26	and	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+27	perhaps	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+28	ever	markable_58	set_35	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+29	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: She burst into tears when her final total was posted and her long journey to this moment ended .
+1	She	markable_9	set_37	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	burst	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	into	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	tears	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	when	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	her	markable_10	set_37	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+7	final	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	total	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	posted	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	her	markable_11	set_37	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+13	long	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	journey	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	this	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	moment	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	ended	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: The achievement puts her in the same league as once-in-a-generation athletes like Michael Phelps who have taken their sports to new heights :
+1	The	markable_59	set_35	np	_	_	_	simple antecedent	event	_	_	np	anaphoric	def-article	_	_	_	_
+2	achievement	markable_59	set_35	np	_	_	_	simple antecedent	event	_	_	np	anaphoric	def-article	_	_	_	_
+3	puts	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	her	markable_12	set_37	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+5	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	same	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	league	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	as	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	once-in-a-generation	markable_51	set_29	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	athletes	markable_51	set_29	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	like	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Michael	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Phelps	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	who	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	have	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	taken	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	their	markable_52	set_29	pronoun	anaphoric	possessive	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+19	sports	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	new	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	heights	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Biles has spent the last three years dominating her sport , winning 15 world championship medals - including 10 gold - with routines so astonishing in their mix of ambition and precision that 1984 Olympic champion Mary Lou Retton called her `` the greatest gymnast I 've ever seen . ''
+1	Biles	markable_13	set_37	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	has	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	spent	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	last	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	three	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	years	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	dominating	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	her	markable_14	set_37	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+10	sport	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	winning	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	15	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	world	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	championship	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	medals	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	including	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	10	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	gold	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	routines	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	so	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	astonishing	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	their	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	mix	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	ambition	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	precision	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	that	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	1984	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	Olympic	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	champion	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	Mary	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	Lou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	Retton	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	called	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	her	markable_15	set_37	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+42	``	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+43	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+44	greatest	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+45	gymnast	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+46	I	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+47	've	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+48	ever	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+49	seen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+50	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+51	''	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: One last test awaited in Brazil , a contest not so much between Biles and the rest of the field but between herself and the burden of oversized expectations .
+1	One	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	last	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	test	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	awaited	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Brazil	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	contest	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	not	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	so	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	much	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	between	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Biles	markable_16	set_37	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+15	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	rest	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	field	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	but	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	between	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	herself	markable_17	set_37	pronoun	anaphoric	reflexive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+24	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	burden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	oversized	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	expectations	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Anything less than heading back to her family 's home in Spring , Texas , with a fistful of golds would be seen as a disappointment .
+1	Anything	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	less	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	than	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	heading	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	back	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	her	markable_18	set_37	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+8	family	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	home	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Spring	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Texas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	fistful	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	golds	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	would	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	be	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	seen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	as	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	disappointment	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: United States ' Simone Biles , left , and Aly Raisman embrace after winning gold and silver respectively for the artistic gymnastics women 's individual all-around final at the 2016 Summer Olympics in Rio de Janeiro , Brazil , Thursday , Aug .
+1	United	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	States	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	'	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Simone	markable_54	set_37	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+5	Biles	markable_54	set_37	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	left	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Aly	markable_64	set_40	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+11	Raisman	markable_64	set_40	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+12	embrace	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	after	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	winning	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	gold	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	silver	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	respectively	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	artistic	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	gymnastics	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	women	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	individual	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	all-around	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	final	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	at	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	2016	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	Summer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	Olympics	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	Rio	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	Janeiro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	Brazil	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	Thursday	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	Aug	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+43	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Biles earned the first one on Tuesday while serving as the exclamation point to retiring national team coordinator Martha Karolyi 's going away party .
+1	Biles	markable_53	set_37	np	_	_	_	_	_	_	_	not sure. help!	_	_	_	_	_	_
+2	earned	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	first	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	one	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Tuesday	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	while	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	serving	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	as	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	exclamation	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	point	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	retiring	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	national	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	team	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	coordinator	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Martha	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Karolyi	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	going	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	away	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	party	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: While Biles insisted she 's never looked ahead during her long run at the top , that 's not exactly true .
+1	While	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Biles	markable_19	set_37	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+3	insisted	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	she	markable_20	set_37	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+5	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	never	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	looked	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	ahead	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	during	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	her	markable_21	set_37	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+11	long	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	run	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	at	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	top	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	that	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	not	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	exactly	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	true	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: A portion of her floor exercise routine - the one that includes her signature tumbling pass - is set to Latin music that would fit right at home in the street right outside the Rio Olympic Arena .
+1	A	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	portion	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	of	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	her	markable_22|markable_26|markable_48	set_37|set_16|set_27	pronoun|np|np	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	antecedent|antecedent	_	_	_	_	_	_
+5	floor	markable_26|markable_48	set_16|set_27	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_
+6	exercise	markable_26|markable_48	set_16|set_27	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_
+7	routine	markable_26|markable_48	set_16|set_27	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_
+8	-	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	the	markable_26|markable_47	set_16|set_27	np|pronoun	nom substitution	_	_	simple antecedent	entity	_	_	antecedent	_	_	_	_	_	_
+10	one	markable_26|markable_47	set_16|set_27	np|pronoun	nom substitution	_	_	simple antecedent	entity	_	_	antecedent	_	_	_	_	_	_
+11	that	markable_26|markable_49	set_16|set_27	np|pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	antecedent	_	_	_	_	_	_
+12	includes	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	her	markable_24|markable_26	set_37|set_16	pronoun|np	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	antecedent	_	_	_	_	_	_
+14	signature	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+15	tumbling	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	pass	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+17	-	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+18	is	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+19	set	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+20	to	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+21	Latin	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+22	music	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+23	that	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+24	would	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+25	fit	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+26	right	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+27	at	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+28	home	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+29	in	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+30	the	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+31	street	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+32	right	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+33	outside	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+34	the	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+35	Rio	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+36	Olympic	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+37	Arena	markable_26	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+38	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: It 's not a coincidence .
+1	It	markable_27	set_16	pronoun	anaphoric	personal	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+2	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	not	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	coincidence	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: The girl adopted by her grandparents as a toddler and discovered by coach Aimee Boorman 's mother during a field trip to the gym where Boorman was coaching has become a force .
+1	The	markable_55	set_37	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+2	girl	markable_55	set_37	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+3	adopted	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	by	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	her	markable_56	set_37	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+6	grandparents	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	as	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	toddler	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	discovered	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	by	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	coach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Aimee	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Boorman	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	mother	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	during	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	field	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	trip	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	gym	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	where	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	Boorman	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	coaching	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	has	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	become	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	force	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: She has n't lost an all-around competition since the summer of 2013 , a winning streak that should go for as long as Biles wants it to .
+1	She	markable_28	set_37	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	has	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	n't	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	lost	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	all-around	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	competition	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	since	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	summer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	2013	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	a	markable_30	set_18	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+15	winning	markable_30	set_18	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	streak	markable_30	set_18	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+17	that	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	should	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	go	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	as	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	long	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	as	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Biles	markable_57	set_37	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+25	wants	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	it	markable_31	set_18	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+27	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Though Mustafina took a small lead through two rotations , it was a mirage .
+1	Though	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Mustafina	markable_67	set_42	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+3	took	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	small	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	lead	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	through	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	two	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	rotations	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	it	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	mirage	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Balance beam and floor exercise - where Biles is the defending world champion - lay in wait .
+1	Balance	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	beam	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	floor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	exercise	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	where	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Biles	markable_33	set_37	np	_	_	_	_	_	_	_	not sure. help!	_	_	_	_	_	_
+9	is	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	defending	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	world	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	champion	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	lay	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	wait	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: She went back in front with a 15.433 on beam - and capped it with a 15.933 on floor .
+1	She	markable_32	set_37	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	went	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	back	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	front	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	15.433	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	beam	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	capped	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	it	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	with	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	15.933	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	floor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Raisman hugged her gently as they awaited the final score - a mere formality - and tears appeared around Biles ' glittery red , white and blue eyeliner when the vision she once wrote in a scrapbook became a reality .
+1	Raisman	markable_63	set_40	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	hugged	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	her	markable_34	set_37	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+4	gently	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	as	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	they	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	awaited	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	final	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	score	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	mere	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	formality	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	tears	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	appeared	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	around	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Biles	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	'	markable_35	set_37	np	_	_	_	_	_	_	_	not sure. help!	_	_	_	_	_	_
+22	glittery	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	red	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	white	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	blue	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	eyeliner	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	when	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	vision	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	she	markable_36	set_37	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+33	once	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	wrote	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	scrapbook	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	became	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	reality	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Raisman 's performance was a bit of revenge from four years ago , when she tied for third but lost the bronze to Mustafina on a tiebreaker .
+1	Raisman	markable_37	set_40	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	performance	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	bit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	of	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	revenge	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	from	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	four	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	years	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	ago	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	when	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	she	markable_38	set_40	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+16	tied	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	third	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	but	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	lost	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	bronze	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Mustafina	markable_65	set_42	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+25	on	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	tiebreaker	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: This time , the 22-year-old team captain the Americans call `` grandma '' was well ahead .
+1	This	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	time	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	the	markable_40	set_42	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	22-year-old	markable_40	set_42	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	team	markable_40	set_42	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	captain	markable_40	set_42	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	the	markable_40	set_42	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	Americans	markable_40	set_42	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	call	markable_40	set_42	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	``	markable_40	set_42	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	grandma	markable_40	set_42	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	''	markable_40	set_42	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	well	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	ahead	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: She blew kisses to the crowd after her floor exercise , overcome by a comeback that at times seemed in doubt .
+1	She	markable_39	set_42	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	blew	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	kisses	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	to	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	the	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	crowd	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	after	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	her	markable_41	set_42	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+9	floor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	exercise	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	overcome	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	by	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	a	markable_42	set_25	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+15	comeback	markable_42	set_25	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	that	markable_43	set_25	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+17	at	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	times	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	seemed	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	doubt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: As for Biles , the 19-year-old 's viral tweet from earlier this week now carries a whole new meaning :
+1	As	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	for	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Biles	markable_60	set_37	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	the	markable_61	set_37	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+6	19-year-old	markable_61	set_37	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+7	's	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	viral	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	tweet	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	from	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	earlier	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	this	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	week	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	now	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	carries	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	whole	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	new	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	meaning	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+

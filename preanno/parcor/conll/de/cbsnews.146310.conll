@@ -1,0 +1,481 @@
+# orig: parcor, corpus/news/DE/22
+
+# id	word	coref_id	coref_coref_class	coref_mention	coref_type	coref_type_of_pronoun	coref_audience	coref_split	coref_antetype	coref_agreement	coref_position	coref_nptype	coref_anacata	coref_npmod	coref_sub_apposition	coref_comparative	coref_vptype	coref_clausetype
+
+# text: Mahaj Brown , 6 , " von Kugeln durchlöchert " , überlebt Schießerei in Philadelphia
+1	Mahaj	markable_44	set_24	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	Brown	markable_44	set_24	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	6	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Kugeln	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	durchlöchert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	überlebt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Schießerei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Philadelphia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die Polizei teilt mit , dass der 6-jährige Junge in Philadelphia angeschossen wurde , diese Woche bereits das zweite Mal , dass ein 6-jähriges Kind angeschossen wird .
+1	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Polizei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	teilt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	der	markable_45	set_24	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+8	6-jährige	markable_45	set_24	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+9	Junge	markable_45	set_24	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+10	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Philadelphia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	angeschossen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	wurde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	diese	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Woche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	bereits	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	zweite	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Mal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	6-jähriges	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	Kind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	angeschossen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	wird	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die Großeltern des Jungen identifizierten ihn für CBS Philadelphia als Mahaj Brown .
+1	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Großeltern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	des	markable_1	set_24	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+4	Jungen	markable_1	set_24	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+5	identifizierten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ihn	markable_2	set_24	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+7	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	CBS	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Philadelphia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Mahaj	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Brown	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die Großeltern gaben an , dass Brown mehrere Schussverletzungen erlitt , einschließlich in der Lende , Bein , Arm und Bauch , aber dass er bei seinem Transport ins Krankenhaus bei Bewusstsein war .
+1	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Großeltern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	gaben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Brown	markable_5	set_24	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+8	mehrere	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Schussverletzungen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	erlitt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	einschließlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Lende	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Bein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Arm	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Bauch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	aber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	er	markable_3	set_24	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+26	bei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	seinem	markable_4	set_24	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+28	Transport	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	ins	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	Krankenhaus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	bei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	Bewusstsein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: " Er hat viel durchgemacht , sein kleiner Körper war von Kugeln durchlöchert , " teilte seine Großmutter Delores Melendez dem Sender mit .
+1	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Er	markable_6	set_24	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+3	hat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	viel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	durchgemacht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	sein	markable_7	set_24	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+8	kleiner	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Körper	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Kugeln	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	durchlöchert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	teilte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	seine	markable_46	set_24	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+18	Großmutter	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Delores	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Melendez	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	dem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	Sender	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich kann das einfach nicht glauben .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	kann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	einfach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	glauben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Der Zustand des Jungen wurde in einem Krankenhaus als kritisch eingestuft und er musste sich mehreren Operationen unterziehen .
+1	Der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Zustand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	des	markable_8	set_24	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+4	Jungen	markable_8	set_24	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+5	wurde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	einem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Krankenhaus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	kritisch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	eingestuft	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	er	markable_9	set_24	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+14	musste	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	mehreren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Operationen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	unterziehen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die Familie des Jungen teilte dem Sender mit , dass er voraussichtlich wieder genesen wird .
+1	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Familie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	des	markable_10	set_24	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+4	Jungen	markable_10	set_24	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+5	teilte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	dem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Sender	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	er	markable_11	set_24	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+12	voraussichtlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	wieder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	genesen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	wird	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Er hätte die erste Klasse in einer örtlichen Grundschule beginnen sollen .
+1	Er	markable_12	set_24	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	hätte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	erste	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Klasse	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	einer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	örtlichen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Grundschule	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	beginnen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	sollen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Brown war einer von vier Personen die in Germantown angeschossen wurden .
+1	Brown	markable_13	set_24	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	einer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	vier	markable_14	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	Personen	markable_14	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	die	markable_15	set_8	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+8	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Germantown	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	angeschossen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	wurden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ebenfalls angeschossen wurden drei Männer : zwei im Alter von 29 Jahren und ein 32-Jähriger .
+1	Ebenfalls	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	angeschossen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	wurden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	drei	markable_16	set_22	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	Männer	markable_16	set_22	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	zwei	markable_18	set_21	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	im	markable_18	set_21	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	Alter	markable_18	set_21	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	von	markable_18	set_21	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	29	markable_18	set_21	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	Jahren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	32-Jähriger	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Einer der 29-jährigen Männer ist im kritischen Zustand ; die anderen zwei Opfer sind laut CBS Philadelphia im stabilen Zustand .
+1	Einer	markable_39	set_19	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	der	markable_39|markable_43	set_19|set_21	np|np	_	_	_	simple antecedent	entity	_	_	antecedent|np	anaphoric	def-article	_	_	_	_
+3	29-jährigen	markable_39|markable_43	set_19|set_21	np|np	_	_	_	simple antecedent	entity	_	_	antecedent|np	anaphoric	def-article	_	_	_	_
+4	Männer	markable_39|markable_43	set_19|set_21	np|np	_	_	_	simple antecedent	entity	_	_	antecedent|np	anaphoric	def-article	_	_	_	_
+5	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	kritischen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Zustand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	;	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	die	markable_38	set_19	np	_	_	_	simple antecedent	entity	_	_	comparative	_	_	_	gen	_	_
+11	anderen	markable_38	set_19	np	_	_	_	simple antecedent	entity	_	_	comparative	_	_	_	gen	_	_
+12	zwei	markable_38	set_19	np	_	_	_	simple antecedent	entity	_	_	comparative	_	_	_	gen	_	_
+13	Opfer	markable_38	set_19	np	_	_	_	simple antecedent	entity	_	_	comparative	_	_	_	gen	_	_
+14	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	laut	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	CBS	markable_23	set_20	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+17	Philadelphia	markable_23	set_20	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+18	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	stabilen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Zustand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Der Junge wurde auf dem Vordersitz eines Autos zusammen mit dem 29-Jährigen , der sich in einem kritischen Zustand befindet , angeschossen aufgefunden , berichtet der Sender .
+1	Der	markable_20	set_24	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+2	Junge	markable_20	set_24	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+3	wurde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	dem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Vordersitz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	eines	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Autos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	zusammen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	dem	markable_21	set_19	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+12	29-Jährigen	markable_21	set_19	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	der	markable_22	set_19	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+15	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	einem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	kritischen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Zustand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	befindet	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	angeschossen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	aufgefunden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	berichtet	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	der	markable_24	set_20	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+27	Sender	markable_24	set_20	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die anderen zwei Opfer befanden sich nicht im Auto und die Polizei ermittelt gerade , ob sich unter einem der verletzten Männer der Täter befinden könnte .
+1	Die	markable_40	set_19	pronoun	comparative	_	_	simple antecedent	entity	_	_	_	_	_	_	gen	_	_
+2	anderen	markable_40	set_19	pronoun	comparative	_	_	simple antecedent	entity	_	_	_	_	_	_	gen	_	_
+3	zwei	markable_40	set_19	pronoun	comparative	_	_	simple antecedent	entity	_	_	_	_	_	_	gen	_	_
+4	Opfer	markable_40	set_19	pronoun	comparative	_	_	simple antecedent	entity	_	_	_	_	_	_	gen	_	_
+5	befanden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Auto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Polizei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	ermittelt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	gerade	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	ob	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	unter	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	einem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	der	markable_37	set_22	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+21	verletzten	markable_37	set_22	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+22	Männer	markable_37	set_22	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+23	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Täter	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	befinden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	könnte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ermittler teilten CBS Philadelphia mit , dass es anscheinend zu einem Kreuzfeuer zwischen mehreren Schützen gekommen sei .
+1	Ermittler	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	teilten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	CBS	markable_42	set_20	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+4	Philadelphia	markable_42	set_20	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+5	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	anscheinend	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	einem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Kreuzfeuer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	zwischen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	mehreren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Schützen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	gekommen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	sei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Patronenhülsen für Sturmgewehre , die zu verschiedenen Sturmgewehren zurückverfolgt wurden , übersähten den Tatort .
+1	Patronenhülsen	markable_25	set_13	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	für	markable_25	set_13	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	Sturmgewehre	markable_25	set_13	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	die	markable_26	set_13	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+6	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	verschiedenen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Sturmgewehren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	zurückverfolgt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	wurden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	übersähten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Tatort	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es scheint , dass es sich hierbei eindeutig um einen andauernden Kampf gehandelt habe .
+1	Es	markable_48	empty	pronoun	pleonastic	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	scheint	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	es	markable_47	empty	pronoun	pleonastic	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	hierbei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	eindeutig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	einen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	andauernden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Kampf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	gehandelt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	habe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Auf der Straße , auf beiden Seiten des Gehwegs , befanden sich Hülsen .
+1	Auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Straße	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	beiden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Seiten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	des	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Gehwegs	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	befanden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Hülsen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: So scheint es hier mehrere bewaffnete Kämpfer gegeben zu haben , die sehr aktiv beteiligt waren , " teilte Polizeihautpmann Anthony Ginaldi der Polizei in Philadelphia dem Sender mit .
+1	So	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	scheint	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	es	markable_49	empty	pronoun	pleonastic	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	hier	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	mehrere	markable_27	set_14	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	bewaffnete	markable_27	set_14	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	Kämpfer	markable_27	set_14	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	gegeben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	haben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	die	markable_28	set_14	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+13	sehr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	aktiv	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	beteiligt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	waren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	teilte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Polizeihautpmann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Anthony	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	Ginaldi	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Polizei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	Philadelphia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	dem	markable_41	set_20	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+28	Sender	markable_41	set_20	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+29	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es wurden auch mehrere Häuser und Fahrzeuge in dem Gebiet getroffen .
+1	Es	markable_50	empty	pronoun	pleonastic	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	wurden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	auch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	mehrere	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Häuser	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Fahrzeuge	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	dem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Gebiet	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	getroffen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es kam zu keinen Festnahmen und die Polizei überprüft derzeit Berichten zufolge das Überwachungsvideo .
+1	Es	markable_51	empty	pronoun	pleonastic	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	kam	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	keinen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Festnahmen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Polizei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	überprüft	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	derzeit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Berichten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	zufolge	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Überwachungsvideo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Am Dienstag wurde ein weiteres 6-jähriges Mädchen durch einen Querschläger am Arm getroffen , als sie vor ihrem Haus in der Wohngegend der West Oak Lane spielte .
+1	Am	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Dienstag	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	wurde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	ein	markable_29	set_15	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	weiteres	markable_29	set_15	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	6-jähriges	markable_29	set_15	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	Mädchen	markable_29	set_15	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	durch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	einen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Querschläger	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	am	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Arm	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	getroffen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	sie	markable_30	set_15	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+17	vor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	ihrem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Haus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	Wohngegend	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	West	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	Oak	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	Lane	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	spielte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sie erholt sich und die Polizei sucht noch nach einem Verdächtigen .
+1	Sie	markable_31	set_15	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	erholt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Polizei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	sucht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	noch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	nach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	einem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Verdächtigen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+

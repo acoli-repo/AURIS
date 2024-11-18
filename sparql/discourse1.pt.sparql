@@ -1,0 +1,119 @@
+PREFIX conll: <http://ufal.mff.cuni.cz/conll2009-st/task-description.html#> 
+PREFIX nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> 
+PREFIX powla: <http://purl.org/powla/powla.owl#> 
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX terms: <http://purl.org/acoli/open-ie/> 
+PREFIX x:     <http://purl.org/acoli/conll-rdf/xml#> 
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+
+#######################
+# find CORE predicate #
+#######################
+# The NUC of the sentence is to be automatically identified with the following rules:
+# 
+# 1. initial NUC candidate is the syntactic head according to UD
+
+INSERT { ?s conll:NUC ?w } 
+WHERE {  ?w conll:HEAD ?s. 
+         ?s a nif:Sentence. 
+};
+
+DELETE { ?v conll:NUC ?s }
+WHERE {  ?w conll:NUC ?s.
+		 ?v conll:NUC ?s. FILTER(?s != ?t).
+		 ?w conll:UPOS "VERB".
+		 ?v conll:UPOS ?tpos FILTER(?tpos != "VERB")
+};
+
+DELETE { ?s conll:NUC ?v }
+INSERT { ?s rdfs:comment ?msg }
+WHERE {  ?w conll:NUC ?s.
+		 ?v conll:NUC ?s. 
+		 ?w nif:nextWord+ ?v.
+		 ?v conll:WORD ?vWord; conll:ID ?vId.
+		 BIND(concat("WARNING: multiple head candidates, dropping ",str(?vId)," ",?vWord) as ?msg)
+};
+
+# 2. if the current NUC candidate is an attribution verb, then
+# 2.0 identify attribution verbs, pointing to the respective head
+INSERT { ?w conll:ATTRIBUTION ?h }
+WHERE {  ?w conll:HEAD ?h.
+		 ?w conll:LEMMA ?wLemma.
+		FILTER(?wLemma in ("abrir", "aceitar", "acentuar", "acessar", "aconselhar", "acreditar", "acrescentar", "acusar", "adicionar", "admirar", "admitir", "afirmar", "ajuda", "ajudar", "alegar", "alertar", "ameaçar", "analisar", "animar", "anotar", "anunciar", "aplaudir", "apoiar", "apontar", "aprender", "apresentar", "aprovar", "argumentar", "assegurar", "asseverar", "assistir", "assumir", "atingir", "avaliar", "avançar", "aver", "avisar", "bater", "cantar", "categorizar", "chamar", "chorar", "citar", "clarificar", "cobrar", "colocar", "comandar", "combinar", "comentar", "comparar", "completar", "compreender", "comprovar", "comunicar", "conceder", "concluir", "concorda", "concordar", "confessar", "confirmar", "congratular", "conhecer", "considerar", "consistir", "contar", "contender", "conter", "contestar", "continuar", "contradizer", "contrariar", "convencer", "corresponder", "criticar", "cunhar", "dar", "decidir", "declamar", "declarar", "defender", "definir", "delimitar", "delinear", "demonstrar", "desacordar", "desafiar", "descobrir", "descrever", "desejar", "destacar", "detectar", "discordar", "discursar", "discutir", "disputar", "divulgar", "dizer", "eclamar", "ecoar", "embrulhar", "empurrar", "encolher", "encontrar", "endereçar", "enfatizar", "engolir", "ensinar", "entender", "envolver", "esboçar", "esclarecer", "escrever", "escutar", "esfregar", "especificar", "estabelecer", "evocar", "exclamar", "exigir", "explicar", "expressar", "falar", "fantasiar", "fechar", "felicitar", "garantir", "gravar", "gritar", "ilustrar", "imaginar", "implicar", "incitar", "incluir", "indicar", "informar", "inserir", "insistir", "interpretar", "introduzir", "invocar", "julgar", "jurar", "justificar", "lamentar", "lembrar", "ler", "levantar", "listar", "manter", "mencionar", "morar", "mostrar", "murmurar", "necessitar", "negar", "notar", "objetar", "observar", "obter", "oferecer", "orar", "ouvir", "parabenizar", "parecer", "passar", "pedir", "pensar", "perceber", "perguntar", "permitir", "persistir", "persuadir", "predizer", "pregar", "prever", "proclamar", "produzir", "proferir", "prometer", "pronunciar", "propor", "provar", "querer", "questionar", "quitar", "reafirmar", "realizar", "recitar", "reclamar", "recomendar", "reconhecer", "recordar", "recuperar", "recusar", "refletir", "refutar", "reivindicar", "rejeitar", "relatar", "repetir", "resmungar", "responder", "revelar", "rezar", "ridicularizar", "rir", "rugir", "saber", "sair", "segurar", "sentir", "solicitar", "soluçar", "sorrir", "sugerir", "supor", "surpreender", "sustentar", "tentar", "tente", "traçar", "traduzir", "triunfar", "urgir", "usar", "utilizar", "ver", "verificar", "visionar", "visualizar", "zombar"))
+};
+
+# 2.a set the NUC candidate to the first dependent non-attribution verb
+DELETE { ?s conll:NUC ?v }
+INSERT { ?s conll:NUC ?w }
+WHERE { ?s conll:NUC ?v.
+		?w conll:ATTRIBUTION+ ?v. 
+		?w conll:UPOS "VERB".
+	    MINUS { ?w conll:ATTRIBUTION [] }
+};
+
+# 2.b if this is not possible, set the NUC candidate to the first direct dependent with clausal dependents
+DELETE { ?s conll:NUC ?v }
+INSERT { ?s conll:NUC ?w }
+WHERE { ?s conll:NUC ?v.
+		?v conll:ATTRIBUTION [].
+		?w conll:ATTRIBUTION+ ?v. 
+		MINUS { ?w conll:ATTRIBUTION [] }
+		?dep conll:HEAD ?w.
+		?dep conll:EDGE ?depEdge.
+		FILTER(replace(?depEdge,":.*","") in ("aux","nsubj","csubj","obj","xcomp","advcl"))
+};
+
+# 2.c if this is not possible, set the NUC candidate to its first csubj, ccomp or xcomp argument
+DELETE { ?s conll:NUC ?v }
+INSERT { ?s conll:NUC ?w }
+WHERE { ?s conll:NUC ?v.
+		?v conll:ATTRIBUTION [].
+		?w conll:ATTRIBUTION+ ?v. 
+		MINUS { ?w conll:ATTRIBUTION [] }
+		?w conll:EDGE ?wEdge.
+		FILTER(replace(?wEdge,":.*","") in ("csubj","ccomp","xcomp"))
+};
+
+# 2.d if this is not possible, keep the lowest NUC candidate
+DELETE { ?s conll:NUC ?v }
+INSERT { ?s conll:NUC ?w }
+WHERE { ?s conll:NUC ?v.
+		?v conll:ATTRIBUTION [].
+		?w conll:ATTRIBUTION+ ?v. 
+		MINUS { [] conll:ATTRIBUTION ?w }
+};
+
+# 2.e keep the first NUC candidate
+DELETE { ?s conll:NUC ?w }
+WHERE { ?s conll:NUC ?v,?w.
+	    ?v nif:nextWord+ ?w.
+};
+
+# 2.f remove ATTRIBUTION
+DELETE { ?x conll:ATTRIBUTION ?y }
+WHERE {  ?x conll:ATTRIBUTION ?y };
+
+# 3. if the current NUC candidate is a nominal, adjectival or adverbial
+#    predicate of a copula clause with an explicit verb, make the copular verb the NUC candidate.
+
+DELETE { ?s conll:NUC ?v }
+INSERT { ?s conll:NUC ?w }
+WHERE {  ?s conll:NUC ?v. 
+		 ?w conll:HEAD ?v. 
+		 ?w conll:EDGE ?wEdge. FILTER(strstarts(?wEdge,"cop"))
+};
+
+# 4. create conll:PRED attribute from conll:NUC
+INSERT { ?s conll:PRED ?pred_formatted }
+WHERE { ?s conll:NUC ?p .
+		{ SELECT ?p (GROUP_CONCAT(?lemma; separator=" ") AS ?pred)
+		  WHERE { ?s conll:NUC ?p. ?p conll:HEAD*/conll:LEMMA ?lemma }
+		  GROUP BY ?p
+		}
+		?p conll:LEMMA ?pLemma.
+		BIND(if(?pLemma=?pred, 
+		        ?pLemma, 
+		        concat(?pLemma," (",?pred,")")) 
+		     as ?pred_formatted)
+};

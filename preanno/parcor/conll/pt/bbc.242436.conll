@@ -1,0 +1,662 @@
+# orig: parcor, corpus/news/PT/10
+
+# id	word	coref_id	coref_coref_class	coref_mention	coref_type	coref_type_of_pronoun	coref_audience	coref_split	coref_antetype	coref_agreement	coref_position	coref_nptype	coref_anacata	coref_npmod	coref_sub_apposition	coref_comparative	coref_vptype	coref_clausetype
+
+# text: Putin despede o chefe de gabinete Sergei Ivanov
+1	Putin	markable_31	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	despede	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	o	markable_32	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	chefe	markable_32	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	de	markable_32	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	gabinete	markable_32	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	Sergei	markable_32	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	Ivanov	markable_32	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+
+# text: O Presidente russo Vladimir Putin despediu inesperadamente o seu chefe de gabinete Sergei Ivanov .
+1	O	markable_33	set_28	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+2	Presidente	markable_33	set_28	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+3	russo	markable_33	set_28	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+4	Vladimir	markable_33	set_28	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+5	Putin	markable_33	set_28	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+6	despediu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	inesperadamente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	o	markable_35	set_28	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+9	seu	markable_35	set_28	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+10	chefe	markable_34	set_1	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+11	de	markable_34	set_1	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+12	gabinete	markable_34	set_1	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+13	Sergei	markable_34	set_1	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+14	Ivanov	markable_34	set_1	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ivanov faz parte do círculo interno de confiança de Putin há muitos anos .
+1	Ivanov	markable_36	set_1	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	faz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	parte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	do	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	círculo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	interno	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	confiança	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	de	markable_37	set_28	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+10	Putin	markable_37	set_28	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+11	há	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	muitos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	anos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Com 63 anos de idade , tornou-se agora um representante especial para as questões ambientais e de transportes .
+1	Com	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	63	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	anos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	idade	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	tornou-se	markable_38|markable_152	set_1|set_1	pronoun|pronoun	anaphoric|anaphoric	reflexive|none	_	simple antecedent|simple antecedent	entity|entity	singular|singular	non-subject|subject	_	_	_	_	_	_	_
+8	agora	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	representante	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	especial	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	para	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	as	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	questões	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	ambientais	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	transportes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Uma declaração do Kremlin disse que o Putin tinha " decretado a libertação de Ivanov das suas funções como chefe da administração presidencial russa " , mas não deu qualquer razão .
+1	Uma	markable_167	set_25	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	declaração	markable_167	set_25	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	do	markable_167	set_25	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	Kremlin	markable_167	set_25	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	disse	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Putin	markable_39	set_28	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+9	tinha	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	decretado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	libertação	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Ivanov	markable_40	set_1	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+16	das	markable_129	set_1	pronoun	anaphoric	possessive	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+17	suas	markable_129	set_1	pronoun	anaphoric	possessive	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+18	funções	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	como	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	chefe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	administração	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	presidencial	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	russa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	mas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	não	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	deu	markable_153	set_25	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+30	qualquer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	razão	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: O adjunto de Ivanov desde 2012 , Anton Vaino , foi nomeado como seu sucessor .
+1	O	markable_44	set_2	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	adjunto	markable_44	set_2	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	de	markable_44	set_2	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	Ivanov	markable_42|markable_44	set_1|set_2	np|np	_	_	_	simple antecedent	entity	_	_	np|antecedent	anaphoric	none	_	_	_	_
+5	desde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	2012	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Anton	markable_43	set_2	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+9	Vaino	markable_43	set_2	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	foi	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	nomeado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	como	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	seu	markable_45	set_1	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+15	sucessor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Vaino , com 44 anos , é um ex-diplomata .
+1	Vaino	markable_46	set_2	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	com	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	44	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	anos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	ex-diplomata	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Nascido na capital da Estónia , Tallinn , em 1972 , formou-se no prestigioso Instituto Estatal de Relações Internacionais de Moscovo ( MGIMO ) e serviu na embaixada de Tóquio .
+1	Nascido	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	na	markable_175	set_31	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	capital	markable_175	set_31	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	da	markable_175	set_31	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	Estónia	markable_175	set_31	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Tallinn	markable_176	set_31	np	_	_	_	_	_	_	_	apposition	_	_	head	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	em	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	1972	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	formou-se	markable_154|markable_48	set_2|set_2	pronoun|pronoun	anaphoric|anaphoric	none|reflexive	_	simple antecedent|simple antecedent	entity|entity	singular|singular	subject|non-subject	_	_	_	_	_	_	_
+13	no	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	prestigioso	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Instituto	markable_173	set_30	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	Estatal	markable_173	set_30	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+17	de	markable_173	set_30	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+18	Relações	markable_173	set_30	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+19	Internacionais	markable_173	set_30	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+20	de	markable_173	set_30	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+21	Moscovo	markable_173	set_30	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+22	(	markable_174	set_30	np	_	_	_	_	_	_	_	apposition	_	_	attribute	_	_	_
+23	MGIMO	markable_174	set_30	np	_	_	_	_	_	_	_	apposition	_	_	attribute	_	_	_
+24	)	markable_174	set_30	np	_	_	_	_	_	_	_	apposition	_	_	attribute	_	_	_
+25	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	serviu	markable_155	set_2	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+27	na	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	embaixada	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	Tóquio	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Antes geriu o protocolo presidencial e o pessoal do governo , diz o sítio Web do Kremlin ( em russo ) .
+1	Antes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	geriu	markable_157	set_2	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+3	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	protocolo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	presidencial	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	pessoal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	do	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	governo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	diz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	sítio	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Web	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	do	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Kremlin	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	(	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	em	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	russo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	)	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ao ser nomeado , disse a Putin : " Obrigado pela sua confiança "
+1	Ao	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	ser	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	nomeado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	disse	markable_158	set_2	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+6	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Putin	markable_49	set_28	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+8	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Obrigado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	pela	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	sua	markable_50	set_28	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+13	confiança	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Penso que a tarefa mais importante da administração é apoiar a sua actividade como Chefe de Estado em termos de elaboração de leis e controlo sobre como as suas instruções são implementadas .
+1	Penso	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	tarefa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	mais	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	importante	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	da	markable_148	set_23	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	administração	markable_148	set_23	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	apoiar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	a	markable_51	set_23	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+12	sua	markable_51	set_23	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+13	actividade	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	como	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Chefe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Estado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	em	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	termos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	elaboração	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	leis	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	controlo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	sobre	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	como	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	as	markable_54	set_23	pronoun	anaphoric	possessive	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+29	suas	markable_54	set_23	pronoun	anaphoric	possessive	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+30	instruções	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	são	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	implementadas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Putin disse a uma estação de televisão russa na sexta-feira que Ivanov tinha pedido para deixar o posto , e recomendou a Vaino que o substituísse .
+1	Putin	markable_55	set_28	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	disse	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	uma	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	estação	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	televisão	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	russa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	na	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	sexta-feira	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Ivanov	markable_58	set_1	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+13	tinha	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	pedido	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	para	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	deixar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	posto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	recomendou	markable_159	set_1	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+22	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	Vaino	markable_59	set_2	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+24	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	o	markable_62	set_1	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+26	substituísse	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Os sorrisos convencem ?
+1	Os	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	sorrisos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	convencem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Este é um movimento que mistificou Moscovo .
+1	Este	markable_63	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	é	markable_63	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	um	markable_63	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	movimento	markable_63	set_9	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	que	markable_64	set_9	pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+6	mistificou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Moscovo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sergei Ivanov é um dos aliados mais próximos de Vladimir Putin e , tal como ele , serviu no serviço de segurança soviético , o KGB .
+1	Sergei	markable_65|markable_149	set_1|set_24	np|np	_	_	_	simple antecedent	entity	_	_	np|antecedent	anaphoric	none	_	_	_	_
+2	Ivanov	markable_65|markable_149	set_1|set_24	np|np	_	_	_	simple antecedent	entity	_	_	np|antecedent	anaphoric	none	_	_	_	_
+3	é	markable_149	set_24	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	um	markable_149	set_24	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	dos	markable_149	set_24	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	aliados	markable_149	set_24	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	mais	markable_149	set_24	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	próximos	markable_149	set_24	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	de	markable_149	set_24	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	Vladimir	markable_66|markable_149	set_28|set_24	np|np	_	_	_	simple antecedent	entity	_	_	np|antecedent	anaphoric	none	_	_	_	_
+11	Putin	markable_66|markable_149	set_28|set_24	np|np	_	_	_	simple antecedent	entity	_	_	np|antecedent	anaphoric	none	_	_	_	_
+12	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	tal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	como	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	ele	markable_69	set_28	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+17	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	serviu	markable_160	set_1	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+19	no	markable_70	set_12	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+20	serviço	markable_70	set_12	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+21	de	markable_70	set_12	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+22	segurança	markable_70	set_12	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+23	soviético	markable_70	set_12	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+24	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	o	markable_71	set_12	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+26	KGB	markable_71	set_12	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+27	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Como chefe de pessoal era um dos homens mais poderosos do país .
+1	Como	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	chefe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	pessoal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	era	markable_161	set_1	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+6	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	dos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	homens	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	mais	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	poderosos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	do	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	país	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Na reunião com o Presidente Putin exibida na televisão estatal , ambos afirmaram que o chefe de gabinete estava a demitir-se a seu pedido .
+1	Na	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	reunião	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	com	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	o	markable_126	set_28	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+5	Presidente	markable_126	set_28	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+6	Putin	markable_126	set_28	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+7	exibida	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	na	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	televisão	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	estatal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	markable_151	set_24	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+12	ambos	markable_151	set_24	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+13	afirmaram	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	o	markable_78	set_1	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+16	chefe	markable_78	set_1	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+17	de	markable_78	set_1	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+18	gabinete	markable_78	set_1	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+19	estava	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	demitir-se	markable_74	set_1	pronoun	anaphoric	reflexive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+22	a	markable_75	set_1	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+23	seu	markable_75	set_1	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+24	pedido	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Mas apesar dos sorrisos para as câmaras , poucos estão convencidos - especialmente agora , pouco antes das eleições parlamentares .
+1	Mas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	apesar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	dos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	sorrisos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	para	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	as	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	câmaras	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	poucos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	estão	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	convencidos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	especialmente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	agora	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	pouco	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	antes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	eleições	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	parlamentares	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Então é esta a queda de algum tipo de luta pelo poder ?
+1	Então	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	esta	markable_79	set_16	pronoun	cataphoric	_	_	simple antecedent	event	singular	non-subject	_	_	_	_	_	_	_
+4	a	markable_80	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	queda	markable_80	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	de	markable_80	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	algum	markable_80	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	tipo	markable_80	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	de	markable_80	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	luta	markable_80	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	pelo	markable_80	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	poder	markable_80	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ninguém sabe ainda .
+1	Ninguém	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	sabe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ainda	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Mas a afirmação oficial - que um homem uma vez apontado como potencial presidente , de repente quis gerir a política ambiental da Rússia - foi recebida com grande cepticismo .
+1	Mas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	a	markable_171	set_29	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	afirmação	markable_171	set_29	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	oficial	markable_171	set_29	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	que	markable_172	set_29	pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+7	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	homem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	uma	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	vez	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	apontado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	como	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	potencial	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	presidente	markable_85	empty	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	repente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	quis	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	gerir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	política	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	ambiental	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Rússia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	foi	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	recebida	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	com	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	grande	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	cepticismo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Em observações dirigidas a Putin , citadas no website do Kremlin , Ivanov disse " é verdade que no início de 2012 lhe pedi , numa conversa , que me confiasse este posto muito complicado , mesmo - pode dizer-se - problemático , durante quatro anos .
+1	Em	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	observações	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	dirigidas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	a	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Putin	markable_86	set_28	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	citadas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	no	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	website	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	do	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Kremlin	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Ivanov	markable_88	set_1	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+14	disse	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	é	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	verdade	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	no	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	início	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	2012	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	lhe	markable_91	set_28	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+24	pedi	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	numa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	conversa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	me	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	confiasse	markable_162	set_28	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+32	este	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	posto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	muito	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	complicado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	mesmo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	pode	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	dizer-se	markable_144	empty	pronoun	pronoun	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	problemático	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+43	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+44	durante	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+45	quatro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+46	anos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+47	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Bem , acontece que sou chefe de gabinete presidencial há quatro anos e oito meses .
+1	Bem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	acontece	markable_93	set_17	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+4	que	markable_94	set_17	pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+5	sou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	chefe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	gabinete	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	presidencial	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	há	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	quatro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	anos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	oito	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	meses	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ivanov assumiu o cargo em Dezembro de 2011 .
+1	Ivanov	markable_96	set_1	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	assumiu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	cargo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	em	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Dezembro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	2011	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Tinha servido anteriormente como vice-primeiro-ministro e ministro da defesa .
+1	Tinha	markable_163	set_1	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	servido	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	anteriormente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	como	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	vice-primeiro-ministro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	ministro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	defesa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: É membro do Conselho de Segurança russo e antigo membro do serviço de segurança do Estado KGB , tal como Putin .
+1	É	markable_164	set_1	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	membro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	do	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Conselho	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Segurança	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	russo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	antigo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	membro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	do	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	serviço	markable_179	set_34	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	de	markable_179	set_34	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	segurança	markable_179	set_34	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+15	do	markable_179	set_34	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	Estado	markable_179	set_34	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+17	KGB	markable_180	set_34	np	_	_	_	_	_	_	_	apposition	_	_	attribute	_	_	_
+18	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	tal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	como	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Putin	markable_99	set_28	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+22	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: No final dos anos 90 , quando Putin era chefe do Serviço Federal de Segurança ( FSB ) , que substituiu o KGB , Ivanov foi nomeado como seu adjunto .
+1	No	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	final	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	dos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	anos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	90	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	quando	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Putin	markable_100	set_28	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+9	era	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	chefe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	do	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Serviço	markable_177	set_32	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	Federal	markable_177	set_32	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	de	markable_177	set_32	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+15	Segurança	markable_177	set_32	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	(	markable_178	set_32	np	_	_	_	_	_	_	_	apposition	_	_	attribute	_	_	_
+17	FSB	markable_178	set_32	np	_	_	_	_	_	_	_	apposition	_	_	attribute	_	_	_
+18	)	markable_178	set_32	np	_	_	_	_	_	_	_	apposition	_	_	attribute	_	_	_
+19	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	substituiu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	o	markable_181	set_34	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+23	KGB	markable_181	set_34	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+24	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	Ivanov	markable_102	set_1	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+26	foi	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	nomeado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	como	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	seu	markable_103	set_28	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+30	adjunto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Quando Putin chegou ao poder , nomeou Ivanov como uma das cinco pessoas em quem mais confiava .
+1	Quando	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Putin	markable_104	set_28	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+3	chegou	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	ao	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	poder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	nomeou	markable_165	set_28	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+8	Ivanov	markable_106	set_1	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+9	como	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	uma	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	das	markable_168	set_27	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	cinco	markable_168	set_27	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	pessoas	markable_168	set_27	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	em	markable_169	set_27	pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+15	quem	markable_169	set_27	pronoun	anaphoric	relative	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+16	mais	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	confiava	markable_170	set_28	pronoun	anaphoric	none	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Pensava-se em tempos que Ivanov poderia tornar-se presidente da Rússia após o segundo mandato de Putin , pois um terceiro mandato teria sido inconstitucional .
+1	Pensava-se	markable_147	empty	pronoun	pronoun	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	em	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	tempos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	que	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Ivanov	markable_109	set_1	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+6	poderia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	tornar-se	markable_110	set_1	pronoun	anaphoric	reflexive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+8	presidente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Rússia	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	após	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	o	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	segundo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	mandato	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Putin	markable_113	set_28	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+17	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	pois	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	terceiro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	mandato	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	teria	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	sido	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	inconstitucional	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Mas esse posto foi ocupado por outro aliado próximo de Putin , Dmitry Medvedev .
+1	Mas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	esse	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	posto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	foi	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	ocupado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	por	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	outro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	aliado	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	próximo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Putin	markable_118	set_28	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Dmitry	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Medvedev	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Putin tornou-se primeiro-ministro , antes de regressar à presidência apenas três anos e meio depois .
+1	Putin	markable_120	set_28	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+2	tornou-se	markable_121	set_28	pronoun	anaphoric	reflexive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+3	primeiro-ministro	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	antes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	de	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	regressar	markable_166	set_28	pronoun	anaphoric	none	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+8	à	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	presidência	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	apenas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	três	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	anos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	e	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	meio	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	depois	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+

@@ -1,0 +1,3358 @@
+# orig: parcor, corpus/TED/DE/005_790
+
+# id	word	coref_id	coref_coref_class	coref_mention	coref_type	coref_type_of_pronoun	coref_audience	coref_split	coref_antetype	coref_agreement	coref_position	coref_nptype	coref_anacata	coref_npmod	coref_sub_apposition	coref_comparative	coref_vptype	coref_clausetype
+
+# text: Also ich habe in meinem Leben viele Fische gekannt .
+1	Also	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	habe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	meinem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Leben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	viele	markable_7102	set_135	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	Fische	markable_7102	set_135	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	gekannt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich habe nur zwei geliebt .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	habe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	nur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	zwei	markable_7103	set_135	pronoun	nom substitution	_	_	simple antecedent	entity	_	_	_	_	_	_	_	_	_
+5	geliebt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Dieser erste , das war mehr wie eine leidenschaftliche Affäre .
+1	Dieser	markable_7101	set_135	np	_	_	_	simple antecedent	entity	_	_	nom-ellipsis	_	_	_	_	_	_
+2	erste	markable_7101	set_135	np	_	_	_	simple antecedent	entity	_	_	nom-ellipsis	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	das	markable_7070	set_135	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+5	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	mehr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	leidenschaftliche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Affäre	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es war ein schöner Fisch , wohlschmeckend , gute Konsistenz , gehaltvoll , ein Bestseller auf der Speisekarte .
+1	Es	markable_105	set_135	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	schöner	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Fisch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	wohlschmeckend	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	gute	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Konsistenz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	gehaltvoll	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Bestseller	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Speisekarte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Was für ein Fisch .
+1	Was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ein	markable_123	set_138	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	Fisch	markable_123	set_138	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Noch besser , er wurde in Aquakultur nach den angeblich höchsten Standards der Nachhaltigkeit gezüchtet .
+1	Noch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	besser	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	er	markable_7104	set_138	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+5	wurde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Aquakultur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	nach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	angeblich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	höchsten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Standards	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Nachhaltigkeit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	gezüchtet	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Man konnte sich also wohl dabei fühlen , ihn zu verkaufen .
+1	Man	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	konnte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	also	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	wohl	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	dabei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	fühlen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	ihn	markable_189	set_138	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+10	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	verkaufen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich hatte mit dieser Schönheit eine Beziehung über mehrere Monate .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	hatte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	dieser	markable_215	set_138	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+5	Schönheit	markable_215	set_138	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+6	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Beziehung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	über	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	mehrere	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Monate	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Eines Tages rief der Chef der Firma an und fragte , ob ich bei einer Veranstaltung vortragen könnte über die Nachhaltigkeit der Farm .
+1	Eines	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Tages	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	rief	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Chef	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Firma	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	fragte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	ob	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	bei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	einer	markable_272	set_107	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	Veranstaltung	markable_272	set_107	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+17	vortragen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	könnte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	über	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Nachhaltigkeit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	Farm	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: " Natürlich " , sagte ich .
+1	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Natürlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Hier war eine Firma , die zu lösen versuchte , was dieses unvorstellbare Problem für unsere Köche geworden ist .
+1	Hier	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	eine	markable_334	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	Firma	markable_334	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	die	markable_335	set_1	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+7	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	lösen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	versuchte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	dieses	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	unvorstellbare	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Problem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	unsere	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Köche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	geworden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Wie behalten wir Fisch auf unseren Speisekarten ?
+1	Wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	behalten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Fisch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	unseren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Speisekarten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: In den letzten 50 Jahren haben wir die Meere gefischt wie wir Wälder kahl geschlagen haben .
+1	In	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	letzten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	50	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Jahren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	haben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Meere	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	gefischt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Wälder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	kahl	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	geschlagen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	haben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es ist schwer , die Zerstörung zu überbewerten .
+1	Es	markable_422	empty	pronoun	pleonastic	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	schwer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Zerstörung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	überbewerten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: 90 Prozent der großen Fische , der , die wir lieben , die Thunfische , die Heilbutte , die Lachse , Schwertfisch , sie sind zusammengebrochen .
+1	90	markable_7014	set_2	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	Prozent	markable_7014	set_2	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	der	markable_7014	set_2	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	großen	markable_7014	set_2	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	Fische	markable_7014	set_2	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	der	markable_7015	set_2	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	die	markable_482	set_2	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+10	wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	lieben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	die	markable_7036	set_74	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	Thunfische	markable_7036	set_74	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+15	,	markable_7036	set_74	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	die	markable_7036	set_74	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+17	Heilbutte	markable_7036	set_74	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+18	,	markable_7036	set_74	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+19	die	markable_7036	set_74	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+20	Lachse	markable_7036	set_74	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+21	,	markable_7036	set_74	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+22	Schwertfisch	markable_7036	set_74	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+23	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	sie	markable_488	set_74	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+25	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	zusammengebrochen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es ist fast nichts mehr übrig .
+1	Es	markable_505	empty	pronoun	pleonastic	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	fast	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	nichts	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	mehr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	übrig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Also wird wohl oder übel Aquakultur , Fischanbau , ein Teil unserer Zukunft sein .
+1	Also	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	wird	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	wohl	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	oder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	übel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Aquakultur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Fischanbau	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Teil	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	unserer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Zukunft	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	sein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Viele Argumente dagegen .
+1	Viele	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Argumente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	dagegen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Fischzuchtanlagen verschmutzen die Umwelt , die meisten von ihnen jedenfalls , und sie sind ineffizient , nehmen wir Thunfisch .
+1	Fischzuchtanlagen	markable_596	set_3	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	verschmutzen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Umwelt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	meisten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	ihnen	markable_598	set_3	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+10	jedenfalls	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	sie	markable_599	set_3	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+14	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	ineffizient	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	nehmen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Thunfisch	markable_7037	set_75	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+20	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ein großer Nachteil .
+1	Ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	großer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Nachteil	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Er hat eine Futterverwertung von 15 zu eins .
+1	Er	markable_7039|markable_632	set_76|set_75	clause|pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	antecedent
+2	hat	markable_7039	set_76	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+3	eine	markable_7039	set_76	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+4	Futterverwertung	markable_7039	set_76	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+5	von	markable_7039	set_76	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+6	15	markable_7039	set_76	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+7	zu	markable_7039	set_76	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+8	eins	markable_7039	set_76	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Das heißt , 15 Pfund Wildfisch sind nötig , damit man ein Pfund Zucht-Thunfisch bekommt .
+1	Das	markable_7038	set_76	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+2	heißt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	15	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Pfund	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Wildfisch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	nötig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	damit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	man	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Pfund	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Zucht-Thunfisch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	bekommt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Nicht sehr nachhaltig .
+1	Nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	sehr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	nachhaltig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Schmeckt auch nicht sehr gut .
+1	Schmeckt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	auch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	sehr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	gut	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Also hier war endlich eine Firma , die versuchte , es richtig zu machen .
+1	Also	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	hier	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	endlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	eine	markable_725	set_4	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	Firma	markable_725	set_4	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	die	markable_726	set_4	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+9	versuchte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	es	markable_727	empty	pronoun	pleonastic	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	richtig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	machen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich wollte sie unterstützten .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	wollte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	sie	markable_741	set_4	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+4	unterstützten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Am Tag vor der Veranstaltung rief ich den Chef der Öffentlichkeitsarbeit für die Firma an .
+1	Am	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Tag	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	vor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	der	markable_777	set_107	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+5	Veranstaltung	markable_777	set_107	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+6	rief	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	den	markable_779	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	Chef	markable_779	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	der	markable_779	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	Öffentlichkeitsarbeit	markable_779	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	für	markable_779	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	die	markable_781|markable_779	set_4|set_5	np|np	_	_	_	simple antecedent	entity	_	_	np|antecedent	anaphoric	def-article	_	_	_	_
+14	Firma	markable_781|markable_779	set_4|set_5	np|np	_	_	_	simple antecedent	entity	_	_	np|antecedent	anaphoric	def-article	_	_	_	_
+15	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Nennen wir ihn Don .
+1	Nennen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ihn	markable_795	set_5	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+4	Don	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: " Don " , sagte ich , " nur um die Fakten richtig zu haben , ihr seid berühmt dafür , so weit draußen im Meer anzubauen , dass ihr die Umwelt nicht verschmutzt . "
+1	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Don	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	nur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Fakten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	richtig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	haben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	ihr	markable_7105	set_137	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+18	seid	markable_7105	set_137	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+19	berühmt	markable_7105	set_137	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+20	dafür	markable_7105	set_137	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+21	,	markable_7105	set_137	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+22	so	markable_7105	set_137	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+23	weit	markable_7105	set_137	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+24	draußen	markable_7105	set_137	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+25	im	markable_7105	set_137	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+26	Meer	markable_7105	set_137	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+27	anzubauen	markable_7105	set_137	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+28	,	markable_7105	set_137	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+29	dass	markable_7105	set_137	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+30	ihr	markable_7105	set_137	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+31	die	markable_7105	set_137	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+32	Umwelt	markable_7105	set_137	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+33	nicht	markable_7105	set_137	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+34	verschmutzt	markable_7105	set_137	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+35	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: " Das stimmt " , sagte er .
+1	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Das	markable_7071	set_137	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+3	stimmt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	er	markable_894	set_5	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: " Wir sind so weit draußen , dass der Abfall von unserem Fisch verteilt wird , nicht konzentriert . "
+1	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	so	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	weit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	draußen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Abfall	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	unserem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Fisch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	verteilt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	wird	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	konzentriert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Und dann fügte er hinzu , " Wir sind im Grunde eine eigene Welt .
+1	Und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	dann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	fügte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	er	markable_973	set_5	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+5	hinzu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Grunde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	eigene	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Welt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Diese Futterverwertung von 2.5 zu 1 " , sagte er .
+1	Diese	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Futterverwertung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	2.5	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	1	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	er	markable_1002	set_5	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: " Die beste in der Branche . "
+1	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	beste	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Branche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: 2.5 zu eins , großartig .
+1	2.5	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	eins	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	großartig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: " 2.5 zu eins was ?
+1	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	2.5	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	eins	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Was füttert ihr ? "
+1	Was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	füttert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ihr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: " Nachhaltige Proteine " , sagte er .
+1	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Nachhaltige	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Proteine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	er	markable_1083	set_5	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: " Großartig " , sagte ich .
+1	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Großartig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Legte auf .
+1	Legte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Und an diesem Abend lag ich im Bett und dachte : Was zur Hölle ist ein nachhaltiges Protein ?
+1	Und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	diesem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Abend	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	lag	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Bett	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	dachte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	zur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Hölle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	nachhaltiges	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Protein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Also rief ich am nächsten Tag , kurz vor der Veranstaltung , Don an .
+1	Also	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	rief	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	am	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	nächsten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Tag	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	kurz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	vor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	der	markable_1188	set_107	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+11	Veranstaltung	markable_1188	set_107	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Don	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich sagte : " Don , was zum Beispiel sind nachhaltige Proteine ? "
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Don	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	was	markable_7083	set_106	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+8	zum	markable_7083	set_106	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+9	Beispiel	markable_7083	set_106	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+10	sind	markable_7083	set_106	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+11	nachhaltige	markable_7083	set_106	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+12	Proteine	markable_7083	set_106	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+13	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Er sagte , er wisse das nicht .
+1	Er	markable_1240	set_5	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	er	markable_1241	set_5	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+5	wisse	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	das	markable_7072	set_106	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	non-subject	_	_	_	_	_	_	_
+7	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Er werde nachfragen .
+1	Er	markable_1252	set_5	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	werde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	nachfragen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Nun , ich telefonierte mit ein paar Leuten in der Firma .
+1	Nun	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	telefonierte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	paar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Leuten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	der	markable_1281	set_4	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+11	Firma	markable_1281	set_4	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Niemand konnte mir eine ordentliche Antwort geben .
+1	Niemand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	konnte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	mir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	ordentliche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Antwort	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	geben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Bis ich endlich mit dem leitenden Biologen telefonierte .
+1	Bis	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	endlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	dem	markable_1323	set_7	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	leitenden	markable_1323	set_7	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	Biologen	markable_1323	set_7	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	telefonierte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Nennen wir ihn ebenfalls Don .
+1	Nennen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ihn	markable_1339	set_7	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+4	ebenfalls	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Don	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: " Don " , sagte ich , " was zum Beispiel sind nachhaltige Proteine ? "
+1	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Don	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	zum	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Beispiel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	nachhaltige	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Proteine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Nun , er erwähnte einige Algen und einige Fischmehle , und dann sagte er , Hühnchen-Pellets .
+1	Nun	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	er	markable_1412	set_7	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+4	erwähnte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	einige	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Algen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	einige	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Fischmehle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	dann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	er	markable_1415	set_7	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Hühnchen-Pellets	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich sagte : " Hühnchen-Pellets ? "
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Hühnchen-Pellets	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Er sagte : " Ja , Federn , Haut , Knochenmehl , Reste , getrocknet und zu Futter verarbeitet . "
+1	Er	markable_1479	set_7	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Ja	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Federn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Haut	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Knochenmehl	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Reste	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	getrocknet	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Futter	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	verarbeitet	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich sagte : " Wie viel Prozent eures Futters ist Hühnchen ? " , in der Annahme von vielleicht zwei Prozent .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Wie	markable_1532	set_77	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	viel	markable_1532	set_77	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	Prozent	markable_1532	set_77	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	eures	markable_1532	set_77	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	Futters	markable_1532	set_77	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Hühnchen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Annahme	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	vielleicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	zwei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Prozent	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: " Nun , das sind ungefähr 30 Prozent " , sagte er .
+1	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Nun	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	das	markable_7040	set_77	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+5	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ungefähr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	30	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Prozent	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	er	markable_1566	set_7	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+13	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich sagte : " Don , was ist nachhaltig daran , Hühnchen an Fische zu verfüttern ? "
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Don	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	nachhaltig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	daran	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Hühnchen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Fische	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	verfüttern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es gab eine lange Pause in der Leitung und er sagte : " Es gibt einfach zu viel Hühnchen auf der Welt . "
+1	Es	markable_1658	empty	pronoun	pleonastic	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	gab	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	lange	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Pause	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Leitung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	er	markable_1661	set_7	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+11	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Es	markable_1662	empty	pronoun	pleonastic	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	gibt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	einfach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	viel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Hühnchen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	Welt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich entliebte mich von diesem Fisch .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	entliebte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	mich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	diesem	markable_1683	set_138	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+6	Fisch	markable_1683	set_138	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Nein , nicht , weil ich ein selbstgerechter Genießer und Gutmensch bin .
+1	Nein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	weil	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	ein	markable_7074	set_96	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	selbstgerechter	markable_7074	set_96	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	Genießer	markable_7074	set_96	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	und	markable_7074	set_96	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	Gutmensch	markable_7074	set_96	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	bin	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Das bin ich sogar .
+1	Das	markable_7075	set_96	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	bin	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	sogar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Nein , ich habe micht tatsächlich von diesem Fisch entliebt , weil , ich schwöre bei Gott , der Fisch nach dieser Unterhaltung nach Hühnchen geschmeckt hat .
+1	Nein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	habe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	micht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	tatsächlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	diesem	markable_1786	set_138	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+9	Fisch	markable_1786	set_138	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+10	entliebt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	weil	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	schwöre	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	bei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Gott	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	der	markable_7106	set_138	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+20	Fisch	markable_7106	set_138	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+21	nach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	dieser	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	Unterhaltung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	nach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	Hühnchen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	geschmeckt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	hat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Dieser zweite Fisch , das ist eine andere Art von Liebesgeschichte .
+1	Dieser	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	zweite	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Fisch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	andere	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Art	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Liebesgeschichte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es ist die romantische Art , die Art , bei der man , je besser man seinen Fisch kennen lernt , man den Fisch umso mehr liebt .
+1	Es	markable_1879	empty	pronoun	pleonastic	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	romantische	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Art	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	die	markable_7016	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	Art	markable_7016	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	bei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	der	markable_1881	set_8	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+12	man	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	je	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	besser	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	man	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	seinen	markable_1883	set_112	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+18	Fisch	markable_1883	set_112	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+19	kennen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	lernt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	man	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	den	markable_1884	set_112	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+24	Fisch	markable_1884	set_112	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+25	umso	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	mehr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	liebt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich habe ihn zuerst in einem Restaurant in Südspanien gegessen .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	habe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ihn	markable_1910	set_112	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+4	zuerst	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	einem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Restaurant	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Südspanien	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	gegessen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Eine befreundete Journalistin hatte seit langem von diesem Fisch gesprochen .
+1	Eine	markable_1937	set_10	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	befreundete	markable_1937	set_10	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	Journalistin	markable_1937	set_10	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	hatte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	seit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	langem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	diesem	markable_1939	set_112	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+9	Fisch	markable_1939	set_112	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+10	gesprochen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sie hat uns gewissermaßen verkuppelt .
+1	Sie	markable_1954	set_10	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	hat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	uns	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	gewissermaßen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	verkuppelt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Er kam auf den Tisch mit einer hellen , fast schimmernden weißen Farbe .
+1	Er	markable_1986	set_112	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	kam	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Tisch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	einer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	hellen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	fast	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	schimmernden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	weißen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Farbe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Der Koch hatte ihn verkocht .
+1	Der	markable_2003	set_147	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	Koch	markable_2003	set_147	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	hatte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	ihn	markable_2004	set_112	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+5	verkocht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Halt zweimal .
+1	Halt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	zweimal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Erstaunlicherweise war er immer noch köstlich .
+1	Erstaunlicherweise	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	er	markable_2029	set_112	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+4	immer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	noch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	köstlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Wer kann einen Fisch so gut schmecken lassen , nachdem er verkocht wurde ?
+1	Wer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	kann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	einen	markable_2060|markable_7084	set_12|set_110	np|vp	_	_	_	_	_	_	_	antecedent	_	_	_	_	antecedent	_
+4	Fisch	markable_2060|markable_7084	set_12|set_110	np|vp	_	_	_	_	_	_	_	antecedent	_	_	_	_	antecedent	_
+5	so	markable_7084	set_110	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+6	gut	markable_7084	set_110	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+7	schmecken	markable_7084	set_110	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+8	lassen	markable_7084	set_110	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+9	,	markable_7084	set_110	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+10	nachdem	markable_7084	set_110	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+11	er	markable_2061|markable_7084	set_12|set_110	pronoun|vp	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	antecedent	_
+12	verkocht	markable_7084	set_110	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+13	wurde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich kann es nicht , aber dieser Typ kann es .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	kann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	es	markable_7017	set_110	pronoun	anaphoric	personal	_	simple antecedent	entity	none	non-subject	_	_	_	_	_	_	_
+4	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	aber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	dieser	markable_2087	set_147	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+8	Typ	markable_2087	set_147	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+9	kann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	es	markable_2088	set_110	pronoun	antecedent	personal	_	_	_	none	non-subject	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Nennen wir ihn Miguel .
+1	Nennen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ihn	markable_2102	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+4	Miguel	markable_7121	set_147	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+5	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Tatsächlich heißt er Miguel .
+1	Tatsächlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	heißt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	er	markable_2115	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+4	Miguel	markable_7122	set_147	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+5	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Und nein , er hat den Fisch nicht gekocht und er ist kein Koch .
+1	Und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	nein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	er	markable_2149	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+5	hat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	den	markable_7085	set_112	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+7	Fisch	markable_7085	set_112	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+8	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	gekocht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	er	markable_2151	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+12	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	kein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Koch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Zumindest auf die Art , die Sie und ich darunter verstehen .
+1	Zumindest	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	die	markable_7018	set_14	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	Art	markable_7018	set_14	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	die	markable_2179	set_14	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+7	Sie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	darunter	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	verstehen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Er ist ein Biologe bei Veta La Palma .
+1	Er	markable_2201	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Biologe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	bei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Veta	markable_2202	set_79	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	La	markable_2202	set_79	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	Palma	markable_2202	set_79	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Das ist eine Fischaufzucht in der südwestlichen Ecke Spaniens .
+1	Das	markable_7042	set_79	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	eine	markable_7019	set_113	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	Fischaufzucht	markable_7019	set_113	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	in	markable_7019	set_113	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	der	markable_2225|markable_7019	set_116|set_113	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_
+7	südwestlichen	markable_2225|markable_7019	set_116|set_113	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_
+8	Ecke	markable_2225|markable_7019	set_116|set_113	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_
+9	Spaniens	markable_2225|markable_7019	set_116|set_113	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sie ist nahe der Mündung des Flusses Guadalquivir .
+1	Sie	markable_2247	set_113	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	nahe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Mündung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	des	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Flusses	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Guadalquivir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Bis in die 1980er war die Farm in den Händen von Argentiniern .
+1	Bis	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	1980er	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	die	markable_2279	set_113	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+7	Farm	markable_2279	set_113	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+8	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Händen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Argentiniern	markable_2281	set_16	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sie züchteten Fleischrinder auf dem , was im Grunde Feuchtgebiete waren .
+1	Sie	markable_2308	set_16	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+2	züchteten	markable_7086	set_114	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+3	Fleischrinder	markable_7086	set_114	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+4	auf	markable_7086	set_114	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+5	dem	markable_7086|markable_7020	set_114|empty	vp|pronoun	antecedent	personal	_	_	_	none	none	_	_	_	_	_	antecedent	_
+6	,	markable_7086	set_114	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+7	was	markable_2310|markable_7086	empty|set_114	pronoun|vp	anaphoric	relative	_	simple antecedent	entity	none	subject	_	_	_	_	_	antecedent	_
+8	im	markable_7086	set_114	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+9	Grunde	markable_7086	set_114	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+10	Feuchtgebiete	markable_7086	set_114	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+11	waren	markable_7086	set_114	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sie machten das , indem sie das Land entwässerten .
+1	Sie	markable_2335	set_16	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	machten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	das	markable_7043	set_114	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	non-subject	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	indem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	sie	markable_2336	set_16	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+7	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Land	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	entwässerten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sie bauten diese komplizierte Folge von Kanälen , und sie drängten Wasser aus dem Land heraus und hinaus in den Fluss .
+1	Sie	markable_2384	set_16	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+2	bauten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	diese	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	komplizierte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Folge	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Kanälen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	sie	markable_2387	set_16	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+11	drängten	markable_7087	set_115	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+12	Wasser	markable_7087	set_115	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+13	aus	markable_7087	set_115	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+14	dem	markable_7087	set_115	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+15	Land	markable_7087	set_115	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+16	heraus	markable_7087	set_115	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+17	und	markable_7087	set_115	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+18	hinaus	markable_7087	set_115	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+19	in	markable_7087	set_115	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+20	den	markable_7087	set_115	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+21	Fluss	markable_7087	set_115	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+22	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Nun , sie konnten nicht bewirken , dass das klappte , nicht wirtschaftlich .
+1	Nun	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	sie	markable_2421	set_16	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+4	konnten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	bewirken	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	das	markable_7021	set_115	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+10	klappte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	wirtschaftlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Und ökologisch war es eine Katastrophe .
+1	Und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	ökologisch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	es	markable_7044	set_115	pronoun	anaphoric	personal	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+5	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Katastrophe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es brachte ungefähr 90 Prozent der Vögel um , was für diesen Ort viele Vögel sind .
+1	Es	markable_2475	set_115	pronoun	anaphoric	personal	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+2	brachte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ungefähr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	90	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Prozent	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Vögel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	diesen	markable_2478	set_116	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+13	Ort	markable_2478	set_116	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+14	viele	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Vögel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Und so hat 1982 eine spanische Firma mit Umweltbewusstsein das Land gekauft .
+1	Und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	so	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	hat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	1982	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	eine	markable_2508	set_18	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	spanische	markable_2508	set_18	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	Firma	markable_2508	set_18	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	mit	markable_2508	set_18	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	Umweltbewusstsein	markable_2508	set_18	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Land	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	gekauft	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Was haben sie gemacht ?
+1	Was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	haben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	sie	markable_2523	set_18	pronoun	anaphoric	personal	_	simple antecedent	entity	none	subject	_	_	_	_	_	_	_
+4	gemacht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sie haben den Fluss des Wassers umgekehrt .
+1	Sie	markable_2542	set_18	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+2	haben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Fluss	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	des	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Wassers	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	umgekehrt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sie haben buchstäblich den Hebel umgelegt .
+1	Sie	markable_2561	set_18	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+2	haben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	buchstäblich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Hebel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	umgelegt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Anstatt das Wasser herauszudrängen benutzten sie die Kanäle , um das Wasser wieder hereinzuziehen .
+1	Anstatt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Wasser	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	herauszudrängen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	benutzten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	sie	markable_2596	set_18	pronoun	anaphoric	personal	_	simple antecedent	entity	none	subject	_	_	_	_	_	_	_
+7	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Kanäle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Wasser	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	wieder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	hereinzuziehen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sie fluteten die Kanäle .
+1	Sie	markable_2611	set_18	pronoun	anaphoric	personal	_	simple antecedent	entity	none	subject	_	_	_	_	_	_	_
+2	fluteten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Kanäle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sie schufen eine 11.000 Hektar Fischaufzucht -- Barsch , Meeräsche , Garnele , Aal -- und dabei haben Miguel und seine Firma die ökologische Zerstörung komplett umgekehrt .
+1	Sie	markable_2671	set_18	pronoun	anaphoric	personal	_	simple antecedent	entity	none	subject	_	_	_	_	_	_	_
+2	schufen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	eine	markable_7088	set_117	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	11.000	markable_7088	set_117	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	Hektar	markable_7088	set_117	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	Fischaufzucht	markable_7088	set_117	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	--	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Barsch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Meeräsche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Garnele	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Aal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	--	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	dabei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	haben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Miguel	markable_2678	set_147	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+20	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	seine	markable_2679	set_147	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+22	Firma	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	ökologische	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	Zerstörung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	komplett	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	umgekehrt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die Farm ist unglaublich .
+1	Die	markable_2693	set_117	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+2	Farm	markable_2693	set_117	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+3	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	unglaublich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich meine , Sie haben so etwas noch nie gesehen .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	meine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Sie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	haben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	so	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	etwas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	noch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	nie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	gesehen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sie starren heraus auf den Horizont , der eine Million Meilen entfernt ist , und alles was sie sehen sind geflutete Kanäle und diese dichte , üppige Marsch .
+1	Sie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	starren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	heraus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	den	markable_7022	set_20	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	Horizont	markable_7022	set_20	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	der	markable_2782	set_20	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+9	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Million	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Meilen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	entfernt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	alles	markable_7045	set_82	pronoun	antecedent	personal	_	_	_	none	subject	_	_	_	_	_	_	_
+17	was	markable_7046	set_82	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+18	sie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	sehen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	geflutete	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	Kanäle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	diese	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	dichte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	üppige	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	Marsch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich war dort vor gar nicht langer Zeit mit Miguel .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	dort	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	vor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	gar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	langer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Zeit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Miguel	markable_2813	set_147	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Er ist ein unglaublicher Kerl , drei Teile Charles Darwin und ein Teil " Ein Krokodil zum Küssen " .
+1	Er	markable_2856	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	unglaublicher	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Kerl	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	drei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Teile	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Charles	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Darwin	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Teil	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Krokodil	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	zum	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Küssen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Okay ?
+1	Okay	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Da waren wir und kämpften uns durch die Feuchtgebiete und ich keuche und schwitze , habe Matsch bis zu meinen Knien , und Miguel hält in Ruhe eine Biologievorlesung .
+1	Da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	waren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	kämpften	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	uns	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	durch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Feuchtgebiete	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	keuche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	schwitze	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	habe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Matsch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	bis	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	meinen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Knien	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Miguel	markable_2933	set_147	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+25	hält	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	Ruhe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	Biologievorlesung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Hier hebt er einen seltenen Gleitaar hervor .
+1	Hier	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	hebt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	er	markable_2954	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+4	einen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	seltenen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Gleitaar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	hervor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Nun erwähnt er die Mineralbedürfnisse von Phytoplankton .
+1	Nun	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	erwähnt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	er	markable_2974	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+4	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Mineralbedürfnisse	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Phytoplankton	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Und hier , hier sieht er ein Muster von Bündeln , das ihn an die tansanische Giraffe erinnert .
+1	Und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	hier	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	hier	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	sieht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	er	markable_3017	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+7	ein	markable_3018	set_23	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	Muster	markable_3018	set_23	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	von	markable_3018	set_23	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	Bündeln	markable_3018	set_23	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	das	markable_3020	set_23	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+13	ihn	markable_3021	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+14	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	tansanische	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Giraffe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	erinnert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es stellt sich heraus , dass Miguel den größten Teil seiner Karriere im Mikumi Nationalpark in Afrika verbracht hat .
+1	Es	markable_3065	empty	pronoun	pleonastic	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	stellt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	heraus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Miguel	markable_3067	set_147	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	größten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Teil	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	seiner	markable_3069	set_147	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+12	Karriere	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Mikumi	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Nationalpark	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Afrika	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	verbracht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	hat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich fragte ihn , wie er zu so einem Fisch-Experten geworden ist .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	fragte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ihn	markable_3102	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	er	markable_3103	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+7	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	so	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	einem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Fisch-Experten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	geworden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Er sagte : " Fisch ?
+1	Er	markable_3119	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Fisch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich weiß nichts über Fisch .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	weiß	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	nichts	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	über	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Fisch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich bin ein Experte für Beziehungen . "
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	bin	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Experte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Beziehungen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Und dann geht er und stürzt sich in mehr Gerede von seltenen Vögeln und Algen und seltsamen Wasserpflanzen .
+1	Und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	dann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	geht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	er	markable_3197	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+5	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	stürzt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	mehr	markable_3199	set_118	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	Gerede	markable_3199	set_118	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	von	markable_3199	set_118	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	seltenen	markable_3199	set_118	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	Vögeln	markable_3199	set_118	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	und	markable_3199	set_118	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+15	Algen	markable_3199	set_118	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	und	markable_3199	set_118	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+17	seltsamen	markable_3199	set_118	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+18	Wasserpflanzen	markable_3199	set_118	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+19	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Und verstehen Sie mich nicht falsch , das war wirklich faszinierend , wissen Sie , die biotische Gemeinschaft unplugged , so in der Art .
+1	Und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	verstehen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Sie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	mich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	falsch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	das	markable_7048	set_118	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+9	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	wirklich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	faszinierend	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	wissen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Sie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	biotische	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Gemeinschaft	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	unplugged	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	so	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Art	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es ist großartig , aber ich war verliebt .
+1	Es	markable_3278	set_118	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	großartig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	aber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	verliebt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Und mein Kopf wurde schwach über dieses verkochte Stück köstlichen Fischs , das ich am Vorabend hatte .
+1	Und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	mein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Kopf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	wurde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	schwach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	über	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	dieses	markable_7023	set_25	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	verkochte	markable_7023	set_25	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	Stück	markable_7023	set_25	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	köstlichen	markable_7023	set_25	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	Fischs	markable_7023	set_25	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	das	markable_3322	set_25	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+14	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	am	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Vorabend	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	hatte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Also habe ich ihn unterbrochen .
+1	Also	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	habe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	ihn	markable_3340	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+5	unterbrochen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich sagte : " Miguel , wie kommt es , dass Dein Fisch so gut schmeckt ? "
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Miguel	markable_7123	set_147	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	kommt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	es	markable_3380	empty	pronoun	pleonastic	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Dein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Fisch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	so	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	gut	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	schmeckt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Er zeigte auf die Algen .
+1	Er	markable_3397	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	zeigte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Algen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: " Ich weiß , Junge , die Algen , der Phytoplankton , die Beziehungen , das ist unglaublich .
+1	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	weiß	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Junge	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	die	markable_7107	set_139	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	Algen	markable_7107	set_139	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	der	markable_7108	set_139	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	Phytoplankton	markable_7108	set_139	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	die	markable_7109	set_139	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	Beziehungen	markable_7109	set_139	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	das	markable_7049	set_139	pronoun	anaphoric	demonstrative	_	split reference	_	none	subject	_	_	_	_	_	_	_
+17	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	unglaublich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Aber was essen Deine Fische ?
+1	Aber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	essen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Deine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Fische	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Wie ist die Futterverwertung ? "
+1	Wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Futterverwertung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Nun , er fährt fort mir zu erzählen , dass es so ein reichhaltiges System ist , dass die Fische essen , was sie in der Wildnis essen würden .
+1	Nun	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	er	markable_3537	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+4	fährt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	fort	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	mir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	erzählen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	es	markable_3539	empty	pronoun	pleonastic	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	so	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	reichhaltiges	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	System	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	die	markable_3540	set_26	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+20	Fische	markable_3540	set_26	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+21	essen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	was	markable_3541	set_140	pronoun	cataphoric	_	_	simple antecedent	entity	none	non-subject	_	_	_	_	_	_	_
+24	sie	markable_3542	set_26	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+25	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	Wildnis	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	essen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	würden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die pflanzliche Biomasse , den Phytoplankton , den Zooplankton , das ist es , was die Fische füttert .
+1	Die	markable_3584	set_140	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+2	pflanzliche	markable_3584	set_140	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+3	Biomasse	markable_3584	set_140	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+4	,	markable_3584	set_140	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+5	den	markable_3584	set_140	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+6	Phytoplankton	markable_3584	set_140	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+7	,	markable_3584	set_140	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+8	den	markable_3584	set_140	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+9	Zooplankton	markable_3584	set_140	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	das	markable_7110	set_140	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+12	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	es	markable_3585	empty	pronoun	pleonastic	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	was	markable_7053	set_140	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+16	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Fische	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	füttert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Das System ist so gesund , es ist völlig selbsterneuernd .
+1	Das	markable_3611	set_144	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	System	markable_3611	set_144	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	so	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	gesund	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	es	markable_3612	set_144	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+8	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	völlig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	selbsterneuernd	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es gibt kein Futter .
+1	Es	markable_3625	empty	pronoun	pleonastic	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	gibt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	kein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Futter	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Je von einer Farm gehört , die ihre Tiere nicht füttert ?
+1	Je	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	einer	markable_3653	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	Farm	markable_3653	set_28	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	gehört	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	die	markable_3654	set_28	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+8	ihre	markable_3655	set_28	pronoun	anaphoric	possessive	_	simple antecedent	entity	none	subject	_	_	_	_	_	_	_
+9	Tiere	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	füttert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Später am Tag fuhr ich auf diesem Grundstück mit Miguel herum und ich fragte ihn , ich sagte : " Für einen Ort , der so natürlich zu sein scheint " , anders als jede Farm , auf der ich je gewesen war , " wie misst Du Erfolg ? "
+1	Später	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	am	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Tag	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	fuhr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	diesem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Grundstück	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Miguel	markable_3764	set_147	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	herum	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	fragte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	ihn	markable_3766	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+16	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	einen	markable_3768	set_30	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+23	Ort	markable_3768	set_30	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+24	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	der	markable_3769	set_30	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+26	so	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	natürlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	sein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	scheint	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	anders	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	jede	markable_7024	set_31	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+36	Farm	markable_7024	set_31	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+37	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	der	markable_3770	set_31	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+40	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	je	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	gewesen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+43	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+44	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+45	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+46	wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+47	misst	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+48	Du	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+49	Erfolg	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+50	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+51	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: In dem Moment war es , als ob ein Filmregisseur einen Bühnenwechsel verlangt hätte .
+1	In	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	dem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Moment	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	es	markable_3807	empty	pronoun	pleonastic	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	ob	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Filmregisseur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	einen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Bühnenwechsel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	verlangt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	hätte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Und wir bogen um die Ecke und uns bot sich der unglaublichste Anblick , tausende und abertausende pinker Flamingos , ein buchstäblich pinker Teppich so weit das Auge reicht .
+1	Und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	bogen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Ecke	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	uns	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	bot	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	unglaublichste	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Anblick	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	tausende	markable_3878	set_33	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	und	markable_3878	set_33	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+17	abertausende	markable_3878	set_33	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+18	pinker	markable_3878	set_33	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+19	Flamingos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	buchstäblich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	pinker	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Teppich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	so	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	weit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	Auge	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	reicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: " Das ist Erfolg " , sagte er .
+1	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Das	markable_7054	empty	pronoun	extratextual reference	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Erfolg	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	er	markable_3901	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: " Schau Dir ihre Bäuche an , pink .
+1	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Schau	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Dir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	ihre	markable_3924	set_33	pronoun	anaphoric	personal	_	simple antecedent	entity	none	none	_	_	_	_	_	_	_
+5	Bäuche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	pink	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sie schlemmen . "
+1	Sie	markable_3936	set_33	pronoun	anaphoric	possessive	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+2	schlemmen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Schlemmen ?
+1	Schlemmen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich war völlig verwirrt .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	völlig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	verwirrt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich sagte : " Miguel , schlemmen sie nicht Deinen Fisch ? "
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Miguel	markable_7119	set_147	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	schlemmen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	sie	markable_3986	set_33	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+9	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Deinen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Fisch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: " Ja " , sagte er .
+1	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Ja	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	er	markable_4005	set_147	pronoun	anaphoric	_	_	simple antecedent	_	none	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: " Wir verlieren 20 Prozent von unserem Fisch und Fischeiern an die Vögel .
+1	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	verlieren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	20	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Prozent	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	unserem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Fisch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Fischeiern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	die	markable_4040	set_33	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+13	Vögel	markable_4040	set_33	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+14	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Nun , letztes Jahr waren auf diesem Grundstück 600.000 Vögel , mehr als 250 unterschiedliche Arten .
+1	Nun	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	letztes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Jahr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	waren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	diesem	markable_4078	set_86	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	Grundstück	markable_4078	set_86	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	600.000	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Vögel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	mehr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	250	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	unterschiedliche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Arten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es ist heute das größte und eines der wichtigsten privaten Vogelreservate in ganz Europa geworden .
+1	Es	markable_4114	set_86	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	heute	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	größte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	eines	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	wichtigsten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	privaten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Vogelreservate	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	ganz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Europa	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	geworden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich sagte : " Miguel , ist ein gut gedeihender Vogelbestand nicht das Letzte , das man auf einer Fischaufzucht haben möchte ? "
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Miguel	markable_7120	set_147	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	gut	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	gedeihender	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Vogelbestand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	das	markable_4169	set_35	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	Letzte	markable_4169	set_35	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	das	markable_4170	set_35	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+17	man	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	einer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Fischaufzucht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	haben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	möchte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Er schüttelte seinen Kopf , nein .
+1	Er	markable_4188	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	schüttelte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	seinen	markable_4189	set_147	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+4	Kopf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	nein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Er sagte : " Wir bauen extensiv an , nicht intensiv .
+1	Er	markable_4217	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Wir	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+6	bauen	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+7	extensiv	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+8	an	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+9	,	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+10	nicht	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+11	intensiv	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+12	.	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+
+# text: Das hier ist ein ökologisches Netzwerk .
+1	Das	markable_7055|markable_7111	empty|set_141	pronoun|clause	extratextual reference	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+2	hier	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+3	ist	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+4	ein	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+5	ökologisches	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+6	Netzwerk	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+7	.	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+
+# text: Die Flamingos fressen die Garnelen .
+1	Die	markable_4249|markable_7111	set_119|set_141	np|clause	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	antecedent
+2	Flamingos	markable_4249|markable_7111	set_119|set_141	np|clause	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	antecedent
+3	fressen	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+4	die	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+5	Garnelen	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+6	.	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+
+# text: Die Garnelen fressen den Phytoplankton .
+1	Die	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+2	Garnelen	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+3	fressen	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+4	den	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+5	Phytoplankton	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+6	.	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+
+# text: Je pinker also der Bauch desto besser das System . "
+1	Je	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+2	pinker	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+3	also	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+4	der	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+5	Bauch	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+6	desto	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+7	besser	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+8	das	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+9	System	markable_7111	set_141	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Okay , lassen Sie uns das überdenken .
+1	Okay	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	lassen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Sie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	uns	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	das	markable_7056	set_141	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+7	überdenken	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Eine Farm , die ihre Tiere nicht füttert und eine Farm , die ihren Erfolg an der Gesundheit ihrer Räuber misst .
+1	Eine	markable_4358	set_37	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	Farm	markable_4358	set_37	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	die	markable_4359	set_37	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+5	ihre	markable_4360	set_37	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+6	Tiere	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	füttert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	eine	markable_4362	set_38	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	Farm	markable_4362	set_38	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	die	markable_4363	set_38	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+14	ihren	markable_4364	set_38	pronoun	anaphoric	possessive	_	simple antecedent	entity	none	non-subject	_	_	_	_	_	_	_
+15	Erfolg	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Gesundheit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	ihrer	markable_4367	set_38	pronoun	anaphoric	possessive	_	simple antecedent	entity	none	non-subject	_	_	_	_	_	_	_
+20	Räuber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	misst	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Eine Fischaufzucht , aber auch ein Vogelreservat .
+1	Eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Fischaufzucht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	aber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	auch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Vogelreservat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Oh , und nebenbei sollten diese Flamingos von vornherein nicht einmal da sein .
+1	Oh	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	nebenbei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	sollten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	diese	markable_4419	set_119	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+7	Flamingos	markable_4419	set_119	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+8	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	vornherein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	einmal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	sein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sie brüten in einer Stadt 240 Kilometer entfernt , wo die Bodenbeschaffenheit besser ist für den Nestbau .
+1	Sie	markable_4458	set_119	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+2	brüten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	einer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Stadt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	240	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Kilometer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	entfernt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	wo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Bodenbeschaffenheit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	besser	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Nestbau	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Jeden Morgen fliegen sie 240 Kilometer zur Farm .
+1	Jeden	markable_7089	set_120	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+2	Morgen	markable_7089	set_120	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+3	fliegen	markable_7089	set_120	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+4	sie	markable_4484|markable_7089	set_119|set_120	pronoun|clause	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	antecedent
+5	240	markable_7089	set_120	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+6	Kilometer	markable_7089	set_120	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+7	zur	markable_7089	set_120	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+8	Farm	markable_7089	set_120	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+9	.	markable_7089	set_120	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+
+# text: Und jeden Abend fliegen sie 240 Kilometer zurück .
+1	Und	markable_7089	set_120	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+2	jeden	markable_7089	set_120	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+3	Abend	markable_7089	set_120	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+4	fliegen	markable_7089	set_120	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+5	sie	markable_4508|markable_7089	set_119|set_120	pronoun|clause	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	antecedent
+6	240	markable_7089	set_120	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+7	Kilometer	markable_7089	set_120	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+8	zurück	markable_7089	set_120	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sie machen das , weil sie der gestrichelten weißen Linie der Landstraße A92 folgen können .
+1	Sie	markable_4544	set_119	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+2	machen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	das	markable_7076	set_120	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	none	subject	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	weil	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	sie	markable_4545	set_119	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+7	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	gestrichelten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	weißen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Linie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Landstraße	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	A92	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	folgen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	können	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Im Ernst .
+1	Im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Ernst	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich hatte mir eine Art Reise der Pinguine vorgestellt , also schaute ich Miguel an .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	hatte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	mir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Art	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Reise	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Pinguine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	vorgestellt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	also	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	schaute	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Miguel	markable_7116	set_147	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+15	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich sagte : " Miguel , fliegen sie 240 Kilometer zu der Farm und fliegen sie dann 240 Kilometer zurück am Abend ?
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Miguel	markable_7028	set_147	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	fliegen	markable_7090	set_122	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+8	sie	markable_7090|markable_4645	set_122|set_119	clause|pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	antecedent
+9	240	markable_7090	set_122	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+10	Kilometer	markable_7090	set_122	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+11	zu	markable_7090	set_122	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+12	der	markable_7090	set_122	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+13	Farm	markable_7090	set_122	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+14	und	markable_7090	set_122	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+15	fliegen	markable_7090	set_122	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+16	sie	markable_7090|markable_4648	set_122|set_119	clause|pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	antecedent
+17	dann	markable_7090	set_122	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+18	240	markable_7090	set_122	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+19	Kilometer	markable_7090	set_122	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+20	zurück	markable_7090	set_122	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+21	am	markable_7090	set_122	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+22	Abend	markable_7090	set_122	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+23	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Machen sie das für die Kinder ? "
+1	Machen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	sie	markable_4669	set_119	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+3	das	markable_7078	set_122	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+4	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Kinder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Er schaute mich an , als hätte ich gerade ein Lied von Whitney Houston zitiert .
+1	Er	markable_4705	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	schaute	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	mich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	hätte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	gerade	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Lied	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Whitney	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Houston	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	zitiert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Er sagte : " Nein .
+1	Er	markable_4724	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Nein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sie machen das , weil das Essen besser ist . "
+1	Sie	markable_4749	set_119	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+2	machen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	das	markable_7079	set_122	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	weil	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Essen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	besser	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich habe nicht die Haut meines geliebten Fisches erwähnt , die köstlich war , und ich mag keine Fischhaut .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	habe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	die	markable_4794	set_41	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	Haut	markable_4794	set_41	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	meines	markable_4794	set_41	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	geliebten	markable_4794	set_41	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	Fisches	markable_4794	set_41	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	erwähnt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	die	markable_4797	set_41	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+12	köstlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	mag	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	keine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Fischhaut	markable_4799	set_123	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+20	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich mag sie nicht sautiert .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	mag	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	sie	markable_4815	set_123	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+4	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	sautiert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich mag sie nicht knusprig .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	mag	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	sie	markable_4831	set_123	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+4	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	knusprig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es ist dieser beißende , verkohlte Geschmack .
+1	Es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	dieser	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	beißende	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	verkohlte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Geschmack	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich koche fast nie damit .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	koche	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	fast	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	nie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	damit	markable_7091	set_123	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	none	non-subject	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Und doch , als ich sie in diesem Restaurant in Südspanien probiert habe hat sie überhaupt nicht nach Fischhaut geschmeckt .
+1	Und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	doch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	sie	markable_4912	set_123	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+7	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	diesem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Restaurant	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Südspanien	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	probiert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	habe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	hat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	sie	markable_4915	set_123	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+16	überhaupt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	nach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Fischhaut	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	geschmeckt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sie schmeckte süß und rein , als ob man einen Bissen vom Ozean nehmen würde .
+1	Sie	markable_7092|markable_4951	set_124|set_123	clause|pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	antecedent
+2	schmeckte	markable_7092	set_124	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+3	süß	markable_7092	set_124	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+4	und	markable_7092	set_124	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+5	rein	markable_7092	set_124	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+6	,	markable_7092	set_124	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+7	als	markable_7092	set_124	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+8	ob	markable_7092	set_124	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+9	man	markable_7092	set_124	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+10	einen	markable_7092	set_124	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+11	Bissen	markable_7092	set_124	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+12	vom	markable_7092	set_124	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+13	Ozean	markable_7092	set_124	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+14	nehmen	markable_7092	set_124	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+15	würde	markable_7092	set_124	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich erwähnte das gegenüber Miguel und er nickte .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	erwähnte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	das	markable_7080	set_124	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	non-subject	_	_	_	_	_	_	_
+4	gegenüber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Miguel	markable_4975	set_147	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+6	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	er	markable_4976	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+8	nickte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Er sagte : " Die Haut wirkt wie ein Schwamm .
+1	Er	markable_5001	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Die	markable_5002	set_44	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	Haut	markable_5002	set_44	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	wirkt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Schwamm	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sie ist die letzte Abwehr , bevor etwas in den Körper eintritt .
+1	Sie	markable_5031	set_44	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	letzte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Abwehr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	bevor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	etwas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Körper	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	eintritt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sie hat sich im Laufe der Evolution entwickelt , um Unreinheiten aufzusaugen . "
+1	Sie	markable_5063	set_44	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	hat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	sich	markable_5064	set_44	pronoun	anaphoric	reflexive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+4	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Laufe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Evolution	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	entwickelt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Unreinheiten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	aufzusaugen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Und dann fügte er hinzu : " Aber unser Wasser hat keine Unreinheiten . "
+1	Und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	dann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	fügte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	er	markable_5100	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+5	hinzu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Aber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	unser	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Wasser	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	hat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	keine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Unreinheiten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Okay .
+1	Okay	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Eine Farm , die ihre Fische nicht füttert .
+1	Eine	markable_5129	set_45	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	Farm	markable_5129	set_45	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	die	markable_5130	set_45	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+5	ihre	markable_5131	set_45	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+6	Fische	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	füttert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Eine Farm , die ihren Erfolg misst am Erfolg ihrer Räuber .
+1	Eine	markable_5159	set_46	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	Farm	markable_5159	set_46	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	die	markable_5160	set_46	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+5	ihren	markable_5161	set_46	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+6	Erfolg	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	misst	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	am	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Erfolg	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	ihrer	markable_5164	set_46	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+11	Räuber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Und dann wurde mir klar , wenn er sagt , eine Farm , die keine Unreinheiten hat , untertreibt er gewaltig , denn das Wasser , das durch diese Farm fließt kommt aus dem Fluss Guadalquivir herein .
+1	Und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	dann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	wurde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	mir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	klar	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	wenn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	er	markable_5245	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+9	sagt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	eine	markable_5246	set_47	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	Farm	markable_5246	set_47	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	die	markable_5247	set_47	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+15	keine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Unreinheiten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	hat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	untertreibt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	er	markable_5249	set_147	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+21	gewaltig	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	denn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	das	markable_7029	set_48	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+25	Wasser	markable_7029	set_48	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+26	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	das	markable_5251	set_48	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+28	durch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	diese	markable_5252	set_47	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+30	Farm	markable_5252	set_47	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+31	fließt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	kommt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	aus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	dem	markable_7112	set_142	pronoun	antecedent	personal	_	_	_	none	none	_	_	_	_	_	_	_
+35	Fluss	markable_7112	set_142	pronoun	antecedent	personal	_	_	_	none	none	_	_	_	_	_	_	_
+36	Guadalquivir	markable_7112	set_142	pronoun	antecedent	personal	_	_	_	none	none	_	_	_	_	_	_	_
+37	herein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es ist ein Fluss , der all die Dinge mit sich führt , von denen Flüsse heutzutage dazu neigen , sie mit sich zu führen , chemische Schadstoffe , Abfluss von Schädlingsbekämpfungsmitteln .
+1	Es	markable_5322	set_142	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ein	markable_7030	set_49	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	Fluss	markable_7030	set_49	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	der	markable_5323	set_49	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+7	all	markable_5324	set_50	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	die	markable_5324	set_50	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	Dinge	markable_5324	set_50	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	führt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	denen	markable_5326	set_50	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+16	Flüsse	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	heutzutage	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	dazu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	neigen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	sie	markable_5328	set_50	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+22	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	führen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	chemische	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	Schadstoffe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	Abfluss	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	Schädlingsbekämpfungsmitteln	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Und wenn es sich durch das System gekämpft hat und dieses verlässt ist das Wasser sauberer , als wie es hereingekommen ist .
+1	Und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	wenn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	es	markable_5381	set_48	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+4	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	durch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	das	markable_5383	set_89	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	System	markable_5383	set_89	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	gekämpft	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	hat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	dieses	markable_7059	set_89	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+12	verlässt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	das	markable_7031	set_52	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+15	Wasser	markable_7031	set_52	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	sauberer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	es	markable_5384	set_52	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+21	hereingekommen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Das System ist so gesund , es reinigt das Wasser .
+1	Das	markable_5409	set_53	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	System	markable_5409	set_53	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	so	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	gesund	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	es	markable_5410	set_53	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+8	reinigt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Wasser	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Also nicht nur eine Farm , die ihre Tiere nicht füttert , nicht nur eine Farm , die ihren Erfolg an der Gesundheit ihrer Räuber misst , sondern eine Farm , die buchstäblich eine Wasser-Aufbereitungsanlage ist , und nicht nur für diese Fische , sondern auch für Dich und mich .
+1	Also	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	nur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	eine	markable_5516	set_54	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	Farm	markable_5516	set_54	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	die	markable_5517	set_54	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+8	ihre	markable_5518	set_54	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+9	Tiere	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	füttert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	nur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	eine	markable_5520	set_55	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	Farm	markable_5520	set_55	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+17	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	die	markable_5521	set_55	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+19	ihren	markable_5522	set_55	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+20	Erfolg	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	Gesundheit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	ihrer	markable_5525	set_55	pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+25	Räuber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	misst	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	sondern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	eine	markable_7032	set_56	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+30	Farm	markable_7032	set_56	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+31	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	die	markable_5527	set_56	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+33	buchstäblich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	Wasser-Aufbereitungsanlage	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	nur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	diese	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+43	Fische	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+44	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+45	sondern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+46	auch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+47	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+48	Dich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+49	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+50	mich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+51	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Denn wenn das Wasser herausfließt , versinkt es im Atlantik .
+1	Denn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	wenn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	das	markable_5555	set_57	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	Wasser	markable_5555	set_57	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	herausfließt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	versinkt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	es	markable_5556	set_57	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+9	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Atlantik	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ein Tropfen im Ozean , ich weiß , aber ich nehme ihn , und das sollten Sie auch tun , denn diese Liebesgeschichte , wie romantisch auch immer , ist auch aufschlussreich .
+1	Ein	markable_5626	set_58	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	Tropfen	markable_5626	set_58	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Ozean	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	weiß	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	aber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	ich	markable_7093	set_125	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+11	nehme	markable_7093	set_125	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+12	ihn	markable_7093|markable_5630	set_125|set_58	clause|pronoun	anaphoric	personal	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	antecedent
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	das	markable_7061	set_125	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+16	sollten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Sie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	auch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	tun	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	denn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	diese	markable_5632	set_59	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+23	Liebesgeschichte	markable_5632	set_59	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+24	,	markable_5632	set_59	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+25	wie	markable_5632	set_59	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+26	romantisch	markable_5632	set_59	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+27	auch	markable_5632	set_59	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+28	immer	markable_5632	set_59	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+29	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	auch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	aufschlussreich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Man könnte sagen , dass sie ein Rezept ist für die Zukunft guter Lebensmittel , ob wir von Barsch oder Fleischrindern sprechen .
+1	Man	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	könnte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	sagen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	sie	markable_5681	set_59	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+7	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Rezept	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Zukunft	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	guter	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Lebensmittel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	ob	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Barsch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	oder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Fleischrindern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	sprechen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Was wir jetzt brauchen , ist ein radikal neues Konzept von Landwirtschaft , von einer , in der Lebensmittel tatsächlich gut schmecken .
+1	Was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	jetzt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	brauchen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	ein	markable_7095	set_127	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	radikal	markable_7095	set_127	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	neues	markable_7095	set_127	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	Konzept	markable_7095	set_127	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	von	markable_7095	set_127	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	Landwirtschaft	markable_7095|markable_5736	set_127|set_126	np|np	_	_	_	_	_	_	_	antecedent|antecedent	_	_	_	_	_	_
+13	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	einer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	der	markable_7094	set_126	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+19	Lebensmittel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	tatsächlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	gut	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	schmecken	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Aber für viele Leute ist das ein bisschen zu radikal .
+1	Aber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	viele	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Leute	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	das	markable_7081	set_127	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+7	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	bisschen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	radikal	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Wir sind keine Realisten , wir Genießer .
+1	Wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	keine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Realisten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Genießer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Wir sind Liebhaber .
+1	Wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Liebhaber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Wir lieben Wochenmärkte .
+1	Wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	lieben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Wochenmärkte	markable_5806	set_103	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Wir lieben kleine Familienbetriebe .
+1	Wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	lieben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	kleine	markable_5820	set_103	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	Familienbetriebe	markable_5820	set_103	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Wir reden über regionale Lebensmittel .
+1	Wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	reden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	über	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	regionale	markable_5836	set_103	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	Lebensmittel	markable_5836	set_103	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Wir essen Bio .
+1	Wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	essen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Bio	markable_5848	set_103	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Und wenn Sie behaupten , dass das die Dinge sind , die die Zukunft guter Lebensmittel versichern steht jemand irgendwo auf und sagt : " Hey Leute , ich liebe pinke Flamingos , aber wie werden Sie die Welt ernähren ?
+1	Und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	wenn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Sie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	behaupten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	das	markable_7082	set_103	pronoun	anaphoric	demonstrative	_	split reference	_	none	subject	_	_	_	_	_	_	_
+8	die	markable_5934	set_60	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	Dinge	markable_5934	set_60	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	die	markable_5935	set_60	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+13	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Zukunft	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	guter	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Lebensmittel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	versichern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	steht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	jemand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	irgendwo	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	sagt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	Hey	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	Leute	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	liebe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	pinke	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	Flamingos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	aber	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	Sie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	Welt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	ernähren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Wie werden Sie die Welt ernähren ? "
+1	Wie	markable_7096	set_61	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+2	werden	markable_7096	set_61	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+3	Sie	markable_7096	set_61	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+4	die	markable_7096	set_61	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+5	Welt	markable_7096	set_61	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+6	ernähren	markable_7096	set_61	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+7	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Darf ich ehrlich sein ?
+1	Darf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ehrlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	sein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ich mag diese Frage nicht .
+1	Ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	mag	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	diese	markable_5990	set_61	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+4	Frage	markable_5990	set_61	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+5	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Nein , nicht , weil wir schon genug Kalorien produzieren , um die Welt mehr als nur zu ernähren .
+1	Nein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	weil	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	schon	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	genug	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Kalorien	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	produzieren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Welt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	mehr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	nur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	ernähren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Eine Milliarde Menschen werden heute hungern .
+1	Eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Milliarde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Menschen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	heute	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	hungern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Eine Milliarde -- das ist mehr als je zuvor -- aufgrund krasser Ungleichheiten in der Verteilung , nicht der Gesamtproduktion .
+1	Eine	markable_6098	set_90	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	Milliarde	markable_6098	set_90	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	--	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	das	markable_7062	set_90	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	none	subject	_	_	_	_	_	_	_
+5	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	mehr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	als	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	je	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	zuvor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	--	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	aufgrund	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	krasser	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Ungleichheiten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Verteilung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Gesamtproduktion	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Nun , ich mag diese Frage nicht , weil sie die Logik unseres Nahrungssystems die letzten 50 Jahre über bestimmt hat .
+1	Nun	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	mag	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	diese	markable_6149	set_61	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+6	Frage	markable_6149	set_61	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	demonstrative	_	_	_	_
+7	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	weil	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	sie	markable_6150	set_61	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+11	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Logik	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	unseres	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Nahrungssystems	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	letzten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	50	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Jahre	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	über	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	bestimmt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	hat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Füttere Getreide an Pflanzenfresser , Schädlingsbekämpfungsmittel an Monokulturen , Chemikalien an die Erde , Hühnchen an Fische , und die ganze Zeit hat die Agrarindustrie einfach gefragt : " Wenn wir mehr Leute billiger ernähren , wie schrecklich kann das schon sein ? "
+1	Füttere	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Getreide	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Pflanzenfresser	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Schädlingsbekämpfungsmittel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Monokulturen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Chemikalien	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Erde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Hühnchen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Fische	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	ganze	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	Zeit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	hat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	Agrarindustrie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	einfach	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	gefragt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	Wenn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	mehr	markable_7097	set_129	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+33	Leute	markable_7097	set_129	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+34	billiger	markable_7097	set_129	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+35	ernähren	markable_7097	set_129	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+36	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	schrecklich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	kann	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	das	markable_7063	set_129	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	none	subject	_	_	_	_	_	_	_
+41	schon	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	sein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+43	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+44	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Das war der Beweggrund .
+1	Das	markable_7064	set_129	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+2	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Beweggrund	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es war die Rechtfertigung .
+1	Es	markable_6280	set_129	pronoun	anaphoric	personal	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+2	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Rechtfertigung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es war der Geschäftsplan der amerikanischen Landwirtschaft .
+1	Es	markable_6299	set_129	pronoun	anaphoric	personal	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+2	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Geschäftsplan	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	der	markable_6300	set_92	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	amerikanischen	markable_6300	set_92	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	Landwirtschaft	markable_6300	set_92	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Wir sollten sie nennen , was sie ist , ein Gewerbe in Abwicklung , ein Gewerbe , das schnell ökologisches Kapital auffrisst , das genau diese Produktion ermöglicht .
+1	Wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	sollten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	sie	markable_6362	set_92	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+4	nennen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	was	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	sie	markable_6363	set_92	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+8	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Gewerbe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Abwicklung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	ein	markable_6366	set_143	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	Gewerbe	markable_6366	set_143	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+17	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	das	markable_6367	set_143	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+19	schnell	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	ökologisches	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Kapital	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	auffrisst	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	das	markable_6368	set_143	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+25	genau	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	diese	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	Produktion	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	ermöglicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Das ist kein Gewerbe , und es ist nicht Landwirtschaft .
+1	Das	markable_7065	set_143	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	kein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Gewerbe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	es	markable_7113	set_143	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+8	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Landwirtschaft	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Unsere Kornkammer ist heute bedroht , nicht aufgrund abnehmender Zufuhr , sondern aufgrund abnehmender Ressourcen , nicht durch die neuesten Mähdrescher- und Traktor-Erfindungen , sondern durch fruchtbares Land , nicht durch Pumpen , sondern durch frisches Wasser , nicht durch Kettensägen , sondern durch Wälder , und nicht durch Fischerboote und Netze , sondern durch Fische im Meer .
+1	Unsere	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Kornkammer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	heute	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	bedroht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	aufgrund	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	abnehmender	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Zufuhr	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	sondern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	aufgrund	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	abnehmender	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Ressourcen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	durch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	neuesten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Mähdrescher-	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	Traktor-Erfindungen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	sondern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	durch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	fruchtbares	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	Land	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	durch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	Pumpen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	sondern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	durch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	frisches	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	Wasser	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	durch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	Kettensägen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+43	sondern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+44	durch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+45	Wälder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+46	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+47	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+48	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+49	durch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+50	Fischerboote	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+51	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+52	Netze	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+53	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+54	sondern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+55	durch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+56	Fische	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+57	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+58	Meer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+59	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Sie wollen die Welt ernähren ?
+1	Sie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	wollen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Welt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	ernähren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Lassen Sie uns anfangen mit der Frage : Wie werden wir uns selbst ernähren ?
+1	Lassen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Sie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	uns	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	anfangen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Frage	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	uns	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	selbst	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	ernähren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Oder besser , wie können wir Bedingungen schaffen , die jede Gemeinschaft befähigen , sich selbst zu ernähren ?
+1	Oder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	besser	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	können	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Bedingungen	markable_7098|markable_6621	set_130|set_63	vp|np	_	_	_	_	_	_	_	antecedent	_	_	_	_	antecedent	_
+8	schaffen	markable_7098	set_130	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+9	,	markable_7098	set_130	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+10	die	markable_7098|markable_6622	set_130|set_63	vp|pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	antecedent	_
+11	jede	markable_7098|markable_6623	set_130|empty	vp|np	_	_	_	_	_	_	_	antecedent	_	_	_	_	antecedent	_
+12	Gemeinschaft	markable_7098|markable_6623	set_130|empty	vp|np	_	_	_	_	_	_	_	antecedent	_	_	_	_	antecedent	_
+13	befähigen	markable_7098	set_130	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+14	,	markable_7098	set_130	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+15	sich	markable_7098	set_130	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+16	selbst	markable_7098	set_130	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+17	zu	markable_7098	set_130	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+18	ernähren	markable_7098	set_130	vp	_	_	_	_	_	_	_	_	_	_	_	_	antecedent	_
+19	?	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Um das zu tun , schauen Sie nicht auf das Agrarindustrie-Modell für die Zukunft .
+1	Um	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	das	markable_7033	set_130	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+3	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	tun	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	schauen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Sie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	das	markable_6658	set_131	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	Agrarindustrie-Modell	markable_6658	set_131	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	für	markable_6658	set_131	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	die	markable_6658	set_131	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	Zukunft	markable_6658	set_131	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es ist wirklich alt , und es ist erledigt .
+1	Es	markable_6682	set_131	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	wirklich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	alt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	es	markable_6683	set_131	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+8	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	erledigt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Kapital , Chemie und Maschinen stehen darin obenan und es hat nie etwas wirklich gutes zum Essen produziert .
+1	Kapital	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Chemie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Maschinen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	stehen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	darin	markable_7099	set_131	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+8	obenan	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	es	markable_6726	set_131	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+11	hat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	nie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	etwas	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	wirklich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	gutes	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	zum	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	Essen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	produziert	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Schauen wir uns stattdessen das ökologische Modell an .
+1	Schauen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	wir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	uns	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	stattdessen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	das	markable_6750	set_94	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	ökologische	markable_6750	set_94	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	Modell	markable_6750	set_94	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Das ist das , das auf zwei Milliarden Jahre Arbeitserfahrung zurückgreift .
+1	Das	markable_7066	set_94	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+2	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	das	markable_7034	set_94	np	_	_	_	_	_	_	_	not sure. help!	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	das	markable_6777	set_94	pronoun	anaphoric	_	_	simple antecedent	_	none	_	_	_	_	_	_	_	_
+6	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	zwei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Milliarden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Jahre	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Arbeitserfahrung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	zurückgreift	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Schauen Sie sich Miguel an , Bauern wie Miguel , Betriebe , die nicht Welten für sich sind , Betriebe , die wiederherstellen anstatt aufzubrauchen , Betriebe , die extensiv anbauen anstatt nur intensiv , Bauern , die nicht nur Erzeuger sind , sondern Experten für Beziehungen , denn sie sind diejenigen , die auch Experten für Geschmack sind .
+1	Schauen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Sie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Miguel	markable_7118	set_147	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+5	an	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Bauern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	wie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Miguel	markable_7115	set_147	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	none	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Betriebe	markable_6905	set_68	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	die	markable_6906	set_68	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+14	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Welten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Betriebe	markable_6909	set_67	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+21	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	die	markable_6910	set_67	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+23	wiederherstellen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	anstatt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	aufzubrauchen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	Betriebe	markable_6911	set_69	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+28	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	die	markable_6912	set_69	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+30	extensiv	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	anbauen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	anstatt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	nur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	intensiv	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	Bauern	markable_6913	set_70	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+37	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	die	markable_6914	set_70	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+39	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	nur	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	Erzeuger	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+43	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+44	sondern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+45	Experten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+46	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+47	Beziehungen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+48	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+49	denn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+50	sie	markable_6916	set_70	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+51	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+52	diejenigen	markable_7035	set_71	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+53	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+54	die	markable_6917	set_71	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+55	auch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+56	Experten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+57	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+58	Geschmack	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+59	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+60	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Und wenn ich wirklich ehrlich bin sind sie ein besserer Koch als ich es je sein werde .
+1	Und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	wenn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	ich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	wirklich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	ehrlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	bin	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	sind	markable_7100	set_132	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+8	sie	markable_7100	set_132	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+9	ein	markable_7100	set_132	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+10	besserer	markable_7100	set_132	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+11	Koch	markable_7100	set_132	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+12	als	markable_7100	set_132	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+13	ich	markable_7100	set_132	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+14	es	markable_7100|markable_6962	set_132|empty	clause|pronoun	pleonastic	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+15	je	markable_7100	set_132	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+16	sein	markable_7100	set_132	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+17	werde	markable_7100	set_132	clause	_	_	_	_	_	_	_	_	_	_	_	_	_	antecedent
+18	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Wissen Sie , das ist mir recht , denn wenn das die Zukunft guter Lebensmittel ist , wird sie köstlich sein .
+1	Wissen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Sie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	das	markable_7067	set_132	pronoun	anaphoric	demonstrative	_	simple antecedent	event	none	subject	_	_	_	_	_	_	_
+5	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	mir	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	recht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	denn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	wenn	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	das	markable_7068	set_132	pronoun	anaphoric	demonstrative	_	simple antecedent	entity	none	subject	_	_	_	_	_	_	_
+12	die	markable_7011	set_72	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	Zukunft	markable_7011	set_72	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	guter	markable_7011	set_72	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+15	Lebensmittel	markable_7011	set_72	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	wird	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	sie	markable_7013	set_72	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	none	_	_	_	_	_	_	_
+20	köstlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	sein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Danke .
+1	Danke	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+

@@ -1,0 +1,445 @@
+# orig: parcor, corpus/news/DE/19
+
+# id	word	coref_id	coref_coref_class	coref_mention	coref_type	coref_type_of_pronoun	coref_audience	coref_split	coref_antetype	coref_agreement	coref_position	coref_nptype	coref_anacata	coref_npmod	coref_sub_apposition	coref_comparative	coref_vptype	coref_clausetype
+
+# text: Polizei : 3 Opfer in Serienmörderfall beim Musikhören im Auto erschossen
+1	Polizei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	:	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	3	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Opfer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Serienmörderfall	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	beim	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Musikhören	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Auto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	erschossen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Laut Polizeiberichten , die am Donnerstag veröffentlicht wurden , wurden zwei Frauen und ein 12-Jahre altes Mädchen erschossen , die in einem der tödlichsten Angriffe seit einem Jahrzehnt im ersten Serienmörderfall von Phoenix umgekommen sind , während sie sich im Auto unterhielten und Musik hörten .
+1	Laut	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Polizeiberichten	markable_1	set_0	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	die	markable_2	set_0	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+5	am	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Donnerstag	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	veröffentlicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	wurden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	wurden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	zwei	markable_3	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	Frauen	markable_3	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	und	markable_3	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	ein	markable_3	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+15	12-Jahre	markable_3	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+16	altes	markable_3	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+17	Mädchen	markable_3	set_1	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+18	erschossen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	die	markable_4	set_1	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+21	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	einem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	tödlichsten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	Angriffe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	seit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	einem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	Jahrzehnt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	ersten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	Serienmörderfall	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	Phoenix	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	umgekommen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	während	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	sie	markable_5	set_1	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+39	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	Auto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+42	unterhielten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+43	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+44	Musik	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+45	hörten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+46	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Angela Rochelle Liner , Stefanie R. Ellis and Ellis Tochter Maleah wurden am 12 . Juni erschossen , während das Auto in einer Einfahrt geparkt war , sagten die Behörden .
+1	Angela	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Rochelle	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Liner	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Stefanie	markable_27	set_12	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	R.	markable_27	set_12	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	Ellis	markable_27	set_12	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	and	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Ellis	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Tochter	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	Maleah	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	wurden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	am	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	12	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Juni	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	erschossen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	während	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Auto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	einer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Einfahrt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	geparkt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	sagten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	Behörden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Der Täter feuerte acht Schüsse aus einer Handfeuerwaffe , während er auf der Beifahrerseite des Autos stand und floh anschließend mit einem anderen Fahrzeug , ist im Bericht zu lesen .
+1	Der	markable_6	set_2	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	Täter	markable_6	set_2	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	feuerte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	acht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Schüsse	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	aus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	einer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Handfeuerwaffe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	während	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	er	markable_7	set_2	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+12	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Beifahrerseite	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	des	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Autos	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	stand	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	floh	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	anschließend	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	einem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	anderen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Fahrzeug	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	Bericht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	lesen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die Polizei teilte mit , dass der dreifache Mord nicht das Ergebnis eines Raubüberfalles gewesen zu sein scheint , da der Angreifer nicht die Handtaschen oder die $ 2.900 mitnahm , die sich im Besitz einer der erwachsenen Opfer befanden .
+1	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Polizei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	teilte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	dreifache	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Mord	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Ergebnis	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	eines	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Raubüberfalles	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	gewesen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	sein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	scheint	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	da	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	Angreifer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	die	markable_25	set_11	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+25	Handtaschen	markable_25	set_11	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+26	oder	markable_26	set_11	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+27	die	markable_26	set_11	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+28	$	markable_26	set_11	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+29	2.900	markable_26	set_11	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	possessive	_	_	_	_
+30	mitnahm	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	die	markable_9	set_11	pronoun	anaphoric	relative	_	split reference	_	plural	subject	_	_	_	_	_	_	_
+33	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	im	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	Besitz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	einer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+38	erwachsenen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+39	Opfer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+40	befanden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+41	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Der Polizeisprecher von Phoenix Sgt . Jonathan Howard sagte , dass die Schießerei die Ermittler dazu verleitete , einen näheren Blick darauf zu werden , ob sie mit vier vorherigen Angriffen verbunden ist .
+1	Der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Polizeisprecher	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	Phoenix	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Sgt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Jonathan	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	Howard	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	sagte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	die	markable_10	set_4	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	Schießerei	markable_10	set_4	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+14	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Ermittler	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	dazu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	verleitete	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	einen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	näheren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	Blick	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	darauf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	werden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	ob	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	sie	markable_11	set_4	pronoun	anaphoric	personal	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+28	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	vier	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	vorherigen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	Angriffen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	verbunden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	ist	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Insgesamt wurden vorwiegend in hispanischen Wohngegenden innerhalb von vier Monaten in neun Angriffen sieben Personen getötet und zwei weitere verletzt .
+1	Insgesamt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	wurden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	vorwiegend	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	hispanischen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Wohngegenden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	innerhalb	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	vier	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Monaten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	neun	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Angriffen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	sieben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Personen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	getötet	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	zwei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	weitere	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	verletzt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: " Es geschieht in einer Wohngegend vor einem Haus , " teilte Howard der KHPO , einer Tochtergesellschaft von CBS , Anfang des Monats mit .
+1	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	geschieht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	einer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	Wohngegend	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	vor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	einem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Haus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	"	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	teilte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	Howard	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	KHPO	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	einer	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Tochtergesellschaft	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	CBS	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	Anfang	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	des	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	Monats	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Es wird angenommen , dass der Verdächtige mehrere Fahrzeuge benutzt hat , einschließlich eines braunen Nissans aus den späten 1990ern , einem schwarzen BMW aus den späten 1990ern und einem weißen Cadillac oder Lincoln .
+1	Es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	wird	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	angenommen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Verdächtige	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	mehrere	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	Fahrzeuge	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	benutzt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	hat	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	einschließlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	eines	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	braunen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	Nissans	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	aus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	späten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	1990ern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	einem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	schwarzen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	BMW	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	aus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	den	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	späten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	1990ern	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	einem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	weißen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	Cadillac	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	oder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	Lincoln	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die Ermittler weigerten sich , die Beweise offenzulegen , die sie zu der Schlußfolgerung geführt haben , dass die Angriffe verknüpft sind und von dem selben Mörder begangen wurden .
+1	Die	markable_14	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	Ermittler	markable_14	set_5	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	weigerten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	sich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	die	markable_15	set_6	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	Beweise	markable_15	set_6	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	offenzulegen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	die	markable_12	set_6	pronoun	anaphoric	relative	_	simple antecedent	entity	plural	non-subject	_	_	_	_	_	_	_
+11	sie	markable_13	set_5	pronoun	anaphoric	personal	_	simple antecedent	entity	plural	subject	_	_	_	_	_	_	_
+12	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Schlußfolgerung	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	geführt	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	haben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	Angriffe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	verknüpft	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	sind	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	dem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	selben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+27	Mörder	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	begangen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	wurden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ellis , 33 , wurde aufgrund ihrer Verletzungen hospitalisiert und verstarb später .
+1	Ellis	markable_18|markable_16	set_8|set_12	np|np	_	_	_	simple antecedent	entity	_	_	antecedent|np	anaphoric	none	_	_	_	_
+2	,	markable_18	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	33	markable_18	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	,	markable_18	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	wurde	markable_18	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	aufgrund	markable_18	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	ihrer	markable_18|markable_17	set_8|set_12	np|pronoun	anaphoric	possessive	_	simple antecedent	entity	singular	non-subject	antecedent	_	_	_	_	_	_
+8	Verletzungen	markable_18	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	hospitalisiert	markable_18	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+10	und	markable_18	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+11	verstarb	markable_18	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+12	später	markable_18	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+13	.	markable_18	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+
+# text: Liner , 31 , und Ellis Tochter Maleah verstarben noch vor Ort .
+1	Liner	markable_18	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+2	,	markable_18	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+3	31	markable_18	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+4	,	markable_18	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+5	und	markable_18	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	Ellis	markable_18	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	Tochter	markable_18	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+8	Maleah	markable_18	set_8	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+9	verstarben	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	noch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	vor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Ort	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ein Zeuge teilte der Polizei mit , dass es für sie nicht ungewöhnlich war , in einem geparkten Auto zu sitzen und Musik zu hören .
+1	Ein	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Zeuge	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	teilte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	der	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	Polizei	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	mit	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	für	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	sie	markable_19	set_8	pronoun	anaphoric	personal	_	split reference	_	plural	non-subject	_	_	_	_	_	_	_
+12	nicht	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	ungewöhnlich	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	in	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	einem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	geparkten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Auto	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	sitzen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	Musik	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	zu	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	hören	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Die Behörden veröffentlichten auch einen Polizeibericht über die Schießerei , die auf einen leeren Pickup-Truck eine halbe Stunde vor dem dreifachen Mord abzielte und von dem ausgegangen wird , dass es das Werk des Serienmörders war .
+1	Die	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	Behörden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	veröffentlichten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	auch	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	einen	markable_24	set_10	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+6	Polizeibericht	markable_24	set_10	np	_	_	_	_	_	_	_	antecedent	_	_	_	_	_	_
+7	über	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	die	markable_20	set_4	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+9	Schießerei	markable_20	set_4	np	_	_	_	simple antecedent	entity	_	_	np	anaphoric	def-article	_	_	_	_
+10	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	die	markable_21	set_4	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	subject	_	_	_	_	_	_	_
+12	auf	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	einen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	leeren	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Pickup-Truck	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	halbe	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+18	Stunde	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	vor	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+20	dem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+21	dreifachen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+22	Mord	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+23	abzielte	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+24	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+25	von	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+26	dem	markable_22	set_10	pronoun	anaphoric	relative	_	simple antecedent	entity	singular	non-subject	_	_	_	_	_	_	_
+27	ausgegangen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+28	wird	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+29	,	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+30	dass	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+31	es	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+32	das	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+33	Werk	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+34	des	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+35	Serienmörders	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+36	war	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+37	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+# text: Ermittler fanden Patronenhülsen und sicherten eine Kugel aus dem Sitz sowie Kugelfragmente aus dem Motorraum .
+1	Ermittler	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	fanden	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+3	Patronenhülsen	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	und	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+5	sicherten	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	eine	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+7	Kugel	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	aus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	dem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+10	Sitz	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	sowie	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Kugelfragmente	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+13	aus	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	dem	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+15	Motorraum	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	.	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
