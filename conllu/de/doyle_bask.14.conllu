@@ -1,4 +1,4 @@
-# newdoc id = txt/de/doyle_bask.14.txt
+# newdoc
 # newpar
 # sent_id = 1
 # text = Es war immer einer von Sherlock Holmes' Charakterfehlern – wenn man es denn einen Fehler nennen darf –, dass er eine hohe Abneigung dagegen hatte, seine Pläne anderen Personen vollständig zu offenbaren, bevor der Augenblick ihrer Umsetzung gekommen war.
@@ -237,8 +237,9 @@
 13	spannenden	spannend	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	14	amod	_	_
 14	Abenteuer	Abenteuer	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	10	iobj	_	_
 15	näher	nah	ADJ	PTKVZ	_	10	advmod	_	SpaceAfter=No
-16	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\n
+16	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\n\n
 
+# newpar
 # sent_id = 8
 # text = Unsere Unterhaltung wurde durch die Anwesenheit des Fahrers der Mietdroschke beeinträchtigt, so dass wir gezwungen waren, über nebensächliche Dinge zu sprechen, während unsere Nerven vor Erwartung gespannt waren.
 1	Unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	2	det:poss	_	_
@@ -358,8 +359,9 @@
 19	Merripit	Merripit	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	_
 20	House	House	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	19	flat	_	_
 21	aufmachten	aufmachen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	SpaceAfter=No
-22	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\n
+22	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\n\n
 
+# newpar
 # sent_id = 12
 # text = »Sind Sie bewaffnet, Lestrade?«
 1	»	»	PUNCT	$(	_	4	punct	_	SpaceAfter=No
@@ -369,16 +371,18 @@
 5	,	,	PUNCT	$,	_	6	punct	_	_
 6	Lestrade	Lestrade	PROPN	NE	Foreign=Yes	4	conj	_	SpaceAfter=No
 7	?	?	PUNCT	$.	_	4	punct	_	SpaceAfter=No
-8	«	«	PUNCT	$(	_	4	punct	_	SpacesAfter=\s\n
+8	«	«	PUNCT	$(	_	4	punct	_	SpacesAfter=\s\n\n
 
+# newpar
 # sent_id = 13
 # text = Der kleine Polizist lächelte.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	kleine	klein	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
 3	Polizist	Polizist	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	lächelte	lächeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\n
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\n\n
 
+# newpar
 # sent_id = 14
 # text = »Solange ich meine Hosen anhabe, habe ich eine Hüfttasche, und solange ich meine Hüfttasche habe, befindet sich auch etwas darin.«
 1	»	»	PUNCT	$(	_	6	punct	_	SpaceAfter=No
@@ -406,8 +410,9 @@
 23	etwas	etwas	ADV	ADV	_	24	advmod	_	_
 24	darin	darin	ADV	PAV	_	21	advmod	_	SpaceAfter=No
 25	.	.	PUNCT	$.	_	26	punct	_	SpaceAfter=No
-26	«	«	PUNCT	$(	_	0	root	_	SpacesAfter=\s\n
+26	«	«	PUNCT	$(	_	0	root	_	SpacesAfter=\s\n\n
 
+# newpar
 # sent_id = 15
 # text = »Gut!
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
@@ -426,8 +431,9 @@
 8	Notfälle	Notfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	obl	_	_
 9	vorbereitet	vorbereiten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	9	punct	_	SpaceAfter=No
-11	«	«	PUNCT	$(	_	9	punct	_	SpacesAfter=\s\n
+11	«	«	PUNCT	$(	_	9	punct	_	SpacesAfter=\s\n\n
 
+# newpar
 # sent_id = 17
 # text = »Sie sind in dieser Angelegenheit ja reichlich verschlossen, Mr. Holmes.
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
@@ -454,16 +460,18 @@
 6	denn	denn	ADV	ADV	_	7	advmod	_	_
 7	gespielt	spielen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 8	?	?	PUNCT	$.	_	7	punct	_	SpaceAfter=No
-9	«	«	PUNCT	$(	_	7	punct	_	SpacesAfter=\s\n
+9	«	«	PUNCT	$(	_	7	punct	_	SpacesAfter=\s\n\n
 
+# newpar
 # sent_id = 19
 # text = »Ein Geduldsspiel.«
 1	»	»	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 2	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 3	Geduldsspiel	Geduldsspiel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	$.	_	3	punct	_	SpaceAfter=No
-5	«	«	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\n
+5	«	«	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\n\n
 
+# newpar
 # sent_id = 20
 # text = »Meine Güte, das scheint wirklich kein sonderlich fröhlicher Ort zu sein«, sagte Lestrade schaudernd, während er über die düsteren Hänge des Hügels und die große Dunstwolke blickte, die über dem Grimpener Moor lag.
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
@@ -518,8 +526,9 @@
 7	vor	vor	ADP	NE	Case=Gen|Gender=Fem|Number=Sing	8	case	_	_
 8	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	3	punct	_	SpaceAfter=No
-10	«	«	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\n
+10	«	«	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\n\n
 
+# newpar
 # sent_id = 22
 # text = »Das ist Merripit House und das Ziel unserer Reise.
 1	»	»	PUNCT	$(	_	5	punct	_	SpaceAfter=No
@@ -552,8 +561,9 @@
 14	zu	zu	PART	NN	Case=Nom|Number=Plur	15	mark	_	_
 15	flüstern	flüstern	VERB	VVINF	VerbForm=Inf	10	conj	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	5	punct	_	SpaceAfter=No
-17	«	«	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\n
+17	«	«	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\n\n
 
+# newpar
 # sent_id = 24
 # text = Vorsichtig gingen wir den Weg entlang, als wollten wir auf das Haus zugehen, doch Holmes stoppte uns, als wir nur noch etwa 200 Meter entfernt waren.
 1	Vorsichtig	vorsichtig	ADJ	ADJD	_	2	advmod	_	_
@@ -585,8 +595,9 @@
 27	Meter	Meter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	28	nmod	_	_
 28	entfernt	entfernt	ADJ	ADJD	_	18	advcl	_	_
 29	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	28	cop	_	SpaceAfter=No
-30	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+30	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n\n
 
+# newpar
 # sent_id = 25
 # text = »Das dürfte reichen«, sagte er.
 1	»	»	PUNCT	$(	_	4	punct	_	SpaceAfter=No
@@ -612,8 +623,9 @@
 9	Schutz	Schutz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
 10	bieten	bieten	VERB	VVFIN	VerbForm=Inf	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	10	punct	_	SpaceAfter=No
-12	«	«	PUNCT	$(	_	10	punct	_	SpacesAfter=\s\n
+12	«	«	PUNCT	$(	_	10	punct	_	SpacesAfter=\s\n\n
 
+# newpar
 # sent_id = 27
 # text = »Wir sollen hier warten?«
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
@@ -622,8 +634,9 @@
 4	hier	hier	ADV	ADV	_	5	advmod	_	_
 5	warten	warten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 6	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No
-7	«	«	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\n
+7	«	«	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\n\n
 
+# newpar
 # sent_id = 28
 # text = »Ja, das wird unser kleiner Hinterhalt.
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
@@ -686,8 +699,9 @@
 7	diesem	dies	PRON	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	8	det	_	_
 8	Ende	Ende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
 9	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No
-10	«	«	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\n
+10	«	«	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\n\n
 
+# newpar
 # sent_id = 33
 # text = »Ich glaube, das sind die Küchenfenster.«
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
@@ -699,27 +713,33 @@
 7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
 8	Küchenfenster	Küchenfenster	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	parataxis	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	3	punct	_	SpaceAfter=No
-10	«	«	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\n
+10	«	«	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\n\n
 
+# newpar
 # sent_id = 34
-# text = »Und das hell erleuchtete dort drüben »Das ist bestimmt das Esszimmer.«
+# text = »Und das hell erleuchtete dort drüben
 1	»	»	PUNCT	$(	_	5	punct	_	SpaceAfter=No
 2	Und	und	CCONJ	NN	Case=Nom|Gender=Masc|Number=Sing	5	cc	_	_
 3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
-4	hell	hell	NOUN	ADJD	_	5	nsubj	_	_
-5	erleuchtete	erleuchten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	csubj	_	_
+4	hell	hell	NOUN	ADJD	_	5	obj	_	_
+5	erleuchtete	erleuchten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 6	dort	dort	ADV	ADV	_	5	advmod	_	_
-7	drüben	drüben	ADV	ADV	_	5	advmod	_	SpacesAfter=\s\n
-8	»	»	PUNCT	$(	_	5	punct	_	SpaceAfter=No
-9	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nmod	_	_
-10	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
-11	bestimmt	bestimmt	ADJ	ADV	_	0	root	_	_
-12	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
-13	Esszimmer	Eßzimmer	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	nsubj	_	SpaceAfter=No
-14	.	.	PUNCT	$.	_	11	punct	_	SpaceAfter=No
-15	«	«	PUNCT	$(	_	11	punct	_	SpacesAfter=\s\n
+7	drüben	drüben	ADV	ADV	_	5	advmod	_	SpacesAfter=\s\n\n
 
+# newpar
 # sent_id = 35
+# text = »Das ist bestimmt das Esszimmer.«
+1	»	»	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+2	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nmod	_	_
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	bestimmt	bestimmen	ADJ	ADV	_	0	root	_	_
+5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Esszimmer	Eßzimmer	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+8	«	«	PUNCT	$(	_	4	punct	_	SpacesAfter=\s\n\n
+
+# newpar
+# sent_id = 36
 # text = »Die Vorhänge sind zurückgezogen.
 1	»	»	PUNCT	$(	_	5	punct	_	SpaceAfter=No
 2	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -728,7 +748,7 @@
 5	zurückgezogen	zurückziehen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 36
+# sent_id = 37
 # text = Du kennst dich hier am besten aus.
 1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
 2	kennst	kennsen	VERB	ADV	_	0	root	_	_
@@ -741,7 +761,7 @@
 8	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 37
+# sent_id = 38
 # text = Schleich dich lautlos nach vorne und sieh nach, was drinnen geschieht, aber sie dürfen um Himmels Willen nicht merken, dass sie beobachtet werden!«
 1	Schleich	Schleich	SCONJ	ADJD	_	3	mark	_	_
 2	dich	du	PRON	ADJD	_	3	nsubj	_	_
@@ -770,9 +790,10 @@
 25	beobachtet	beobachten	VERB	VVPP	VerbForm=Part	21	ccomp	_	_
 26	werden	werden	AUX	NE	Case=Acc|Number=Plur	25	aux:pass	_	SpaceAfter=No
 27	!	!	PUNCT	$.	_	21	punct	_	SpaceAfter=No
-28	«	«	PUNCT	$(	_	21	punct	_	SpacesAfter=\s\n
+28	«	«	PUNCT	$(	_	21	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 38
+# newpar
+# sent_id = 39
 # text = Auf Zehenspitzen schlich ich den Pfad entlang und duckte mich hinter der niedrigen Mauer, die den vernachlässigten Obstgarten umgab.
 1	Auf	auf	ADP	APPR	_	2	case	_	_
 2	Zehenspitzen	Zehenspitzen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	nmod	_	_
@@ -796,7 +817,7 @@
 20	umgab	umgeben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	acl	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 39
+# sent_id = 40
 # text = Solchermaßen in Deckung befindlich kroch ich zu einer Stelle, von welcher aus ich direkt in das vorhanglose Fenster hineinsehen konnte.
 1	Solchermaßen	Solchermaßen	ADV	NN	Case=Nom|Gender=Fem|Number=Plur	4	advmod	_	_
 2	in	in	ADP	APPR	_	3	case	_	_
@@ -819,9 +840,10 @@
 19	Fenster	Fenster	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	20	obl	_	_
 20	hineinsehen	hineinsehen	VERB	VVINF	VerbForm=Inf	5	acl	_	_
 21	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	SpaceAfter=No
-22	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\n
+22	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 40
+# newpar
+# sent_id = 41
 # text = Es befanden sich nur zwei Männer im Zimmer, Sir Henry und Stapleton.
 1	Es	es	PRON	PPER	PronType=Prs	2	expl	_	_
 2	befanden	befinden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -840,7 +862,7 @@
 14	Stapleton	Stapleton	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 41
+# sent_id = 42
 # text = Sie saßen jeder an einer Seite des runden Tisches, das Profil mir zugewandt.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	saßen	sitzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -858,7 +880,7 @@
 14	zugewandt	zuwenden	VERB	VVPP	VerbForm=Part	2	parataxis	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 42
+# sent_id = 43
 # text = Beide rauchten Zigarren und hatten Kaffee und Wein vor sich stehen.
 1	Beide	beide	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	2	nsubj	_	_
 2	rauchten	rauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -873,7 +895,7 @@
 11	stehen	stehen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 43
+# sent_id = 44
 # text = Stapleton redete sehr lebhaft, aber der Baronet sah bleich und zerstreut aus.
 1	Stapleton	Stapleton	PROPN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
 2	redete	redete	VERB	ADJA	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
@@ -890,7 +912,7 @@
 13	aus	aus	ADP	PTKVZ	_	9	compound:prt	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 44
+# sent_id = 45
 # text = Möglicherweise lastete der Gedanke an den einsamen Spaziergang durch das Moor mit seinem schlechten Ruf schwer auf seiner Seele.
 1	Möglicherweise	möglicherweise	ADV	ADV	_	2	advmod	_	_
 2	lastete	lasten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -911,9 +933,10 @@
 17	auf	auf	ADP	APPR	_	19	case	_	_
 18	seiner	sein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	19	det:poss	_	_
 19	Seele	Seele	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
-20	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+20	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 45
+# newpar
+# sent_id = 46
 # text = Während ich sie so beobachtete, stand Stapleton auf und verließ das Zimmer;
 1	Während	während	SCONJ	KOUS	_	5	mark	_	_
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
@@ -930,7 +953,7 @@
 13	Zimmer	Zimmer	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No
 14	;	;	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 46
+# sent_id = 47
 # text = Sir Henry schenkte sich Wein nach und lehnte sich in seinen Stuhl zurück, wobei er an seiner Zigarre zog.
 1	Sir	Sir	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	Henry	Henry	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
@@ -954,7 +977,7 @@
 20	zog	ziehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 47
+# sent_id = 48
 # text = Ich hörte eine Tür knarren und das knirschende Geräusch von Schuhen auf Kies.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	hörte	hören	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -971,7 +994,7 @@
 13	Kies	Kies	NOUN	NE	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 48
+# sent_id = 49
 # text = Die Schritte gingen den Pfad auf der anderen Seite der Mauer, hinter der ich kauerte, entlang.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	Schritte	Schritt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
@@ -993,7 +1016,7 @@
 18	entlang	entlingen	VERB	PTKVZ	_	3	acl	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 49
+# sent_id = 50
 # text = Ich schaute über die Mauer und sah den Naturforscher an der Tür eines Häuschens in einer Ecke des Gartens stehen.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	schaute	schauen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -1017,7 +1040,7 @@
 20	stehen	stehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	xcomp	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 50
+# sent_id = 51
 # text = Ein Schlüssel drehte sich im Schloss, und nachdem er hineingegangen war, ertönte von drinnen ein seltsames Geräusch wie von einer Rauferei.
 1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Schlüssel	Schlüssel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
@@ -1046,7 +1069,7 @@
 24	Rauferei	Rauferei	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
 25	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 51
+# sent_id = 52
 # text = Er hielt sich höchstens ein oder zwei Minuten dort auf, dann hörte ich den Schlüssel sich erneut im Schloss drehen.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	hielt	halten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -1073,7 +1096,7 @@
 22	drehen	drehen	VERB	VVPP	VerbForm=Part	13	xcomp	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 52
+# sent_id = 53
 # text = Wieder lief Stapleton an mir vorbei, kehrte in das Haus zurück und setzte sich zu seinem Gast.
 1	Wieder	wieder	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	2	advmod	_	_
 2	lief	laufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -1095,7 +1118,7 @@
 18	Gast	Gast	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 53
+# sent_id = 54
 # text = Ich kroch leise dorthin zurück, wo meine Gefährten darauf warteten, was ich zu erzählen hatte.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	kroch	kroch	ADV	ADV	_	3	advmod	_	_
@@ -1114,9 +1137,10 @@
 15	zu	zu	PART	NN	Case=Nom|Number=Plur	16	mark	_	_
 16	erzählen	erzählen	VERB	VVINF	VerbForm=Inf	17	xcomp	_	_
 17	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	SpaceAfter=No
-18	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\s\n
+18	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 54
+# newpar
+# sent_id = 55
 # text = »Du hast gesagt, dass Mrs. Stapleton nicht dort war?« fragte Holmes, als ich meinen Bericht beendet hatte.
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
@@ -1141,18 +1165,20 @@
 21	Bericht	Bericht	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_
 22	beendet	beandt	VERB	VVPP	VerbForm=Part	15	advcl	_	_
 23	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	SpaceAfter=No
-24	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\s\n
+24	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 55
+# newpar
+# sent_id = 56
 # text = »So ist es.«
 1	»	»	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 2	So	so	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	1	advmod	_	_
 3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	3	punct	_	SpaceAfter=No
-6	«	«	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\n
+6	«	«	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 56
+# newpar
+# sent_id = 57
 # text = »Wo kann sie dann sein, da doch nirgends sonst Licht brennt außer in der Küche?
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Wo	wo	ADV	PWAV	PronType=Int	5	advmod	_	_
@@ -1173,23 +1199,28 @@
 17	Küche	Küche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
 18	?	?	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 57
-# text = « »Ich habe keine Ahnung, wo sie sein könnte.«
-1	«	«	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\n
-2	»	»	PUNCT	$(	_	3	punct	_	SpaceAfter=No
-3	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-4	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	6	nmod	_	_
-6	Ahnung	Ahnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
-7	,	,	PUNCT	$,	_	10	punct	_	_
-8	wo	wo	ADV	NE	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	10	mark	_	_
-9	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
-10	sein	sein	AUX	VAINF	VerbForm=Inf	4	acl	_	_
-11	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	SpaceAfter=No
-12	.	.	PUNCT	$.	_	4	punct	_	SpaceAfter=No
-13	«	«	PUNCT	$(	_	4	punct	_	SpacesAfter=\s\n
-
 # sent_id = 58
+# text = «
+1	«	«	PUNCT	$(	_	0	root	_	SpacesAfter=\s\n\n
+
+# newpar
+# sent_id = 59
+# text = »Ich habe keine Ahnung, wo sie sein könnte.«
+1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+2	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	5	nmod	_	_
+5	Ahnung	Ahnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	9	punct	_	_
+7	wo	wo	ADV	NE	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	9	mark	_	_
+8	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+9	sein	sein	AUX	VAINF	VerbForm=Inf	3	advcl	_	_
+10	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	SpaceAfter=No
+12	«	«	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\n\n
+
+# newpar
+# sent_id = 60
 # text = Wie schon erwähnt hing über dem großen Grimpener Moor ein dichter, weißer Nebel.
 1	Wie	wie	ADV	ADJA	_	3	advmod	_	_
 2	schon	schon	ADV	ADV	_	3	advmod	_	_
@@ -1207,7 +1238,7 @@
 14	Nebel	Nebel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 59
+# sent_id = 61
 # text = Langsam trieb er auf uns zu und baute sich wie eine zwar niedrige, aber dicke und undurchdringliche Wand vor uns auf.
 1	Langsam	langsam	ADJ	ADJD	_	2	advmod	_	_
 2	trieb	treiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -1233,7 +1264,7 @@
 22	auf	auf	ADP	PTKVZ	_	8	compound:prt	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 60
+# sent_id = 62
 # text = Der Mond schien auf sie herab und ließ sie wie eine große, glänzende Eisfläche aussehen, aus welcher die Spitzen der Felstürme in der Ferne wie Klippen herausragten.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Mond	Mond	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
@@ -1266,7 +1297,7 @@
 29	herausragten	herausragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl	_	SpaceAfter=No
 30	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 61
+# sent_id = 63
 # text = Holmes drehte sich nach ihr um und murmelte ungeduldig etwas vor sich hin, ihre langsame Bewegung ständig beobachtend.
 1	Holmes	Holmes	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	drehte	drehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -1287,9 +1318,10 @@
 17	Bewegung	Bewegung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
 18	ständig	ständig	ADJ	ADJD	_	19	advmod	_	_
 19	beobachtend	beobachtend	ADJ	ADJD	_	2	conj	_	SpaceAfter=No
-20	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+20	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 62
+# newpar
+# sent_id = 64
 # text = »Sie kommt auf uns zu, Watson.«
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
@@ -1300,18 +1332,20 @@
 7	,	,	PUNCT	$,	_	8	punct	_	_
 8	Watson	Watson	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	3	punct	_	SpaceAfter=No
-10	«	«	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\n
+10	«	«	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 63
+# newpar
+# sent_id = 65
 # text = »Ist das schlimm?«
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 4	schlimm	schlimm	ADJ	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	$.	_	4	punct	_	SpaceAfter=No
-6	«	«	PUNCT	$(	_	4	punct	_	SpacesAfter=\s\n
+6	«	«	PUNCT	$(	_	4	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 64
+# newpar
+# sent_id = 66
 # text = »Sogar sehr schlimm – so ziemlich das einzige, das meine Pläne durcheinander bringen kann.
 1	»	»	PUNCT	$(	_	4	punct	_	SpaceAfter=No
 2	Sogar	sogar	ADV	ADV	_	4	advmod	_	_
@@ -1331,7 +1365,7 @@
 16	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 65
+# sent_id = 67
 # text = Sir Henry kann jetzt nicht mehr lange bleiben, es ist schon zehn Uhr.
 1	Sir	Sir	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 2	Henry	Henry	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
@@ -1349,7 +1383,7 @@
 14	Uhr	Uhr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	parataxis	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 66
+# sent_id = 68
 # text = Unser Erfolg und sogar sein Leben könnten davon abhängen, ob er herauskommt, bevor sich diese Nebelwand über den Weg geschoben hat.«
 1	Unser	unser	PRON	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	2	det:poss	_	_
 2	Erfolg	Erfolg	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
@@ -1375,9 +1409,10 @@
 22	geschoben	schieben	VERB	VVPP	VerbForm=Part	13	advcl	_	_
 23	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	9	punct	_	SpaceAfter=No
-25	«	«	PUNCT	$(	_	9	punct	_	SpacesAfter=\s\n
+25	«	«	PUNCT	$(	_	9	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 67
+# newpar
+# sent_id = 69
 # text = Über uns war die Nacht klar und schön.
 1	Über	über	ADP	APPR	_	2	case	_	_
 2	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
@@ -1389,7 +1424,7 @@
 8	schön	schön	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 68
+# sent_id = 70
 # text = Kalt und hell strahlten die Sterne, während der Halbmond die ganze Landschaft in ein sanftes, unstetes Licht tauchte.
 1	Kalt	kalt	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	3	cc	_	_
@@ -1413,7 +1448,7 @@
 20	tauchte	tauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 69
+# sent_id = 71
 # text = Vor uns lag die dunkle Masse des Hauses, dessen gezacktes Dach und hohen Kamine sich scharf gegen den silbrig schimmernden Himmel abhoben.
 1	Vor	vor	ADP	NE	Case=Nom|Gender=Masc|Number=Sing	2	case	_	_
 2	uns	wir	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	_
@@ -1440,7 +1475,7 @@
 23	abhoben	abhieben	VERB	NN	Case=Nom|Gender=Fem|Number=Plur	17	xcomp	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 70
+# sent_id = 72
 # text = Aus den unteren Fenstern ergossen sich breite Streifen goldenen Lichts über den Garten und das Moor.
 1	Aus	aus	ADP	APPR	_	4	case	_	_
 2	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -1460,7 +1495,7 @@
 16	Moor	Moor	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	conj	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 71
+# sent_id = 73
 # text = Plötzlich erlosch einer von ihnen.
 1	Plötzlich	plötzlich	ADJ	ADJD	_	3	advmod	_	_
 2	erlosch	erlosch	ADP	NE	Case=Nom|Number=Sing	3	case	_	_
@@ -1469,7 +1504,7 @@
 5	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	3	nmod	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 72
+# sent_id = 74
 # text = Die Dienstboten hatten die Küche verlassen.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	Dienstboten	Dienstbot	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -1479,7 +1514,7 @@
 6	verlassen	verlassen	VERB	NN	Case=Gen|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 73
+# sent_id = 75
 # text = Nun blieb nur noch die Lampe aus dem Esszimmer übrig, wo die beiden Männer, der mörderische Gastgeber und sein ahnungsloser Gast, immer noch bei ihren Zigarren plauschten.
 1	Nun	nun	ADV	ADV	_	2	advmod	_	_
 2	blieb	bleiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -1511,9 +1546,10 @@
 28	ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Poss=Yes	29	det:poss	_	_
 29	Zigarren	Zigarr	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	19	nmod	_	_
 30	plauschten	plauschen	VERB	VVINF	VerbForm=Inf	10	acl	_	SpaceAfter=No
-31	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+31	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 74
+# newpar
+# sent_id = 76
 # text = Jede Minute schob sich diese weiße, wattige Fläche, die schon eine Hälfte des Moors bedeckte, näher und näher an das Haus heran.
 1	Jede	jed	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
 2	Minute	Minute	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -1542,7 +1578,7 @@
 25	heran	heran	ADV	PTKVZ	_	24	advmod	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 75
+# sent_id = 77
 # text = Die ersten dünnen Strähnen wehten bereits durch das goldene Rechteck des beleuchteten Fensters, man konnte kaum noch die jenseitige Mauer des Gartens erkennen, vor der die Bäume aus einem Wirbel weißen Dunstes herausragten.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 2	ersten	erst	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	4	amod	_	_
@@ -1581,7 +1617,7 @@
 35	herausragten	herausragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	24	acl	_	SpaceAfter=No
 36	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 76
+# sent_id = 78
 # text = Während wir hinsahen, krochen schon Nebelschwaden um beide Ecken des Hauses und fügten sich langsam zu einer dichten Bank zusammen, auf welcher der obere Stock und das Dach wie ein seltsames Schiff auf nächtlicher See zu schweben schienen.
 1	Während	während	SCONJ	KOUS	_	3	mark	_	_
 2	wir	wir	PRON	ADJD	_	3	nsubj	_	_
@@ -1625,7 +1661,7 @@
 40	schienen	schienen	VERB	ADJA	Case=Gen|Gender=Fem|Number=Sing	14	acl	_	SpaceAfter=No
 41	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 77
+# sent_id = 79
 # text = Holmes schlug leidenschaftlich mit der Hand auf den Felsen vor uns und stampfte ungeduldig mit dem Fuß auf.
 1	Holmes	Holmes	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	schlug	schlagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -1645,9 +1681,10 @@
 16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	Fuß	Fuß	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	_
 18	auf	auf	ADP	PTKVZ	_	13	compound:prt	_	SpaceAfter=No
-19	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+19	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 78
+# newpar
+# sent_id = 80
 # text = »Wenn er nicht in einer Viertelstunde draußen ist, wird der Pfad vom Nebel bedeckt sein.
 1	»	»	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 2	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	_
@@ -1670,7 +1707,7 @@
 18	sein	sein	AUX	VAINF	VerbForm=Inf	17	cop	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	17	punct	_	_
 
-# sent_id = 79
+# sent_id = 81
 # text = In einer halben Stunde werden wir unsere Hand nicht mehr vor Augen sehen können.«
 1	In	in	ADP	APPR	_	4	case	_	_
 2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -1687,9 +1724,10 @@
 13	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	_
 14	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	13	punct	_	SpaceAfter=No
-16	«	«	PUNCT	$(	_	13	punct	_	SpacesAfter=\s\n
+16	«	«	PUNCT	$(	_	13	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 80
+# newpar
+# sent_id = 82
 # text = »Sollen wir uns etwas zurückziehen auf höher liegendes Land?«
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -1702,9 +1740,10 @@
 9	liegendes	liegend	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	10	amod	_	_
 10	Land	Land	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
 11	?	?	PUNCT	$.	_	6	punct	_	SpaceAfter=No
-12	«	«	PUNCT	$(	_	6	punct	_	SpacesAfter=\s\n
+12	«	«	PUNCT	$(	_	6	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 81
+# newpar
+# sent_id = 83
 # text = »Ja, das wird meiner Ansicht nach ebenso gut sein.«
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Ja	Ja	PROPN	PTKANT	_	4	dep	_	SpaceAfter=No
@@ -1718,9 +1757,10 @@
 10	gut	gut	ADJ	ADJD	_	5	xcomp	_	_
 11	sein	sein	AUX	VAINF	VerbForm=Inf	10	cop	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	10	punct	_	SpaceAfter=No
-13	«	«	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\n
+13	«	«	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 82
+# newpar
+# sent_id = 84
 # text = Im selben Maße, wie die Nebelbank vorankroch, wichen wir vor ihr zurück, bis wir ein paar hundert Meter vom Haus entfernt waren, doch noch immer wälzte sich dieses dichte weiße Meer, deren Oberfläche vom Mond silbern beschienen wurde, langsam und unerbittlich vor.
 1-2	Im	_	_	_	_	_	_	_	_
 1	In	in	ADP	APPR	_	4	case	_	_
@@ -1776,9 +1816,10 @@
 49	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	50	cc	_	_
 50	unerbittlich	unerbittlich	ADJ	ADJD	_	48	conj	_	_
 51	vor	vor	ADP	NE	Case=Acc|Gender=Fem|Number=Sing	35	compound:prt	_	SpaceAfter=No
-52	.	.	PUNCT	$.	_	32	punct	_	SpacesAfter=\s\n
+52	.	.	PUNCT	$.	_	32	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 83
+# newpar
+# sent_id = 85
 # text = »Wir sind zu weit weg«, sagte Holmes.
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Wir	wir	PRON	ADJD	_	3	nsubj	_	_
@@ -1792,7 +1833,7 @@
 10	Holmes	Holm	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 84
+# sent_id = 86
 # text = »Wir dürfen nicht das Risiko eingehen, dass er eingeholt wird, bevor er uns erreicht hat.
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Wir	wir	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -1814,7 +1855,7 @@
 18	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 85
+# sent_id = 87
 # text = Unter allen Umständen müssen wir ausharren, wo wir uns befinden.«
 1	Unter	unter	ADP	NE	Case=Gen|Gender=Neut|Number=Sing	3	case	_	_
 2	allen	alle	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
@@ -1830,7 +1871,7 @@
 12	.	.	PUNCT	$.	_	6	punct	_	SpaceAfter=No
 13	«	«	PUNCT	$(	_	6	punct	_	_
 
-# sent_id = 86
+# sent_id = 88
 # text = Er kniete sich hin und legte sein Ohr auf den Boden.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	kniete	knien	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -1845,7 +1886,7 @@
 11	Boden	Boden	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 87
+# sent_id = 89
 # text = »Gott sei Dank, ich höre ihn kommen.«
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Gott	Gott	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -1857,9 +1898,10 @@
 8	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 9	kommen	kommen	VERB	VVFIN	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	4	punct	_	SpaceAfter=No
-11	«	«	PUNCT	$(	_	4	punct	_	SpacesAfter=\s\n
+11	«	«	PUNCT	$(	_	4	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 88
+# newpar
+# sent_id = 90
 # text = Das Geräusch schneller Schritte durchbrach die Stille des Moores.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Geräusch	Geräusch	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
@@ -1872,7 +1914,7 @@
 9	Moores	Moor	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 89
+# sent_id = 91
 # text = Zwischen den Felsen kauernd starrten wir angestrengt auf die Nebelwand vor uns mit ihrer silbernen Oberfläche.
 1	Zwischen	zwischen	ADP	NE	Case=Nom|Gender=Masc|Number=Sing	3	case	_	_
 2	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -1892,7 +1934,7 @@
 16	Oberfläche	Oberfläche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 90
+# sent_id = 92
 # text = Die Schritte wurden lauter, und durch den Nebel, wie durch einen Vorhang, tauchte der Mann auf, den wir erwartet hatten.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	Schritte	Schritt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
@@ -1920,7 +1962,7 @@
 24	hatten	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	aux	_	SpaceAfter=No
 25	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 91
+# sent_id = 93
 # text = Überrascht schaute er sich um, als er in die klare, sternenbeschienene Nacht hinaustrat.
 1	Überrascht	überrascht	ADJ	ADJD	_	2	advmod	_	_
 2	schaute	schauen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -1939,7 +1981,7 @@
 15	hinaustrat	hinaustreten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 92
+# sent_id = 94
 # text = Dann schritt er rasch den Weg entlang, lief an unserem Versteck vorüber und stieg den langen Hang hinter uns empor, dabei drehte er sich die ganze Zeit um wie jemand, der sich nicht wohl fühlt.
 1	Dann	dann	ADV	ADV	_	2	advmod	_	_
 2	schritt	schreiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1979,9 +2021,10 @@
 36	nicht	nicht	PART	CARD	NumType=Card	38	advmod	_	_
 37	wohl	wohl	ADV	CARD	NumType=Card	38	advmod	_	_
 38	fühlt	fühlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	SpaceAfter=No
-39	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+39	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 93
+# newpar
+# sent_id = 95
 # text = »Psst!« rief Holmes, und ich hörte das scharfe Klicken einer Pistole, die entsichert wurde.
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Psst	psst	NOUN	VVFIN	VerbForm=Part	5	nsubj	_	SpaceAfter=No
@@ -2004,20 +2047,21 @@
 19	wurde	werden	AUX	KON	_	18	aux:pass	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 94
+# sent_id = 96
 # text = »Vorsicht!
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Vorsicht	Vorsicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 3	!	!	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 95
+# sent_id = 97
 # text = Er kommt!«
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	!	!	PUNCT	$.	_	2	punct	_	SpaceAfter=No
-4	«	«	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\n
+4	«	«	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 96
+# newpar
+# sent_id = 98
 # text = Von irgendwoher aus dem Innersten dieser wallenden Nebelbank kam ein dünnes, kratzendes, regelmäßiges Getrappel.
 1	Von	von	ADP	APPR	_	2	case	_	_
 2	irgendwoher	irgendwoh	ADV	PWAV	PronType=Int	9	advmod	_	_
@@ -2037,7 +2081,7 @@
 16	Getrappel	Getrappel	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 97
+# sent_id = 99
 # text = Die Wolke hing etwa fünfzig Meter vor uns, und wir starrten sie alle drei an in der unsicheren Erwartung, was für ein Schrecken wohl aus ihr hervorbrechen würde.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Wolke	Wolke	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -2071,7 +2115,7 @@
 30	würde	werden	AUX	NN	Case=Gen|Gender=Fem|Number=Sing	29	aux	_	SpaceAfter=No
 31	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 98
+# sent_id = 100
 # text = Ich lag dicht neben Holmes und schaute ihm einen Moment lang ins Gesicht.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	lag	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -2090,7 +2134,7 @@
 14	Gesicht	Gesicht	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 99
+# sent_id = 101
 # text = Es war bleich und triumphierend, seine Augen leuchteten im Mondlicht.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	war	sein	AUX	ADV	_	3	cop	_	_
@@ -2107,7 +2151,7 @@
 12	Mondlicht	Mondlicht	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 100
+# sent_id = 102
 # text = Doch plötzlich erstarrte sein Blick und seine Lippen öffneten sich verwundert.
 1	Doch	doch	ADV	KON	_	9	advmod	_	_
 2	plötzlich	plötzlich	ADV	ADJD	_	3	advmod	_	_
@@ -2122,7 +2166,7 @@
 11	verwundert	verwundern	VERB	ADJD	_	9	acl	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 101
+# sent_id = 103
 # text = Im selben Moment stieß Lestrade einen Schreckensschrei aus und warf sich mit dem Gesicht nach unten auf den Boden.
 1-2	Im	_	_	_	_	_	_	_	_
 1	In	in	ADP	APPR	_	4	case	_	_
@@ -2147,7 +2191,7 @@
 20	Boden	Boden	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 102
+# sent_id = 104
 # text = Ich sprang auf, meine Hand griff nach der Pistole, doch mein Geist war wie gelähmt durch das schreckliche Geschöpf, das vor uns aus den Schatten des Nebels hervorgesprungen kam.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	sprang	springen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -2183,7 +2227,7 @@
 32	kam	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	acl	_	SpaceAfter=No
 33	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 103
+# sent_id = 105
 # text = Es war ein Hund, ein riesiger, pechschwarzer Hund, doch kein Hund, wie ihn sterbliche Augen jemals gesehen haben.
 1	Es	es	PRON	PPER	PronType=Prs	4	nsubj	_	_
 2	war	sein	AUX	ADV	_	4	cop	_	_
@@ -2209,7 +2253,7 @@
 22	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 104
+# sent_id = 106
 # text = Feuer schoss aus seinem offenen Rachen, aus den Augen glühte schwelende Glut, Lefzen und Nacken waren von hellen Flammen umlodert.
 1	Feuer	Feuer	PROPN	ADJA	Case=Dat|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	schoss	schießen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2235,7 +2279,7 @@
 22	umlodert	umlodern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 105
+# sent_id = 107
 # text = Kein wahnsinniger Traum eines irren Hirns konnte ein wilderes, entsetzlicheres, höllischeres Ungeheuer erzeugen als diese nachtschwarze Schöpfung mit teuflischer Fratze, die uns aus der Nebelwand entgegenstürzte.
 1	Kein	kein	ADV	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	2	advmod	_	_
 2	wahnsinniger	wahnsinnig	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
@@ -2266,9 +2310,10 @@
 27	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	Nebelwand	Nebelwand	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	29	obl	_	_
 29	entgegenstürzte	entgegenstürzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	acl	_	SpaceAfter=No
-30	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\s\n
+30	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 106
+# newpar
+# sent_id = 108
 # text = Mit langen Sätzen schoss das enorme schwarze Ungeheuer den Weg entlang, unserem Freund dicht auf den Fersen.
 1	Mit	mit	ADP	APPR	_	3	case	_	_
 2	langen	lang	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	3	amod	_	_
@@ -2290,7 +2335,7 @@
 18	Fersen	Fers	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 107
+# sent_id = 109
 # text = Wir waren dermaßen gelähmt durch die Erscheinung, dass er an uns vorüber war, bevor wir uns wieder gefasst hatten.
 1	Wir	wir	PRON	ADJD	_	4	nsubj	_	_
 2	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
@@ -2315,7 +2360,7 @@
 21	hatten	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 108
+# sent_id = 110
 # text = Dann feuerten Holmes und ich gleichzeitig, und ein schreckliches Heulen der Kreatur bewies uns, dass wenigstens einer getroffen hatte.
 1	Dann	dann	ADV	ADV	_	2	advmod	_	_
 2	feuerten	feueren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -2340,7 +2385,7 @@
 21	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 109
+# sent_id = 111
 # text = Doch blieb sie nicht stehen, sondern hetzte weiter.
 1	Doch	doch	ADV	KON	_	2	advmod	_	_
 2	blieb	bleiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -2353,7 +2398,7 @@
 9	weiter	weiter	ADJ	ADV	_	2	conj	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 110
+# sent_id = 112
 # text = Weiter vorn auf dem Weg sahen wir, wie Sir Henry sich umdrehte, das Gesicht im Mondlicht kreidebleich, seine Hände voller Entsetzen in die Höhe gestreckt, starrte er hilflos auf das entsetzliche Untier, das auf ihn zuschoss.
 1	Weiter	weiter	ADV	ADV	_	6	advmod	_	_
 2	vorn	vorn	ADV	ADV	_	6	advmod	_	_
@@ -2398,9 +2443,10 @@
 40	auf	auf	ADP	APPR	_	41	case	_	_
 41	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	42	nmod	_	_
 42	zuschoss	zuschoß	ADV	VVFIN	_	37	acl	_	SpaceAfter=No
-43	.	.	PUNCT	$.	_	31	punct	_	SpacesAfter=\s\n
+43	.	.	PUNCT	$.	_	31	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 111
+# newpar
+# sent_id = 113
 # text = Doch der Schmerzensschrei des Hundes hatte all unsere Ängste vertrieben.
 1	Doch	doch	ADV	KON	_	10	advmod	_	_
 2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -2414,7 +2460,7 @@
 10	vertrieben	vertreiben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 112
+# sent_id = 114
 # text = Wenn er verwundbar war, so war er sterblich, und wenn wir ihn verwunden konnten, so konnten wir ihn auch töten.
 1	Wenn	wenn	SCONJ	KOUS	_	3	mark	_	_
 2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -2441,7 +2487,7 @@
 23	töten	töten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	23	punct	_	_
 
-# sent_id = 113
+# sent_id = 115
 # text = Niemals habe ich jemanden so rennen sehen, wie Holmes in jener Nacht gerannt ist.
 1	Niemals	niemals	ADV	ADV	_	7	advmod	_	_
 2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -2460,7 +2506,7 @@
 15	ist	sein	AUX	ADJD	_	14	aux:pass	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 114
+# sent_id = 116
 # text = Ich bin sicherlich gut zu Fuß, aber er hängte mich ebenso sehr ab, wie ich den kleinen Lestrade abhängte.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2485,7 +2531,7 @@
 21	abhängte	abhängen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 115
+# sent_id = 117
 # text = Während wir den Weg entlangstürzten, hörten wir vor uns Schrei auf Schrei von Sir Henry und das tiefe Knurren des Hundes.
 1	Während	während	SCONJ	KOUS	_	5	mark	_	_
 2	wir	wir	PRON	ADJD	_	5	nsubj	_	_
@@ -2511,7 +2557,7 @@
 22	Hundes	Hund	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 116
+# sent_id = 118
 # text = Ich erreichte sie gerade, als die Bestie ihr Opfer ansprang, es zu Boden warf und nach seiner Kehle schnappte.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	erreichte	erreichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -2536,7 +2582,7 @@
 21	schnappte	schnappen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	conj	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 117
+# sent_id = 119
 # text = Doch im nächsten Augenblick hatte Holmes schon fünf Kugeln seines Revolvers in die Flanke des Untiers gejagt.
 1	Doch	doch	ADV	KON	_	18	advmod	_	_
 2-3	im	_	_	_	_	_	_	_	_
@@ -2559,7 +2605,7 @@
 18	gejagt	jagen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	18	punct	_	_
 
-# sent_id = 118
+# sent_id = 120
 # text = Mit einem letzten Aufheulen, im Todeskampf bösartig um sich beißend, rollte der Hund auf den Rücken, schlug mit allen Vieren um sich und fiel dann reglos auf die Flanke.
 1	Mit	mit	ADP	APPR	_	4	case	_	_
 2	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -2597,7 +2643,7 @@
 33	Flanke	Flanke	NOUN	PTKANT	_	28	obl	_	SpaceAfter=No
 34	.	.	PUNCT	$.	_	21	punct	_	_
 
-# sent_id = 119
+# sent_id = 121
 # text = Keuchend beugte ich mich zu ihm hinunter und drückte die Pistole gegen seinen furchtbaren, glühenden Schädel, doch war es sinnlos abzudrücken.
 1	Keuchend	Keuchend	ADJ	ADJD	_	2	advmod	_	_
 2	beugte	beugen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -2624,16 +2670,17 @@
 23	abzudrücken	abzudrücken	VERB	VVINF	VerbForm=Inf	2	conj	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 120
+# sent_id = 122
 # text = Der riesige Hund war tot.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	riesige	riesig	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
 3	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 4	war	sein	AUX	ADV	_	5	cop	_	_
 5	tot	tot	ADJ	ADJD	_	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\n
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 121
+# newpar
+# sent_id = 123
 # text = Sir Henry lag bewusstlos an der Stelle, wo er gestürzt war.
 1	Sir	Sir	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	Henry	Henry	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
@@ -2649,7 +2696,7 @@
 12	war	sein	AUX	ADV	_	11	aux:pass	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 122
+# sent_id = 124
 # text = Wir rissen seinen Kragen auf, und Holmes entfuhr ein Stoßgebet der Dankbarkeit, als er sah, dass kein Anzeichen einer Verletzung zu erkennen und die Hilfe rechtzeitig gekommen war.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	rissen	rissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2684,7 +2731,7 @@
 31	war	sein	AUX	ADV	_	30	aux	_	SpaceAfter=No
 32	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 123
+# sent_id = 125
 # text = Schon vibrierten die Augenlider unseres Freundes und er machte einen schwachen Versuch aufzustehen.
 1	Schon	schon	ADV	ADV	_	2	advmod	_	_
 2	vibrierten	vibrieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -2701,7 +2748,7 @@
 13	aufzustehen	aufzustehen	VERB	VVINF	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 124
+# sent_id = 126
 # text = Lestrade schob seine Brandyflasche zwischen die Lippen des Baronets, der uns mit vor Entsetzen geweiteten Augen anstarrte.
 1	Lestrade	Lestrade	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	2	advmod	_	_
 2	schob	schieben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -2721,9 +2768,10 @@
 16	geweiteten	geweitet	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	17	amod	_	_
 17	Augen	Auge	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	15	nmod	_	_
 18	anstarrte	anstarren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl	_	SpaceAfter=No
-19	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+19	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 125
+# newpar
+# sent_id = 127
 # text = »Mein Gott«, flüsterte er, »Was war das?
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Mein	mein	PROPN	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	3	nmod	_	_
@@ -2739,7 +2787,7 @@
 12	das	der	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	ccomp	_	SpaceAfter=No
 13	?	?	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 126
+# sent_id = 128
 # text = Was um alles in der Welt war das?«
 1	Was	was	PRON	FM	Foreign=Yes	8	nsubj	_	_
 2	um	um	ADP	APPR	_	7	mark	_	_
@@ -2750,9 +2798,10 @@
 7	war	sein	AUX	ADV	_	8	cop	_	_
 8	das	der	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
 9	?	?	PUNCT	$.	_	8	punct	_	SpaceAfter=No
-10	«	«	PUNCT	$(	_	8	punct	_	SpacesAfter=\s\n
+10	«	«	PUNCT	$(	_	8	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 127
+# newpar
+# sent_id = 129
 # text = »Was immer es war, jetzt ist es tot«, sagte Holmes.
 1	»	»	PUNCT	$(	_	5	punct	_	SpaceAfter=No
 2	Was	was	PRON	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -2770,7 +2819,7 @@
 14	Holmes	Holm	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	13	punct	_	_
 
-# sent_id = 128
+# sent_id = 130
 # text = »Wir haben das Familiengespenst ein für allemal zur Strecke gebracht.«
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Wir	wir	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
@@ -2786,9 +2835,10 @@
 11	Strecke	Strecke	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
 12	gebracht	bringen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	12	punct	_	SpaceAfter=No
-14	«	«	PUNCT	$(	_	12	punct	_	SpacesAfter=\s\n
+14	«	«	PUNCT	$(	_	12	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 129
+# newpar
+# sent_id = 131
 # text = Von seiner bloßen Größe und Stärke her war es ein schreckliches Geschöpf, das vor uns ausgestreckt lag.
 1	Von	von	ADP	APPR	_	4	case	_	_
 2	seiner	sein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	4	det:poss	_	_
@@ -2810,7 +2860,7 @@
 18	lag	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	12	punct	_	_
 
-# sent_id = 130
+# sent_id = 132
 # text = Es war kein reinrassiger Bluthund und keine reinrassige Dogge, sondern schien eine Mischung beider zu sein – hager, wild und so groß wie eine kleine Löwin.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	war	sein	AUX	ADV	_	5	cop	_	_
@@ -2842,7 +2892,7 @@
 28	Löwin	Löwin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 131
+# sent_id = 133
 # text = Selbst jetzt, da es in der Reglosigkeit des Todes vor uns lag, schien eine bläuliche Flamme von seinen Lefzen zu tropfen und die kleinen, tief liegenden, grausamen Augen waren von Feuer umgeben.
 1	Selbst	selbst	ADV	ADV	_	2	advmod	_	_
 2	jetzt	jetzen	VERB	ADV	_	0	root	_	SpaceAfter=No
@@ -2882,7 +2932,7 @@
 36	umgeben	umgeben	VERB	VVPP	VerbForm=Part	23	conj	_	SpaceAfter=No
 37	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 132
+# sent_id = 134
 # text = Ich legte meine Hand auf das glimmende Maul, und als ich sie in die Höhe hob, glühten und leuchteten meine eigenen Finger in der Dunkelheit.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	legte	legen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -2911,9 +2961,10 @@
 25	in	in	ADP	APPR	_	27	case	_	_
 26	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	Dunkelheit	Dunkelheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
-28	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+28	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 133
+# newpar
+# sent_id = 135
 # text = »Phosphor«, sagte ich.
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Phosphor	Phosphor	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
@@ -2921,9 +2972,10 @@
 4	,	,	PUNCT	$,	_	2	punct	_	_
 5	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
-7	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\n
+7	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 134
+# newpar
+# sent_id = 136
 # text = »Und schlau zubereitet«, sagte Holmes, der das tote Tier beschnüffelte.
 1	»	»	PUNCT	$(	_	4	punct	_	SpaceAfter=No
 2	Und	und	CCONJ	NN	Case=Nom|Gender=Masc|Number=Sing	4	cc	_	_
@@ -2941,7 +2993,7 @@
 14	beschnüffelte	beschnüffeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 135
+# sent_id = 137
 # text = »Es hat keinen Geruch, der sein Witterungsvermögen irritieren könnte.
 1	»	»	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 2	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
@@ -2956,7 +3008,7 @@
 11	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 136
+# sent_id = 138
 # text = Wir müssen uns zutiefst bei Ihnen entschuldigen, Sir Henry, dass wir Sie diesem Schrecken ausgesetzt haben.
 1	Wir	wir	PRON	ADJD	_	7	nsubj	_	_
 2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -2978,7 +3030,7 @@
 18	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 137
+# sent_id = 139
 # text = Auf einen Hund war ich vorbereitet, doch nicht auf ein Untier wie dieses.
 1	Auf	auf	ADP	APPR	_	3	case	_	_
 2	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -2996,7 +3048,7 @@
 14	dieses	dies	PRON	PDAT	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	12	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 138
+# sent_id = 140
 # text = Und wegen des Nebels hatten wir kaum Zeit, ihm entgegenzutreten.«
 1	Und	und	CCONJ	ADJD	_	5	cc	_	_
 2	wegen	wegen	ADP	NN	Case=Dat|Gender=Masc|Number=Plur	4	case	_	_
@@ -3010,9 +3062,10 @@
 10	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	_
 11	entgegenzutreten	entgegenzutret	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	5	punct	_	SpaceAfter=No
-13	«	«	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\n
+13	«	«	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 139
+# newpar
+# sent_id = 141
 # text = »Sie haben mein Leben gerettet.«
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
@@ -3021,9 +3074,10 @@
 5	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
 6	gerettet	retten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	6	punct	_	SpaceAfter=No
-8	«	«	PUNCT	$(	_	6	punct	_	SpacesAfter=\s\n
+8	«	«	PUNCT	$(	_	6	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 140
+# newpar
+# sent_id = 142
 # text = »Nachdem wir es erst in Gefahr gebracht haben.
 1	»	»	PUNCT	$(	_	8	punct	_	SpaceAfter=No
 2	Nachdem	nachdem	SCONJ	KOUS	_	8	mark	_	_
@@ -3036,7 +3090,7 @@
 9	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 141
+# sent_id = 143
 # text = Sind Sie kräftig genug aufzustehen?«
 1	Sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
@@ -3044,9 +3098,10 @@
 4	genug	genug	ADV	ADV	_	3	advmod	_	_
 5	aufzustehen	aufzustehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	?	?	PUNCT	$.	_	5	punct	_	SpaceAfter=No
-7	«	«	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\n
+7	«	«	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 142
+# newpar
+# sent_id = 144
 # text = »Geben Sie mir noch einen Schluck von diesem Brandy, dann werde ich zu allem bereit sein.
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Geben	geben	NOUN	VVINF	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	nsubj	_	_
@@ -3068,7 +3123,7 @@
 18	sein	sein	AUX	VAINF	VerbForm=Inf	17	cop	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	17	punct	_	_
 
-# sent_id = 143
+# sent_id = 145
 # text = So, wenn Sie mir jetzt aufhelfen würden.
 1	So	so	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	7	punct	_	_
@@ -3080,7 +3135,7 @@
 8	würden	werden	AUX	NN	Foreign=Yes	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 144
+# sent_id = 146
 # text = Was gedenken Sie nun zu unternehmen?«
 1	Was	was	PRON	FM	Foreign=Yes	2	nsubj	_	_
 2	gedenken	denken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3089,16 +3144,17 @@
 5	zu	zu	PART	NN	Case=Nom|Number=Plur	6	mark	_	_
 6	unternehmen	unternehmen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
 7	?	?	PUNCT	$.	_	2	punct	_	SpaceAfter=No
-8	«	«	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\n
+8	«	«	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 145
+# newpar
+# sent_id = 147
 # text = »Sie hierzulassen.
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 3	hierzulassen	hierzulassen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 146
+# sent_id = 148
 # text = Sie sind nicht in der Verfassung für weitere Abenteuer in dieser Nacht.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	sind	sein	AUX	ADJD	_	0	root	_	_
@@ -3114,7 +3170,7 @@
 12	Nacht	Nacht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 147
+# sent_id = 149
 # text = Wenn Sie warten wollen, kann einer von uns Sie nach Baskerville Hall begleiten.«
 1	Wenn	wenn	SCONJ	KOUS	_	3	mark	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
@@ -3131,9 +3187,10 @@
 13	Hall	Hall	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	12	flat	_	_
 14	begleiten	begleiten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	14	punct	_	SpaceAfter=No
-16	«	«	PUNCT	$(	_	14	punct	_	SpacesAfter=\s\n
+16	«	«	PUNCT	$(	_	14	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 148
+# newpar
+# sent_id = 150
 # text = Er versuchte sich aufzurichten, doch war er immer noch kreidebleich und zitterte an allen Gliedern.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	versuchte	versuchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3153,7 +3210,7 @@
 16	Gliedern	Glied|Gliedern	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	13	obl	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 149
+# sent_id = 151
 # text = Wir halfen ihm zu einem Felsblock, wo er sich zitternd hinsetzte und sein Gesicht in den Händen vergrub.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	halfen	helfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3174,9 +3231,10 @@
 17	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Händen	Hand	NOUN	ADJA	Case=Acc|Gender=Masc|Number=Sing	19	nmod	_	_
 19	vergrub	vergrub	ADJ	NN	Case=Acc|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
-20	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+20	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 150
+# newpar
+# sent_id = 152
 # text = »Wir müssen Sie jetzt hierlassen«, sagte Holmes.
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Wir	wir	PRON	ADJD	_	6	nsubj	_	_
@@ -3190,7 +3248,7 @@
 10	Holmes	Holm	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 151
+# sent_id = 153
 # text = »Der Rest unserer Arbeit muss getan werden und jeder Augenblick ist kostbar.
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -3207,7 +3265,7 @@
 13	kostbar	kostbar	ADJ	ADJD	_	7	conj	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 152
+# sent_id = 154
 # text = Wir haben nunmehr unseren Fall, jetzt brauchen wir nur noch den Täter.«
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3223,9 +3281,10 @@
 12	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Täter	Täter	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No
-15	«	«	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\n
+15	«	«	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 153
+# newpar
+# sent_id = 155
 # text = »Ich wette tausend zu eins, dass wir ihn nicht zu Hause finden werden«, fuhr er fort, als wir rasch unsere Schritte den Weg zurück lenkten.
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Ich	ich	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
@@ -3259,7 +3318,7 @@
 30	lenkten	lenken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	advcl	_	SpaceAfter=No
 31	.	.	PUNCT	$.	_	18	punct	_	_
 
-# sent_id = 154
+# sent_id = 156
 # text = »Die Schüsse dürften ihm verraten haben, dass sein Spiel aus ist.«
 1	»	»	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 2	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -3275,9 +3334,10 @@
 12	aus	aus	PART	APZR	_	13	mark	_	_
 13	ist	sein	AUX	ADJD	_	11	cop	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	6	punct	_	SpaceAfter=No
-15	«	«	PUNCT	$(	_	6	punct	_	SpacesAfter=\s\n
+15	«	«	PUNCT	$(	_	6	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 155
+# newpar
+# sent_id = 157
 # text = »Wir waren ein ganzes Stück entfernt und der Nebel könnte sie gedämpft haben.«
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Wir	wir	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -3294,9 +3354,10 @@
 13	gedämpft	dämpfen	VERB	VVPP	VerbForm=Part	7	conj	_	_
 14	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	7	punct	_	SpaceAfter=No
-16	«	«	PUNCT	$(	_	7	punct	_	SpacesAfter=\s\n
+16	«	«	PUNCT	$(	_	7	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 156
+# newpar
+# sent_id = 158
 # text = »Er folgte dem Hund, um ihn zurückrufen zu können, da können Sie sicher sein.
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -3317,7 +3378,7 @@
 17	sein	sein	AUX	VAINF	VerbForm=Inf	16	cop	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 157
+# sent_id = 159
 # text = Nein, nein, er ist inzwischen fort!
 1	Nein	nein	PART	PTKANT	_	8	conj	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	1	punct	_	_
@@ -3329,7 +3390,7 @@
 8	fort	fort	ADV	PTKVZ	_	0	root	_	SpaceAfter=No
 9	!	!	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 158
+# sent_id = 160
 # text = Doch wir werden das Haus durchsuchen, um sicherzugehen.«
 1	Doch	doch	CCONJ	KON	_	6	cc	_	_
 2	wir	wir	PRON	ADJD	_	6	nsubj	_	_
@@ -3341,9 +3402,10 @@
 8	um	um	ADP	KOUI	_	9	mark	_	_
 9	sicherzugehen	sicherzugehen	VERB	VVFIN	VerbForm=Inf	6	advcl	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	6	punct	_	SpaceAfter=No
-11	«	«	PUNCT	$(	_	6	punct	_	SpacesAfter=\s\n
+11	«	«	PUNCT	$(	_	6	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 159
+# newpar
+# sent_id = 161
 # text = Die Haustür stand offen, also stürzten wir hinein und eilten von Zimmer zu Zimmer zur Verwunderung eines schlotternden alten Dieners, der uns im Flur entgegen kam.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Haustür	Haustür	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -3379,7 +3441,7 @@
 30	kam	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	acl	_	SpaceAfter=No
 31	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 160
+# sent_id = 162
 # text = Abgesehen vom Esszimmer brannte nirgends Licht, doch Holmes hatte sich eine Lampe geschnappt und ließ keinen Winkel des Hauses unerforscht.
 1	Abgesehen	absehen	VERB	VVPP	VerbForm=Part	5	acl	_	_
 2-3	vom	_	_	_	_	_	_	_	_
@@ -3406,7 +3468,7 @@
 22	unerforscht	unerforschen	VERB	ADJD	_	17	xcomp	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 161
+# sent_id = 163
 # text = Nicht das geringste Anzeichen des Mannes, den wir suchten, war zu finden.
 1	Nicht	nicht	PART	TRUNC	NumType=Card	4	advmod	_	_
 2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
@@ -3424,7 +3486,7 @@
 14	finden	finden	VERB	VVINF	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 162
+# sent_id = 164
 # text = Im oberen Stock war jedoch eines der Schlafzimmer abgeschlossen.
 1-2	Im	_	_	_	_	_	_	_	_
 1	In	in	ADP	APPR	_	4	case	_	_
@@ -3437,9 +3499,10 @@
 8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	9	det	_	_
 9	Schlafzimmer	Schlafzimmer	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
 10	abgeschlossen	abschließen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\n
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 163
+# newpar
+# sent_id = 165
 # text = »Da ist jemand drinnen«, rief Lestrade.
 1	»	»	PUNCT	$(	_	5	punct	_	SpaceAfter=No
 2	Da	Da	ADV	ADV	_	5	advmod	_	_
@@ -3452,7 +3515,7 @@
 9	Lestrade	Lestrade	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 164
+# sent_id = 166
 # text = »Ich kann ein Geräusch hören.
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
@@ -3462,16 +3525,17 @@
 6	hören	hören	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 165
+# sent_id = 167
 # text = Öffnen Sie die Tür!«
 1	Öffnen	öffnen	VERB	VVFIN	VerbForm=Inf	0	root	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
 3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Tür	Tür	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
 5	!	!	PUNCT	$.	_	1	punct	_	SpaceAfter=No
-6	«	«	PUNCT	$(	_	1	punct	_	SpacesAfter=\s\n
+6	«	«	PUNCT	$(	_	1	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 166
+# newpar
+# sent_id = 168
 # text = Ein unterdrücktes Stöhnen und Röcheln war zu hören.
 1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 2	unterdrücktes	unterdrückt	ADJ	PDAT	Case=Nom|Gender=Neut|Number=Sing	3	amod	_	_
@@ -3483,7 +3547,7 @@
 8	hören	hören	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 167
+# sent_id = 169
 # text = Holmes trat mit der flachen Seite seines Fußes direkt oberhalb des Schlosses gegen die Tür und sie flog auf.
 1	Holmes	Holmes	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	trat	treten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3506,7 +3570,7 @@
 19	auf	auf	ADP	PTKVZ	_	18	compound:prt	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 168
+# sent_id = 170
 # text = Mit den Pistolen in der Hand stürmten wir in das Zimmer.
 1	Mit	mit	ADP	APPR	_	3	case	_	_
 2	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	3	det	_	_
@@ -3519,9 +3583,10 @@
 9	in	in	ADP	APPR	_	11	case	_	_
 10	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
 11	Zimmer	Zimmer	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
-12	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\n
+12	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 169
+# newpar
+# sent_id = 171
 # text = Doch von dem verzweifelten und trotzigen Schurken, den wir zu finden erwartet hatten, war keine Spur zu sehen.
 1	Doch	doch	ADV	KON	_	13	advmod	_	_
 2	von	von	ADP	FM	Foreign=Yes	7	case	_	_
@@ -3545,7 +3610,7 @@
 20	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	20	punct	_	_
 
-# sent_id = 170
+# sent_id = 172
 # text = Statt dessen bot sich uns ein so seltsamer und unerwarteter Anblick, dass wir einen Moment starr vor Erstaunen stehen blieben.
 1	Statt	statt	ADP	APPR	_	2	case	_	_
 2	dessen	der	PRON	PDAT	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	3	obl	_	_
@@ -3568,9 +3633,10 @@
 19	Erstaunen	Erstaunen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	20	obl	_	_
 20	stehen	stehen	VERB	VVINF	VerbForm=Inf	3	ccomp	_	_
 21	blieben	bleiben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	SpaceAfter=No
-22	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\n
+22	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 171
+# newpar
+# sent_id = 173
 # text = Das Zimmer war zu einem kleinen Museum umgestaltet worden und an den Wänden standen Reihen von Kästen mit Glasdeckeln, in welchen sich die Sammlung von Schmetterlingen und Faltern befand, die das Hobby dieses komplizierten und gefährlichen Mannes waren.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Zimmer	Zimmer	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
@@ -3614,7 +3680,7 @@
 40	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	39	cop	_	SpaceAfter=No
 41	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 172
+# sent_id = 174
 # text = In der Mitte des Raums stand ein Pfeiler, der dort nachträglich eingebaut worden war, um die alte, wurmzerfressene Holzdecke zu stützen.
 1	In	in	ADP	APPR	_	3	case	_	_
 2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -3642,7 +3708,7 @@
 24	stützen	stützen	VERB	VVINF	VerbForm=Inf	6	advcl	_	SpaceAfter=No
 25	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 173
+# sent_id = 175
 # text = An diesen Pfeiler war eine Gestalt angebunden, die so sehr in Stofftücher eingehüllt war, dass wir zunächst nicht sagen konnten, ob es sich um eine Frau oder einen Mann handelte.
 1	An	an	ADP	APPR	_	3	case	_	_
 2	diesen	dies	PRON	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -3679,7 +3745,7 @@
 33	handelte	handeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	ccomp	_	SpaceAfter=No
 34	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 174
+# sent_id = 176
 # text = Ein Handtuch war um ihren Hals geschlungen und an der Rückseite des Pfostens befestigt, ein anderes bedeckte die untere Hälfte des Gesichts, über welcher uns zwei dunkle Augen voller Kummer, Scham und mit einem fragendem Ausdruck anstarrten.
 1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Handtuch	Handtuch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -3723,7 +3789,7 @@
 40	anstarrten	anstarren	VERB	ADJA	Case=Dat|Gender=Masc|Number=Plur	32	conj	_	SpaceAfter=No
 41	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 175
+# sent_id = 177
 # text = Im Handumdrehen hatten wir den Knebel entfernt sowie die Fesseln gelöst, und Mrs. Stapleton sank vor uns auf den Fußboden.
 1-2	Im	_	_	_	_	_	_	_	_
 1	In	in	ADP	APPR	_	3	case	_	_
@@ -3751,7 +3817,7 @@
 23	Fußboden	Fußbode	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	18	punct	_	_
 
-# sent_id = 176
+# sent_id = 178
 # text = Als ihr schöner Kopf auf ihre Brust fiel, sah ich den deutlichen roten Striemen eines Peitschenhiebes auf ihrem Nacken.
 1	Als	als	SCONJ	KOUS	_	8	mark	_	_
 2	ihr	ihr	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	4	det:poss	_	_
@@ -3773,9 +3839,10 @@
 18	auf	auf	ADP	APPR	_	20	case	_	_
 19	ihrem	ihr	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes	20	det:poss	_	_
 20	Nacken	Nacken	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
-21	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\n
+21	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 177
+# newpar
+# sent_id = 179
 # text = »Der Schuft!« rief Holmes.
 1	»	»	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 2	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -3786,7 +3853,7 @@
 7	Holmes	Holm	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 178
+# sent_id = 180
 # text = »Hier, Lestrade, Ihre Brandyflasche!
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Hier	hier	ADV	ADV	_	7	advmod	_	SpaceAfter=No
@@ -3797,7 +3864,7 @@
 7	Brandyflasche	Brandyflasche	NOUN	ADJA	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 8	!	!	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 179
+# sent_id = 181
 # text = Setzen Sie sie auf den Stuhl.
 1	Setzen	setzen	NOUN	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	_
@@ -3807,7 +3874,7 @@
 6	Stuhl	Stuhl	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 180
+# sent_id = 182
 # text = Sie ist von den Misshandlungen und vor Erschöpfung ohnmächtig geworden.«
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
@@ -3820,17 +3887,19 @@
 9	ohnmächtig	ohnmächtig	ADJ	ADJD	_	10	xcomp	_	_
 10	geworden	werden	VERB	ADJA	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	10	punct	_	SpaceAfter=No
-12	«	«	PUNCT	$(	_	10	punct	_	SpacesAfter=\s\n
+12	«	«	PUNCT	$(	_	10	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 181
+# newpar
+# sent_id = 183
 # text = Sie öffnete ihr Augen.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	öffnete	öffnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	ihr	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	4	det:poss	_	_
 4	Augen	Auge	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 182
+# newpar
+# sent_id = 184
 # text = »Ist er in Sicherheit?« fragte sie.
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
@@ -3843,16 +3912,17 @@
 9	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 183
+# sent_id = 185
 # text = »Ist er entkommen?«
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Ist	sein	AUX	NN	Case=Nom|Gender=Masc|Number=Sing	4	aux	_	_
 3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	entkommen	entkommen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	$.	_	4	punct	_	SpaceAfter=No
-6	«	«	PUNCT	$(	_	4	punct	_	SpacesAfter=\s\n
+6	«	«	PUNCT	$(	_	4	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 184
+# newpar
+# sent_id = 186
 # text = »Er kann uns nicht entkommen, Madam.«
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -3863,9 +3933,10 @@
 7	,	,	PUNCT	$,	_	8	punct	_	_
 8	Madam	Madam	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	6	conj	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	6	punct	_	SpaceAfter=No
-10	«	«	PUNCT	$(	_	6	punct	_	SpacesAfter=\s\n
+10	«	«	PUNCT	$(	_	6	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 185
+# newpar
+# sent_id = 187
 # text = »Nein, nein, ich meine nicht meinen Ehemann.
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Nein	nein	PART	PTKANT	_	0	root	_	SpaceAfter=No
@@ -3879,34 +3950,40 @@
 10	Ehemann	Ehemann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 186
+# sent_id = 188
 # text = Sir Henry?
 1	Sir	Sir	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 2	Henry	Henry	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
 3	?	?	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 187
+# sent_id = 189
 # text = Ist er in Sicherheit?«
 1	Ist	sein	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
 3	in	in	ADP	APPR	_	4	case	_	_
 4	Sicherheit	Sicherheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
 5	?	?	PUNCT	$.	_	1	punct	_	SpaceAfter=No
-6	«	«	PUNCT	$(	_	1	punct	_	SpacesAfter=\s\n
+6	«	«	PUNCT	$(	_	1	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 188
-# text = »Ja.« »Und der Hund?«
-1	»Ja	»Ja	PROPN	PTKANT	_	7	nsubj	_	SpaceAfter=No
+# newpar
+# sent_id = 190
+# text = »Ja.«
+1	»Ja	»Ja	PROPN	PTKANT	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	$.	_	1	punct	_	SpaceAfter=No
-3	«	«	PUNCT	$(	_	4	punct	_	SpacesAfter=\s\n
-4	»	»	PUNCT	$(	_	1	punct	_	SpaceAfter=No
-5	Und	und	CCONJ	NE	Foreign=Yes	7	cc	_	_
-6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-8	?	?	PUNCT	$.	_	7	punct	_	SpaceAfter=No
-9	«	«	PUNCT	$(	_	7	punct	_	SpacesAfter=\s\n
+3	«	«	PUNCT	$(	_	1	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 189
+# newpar
+# sent_id = 191
+# text = »Und der Hund?«
+1	»	»	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+2	Und	und	CCONJ	NN	Case=Nom|Gender=Masc|Number=Sing	4	cc	_	_
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+6	«	«	PUNCT	$(	_	4	punct	_	SpacesAfter=\s\n\n
+
+# newpar
+# sent_id = 192
 # text = »Der Hund ist tot.«
 1	»	»	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 2	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -3914,9 +3991,10 @@
 4	ist	sein	AUX	ADJD	_	5	cop	_	_
 5	tot	tot	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	SpaceAfter=No
-7	«	«	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\n
+7	«	«	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 190
+# newpar
+# sent_id = 193
 # text = Sie stieß einen tiefen Seufzer der Erleichterung aus.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	stieß	stoßen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3926,9 +4004,10 @@
 6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Erleichterung	Erleichterung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
 8	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
-9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 191
+# newpar
+# sent_id = 194
 # text = »Gott sei Dank!
 1	»	»	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 2	Gott	Gott	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -3936,20 +4015,20 @@
 4	Dank	Dank	PROPN	APPR	_	0	root	_	SpaceAfter=No
 5	!	!	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 192
+# sent_id = 195
 # text = Gott sei Dank!
 1	Gott	Gott	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	Dank	Dank	PROPN	APPR	_	0	root	_	SpaceAfter=No
 4	!	!	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 193
+# sent_id = 196
 # text = Dieser Schuft!
 1	Dieser	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	Schuft	Schuft	NOUN	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	!	!	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 194
+# sent_id = 197
 # text = Sehen Sie, wie er mich behandelt hat!«
 1	Sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	SpaceAfter=No
@@ -3962,7 +4041,7 @@
 9	!	!	PUNCT	$.	_	1	punct	_	SpaceAfter=No
 10	«	«	PUNCT	$(	_	1	punct	_	_
 
-# sent_id = 195
+# sent_id = 198
 # text = Sie schob ihre Ärmel hoch und wir sahen mit Entsetzen, dass ihre Arme über und über mit Striemen bedeckt waren.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	schob	schieben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3987,7 +4066,7 @@
 21	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 196
+# sent_id = 199
 # text = »Aber das war gar nichts!
 1	»	»	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 2	Aber	aber	CCONJ	KON	_	6	cc	_	_
@@ -3997,7 +4076,7 @@
 6	nichts	nichts	PRON	CARD	NumType=Card	0	root	_	SpaceAfter=No
 7	!	!	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 197
+# sent_id = 200
 # text = Es sind mein Herz und meine Seele, die er gequält und geschändet hat.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	sind	sein	AUX	ADJD	_	4	cop	_	_
@@ -4015,7 +4094,7 @@
 14	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 198
+# sent_id = 201
 # text = Solange ich Hoffnung hatte, dass er mich liebte, konnte ich alles ertragen, Misshandlungen, Einsamkeit, ein Leben voller Enttäuschung, aber jetzt ist mir klar geworden, dass er mich als Werkzeug benutzt hat.«
 1	Solange	solange	SCONJ	KOUS	_	4	mark	_	_
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
@@ -4058,7 +4137,7 @@
 39	.	.	PUNCT	$.	_	14	punct	_	SpaceAfter=No
 40	«	«	PUNCT	$(	_	14	punct	_	_
 
-# sent_id = 199
+# sent_id = 202
 # text = Während sie sprach, brach Sie in fürchterliches Schluchzen aus.
 1	Während	während	SCONJ	KOUS	_	3	mark	_	_
 2	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
@@ -4070,9 +4149,10 @@
 8	fürchterliches	fürchterlich	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	9	amod	_	_
 9	Schluchzen	Schluchzen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	obl	_	_
 10	aus	aus	ADP	PTKVZ	_	5	compound:prt	_	SpaceAfter=No
-11	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\n
+11	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 200
+# newpar
+# sent_id = 203
 # text = »So schulden Sie ihm nichts«, sagte Holmes.
 1	»	»	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 2	So	so	ADV	NE	Case=Nom|Gender=Neut|Number=Plur	1	advmod	_	_
@@ -4086,7 +4166,7 @@
 10	Holmes	Holm	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 201
+# sent_id = 204
 # text = »Sagen Sie uns dann, wo wir ihn finden können.
 1	»	»	PUNCT	$(	_	5	punct	_	SpaceAfter=No
 2	Sagen	sagen	PROPN	NN	Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	_
@@ -4101,7 +4181,7 @@
 11	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 202
+# sent_id = 205
 # text = Haben Sie ihm je bei seinen Untaten geholfen, so helfen Sie jetzt uns und büßen Sie dadurch.«
 1	Haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
@@ -4122,9 +4202,10 @@
 17	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	obj	_	_
 18	dadurch	dadurch	ADV	PAV	_	16	advmod	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	11	punct	_	SpaceAfter=No
-20	«	«	PUNCT	$(	_	11	punct	_	SpacesAfter=\s\n
+20	«	«	PUNCT	$(	_	11	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 203
+# newpar
+# sent_id = 206
 # text = »Es gibt nur einen Ort, an den er geflüchtet sein kann«, antwortete sie.
 1	»	»	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 2	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
@@ -4145,7 +4226,7 @@
 17	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	16	punct	_	_
 
-# sent_id = 204
+# sent_id = 207
 # text = »Es gibt eine alte Zinnmine auf einer Insel inmitten des Moors.
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -4161,7 +4242,7 @@
 12	Moors	Moor	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 205
+# sent_id = 208
 # text = Dort hat er seinen Hund versteckt und auch eine Zuflucht vorbereitet.
 1	Dort	dort	ADV	ADV	_	6	advmod	_	_
 2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -4176,7 +4257,7 @@
 11	vorbereitet	vorbereiten	VERB	VVFIN	VerbForm=Part	6	conj	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 206
+# sent_id = 209
 # text = Bestimmt ist er dorthin geflohen.«
 1	Bestimmt	bestimmen	ADV	ADV	_	5	advmod	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -4184,9 +4265,10 @@
 4	dorthin	dorthin	ADV	PAV	_	5	advmod	_	_
 5	geflohen	fliehen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	SpaceAfter=No
-7	«	«	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\n
+7	«	«	PUNCT	$(	_	5	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 207
+# newpar
+# sent_id = 210
 # text = Die Nebelbank lag wie weiße Wolle vor dem Fenster.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Nebelbank	Nebelbank	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -4199,7 +4281,7 @@
 9	Fenster	Fenster	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 208
+# sent_id = 211
 # text = Holmes beschien sie mit der Lampe.
 1	Holmes	Holmes	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	beschien	bescheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -4207,9 +4289,10 @@
 4	mit	mit	ADP	$(	_	6	case	_	_
 5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Lampe	Lampe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
-7	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+7	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 209
+# newpar
+# sent_id = 212
 # text = »Sehen Sie«, sagte er.
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
@@ -4220,7 +4303,7 @@
 7	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 210
+# sent_id = 213
 # text = »Niemand kann in dieser Nacht den richtigen Weg durch das Grimpener Moor finden.«
 1	»	»	PUNCT	$(	_	14	punct	_	SpaceAfter=No
 2	Niemand	niemand	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	14	nsubj	_	_
@@ -4237,9 +4320,10 @@
 13	Moor	Moor	PROPN	APPR	Foreign=Yes	14	obl	_	_
 14	finden	finden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	14	punct	_	SpaceAfter=No
-16	«	«	PUNCT	$(	_	14	punct	_	SpacesAfter=\s\n
+16	«	«	PUNCT	$(	_	14	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 211
+# newpar
+# sent_id = 214
 # text = Sie lachte und schlug die Hände zusammen.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	lachte	lachen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -4250,7 +4334,7 @@
 7	zusammen	zusammen	ADV	NN	Case=Acc|Gender=Masc|Number=Sing	4	compound:prt	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 212
+# sent_id = 215
 # text = Ihre Augen und Zähne blitzten vor grimmiger Freude.
 1	Ihre	Ihr|ihr	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Plur|Poss=Yes	2	det:poss	_	_
 2	Augen	Auge	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
@@ -4260,9 +4344,10 @@
 6	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	8	case	_	_
 7	grimmiger	grimmig	ADJ	ADJD	_	8	amod	_	_
 8	Freude	Freude	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No
-9	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\n
+9	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 213
+# newpar
+# sent_id = 216
 # text = »Er mag den Weg hinein finden, aber niemals wieder heraus«, rief sie.
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -4282,7 +4367,7 @@
 16	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 214
+# sent_id = 217
 # text = »Wie kann er heute Nacht die Stecken finden, die ihn führen?
 1	»	»	PUNCT	$(	_	9	punct	_	SpaceAfter=No
 2	Wie	wie	ADV	NN	Case=Nom|Gender=Masc|Number=Plur	9	advmod	_	_
@@ -4299,7 +4384,7 @@
 13	führen	führen	VERB	VVINF	VerbForm=Inf	9	acl	_	SpaceAfter=No
 14	?	?	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 215
+# sent_id = 218
 # text = Wir haben sie zusammen gepflanzt, er und ich, um den Weg durch das Moor zu markieren.
 1	Wir	wir	PRON	ADJD	_	5	nsubj	_	_
 2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
@@ -4321,7 +4406,7 @@
 18	markieren	markieren	VERB	VVINF	VerbForm=Inf	5	advcl	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 216
+# sent_id = 219
 # text = Oh, hätte ich sie nur heute herausgerissen!
 1	Oh	Oh	PROPN	ADJD	_	8	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	1	punct	_	_
@@ -4333,7 +4418,7 @@
 8	herausgerissen	herausgerissen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 9	!	!	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 217
+# sent_id = 220
 # text = Dann wäre er Ihnen wirklich ausgeliefert!«
 1	Dann	dann	ADV	ADV	_	6	advmod	_	_
 2	wäre	sein	AUX	NN	Foreign=Yes	6	aux	_	_
@@ -4342,9 +4427,10 @@
 5	wirklich	wirklich	ADV	ADV	_	6	advmod	_	_
 6	ausgeliefert	ausliefern	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 7	!	!	PUNCT	$.	_	6	punct	_	SpaceAfter=No
-8	«	«	PUNCT	$(	_	6	punct	_	SpacesAfter=\s\n
+8	«	«	PUNCT	$(	_	6	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 218
+# newpar
+# sent_id = 221
 # text = Es war offensichtlich, dass jede Verfolgung sinnlos war, bevor sich der Nebel verzogen hatte.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	war	sein	AUX	ADV	_	3	cop	_	_
@@ -4364,7 +4450,7 @@
 16	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 219
+# sent_id = 222
 # text = So ließen wir Lestrade in Stapletons Haus zurück, während Holmes und ich mit dem Baronet nach Baskerville Hall zurückkehrten.
 1	So	so	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	2	advmod	_	_
 2	ließen	lassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -4388,7 +4474,7 @@
 20	zurückkehrten	zurückkehren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 220
+# sent_id = 223
 # text = Die Wahrheit über die Stapletons konnte ihm nicht länger verheimlicht werden, doch hielt er dem Schlag tapfer stand, als wir ihm über die Frau berichteten, die er geliebt hatte.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Wahrheit	Wahrheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj:pass	_	_
@@ -4424,7 +4510,7 @@
 32	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	aux	_	SpaceAfter=No
 33	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 221
+# sent_id = 224
 # text = Doch hatte der Schrecken der nächtlichen Abenteuer seine Nerven angegriffen, und bevor der Morgen graute, lag er mit hohem Fieber darnieder und Dr. Mortimer pflegte ihn.
 1	Doch	doch	ADV	KON	_	2	advmod	_	_
 2	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -4456,7 +4542,7 @@
 28	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	SpaceAfter=No
 29	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 222
+# sent_id = 225
 # text = Die beiden mussten erst zusammen eine Weltreise unternehmen, damit Sir Henry wieder der gesunde und kräftige Mann wurde, der er gewesen war, bevor er der Herr dieses verwünschten Anwesens wurde.
 1	Die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	2	det	_	_
 2	beiden	beide	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	8	nsubj	_	_
@@ -4491,9 +4577,10 @@
 31	verwünschten	verwünscht	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	32	amod	_	_
 32	Anwesens	Anwesen	NOUN	NE	Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	_
 33	wurde	werden	AUX	KON	_	19	advcl	_	SpaceAfter=No
-34	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\n
+34	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 223
+# newpar
+# sent_id = 226
 # text = Und nun will ich rasch zum Ende dieser ungewöhnlichen Erzählung kommen, in welcher ich mich bemüht habe, den Leser an all jenen düsteren Ängsten und vagen Befürchtungen teilhaben zu lassen, die unser Leben so lange verdunkelt haben und auf so tragische Weise endeten.
 1	Und	und	CCONJ	ADJD	_	12	cc	_	_
 2	nun	nun	ADV	ADV	_	12	advmod	_	_
@@ -4545,7 +4632,7 @@
 47	endeten	endeten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	40	conj	_	SpaceAfter=No
 48	.	.	PUNCT	$.	_	12	punct	_	_
 
-# sent_id = 224
+# sent_id = 227
 # text = Am Morgen nach dem Tod des Hundes hatte sich der Nebel gelichtet, und Mrs. Stapleton führte uns zu der Stelle, wo sie einen Weg durch das Moor markiert hatten.
 1-2	Am	_	_	_	_	_	_	_	_
 1	An	an	ADP	APPR	_	3	case	_	_
@@ -4583,7 +4670,7 @@
 33	hatten	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	32	aux	_	SpaceAfter=No
 34	.	.	PUNCT	$.	_	13	punct	_	_
 
-# sent_id = 225
+# sent_id = 228
 # text = Es half uns, die Leiden im Leben dieser Frau zu verstehen, als wir den Eifer und die Freude sahen, mit welcher sie uns auf die Fährte ihres Mannes brachte.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	half	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -4621,7 +4708,7 @@
 33	brachte	bringen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	acl	_	SpaceAfter=No
 34	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 226
+# sent_id = 229
 # text = Wir ließen sie auf einer sicheren und soliden Halbinsel zurück, die in das sich um sie herum ausbreitende Moor hineinragte.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	ließen	lassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -4646,7 +4733,7 @@
 21	hineinragte	hineinragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 227
+# sent_id = 230
 # text = Von dort aus zeigten uns hier und dort angepflanzte Stecken den Weg, der im Zickzack zwischen mit grünem Schaum bedeckten Tümpeln und übel riechenden Morastlöchern, die dem Fremden den Durchgang versperrten, entlang führte.
 1	Von	von	ADP	APPR	_	2	case	_	_
 2	dort	dort	ADV	ADV	_	4	advmod	_	_
@@ -4688,7 +4775,7 @@
 37	führte	führen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl	_	SpaceAfter=No
 38	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 228
+# sent_id = 231
 # text = Schlanke Gräser und üppige, schleimige Wasserpflanzen sonderten einen modrigen Geruch und schwere Ausdünstungen ab, während ein falscher Schritt uns mehr als einmal tief in dem dunklen, schmatzenden Moor versinken ließ, das viele Meter weit um unsere Füße herum vor sich hin waberte.
 1	Schlanke	schlank	ADJ	NE	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
 2	Gräser	Gräser	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -4738,7 +4825,7 @@
 46	waberte	waberen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl	_	SpaceAfter=No
 47	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 229
+# sent_id = 232
 # text = Sein zäher Griff packte unsere Knöchel, während wir liefen, und wenn wir einsanken, schien es, als ob eine heimtückische Hand uns in diese widerwärtigen Tiefen ziehen wollte, so fest und hinterhältig griff der Sumpf nach uns.
 1	Sein	sein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	3	det:poss	_	_
 2	zäher	zäh	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
@@ -4783,7 +4870,7 @@
 41	uns	wir	PRON	NE	Case=Dat|Gender=Neut|Number=Sing	39	nmod	_	SpaceAfter=No
 42	.	.	PUNCT	$.	_	17	punct	_	_
 
-# sent_id = 230
+# sent_id = 233
 # text = Nur einmal sahen wir eine Spur davon, dass jemand vor uns schon diesen gefährlichen Weg gegangen war.
 1	Nur	nur	ADV	ADV	_	2	advmod	_	_
 2	einmal	einmal	ADV	ADV	_	3	advmod	_	_
@@ -4805,7 +4892,7 @@
 18	war	sein	AUX	ADV	_	17	aux	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 231
+# sent_id = 234
 # text = Inmitten eines Büschels Riedgrases, das aus dem Schleim aufragte, lag etwas Dunkles.
 1	Inmitten	inmitten	ADP	APPR	_	3	case	_	_
 2	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
@@ -4823,7 +4910,7 @@
 14	Dunkles	Dunkles	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	12	punct	_	_
 
-# sent_id = 232
+# sent_id = 235
 # text = Holmes versank bis zur Hüfte im Schlamm, als der den Pfad verließ, um es aufzuheben, und wären wir nicht bei ihm gewesen, um ihn herauszuziehen, er hätte wohl nie mehr seinen Fuß auf festen Grund gesetzt.
 1	Holmes	Holmes	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	versank	versinken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -4872,7 +4959,7 @@
 43	gesetzt	setzen	VERB	VVPP	VerbForm=Part	2	parataxis	_	SpaceAfter=No
 44	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 233
+# sent_id = 236
 # text = Er hielt einen alten, schwarzen Schuh in die Luft.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	hielt	halten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -4886,7 +4973,7 @@
 10	Luft	Luft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 234
+# sent_id = 237
 # text = »Meyers, Toronto«, war auf die Innenseite des Leders gedruckt.
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Meyers	Meyer	PRON	NN	Case=Gen|Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
@@ -4901,9 +4988,10 @@
 11	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Leders	Leder	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
 13	gedruckt	drucken	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-14	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\s\n
+14	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 235
+# newpar
+# sent_id = 238
 # text = »Das war das Schlammbad wert«, sagte er.
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
@@ -4917,7 +5005,7 @@
 10	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 236
+# sent_id = 239
 # text = »Es ist der vermisste Schuh unseres Freundes Sir Henry.«
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -4930,9 +5018,10 @@
 9	Sir	Sir	PROPN	FM	Foreign=Yes	8	appos	_	_
 10	Henry	Henry	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	9	flat	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	6	punct	_	SpaceAfter=No
-12	«	«	PUNCT	$(	_	6	punct	_	SpacesAfter=\s\n
+12	«	«	PUNCT	$(	_	6	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 237
+# newpar
+# sent_id = 240
 # text = »Von Stapleton auf seiner Flucht dort weggeworfen.«
 1	»	»	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Von	von	PROPN	APPR	_	8	dep	_	_
@@ -4943,9 +5032,10 @@
 7	dort	dort	ADV	ADV	_	8	advmod	_	_
 8	weggeworfen	weggeworfen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	8	punct	_	SpaceAfter=No
-10	«	«	PUNCT	$(	_	8	punct	_	SpacesAfter=\s\n
+10	«	«	PUNCT	$(	_	8	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 238
+# newpar
+# sent_id = 241
 # text = »So ist es.
 1	»	»	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 2	So	so	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	1	advmod	_	_
@@ -4953,7 +5043,7 @@
 4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 239
+# sent_id = 242
 # text = Er behielt ihn in seiner Hand, nachdem er ihn benutzt hatte, um den Hund auf die richtige Fährte zu bringen.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	behielt	behalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -4979,7 +5069,7 @@
 22	bringen	bringen	VERB	VVINF	VerbForm=Inf	11	advcl	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 240
+# sent_id = 243
 # text = Als er merkte, dass das Spiel aus war, floh er und hielt ihn dabei noch immer in der Hand.
 1	Als	als	SCONJ	KOUS	_	3	mark	_	_
 2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -5004,7 +5094,7 @@
 21	Hand	Hand	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	11	punct	_	_
 
-# sent_id = 241
+# sent_id = 244
 # text = Erst an dieser Stelle warf er ihn fort.
 1	Erst	erst	ADV	ADV	_	4	advmod	_	_
 2	an	an	ADP	APPR	_	4	case	_	_
@@ -5016,7 +5106,7 @@
 8	fort	fort	ADV	PTKVZ	_	5	compound:prt	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 242
+# sent_id = 245
 # text = Wenigstens wissen wir, dass er sicher bis hierhin gekommen ist.«
 1	Wenigstens	wenigstens	ADV	ADV	_	2	advmod	_	_
 2	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5030,9 +5120,10 @@
 10	gekommen	kommen	VERB	ADJD	VerbForm=Part	2	ccomp	_	_
 11	ist	sein	AUX	NN	Case=Nom|Gender=Masc|Number=Sing	10	aux	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No
-13	«	«	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\n
+13	«	«	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 243
+# newpar
+# sent_id = 246
 # text = Doch mehr als das sollten wir niemals erfahren, auch wenn wir eine Menge vermuteten.
 1	Doch	doch	ADV	KON	_	8	advmod	_	_
 2	mehr	mehr	ADV	ADV	_	1	advmod	_	_
@@ -5051,7 +5142,7 @@
 15	vermuteten	vermuten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	parataxis	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 244
+# sent_id = 247
 # text = Es gab keine Möglichkeiten, Fußabdrücke im Moor zu finden, da der Schlamm sie umgehend wieder füllte, aber als wir schließlich wieder festeren Boden erreichten, suchten wir gründlich nach ihnen, doch haben wir niemals nur das kleinste Anzeichen gefunden.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	advcl	_	_
@@ -5100,7 +5191,7 @@
 44	gefunden	gefund	ADJ	VVPP	VerbForm=Part	30	conj	_	SpaceAfter=No
 45	.	.	PUNCT	$.	_	30	punct	_	_
 
-# sent_id = 245
+# sent_id = 248
 # text = Wenn der Boden uns die Wahrheit erzählte, hat Stapleton diese Zufluchtsinsel, die er durch den Nebel jener letzten Nacht ansteuerte, nie erreicht.
 1	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	_
 2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -5129,7 +5220,7 @@
 25	erreicht	erreichen	ADJ	VVPP	VerbForm=Part	22	conj	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 246
+# sent_id = 249
 # text = Irgendwo inmitten des großen Grimpener Moores, versunken im fauligen Schleim des Morastes, der ihn nach unten gezogen hatte, liegt dieser eiskalte und grausame Mann für immer begraben.
 1	Irgendwo	irgendwo	PROPN	ADV	_	8	dep	_	_
 2	inmitten	inmitten	ADP	APPR	_	6	case	_	_
@@ -5163,9 +5254,10 @@
 29	für	für	ADP	APPR	_	31	case	_	_
 30	immer	immer	ADV	ADV	_	31	advmod	_	_
 31	begraben	begraben	VERB	VVPP	VerbForm=Part	23	obl	_	SpaceAfter=No
-32	.	.	PUNCT	$.	_	23	punct	_	SpacesAfter=\s\n
+32	.	.	PUNCT	$.	_	23	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 247
+# newpar
+# sent_id = 250
 # text = Auf der vom Moor umschlossenen Insel, wo er seinen wilden Helfer verborgen hatte, fanden wir einige Spuren von ihm.
 1	Auf	auf	ADP	APPR	_	7	case	_	_
 2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -5192,7 +5284,7 @@
 22	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	17	punct	_	_
 
-# sent_id = 248
+# sent_id = 251
 # text = Ein großes Steuerrad und ein halb verschütteter Schacht zeigten uns, wo sich die verlassene Mine befunden hatte.
 1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 2	großes	groß	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	3	amod	_	_
@@ -5214,7 +5306,7 @@
 18	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 249
+# sent_id = 252
 # text = Daneben lagen die verfallenen Reste von Behausungen der Minenarbeiter, die zweifellos von den sie umgebenden fauligen Dünsten vertrieben worden waren.
 1	Daneben	daneben	ADV	PAV	_	2	advmod	_	_
 2	lagen	liegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -5239,7 +5331,7 @@
 21	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 250
+# sent_id = 253
 # text = In einer von ihnen zeigten uns ein Ring mit Kette und eine Anzahl abgenagter Knochen, wo der Hund gehalten worden war.
 1	In	in	ADP	APPR	_	5	case	_	_
 2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -5265,7 +5357,7 @@
 22	war	sein	AUX	ADV	_	20	aux	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 251
+# sent_id = 254
 # text = Zwischen den Abfällen lag ein Skelett, an welchem noch ein Büschel brauner Haare hing.
 1	Zwischen	zwischen	ADP	NE	Case=Nom|Gender=Masc|Number=Sing	3	case	_	_
 2	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -5282,9 +5374,10 @@
 13	brauner	braun	ADJ	NN	Case=Acc|Gender=Neut|Number=Sing	14	amod	_	_
 14	Haare	Haar	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	15	obj	_	_
 15	hing	hängen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl	_	SpaceAfter=No
-16	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\n
+16	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\n\n
 
-# sent_id = 252
+# newpar
+# sent_id = 255
 # text = »Ein Hund«, sagte Holmes.
 1	»	»	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 2	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -5295,7 +5388,7 @@
 7	Holmes	Holm	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	flat	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 253
+# sent_id = 256
 # text = »Bei Jupiter, ein kraushaariger Spaniel.
 1	»	»	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 2	Bei	bei	ADP	APPR	_	3	case	_	_
@@ -5306,7 +5399,7 @@
 7	Spaniel	Spaniel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	appos	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 254
+# sent_id = 257
 # text = Der arme Mortimer wird seinen Schoßhund niemals wiedersehen.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	arme	arm	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	3	amod	_	_
@@ -5318,7 +5411,7 @@
 8	wiedersehen	wiedersehen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 255
+# sent_id = 258
 # text = Nun, ich glaube nicht, dass dieser Ort noch ein Geheimnis enthält, das wir nicht schon entdeckt haben.
 1	Nun	nun	ADV	ADV	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
@@ -5342,7 +5435,7 @@
 20	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 256
+# sent_id = 259
 # text = Er konnte zwar seinen Hund verbergen, aber er konnte sein Heulen nicht abstellen, daher dieses Heulen, das auch bei Tageslicht nicht schön anzuhören war.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 2	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
@@ -5373,7 +5466,7 @@
 27	war	sein	AUX	TRUNC	Case=Acc|Gender=Fem|Number=Sing	26	aux	_	SpaceAfter=No
 28	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 257
+# sent_id = 260
 # text = Für den Notfall konnte er den Hund auch in seinem Gartenhaus unterbringen, aber das war immer ein Risiko, das er erst an jenem Tag einging, den er als Erfüllung seiner Mühen ansah.
 1	Für	für	ADP	APPR	_	3	case	_	_
 2	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -5412,7 +5505,7 @@
 35	ansah	ansehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	acl	_	SpaceAfter=No
 36	.	.	PUNCT	$.	_	12	punct	_	_
 
-# sent_id = 258
+# sent_id = 261
 # text = Diese Paste in der Dose ist ganz klar die Leuchtfarbe, mit welcher der Hund bemalt wurde.
 1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	Paste	Paste	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
@@ -5433,7 +5526,7 @@
 17	wurde	werden	AUX	KON	_	16	aux:pass	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 259
+# sent_id = 262
 # text = Natürlich wurde das von der alten Familienlegende des Höllenhundes angeregt und durch die Idee, den alten Sir Charles zu Tode zu erschrecken.
 1	Natürlich	natürlich	ADJ	ADJD	_	10	advmod	_	_
 2	wurde	werden	AUX	KON	_	10	aux:pass	_	_
@@ -5460,7 +5553,7 @@
 23	erschrecken	erschrecken	VERB	VVINF	VerbForm=Inf	10	conj	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 260
+# sent_id = 263
 # text = Kein Wunder, dass der arme Sträfling, ebenso wie unser Freund und wir es selbst wohl auch getan hätten, vor Todesangst davonlief und schrie, als er diese Kreatur durch die Dunkelheit über das Moor ihm nachjagen sah.
 1	Kein	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	2	det	_	_
 2	Wunder	Wunder	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	39	nsubj	_	SpaceAfter=No
@@ -5504,7 +5597,7 @@
 40	sah	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	acl	_	SpaceAfter=No
 41	.	.	PUNCT	$.	_	39	punct	_	_
 
-# sent_id = 261
+# sent_id = 264
 # text = Es war ein schlauer Plan, denn abgesehen von der Möglichkeit, dein Opfer zu Tode zu erschrecken, welcher Bauer würde es wagen, ein solches Geschöpf, falls er ihm auf dem Moor begegnen würde, näher zu untersuchen?
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	war	sein	AUX	ADV	_	5	cop	_	_
@@ -5549,7 +5642,7 @@
 41	untersuchen	untersuchen	VERB	ADJA	Case=Gen|Gender=Masc|Number=Sing	5	acl	_	SpaceAfter=No
 42	?	?	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 262
+# sent_id = 265
 # text = Ich habe es dir in London gesagt, Watson, und sage es wieder, niemals haben wir einen gefährlicheren Mann verfolgt als jenen, der irgendwo hier unten liegt...«
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -5584,7 +5677,7 @@
 31	...	...	PUNCT	$(	_	32	punct	_	SpaceAfter=No
 32	«	«	PUNCT	$(	_	22	punct	_	_
 
-# sent_id = 263
+# sent_id = 266
 # text = Er zeigte mit seinen langen Armen auf die unendliche Fläche des grün-gesprenkelten Moores, das sich vor uns bis zu den weit in der Ferne liegenden roten Hängen der Hügel erstreckte.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	zeigte	zeigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -5618,5 +5711,5 @@
 30	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
 31	Hügel	Hügel	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	_
 32	erstreckte	erstrecken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	acl	_	SpaceAfter=No
-33	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+33	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n\n
 

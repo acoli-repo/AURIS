@@ -1,4 +1,4 @@
-# newdoc id = txt/de/ted-mdb.2150.txt
+# newdoc
 # newpar
 # sent_id = 1
 # text = Dave Troy : Soziale Kartografie – Überschneidung und Trennung in Städten
@@ -12,10 +12,11 @@
 8	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	9	cc	_	_
 9	Trennung	Trennung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	_
 10	in	in	ADP	APPR	_	11	case	_	_
-11	Städten	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	nmod	_	SpacesAfter=\s\n
+11	Städten	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	nmod	_	SpacesAfter=\s\n\n
 
+# newpar
 # sent_id = 2
-# text = Wenn wir über die Kartierung von Städten nachdenken , denken wir an Wege , Straßen und Gebäude und an die Stadtentwicklung , die zu diesem Ergebnis führte , oder Sie denken an die großen Visionen eines Städteplaners . Es gibt aber andere Arten , über die Kartierung von Städten nachzudenken und wie diese entstanden sind . Heute möchte ich Ihnen eine neue Art Karte zeigen . Es ist keine geografische Karte , es ist eine Karte der Beziehungen zwischen den Menschen meiner Heimatstadt , Baltimore , Maryland .
+# text = Wenn wir über die Kartierung von Städten nachdenken , denken wir an Wege , Straßen und Gebäude und an die Stadtentwicklung , die zu diesem Ergebnis führte , oder Sie denken an die großen Visionen eines Städteplaners .
 1	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	_
 2	wir	wir	PRON	ADJD	_	8	nsubj	_	_
 3	über	über	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	5	case	_	_
@@ -53,60 +54,73 @@
 35	Visionen	Vision	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	31	obl	_	_
 36	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
 37	Städteplaners	Städteplaners	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	_
-38	.	.	PUNCT	$.	_	40	punct	_	SpacesAfter=\n
-39	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	40	expl	_	_
-40	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	57	parataxis	_	_
-41	aber	aber	ADV	ADV	_	40	advmod	_	_
-42	andere	ander	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	43	det	_	_
-43	Arten	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	54	nsubj	_	_
-44	,	,	PUNCT	$,	_	47	punct	_	_
-45	über	über	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	47	case	_	_
-46	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
-47	Kartierung	Kartierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	54	obl	_	_
-48	von	von	ADP	FM	Foreign=Yes	49	case	_	_
-49	Städten	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	47	nmod	_	_
-50	nachzudenken	nachzudenk	ADJ	NN	Case=Gen|Number=Plur	54	advmod	_	_
-51	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	54	cc	_	_
-52	wie	wie	ADP	NN	Case=Gen|Gender=Masc|Number=Sing	53	case	_	_
-53	diese	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	54	obl	_	_
-54	entstanden	entstehen	VERB	VVPP	VerbForm=Part	40	acl	_	_
-55	sind	sein	AUX	ADJD	_	54	cop	_	_
-56	.	.	PUNCT	$.	_	40	punct	_	SpacesAfter=\n
-57	Heute	heute	ADV	ADV	_	65	advmod	_	_
-58	möchte	mögen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	65	aux	_	_
-59	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	65	nsubj	_	_
-60	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	65	iobj	_	_
-61	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	63	det	_	_
-62	neue	neu	ADJ	NN	Case=Gen|Gender=Fem|Number=Sing	63	amod	_	_
-63	Art	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	65	obj	_	_
-64	Karte	Karte	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	63	nmod	_	_
-65	zeigen	zeigen	VERB	VVINF	VerbForm=Inf	10	conj	_	_
-66	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
-67	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	_
-68	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	71	cop	_	_
-69	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	71	nmod	_	_
-70	geografische	geografisch	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	71	amod	_	_
-71	Karte	Karte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	nsubj	_	_
-72	,	,	PUNCT	$,	_	76	punct	_	_
-73	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	76	nsubj	_	_
-74	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	76	cop	_	_
-75	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	76	det	_	_
-76	Karte	Karte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
-77	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	78	det	_	_
-78	Beziehungen	Beziehung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	76	nmod	_	_
-79	zwischen	zwischen	ADP	ADJA	Case=Gen|Gender=Fem|Number=Sing	81	case	_	_
-80	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	81	det	_	_
-81	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	76	nmod	_	_
-82	meiner	mein	PRON	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	83	det:poss	_	_
-83	Heimatstadt	Heimatstadt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	81	nmod	_	_
-84	,	,	PUNCT	$,	_	85	punct	_	_
-85	Baltimore	Baltimore	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	83	appos	_	_
-86	,	,	PUNCT	$,	_	87	punct	_	_
-87	Maryland	Maryland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	85	conj	_	_
-88	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+38	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 3
-# text = Sie können sehen , dass jeder Punkt eine Person darstellt , jede Linie eine Beziehung zwischen diesen Menschen und jede Farbe eine Gruppierung innerhalb dieses Netzwerkes . Ich bin hier auf der grünen Seite , unten , weit am rechten Rand , wo die Geeks sind . Auch TEDx ist unten , weit rechts . ( Lachen ) Auf der anderen Seite des Netzwerkes gibt es eher Afroamerikaner und Latinos , die um ganz andere Dinge besorgt sind als die Geeks . Um Ihnen ein Gefühl zu geben , den grünen Teil des Netzwerkes nennen wir Klein-timore , da diese Leute , wie es scheint , in einer sehr kleinen Stadt wohnen . Wir sehen immer wieder die gleichen Leute , weil wir nicht die ganze Breite und Tiefe der Stadt erforschen . Auf der anderen Seite des Netzwerkes haben sie Menschen , die an Dingen wie Hip-Hop interessiert sind und sich eher mit dem Wohngebiet DC / Maryland / Virigina identifizieren , als mit der korrekten Stadtbezeichnung für Baltimore . In der Mitte sehen Sie etwas , das die beiden Gruppierungen verbindet , und das ist Sport . Wir haben die Baltimore Orioles , die Baltimore Ravens [ Football ] den Olympioniken Michael Phelps , die Baltimore Firma Under Armour , die sie vielleicht kennen . Diese Sportverbundenheit fungiert als einzige Brücke zwischen den beiden Enden des Netzwerkes . Schauen wir uns San Francisco an . Sie sehen , dass dort etwas anderes passiert . Auf der einen Seite gibt es den Medien- , Politik- und Nachrichtenflügel , den es in Baltimore und anderen Städten meist gibt , es gibt aber auch diese tonangebende Gruppe der Geeks und Technikbegeisterten , die die obere Hälfte der Karte dominieren , sowie eine Gruppe , die so klar und ausgeprägt ist , dass wir sie als Twitter-Mitarbeiter bezeichnen , nahe bei den Geeks , zwischen Gamern und Geeks , am entgegengesetzten Ende des Hip-Hop-Spektrums . Sie sehen also , dass die Spannungen , die wir aus San Francisco vernehmen , dass sich die Leute um Gentrifizierung sorgen , wegen diesen neuen Tech-Firmen , die neuen Wohlstand bringen und sich in der Stadt ansiedeln , real sind . Sie sehen das hier dokumentiert . Sie sehen die LGBT-Community , die nicht zu den Geeks passt , die Künstler ,
+# text = Es gibt aber andere Arten , über die Kartierung von Städten nachzudenken und wie diese entstanden sind .
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	aber	aber	ADV	ADV	_	2	advmod	_	_
+4	andere	ander	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	5	det	_	_
+5	Arten	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	_
+6	,	,	PUNCT	$,	_	9	punct	_	_
+7	über	über	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	9	case	_	_
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Kartierung	Kartierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
+10	von	von	ADP	FM	Foreign=Yes	11	case	_	_
+11	Städten	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	nmod	_	_
+12	nachzudenken	nachzudenk	ADJ	NN	Case=Gen|Number=Plur	5	conj	_	_
+13	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	12	cc	_	_
+14	wie	wie	ADP	NN	Case=Gen|Gender=Masc|Number=Sing	15	case	_	_
+15	diese	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	16	obl	_	_
+16	entstanden	entstehen	VERB	VVPP	VerbForm=Part	2	acl	_	_
+17	sind	sein	AUX	ADJD	_	16	cop	_	_
+18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Heute möchte ich Ihnen eine neue Art Karte zeigen .
+1	Heute	heute	ADV	ADV	_	9	advmod	_	_
+2	möchte	mögen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+4	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	9	iobj	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	neue	neu	ADJ	NN	Case=Gen|Gender=Fem|Number=Sing	7	amod	_	_
+7	Art	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+8	Karte	Karte	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	7	appos	_	_
+9	zeigen	zeigen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Es ist keine geografische Karte , es ist eine Karte der Beziehungen zwischen den Menschen meiner Heimatstadt , Baltimore , Maryland .
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	5	nmod	_	_
+4	geografische	geografisch	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	5	amod	_	_
+5	Karte	Karte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
+6	,	,	PUNCT	$,	_	10	punct	_	_
+7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+8	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Karte	Karte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	_
+11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	Beziehungen	Beziehung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+13	zwischen	zwischen	ADP	ADJA	Case=Gen|Gender=Fem|Number=Sing	15	case	_	_
+14	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_
+16	meiner	mein	PRON	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	17	det:poss	_	_
+17	Heimatstadt	Heimatstadt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+18	,	,	PUNCT	$,	_	19	punct	_	_
+19	Baltimore	Baltimore	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	17	appos	_	_
+20	,	,	PUNCT	$,	_	21	punct	_	_
+21	Maryland	Maryland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	19	conj	_	_
+22	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Sie können sehen , dass jeder Punkt eine Person darstellt , jede Linie eine Beziehung zwischen diesen Menschen und jede Farbe eine Gruppierung innerhalb dieses Netzwerkes .
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	_
@@ -133,909 +147,1107 @@
 24	innerhalb	innerhalb	ADP	APPR	_	26	case	_	_
 25	dieses	dies	PRON	PDAT	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	26	det	_	_
 26	Netzwerkes	Netzwerk	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
-27	.	.	PUNCT	$.	_	29	punct	_	SpacesAfter=\n
-28	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
-29	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	55	cop	_	_
-30	hier	hier	ADV	ADV	_	34	advmod	_	_
-31	auf	auf	ADP	APPR	_	34	case	_	_
-32	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-33	grünen	grün	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	34	amod	_	_
-34	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	29	obl	_	_
-35	,	,	PUNCT	$,	_	36	punct	_	_
-36	unten	unten	ADV	ADJA	Case=Acc|Gender=Fem|Number=Plur	34	conj	_	_
-37	,	,	PUNCT	$,	_	42	punct	_	_
-38	weit	weit	ADJ	NN	Case=Acc|Gender=Fem|Number=Plur	42	amod	_	_
-39-40	am	_	_	_	_	_	_	_	_
-39	an	an	ADP	APPR	_	42	case	_	_
-40	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
-41	rechten	recht	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	42	amod	_	_
-42	Rand	Rand	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	34	conj	_	_
-43	,	,	PUNCT	$,	_	47	punct	_	_
-44	wo	wo	ADV	NE	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	47	advmod	_	_
-45	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	46	det	_	_
-46	Geeks	Geek	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	47	nsubj	_	_
-47	sind	sein	AUX	ADJD	_	42	acl	_	_
-48	.	.	PUNCT	$.	_	34	punct	_	SpacesAfter=\n
-49	Auch	auch	ADV	ADV	_	50	advmod	_	_
-50	TEDx	TEDx	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	55	nsubj	_	_
-51	ist	sein	AUX	NE	Case=Nom|Gender=Masc|Number=Sing	55	cop	_	_
-52	unten	unten	ADV	ADJA	Case=Acc|Gender=Fem|Number=Plur	55	advmod	_	_
-53	,	,	PUNCT	$,	_	55	punct	_	_
-54	weit	weit	ADJ	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	55	advmod	_	_
-55	rechts	rechts	ADV	NN	Case=Acc|Gender=Neut|Number=Plur	3	conj	_	_
-56	.	.	PUNCT	$.	_	66	punct	_	SpacesAfter=\n
-57	(	(	PUNCT	$(	_	58	punct	_	_
-58	Lachen	Lachen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	66	nsubj	_	_
-59	)	)	PUNCT	$(	_	58	punct	_	_
-60	Auf	auf	ADP	APPR	_	63	case	_	_
-61	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	63	det	_	_
-62	anderen	ander	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	63	amod	_	_
-63	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	66	obl	_	_
-64	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	65	det	_	_
-65	Netzwerkes	Netzwerk	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	63	nmod	_	_
-66	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	195	parataxis	_	_
-67	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	66	expl	_	_
-68	eher	eher	ADV	ADV	_	69	advmod	_	_
-69	Afroamerikaner	Afroamerikaner	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	66	nsubj	_	_
-70	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	71	cc	_	_
-71	Latinos	Latino	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	69	conj	_	_
-72	,	,	PUNCT	$,	_	78	punct	_	_
-73	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	78	nsubj	_	_
-74	um	um	ADP	APPR	_	78	mark	_	_
-75	ganz	ganz	ADJ	ADV	_	76	advmod	_	_
-76	andere	ander	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	77	amod	_	_
-77	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	78	nsubj	_	_
-78	besorgt	besorgt	VERB	ADJD	_	69	acl	_	_
-79	sind	sein	AUX	ADJD	_	78	cop	_	_
-80	als	als	ADP	KOKOM	_	82	case	_	_
-81	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	82	det	_	_
-82	Geeks	Geek	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	66	obl	_	_
-83	.	.	PUNCT	$.	_	89	punct	_	SpacesAfter=\n
-84	Um	um	ADP	KOUI	_	89	mark	_	_
-85	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	89	iobj	_	_
-86	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	87	det	_	_
-87	Gefühl	Gefühl	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	89	obj	_	_
-88	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	89	mark	_	_
-89	geben	geben	VERB	VVINF	VerbForm=Inf	96	advcl	_	_
-90	,	,	PUNCT	$,	_	96	punct	_	_
-91	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	93	det	_	_
-92	grünen	grün	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	93	amod	_	_
-93	Teil	Teil	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	96	obj	_	_
-94	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	95	det	_	_
-95	Netzwerkes	Netzwerk	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	93	nmod	_	_
-96	nennen	nennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	66	acl	_	_
-97	wir	wir	PRON	ADJD	_	96	nsubj	_	_
-98	Klein-	Klein-	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	99	nsubj	_	SpaceAfter=No
-99	timore	timorn	VERB	NE	Case=Nom|Gender=Masc|Number=Sing	96	xcomp	_	_
-100	,	,	PUNCT	$,	_	117	punct	_	_
-101	da	da	SCONJ	KOUS	_	117	mark	_	_
-102	diese	dies	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem	103	det	_	_
-103	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur	117	nsubj	_	_
-104	,	,	PUNCT	$,	_	107	punct	_	_
-105	wie	wie	SCONJ	NN	Case=Nom|Gender=Neut|Number=Sing	107	mark	_	_
-106	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	107	nsubj	_	_
-107	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	103	advcl	_	_
-108	,	,	PUNCT	$,	_	114	punct	_	_
-109	in	in	ADP	APPR	_	113	case	_	_
-110	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	113	det	_	_
-111	sehr	sehr	ADV	NN	Case=Dat|Gender=Fem|Number=Sing	112	advmod	_	_
-112	kleinen	klein	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	113	amod	_	_
-113	Stadt	Stadt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	114	obl	_	_
-114	wohnen	wohnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	107	xcomp	_	_
-115	.	.	PUNCT	$.	_	103	punct	_	SpacesAfter=\n
-116	Wir	wir	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	117	nsubj	_	_
-117	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	96	advcl	_	_
-118	immer	immer	ADV	ADV	_	119	advmod	_	_
-119	wieder	wieder	ADV	NN	Case=Nom|Gender=Neut|Number=Plur	117	advmod	_	_
-120	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	122	det	_	_
-121	gleichen	gleich	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	122	amod	_	_
-122	Leute	Leute	NOUN	NN	Case=Acc|Number=Plur	117	obj	_	_
-123	,	,	PUNCT	$,	_	134	punct	_	_
-124	weil	weil	SCONJ	KOUS	_	134	mark	_	_
-125	wir	wir	PRON	ADJD	_	134	nsubj	_	_
-126	nicht	nicht	PART	CARD	NumType=Card	134	advmod	_	_
-127	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	129	det	_	_
-128	ganze	ganz	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	129	amod	_	_
-129	Breite	Breite	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	134	obj	_	_
-130	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	131	cc	_	_
-131	Tiefe	Tiefe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	129	conj	_	_
-132	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	133	det	_	_
-133	Stadt	Stadt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	129	nmod	_	_
-134	erforschen	erforschen	VERB	ADJA	Case=Gen|Gender=Fem|Number=Sing	117	advcl	_	_
-135	.	.	PUNCT	$.	_	66	punct	_	SpacesAfter=\n
-136	Auf	auf	ADP	APPR	_	139	case	_	_
-137	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	139	det	_	_
-138	anderen	ander	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	139	amod	_	_
-139	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	66	obl	_	_
-140	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	141	det	_	_
-141	Netzwerkes	Netzwerk	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	139	nmod	_	_
-142	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	195	aux	_	_
-143	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	142	nsubj	_	_
-144	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	142	nsubj	_	_
-145	,	,	PUNCT	$,	_	153	punct	_	_
-146	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	153	nsubj	_	_
-147	an	an	ADP	APPR	_	148	case	_	_
-148	Dingen	Ding	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	153	nmod	_	_
-149	wie	wie	ADP	NE	Case=Dat|Gender=Fem|Number=Sing	152	case	_	_
-150	Hip	hip	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	152	compound	_	SpaceAfter=No
-151	-	-	PUNCT	$(	_	150	punct	_	SpaceAfter=No
-152	Hop	Hop	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	148	nmod	_	_
-153	interessiert	interessieren	ADJ	ADJD	_	144	acl	_	_
-154	sind	sein	AUX	ADJD	_	153	cop	_	_
-155	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	166	cc	_	_
-156	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	166	obj	_	_
-157	eher	eher	ADV	ADV	_	166	advmod	_	_
-158	mit	mit	ADP	CARD	NumType=Card	160	case	_	_
-159	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	160	det	_	_
-160	Wohngebiet	Wohngebiet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	166	nmod	_	_
-161	DC	DC	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	160	appos	_	_
-162	/	/	PUNCT	$(	_	163	punct	_	_
-163	Maryland	Maryland	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	161	conj	_	_
-164	/	/	PUNCT	$(	_	165	punct	_	_
-165	Virigina	Virigina	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	161	conj	_	_
-166	identifizieren	identifizi	ADJ	VVINF	VerbForm=Inf	153	conj	_	_
-167	,	,	PUNCT	$,	_	172	punct	_	_
-168	als	als	SCONJ	KOUS	_	172	mark	_	_
-169	mit	mit	ADP	ADJA	Case=Nom|Gender=Neut|Number=Plur	172	case	_	_
-170	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	172	det	_	_
-171	korrekten	korrekt	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	172	amod	_	_
-172	Stadtbezeichnung	Stadtbezeichnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	142	obl	_	_
-173	für	für	ADP	APPR	_	174	case	_	_
-174	Baltimore	Baltimore	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	172	nmod	_	_
-175	.	.	PUNCT	$.	_	172	punct	_	SpacesAfter=\n
-176	In	in	ADP	APPR	_	178	case	_	_
-177	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	178	det	_	_
-178	Mitte	Mitte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	179	obl	_	_
-179	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	142	parataxis	_	_
-180	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	179	nsubj	_	_
-181	etwas	etwas	ADV	ADV	_	194	advmod	_	_
-182	,	,	PUNCT	$,	_	187	punct	_	_
-183	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	187	nsubj	_	_
-184	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	186	det	_	_
-185	beiden	beide	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	186	amod	_	_
-186	Gruppierungen	Gruppierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	187	obj	_	_
-187	verbindet	verbindet	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	181	acl	_	_
-188	,	,	PUNCT	$,	_	192	punct	_	_
-189	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	192	cc	_	_
-190	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	192	nsubj	_	_
-191	ist	sein	AUX	NN	Case=Nom|Gender=Masc|Number=Sing	192	cop	_	_
-192	Sport	Sport	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	187	conj	_	_
-193	.	.	PUNCT	$.	_	187	punct	_	SpacesAfter=\n
-194	Wir	wir	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	179	obj	_	_
-195	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	xcomp	_	_
-196	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	197	det	_	_
-197	Baltimore	Baltimore	PROPN	NE	Foreign=Yes	195	nsubj	_	_
-198	Orioles	Orioles	PROPN	NE	Foreign=Yes	197	flat	_	_
-199	,	,	PUNCT	$,	_	201	punct	_	_
-200	die	der	DET	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	201	det	_	_
-201	Baltimore	Baltimore	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	197	appos	_	_
-202	Ravens	Ravens	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	201	flat	_	_
-203	[	[	PUNCT	$(	_	204	punct	_	_
-204	Football	Football	PROPN	NN	Foreign=Yes	201	appos	_	_
-205	]	]	PUNCT	$(	_	204	punct	_	_
-206	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	207	det	_	_
-207	Olympioniken	Olympionik	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	195	iobj	_	_
-208	Michael	Michael	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	207	appos	_	_
-209	Phelps	Phelps	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	208	flat	_	_
-210	,	,	PUNCT	$,	_	212	punct	_	_
-211	die	der	DET	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	212	det	_	_
-212	Baltimore	Baltimore	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	207	conj	_	_
-213	Firma	Firma	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	212	appos	_	_
-214	Under	Under	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	213	flat	_	_
-215	Armour	Armour	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	213	flat	_	_
-216	,	,	PUNCT	$,	_	212	punct	_	_
-217	die	der	PRON	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	220	obj	_	_
-218	sie	sie	PRON	ADJA	Case=Acc|Gender=Fem|Number=Sing	220	nsubj	_	_
-219	vielleicht	vielleicht	ADV	FM	Foreign=Yes	220	advmod	_	_
-220	kennen	kennen	ADV	PTKVZ	_	195	acl	_	_
-221	.	.	PUNCT	$.	_	224	punct	_	SpacesAfter=\n
-222	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	223	det	_	_
-223	Sportverbundenheit	Sportverbundenheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	224	nsubj	_	_
-224	fungiert	fungieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
-225	als	als	ADP	KOKOM	_	227	case	_	_
-226	einzige	einzig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	227	amod	_	_
-227	Brücke	Brücke	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	224	obl	_	_
-228	zwischen	zwischen	ADP	ADJA	Case=Acc|Gender=Masc|Number=Sing	231	case	_	_
-229	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	231	det	_	_
-230	beiden	beide	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	231	amod	_	_
-231	Enden	enden	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	235	nmod	_	_
-232	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	233	det	_	_
-233	Netzwerkes	Netzwerk	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	231	nmod	_	_
-234	.	.	PUNCT	$.	_	231	punct	_	SpacesAfter=\n
-235	Schauen	schauen	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	227	nmod	_	_
-236	wir	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	224	nsubj	_	_
-237	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	224	obj	_	_
-238	San	San	PROPN	NE	_	224	obj	_	_
-239	Francisco	Francisco	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	238	flat	_	_
-240	an	an	ADP	PTKVZ	_	224	compound:prt	_	_
-241	.	.	PUNCT	$.	_	243	punct	_	SpacesAfter=\n
-242	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	243	nsubj	_	_
-243	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
-244	,	,	PUNCT	$,	_	255	punct	_	_
-245	dass	dass	SCONJ	KOUS	_	255	mark	_	_
-246	dort	dort	ADV	ADV	_	255	advmod	_	_
-247	etwas	etwas	ADV	PIS	Definite=Ind|Gender=Neut|PronType=Ind	248	advmod	_	_
-248	anderes	ander	ADJ	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	255	advmod	_	_
-249	passiert	passieren	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	255	amod	_	_
-250	.	.	PUNCT	$.	_	249	punct	_	SpacesAfter=\n
-251	Auf	auf	ADP	APPR	_	254	case	_	_
-252	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	254	det	_	_
-253	einen	ein	DET	ADJA	Case=Dat|Gender=Fem|Number=Sing	254	det	_	_
-254	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	255	obl	_	_
-255	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	243	ccomp	_	_
-256	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	255	expl	_	_
-257	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	258	det	_	_
-258	Medien	Medium	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	255	obj	_	SpaceAfter=No
-259	-	-	PUNCT	$(	_	261	punct	_	_
-260	,	,	PUNCT	$,	_	261	punct	_	_
-261	Politik	Politik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	258	conj	_	SpaceAfter=No
-262	-	-	PUNCT	$(	_	264	punct	_	_
-263	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	264	cc	_	_
-264	Nachrichtenflügel	Nachrichtenflügel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	258	conj	_	_
-265	,	,	PUNCT	$,	_	274	punct	_	_
-266	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	274	obj	_	_
-267	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	274	nsubj	_	_
-268	in	in	ADP	APPR	_	269	case	_	_
-269	Baltimore	Baltimore	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	274	obl	_	_
-270	und	und	CCONJ	NE	Case=Dat|Gender=Neut|Number=Sing	272	cc	_	_
-271	anderen	ander	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	272	amod	_	_
-272	Städten	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	269	conj	_	_
-273	meist	meist	ADV	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	274	advmod	_	_
-274	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	255	acl	_	_
-275	,	,	PUNCT	$,	_	277	punct	_	_
-276	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	277	expl	_	_
-277	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	255	parataxis	_	_
-278	aber	aber	ADV	ADV	_	277	advmod	_	_
-279	auch	auch	ADV	ADV	_	277	advmod	_	_
-280	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	282	det	_	_
-281	tonangebende	tonangebend	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	282	amod	_	_
-282	Gruppe	Gruppe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	277	nsubj	_	_
-283	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	284	det	_	_
-284	Geeks	Geek	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	282	nmod	_	_
-285	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	286	cc	_	_
-286	Technikbegeisterten	Technikbegeistert	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	284	conj	_	_
-287	,	,	PUNCT	$,	_	294	punct	_	_
-288	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	294	nsubj	_	_
-289	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	291	det	_	_
-290	obere	ober	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	291	amod	_	_
-291	Hälfte	Hälfte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	294	obj	_	_
-292	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	293	det	_	_
-293	Karte	Kart	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	291	nmod	_	_
-294	dominieren	dominieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	282	acl	_	_
-295	,	,	PUNCT	$,	_	298	punct	_	_
-296	sowie	sowie	CCONJ	NN	Case=Gen|Gender=Masc|Number=Sing	298	cc	_	_
-297	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	298	det	_	_
-298	Gruppe	Gruppe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	255	conj	_	_
-299	,	,	PUNCT	$,	_	302	punct	_	_
-300	die	der	PRON	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	302	nsubj	_	_
-301	so	so	ADV	NN	Case=Acc|Gender=Fem|Number=Sing	302	advmod	_	_
-302	klar	klar	ADJ	ADJD	_	298	acl	_	_
-303	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	304	cc	_	_
-304	ausgeprägt	ausprägen	ADJ	ADJD	_	302	conj	_	_
-305	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	302	cop	_	_
-306	,	,	PUNCT	$,	_	314	punct	_	_
-307	dass	dass	SCONJ	KOUS	_	314	mark	_	_
-308	wir	wir	PRON	ADJD	_	314	nsubj	_	_
-309	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	314	nsubj	_	_
-310	als	als	ADP	KOKOM	_	313	case	_	_
-311	Twitter	Twitter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	313	compound	_	SpaceAfter=No
-312	-	-	PUNCT	$(	_	311	punct	_	SpaceAfter=No
-313	Mitarbeiter	Mitarbeite	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	314	obl	_	_
-314	bezeichnen	bezeichnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	302	ccomp	_	_
-315	,	,	PUNCT	$,	_	319	punct	_	_
-316	nahe	nahe	ADV	CARD	NumType=Card	319	advmod	_	_
-317	bei	bei	ADP	APPR	_	319	case	_	_
-318	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	319	det	_	_
-319	Geeks	Geek	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	314	obl	_	_
-320	,	,	PUNCT	$,	_	322	punct	_	_
-321	zwischen	zwischen	ADP	NN	Case=Dat|Gender=Masc|Number=Sing	322	case	_	_
-322	Gamern	Gamer	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	319	nmod	_	_
-323	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	324	cc	_	_
-324	Geeks	Geek	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	322	conj	_	_
-325	,	,	PUNCT	$,	_	329	punct	_	_
-326-327	am	_	_	_	_	_	_	_	_
-326	an	an	ADP	APPR	_	329	case	_	_
-327	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	329	det	_	_
-328	entgegengesetzten	entgegengesetzt	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	329	amod	_	_
-329	Ende	Ende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	322	nmod	_	_
-330	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	335	det	_	_
-331	Hip	hip	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	333	compound	_	SpaceAfter=No
-332	-	-	PUNCT	$(	_	331	punct	_	SpaceAfter=No
-333	Hop	Hop	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	335	compound	_	SpaceAfter=No
-334	-	-	PUNCT	$(	_	333	punct	_	SpaceAfter=No
-335	Spektrums	Spektrum	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	329	nmod	_	_
-336	.	.	PUNCT	$.	_	338	punct	_	SpacesAfter=\n
-337	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	338	nsubj	_	_
-338	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
-339	also	also	ADV	ADV	_	338	advmod	_	_
-340	,	,	PUNCT	$,	_	358	punct	_	_
-341	dass	dass	SCONJ	KOUS	_	358	mark	_	_
-342	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	343	det	_	_
-343	Spannungen	Spannung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	358	nsubj	_	_
-344	,	,	PUNCT	$,	_	350	punct	_	_
-345	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	350	obj	_	_
-346	wir	wir	PRON	ADJD	_	350	nsubj	_	_
-347	aus	aus	ADP	APPR	_	348	case	_	_
-348	San	San	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	350	obl	_	_
-349	Francisco	Francisco	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	348	flat	_	_
-350	vernehmen	vernehmen	VERB	VVINF	VerbForm=Inf	343	acl	_	_
-351	,	,	PUNCT	$,	_	358	punct	_	_
-352	dass	dass	SCONJ	KOUS	_	358	mark	_	_
-353	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	358	obj	_	_
-354	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	355	det	_	_
-355	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur	358	nsubj	_	_
-356	um	um	ADP	APPR	_	357	case	_	_
-357	Gentrifizierung	Gentrifizierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	358	obl	_	_
-358	sorgen	sorgen	VERB	VVINF	VerbForm=Inf	338	ccomp	_	_
-359	,	,	PUNCT	$,	_	365	punct	_	_
-360	wegen	wegen	ADP	NN	Case=Acc|Gender=Masc|Number=Sing	365	case	_	_
-361	diesen	dies	PRON	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	365	det	_	_
-362	neuen	neu	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	365	amod	_	_
-363	Tech	Tech	NOUN	NN	_	365	compound	_	SpaceAfter=No
-364	-	-	PUNCT	$(	_	363	punct	_	SpaceAfter=No
-365	Firmen	Firma	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	338	obl	_	_
-366	,	,	PUNCT	$,	_	370	punct	_	_
-367	die	der	DET	PRELS	Case=Nom|Number=Plur|PronType=Rel	370	nsubj	_	_
-368	neuen	neu	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	369	amod	_	_
-369	Wohlstand	Wohlstand	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	370	obj	_	_
-370	bringen	bringen	VERB	VVINF	VerbForm=Inf	365	acl	_	_
-371	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	376	cc	_	_
-372	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	376	obj	_	_
-373	in	in	ADP	APPR	_	375	case	_	_
-374	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	375	det	_	_
-375	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	376	obl	_	_
-376	ansiedeln	ansiedeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	370	conj	_	_
-377	,	,	PUNCT	$,	_	378	punct	_	_
-378	real	real	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	338	conj	_	_
-379	sind	sein	AUX	ADJD	_	378	cop	_	_
-380	.	.	PUNCT	$.	_	382	punct	_	SpacesAfter=\n
-381	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	382	nsubj	_	_
-382	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	338	conj	_	_
-383	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	387	det	_	_
-384	hier	hier	ADV	ADV	_	385	advmod	_	_
-385	dokumentiert	dokumentieren	VERB	VVFIN	VerbForm=Part	387	acl	_	_
-386	.	.	PUNCT	$.	_	385	punct	_	SpacesAfter=\n
-387	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	382	obj	_	_
-388	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	382	acl	_	_
-389	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	390	det	_	_
-390	LGBT	LGBT	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	388	obj	_	SpaceAfter=No
-391	-	-	PUNCT	$(	_	392	punct	_	SpaceAfter=No
-392	Community	Community	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	390	flat	_	_
-393	,	,	PUNCT	$,	_	399	punct	_	_
-394	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	399	nsubj	_	_
-395	nicht	nicht	PART	CARD	NumType=Card	399	advmod	_	_
-396	zu	zu	ADP	NN	Case=Acc|Gender=Fem|Number=Plur	398	case	_	_
-397	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	398	det	_	_
-398	Geeks	Geek	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	399	obl	_	_
-399	passt	passen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	402	acl	_	_
-400	,	,	PUNCT	$,	_	402	punct	_	_
-401	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	402	det	_	_
-402	Künstler	Künstler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	390	conj	_	_
-403	,	,	PUNCT	$,	_	3	punct	_	_
+27	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 4
-# text = die Musiker . Und dies führt zu Dingen wie diesen : [ " Twitter raus " ] Das Bild bekam ich vor einigen Wochen . Es zeigt auf , was auf dem Boden von San Francisco passiert . Ich glaube , sie können versuchen , das verstehen , indem sie solche Karten anschauen . Betrachten wir Rio de Janeiro . Ich sammelte die letzten Wochen Daten in Rio . Eine Sache viel mir in dieser Stadt auf : Alles ist wirklich sehr gemischt . Es ist eine sehr heterogene Stadt , nicht wie Baltimore oder San Francisco . Es gibt immer noch die Gruppen an Menschen aus Verwaltung , Zeitungen , Politk und Kolummnisten . TEDxRio is unten rechts , rechts neben Bloggern und Autoren . Es gibt aber auch diese enorme Vielfalt an Menschen , interessiert an verschiedenen Musikarten . Sogar Justin Bieber-Fans sind vertreten . Andere Boy-Groups , Countrysänger , Gospelmusiker , Funk , Rap und Stand-Up-Komödianten . Und sogar eine ganze Gruppe rund um Drogen und Witze . Wie cool ist das denn ? Auch die Fußballmannschaft " Flamengo " ist vertreten . Sie haben diese Bandbreite von Sport , Verwaltung , Kunst und Musik , aber in einer ganz anderen Art dargestellt . Ich denke , dass könnte zu der Art , wie wir Rio verstehen , passen , als eine sehr multikulturelle , musikalisch vielfältige Stadt . Wir haben all diese Daten , ein unglaublich reichhaltiger Bestand an Daten über Städte . Vielleicht reichhaltiger als alles , was wir je zuvor hatten . Was können wir damit anfangen ? Ich denke , als Erstes sollten wir versuchen zu verstehen : Ist diese Trennung ein soziales Konzept ? Ist es etwas , dass wir wählen , obwohl wir es auch nicht tun könnten ? Wenn Sie darüber nachdenken , mit diesem Daten haben wir einen Blick darauf und betrachten die Stadt wie einen riesigen Schulspeiseraum , beobachten , wie sich jeder in dieser Stadt seinen Stuhl sucht . Vielleicht ist es Zeit , an dieser Bestuhlung etwas zu rütteln . Uns wird auch bewusst , dass Rasse ein miserabler Vertreter für Vielfältigkeit ist . Wir haben Verteter aus allen Arten von Rassen über die ganze Karte verteilt . Nur die Rasse zu betrachten , erklärt aber die Vielfältigkeit der Stadtentwicklung nicht . Wenn wir versuchen diese Vielfalt zu nutzen ,
-1	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	Musiker	Musiker	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
-3	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
-4	Und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	6	cc	_	_
-5	dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
-6	führt	führen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp	_	_
-7	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	case	_	_
-8	Dingen	Ding	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	obl	_	_
-9	wie	wie	ADP	NN	Case=Dat|Gender=Fem|Number=Sing	10	case	_	_
-10	diesen	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Dem	6	obl	_	_
-11	:	:	PUNCT	$.	_	20	punct	_	_
-12	[	[	PUNCT	$(	_	14	punct	_	_
-13	"	"	PUNCT	$(	_	14	punct	_	_
-14	Twitter	Twitter	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
-15	raus	raus	PROPN	PAV	_	14	flat	_	_
-16	"	"	PUNCT	$(	_	14	punct	_	_
-17	]	]	PUNCT	$(	_	14	punct	_	_
-18	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
-19	Bild	Bild	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	20	obj	_	_
-20	bekam	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	parataxis	_	_
-21	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
-22	vor	vor	ADP	NE	Case=Acc|Gender=Fem|Number=Sing	24	case	_	_
-23	einigen	einige	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	24	det	_	_
-24	Wochen	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	20	obl	_	_
-25	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
-26	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
-27	zeigt	zeigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-28	auf	auf	ADP	PTKVZ	_	27	compound:prt	_	_
-29	,	,	PUNCT	$,	_	37	punct	_	_
-30	was	was	PRON	NN	Case=Acc|Gender=Masc|Number=Sing	37	nsubj	_	_
-31	auf	auf	ADP	APPR	_	33	case	_	_
-32	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
-33	Boden	Boden	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	37	obl	_	_
-34	von	von	ADP	FM	Foreign=Yes	35	case	_	_
-35	San	San	PROPN	NE	Foreign=Yes	33	nmod	_	_
-36	Francisco	Francisco	PROPN	NE	Foreign=Yes	35	flat	_	_
-37	passiert	passieren	VERB	VVPP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	acl	_	_
-38	.	.	PUNCT	$.	_	27	punct	_	SpacesAfter=\n
-39	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
-40	glaube	glauben	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	xcomp	_	_
-41	,	,	PUNCT	$,	_	44	punct	_	_
-42	sie	sie	PRON	VVINF	VerbForm=Inf	44	nsubj	_	_
-43	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	_
-44	versuchen	versuchen	VERB	VVINF	VerbForm=Inf	55	acl	_	_
-45	,	,	PUNCT	$,	_	47	punct	_	_
-46	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	47	nsubj	_	_
-47	verstehen	verstehen	VERB	VVINF	VerbForm=Inf	55	acl	_	_
-48	,	,	PUNCT	$,	_	53	punct	_	_
-49	indem	indem	SCONJ	KOUS	_	53	mark	_	_
-50	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	53	nsubj	_	_
-51	solche	solch	PRON	ADJD	_	52	det	_	_
-52	Karten	Karten	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	53	obj	_	_
-53	anschauen	anschauen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	55	advcl	_	_
-54	.	.	PUNCT	$.	_	53	punct	_	SpacesAfter=\n
-55	Betrachten	betrachten	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	27	nsubj	_	_
-56	wir	wir	PRON	ADJD	_	57	nsubj	_	_
-57	Rio	Rio	PROPN	NE	Foreign=Yes	55	nmod	_	_
-58	de	de	PROPN	NE	Foreign=Yes	57	flat	_	_
-59	Janeiro	Janeiro	PROPN	NE	Foreign=Yes	57	flat	_	_
-60	.	.	PUNCT	$.	_	27	punct	_	SpacesAfter=\n
-61	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	62	nsubj	_	_
-62	sammelte	sammeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	acl	_	_
-63	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	65	det	_	_
-64	letzten	letzt	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	65	amod	_	_
-65	Wochen	Woche	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	62	obl	_	_
-66	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	62	obj	_	_
-67	in	in	ADP	APPR	_	68	case	_	_
-68	Rio	Rio	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	62	obl	_	_
-69	.	.	PUNCT	$.	_	27	punct	_	SpacesAfter=\n
-70	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	71	det	_	_
-71	Sache	Sache	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	195	obj	_	_
-72	viel	viel	PRON	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	194	det	_	_
-73	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	194	iobj	_	_
-74	in	in	ADP	APPR	_	76	case	_	_
-75	dieser	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	76	det	_	_
-76	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	194	nmod	_	_
-77	auf	auf	ADP	PTKVZ	_	151	case	_	_
-78	:	:	PUNCT	$.	_	83	punct	_	_
-79	Alles	alle	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	83	nsubj	_	_
-80	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	83	cop	_	_
-81	wirklich	wirklich	ADV	ADV	_	83	advmod	_	_
-82	sehr	sehr	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	83	advmod	_	_
-83	gemischt	mischen	ADJ	VVPP	VerbForm=Part	151	amod	_	_
-84	.	.	PUNCT	$.	_	90	punct	_	SpacesAfter=\n
-85	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	90	nsubj	_	_
-86	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	90	cop	_	_
-87	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	90	det	_	_
-88	sehr	sehr	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	89	advmod	_	_
-89	heterogene	heterogen	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	90	amod	_	_
-90	Stadt	Stadt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	100	nsubj	_	_
-91	,	,	PUNCT	$,	_	94	punct	_	_
-92	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	94	advmod	_	_
-93	wie	wie	ADP	NN	Case=Dat|Gender=Fem|Number=Sing	94	case	_	_
-94	Baltimore	Baltimore	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	90	appos	_	_
-95	oder	oder	CCONJ	XY	_	96	cc	_	_
-96	San	San	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	94	conj	_	_
-97	Francisco	Francisco	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	96	flat	_	_
-98	.	.	PUNCT	$.	_	90	punct	_	SpacesAfter=\n
-99	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	90	appos	_	_
-100	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	83	parataxis	_	_
-101	immer	immer	ADV	ADV	_	102	advmod	_	_
-102	noch	noch	ADV	CARD	NumType=Card	100	advmod	_	_
-103	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	104	det	_	_
-104	Gruppen	Gruppe	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	106	nsubj	_	_
-105	an	an	ADP	APPR	_	106	case	_	_
-106	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	100	obl	_	_
-107	aus	aus	ADP	APPR	_	108	case	_	_
-108	Verwaltung	Verwaltung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	100	obl	_	_
-109	,	,	PUNCT	$,	_	110	punct	_	_
-110	Zeitungen	Zeitung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	108	conj	_	_
-111	,	,	PUNCT	$,	_	112	punct	_	_
-112	Politk	Politk	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	108	conj	_	_
-113	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	114	cc	_	_
-114	Kolummnisten	Kolummnist	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	108	conj	_	_
-115	.	.	PUNCT	$.	_	83	punct	_	SpacesAfter=\n
-116	TEDxRio	TEDxRio	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	117	nsubj	_	_
-117	is	sein	AUX	VAFIN	Foreign=Yes	83	conj	_	_
-118	unten	unten	ADV	ADJA	Case=Acc|Gender=Fem|Number=Sing	119	advmod	_	_
-119	rechts	rechts	ADV	NN	Case=Acc|Gender=Neut|Number=Plur	117	advmod	_	_
-120	,	,	PUNCT	$,	_	121	punct	_	_
-121	rechts	rechts	ADV	NN	Case=Acc|Gender=Neut|Number=Plur	83	advmod	_	_
-122	neben	neben	ADP	NN	Case=Dat|Number=Plur	123	case	_	_
-123	Bloggern	Blogger	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	83	obl	_	_
-124	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	125	cc	_	_
-125	Autoren	Autor	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	123	conj	_	_
-126	.	.	PUNCT	$.	_	83	punct	_	SpacesAfter=\n
-127	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	128	nsubj	_	_
-128	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	83	conj	_	_
-129	aber	aber	ADV	ADV	_	128	advmod	_	_
-130	auch	auch	ADV	ADV	_	128	advmod	_	_
-131	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	133	det	_	_
-132	enorme	enorm	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	133	amod	_	_
-133	Vielfalt	Vielfalt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	128	obj	_	_
-134	an	an	ADP	APPR	_	135	case	_	_
-135	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	133	nmod	_	_
-136	,	,	PUNCT	$,	_	137	punct	_	_
-137	interessiert	interessieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	83	conj	_	_
-138	an	an	ADP	APPR	_	140	case	_	_
-139	verschiedenen	verschieden	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	140	amod	_	_
-140	Musikarten	Musikart	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	137	obl	_	_
-141	.	.	PUNCT	$.	_	148	punct	_	SpacesAfter=\n
-142	Sogar	Sogar	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	148	nsubj	_	_
-143	Justin	Justin	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	142	flat	_	_
-144	Bieber	Bieber	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	142	flat	_	SpaceAfter=No
-145	-	-	PUNCT	$(	_	146	punct	_	SpaceAfter=No
-146	Fans	Fan	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	142	flat	_	_
-147	sind	sein	AUX	ADJD	_	148	cop	_	_
-148	vertreten	vertreten	ADJ	VVINF	VerbForm=Part	83	conj	_	_
-149	.	.	PUNCT	$.	_	83	punct	_	SpacesAfter=\n
-150	Andere	ander	PROPN	ADJA	Case=Acc|Gender=Masc|Number=Plur	151	amod	_	_
-151	Boy	Boy	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	194	nmod	_	SpaceAfter=No
-152	-	-	PUNCT	$(	_	153	punct	_	SpaceAfter=No
-153	Groups	Group	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	151	flat	_	_
-154	,	,	PUNCT	$,	_	155	punct	_	_
-155	Countrysänger	Countrysänger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	151	conj	_	_
-156	,	,	PUNCT	$,	_	157	punct	_	_
-157	Gospelmusiker	Gospelmusiker	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	151	conj	_	_
-158	,	,	PUNCT	$,	_	159	punct	_	_
-159	Funk	Funk	NOUN	NE	Case=Acc|Gender=Masc|Number=Sing	151	conj	_	_
-160	,	,	PUNCT	$,	_	161	punct	_	_
-161	Rap	Rap	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	151	conj	_	_
-162	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	163	cc	_	_
-163	Stand-	Stand-	NOUN	$(	_	151	conj	_	SpaceAfter=No
-164	Up	up	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	163	appos	_	SpaceAfter=No
-165	-	-	PUNCT	$(	_	166	punct	_	SpaceAfter=No
-166	Komödianten	Komödiant	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	164	flat	_	_
-167	.	.	PUNCT	$.	_	164	punct	_	SpacesAfter=\n
-168	Und	und	CCONJ	NN	Case=Nom|Gender=Masc|Number=Sing	172	cc	_	_
-169	sogar	sogar	ADV	ADV	_	172	advmod	_	_
-170	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	172	det	_	_
-171	ganze	ganz	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	172	amod	_	_
-172	Gruppe	Gruppe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	151	conj	_	_
-173	rund	rund	ADV	ADV	_	175	advmod	_	_
-174	um	um	ADP	APPR	_	175	case	_	_
-175	Drogen	Droge	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	172	nmod	_	_
-176	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	177	cc	_	_
-177	Witze	Witze	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	175	conj	_	_
-178	.	.	PUNCT	$.	_	151	punct	_	SpacesAfter=\n
-179	Wie	wie	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	151	flat	_	_
-180	cool	cool	PROPN	ADJD	_	151	flat	_	_
-181	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	194	cop	_	_
-182	das	der	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	194	det	_	_
-183	denn	denn	ADV	ADV	_	192	advmod	_	_
-184	?	?	PUNCT	$.	_	183	punct	_	SpacesAfter=\n
-185	Auch	auch	ADV	ADV	_	192	advmod	_	_
-186	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	187	det	_	_
-187	Fußballmannschaft	Fußballmannschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	192	nsubj	_	_
-188	"	"	PUNCT	$(	_	189	punct	_	_
-189	Flamengo	Flamengo	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	187	appos	_	_
-190	"	"	PUNCT	$(	_	189	punct	_	_
-191	ist	sein	AUX	ADJD	_	192	cop	_	_
-192	vertreten	vertreten	ADJ	VVINF	VerbForm=Part	194	amod	_	_
-193	.	.	PUNCT	$.	_	192	punct	_	SpacesAfter=\n
-194	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	71	nsubj	_	_
-195	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	270	aux	_	_
-196	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	197	det	_	_
-197	Bandbreite	Bandbreite	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	195	obj	_	_
-198	von	von	ADP	FM	Foreign=Yes	199	case	_	_
-199	Sport	Sport	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	197	nmod	_	_
-200	,	,	PUNCT	$,	_	201	punct	_	_
-201	Verwaltung	Verwaltung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	199	conj	_	_
-202	,	,	PUNCT	$,	_	203	punct	_	_
-203	Kunst	Kunst	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	199	conj	_	_
-204	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	205	cc	_	_
-205	Musik	Musik	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	199	conj	_	_
-206	,	,	PUNCT	$,	_	216	punct	_	_
-207	aber	aber	CCONJ	KON	_	216	cc	_	_
-208	in	in	ADP	APPR	_	212	case	_	_
-209	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	212	det	_	_
-210	ganz	ganz	ADJ	NN	Case=Dat|Gender=Fem|Number=Sing	211	advmod	_	_
-211	anderen	ander	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	212	amod	_	_
-212	Art	Art	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	216	obl	_	_
-213	dargestellt	darstellen	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	215	amod	_	_
-214	.	.	PUNCT	$.	_	213	punct	_	SpacesAfter=\n
-215	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	216	nsubj	_	_
-216	denke	denken	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	195	conj	_	_
-217	,	,	PUNCT	$,	_	241	punct	_	_
-218	dass	dass	SCONJ	KOUS	_	241	mark	_	_
-219	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	241	aux	_	_
-220	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	222	case	_	_
-221	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	222	det	_	_
-222	Art	Art	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	241	obl	_	_
-223	,	,	PUNCT	$,	_	227	punct	_	_
-224	wie	wie	SCONJ	NN	Case=Nom|Gender=Neut|Number=Sing	227	mark	_	_
-225	wir	wir	PRON	ADJD	_	227	nsubj	_	_
-226	Rio	Rio	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	227	obj	_	_
-227	verstehen	verstehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	231	parataxis	_	_
-228	,	,	PUNCT	$,	_	229	punct	_	_
-229	passen	passen	VERB	VVFIN	VerbForm=Inf	227	xcomp	_	_
-230	,	,	PUNCT	$,	_	231	punct	_	_
-231	als	als	SCONJ	KOUS	_	240	cc	_	_
-232	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	238	det	_	_
-233	sehr	sehr	ADV	NN	Case=Acc|Gender=Fem|Number=Sing	234	advmod	_	_
-234	multikulturelle	multikulturell	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	238	amod	_	_
-235	,	,	PUNCT	$,	_	236	punct	_	_
-236	musikalisch	musikalisch	ADJ	ADJD	_	237	advmod	_	_
-237	vielfältige	vielfältig	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	238	amod	_	_
-238	Stadt	Stadt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	231	obj	_	_
-239	.	.	PUNCT	$.	_	231	punct	_	SpacesAfter=\n
-240	Wir	wir	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	222	conj	_	_
-241	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	216	ccomp	_	_
-242	all	all	PRON	PIAT	Definite=Ind|PronType=Ind	244	det	_	_
-243	diese	dies	PRON	PDAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	244	det	_	_
-244	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	258	nsubj	_	_
-245	,	,	PUNCT	$,	_	249	punct	_	_
-246	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	249	det	_	_
-247	unglaublich	unglaublich	ADJ	ADJD	_	248	advmod	_	_
-248	reichhaltiger	reichhaltig	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	249	amod	_	_
-249	Bestand	Bestand	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	258	nsubj	_	_
-250	an	an	ADP	APPR	_	251	case	_	_
-251	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	249	nmod	_	_
-252	über	über	ADP	NN	Foreign=Yes	253	case	_	_
-253	Städte	Stadt	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	251	nmod	_	_
-254	.	.	PUNCT	$.	_	255	punct	_	SpacesAfter=\n
-255	Vielleicht	vielleicht	NOUN	ADV	_	253	nsubj	_	_
-256	reichhaltiger	reichhaltige	PRON	ADJD	_	255	nmod	_	_
-257	als	als	ADP	KOKOM	_	256	case	_	_
-258	alles	alle	PRON	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	241	obj	_	_
-259	,	,	PUNCT	$,	_	263	punct	_	_
-260	was	was	PRON	NN	Case=Acc|Gender=Masc|Number=Sing	263	obj	_	_
-261	wir	wir	PRON	ADJD	_	263	nsubj	_	_
-262	je	je	ADV	ADV	_	263	advmod	_	_
-263	zuvor	zuvor	PART	ADV	_	241	acl	_	_
-264	hatten	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	263	aux	_	_
-265	.	.	PUNCT	$.	_	270	punct	_	SpacesAfter=\n
-266	Was	was	PRON	NN	Case=Nom|Gender=Masc|Number=Plur	270	obj	_	_
-267	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	270	aux	_	_
-268	wir	wir	PRON	ADJD	_	270	nsubj	_	_
-269	damit	damit	ADV	PAV	_	270	advmod	_	_
-270	anfangen	anfangen	VERB	VVINF	VerbForm=Inf	27	xcomp	_	_
-271	?	?	PUNCT	$.	_	273	punct	_	SpacesAfter=\n
-272	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	273	nsubj	_	_
-273	denke	denken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	270	parataxis	_	_
-274	,	,	PUNCT	$,	_	279	punct	_	_
-275	als	als	ADP	KOUS	_	276	case	_	_
-276	Erstes	erst	NOUN	ADJA	Case=Acc|Gender=Neut|Number=Sing|NumType=Card	279	obl	_	_
-277	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	279	aux	_	_
-278	wir	wir	PRON	ADJD	_	279	nsubj	_	_
-279	versuchen	versuchen	VERB	VVINF	VerbForm=Inf	273	ccomp	_	_
-280	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	281	mark	_	_
-281	verstehen	verstehen	VERB	VVINF	VerbForm=Inf	279	xcomp	_	_
-282	:	:	PUNCT	$.	_	288	punct	_	_
-283	Ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	288	cop	_	_
-284	diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	285	det	_	_
-285	Trennung	Trennung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	288	nsubj	_	_
-286	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	288	det	_	_
-287	soziales	sozial	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	288	amod	_	_
-288	Konzept	Konzept	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	273	parataxis	_	_
-289	?	?	PUNCT	$.	_	292	punct	_	SpacesAfter=\n
-290	Ist	sein	AUX	NN	Case=Nom|Gender=Neut|Number=Sing	292	cop	_	_
-291	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	292	expl	_	_
-292	etwas	etwas	PRON	ADV	_	340	nsubj	_	_
-293	,	,	PUNCT	$,	_	296	punct	_	_
-294	dass	dass	SCONJ	KOUS	_	296	mark	_	_
-295	wir	wir	PRON	ADJD	_	296	nsubj	_	_
-296	wählen	wählen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	292	ccomp	_	_
-297	,	,	PUNCT	$,	_	303	punct	_	_
-298	obwohl	obwohl	SCONJ	CARD	NumType=Card	303	mark	_	_
-299	wir	wir	PRON	ADJD	_	303	nsubj	_	_
-300	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	303	nsubj	_	_
-301	auch	auch	ADV	ADV	_	303	advmod	_	_
-302	nicht	nicht	PART	CARD	NumType=Card	303	advmod	_	_
-303	tun	tun	VERB	VVINF	VerbForm=Inf	296	advcl	_	_
-304	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	303	aux	_	_
-305	?	?	PUNCT	$.	_	309	punct	_	SpacesAfter=\n
-306	Wenn	wenn	SCONJ	KOUS	_	309	mark	_	_
-307	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	309	nsubj	_	_
-308	darüber	darüber	ADV	PAV	_	309	advmod	_	_
-309	nachdenken	nachdenk	ADJ	VVINF	VerbForm=Inf	314	advcl	_	_
-310	,	,	PUNCT	$,	_	309	punct	_	_
-311	mit	mit	ADP	$(	_	313	case	_	_
-312	diesem	dies	PRON	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	313	det	_	_
-313	Daten	Datum	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	314	obl	_	_
-314	haben	haben	VERB	VAINF	VerbForm=Inf	296	xcomp	_	_
-315	wir	wir	PRON	ADJD	_	314	nsubj	_	_
-316	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	317	det	_	_
-317	Blick	Blick	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	314	obj	_	_
-318	darauf	darauf	ADV	PAV	_	317	advmod	_	_
-319	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	320	cc	_	_
-320	betrachten	betrachten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	314	conj	_	_
-321	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	322	det	_	_
-322	Stadt	Stadt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	320	obj	_	_
-323	wie	wie	ADP	NE	Case=Gen|Gender=Neut|Number=Sing	326	case	_	_
-324	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	326	det	_	_
-325	riesigen	riesig	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	326	amod	_	_
-326	Schulspeiseraum	Schulspeiseraum	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	328	obl	_	_
-327	,	,	PUNCT	$,	_	328	punct	_	_
-328	beobachten	beobachten	VERB	ADJA	Case=Dat|Gender=Fem|Number=Sing	322	acl	_	_
-329	,	,	PUNCT	$,	_	338	punct	_	_
-330	wie	wie	ADP	NN	Case=Dat|Gender=Fem|Number=Sing	331	case	_	_
-331	sich	er|es|sie	PRON	PRF	Case=Dat|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	338	obl	_	_
-332	jeder	jed	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	338	nsubj	_	_
-333	in	in	ADP	APPR	_	335	case	_	_
-334	dieser	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	335	det	_	_
-335	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	338	obl	_	_
-336	seinen	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	337	det:poss	_	_
-337	Stuhl	Stuhl	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	338	obj	_	_
-338	sucht	suchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	328	conj	_	_
-339	.	.	PUNCT	$.	_	292	punct	_	SpacesAfter=\n
-340	Vielleicht	vielleicht	NOUN	ADV	_	352	obl	_	_
-341	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	340	cop	_	_
-342	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	340	expl	_	_
-343	Zeit	Zeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	340	obl	_	_
-344	,	,	PUNCT	$,	_	350	punct	_	_
-345	an	an	ADP	APPR	_	347	case	_	_
-346	dieser	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	347	det	_	_
-347	Bestuhlung	Bestuhlung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	350	obl	_	_
-348	etwas	etwas	ADV	PIS	Definite=Ind|PronType=Ind	350	advmod	_	_
-349	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	350	mark	_	_
-350	rütteln	rütteln	VERB	VVINF	VerbForm=Inf	343	acl	_	_
-351	.	.	PUNCT	$.	_	343	punct	_	SpacesAfter=\n
-352	Uns	wir	PRON	VVPP	VerbForm=Part	353	iobj	_	_
-353	wird	werden	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	288	acl	_	_
-354	auch	auch	ADV	ADV	_	355	advmod	_	_
-355	bewusst	bewußt	ADJ	ADJD	_	361	amod	_	_
-356	,	,	PUNCT	$,	_	361	punct	_	_
-357	dass	dass	SCONJ	KOUS	_	361	mark	_	_
-358	Rasse	Rasse	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	361	nsubj	_	_
-359	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	361	det	_	_
-360	miserabler	miserabel	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	361	amod	_	_
-361	Vertreter	Vertreter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	353	nsubj	_	_
-362	für	für	ADP	APPR	_	363	case	_	_
-363	Vielfältigkeit	Vielfältigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	361	nmod	_	_
-364	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	361	cop	_	_
-365	.	.	PUNCT	$.	_	366	punct	_	SpacesAfter=\n
-366	Wir	wir	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	361	nsubj	_	_
-367	haben	haben	VERB	VAINF	VerbForm=Inf	353	xcomp	_	_
-368	Verteter	Verteter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	378	nsubj	_	_
-369	aus	aus	ADP	APPR	_	371	case	_	_
-370	allen	alle	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	371	det	_	_
-371	Arten	Art	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	378	nmod	_	_
-372	von	von	ADP	FM	Foreign=Yes	373	case	_	_
-373	Rassen	Rasse	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	378	nmod	_	_
-374	über	über	ADP	FM	Foreign=Yes	377	case	_	_
-375	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	377	det	_	_
-376	ganze	ganz	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	377	amod	_	_
-377	Karte	Karte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	373	nmod	_	_
-378	verteilt	verteilen	ADJ	VVPP	VerbForm=Part	384	advmod	_	_
-379	.	.	PUNCT	$.	_	378	punct	_	SpacesAfter=\n
-380	Nur	nur	ADV	ADV	_	378	advmod	_	_
-381	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	382	det	_	_
-382	Rasse	Rasse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	384	obj	_	_
-383	zu	zu	PART	NN	Case=Nom|Gender=Fem|Number=Plur	384	mark	_	_
-384	betrachten	betrachten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	386	xcomp	_	_
-385	,	,	PUNCT	$,	_	386	punct	_	_
-386	erklärt	erklären	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	393	parataxis	_	_
-387	aber	aber	ADV	ADV	_	386	advmod	_	_
-388	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	389	det	_	_
-389	Vielfältigkeit	Vielfältigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	386	nsubj	_	_
-390	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	391	det	_	_
-391	Stadtentwicklung	Stadtentwicklung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	389	nmod	_	_
-392	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	386	advmod	_	_
-393	.	.	PUNCT	$.	_	367	punct	_	SpacesAfter=\n
-394	Wenn	wenn	SCONJ	KOUS	_	396	mark	_	_
-395	wir	wir	PRON	ADJD	_	396	nsubj	_	_
-396	versuchen	versuchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	288	advcl	_	_
-397	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	398	det	_	_
-398	Vielfalt	Vielfalt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	400	obj	_	_
-399	zu	zu	PART	NN	Case=Acc|Gender=Fem|Number=Plur	400	mark	_	_
-400	nutzen	nutzen	VERB	VVINF	VerbForm=Inf	396	xcomp	_	_
-401	,	,	PUNCT	$,	_	27	punct	_	_
+# newpar
+# sent_id = 7
+# text = Ich bin hier auf der grünen Seite , unten , weit am rechten Rand , wo die Geeks sind .
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+3	hier	hier	ADV	ADV	_	9	advmod	_	_
+4	auf	auf	ADP	APPR	_	7	case	_	_
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	grünen	grün	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	7	amod	_	_
+7	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
+8	,	,	PUNCT	$,	_	9	punct	_	_
+9	unten	unen	VERB	ADJA	Case=Acc|Gender=Fem|Number=Plur	0	root	_	_
+10	,	,	PUNCT	$,	_	15	punct	_	_
+11	weit	weit	ADJ	NN	Case=Acc|Gender=Fem|Number=Plur	15	amod	_	_
+12-13	am	_	_	_	_	_	_	_	_
+12	an	an	ADP	APPR	_	15	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	rechten	recht	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	15	amod	_	_
+15	Rand	Rand	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_
+16	,	,	PUNCT	$,	_	20	punct	_	_
+17	wo	wo	ADV	NE	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	20	advmod	_	_
+18	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	19	det	_	_
+19	Geeks	Geek	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	20	nsubj	_	_
+20	sind	sein	AUX	ADJD	_	15	acl	_	_
+21	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
 
-# sent_id = 5
-# text = um heikle Probleme anzugehen , brauchen wir eine neue Art des Denkens bezüglich Vielfältigkeit . Schlussendlich haben wir die Fähigkeit , Interventionen zu starten , die unsere Städte in einer neuen Art umformen . Ich glaube , dass wir dieses Potential haben . Wir haben sogar die Verpflichtung es zu tun . Was ist also eine Stadt ? Jemand könnte sagen , ein geografisches Gebiet , eine Reihe von Straßen und Gebäuden . Ich glaube aber , eine Stadt ist die Summe der Beziehungen der Leute , die dort leben . Wenn wir anfangen können , die Beziehungen wirklich zu dokumentieren , hätten wir eine echte Chance , die Städte zu erhalten , die wir gerne hätten . Danke
-1	um	um	ADP	APPR	_	4	mark	_	_
-2	heikle	heikel	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	3	amod	_	_
-3	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	_
-4	anzugehen	anzugehen	VERB	VVPP	VerbForm=Part	6	advcl	_	_
-5	,	,	PUNCT	$,	_	4	punct	_	_
-6	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	119	acl	_	_
-7	wir	wir	PRON	ADJD	_	6	nsubj	_	_
-8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-9	neue	neu	ADJ	NN	Case=Gen|Gender=Fem|Number=Sing	10	amod	_	_
-10	Art	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+# newpar
+# sent_id = 8
+# text = Auch TEDx ist unten , weit rechts .
+1	Auch	auch	ADV	ADV	_	2	advmod	_	_
+2	TEDx	TEDx	PROPN	NE	Case=Nom|Number=Sing	7	nsubj	_	_
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	unten	unten	ADV	ADJA	Case=Acc|Gender=Fem|Number=Plur	3	advmod	_	_
+5	,	,	PUNCT	$,	_	7	punct	_	_
+6	weit	weit	ADJ	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	7	advmod	_	_
+7	rechts	rechts	ADV	NN	Case=Acc|Gender=Neut|Number=Plur	0	root	_	_
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = ( Lachen ) Auf der anderen Seite des Netzwerkes gibt es eher Afroamerikaner und Latinos , die um ganz andere Dinge besorgt sind als die Geeks .
+1	(	(	PUNCT	$(	_	2	punct	_	_
+2	Lachen	Lachen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	10	dep	_	_
+3	)	)	PUNCT	$(	_	2	punct	_	_
+4	Auf	auf	ADP	APPR	_	7	case	_	_
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	anderen	ander	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	7	amod	_	_
+7	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
+8	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Netzwerkes	Netzwerk	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	_
+12	eher	eher	ADV	ADV	_	13	advmod	_	_
+13	Afroamerikaner	Afroamerikaner	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	10	nsubj	_	_
+14	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	15	cc	_	_
+15	Latinos	Latino	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	13	conj	_	_
+16	,	,	PUNCT	$,	_	22	punct	_	_
+17	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	22	nsubj	_	_
+18	um	um	ADP	APPR	_	22	mark	_	_
+19	ganz	ganz	ADJ	ADV	_	20	advmod	_	_
+20	andere	ander	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	21	amod	_	_
+21	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	22	nsubj	_	_
+22	besorgt	besorgt	VERB	ADJD	_	13	acl	_	_
+23	sind	sein	AUX	ADJD	_	22	cop	_	_
+24	als	als	ADP	KOKOM	_	26	case	_	_
+25	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	Geeks	Geek	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	obl	_	_
+27	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Um Ihnen ein Gefühl zu geben , den grünen Teil des Netzwerkes nennen wir Klein-timore , da diese Leute , wie es scheint , in einer sehr kleinen Stadt wohnen .
+1	Um	um	ADP	KOUI	_	6	mark	_	_
+2	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	6	iobj	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Gefühl	Gefühl	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+5	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	6	mark	_	_
+6	geben	geben	VERB	VVINF	VerbForm=Inf	13	advcl	_	_
+7	,	,	PUNCT	$,	_	13	punct	_	_
+8	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	10	det	_	_
+9	grünen	grün	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	10	amod	_	_
+10	Teil	Teil	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obj	_	_
 11	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
-12	Denkens	Denken	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
-13	bezüglich	bezüglich	ADJ	APPR	_	14	amod	_	_
-14	Vielfältigkeit	Vielfältigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	_
-15	.	.	PUNCT	$.	_	17	punct	_	SpacesAfter=\n
-16	Schlussendlich	schlussendlich	PROPN	ADV	_	17	obj	_	_
-17	haben	haben	VERB	VAINF	VerbForm=Inf	6	conj	_	_
-18	wir	wir	PRON	ADJD	_	17	nsubj	_	_
-19	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	Fähigkeit	Fähigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+12	Netzwerkes	Netzwerk	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+13	nennen	nennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	wir	wir	PRON	ADJD	_	13	nsubj	_	_
+15	Klein-	Klein-	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+16	timore	timorn	VERB	NE	Case=Nom|Gender=Masc|Number=Sing	13	xcomp	_	_
+17	,	,	PUNCT	$,	_	20	punct	_	_
+18	da	da	SCONJ	KOUS	_	20	mark	_	_
+19	diese	dies	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem	20	nsubj	_	_
+20	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur	13	nsubj	_	_
 21	,	,	PUNCT	$,	_	24	punct	_	_
-22	Interventionen	Intervention	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	24	obj	_	_
-23	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	24	mark	_	_
-24	starten	starten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	acl	_	_
-25	,	,	PUNCT	$,	_	36	punct	_	_
-26	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	36	nsubj	_	_
-27	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	28	det:poss	_	_
-28	Städte	Stadt	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	36	obj	_	_
-29	in	in	ADP	APPR	_	32	case	_	_
-30	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-31	neuen	neu	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	32	amod	_	_
-32	Art	Art	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	36	obl	_	_
-33	umformen	umform	ADJ	NN	Case=Acc|Gender=Fem|Number=Plur	35	amod	_	_
-34	.	.	PUNCT	$.	_	33	punct	_	SpacesAfter=\n
-35	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj	_	_
-36	glaube	glauben	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl	_	_
-37	,	,	PUNCT	$,	_	42	punct	_	_
-38	dass	dass	SCONJ	KOUS	_	42	mark	_	_
-39	wir	wir	PRON	ADJD	_	42	nsubj	_	_
-40	dieses	dies	PRON	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	41	det	_	_
-41	Potential	Potential	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	42	obj	_	_
-42	haben	haben	VERB	VAINF	VerbForm=Inf	36	ccomp	_	_
-43	.	.	PUNCT	$.	_	51	punct	_	SpacesAfter=\n
-44	Wir	wir	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	51	nsubj	_	_
-45	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	51	aux	_	_
-46	sogar	sogar	ADV	ADV	_	51	advmod	_	_
-47	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
-48	Verpflichtung	Verpflichtung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	51	obj	_	_
-49	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	51	nsubj	_	_
-50	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	51	mark	_	_
-51	tun	tun	VERB	ADJD	_	36	parataxis	_	_
-52	.	.	PUNCT	$.	_	57	punct	_	SpacesAfter=\n
-53	Was	was	PRON	NN	Case=Nom|Gender=Fem|Number=Sing	57	nsubj	_	_
-54	ist	sein	AUX	ADJD	_	57	cop	_	_
-55	also	also	ADV	ADV	_	57	advmod	_	_
-56	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
-57	Stadt	Stadt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	61	obj	_	_
-58	?	?	PUNCT	$.	_	57	punct	_	SpacesAfter=\n
-59	Jemand	jemand	PROPN	NE	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	61	nsubj	_	_
-60	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	61	aux	_	_
-61	sagen	sagen	VERB	VVINF	VerbForm=Inf	36	parataxis	_	_
-62	,	,	PUNCT	$,	_	65	punct	_	_
-63	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	65	det	_	_
-64	geografisches	geografisch	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	65	amod	_	_
-65	Gebiet	Gebiet	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	75	obj	_	_
-66	,	,	PUNCT	$,	_	68	punct	_	_
-67	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	68	det	_	_
-68	Reihe	Reihe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	65	appos	_	_
-69	von	von	ADP	FM	Foreign=Yes	70	case	_	_
-70	Straßen	Straße	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	68	nmod	_	_
-71	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	72	cc	_	_
-72	Gebäuden	Gebäude	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	70	conj	_	_
-73	.	.	PUNCT	$.	_	65	punct	_	SpacesAfter=\n
-74	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	75	nsubj	_	_
-75	glaube	glauben	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	ccomp	_	_
-76	aber	aber	ADV	ADV	_	75	advmod	_	_
-77	,	,	PUNCT	$,	_	82	punct	_	_
-78	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	79	det	_	_
-79	Stadt	Stadt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	82	nsubj	_	_
-80	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	82	cop	_	_
-81	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	82	det	_	_
-82	Summe	Summe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	75	obj	_	_
-83	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	84	det	_	_
-84	Beziehungen	Beziehung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	82	nmod	_	_
-85	der	der	DET	ART	Case=Gen|Number=Plur|PronType=Art	86	det	_	_
-86	Leute	Leute	NOUN	NN	Case=Gen|Number=Plur	84	nmod	_	_
-87	,	,	PUNCT	$,	_	90	punct	_	_
-88	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	90	nsubj	_	_
-89	dort	dort	ADV	ADV	_	90	advmod	_	_
-90	leben	leben	VERB	VVINF	VerbForm=Inf	86	acl	_	_
-91	.	.	PUNCT	$.	_	94	punct	_	SpacesAfter=\n
-92	Wenn	wenn	SCONJ	KOUS	_	94	mark	_	_
-93	wir	wir	PRON	ADJD	_	94	nsubj	_	_
-94	anfangen	anfangen	VERB	VVINF	VerbForm=Inf	36	advcl	_	_
-95	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	94	aux	_	_
-96	,	,	PUNCT	$,	_	101	punct	_	_
-97	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	98	det	_	_
-98	Beziehungen	Beziehung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	101	obj	_	_
-99	wirklich	wirklich	ADV	ADV	_	101	advmod	_	_
-100	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	101	mark	_	_
-101	dokumentieren	dokumentieren	VERB	VVINF	VerbForm=Inf	94	xcomp	_	_
-102	,	,	PUNCT	$,	_	112	punct	_	_
-103	hätten	haben	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	112	aux	_	_
-104	wir	wir	PRON	ADJD	_	112	nsubj	_	_
-105	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	107	det	_	_
-106	echte	echt	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	107	amod	_	_
-107	Chance	Chance	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	112	obj	_	_
-108	,	,	PUNCT	$,	_	112	punct	_	_
-109	die	der	DET	PRELS	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	110	det	_	_
-110	Städte	Stadt	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	112	obj	_	_
-111	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	112	mark	_	_
-112	erhalten	erhalten	VERB	VVINF	VerbForm=Inf	36	parataxis	_	_
-113	,	,	PUNCT	$,	_	116	punct	_	_
-114	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	116	nsubj	_	_
-115	wir	wir	PRON	ADJD	_	116	nsubj	_	_
-116	gerne	gern	ADJ	ADV	_	112	conj	_	_
-117	hätten	haben	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	116	aux	_	_
-118	.	.	PUNCT	$.	_	36	punct	_	SpacesAfter=\n
-119	Danke	Dank	NOUN	PTKANT	_	0	root	_	SpacesAfter=\n
+22	wie	wie	SCONJ	NN	Case=Nom|Gender=Neut|Number=Sing	24	mark	_	_
+23	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+24	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+25	,	,	PUNCT	$,	_	31	punct	_	_
+26	in	in	ADP	APPR	_	30	case	_	_
+27	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+28	sehr	sehr	ADV	NN	Case=Dat|Gender=Fem|Number=Sing	29	advmod	_	_
+29	kleinen	klein	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	30	amod	_	_
+30	Stadt	Stadt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	31	obl	_	_
+31	wohnen	wohnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	xcomp	_	_
+32	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Wir sehen immer wieder die gleichen Leute , weil wir nicht die ganze Breite und Tiefe der Stadt erforschen .
+1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
+2	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	immer	immer	ADV	ADV	_	4	advmod	_	_
+4	wieder	wieder	ADV	NN	Case=Nom|Gender=Neut|Number=Plur	2	advmod	_	_
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	7	det	_	_
+6	gleichen	gleich	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	7	amod	_	_
+7	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur	2	obj	_	_
+8	,	,	PUNCT	$,	_	19	punct	_	_
+9	weil	weil	SCONJ	KOUS	_	19	mark	_	_
+10	wir	wir	PRON	ADJD	_	19	nsubj	_	_
+11	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advmod	_	_
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	ganze	ganz	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	14	amod	_	_
+14	Breite	Breite	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+15	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	16	cc	_	_
+16	Tiefe	Tiefe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	conj	_	_
+17	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Stadt	Stadt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+19	erforschen	erforschen	VERB	ADJA	Case=Gen|Gender=Fem|Number=Sing	2	advcl	_	_
+20	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = Auf der anderen Seite des Netzwerkes haben sie Menschen , die an Dingen wie Hip-Hop interessiert sind und sich eher mit dem Wohngebiet DC / Maryland / Virigina identifizieren , als mit der korrekten Stadtbezeichnung für Baltimore .
+1	Auf	auf	ADP	APPR	_	4	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	anderen	ander	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	4	amod	_	_
+4	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Netzwerkes	Netzwerk	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+9	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	obj	_	_
+10	,	,	PUNCT	$,	_	18	punct	_	_
+11	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	18	nsubj	_	_
+12	an	an	ADP	APPR	_	13	case	_	_
+13	Dingen	Ding	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	18	nmod	_	_
+14	wie	wie	ADP	NE	Case=Dat|Gender=Masc|Number=Sing	17	case	_	_
+15	Hip	hip	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	17	compound	_	SpaceAfter=No
+16	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+17	Hop	Hop	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_
+18	interessiert	interessieren	ADJ	ADJD	_	9	acl	_	_
+19	sind	sein	AUX	ADJD	_	18	cop	_	_
+20	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	31	cc	_	_
+21	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	31	obj	_	_
+22	eher	eher	ADV	ADV	_	31	advmod	_	_
+23	mit	mit	ADP	$,	NumType=Card	25	case	_	_
+24	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	25	det	_	_
+25	Wohngebiet	Wohngebiet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	31	nmod	_	_
+26	DC	DC	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	25	appos	_	_
+27	/	/	PUNCT	$(	_	28	punct	_	_
+28	Maryland	Maryland	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	26	conj	_	_
+29	/	/	PUNCT	$(	_	30	punct	_	_
+30	Virigina	Virigina	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	26	conj	_	_
+31	identifizieren	identifizi	ADJ	VVINF	VerbForm=Inf	18	conj	_	_
+32	,	,	PUNCT	$,	_	33	punct	_	_
+33	als	als	SCONJ	KOUS	_	7	mark	_	_
+34	mit	mit	ADP	ADJA	Case=Nom|Gender=Neut|Number=Plur	37	case	_	_
+35	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+36	korrekten	korrekt	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	37	amod	_	_
+37	Stadtbezeichnung	Stadtbezeichnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	33	nmod	_	_
+38	für	für	ADP	APPR	_	39	case	_	_
+39	Baltimore	Baltimore	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	37	nmod	_	_
+40	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = In der Mitte sehen Sie etwas , das die beiden Gruppierungen verbindet , und das ist Sport .
+1	In	in	ADP	APPR	_	3	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Mitte	Mitte	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+4	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+6	etwas	etwas	ADV	ADV	_	4	advmod	_	_
+7	,	,	PUNCT	$,	_	12	punct	_	_
+8	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	12	nsubj	_	_
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	beiden	beide	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	11	amod	_	_
+11	Gruppierungen	Gruppierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	_
+12	verbindet	verbindet	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	_
+13	,	,	PUNCT	$,	_	17	punct	_	_
+14	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	17	cc	_	_
+15	das	der	PRON	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	nsubj	_	_
+16	ist	sein	AUX	ADJA	Case=Nom|Gender=Masc|Number=Sing	17	cop	_	_
+17	Sport	Sport	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	conj	_	_
+18	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = Wir haben die Baltimore Orioles , die Baltimore Ravens [ Football ] den Olympioniken Michael Phelps , die Baltimore Firma Under Armour , die sie vielleicht kennen .
+1	Wir	wir	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Baltimore	Baltimore	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	2	iobj	_	_
+5	Orioles	Orioles	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	4	flat	_	_
+6	,	,	PUNCT	$,	_	8	punct	_	_
+7	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Rel	8	det	_	_
+8	Baltimore	Baltimore	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+9	Ravens	Ravens	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	8	flat	_	_
+10	[	[	PUNCT	$(	_	11	punct	_	_
+11	Football	Football	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	8	appos	_	_
+12	]	]	PUNCT	$(	_	11	punct	_	_
+13	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Olympioniken	Olympionik	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
+15	Michael	Michael	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	14	appos	_	_
+16	Phelps	Phelps	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	15	flat	_	_
+17	,	,	PUNCT	$,	_	19	punct	_	_
+18	die	der	DET	PRELS	Case=Nom|Number=Plur|PronType=Rel	19	det	_	_
+19	Baltimore	Baltimore	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+20	Firma	Firma	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	19	flat	_	_
+21	Under	Under	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	19	flat	_	_
+22	Armour	Armour	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	19	flat	_	_
+23	,	,	PUNCT	$,	_	27	punct	_	_
+24	die	der	PRON	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	nsubj	_	_
+25	sie	sie	PRON	ADJA	Case=Acc|Gender=Fem|Number=Sing	26	nsubj	_	_
+26	vielleicht	vielleicht	ADV	FM	Foreign=Yes	27	advmod	_	_
+27	kennen	kennen	ADV	PTKVZ	_	2	acl	_	_
+28	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Diese Sportverbundenheit fungiert als einzige Brücke zwischen den beiden Enden des Netzwerkes .
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	Sportverbundenheit	Sportverbundenheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	fungiert	fungieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	als	als	ADP	KOKOM	_	6	case	_	_
+5	einzige	einzig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
+6	Brücke	Brücke	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+7	zwischen	zwischen	ADP	ADJA	Case=Acc|Gender=Masc|Number=Sing	10	case	_	_
+8	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	beiden	beide	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	10	amod	_	_
+10	Enden	enden	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	nmod	_	_
+11	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Netzwerkes	Netzwerk	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+13	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Schauen wir uns San Francisco an .
+1	Schauen	schauen	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	0	root	_	_
+2	wir	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	1	nsubj	_	_
+3	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	4	flat	_	_
+4	San	San	PROPN	NE	_	1	appos	_	_
+5	Francisco	Francisco	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	4	flat	_	_
+6	an	an	ADP	PTKVZ	_	1	compound:prt	_	_
+7	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Sie sehen , dass dort etwas anderes passiert .
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	$,	_	8	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	8	mark	_	_
+5	dort	dort	ADV	ADV	_	8	advmod	_	_
+6	etwas	etwas	ADV	PIS	Definite=Ind|Gender=Neut|PronType=Ind	7	advmod	_	_
+7	anderes	ander	ADJ	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	advmod	_	_
+8	passiert	passiert	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 18
+# text = Auf der einen Seite gibt es den Medien- , Politik- und Nachrichtenflügel , den es in Baltimore und anderen Städten meist gibt , es gibt aber auch diese tonangebende Gruppe der Geeks und Technikbegeisterten , die die obere Hälfte der Karte dominieren , sowie eine Gruppe , die so klar und ausgeprägt ist , dass wir sie als Twitter-Mitarbeiter bezeichnen , nahe bei den Geeks , zwischen Gamern und Geeks , am entgegengesetzten Ende des Hip-Hop-Spektrums .
+1	Auf	auf	ADP	APPR	_	4	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	einen	einen	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	4	amod	_	_
+4	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+5	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Medien	Medium	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	nsubj	_	SpaceAfter=No
+9	-	-	PUNCT	$(	_	11	punct	_	_
+10	,	,	PUNCT	$,	_	11	punct	_	_
+11	Politik	Politik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+12	-	-	PUNCT	$(	_	14	punct	_	_
+13	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	14	cc	_	_
+14	Nachrichtenflügel	Nachrichtenflügel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	conj	_	_
+15	,	,	PUNCT	$,	_	24	punct	_	_
+16	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	24	obj	_	_
+17	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+18	in	in	ADP	APPR	_	19	case	_	_
+19	Baltimore	Baltimore	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	24	obl	_	_
+20	und	und	CCONJ	NE	Case=Dat|Gender=Neut|Number=Sing	22	cc	_	_
+21	anderen	ander	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	22	amod	_	_
+22	Städten	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	19	conj	_	_
+23	meist	meist	ADV	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advmod	_	_
+24	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_
+25	,	,	PUNCT	$,	_	27	punct	_	_
+26	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+27	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+28	aber	aber	ADV	ADV	_	27	advmod	_	_
+29	auch	auch	ADV	ADV	_	27	advmod	_	_
+30	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	32	det	_	_
+31	tonangebende	tonangebend	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	32	amod	_	_
+32	Gruppe	Gruppe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	obj	_	_
+33	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	34	det	_	_
+34	Geeks	Geek	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	32	nmod	_	_
+35	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	36	cc	_	_
+36	Technikbegeisterten	Technikbegeistert	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	34	conj	_	_
+37	,	,	PUNCT	$,	_	44	punct	_	_
+38	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	44	nsubj	_	_
+39	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+40	obere	ober	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	41	amod	_	_
+41	Hälfte	Hälfte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	44	obj	_	_
+42	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	43	det	_	_
+43	Karte	Kart	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	41	nmod	_	_
+44	dominieren	dominieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	acl	_	_
+45	,	,	PUNCT	$,	_	48	punct	_	_
+46	sowie	sowie	CCONJ	NN	Case=Gen|Gender=Masc|Number=Sing	48	cc	_	_
+47	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
+48	Gruppe	Gruppe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	_
+49	,	,	PUNCT	$,	_	52	punct	_	_
+50	die	der	PRON	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	nsubj	_	_
+51	so	so	ADV	NN	Case=Acc|Gender=Fem|Number=Sing	52	advmod	_	_
+52	klar	klar	ADJ	ADJD	_	5	acl	_	_
+53	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	54	cc	_	_
+54	ausgeprägt	ausprägen	ADJ	ADJD	_	52	conj	_	_
+55	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	52	cop	_	_
+56	,	,	PUNCT	$,	_	64	punct	_	_
+57	dass	dass	SCONJ	KOUS	_	64	mark	_	_
+58	wir	wir	PRON	ADJD	_	64	nsubj	_	_
+59	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	64	nsubj	_	_
+60	als	als	ADP	KOKOM	_	63	case	_	_
+61	Twitter	Twitter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	63	compound	_	SpaceAfter=No
+62	-	-	PUNCT	$(	_	61	punct	_	SpaceAfter=No
+63	Mitarbeiter	Mitarbeite	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	64	obl	_	_
+64	bezeichnen	bezeichnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+65	,	,	PUNCT	$,	_	69	punct	_	_
+66	nahe	nahe	ADV	CARD	NumType=Card	69	advmod	_	_
+67	bei	bei	ADP	APPR	_	69	case	_	_
+68	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	69	det	_	_
+69	Geeks	Geek	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	64	nmod	_	_
+70	,	,	PUNCT	$,	_	72	punct	_	_
+71	zwischen	zwischen	ADP	NN	Case=Dat|Gender=Masc|Number=Sing	72	case	_	_
+72	Gamern	Gamer	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	69	nmod	_	_
+73	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	74	cc	_	_
+74	Geeks	Geek	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	72	conj	_	_
+75	,	,	PUNCT	$,	_	79	punct	_	_
+76-77	am	_	_	_	_	_	_	_	_
+76	an	an	ADP	APPR	_	79	case	_	_
+77	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	79	det	_	_
+78	entgegengesetzten	entgegengesetzt	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	79	amod	_	_
+79	Ende	Ende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	72	nmod	_	_
+80	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	85	det	_	_
+81	Hip	hip	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	83	compound	_	SpaceAfter=No
+82	-	-	PUNCT	$(	_	81	punct	_	SpaceAfter=No
+83	Hop	Hop	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	85	compound	_	SpaceAfter=No
+84	-	-	PUNCT	$(	_	83	punct	_	SpaceAfter=No
+85	Spektrums	Spektrum	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	79	nmod	_	_
+86	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = Sie sehen also , dass die Spannungen , die wir aus San Francisco vernehmen , dass sich die Leute um Gentrifizierung sorgen , wegen diesen neuen Tech-Firmen , die neuen Wohlstand bringen und sich in der Stadt ansiedeln , real sind .
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	also	also	ADV	ADV	_	2	advmod	_	_
+4	,	,	PUNCT	$,	_	22	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	22	mark	_	_
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	Spannungen	Spannung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	22	nsubj	_	_
+8	,	,	PUNCT	$,	_	14	punct	_	_
+9	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	14	obj	_	_
+10	wir	wir	PRON	ADJD	_	14	nsubj	_	_
+11	aus	aus	ADP	APPR	_	12	case	_	_
+12	San	San	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	_
+13	Francisco	Francisco	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	flat	_	_
+14	vernehmen	vernehmen	VERB	VVINF	VerbForm=Inf	7	acl	_	_
+15	,	,	PUNCT	$,	_	7	punct	_	_
+16	dass	dass	SCONJ	KOUS	_	22	mark	_	_
+17	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	22	obj	_	_
+18	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	19	det	_	_
+19	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur	22	nsubj	_	_
+20	um	um	ADP	APPR	_	21	case	_	_
+21	Gentrifizierung	Gentrifizierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	nmod	_	_
+22	sorgen	sorgen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	_
+23	,	,	PUNCT	$,	_	29	punct	_	_
+24	wegen	wegen	ADP	NN	Case=Acc|Gender=Masc|Number=Sing	29	case	_	_
+25	diesen	dies	PRON	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
+26	neuen	neu	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	29	amod	_	_
+27	Tech	Tech	NOUN	NN	_	29	compound	_	SpaceAfter=No
+28	-	-	PUNCT	$(	_	27	punct	_	SpaceAfter=No
+29	Firmen	Firma	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	22	obl	_	_
+30	,	,	PUNCT	$,	_	34	punct	_	_
+31	die	der	DET	PRELS	Case=Nom|Number=Plur|PronType=Rel	34	nsubj	_	_
+32	neuen	neu	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	33	amod	_	_
+33	Wohlstand	Wohlstand	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	34	obj	_	_
+34	bringen	bringen	VERB	VVINF	VerbForm=Inf	29	acl	_	_
+35	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	40	cc	_	_
+36	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	40	obj	_	_
+37	in	in	ADP	APPR	_	39	case	_	_
+38	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	40	obl	_	_
+40	ansiedeln	ansiedeln	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	conj	_	_
+41	,	,	PUNCT	$,	_	42	punct	_	_
+42	real	real	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+43	sind	sein	AUX	ADJD	_	42	cop	_	_
+44	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = Sie sehen das hier dokumentiert .
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	hier	hier	ADV	ADV	_	2	advmod	_	_
+5	dokumentiert	dokumentieren	VERB	VVFIN	VerbForm=Part	2	xcomp	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 21
+# text = Sie sehen die LGBT-Community , die nicht zu den Geeks passt , die Künstler , die Musiker .
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	LGBT	LGBT	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+6	Community	Community	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	4	flat	_	_
+7	,	,	PUNCT	$,	_	13	punct	_	_
+8	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	13	nsubj	_	_
+9	nicht	nicht	PART	CARD	NumType=Card	13	advmod	_	_
+10	zu	zu	ADP	NN	Case=Acc|Gender=Fem|Number=Plur	12	case	_	_
+11	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Geeks	Geek	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	13	obl	_	_
+13	passt	passen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_
+14	,	,	PUNCT	$,	_	16	punct	_	_
+15	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	Künstler	Künstler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	appos	_	_
+17	,	,	PUNCT	$,	_	19	punct	_	_
+18	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	Musiker	Musiker	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	conj	_	_
+20	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 22
+# text = Und dies führt zu Dingen wie diesen : [ " Twitter raus " ] Das Bild bekam ich vor einigen Wochen .
+1	Und	und	CCONJ	ADJD	_	3	cc	_	_
+2	dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	führt	führen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	5	case	_	_
+5	Dingen	Ding	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	3	obl	_	_
+6	wie	wie	ADP	NN	Case=Dat|Gender=Fem|Number=Sing	7	case	_	_
+7	diesen	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Dem	3	obl	_	_
+8	:	:	PUNCT	$.	_	17	punct	_	_
+9	[	[	PUNCT	$(	_	11	punct	_	_
+10	"	"	PUNCT	$(	_	11	punct	_	_
+11	Twitter	Twitter	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+12	raus	raus	PROPN	PAV	_	11	flat	_	_
+13	"	"	PUNCT	$(	_	11	punct	_	_
+14	]	]	PUNCT	$(	_	11	punct	_	_
+15	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Bild	Bild	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	17	obj	_	_
+17	bekam	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+18	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+19	vor	vor	ADP	NE	Case=Acc|Gender=Fem|Number=Sing	21	case	_	_
+20	einigen	einige	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	21	det	_	_
+21	Wochen	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	obl	_	_
+22	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = Es zeigt auf , was auf dem Boden von San Francisco passiert .
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	zeigt	zeigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	auf	auf	ADP	PTKVZ	_	2	compound:prt	_	_
+4	,	,	PUNCT	$,	_	12	punct	_	_
+5	was	was	PRON	NN	Case=Acc|Gender=Masc|Number=Sing	12	nsubj	_	_
+6	auf	auf	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Boden	Boden	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	_
+9	von	von	ADP	NE	Case=Dat|Gender=Neut|Number=Sing	10	case	_	_
+10	San	San	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	_
+11	Francisco	Francisco	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	flat	_	_
+12	passiert	passieren	VERB	VVPP	VerbForm=Part	2	acl	_	_
+13	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 24
+# text = Ich glaube , sie können versuchen , das verstehen , indem sie solche Karten anschauen .
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	glaube	glauben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	$,	_	6	punct	_	_
+4	sie	sie	PRON	VVINF	VerbForm=Inf	6	nsubj	_	_
+5	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	versuchen	versuchen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	_
+7	,	,	PUNCT	$,	_	9	punct	_	_
+8	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	9	nsubj	_	_
+9	verstehen	verstehen	VERB	VVINF	VerbForm=Inf	6	acl	_	_
+10	,	,	PUNCT	$,	_	15	punct	_	_
+11	indem	indem	SCONJ	KOUS	_	15	mark	_	_
+12	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
+13	solche	solch	PRON	ADJD	_	14	det	_	_
+14	Karten	Karten	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	obj	_	_
+15	anschauen	anschauen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+16	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 25
+# text = Betrachten wir Rio de Janeiro .
+1	Betrachten	betrachten	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	0	root	_	_
+2	wir	wir	PRON	ADJD	_	3	nsubj	_	_
+3	Rio	Rio	PROPN	NE	Foreign=Yes	1	nmod	_	_
+4	de	de	PROPN	NE	Foreign=Yes	3	flat	_	_
+5	Janeiro	Janeiro	PROPN	NE	Foreign=Yes	3	flat	_	_
+6	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 26
+# text = Ich sammelte die letzten Wochen Daten in Rio .
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sammelte	sammeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	5	det	_	_
+4	letzten	letzt	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	5	amod	_	_
+5	Wochen	Woche	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	obl	_	_
+6	Daten	Datum	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	obj	_	_
+7	in	in	ADP	APPR	_	8	case	_	_
+8	Rio	Rio	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 27
+# text = Eine Sache viel mir in dieser Stadt auf : Alles ist wirklich sehr gemischt .
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Sache	Sache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	viel	viel	VERB	NE	Foreign=Yes	0	root	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dieser	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+8	auf	auf	ADP	PTKVZ	_	3	compound:prt	_	_
+9	:	:	PUNCT	$.	_	14	punct	_	_
+10	Alles	alle	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	14	nsubj	_	_
+11	ist	sein	AUX	ADJD	_	14	cop	_	_
+12	wirklich	wirklich	ADV	ADJD	_	14	advmod	_	_
+13	sehr	sehr	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	14	advmod	_	_
+14	gemischt	mischen	ADJ	VVPP	VerbForm=Part	3	parataxis	_	_
+15	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 28
+# text = Es ist eine sehr heterogene Stadt , nicht wie Baltimore oder San Francisco .
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+4	sehr	sehr	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	5	advmod	_	_
+5	heterogene	heterogen	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
+6	Stadt	Stadt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+7	,	,	PUNCT	$,	_	10	punct	_	_
+8	nicht	nicht	PART	XY	NumType=Card	10	advmod	_	_
+9	wie	wie	ADP	NN	Case=Dat|Gender=Fem|Number=Sing	10	case	_	_
+10	Baltimore	Baltimore	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	appos	_	_
+11	oder	oder	CCONJ	XY	_	12	cc	_	_
+12	San	San	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	conj	_	_
+13	Francisco	Francisco	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	flat	_	_
+14	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 29
+# text = Es gibt immer noch die Gruppen an Menschen aus Verwaltung , Zeitungen , Politk und Kolummnisten .
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	immer	immer	ADV	ADV	_	2	advmod	_	_
+4	noch	noch	ADV	CARD	NumType=Card	2	advmod	_	_
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	Gruppen	Gruppe	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	nsubj	_	_
+7	an	an	ADP	APPR	_	8	case	_	_
+8	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obl	_	_
+9	aus	aus	ADP	APPR	_	10	case	_	_
+10	Verwaltung	Verwaltung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+11	,	,	PUNCT	$,	_	12	punct	_	_
+12	Zeitungen	Zeitung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	conj	_	_
+13	,	,	PUNCT	$,	_	14	punct	_	_
+14	Politk	Politk	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	_
+15	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	16	cc	_	_
+16	Kolummnisten	Kolummnist	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	_
+17	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 30
+# text = TEDxRio is unten rechts , rechts neben Bloggern und Autoren .
+1	TEDxRio	TEDxRio	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	is	sein	AUX	VAFIN	Foreign=Yes	0	root	_	_
+3	unten	unten	ADV	ADJA	Case=Acc|Gender=Fem|Number=Sing	2	advmod	_	_
+4	rechts	rechts	ADV	NN	Case=Acc|Gender=Neut|Number=Plur	2	advmod	_	_
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	rechts	rechts	ADV	NN	Case=Acc|Gender=Neut|Number=Plur	8	advmod	_	_
+7	neben	neben	ADP	NN	Case=Dat|Number=Plur	8	case	_	_
+8	Bloggern	Blogger	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	_
+9	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	10	cc	_	_
+10	Autoren	Autor	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	8	conj	_	_
+11	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 31
+# text = Es gibt aber auch diese enorme Vielfalt an Menschen , interessiert an verschiedenen Musikarten .
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	aber	aber	ADV	ADV	_	2	advmod	_	_
+4	auch	auch	ADV	ADV	_	2	advmod	_	_
+5	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+6	enorme	enorm	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	7	amod	_	_
+7	Vielfalt	Vielfalt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+8	an	an	ADP	APPR	_	9	case	_	_
+9	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	nmod	_	_
+10	,	,	PUNCT	$,	_	11	punct	_	_
+11	interessiert	interessieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+12	an	an	ADP	APPR	_	14	case	_	_
+13	verschiedenen	verschieden	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	14	amod	_	_
+14	Musikarten	Musikart	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obl	_	_
+15	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 32
+# text = Sogar Justin Bieber-Fans sind vertreten .
+1	Sogar	sogar	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	Justin	Justin	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+3	Bieber	Bieber	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	1	flat	_	SpaceAfter=No
+4	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
+5	Fans	Fan	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	flat	_	_
+6	sind	sein	AUX	ADJD	_	7	cop	_	_
+7	vertreten	vertreten	ADJ	VVPP	VerbForm=Part	0	root	_	_
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 33
+# text = Andere Boy-Groups , Countrysänger , Gospelmusiker , Funk , Rap und Stand-Up-Komödianten .
+1	Andere	andere	PROPN	ADJA	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+2	Boy	Boy	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
+3	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+4	Groups	Groups	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	1	flat	_	_
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	Countrysänger	Countrysänger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	Gospelmusiker	Gospelmusiker	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
+9	,	,	PUNCT	$,	_	10	punct	_	_
+10	Funk	Funk	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+11	,	,	PUNCT	$,	_	12	punct	_	_
+12	Rap	Rap	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+13	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	14	cc	_	_
+14	Stand-	Stand-	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+15	Up	up	PROPN	TRUNC	_	14	appos	_	SpaceAfter=No
+16	-	-	PUNCT	$(	_	17	punct	_	SpaceAfter=No
+17	Komödianten	Komödiant	NOUN	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	flat	_	_
+18	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 34
+# text = Und sogar eine ganze Gruppe rund um Drogen und Witze .
+1	Und	und	CCONJ	ADJD	_	5	cc	_	_
+2	sogar	sogar	ADV	ADV	_	5	advmod	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	ganze	ganz	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	5	amod	_	_
+5	Gruppe	Gruppe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
+6	rund	rund	ADV	ADV	_	8	advmod	_	_
+7	um	um	ADP	APPR	_	8	case	_	_
+8	Drogen	Droge	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	5	nmod	_	_
+9	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	10	cc	_	_
+10	Witze	Witze	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	8	conj	_	_
+11	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 35
+# text = Wie cool ist das denn ?
+1	Wie	wie	ADV	ADJA	_	2	advmod	_	_
+2	cool	cool	ADJ	ADJD	_	0	root	_	_
+3	ist	sein	AUX	ADJD	_	2	cop	_	_
+4	das	der	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
+5	denn	denn	NOUN	ADV	_	2	nsubj	_	_
+6	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 36
+# text = Auch die Fußballmannschaft " Flamengo " ist vertreten .
+1	Auch	auch	ADV	ADV	_	3	advmod	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Fußballmannschaft	Fußballmannschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+4	"	"	PUNCT	$(	_	5	punct	_	_
+5	Flamengo	Flamengo	PROPN	NE	Foreign=Yes	3	appos	_	_
+6	"	"	PUNCT	$(	_	5	punct	_	_
+7	ist	sein	AUX	ADJD	_	8	cop	_	_
+8	vertreten	vertreten	ADJ	VVPP	VerbForm=Part	0	root	_	_
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 37
+# text = Sie haben diese Bandbreite von Sport , Verwaltung , Kunst und Musik , aber in einer ganz anderen Art dargestellt .
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+3	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	Bandbreite	Bandbreite	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+5	von	von	ADP	FM	Foreign=Yes	6	case	_	_
+6	Sport	Sport	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	20	nmod	_	_
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	Verwaltung	Verwaltung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_
+9	,	,	PUNCT	$,	_	10	punct	_	_
+10	Kunst	Kunst	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_
+11	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	12	cc	_	_
+12	Musik	Musik	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+13	,	,	PUNCT	$,	_	20	punct	_	_
+14	aber	aber	CCONJ	KON	_	20	cc	_	_
+15	in	in	ADP	APPR	_	19	case	_	_
+16	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+17	ganz	ganz	ADJ	ADV	_	18	advmod	_	_
+18	anderen	ander	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	19	amod	_	_
+19	Art	Art	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	_
+20	dargestellt	darstellen	VERB	VVPP	VerbForm=Part	0	root	_	_
+21	.	.	PUNCT	$.	_	20	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 38
+# text = Ich denke , dass könnte zu der Art , wie wir Rio verstehen , passen , als eine sehr multikulturelle , musikalisch vielfältige Stadt .
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	denke	denken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	$,	_	5	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	5	mark	_	_
+5	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+6	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	case	_	_
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Art	Art	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+9	,	,	PUNCT	$,	_	13	punct	_	_
+10	wie	wie	SCONJ	NN	Case=Nom|Gender=Neut|Number=Sing	13	mark	_	_
+11	wir	wir	PRON	ADJD	_	13	nsubj	_	_
+12	Rio	Rio	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	13	obj	_	_
+13	verstehen	verstehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	parataxis	_	_
+14	,	,	PUNCT	$,	_	15	punct	_	_
+15	passen	passen	VERB	VVFIN	VerbForm=Inf	13	xcomp	_	_
+16	,	,	PUNCT	$,	_	17	punct	_	_
+17	als	als	SCONJ	KOUS	_	8	dep	_	_
+18	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+19	sehr	sehr	ADV	NN	Case=Acc|Gender=Fem|Number=Sing	20	advmod	_	_
+20	multikulturelle	multikulturell	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	24	amod	_	_
+21	,	,	PUNCT	$,	_	22	punct	_	_
+22	musikalisch	musikalisch	ADJ	ADJD	_	24	amod	_	_
+23	vielfältige	vielfältig	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	24	amod	_	_
+24	Stadt	Stadt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+25	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 39
+# text = Wir haben all diese Daten , ein unglaublich reichhaltiger Bestand an Daten über Städte .
+1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	all	all	PRON	PIAT	Definite=Ind|PronType=Ind	5	det	_	_
+4	diese	dies	PRON	PDS	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	_
+6	,	,	PUNCT	$,	_	10	punct	_	_
+7	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+8	unglaublich	unglaublich	ADJ	ADJD	_	9	advmod	_	_
+9	reichhaltiger	reichhaltig	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	10	amod	_	_
+10	Bestand	Bestand	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+11	an	an	ADP	APPR	_	12	case	_	_
+12	Daten	Datum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	14	obl	_	_
+13	über	über	ADP	NN	Case=Acc|Gender=Fem|Number=Sing	14	case	_	_
+14	Städte	Stadt	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	nmod	_	_
+15	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 40
+# text = Vielleicht reichhaltiger als alles , was wir je zuvor hatten .
+1	Vielleicht	vielleicht	ADV	ADV	_	2	advmod	_	_
+2	reichhaltiger	reichhaltig	ADJ	ADJD	_	4	advmod	_	_
+3	als	als	ADP	KOKOM	_	4	case	_	_
+4	alles	alle	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	0	root	_	_
+5	,	,	PUNCT	$,	_	10	punct	_	_
+6	was	was	PRON	NN	Case=Nom|Gender=Fem|Number=Plur	10	obj	_	_
+7	wir	wir	PRON	ADJD	_	10	nsubj	_	_
+8	je	je	ADV	ADV	_	9	advmod	_	_
+9	zuvor	zuvor	ADV	ADV	_	10	advmod	_	_
+10	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	acl	_	_
+11	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 41
+# text = Was können wir damit anfangen ?
+1	Was	was	PRON	FM	Foreign=Yes	5	obj	_	_
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	wir	wir	PRON	ADJD	_	5	nsubj	_	_
+4	damit	damit	ADV	PAV	_	5	advmod	_	_
+5	anfangen	anfangen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+6	?	?	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 42
+# text = Ich denke , als Erstes sollten wir versuchen zu verstehen : Ist diese Trennung ein soziales Konzept ?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	denke	denken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	$,	_	8	punct	_	_
+4	als	als	ADP	KOUS	_	5	case	_	_
+5	Erstes	erst	NOUN	ADJA	Case=Acc|Gender=Neut|Number=Sing|NumType=Card	8	obl	_	_
+6	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+7	wir	wir	PRON	ADJD	_	8	nsubj	_	_
+8	versuchen	versuchen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	_
+9	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	mark	_	_
+10	verstehen	verstehen	VERB	VVINF	VerbForm=Inf	8	xcomp	_	_
+11	:	:	PUNCT	$.	_	17	punct	_	_
+12	Ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+13	diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	Trennung	Trennung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+15	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+16	soziales	sozial	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	17	amod	_	_
+17	Konzept	Konzept	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	parataxis	_	_
+18	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 43
+# text = Ist es etwas , dass wir wählen , obwohl wir es auch nicht tun könnten ?
+1	Ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	etwas	etwas	VERB	ADV	_	0	root	_	_
+4	,	,	PUNCT	$,	_	7	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	7	mark	_	_
+6	wir	wir	PRON	ADJD	_	7	nsubj	_	_
+7	wählen	wählen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+8	,	,	PUNCT	$,	_	14	punct	_	_
+9	obwohl	obwohl	SCONJ	CARD	NumType=Card	14	mark	_	_
+10	wir	wir	PRON	ADJD	_	14	nsubj	_	_
+11	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+12	auch	auch	ADV	ADV	_	14	advmod	_	_
+13	nicht	nicht	PART	CARD	NumType=Card	14	advmod	_	_
+14	tun	tun	VERB	VVINF	VerbForm=Inf	7	advcl	_	_
+15	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	_
+16	?	?	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 44
+# text = Wenn Sie darüber nachdenken , mit diesem Daten haben wir einen Blick darauf und betrachten die Stadt wie einen riesigen Schulspeiseraum , beobachten , wie sich jeder in dieser Stadt seinen Stuhl sucht .
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+3	darüber	darüber	ADV	PAV	_	4	advmod	_	_
+4	nachdenken	nachdenken	VERB	VVINF	VerbForm=Inf	9	advcl	_	_
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	mit	mit	ADP	$(	_	8	case	_	_
+7	diesem	dies	PRON	PDAT	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	Daten	Datum	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	9	obl	_	_
+9	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	_
+10	wir	wir	PRON	ADJD	_	9	nsubj	_	_
+11	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Blick	Blick	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+13	darauf	darauf	ADV	PAV	_	12	advmod	_	_
+14	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	15	cc	_	_
+15	betrachten	betrachten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Stadt	Stadt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+18	wie	wie	ADP	NE	Case=Gen|Gender=Neut|Number=Sing	21	case	_	_
+19	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	riesigen	riesig	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	21	amod	_	_
+21	Schulspeiseraum	Schulspeiseraum	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	_
+22	,	,	PUNCT	$,	_	23	punct	_	_
+23	beobachten	beobachten	VERB	ADJA	Case=Dat|Gender=Fem|Number=Sing	9	acl	_	_
+24	,	,	PUNCT	$,	_	33	punct	_	_
+25	wie	wie	ADP	NN	Case=Dat|Gender=Fem|Number=Sing	26	case	_	_
+26	sich	er|es|sie	PRON	PRF	Case=Dat|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	33	obl	_	_
+27	jeder	jed	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	33	nsubj	_	_
+28	in	in	ADP	APPR	_	30	case	_	_
+29	dieser	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	30	det	_	_
+30	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	33	obl	_	_
+31	seinen	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	32	det:poss	_	_
+32	Stuhl	Stuhl	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	33	obj	_	_
+33	sucht	suchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl	_	_
+34	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 45
+# text = Vielleicht ist es Zeit , an dieser Bestuhlung etwas zu rütteln .
+1	Vielleicht	vielleicht	ADV	ADV	_	4	advmod	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	Zeit	Zeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+5	,	,	PUNCT	$,	_	11	punct	_	_
+6	an	an	ADP	APPR	_	8	case	_	_
+7	dieser	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	Bestuhlung	Bestuhlung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
+9	etwas	etwas	ADV	PIS	Definite=Ind|PronType=Ind	11	advmod	_	_
+10	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	11	mark	_	_
+11	rütteln	rütteln	VERB	VVINF	VerbForm=Inf	4	xcomp	_	_
+12	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 46
+# text = Uns wird auch bewusst , dass Rasse ein miserabler Vertreter für Vielfältigkeit ist .
+1	Uns	wir	PRON	VVPP	VerbForm=Part	4	iobj	_	_
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	aux:pass	_	_
+3	auch	auch	ADV	ADV	_	4	advmod	_	_
+4	bewusst	bewußt	ADJ	ADJD	_	0	root	_	_
+5	,	,	PUNCT	$,	_	10	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	10	mark	_	_
+7	Rasse	Rasse	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+8	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	miserabler	miserabel	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	10	amod	_	_
+10	Vertreter	Vertreter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	csubj	_	_
+11	für	für	ADP	APPR	_	12	case	_	_
+12	Vielfältigkeit	Vielfältigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	_
+13	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+14	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 47
+# text = Wir haben Verteter aus allen Arten von Rassen über die ganze Karte verteilt .
+1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+3	Verteter	Verteter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+4	aus	aus	ADP	APPR	_	6	case	_	_
+5	allen	alle	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+6	Arten	Art	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	nmod	_	_
+7	von	von	ADP	FM	Foreign=Yes	8	case	_	_
+8	Rassen	Rasse	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	nmod	_	_
+9	über	über	ADP	FM	Foreign=Yes	12	case	_	_
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	ganze	ganz	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	12	amod	_	_
+12	Karte	Karte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	_
+13	verteilt	verteilen	ADJ	VVPP	VerbForm=Part	0	root	_	_
+14	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 48
+# text = Nur die Rasse zu betrachten , erklärt aber die Vielfältigkeit der Stadtentwicklung nicht .
+1	Nur	nur	ADV	ADV	_	5	advmod	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Rasse	Rasse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	_
+4	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	5	mark	_	_
+5	betrachten	betrachten	VERB	VVINF	VerbForm=Inf	7	xcomp	_	_
+6	,	,	PUNCT	$,	_	7	punct	_	_
+7	erklärt	erklären	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	aber	aber	ADV	ADV	_	7	advmod	_	_
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Vielfältigkeit	Vielfältigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nsubj	_	_
+11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Stadtentwicklung	Stadtentwicklung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advmod	_	_
+14	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 49
+# text = Wenn wir versuchen diese Vielfalt zu nutzen , um heikle Probleme anzugehen , brauchen wir eine neue Art des Denkens bezüglich Vielfältigkeit .
+1	Wenn	wenn	SCONJ	KOUS	_	3	mark	_	_
+2	wir	wir	PRON	ADJD	_	3	nsubj	_	_
+3	versuchen	versuchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+4	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	Vielfalt	Vielfalt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+6	zu	zu	PART	NN	Case=Acc|Gender=Fem|Number=Plur	7	mark	_	_
+7	nutzen	nutzen	VERB	VVINF	VerbForm=Inf	3	xcomp	_	_
+8	,	,	PUNCT	$,	_	12	punct	_	_
+9	um	um	ADP	KOUI	_	12	mark	_	_
+10	heikle	heikel	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	11	amod	_	_
+11	Probleme	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	obj	_	_
+12	anzugehen	anzugehen	VERB	VVINF	VerbForm=Inf	3	advcl	_	_
+13	,	,	PUNCT	$,	_	3	punct	_	_
+14	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	wir	wir	PRON	ADJD	_	14	nsubj	_	_
+16	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	neue	neu	ADJ	NN	Case=Gen|Gender=Fem|Number=Sing	18	amod	_	_
+18	Art	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+19	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Denkens	Denken	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+21	bezüglich	bezüglich	ADJ	APPR	_	22	amod	_	_
+22	Vielfältigkeit	Vielfältigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	nmod	_	_
+23	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 50
+# text = Schlussendlich haben wir die Fähigkeit , Interventionen zu starten , die unsere Städte in einer neuen Art umformen .
+1	Schlussendlich	schlußendlich	ADJ	ADJD	_	9	advmod	_	_
+2	haben	haben	AUX	VAINF	VerbForm=Inf	9	aux	_	_
+3	wir	wir	PRON	ADJD	_	9	nsubj	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Fähigkeit	Fähigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	obj	_	_
+6	,	,	PUNCT	$,	_	7	punct	_	_
+7	Interventionen	Intervention	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	conj	_	_
+8	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	9	mark	_	_
+9	starten	starten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	,	,	PUNCT	$,	_	18	punct	_	_
+11	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	18	nsubj	_	_
+12	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	13	det:poss	_	_
+13	Städte	Stadt	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	obj	_	_
+14	in	in	ADP	APPR	_	17	case	_	_
+15	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	neuen	neu	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	17	amod	_	_
+17	Art	Art	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	nmod	_	_
+18	umformen	umform	ADJ	NN	Case=Acc|Gender=Fem|Number=Plur	9	conj	_	_
+19	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 51
+# text = Ich glaube , dass wir dieses Potential haben .
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	glaube	glauben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	$,	_	8	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	8	mark	_	_
+5	wir	wir	PRON	ADJD	_	8	nsubj	_	_
+6	dieses	dies	PRON	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	_
+7	Potential	Potential	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+8	haben	haben	VERB	VAINF	VerbForm=Inf	2	ccomp	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 52
+# text = Wir haben sogar die Verpflichtung es zu tun .
+1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sogar	sogar	ADV	ADV	_	2	advmod	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Verpflichtung	Verpflichtung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+7	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	mark	_	_
+8	tun	tun	VERB	VVINF	VerbForm=Inf	2	xcomp	_	_
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 53
+# text = Was ist also eine Stadt ?
+1	Was	was	PRON	FM	Foreign=Yes	5	nsubj	_	_
+2	ist	sein	AUX	ADJA	Case=Nom|Gender=Masc|Number=Sing	5	cop	_	_
+3	also	also	ADV	ADV	_	5	advmod	_	_
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Stadt	Stadt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+6	?	?	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 54
+# text = Jemand könnte sagen , ein geografisches Gebiet , eine Reihe von Straßen und Gebäuden .
+1	Jemand	jemand	PRON	NE	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	sagen	sagen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+4	,	,	PUNCT	$,	_	7	punct	_	_
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+6	geografisches	geografisch	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	7	amod	_	_
+7	Gebiet	Gebiet	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	ccomp	_	_
+8	,	,	PUNCT	$,	_	10	punct	_	_
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Reihe	Reihe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	appos	_	_
+11	von	von	ADP	FM	Foreign=Yes	12	case	_	_
+12	Straßen	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	_
+13	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	14	cc	_	_
+14	Gebäuden	Gebäude	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	12	conj	_	_
+15	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 55
+# text = Ich glaube aber , eine Stadt ist die Summe der Beziehungen der Leute , die dort leben .
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	glaube	glauben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	aber	aber	ADV	ADV	_	2	advmod	_	_
+4	,	,	PUNCT	$,	_	9	punct	_	_
+5	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Stadt	Stadt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+7	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Summe	Summe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	_
+10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	Beziehungen	Beziehung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+12	der	der	DET	ART	Case=Gen|Number=Plur|PronType=Art	13	det	_	_
+13	Leute	Leute	NOUN	NN	Case=Gen|Number=Plur	11	nmod	_	_
+14	,	,	PUNCT	$,	_	17	punct	_	_
+15	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	17	nsubj	_	_
+16	dort	dort	ADV	ADV	_	17	advmod	_	_
+17	leben	leben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl	_	_
+18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 56
+# text = Wenn wir anfangen können , die Beziehungen wirklich zu dokumentieren , hätten wir eine echte Chance , die Städte zu erhalten , die wir gerne hätten .
+1	Wenn	wenn	SCONJ	KOUS	_	3	mark	_	_
+2	wir	wir	PRON	ADJD	_	3	nsubj	_	_
+3	anfangen	anfangen	VERB	VVINF	VerbForm=Inf	21	advcl	_	_
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+5	,	,	PUNCT	$,	_	10	punct	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	Beziehungen	Beziehung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+8	wirklich	wirklich	ADV	ADV	_	10	advmod	_	_
+9	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	mark	_	_
+10	dokumentieren	dokumentieren	VERB	VVINF	VerbForm=Inf	3	xcomp	_	_
+11	,	,	PUNCT	$,	_	3	punct	_	_
+12	hätten	haben	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	21	aux	_	_
+13	wir	wir	PRON	ADJD	_	21	nsubj	_	_
+14	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	echte	echt	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	16	amod	_	_
+16	Chance	Chance	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+17	,	,	PUNCT	$,	_	21	punct	_	_
+18	die	der	DET	PRELS	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	Städte	Stadt	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	21	obj	_	_
+20	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	21	mark	_	_
+21	erhalten	erhalten	VERB	VVINF	VerbForm=Inf	0	root	_	_
+22	,	,	PUNCT	$,	_	26	punct	_	_
+23	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	26	obj	_	_
+24	wir	wir	PRON	ADJD	_	26	nsubj	_	_
+25	gerne	gerne	ADV	ADV	_	26	advmod	_	_
+26	hätten	haben	VERB	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	21	acl	_	_
+27	.	.	PUNCT	$.	_	21	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 57
+# text = Danke
+1	Danke	Danken	VERB	PTKANT	_	0	root	_	SpacesAfter=\n\n
 

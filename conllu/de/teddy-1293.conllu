@@ -1,4 +1,4 @@
-# newdoc id = txt/de/teddy-1293.txt
+# newdoc
 # newpar
 # sent_id = 1
 # text = Im langen Laufe der Geschichte ist jene Krankheit, die mehr Leute als jede andere umgebracht hat, Malaria gewesen.
@@ -107,22 +107,26 @@
 8	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = 6
-# text = Wir wissen seit dem 16. Jahrhundert, wie man Malaria heilt.
+# text = Wir wissen seit dem 16.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	seit	seit	ADP	NN	Case=Nom|Gender=Fem|Number=Sing	7	case	_	_
-4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
-5	16	16	NUM	CARD	NumType=Card	7	nummod	_	SpaceAfter=No
-6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
-7	Jahrhundert	Jahrhundert	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
-8	,	,	PUNCT	$,	_	12	punct	_	_
-9	wie	wie	SCONJ	NE	Case=Nom|Gender=Neut|Number=Sing	12	mark	_	_
-10	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	12	nsubj	_	_
-11	Malaria	Malaria	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	12	obj	_	_
-12	heilt	heilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
-13	.	.	PUNCT	$.	_	2	punct	_	_
+3	seit	seit	ADP	ADJA	Case=Acc|Gender=Fem|Number=Sing	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	16	16	NUM	CARD	NumType=Card	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 7
+# text = Jahrhundert, wie man Malaria heilt.
+1	Jahrhundert	Jahrhundert	NOUN	ADJD	_	6	dep	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	6	punct	_	_
+3	wie	wie	SCONJ	NE	Case=Nom|Gender=Neut|Number=Sing	6	mark	_	_
+4	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	6	nsubj	_	_
+5	Malaria	Malaria	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	6	obj	_	_
+6	heilt	heilen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 8
 # text = Damals entdeckten die jesuitischen Missionare in Peru die Chinarinde und in dieser Rinde war Chinin enthalten, was bis heute ein wirksames Heilmittel für Malaria ist.
 1	Damals	damals	ADV	ADV	_	2	advmod	_	_
 2	entdeckten	entdecken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -152,7 +156,7 @@
 26	ist	sein	AUX	ADJD	_	23	cop	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 8
+# sent_id = 9
 # text = Demnach wissen wir seit Jahrhunderten, Wir wissen seit 1897, wie man Malaria vorbeugt.
 1	Demnach	demnach	ADV	PAV	_	2	advmod	_	_
 2	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -171,7 +175,7 @@
 15	vorbeugt	vorbeugen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 9
+# sent_id = 10
 # text = Da entdeckte nämlich der Chirurg der Britischen Armee, Ronald Ross, dass Moskitos Malaria übertragen, und nicht schlechte Luft oder Miasmen, wie zuvor gedacht wurde.
 1	Da	da	ADV	ADV	_	2	advmod	_	_
 2	entdeckte	entdecken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -203,7 +207,7 @@
 28	wurde	werden	AUX	KON	_	27	aux:pass	_	SpaceAfter=No
 29	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 10
+# sent_id = 11
 # text = Also sollte man das Problem der Malaria relativ simpel lösen können, und trotzdem werden auch heute Hunderte von Leuten an einem Moskitostich sterben.
 1	Also	also	ADV	ADV	_	10	advmod	_	_
 2	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
@@ -231,7 +235,7 @@
 24	sterben	sterben	VERB	VVINF	VerbForm=Inf	10	conj	_	SpaceAfter=No
 25	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 11
+# sent_id = 12
 # text = Warum ist das so?
 1	Warum	warum	ADV	PWAV	PronType=Int	0	root	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -239,7 +243,7 @@
 4	so	so	ADV	NE	Case=Nom|Gender=Neut|Number=Plur	5	advmod	_	SpaceAfter=No
 5	?	?	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 12
+# sent_id = 13
 # text = Das ist eine Frage, die mich persönlich lange eingenommen hat.
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -254,7 +258,7 @@
 11	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 13
+# sent_id = 14
 # text = Ich bin als Tochter von indischen Immigranten aufgewachsen und habe jeden Sommer meine Cousins in Indien besucht.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
@@ -275,7 +279,7 @@
 17	besucht	besuchen	VERB	VVPP	VerbForm=Part	8	conj	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 14
+# sent_id = 15
 # text = Da ich nicht gegen die einheimische Malaria immun war, musste ich jede Nacht unter einem heißen, schwitzigen Moskitonetz schlafen, während meine Cousins draußen auf der Terrasse schlafen durften ein kühles, angenehmes Lüftchen über sie wehen hatten.
 1	Da	da	SCONJ	KOUS	_	8	mark	_	_
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
@@ -319,7 +323,7 @@
 40	hatten	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	39	aux	_	SpaceAfter=No
 41	.	.	PUNCT	$.	_	21	punct	_	_
 
-# sent_id = 15
+# sent_id = 16
 # text = Ich habe die Moskitos dafür wirklich gehasst.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -330,7 +334,7 @@
 7	gehasst	gehasst	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 16
+# sent_id = 17
 # text = Aber ich komme auch aus einer jainistischen Familie, und Jainismus ist eine Religion, die mit einer sehr extremen Form der Gewaltlosigkeit verbunden ist.
 1	Aber	aber	CCONJ	KON	_	3	cc	_	_
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -359,7 +363,7 @@
 25	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	24	cop	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 17
+# sent_id = 18
 # text = Also sollen Jainisten kein Fleisch essen.
 1	Also	also	ADV	ADV	_	6	advmod	_	_
 2	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -369,7 +373,7 @@
 6	essen	essen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 18
+# sent_id = 19
 # text = Wir sollen nicht auf Gras laufen, weil man, na ja, dabei unabsichtlich einige Insekten umbringen könnte.
 1	Wir	wir	PRON	ADJD	_	6	nsubj	_	_
 2	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -392,7 +396,7 @@
 19	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 19
+# sent_id = 20
 # text = Wir sollen auf keinen Fall Moskitos zerklatschen.
 1	Wir	wir	PRON	ADJD	_	7	nsubj	_	_
 2	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -403,7 +407,7 @@
 7	zerklatschen	zerklatschen	VERB	ADJA	Case=Gen|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 20
+# sent_id = 21
 # text = Also war mir die furchterregende Macht dieses kleinen Insekts schon frühzeitig offensichtlich und es ist ein Grund, warum ich 5 Jahre als Journalistin damit verbracht habe, zu verstehen, warum Malaria so lange so eine schlimme Plage für uns alle gewesen ist.
 1	Also	also	ADV	ADV	_	12	advmod	_	_
 2	war	sein	AUX	ADV	_	12	cop	_	_
@@ -451,7 +455,7 @@
 44	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	17	cop	_	SpaceAfter=No
 45	.	.	PUNCT	$.	_	12	punct	_	_
 
-# sent_id = 21
+# sent_id = 22
 # text = Und ich glaube, es gibt 3 Hauptgründe dafür.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -464,7 +468,7 @@
 9	dafür	dafür	ADV	PAV	_	6	advmod	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 22
+# sent_id = 23
 # text = Diese 3 Gründe summieren sich zu einem vierten Grund, der wahrscheinlich der wichtigste Grund von allen ist.
 1	Diese	dies	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem	3	det	_	_
 2	3	3	NUM	CARD	NumType=Card	3	nummod	_	_
@@ -486,7 +490,7 @@
 18	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 23
+# sent_id = 24
 # text = Der erste Grund ist ein wissenschaftlicher.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	erste	erst	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
@@ -496,7 +500,7 @@
 6	wissenschaftlicher	wissenschaftlich	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 24
+# sent_id = 25
 # text = Dieser kleine Parasit, der Malaria verursacht, ist wahrscheinlich einer der komplexesten und trickreichsten Erreger, die wir kennen.
 1	Dieser	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 2	kleine	klein	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
@@ -520,7 +524,7 @@
 20	kennen	kennen	ADV	PTKVZ	_	16	acl	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	11	punct	_	_
 
-# sent_id = 25
+# sent_id = 26
 # text = Er verbringt sein halbes Leben in einem kaltblütigen Moskito und die andere Hälfte in einem warmblütigen Menschen.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	verbringt	verbringen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -541,7 +545,7 @@
 17	Menschen	Mensch	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 26
+# sent_id = 27
 # text = Diese zwei Umgebungen sind komplett verschieden, und zudem sind sie beide durchweg feindselig.
 1	Diese	dies	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem	3	det	_	_
 2	zwei	zwei	NUM	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	nummod	_	_
@@ -559,7 +563,7 @@
 14	feindselig	feindselig	ADJ	ADJD	_	6	conj	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 27
+# sent_id = 28
 # text = Also versucht das Insekt dauernd, den Parasiten abzuwehren, und genauso versucht ihn der menschliche Körper dauernd abzuwehren.
 1	Also	also	ADV	ADV	_	2	advmod	_	_
 2	versucht	versuchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -582,7 +586,7 @@
 19	abzuwehren	abwehren	VERB	VVIZU	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 28
+# sent_id = 29
 # text = Dieses kleine Wesen überlebt so eine Belagerung, und es überlebt sie nicht nur, sondern er gedeiht sogar prächtig.
 1	Dieses	dies	PRON	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
 2	kleine	klein	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	3	amod	_	_
@@ -606,15 +610,16 @@
 20	prächtig	prächtig	ADJ	ADJD	_	18	xcomp	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 29
+# sent_id = 30
 # text = Es hat sich ausgebreitet.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	_
 4	ausgebreitet	ausbreiten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 30
+# newpar
+# sent_id = 31
 # text = Es hat ungeahnte Möglichkeiten, einen Angriff zu überleben.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -627,7 +632,7 @@
 9	überleben	überleben	VERB	VVINF	VerbForm=Inf	4	acl	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 31
+# sent_id = 32
 # text = Es ist zum einen ein Gestaltwandler.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	ist	sein	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -639,7 +644,7 @@
 7	Gestaltwandler	Gestaltwandler	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 32
+# sent_id = 33
 # text = Genauso wie eine Raupe sich in einen Schmetterling verwandelt, verwandelt sich der Malariaparasit sieben Mal in seinem Lebenszyklus.
 1	Genauso	genauso	ADV	ADV	_	4	advmod	_	_
 2	wie	wie	ADP	NN	Case=Nom|Gender=Fem|Number=Sing	4	case	_	_
@@ -662,7 +667,7 @@
 19	Lebenszyklus	Lebenszyklus	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 33
+# sent_id = 34
 # text = Und jedes dieser Lebensstadien sieht nicht nur komplett anders aus, sondern hat auch eine komplett unterschiedliche Physiologie.
 1	Und	und	CCONJ	NN	Case=Nom|Gender=Masc|Number=Sing	5	cc	_	_
 2	jedes	jed	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	5	nsubj	_	_
@@ -684,7 +689,7 @@
 18	Physiologie	Physiologie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 34
+# sent_id = 35
 # text = Sagen wir mal, Sie denken sich ein tolles Medikament aus, welches gegen ein Lebensstadium des Parasiten funktioniert.
 1	Sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	wir	wir	PRON	ADJD	_	1	nsubj	_	_
@@ -707,7 +712,7 @@
 19	funktioniert	funktionieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 35
+# sent_id = 36
 # text = Möglicherweise würde es aber in keinster Weise in den anderen Stadien wirken.
 1	Möglicherweise	möglicherweise	ADV	ADV	_	12	advmod	_	_
 2	würde	werden	AUX	NE	Case=Nom|Number=Sing	12	aux	_	_
@@ -723,7 +728,7 @@
 12	wirken	wirken	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	12	punct	_	_
 
-# sent_id = 36
+# sent_id = 37
 # text = Er kann sich unentdeckt in unserem Körper verstecken, ohne dass wir es wissen, tagelang, wochenlang, monatelang, jahrelang, und in manchen Fällen sogar jahrzehntelang.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
@@ -756,7 +761,7 @@
 29	jahrzehntelang	jahrzehntelang	ADJ	ADJD	_	16	conj	_	SpaceAfter=No
 30	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 37
+# sent_id = 38
 # text = Also ist dieser Parasit eine riesige wissenschaftliche Herausforderung, aber genauso der Moskito, der den Parasiten überträgt.
 1	Also	also	ADV	ADV	_	8	advmod	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
@@ -778,7 +783,7 @@
 18	überträgt	übertragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 38
+# sent_id = 39
 # text = Nur ungefähr 12 Moskitoarten übertragen größtenteils die Malaria dieser Welt und wir wissen einiges über die Wasserlebensräume, auf die sie spezialisiert sind.
 1	Nur	nur	ADV	ADV	_	2	advmod	_	_
 2	ungefähr	ungefähr	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	5	advmod	_	_
@@ -805,7 +810,7 @@
 23	sind	sein	AUX	ADJD	_	22	aux:pass	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 39
+# sent_id = 40
 # text = Sie denken wahrscheinlich, also warum meiden wir nicht einfach die Orte, an denen diese Killermoskitos leben?
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	denken	denken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -827,7 +832,7 @@
 18	leben	leben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	SpaceAfter=No
 19	?	?	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 40
+# sent_id = 41
 # text = Wir könnten die Orte meiden, an denen Killergrizzlybären leben, und die Orte, an denen Killerkrokodile leben.
 1	Wir	wir	PRON	ADJD	_	5	nsubj	_	_
 2	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
@@ -850,7 +855,7 @@
 19	leben	leben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 41
+# sent_id = 42
 # text = Aber sagen wir mal, dass Sie in den Tropen wohnen und Sie laufen eines Tages außerhalb Ihrer Hütte und lassen ein paar Fußabdrücke in der weichen Erde um Ihr Heim.
 1	Aber	aber	CCONJ	KON	_	2	cc	_	_
 2	sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -885,7 +890,7 @@
 31	Heim	Heim	NOUN	PTKVZ	_	28	nmod	_	SpaceAfter=No
 32	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 42
+# sent_id = 43
 # text = Oder sagen wir, dass Ihre Kuh das tut, oder Ihr Schwein, und dann regnet es und Ihr Fußabdruck füllt sich mit ein bisschen Wasser.
 1	Oder	oder	CCONJ	NE	Case=Nom|Gender=Fem|Number=Sing	2	cc	_	_
 2	sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -916,14 +921,14 @@
 27	Wasser	Wasser	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	22	obl	_	SpaceAfter=No
 28	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 43
+# sent_id = 44
 # text = Dann haben wir's.
 1	Dann	dann	ADV	ADV	_	2	advmod	_	_
 2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	wir's	wir's	X	PPER	Foreign=Yes	2	obj	_	SpaceAfter=No
 4	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 44
+# sent_id = 45
 # text = Sie haben den perfekten Lebensraum für Malariamoskitos direkt vor Ihrer Haustüre geschaffen.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
@@ -939,7 +944,7 @@
 12	geschaffen	schaffen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	12	punct	_	_
 
-# sent_id = 45
+# sent_id = 46
 # text = Demnach ist es für uns nicht so einfach, diesen Insekten zu entkommen.
 1	Demnach	demnach	ADV	PAV	_	8	advmod	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
@@ -956,7 +961,7 @@
 13	entkommen	entkommen	VERB	VVINF	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 46
+# sent_id = 47
 # text = Wir schaffen sozusagen Orte, die sie lieben, indem wir einfach unser Leben leben.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	schaffen	schaffen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -975,7 +980,7 @@
 15	leben	leben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 47
+# sent_id = 48
 # text = Eine riesige wissenschaftliche Herausforderung, aber auch eine riesige wirtschaftliche.
 1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 2	riesige	riesig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
@@ -989,7 +994,7 @@
 10	wirtschaftliche	wirtschaftlich	ADJ	NN	Case=Nom|Gender=Neut|Number=Sing	9	conj	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 48
+# sent_id = 49
 # text = Malaria kommt an einigen der ärmsten und abgelegensten Orte der Welt vor, und es gibt einen Grund dafür.
 1	Malaria	Malaria	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
 2	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1012,7 +1017,7 @@
 19	dafür	dafür	ADV	PAV	_	16	advmod	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 49
+# sent_id = 50
 # text = Wenn man arm ist, ist es wahrscheinlicher, dass man Malaria bekommt.
 1	Wenn	wenn	SCONJ	KOUS	_	3	mark	_	_
 2	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	3	nsubj	_	_
@@ -1029,7 +1034,7 @@
 13	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 50
+# sent_id = 51
 # text = dass man in einer einfachen Unterkunft wohnt in einem Randgebiet, mit einem schlechten Abwassersystem.
 1	dass	dass	SCONJ	KOUS	_	7	mark	_	_
 2	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	7	nsubj	_	_
@@ -1048,7 +1053,7 @@
 15	Abwassersystem	Abwassersystem	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 51
+# sent_id = 52
 # text = Das sind die Orte, an denen Moskitos sich fortpflanzen.
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	sind	sein	AUX	ADJD	_	4	cop	_	_
@@ -1062,7 +1067,7 @@
 10	fortpflanzen	fortpflanzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 52
+# sent_id = 53
 # text = Es ist unwahrscheinlicher, dass man Mückengitter an Türen und Fenstern hat.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
@@ -1078,7 +1083,7 @@
 12	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	csubj	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 53
+# sent_id = 54
 # text = Oder dass man Strom hat, der so viele Innenaktivitäten möglich macht.
 1	Oder	oder	CCONJ	NN	Case=Nom|Gender=Neut|Number=Plur	5	cc	_	_
 2	dass	dass	SCONJ	KOUS	_	5	mark	_	_
@@ -1094,7 +1099,7 @@
 12	macht	macht	NOUN	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 54
+# sent_id = 55
 # text = Somit ist man mehr draußen.
 1	Somit	somit	ADV	ADV	_	5	advmod	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -1103,7 +1108,7 @@
 5	draußen	draußen	ADV	ADV	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 55
+# sent_id = 56
 # text = Man wird öfters von Moskitos gestochen.
 1	Man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	6	nsubj:pass	_	_
 2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
@@ -1113,7 +1118,7 @@
 6	gestochen	stochen	VERB	ADJA	Case=Acc|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 56
+# sent_id = 57
 # text = Demnach verursacht Armut Malaria, aber wir wissen heute auch, dass Malaria selbst Armut verursacht.
 1	Demnach	demnach	ADV	PAV	_	2	advmod	_	_
 2	verursacht	verursachen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1133,7 +1138,7 @@
 16	verursacht	verursachen	VERB	VVPP	VerbForm=Part	8	ccomp	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 57
+# sent_id = 58
 # text = Zum einen schlägt sie am härtesten zur Erntezeit zu – also genau dann, wenn Bauern auf den Feldern sein und ernten müssen, sind sie zuhause und haben Fieber.
 1-2	Zum	_	_	_	_	_	_	_	_
 1	Zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	3	case	_	_
@@ -1173,7 +1178,7 @@
 33	Fieber	Fieber	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	32	obj	_	SpaceAfter=No
 34	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 58
+# sent_id = 59
 # text = Aber sie macht Leute auch empfänglicher für andere Todesursachen.
 1	Aber	aber	CCONJ	KON	_	3	cc	_	_
 2	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
@@ -1186,14 +1191,14 @@
 9	Todesursachen	Todesursachen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 59
+# sent_id = 60
 # text = Folgendes ist passiert.
 1	Folgendes	Folgende	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	ist	sein	AUX	NE	Case=Nom|Gender=Masc|Number=Sing	3	cop	_	_
 3	passiert	passieren	ADJ	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 60
+# sent_id = 61
 # text = Wir haben es geschafft, Malaria aus einer Gesellschaft zu entfernen.
 1	Wir	wir	PRON	ADJD	_	4	nsubj	_	_
 2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -1208,7 +1213,7 @@
 11	entfernen	entfernen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 61
+# sent_id = 62
 # text = Alles andere bleibt gleich, schlechtes Essen, schlechtes Wasser, schlechte sanitäre Anlagen, alles, was Leute krank macht.
 1	Alles	alle	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	3	nsubj	_	_
 2	andere	ander	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	1	nmod	_	_
@@ -1233,7 +1238,7 @@
 21	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 62
+# sent_id = 63
 # text = Aber wenn man davon nur Malaria rausnimmt, nehmen Todesfälle durch alle anderen Gründe ab.
 1	Aber	aber	ADV	KON	_	7	advmod	_	_
 2	wenn	wenn	SCONJ	VVFIN	_	7	mark	_	_
@@ -1252,7 +1257,7 @@
 15	ab	ab	ADP	PTKVZ	_	9	compound:prt	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 63
+# sent_id = 64
 # text = Der Ökonom Jeff Sachs hat sogar in Zahlen ausgedrückt, was das für eine Gesellschaft bedeutet.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Ökonom	Ökonom	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
@@ -1272,7 +1277,7 @@
 16	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 64
+# sent_id = 65
 # text = Nämlich: Wenn man Malaria in seiner Gesellschaft hat, dann flaut das Wirtschaftswachstum um 1,3 Prozent jedes Jahr ab, das Jahr um Jahr, nur wegen dieser einen Krankheit.
 1	Nämlich	nämlich	ADJ	CARD	NumType=Card	2	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	9	punct	_	_
@@ -1307,7 +1312,7 @@
 31	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
 32	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 65
+# sent_id = 66
 # text = Das stellt also eine große wirtschaftliche Herausforderung dar, denn nehmen wir an, dass Sie tatsächlich Ihre tolle Arznei entdecken, oder Ihren tollen Impfstoff – wie bringen Sie diese an einen Ort ohne Straßen, ohne Infrastruktur, wo es keinen Strom gibt, um Dinge zu kühlen, wo es keine Kliniken gibt, wo es keine Krankenhausärzte gibt, die diese Dinge dorthin bringen, wo sie gebraucht werden?
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	stellt	stellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1384,7 +1389,7 @@
 73	werden	werden	AUX	NE	Case=Acc|Number=Plur	72	aux:pass	_	SpaceAfter=No
 74	?	?	PUNCT	$.	_	29	punct	_	_
 
-# sent_id = 66
+# sent_id = 67
 # text = Demnach besteht eine große wirtschaftliche Herausforderung darin, Malaria zu bändigen.
 1	Demnach	demnach	ADV	PAV	_	2	advmod	_	_
 2	besteht	bestehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1399,7 +1404,7 @@
 11	bändigen	bändigen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 67
+# sent_id = 68
 # text = Aber mit der wissenschaftlichen und der wirtschaftlichen Herausforderung kommt auch eine kulturelle Herausforderung, und dies ist wahrscheinlich der Teil der Malaria, über den Leute nicht gerne sprechen.
 1	Aber	aber	CCONJ	KON	_	9	advmod	_	_
 2	mit	mit	ADP	$,	NumType=Card	8	case	_	_
@@ -1432,7 +1437,7 @@
 29	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	9	conj	_	SpaceAfter=No
 30	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 68
+# sent_id = 69
 # text = Und es ist paradox, dass die Leute, die am häufigsten Malaria auf dieser Welt kriegen, dazu neigen, sich darum am wenigsten zu sorgen.
 1	Und	und	CCONJ	ADJD	_	4	cc	_	_
 2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
@@ -1467,7 +1472,7 @@
 29	sorgen	sorgen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
 30	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 69
+# sent_id = 70
 # text = Das haben medizinische Anthropologen immer wieder herausgefunden.
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	_
 2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -1478,7 +1483,7 @@
 7	herausgefunden	herausgefunden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 70
+# sent_id = 71
 # text = Sie fragen Leute in malariainfizierten Gebieten: "Was denken Sie über Malaria?"
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	fragen	fragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1496,7 +1501,7 @@
 14	?	?	PUNCT	$.	_	10	punct	_	SpaceAfter=No
 15	"	"	PUNCT	$(	_	10	punct	_	_
 
-# sent_id = 71
+# sent_id = 72
 # text = Und anstelle: "Es ist eine tödliche Krankheit.
 1	Und	und	CCONJ	ADJD	_	9	cc	_	_
 2	anstelle	anstelle	ADP	ADV	_	9	case	_	SpaceAfter=No
@@ -1507,9 +1512,10 @@
 7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 8	tödliche	tödlich	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	_
 9	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
 
-# sent_id = 72
+# newpar
+# sent_id = 73
 # text = Wir haben davor Angst."
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1518,7 +1524,7 @@
 5	.	.	PUNCT	$.	_	2	punct	_	SpaceAfter=No
 6	"	"	PUNCT	$(	_	2	punct	_	_
 
-# sent_id = 73
+# sent_id = 74
 # text = sagen sie: "Malaria ist ein alltägliches Problem im Leben."
 1	sagen	sagen	VERB	VVINF	VerbForm=Inf	0	root	_	_
 2	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	SpaceAfter=No
@@ -1536,7 +1542,7 @@
 13	.	.	PUNCT	$.	_	9	punct	_	SpaceAfter=No
 14	"	"	PUNCT	$(	_	9	punct	_	_
 
-# sent_id = 74
+# sent_id = 75
 # text = Und so war auf jeden Fall auch meine persönliche Erfahrung.
 1	Und	und	CCONJ	ADJD	_	10	cc	_	_
 2	so	so	ADV	NE	Case=Dat|Number=Plur	10	advmod	_	_
@@ -1550,7 +1556,7 @@
 10	Erfahrung	Erfahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 75
+# sent_id = 76
 # text = Als ich meinen Verwandten in Indien erzählt habe, dass ich ein Buch über Malaria schreibe, haben sie mich so angeschaut, als ob ich erzählt hätte, dass ich ein Buch über Warzen schriebe.
 1	Als	als	SCONJ	KOUS	_	7	mark	_	_
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
@@ -1590,7 +1596,7 @@
 36	schriebe	schrieben	VERB	NN	Case=Gen|Gender=Masc|Number=Plur	27	ccomp	_	SpaceAfter=No
 37	.	.	PUNCT	$.	_	22	punct	_	_
 
-# sent_id = 76
+# sent_id = 77
 # text = In etwa, warum würde man über etwas so Langweiliges, so Alltägliches schreiben?
 1	In	in	ADP	APPR	_	4	case	_	_
 2	etwa	etwa	ADV	ADV	_	4	advmod	_	SpaceAfter=No
@@ -1608,7 +1614,7 @@
 14	schreiben	schreiben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 15	?	?	PUNCT	$.	_	14	punct	_	_
 
-# sent_id = 77
+# sent_id = 78
 # text = Und es ist schlicht und einfach Risikowahrnehmung.
 1	Und	und	CCONJ	ADJD	_	4	cc	_	_
 2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
@@ -1619,7 +1625,7 @@
 7	Risikowahrnehmung	Risikowahrnehmung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 78
+# sent_id = 79
 # text = Ein Kind in Malawi, zum Beispiel, könnte 12 Mal von Malaria befallen werden, bevor es das Alter von zwei erreicht hat, aber wenn es überlebt, wird es weiterhin Malaria in seinem Leben bekommen, aber es wird viel unwahrscheinlicher, dass es daran stirbt.
 1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Kind	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
@@ -1674,7 +1680,7 @@
 50	stirbt	stirben	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	ccomp	_	SpaceAfter=No
 51	.	.	PUNCT	$.	_	15	punct	_	_
 
-# sent_id = 79
+# sent_id = 80
 # text = Und seiner Lebenserfahrung nach ist Malaria also etwas, das kommt und geht.
 1	Und	und	CCONJ	ADJD	_	8	cc	_	_
 2	seiner	sein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	3	det:poss	_	_
@@ -1691,7 +1697,7 @@
 13	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 80
+# sent_id = 81
 # text = Und das stimmt sogar für den Großteil der Malaria dieser Welt.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
@@ -1706,7 +1712,7 @@
 11	Welt	Welt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 81
+# sent_id = 82
 # text = Der Großteil der Malaria dieser Welt kommt und geht von selbst.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Großteil	Großteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -1721,7 +1727,7 @@
 11	selbst	selbst	ADV	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	advmod	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 82
+# sent_id = 83
 # text = Es ist nur so, dass es so viel Malaria gibt, dass dieser kleine Anteil der Fälle, der im Tod endet, sich zu einer großen, riesigen Zahl summiert.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -1759,7 +1765,7 @@
 33	summiert	summieren	VERB	VVFIN	VerbForm=Part	16	acl	_	SpaceAfter=No
 34	.	.	PUNCT	$.	_	11	punct	_	_
 
-# sent_id = 83
+# sent_id = 84
 # text = Leute in Malariagebieten denken wohl so über Malaria wie wir in den gemäßigten Breiten über Erkältung und Grippe.
 1	Leute	Leute	ADV	NN	Case=Nom|Number=Plur	4	advmod	_	_
 2	in	in	ADP	APPR	_	3	case	_	_
@@ -1781,7 +1787,7 @@
 18	Grippe	Grippe	NOUN	NE	Foreign=Yes	16	conj	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 84
+# sent_id = 85
 # text = Erkältung und Grippe sind eine große Last für unsere Gesellschaften und unser Leben, aber wir treffen nicht einmal die einfachsten Vorkehrungen gegen sie, weil wir es für normal halten, in der kalten Jahreszeit an einer Erkältung oder Grippe zu erkranken.
 1	Erkältung	Erkältung	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 2	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	3	cc	_	_
@@ -1828,7 +1834,7 @@
 43	erkranken	erkranken	VERB	VVINF	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
 44	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 85
+# sent_id = 86
 # text = Demnach ist das Bändigen von Malaria eine große kulturelle Herausforderung, denn wenn Leute denken, dass Malaria normal ist, wie bekommt man sie dazu, zum Arzt zu gehen, diagnostiziert zu werden, ihr Rezept zu holen und einzulösen, die Arznei zu sich zu nehmen, die Abwehrmittel aufzutragen, ihre Moskitonetze zu benutzen.
 1	Demnach	demnach	ADV	PAV	_	10	advmod	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
@@ -1892,7 +1898,7 @@
 59	benutzen	benutzen	VERB	VVINF	VerbForm=Inf	15	xcomp	_	SpaceAfter=No
 60	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 86
+# sent_id = 87
 # text = Im Bändigen der Krankheit besteht eine riesige kulturelle Herausforderung.
 1-2	Im	_	_	_	_	_	_	_	_
 1	In	in	ADP	APPR	_	3	case	_	_
@@ -1907,7 +1913,7 @@
 10	Herausforderung	Herausforderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nsubj	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 87
+# sent_id = 88
 # text = Also fassen wir das mal zusammen.
 1	Also	also	ADV	ADV	_	2	advmod	_	_
 2	fassen	fassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1917,7 +1923,7 @@
 6	zusammen	zusammen	ADV	NN	Case=Acc|Gender=Masc|Number=Sing	2	compound:prt	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 88
+# sent_id = 89
 # text = Wir haben eine Krankheit.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1925,7 +1931,7 @@
 4	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 89
+# sent_id = 90
 # text = Sie ist wissenschaftlich komplex, eine wirtschaftliche Herausforderung, und die größten potentiellen Nutznießer interessieren sich am wenigsten für sie.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
@@ -1951,7 +1957,7 @@
 21	sie	sie	PRON	NN	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 90
+# sent_id = 91
 # text = Und das summiert sich zum größten Problem überhaupt, was, natürlich, das politische Problem ist.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
@@ -1974,7 +1980,7 @@
 18	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 91
+# sent_id = 92
 # text = Wie überzeugt man politische Führer, etwas gegen so ein Problem zu tun?
 1	Wie	wie	ADV	ADJA	_	2	advmod	_	_
 2	überzeugt	überzeugen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1991,7 +1997,7 @@
 13	tun	tun	VERB	VVINF	VerbForm=Inf	5	acl	_	SpaceAfter=No
 14	?	?	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 92
+# sent_id = 93
 # text = Geschichtlich gesehen kann man es nicht.
 1	Geschichtlich	geschichtlich	ADJ	ADJD	_	2	advmod	_	_
 2	gesehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	_
@@ -2001,7 +2007,7 @@
 6	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advmod	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 93
+# sent_id = 94
 # text = Die meisten Malaria-Gesellschaften haben die Geschichte hindurch einfach mit der Krankheit gelebt.
 1	Die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	3	det	_	_
 2	meisten	meist	DET	NN	Case=Dat|Gender=Masc|Number=Sing	3	amod	_	_
@@ -2019,7 +2025,7 @@
 14	gelebt	leben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	14	punct	_	_
 
-# sent_id = 94
+# sent_id = 95
 # text = Demnach kamen die Hauptangriffe gegen Malaria von außerhalb der Malaria-Gesellschaften, von Leuten, die nicht durch diese eher lähmende Politik eingeengt werden.
 1	Demnach	demnach	ADV	PAV	_	2	advmod	_	_
 2	kamen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -2048,7 +2054,7 @@
 25	werden	werden	AUX	NE	Case=Acc|Number=Plur	24	aux:pass	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 95
+# sent_id = 96
 # text = Aber das führt zu einer Reihe neuartiger Schwierigkeiten.
 1	Aber	aber	CCONJ	KON	_	3	cc	_	_
 2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
@@ -2060,7 +2066,7 @@
 8	Schwierigkeiten	Schwierigkeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 96
+# sent_id = 97
 # text = Der erste gezielte Angriff gegen Malaria begann in den 50er Jahren.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 2	erste	erst	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
@@ -2075,7 +2081,7 @@
 11	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	7	obl	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 97
+# sent_id = 98
 # text = Es war das Geistesprodukt des U.S.-Außenministeriums.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	war	sein	AUX	ADV	_	4	cop	_	_
@@ -2086,7 +2092,7 @@
 7	-Außenministeriums	-Außenministerium	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	6	appos	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 98
+# sent_id = 99
 # text = Und diese Bemühungen verstanden die wirtschaftliche Herausforderung sehr gut.
 1	Und	und	CCONJ	ADJD	_	4	cc	_	_
 2	diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
@@ -2099,7 +2105,7 @@
 9	gut	gut	ADJ	ADJD	_	4	advmod	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 99
+# sent_id = 100
 # text = Sie wussten, dass sie sich auf billige, leicht handhabbare Mittel spezialisieren mussten und spezialisierten sich auf DDT.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	wussten	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -2122,7 +2128,7 @@
 19	DDT	DDT	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 100
+# sent_id = 101
 # text = Sie verstanden die kulturelle Herausforderung.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	verstanden	verstehen	VERB	VVPP	VerbForm=Part	0	root	_	_
@@ -2131,7 +2137,7 @@
 5	Herausforderung	Herausforderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 101
+# sent_id = 102
 # text = Sie hatten sogar die eher bevormundende Ansicht, dass die Leute mit Malariarisiko gar nicht erst gefragt werden sollten.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
 2	hatten	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
@@ -2154,7 +2160,7 @@
 19	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 102
+# sent_id = 103
 # text = Alles sollte ihnen angetan und für sie getan werden.
 1	Alles	alle	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	4	nsubj	_	_
 2	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
@@ -2167,7 +2173,7 @@
 9	werden	werden	AUX	NE	Case=Acc|Number=Plur	8	aux:pass	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 103
+# sent_id = 104
 # text = Aber sie unterschätzten die wissenschaftliche Herausforderung um einiges.
 1	Aber	aber	CCONJ	KON	_	3	cc	_	_
 2	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
@@ -2179,7 +2185,7 @@
 8	einiges	einiges	PRON	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	3	obl	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 104
+# sent_id = 105
 # text = Sie hatten so viel Vertrauen in ihre Instrumente, dass sie mit der Malariaforschung aufhörten.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -2198,7 +2204,7 @@
 15	aufhörten	aufhört	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 105
+# sent_id = 106
 # text = Und als diese Instrumente anfingen zu versagen und die öffentliche Meinung anfing, sich gegen diese Instrumente zu wehren, hatten sie keine wissenschaftliche Kompetenzen, um herauszufinden, was zu machen sei.
 1	Und	und	CCONJ	ADJD	_	5	cc	_	_
 2	als	als	ADP	KOKOM	_	4	case	_	_
@@ -2235,7 +2241,7 @@
 33	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	SpaceAfter=No
 34	.	.	PUNCT	$.	_	21	punct	_	_
 
-# sent_id = 106
+# sent_id = 107
 # text = Die Kampagne brach zusammen, Malaria kam zurück, aber dieses Mal war sie schlimmer als je zuvor, weil sie an den entlegensten Orten eingezäunt wurde in den am schwierigsten kontrollierbaren Formen.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Kampagne	Kampagne	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -2274,7 +2280,7 @@
 34	Formen	Form	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
 35	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 107
+# sent_id = 108
 # text = Ein WHO-Funktionär jener Zeit nannte diese Kampagne sogar "einen der größten Fehler aller Zeiten in der öffentlichen Gesundheit."
 1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	WHO	WHO	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
@@ -2300,7 +2306,7 @@
 22	.	.	PUNCT	$.	_	7	punct	_	SpaceAfter=No
 23	"	"	PUNCT	$(	_	7	punct	_	_
 
-# sent_id = 108
+# sent_id = 109
 # text = Der letzte Versuch, Malaria zu bändigen, wurde in den späten 90ern angefangen.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	letzte	letzt	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
@@ -2318,7 +2324,7 @@
 14	angefangen	angefangen	VERB	NE	Case=Dat|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	14	punct	_	_
 
-# sent_id = 109
+# sent_id = 110
 # text = Er wird auf ähnliche Weise von außerhalb der Malariagebiete dirigiert und finanziert.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj:pass	_	_
 2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux:pass	_	_
@@ -2334,7 +2340,7 @@
 12	finanziert	finanzieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 110
+# sent_id = 111
 # text = Dieser Versuch versteht die wissenschaftliche Herausforderung gut.
 1	Dieser	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	Versuch	Versuch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
@@ -2345,7 +2351,7 @@
 7	gut	gut	ADJ	ADJD	_	3	xcomp	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 111
+# sent_id = 112
 # text = Diese Leute betreiben jede Menge Malariaforschung und sie verstehen auch die wirtschaftliche Herausforderung.
 1	Diese	dies	PRON	PDS	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur	3	nsubj	_	_
@@ -2362,7 +2368,7 @@
 13	Herausforderung	Herausforderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 112
+# sent_id = 113
 # text = Sie spezialisieren sich auf sehr billige, leicht handhabbare Instrumente.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	spezialisieren	spezialisieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2376,7 +2382,7 @@
 10	Instrumente	Instrument	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 113
+# sent_id = 114
 # text = Aber hier denke ich, das Problem ist die kulturelle Herausforderung.
 1	Aber	aber	CCONJ	KON	_	3	cc	_	_
 2	hier	hier	ADV	ADV	_	3	advmod	_	_
@@ -2391,7 +2397,7 @@
 11	Herausforderung	Herausforderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 114
+# sent_id = 115
 # text = Das Herzstück des jetzigen Versuchs ist das Moskitonetz.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Herzstück	Herzstück	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
@@ -2403,7 +2409,7 @@
 8	Moskitonetz	Moskitonetz	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 115
+# sent_id = 116
 # text = Es wird mit Insektiziden behandelt.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	_
 2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	aux:pass	_	_
@@ -2412,7 +2418,7 @@
 5	behandelt	behandeln	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 116
+# sent_id = 117
 # text = Es wurde millionenfach in allen Malariagebieten verteilt.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	_
 2	wurde	werden	AUX	ADV	_	7	aux:pass	_	_
@@ -2423,7 +2429,7 @@
 7	verteilt	verteilen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 117
+# sent_id = 118
 # text = Und wenn man darüber nachdenkt, ist das Moskitonetz eine Art chirurgischer Eingriff.
 1	Und	und	CCONJ	ADJD	_	13	cc	_	_
 2	wenn	wenn	SCONJ	VVFIN	_	5	mark	_	_
@@ -2440,7 +2446,7 @@
 13	Eingriff	Eingriff	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	13	punct	_	_
 
-# sent_id = 118
+# sent_id = 119
 # text = Es hat keinen wirklichen Wert für eine Familie, außer dass es hilft, Malaria vorzubeugen.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2460,7 +2466,7 @@
 16	vorzubeugen	vorzubeuge	PROPN	NN	Case=Gen|Gender=Masc|Number=Plur	15	flat	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 119
+# sent_id = 120
 # text = Und trotzdem bitten wir die Leute darum, jede Nacht unter diesem Netz zu schlafen.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	trotzdem	trotzdem	ADV	NE	Case=Dat|Number=Sing	3	advmod	_	_
@@ -2479,7 +2485,7 @@
 15	schlafen	schlafen	VERB	VVINF	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 120
+# sent_id = 121
 # text = Nur so können sie effektiv sein.
 1	Nur	nur	ADV	ADV	_	2	advmod	_	_
 2	so	so	ADV	NE	Case=Nom|Gender=Neut|Number=Plur	5	advmod	_	_
@@ -2489,7 +2495,7 @@
 6	sein	sein	AUX	VAINF	VerbForm=Inf	5	cop	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 121
+# sent_id = 122
 # text = Und sie sollen dies selbst dann tun, wenn das Netz die Brise aufhält, oder wenn sie mitten in der Nacht auf die Toilette müssen, oder wenn sie ihr Mobiliar umstellen müssen, um das Netz aufzuhängen, auch wenn sie vielleicht in einer runden Hütte leben, in der es schwierig ist, ein viereckiges Netz zu montieren.
 1	Und	und	CCONJ	ADJD	_	7	cc	_	_
 2	sie	sie	PRON	VVINF	VerbForm=Inf	7	nsubj	_	_
@@ -2554,7 +2560,7 @@
 61	montieren	montieren	VERB	VVINF	VerbForm=Inf	54	xcomp	_	SpaceAfter=No
 62	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 122
+# sent_id = 123
 # text = Nun ist das eigentlich kein großes Ding, wenn man eine tödliche Krankheit bekämpft.
 1	Nun	nun	ADV	ADV	_	7	advmod	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
@@ -2572,7 +2578,7 @@
 14	bekämpft	bekämpfen	VERB	VVFIN	VerbForm=Part	7	advcl	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 123
+# sent_id = 124
 # text = Das sind schließlich kleine Unannehmlichkeiten.
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
 2	sind	sein	AUX	ADJD	_	5	cop	_	_
@@ -2581,7 +2587,7 @@
 5	Unannehmlichkeiten	Unannehmlichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 124
+# sent_id = 125
 # text = Aber so denken Leute nun mal nicht über Malaria.
 1	Aber	aber	CCONJ	KON	_	3	cc	_	_
 2	so	so	ADV	NE	Case=Nom|Gender=Neut|Number=Plur	3	advmod	_	_
@@ -2594,7 +2600,7 @@
 9	Malaria	Malaria	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 125
+# sent_id = 126
 # text = Also müsste für sie die Rechnung ganz anders lauten.
 1	Also	also	ADV	ADV	_	9	advmod	_	_
 2	müsste	müssen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
@@ -2607,7 +2613,7 @@
 9	lauten	lauten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 126
+# sent_id = 127
 # text = Stellen Sie sich vor, ein Haufen wohlmeinender Kenianer käme auf uns in den gemäßigten Breiten zu: "Bei euch gibt es ja sehr viele Erkältungs- und Grippefälle.
 1	Stellen	Stelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	_
@@ -2641,7 +2647,7 @@
 30	Grippefälle	Grippefall	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	27	conj	_	SpaceAfter=No
 31	.	.	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 127
+# sent_id = 128
 # text = Wir haben dieses tolle, leicht handhabbare, billige Ding erfunden, ihr kriegt es umsonst.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
@@ -2661,7 +2667,7 @@
 16	umsonst	umsonst	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	14	advmod	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	11	punct	_	_
 
-# sent_id = 128
+# sent_id = 129
 # text = Es nennt sich Gesichtsmaske, und ihr müsst es nur jeden Tag während der Grippezeit tragen, auch wenn ihr zur Schule und zur Arbeit geht."
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	nennt	nennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2696,7 +2702,7 @@
 29	.	.	PUNCT	$.	_	23	punct	_	SpaceAfter=No
 30	"	"	PUNCT	$(	_	2	punct	_	_
 
-# sent_id = 129
+# sent_id = 130
 # text = Würden wir das tun?
 1	Würden	werden	AUX	NN	Case=Nom|Gender=Fem|Number=Plur	4	aux	_	_
 2	wir	wir	PRON	ADJD	_	4	nsubj	_	_
@@ -2704,7 +2710,7 @@
 4	tun	tun	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 130
+# sent_id = 131
 # text = Und ich frage mich, ob so die Leute in den Malariagebieten über diese Netze gedacht haben, als sie sie zum ersten Mal bekamen.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -2735,7 +2741,7 @@
 26	bekamen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	advcl	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 131
+# sent_id = 132
 # text = Tatsächlich wissen wir aus Studien, dass nur 20 % der Moskitonetze, die zu Anfang verteilt wurden, überhaupt benutzt wurden.
 1	Tatsächlich	tatsächlich	ADJ	ADV	_	2	advmod	_	_
 2	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2761,7 +2767,7 @@
 22	wurden	werden	AUX	FM	Foreign=Yes	21	aux:pass	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 132
+# sent_id = 133
 # text = Das ist wahrscheinlich noch zu optimistisch, weil die selben Leute, die die Netze verteilt haben, zurück gegangen sind und die Abnehmer gefragt haben: "Haben Sie denn das Netz benutzt, das ich Ihnen gegeben habe?"
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -2806,7 +2812,7 @@
 41	?	?	PUNCT	$.	_	39	punct	_	SpaceAfter=No
 42	"	"	PUNCT	$(	_	34	punct	_	_
 
-# sent_id = 133
+# sent_id = 134
 # text = Was so ähnlich ist, wie wenn Tante Jane dich fragt: "Hast du denn die Vase benutzt, die ich dir zu Weihnachten geschenkt habe?"
 1	Was	was	PRON	FM	Foreign=Yes	3	nsubj	_	_
 2	so	so	ADV	NE	Case=Nom|Gender=Neut|Number=Plur	3	advmod	_	_
@@ -2838,7 +2844,7 @@
 28	?	?	PUNCT	$.	_	19	punct	_	SpaceAfter=No
 29	"	"	PUNCT	$(	_	3	punct	_	_
 
-# sent_id = 134
+# sent_id = 135
 # text = Also ist die Zahl wahrscheinlich zu hoch.
 1	Also	also	ADV	ADV	_	7	advmod	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
@@ -2849,7 +2855,7 @@
 7	hoch	hoch	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 135
+# sent_id = 136
 # text = Aber das ist kein unüberwindbares Problem.
 1	Aber	aber	CCONJ	KON	_	6	cc	_	_
 2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
@@ -2859,7 +2865,7 @@
 6	Problem	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 136
+# sent_id = 137
 # text = Wir können besser aufklären und Leute überzeugen, ihre Netze zu benutzen.
 1	Wir	wir	PRON	ADJD	_	4	nsubj	_	_
 2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -2875,7 +2881,7 @@
 12	benutzen	benutzen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 137
+# sent_id = 138
 # text = Genau das passiert jetzt auch.
 1	Genau	genau	ADV	ADV	_	3	advmod	_	_
 2	das	der	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
@@ -2884,7 +2890,7 @@
 5	auch	auch	ADV	ADV	_	3	advmod	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 138
+# sent_id = 139
 # text = Wir investieren gerade viel mehr Geld und Zeit in Workshops, Seminare, Trainings, Musicals, Theaterstücke und Infoabende und tun all diese Dinge, um Leute zu überzeugen, die Netze zu nutzen, die wir ihnen gegeben haben.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	investieren	investieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2929,7 +2935,7 @@
 41	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	SpaceAfter=No
 42	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 139
+# sent_id = 140
 # text = Und das könnte funktionieren.
 1	Und	und	CCONJ	ADJD	_	4	cc	_	_
 2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
@@ -2937,29 +2943,30 @@
 4	funktionieren	funktionieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 140
+# sent_id = 141
 # text = Aber es braucht Zeit.
 1	Aber	aber	CCONJ	KON	_	3	cc	_	_
 2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 141
+# newpar
+# sent_id = 142
 # text = Es braucht Geld.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	Geld	Geld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
 4	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 142
+# sent_id = 143
 # text = Es braucht Ressourcen.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	Ressourcen	Ressource	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No
 4	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 143
+# sent_id = 144
 # text = Es braucht eine Infrastruktur.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2967,7 +2974,7 @@
 4	Infrastruktur	Infrastruktur	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 144
+# sent_id = 145
 # text = Alles Dinge, die dieses billige, leicht anwendbare Moskitonetz nicht hätte brauchen sollen.
 1	Alles	alle	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	2	det	_	_
 2	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
@@ -2985,7 +2992,7 @@
 14	sollen	sollen	AUX	VMINF	VerbForm=Inf	13	aux	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 145
+# sent_id = 146
 # text = Es ist also schwierig, Malaria von innerhalb der Malariagesellschaften anzugreifen, aber genauso schwierig, wenn wir sie von außerhalb dieser Gesellschaften angreifen wollen.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -3014,7 +3021,7 @@
 25	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 146
+# sent_id = 147
 # text = Am Ende streifen wir unsere Prioritäten den Leuten in den Malariagebieten über.
 1-2	Am	_	_	_	_	_	_	_	_
 1	An	an	ADP	APPR	_	3	case	_	_
@@ -3032,7 +3039,7 @@
 13	über	über	ADP	FM	Foreign=Yes	4	compound:prt	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 147
+# sent_id = 148
 # text = Genau das haben wir in den 50ern gemacht und diese Bemühungen sind fehlgeschlagen.
 1	Genau	genau	PROPN	ADV	_	2	advmod	_	_
 2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	obj	_	_
@@ -3049,7 +3056,7 @@
 13	fehlgeschlagen	fehlgeschlagen	VERB	VVINF	VerbForm=Inf	8	conj	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 148
+# sent_id = 149
 # text = Ich würde heute sagen, wenn wir Mittel verteilen, die wir entworfen haben, und diese nicht zwingend in dem Leben der Leute Sinn ergeben, laufen wir Gefahr, den gleichen Fehler zu wiederholen.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	würde	werden	AUX	NE	Case=Nom|Number=Sing	4	aux	_	_
@@ -3089,7 +3096,7 @@
 36	wiederholen	wiederholen	VERB	VVINF	VerbForm=Inf	30	xcomp	_	SpaceAfter=No
 37	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 149
+# sent_id = 150
 # text = Das soll nicht heißen, dass Malaria unüberwindbar ist, denn ich meine, sie ist es.
 1	Das	der	PRON	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	nsubj	_	_
 2	soll	sollen	AUX	NN	Case=Nom|Gender=Masc|Number=Plur	4	aux	_	_
@@ -3110,7 +3117,7 @@
 17	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	ccomp	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 150
+# sent_id = 151
 # text = Aber wie wäre es, wenn wir diese Krankheit im Einklang mit den Prioritäten der Leute, die mit ihr leben, angehen würden?
 1	Aber	aber	CCONJ	KON	_	3	cc	_	_
 2	wie	wie	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	3	advmod	_	_
@@ -3140,7 +3147,7 @@
 25	würden	werden	AUX	NN	Foreign=Yes	24	aux	_	SpaceAfter=No
 26	?	?	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 151
+# sent_id = 152
 # text = Nehmen wir das Beispiel von England und den USA.
 1	Nehmen	nehmen	VERB	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 2	wir	wir	PRON	ADJD	_	1	nsubj	_	_
@@ -3153,7 +3160,7 @@
 9	USA	USA	PROPN	NE	Case=Dat|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 152
+# sent_id = 153
 # text = Hunderte von Jahren gab es dort Malaria und wir sind sie vollständig losgeworden, nicht, weil wir sie angegriffen haben.
 1	Hunderte	Hundert	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	von	von	ADP	FM	Foreign=Yes	3	case	_	_
@@ -3178,14 +3185,14 @@
 21	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 153
+# sent_id = 154
 # text = Haben wir nicht.
 1	Haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	wir	wir	PRON	ADJD	_	3	nsubj	_	_
 3	nicht	nicht	PART	CARD	NumType=Card	1	advmod	_	SpaceAfter=No
 4	.	.	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 154
+# sent_id = 155
 # text = Wir haben schlechte Straßen und schlechte Häuser, schlechte Kanalisation, Strommangel und Landarmut in Angriff genommen.
 1	Wir	wir	PRON	ADJD	_	17	nsubj	_	_
 2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
@@ -3206,7 +3213,7 @@
 17	genommen	nehmen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	17	punct	_	_
 
-# sent_id = 155
+# sent_id = 156
 # text = Wir griffen die Malaria-Lebensart an und dadurch haben wir langsam Malaria ausgeschlossen.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	griffen	greifen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3224,7 +3231,7 @@
 14	ausgeschlossen	ausschließen	ADJ	VVPP	VerbForm=Part	10	xcomp	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 156
+# sent_id = 157
 # text = Die Malaria-Lebensart angreifen – dafür könnte man Leute heute begeistern.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Malaria	Malaria	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
@@ -3240,7 +3247,7 @@
 12	begeistern	begeistern	VERB	VVINF	VerbForm=Inf	5	parataxis	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 157
+# sent_id = 158
 # text = Und die Malaria-Lebensart anzugreifen ist weder schnell, noch billig, noch leicht, aber ich denke, es ist der einzig haltbare Weg nach vorne.
 1	Und	und	CCONJ	ADJD	_	6	cc	_	_
 2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -3272,15 +3279,15 @@
 28	vorne	vorne	ADV	NE	Case=Nom|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
 29	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 158
+# sent_id = 159
 # text = Vielen Dank.
 1	Vielen	viel	DET	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	amod	_	_
 2	Dank	Dank	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 159
+# sent_id = 160
 # text = (Applaus)
 1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Applaus	Applaus	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-3	)	)	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\n
+3	)	)	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\n\n
 

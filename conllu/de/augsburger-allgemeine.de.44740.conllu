@@ -1,10 +1,10 @@
-# newdoc id = txt/de/augsburger-allgemeine.de.44740.txt
+# newdoc
 # newpar
 # sent_id = 1
-# text = Flucht: "Jede geflüchtete Frau hat Erfahrungen mit sexueller Gewalt" Sexuelle Gewalt gehört für Frauen, die alleine fliehen, fast schon zum Alltag.
+# text = Flucht: "Jede geflüchtete Frau hat Erfahrungen mit sexueller Gewalt"
 1	Flucht	Flucht	NOUN	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	7	punct	_	_
-3	"	"	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+3	"	"	PUNCT	$(	_	7	punct	_	SpaceAfter=No
 4	Jede	jed	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	6	det	_	_
 5	geflüchtete	geflüchtet	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
 6	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
@@ -12,27 +12,32 @@
 8	Erfahrungen	Erfahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
 9	mit	mit	ADP	CARD	NumType=Card	11	case	_	_
 10	sexueller	sexuell	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	11	amod	_	_
-11	Gewalt	Gewalt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
-12	"	"	PUNCT	$(	_	15	punct	_	SpacesAfter=\n
-13	Sexuelle	sexuell	NOUN	ADJA	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
-14	Gewalt	Gewalt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
-15	gehört	gehören	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	_
-16	für	für	ADP	APPR	_	17	case	_	_
-17	Frauen	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obl	_	SpaceAfter=No
-18	,	,	PUNCT	$,	_	21	punct	_	_
-19	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	21	nsubj	_	_
-20	alleine	alleine	ADV	ADV	_	21	advmod	_	_
-21	fliehen	fliehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl	_	SpaceAfter=No
-22	,	,	PUNCT	$,	_	27	punct	_	_
-23	fast	fast	ADV	ADV	_	27	advmod	_	_
-24	schon	schon	ADV	ADV	_	27	advmod	_	_
-25-26	zum	_	_	_	_	_	_	_	_
-25	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	27	case	_	_
-26	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	Alltag	Alltag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
-28	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+11	Gewalt	Gewalt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	$(	_	7	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 2
+# text = Sexuelle Gewalt gehört für Frauen, die alleine fliehen, fast schon zum Alltag.
+1	Sexuelle	sexuell	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	Gewalt	Gewalt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	gehört	gehören	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	für	für	ADP	APPR	_	5	case	_	_
+5	Frauen	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	9	punct	_	_
+7	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	9	nsubj	_	_
+8	alleine	alleine	ADV	ADV	_	9	advmod	_	_
+9	fliehen	fliehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	15	punct	_	_
+11	fast	fast	ADV	ADV	_	15	advmod	_	_
+12	schon	schon	ADV	ADV	_	15	advmod	_	_
+13-14	zum	_	_	_	_	_	_	_	_
+13	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Alltag	Alltag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
 # text = Wenn sie in Deutschland ankommen, sind sie oft traumatisiert.
 1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	_
 2	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
@@ -44,17 +49,19 @@
 8	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
 9	oft	oft	ADV	APPR	NumType=Card	10	advmod	_	_
 10	traumatisiert	traumatisieren	VERB	VVFIN	VerbForm=Part	0	root	_	SpaceAfter=No
-11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
 
-# sent_id = 3
+# newpar
+# sent_id = 4
 # text = Ein Haus bietet Zuflucht.
 1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Haus	Haus	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
 3	bietet	bieten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	Zuflucht	Zuflucht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 4
+# newpar
+# sent_id = 5
 # text = In einer großen Küche sitzen vier Frauen.
 1	In	in	ADP	APPR	_	4	case	_	_
 2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -63,9 +70,10 @@
 5	sitzen	sitzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	vier	vier	NUM	NE	Case=Gen|Gender=Fem|Number=Sing	7	nummod	_	_
 7	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	SpaceAfter=No
-8	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
-# sent_id = 5
+# newpar
+# sent_id = 6
 # text = Jede hat ein Baby dabei, das höchstens ein Jahr alt ist.
 1	Jede	jed	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	2	nsubj	_	_
 2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -79,9 +87,10 @@
 10	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	nmod	_	_
 11	alt	alt	ADJ	ADJD	_	2	acl	_	_
 12	ist	sein	AUX	ADJD	_	11	cop	_	SpaceAfter=No
-13	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+13	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 6
+# newpar
+# sent_id = 7
 # text = Eine hat ihren kleinen Sohn in den Arm gelegt.
 1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	nsubj	_	_
 2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
@@ -92,9 +101,10 @@
 7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	Arm	Arm	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_
 9	gelegt	legen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
 
-# sent_id = 7
+# newpar
+# sent_id = 8
 # text = Er guckt mit großen Augen neugierig in den Raum.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	guckt	gucken	VERB	ADJD	_	0	root	_	_
@@ -105,9 +115,10 @@
 7	in	in	ADP	APPR	_	9	case	_	_
 8	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Raum	Raum	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
-10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 8
+# newpar
+# sent_id = 9
 # text = Seine Mutter starrt auf die Tischplatte.
 1	Seine	sein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	2	det:poss	_	_
 2	Mutter	Mutter	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -115,9 +126,10 @@
 4	auf	auf	ADP	APPR	_	6	case	_	_
 5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Tischplatte	Tischplatte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
-7	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+7	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 9
+# newpar
+# sent_id = 10
 # text = Bis sie merkt, dass sie beobachtet wird.
 1	Bis	bis	ADP	APPR	_	2	case	_	_
 2	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	3	obl	_	_
@@ -127,9 +139,10 @@
 6	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	7	nsubj:pass	_	_
 7	beobachtet	beobachten	VERB	VVPP	VerbForm=Part	3	ccomp	_	_
 8	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	aux:pass	_	SpaceAfter=No
-9	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+9	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 10
+# newpar
+# sent_id = 11
 # text = Sie lächelt kurz und küsst den Kleinen.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	lächelt	lächeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -138,17 +151,19 @@
 5	küsst	küssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	_
 6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Kleinen	klein	NOUN	NN	Case=Nom|Number=Plur	5	obj	_	SpaceAfter=No
-8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 11
+# newpar
+# sent_id = 12
 # text = Die Szene wirkt normal.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Szene	Szene	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	wirkt	wirken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	normal	normal	ADV	VVINF	VerbForm=Inf	3	advmod	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 12
+# newpar
+# sent_id = 13
 # text = Bis man mit Katrin Bahr spricht.
 1	Bis	bis	ADP	APPR	_	6	dep	_	_
 2	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	6	nsubj	_	_
@@ -156,9 +171,10 @@
 4	Katrin	Katrin	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
 5	Bahr	Bahr	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	4	flat	_	_
 6	spricht	sprechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
 
-# sent_id = 13
+# newpar
+# sent_id = 14
 # text = Sie ist Bereichs-Geschäftsführerin von Condrobs, einem Träger für soziale Hilfsangebote in Bayern, und beschäftigt sich unter anderem mit dem Thema Frauen auf der Flucht.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -188,9 +204,10 @@
 26	auf	auf	ADP	APPR	_	28	case	_	_
 27	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	Flucht	Flucht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
-29	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+29	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
-# sent_id = 14
+# newpar
+# sent_id = 15
 # text = Die vier Frauen in der Küche sind Geflüchtete.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	vier	vier	NUM	NE	Case=Gen|Gender=Fem|Number=Sing	3	nummod	_	_
@@ -200,9 +217,10 @@
 6	Küche	Küche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	_
 7	sind	sein	AUX	ADJD	_	8	cop	_	_
 8	Geflüchtete	Geflüchtete	NOUN	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n
 
-# sent_id = 15
+# newpar
+# sent_id = 16
 # text = Sie leben im Münchner Norden in einer der wenigen dezentralen Unterkünfte für alleingeflüchtete Frauen und ihre Kinder in Bayern.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	leben	leben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -225,9 +243,10 @@
 18	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	12	conj	_	_
 19	in	in	ADP	APPR	_	20	case	_	_
 20	Bayern	Bayern	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+21	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 16
+# newpar
+# sent_id = 17
 # text = Im Januar hat Condrobs die Einrichtung zusammen mit Pro Familia und der Münchner Frauenhilfe aufgemacht.
 1-2	Im	_	_	_	_	_	_	_	_
 1	In	in	ADP	APPR	_	3	case	_	_
@@ -246,18 +265,20 @@
 14	Münchner	Münchner	PROPN	ADJA	_	15	amod	_	_
 15	Frauenhilfe	Frauenhilfe	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	conj	_	_
 16	aufgemacht	aufmachen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-17	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n\n
 
-# sent_id = 17
+# newpar
+# sent_id = 18
 # text = Unlängst wurde sie offiziell eröffnet.
 1	Unlängst	Unlängst	ADV	ADV	_	5	advmod	_	_
 2	wurde	werden	AUX	ADJA	Case=Nom|Gender=Fem|Number=Sing	5	aux:pass	_	_
 3	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	5	nsubj:pass	_	_
 4	offiziell	offiziell	ADJ	XY	_	5	advmod	_	_
 5	eröffnet	eröffnen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
-# sent_id = 18
+# newpar
+# sent_id = 19
 # text = 60 Personen leben dort - etwa 40 Frauen und 20 Kinder.
 1	60	60	NUM	CARD	NumType=Card	2	nummod	_	_
 2	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
@@ -270,9 +291,10 @@
 9	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	11	cc	_	_
 10	20	20	NUM	CARD	NumType=Card	11	nummod	_	_
 11	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	conj	_	SpaceAfter=No
-12	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 19
+# newpar
+# sent_id = 20
 # text = Männer gibt es keine - auch nicht als Besucher.
 1	Männer	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
 2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -283,9 +305,10 @@
 7	nicht	nicht	PART	CARD	NumType=Card	2	advmod	_	_
 8	als	als	ADP	KOKOM	_	9	case	_	_
 9	Besucher	Besucher	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
-10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 20
+# newpar
+# sent_id = 21
 # text = Die Ausnahme ist ein Wachmann vor der Tür.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Ausnahme	Ausnahme	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -295,9 +318,10 @@
 6	vor	vor	ADP	NE	Case=Acc|Gender=Fem|Number=Sing	8	case	_	_
 7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Tür	Tür	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
-9	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+9	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
-# sent_id = 21
+# newpar
+# sent_id = 22
 # text = "Es ist nicht übertrieben zu sagen: Jede Frau, die hier ankommt, hat auf ihrer Flucht Erfahrungen mit sexueller Gewalt gemacht", sagt Bahr.
 1	"	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
@@ -327,9 +351,10 @@
 26	,	,	PUNCT	$,	_	27	punct	_	_
 27	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 28	Bahr	Bahr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	nsubj	_	SpaceAfter=No
-29	.	.	PUNCT	$.	_	27	punct	_	SpacesAfter=\n
+29	.	.	PUNCT	$.	_	27	punct	_	SpacesAfter=\n\n
 
-# sent_id = 22
+# newpar
+# sent_id = 23
 # text = "Männer fliehen wegen Kriegen, weil sie politisch verfolgt werden, weil ihnen Folter oder der Tod drohen oder weil ihre Familien sie als Hoffnungsträger nach Europa schicken", erzählt sie.
 1	"	"	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 2	Männer	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
@@ -364,9 +389,10 @@
 31	,	,	PUNCT	$,	_	3	punct	_	_
 32	erzählt	erzählen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 33	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	32	obj	_	SpaceAfter=No
-34	.	.	PUNCT	$.	_	32	punct	_	SpacesAfter=\n
+34	.	.	PUNCT	$.	_	32	punct	_	SpacesAfter=\n\n
 
-# sent_id = 23
+# newpar
+# sent_id = 24
 # text = Bei Frauen überwiegen andere Gründe für die Flucht: "Viele stehlen sich heimlich davon, weil sie keinen anderen Ausweg sehen".
 1	Bei	bei	ADP	APPR	_	2	case	_	_
 2	Frauen	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	12	obl	_	_
@@ -391,9 +417,10 @@
 21	Ausweg	Ausweg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_
 22	sehen	sehen	VERB	VVFIN	VerbForm=Inf	12	advcl	_	SpaceAfter=No
 23	"	"	PUNCT	$(	_	22	punct	_	SpaceAfter=No
-24	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
 
-# sent_id = 24
+# newpar
+# sent_id = 25
 # text = In ihrer Heimat haben sie Erfahrung mit sexueller Gewalt, Zwangsehen, Ehrenmorden, Sklaverei oder Zwangsprostitution gemacht.
 1	In	in	ADP	APPR	_	3	case	_	_
 2	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	3	det:poss	_	_
@@ -413,17 +440,19 @@
 16	oder	oder	CCONJ	XY	_	17	cc	_	_
 17	Zwangsprostitution	Zwangsprostitution	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	conj	_	_
 18	gemacht	machen	ADJ	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-19	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n\n
 
-# sent_id = 25
+# newpar
+# sent_id = 26
 # text = Das treibt sie fort.
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	treibt	treiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	2	obj	_	_
 4	fort	fort	ADV	PTKVZ	_	2	advmod	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 26
+# newpar
+# sent_id = 27
 # text = Auf der Flucht geht das weiter.
 1	Auf	auf	ADP	APPR	_	3	case	_	_
 2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -431,9 +460,10 @@
 4	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 6	weiter	weiter	ADV	ADV	_	4	compound:prt	_	SpaceAfter=No
-7	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+7	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 27
+# newpar
+# sent_id = 28
 # text = "Dass Schlepper zum Beispiel für eine Flasche Wasser eine sexuelle Handlung fordern, ist keine Seltenheit", sagt Bahr.
 1	"	"	PUNCT	$(	_	14	punct	_	SpaceAfter=No
 2	Dass	dass	SCONJ	KOUS	_	14	mark	_	_
@@ -458,9 +488,10 @@
 20	,	,	PUNCT	$,	_	14	punct	_	_
 21	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 22	Bahr	Bahr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	nsubj	_	SpaceAfter=No
-23	.	.	PUNCT	$.	_	21	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	$.	_	21	punct	_	SpacesAfter=\n\n
 
-# sent_id = 28
+# newpar
+# sent_id = 29
 # text = Und die Frauen sind alleine, sie werden nicht von ihren Familien geschützt.
 1	Und	und	CCONJ	ADJD	_	5	cc	_	_
 2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
@@ -475,9 +506,10 @@
 11	ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Poss=Yes	12	det:poss	_	_
 12	Familien	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	obl	_	_
 13	geschützt	schützen	VERB	VVPP	VerbForm=Part	5	acl	_	SpaceAfter=No
-14	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
-# sent_id = 29
+# newpar
+# sent_id = 30
 # text = Wer glaube, dass das ende, sobald sie in Deutschland ankämen, irre, erzählt Bahr.
 1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	2	nsubj	_	_
 2	glaube	glauben	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -496,9 +528,10 @@
 15	,	,	PUNCT	$,	_	12	punct	_	_
 16	erzählt	erzählen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 17	Bahr	Bahr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No
-18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 30
+# newpar
+# sent_id = 31
 # text = Auch hier würden alleinstehende Frauen in Flüchtlingsunterkünften oft als minderwertig betrachtet und schlimmstenfalls missbraucht.
 1	Auch	auch	ADV	ADV	_	2	advmod	_	_
 2	hier	hier	ADV	ADV	_	4	advmod	_	_
@@ -514,9 +547,10 @@
 12	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	14	cc	_	_
 13	schlimmstenfalls	schlimmstenfalls	ADV	ADV	_	14	advmod	_	_
 14	missbraucht	mißbrauchen	VERB	VVPP	VerbForm=Part	11	conj	_	SpaceAfter=No
-15	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 31
+# newpar
+# sent_id = 32
 # text = Das führt dazu, dass etwa 90 Prozent der Frauen, die in der Unterkunft im Münchner Norden wohnen, traumatisiert sind, schätzt sie.
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	führt	führen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -545,9 +579,10 @@
 24	,	,	PUNCT	$,	_	25	punct	_	_
 25	schätzt	schätzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_
 26	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	25	obj	_	SpaceAfter=No
-27	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+27	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 32
+# newpar
+# sent_id = 33
 # text = "Einige der Kinder sind sicher nicht freiwillig entstanden".
 1	"	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Einige	einige	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	9	nsubj	_	_
@@ -559,9 +594,10 @@
 8	freiwillig	freiwillig	ADJ	ADJD	_	9	advmod	_	_
 9	entstanden	entstehen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 10	"	"	PUNCT	$(	_	9	punct	_	SpaceAfter=No
-11	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+11	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
 
-# sent_id = 33
+# newpar
+# sent_id = 34
 # text = Viele Frauen seien es so gewohnt, dass sie nichts sagen.
 1	Viele	viel	PRON	NE	Case=Nom|Gender=Fem|Number=Sing	2	det	_	_
 2	Frauen	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
@@ -574,9 +610,10 @@
 9	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
 10	nichts	nichts	PRON	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
 11	sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
-12	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
 
-# sent_id = 34
+# newpar
+# sent_id = 35
 # text = "Oder sie trauen sich nicht, offen über das Erlebte zu sprechen, weil die Scham zu groß ist".
 1	"	"	PUNCT	$(	_	4	punct	_	SpaceAfter=No
 2	Oder	oder	CCONJ	NE	Case=Nom|Gender=Fem|Number=Sing	4	cc	_	_
@@ -599,9 +636,10 @@
 19	groß	grießen	VERB	ADJD	_	4	advcl	_	_
 20	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	SpaceAfter=No
 21	"	"	PUNCT	$(	_	4	punct	_	SpaceAfter=No
-22	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+22	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 35
+# newpar
+# sent_id = 36
 # text = Da sie sich oft nicht zu helfen wüssten, brauche es mehr Unterkünfte nur für sie, fordert Bahr.
 1	Da	da	SCONJ	KOUS	_	8	mark	_	_
 2	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
@@ -622,9 +660,10 @@
 17	,	,	PUNCT	$,	_	18	punct	_	_
 18	fordert	fordern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
 19	Bahr	Bahr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
-20	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
 
-# sent_id = 36
+# newpar
+# sent_id = 37
 # text = In Bayern sind die sieben Bezirksregierungen für die Unterbringung von Flüchtlingen zuständig.
 1	In	in	ADP	APPR	_	2	case	_	_
 2	Bayern	Bayern	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	_
@@ -638,9 +677,10 @@
 10	von	von	ADP	FM	Foreign=Yes	11	case	_	_
 11	Flüchtlingen	Flüchtlingen	PROPN	NN	Case=Dat|Gender=Masc|Number=Plur	9	nmod	_	_
 12	zuständig	zuständig	ADJ	ADJD	_	0	root	_	SpaceAfter=No
-13	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+13	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
 
-# sent_id = 37
+# newpar
+# sent_id = 38
 # text = Auf die Frage, ob sie von einem ähnlichen Projekt wie in München in ihrem Zuständigkeitsbereich wüssten, antworten einige mit Nein.
 1	Auf	auf	ADP	APPR	_	3	case	_	_
 2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -664,9 +704,10 @@
 20	einige	einige	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	19	obj	_	_
 21	mit	mit	ADP	ADJA	Case=Nom|Gender=Masc|Number=Plur	22	case	_	_
 22	Nein	nein	PROPN	PTKVZ	_	20	nmod	_	SpaceAfter=No
-23	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 38
+# newpar
+# sent_id = 39
 # text = In der Oberpfalz und Oberfranken etwa gibt es so etwas in Unterkünften der Regierungen nicht.
 1	In	in	ADP	APPR	_	3	case	_	_
 2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -683,9 +724,10 @@
 13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
 14	Regierungen	Regierung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
 15	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advmod	_	SpaceAfter=No
-16	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+16	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
 
-# sent_id = 39
+# newpar
+# sent_id = 40
 # text = Auch in Schwaben werden allein geflüchtete Frauen nicht getrennt untergebracht, sagt Karl-Heinz Meyer, Pressesprecher der Regierung.
 1	Auch	auch	ADV	ADV	_	10	advmod	_	_
 2	in	in	ADP	APPR	_	3	case	_	_
@@ -707,9 +749,10 @@
 18	Pressesprecher	Pressesprecher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	appos	_	_
 19	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	Regierung	Regierung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+21	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
 
-# sent_id = 40
+# newpar
+# sent_id = 41
 # text = In Oberbayern, Unter- und Mittelfranken gibt es in manchen Gemeinschaftsunterkünften Stockwerke oder eigene Häuser nur für alleinstehende Frauen und deren Kinder.
 1	In	in	ADP	APPR	_	2	case	_	_
 2	Oberbayern	Oberbayern	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
@@ -734,9 +777,10 @@
 21	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	23	cc	_	_
 22	deren	der	PRON	PDAT	Case=Gen|Number=Plur|PronType=Dem	23	nmod:poss	_	_
 23	Kinder	Kind	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	20	conj	_	SpaceAfter=No
-24	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n
 
-# sent_id = 41
+# newpar
+# sent_id = 42
 # text = Die Ausnahme ist Niederbayern, dort gibt es zwei zentrale Unterkünfte ausschließlich für Frauen.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Ausnahme	Ausnahme	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
@@ -752,9 +796,10 @@
 12	ausschließlich	ausschließlich	ADV	ADV	_	7	advmod	_	_
 13	für	für	ADP	APPR	_	14	case	_	_
 14	Frauen	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obl	_	SpaceAfter=No
-15	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 42
+# newpar
+# sent_id = 43
 # text = Auch der Ausschuss "Rechte der Frau und Gleichstellung der Geschlechter" im Europaparlament fordert, dass Frauen getrennt von Männern untergebracht werden müssen.
 1	Auch	auch	ADV	ADV	_	3	advmod	_	_
 2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -782,9 +827,10 @@
 23	untergebracht	untergebrachen	VERB	VVPP	VerbForm=Part	16	ccomp	_	_
 24	werden	werden	AUX	NE	Case=Acc|Number=Plur	23	aux:pass	_	_
 25	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	SpaceAfter=No
-26	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n\n
 
-# sent_id = 43
+# newpar
+# sent_id = 44
 # text = In einer Studie, die für den Ausschuss veröffentlicht wurde, heißt es: "Es ist sehr wichtig, dass Männer und Frauen getrennt beherbergt werden."
 1	In	in	ADP	APPR	_	3	case	_	_
 2	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -814,9 +860,10 @@
 26	beherbergt	beherbergen	VERB	VVPP	VerbForm=Part	19	ccomp	_	_
 27	werden	werden	AUX	NE	Case=Acc|Number=Plur	26	aux:pass	_	SpaceAfter=No
 28	.	.	PUNCT	$.	_	12	punct	_	SpaceAfter=No
-29	"	"	PUNCT	$(	_	12	punct	_	SpacesAfter=\n
+29	"	"	PUNCT	$(	_	12	punct	_	SpacesAfter=\n\n
 
-# sent_id = 44
+# newpar
+# sent_id = 45
 # text = "Fehlt die Privatsphäre oder werden Männer und Frauen zusammen untergebracht, kann es zu - fortwährender - Gewalt gegen Frauen kommen".
 1	"	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Fehlt	fehlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	_
@@ -841,9 +888,10 @@
 21	Frauen	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	19	nmod	_	_
 22	kommen	kommen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 23	"	"	PUNCT	$(	_	22	punct	_	SpaceAfter=No
-24	.	.	PUNCT	$.	_	22	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	$.	_	22	punct	_	SpacesAfter=\n\n
 
-# sent_id = 45
+# newpar
+# sent_id = 46
 # text = Vor allem die Waschräume sollten getrennt und für Frauen leicht zugänglich sein, steht in der Studie.
 1	Vor	vor	ADP	NN	Case=Nom|Gender=Masc|Number=Sing	2	case	_	_
 2	allem	alle	PRON	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	6	obl	_	_
@@ -862,9 +910,10 @@
 15	in	in	ADP	APPR	_	17	case	_	_
 16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Studie	Studie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
-18	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n\n
 
-# sent_id = 46
+# newpar
+# sent_id = 47
 # text = Wie sehr die Frauen dieses Schutzbedürfnis verspüren, kann man am Andrang ablesen, den es auf das Haus in München gibt.
 1	Wie	wie	ADV	ADJA	_	2	advmod	_	_
 2	sehr	sehr	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	4	advmod	_	_
@@ -890,9 +939,10 @@
 21	in	in	ADP	APPR	_	22	case	_	_
 22	München	München	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	20	nmod	_	_
 23	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	SpaceAfter=No
-24	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
 
-# sent_id = 47
+# newpar
+# sent_id = 48
 # text = "Seit sich herumgesprochen hat, dass es uns gibt, haben wir eine lange Warteliste", sagt Bahr.
 1	"	"	PUNCT	$(	_	4	punct	_	SpaceAfter=No
 2	Seit	seit	ADP	APPR	_	3	case	_	_
@@ -914,9 +964,10 @@
 18	,	,	PUNCT	$,	_	19	punct	_	_
 19	sagt	sagen	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
 20	Bahr	Bahr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	nsubj	_	SpaceAfter=No
-21	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+21	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
 
-# sent_id = 48
+# newpar
+# sent_id = 49
 # text = Man könnte leicht ein zweites Haus aufmachen.
 1	Man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	7	nsubj	_	_
 2	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
@@ -925,5 +976,5 @@
 5	zweites	zweit	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	6	amod	_	_
 6	Haus	Haus	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
 7	aufmachen	aufmachen	VERB	ADJA	Case=Acc|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
 

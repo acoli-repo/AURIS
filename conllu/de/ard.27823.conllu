@@ -1,40 +1,45 @@
-# newdoc id = txt/de/ard.27823.txt
+# newdoc
 # newpar
 # sent_id = 1
-# text = Clintons und Trumps Wirtschaftspolitik im Vergleich: It's all about the money In Infrastruktur investieren und das Handelsabkommen TTP verhindern - das wollen sowohl Clinton als auch Trump.
+# text = Clintons und Trumps Wirtschaftspolitik im Vergleich: It's all about the money
 1	Clintons	Clinton	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 2	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	3	cc	_	_
 3	Trumps	Trumps	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	1	conj	_	_
-4	Wirtschaftspolitik	Wirtschaftspolitik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+4	Wirtschaftspolitik	Wirtschaftspolitik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
 5-6	im	_	_	_	_	_	_	_	_
 5	in	in	ADP	APPR	_	7	case	_	_
 6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	Vergleich	Vergleich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
-8	:	:	PUNCT	$.	_	16	punct	_	_
-9	It's	It's	X	PPER	Foreign=Yes	16	nsubj	_	_
+7	Vergleich	Vergleich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	$.	_	9	punct	_	_
+9	It's	It's	X	PPER	Foreign=Yes	7	appos	_	_
 10	all	all	DET	PIAT	Definite=Ind|PronType=Ind	13	det	_	_
 11	about	about	ADJ	ADJD	_	13	amod	_	_
-12	the	the	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	13	nmod	_	_
-13	money	money	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	16	obj	_	SpacesAfter=\n
-14	In	in	PROPN	APPR	_	13	flat	_	_
-15	Infrastruktur	Infrastruktur	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	13	flat	_	_
-16	investieren	investieren	VERB	VVINF	VerbForm=Inf	0	root	_	_
-17	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	21	cc	_	_
-18	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
-19	Handelsabkommen	Handelsabkommen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_
-20	TTP	TTP	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	19	appos	_	_
-21	verhindern	verhindern	VERB	VVINF	VerbForm=Inf	16	conj	_	_
-22	-	-	PUNCT	$(	_	24	punct	_	_
-23	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	24	det	_	_
-24	wollen	wollen	NOUN	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	nsubj	_	_
-25	sowohl	sowohl	CCONJ	NE	Case=Acc|Gender=Neut|Number=Sing	26	cc	_	_
-26	Clinton	Clinton	PROPN	NE	Case=Nom|Number=Sing	16	conj	_	_
-27	als	als	CCONJ	KON	_	29	cc	_	_
-28	auch	auch	ADV	ADV	_	29	advmod	_	_
-29	Trump	Trump	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	26	conj	_	SpaceAfter=No
-30	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n
+12	the	the	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	13	nmod	_	_
+13	money	money	PROPN	NE	Case=Nom|Number=Sing	9	nmod	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 2
+# text = In Infrastruktur investieren und das Handelsabkommen TTP verhindern - das wollen sowohl Clinton als auch Trump.
+1	In	in	ADP	APPR	_	2	case	_	_
+2	Infrastruktur	Infrastruktur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+3	investieren	investieren	VERB	VVINF	VerbForm=Inf	0	root	_	_
+4	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	8	cc	_	_
+5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Handelsabkommen	Handelsabkommen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+7	TTP	TTP	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	6	appos	_	_
+8	verhindern	verhindern	VERB	VVINF	VerbForm=Inf	3	conj	_	_
+9	-	-	PUNCT	$(	_	11	punct	_	_
+10	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	wollen	wollen	NOUN	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	nsubj	_	_
+12	sowohl	sowohl	CCONJ	NE	Case=Acc|Gender=Neut|Number=Sing	13	cc	_	_
+13	Clinton	Clinton	PROPN	NE	Case=Nom|Number=Sing	3	nsubj	_	_
+14	als	als	CCONJ	KON	_	16	cc	_	_
+15	auch	auch	ADV	ADV	_	16	advmod	_	_
+16	Trump	Trump	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	conj	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
 # text = Uneins sind sich die beiden US-Präsidentschaftsbewerber jedoch bei der Steuer- und Energiepolitik sowie in einer Grundsatzfrage.
 1	Uneins	Uneins	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	12	advmod	_	_
 2	sind	sein	AUX	ADJD	_	12	cop	_	_
@@ -55,9 +60,10 @@
 17	in	in	ADP	APPR	_	19	case	_	_
 18	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	Grundsatzfrage	Grundsatzfrage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
-20	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
 
-# sent_id = 3
+# newpar
+# sent_id = 4
 # text = Den Unterschieden in der Wirtschaftspolitik zwischen Donald Trump und Hillary Clinton liegt ein grundsätzlicher, eher philosophischer Unterschied zugrunde.
 1	Den	der	DET	NE	_	2	det	_	_
 2	Unterschieden	unterschieden	NOUN	NE	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
@@ -78,9 +84,10 @@
 17	philosophischer	philosophisch	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	18	amod	_	_
 18	Unterschied	Unterschied	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 19	zugrunde	zugrunde	ADV	NE	Case=Nom|Gender=Neut|Number=Sing	18	advmod	_	SpaceAfter=No
-20	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
 
-# sent_id = 4
+# newpar
+# sent_id = 5
 # text = Der, über die Rolle des Staates.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	5	punct	_	_
@@ -89,9 +96,10 @@
 5	Rolle	Rolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
 6	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Staates	Staat	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
-8	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
-# sent_id = 5
+# newpar
+# sent_id = 6
 # text = Trump will die im Zweifel eher klein halten und warnt davor, wie der Staat der Wirtschaft schaden kann - mit Steuern und Regulierungen.
 1	Trump	Trump	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 2	will	wollen	AUX	NE	Case=Nom|Gender=Masc|Number=Sing	9	aux	_	_
@@ -119,9 +127,10 @@
 23	Steuern	steuern	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	obl	_	_
 24	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	25	cc	_	_
 25	Regulierungen	Regulierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	23	conj	_	SpaceAfter=No
-26	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
 
-# sent_id = 6
+# newpar
+# sent_id = 7
 # text = Clinton wolle die Wirtschaft zu Tode besteuern und zu Tode regulieren, sagt er.
 1	Clinton	Clinton	PROPN	NE	Case=Nom|Number=Sing	7	nsubj	_	_
 2	wolle	wollen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -137,9 +146,10 @@
 12	,	,	PUNCT	$,	_	13	punct	_	_
 13	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
 14	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	SpaceAfter=No
-15	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
 
-# sent_id = 7
+# newpar
+# sent_id = 8
 # text = Er selber dagegen wäre ganz anders, behauptet Trump.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 2	selber	selber	ADV	NN	Case=Acc|Gender=Fem|Number=Sing	3	advmod	_	_
@@ -150,9 +160,10 @@
 7	,	,	PUNCT	$,	_	8	punct	_	_
 8	behauptet	behaupten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
 9	Trump	Trump	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	SpaceAfter=No
-10	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
 
-# sent_id = 8
+# newpar
+# sent_id = 9
 # text = Er werde Regulierungen massiv zurückfahren, und er macht sich für eine weitreichende Steuerreform mit niedrigeren Steuersätzen stark - für Privatleute und für Unternehmen.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	werde	werden	AUX	NN	Case=Acc|Gender=Fem|Number=Sing	5	aux	_	_
@@ -178,9 +189,10 @@
 22	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	24	cc	_	_
 23	für	für	ADP	APPR	_	24	case	_	_
 24	Unternehmen	Unternehmen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	21	conj	_	SpaceAfter=No
-25	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
-# sent_id = 9
+# newpar
+# sent_id = 10
 # text = Clinton dagegen sagt: Der Staat hat bestimmte Aufgaben zu erfüllen, er hat Benachteiligten Chancen zu eröffnen und braucht dafür Geld.
 1	Clinton	Clinton	PROPN	NE	Case=Nom|Number=Sing	3	nsubj	_	_
 2	dagegen	dagegen	ADV	PAV	_	3	advmod	_	_
@@ -204,9 +216,10 @@
 20	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
 21	dafür	dafür	PRON	PAV	_	22	det	_	_
 22	Geld	Geld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	20	obj	_	SpaceAfter=No
-23	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 10
+# newpar
+# sent_id = 11
 # text = Deshalb würden die Steuern für die Reichen erhöht, sagt sie.
 1	Deshalb	deshalb	ADV	APPR	_	8	advmod	_	_
 2	würden	werden	AUX	NN	Case=Dat|Gender=Fem|Number=Plur	8	aux	_	_
@@ -219,9 +232,10 @@
 9	,	,	PUNCT	$,	_	8	punct	_	_
 10	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	SpaceAfter=No
-12	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
 
-# sent_id = 11
+# newpar
+# sent_id = 12
 # text = Interessanterweise sind sich beide sehr nahe beim Thema Infrastruktur.
 1	Interessanterweise	interessanterweise	ADV	ADV	_	6	advmod	_	_
 2	sind	sein	AUX	ADJD	_	6	cop	_	_
@@ -234,9 +248,10 @@
 8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 9	Thema	Thema	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	_
 10	Infrastruktur	Infrastruktur	NOUN	TRUNC	_	9	appos	_	SpaceAfter=No
-11	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+11	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
 
-# sent_id = 12
+# newpar
+# sent_id = 13
 # text = In die müsse investiert werden, sagen Trump und Clinton fast wortgleich.
 1	In	in	ADP	APPR	_	3	case	_	_
 2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -250,9 +265,10 @@
 10	Clinton	Clinton	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
 11	fast	fast	ADV	ADV	_	12	advmod	_	_
 12	wortgleich	wortgleich	ADJ	ADJD	_	7	xcomp	_	SpaceAfter=No
-13	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+13	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 13
+# newpar
+# sent_id = 14
 # text = Die demokratische Bewerberin kündigt gar die größte Investition in neue Arbeitsplätze seit dem Zweiten Weltkrieg an.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	demokratische	demokratisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
@@ -270,9 +286,10 @@
 14	Zweiten	zweit	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	15	amod	_	_
 15	Weltkrieg	Weltkrieg	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	_
 16	an	an	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No
-17	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 14
+# newpar
+# sent_id = 15
 # text = Staatliche Investitionsprogramme in die Infrastruktur sind klassische demokratische Politik und werden etwa vom staatskritischen Teaparty-Flügel der Republikaner strikt abgelehnt.
 1	Staatliche	staatlich	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
 2	Investitionsprogramme	Investitionsprogramm	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -297,9 +314,10 @@
 20	Republikaner	Republikaner	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	16	nmod	_	_
 21	strikt	strikt	ADJ	NE	Case=Nom|Gender=Masc|Number=Sing	22	advmod	_	_
 22	abgelehnt	ablehnen	VERB	VVPP	VerbForm=Part	9	conj	_	SpaceAfter=No
-23	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
 
-# sent_id = 15
+# newpar
+# sent_id = 16
 # text = Auf Trump könnten also noch parteiinterne Diskussionen zukommen.
 1	Auf	auf	ADP	APPR	_	2	case	_	_
 2	Trump	Trump	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	8	obl	_	_
@@ -309,9 +327,10 @@
 6	parteiinterne	parteiintern	ADJ	ADV	_	7	amod	_	_
 7	Diskussionen	Diskussion	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
 8	zukommen	zukommen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n
 
-# sent_id = 16
+# newpar
+# sent_id = 17
 # text = Deutlicher sind die Unterschiede in der Energie- und Klimapolitik.
 1	Deutlicher	deutlich	ADJ	ADJD	_	0	root	_	_
 2	sind	sein	AUX	ADJD	_	1	cop	_	_
@@ -323,9 +342,10 @@
 8	-	-	PUNCT	$(	_	10	punct	_	_
 9	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	10	cc	_	_
 10	Klimapolitik	Klimapolitik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
-11	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+11	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
 
-# sent_id = 17
+# newpar
+# sent_id = 18
 # text = Trump will Kohlekraftwerke bauen und die Kohleförderung in den USA wieder hochfahren.
 1	Trump	Trump	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	will	wollen	AUX	NE	Case=Nom|Gender=Masc|Number=Sing	4	aux	_	_
@@ -339,9 +359,10 @@
 10	USA	USA	PROPN	NE	Case=Dat|Gender=Masc|Number=Plur	7	nmod	_	_
 11	wieder	wieder	ADV	NN	Case=Gen|Gender=Neut|Number=Sing	12	advmod	_	_
 12	hochfahren	hochfahren	VERB	VVINF	VerbForm=Inf	4	conj	_	SpaceAfter=No
-13	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+13	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 18
+# newpar
+# sent_id = 19
 # text = Ölförderung soll auch in bislang geschützten Gebieten möglich sein, das Pariser Klimaschutzabkommen will er aufkündigen.
 1	Ölförderung	Ölförderung	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 2	soll	sollen	AUX	NN	Case=Nom|Gender=Masc|Number=Plur	8	aux	_	_
@@ -359,9 +380,10 @@
 14	will	wollen	AUX	NN	Case=Nom|Gender=Masc|Number=Sing	16	aux	_	_
 15	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
 16	aufkündigen	aufkündigen	VERB	VVINF	VerbForm=Inf	8	conj	_	SpaceAfter=No
-17	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n
 
-# sent_id = 19
+# newpar
+# sent_id = 20
 # text = Clinton dagegen will mit ihrem Investitionsprogramm ausdrücklich die Erneuerbaren Energien ausbauen und fordert: "Ein Land wird die Supermacht der sauberen Energien werden und Millionen Jobs schaffen."
 1	Clinton	Clinton	PROPN	NE	Case=Nom|Number=Sing	11	nsubj	_	_
 2	dagegen	dagegen	ADV	PAV	_	11	advmod	_	_
@@ -392,9 +414,10 @@
 27	Jobs	Job	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	28	obj	_	_
 28	schaffen	schaffen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	conj	_	SpaceAfter=No
 29	.	.	PUNCT	$.	_	24	punct	_	SpaceAfter=No
-30	"	"	PUNCT	$(	_	17	punct	_	SpacesAfter=\n
+30	"	"	PUNCT	$(	_	17	punct	_	SpacesAfter=\n\n
 
-# sent_id = 20
+# newpar
+# sent_id = 21
 # text = "Es wird wohl entweder China, Deutschland oder Amerika sein - ich will, dass wir es sind."
 1	"	"	PUNCT	$(	_	14	punct	_	SpaceAfter=No
 2	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	_
@@ -416,9 +439,10 @@
 18	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
 19	sind	sein	VERB	ADJD	_	14	ccomp	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	14	punct	_	SpaceAfter=No
-21	"	"	PUNCT	$(	_	14	punct	_	SpacesAfter=\n
+21	"	"	PUNCT	$(	_	14	punct	_	SpacesAfter=\n\n
 
-# sent_id = 21
+# newpar
+# sent_id = 22
 # text = Doch nicht nur bei der Infrastruktur - auch bei internationalen Handelsabkommen sind die beiden Konkurrenten nicht allzu weit voneinander entfernt.
 1	Doch	doch	ADV	KON	_	20	advmod	_	_
 2	nicht	nicht	PART	CARD	NumType=Card	3	advmod	_	_
@@ -440,9 +464,10 @@
 18	weit	weit	ADJ	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	20	advmod	_	_
 19	voneinander	voneinander	ADV	ADV	_	20	advmod	_	_
 20	entfernt	entfernt	ADJ	ADJD	_	0	root	_	SpaceAfter=No
-21	.	.	PUNCT	$.	_	20	punct	_	SpacesAfter=\n
+21	.	.	PUNCT	$.	_	20	punct	_	SpacesAfter=\n\n
 
-# sent_id = 22
+# newpar
+# sent_id = 23
 # text = TPP, das transpazifische Handelsabkommen, wollen beide nicht unterzeichnen.
 1	TPP	TPP	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	5	punct	_	_
@@ -454,9 +479,10 @@
 8	beide	beide	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	10	obj	_	_
 9	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advmod	_	_
 10	unterzeichnen	unterzeichnen	VERB	VVFIN	VerbForm=Inf	0	root	_	SpaceAfter=No
-11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
 
-# sent_id = 23
+# newpar
+# sent_id = 24
 # text = Gleichzeitig wollen beide aber die USA nicht vom internationalen Handel isolieren - sondern einfach nur amerikanische Jobs besser schützen.
 1	Gleichzeitig	gleichzeitig	ADJ	ADJD	_	20	advmod	_	_
 2	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
@@ -479,9 +505,10 @@
 18	Jobs	Jobs	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	conj	_	_
 19	besser	gut	ADJ	ADJD	_	20	advmod	_	_
 20	schützen	schützen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
-21	.	.	PUNCT	$.	_	20	punct	_	SpacesAfter=\n
+21	.	.	PUNCT	$.	_	20	punct	_	SpacesAfter=\n\n
 
-# sent_id = 24
+# newpar
+# sent_id = 25
 # text = Die sollen dann auch besser bezahlt werden, fordert etwa Clinton.
 1	Die	der	DET	PDS	Case=Nom|Number=Plur|PronType=Dem	6	nsubj:pass	_	_
 2	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -494,9 +521,10 @@
 9	fordert	fordern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
 10	etwa	etwa	ADV	ADV	_	11	advmod	_	_
 11	Clinton	Clinton	PROPN	NE	Case=Nom|Number=Sing	9	nsubj	_	SpaceAfter=No
-12	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
 
-# sent_id = 25
+# newpar
+# sent_id = 26
 # text = Der derzeitige Mindestlohn von 7,25 US-Dollar sei ein Hungerlohn.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	derzeitige	derzeitig	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
@@ -509,9 +537,10 @@
 9	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 10	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	Hungerlohn	Hungerlohn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-12	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n\n
 
-# sent_id = 26
+# newpar
+# sent_id = 27
 # text = Ihn will sie auf 15 Dollar pro Stunde erhöhen.
 1	Ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
 2	will	wollen	AUX	NE	Case=Acc|Gender=Masc|Number=Plur	9	aux	_	_
@@ -522,9 +551,10 @@
 7	pro	pro	ADP	NN	Case=Acc|Gender=Masc|Number=Sing	8	case	_	_
 8	Stunde	Stunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
 9	erhöhen	erhöhen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
 
-# sent_id = 27
+# newpar
+# sent_id = 28
 # text = Was Trump in dieser Frage tun will, ist nicht ganz klar: Einmal sagt er: Der Mindestlohn muss rauf, dann sagt er, er dürfe nicht verändert werden.
 1	Was	was	PROPN	FM	Foreign=Yes	6	nsubj	_	_
 2	Trump	Trump	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	1	flat	_	_
@@ -557,9 +587,10 @@
 29	nicht	nicht	PART	CARD	NumType=Card	30	advmod	_	_
 30	verändert	verändern	VERB	VVPP	VerbForm=Part	15	ccomp	_	_
 31	werden	werden	AUX	NE	Case=Acc|Number=Plur	30	aux:pass	_	SpaceAfter=No
-32	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n
+32	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n\n
 
-# sent_id = 28
+# newpar
+# sent_id = 29
 # text = Doch die große Diskussion der kommenden Monate dürfte sich wohl eher um die Steuerpolitik der beiden Lager entwickeln.
 1	Doch	doch	ADV	KON	_	18	advmod	_	_
 2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -579,9 +610,10 @@
 16	beiden	beide	PRON	PIAT	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	17	amod	_	_
 17	Lager	Lager	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
 18	entwickeln	entwickeln	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
-19	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n\n
 
-# sent_id = 29
+# newpar
+# sent_id = 30
 # text = Auf der einen Seite steht Trump, der die Wirtschaft und die Bürger entlasten will, um das Wachstum anzukurbeln.
 1	Auf	auf	ADP	APPR	_	4	case	_	_
 2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -603,9 +635,10 @@
 18	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
 19	Wachstum	Wachstum	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
 20	anzukurbeln	anzukurbeln	VERB	NN	Case=Nom|Gender=Neut|Number=Sing	14	advcl	_	SpaceAfter=No
-21	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+21	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
-# sent_id = 30
+# newpar
+# sent_id = 31
 # text = Seine Kritiker halten ihm vor, damit würde das Haushaltsdefizit nur noch größer.
 1	Seine	sein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Poss=Yes	2	det:poss	_	_
 2	Kritiker	Kritiker	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
@@ -620,9 +653,10 @@
 11	nur	nur	ADV	CARD	NumType=Card	12	advmod	_	_
 12	noch	noch	ADV	CARD	NumType=Card	13	advmod	_	_
 13	größer	groß	ADJ	ADJD	_	3	conj	_	SpaceAfter=No
-14	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 31
+# newpar
+# sent_id = 32
 # text = Auf der anderen Seite steht Clinton, die zumindest von den Reichen verlangen will, dass sie mehr Steuern zahlen, und deren Kritiker sagen: Mehr Steuern sind auch nicht die Lösung.
 1	Auf	auf	ADP	APPR	_	4	case	_	_
 2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -657,5 +691,5 @@
 31	nicht	nicht	PART	CARD	NumType=Card	33	advmod	_	_
 32	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
 33	Lösung	Lösung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	parataxis	_	SpaceAfter=No
-34	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+34	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 

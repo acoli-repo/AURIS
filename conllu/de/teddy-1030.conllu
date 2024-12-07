@@ -1,4 +1,4 @@
-# newdoc id = txt/de/teddy-1030.txt
+# newdoc
 # newpar
 # sent_id = 1
 # text = Jeder spricht heutzutage über das Glück.
@@ -908,8 +908,9 @@
 5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
 6	Detail	Detail	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
 7	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 42
 # text = Sie ist heutzutage nicht mehr schmerzhaft, aber sie war schmerzhaft, als diese Studie in den 1990ern durchgeführt wurde.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -1054,7 +1055,7 @@
 20	"	"	PUNCT	$(	_	12	punct	_	_
 
 # sent_id = 51
-# text = Und hier ist eine Überraschung: Und die Überraschung ist, dass Patient A eine viel schlechtere Erinnrung an die Darmspiegelung hatte als Patient B. Die Geschichten der Darmspiegelungen waren unterschiedlich, und weil ein sehr entscheidender Teil der Geschichte ist, wie sie endet -- und keine dieser Geschichten ist sehr erbaulich oder großartig -- aber eine von ihnen ist diese deutlich ... (Gelächter) aber eine von ihnen ist deutlich schlimmer als die andere.
+# text = Und hier ist eine Überraschung: Und die Überraschung ist, dass Patient A eine viel schlechtere Erinnrung an die Darmspiegelung hatte als Patient B. Die Geschichten der Darmspiegelungen waren unterschiedlich, und weil ein sehr entscheidender Teil der Geschichte ist, wie sie endet -- und keine dieser Geschichten ist sehr erbaulich oder großartig -- aber eine von ihnen ist diese deutlich ...
 1	Und	und	CCONJ	ADJD	_	5	cc	_	_
 2	hier	hier	ADV	ADV	_	5	advmod	_	_
 3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -1118,23 +1119,27 @@
 61	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	63	cop	_	_
 62	diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	63	nsubj	_	_
 63	deutlich	deutlich	ADJ	ADJD	_	38	advmod	_	_
-64	...	...	PUNCT	$(	_	66	punct	_	SpacesAfter=\n
-65	(	(	PUNCT	$(	_	66	punct	_	SpaceAfter=No
-66	Gelächter	Gelächter	NOUN	TRUNC	_	74	parataxis	_	SpaceAfter=No
-67	)	)	PUNCT	$(	_	66	punct	_	_
-68	aber	aber	ADV	KON	_	74	advmod	_	_
-69	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	74	nsubj	_	_
-70	von	von	ADP	FM	Foreign=Yes	71	case	_	_
-71	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	69	nmod	_	_
-72	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	74	cop	_	_
-73	deutlich	deutlich	ADJ	ADJD	_	74	advmod	_	_
-74	schlimmer	schlimmer	ADV	ADJD	_	63	conj	_	_
-75	als	als	ADP	KOKOM	_	77	case	_	_
-76	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	77	det	_	_
-77	andere	ander	ADJ	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	74	nmod	_	SpaceAfter=No
-78	.	.	PUNCT	$.	_	31	punct	_	_
+64	...	...	PUNCT	$(	_	31	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 52
+# text = (Gelächter) aber eine von ihnen ist deutlich schlimmer als die andere.
+1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+2	Gelächter	Gelächter	NOUN	TRUNC	_	10	dep	_	SpaceAfter=No
+3	)	)	PUNCT	$(	_	2	punct	_	_
+4	aber	aber	ADV	KON	_	5	advmod	_	_
+5	eine	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	10	nsubj	_	_
+6	von	von	ADP	FM	Foreign=Yes	7	case	_	_
+7	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	5	nmod	_	_
+8	ist	sein	AUX	ADJD	_	10	cop	_	_
+9	deutlich	deutlich	ADJ	ADJD	_	10	advmod	_	_
+10	schlimmer	schlimmer	ADV	ADJD	_	0	root	_	_
+11	als	als	ADP	KOKOM	_	13	case	_	_
+12	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	13	det	_	_
+13	andere	ander	ADJ	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 53
 # text = Und die, die schlimmer ist war die, wo der Schmerz ganz am Ende auf seinem Höhepunkt war.
 1	Und	und	CCONJ	ADJD	_	8	punct	_	_
 2	die	der	DET	PRELS	Case=Nom|Number=Plur|PronType=Rel	8	nsubj	_	SpaceAfter=No
@@ -1159,7 +1164,7 @@
 20	war	sein	AUX	ADV	_	8	acl	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 53
+# sent_id = 54
 # text = Es ist eine schlimme Geschichte.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -1168,7 +1173,7 @@
 5	Geschichte	Geschichte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 54
+# sent_id = 55
 # text = Woher wissen wir das?
 1	Woher	woher	ADV	ADJD	_	2	advmod	_	_
 2	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1176,7 +1181,7 @@
 4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	obj	_	SpaceAfter=No
 5	?	?	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 55
+# sent_id = 56
 # text = Weil wir diese Leute nach ihrer Darmspiegelung gefragt haben, und auch viel später: "Wie schlimm war die ganze Sache insgesamt?", und sie war viel schlimmer für A als für B in der Erinnrung.
 1	Weil	weil	SCONJ	KOUS	_	8	mark	_	_
 2	wir	wir	PRON	ADJD	_	8	nsubj	_	_
@@ -1219,7 +1224,7 @@
 39	Erinnrung	Erinnrung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
 40	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 56
+# sent_id = 57
 # text = Nun, das ist ein direkter Konflikt zwischen dem erlebenden Selbst und dem erinnernden Selbst.
 1	Nun	nun	ADV	ADV	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	7	punct	_	_
@@ -1238,7 +1243,7 @@
 15	Selbst	selbst	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 57
+# sent_id = 58
 # text = Aus Sicht des erlebenden Selbst hatte B eindeutig eine schlechtere Zeit.
 1	Aus	aus	ADP	APPR	_	2	case	_	_
 2	Sicht	Sicht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
@@ -1253,7 +1258,7 @@
 11	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 58
+# sent_id = 59
 # text = Nun, was man mit Patient A machen könnte, und wir haben tatsächlich klinische Experimente durchgeführt, und es ist gemacht worden, und es funktioniert, man könnte eigentlich die Darmspiegelung von Patient A verlängern indem man einfach den Schlauch drin lässt ohne zu sehr an ihm zu rütteln.
 1	Nun	nun	ADV	ADV	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	8	punct	_	_
@@ -1308,7 +1313,7 @@
 51	rütteln	rütteln	VERB	VVINF	VerbForm=Inf	44	obl	_	SpaceAfter=No
 52	.	.	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 59
+# sent_id = 60
 # text = Das wird dazu führen, dass der Patient leidet, aber nur ein bisschen und viel weniger als vorher.
 1	Das	der	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
@@ -1331,7 +1336,7 @@
 19	vorher	vorher	ADV	PTKVZ	_	14	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 60
+# sent_id = 61
 # text = Und wenn man das ein paar Minuten lang macht hat man bewirkt, dass das erlebende Selbst von Patient A schlechter dran ist und man hat bewirkt, dass das erinnernde Selbst von Patient A viel besser dran ist, denn nun hat man Patient A eine bessere Geschichte über seine Erfahrung gegeben.
 1	Und	und	CCONJ	ADJD	_	12	cc	_	_
 2	wenn	wenn	SCONJ	VVFIN	_	9	mark	_	_
@@ -1388,7 +1393,7 @@
 53	gegeben	geben	ADJ	VVPP	VerbForm=Part	38	conj	_	SpaceAfter=No
 54	.	.	PUNCT	$.	_	12	punct	_	_
 
-# sent_id = 61
+# sent_id = 62
 # text = Wodurch zeichnet sich eine Geschichte aus?
 1	Wodurch	wodurch	ADV	NE	Case=Nom|Gender=Neut|Number=Sing	2	advmod	_	_
 2	zeichnet	zeichnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1398,7 +1403,7 @@
 6	aus	aus	ADP	APPR	_	2	compound:prt	_	SpaceAfter=No
 7	?	?	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 62
+# sent_id = 63
 # text = Und das gilt für die Geschichten, die das Gedächtnis uns liefert und es gilt auch für die Geschichten, die wir erfinden.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
@@ -1425,7 +1430,7 @@
 23	erfinden	erfinden	VERB	VVINF	VerbForm=Inf	19	acl	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 63
+# sent_id = 64
 # text = Wodurch sich eine Geschichte auszeichnet sind Umbrüche, bedeutende Augenblicke und Enden.
 1	Wodurch	wodurch	ADP	NN	Case=Nom|Gender=Fem|Number=Sing	2	case	_	_
 2	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	obl	_	_
@@ -1441,7 +1446,7 @@
 12	Enden	enden	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 64
+# sent_id = 65
 # text = Enden sind sehr, sehr wichtig und in diesem Fall dominierte das Ende.
 1	Enden	Ende	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	nsubj	_	_
 2	sind	sein	AUX	ADJD	_	6	cop	_	_
@@ -1458,7 +1463,7 @@
 13	Ende	Ende	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 65
+# sent_id = 66
 # text = Nun, das erlebende Selbst lebt sein Leben kontinuierlich.
 1	Nun	nun	ADV	ADV	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	6	punct	_	_
@@ -1471,7 +1476,7 @@
 9	kontinuierlich	kontinuierlich	ADJ	ADJD	_	6	advmod	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 66
+# sent_id = 67
 # text = Es hat Augenblicke des Erlebens, einen nach dem anderen.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1485,7 +1490,7 @@
 10	anderen	ander	ADJ	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	2	conj	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 67
+# sent_id = 68
 # text = Und Sie fragen: Was passiert mit diesen Momenten?
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
@@ -1498,7 +1503,7 @@
 9	Momenten	Moment	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No
 10	?	?	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 68
+# sent_id = 69
 # text = Und die Antwort ist wirklich einfach.
 1	Und	und	CCONJ	ADJD	_	6	cc	_	_
 2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -1508,7 +1513,7 @@
 6	einfach	einfach	ADJ	ADV	_	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 69
+# sent_id = 70
 # text = Sie sind für immer verloren.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
 2	sind	sein	AUX	ADJD	_	5	cop	_	_
@@ -1517,7 +1522,7 @@
 5	verloren	verlieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 70
+# sent_id = 71
 # text = Ich meine, die meisten Augenblicke unseres Lebens -- und ich habe das ausgerechnet -- Sie wissen, die psychologische Gegenwart gilt als ungefähr drei Sekunden lang.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 2	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Poss=Yes	6	det:poss	_	SpaceAfter=No
@@ -1548,7 +1553,7 @@
 27	lang	lang	ADJ	ADJD	_	22	xcomp	_	SpaceAfter=No
 28	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 71
+# sent_id = 72
 # text = Was bedeutet, wissen Sie, dass es in einem Leben ungefähr 600 Millionen davon gibt.
 1	Was	was	PRON	FM	Foreign=Yes	2	nsubj	_	_
 2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
@@ -1568,7 +1573,7 @@
 16	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 72
+# sent_id = 73
 # text = In einem Monat gibt es ungefähr 600.000.
 1	In	in	ADP	APPR	_	3	case	_	_
 2	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -1579,7 +1584,7 @@
 7	600.000	600.000	NUM	CARD	NumType=Card	4	obl	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 73
+# sent_id = 74
 # text = Die meisten von ihnen hinterlassen keine Spur.
 1	Die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	2	det	_	_
 2	meisten	meist	PRON	NN	Case=Dat|Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -1590,7 +1595,7 @@
 7	Spur	Spur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 74
+# sent_id = 75
 # text = Die meisten von ihnen werden komplett ignoriert vom erinnernden Selbst.
 1	Die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	2	det	_	_
 2	meisten	meist	PRON	NN	Case=Dat|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
@@ -1606,7 +1611,7 @@
 11	Selbst	selbst	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 75
+# sent_id = 76
 # text = Und doch bekommen Sie irgendwie den Eindruck, dass sie zählen sollten, dass was während dieser Augenblicke des Erlebens passiert unser Leben ist.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	doch	doch	ADV	ADV	_	3	advmod	_	_
@@ -1634,7 +1639,7 @@
 24	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	SpaceAfter=No
 25	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 76
+# sent_id = 77
 # text = Es ist die begrenzte Ressource, die wir verbrauchen während wir auf dieser Welt sind.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -1653,7 +1658,7 @@
 15	sind	sein	AUX	ADJD	_	9	aux	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 77
+# sent_id = 78
 # text = Und wie wir sie verbrauchen würde scheinbar wichtig sein, aber das ist nicht die Geschichte, die das erinnernde Selbst für uns behält.
 1	Und	und	CCONJ	ADJD	_	5	cc	_	_
 2	wie	wie	ADP	NN	Case=Nom|Gender=Neut|Number=Sing	3	case	_	_
@@ -1681,7 +1686,7 @@
 24	behält	behalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl	_	SpaceAfter=No
 25	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 78
+# sent_id = 79
 # text = Also haben wir das erinnernde Selbst und das erlebende Selbst, und sie sind wirklich ziemlich verschieden.
 1	Also	also	ADV	ADV	_	2	advmod	_	_
 2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1702,7 +1707,7 @@
 17	verschieden	verschieden	ADJ	ADJD	_	2	conj	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 79
+# sent_id = 80
 # text = Der größte Unterschied zwischen ihnen ist der Umgang mit Zeit.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	größte	groß	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
@@ -1716,7 +1721,7 @@
 10	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 80
+# sent_id = 81
 # text = Aus Sicht des erlebenden Selbst, wenn Sie einen Urlaub haben und die zweite Woche genau so gut ist wie die erste, dann ist der zweiwöchige Urlaub doppelt so gut wie der einwöchige Urlaub.
 1	Aus	aus	ADP	APPR	_	2	case	_	_
 2	Sicht	Sicht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
@@ -1755,7 +1760,7 @@
 35	Urlaub	Urlaub	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	$.	_	22	punct	_	_
 
-# sent_id = 81
+# sent_id = 82
 # text = So funktioniert das überhaupt nicht für das erinnernde Selbst.
 1	So	so	ADV	ADJA	Case=Nom|Gender=Neut|Number=Sing	2	advmod	_	_
 2	funktioniert	funktionieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1768,7 +1773,7 @@
 9	Selbst	selbst	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 82
+# sent_id = 83
 # text = Für das erinnernde Selbst ist ein zweiwöchiger Urlaub kaum besser als der einwöchige Urlaub, weil da keine neuen Erinnerungen hinzugefügt werden.
 1	Für	für	ADP	APPR	_	4	case	_	_
 2	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
@@ -1794,7 +1799,7 @@
 22	werden	werden	AUX	NE	Case=Acc|Number=Plur	21	aux:pass	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 83
+# sent_id = 84
 # text = Sie haben die Geschichte nicht geändert.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
 2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -1804,7 +1809,7 @@
 6	geändert	ändern	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 84
+# sent_id = 85
 # text = Und auf diese Weise ist Zeit eigentlich die kritische Variable, die ein erinnerndes Selbst unterscheidet von einem erlebenden Selbst.
 1	Und	und	CCONJ	ADJD	_	10	cc	_	_
 2	auf	auf	ADP	APPR	_	4	case	_	_
@@ -1828,7 +1833,7 @@
 20	Selbst	selbst	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 85
+# sent_id = 86
 # text = Zeit hat sehr wenig Einfluss auf diese Geschichte.
 1	Zeit	Zeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
 2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1840,7 +1845,7 @@
 8	Geschichte	Geschichte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 86
+# sent_id = 87
 # text = Nun, das erinnernde Selbst macht mehr, als zu erinnern und Geschichten zu erzählen.
 1	Nun	nun	ADV	ADV	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	6	punct	_	_
@@ -1859,7 +1864,7 @@
 15	erzählen	erzählen	VERB	VVINF	VerbForm=Inf	11	conj	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 87
+# sent_id = 88
 # text = Es ist eigentlich dasjenige, das Entscheidungen trifft, denn wenn Sie einen Patienten haben, der, sagen wir zwei Darmspiegelungen bei zwei unterschiedlichen Chirurgen hatte und sich entscheidet, welchen er wählen soll, dann ist der, der wählt der, der die Erinnerung hat, die weniger schlimm ist und das ist der Chirurg, der ausgewählt werden wird.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -1926,7 +1931,7 @@
 63	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	aux:pass	_	SpaceAfter=No
 64	.	.	PUNCT	$.	_	30	punct	_	_
 
-# sent_id = 88
+# sent_id = 89
 # text = Das erlebende Selbst hat keine Stimme in dieser Wahl.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 2	erlebende	erlebend	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
@@ -1939,7 +1944,7 @@
 9	Wahl	Wahl	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 89
+# sent_id = 90
 # text = Eigentlich wählen wir nicht zwischen Erlebnissen.
 1	Eigentlich	eigentlich	ADJ	ADJD	_	2	advmod	_	_
 2	wählen	wählen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1949,7 +1954,7 @@
 6	Erlebnissen	Erlebnis	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 90
+# sent_id = 91
 # text = Wir wählen zwischen Erinnerungen an Erlebnisse.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	wählen	wählen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1959,7 +1964,7 @@
 6	Erlebnisse	Erlebnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 91
+# sent_id = 92
 # text = Und selbst wenn wir an die Zukunft denken, denken wir an unsere Zukunft normalerweise nicht als Erlebnisse.
 1	Und	und	CCONJ	ADJD	_	10	cc	_	_
 2	selbst	selbst	ADV	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	advmod	_	_
@@ -1981,7 +1986,7 @@
 18	Erlebnisse	Erlebnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	obl	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 92
+# sent_id = 93
 # text = Wir denken über unsere Zukunft nach als vorausgesehene Erinnerungen.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	denken	denken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1994,7 +1999,7 @@
 9	Erinnerungen	Erinnerung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 93
+# sent_id = 94
 # text = Und im Grunde können
 1	Und	und	CCONJ	ADJD	_	4	cc	_	_
 2-3	im	_	_	_	_	_	_	_	_
@@ -2003,7 +2008,7 @@
 4	Grunde	Grund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	_
 5	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 
-# sent_id = 94
+# sent_id = 95
 # text = Sie das betrachten, wissen Sie, als eine Tyrannei des erinnernden Selbst, und Sie können sich das erinnernde Selbst denken als eins, das sozusagen das erlebende Selbst schleppt durch Erfahrungen, die das erlebende Selbst nicht braucht.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 2	das	der	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	_
@@ -2047,7 +2052,7 @@
 40	braucht	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl	_	SpaceAfter=No
 41	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 95
+# sent_id = 96
 # text = Ich habe den Eindruck, dass wenn wir Urlaub machen das sehr häufig der Fall ist, das heißt, wir machen Urlaub weitestgehend im Dienste des erinnernden Selbst.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2082,7 +2087,7 @@
 30	Selbst	selbst	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 96
+# sent_id = 97
 # text = Und das ist ein bisschen schwer zu rechtfertigen, denke ich.
 1	Und	und	CCONJ	ADJD	_	8	cc	_	_
 2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	_
@@ -2097,7 +2102,7 @@
 11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 97
+# sent_id = 98
 # text = Ich meine, wie sehr zehren wir von unseren Erinnerungen?
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 2	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Poss=Yes	6	obj	_	SpaceAfter=No
@@ -2111,7 +2116,7 @@
 10	Erinnerungen	Erinnerung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
 11	?	?	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 98
+# sent_id = 99
 # text = Das ist eine der Erklärungen, die für die Dominanz des erinnernden Selbst gegeben wird.
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
@@ -2130,7 +2135,7 @@
 15	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	14	aux:pass	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 99
+# sent_id = 100
 # text = Und wenn ich darüber nachdenke, denke ich an einen Urlaub, den wir vor ein paar Jahren in der Antarktis gemacht haben, der eindeutig der beste Urlaub war, den ich je gehabt hatte, und ich denke relativ oft daran im Verhältnis dazu, wie oft ich an andere Urlaube denke.
 1	Und	und	CCONJ	ADJD	_	5	cc	_	_
 2	wenn	wenn	SCONJ	VVFIN	_	5	mark	_	_
@@ -2190,7 +2195,7 @@
 55	denke	denken	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	ccomp	_	SpaceAfter=No
 56	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 100
+# sent_id = 101
 # text = Und ich habe wahrscheinlich von meinen Erinnerungen an diese dreiwöchige Reise, ich würde sagen ungefähr 25 Minuten lang in den letzten vier Jahren gezehrt.
 1	Und	und	CCONJ	ADJD	_	25	cc	_	_
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
@@ -2219,7 +2224,7 @@
 25	gezehrt	zehren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	25	punct	_	_
 
-# sent_id = 101
+# sent_id = 102
 # text = Nun, wenn ich je den Ordner geöffnet hätte mit den 600 Bildern darin hätte ich eine weitere Stunde verbracht.
 1	Nun	nun	ADV	ADV	_	20	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	8	punct	_	_
@@ -2243,7 +2248,7 @@
 20	verbracht	verbringen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	20	punct	_	_
 
-# sent_id = 102
+# sent_id = 103
 # text = Nun, das sind drei Wochen, und das sind höchstens eineinhalb Stunden.
 1	Nun	nun	ADV	ADV	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	6	punct	_	_
@@ -2260,7 +2265,7 @@
 13	Stunden	Stunde|Stunden	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 103
+# sent_id = 104
 # text = Da scheint es eine Unstimmigkeit zu geben.
 1	Da	da	ADV	ADV	_	2	advmod	_	_
 2	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2271,7 +2276,7 @@
 7	geben	geben	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 104
+# sent_id = 105
 # text = Nun, ich mag ein bisschen extrem sein, wissen Sie, darin, wie wenig Appetit ich auf das Zehren von Erinnerungen habe, aber selbst, wenn Sie mehr davon machen gibt es eine echte Frage.
 1	Nun	nun	ADV	ADV	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	7	punct	_	_
@@ -2313,7 +2318,7 @@
 38	Frage	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	34	obj	_	SpaceAfter=No
 39	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 105
+# sent_id = 106
 # text = Warum geben wir Erinnerungen so viel Gewicht im Verlgeich zu dem Gewicht, das wir Erlebnissen geben?
 1	Warum	warum	ADV	PWAV	PronType=Int	2	advmod	_	_
 2	geben	geben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2336,7 +2341,7 @@
 18	geben	geben	VERB	VVINF	VerbForm=Inf	13	acl	_	SpaceAfter=No
 19	?	?	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 106
+# sent_id = 107
 # text = Daher möchte ich, dass Sie über ein Gedankenexperiment nachdenken.
 1	Daher	daher	ADV	PAV	_	2	advmod	_	_
 2	möchte	mögen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -2350,7 +2355,7 @@
 10	nachdenken	nachdenk	ADJ	VVINF	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 107
+# sent_id = 108
 # text = Stellen Sie sich ihren nächsten Urlaub vor, Sie wissen, dass am Ende des Urlaubs alle Ihre Bilder vernichtet werden und Sie bekommen ein amnestisches Medikament, so dass Sie sich an nichts erinnern werden.
 1	Stellen	Stelle	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	dep	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
@@ -2392,7 +2397,7 @@
 37	werden	werden	AUX	NN	Case=Dat|Gender=Fem|Number=Sing	36	aux:pass	_	SpaceAfter=No
 38	.	.	PUNCT	$.	_	21	punct	_	_
 
-# sent_id = 108
+# sent_id = 109
 # text = Nun, würden Sie den gleichen Urlaub wählen?
 1	Nun	nun	ADV	ADV	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	1	punct	_	_
@@ -2402,9 +2407,10 @@
 6	gleichen	gleich	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
 7	Urlaub	Urlaub	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
 8	wählen	wählen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
-9	?	?	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+9	?	?	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n
 
-# sent_id = 109
+# newpar
+# sent_id = 110
 # text = (Gelächter) Und wenn Sie einen anderen Urlaub wählen würden, gibt es einen Konflikt zwischen Ihren beiden Arten des Selbst und Sie müssen darüber nachdenken, wie Sie diesen Konflikt entscheiden und das ist wirklich überhaupt nicht offensichtlich, denn wenn Sie im Sinne von Zeit denken bekommen Sie eine Antwort.
 1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Gelächter	Gelächter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
@@ -2463,7 +2469,7 @@
 54	Antwort	Antwort	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	51	obj	_	SpaceAfter=No
 55	.	.	PUNCT	$.	_	13	punct	_	_
 
-# sent_id = 110
+# sent_id = 111
 # text = Und wenn Sie im Sinne von Erinnerungen denken könnten Sie eine andere Antwort bekommen.
 1	Und	und	CCONJ	ADJD	_	15	cc	_	_
 2	wenn	wenn	SCONJ	VVFIN	_	9	mark	_	_
@@ -2483,7 +2489,7 @@
 15	bekommen	bekommen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	15	punct	_	_
 
-# sent_id = 111
+# sent_id = 112
 # text = Warum wir die Urlaube aussuchen, die wir aussuchen ist ein Problem, das sich uns stellt mit einer Wahl zwischen den beiden Arten des Selbst.
 1	Warum	warum	SCONJ	PWAV	PronType=Int	5	mark	_	_
 2	wir	wir	PRON	ADJD	_	5	nsubj	_	_
@@ -2513,7 +2519,7 @@
 26	Selbst	selbst	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	12	punct	_	_
 
-# sent_id = 112
+# sent_id = 113
 # text = Nun, die beiden Arten des Selbst werfen zwei Begriffe vom Glück auf.
 1	Nun	nun	ADV	ADV	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	8	punct	_	_
@@ -2532,7 +2538,7 @@
 14	auf	auf	ADP	PTKVZ	_	13	compound:prt	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 113
+# sent_id = 114
 # text = Es gibt tatsächlich zwei Konzepte vom Glück, die wir anwenden können, eines pro Selbst.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2554,7 +2560,7 @@
 17	Selbst	selbst	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 114
+# sent_id = 115
 # text = Sie können also fragen: Wie glücklich ist das erlebende Selbst?
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -2569,7 +2575,7 @@
 11	Selbst	selbst	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
 12	?	?	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 115
+# sent_id = 116
 # text = Und dann würden Sie fragen: Wie glücklich sind die Augenblicke im Leben des erlebenden Selbst?
 1	Und	und	CCONJ	ADJD	_	5	cc	_	_
 2	dann	dann	ADV	ADV	_	5	advmod	_	_
@@ -2591,7 +2597,7 @@
 17	Selbst	selbst	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
 18	?	?	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 116
+# sent_id = 117
 # text = Und sie sind alle -- Glück für Augenblicke ist ein ziemlich komplizierter Prozess.
 1	Und	und	CCONJ	ADJD	_	13	cc	_	_
 2	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
@@ -2608,7 +2614,7 @@
 13	Prozess	Prozeß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	13	punct	_	_
 
-# sent_id = 117
+# sent_id = 118
 # text = Welches sind die Emotionen, die gemessen werden können?
 1	Welches	welch	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	4	nsubj	_	_
 2	sind	sein	AUX	ADJD	_	4	cop	_	_
@@ -2621,7 +2627,7 @@
 9	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
 10	?	?	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 118
+# sent_id = 119
 # text = Und, nebenbei, wir sind nun imstande eine ziemlich gute Vorstellung zu bekommen vom Glück des erlebenden Selbst über die Zeit.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	3	punct	_	_
@@ -2649,7 +2655,7 @@
 23	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	14	punct	_	_
 
-# sent_id = 119
+# sent_id = 120
 # text = Wenn Sie nach dem Glück des erinnernden Selbst fragen ist es eine ganz andere Sache.
 1	Wenn	wenn	SCONJ	KOUS	_	9	mark	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
@@ -2668,7 +2674,7 @@
 15	Sache	Sache	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	15	punct	_	_
 
-# sent_id = 120
+# sent_id = 121
 # text = Das handelt nicht davon, wie glücklich eine Person lebt.
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	handelt	handeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2682,7 +2688,7 @@
 10	lebt	leben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 121
+# sent_id = 122
 # text = Es handelt davon, wie zufrieden oder erfreut die Person ist, wenn diese Person über ihr Leben nachdenkt.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	handelt	handeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2705,14 +2711,14 @@
 19	nachdenkt	nachdenken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 122
+# sent_id = 123
 # text = Sehr unterschiedlicher Begriff.
 1	Sehr	sehr	ADV	ADV	_	2	advmod	_	_
 2	unterschiedlicher	unterschiedlich	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
 3	Begriff	Begriff	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 123
+# sent_id = 124
 # text = Jeder, der diese Begriffe nicht unterscheidet wird die Erforschung des Glücks vermasseln, und ich gehöre zu einer Menge von Forschern über Wohlbefinden, die die Erforschung des Glücks lange vermasselt haben auf genau diese Art.
 1	Jeder	jed	NOUN	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	10	dep	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	7	punct	_	_
@@ -2753,7 +2759,7 @@
 37	Art	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
 38	.	.	PUNCT	$.	_	13	punct	_	_
 
-# sent_id = 124
+# sent_id = 125
 # text = Die Unterscheidung zwischen dem Glück des erlebenden Selbst und der Zufriedenheit des erinnernden Selbst ist in den letzten Jahren erkannt worden, und jetzt bemüht man sich, die beiden separat zu messen.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Unterscheidung	Unterscheidung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj:pass	_	_
@@ -2790,7 +2796,7 @@
 33	messen	messen	VERB	FM	Foreign=Yes	25	xcomp	_	SpaceAfter=No
 34	.	.	PUNCT	$.	_	20	punct	_	_
 
-# sent_id = 125
+# sent_id = 126
 # text = Die Gallup Organization hat eine weltweite Umfrage, bei der mehr als einer halben Million Leute Fragen gestellt worden sind darüber, was sie über ihr Leben denken und über ihre Erlebnisse.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Gallup	Gallup	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -2826,7 +2832,7 @@
 32	Erlebnisse	Erlebnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	28	conj	_	SpaceAfter=No
 33	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 126
+# sent_id = 127
 # text = Und es gab andere Bemühungen in der Richtung.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
@@ -2838,7 +2844,7 @@
 8	Richtung	Richtung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 127
+# sent_id = 128
 # text = In den letzten Jahren haben wir also angefangen, über das Glück der beiden Arten des Selbst zu lernen.
 1	In	in	ADP	APPR	_	4	case	_	_
 2	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	4	det	_	_
@@ -2861,7 +2867,7 @@
 19	lernen	lernen	VERB	VVINF	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 128
+# sent_id = 129
 # text = Und die hauptsächliche Lektion, die wir, glaube ich, gelernt haben ist, dass sie wirklich unterschiedlich sind.
 1	Und	und	CCONJ	ADJD	_	4	cc	_	_
 2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -2885,7 +2891,7 @@
 20	sind	sein	AUX	ADJD	_	19	cop	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	12	punct	_	_
 
-# sent_id = 129
+# sent_id = 130
 # text = Sie können wissen, wie zufrieden jemand mit seinem Leben ist, und das lehrt sie wirklich nicht viel darüber, wie glücklich er sein Leben lebt und umgekehrt.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -2918,7 +2924,7 @@
 29	umgekehrt	umgekehrt	ADJ	VVFIN	VerbForm=Part	27	conj	_	SpaceAfter=No
 30	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 130
+# sent_id = 131
 # text = Nur um Ihnen einen Eindruck von der Korrelation zu vermitteln, die Korrelation ist ungefähr .5.
 1	Nur	nur	ADV	ADV	_	3	advmod	_	_
 2	um	um	ADP	KOUI	_	3	case	_	_
@@ -2937,7 +2943,7 @@
 15	ungefähr	ungefähr	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	16	advmod	_	_
 16	.5.	.5.	NUM	CARD	NumType=Card	10	conj	_	_
 
-# sent_id = 131
+# sent_id = 132
 # text = Was das bedeutet ist, dass wenn Sie jemanden treffen würden und man würde Ihnen sagen, oh, sein Vater ist ein Zwei-Meter-Mann, wie viel würden Sie über seine Größe wissen?
 1	Was	was	PRON	FM	Foreign=Yes	3	nsubj	_	_
 2	das	der	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
@@ -2978,7 +2984,7 @@
 37	wissen	wissen	VERB	VVINF	VerbForm=Inf	28	acl	_	SpaceAfter=No
 38	?	?	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 132
+# sent_id = 133
 # text = Nun, Sie würden etwas über seine Größe wissen, aber es gibt viel Unsicherheit.
 1	Nun	nun	ADV	ADV	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	3	punct	_	_
@@ -2997,7 +3003,7 @@
 15	Unsicherheit	Unsicherheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 133
+# sent_id = 134
 # text = Sie haben so viel Unsicherheit.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3006,7 +3012,7 @@
 5	Unsicherheit	Unsicherheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 134
+# sent_id = 135
 # text = Wenn ich Ihnen sage, dass jemand sein Leben als acht auf einer Skala von zehn eingeordnet hat haben Sie viel Unsicherheit darüber, wie glücklich er ist mit seinem erlebenden Selbst.
 1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	_
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
@@ -3042,7 +3048,7 @@
 32	Selbst	selbst	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	28	obl	_	SpaceAfter=No
 33	.	.	PUNCT	$.	_	26	punct	_	_
 
-# sent_id = 135
+# sent_id = 136
 # text = Die Korrelation ist also gering.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Korrelation	Korrelation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -3051,7 +3057,7 @@
 5	gering	gering	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 136
+# sent_id = 137
 # text = Wir wissen etwas darüber, was die Zufriedenheit des Glücks-Selbst bestimmt.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3068,7 +3074,7 @@
 13	bestimmt	bestimmen	VERB	ADJD	_	3	acl	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 137
+# sent_id = 138
 # text = Wir wissen, dass Geld sehr wichtig ist, Ziele sind sehr wichtig.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	wissen	wissen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
@@ -3085,7 +3091,7 @@
 13	wichtig	wichtig	ADJ	NE	Case=Acc|Gender=Neut|Number=Sing	2	ccomp	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 138
+# sent_id = 139
 # text = Wir wissen, dass Glück hauptsächlich bedeutet, zufrieden zu sein mit Menschen, die wir mögen, Zeit zu verbringen mit Menschen, die wir mögen.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	wissen	wissen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
@@ -3116,7 +3122,7 @@
 27	mögen	mögen	VERB	NN	Case=Acc|Gender=Neut|Number=Sing	23	acl	_	SpaceAfter=No
 28	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 139
+# sent_id = 140
 # text = Es gibt andere Vergnügen, aber das ist dominant.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3129,7 +3135,7 @@
 9	dominant	dominant	ADJ	ADJD	_	4	conj	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 140
+# sent_id = 141
 # text = Wenn Sie also das Glück der beiden Arten des Selbst maximieren wollen werden Sie am Ende sehr unterschiedliche Dinge tun.
 1	Wenn	wenn	SCONJ	KOUS	_	11	mark	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
@@ -3155,7 +3161,7 @@
 21	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	21	punct	_	_
 
-# sent_id = 141
+# sent_id = 142
 # text = Die Schlussfolgerung aus dem, was ich hier gesagt habe ist, dass wir uns Glück wirklich nicht vorstellen sollten als einen Ersatz für Wohlbefinden.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Schlussfolgerung	Schlussfolgerung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
@@ -3184,7 +3190,7 @@
 25	Wohlbefinden	Wohlbefinden	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	23	nmod	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 142
+# sent_id = 143
 # text = Es ist ein komplett anderer Begriff.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -3194,7 +3200,7 @@
 6	Begriff	Begriff	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 143
+# sent_id = 144
 # text = Nun, ganz kurz, ein anderer Grund, aus dem wir nicht klar über Glück nachdenken können ist, dass wir nicht auf die selben Dinge achten wenn wir über das Leben nachdenken und wenn wir tatsächlich leben.
 1	Nun	nun	ADV	ADV	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
@@ -3237,7 +3243,7 @@
 39	leben	leben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	advcl	_	SpaceAfter=No
 40	.	.	PUNCT	$.	_	28	punct	_	_
 
-# sent_id = 144
+# sent_id = 145
 # text = Wenn Sie also die einfache Frage stellen, wie glücklich die Leute in Kalifornien sind werden Sie nicht die korrekte Antwort bekommen.
 1	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
@@ -3263,7 +3269,7 @@
 22	bekommen	bekommen	VERB	VVPP	VerbForm=Part	7	parataxis	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 145
+# sent_id = 146
 # text = Wenn Sie diese Frage stellen denken Sie, dass die Leute in Kalifornien glücklicher sein müssen wenn Sie, sagen wir, in Ohio leben.
 1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
@@ -3292,7 +3298,7 @@
 25	leben	leben	VERB	VVINF	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 146
+# sent_id = 147
 # text = (Gelächter) Und was passiert ist, dass wenn Sie über das Leben in Kalifornien nachdenken, denken Sie an den Unterschied zwischen Kalifornien und anderen Orten, und dieser Unterschied besteht, sagen wir, im Klima.
 1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Gelächter	Gelächter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	dep	_	SpaceAfter=No
@@ -3337,7 +3343,7 @@
 40	Klima	Klima	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	35	obl	_	SpaceAfter=No
 41	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 147
+# sent_id = 148
 # text = Nun, es stellt sich heraus, dass Klima nicht sehr wichtig für das erlebende Selbst ist, und es ist nicht einmal sehr wichtig für das nachdenkliche Selbst, das entscheidet, wie glücklich Leute sind.
 1	Nun	nun	ADV	ADV	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
@@ -3378,7 +3384,7 @@
 37	sind	sein	AUX	ADJD	_	36	cop	_	SpaceAfter=No
 38	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 148
+# sent_id = 149
 # text = Nun aber, weil das nachdenkliche Selbst verantwortlich ist, können Sie am Ende -- einige Leute könnten am Ende nach Kalifornien ziehen.
 1	Nun	nun	ADV	ADV	_	2	advmod	_	_
 2	aber	aber	ADV	ADV	_	25	advmod	_	SpaceAfter=No
@@ -3409,7 +3415,7 @@
 25	ziehen	ziehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	25	punct	_	_
 
-# sent_id = 149
+# sent_id = 150
 # text = Und es ist sozusagen interessant zu verfolgen, was passiert mit Leuten, die nach Kalifornien ziehen in der Hoffnung, glücklicher zu werden.
 1	Und	und	CCONJ	ADJD	_	7	cc	_	_
 2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
@@ -3437,7 +3443,7 @@
 24	werden	werden	VERB	NE	Case=Gen|Gender=Masc|Number=Plur	20	acl	_	SpaceAfter=No
 25	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 150
+# sent_id = 151
 # text = Nun, ihr erlebendes Selbst wird nicht glücklicher werden.
 1	Nun	nun	ADV	ADV	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	8	punct	_	_
@@ -3450,23 +3456,24 @@
 9	werden	werden	AUX	NN	Case=Dat|Gender=Fem|Number=Sing	8	aux:pass	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 151
+# sent_id = 152
 # text = Wir wissen das.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	wissen	wissen	VERB	VVINF	VerbForm=Inf	0	root	_	_
 3	das	der	DET	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	_	SpaceAfter=No
 4	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 152
+# sent_id = 153
 # text = Aber eine Sache wird passieren.
 1	Aber	aber	CCONJ	KON	_	5	cc	_	_
 2	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	Sache	Sache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj:pass	_	_
 4	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	aux:pass	_	_
 5	passieren	passieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
-# sent_id = 153
+# newpar
+# sent_id = 154
 # text = Sie werden denken, dass sie glücklicher sind, denn wenn sie darüber nachdenken werden sie daran erinnert werden, wie schrecklich das Wetter in Ohio war.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
 2	werden	werden	AUX	NE	Case=Acc|Number=Plur	18	aux:pass	_	_
@@ -3497,7 +3504,7 @@
 27	war	sein	AUX	ADV	_	24	cop	_	SpaceAfter=No
 28	.	.	PUNCT	$.	_	18	punct	_	_
 
-# sent_id = 154
+# sent_id = 155
 # text = Und sie werden spüren, dass sie die richtige Entscheidung getroffen haben.
 1	Und	und	CCONJ	ADJD	_	4	cc	_	_
 2	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
@@ -3513,7 +3520,7 @@
 12	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 155
+# sent_id = 156
 # text = Es ist sehr schwierig, klar über Wohlbefinden nachzudenken, und ich hoffe, ich habe Ihnen einen Eindruck davon vermittelt, wie schwierig es ist.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -3543,12 +3550,12 @@
 26	ist	sein	AUX	ADJD	_	24	cop	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 156
+# sent_id = 157
 # text = Danke.
 1	Danke	Dank	NOUN	PTKANT	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 157
+# sent_id = 158
 # text = (Beifall) Chris Anderson: Danke.
 1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Beifall	Beifall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	dep	_	SpaceAfter=No
@@ -3557,9 +3564,10 @@
 5	Anderson	Anderson	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	4	flat	_	SpaceAfter=No
 6	:	:	PUNCT	$.	_	7	punct	_	_
 7	Danke	Rank|Danke	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
-8	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 158
+# newpar
+# sent_id = 159
 # text = Ich habe eine Frage an Sie.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3569,13 +3577,13 @@
 6	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 159
+# sent_id = 160
 # text = Vielen Dank.
 1	Vielen	viel	DET	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	amod	_	_
 2	Dank	Dank	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 160
+# sent_id = 161
 # text = Nun, als wir vor ein paar Wochen telefoniert haben erwähnten Sie mir gegenüber, dass es ein ziemlich interessantes Ergebnis gab, das aus dieser Gallup Umfrage kam.
 1	Nun	nun	ADV	ADV	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	1	punct	_	_
@@ -3608,7 +3616,7 @@
 29	kam	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl	_	SpaceAfter=No
 30	.	.	PUNCT	$.	_	11	punct	_	_
 
-# sent_id = 161
+# sent_id = 162
 # text = Ist das etwas, woran Sie uns teilhaben lassen können, weil Sie jetzt ein paar Minuten übrig haben?
 1	Ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
 2	das	der	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
@@ -3631,18 +3639,18 @@
 19	haben	haben	VERB	VAINF	VerbForm=Inf	9	advcl	_	SpaceAfter=No
 20	?	?	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 162
+# sent_id = 163
 # text = Daniel Kahneman:
 1	Daniel	Daniel	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 2	Kahneman	Kahneman	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
 3	:	:	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 163
+# sent_id = 164
 # text = Sicher.
 1	Sicher	sicher	NOUN	ADV	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 164
+# sent_id = 165
 # text = I denke, das interessanteste Ergebnis, das wir in der Gallup Umfrage gefunden haben ist eine Zahl, die wir absolut nicht zu finden erwartet hatten.
 1	I	i	PRON	CARD	NumType=Card	2	nsubj	_	_
 2	denke	denken	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -3673,7 +3681,7 @@
 27	hatten	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	26	aux	_	SpaceAfter=No
 28	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 165
+# sent_id = 166
 # text = Wir fanden das im Hinblick auf das Glück des erlebenden Selbst.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	fanden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3690,7 +3698,7 @@
 12	Selbst	selbst	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 166
+# sent_id = 167
 # text = Wenn wir uns anschauten, wie Gefühle mit dem Einkommen variieren.
 1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	_
 2	wir	wir	PRON	ADJD	_	4	nsubj	_	_
@@ -3705,7 +3713,7 @@
 11	variieren	variieren	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 167
+# sent_id = 168
 # text = Und es stellt sich heraus, dass unter einem Einkommen von 60.000 Dollar im Jahr, für Amerikaner, und das ist eine sehr große Stichprobe von Amerikanern, ungefähr 600.000, aber es ist eine große repräsentative Stichprobe, unter einem Einkommen von 600.000 Dollar im Jahr CA: 60.000.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -3764,14 +3772,14 @@
 53	60.000	60.000	NUM	CARD	NumType=Card	44	appos	_	SpaceAfter=No
 54	.	.	PUNCT	$.	_	44	punct	_	_
 
-# sent_id = 168
+# sent_id = 169
 # text = DK: 60.000.
 1	DK	DK	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	1	punct	_	_
 3	60.000	60.000	NUM	CARD	NumType=Card	1	appos	_	SpaceAfter=No
 4	.	.	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 169
+# sent_id = 170
 # text = 60.000 Dollar im Jahr sind die Leute unglücklich, und sie werden zunehmend unglücklicher, je ärmer sie werden.
 1	60.000	60.000	NUM	CARD	NumType=Card	2	nummod	_	_
 2	Dollar	Dollar	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
@@ -3796,7 +3804,7 @@
 20	werden	werden	VERB	NE	Case=Acc|Number=Plur	9	conj	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 170
+# sent_id = 171
 # text = Darüber bekommen wir eine absolut flache Linie.
 1	Darüber	darüber	ADV	PAV	_	2	advmod	_	_
 2	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3807,7 +3815,7 @@
 7	Linie	Linie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 171
+# sent_id = 172
 # text = Ich meine, ich habe selten so flache Linien gesehen.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Poss=Yes	0	root	_	SpaceAfter=No
@@ -3821,7 +3829,7 @@
 10	gesehen	sehen	VERB	VVINF	VerbForm=Inf	2	acl	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 172
+# sent_id = 173
 # text = Was passiert, ist offensichtlich, dass Geld einem kein Erlebnis-Glück beschafft, aber dass Mangel an Geld einem sicherlich Elend beschafft, und wir können dieses Elend sehr, sehr klar messen.
 1	Was	was	PRON	FM	Foreign=Yes	2	nsubj	_	_
 2	passiert	passieren	VERB	VVPP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	csubj	_	SpaceAfter=No
@@ -3860,7 +3868,7 @@
 35	messen	messen	VERB	NN	Case=Dat|Gender=Neut|Number=Sing	5	conj	_	SpaceAfter=No
 36	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 173
+# sent_id = 174
 # text = Im Sinne des anderen Selbst, des erinnernden Selbst, bekommen Sie eine andere Geschichte.
 1-2	Im	_	_	_	_	_	_	_	_
 1	In	in	ADP	APPR	_	3	case	_	_
@@ -3881,7 +3889,7 @@
 16	Geschichte	Geschichte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	12	punct	_	_
 
-# sent_id = 174
+# sent_id = 175
 # text = Je mehr Geld man verdient desto zufriedener ist man.
 1	Je	je	ADV	ADV	_	2	advmod	_	_
 2	mehr	mehr	ADV	ADV	_	3	advmod	_	_
@@ -3894,7 +3902,7 @@
 9	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	5	nsubj	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 175
+# sent_id = 176
 # text = Das gilt nicht für Emotionen.
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	gilt	gelten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3903,7 +3911,7 @@
 5	Emotionen	Emotion	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 176
+# sent_id = 177
 # text = CA: Aber Danny, im gesamten amerikanischen Bestreben geht es um Leben, Freiheit, das Streben nach Glückseligkeit.
 1	CA	ca	PROPN	ADV	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	1	punct	_	_
@@ -3929,7 +3937,7 @@
 21	Glückseligkeit	Glückseligkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	11	punct	_	_
 
-# sent_id = 177
+# sent_id = 178
 # text = Wenn Leute diesen Befund ernst nehmen würden, ich meine, es scheint alles auf den Kopf zu stellen, alles, was wir glauben, zum Beispiel in Bezug auf Steuerpolitik und so weiter.
 1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
 2	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur	6	nsubj	_	_
@@ -3970,7 +3978,7 @@
 36	weiter	weiter	ADV	ADV	_	31	conj	_	SpaceAfter=No
 37	.	.	PUNCT	$.	_	21	punct	_	_
 
-# sent_id = 178
+# sent_id = 179
 # text = Gibt es eine Chance, dass Politiker, dass das Land generell einen Befund wie den ernst nehmen würde und darauf basierend Politik machen würde?
 1	Gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
@@ -3999,7 +4007,7 @@
 25	würde	werden	AUX	NE	Case=Nom|Number=Sing	1	aux	_	SpaceAfter=No
 26	?	?	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 179
+# sent_id = 180
 # text = DK: Wissen Sie, ich glaube, dass es Anerkennung gibt für die Rolle der Glücksforschung in der Politik.
 1	DK	DK	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	7	punct	_	_
@@ -4023,7 +4031,7 @@
 20	Politik	Politik	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 180
+# sent_id = 181
 # text = Die Anerkennung wird langsam sein in den Vereinigten Staaten, keine Frage, aber im Vereinigten Königreich passiert sie gerade und in anderen Ländern passiert sie gerade.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Anerkennung	Anerkennung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj:pass	_	_
@@ -4056,7 +4064,7 @@
 28	gerade	gerade	ADV	ADV	_	26	advmod	_	SpaceAfter=No
 29	.	.	PUNCT	$.	_	19	punct	_	_
 
-# sent_id = 181
+# sent_id = 182
 # text = Die Leute sind dabei, anzuerkennen, dass sie an Glück denken sollten, wenn sie an Politik denken.
 1	Die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	2	det	_	_
 2	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur	4	nsubj	_	_
@@ -4079,7 +4087,7 @@
 19	denken	denken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 182
+# sent_id = 183
 # text = Es wird eine Weile dauern, und die Leute werden diskutieren, ob sie Erlebnis-Glück erforschen wollen oder ob sie Lebens-Bewertung erforschen wollen, also müssen wir diese Diskussion ziemlich bald führen.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
 2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	aux:pass	_	_
@@ -4119,7 +4127,7 @@
 36	führen	führen	VERB	VVINF	VerbForm=Inf	11	conj	_	SpaceAfter=No
 37	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 183
+# sent_id = 184
 # text = Wie man Glück steigern kann geht sehr unterschiedlich abhängig davon, wie Sie denken und ob Sie an das erinnernde Selbst denken oder ob Sie an das erlebende Selbst denken.
 1	Wie	wie	SCONJ	NN	Case=Nom|Gender=Neut|Number=Sing	4	mark	_	_
 2	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	4	nsubj	_	_
@@ -4153,7 +4161,7 @@
 30	denken	denken	VERB	VVINF	VerbForm=Inf	22	conj	_	SpaceAfter=No
 31	.	.	PUNCT	$.	_	14	punct	_	_
 
-# sent_id = 184
+# sent_id = 185
 # text = Das wird Politik beeinflussen, denke ich, in den kommenden Jahren.
 1	Das	der	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -4169,7 +4177,7 @@
 12	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	obl	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 185
+# sent_id = 186
 # text = In den Vereinigten Staaten strengt man sich an, das Erlebnis-Glück der Bevölkerung zu messen.
 1	In	in	ADP	APPR	_	4	case	_	_
 2	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
@@ -4190,7 +4198,7 @@
 17	messen	messen	VERB	FM	Foreign=Yes	5	xcomp	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 186
+# sent_id = 187
 # text = Das wird, denke ich, in den nächsten ein oder zwei Jahrzehnten Teil der nationalen Statistik sein.
 1	Das	der	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No
@@ -4212,7 +4220,7 @@
 18	sein	sein	AUX	VAINF	VerbForm=Inf	14	cop	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 187
+# sent_id = 188
 # text = CA: Nun, es scheint mir, dieses Thema wird, oder sollte wenigstens die interessanteste politische Debatte zum Verfolgen sein über die nächsten paar Jahre.
 1	CA	ca	PROPN	ADV	_	2	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	3	punct	_	_
@@ -4245,7 +4253,7 @@
 28	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	23	obl	_	SpaceAfter=No
 29	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 188
+# sent_id = 189
 # text = Vielen Dank für die Erfindung der Verhaltensökonomie.
 1	Vielen	viel	DET	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	amod	_	_
 2	Dank	Dank	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
@@ -4256,11 +4264,11 @@
 7	Verhaltensökonomie	Verhaltensökonomie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 189
+# sent_id = 190
 # text = Danke, Danny Kahneman.
 1	Danke	Dank	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	3	punct	_	_
 3	Danny	Danny	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 4	Kahneman	Kahneman	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\n
+5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\n\n
 

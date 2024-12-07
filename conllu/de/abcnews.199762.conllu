@@ -1,7 +1,7 @@
-# newdoc id = txt/de/abcnews.199762.txt
+# newdoc
 # newpar
 # sent_id = 1
-# text = 28-jähriger Koch in San Francisco Mall tot aufgefunden Ein 28-jähriger Koch, der vor kurzem nach San Francisco gezogen ist, wurde im Treppenhaus eines örtlichen Einkaufzentrums tot aufgefunden.
+# text = 28-jähriger Koch in San Francisco Mall tot aufgefunden
 1	28-	28-	PUNCT	_	_	2	punct	_	SpaceAfter=No
 2	jähriger	jähriger	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
 3	Koch	Koch	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
@@ -9,35 +9,40 @@
 5	San	San	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	_
 6	Francisco	Francisco	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	flat	_	_
 7	Mall	Mall	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	5	flat	_	_
-8	tot	tot	PROPN	ADJD	_	5	flat	_	_
-9	aufgefunden	auffinden	VERB	VVPP	VerbForm=Part	0	root	_	SpacesAfter=\n
-10	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-11	28-	28-	PUNCT	$(	_	12	punct	_	SpaceAfter=No
-12	jähriger	jähriger	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	13	amod	_	_
-13	Koch	Koch	PROPN	KON	_	9	obj	_	SpaceAfter=No
-14	,	,	PUNCT	$,	_	21	punct	_	_
-15	der	der	PRON	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	nsubj:pass	_	_
-16	vor	vor	ADP	NE	Case=Dat|Gender=Fem|Number=Sing	17	case	_	_
-17	kurzem	kurz	NOUN	ADJA	Case=Dat|Gender=Neut|Number=Sing	21	obl	_	_
-18	nach	nach	ADP	CARD	_	19	case	_	_
-19	San	San	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	_
-20	Francisco	Francisco	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	19	flat	_	_
-21	gezogen	ziehen	VERB	VVPP	VerbForm=Part	13	acl	_	_
-22	ist	sein	AUX	ADJD	_	21	aux:pass	_	SpaceAfter=No
-23	,	,	PUNCT	$,	_	32	punct	_	_
-24	wurde	werden	AUX	KON	_	32	aux:pass	_	_
-25-26	im	_	_	_	_	_	_	_	_
-25	in	in	ADP	APPR	_	27	case	_	_
-26	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	27	det	_	_
-27	Treppenhaus	Treppenhaus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	32	obl	_	_
-28	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	30	det	_	_
-29	örtlichen	örtlich	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	30	amod	_	_
-30	Einkaufzentrums	Einkaufzentrum	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
-31	tot	tot	ADJ	ADJD	_	32	advmod	_	_
-32	aufgefunden	auffinden	VERB	VVPP	VerbForm=Part	9	conj	_	SpaceAfter=No
-33	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+8	tot	tot	ADJ	ADJD	_	9	advmod	_	_
+9	aufgefunden	auffinden	VERB	VVPP	VerbForm=Part	0	root	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 2
+# text = Ein 28-jähriger Koch, der vor kurzem nach San Francisco gezogen ist, wurde im Treppenhaus eines örtlichen Einkaufzentrums tot aufgefunden.
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+2	28-	28-	PUNCT	_	_	1	punct	_	SpaceAfter=No
+3	jähriger	jähriger	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
+4	Koch	Koch	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	23	nsubj:pass	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	12	punct	_	_
+6	der	der	PRON	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	nsubj:pass	_	_
+7	vor	vor	ADP	NE	Case=Dat|Gender=Fem|Number=Sing	8	case	_	_
+8	kurzem	kurz	NOUN	ADJA	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	_
+9	nach	nach	ADP	CARD	_	10	case	_	_
+10	San	San	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	_
+11	Francisco	Francisco	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	flat	_	_
+12	gezogen	ziehen	VERB	VVPP	VerbForm=Part	4	acl	_	_
+13	ist	sein	AUX	ADJD	_	12	aux:pass	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	12	punct	_	_
+15	wurde	werden	AUX	KON	_	23	aux:pass	_	_
+16-17	im	_	_	_	_	_	_	_	_
+16	in	in	ADP	APPR	_	18	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
+18	Treppenhaus	Treppenhaus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	23	obl	_	_
+19	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	21	det	_	_
+20	örtlichen	örtlich	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	21	amod	_	_
+21	Einkaufzentrums	Einkaufzentrum	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+22	tot	tot	ADJ	ADJD	_	23	advmod	_	_
+23	aufgefunden	auffinden	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	23	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
 # text = Der Bruder des Opfers sagte aus, dass er sich niemanden vorstellen kann, der ihm schaden wollen würde, "Endlich ging es bei ihm wieder bergauf."
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Bruder	Bruder	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -68,9 +73,10 @@
 27	wieder	wieder	ADV	NN	Case=Acc|Gender=Neut|Number=Plur	23	advmod	_	_
 28	bergauf	bergauf	ADV	ADV	_	23	advmod	_	SpaceAfter=No
 29	.	.	PUNCT	$.	_	23	punct	_	SpaceAfter=No
-30	"	"	PUNCT	$(	_	23	punct	_	SpacesAfter=\n
+30	"	"	PUNCT	$(	_	23	punct	_	SpacesAfter=\n\n
 
-# sent_id = 3
+# newpar
+# sent_id = 4
 # text = Der am Mittwoch morgen in der Westfield Mall gefundene Leichnam wurde als der 28 Jahre alte Frank Galicia aus San Francisco identifiziert, teilte die gerichtsmedizinische Abteilung in San Francisco mit.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 2-3	am	_	_	_	_	_	_	_	_
@@ -105,9 +111,10 @@
 30	San	San	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	28	nmod	_	_
 31	Francisco	Francisco	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	30	flat	_	_
 32	mit	mit	ADP	$(	_	25	compound:prt	_	SpaceAfter=No
-33	.	.	PUNCT	$.	_	23	punct	_	SpacesAfter=\n
+33	.	.	PUNCT	$.	_	23	punct	_	SpacesAfter=\n\n
 
-# sent_id = 4
+# newpar
+# sent_id = 5
 # text = Das San Francisco Police Department sagte, dass der Tod als Mord eingestuft wurde und die Ermittlungen am Laufen sind.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	San	San	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
@@ -131,9 +138,10 @@
 19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
 20	Laufen	laufen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	17	nmod	_	_
 21	sind	sein	AUX	ADJD	_	17	cop	_	SpaceAfter=No
-22	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+22	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
 
-# sent_id = 5
+# newpar
+# sent_id = 6
 # text = Der Bruder des Opfers, Louis Galicia, teilte dem ABS Sender KGO in San Francisco mit, dass Frank, der früher als Koch in Boston gearbeitet hat, vor sechs Monaten seinen Traumjob als Koch im Sons & Daughters Restaurant in San Francisco ergattert hatte.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Bruder	Bruder	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
@@ -184,9 +192,10 @@
 46	Francisco	Francisco	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	45	flat	_	_
 47	ergattert	ergattern	VERB	VVPP	VerbForm=Part	9	ccomp	_	_
 48	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	47	aux	_	SpaceAfter=No
-49	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+49	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
 
-# sent_id = 6
+# newpar
+# sent_id = 7
 # text = Ein Sprecher des Sons & Daughters sagte, dass sie über seinen Tod "schockiert und am Boden zerstört seien".
 1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Sprecher	Sprecher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -211,9 +220,10 @@
 20	zerstört	zerstören	VERB	VVPP	VerbForm=Part	15	conj	_	_
 21	seien	sein	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No
 22	"	"	PUNCT	$(	_	15	punct	_	SpaceAfter=No
-23	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
 
-# sent_id = 7
+# newpar
+# sent_id = 8
 # text = "Wir sind ein kleines Team, das wie eine enge Familie arbeitet und wir werden ihn schmerzlich vermissen," sagte der Sprecher weiter.
 1	"	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Wir	wir	PRON	ADJD	_	6	nsubj	_	_
@@ -240,9 +250,10 @@
 23	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	Sprecher	Sprecher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
 25	weiter	weiter	ADV	ADV	_	22	compound:prt	_	SpaceAfter=No
-26	.	.	PUNCT	$.	_	22	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	$.	_	22	punct	_	SpacesAfter=\n\n
 
-# sent_id = 8
+# newpar
+# sent_id = 9
 # text = Unsere Gedanken und unser Beileid sind in dieser schweren Zeit bei Franks Familie und Freunden.
 1	Unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	2	det:poss	_	_
 2	Gedanken	Gedanke	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	nsubj	_	_
@@ -259,9 +270,10 @@
 13	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
 14	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	15	cc	_	_
 15	Freunden	Freunde	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
-16	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+16	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
 
-# sent_id = 9
+# newpar
+# sent_id = 10
 # text = Louis Galicia gab an, dass Frank zunächst in Hostels lebte, aber dass, "die Dinge für ihn endlich bergauf gingen."
 1	Louis	Louis	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	Galicia	Galicia	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
@@ -287,9 +299,10 @@
 22	bergauf	bergauf	PART	ADV	_	23	mark	_	_
 23	gingen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	3	punct	_	SpaceAfter=No
-25	"	"	PUNCT	$(	_	3	punct	_	SpacesAfter=\n
+25	"	"	PUNCT	$(	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 10
+# newpar
+# sent_id = 11
 # text = "Er fand eine Wohnung, er hatte eine Freundin," teilte Louis Garcia KGO mit.
 1	"	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -308,9 +321,10 @@
 15	Garcia	Garcia	PROPN	NE	Foreign=Yes	14	flat	_	_
 16	KGO	KGO	PROPN	NE	Foreign=Yes	14	flat	_	_
 17	mit	mit	ADP	$(	_	13	compound:prt	_	SpaceAfter=No
-18	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 11
+# newpar
+# sent_id = 12
 # text = Louis Galicia sagte, dass er sich niemanden vorstellen könne, der seinem jüngeren Bruder schaden wollen würde.
 1	Louis	Louis	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	Galicia	Galicia	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
@@ -330,9 +344,10 @@
 16	schaden	schaden	VERB	NN	Case=Acc|Gender=Fem|Number=Plur	3	acl	_	_
 17	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 18	würde	werden	AUX	NE	Case=Nom|Number=Sing	16	aux	_	SpaceAfter=No
-19	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 12
+# newpar
+# sent_id = 13
 # text = Er war ein freundlicher Mensch mit einem großen Herzen.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	war	sein	AUX	ADV	_	5	cop	_	_
@@ -343,9 +358,10 @@
 7	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 8	großen	groß	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	9	amod	_	_
 9	Herzen	Herz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
-10	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
-# sent_id = 13
+# newpar
+# sent_id = 14
 # text = Seine Art mit seiner Familie zu verbinden war es, uns immer etwas zu kochen, uns das Abendessen zuzubereiten," sagte Louis Galicia.
 1	Seine	sein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	2	det:poss	_	_
 2	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	obj	_	_
@@ -372,9 +388,10 @@
 23	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	_	_
 24	Louis	Louis	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
 25	Galicia	Galicia	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	24	flat	_	SpaceAfter=No
-26	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
 
-# sent_id = 14
+# newpar
+# sent_id = 15
 # text = Er wollte nie an irgendeiner Art von Auseinandersetzung teilnehmen.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 2	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
@@ -385,9 +402,10 @@
 7	von	von	ADP	FM	Foreign=Yes	8	case	_	_
 8	Auseinandersetzung	Auseinandersetzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
 9	teilnehmen	teilnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
 
-# sent_id = 15
+# newpar
+# sent_id = 16
 # text = Er war der Bruder, der mit dem Strom schwamm.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	war	sein	AUX	ADV	_	4	cop	_	_
@@ -399,9 +417,10 @@
 8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Strom	Strom	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	10	nmod	_	_
 10	schwamm	schwamm	ADJ	NN	Case=Dat|Gender=Masc|Number=Sing	4	acl	_	SpaceAfter=No
-11	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+11	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 16
+# newpar
+# sent_id = 17
 # text = "Bei allem, was in der Welt schief läuft, war er dieser ungeschliffene Diamant, der jeden Tag hell leuchtete," sagte er.
 1	"	"	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 2	Bei	bei	ADP	APPR	_	3	case	_	_
@@ -429,9 +448,10 @@
 24	"	"	PUNCT	$(	_	16	punct	_	_
 25	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 26	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	SpaceAfter=No
-27	.	.	PUNCT	$.	_	25	punct	_	SpacesAfter=\n
+27	.	.	PUNCT	$.	_	25	punct	_	SpacesAfter=\n\n
 
-# sent_id = 17
+# newpar
+# sent_id = 18
 # text = Jeder, der Informationen zu dem Fall hat, wird gebeten das Hinweistelefon des SFPD unter der Nummer 415-575-4444 anzurufen.
 1	Jeder	jed	NOUN	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
@@ -453,5 +473,5 @@
 18	Nummer	Nummer	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
 19	415-575-4444	415-575-4444	NUM	CARD	NumType=Card	20	nummod	_	_
 20	anzurufen	anzurufen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	obj	_	SpaceAfter=No
-21	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+21	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n
 

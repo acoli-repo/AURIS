@@ -1,7 +1,7 @@
-# newdoc id = txt/de/bbc.242497.txt
+# newdoc
 # newpar
 # sent_id = 1
-# text = Queensferry Crossing: Brücke nun mit Fife verbunden Das £ 1,35 Mrd.
+# text = Queensferry Crossing: Brücke nun mit Fife verbunden
 1	Queensferry	Queensferry	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
 2	Crossing	Crossing	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
 3	:	:	PUNCT	$.	_	4	punct	_	_
@@ -9,15 +9,19 @@
 5	nun	nun	ADV	ADV	_	8	advmod	_	_
 6	mit	mit	ADP	ADJA	Case=Nom|Gender=Masc|Number=Plur	7	case	_	_
 7	Fife	Fife	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	obl	_	_
-8	verbunden	verbinden	VERB	VVPP	VerbForm=Part	4	acl	_	SpacesAfter=\n
-9	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
-10	£	£	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
-11	1,35	1,35	NUM	CARD	NumType=Card	12	nummod	_	_
-12	Mrd	Mrd	NOUN	NN	Abbr=Yes|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nmod	_	SpaceAfter=No
-13	.	.	PUNCT	$.	_	8	punct	_	_
+8	verbunden	verbinden	VERB	VVPP	VerbForm=Part	4	acl	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 2
-# text = teure Projekt soll bis Mai 2017 fertiggestellt werden Ingenieure haben das Norddeck des Queensferry Crossings mit dem Viadukt verbunden - was bedeutet, dass die Brücke jetzt mit Fife verbunden ist.
+# text = Das £ 1,35 Mrd.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	£	£	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	1,35	1,35	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Mrd	Mrd	NOUN	NN	Abbr=Yes|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = teure Projekt soll bis Mai 2017 fertiggestellt werden
 1	teure	teuer	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	2	det:poss	_	_
 2	Projekt	Projekt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
 3	soll	sollen	AUX	NN	Case=Nom|Gender=Masc|Number=Plur	7	aux	_	_
@@ -25,33 +29,38 @@
 5	Mai	Mai	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
 6	2017	2017	NUM	CARD	NumType=Card	5	nmod	_	_
 7	fertiggestellt	fertigstellen	VERB	VVPP	VerbForm=Part	0	root	_	_
-8	werden	werden	AUX	NE	Case=Gen|Gender=Masc|Number=Plur	7	aux:pass	_	SpacesAfter=\n
-9	Ingenieure	Ingenieur	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	19	nsubj	_	_
-10	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
-11	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
-12	Norddeck	Norddeck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
-13	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	Queensferry	Queensferry	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
-15	Crossings	Crossings	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	14	flat	_	_
-16	mit	mit	ADP	$(	_	18	case	_	_
-17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	Viadukt	Viadukt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	nmod	_	_
-19	verbunden	verbunden	VERB	VVPP	VerbForm=Part	7	conj	_	_
-20	-	-	PUNCT	$(	_	22	punct	_	_
-21	was	was	PRON	NE	Foreign=Yes	22	nsubj	_	_
-22	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl	_	SpaceAfter=No
-23	,	,	PUNCT	$,	_	30	punct	_	_
-24	dass	dass	SCONJ	KOUS	_	30	mark	_	_
-25	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	Brücke	Brücke	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	30	nsubj	_	_
-27	jetzt	jetzt	ADV	ADV	_	30	advmod	_	_
-28	mit	mit	ADP	ADJA	Case=Nom|Gender=Masc|Number=Plur	29	case	_	_
-29	Fife	Fife	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	30	nmod	_	_
-30	verbunden	verbinden	ADJ	VVPP	VerbForm=Part	22	ccomp	_	_
-31	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	30	cop	_	SpaceAfter=No
-32	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+8	werden	werden	AUX	NE	Case=Acc|Number=Plur	7	aux:pass	_	SpacesAfter=\n\n
 
-# sent_id = 3
+# newpar
+# sent_id = 4
+# text = Ingenieure haben das Norddeck des Queensferry Crossings mit dem Viadukt verbunden - was bedeutet, dass die Brücke jetzt mit Fife verbunden ist.
+1	Ingenieure	Ingenieur	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Norddeck	Norddeck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Queensferry	Queensferry	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	Crossings	Crossings	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	6	flat	_	_
+8	mit	mit	ADP	$(	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Viadukt	Viadukt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	_
+11	verbunden	verbunden	ADJ	VVPP	VerbForm=Part	0	root	_	_
+12	-	-	PUNCT	$(	_	13	punct	_	_
+13	was	was	PRON	NE	Foreign=Yes	14	nsubj	_	_
+14	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	22	punct	_	_
+16	dass	dass	SCONJ	KOUS	_	22	mark	_	_
+17	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Brücke	Brücke	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+19	jetzt	jetzt	ADV	ADV	_	22	advmod	_	_
+20	mit	mit	ADP	ADJA	Case=Nom|Gender=Masc|Number=Plur	21	case	_	_
+21	Fife	Fife	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	22	nmod	_	_
+22	verbunden	verbinden	ADJ	VVPP	VerbForm=Part	14	ccomp	_	_
+23	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	22	cop	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
 # text = Es ist das erste von vier Verschließungen der "Deckgebläse", die sich der Fertigstellung um jeden der drei Türme der Brücke nähern.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -77,9 +86,10 @@
 22	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	Brücke	Brücke	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
 24	nähern	nähern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	SpaceAfter=No
-25	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 4
+# newpar
+# sent_id = 6
 # text = Der Brückenabschnitt von Fife ist jetzt 600 Meter lang und wiegt 30.000 Tonnen.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Brückenabschnitt	Brückenabschnitt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
@@ -94,9 +104,10 @@
 11	wiegt	wiegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
 12	30.000	30.000	NUM	CARD	NumType=Card	13	nummod	_	_
 13	Tonnen	Tonne	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
-14	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
 
-# sent_id = 5
+# newpar
+# sent_id = 7
 # text = Er verfügt über 10.000 Tonnen Stahl und 20.000 Tonnen Beton sowie 46 Schrägseile.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	verfügt	verfügen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -111,9 +122,10 @@
 11	sowie	sowie	CCONJ	NN	Case=Gen|Gender=Fem|Number=Sing	13	cc	_	_
 12	46	46	NUM	CARD	NumType=Card	13	nummod	_	_
 13	Schrägseile	Schrägseil	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	conj	_	SpaceAfter=No
-14	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 6
+# newpar
+# sent_id = 8
 # text = Das £ 1,35 Mrd. teure Projekt soll bis Mai 2017 fertiggestellt werden.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	£	£	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj:pass	_	_
@@ -127,9 +139,10 @@
 10	2017	2017	NUM	CARD	NumType=Card	9	nmod	_	_
 11	fertiggestellt	fertigstellen	VERB	VVPP	VerbForm=Part	0	root	_	_
 12	werden	werden	AUX	NE	Case=Acc|Number=Plur	11	aux:pass	_	SpaceAfter=No
-13	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n
+13	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n\n
 
-# sent_id = 7
+# newpar
+# sent_id = 9
 # text = Wirtschaftsminister Keith Brown stattete der Baustelle heute einen Besuch ab und war einer der Ersten, die vom Land auf die Brücke gingen.
 1	Wirtschaftsminister	Wirtschaftsminister	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	dep	_	_
 2	Keith	Keith	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
@@ -156,9 +169,10 @@
 22	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	Brücke	Brücke	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	obl	_	_
 24	gingen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	acl	_	SpaceAfter=No
-25	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 8
+# newpar
+# sent_id = 10
 # text = Er sagte: "Das ist ein historischer und symbolischer Moment beim Bau des Queensferry Crossings.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -178,9 +192,10 @@
 15	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 16	Queensferry	Queensferry	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
 17	Crossings	Crossings	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
-18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 9
+# newpar
+# sent_id = 11
 # text = Wir sind alle Zeugen einer Ingenieurskunst von einem wahrlich epischen Maße bei diesem Projekt mit über 30.000 Tonnen Beton und Stahl, die alleine für diesen Teil der Brücke verwendet wurden.
 1	Wir	wir	PRON	ADJD	_	4	nsubj	_	_
 2	sind	sein	AUX	ADJD	_	4	cop	_	_
@@ -213,9 +228,10 @@
 29	Brücke	Brücke	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
 30	verwendet	verwenden	VERB	VVPP	VerbForm=Part	19	acl	_	_
 31	wurden	werden	AUX	NE	Foreign=Yes	30	aux:pass	_	SpaceAfter=No
-32	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+32	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 10
+# newpar
+# sent_id = 12
 # text = Trotz der massiven Größe und Gewichts des Brücke, ist die Fertigstellung des Verschlusses zwischen dem Viadukt und dem Brückendeck eine heikle Tätigkeit, die extrem präzise Toleranzen für die Passung erfordern.
 1	Trotz	trotz	ADP	APPR	_	4	case	_	_
 2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -249,9 +265,10 @@
 30	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	Passung	Passung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	28	nmod	_	_
 32	erfordern	erfordern	VERB	VVINF	VerbForm=Inf	23	acl	_	SpaceAfter=No
-33	.	.	PUNCT	$.	_	23	punct	_	SpacesAfter=\n
+33	.	.	PUNCT	$.	_	23	punct	_	SpacesAfter=\n\n
 
-# sent_id = 11
+# newpar
+# sent_id = 13
 # text = Insgesamt sind fast 79 % der gesamten Brückendecks an ihrem Platz und der letzte Abschnitt des Decks bekommt heute in Rosyth einen Betonguss für das Deck, was bedeutet, dass das gesamte Deck bereit ist, auf der Brücke an seinen Platz gehoben zu werden.
 1	Insgesamt	insgesamt	ADV	ADV	_	11	advmod	_	_
 2	sind	sein	AUX	ADJD	_	11	cop	_	_
@@ -299,9 +316,10 @@
 44	gehoben	heben	ADJ	VVPP	VerbForm=Part	46	xcomp	_	_
 45	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	46	mark	_	_
 46	werden	werden	VERB	NE	Case=Acc|Number=Plur	43	appos	_	SpaceAfter=No
-47	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n
+47	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n\n
 
-# sent_id = 12
+# newpar
+# sent_id = 14
 # text = Michael Martin, Projektleiter von Forth Crossing Bridge Constructors sagte: "Der erste Verschluss stellt bei jedem Brückenprojekt einen erheblichen Meilenstein dar.
 1	Michael	Michael	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 2	Martin	Martin	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
@@ -326,9 +344,10 @@
 21	erheblichen	erheblich	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	22	amod	_	_
 22	Meilenstein	Meilenstein	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	obj	_	_
 23	dar	dar	ADV	PTKVZ	_	16	compound:prt	_	SpaceAfter=No
-24	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
 
-# sent_id = 13
+# newpar
+# sent_id = 15
 # text = Bei diesem fantastischen Projekt stellt der Verschluss zukunftsweisenden Hoch- und Tiefbau dar.
 1	Bei	bei	ADP	APPR	_	4	case	_	_
 2	diesem	dies	PRON	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
@@ -343,9 +362,10 @@
 11	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	12	cc	_	_
 12	Tiefbau	Tiefbau	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	conj	_	_
 13	dar	dar	ADV	PTKVZ	_	5	compound:prt	_	SpaceAfter=No
-14	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
-# sent_id = 14
+# newpar
+# sent_id = 16
 # text = Nach der Installation des letzten Straßendeckabschnitts und dessen Verbindung mit dem im Ausbau befindlichen Nordturmdeck, mussten wir sodann die noch bestehende Lücke auf der Nord- oder Landseite schließen.
 1	Nach	nach	ADP	APPR	_	3	case	_	_
 2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -379,9 +399,10 @@
 29	oder	oder	CCONJ	XY	_	30	cc	_	_
 30	Landseite	Landseite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	27	conj	_	_
 31	schließen	schließen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
-32	.	.	PUNCT	$.	_	31	punct	_	SpacesAfter=\n
+32	.	.	PUNCT	$.	_	31	punct	_	SpacesAfter=\n\n
 
-# sent_id = 15
+# newpar
+# sent_id = 17
 # text = Dies wurde durch Ziehen der nördlichen Zubringerbrücke 700 Millimeter südlich erreicht.
 1	Dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj:pass	_	_
 2	wurde	werden	AUX	ADV	_	11	aux:pass	_	_
@@ -394,9 +415,10 @@
 9	Millimeter	Millimeter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	nmod	_	_
 10	südlich	südlich	ADJ	ADJA	NumType=Card	11	advmod	_	_
 11	erreicht	erreichen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-12	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n\n
 
-# sent_id = 16
+# newpar
+# sent_id = 18
 # text = Dies war eine massive und gleichzeitig sehr heikle Tätigkeit.
 1	Dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	_
 2	war	sein	AUX	TRUNC	Case=Acc|Gender=Fem|Number=Sing	9	cop	_	_
@@ -407,9 +429,10 @@
 7	sehr	sehr	ADV	NN	Case=Acc|Gender=Fem|Number=Sing	8	advmod	_	_
 8	heikle	heikel	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	_
 9	Tätigkeit	Tätigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
 
-# sent_id = 17
+# newpar
+# sent_id = 19
 # text = Massiv, da das Viadukt 222 Meter lang ist, ca. 6.000 Tonnen wiegt und bei einer Steigung von ca. 3 % nach oben gezogen werden musste.
 1	Massiv	Massiv	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	27	dep	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	8	punct	_	_
@@ -440,9 +463,10 @@
 27	gezogen	ziehen	VERB	VVPP	VerbForm=Part	0	root	_	_
 28	werden	werden	AUX	NE	Case=Acc|Number=Plur	27	aux:pass	_	_
 29	musste	müssen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	aux	_	SpaceAfter=No
-30	.	.	PUNCT	$.	_	27	punct	_	SpacesAfter=\n
+30	.	.	PUNCT	$.	_	27	punct	_	SpacesAfter=\n\n
 
-# sent_id = 18
+# newpar
+# sent_id = 20
 # text = Heikel, da die Toleranzen, auf die das Team hinarbeitet, winzig waren - auf jeder Seite betrugen sie nur einige Millimeter.
 1	Heikel	Heikel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	19	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	14	punct	_	_
@@ -467,14 +491,15 @@
 21	nur	nur	ADV	CARD	NumType=Card	19	advmod	_	_
 22	einige	einige	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	23	det	_	_
 23	Millimeter	Millimeter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	obj	_	SpaceAfter=No
-24	.	.	PUNCT	$.	_	19	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	$.	_	19	punct	_	SpacesAfter=\n\n
 
-# sent_id = 19
+# newpar
+# sent_id = 21
 # text = Glücklicherweise verlief alles sehr gut.
 1	Glücklicherweise	Glücklicherweise	ADV	ADV	_	2	advmod	_	_
 2	verlief	verlaufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	alles	alle	PRON	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	2	nsubj	_	_
 4	sehr	sehr	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	5	advmod	_	_
 5	gut	gut	ADJ	ADJD	_	2	xcomp	_	SpaceAfter=No
-6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 

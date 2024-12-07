@@ -1,9 +1,9 @@
-# newdoc id = txt/de/dailymail.co.uk.170665.txt
+# newdoc
 # newpar
 # sent_id = 1
-# text = Das £2-pro Tag- Medikament, das Herzinfarktrisiko senken kann Tausende von Herzinfarktpatienten werden von einem £2-pro Tag-Medikament profitieren, nachdem von den Behörden empfohlen wurde, dieses mehr Leuten für einen längeren Zeitraum zu verabreichen.
+# text = Das £2-pro Tag- Medikament, das Herzinfarktrisiko senken kann
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
-2	£2-	£2-	NOUN	$(	_	23	nsubj:pass	_	SpaceAfter=No
+2	£2-	£2-	NOUN	$(	_	10	nsubj	_	SpaceAfter=No
 3	pro	pro	ADP	NN	Case=Acc|Gender=Masc|Number=Sing	6	case	_	_
 4	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	compound	_	SpaceAfter=No
 5	-	-	PUNCT	$(	_	4	punct	_	_
@@ -11,40 +11,45 @@
 7	,	,	PUNCT	$,	_	10	punct	_	_
 8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 9	Herzinfarktrisiko	Herzinfarktrisiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
-10	senken	senken	VERB	VVINF	VerbForm=Inf	2	acl	_	_
-11	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpacesAfter=\n
-12	Tausende	tausende	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	appos	_	_
-13	von	von	ADP	FM	Foreign=Yes	14	case	_	_
-14	Herzinfarktpatienten	Herzinfarktpatient	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	12	nmod	_	_
-15	werden	werden	AUX	NN	Case=Dat|Gender=Neut|Number=Sing	23	aux:pass	_	_
-16	von	von	ADP	FM	Foreign=Yes	18	case	_	_
-17	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	£2-	£2-	NOUN	$(	_	23	obl	_	SpaceAfter=No
-19	pro	pro	ADP	NN	Case=Acc|Gender=Masc|Number=Sing	22	case	_	_
-20	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	compound	_	SpaceAfter=No
-21	-	-	PUNCT	$(	_	20	punct	_	SpaceAfter=No
-22	Medikament	Medikament	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	18	nmod	_	_
-23	profitieren	profitieren	VERB	VVFIN	VerbForm=Inf	0	root	_	SpaceAfter=No
-24	,	,	PUNCT	$,	_	25	punct	_	_
-25	nachdem	nachdem	SCONJ	XY	NumType=Card	29	mark	_	_
-26	von	von	ADP	FM	Foreign=Yes	28	case	_	_
-27	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
-28	Behörden	Behörde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	29	obl	_	_
-29	empfohlen	empfehlen	VERB	VVPP	VerbForm=Part	40	advcl	_	_
-30	wurde	werden	AUX	KON	_	29	aux:pass	_	SpaceAfter=No
-31	,	,	PUNCT	$,	_	40	punct	_	_
-32	dieses	dies	PRON	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	34	det	_	_
-33	mehr	mehr	ADV	ADV	_	34	advmod	_	_
-34	Leuten	Leute	NOUN	NN	Case=Dat|Number=Plur	40	obj	_	_
-35	für	für	ADP	APPR	_	38	case	_	_
-36	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
-37	längeren	lang	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	38	amod	_	_
-38	Zeitraum	Zeitraum	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	40	obl	_	_
-39	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	40	mark	_	_
-40	verabreichen	verabreichen	VERB	ADJA	Case=Gen|Gender=Masc|Number=Sing	23	conj	_	SpaceAfter=No
-41	.	.	PUNCT	$.	_	23	punct	_	SpacesAfter=\n
+10	senken	senken	VERB	VVINF	VerbForm=Inf	0	root	_	_
+11	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 2
+# text = Tausende von Herzinfarktpatienten werden von einem £2-pro Tag-Medikament profitieren, nachdem von den Behörden empfohlen wurde, dieses mehr Leuten für einen längeren Zeitraum zu verabreichen.
+1	Tausende	Tausend	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	_
+2	von	von	ADP	FM	Foreign=Yes	3	case	_	_
+3	Herzinfarktpatienten	Herzinfarktpatient	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
+4	werden	werden	AUX	NE	Case=Acc|Number=Plur	12	aux:pass	_	_
+5	von	von	ADP	FM	Foreign=Yes	7	case	_	_
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	£2-	£2-	NOUN	$(	_	12	obl	_	SpaceAfter=No
+8	pro	pro	ADP	NN	Case=Acc|Gender=Masc|Number=Sing	11	case	_	_
+9	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+11	Medikament	Medikament	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	_
+12	profitieren	profitieren	VERB	VVFIN	VerbForm=Inf	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	18	punct	_	_
+14	nachdem	nachdem	SCONJ	XY	NumType=Card	18	mark	_	_
+15	von	von	ADP	FM	Foreign=Yes	17	case	_	_
+16	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	Behörden	Behörde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	18	obl	_	_
+18	empfohlen	empfehlen	VERB	VVPP	VerbForm=Part	12	advcl	_	_
+19	wurde	werden	AUX	KON	_	18	aux:pass	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	29	punct	_	_
+21	dieses	dies	PRON	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	23	det	_	_
+22	mehr	mehr	ADV	ADV	_	23	advmod	_	_
+23	Leuten	Leute	NOUN	NN	Case=Dat|Number=Plur	29	obj	_	_
+24	für	für	ADP	APPR	_	27	case	_	_
+25	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	längeren	lang	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	27	amod	_	_
+27	Zeitraum	Zeitraum	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	29	obl	_	_
+28	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	29	mark	_	_
+29	verabreichen	verabreichen	VERB	ADJA	Case=Gen|Gender=Masc|Number=Sing	18	xcomp	_	SpaceAfter=No
+30	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
 # text = Das gerinnungshemmende Medikament Ticagrelor reduziert das Risiko wiederholter Herzinfarkte für Personen mit einer Herzerkrankung.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 2	gerinnungshemmende	gerinnungshemmend	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
@@ -60,9 +65,10 @@
 12	mit	mit	ADP	$(	_	14	case	_	_
 13	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Herzerkrankung	Herzerkrankung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
-15	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
-# sent_id = 3
+# newpar
+# sent_id = 4
 # text = Das Medikament wird bereits 12 Monate lang nach einem Herzinfarkt verabreicht, wodurch das Risiko eines Schlaganfalls oder eines weiteren Herzinfarkts reduziert wird.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Medikament	Medikament	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj:pass	_	_
@@ -87,33 +93,9 @@
 21	Herzinfarkts	Herzinfarkt	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	17	conj	_	_
 22	reduziert	reduzieren	VERB	VVPP	VerbForm=Part	11	acl	_	_
 23	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	22	aux:pass	_	SpaceAfter=No
-24	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n\n
 
-# sent_id = 4
-# text = Die Regulierungsbehörde NICE des NHS hat eine vier Jahre lange Einnahme empfohlen, um das Risiko kardiovaskulärer Probleme weiter zu reduzieren.
-1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Regulierungsbehörde	Regulierungsbehörde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
-3	NICE	NICE	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	2	appos	_	_
-4	des	d	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
-5	NHS	NHS	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	_
-6	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
-7	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-8	vier	vier	NUM	NE	Case=Gen|Gender=Fem|Number=Sing	9	nummod	_	_
-9	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	nmod	_	_
-10	lange	lang	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	11	amod	_	_
-11	Einnahme	Einnahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
-12	empfohlen	empfehlen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-13	,	,	PUNCT	$,	_	21	punct	_	_
-14	um	um	ADP	KOUI	_	21	mark	_	_
-15	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
-16	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_
-17	kardiovaskulärer	kardiovaskulärer	ADJ	ADJA	Case=Gen|Gender=Neut|Number=Plur	18	amod	_	_
-18	Probleme	Problem	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	21	obj	_	_
-19	weiter	weiter	ADV	ADV	_	21	mark	_	_
-20	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	21	mark	_	_
-21	reduzieren	reduzieren	VERB	VVINF	VerbForm=Inf	12	advcl	_	SpaceAfter=No
-22	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
-
+# newpar
 # sent_id = 5
 # text = Die Regulierungsbehörde NICE des NHS hat eine vier Jahre lange Einnahme empfohlen, um das Risiko kardiovaskulärer Probleme weiter zu reduzieren.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
@@ -137,9 +119,36 @@
 19	weiter	weiter	ADV	ADV	_	21	mark	_	_
 20	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	21	mark	_	_
 21	reduzieren	reduzieren	VERB	VVINF	VerbForm=Inf	12	advcl	_	SpaceAfter=No
-22	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+22	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 6
+# text = Die Regulierungsbehörde NICE des NHS hat eine vier Jahre lange Einnahme empfohlen, um das Risiko kardiovaskulärer Probleme weiter zu reduzieren.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Regulierungsbehörde	Regulierungsbehörde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	NICE	NICE	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	2	appos	_	_
+4	des	d	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	NHS	NHS	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	_
+6	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+7	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+8	vier	vier	NUM	NE	Case=Gen|Gender=Fem|Number=Sing	9	nummod	_	_
+9	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	nmod	_	_
+10	lange	lang	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	11	amod	_	_
+11	Einnahme	Einnahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+12	empfohlen	empfehlen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	21	punct	_	_
+14	um	um	ADP	KOUI	_	21	mark	_	_
+15	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Risiko	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_
+17	kardiovaskulärer	kardiovaskulärer	ADJ	ADJA	Case=Gen|Gender=Neut|Number=Plur	18	amod	_	_
+18	Probleme	Problem	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	21	obj	_	_
+19	weiter	weiter	ADV	ADV	_	21	mark	_	_
+20	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	21	mark	_	_
+21	reduzieren	reduzieren	VERB	VVINF	VerbForm=Inf	12	advcl	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
 # text = Rund 140.000 Leute erleiden jedes Jahr einen Herzinfarkt und ein Viertel davon erleiden einen weiteren Herzinfarkt oder einen Schlaganfall.
 1	Rund	rund	ADJ	ADJD	_	2	dep	_	_
 2	140.000	140.000	NUM	CARD	NumType=Card	3	nummod	_	_
@@ -160,9 +169,10 @@
 17	oder	oder	CCONJ	XY	_	19	cc	_	_
 18	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	Schlaganfall	Schlaganfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
-20	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 7
+# newpar
+# sent_id = 8
 # text = Herzinfarkte und Schlaganfälle werden durch Ansammlungen fetthaltigen Materials in den Arterienwänden verursacht, die Beläge bilden.
 1	Herzinfarkte	Herzinfarkt	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	_
 2	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	3	cc	_	_
@@ -180,9 +190,10 @@
 14	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
 15	Beläge	Belag	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
 16	bilden	bilden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	SpaceAfter=No
-17	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
 
-# sent_id = 8
+# newpar
+# sent_id = 9
 # text = Wenn der Belag auseinanderbricht, kann es ein Blutgerinnsel verursachen, das den Blutfluss bis zum Herzen verstopft und dadurch einen Herzinfarkt verursacht.
 1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	_
 2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -209,9 +220,10 @@
 22	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	Herzinfarkt	Herzinfarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
 24	verursacht	verursachen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	SpaceAfter=No
-25	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
 
-# sent_id = 9
+# newpar
+# sent_id = 10
 # text = Wenn sich das Blutgerinnsel löst, kann es durch den Blutstrom fließen und den Blutfluss zum Gehirn verstopfen, was einen Schlaganfall verursacht.
 1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	_
 2	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	_
@@ -238,9 +250,10 @@
 22	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	Schlaganfall	Schlaganfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
 24	verursacht	verursachen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl	_	SpaceAfter=No
-25	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
 
-# sent_id = 10
+# newpar
+# sent_id = 11
 # text = Personen, die bereits einen Herzinfarkt hatten, unterliegen einem höheren Risiko einen weiteren zu haben.
 1	Personen	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	7	punct	_	_
@@ -258,9 +271,10 @@
 14	weiteren	weit	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
 15	zu	zu	PART	NN	Case=Acc|Gender=Fem|Number=Plur	16	mark	_	_
 16	haben	haben	VERB	VAINF	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
-17	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
 
-# sent_id = 11
+# newpar
+# sent_id = 12
 # text = Ticagrelor, das von dem britischen Unternehmen AstraZeneca hergestellt wird und unter dem Handelsnamen Brilique vertrieben wird, reduziert dieses Risiko, indem es die Bildung von Blutgerinnseln unwahrscheinlicher macht.
 1	Ticagrelor	Ticagrelor	NOUN	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	9	punct	_	_
@@ -292,9 +306,10 @@
 28	Blutgerinnseln	Blutgerinnsel	PROPN	NN	Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	_
 29	unwahrscheinlicher	unwahrscheinlich	ADJ	ADJA	Case=Gen|Gender=Neut|Number=Plur	30	xcomp	_	_
 30	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	SpaceAfter=No
-31	.	.	PUNCT	$.	_	19	punct	_	SpacesAfter=\n
+31	.	.	PUNCT	$.	_	19	punct	_	SpacesAfter=\n\n
 
-# sent_id = 12
+# newpar
+# sent_id = 13
 # text = Der Anleitungsentwurf von NICE, der heute veröffentlicht wurde, empfiehlt eine 12-monatige Einnahme von 90mg Ticagrelor, gefolgt von 60mg mit einer zweimal täglichen Einnahme von Aspirin für die nächsten drei Jahre.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Anleitungsentwurf	Anleitungsentwurf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
@@ -329,9 +344,10 @@
 31	nächsten	nah	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	33	amod	_	_
 32	drei	drei	NUM	CARD	NumType=Card	33	nummod	_	_
 33	Jahre	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	26	nmod	_	SpaceAfter=No
-34	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n
+34	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n\n
 
-# sent_id = 13
+# newpar
+# sent_id = 14
 # text = Professor Carole Longson, Direktorin des NICE Gesundheitstechnologieevaluierungszentrums sagte: "Trotz der Verfügbarkeit von Sekundärprävention haben ein Viertel aller Personen, die einen Herzinfarkt erlitten haben, einen weiteren Herzinfarkt oder einen Schlaganfall - oft mit desaströsen Folgen."
 1	Professor	Professor	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	2	dep	_	_
 2	Carole	Carole	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -373,9 +389,10 @@
 38	desaströsen	desaströs	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	39	amod	_	_
 39	Folgen	Folge	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	31	nmod	_	SpaceAfter=No
 40	.	.	PUNCT	$.	_	17	punct	_	SpaceAfter=No
-41	"	"	PUNCT	$(	_	17	punct	_	SpacesAfter=\n
+41	"	"	PUNCT	$(	_	17	punct	_	SpacesAfter=\n\n
 
-# sent_id = 14
+# newpar
+# sent_id = 15
 # text = Die Angst vor einem erneuten Herzinfarkt kann erhebliche negative Auswirkungen auf die Lebensqualität einer Person haben.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Angst	Angst	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nsubj	_	_
@@ -393,9 +410,10 @@
 14	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	Person	Person	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
 16	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-17	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n\n
 
-# sent_id = 15
+# newpar
+# sent_id = 16
 # text = Die Erfahrung zeigt, dass Ticagrelor in Kombination mit Aspirin effektiv bei der Reduzierung weiterer Herzinfarkte und Schlaganfälle bei Leuten ist, die bereits einen Herzinfarkt hatten.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Erfahrung	Erfahrung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -424,9 +442,10 @@
 25	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	Herzinfarkt	Herzinfarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	27	obj	_	_
 27	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	acl	_	SpaceAfter=No
-28	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+28	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 16
+# newpar
+# sent_id = 17
 # text = Durch eine vorläufige Empfehlung von Ticagrelor freuen wir uns, dass wir in der Lage sind, verfügbare Behandlungsoptionen an tausende von Menschen zu erweitern, die davon profitieren können.
 1	Durch	durch	ADP	APPR	_	4	case	_	_
 2	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -458,9 +477,10 @@
 28	davon	davon	ADV	PAV	_	29	advmod	_	_
 29	profitieren	profitieren	VERB	VVINF	VerbForm=Inf	7	acl	_	_
 30	können	können	AUX	VMINF	VerbForm=Inf	29	aux	_	SpaceAfter=No
-31	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+31	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
 
-# sent_id = 17
+# newpar
+# sent_id = 18
 # text = Die Information über die Wirksamkeit und Sicherheit von Ticagrelor - vor allem das Blutungsrisiko - ist auf einen Zeitraum von bis zu drei Jahren beschränkt.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Information	Information	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
@@ -489,7 +509,7 @@
 25	beschränkt	beschränken	VERB	VVFIN	VerbForm=Part	0	root	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	25	punct	_	_
 
-# sent_id = 18
+# sent_id = 19
 # text = Der Anleitungsentwurf empfiehlt keine Behandlung, die über diesen Zeitraum hinausgeht.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Anleitungsentwurf	Anleitungsentwurf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
@@ -502,5 +522,5 @@
 9	diesen	dies	PRON	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
 10	Zeitraum	Zeitraum	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
 11	hinausgeht	hinausgehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	SpaceAfter=No
-12	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 

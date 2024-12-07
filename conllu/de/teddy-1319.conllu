@@ -1,4 +1,4 @@
-# newdoc id = txt/de/teddy-1319.txt
+# newdoc
 # newpar
 # sent_id = 1
 # text = Chris Anderson: Bürgerrechte, die Zukunft des Internet.
@@ -3885,38 +3885,42 @@
 4	.	.	PUNCT	$.	_	3	punct	_	_
 
 # sent_id = 181
-# text = Eines der Probleme, eines der gefährlichen Vermächtnisse in der Ära nach dem 11. September ist die Erkenntnis, dass die NSA schon immer zwei Gesichter hatte.
-1	Eines	ein	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	19	nsubj	_	_
+# text = Eines der Probleme, eines der gefährlichen Vermächtnisse in der Ära nach dem 11.
+1	Eines	ein	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	0	root	_	_
 2	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	3	det	_	_
 3	Probleme	Problem	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	5	punct	_	_
-5	eines	ein	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	19	nsubj	_	_
+5	eines	ein	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	1	conj	_	_
 6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	8	det	_	_
 7	gefährlichen	gefährlich	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	8	amod	_	_
 8	Vermächtnisse	Vermächtnis	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
 9	in	in	ADP	APPR	_	11	case	_	_
 10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	Ära	Ära	NOUN	NE	Foreign=Yes	8	nmod	_	_
-12	nach	nach	ADP	CARD	_	16	case	_	_
-13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
-14	11	11	NUM	CARD	NumType=Card	16	nummod	_	SpaceAfter=No
-15	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n
-16	September	September	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	_
-17	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
-18	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	Erkenntnis	Erkenntnis	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-20	,	,	PUNCT	$,	_	28	punct	_	_
-21	dass	dass	SCONJ	KOUS	_	28	mark	_	_
-22	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	NSA	NSA	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_
-24	schon	schon	ADV	ADV	_	26	advmod	_	_
-25	immer	immer	ADV	ADV	_	26	advmod	_	_
-26	zwei	zwei	NUM	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	obl	_	_
-27	Gesichter	Gesicht	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	28	obj	_	_
-28	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	ccomp	_	SpaceAfter=No
-29	.	.	PUNCT	$.	_	19	punct	_	_
+11	Ära	Ära	NOUN	NE	Foreign=Yes	5	nmod	_	_
+12	nach	nach	ADP	CARD	_	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
+14	11	11	NUM	CARD	NumType=Card	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 182
+# text = September ist die Erkenntnis, dass die NSA schon immer zwei Gesichter hatte.
+1	September	September	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Erkenntnis	Erkenntnis	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	13	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	13	mark	_	_
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	NSA	NSA	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+9	schon	schon	ADV	ADV	_	11	advmod	_	_
+10	immer	immer	ADV	ADV	_	11	advmod	_	_
+11	zwei	zwei	NUM	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	nummod	_	_
+12	Gesichter	Gesicht	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	obj	_	_
+13	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 183
 # text = Sie waren verantwortlich für offensive Operationen, in denen es um Hacking ging.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 2	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
@@ -3933,7 +3937,7 @@
 13	ging	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	acl	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 183
+# sent_id = 184
 # text = Aber sie leitete auch defensive Operationen.
 1	Aber	aber	CCONJ	KON	_	3	cc	_	_
 2	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
@@ -3943,7 +3947,7 @@
 6	Operationen	Operation	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 184
+# sent_id = 185
 # text = Traditionsgemäß hat die NSA stets die Defensive der Offensive vorgezogen, ausgehend von dem Prinzip, dass amerikanische Geheimnisse schlicht wertvoller sind.
 1	Traditionsgemäß	Traditionsgemäß	NOUN	ADJD	_	10	nsubj	_	_
 2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
@@ -3969,7 +3973,7 @@
 22	sind	sein	AUX	ADJD	_	20	aux:pass	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 185
+# sent_id = 186
 # text = Wenn wir ein chinesisches Unternehmen hacken und seine Geheimnisse stehlen; wenn wir eine Regierungsbehörde in Berlin hacken und ihre Geheimnisse stehlen, dann ist das für das amerikanische Volk weniger wertvoll, als sicherzustellen, dass die Chinesen keinen Zugang zu unseren Geheimnissen haben.
 1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
 2	wir	wir	PRON	ADJD	_	6	nsubj	_	_
@@ -4018,7 +4022,7 @@
 45	haben	haben	VERB	VAINF	VerbForm=Inf	35	ccomp	_	SpaceAfter=No
 46	.	.	PUNCT	$.	_	32	punct	_	_
 
-# sent_id = 186
+# sent_id = 187
 # text = Also indem sie die Sicherheit unserer Kommunikationen schwächen, setzen sie nicht nur die Welt Risiken aus, sie gefährden auch die USA auf fundamentale Weise, weil geistiges Eigentum die Grundlage unserer Wirtschaft ist.
 1	Also	also	ADV	ADV	_	8	advmod	_	_
 2	indem	indem	SCONJ	KOUS	_	8	mark	_	_
@@ -4057,7 +4061,7 @@
 35	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	SpaceAfter=No
 36	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 187
+# sent_id = 188
 # text = Wenn wir das durch schwache Sicherheit gefährden, werden wir auf Jahre hinaus dafür zahlen.
 1	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	_
 2	wir	wir	PRON	ADJD	_	7	nsubj	_	_
@@ -4076,7 +4080,7 @@
 15	zahlen	zahlen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	15	punct	_	_
 
-# sent_id = 188
+# sent_id = 189
 # text = CA: Aber die NSA hat ich ausgerechnet, dass es diese Maßnahme als Teil der US-Verteidigung gegen Terrorismus wert ist.
 1	CA	ca	PROPN	FM	Foreign=Yes	2	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	8	punct	_	_
@@ -4103,7 +4107,7 @@
 23	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	22	cop	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 189
+# sent_id = 190
 # text = Dann ist das doch gewiss ein Preis, der sich lohnt.
 1	Dann	dann	ADV	ADV	_	7	advmod	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
@@ -4118,7 +4122,7 @@
 11	lohnt	lohnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 190
+# sent_id = 191
 # text = ES: Wenn man sich die Resultate dieser Programme beim Verhindern von Terrorismus ansieht, sieht man, dass es dafür keine Belege gibt.
 1	ES	es	PROPN	PPER	PronType=Prs	17	expl	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	15	punct	_	_
@@ -4148,7 +4152,7 @@
 25	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	17	punct	_	_
 
-# sent_id = 191
+# sent_id = 192
 # text = Sie müssen sich nicht auf mein Wort verlassen, weil wir das erste öffentliche Gerichtsverfahren haben.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
 2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
@@ -4168,7 +4172,7 @@
 16	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 192
+# sent_id = 193
 # text = Der erste Bundesgerichtshof, der sie außerhalb der Geheimhaltungsvereinbarungen untersuchte, nannte sie Orwellsche Programme und wahrscheinlich verfassungswidrig.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	erste	erst	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
@@ -4190,7 +4194,7 @@
 18	verfassungswidrig	verfassungswidrig	ADJ	ADJD	_	15	conj	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	12	punct	_	_
 
-# sent_id = 193
+# sent_id = 194
 # text = Der Kongress, der in diesen Angelegenheiten Auskunft verlangen kann und nun auch einfordern möchte, hat Gesetze vorgelegt, um es zu reformieren.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Kongress	Kongreß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
@@ -4218,7 +4222,7 @@
 24	reformieren	reformieren	VERB	VVINF	VerbForm=Inf	19	advcl	_	SpaceAfter=No
 25	.	.	PUNCT	$.	_	19	punct	_	_
 
-# sent_id = 194
+# sent_id = 195
 # text = Zwei unabhängige Ausschüsse des Weißen Hauses, die all das vertrauliche Beweismaterial geprüft haben, sagen, diese Programme haben nie auch nur einen Terroristenangriff verhindert, der in den USA bevorstand.
 1	Zwei	zwei	NUM	CARD	NumType=Card	3	nummod	_	_
 2	unabhängige	unabhängig	ADJ	NN	Case=Nom|Gender=Masc|Number=Plur	3	amod	_	_
@@ -4254,7 +4258,7 @@
 32	bevorstand	bevorstehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	acl	_	SpaceAfter=No
 33	.	.	PUNCT	$.	_	16	punct	_	_
 
-# sent_id = 195
+# sent_id = 196
 # text = Also ist es wirklich Terrorismus, den wir verhindern?
 1	Also	also	ADV	ADV	_	5	advmod	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -4267,7 +4271,7 @@
 9	verhindern	verhindern	VERB	VVINF	VerbForm=Inf	5	acl	_	SpaceAfter=No
 10	?	?	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 196
+# sent_id = 197
 # text = Haben diese Programme überhaupt einen Wert?
 1	Haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -4277,7 +4281,7 @@
 6	Wert	Wert	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
 7	?	?	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 197
+# sent_id = 198
 # text = Ich sage nein, und auch alle drei Staatsorgane der amerikanischen Regierung sagen nein.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	sage	sagen	VERB	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
@@ -4295,7 +4299,7 @@
 14	nein	nein	PART	PTKANT	_	13	mark	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 198
+# sent_id = 199
 # text = CA: Denkst du, es gibt einen tieferen Beweggrund für sie als den Krieg gegen den Terror?
 1	CA	ca	PROPN	FM	Foreign=Yes	3	amod	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	1	punct	_	_
@@ -4317,7 +4321,7 @@
 18	Terror	Terror	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
 19	?	?	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 199
+# sent_id = 200
 # text = ES: Verzeihung, ich konnte dich nicht hören.
 1	ES	es	PROPN	PPER	PronType=Prs	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	3	punct	_	_
@@ -4328,9 +4332,10 @@
 7	dich	du	PRON	PRF	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	9	obj	_	_
 8	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advmod	_	_
 9	hören	hören	VERB	VVINF	VerbForm=Inf	3	acl	_	SpaceAfter=No
-10	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
 
-# sent_id = 200
+# newpar
+# sent_id = 201
 # text = Kannst du das wiederholen?
 1	Kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
 2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
@@ -4338,14 +4343,15 @@
 4	wiederholen	wiederholen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 201
+# sent_id = 202
 # text = CA: Entschuldige.
 1	CA	ca	PROPN	FM	Foreign=Yes	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	1	punct	_	_
 3	Entschuldige	Entschuldig	ADJ	NN	Case=Nom|Number=Plur	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 202
+# newpar
+# sent_id = 203
 # text = Denkst du, es gibt einen anderen, tieferliegenden Beweggrund ES: Ja.
 1	Denkst	Denkst	PROPN	VVFIN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	du	du	PROPN	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	flat	_	SpaceAfter=No
@@ -4360,9 +4366,10 @@
 11	ES	es	PROPN	PPER	PronType=Prs	10	appos	_	SpaceAfter=No
 12	:	:	PUNCT	$.	_	13	punct	_	_
 13	Ja	ja	PROPN	PTKANT	_	11	flat	_	SpaceAfter=No
-14	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
-# sent_id = 203
+# newpar
+# sent_id = 204
 # text = Unterm Strich ist Terrorismus immer das gewesen, was wir in der Welt der Geheimdienste eine Auftragslegende nennen würden.
 1	Unterm	Unterm	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	Strich	Strich	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
@@ -4385,7 +4392,7 @@
 19	würden	werden	AUX	NN	Foreign=Yes	18	aux	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 204
+# sent_id = 205
 # text = Terrorismus ist etwas, das eine emotionale Reaktion hervorruft, die es Leuten ermöglicht, das Autorisieren von Vollmachten und Programmen zu rationalisieren, denen sie sonst nicht zustimmen würden.
 1	Terrorismus	Terrorismus	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
@@ -4419,7 +4426,7 @@
 30	würden	werden	AUX	NN	Foreign=Yes	29	aux	_	SpaceAfter=No
 31	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 205
+# sent_id = 206
 # text = Für Programme, die Bullrun oder Edgehill ähneln, bat die NSA bereits in den 1990er-Jahren um Ermächtigungen.
 1	Für	für	ADP	APPR	_	2	case	_	_
 2	Programme	Programm	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	obl	_	SpaceAfter=No
@@ -4443,7 +4450,7 @@
 20	Ermächtigungen	Ermächtigung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 206
+# sent_id = 207
 # text = Sie bat das FBI, sich beim Kongress dafür einzusetzen.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	bat	bitten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -4459,7 +4466,7 @@
 11	einzusetzen	einsetzen	VERB	VVIZU	VerbForm=Inf	4	acl	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 207
+# sent_id = 208
 # text = Und das FBI setzte sich beim Kongress dafür ein.
 1	Und	und	CCONJ	ADJD	_	4	cc	_	_
 2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
@@ -4474,7 +4481,7 @@
 10	ein	ein	ADV	PTKVZ	_	4	compound:prt	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 208
+# sent_id = 209
 # text = Aber der Kongress und das amerikanische Volk sagten nein.
 1	Aber	aber	CCONJ	KON	_	8	cc	_	_
 2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -4487,7 +4494,7 @@
 9	nein	nein	PART	PTKVZ	_	8	advmod	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 209
+# sent_id = 210
 # text = Sie sagten, es sei das Risiko für unsere Wirtschaft nicht wert.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	sagten	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -4503,7 +4510,7 @@
 12	wert	wert	ADJ	ADJD	_	2	advmod	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 210
+# sent_id = 211
 # text = Sie sagten, der Schaden für die Gesellschaft sei zu groß, um den Nutzen zu rechtfertigen.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	sagten	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -4524,88 +4531,92 @@
 17	rechtfertigen	rechtfertigen	VERB	VVINF	VerbForm=Inf	11	advcl	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 211
-# text = Aber wir haben in der Zeit nach dem 11. September gesehen, dass sie zur Geheimhaltung griffen und den Terrorismus als Rechtfertigung benutzten, um die Programme im Geheimen zu starten, ohne den Kongress zu fragen, ohne das amerikanische Volk zu fragen, und es ist diese Art von Regierung hinter verschlossenen Türen, vor der wir uns schützen müssen, weil sie unsere Sicherheit schwächt und keinen Gegenwert bietet.
+# sent_id = 212
+# text = Aber wir haben in der Zeit nach dem 11.
 1	Aber	aber	CCONJ	KON	_	3	cc	_	_
 2	wir	wir	PRON	ADJD	_	3	nsubj	_	_
 3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	in	in	ADP	APPR	_	6	case	_	_
 5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
-7	nach	nach	ADP	CARD	NumType=Card	11	case	_	_
-8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
-9	11	11	NUM	CARD	NumType=Card	11	compound	_	SpaceAfter=No
-10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
-11	September	September	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	_
-12	gesehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
-13	,	,	PUNCT	$,	_	19	punct	_	_
-14	dass	dass	SCONJ	KOUS	_	19	mark	_	_
-15	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	_
-16-17	zur	_	_	_	_	_	_	_	_
-16	zu	zu	ADP	NN	Case=Nom|Gender=Fem|Number=Plur	18	case	_	_
-17	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	Geheimhaltung	Geheimhaltung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	19	obl	_	_
-19	griffen	greifen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	ccomp	_	_
-20	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	25	cc	_	_
-21	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	Terrorismus	Terrorismus	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_
-23	als	als	ADP	KOKOM	_	24	case	_	_
-24	Rechtfertigung	Rechtfertigung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obl	_	_
-25	benutzten	benutzen	VERB	ADJA	Case=Dat|Number=Plur	19	conj	_	SpaceAfter=No
-26	,	,	PUNCT	$,	_	34	punct	_	_
-27	um	um	ADP	KOUI	_	34	mark	_	_
-28	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	Programme	Programm	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	34	obj	_	_
-30-31	im	_	_	_	_	_	_	_	_
-30	in	in	ADP	APPR	_	32	case	_	_
-31	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	Geheimen	Geheim	NOUN	ADJA	Case=Nom|Gender=Masc|Number=Plur	29	nmod	_	_
-33	zu	zu	PART	NN	Case=Nom|Gender=Masc|Number=Plur	34	mark	_	_
-34	starten	starten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	advcl	_	SpaceAfter=No
-35	,	,	PUNCT	$,	_	40	punct	_	_
-36	ohne	ohne	ADP	FM	Foreign=Yes	38	case	_	_
-37	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
-38	Kongress	Kongreß	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	40	obl	_	_
-39	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	40	mark	_	_
-40	fragen	fragen	VERB	VVINF	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
-41	,	,	PUNCT	$,	_	47	punct	_	_
-42	ohne	ohne	SCONJ	FM	Foreign=Yes	47	mark	_	_
-43	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	45	det	_	_
-44	amerikanische	amerikanisch	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	45	amod	_	_
-45	Volk	Volk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	47	nsubj	_	_
-46	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	47	mark	_	_
-47	fragen	fragen	VERB	VVINF	VerbForm=Inf	40	advcl	_	SpaceAfter=No
-48	,	,	PUNCT	$,	_	47	punct	_	_
-49	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	53	cc	_	_
-50	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	53	nsubj	_	_
-51	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	cop	_	_
-52	diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	53	det	_	_
-53	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
-54	von	von	ADP	FM	Foreign=Yes	55	case	_	_
-55	Regierung	Regierung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	53	nmod	_	_
-56	hinter	hinter	ADP	APPR	_	58	case	_	_
-57	verschlossenen	verschlossen	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	58	amod	_	_
-58	Türen	Tür	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	55	nmod	_	SpaceAfter=No
-59	,	,	PUNCT	$,	_	64	punct	_	_
-60	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	61	case	_	_
-61	der	der	PRON	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	64	obl	_	_
-62	wir	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	64	nsubj	_	_
-63	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	64	obj	_	_
-64	schützen	schützen	VERB	VVINF	VerbForm=Inf	58	acl	_	_
-65	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	64	aux	_	SpaceAfter=No
-66	,	,	PUNCT	$,	_	71	punct	_	_
-67	weil	weil	SCONJ	KOUS	_	71	mark	_	_
-68	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	71	nsubj	_	_
-69	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	70	det:poss	_	_
-70	Sicherheit	Sicherheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	71	obj	_	_
-71	schwächt	schwächen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	64	advcl	_	_
-72	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	75	cc	_	_
-73	keinen	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	74	nmod	_	_
-74	Gegenwert	Gegenwert	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	75	obj	_	_
-75	bietet	bieten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	71	conj	_	SpaceAfter=No
-76	.	.	PUNCT	$.	_	3	punct	_	_
+6	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+7	nach	nach	ADP	CARD	NumType=Card	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	11	11	NUM	CARD	NumType=Card	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 212
+# newpar
+# sent_id = 213
+# text = September gesehen, dass sie zur Geheimhaltung griffen und den Terrorismus als Rechtfertigung benutzten, um die Programme im Geheimen zu starten, ohne den Kongress zu fragen, ohne das amerikanische Volk zu fragen, und es ist diese Art von Regierung hinter verschlossenen Türen, vor der wir uns schützen müssen, weil sie unsere Sicherheit schwächt und keinen Gegenwert bietet.
+1	September	September	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	2	dep	_	_
+2	gesehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	9	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	9	mark	_	_
+5	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+6-7	zur	_	_	_	_	_	_	_	_
+6	zu	zu	ADP	NN	Case=Nom|Gender=Fem|Number=Plur	8	case	_	_
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Geheimhaltung	Geheimhaltung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+9	griffen	greifen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+10	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	15	cc	_	_
+11	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Terrorismus	Terrorismus	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+13	als	als	ADP	KOKOM	_	14	case	_	_
+14	Rechtfertigung	Rechtfertigung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	_
+15	benutzten	benutzen	VERB	ADJA	Case=Dat|Number=Plur	9	conj	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	24	punct	_	_
+17	um	um	ADP	KOUI	_	24	mark	_	_
+18	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Programme	Programm	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+20-21	im	_	_	_	_	_	_	_	_
+20	in	in	ADP	APPR	_	22	case	_	_
+21	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Geheimen	Geheim	NOUN	ADJA	Case=Nom|Gender=Masc|Number=Plur	19	nmod	_	_
+23	zu	zu	PART	NN	Case=Nom|Gender=Masc|Number=Plur	24	mark	_	_
+24	starten	starten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+25	,	,	PUNCT	$,	_	30	punct	_	_
+26	ohne	ohne	ADP	FM	Foreign=Yes	28	case	_	_
+27	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Kongress	Kongreß	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	30	obl	_	_
+29	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	30	mark	_	_
+30	fragen	fragen	VERB	VVINF	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+31	,	,	PUNCT	$,	_	37	punct	_	_
+32	ohne	ohne	SCONJ	FM	Foreign=Yes	37	mark	_	_
+33	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	35	det	_	_
+34	amerikanische	amerikanisch	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	35	amod	_	_
+35	Volk	Volk	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	37	nsubj	_	_
+36	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	37	mark	_	_
+37	fragen	fragen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+38	,	,	PUNCT	$,	_	37	punct	_	_
+39	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	43	cc	_	_
+40	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	43	nsubj	_	_
+41	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	_	_
+42	diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	43	det	_	_
+43	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
+44	von	von	ADP	FM	Foreign=Yes	45	case	_	_
+45	Regierung	Regierung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	43	nmod	_	_
+46	hinter	hinter	ADP	APPR	_	48	case	_	_
+47	verschlossenen	verschlossen	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	48	amod	_	_
+48	Türen	Tür	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	45	nmod	_	SpaceAfter=No
+49	,	,	PUNCT	$,	_	54	punct	_	_
+50	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	51	case	_	_
+51	der	der	PRON	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	obl	_	_
+52	wir	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	54	nsubj	_	_
+53	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	54	obj	_	_
+54	schützen	schützen	VERB	VVINF	VerbForm=Inf	43	acl	_	_
+55	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	54	aux	_	SpaceAfter=No
+56	,	,	PUNCT	$,	_	61	punct	_	_
+57	weil	weil	SCONJ	KOUS	_	61	mark	_	_
+58	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	61	nsubj	_	_
+59	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	60	det:poss	_	_
+60	Sicherheit	Sicherheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	61	obj	_	_
+61	schwächt	schwächen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	54	advcl	_	_
+62	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	65	cc	_	_
+63	keinen	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	64	nmod	_	_
+64	Gegenwert	Gegenwert	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	65	obj	_	_
+65	bietet	bieten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	conj	_	SpaceAfter=No
+66	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 214
 # text = CA: Kommst du einen Moment mit mir?
 1	CA	ca	PROPN	FM	Foreign=Yes	3	amod	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	1	punct	_	_
@@ -4617,7 +4628,7 @@
 8	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	nmod	_	SpaceAfter=No
 9	?	?	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 213
+# sent_id = 215
 # text = Ich habe eine etwas persönlichere Frage an dich.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4629,7 +4640,7 @@
 8	dich	du	PRON	PRF	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	6	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 214
+# sent_id = 216
 # text = Wo wir gerade von Terror sprechen:
 1	Wo	wo	ADV	PWAV	PronType=Int	6	mark	_	_
 2	wir	wir	PRON	ADJD	_	6	nsubj	_	_
@@ -4639,7 +4650,7 @@
 6	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 7	:	:	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 215
+# sent_id = 217
 # text = Die meisten Leute finden deine gegenwärtige Situation in Russland recht furchteinflößend.
 1	Die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	3	det	_	_
 2	meisten	meist	DET	NN	Case=Dat|Gender=Masc|Number=Sing	3	amod	_	_
@@ -4654,7 +4665,7 @@
 11	furchteinflößend	furchteinflößend	ADJ	ADJD	_	4	advmod	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 216
+# sent_id = 218
 # text = Du hast offensichtlich gehört, welche Behandlung Bradley Manning widerfahren ist, Chelsea Manning, wie sie jetzt heißt.
 1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 2	hast	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -4677,7 +4688,7 @@
 19	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 217
+# sent_id = 219
 # text = Ein Beitrag auf Buzzfeed schrieb, es gibt Leute in der Geheimdienstgemeinde die dich tot sehen möchten.
 1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Beitrag	Beitrag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -4698,7 +4709,7 @@
 17	möchten	mögen	AUX	CARD	NumType=Card	16	aux	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 218
+# sent_id = 220
 # text = Wie gehst du damit um?
 1	Wie	wie	ADV	ADJA	_	2	advmod	_	_
 2	gehst	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4707,7 +4718,7 @@
 5	um	um	ADP	APPR	_	2	compound:prt	_	SpaceAfter=No
 6	?	?	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 219
+# sent_id = 221
 # text = Wie gehst du mit der Angst um?
 1	Wie	wie	ADV	ADJA	_	2	advmod	_	_
 2	gehst	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4718,7 +4729,7 @@
 7	um	um	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
 8	?	?	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 220
+# sent_id = 222
 # text = ES: Es ist kein Geheimnis, dass es da draußen Regierungen gibt, die mich tot sehen möchten.
 1	ES	es	PROPN	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	6	punct	_	_
@@ -4741,7 +4752,7 @@
 19	möchten	mögen	AUX	CARD	NumType=Card	18	aux	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	0	root	_	_
 
-# sent_id = 221
+# sent_id = 223
 # text = Ich habe immer und immer wieder betont, dass ich jeden Morgen, wenn ich schlafen gehe, darüber nachdenke, was ich für das amerikanische Volk tun kann.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -4774,7 +4785,7 @@
 29	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	SpaceAfter=No
 30	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 222
+# sent_id = 224
 # text = Ich möchte meiner Regierung nicht schaden.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 2	möchte	mögen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
@@ -4784,7 +4795,7 @@
 6	schaden	schaden	VERB	NN	Case=Acc|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 223
+# sent_id = 225
 # text = Ich möchte meiner Regierung helfen, aber die Tatsache, dass sie bereit ist, die Rechtstaatlichkeit völlig zu ignorieren, dass sie bereit ist, jemanden schuldig zu erklären, ohne jemals ein Verfahren zu sehen, das sind Dinge, gegen die wir uns einsetzen müssen als Gesellschaft, und sagen: "Hey, dies ist nicht angemessen."
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 2	möchte	mögen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
@@ -4850,7 +4861,7 @@
 62	.	.	PUNCT	$.	_	5	punct	_	SpaceAfter=No
 63	"	"	PUNCT	$(	_	5	punct	_	_
 
-# sent_id = 224
+# sent_id = 226
 # text = Wir sollten Dissidenten nicht bedrohen.
 1	Wir	wir	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
@@ -4859,7 +4870,7 @@
 5	bedrohen	bedrohen	VERB	ADJA	Case=Dat|Number=Plur	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 225
+# sent_id = 227
 # text = Wir sollten Journalismus nicht kriminalisieren.
 1	Wir	wir	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
@@ -4868,7 +4879,7 @@
 5	kriminalisieren	kriminalisieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 226
+# sent_id = 228
 # text = Was auch immer ich tun kann, um das zu erreichen, tue ich gern, ungeachtet der Risiken.
 1	Was	was	PRON	FM	Foreign=Yes	5	obj	_	_
 2	auch	auch	ADV	ADV	_	3	advmod	_	_
@@ -4891,7 +4902,7 @@
 19	Risiken	Risiko	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	17	iobj	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	17	punct	_	_
 
-# sent_id = 227
+# sent_id = 229
 # text = CA: Ich möchte an dieser Stelle um Stimmen aus dem Pubikum bitten, weil ich weiß, dass es sehr unterschiedliche Reaktionen auf Edward Snowden gibt.
 1	CA	ca	PROPN	FM	Foreign=Yes	3	amod	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	1	punct	_	_
@@ -4922,7 +4933,7 @@
 27	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	SpaceAfter=No
 28	.	.	PUNCT	$.	_	13	punct	_	_
 
-# sent_id = 228
+# sent_id = 230
 # text = Angenommen Sie hätten die Wahl zwischen zwei Optionen: Sie könnten das, was er getan hat, als im Wesentlichen rücksichtslose Tat sehen, die die USA in Gefahr gebracht hat, oder Sie können es im Wesentlichen als Heldentat sehen, die den USA und und der Welt langfristig zum Vorteil gereichen wird?
 1	Angenommen	annehmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	_
@@ -4987,7 +4998,7 @@
 58	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	57	aux:pass	_	SpaceAfter=No
 59	?	?	PUNCT	$.	_	25	punct	_	_
 
-# sent_id = 229
+# sent_id = 231
 # text = Dies sind de beiden Optionen, die ich Ihnen gebe.
 1	Dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
 2	sind	sein	AUX	ADJD	_	5	cop	_	_
@@ -5001,7 +5012,7 @@
 10	gebe	geben	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 230
+# sent_id = 232
 # text = Ich bin gespannt, zu sehen, wer bereit ist, die erste Option zu wählen, dass es eine rücksichtslose Aktion war.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -5028,7 +5039,7 @@
 23	war	sein	AUX	ADV	_	22	cop	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 231
+# sent_id = 233
 # text = Da gehen ein paar Hände hoch.
 1	Da	da	ADV	ADV	_	2	advmod	_	_
 2	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5038,7 +5049,7 @@
 6	hoch	hoch	ADJ	ADJD	_	2	xcomp	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 232
+# sent_id = 234
 # text = Einige Hände gehen hoch.
 1	Einige	einige	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
 2	Hände	Händ	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
@@ -5046,7 +5057,7 @@
 4	hoch	hoch	ADJ	ADJD	_	3	xcomp	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 233
+# sent_id = 235
 # text = Es ist schwer, seine Hand zu heben, wenn der Mann direkt hier steht, aber ich sehe sie.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
@@ -5070,7 +5081,7 @@
 20	sie	sie	PRON	VVINF	VerbForm=Inf	19	obj	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 234
+# sent_id = 236
 # text = ES: Ich kann euch sehen.
 1	ES	es	PROPN	PPER	PronType=Prs	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	6	punct	_	_
@@ -5080,7 +5091,7 @@
 6	sehen	sehen	VERB	VVINF	VerbForm=Inf	1	parataxis	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 235
+# sent_id = 237
 # text = CA: Und wer wählt die zweite Option, dass dies im Grunde eine Heldentat ist?
 1	CA	ca	PROPN	FM	Foreign=Yes	2	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	5	punct	_	_
@@ -5102,7 +5113,7 @@
 17	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	SpaceAfter=No
 18	?	?	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 236
+# sent_id = 238
 # text = (Hochrufe) Ich denke, da waren viele, die ihre Hand nicht gehoben haben und die, wie ich glaube, über dieses Thema noch nachdenken, weil die Debatte um dich, wie mir scheint, nicht zwischen traditionellen politischen Lagern entbrennt.
 1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Hochrufe	Hochruf	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	dep	_	SpaceAfter=No
@@ -5151,7 +5162,7 @@
 45	entbrennt	entbrennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	conj	_	SpaceAfter=No
 46	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 237
+# sent_id = 239
 # text = Es geht nicht um links oder rechts, es geht nicht wirklich darum, ob du pro Regierung, libertär bist, oder nicht nur darum.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5181,7 +5192,7 @@
 26	darum	darum	ADV	PAV	_	21	conj	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 238
+# sent_id = 240
 # text = Ein Aspekt davon ist geradezu eine Generationenfrage.
 1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Aspekt	Aspekt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -5192,7 +5203,7 @@
 7	Generationenfrage	Generationenfrage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 239
+# sent_id = 241
 # text = Du gehörst einer Generation an, die mit dem Internet aufgewachsen ist.
 1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
 2	gehörst	gehören	VERB	ADV	_	0	root	_	_
@@ -5208,7 +5219,7 @@
 12	ist	sein	AUX	ADJD	_	11	aux:pass	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 240
+# sent_id = 242
 # text = Es scheint fast, als würde es dich zutiefst kränken, wenn du beobachtest, wie etwas getan wird, von dem du denkst, dass es dem Internet schaden wird.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5243,7 +5254,7 @@
 31	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	30	aux:pass	_	SpaceAfter=No
 32	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 241
+# sent_id = 243
 # text = Ist da etwas dran?
 1	Ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 2	da	da	ADV	ADV	_	4	advmod	_	_
@@ -5251,7 +5262,7 @@
 4	dran	dran	ADV	PAV	_	0	root	_	SpaceAfter=No
 5	?	?	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 242
+# sent_id = 244
 # text = ES: Das ist so, weißt du -- Das ist sehr wahr.
 1	ES	es	PROPN	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	5	punct	_	_
@@ -5268,7 +5279,7 @@
 13	wahr	wahr	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	7	parataxis	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 243
+# sent_id = 245
 # text = Es ist keine Frage von links oder rechts.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -5280,7 +5291,7 @@
 8	rechts	rechts	ADV	NN	Case=Acc|Gender=Neut|Number=Plur	6	conj	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 244
+# sent_id = 246
 # text = Unsere grundlegenden Freiheiten, und wenn ich "unsere" sage, meine ich nicht nur Amerikaner, ich meine Leute überall in der Welt, sind keine Frage der Partei.
 1	Unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	3	det:poss	_	_
 2	grundlegenden	grundlegend	ADJ	VVINF	VerbForm=Inf	3	amod	_	_
@@ -5315,7 +5326,7 @@
 31	Partei	Partei	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
 32	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 245
+# sent_id = 247
 # text = Es sind die Dinge, an die alle Menschen glauben, und es liegt an uns, sie zu schützen, an denen, die ein freies und offenes Internet gesehen und genossen haben.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	sind	sein	AUX	ADJD	_	4	cop	_	_
@@ -5353,7 +5364,7 @@
 34	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	SpaceAfter=No
 35	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 246
+# sent_id = 248
 # text = Es liegt an uns, diese Freiheit zu erhalten, damit die nächste Generation in ihren Genuss kommt.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5375,7 +5386,7 @@
 18	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 247
+# sent_id = 249
 # text = Wenn wir die Dinge nicht verändern, wenn wir nicht die Stirn bieten, um diese Veränderungen zu erreichen -- wir müssen das Internet schützen, nicht nur für uns, sondern für alle -- werden wir es verlieren, Das wäre ein gewaltiger Verlust, nicht nur für uns, sondern für die Welt.
 1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
 2	wir	wir	PRON	ADJD	_	6	nsubj	_	_
@@ -5434,7 +5445,7 @@
 55	Welt	Welt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	45	conj	_	SpaceAfter=No
 56	.	.	PUNCT	$.	_	25	punct	_	_
 
-# sent_id = 248
+# sent_id = 250
 # text = CA: Ich habe ähnliche Worte kürzlich vom Gründer des World-Wide-Web gehört, der, glaube ich, sogar bei uns ist: Sir Tim Berners-Lee.
 1	CA	ca	PROPN	FM	Foreign=Yes	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	1	punct	_	_
@@ -5472,7 +5483,7 @@
 33	Lee	Lee	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	29	flat	_	SpaceAfter=No
 34	.	.	PUNCT	$.	_	17	punct	_	_
 
-# sent_id = 249
+# sent_id = 251
 # text = Tim, möchtest du hochkommen und etwas sagen?
 1	Tim	Tim	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	5	punct	_	_
@@ -5484,7 +5495,7 @@
 8	sagen	sagen	VERB	VVINF	VerbForm=Inf	1	conj	_	SpaceAfter=No
 9	?	?	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 250
+# sent_id = 252
 # text = Haben wir ein Mikrofon für Tim?
 1	Haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
 2	wir	wir	PRON	ADJD	_	4	nsubj	_	_
@@ -5494,7 +5505,7 @@
 6	Tim	Tim	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
 7	?	?	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 251
+# sent_id = 253
 # text = Tim, gut dich zu sehen.
 1	Tim	Tim	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	6	punct	_	_
@@ -5502,16 +5513,17 @@
 4	dich	dich	ADJ	PRF	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	6	xcomp	_	_
 5	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	6	mark	_	_
 6	sehen	sehen	VERB	VVINF	VerbForm=Inf	1	acl	_	SpaceAfter=No
-7	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+7	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
 
-# sent_id = 252
+# newpar
+# sent_id = 254
 # text = Komm dort hoch.
 1	Komm	Komm	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	dort	dort	ADV	ADV	_	3	advmod	_	_
 3	hoch	hoch	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 253
+# sent_id = 255
 # text = Übrigens, in welchem Lager bist du?
 1	Übrigens	übrigens	ADV	ADV	_	7	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	7	punct	_	_
@@ -5522,14 +5534,14 @@
 7	du	du	ADJ	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	0	root	_	SpaceAfter=No
 8	?	?	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 254
+# sent_id = 256
 # text = Verräter oder Held?
 1	Verräter	Verräter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 2	oder	oder	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	3	cc	_	_
 3	Held	Held	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
 4	?	?	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 255
+# sent_id = 257
 # text = Ich habe eine Theorie, aber ... Tim Berners-Lee: Ich habe auf diese Frage wesentlich längere Antworten gegeben, aber "Held", wenn ich zwischen diesen beiden wählen muss.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5567,7 +5579,7 @@
 34	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	SpaceAfter=No
 35	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 256
+# sent_id = 258
 # text = CA: Und Ed, ich denke, du hast den Vorschlag gelesen, von dem Sir Tim gesprochen hat, über eine neue Magna Charta, um das Internet zurückzuerobern.
 1	CA	ca	PROPN	FM	Foreign=Yes	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	1	punct	_	_
@@ -5602,7 +5614,7 @@
 31	zurückzuerobern	zurückzuerobern	VERB	VVINF	VerbForm=Inf	25	advcl	_	SpaceAfter=No
 32	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 257
+# sent_id = 259
 # text = Ist das etwas, das Sinn macht?
 1	Ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	das	der	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
@@ -5613,14 +5625,15 @@
 7	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	SpaceAfter=No
 8	?	?	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 258
+# sent_id = 260
 # text = ES: Absolut.
 1	ES	es	PROPN	PPER	PronType=Prs	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	3	punct	_	_
 3	Absolut	absolut	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	1	appos	_	SpaceAfter=No
-4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 259
+# newpar
+# sent_id = 261
 # text = Meine Generation ... Ich bin nicht nur mit Gedanken über das Internet aufgewachsen, ich bin im Internet aufgewachsen, und obwohl ich nie erwartet hätte, die Chance zu haben, es auf eine so direkte und praktische Art und Weise zu verteidigen und es auf so ungewöhnliche Weise fast wie ein Avatar zu verkörpern.
 1	Meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	2	det:poss	_	_
 2	Generation	Generation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
@@ -5682,7 +5695,7 @@
 57	verkörpern	verkörpern	VERB	VVFIN	VerbForm=Inf	45	conj	_	SpaceAfter=No
 58	.	.	PUNCT	$.	_	13	punct	_	_
 
-# sent_id = 260
+# sent_id = 262
 # text = Es ist etwas Poetisches an der Tatsache, dass einer der Söhne des Internet dem Internet so nahe gekommen ist durch eine politische Meinungsäußerung.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -5710,7 +5723,7 @@
 24	Meinungsäußerung	Meinungsäußerung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
 25	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 261
+# sent_id = 263
 # text = Ich glaube, eine Magna Charta für das Internet ist genau, was wir brauchen.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	glaube	glauben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -5729,7 +5742,7 @@
 15	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	acl	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 262
+# sent_id = 264
 # text = Wir müssen unsere Werte festschreiben nicht nur in Worten, sondern in der Struktur des Internet.
 1	Wir	wir	PRON	ADJD	_	5	nsubj	_	_
 2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
@@ -5749,7 +5762,7 @@
 16	Internet	Internet	NOUN	VVPP	VerbForm=Part	14	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 263
+# sent_id = 265
 # text = Es ist etwas, auf das ich hoffe.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
@@ -5761,7 +5774,7 @@
 8	hoffe	hoffen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 264
+# sent_id = 266
 # text = Ich lade jeden im Publikum, nicht nur hier in Vancouver, sondern in der ganzen Welt ein, sich anzuschließen und mitzumachen.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	lade	lade	VERB	NE	Foreign=Yes	0	root	_	_
@@ -5790,7 +5803,7 @@
 24	mitzumachen	mitzumachen	VERB	ADJA	Case=Acc|Gender=Masc|Number=Sing	22	conj	_	SpaceAfter=No
 25	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 265
+# sent_id = 267
 # text = CA: Hast du eine Frage an Ed? TBL: Zwei Fragen: eine allgemeine Frage ... CA: Ed, kannst du uns noch hören?
 1	CA	ca	PROPN	FM	Foreign=Yes	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	1	punct	_	_
@@ -5821,7 +5834,7 @@
 27	hören	hören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
 28	?	?	PUNCT	$.	_	27	punct	_	_
 
-# sent_id = 266
+# sent_id = 268
 # text = ES: Ja, ich kann dich hören.
 1	ES	es	PROPN	PPER	PronType=Prs	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	3	punct	_	_
@@ -5833,7 +5846,7 @@
 8	hören	hören	VERB	VVINF	VerbForm=Inf	1	parataxis	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 267
+# sent_id = 269
 # text = CA: Er ist wieder da.
 1	CA	ca	PROPN	ADV	_	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	1	punct	_	_
@@ -5843,7 +5856,7 @@
 6	da	da	ADV	PTKVZ	_	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 268
+# sent_id = 270
 # text = TBL: Die Wanze an deiner Leitung hatte für einen Moment Schluckauf.
 1	TBL	TBL	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	4	punct	_	_
@@ -5859,7 +5872,7 @@
 12	Schluckauf	Schluckauf	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 269
+# sent_id = 271
 # text = (Lachen) ES: Es ist ein kleines NSA-Problem.
 1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Lachen	Lach	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -5875,7 +5888,7 @@
 12	Problem	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	flat	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 270
+# sent_id = 272
 # text = TBL: Wenn wir von den 25 Jahren einen Schritt zurücktreten und nachdenken, was denkst du, wäre das Beste, was wir erreichen könnten, aus all den Diskussionen, die wir über das Netz führen, das wir haben wollen?
 1	TBL	TBL	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	11	punct	_	_
@@ -5922,7 +5935,7 @@
 43	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	SpaceAfter=No
 44	?	?	PUNCT	$.	_	11	punct	_	_
 
-# sent_id = 271
+# sent_id = 273
 # text = ES: Wenn wir darüber nachdenken, was wir erreichen können, dann, denke ich, wird das nur begrenzt durch das, was wir bereit sind, hineinzustecken Ich denke, das Internet, in dessen Genuss wir in der Vergangenheit gekommen sind, ist genau das, was wir -- nicht nur als Nation, sondern als ein Volk in aller Welt -- brauchen und das wir verteidigen müssen, indem wir kooperieren, indem wir nicht nur die technologischen Gesellschaftsanteile einbeziehen, sondern, wie du sagtest, die Nutzer, die Leute in aller Welt, die beitragen durch das Internet, durch soziale Medien, die nur nach dem Wetter sehen, die darauf als alltäglichen Teil ihres Lebens angewiesen sind.
 1	ES	es	PROPN	PPER	PronType=Prs	15	expl	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	6	punct	_	_
@@ -6053,7 +6066,7 @@
 127	sind	sein	AUX	ADJD	_	126	cop	_	SpaceAfter=No
 128	.	.	PUNCT	$.	_	19	punct	_	_
 
-# sent_id = 272
+# sent_id = 274
 # text = Wir erhalten nicht nur das Internet, das wir hatten, sondern ein besseres Internet, ein besseres Jetzt, etwas, das wir nutzen können, um eine Zukunft aufzubauen, die nicht nur besser sein wird, als wir erhoffen, sondern besser, als wir uns vorstellen können.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	erhalten	erhalten	VERB	VVINF	VerbForm=Inf	0	root	_	_
@@ -6108,7 +6121,7 @@
 51	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	50	aux	_	SpaceAfter=No
 52	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 273
+# sent_id = 275
 # text = CA: Vor 30 Jahren wurde TED gegründet, 1984.
 1	CA	ca	PROPN	FM	Foreign=Yes	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	1	punct	_	_
@@ -6122,7 +6135,7 @@
 10	1984	1984	NUM	CARD	NumType=Card	8	conj	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 274
+# sent_id = 276
 # text = Viele Gespräche habe sich seither darum gedreht, dass George Orwell sich getäuscht hat.
 1	Viele	viel	PRON	NE	Case=Nom|Gender=Neut|Number=Sing	2	det	_	_
 2	Gespräche	Gespräch	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
@@ -6140,7 +6153,7 @@
 14	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 275
+# sent_id = 277
 # text = Es ist nicht der Große Bruder, der uns überwacht.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -6154,7 +6167,7 @@
 10	überwacht	überwachen	VERB	NN	Case=Gen|Gender=Fem|Number=Sing	6	acl	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 276
+# sent_id = 278
 # text = Wir, kraft der Macht des Netzes und der Transparenz, überwachen nun den Großen Bruder.
 1	Wir	wir	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	3	punct	_	_
@@ -6174,7 +6187,7 @@
 16	Bruder	Bruder	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 277
+# sent_id = 279
 # text = Deine Enthüllungen haben einen Holzpflock durch das Herz dieser recht optimistischen Sicht getrieben, aber du glaubst dennoch, dass es einen Weg gibt, etwas dagegen zu tun.
 1	Deine	Dein	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Plur|Poss=Yes	2	det:poss	_	_
 2	Enthüllungen	Enthüllung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
@@ -6207,7 +6220,7 @@
 29	tun	tun	VERB	VVINF	VerbForm=Inf	24	acl	_	SpaceAfter=No
 30	.	.	PUNCT	$.	_	13	punct	_	_
 
-# sent_id = 278
+# sent_id = 280
 # text = Und das tust du auch.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
@@ -6216,14 +6229,15 @@
 5	auch	auch	ADV	ADV	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 279
+# sent_id = 281
 # text = ES: Richtig.
 1	ES	es	PROPN	PPER	PronType=Prs	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	3	punct	_	_
 3	Richtig	richtig	PROPN	ADJD	_	1	appos	_	SpaceAfter=No
-4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 280
+# newpar
+# sent_id = 282
 # text = Man kann argumentieren, dass die Möglichkeiten des Großen Bruders gewaltig zugenommen haben.
 1	Man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	3	nsubj	_	_
 2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -6240,7 +6254,7 @@
 13	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 281
+# sent_id = 283
 # text = Es gab kürzlich einen juristischen Aufsatz in Yale, der das sogenannte Bankston-Soltani-Prinzip formulierte.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -6262,7 +6276,7 @@
 18	formulierte	formulieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 282
+# sent_id = 284
 # text = Es besagt, dass unser Anspruch auf Privatsphäre verletzt wird, wenn die Technologien staatlicher Überwachung um einen Faktor zehn billiger geworden sind.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	besagt	besagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -6289,7 +6303,7 @@
 23	sind	sein	AUX	ADJD	_	22	aux	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 283
+# sent_id = 285
 # text = Jedes Mal, wenn das passiert, müssen wir uns aufs Neue mit unserem Recht auf Datenschutz beschäftigen und es anpassen.
 1	Jedes	jed	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	2	det	_	_
 2	Mal	Mal	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
@@ -6316,7 +6330,7 @@
 22	anpassen	anpassen	VERB	VVINF	VerbForm=Inf	19	conj	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	19	punct	_	_
 
-# sent_id = 284
+# sent_id = 286
 # text = Nun ist das nicht mehr geschehen, seit die Überwachungstechnologien der Regierung um ein Vielfaches des Faktors zehn zugenommen haben, und deshalb stecken wir in den heutigen Schwierigkeiten.
 1	Nun	nun	ADV	ADV	_	6	advmod	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -6349,7 +6363,7 @@
 29	Schwierigkeiten	Schwierigkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	24	obl	_	SpaceAfter=No
 30	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 285
+# sent_id = 287
 # text = Aber es gibt immer noch Hoffnung, weil auch die Macht des Einzelnen durch Technologie zugenommen hat.
 1	Aber	aber	CCONJ	KON	_	3	cc	_	_
 2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -6370,7 +6384,7 @@
 17	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 286
+# sent_id = 288
 # text = Ich bin der lebende Beweis, dass ein Einzelner den mächtigsten Gegnern die Stirn bieten kann, den mächtigsten Nachrichtendiensten der Welt, und gewinnen kann.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -6400,7 +6414,7 @@
 26	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 287
+# sent_id = 289
 # text = Das ist etwas, das wir brauchen, um daraus Hoffnung zu schöpfen und darauf aufzubauen, um es nicht nur technischen Fachleuten zugänglich zu machen, sondern einfachen Bürgern in aller Welt.
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
@@ -6437,7 +6451,7 @@
 33	Welt	Welt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
 34	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 288
+# sent_id = 290
 # text = Journalismus ist kein Verbrechen.
 1	Journalismus	Journalismus	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -6445,7 +6459,7 @@
 4	Verbrechen	Verbrechen	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 289
+# sent_id = 291
 # text = Kommunikation ist kein Verbrechen, und wir sollten bei unseren Aktivitäten im Alltag nicht überwacht werden.
 1	Kommunikation	Kommunikation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -6467,12 +6481,13 @@
 17	werden	werden	AUX	NN	Case=Dat|Gender=Fem|Number=Sing	16	aux:pass	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 290
+# sent_id = 292
 # text = CA.
 1	CA	ca	PROPN	FM	Foreign=Yes	0	root	_	SpaceAfter=No
-2	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+2	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
 
-# sent_id = 291
+# newpar
+# sent_id = 293
 # text = Ich bin mit nicht sicher, wie man einem Bot die Hand schüttelt, aber ich schätze, das hier ist die Hand.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6499,7 +6514,7 @@
 23	Hand	Hand	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 292
+# sent_id = 294
 # text = TBL: Auch die kommt sehr bald.
 1	TBL	TBL	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	1	punct	_	_
@@ -6510,7 +6525,7 @@
 7	bald	bald	ADV	ADV	_	5	advmod	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 293
+# sent_id = 295
 # text = ES: Es freut mich, Sie kennenzulernen.
 1	ES	es	PROPN	PPER	PronType=Prs	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	4	punct	_	_
@@ -6522,7 +6537,7 @@
 8	kennenzulernen	kennenlernen	VERB	VVIZU	VerbForm=Inf	4	acl	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 294
+# sent_id = 296
 # text = Ich hoffe, meine Übertragung sieht so gut aus wie mein Bild von euch zwei.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	hoffe	hoffen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -6541,7 +6556,7 @@
 15	zwei	zwei	NUM	VVINF	VerbForm=Inf	12	appos	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 295
+# sent_id = 297
 # text = CA: Danke, Tim.
 1	CA	ca	PROPN	FM	Foreign=Yes	3	amod	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	1	punct	_	_
@@ -6550,7 +6565,7 @@
 5	Tim	Tim	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 296
+# sent_id = 298
 # text = Die New York Times forderte kürzlich eine Amnestie für dich.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	New	New	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -6564,7 +6579,7 @@
 10	dich	du	PRON	PRF	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	8	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 297
+# sent_id = 299
 # text = Würdest du die Chance, nach Amerika zurückzukommen, begrüßen?
 1	Würdest	Würdest	ADV	ADV	_	2	advmod	_	_
 2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
@@ -6578,14 +6593,15 @@
 10	begrüßen	begrüßen	VERB	VVINF	VerbForm=Inf	8	conj	_	SpaceAfter=No
 11	?	?	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 298
+# sent_id = 300
 # text = ES: Absolut.
 1	ES	es	PROPN	PPER	PronType=Prs	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	3	punct	_	_
 3	Absolut	absolut	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	1	appos	_	SpaceAfter=No
-4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 299
+# newpar
+# sent_id = 301
 # text = Das steht außer Frage.
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	steht	stehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6593,7 +6609,7 @@
 4	Frage	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 300
+# sent_id = 302
 # text = Die Prinzipien, die die Grundlage dieses Projektes bilden, sind das öffentliche Interesse und die Prinzipen, die den etablierten journalistischen Organen in den USA und rund um die Welt zugrundeliegen, und ich denke, wenn die Presse sagt, wir unterstützen das, das ist etwas, das passieren muss, dann ist das ein kräftiges Argument, aber es ist nicht das letzte Argument.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	_
 2	Prinzipien	Prinzip	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	SpaceAfter=No
@@ -6665,7 +6681,7 @@
 68	Argument	Argument	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	64	nsubj	_	SpaceAfter=No
 69	.	.	PUNCT	$.	_	14	punct	_	_
 
-# sent_id = 301
+# sent_id = 303
 # text = Ich denke, das ist etwas, das die Öffentlichkeit entscheiden sollte.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	denke	denken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -6681,7 +6697,7 @@
 12	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 302
+# sent_id = 304
 # text = Aber zur gleichen Zeit hat die Regierung angedeutet, dass sie eine Art Handel wünscht, dass sie möchte, dass ich die Journalisten, die mit mir gearbeitet haben, kompromittiere, damit ich zurückkommen kann.
 1	Aber	aber	CCONJ	KON	_	9	cc	_	_
 2-3	zur	_	_	_	_	_	_	_	_
@@ -6724,7 +6740,7 @@
 38	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	SpaceAfter=No
 39	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 303
+# sent_id = 305
 # text = Ich möchte sehr deutlich machen, dass ich das nicht für meine Sicherheit getan habe.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 2	möchte	mögen	AUX	ADJA	Case=Acc|Gender=Fem|Number=Sing	5	aux	_	_
@@ -6743,7 +6759,7 @@
 15	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 304
+# sent_id = 306
 # text = Ich habe das getan, um das Richtige zu tun, und ich werde meine Arbeit für das öffentliche Interesse nicht zu meinem eigenen Vorteil aufgeben.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -6773,7 +6789,7 @@
 26	aufgeben	aufgeben	VERB	VVPP	VerbForm=Part	4	conj	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 305
+# sent_id = 307
 # text = CA: In der Zwischenzeit, dank des Internets und dieser Technologie, bist du wieder zurück in Nordamerika, nicht ganz die USA, aber in Kanada in dieser Form.
 1	CA	ca	PROPN	FM	Foreign=Yes	3	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	1	punct	_	_
@@ -6808,7 +6824,7 @@
 31	Form	Form	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
 32	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 306
+# sent_id = 308
 # text = Ich bin neugierig, wie fühlt sich das an?
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
@@ -6821,7 +6837,7 @@
 9	an	an	ADP	PTKVZ	_	6	compound:prt	_	SpaceAfter=No
 10	?	?	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 307
+# sent_id = 309
 # text = ES: Kanada ist anders, als ich es erwartet hatte.
 1	ES	es	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	3	punct	_	_
@@ -6836,7 +6852,7 @@
 11	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 308
+# sent_id = 310
 # text = Es ist viel wärmer.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -6844,7 +6860,7 @@
 4	wärmer	wärmer	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 309
+# sent_id = 311
 # text = CA: Die Mission von TED sind "Ideen mit Verbreitungswert".
 1	CA	ca	PROPN	FM	Foreign=Yes	4	amod	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	1	punct	_	_
@@ -6860,7 +6876,7 @@
 12	"	"	PUNCT	$(	_	11	punct	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 310
+# sent_id = 312
 # text = Wenn du es in einer einzigen Idee zusammenfassen könntest, Was ist deine Idee, die es wert ist, hier und jetzt verbreitet zu werden?
 1	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	_
 2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
@@ -6890,7 +6906,7 @@
 26	werden	werden	VERB	NE	Case=Acc|Number=Plur	18	conj	_	SpaceAfter=No
 27	?	?	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 311
+# sent_id = 313
 # text = ES: Ich würde sagen, dass das letzte Jahr uns daran erinnert hat, dass Demokratie hinter verschlossenen Türen sterben kann, aber wir als Individuen werden hinter denselben verschlossenen Türen geboren, und wir müssen unsere Privatspäre nicht aufgeben, um eine gute Regierung zu haben.
 1	ES	es	PROPN	PPER	PronType=Prs	5	expl	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	5	punct	_	_
@@ -6942,7 +6958,7 @@
 48	haben	haben	VERB	VAINF	VerbForm=Inf	41	advcl	_	SpaceAfter=No
 49	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 312
+# sent_id = 314
 # text = Wir müssen unsere Freiheit nicht aufgeben, um Sicherheit zu haben.
 1	Wir	wir	PRON	ADJD	_	6	nsubj	_	_
 2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -6957,7 +6973,7 @@
 11	haben	haben	VERB	VAINF	VerbForm=Inf	6	advcl	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 313
+# sent_id = 315
 # text = Und ich denke, indem wir zusammenarbeiten, können wir eine offene Regierung haben und Privatsphäre.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -6977,7 +6993,7 @@
 16	Privatsphäre	Privatsphäre	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 314
+# sent_id = 316
 # text = Ich freue mich darauf, mit jedem in der Welt zusammenzuarbeiten, um das durchzusetzen.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	freue	freuen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6996,7 +7012,7 @@
 15	durchzusetzen	durchsetzen	VERB	VVIZU	VerbForm=Inf	11	advcl	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 315
+# sent_id = 317
 # text = Ich danke euch sehr.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	danke	danken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7004,12 +7020,12 @@
 4	sehr	sehr	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	2	advmod	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 316
+# sent_id = 318
 # text = CA: Ed, danke!
 1	CA	ca	PROPN	FM	Foreign=Yes	5	nsubj	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	1	punct	_	_
 3	Ed	Ed	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
 4	,	,	PUNCT	$,	_	1	punct	_	_
 5	danke	danken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-6	!	!	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\n
+6	!	!	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\n\n
 

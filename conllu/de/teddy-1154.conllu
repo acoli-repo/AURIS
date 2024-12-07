@@ -1,4 +1,4 @@
-# newdoc id = txt/de/teddy-1154.txt
+# newdoc
 # newpar
 # sent_id = 1
 # text = Ich würde Ihnen gerne etwas erzählen, was mir vor ein paar Monaten beim Schreiben eines Artikels für Italian Wired aufgefallen ist.
@@ -623,7 +623,7 @@
 10	?	?	PUNCT	$.	_	4	punct	_	_
 
 # sent_id = 25
-# text = Ein Mensch, der für mich Türen geöffnet hat, war mein Kinderarzt am A.I. Dupont Institut in Wilmington in Delaware.
+# text = Ein Mensch, der für mich Türen geöffnet hat, war mein Kinderarzt am A.I.
 1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Mensch	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	9	punct	_	_
@@ -640,24 +640,32 @@
 14-15	am	_	_	_	_	_	_	_	_
 14	an	an	ADP	APPR	_	16	case	_	_
 15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	A.I.	A.I.	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	SpacesAfter=\n
-17	Dupont	Dupont	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	16	flat	_	_
-18	Institut	Institut	PROPN	NE	Foreign=Yes	16	flat	_	_
-19	in	in	ADP	APPR	_	20	case	_	_
-20	Wilmington	Wilmington	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	16	nmod	_	_
-21	in	in	ADP	APPR	_	22	case	_	_
-22	Delaware	Delaware	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No
-23	.	.	PUNCT	$.	_	13	punct	_	_
+16	A.I.	A.I.	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 26
-# text = Er heißt Dr. Pizzutillo.
-1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
-2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	Dr.	Dr.	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	SpacesAfter=\n
-4	Pizzutillo	Pizzutillo	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	2	punct	_	_
+# text = Dupont Institut in Wilmington in Delaware.
+1	Dupont	Dupont	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Institut	Institut	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+3	in	in	ADP	APPR	_	4	case	_	_
+4	Wilmington	Wilmington	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Delaware	Delaware	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	1	punct	_	_
 
 # sent_id = 27
+# text = Er heißt Dr.
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	heißt	heißen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Dr.	Dr.	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	compound	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 28
+# text = Pizzutillo.
+1	Pizzutillo	Pizzutillo	NOUN	ITJ	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 29
 # text = Ein Italo-Amerikaner, dessen Name, wie Sie sich denken können, die meisten Amerikaner nicht korrekt aussprechen konnten.
 1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 2	Italo	Italo	NOUN	NE	Case=Acc|Gender=Neut|Number=Sing	4	compound	_	SpaceAfter=No
@@ -682,40 +690,48 @@
 21	konnten	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 28
-# text = Also wurde er immer Dr. P. genannt.
-1	Also	also	ADV	ADV	_	2	advmod	_	_
-2	wurde	werden	AUX	ADV	_	7	aux:pass	_	_
-3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
-4	immer	immer	ADV	ADV	_	7	advmod	_	_
-5	Dr.	Dr.	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	7	xcomp	_	SpacesAfter=\n
-6	P.	P.	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	_
-7	genannt	nennen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	$.	_	7	punct	_	_
-
-# sent_id = 29
-# text = Und Dr. P. trug immer sehr bunte Fliegen und war für die Arbeit mit Kindern einfach wie geschaffen.
-1	Und	und	CCONJ	ADJD	_	4	cc	_	_
-2	Dr.	Dr.	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	SpacesAfter=\n
-3	P.	P.	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
-4	trug	tragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-5	immer	immer	ADV	ADV	_	4	advmod	_	_
-6	sehr	sehr	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	7	advmod	_	_
-7	bunte	bunt	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	8	amod	_	_
-8	Fliegen	fliegen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	obj	_	_
-9	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	18	cc	_	_
-10	war	sein	AUX	ADV	_	18	aux:pass	_	_
-11	für	für	ADP	APPR	_	13	case	_	_
-12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
-14	mit	mit	ADP	CARD	NumType=Card	15	case	_	_
-15	Kindern	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	13	nmod	_	_
-16	einfach	einfach	ADJ	ADV	_	18	advmod	_	_
-17	wie	wie	PART	NN	Case=Nom|Gender=Neut|Number=Sing	18	mark	_	_
-18	geschaffen	schaffen	VERB	VVPP	VerbForm=Part	4	conj	_	SpaceAfter=No
-19	.	.	PUNCT	$.	_	4	punct	_	_
-
 # sent_id = 30
+# text = Also wurde er immer Dr.
+1	Also	also	ADV	ADV	_	2	advmod	_	_
+2	wurde	werden	VERB	ADV	_	0	root	_	_
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	immer	immer	ADV	ADV	_	2	advmod	_	_
+5	Dr.	Dr.	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	xcomp	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 31
+# text = P. genannt.
+1	P.	P.	PROPN	ADV	_	2	xcomp	_	_
+2	genannt	nennen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 32
+# text = Und Dr.
+1	Und	und	CCONJ	ADJD	_	2	cc	_	_
+2	Dr.	Dr.	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 33
+# text = P. trug immer sehr bunte Fliegen und war für die Arbeit mit Kindern einfach wie geschaffen.
+1	P.	P.	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	trug	tragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	immer	immer	ADV	ADV	_	2	advmod	_	_
+4	sehr	sehr	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	5	advmod	_	_
+5	bunte	bunt	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	6	amod	_	_
+6	Fliegen	fliegen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	obj	_	_
+7	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	16	cc	_	_
+8	war	sein	AUX	ADV	_	16	aux:pass	_	_
+9	für	für	ADP	APPR	_	11	case	_	_
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+12	mit	mit	ADP	CARD	NumType=Card	13	case	_	_
+13	Kindern	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	11	nmod	_	_
+14	einfach	einfach	ADJ	ADV	_	16	advmod	_	_
+15	wie	wie	PART	NN	Case=Nom|Gender=Neut|Number=Sing	16	mark	_	_
+16	geschaffen	schaffen	VERB	VVPP	VerbForm=Part	2	conj	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 34
 # text = Ich fand die Zeit, die ich in diesem Krankenhaus verbracht habe, einfach toll – bis auf meine Physiotherapie.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	fand	finden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -739,7 +755,7 @@
 20	Physiotherapie	Physiotherapie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 31
+# sent_id = 35
 # text = Ich musste einzelne Übungen scheinbar unendlich oft wiederholen mit diesen dicken, elastischen Bändern -- in verschiedenen Farben -- das kennen Sie, um meine Bein-Muskeln aufzubauen.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 2	musste	müssen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
@@ -772,7 +788,7 @@
 29	aufzubauen	aufbauen	VERB	VVIZU	VerbForm=Inf	8	advcl	_	SpaceAfter=No
 30	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 32
+# sent_id = 36
 # text = Und ich habe diese Bänder mehr gehasst als alles andere.
 1	Und	und	CCONJ	ADJD	_	7	cc	_	_
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
@@ -786,23 +802,25 @@
 10	andere	ander	ADJ	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	7	amod	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 33
+# sent_id = 37
 # text = Ich hab sie gehasst.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	hab	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
 4	gehasst	hassen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 34
+# newpar
+# sent_id = 38
 # text = Ich habe sie verflucht.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	4	obj	_	_
 4	verflucht	verfluchen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 35
+# newpar
+# sent_id = 39
 # text = Ich hab sie gehasst.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	hab	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -810,8 +828,8 @@
 4	gehasst	hassen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 36
-# text = Und stellen Sie sich vor, ich hab sogar schon als fünfjähriges Kind mit Dr. P. verhandelt und so versucht, diese Übungen zu stoppen, natürllich ohne Erfolg.
+# sent_id = 40
+# text = Und stellen Sie sich vor, ich hab sogar schon als fünfjähriges Kind mit Dr.
 1	Und	und	CCONJ	ADJD	_	2	cc	_	_
 2	stellen	stellen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
@@ -819,31 +837,35 @@
 5	vor	vor	ADP	NE	Case=Acc|Gender=Fem|Number=Sing	2	compound:prt	_	SpaceAfter=No
 6	,	,	PUNCT	$,	_	8	punct	_	_
 7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
-8	hab	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	hab	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 9	sogar	sogar	ADV	ADV	_	8	advmod	_	_
 10	schon	schon	ADV	ADV	_	8	advmod	_	_
 11	als	als	ADP	KOKOM	_	13	case	_	_
 12	fünfjähriges	fünfjährig	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	13	amod	_	_
 13	Kind	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	obl	_	_
-14	mit	mit	ADP	$(	_	17	mark	_	_
-15	Dr.	Dr.	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	17	compound	_	SpacesAfter=\n
-16	P.	P.	PROPN	NE	Case=Dat|Number=Sing	15	flat	_	_
-17	verhandelt	verhandeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	obl	_	_
-18	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	20	cc	_	_
-19	so	so	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	20	advmod	_	_
-20	versucht	versuchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
-21	,	,	PUNCT	$,	_	25	punct	_	_
-22	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	23	det	_	_
-23	Übungen	Übung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	25	obj	_	_
-24	zu	zu	PART	NN	Case=Acc|Gender=Fem|Number=Plur	25	mark	_	_
-25	stoppen	stoppen	VERB	VVINF	VerbForm=Inf	20	xcomp	_	SpaceAfter=No
-26	,	,	PUNCT	$,	_	27	punct	_	_
-27	natürllich	natürllich	ADJ	ADJD	_	20	conj	_	_
-28	ohne	ohne	ADP	NN	Case=Acc|Gender=Masc|Number=Sing	29	case	_	_
-29	Erfolg	Erfolg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
-30	.	.	PUNCT	$.	_	2	punct	_	_
+14	mit	mit	ADP	$(	_	15	case	_	_
+15	Dr.	Dr.	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpacesAfter=\n\n
 
-# sent_id = 37
+# newpar
+# sent_id = 41
+# text = P. verhandelt und so versucht, diese Übungen zu stoppen, natürllich ohne Erfolg.
+1	P.	P.	PROPN	ADV	_	2	nsubj	_	_
+2	verhandelt	verhandeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	5	cc	_	_
+4	so	so	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	5	advmod	_	_
+5	versucht	versuchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	10	punct	_	_
+7	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	8	det	_	_
+8	Übungen	Übung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+9	zu	zu	PART	NN	Case=Acc|Gender=Fem|Number=Plur	10	mark	_	_
+10	stoppen	stoppen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	12	punct	_	_
+12	natürllich	natürllich	ADJ	ADJD	_	2	conj	_	_
+13	ohne	ohne	ADP	NN	Case=Acc|Gender=Masc|Number=Sing	14	case	_	_
+14	Erfolg	Erfolg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 42
 # text = Und eines Tages hat er mich bei einer meiner Übungen beobachtet -- diese Übungen waren einfach ermüdend und gnadenlos -- und er sagte zu mir, "Wow, Aimee, Du bist so ein starkes, kraftvolles und junges Mädchen, Du wirst eines Tages eines dieser Bänder zerreißen.
 1	Und	und	CCONJ	NN	Case=Nom|Gender=Masc|Number=Sing	3	cc	_	_
 2	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -897,7 +919,7 @@
 50	zerreißen	zerreißen	ADV	VVINF	VerbForm=Inf	44	xcomp	_	SpaceAfter=No
 51	.	.	PUNCT	$.	_	11	punct	_	_
 
-# sent_id = 38
+# sent_id = 43
 # text = Und wenn Du es schaffst, gebe ich Dir Hundert Dollar."
 1	Und	und	CCONJ	ADJD	_	5	cc	_	_
 2	wenn	wenn	SCONJ	VVFIN	_	5	mark	_	_
@@ -913,52 +935,56 @@
 12	.	.	PUNCT	$.	_	7	punct	_	SpaceAfter=No
 13	"	"	PUNCT	$(	_	7	punct	_	_
 
-# sent_id = 39
-# text = Das war natürlich nur ein einfacher Trick von Dr. P., damit ich die Übungen mache, die ich nicht machen wollte, mit der Aussicht, dass reichste fünfjährige Mädchen in der Krankenstation im zweiten Stock zu werden.
+# sent_id = 44
+# text = Das war natürlich nur ein einfacher Trick von Dr.
 1	Das	der	PRON	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	nsubj	_	_
 2	war	sein	AUX	ADV	_	7	cop	_	_
 3	natürlich	natürlich	ADV	ADV	_	7	advmod	_	_
-4	nur	nur	ADV	CARD	_	7	advmod	_	_
+4	nur	nur	ADV	CARD	NumType=Card	7	advmod	_	_
 5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	einfacher	einfach	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
 7	Trick	Trick	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 8	von	von	ADP	FM	Foreign=Yes	9	case	_	_
-9	Dr.	Dr.	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	SpacesAfter=\n
-10	P.	P.	PROPN	NE	Case=Dat|Number=Sing	9	flat	_	SpaceAfter=No
-11	,	,	PUNCT	$,	_	15	punct	_	_
-12	damit	damit	SCONJ	KOUS	_	15	mark	_	_
-13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
-14	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
-15	Übungen	Übung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	conj	_	_
-16	mache	mach	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	15	appos	_	SpaceAfter=No
-17	,	,	PUNCT	$,	_	21	punct	_	_
-18	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	21	obj	_	_
-19	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
-20	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advmod	_	_
-21	machen	machen	VERB	VVINF	VerbForm=Inf	16	acl	_	_
-22	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux	_	SpaceAfter=No
-23	,	,	PUNCT	$,	_	16	punct	_	_
-24	mit	mit	ADP	$,	NumType=Card	26	case	_	_
-25	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	Aussicht	Aussicht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
-27	,	,	PUNCT	$,	_	40	punct	_	_
-28	dass	dass	SCONJ	KOUS	_	40	mark	_	_
-29	reichste	reich	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	31	amod	_	_
-30	fünfjährige	fünfjährig	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	31	amod	_	_
-31	Mädchen	Mädchen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	40	nsubj	_	_
-32	in	in	ADP	APPR	_	34	case	_	_
-33	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
-34	Krankenstation	Krankenstation	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	31	nmod	_	_
-35-36	im	_	_	_	_	_	_	_	_
-35	in	in	ADP	APPR	_	38	case	_	_
-36	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
-37	zweiten	zweit	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	38	amod	_	_
-38	Stock	Stock	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	34	nmod	_	_
-39	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	40	mark	_	_
-40	werden	werden	VERB	NE	Case=Gen|Gender=Masc|Number=Plur	26	acl	_	SpaceAfter=No
-41	.	.	PUNCT	$.	_	7	punct	_	_
+9	Dr.	Dr.	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	SpacesAfter=\n\n
 
-# sent_id = 40
+# newpar
+# sent_id = 45
+# text = P., damit ich die Übungen mache, die ich nicht machen wollte, mit der Aussicht, dass reichste fünfjährige Mädchen in der Krankenstation im zweiten Stock zu werden.
+1	P.	P.	PROPN	ADV	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	6	punct	_	_
+3	damit	damit	SCONJ	KOUS	_	6	mark	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	Übungen	Übung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	1	conj	_	_
+7	mache	mach	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	6	appos	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	12	punct	_	_
+9	die	der	PRON	PRELS	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	12	obj	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advmod	_	_
+12	machen	machen	VERB	VVINF	VerbForm=Inf	7	acl	_	_
+13	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	7	punct	_	_
+15	mit	mit	ADP	$,	NumType=Card	17	case	_	_
+16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Aussicht	Aussicht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	31	punct	_	_
+19	dass	dass	SCONJ	KOUS	_	31	mark	_	_
+20	reichste	reich	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	22	amod	_	_
+21	fünfjährige	fünfjährig	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	22	amod	_	_
+22	Mädchen	Mädchen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	31	nsubj	_	_
+23	in	in	ADP	APPR	_	25	case	_	_
+24	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Krankenstation	Krankenstation	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	22	nmod	_	_
+26-27	im	_	_	_	_	_	_	_	_
+26	in	in	ADP	APPR	_	29	case	_	_
+27	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	zweiten	zweit	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	29	amod	_	_
+29	Stock	Stock	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	25	nmod	_	_
+30	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	31	mark	_	_
+31	werden	werden	VERB	NE	Case=Gen|Gender=Masc|Number=Plur	17	acl	_	SpaceAfter=No
+32	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 46
 # text = Aber er hat mich tatsächlich dazu gebracht, meinen täglichen Übungs-Horror mit neuen Augen zu sehen.
 1	Aber	aber	CCONJ	KON	_	7	cc	_	_
 2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -980,7 +1006,7 @@
 18	sehen	sehen	VERB	VVINF	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 41
+# sent_id = 47
 # text = So wurde daraus ein neues und vielversprechendes Erlebnis.
 1	So	so	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	2	advmod	_	_
 2	wurde	werden	AUX	ADJA	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
@@ -992,7 +1018,7 @@
 8	Erlebnis	Erlebnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	xcomp	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 42
+# sent_id = 48
 # text = Und ich frage mich heute, wie sehr seine Vision von mir als starkes und kraftvolles junges Mädchen mein Selbstbild geformt hat und ich mir so vorstellen konnte, mich als einen von Natur aus starken, kraftvollen und atlethischen Mensch zu sehen.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -1039,7 +1065,7 @@
 43	sehen	sehen	VERB	VVINF	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
 44	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 43
+# sent_id = 49
 # text = Das ist nur ein Beispiel von vielen, wie Erwachsene in Machtpositionen die Vorstellungskraft eines Kindes anregen können.
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -1061,7 +1087,7 @@
 18	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	17	punct	_	_
 
-# sent_id = 44
+# sent_id = 50
 # text = Aber wie die bereits zitierten Beispiele aus den Synonym-Wörterbüchern beweisen, lässt uns unsere Sprache keinen Raum, sich etwas vorzustellen, was wir uns alle wünschen würden: es jedem Einzelnen zu ermöglichen, sich selbst als kraftvollen Menschen zu sehen.
 1	Aber	aber	CCONJ	KON	_	12	mark	_	_
 2	wie	wie	ADP	NN	Case=Nom|Gender=Fem|Number=Sing	6	case	_	_
@@ -1109,7 +1135,7 @@
 44	sehen	sehen	VERB	VVINF	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
 45	.	.	PUNCT	$.	_	14	punct	_	_
 
-# sent_id = 45
+# sent_id = 51
 # text = Unsere Sprache hinkt den gesellschaftlichen Veränderungen hinterher, die in vielen Fällen durch einen technologischen Wandel ausgelöst wurden.
 1	Unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	2	det:poss	_	_
 2	Sprache	Sprache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -1131,7 +1157,7 @@
 18	wurden	werden	AUX	FM	Foreign=Yes	17	aux:pass	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 46
+# sent_id = 52
 # text = Vom medizinischen Standpunkt aus betrachtet kann man natürlich sagen, dass meine Beine, die Laser-Chirurgie für Sehbehinderungen, Kniegelenke aus Titan und künstliche Hüftgelenke für alternde Körper, die es Menschen erlauben, wirklich alle ihre Möglichkeiten zu nutzen und sich über die Grenzen, die ihnen ihr natürliches Schicksal gesetzt hat, hinaus zu entwickeln, gar nicht zu sprechen von Social Networking Plattformen, Menschen ermöglichen sich eine eigene Identität geben, sich auf eigene Art und Weise definieren, und sich damit weltweit an zu Gruppen orientieren, die sie sich selbst aussuchen.
 1-2	Vom	_	_	_	_	_	_	_	_
 1	Von	von	ADP	APPR	_	4	case	_	_
@@ -1236,7 +1262,7 @@
 100	aussuchen	aussuchen	VERB	VVINF	VerbForm=Inf	85	acl	_	SpaceAfter=No
 101	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 47
+# sent_id = 53
 # text = Vielleicht verdeutlicht also dieser technologische Wandel klarer denn je, dass es schon immer eine andere Wahrheit gab, nämlich, dass jeder Mensch der Gesellschaft etwas ganz Besonderess und sehr Kraftvolles geben kann und dass die menschliche Fähigkeit, sich anzupassen, unser größtes Plus ist.
 1	Vielleicht	vielleicht	ADV	ADV	_	2	advmod	_	_
 2	verdeutlicht	verdeutlichen	ADJ	NN	Case=Nom|Gender=Fem|Number=Sing	7	advmod	_	_
@@ -1287,7 +1313,7 @@
 47	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	SpaceAfter=No
 48	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 48
+# sent_id = 54
 # text = Die menschliche Fähigkeit sich anzupassen - das ist eine interessante Geschichte, weil Menschen mich immer wieder darum bitten zu erzählen, wie ich mit Widrigkeiten umgehe und ich werde Ihnen etwas gestehen:
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	menschliche	menschlich	ADJ	NN	Case=Nom|Gender=Neut|Number=Sing|NumType=Card	3	amod	_	_
@@ -1324,7 +1350,7 @@
 33	gestehen	stehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	conj	_	SpaceAfter=No
 34	:	:	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 49
+# sent_id = 55
 # text = Dieser Satz hat für mich nie gepasst und ich hab mich immer sehr unwohl damit gefühlt, die Fragen von Menschen dazu zu beantworten, und ich glaube, allmählich verstehe ich, warum.
 1	Dieser	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	Satz	Satz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -1362,7 +1388,7 @@
 34	warum	warum	ADV	ADJD	_	31	compound:prt	_	SpaceAfter=No
 35	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 50
+# sent_id = 56
 # text = Dieser Satz vom Umgang mit Widrigkeiten lebt von der Idee, dass Erfolg oder Glück davon abhängt, eine Herausforderung zu meistern, ohne von dem damit verbundenen Erlebnis geprägt zu werden.
 1	Dieser	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	Satz	Satz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -1400,7 +1426,7 @@
 33	werden	werden	VERB	NE	Case=Acc|Number=Plur	8	acl	_	SpaceAfter=No
 34	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 51
+# sent_id = 57
 # text = Als ob mein Leben so erfolgreich verlaufen wäre, weil ich den möglichen Fallen eines Lebens mit einer Prothese ausweichen konnte, oder wie auch immer Menschen mich mit meiner Behinderung wahrnehmen.
 1	Als	als	ADV	KOUS	_	7	advmod	_	_
 2	ob	ob	SCONJ	CARD	NumType=Card	7	mark	_	_
@@ -1436,7 +1462,7 @@
 32	wahrnehmen	wahrnehmen	VERB	VVINF	VerbForm=Inf	7	conj	_	SpaceAfter=No
 33	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 52
+# sent_id = 58
 # text = Aber die Wahrheit ist, dass wir uns verändern.
 1	Aber	aber	CCONJ	KON	_	0	root	_	_
 2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -1447,9 +1473,10 @@
 7	wir	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	9	nsubj	_	_
 8	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	9	obj	_	_
 9	verändern	verändern	VERB	VVINF	VerbForm=Inf	1	ccomp	_	SpaceAfter=No
-10	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
 
-# sent_id = 53
+# newpar
+# sent_id = 59
 # text = Natürlich sind wir von der Herausforderung geprägt, egal ob sie physisch, emotional oder sogar beides ist Und ich behaupte, dass das gut ist.
 1	Natürlich	natürlich	ADJ	ADJD	_	7	advmod	_	_
 2	sind	sein	AUX	ADJD	_	1	cop	_	_
@@ -1479,7 +1506,7 @@
 26	ist	sein	AUX	ADJD	_	25	cop	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	21	punct	_	_
 
-# sent_id = 54
+# sent_id = 60
 # text = Widrigkeiten sind kein Hindernis, das wir umkurven müssen, um mit unserem Leben besser klar zu kommen.
 1	Widrigkeiten	Widrigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
 2	sind	sein	AUX	ADJD	_	4	cop	_	_
@@ -1501,7 +1528,7 @@
 18	kommen	kommen	VERB	VVINF	VerbForm=Inf	8	advcl	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 55
+# sent_id = 61
 # text = Widrigkeiten gehören einfach zu unserem Leben.
 1	Widrigkeiten	Widrigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
 2	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1511,7 +1538,7 @@
 6	Leben	Leben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 56
+# sent_id = 62
 # text = Und ich neige dazu, Widrigkeiten als meinen Schatten zu sehen.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -1526,7 +1553,7 @@
 11	sehen	sehen	VERB	VVINF	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 57
+# sent_id = 63
 # text = Manchmal merke ich, dass er sehr präsent ist, manchmal ist er kaum zu sehen, aber er ist ständig bei mir.
 1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	_
 2	merke	merken	VERB	NE	Case=Nom|Gender=Neut|Number=Plur	0	root	_	_
@@ -1553,7 +1580,7 @@
 23	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	21	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 58
+# sent_id = 64
 # text = Und ich will damit keinesfalls die Auswirkung bzw. die Schwere des Kampfs eines Menschen herabsetzen.
 1	Und	und	CCONJ	ADJD	_	16	cc	_	_
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
@@ -1573,7 +1600,7 @@
 16	herabsetzen	herabsetzen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	16	punct	_	_
 
-# sent_id = 59
+# sent_id = 65
 # text = Es gibt im Leben Widrigkeiten und Herausforderungen, und die sind nur alllzu real und jede Person geht damit anders um.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1600,7 +1627,7 @@
 22	um	um	ADP	PTKVZ	_	19	compound:prt	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 60
+# sent_id = 66
 # text = Aber die Frage lautet nicht, ob wir mit Widrigkeiten klar kommen oder nicht, sondern wie wir damit klar kommen.
 1	Aber	aber	CCONJ	KON	_	4	cc	_	_
 2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -1625,7 +1652,7 @@
 21	kommen	kommen	VERB	VVINF	VerbForm=Inf	12	conj	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 61
+# sent_id = 67
 # text = Wir sind also nicht nur dafür verantwortlich, die Menschen die wir lieben, vor Schicksalsschlägen zu bewahren, sondern sie auch darauf vorzubereiten, gut damit klar zu kommen.
 1	Wir	wir	PRON	ADJD	_	7	nsubj	_	_
 2	sind	sein	AUX	ADJD	_	7	cop	_	_
@@ -1659,7 +1686,7 @@
 30	kommen	kommen	VERB	VVINF	VerbForm=Inf	24	xcomp	_	SpaceAfter=No
 31	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 62
+# sent_id = 68
 # text = Und wir erweisen unseren Kindern keinen Gefallen, wenn wir ihnen das Gefühl geben, dass sie sich nicht anpassen können.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	wir	wir	PRON	ADJD	_	3	nsubj	_	_
@@ -1684,7 +1711,7 @@
 21	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 63
+# sent_id = 69
 # text = Man muss zwei Dinge klar trennen: zum einen die medizinische Tatsache, amputiert zu sein und zum anderen die gesellschaftliche Meinung darüber, ob ich behindert bin oder nicht.
 1	Man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	6	nsubj	_	_
 2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -1722,7 +1749,7 @@
 32	nicht	nicht	PART	CARD	NumType=Card	15	advmod	_	SpaceAfter=No
 33	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 64
+# sent_id = 70
 # text = Und um ehrlich zu sein, die einzige wirkliche und bleibende Behinderung, mit der ich mich auseinander setzen musste, ist, dass die Welt ständig meint, sie könne mich mit diesen Definitionen beschreiben.
 1	Und	und	CCONJ	ADJD	_	3	punct	_	_
 2	um	um	ADP	APPR	_	3	mark	_	_
@@ -1762,7 +1789,7 @@
 36	beschreiben	beschreiben	VERB	VVINF	VerbForm=Inf	28	ccomp	_	SpaceAfter=No
 37	.	.	PUNCT	$.	_	12	punct	_	_
 
-# sent_id = 65
+# sent_id = 71
 # text = In unserem Wunsch, die Menschen zu schützen, die uns am Herzen liegen und ihnen die kalte, harte Wahrheit über ihre medizinische Prognose mitzuteilen oder sogar eine Prognose zur Lebensqualität zu stellen, die sie erwartet, müssen wir aufpassen, dass wir nicht den Grundstein dafür legen, dass jemand tatsächlich behindert ist.
 1	In	in	ADP	APPR	_	3	case	_	_
 2	unserem	unser	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes	3	det:poss	_	_
@@ -1826,7 +1853,7 @@
 58	ist	sein	AUX	ADJD	_	57	aux	_	SpaceAfter=No
 59	.	.	PUNCT	$.	_	44	punct	_	_
 
-# sent_id = 66
+# sent_id = 72
 # text = Vielleicht ist das momentane Konzept, das nur darauf achtet, was in einem kaputt ist, und wie wir das reparieren, für jeden einzelnen eine größere Behinderung als die Pathologie an sich.
 1	Vielleicht	vielleicht	ADV	ADV	_	5	advmod	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -1864,7 +1891,7 @@
 34	sich	er|es|sie	PRON	PRF	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	26	obl	_	SpaceAfter=No
 35	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 67
+# sent_id = 73
 # text = Wenn wir einen Menschen nicht ganzheitlich behandeln, und nicht all seine Kräfte und Möglichkeiten wahrnehmen und anerkennen, schaffen wir zusätzlich zu dem natürlichen Kampf, den sie vielleicht führen müssen, eine weitere Krankheit.
 1	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	_
 2	wir	wir	PRON	ADJD	_	7	nsubj	_	_
@@ -1904,7 +1931,7 @@
 36	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	conj	_	SpaceAfter=No
 37	.	.	PUNCT	$.	_	20	punct	_	_
 
-# sent_id = 68
+# sent_id = 74
 # text = Wir degradieren einen Menschen, der für unsere Gesellschaft einen Wert hat.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	degradieren	degradieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1920,7 +1947,7 @@
 12	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 69
+# sent_id = 75
 # text = Also müssen wir über die Patologie hinaus schauen und uns auf alle Bereich der menschlichen Möglichkeiten konzentrieren.
 1	Also	also	ADV	ADV	_	8	advmod	_	_
 2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
@@ -1941,7 +1968,7 @@
 17	konzentrieren	konzentrieren	VERB	VVINF	VerbForm=Inf	8	conj	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 70
+# sent_id = 76
 # text = Am allerwichtigsten aber ist, dass es zwischen der Wahrnehmung unserer Unzulänglichkeiten und unserem großartigen Erfindergeist, eine Verbindung gibt.
 1-2	Am	_	_	_	_	_	_	_	_
 1	An	an	ADP	APPR	_	4	case	_	_
@@ -1967,7 +1994,7 @@
 21	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 71
+# sent_id = 77
 # text = Wir sollten diese herausfordernden Zeiten nicht abwerten oder verleugnen, wir sollten weder versuchen, sie zu vermeiden, noch sollten wir sie unter den Teppich kehren, sondern es geht darum, in den Widrigkeiten Chancen zu erkennen.
 1	Wir	wir	PRON	ADJD	_	7	nsubj	_	_
 2	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
@@ -2010,7 +2037,7 @@
 39	erkennen	erkennen	VERB	VVINF	VerbForm=Inf	31	xcomp	_	SpaceAfter=No
 40	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 72
+# sent_id = 78
 # text = Es geht mir vielleicht eher darum, klar zu stellen, dass wir Widrigkeiten nicht unbedingt überwinden müssen, sondern dass wir dafür offen sind, sie zum umarmen, sie am Schopf zu packen um auch mal einen Kampf-Ausdruck zu verwenden und vielleicht sogar damit zu tanzen.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2068,7 +2095,7 @@
 52	tanzen	tanzen	VERB	VVINF	VerbForm=Inf	46	conj	_	SpaceAfter=No
 53	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 73
+# sent_id = 79
 # text = Und vielleicht schaffen wir es, Widrigkeiten als etwas natürliches, stimmiges und nützliches zu sehen und fühlen uns so durch ihre Präsenz nicht mehr so belastet.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	vielleicht	vielleicht	ADV	FM	Foreign=Yes	3	advmod	_	_
@@ -2099,7 +2126,7 @@
 27	belastet	belasten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	xcomp	_	SpaceAfter=No
 28	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 74
+# sent_id = 80
 # text = In diesem Jahr feiern wir den 200.
 1	In	in	ADP	APPR	_	3	case	_	_
 2	diesem	dies	PRON	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
@@ -2108,9 +2135,10 @@
 5	wir	wir	PRON	ADJD	_	4	nsubj	_	_
 6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	200	200	NUM	CARD	NumType=Card	4	obl	_	SpaceAfter=No
-8	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 75
+# newpar
+# sent_id = 81
 # text = Geburtstag von Charles Darwin und als er vor 150 Jahren über Evolution geschrieben hat, hat Darwin, in meinen Augen, auf etwas sehr Wahres im menschlichen Charakter hingewiesen.
 1	Geburtstag	Geburtstag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	dep	_	_
 2	von	von	ADP	NE	Case=Dat|Gender=Masc|Number=Sing	3	case	_	_
@@ -2146,7 +2174,7 @@
 31	hingewiesen	hinweisen	VERB	NN	Case=Nom|Gender=Neut|Number=Sing	21	acl	_	SpaceAfter=No
 32	.	.	PUNCT	$.	_	16	punct	_	_
 
-# sent_id = 76
+# sent_id = 82
 # text = Ich würde es so umschreiben: Nicht der stärkste seiner Art überlebt, und auch nicht der intelligenteste seiner Art, sondern der, der sich Veränderungen am besten anpassen kann.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 2	würde	werden	AUX	NE	Case=Nom|Number=Sing	5	aux	_	_
@@ -2183,7 +2211,7 @@
 32	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	SpaceAfter=No
 33	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 77
+# sent_id = 83
 # text = Aus Konflikten entsteht Kreativität.
 1	Aus	aus	ADP	APPR	_	2	case	_	_
 2	Konflikten	Konflikt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	_
@@ -2191,7 +2219,7 @@
 4	Kreativität	Kreativität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 78
+# sent_id = 84
 # text = Nicht nur aus Darwins Werk wissen wir, dass die Fähigkeit des Menschen, zu überleben und aufzublühen, vom Kampf des menschlichen Geistes bestimmt ist, sich durch Konflikte zu wandeln.
 1	Nicht	nicht	PART	TRUNC	NumType=Card	2	advmod	_	_
 2	nur	nur	ADV	CARD	_	5	advmod	_	_
@@ -2229,7 +2257,7 @@
 33	wandeln	wandeln	VERB	VVINF	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
 34	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 79
+# sent_id = 85
 # text = Also, nochmals, Wandel und Anpassung sind die großartigsten Fähigkeiten des Menschen.
 1	Also	also	ADV	ADV	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	1	punct	_	_
@@ -2246,7 +2274,7 @@
 13	Menschen	Mensch	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	11	punct	_	_
 
-# sent_id = 80
+# sent_id = 86
 # text = Und vielleicht wissen wir erst, aus welchem Holz wir geschnitzt sind, wenn wir wirklich geprüft werden.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	vielleicht	vielleicht	ADV	FM	Foreign=Yes	3	advmod	_	_
@@ -2268,7 +2296,7 @@
 18	werden	werden	AUX	NE	Case=Acc|Number=Plur	17	aux:pass	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 81
+# sent_id = 87
 # text = Möglicherweise ist genau das der Sinn von Widrigkeiten, eine Wahrnehmung des Ichs, ein Gefühl für unsere eigene Kraft.
 1	Möglicherweise	möglicherweise	ADV	ADV	_	6	advmod	_	_
 2	ist	sein	AUX	ADJD	_	6	cop	_	_
@@ -2292,7 +2320,7 @@
 20	Kraft	Kraft	NOUN	NE	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 82
+# sent_id = 88
 # text = Wir können uns so selbst etwas schenken.
 1	Wir	wir	PRON	ADJD	_	7	nsubj	_	_
 2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -2303,7 +2331,7 @@
 7	schenken	schenken	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 83
+# sent_id = 89
 # text = Wir können Widrigkeiten eine neue Bedeutung geben, die über schwere Zeiten hinaus geht.
 1	Wir	wir	PRON	ADJD	_	7	nsubj	_	_
 2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -2321,7 +2349,7 @@
 14	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 84
+# sent_id = 90
 # text = Vielleicht können wir Widrigkeiten als Veränderung sehen.
 1	Vielleicht	vielleicht	ADV	ADV	_	7	advmod	_	_
 2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -2332,7 +2360,7 @@
 7	sehen	sehen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 85
+# sent_id = 91
 # text = Widrigkeiten stehen für eine Veränderung, an die wir uns noch nicht angepasst haben.
 1	Widrigkeiten	Widrigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
 2	stehen	stehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2350,7 +2378,7 @@
 14	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 86
+# sent_id = 92
 # text = Ich glaube, den größten Schaden, den wir uns selbst zugefügt haben, ist zu glauben, dass wir normal sein sollen.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	glaube	glauben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -2377,7 +2405,7 @@
 23	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 87
+# sent_id = 93
 # text = Mal ehrlich - wer ist normal?
 1	Mal	mal	ADV	ADV	_	2	advmod	_	_
 2	ehrlich	ehrlich	ADJ	APPR	_	4	compound	_	_
@@ -2387,7 +2415,7 @@
 6	normal	normal	ADJ	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 7	?	?	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 88
+# sent_id = 94
 # text = Es gibt kein Normal.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2395,21 +2423,23 @@
 4	Normal	normal	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 89
+# sent_id = 95
 # text = Es gibt das Übliche.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 4	Übliche	üblich	NOUN	ADJA	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 90
+# newpar
+# sent_id = 96
 # text = Das Typische.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Typische	Typische	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
-3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 91
+# newpar
+# sent_id = 97
 # text = Aber nicht das Normale.
 1	Aber	aber	CCONJ	KON	_	4	cc	_	_
 2	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advmod	_	_
@@ -2417,7 +2447,7 @@
 4	Normale	Normale	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 92
+# sent_id = 98
 # text = Und würden Sie diese arme, graue Person wirklich kennen lernen wollen, wenn es sie wirklich gäbe?
 1	Und	und	CCONJ	ADJD	_	11	cc	_	_
 2	würden	werden	AUX	NN	Case=Nom|Gender=Fem|Number=Plur	11	aux	_	_
@@ -2439,7 +2469,7 @@
 18	gäbe	geben	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	advcl	_	SpaceAfter=No
 19	?	?	PUNCT	$.	_	11	punct	_	_
 
-# sent_id = 93
+# sent_id = 99
 # text = (Gelächter) Ich denke, eher nicht.
 1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Gelächter	Gelächter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	dep	_	SpaceAfter=No
@@ -2451,7 +2481,7 @@
 8	nicht	nicht	PART	CARD	NumType=Card	5	advmod	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 94
+# sent_id = 100
 # text = Es wäre toll, wenn wir dieses Denkmuster der Normalität gegen ein anderes der Möglichkeiten oder der Stärke, um es sogar noch ein bisschen gefährlicher zu formulieren, austauschen könnten.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	wäre	sein	AUX	NN	Foreign=Yes	3	cop	_	_
@@ -2486,7 +2516,7 @@
 31	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	30	aux	_	SpaceAfter=No
 32	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 95
+# sent_id = 101
 # text = So können wir die Kräfte von sehr vielen Kindern freisetzen, und sie dazu einladen, ihre ganz besonderen und wertvollen Fähigkeiten in die Gesellschaft einzubringen.
 1	So	so	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	10	advmod	_	_
 2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
@@ -2516,7 +2546,7 @@
 26	einzubringen	einzubringen	VERB	NE	Case=Dat|Gender=Neut|Number=Sing	10	conj	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 96
+# sent_id = 102
 # text = Anthropolgen haben heraus gefunden, dass wir Menschen von den Mitgliedern unserer Gesellschaft immer eines gefordert haben: Nützlich zu sein und einen Beitrag zu leisten.
 1	Anthropolgen	Anthropolgen	PROPN	NN	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
 2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2546,7 +2576,7 @@
 26	leisten	leisten	VERB	VVINF	VerbForm=Inf	21	conj	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 97
+# sent_id = 103
 # text = Es gibt Hinweise darauf, dass schon die Neandertaler vor 60.000 Jahren ältere Menschen und Menschen mit schweren körperlichen Verletzungen mit getragen haben und das geschah vielleicht, weil die Lebenserfahrung im Überlebenskampf dieser Menschen für die Gesellschaft wertvoll war: sie haben diese Menschen nicht als kaputt und nutzlos betrachtet;
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2603,7 +2633,7 @@
 52	betrachtet	betrachten	ADJ	VVPP	VerbForm=Part	49	conj	_	SpaceAfter=No
 53	;	;	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 98
+# sent_id = 104
 # text = sie wurden als etwas Besonderes und Wertvolles behandelt.
 1	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	8	nsubj:pass	_	_
 2	wurden	werden	AUX	NN	Case=Nom|Gender=Fem|Number=Plur	8	aux:pass	_	_
@@ -2615,7 +2645,7 @@
 8	behandelt	behandeln	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 99
+# sent_id = 105
 # text = Vor ein paar Jahren ging ich in der Stadt, in der ich aufgewachsen war, in einen Lebensmittelmarkt in jener "Red Zone" im Nordosten von Pennsylvania, und ich stand da vor einem Scheffel (ca. 37 Liter) Tomaten.
 1	Vor	vor	ADP	NN	Case=Nom|Gender=Masc|Number=Sing	4	case	_	_
 2	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
@@ -2664,7 +2694,7 @@
 44	Tomaten	Tomate	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	34	obj	_	SpaceAfter=No
 45	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 100
+# sent_id = 106
 # text = Es war Sommer und ich hatte Shorts an.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	war	sein	AUX	ADV	_	3	cop	_	_
@@ -2676,7 +2706,7 @@
 8	an	an	ADP	PTKVZ	_	6	compound:prt	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 101
+# sent_id = 107
 # text = Und ich höre, wie ein Typ hinter mir sagt, "Na wenn das nicht Aimee Mullins ist."
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -2700,7 +2730,7 @@
 20	.	.	PUNCT	$.	_	10	punct	_	SpaceAfter=No
 21	"	"	PUNCT	$(	_	10	punct	_	_
 
-# sent_id = 102
+# sent_id = 108
 # text = Und ich dreh mich um und sehe diesen älteren Mann.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -2712,9 +2742,10 @@
 8	diesen	dies	PRON	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
 9	älteren	alt	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	10	amod	_	_
 10	Mann	Mann	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
-11	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+11	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 103
+# newpar
+# sent_id = 109
 # text = Ich hatte keine Ahnung wer er ist.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -2725,7 +2756,7 @@
 7	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	4	cop	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 104
+# sent_id = 110
 # text = Und ich meinte "Entschuldigung, Sir, kennen wir uns?
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -2738,9 +2769,10 @@
 9	kennen	kennen	VERB	PTKVZ	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	wir	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	9	nsubj	_	_
 11	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
-12	?	?	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+12	?	?	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
 
-# sent_id = 105
+# newpar
+# sent_id = 111
 # text = Ich kann mich nicht an Sie erinnern."
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -2752,7 +2784,7 @@
 8	.	.	PUNCT	$.	_	7	punct	_	SpaceAfter=No
 9	"	"	PUNCT	$(	_	7	punct	_	_
 
-# sent_id = 106
+# sent_id = 112
 # text = Und er sagte: "Nun ja, Sie dürften sich kaum an mich erinnern.
 1	Und	und	CCONJ	NN	Case=Nom|Gender=Masc|Number=Sing	3	cc	_	_
 2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -2771,7 +2803,7 @@
 15	erinnern	erinnern	VERB	VVFIN	VerbForm=Inf	3	ccomp	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 107
+# sent_id = 113
 # text = Als ich Sie zum ersten Mal sah, hab ich Sie aus dem Bauch Ihrer Mutter geholt."
 1	Als	als	SCONJ	KOUS	_	8	mark	_	_
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
@@ -2795,7 +2827,7 @@
 19	.	.	PUNCT	$.	_	18	punct	_	SpaceAfter=No
 20	"	"	PUNCT	$(	_	18	punct	_	_
 
-# sent_id = 108
+# sent_id = 114
 # text = Oh, also der.
 1	Oh	Oh	PROPN	ADJD	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
@@ -2803,7 +2835,7 @@
 4	der	der	PRON	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	dep	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 109
+# sent_id = 115
 # text = Und natürlich hat es dann aber klick gemacht.
 1	Und	und	CCONJ	ADJD	_	8	cc	_	_
 2	natürlich	natürlich	ADJ	ADV	_	8	advmod	_	_
@@ -2815,46 +2847,50 @@
 8	gemacht	machen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 110
-# text = Das war Dr. Kean, ein Mann, den ich nur aus Erzählungen meiner Mutter über diesen Tag kannte, weil ich natürlich, ganz typisch, zu meinem Geburtstag zwei Wochen zu spät kam.
-1	Das	der	PRON	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	nsubj	_	_
-2	war	sein	AUX	ADV	_	4	cop	_	_
-3	Dr.	Dr.	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	SpacesAfter=\n
-4	Kean	Kean	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-5	,	,	PUNCT	$,	_	7	punct	_	_
-6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
-8	,	,	PUNCT	$,	_	19	punct	_	_
-9	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	19	obj	_	_
-10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
-11	nur	nur	ADV	CARD	_	13	advmod	_	_
-12	aus	aus	ADP	APPR	_	13	case	_	_
-13	Erzählungen	Erzählung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	19	obl	_	_
-14	meiner	mein	PRON	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	15	det:poss	_	_
-15	Mutter	Mutter	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
-16	über	über	ADP	FM	Foreign=Yes	18	case	_	_
-17	diesen	dies	PRON	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
-18	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
-19	kannte	kennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl	_	SpaceAfter=No
-20	,	,	PUNCT	$,	_	23	punct	_	_
-21	weil	weil	SCONJ	KOUS	_	23	mark	_	_
-22	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
-23	natürlich	natürlich	ADJ	ADV	_	27	advmod	_	SpaceAfter=No
-24	,	,	PUNCT	$,	_	26	punct	_	_
-25	ganz	ganz	ADV	ADV	_	26	advmod	_	_
-26	typisch	typisch	ADJ	ADJD	_	23	conj	_	SpaceAfter=No
-27	,	,	PUNCT	$,	_	35	punct	_	_
-28	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	30	case	_	_
-29	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	30	det:poss	_	_
-30	Geburtstag	Geburtstag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	27	obl	_	_
-31	zwei	zwei	NUM	NE	Case=Gen|Gender=Masc|Number=Sing	32	nummod	_	_
-32	Wochen	Woche	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	35	nsubj	_	_
-33	zu	zu	ADV	NE	Case=Gen|Gender=Neut|Number=Sing	34	advmod	_	_
-34	spät	spät	ADV	FM	Foreign=Yes	35	advmod	_	_
-35	kam	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	conj	_	SpaceAfter=No
-36	.	.	PUNCT	$.	_	4	punct	_	_
+# sent_id = 116
+# text = Das war Dr.
+1	Das	der	PRON	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	nsubj	_	_
+2	war	sein	AUX	ADV	_	3	cop	_	_
+3	Dr.	Dr.	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n\n
 
-# sent_id = 111
+# newpar
+# sent_id = 117
+# text = Kean, ein Mann, den ich nur aus Erzählungen meiner Mutter über diesen Tag kannte, weil ich natürlich, ganz typisch, zu meinem Geburtstag zwei Wochen zu spät kam.
+1	Kean	Kean	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	4	punct	_	_
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	16	punct	_	_
+6	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	16	obj	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+8	nur	nur	ADV	CARD	_	10	advmod	_	_
+9	aus	aus	ADP	APPR	_	10	case	_	_
+10	Erzählungen	Erzählung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	16	obl	_	_
+11	meiner	mein	PRON	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	12	det:poss	_	_
+12	Mutter	Mutter	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	über	über	ADP	FM	Foreign=Yes	15	case	_	_
+14	diesen	dies	PRON	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_
+16	kannte	kennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	20	punct	_	_
+18	weil	weil	SCONJ	KOUS	_	20	mark	_	_
+19	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+20	natürlich	natürlich	ADJ	ADV	_	24	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	23	punct	_	_
+22	ganz	ganz	ADV	ADV	_	23	advmod	_	_
+23	typisch	typisch	ADJ	ADJD	_	20	conj	_	SpaceAfter=No
+24	,	,	PUNCT	$,	_	32	punct	_	_
+25	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	27	case	_	_
+26	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	27	det:poss	_	_
+27	Geburtstag	Geburtstag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	24	obl	_	_
+28	zwei	zwei	NUM	NE	Case=Gen|Gender=Masc|Number=Sing	29	nummod	_	_
+29	Wochen	Woche	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	32	nsubj	_	_
+30	zu	zu	ADV	NE	Case=Gen|Gender=Neut|Number=Sing	31	advmod	_	_
+31	spät	spät	ADV	FM	Foreign=Yes	32	advmod	_	_
+32	kam	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	conj	_	SpaceAfter=No
+33	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 118
 # text = Der Arzt für pränatale Diagnostik meiner Mutter war im Urlaub, und so kannten meine Eltern den Mann, der mich zur Welt brachte, überhaupt nicht.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Arzt	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -2889,7 +2925,7 @@
 29	nicht	nicht	PART	CARD	NumType=Card	15	advmod	_	SpaceAfter=No
 30	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 112
+# sent_id = 119
 # text = Und weil ich ohne Wadenbeine geboren wurde, und meine Füße sich nach ihnen gerichtet hatten und ich nur ein paar Zehen an diesem und ein paar Zehen am anderen Fuß hatte war er der Überbringer, dieser Fremde musste die schlechten Nachrichten überbringen.
 1	Und	und	CCONJ	ADJD	_	6	cc	_	_
 2	weil	weil	SCONJ	KOUS	_	6	mark	_	_
@@ -2939,7 +2975,7 @@
 45	überbringen	überbring	ADJ	NE	Case=Dat|Gender=Neut|Number=Sing	37	conj	_	SpaceAfter=No
 46	.	.	PUNCT	$.	_	37	punct	_	_
 
-# sent_id = 113
+# sent_id = 120
 # text = Er sagte zu mir: "Ich musste Deinen Eltern sagen, dass Du nie laufen würdest, und nie so beweglich sein würdest wie andere Kinder oder dass Du nie ein unabhängiges Leben führen könntest, und seitdem haben
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -2982,7 +3018,7 @@
 39	seitdem	seitdem	ADV	NN	Case=Acc|Gender=Masc|Number=Sing	40	advmod	_	_
 40	haben	haben	VERB	VAINF	VerbForm=Inf	35	conj	_	_
 
-# sent_id = 114
+# sent_id = 121
 # text = Sie mich einfach Lügen gestraft."
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
 2	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
@@ -2992,7 +3028,7 @@
 6	.	.	PUNCT	$.	_	5	punct	_	SpaceAfter=No
 7	"	"	PUNCT	$(	_	5	punct	_	_
 
-# sent_id = 115
+# sent_id = 122
 # text = (Applaus) Wirklich außergewöhnlich fand ich, dass er Zeitungsausschnitte meiner gesamten Kindheit gesammelt hat, egal, ob ich bei einem Buchstabier-Wettbewerb in der zweiten Klasse gewonnen hatte, ob ich mit den Pfadfindern bei der Parade zu Halloween unterwegs war, egal, ob ich mein Stipendium oder einer meiner sportlichen Siege errungen hatte, und er verwendete diese Ausschnitte, um seine Studenten zu unterrichten, Medizin-Studenten aus der Hahnemann Medical School und der Hershey Medical School.
 1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Applaus	Applaus	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	4	dep	_	SpaceAfter=No
@@ -3081,7 +3117,7 @@
 85	School	School	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	83	flat	_	SpaceAfter=No
 86	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 116
+# sent_id = 123
 # text = Und er nannte diesen Teil seines Kurses den X Faktor, das Potenzial des menschlichen Willens.
 1	Und	und	CCONJ	NN	Case=Nom|Gender=Masc|Number=Sing	3	cc	_	_
 2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -3101,7 +3137,7 @@
 16	Willens	Willen	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 117
+# sent_id = 124
 # text = Man kann einfach nicht genug betonen, wie entscheidend dieser Faktor für die Lebensqualität eines Menschen sein kann.
 1	Man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	6	nsubj	_	_
 2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -3123,74 +3159,82 @@
 18	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 118
-# text = Und Dr. Kean erzählte weiter, er sagte: "Ich habe gelernt, dass Kinder, wenn sie nicht ständig etwas anderes gesagt bekommen, und auch wenn sie nur ein bisschen Unterstützung bekommen, wenn man Kinder sich selbst überlässt, dann können Kinder sehr viel erreichen."
-1	Und	und	CCONJ	ADJD	_	4	cc	_	_
-2	Dr.	Dr.	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	compound	_	SpacesAfter=\n
-3	Kean	Kean	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-4	erzählte	erzählen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-5	weiter	weiter	ADV	ADV	_	4	compound:prt	_	SpaceAfter=No
-6	,	,	PUNCT	$,	_	8	punct	_	_
-7	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
-8	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
-9	:	:	PUNCT	$.	_	13	punct	_	_
-10	"	"	PUNCT	$(	_	13	punct	_	SpaceAfter=No
-11	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
-12	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
-13	gelernt	lernen	VERB	VVPP	VerbForm=Part	8	parataxis	_	SpaceAfter=No
-14	,	,	PUNCT	$,	_	25	punct	_	_
-15	dass	dass	SCONJ	KOUS	_	25	mark	_	_
-16	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	25	nsubj	_	SpaceAfter=No
-17	,	,	PUNCT	$,	_	16	punct	_	_
-18	wenn	wenn	SCONJ	VVFIN	_	24	mark	_	_
-19	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	24	nsubj	_	_
-20	nicht	nicht	PART	CARD	NumType=Card	24	advmod	_	_
-21	ständig	ständig	ADJ	ADJD	_	24	advmod	_	_
-22	etwas	etwas	ADV	PIS	Definite=Ind|Gender=Neut|PronType=Ind	24	advmod	_	_
-23	anderes	ander	PRON	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	24	obj	_	_
-24	gesagt	sagen	VERB	VVPP	VerbForm=Part	25	advcl	_	_
-25	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	SpaceAfter=No
-26	,	,	PUNCT	$,	_	35	punct	_	_
-27	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	35	cc	_	_
-28	auch	auch	ADV	ADV	_	35	advmod	_	_
-29	wenn	wenn	SCONJ	VVFIN	_	35	mark	_	_
-30	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	35	nsubj	_	_
-31	nur	nur	ADV	CARD	NumType=Card	35	advmod	_	_
-32	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	34	det	_	_
-33	bisschen	bissch	ADJ	PIS	Definite=Ind|PronType=Ind	34	amod	_	_
-34	Unterstützung	Unterstützung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	35	obj	_	_
-35	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	13	conj	_	SpaceAfter=No
-36	,	,	PUNCT	$,	_	42	punct	_	_
-37	wenn	wenn	SCONJ	VVFIN	_	42	mark	_	_
-38	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	42	nsubj	_	_
-39	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	42	obj	_	_
-40	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	42	nsubj	_	_
-41	selbst	selbst	ADV	NN	Case=Acc|Gender=Fem|Number=Sing	42	advmod	_	_
-42	überlässt	überlassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	advcl	_	SpaceAfter=No
-43	,	,	PUNCT	$,	_	49	punct	_	_
-44	dann	dann	ADV	ADV	_	49	advmod	_	_
-45	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	49	aux	_	_
-46	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	49	nsubj	_	_
-47	sehr	sehr	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	48	advmod	_	_
-48	viel	viel	PRON	NE	Foreign=Yes	49	obj	_	_
-49	erreichen	erreichen	VERB	VVINF	VerbForm=Inf	42	xcomp	_	SpaceAfter=No
-50	.	.	PUNCT	$.	_	13	punct	_	SpaceAfter=No
-51	"	"	PUNCT	$(	_	13	punct	_	_
+# sent_id = 125
+# text = Und Dr.
+1	Und	und	CCONJ	ADJD	_	2	cc	_	_
+2	Dr.	Dr.	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n\n
 
-# sent_id = 119
-# text = Sehen Sie, Dr. Kean hat sein Denken verändert.
+# newpar
+# sent_id = 126
+# text = Kean erzählte weiter, er sagte: "Ich habe gelernt, dass Kinder, wenn sie nicht ständig etwas anderes gesagt bekommen, und auch wenn sie nur ein bisschen Unterstützung bekommen, wenn man Kinder sich selbst überlässt, dann können Kinder sehr viel erreichen."
+1	Kean	Kean	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	erzählte	erzählen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	weiter	weiter	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	6	punct	_	_
+5	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+7	:	:	PUNCT	$.	_	11	punct	_	_
+8	"	"	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+9	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	gelernt	lernen	VERB	VVPP	VerbForm=Part	6	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	23	punct	_	_
+13	dass	dass	SCONJ	KOUS	_	23	mark	_	_
+14	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	23	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	14	punct	_	_
+16	wenn	wenn	SCONJ	VVFIN	_	22	mark	_	_
+17	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	22	nsubj	_	_
+18	nicht	nicht	PART	CARD	NumType=Card	22	advmod	_	_
+19	ständig	ständig	ADJ	ADJD	_	22	advmod	_	_
+20	etwas	etwas	ADV	PIS	Definite=Ind|Gender=Neut|PronType=Ind	22	advmod	_	_
+21	anderes	ander	PRON	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	22	obj	_	_
+22	gesagt	sagen	VERB	VVPP	VerbForm=Part	23	advcl	_	_
+23	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	SpaceAfter=No
+24	,	,	PUNCT	$,	_	33	punct	_	_
+25	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	33	cc	_	_
+26	auch	auch	ADV	ADV	_	33	advmod	_	_
+27	wenn	wenn	SCONJ	VVFIN	_	33	mark	_	_
+28	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	33	nsubj	_	_
+29	nur	nur	ADV	CARD	NumType=Card	33	advmod	_	_
+30	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	32	det	_	_
+31	bisschen	bissch	ADJ	PIS	Definite=Ind|PronType=Ind	32	amod	_	_
+32	Unterstützung	Unterstützung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	33	obj	_	_
+33	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	11	conj	_	SpaceAfter=No
+34	,	,	PUNCT	$,	_	40	punct	_	_
+35	wenn	wenn	SCONJ	VVFIN	_	40	mark	_	_
+36	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	40	nsubj	_	_
+37	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	40	obj	_	_
+38	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	40	nsubj	_	_
+39	selbst	selbst	ADV	NN	Case=Acc|Gender=Fem|Number=Sing	40	advmod	_	_
+40	überlässt	überlassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	advcl	_	SpaceAfter=No
+41	,	,	PUNCT	$,	_	47	punct	_	_
+42	dann	dann	ADV	ADV	_	47	advmod	_	_
+43	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	47	aux	_	_
+44	Kinder	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	47	nsubj	_	_
+45	sehr	sehr	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	46	advmod	_	_
+46	viel	viel	PRON	NE	Foreign=Yes	47	obj	_	_
+47	erreichen	erreichen	VERB	VVINF	VerbForm=Inf	40	xcomp	_	SpaceAfter=No
+48	.	.	PUNCT	$.	_	11	punct	_	SpaceAfter=No
+49	"	"	PUNCT	$(	_	11	punct	_	_
+
+# sent_id = 127
+# text = Sehen Sie, Dr.
 1	Sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	SpaceAfter=No
-3	,	,	PUNCT	$,	_	6	punct	_	_
-4	Dr.	Dr.	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	compound	_	SpacesAfter=\n
-5	Kean	Kean	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-6	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
-7	sein	sein	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	8	det:poss	_	_
-8	Denken	Denken	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
-9	verändert	verändern	ADJ	VVPP	VerbForm=Part	1	xcomp	_	SpaceAfter=No
-10	.	.	PUNCT	$.	_	1	punct	_	_
+3	,	,	PUNCT	$,	_	4	punct	_	_
+4	Dr.	Dr.	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	SpacesAfter=\n\n
 
-# sent_id = 120
+# newpar
+# sent_id = 128
+# text = Kean hat sein Denken verändert.
+1	Kean	Kean	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	sein	sein	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	4	det:poss	_	_
+4	Denken	Denken	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+5	verändert	verändern	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 129
 # text = Er hatte verstanden, dass die medizinische Diagnose, und wie jemand damit umgeht, zwei unterschiedliche Dinge sind.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	_
@@ -3213,7 +3257,7 @@
 19	sind	sein	AUX	ADJD	_	8	cop	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 121
+# sent_id = 130
 # text = Und auch ich hab mein Denken im Lauf der Zeit geändert, wenn sie mich im Alter von 15 Jahren gefragt hätten, ob ich meine Prothesen gegen Beine aus Fleisch und Knochen getauscht hätte, dann hätte ich keine Sekunde gezögert.
 1	Und	und	CCONJ	ADJD	_	4	cc	_	_
 2	auch	auch	ADV	ADV	_	4	advmod	_	_
@@ -3263,7 +3307,7 @@
 44	gezögert	zögern	VERB	VVPP	VerbForm=Part	12	conj	_	SpaceAfter=No
 45	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 122
+# sent_id = 131
 # text = Ich wollte damals unbedingt normal wirken.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 2	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
@@ -3273,7 +3317,7 @@
 6	wirken	wirken	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 123
+# sent_id = 132
 # text = Wenn Sie mich das heute fragen, bin ich mir nicht so sicher.
 1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
@@ -3290,7 +3334,7 @@
 13	sicher	sicher	ADJ	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	13	punct	_	_
 
-# sent_id = 124
+# sent_id = 133
 # text = Und das ist passiert, WEIL ich etwas mit meinen Beinen erlebt habe und nicht TROTZ dieser Erlebnisse.
 1	Und	und	CCONJ	ADJD	_	4	cc	_	_
 2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
@@ -3312,7 +3356,7 @@
 18	Erlebnisse	Erlebnis	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 125
+# sent_id = 134
 # text = Und vielleicht konnte dieser Wandel auch passieren, weil ich so vielen Menschen begegnet bin, die mir Türen geöffnet haben, anstatt Menschen zu begegnen, die mich einschränken oder mir eine Vorstellung überstülpen wollten.
 1	Und	und	CCONJ	ADJD	_	7	cc	_	_
 2	vielleicht	vielleicht	ADV	FM	Foreign=Yes	7	advmod	_	_
@@ -3352,7 +3396,7 @@
 36	wollten	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	30	aux	_	SpaceAfter=No
 37	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 126
+# sent_id = 135
 # text = Sehen Sie, es braucht wirklich nur einen Menschen, der Ihnen demonstriert, wie Sie Ihre Kräfte manifestieren können, und Sie sind durch.
 1	Sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	SpaceAfter=No
@@ -3381,7 +3425,7 @@
 25	durch	durch	ADP	PTKVZ	_	13	compound:prt	_	SpaceAfter=No
 26	.	.	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 127
+# sent_id = 136
 # text = Wenn Sie es jemandem ermöglichen, seine eigenen, inneren Kräfte zu aktivieren, – der menschliche Geist ist so empfangsbereit – wenn Sie das schaffen, und für jemanden in einem entscheidenden Moment eine Tür öffnen, dann sind Sie für diese Menschen ein sehr guter Lehrer.
 1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
@@ -3433,7 +3477,7 @@
 48	Lehrer	Lehrer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	SpaceAfter=No
 49	.	.	PUNCT	$.	_	21	punct	_	_
 
-# sent_id = 128
+# sent_id = 137
 # text = Sie bringen ihnen bei, sich selbst Türen zu öffnen.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	bringen	bringen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3447,7 +3491,7 @@
 10	öffnen	öffnen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 129
+# sent_id = 138
 # text = Die eigentliche Bedeutung des Worts "educate" (erziehen) wurzelt in dem Wort "educe" (entwickeln).
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	eigentliche	eigentlich	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
@@ -3472,7 +3516,7 @@
 21	)	)	PUNCT	$(	_	20	punct	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	12	punct	_	_
 
-# sent_id = 130
+# sent_id = 139
 # text = Es bedeutet, etwas hervorzubringen, dass in einem ist, das Potenzial herauszukitzeln.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -3490,7 +3534,7 @@
 14	herauszukitzeln	herauszukitzeln	VERB	ADJD	_	5	ccomp	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 131
+# sent_id = 140
 # text = Nochmals: Welches Potenzial möchten wir denn nun abrufen?
 1	Nochmals	nochmals	ADV	ADV	_	9	advmod	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	1	punct	_	_
@@ -3503,7 +3547,7 @@
 9	abrufen	abrufen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 10	?	?	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 132
+# sent_id = 141
 # text = In den 60er Jahren wurde in Großbritannien eine Fallstudie durchgeführt.
 1	In	in	ADP	APPR	_	4	case	_	_
 2	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	4	det	_	_
@@ -3517,7 +3561,7 @@
 10	durchgeführt	durchführen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 133
+# sent_id = 142
 # text = Damals wurden Gymnasien in Gesamtschulen umgewandelt.
 1	Damals	damals	ADV	ADV	_	6	advmod	_	_
 2	wurden	werden	AUX	FM	Foreign=Yes	6	aux:pass	_	_
@@ -3527,7 +3571,7 @@
 6	umgewandelt	umwandeln	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 134
+# sent_id = 143
 # text = Sie nennen das dort "Streaming Trials" (Strömungs-Untersuchungen) in den USA bezeichnen wir das als "Tracking" (Nachverfolgen).
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	nennen	nennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3557,7 +3601,7 @@
 26	)	)	PUNCT	$(	_	25	punct	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 135
+# sent_id = 144
 # text = Die Schüler werden nach Noten (A, B, C, D und so weiter) aufgeteilt.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	Schüler	Schüler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	nsubj:pass	_	_
@@ -3579,7 +3623,7 @@
 18	aufgeteilt	aufteilen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	18	punct	_	_
 
-# sent_id = 136
+# sent_id = 145
 # text = Und die A Schüler werden mündlich schwerer geprüft, bekommen die besseren Lehrer usw.
 1	Und	und	CCONJ	NN	Case=Nom|Gender=Masc|Number=Sing	10	cc	_	_
 2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
@@ -3597,7 +3641,7 @@
 14	usw	usw	ADV	NN	Case=Gen|Gender=Masc|Number=Plur	10	compound:prt	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 137
+# sent_id = 146
 # text = Sie haben dann über einen dreimonatigen Zeitraum Schülern mit einem "Ausreichend" (D) die Note "Sehr gut" (A) gegeben.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	_
 2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
@@ -3627,7 +3671,7 @@
 26	gegeben	geben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	26	punct	_	_
 
-# sent_id = 138
+# sent_id = 147
 # text = Es wurde ihnen gesagt, sie seien Asse, dass sie sehr schlau wären.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
 2	wurde	werden	AUX	ADV	_	4	aux:pass	_	_
@@ -3645,7 +3689,7 @@
 14	wären	sein	AUX	ADJD	_	13	cop	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 139
+# sent_id = 148
 # text = Und nach diesen drei Monaten haben sie wirklich Einser geschrieben.
 1	Und	und	CCONJ	ADJD	_	10	cc	_	_
 2	nach	nach	ADP	ADJA	_	5	case	_	_
@@ -3659,7 +3703,7 @@
 10	geschrieben	schreiben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 140
+# sent_id = 149
 # text = Und natürlich zerbricht es einem das Herz zu hören, dass umgekehrt den Einser-Schülern gesagt wurde, sie seien nur ausreichend.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	natürlich	natürlich	ADJ	ADV	_	3	advmod	_	_
@@ -3686,7 +3730,7 @@
 23	ausreichend	ausreichend	ADJ	ADJD	_	17	ccomp	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 141
+# sent_id = 150
 # text = Und genauso war es dann nach den drei Monaten auch.
 1	Und	und	CCONJ	ADJD	_	9	cc	_	_
 2	genauso	genauso	ADV	ADV	_	3	advmod	_	_
@@ -3700,7 +3744,7 @@
 10	auch	auch	ADV	ADV	_	9	advmod	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 142
+# sent_id = 151
 # text = Aber nur jene, die immer noch in der Schule waren – abgesehen von den Schülern, die die Schule geschmissen hatten.
 1	Aber	aber	CCONJ	KON	_	3	cc	_	_
 2	nur	nur	ADV	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advmod	_	_
@@ -3726,7 +3770,7 @@
 22	hatten	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	21	aux	_	SpaceAfter=No
 23	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 143
+# sent_id = 152
 # text = Ganz entscheidend bei dieser Studie war, dass die Lehrer nicht eingeweiht waren.
 1	Ganz	ganz	PROPN	ADV	_	2	advmod	_	_
 2	entscheidend	entscheidend	VERB	ADJD	_	0	root	_	_
@@ -3743,7 +3787,7 @@
 13	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux:pass	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 144
+# sent_id = 153
 # text = Die Lehrer wussten nicht, dass etwas geändert wurde.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	Lehrer	Lehrer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
@@ -3756,7 +3800,7 @@
 9	wurde	werden	AUX	KON	_	8	aux:pass	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 145
+# sent_id = 154
 # text = Ihnen wurde einfach gesagt, dass seien die Einser-Schüler und dass sind die Schüler mit der Note ausreichend.
 1	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	4	iobj	_	_
 2	wurde	werden	AUX	ADV	_	4	aux:pass	_	_
@@ -3780,7 +3824,7 @@
 20	ausreichend	ausreichend	ADJ	ADJD	_	4	ccomp	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 146
+# sent_id = 155
 # text = Und genauso haben sie ihnen etwas beigebracht und sie behandelt.
 1	Und	und	CCONJ	ADJD	_	7	cc	_	_
 2	genauso	genauso	ADV	ADV	_	7	advmod	_	_
@@ -3794,7 +3838,7 @@
 10	behandelt	behandeln	VERB	VVPP	VerbForm=Part	7	conj	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 147
+# sent_id = 156
 # text = Die einzige wirkliche Behinderung ist ein gebrochener Geist ein Geist, der gebrochen wurde, hat keine Hoffnung mehr.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 2	einzige	einzig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
@@ -3817,7 +3861,7 @@
 19	mehr	mehr	ADV	ADV	_	16	advmod	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 148
+# sent_id = 157
 # text = Er findet nichts mehr schön.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	findet	finden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3826,7 +3870,7 @@
 5	schön	schön	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	xcomp	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 149
+# sent_id = 158
 # text = ihm fehlt unsere natürliche, kindliche Neugier.
 1	ihm	er|es	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
 2	fehlt	fehlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3837,7 +3881,7 @@
 7	Neugier	Neugier	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 150
+# sent_id = 159
 # text = und unsere angeborene Fähigkeit der Imagination.
 1	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	4	cc	_	_
 2	unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	4	det:poss	_	_
@@ -3847,7 +3891,7 @@
 6	Imagination	Imagination	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 151
+# sent_id = 160
 # text = Wenn wir es aber schaffen, den menschlichen Geist dabei zu unterstützen, weiterhin zu hoffen, sich selbst und andere Menschen um sich herum schön zu finden, neugierig und phantasievoll zu sein dann setzen wir unsere Kräfte wirklich positiv ein.
 1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	_
 2	wir	wir	PRON	ADJD	_	5	nsubj	_	_
@@ -3893,7 +3937,7 @@
 42	ein	ein	ADV	PTKVZ	_	36	compound:prt	_	SpaceAfter=No
 43	.	.	PUNCT	$.	_	36	punct	_	_
 
-# sent_id = 152
+# sent_id = 161
 # text = Wenn ein Geist über diese Qualitäten verfügt, können wir eine neue Wirklichkeit und neue Daseinsformen schaffen.
 1	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	_
 2	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -3914,7 +3958,7 @@
 17	schaffen	schaffen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	17	punct	_	_
 
-# sent_id = 153
+# sent_id = 162
 # text = Ich möchte mit einem Gedicht enden, das von einem persischen Poeten namens Hafiz im 14.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 2	möchte	mögen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
@@ -3934,9 +3978,10 @@
 15	in	in	ADP	APPR	_	17	case	_	_
 16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
 17	14	14	NUM	CARD	NumType=Card	18	nmod	_	SpaceAfter=No
-18	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
 
-# sent_id = 154
+# newpar
+# sent_id = 163
 # text = Jahrhundert verfasst wurde und von dem mir mein Freund Jacques Dembois erzählt hat.
 1	Jahrhundert	Jahrhundert	NOUN	ADJD	_	2	dep	_	_
 2	verfasst	verfassen	VERB	VVPP	VerbForm=Part	0	root	_	_
@@ -3953,7 +3998,7 @@
 13	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 155
+# sent_id = 164
 # text = Und das Gedicht heißt "Der Gott, der nur vier Worte kennt."
 1	Und	und	CCONJ	ADJD	_	4	cc	_	_
 2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
@@ -3971,7 +4016,7 @@
 14	.	.	PUNCT	$.	_	4	punct	_	SpaceAfter=No
 15	"	"	PUNCT	$(	_	4	punct	_	_
 
-# sent_id = 156
+# sent_id = 165
 # text = "Jedes Kind kennt Gott, nicht den Gott der Namen, nicht den Gott der Verbote, sondern den Gott, der nur vier Worte kennt und diese ständig wiederholt, er sagt immer nur: Komm, tanz mit mir."
 1	"	"	PUNCT	$(	_	3	punct	_	SpaceAfter=No
 2	Jedes	jed	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	3	det	_	_
@@ -4018,7 +4063,7 @@
 43	.	.	PUNCT	$.	_	4	punct	_	SpaceAfter=No
 44	"	"	PUNCT	$(	_	4	punct	_	_
 
-# sent_id = 157
+# sent_id = 166
 # text = Komm, tanz mit mir.
 1	Komm	Komm	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	3	punct	_	_
@@ -4027,9 +4072,9 @@
 5	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	obl	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 158
+# sent_id = 167
 # text = Vielen Dank.
 1	Vielen	viel	DET	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	amod	_	_
 2	Dank	Dank	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n\n
 

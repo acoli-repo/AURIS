@@ -1,4 +1,4 @@
-# newdoc id = txt/de/teddy-1132.txt
+# newdoc
 # newpar
 # sent_id = 1
 # text = Seit einiger Zeit interessiere ich mich für den Placebo-Effekt.
@@ -193,8 +193,9 @@
 7	wie	wie	SCONJ	NN	Case=Nom|Gender=Masc|Number=Sing	9	mark	_	_
 8	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
 9	funktioniert	funktionieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
-10	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 7
 # text = Das ist ein Trick, der mindestens seit den 1950ern in jedem Zauberbuch für Kinder steht.
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
@@ -365,8 +366,9 @@
 8	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
 9	irgendetwas	irgendetwas	PRON	PIS	Definite=Ind|PronType=Ind	10	nsubj	_	_
 10	bewegt	bewegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
-11	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+11	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 19
 # text = Solange ich hier zudrücke, kann nichts in meinen Ärmel wandern oder herauskommen.
 1	Solange	solange	SCONJ	KOUS	_	4	mark	_	_
@@ -459,8 +461,9 @@
 9	,	,	PUNCT	$,	_	11	punct	_	_
 10	keine	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	11	nmod	_	_
 11	Trickserei	Trickserei	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
-12	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 24
 # text = Und Sie können alles untersuchen.
 1	Und	und	CCONJ	ADJD	_	5	cc	_	_
@@ -688,8 +691,9 @@
 7	befindet	befinden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_
 8	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	expl:pv	_	_
 9	hier	hier	ADV	ADV	_	7	advmod	_	SpaceAfter=No
-10	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 34
 # text = Genau.
 1	Genau	genau	PROPN	ADV	_	0	root	_	SpaceAfter=No
@@ -784,8 +788,9 @@
 7	eigentlich	eigentlich	ADJ	ADV	_	3	advmod	_	_
 8	gar	gar	ADV	ADV	_	9	advmod	_	_
 9	nicht	nicht	PART	CARD	NumType=Card	3	advmod	_	SpaceAfter=No
-10	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+10	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 39
 # text = Und dann öffne ich meine Hand.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
@@ -865,8 +870,9 @@
 3	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
 4	Hand	Hand	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
 5	weg	weg	ADV	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
-6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 43
 # text = Und hier ist das Messer.
 1	Und	und	CCONJ	ADJD	_	5	cc	_	_
@@ -890,8 +896,9 @@
 4	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	5	cc	_	_
 5	Nachbarn	Nachbar	NOUN	NE	Case=Nom|Gender=Neut|Number=Sing	3	conj	_	_
 6	vorführen	vorführen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 46
 # text = Danke.
 1	Danke	Dank	NOUN	PTKANT	_	0	root	_	SpaceAfter=No
@@ -1078,8 +1085,9 @@
 # sent_id = 54
 # text = Was?
 1	Was	was	PRON	FM	Foreign=Yes	0	root	_	SpaceAfter=No
-2	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+2	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 55
 # text = (Gelächter) Das ließ mich wirklich ausflippen.
 1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
@@ -1186,8 +1194,9 @@
 20	genaue	genau	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	21	amod	_	_
 21	Statistik	Statistik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obl	_	_
 22	erinnern	erinnern	VERB	VVFIN	VerbForm=Inf	0	root	_	SpaceAfter=No
-23	.	.	PUNCT	$.	_	22	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	$.	_	22	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 61
 # text = Tut mir leid.
 1	Tut	tut	PROPN	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	nsubj	_	_
@@ -1251,8 +1260,9 @@
 # sent_id = 65
 # text = Richtig?
 1	Richtig	richtig	ADJ	ADJD	_	0	root	_	SpaceAfter=No
-2	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+2	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 66
 # text = Eine Spritze mit einer wirkungslosen - ein paar Milliliter einer wirkungslosen Substanz, die man einem Patienten injiziert.
 1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
@@ -1466,8 +1476,9 @@
 5	cm	cm	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	_
 6	lange	lang	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
 7	Hutnadel	Hutnadel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 77
 # text = Sie ist sehr, sehr spitz.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -1499,8 +1510,9 @@
 4	wirklich	wirklich	ADJ	ADV	_	6	advmod	_	_
 5	mein	mein	ADJ	ADJD	_	6	compound	_	_
 6	Fleisch	Fleisch	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 80
 # text = Es ist nicht Damians spezielles gezüchtetes Fleisch.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -1519,8 +1531,9 @@
 3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	5	det:poss	_	_
 5	Haut	Haut	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 82
 # text = Das ist kein Spezialeffekt aus Hollywood.
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
@@ -1708,8 +1721,9 @@
 2	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
 3	echt	echt	ADV	ADJD	_	4	advmod	_	_
 4	leid	leid	VERB	NN	Case=Acc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 90
 # text = Macht Sie das verrückt?
 1	Macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1790,8 +1804,9 @@
 5	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
 6	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	7	iobj	_	_
 7	zeigen	zeigen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 97
 # text = Das ist einer, zwei, drei, vier, fünf.
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
@@ -1878,8 +1893,9 @@
 3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 4	hier	hier	ADV	ADV	_	2	advmod	_	_
 5	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
-6	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+6	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 102
 # text = Ziemlich gut.
 1	Ziemlich	ziemlich	ADJ	ADV	_	2	advmod	_	_
@@ -1892,8 +1908,9 @@
 2	,	,	PUNCT	$,	_	4	punct	_	_
 3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 4	weiß	wissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 104
 # text = (Gelächter) Und die Leute hinten sagen: "Okay.
 1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
@@ -1907,8 +1924,9 @@
 9	:	:	PUNCT	$.	_	11	punct	_	_
 10	"	"	PUNCT	$(	_	11	punct	_	SpaceAfter=No
 11	Okay	okay	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	8	parataxis	_	SpaceAfter=No
-12	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+12	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 105
 # text = Ich habe das nicht richtig gesehen."
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
@@ -1952,8 +1970,9 @@
 3	wirklich	wirklich	ADV	ADV	_	5	advmod	_	_
 4	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	5	det:poss	_	_
 5	Haut	Haut	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 109
 # text = Das ist kein Spezialeffekt aus Hollywood.
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
@@ -1983,8 +2002,9 @@
 1	Tut	tut	PROPN	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	nsubj	_	_
 2	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
 3	leid	leid	VERB	NN	Case=Dat|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 112
 # text = Wenn Ihnen übel wird, schauen Sie weg, schauen Sie nicht hin.
 1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	_
@@ -2182,11 +2202,12 @@
 6	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	_
 7	schon	schon	ADV	ADV	_	8	advmod	_	_
 8	darauf	darauf	ADV	PAV	_	5	advmod	_	SpaceAfter=No
-9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 121
 # text = Vielen Dank.
 1	Vielen	viel	DET	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	amod	_	_
 2	Dank	Dank	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n\n
 

@@ -1,7 +1,7 @@
-# newdoc id = txt/de/cbsnews.146232.txt
+# newdoc
 # newpar
 # sent_id = 1
-# text = Simone Biles schafft Gold im Damenturnen Vergessen Sie den Druck.
+# text = Simone Biles schafft Gold im Damenturnen
 1	Simone	Simon	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	Biles	Bile	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
 3	schafft	schaffen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9,22 +9,28 @@
 5-6	im	_	_	_	_	_	_	_	_
 5	in	in	ADP	APPR	_	7	case	_	_
 6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	Damenturnen	Damenturnen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	SpacesAfter=\n
-8	Vergessen	vergessen	PROPN	NN	Case=Nom|Gender=Fem|Number=Plur	9	amod	_	_
-9	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
-10	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
-11	Druck	Druck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
-12	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+7	Damenturnen	Damenturnen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 2
+# text = Vergessen Sie den Druck.
+1	Vergessen	vergessen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Druck	Druck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
 # text = Vergessen Sie den Hype.
 1	Vergessen	vergessen	NOUN	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	_
 3	den	der	DET	ART	Case=Dat|Number=Plur|PronType=Art	4	det	_	_
 4	Hype	Hype	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	iobj	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
 
-# sent_id = 3
+# newpar
+# sent_id = 4
 # text = Simone Biles ist auf all das immun.
 1	Simone	Simon	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 2	Biles	Bile	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
@@ -33,50 +39,56 @@
 5	all	all	PRON	PIAT	Definite=Ind|PronType=Ind	7	nmod	_	_
 6	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
 7	immun	immun	ADJ	ADJD	_	0	root	_	SpaceAfter=No
-8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
 
-# sent_id = 4
+# newpar
+# sent_id = 5
 # text = Dynamisch auf dem Sprungpferd.
 1	Dynamisch	dynamisch	ADJ	ADJD	_	0	root	_	_
 2	auf	auf	ADP	APPR	_	4	case	_	_
 3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 4	Sprungpferd	Sprungpferd	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
 
-# sent_id = 5
+# newpar
+# sent_id = 6
 # text = Mühelos auf dem Balken.
 1	Mühelos	Mühelos	PROPN	ADJD	_	4	dep	_	_
 2	auf	auf	ADP	APPR	_	4	case	_	_
 3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Balken	Balken	NOUN	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 6
+# newpar
+# sent_id = 7
 # text = Atemberaubend auf dem Boden.
 1	Atemberaubend	atemberaubend	ADJ	ADJD	_	0	root	_	_
 2	auf	auf	ADP	APPR	_	4	case	_	_
 3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Boden	Boden	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
 
-# sent_id = 7
+# newpar
+# sent_id = 8
 # text = Auf ganzer Linie brilliant.
 1	Auf	auf	ADP	APPR	_	3	case	_	_
 2	ganzer	ganz	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	3	amod	_	_
 3	Linie	Linie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
 4	brilliant	brillianen	VERB	ADJD	_	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 8
+# newpar
+# sent_id = 9
 # text = Und jetzt endlich auch Olympiasiegerin.
 1	Und	und	CCONJ	ADJD	_	5	cc	_	_
 2	jetzt	jetzt	ADV	ADV	_	5	advmod	_	_
 3	endlich	endlich	ADV	ADV	_	5	advmod	_	_
 4	auch	auch	ADV	ADV	_	5	advmod	_	_
 5	Olympiasiegerin	Olympiasiegerin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
-# sent_id = 9
+# newpar
+# sent_id = 10
 # text = Die 19-jährige amerikanische Turnerin erklomm am Donnerstag zum Mehrkampftitel und vergrößerte die Lücke zwischen sich und dem Rest der Welt vor aller Augen unter dem Scheinwerferlicht der Olympischen Spiele.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 2	19-	19-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
@@ -112,9 +124,10 @@
 30	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
 31	Olympischen	olympisch	PROPN	ADJA	Case=Gen|Gender=Fem|Number=Sing	32	amod	_	_
 32	Spiele	Spiel	PROPN	NN	Case=Gen|Gender=Neut|Number=Plur	29	nmod	_	SpaceAfter=No
-33	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+33	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
 
-# sent_id = 10
+# newpar
+# sent_id = 11
 # text = Ihr Gesamtergebnis von 62,198 lag eindeutig vor der Silbermedaillengewinner und "Final Five"-Mannschaftskameradin Aly Raisman und der russischen Bronzemedaillengewinnerin Aliya Mustafina.
 1	Ihr	Ihr|ihr	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	2	det:poss	_	_
 2	Gesamtergebnis	Gesamtergebnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
@@ -140,9 +153,10 @@
 22	Bronzemedaillengewinnerin	Bronzemedaillengewinnerin	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	conj	_	_
 23	Aliya	Aliya	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	22	appos	_	_
 24	Mustafina	Mustafina	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	23	flat	_	SpaceAfter=No
-25	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
-# sent_id = 11
+# newpar
+# sent_id = 12
 # text = Die Amerikanerinnen Simone Biles turnt auf dem Schwebebalken während des Einzelmehrkampffinales der Frauen im Kunstturnen bei den Olympischen Sommerspielen in Rio de Janeiro 2016, Brasilien, Donnerstag.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	Amerikanerinnen	Amerikanerin	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
@@ -174,9 +188,10 @@
 27	Brasilien	Brasilien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	20	conj	_	SpaceAfter=No
 28	,	,	PUNCT	$,	_	29	punct	_	_
 29	Donnerstag	Donnerstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	20	conj	_	SpaceAfter=No
-30	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+30	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
-# sent_id = 12
+# newpar
+# sent_id = 13
 # text = Biles ist die vierte heterosexuelle Amerikanerin, die einen Mehrkampftitel gewinnt und insgesamt die fünfte, während sie ihren Ruf festigt, die Beste ihrer Generation oder sogar überhaupt zu sein.
 1	Biles	Biles	PRON	NE	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	6	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -209,9 +224,10 @@
 29	überhaupt	überhaupt	ADV	ADV	_	24	advmod	_	_
 30	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	24	mark	_	_
 31	sein	sein	AUX	VAINF	VerbForm=Inf	24	cop	_	SpaceAfter=No
-32	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n
+32	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n\n
 
-# sent_id = 13
+# newpar
+# sent_id = 14
 # text = Sie brach in Tränen aus, als ihr Endergebnis gezeigt wurde und ihre lange Reise in diesem Moment ein Ende fand.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	brach	brechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -234,9 +250,10 @@
 19	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
 20	Ende	Ende	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_
 21	fand	finden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	SpaceAfter=No
-22	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+22	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 14
+# newpar
+# sent_id = 15
 # text = Dieser Erfolg stellt sie in dieselbe Liga wie einzigartige Athleten wie Michael Phelps, die ihre Sportarten zu neuen Höhen gebracht habe:
 1	Dieser	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	Erfolg	Erfolg	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
@@ -260,9 +277,10 @@
 20	Höhen	Höhe	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	21	obl	_	_
 21	gebracht	bringen	VERB	VVPP	VerbForm=Part	10	acl	_	_
 22	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	SpaceAfter=No
-23	:	:	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+23	:	:	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 15
+# newpar
+# sent_id = 16
 # text = Biles hat die letzten drei Jahre ihre Sportart dominiert, 15 Weltmeistermedaillen - einschließlich 10 Goldmedaillen - mit so erstaunlichen Übungen gewonnen, die eine Mischung aus Ehrgeiz und Präzision beinhalten, dass die Olympiasiegerin von 1984 Mary Lou Retton von ihr sagte, dass sie "die beste Turnerin ist, die ich jemals gesehen habe."
 1	Biles	Biles	PRON	NE	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	9	nsubj	_	_
 2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
@@ -322,9 +340,10 @@
 56	gesehen	sehen	VERB	VVINF	VerbForm=Inf	50	acl	_	_
 57	habe	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	aux	_	SpaceAfter=No
 58	.	.	PUNCT	$.	_	43	punct	_	SpaceAfter=No
-59	"	"	PUNCT	$(	_	9	punct	_	SpacesAfter=\n
+59	"	"	PUNCT	$(	_	9	punct	_	SpacesAfter=\n\n
 
-# sent_id = 16
+# newpar
+# sent_id = 17
 # text = Es erwartete sie eine letzte Prüfung in Brasilien, ein Wettbewerb, der nicht so sehr zwischen Biles und dem Rest der Athleten ging, sondern vielmehr zwischen ihr und einer Last überdimensionierter Erwartungen.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	erwartete	erwarten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -360,9 +379,10 @@
 32	Last	Last	NOUN	NN	Foreign=Yes	34	amod	_	_
 33	überdimensionierter	überdimensioniert	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	34	amod	_	_
 34	Erwartungen	Erwartung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	29	conj	_	SpaceAfter=No
-35	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+35	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 17
+# newpar
+# sent_id = 18
 # text = Nicht mit einer Handvoll Gold zurück zur Familie in Spring, Texas zurückkehren, wäre als Enttäuschung angesehen werden.
 1	Nicht	nicht	PART	NN	Case=Dat|Gender=Fem|Number=Sing|NumType=Card	5	advmod	_	_
 2	mit	mit	ADP	$(	_	5	case	_	_
@@ -385,10 +405,11 @@
 18	Enttäuschung	Enttäuschung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	obl	_	_
 19	angesehen	ansehen	VERB	VVPP	VerbForm=Part	14	parataxis	_	_
 20	werden	werden	AUX	NE	Case=Acc|Number=Plur	19	aux:pass	_	SpaceAfter=No
-21	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n
+21	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n\n
 
-# sent_id = 18
-# text = Die Amerikanerinnen Simone Biles, links, und Aly Raisman umarmen sich, nachdem sie jeweils Gold und Silber im Einzelmehrkampffinale der Frauen im Kunstturnen bei den Olympischen Sommerspielen 2016 in Rio de Janeiro, Brasilien, Donnerstag, gewonnen haben Biles holte die erste Medaille am Dienstag, während sie auf der Abschiedsfeier der sich in Ruhestand begehenden Mannschaftskoordinatorin Martha Karolyi als Ausrufezeichen diente.
+# newpar
+# sent_id = 19
+# text = Die Amerikanerinnen Simone Biles, links, und Aly Raisman umarmen sich, nachdem sie jeweils Gold und Silber im Einzelmehrkampffinale der Frauen im Kunstturnen bei den Olympischen Sommerspielen 2016 in Rio de Janeiro, Brasilien, Donnerstag, gewonnen haben
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	Amerikanerinnen	Amerikanerin	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
 3	Simone	Simon	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
@@ -433,36 +454,41 @@
 40	Donnerstag	Donnerstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	34	conj	_	SpaceAfter=No
 41	,	,	PUNCT	$,	_	17	punct	_	_
 42	gewonnen	gewinnen	VERB	VVPP	VerbForm=Part	11	advcl	_	_
-43	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	SpacesAfter=\n
-44	Biles	Bile	PROPN	NE	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	42	obl	_	_
-45	holte	holen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
-46	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
-47	erste	erst	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	48	amod	_	_
-48	Medaille	Medaille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	45	obj	_	_
-49-50	am	_	_	_	_	_	_	_	_
-49	an	an	ADP	APPR	_	51	case	_	_
-50	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
-51	Dienstag	Dienstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
-52	,	,	PUNCT	$,	_	68	punct	_	_
-53	während	während	SCONJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	68	mark	_	_
-54	sie	sie	PRON	ADJA	Case=Acc|Gender=Fem|Number=Sing	68	nsubj	_	_
-55	auf	auf	ADP	APPR	_	57	case	_	_
-56	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
-57	Abschiedsfeier	Abschiedsfeier	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	68	obl	_	_
-58	der	der	PRON	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	63	det	_	_
-59	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	63	obj	_	_
-60	in	in	ADP	APPR	_	61	case	_	_
-61	Ruhestand	Ruhestand	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	62	nmod	_	_
-62	begehenden	begehend	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	63	amod	_	_
-63	Mannschaftskoordinatorin	Mannschaftskoordinatorin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	57	nmod	_	_
-64	Martha	Martha	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	63	appos	_	_
-65	Karolyi	Karolyi	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	64	flat	_	_
-66	als	als	ADP	KOKOM	_	67	case	_	_
-67	Ausrufezeichen	Ausrufezeichen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	68	obl	_	_
-68	diente	dienen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	45	advcl	_	SpaceAfter=No
-69	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n
+43	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	SpacesAfter=\n\n
 
-# sent_id = 19
+# newpar
+# sent_id = 20
+# text = Biles holte die erste Medaille am Dienstag, während sie auf der Abschiedsfeier der sich in Ruhestand begehenden Mannschaftskoordinatorin Martha Karolyi als Ausrufezeichen diente.
+1	Biles	Bile	PROPN	NE	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	holte	holen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	erste	erst	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
+5	Medaille	Medaille	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	_
+6-7	am	_	_	_	_	_	_	_	_
+6	an	an	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Dienstag	Dienstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	25	punct	_	_
+10	während	während	SCONJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	25	mark	_	_
+11	sie	sie	PRON	ADJA	Case=Acc|Gender=Fem|Number=Sing	25	nsubj	_	_
+12	auf	auf	ADP	APPR	_	14	case	_	_
+13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Abschiedsfeier	Abschiedsfeier	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	25	obl	_	_
+15	der	der	PRON	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	nsubj	_	_
+16	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	25	obj	_	_
+17	in	in	ADP	APPR	_	20	case	_	_
+18	Ruhestand	Ruhestand	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	19	nmod	_	_
+19	begehenden	begehend	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	20	amod	_	_
+20	Mannschaftskoordinatorin	Mannschaftskoordinatorin	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	25	obl	_	_
+21	Martha	Martha	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	20	appos	_	_
+22	Karolyi	Karolyi	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	21	flat	_	_
+23	als	als	ADP	KOKOM	_	24	case	_	_
+24	Ausrufezeichen	Ausrufezeichen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	25	obl	_	_
+25	diente	dienen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 21
 # text = Obwohl Biles darauf bestand, während ihres langen Wegs auf die Spitze, nie die Zukunft geplant zu haben, ist das nicht wirklich wahr.
 1	Obwohl	obwohl	SCONJ	KOUS	_	4	mark	_	_
 2	Biles	Bile	PROPN	NE	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	4	nsubj	_	_
@@ -489,9 +515,10 @@
 23	nicht	nicht	PART	NN	Case=Nom|Gender=Neut|Number=Sing|NumType=Card	24	advmod	_	_
 24	wirklich	wirklich	ADJ	ADV	_	25	advmod	_	_
 25	wahr	wahr	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-26	.	.	PUNCT	$.	_	25	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	$.	_	25	punct	_	SpacesAfter=\n\n
 
-# sent_id = 20
+# newpar
+# sent_id = 22
 # text = Ein Teil ihrer Bodenübungen - die ihren typischen Tumbling Pass enthalten - ist auf lateinamerikanische Musik abgestimmt, das zuhause auf der Straße außerhalb der Olympiaarena in Rio passen würde.
 1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Teil	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	obj	_	_
@@ -523,17 +550,19 @@
 28	Rio	Rio	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	26	nmod	_	_
 29	passen	passen	VERB	VVINF	VerbForm=Inf	17	acl	_	_
 30	würde	werden	AUX	NE	Case=Nom|Number=Sing	29	aux	_	SpaceAfter=No
-31	.	.	PUNCT	$.	_	17	punct	_	SpacesAfter=\n
+31	.	.	PUNCT	$.	_	17	punct	_	SpacesAfter=\n\n
 
-# sent_id = 21
+# newpar
+# sent_id = 23
 # text = Das ist kein Zufall.
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	kein	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	4	nmod	_	_
 4	Zufall	Zufall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 22
+# newpar
+# sent_id = 24
 # text = Dieses Mädchen, das von ihren Großeltern als kleines Kind adoptiert und von Trainerin Aimee Boormans Mutter während eines Schulausflugs in die Turnhalle entdeckt wurde, in der Boorman trainierte, wurde zur Kraft.
 1	Dieses	dies	PRON	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
 2	Mädchen	Mädchen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	32	nsubj	_	SpaceAfter=No
@@ -571,9 +600,10 @@
 33	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	35	case	_	_
 34	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	Kraft	Kraft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	32	xcomp	_	SpaceAfter=No
-36	.	.	PUNCT	$.	_	32	punct	_	SpacesAfter=\n
+36	.	.	PUNCT	$.	_	32	punct	_	SpacesAfter=\n\n
 
-# sent_id = 23
+# newpar
+# sent_id = 25
 # text = Sie hat seit dem Sommer 2013 keinen Mehrkampfwettbewerb mehr verloren, eine Siegesserie, die so lange anhalten wird, wie es Biles wünscht.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -599,9 +629,10 @@
 22	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	expl	_	_
 23	Biles	Bile	PROPN	NE	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	24	nsubj	_	_
 24	wünscht	wünschen	ADJ	ADJD	_	18	conj	_	SpaceAfter=No
-25	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 24
+# newpar
+# sent_id = 26
 # text = Auch wenn Mustafina durch zwei Drehungen leicht führte, trügte das Bild.
 1	Auch	auch	ADV	ADV	_	8	advmod	_	_
 2	wenn	wenn	SCONJ	VVFIN	_	8	mark	_	_
@@ -615,9 +646,10 @@
 10	trügte	trügen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
 11	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
 12	Bild	Bild	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	obj	_	SpaceAfter=No
-13	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+13	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n
 
-# sent_id = 25
+# newpar
+# sent_id = 27
 # text = Schwebebalken und Bodenturnen - in denen Biles den Weltmeistertitel hält - lauerten.
 1	Schwebebalken	Schwebebalke	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
 2	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	3	cc	_	_
@@ -631,9 +663,10 @@
 10	hält	halten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	-	-	PUNCT	$(	_	12	punct	_	_
 12	lauerten	laueren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	SpaceAfter=No
-13	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+13	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
 
-# sent_id = 26
+# newpar
+# sent_id = 28
 # text = Sie holte wieder mit 15,433 auf dem Schwebebalken wieder auf - und setzte mit einem 15,933 auf dem Boden noch einen darauf.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	holte	holen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -657,9 +690,10 @@
 20	noch	noch	ADV	NE	Case=Dat|Gender=Masc|Number=Sing	19	advmod	_	_
 21	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	darauf	darauf	ADV	NN	Case=Acc|Gender=Masc|Number=Sing	13	advmod	_	SpaceAfter=No
-23	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 27
+# newpar
+# sent_id = 29
 # text = Raisman umarmte sie sanft als sie ihr Endergbnis erwarteten - eine reine Formalität - und Tränen strömten auf Biles glänzend roten, weißen und blauen Eyeliner, als die Vision, die sie einst in ihrem Sammelbuch beschrieb, zur Wirklichkeit wurde.
 1	Raisman	Raisman	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	umarmte	umarmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -705,9 +739,10 @@
 41	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
 42	Wirklichkeit	Wirklichkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	43	nmod	_	_
 43	wurde	werden	VERB	ADV	_	17	advcl	_	SpaceAfter=No
-44	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+44	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 28
+# newpar
+# sent_id = 30
 # text = Die Leistung Raismans war eine Rache für das letzte Mal vor vier Jahren, als sie um den dritten Platz kämpfte, aber die Bronzemedaille in einem Tiebrake an Mustafina ging.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Leistung	Leistung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -740,9 +775,10 @@
 29	an	an	ADP	APPR	_	30	case	_	_
 30	Mustafina	Mustafina	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	28	nmod	_	_
 31	ging	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	conj	_	SpaceAfter=No
-32	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+32	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
 
-# sent_id = 29
+# newpar
+# sent_id = 31
 # text = Dieses Mal hatte die 22-jährige Mannschaftskapitänin, die von den Amerikanern "Oma" genannt wird, einen Vorsprung.
 1	Dieses	dies	PRON	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
 2	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
@@ -765,9 +801,10 @@
 19	,	,	PUNCT	$,	_	17	punct	_	_
 20	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	Vorsprung	Vorsprung	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
-22	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+22	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 30
+# newpar
+# sent_id = 32
 # text = Nach ihrer Bodenübung warf sie dem Publikum Kusshände zu, überwältigt von einem Comeback, das manchmal zweifelhaft erschien.
 1	Nach	nach	ADP	APPR	_	3	case	_	_
 2	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	3	det:poss	_	_
@@ -788,9 +825,10 @@
 17	manchmal	manchmal	ADV	ADV	_	19	advmod	_	_
 18	zweifelhaft	zweifelhaft	ADJ	ADJD	_	19	xcomp	_	_
 19	erschien	erscheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	acl	_	SpaceAfter=No
-20	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 31
+# newpar
+# sent_id = 33
 # text = Was Biles betrifft, so hat der sich schnell ausbreitende Tweet der 19-Jährigen von Anfang dieser Woche eine ganz neue Bedeutung:
 1	Was	was	PRON	FM	Foreign=Yes	2	det	_	_
 2	Biles	Bil	NOUN	NE	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	3	nsubj	_	_
@@ -814,5 +852,5 @@
 20	ganz	ganz	ADV	ADV	_	21	advmod	_	_
 21	neue	neu	ADJ	NN	Case=Gen|Gender=Fem|Number=Sing	22	amod	_	_
 22	Bedeutung	Bedeutung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
-23	:	:	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+23	:	:	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 

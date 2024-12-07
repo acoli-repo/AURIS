@@ -1,4 +1,4 @@
-# newdoc id = txt/de/teddy-1124.txt
+# newdoc
 # newpar
 # sent_id = 1
 # text = Ich bin Jane McGonigal.
@@ -6,8 +6,9 @@
 2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	Jane	Jan	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 4	McGonigal	McGonigal	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 2
 # text = Ich entwerfe Computerspiele.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
@@ -317,8 +318,9 @@
 40	Jahrzehnts	Jahrzehnt	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	37	nmod	_	_
 41	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	42	mark	_	_
 42	spielen	spielen	VERB	VVINF	VerbForm=Inf	23	xcomp	_	SpaceAfter=No
-43	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n
+43	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 16
 # text = (Gelächter) Nein, ich meine es wirklich ernst.
 1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
@@ -336,8 +338,9 @@
 # sent_id = 17
 # text = Warum?
 1	Warum	warum	PROPN	PWAV	PronType=Int	0	root	_	SpaceAfter=No
-2	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+2	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 18
 # text = Dieses Bild beschreibt ziemlich genau, warum ich glaube, dass Spiele so unerlässlich für das Überleben der menschlichen Spezies in der Zukunft sind.
 1	Dieses	dies	PRON	PDAT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
@@ -364,8 +367,9 @@
 22	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	Zukunft	Zukunft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	nmod	_	_
 24	sind	sein	AUX	ADJD	_	14	cop	_	SpaceAfter=No
-25	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 19
 # text = (Gelächter) Ernsthaft.
 1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
@@ -539,13 +543,15 @@
 6	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
 7	kennen	kennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	das	der	DET	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	7	obj	_	SpaceAfter=No
-9	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+9	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 30
 # text = OK.
 1	OK	OK	ADJ	NN	Case=Dat|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
-2	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+2	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 31
 # text = Prima.
 1	Prima	prima	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -620,8 +626,9 @@
 16	etwas	etwas	ADV	ADV	_	17	advmod	_	_
 17	fähig	fähig	ADJ	ADJD	_	9	ccomp	_	_
 18	sind	sein	AUX	ADJD	_	17	cop	_	SpaceAfter=No
-19	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 36
 # text = Das ist ein epischer Sieg.
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
@@ -748,13 +755,15 @@
 7	,	,	PUNCT	$,	_	8	punct	_	_
 8	sehen	sehen	VERB	VVINF	VerbForm=Inf	6	acl	_	_
 9	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	SpaceAfter=No
-10	?	?	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+10	?	?	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 43
 # text = Ja?
 1	Ja	Ja	PROPN	PTKANT	_	0	root	_	SpaceAfter=No
-2	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+2	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 44
 # text = OK.
 1	OK	OK	ADJ	NN	Case=Dat|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
@@ -1634,8 +1643,9 @@
 1	Aber	aber	CCONJ	KON	_	3	cc	_	_
 2	auch	auch	ADV	ADV	_	3	advmod	_	_
 3	angebracht	anbringen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 89
 # text = Denn es stellt sich heraus, dass wir, indem wir diese ganze Zeit aufs Spielen verwenden, tatsächlich das verändern, wozu wir als Menschen in der Lage sind.
 1	Denn	denn	SCONJ	KON	_	3	mark	_	_
@@ -1691,8 +1701,9 @@
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Wahrheit	Wahrheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 92
 # text = Daran glaube ich.
 1	Daran	daran	ADV	PAV	_	2	advmod	_	_
@@ -1701,7 +1712,7 @@
 4	.	.	PUNCT	$.	_	2	punct	_	_
 
 # sent_id = 93
-# text = Betrachten Sie einmal diese interessante Statistik, die kürzlich von einem Forscher der Carnegie Mellon University veröffentlicht wurde: Der durchschnittliche junge Mensch von heute in einem Land mit starker Spielkultur verbringt 10.000 Stunden mit Online-Spielen bis zum 21. Lebensjahr.
+# text = Betrachten Sie einmal diese interessante Statistik, die kürzlich von einem Forscher der Carnegie Mellon University veröffentlicht wurde: Der durchschnittliche junge Mensch von heute in einem Land mit starker Spielkultur verbringt 10.000 Stunden mit Online-Spielen bis zum 21.
 1	Betrachten	betrachten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	_
 3	einmal	einmal	ADV	ADV	_	1	advmod	_	_
@@ -1725,7 +1736,7 @@
 21	durchschnittliche	durchschnittlich	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	23	amod	_	_
 22	junge	jung	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	23	amod	_	_
 23	Mensch	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	_
-24	von	von	ADP	FM	Foreign=Yes	25	case	_	_
+24	von	von	ADP	FM	Foreign=Yes	32	case	_	_
 25	heute	heute	ADV	ADV	_	32	advmod	_	_
 26	in	in	ADP	APPR	_	28	case	_	_
 27	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	28	det	_	_
@@ -1740,15 +1751,19 @@
 36	Online	Online	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	38	compound	_	SpaceAfter=No
 37	-	-	PUNCT	$(	_	36	punct	_	SpaceAfter=No
 38	Spielen	Spiel|Spielen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	34	nmod	_	_
-39	bis	bis	ADP	APPR	_	43	case	_	_
+39	bis	bis	ADP	APPR	_	42	case	_	_
 40-41	zum	_	_	_	_	_	_	_	_
-40	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	43	case	_	_
-41	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	43	det	_	_
-42	21.	21	NUM	ADJA	Case=Dat|Gender=Masc|Number=Sing	43	nummod	_	SpacesAfter=\n
-43	Lebensjahr	Lebensjahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	34	nmod	_	SpaceAfter=No
-44	.	.	PUNCT	$.	_	1	punct	_	_
+40	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	42	case	_	_
+41	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	21.	21	NUM	ADJA	Case=Dat|Gender=Masc|Number=Sing	32	obl	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 94
+# text = Lebensjahr.
+1	Lebensjahr	Lebensjahr	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 95
 # text = Also, 10.000 Stunden ist eine äußerst interessante Zahl, aus 2 Gründen:
 1	Also	also	ADV	ADV	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	9	punct	_	_
@@ -1765,7 +1780,7 @@
 13	Gründen	gründen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
 14	:	:	PUNCT	$.	_	13	punct	_	_
 
-# sent_id = 95
+# sent_id = 96
 # text = Zuerst einmal, für Kinder in den USA sind 10.080 Stunden die genaue Gesamtzeit, die sie in der Schule verbringen, von der 5.
 1	Zuerst	zuerst	ADV	ADV	_	2	advmod	_	_
 2	einmal	einmal	ADV	ADV	_	14	advmod	_	SpaceAfter=No
@@ -1792,9 +1807,10 @@
 23	von	von	ADP	FM	Foreign=Yes	25	case	_	_
 24	der	der	DET	PDS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
 25	5	5	NUM	CARD	NumType=Card	14	nmod	_	SpaceAfter=No
-26	.	.	PUNCT	$.	_	25	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	$.	_	25	punct	_	SpacesAfter=\n\n
 
-# sent_id = 96
+# newpar
+# sent_id = 97
 # text = Klasse bis zum Abschluss der High School - wenn man niemals fehlt.
 1	Klasse	Klasse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 2	bis	bis	ADP	APPR	_	5	case	_	_
@@ -1812,7 +1828,7 @@
 13	fehlt	fehlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 97
+# sent_id = 98
 # text = Also haben wir hier einen kompletten Parallelbildungsweg, auf dem junge Menschen genauso lernen, was es bedeutet, ein guter Spieler zu sein, wie alles andere, was sie in der Schule lernen.
 1	Also	also	ADV	ADV	_	14	advmod	_	_
 2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
@@ -1851,7 +1867,7 @@
 35	lernen	lernen	VERB	VVINF	VerbForm=Inf	28	acl	_	SpaceAfter=No
 36	.	.	PUNCT	$.	_	14	punct	_	_
 
-# sent_id = 98
+# sent_id = 99
 # text = Und vielleicht haben einige von Ihnen das neue Buch von Malcolm Gladwell, "Überflieger", gelesen.
 1	Und	und	CCONJ	ADJD	_	18	cc	_	_
 2	vielleicht	vielleicht	ADV	FM	Foreign=Yes	18	advmod	_	_
@@ -1873,7 +1889,7 @@
 18	gelesen	lesen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	18	punct	_	_
 
-# sent_id = 99
+# sent_id = 100
 # text = Also kennen Sie seine Theorie des Erfolgs, die Theorie des Erfolgs der 10.000 Stunden.
 1	Also	also	ADV	ADV	_	2	advmod	_	_
 2	kennen	kennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1892,8 +1908,8 @@
 15	Stunden	Stunde|Stunden	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 100
-# text = Sie basiert auf der großartigen Forschung der Kognitivwissenschaft, dass, wenn wir 10.000 Stunden mit dem mühsamen Studium eines beliebigen Themas bis zum 21. Lebensjahr verbringen, werden wir zu Meistern darin.
+# sent_id = 101
+# text = Sie basiert auf der großartigen Forschung der Kognitivwissenschaft, dass, wenn wir 10.000 Stunden mit dem mühsamen Studium eines beliebigen Themas bis zum 21.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	basiert	basieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	auf	auf	ADP	APPR	_	6	case	_	_
@@ -1902,36 +1918,40 @@
 6	Forschung	Forschung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
 7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Kognitivwissenschaft	Kognitivwissenschaft	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	$,	_	28	punct	_	_
-10	dass	dass	SCONJ	KOUS	_	28	mark	_	SpaceAfter=No
-11	,	,	PUNCT	$,	_	28	punct	_	_
-12	wenn	wenn	SCONJ	VVFIN	_	28	mark	_	_
-13	wir	wir	PRON	ADJD	_	28	nsubj	_	_
+9	,	,	PUNCT	$,	_	15	punct	_	_
+10	dass	dass	SCONJ	KOUS	_	15	mark	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	15	punct	_	_
+12	wenn	wenn	SCONJ	VVFIN	_	15	mark	_	_
+13	wir	wir	PRON	ADJD	_	15	nsubj	_	_
 14	10.000	10.000	NUM	CARD	NumType=Card	15	nummod	_	_
-15	Stunden	Stunde|Stunden	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	28	obj	_	_
+15	Stunden	Stunde|Stunden	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	nmod	_	_
 16	mit	mit	ADP	$(	_	19	case	_	_
 17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
 18	mühsamen	mühsam	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	19	amod	_	_
-19	Studium	Studium	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	28	obl	_	_
+19	Studium	Studium	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	_
 20	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
 21	beliebigen	beliebig	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	22	amod	_	_
-22	Themas	Thema	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
-23	bis	bis	ADP	APPR	_	27	case	_	_
+22	Themas	Thema	NOUN	NE	Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+23	bis	bis	ADP	APPR	_	26	case	_	_
 24-25	zum	_	_	_	_	_	_	_	_
-24	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	27	case	_	_
-25	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	27	det	_	_
-26	21.	21	NUM	ADJA	Case=Dat|Gender=Masc|Number=Sing	27	nummod	_	SpacesAfter=\n
-27	Lebensjahr	Lebensjahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	28	obl	_	_
-28	verbringen	verbringen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
-29	,	,	PUNCT	$,	_	28	punct	_	_
-30	werden	werden	AUX	NN	Case=Nom|Gender=Masc|Number=Plur	28	aux:pass	_	_
-31	wir	wir	PRON	ADJA	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
-32	zu	zu	ADP	NN	Case=Nom|Gender=Masc|Number=Plur	33	case	_	_
-33	Meistern	Meister	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	28	obl	_	_
-34	darin	darin	ADV	PAV	_	28	advmod	_	SpaceAfter=No
-35	.	.	PUNCT	$.	_	2	punct	_	_
+24	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	26	case	_	_
+25	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	21.	21	NUM	ADJA	Case=Dat|Gender=Masc|Number=Sing	19	nmod	_	SpacesAfter=\n\n
 
-# sent_id = 101
+# newpar
+# sent_id = 102
+# text = Lebensjahr verbringen, werden wir zu Meistern darin.
+1	Lebensjahr	Lebensjahr	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	dep	_	_
+2	verbringen	verbringen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	werden	werden	AUX	NN	Case=Nom|Gender=Fem|Number=Plur	2	aux:pass	_	_
+5	wir	wir	PRON	ADJD	_	2	nsubj	_	_
+6	zu	zu	ADP	NN	Case=Nom|Number=Plur	7	case	_	_
+7	Meistern	Meister	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	2	obl	_	_
+8	darin	darin	ADV	PAV	_	2	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 103
 # text = Wir werden so gut darin, was auch immer zu tun, wie die bedeutendsten Menschen der Welt.
 1	Wir	wir	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	werden	werden	VERB	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
@@ -1953,7 +1973,7 @@
 18	Welt	Welt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 102
+# sent_id = 104
 # text = Also, was wir hier haben, ist eine komplette Generation junger Menschen, die Meister-Spieler sind.
 1	Also	also	ADV	ADV	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	6	punct	_	_
@@ -1976,7 +1996,7 @@
 19	sind	sein	AUX	ADJD	_	6	cop	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 103
+# sent_id = 105
 # text = Die große Frage ist also: "Worin genau sind Spieler meisterhaft gut?"
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	große	groß	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
@@ -1994,7 +2014,7 @@
 14	?	?	PUNCT	$.	_	13	punct	_	SpaceAfter=No
 15	"	"	PUNCT	$(	_	5	punct	_	_
 
-# sent_id = 104
+# sent_id = 106
 # text = Denn wenn wir das herausfinden könnten, hätten wir quasi vorher nie da gewesenes menschliches Potenzial zur Verfügung.
 1	Denn	denn	ADV	KON	_	5	advmod	_	_
 2	wenn	wenn	SCONJ	VVFIN	_	5	mark	_	_
@@ -2018,7 +2038,7 @@
 19	Verfügung	Verfügung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 105
+# sent_id = 107
 # text = So viele Menschen haben wir derzeit in der Welt, die mindestens eine Stunde pro Tag mit Online-Spielen verbringen.
 1	So	so	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	6	advmod	_	_
 2	viele	viel	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
@@ -2043,7 +2063,7 @@
 21	verbringen	verbringen	VERB	VVFIN	VerbForm=Inf	9	acl	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 106
+# sent_id = 108
 # text = Dies sind unsere Meister-Spieler.
 1	Dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
 2	sind	sein	AUX	ADJD	_	6	cop	_	_
@@ -2053,7 +2073,7 @@
 6	Spieler	Spieler	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 107
+# sent_id = 109
 # text = 500 Millionen Menschen, die außergewöhnlich gut in "Etwas" sind.
 1	500	500	NUM	CARD	NumType=Card	2	nummod	_	_
 2	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	nmod	_	_
@@ -2069,7 +2089,7 @@
 12	sind	sein	AUX	ADJD	_	7	cop	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 108
+# sent_id = 110
 # text = Und im nächsten Jahrzehnt haben wir eine weitere Milliarde Spieler, die außergewöhnlich gut in was auch immer sind.
 1	Und	und	CCONJ	ADJD	_	6	cc	_	_
 2-3	im	_	_	_	_	_	_	_	_
@@ -2094,7 +2114,7 @@
 20	sind	sein	AUX	ADJD	_	19	cop	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 109
+# sent_id = 111
 # text = Falls Sie es noch nicht gehört haben, die Spieleindustrie entwickelt Konsolen, die Energie sparen und auf Mobilfunknetzen arbeiten, statt dem Breitband-Internet, damit Spieler auf der ganzen Welt, besonders in Indien, China, Brasilien online spielen können.
 1	Falls	Falls	SCONJ	KOUS	_	6	mark	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
@@ -2142,7 +2162,7 @@
 44	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	SpaceAfter=No
 45	.	.	PUNCT	$.	_	20	punct	_	_
 
-# sent_id = 110
+# sent_id = 112
 # text = Man erwartet eine zusätzliche Milliarde Spieler im nächsten Jahrzehnt.
 1	Man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	2	nsubj	_	_
 2	erwartet	erwarten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2157,7 +2177,7 @@
 10	Jahrzehnt	Jahrzehnt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 111
+# sent_id = 113
 # text = Damit haben wir insgesamt 1,5 Milliarden Spieler.
 1	Damit	damit	ADV	PAV	_	2	advmod	_	_
 2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2168,7 +2188,7 @@
 7	Spieler	Spieler	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 112
+# sent_id = 114
 # text = Also habe ich angefangen, zu überlegen, was es ist, worin uns diese Spiele zu Meistern machen.
 1	Also	also	ADV	ADV	_	4	advmod	_	_
 2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -2191,7 +2211,7 @@
 19	machen	machen	VERB	VVINF	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 113
+# sent_id = 115
 # text = Hier sind die 4 Dinge die ich fand.
 1	Hier	hier	ADV	ADV	_	8	advmod	_	_
 2	sind	sein	AUX	ADJD	_	8	cop	_	_
@@ -2201,9 +2221,10 @@
 6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 8	fand	finden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
-9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n
 
-# sent_id = 114
+# newpar
+# sent_id = 116
 # text = Als Erstes: Dringlichkeits-Optimismus.
 1	Als	als	ADP	KOKOM	_	2	case	_	_
 2	Erstes	erst	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -2213,7 +2234,7 @@
 6	Optimismus	Optimismus	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	4	flat	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 115
+# sent_id = 117
 # text = OK, stellen Sie sich das wie extreme Selbstmotivierung vor.
 1	OK	OK	PROPN	NN	_	3	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	1	punct	_	_
@@ -2227,7 +2248,7 @@
 10	vor	vor	ADP	NE	Case=Acc|Gender=Fem|Number=Sing	3	compound:prt	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 116
+# sent_id = 118
 # text = Dringlichkeits-Optimismus ist das Verlangen, sofort etwas zu tun, eine Hürde zu meistern, zusammen mit dem Glauben, dass wir eine begründete Hoffnung auf Erfolg haben.
 1	Dringlichkeits	Dringlichkeits	NOUN	ADV	_	3	compound	_	SpaceAfter=No
 2	-	-	PUNCT	$(	_	1	punct	_	SpaceAfter=No
@@ -2261,7 +2282,7 @@
 30	haben	haben	VERB	VAINF	VerbForm=Inf	21	ccomp	_	SpaceAfter=No
 31	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 117
+# sent_id = 119
 # text = Spieler glauben immer daran, dass ein epischer Sieg möglich ist, und dass es sich immer lohnt, es zu versuchen, und zwar gleich.
 1	Spieler	Spieler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
 2	glauben	glauben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2291,7 +2312,7 @@
 26	gleich	gleich	ADJ	PTKVZ	_	22	conj	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 118
+# sent_id = 120
 # text = Spieler sitzen nicht herum.
 1	Spieler	Spiel	PRON	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
 2	sitzen	sitzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2299,7 +2320,7 @@
 4	herum	herum	ADV	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 119
+# sent_id = 121
 # text = Spieler sind Meister im Spinnen dichter sozialer Netze.
 1	Spieler	Spieler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 2	sind	sein	AUX	ADJD	_	3	cop	_	_
@@ -2313,7 +2334,7 @@
 9	Netze	Netz	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 120
+# sent_id = 122
 # text = Es gibt eine Menge interessanter Untersuchungen, die zeigen, das wir Leute mehr mögen, nachdem wir mit ihnen gespielt haben, selbst wenn sie uns übel besiegt haben.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2347,7 +2368,7 @@
 30	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	SpaceAfter=No
 31	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 121
+# sent_id = 123
 # text = Der Grund dafür ist, dass es eine Menge Vertrauen erfordert, mit jemandem ein Spiel zu spielen.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Grund	Grund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
@@ -2369,7 +2390,7 @@
 18	spielen	spielen	VERB	VVINF	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 122
+# sent_id = 124
 # text = Wir vertrauen darauf, dass jemand Zeit mit uns verbringt, dass die Regeln eingehalten werden, dass wir das gleiche Ziel haben und bis zum Spielende dabei bleiben.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	vertrauen	vertrauen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2404,7 +2425,7 @@
 30	bleiben	bleiben	VERB	VVINF	VerbForm=Inf	23	conj	_	SpaceAfter=No
 31	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 123
+# sent_id = 125
 # text = Also ermöglicht das Zusammenspielen das Wachsen von Bindungen, Vertrauen und Miteinander.
 1	Also	also	ADV	ADV	_	2	advmod	_	_
 2	ermöglicht	ermöglichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2420,7 +2441,7 @@
 12	Miteinander	miteinander	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 124
+# sent_id = 126
 # text = Als Folge davon bauen wir stärkere soziale Beziehungen auf.
 1	Als	als	ADP	KOKOM	_	2	case	_	_
 2	Folge	Folge	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	obl	_	_
@@ -2433,18 +2454,19 @@
 9	auf	auf	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 125
+# sent_id = 127
 # text = Glückselige Produktivität.
 1	Glückselige	Glückselig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
 2	Produktivität	Produktivität	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 126
+# newpar
+# sent_id = 128
 # text = Fantastisch!
 1	Fantastisch	Fantastisch	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 2	!	!	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 127
+# sent_id = 129
 # text = Wissen Sie, es gibt einen Grund, warum der Durchschnitts-Word of Warcraft-Spieler 22 Stunden pro Woche spielt, sozusagen als Teilzeitjob.
 1	Wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	SpaceAfter=No
@@ -2474,7 +2496,7 @@
 26	Teilzeitjob	Teilzeitjob	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 128
+# sent_id = 130
 # text = Der Grund ist, dass, wenn wir spielen, sind wir tatsächlich glücklicher dabei, hart zu arbeiten, als wenn wir uns entspannen oder nichts tun.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Grund	Grund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
@@ -2506,7 +2528,7 @@
 28	tun	tun	VERB	VVINF	VerbForm=Inf	25	conj	_	SpaceAfter=No
 29	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 129
+# sent_id = 131
 # text = Wir wissen, dass wir als menschliche Wesen optimal funktionieren, wenn wir harte, bedeutende Arbeit erledigen.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	wissen	wissen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
@@ -2528,7 +2550,7 @@
 18	erledigen	erledigen	VERB	VVINF	VerbForm=Inf	10	advcl	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 130
+# sent_id = 132
 # text = Und Spieler sind immer bereit, hart zu arbeiten, wenn sie die richtige Aufgabe erhalten.
 1	Und	und	CCONJ	ADJD	_	5	cc	_	_
 2	Spieler	Spieler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
@@ -2548,7 +2570,7 @@
 16	erhalten	erhalten	VERB	VVINF	VerbForm=Inf	9	advcl	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 131
+# sent_id = 133
 # text = Und letztendlich, epische Bedeutung.
 1	Und	und	CCONJ	ADJD	_	5	cc	_	_
 2	letztendlich	letztendlich	ADJ	ADV	_	5	amod	_	SpaceAfter=No
@@ -2557,7 +2579,7 @@
 5	Bedeutung	Bedeutung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 132
+# sent_id = 134
 # text = Spieler lieben es, Teil Ehrfurcht gebietender Missionen planetarer Ausmaße zu werden.
 1	Spieler	Spieler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
 2	lieben	lieben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2573,7 +2595,7 @@
 12	werden	werden	VERB	NE	Case=Gen|Gender=Masc|Number=Plur	2	xcomp	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 133
+# sent_id = 135
 # text = Hier eine Hintergrundinformation, um das ins rechte Licht zu rücken.
 1	Hier	hier	ADV	ADV	_	3	advmod	_	_
 2	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -2590,7 +2612,7 @@
 12	rücken	rücken	VERB	VVINF	VerbForm=Inf	3	advcl	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 134
+# sent_id = 136
 # text = Sie kennen bestimmt alle Wikipedia, das größte Wiki der Welt.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	kennen	kennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2605,7 +2627,7 @@
 11	Welt	Welt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 135
+# sent_id = 137
 # text = Das zweitgrößte Wiki der Welt, mit fast 80.000 Einträgen ist das World of Warcraft Wiki.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	zweitgrößte	zweitgroß	NOUN	ADJA	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
@@ -2625,7 +2647,7 @@
 16	Wiki	Wiki	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	13	punct	_	_
 
-# sent_id = 136
+# sent_id = 138
 # text = Fünf Millionen Menschen benutzen es jeden Monat.
 1	Fünf	fünf	NUM	CARD	NumType=Card	2	nummod	_	_
 2	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	nmod	_	_
@@ -2636,7 +2658,7 @@
 7	Monat	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 137
+# sent_id = 139
 # text = Sie haben mehr Informationen über World of Warcraft im Internet zusammengetragen als über irgendein anderes Thema in jedem anderen Wiki der Welt.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2664,7 +2686,7 @@
 23	Welt	Welt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 138
+# sent_id = 140
 # text = Sie erschaffen eine epische Geschichte.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	erschaffen	erschaffen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2673,7 +2695,7 @@
 5	Geschichte	Geschichte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 139
+# sent_id = 141
 # text = Sie erschaffen eine epische Quelle des Wissens über die World of Warcraft.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	erschaffen	erschaffen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2689,7 +2711,7 @@
 12	Warcraft	Warcraft	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	10	flat	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 140
+# sent_id = 142
 # text = OK, das sind also vier Superkräfte, die zu einem einzigen Ergebnis führen.
 1	OK	OK	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	7	punct	_	_
@@ -2707,7 +2729,7 @@
 14	führen	führen	VERB	VVINF	VerbForm=Inf	7	acl	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 141
+# sent_id = 143
 # text = Spieler sind super-mächtige, hoffnungsvolle Individuen.
 1	Spieler	Spieler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 2	sind	sein	AUX	ADJD	_	5	cop	_	_
@@ -2719,7 +2741,7 @@
 8	Individuen	Individuum	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	5	conj	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 142
+# sent_id = 144
 # text = Es sind Menschen, die glauben, dass sie als Einzelne die Welt verändern können.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	sind	sein	AUX	ADJD	_	3	cop	_	_
@@ -2738,7 +2760,7 @@
 15	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 143
+# sent_id = 145
 # text = Und das einzige Problem ist, dass sie glauben, sie können die virtuellen Welten ändern, aber nicht die reale.
 1	Und	und	CCONJ	ADJD	_	4	cc	_	_
 2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
@@ -2763,7 +2785,7 @@
 21	reale	reale	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 144
+# sent_id = 146
 # text = Das ist das Problem, das ich zu lösen versuche.
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -2777,7 +2799,7 @@
 10	versuche	versuchen	VERB	NN	Case=Acc|Gender=Masc|Number=Plur	4	acl	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 145
+# sent_id = 147
 # text = Edward Castronova ist ein Volkswissenschaftler.
 1	Edward	Edward	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	Castronova	Castronova	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
@@ -2786,15 +2808,16 @@
 5	Volkswissenschaftler	Volkswissenschaftler	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 146
+# sent_id = 148
 # text = Seine Arbeit ist genial.
 1	Seine	sein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	2	det:poss	_	_
 2	Arbeit	Arbeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 3	ist	sein	AUX	ADJD	_	4	cop	_	_
 4	genial	genial	ADJ	ADJD	_	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 147
+# newpar
+# sent_id = 149
 # text = Er untersucht, warum Menschen so viel Zeit, Energie und Geld in Online-Welten verbringen.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	untersucht	untersuchen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
@@ -2815,7 +2838,7 @@
 17	verbringen	verbringen	VERB	VVFIN	VerbForm=Inf	2	advcl	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 148
+# sent_id = 150
 # text = Und er sagt: "Wir werden Zeugen von nicht weniger als einer Massenemigration in virtuelle Welten und Online-Spielumgebungen."
 1	Und	und	CCONJ	NN	Case=Nom|Gender=Masc|Number=Sing	3	cc	_	_
 2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -2841,16 +2864,17 @@
 22	.	.	PUNCT	$.	_	8	punct	_	SpaceAfter=No
 23	"	"	PUNCT	$(	_	8	punct	_	_
 
-# sent_id = 149
+# sent_id = 151
 # text = Und das von einem Ökonom.
 1	Und	und	CCONJ	ADJD	_	2	cc	_	_
 2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	0	root	_	_
 3	von	von	ADP	FM	Foreign=Yes	5	case	_	_
 4	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Ökonom	Ökonom	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
-6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 150
+# newpar
+# sent_id = 152
 # text = Also ist er logisch.
 1	Also	also	ADV	ADV	_	4	advmod	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -2858,31 +2882,35 @@
 4	logisch	logisch	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 151
-# text = Und er sagt ... (Gelächter) Nicht so wie ich ... ich entwickle Spiele, ich bin etwas überschwänglich.
+# sent_id = 153
+# text = Und er sagt ...
 1	Und	und	CCONJ	NN	Case=Nom|Gender=Masc|Number=Sing	3	cc	_	_
 2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	...	...	PUNCT	$(	_	6	punct	_	SpacesAfter=\n
-5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
-6	Gelächter	Gelächter	NOUN	TRUNC	_	3	appos	_	SpaceAfter=No
-7	)	)	PUNCT	$(	_	6	punct	_	_
-8	Nicht	nicht	PART	XY	NumType=Card	9	advmod	_	_
-9	so	so	ADV	NE	Case=Dat|Number=Plur	3	advmod	_	_
-10	wie	wie	SCONJ	NN	Case=Dat|Gender=Fem|Number=Sing	20	mark	_	_
-11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
-12	...	...	PUNCT	$(	_	13	punct	_	_
-13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
-14	entwickle	entwickel	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	15	amod	_	_
-15	Spiele	Spiele	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	20	obj	_	SpaceAfter=No
-16	,	,	PUNCT	$,	_	20	punct	_	_
-17	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
-18	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	cop	_	_
-19	etwas	etwas	ADV	ADV	_	20	advmod	_	_
-20	überschwänglich	überschwänglich	ADJ	ADJD	_	3	advcl	_	SpaceAfter=No
-21	.	.	PUNCT	$.	_	3	punct	_	_
+4	...	...	PUNCT	$(	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 152
+# newpar
+# sent_id = 154
+# text = (Gelächter) Nicht so wie ich ... ich entwickle Spiele, ich bin etwas überschwänglich.
+1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+2	Gelächter	Gelächter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	$(	_	2	punct	_	_
+4	Nicht	nicht	PART	CARD	Foreign=Yes	5	advmod	_	_
+5	so	so	ADV	NE	Case=Dat|Number=Plur	2	advmod	_	_
+6	wie	wie	SCONJ	NE	Case=Nom|Gender=Neut|Number=Sing	16	mark	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+8	...	...	PUNCT	$(	_	7	punct	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+10	entwickle	entwickel	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	11	amod	_	_
+11	Spiele	Spiel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	16	obj	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	11	punct	_	_
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+14	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	etwas	etwas	ADV	ADV	_	16	advmod	_	_
+16	überschwänglich	überschwänglich	ADJ	ADJD	_	5	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 155
 # text = Also er sagt, das ergibt tatsächlich Sinn, denn Spieler können in Online-Welten mehr erreichen als im echten Leben.
 1	Also	also	ADV	ADV	_	2	advmod	_	_
 2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -2910,7 +2938,7 @@
 23	Leben	Leben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 153
+# sent_id = 156
 # text = Sie können in Spielen stärkere soziale Bindungen knüpfen als im echten Leben.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
 2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
@@ -2928,7 +2956,7 @@
 13	Leben	Leben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 154
+# sent_id = 157
 # text = Sie bekommen mehr Rückmeldung und Belohnungen in Spielen als im echten Leben.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	bekommen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2946,7 +2974,7 @@
 13	Leben	Leben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 155
+# sent_id = 158
 # text = Also, er sagt, es ist derzeit vollkommen logisch, dass Spieler mehr Zeit in der virtuellen Welt als in der echten verbringen.
 1	Also	also	ADV	ADV	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
@@ -2974,7 +3002,7 @@
 24	verbringen	verbringen	VERB	VVINF	VerbForm=Inf	10	ccomp	_	SpaceAfter=No
 25	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 156
+# sent_id = 159
 # text = Ich stimme erst mal zu, das ist logisch.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	stimme	stimmen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2987,7 +3015,7 @@
 9	logisch	logisch	ADJ	ADJD	_	2	acl	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 157
+# sent_id = 160
 # text = Aber es ist definitiv keine Optimalsituation.
 1	Aber	aber	CCONJ	KON	_	6	cc	_	_
 2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
@@ -2997,7 +3025,7 @@
 6	Optimalsituation	Optimalsituation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 158
+# sent_id = 161
 # text = Wir müssen anfangen, die echte Welt in ein Spiel zu verwandeln.
 1	Wir	wir	PRON	ADJD	_	3	nsubj	_	_
 2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -3013,7 +3041,7 @@
 12	verwandeln	verwandeln	VERB	VVINF	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 159
+# sent_id = 162
 # text = Meine Inspiration kommt von einem Ereignis, das 2.500 Jahre zurückliegt.
 1	Meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	2	det:poss	_	_
 2	Inspiration	Inspiration	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -3028,7 +3056,7 @@
 11	zurückliegt	zurückliegen	VERB	VVPP	VerbForm=Part	6	acl	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 160
+# sent_id = 163
 # text = Es gibt diese antiken Würfel, aus Schafsknöcheln.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3038,15 +3066,16 @@
 6	,	,	PUNCT	$,	_	8	punct	_	_
 7	aus	aus	ADP	APPR	_	8	case	_	_
 8	Schafsknöcheln	Schafsknöchel	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
-9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 161
+# newpar
+# sent_id = 164
 # text = Wissen Sie?
 1	Wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	SpaceAfter=No
 3	?	?	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 162
+# sent_id = 165
 # text = Vor diesen fantastischen Spielecontrollern gab es Schafsknöchel.
 1	Vor	vor	ADP	NN	Case=Nom|Gender=Masc|Number=Sing	4	case	_	_
 2	diesen	dies	PRON	PDAT	Case=Dat|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
@@ -3057,7 +3086,7 @@
 7	Schafsknöchel	Schafsknöchel	NOUN	NE	Case=Nom|Number=Sing	5	nsubj	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 163
+# sent_id = 166
 # text = Und das waren sozusagen die ersten von Menschen entwickelten Spielgeräte.
 1	Und	und	CCONJ	ADJD	_	10	cc	_	_
 2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	_
@@ -3071,7 +3100,7 @@
 10	Spielgeräte	Spielgerat	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 164
+# sent_id = 167
 # text = Und wenn Sie mit den Werken des alten griechischen Historikers Herodotus vertraut sind, kennen Sie vielleicht diese Geschichte.
 1	Und	und	CCONJ	ADJD	_	12	dep	_	_
 2	wenn	wenn	SCONJ	VVFIN	_	12	mark	_	_
@@ -3094,7 +3123,7 @@
 19	Geschichte	Geschichte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	15	punct	_	_
 
-# sent_id = 165
+# sent_id = 168
 # text = Die Geschichte darüber, wie und warum Spiele erfunden wurden.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Geschichte	Geschichte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
@@ -3108,7 +3137,7 @@
 10	wurden	werden	AUX	FM	Foreign=Yes	9	aux:pass	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 166
+# sent_id = 169
 # text = Laut Herodotus wurden Spiele, genauer Würfelspiele, im Königreich Lydien während einer Hungersnot erfunden.
 1	Laut	laut	ADP	NN	Case=Nom|Gender=Masc|Number=Sing	2	case	_	_
 2	Herodotus	Herodotus	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	16	obl	_	_
@@ -3129,7 +3158,7 @@
 16	erfunden	erfinden	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	16	punct	_	_
 
-# sent_id = 167
+# sent_id = 170
 # text = Angeblich gab es eine solch große Hungersnot, dass der König von Lydien sich zu einer verrückten Idee entschloss.
 1	Angeblich	angeblich	ADJ	ADJD	_	2	advmod	_	_
 2	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3152,30 +3181,32 @@
 19	entschloss	entschließen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	csubj	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 168
+# sent_id = 171
 # text = Die Menschen litten.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	litten	leiden	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 169
+# newpar
+# sent_id = 172
 # text = Die Menschen kämpften.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	kämpften	kämpfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 170
+# sent_id = 173
 # text = Es war eine extreme Situation.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	war	sein	AUX	ADV	_	5	cop	_	_
 3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 4	extreme	extrem	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
 5	Situation	Situation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
-# sent_id = 171
+# newpar
+# sent_id = 174
 # text = Man brauchte eine extreme Lösung.
 1	Man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	2	nsubj	_	_
 2	brauchte	brauchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3184,7 +3215,7 @@
 5	Lösung	Lösung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 172
+# sent_id = 175
 # text = Also erfanden sie, laut Herodotus, das Würfelspiel und vereinbarten eine nationale Strategie.
 1	Also	also	ADV	ADV	_	2	advmod	_	_
 2	erfanden	erfanden	VERB	VVINF	VerbForm=Inf	0	root	_	_
@@ -3202,7 +3233,7 @@
 14	Strategie	Strategie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 173
+# sent_id = 176
 # text = An einem Tag würde man essen.
 1	An	an	ADP	APPR	_	3	case	_	_
 2	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -3212,7 +3243,7 @@
 6	essen	essen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 174
+# sent_id = 177
 # text = Am nächsten Tag würde man spielen.
 1-2	Am	_	_	_	_	_	_	_	_
 1	An	an	ADP	APPR	_	4	case	_	_
@@ -3224,7 +3255,7 @@
 7	spielen	spielen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 175
+# sent_id = 178
 # text = Und sie würden so sehr in das Würfelspiel vertieft sein, da Spiele so faszinierend sind und uns mit befriedigender, glückseliger Produktivität umgeben, dass sie vergessen würden, dass es nichts zu essen gab.
 1	Und	und	CCONJ	ADJD	_	9	cc	_	_
 2	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
@@ -3264,7 +3295,7 @@
 36	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	ccomp	_	SpaceAfter=No
 37	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 176
+# sent_id = 179
 # text = Und dann, am nächsten Tag würde man spielen.
 1	Und	und	CCONJ	ADJD	_	10	cc	_	_
 2	dann	dann	ADV	ADV	_	10	advmod	_	SpaceAfter=No
@@ -3279,7 +3310,7 @@
 10	spielen	spielen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 177
+# sent_id = 180
 # text = Und am nächsten Tag würde man essen.
 1	Und	und	CCONJ	ADJD	_	8	cc	_	_
 2-3	am	_	_	_	_	_	_	_	_
@@ -3292,7 +3323,7 @@
 8	essen	essen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	8	punct	_	_
 
-# sent_id = 178
+# sent_id = 181
 # text = Und laut Herodotus überlebten sie so 18 Jahre lang diese Hungersnot, indem sie an einem Tag aßen und am nächsten spielten.
 1	Und	und	CCONJ	ADJD	_	4	cc	_	_
 2	laut	laut	ADP	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	case	_	_
@@ -3320,7 +3351,7 @@
 23	spielten	spielen	VERB	ADJA	Case=Dat|Gender=Masc|Number=Sing	4	advcl	_	SpaceAfter=No
 24	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 179
+# sent_id = 182
 # text = Genauso, denke ich, setzen wir heute Spiele ein.
 1	Genauso	genauso	PROPN	ADV	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	1	punct	_	_
@@ -3334,7 +3365,7 @@
 10	ein	ein	ADV	PTKVZ	_	6	compound:prt	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 180
+# sent_id = 183
 # text = Wir setzen Spiele ein, um dem Leiden der echten Welt zu entkommen.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	setzen	setzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3351,7 +3382,7 @@
 13	entkommen	entkommen	VERB	VVINF	VerbForm=Inf	2	advcl	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 181
+# sent_id = 184
 # text = Wir setzen Spiele ein, um allem zu entgehen, das in der echten Welt nicht funktioniert, allem das im echten Leben nicht befriedigend ist, und wir holen uns was wir brauchen aus den Spielen.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	setzen	setzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3394,7 +3425,7 @@
 38	Spielen	Spiel|Spielen	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	35	obl	_	SpaceAfter=No
 39	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 182
+# sent_id = 185
 # text = Aber das muss nicht das Ende sein.
 1	Aber	aber	CCONJ	KON	_	6	cc	_	_
 2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
@@ -3405,7 +3436,7 @@
 7	sein	sein	AUX	VAINF	VerbForm=Inf	6	cop	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 183
+# sent_id = 186
 # text = Das ist das Spannende.
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -3413,7 +3444,7 @@
 4	Spannende	Spannende	NOUN	ADJA	Case=Acc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 184
+# sent_id = 187
 # text = Laut Herodotus wurde nach 18 Jahren die Hungersnot nicht besser.
 1	Laut	laut	ADP	NN	Case=Nom|Gender=Masc|Number=Sing	2	case	_	_
 2	Herodotus	Herodotus	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	nmod	_	_
@@ -3427,7 +3458,7 @@
 10	besser	gut	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 185
+# sent_id = 188
 # text = Also beschloss der König, ein letztes Würfelspiel anzusetzen.
 1	Also	also	ADV	ADV	_	2	advmod	_	_
 2	beschloss	beschließen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3440,7 +3471,7 @@
 9	anzusetzen	ansetzen	VERB	VVIZU	VerbForm=Inf	4	acl	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 186
+# sent_id = 189
 # text = Sie teilten das Königreich in zwei Hälften.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	teilten	teilen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3451,7 +3482,7 @@
 7	Hälften	Hälft	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 187
+# sent_id = 190
 # text = Sie spielten ein Würfelspiel und die Sieger durften zu einem epischen Abenteuer aufbrechen.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	spielten	spielen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3468,7 +3499,7 @@
 13	aufbrechen	aufbrechen	VERB	ADJA	Case=Dat|Gender=Neut|Number=Sing	2	conj	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 188
+# sent_id = 191
 # text = Sie verließen Lydien und machten sich auf die Suche nach einer neuen Heimat.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	verließen	verlassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3485,7 +3516,7 @@
 13	Heimat	Heimat	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 189
+# sent_id = 192
 # text = Sie ließen gerade so viele Menschen zurück, wie es Lebensmittel zum Überleben gab und suchten mit dem Rest nach einer Gegend, in der sie gedeihen konnten.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	ließen	lassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3519,7 +3550,7 @@
 29	konnten	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	28	aux	_	SpaceAfter=No
 30	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 190
+# sent_id = 193
 # text = Das klingt verrückt, oder?
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	nsubj	_	_
 2	klingt	klingen	ADJ	ADV	_	3	advmod	_	_
@@ -3528,7 +3559,7 @@
 5	oder	oder	CCONJ	XY	_	6	cc	_	SpaceAfter=No
 6	?	?	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 191
+# sent_id = 194
 # text = Aber neueste DNA-Beweise zeigen, dass die Etrusker, die später das römische Reich bildeten, die gleiche DNA wie die alten Lydier aufweisen.
 1	Aber	aber	CCONJ	KON	_	6	cc	_	_
 2	neueste	neu	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	5	amod	_	_
@@ -3558,7 +3589,7 @@
 26	aufweisen	aufweisen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 192
+# sent_id = 195
 # text = Daher kamen Wissenschaftler kürzlich zur Auffassung, dass Herodotus' verrückte Geschichte tatsächlich stimmt.
 1	Daher	daher	ADV	PAV	_	2	advmod	_	_
 2	kamen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3578,7 +3609,7 @@
 15	stimmt	stimmen	VERB	VVPP	VerbForm=Part	7	ccomp	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 193
+# sent_id = 196
 # text = Und Geologen fanden Beweise einer globalen Abkühlung, die fast 20 Jahre dauerte, was die Hungersnot erklären könnte.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	Geologen	Geologe	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
@@ -3601,7 +3632,7 @@
 19	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 194
+# sent_id = 197
 # text = Also könnte diese verrückte Geschichte stimmen.
 1	Also	also	ADV	ADV	_	6	advmod	_	_
 2	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
@@ -3611,7 +3642,7 @@
 6	stimmen	stimmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 195
+# sent_id = 198
 # text = Vielleicht haben sie tatsächlich ihr Volk durch Spielen gerettet, indem sie sich 18 Jahre lang in Spiele geflüchtet haben und dann diese Eingebung hatten und so viel über das Miteinander spielen lernten, dass sie dadurch die gesamte Zivilisation gerettet haben.
 1	Vielleicht	vielleicht	ADV	ADV	_	2	advmod	_	_
 2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
@@ -3657,7 +3688,7 @@
 42	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	SpaceAfter=No
 43	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 196
+# sent_id = 199
 # text = Also, das können wir auch.
 1	Also	also	ADV	ADV	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	6	punct	_	_
@@ -3667,7 +3698,7 @@
 6	auch	auch	ADV	ADV	_	1	advmod	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 197
+# sent_id = 200
 # text = Wir spielen seit 1994 Warcraft.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	spielen	spielen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3676,7 +3707,7 @@
 5	Warcraft	Warcraft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 198
+# sent_id = 201
 # text = Das war das erste Strategiespiel in Echtzeit der World of Warcraft-Serie.
 1	Das	der	PRON	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	nsubj	_	_
 2	war	sein	AUX	ADV	_	5	cop	_	_
@@ -3691,9 +3722,10 @@
 11	Warcraft	Warcraft	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	9	flat	_	SpaceAfter=No
 12	-	-	PUNCT	$(	_	13	punct	_	SpaceAfter=No
 13	Serie	Serie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	flat	_	SpaceAfter=No
-14	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
-# sent_id = 199
+# newpar
+# sent_id = 202
 # text = Das war vor 16 Jahren.
 1	Das	der	PRON	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	nsubj	_	_
 2	war	sein	AUX	ADV	_	0	root	_	_
@@ -3702,7 +3734,7 @@
 5	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 200
+# sent_id = 203
 # text = Sie spielten 18 Jahre lang Würfelspiele, wir spielen seit 16 Jahren Warcraft.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	spielten	spielen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -3719,7 +3751,7 @@
 13	Warcraft	Warcraft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 201
+# sent_id = 204
 # text = Ich behaupte, wir sind bereit für unser eigenes episches Spiel.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	behaupte	behaupen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -3734,7 +3766,7 @@
 11	Spiel	Spiel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 202
+# sent_id = 205
 # text = Also, sie schickten die Hälfte ihrer Zivilisation auf die Suche nach einer neuen Welt.
 1	Also	also	ADV	ADV	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
@@ -3753,7 +3785,7 @@
 15	Welt	Welt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 203
+# sent_id = 206
 # text = Daher nehme ich meine 21 Milliarden Spielstunden pro Woche.
 1	Daher	daher	ADV	PAV	_	2	advmod	_	_
 2	nehme	nehmen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3766,7 +3798,7 @@
 9	Woche	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 204
+# sent_id = 207
 # text = Wir sollten darin übereinkommen, dass die Hälfte von uns eine Stunde pro Tag mit Spielen verbringt, bis wir die Probleme der echten Welt gelöst haben.
 1	Wir	wir	PRON	ADJD	_	4	nsubj	_	_
 2	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
@@ -3797,7 +3829,7 @@
 27	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	SpaceAfter=No
 28	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 205
+# sent_id = 208
 # text = Ich weiß, Sie werden fragen: "Wie lösen wir Probleme der echten Welt in Spielen?"
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	weiß	wissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -3817,9 +3849,10 @@
 16	in	in	ADP	APPR	_	17	case	_	_
 17	Spielen	Spiel|Spielen	PROPN	NN	Case=Dat|Gender=Neut|Number=Plur	10	obl	_	SpaceAfter=No
 18	?	?	PUNCT	$.	_	10	punct	_	SpaceAfter=No
-19	"	"	PUNCT	$(	_	10	punct	_	SpacesAfter=\n
+19	"	"	PUNCT	$(	_	10	punct	_	SpacesAfter=\n\n
 
-# sent_id = 206
+# newpar
+# sent_id = 209
 # text = Und genau dieser Frage habe ich meine Arbeit in den letzten Jahren am Institut für die Zukunft gewidmet.
 1	Und	und	CCONJ	ADJD	_	19	cc	_	_
 2	genau	genau	ADJ	ADV	_	3	advmod	_	_
@@ -3843,7 +3876,7 @@
 19	gewidmet	widmen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	19	punct	_	_
 
-# sent_id = 207
+# sent_id = 210
 # text = Wir haben dieses Banner in unserem Büro in Palo Alto, es drückt aus wie wir die Zukunft verstehen sollten.
 1	Wir	wir	PRON	ADJD	_	13	nsubj	_	_
 2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
@@ -3867,7 +3900,7 @@
 20	sollten	sollen	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	13	punct	_	_
 
-# sent_id = 208
+# sent_id = 211
 # text = Wir wollen nicht versuchen, die Zukunft vorher zu sagen.
 1	Wir	wir	PRON	ADJD	_	4	nsubj	_	_
 2	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -3881,7 +3914,7 @@
 10	sagen	sagen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 209
+# sent_id = 212
 # text = Was wir wollen, ist die Zukunft zu schaffen.
 1	Was	was	PRON	FM	Foreign=Yes	3	obj	_	_
 2	wir	wir	PRON	ADJD	_	3	nsubj	_	_
@@ -3894,7 +3927,7 @@
 9	schaffen	schaffen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 210
+# sent_id = 213
 # text = Wir wollen uns das bestmögliche Ergebnis vorstellen.
 1	Wir	wir	PRON	ADJD	_	7	nsubj	_	_
 2	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
@@ -3905,7 +3938,7 @@
 7	vorstellen	vorstellen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 211
+# sent_id = 214
 # text = Und dann Menschen dazu ermächtigen, diese Vorstellung in die Realität umzusetzen.
 1	Und	und	CCONJ	ADJD	_	5	cc	_	_
 2	dann	dann	ADV	ADV	_	5	advmod	_	_
@@ -3921,7 +3954,7 @@
 12	umzusetzen	umsetzen	VERB	VVIZU	VerbForm=Inf	5	conj	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 212
+# sent_id = 215
 # text = Wir stellen uns epische Siege vor und geben Menschen die Möglichkeiten, sie zu erreichen.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	stellen	stellen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3940,7 +3973,7 @@
 15	erreichen	erreichen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	SpaceAfter=No
 16	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 213
+# sent_id = 216
 # text = Ich zeige Ihnen ganz kurz drei Spiele, die ich entworfen habe, um zu versuchen, Menschen epische Siege in ihrer eigenen Zukunft zu verschaffen.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	zeige	zeigen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3970,7 +4003,7 @@
 26	verschaffen	verschaffen	VERB	VVINF	VerbForm=Inf	16	xcomp	_	SpaceAfter=No
 27	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 214
+# sent_id = 217
 # text = Das hier ist "Welt ohne Öl."
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 2	hier	hier	ADV	ADV	_	5	advmod	_	_
@@ -3982,7 +4015,7 @@
 8	.	.	PUNCT	$.	_	5	punct	_	SpaceAfter=No
 9	"	"	PUNCT	$(	_	5	punct	_	_
 
-# sent_id = 215
+# sent_id = 218
 # text = Das Spiel ist von 2007.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Spiel	Spiel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
@@ -3991,7 +4024,7 @@
 5	2007	2007	NUM	CARD	NumType=Card	3	obl	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 216
+# sent_id = 219
 # text = Es ist ein Online-Spiel, in dem Sie eine Ölknappheit überwinden müssen.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
@@ -4009,7 +4042,7 @@
 14	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	6	punct	_	_
 
-# sent_id = 217
+# sent_id = 220
 # text = Die Ölknappheit ist erfunden, aber wir haben genügend Online-Inhalte, damit es für Sie realistisch wird und Sie Ihr echtes Leben tatsächlich ohne Öl leben.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Ölknappheit	Ölknappheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
@@ -4039,9 +4072,10 @@
 26	ohne	ohne	ADP	NN	Case=Acc|Gender=Masc|Number=Sing	27	case	_	_
 27	Öl	Öl	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	24	nmod	_	_
 28	leben	leben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No
-29	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+29	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 218
+# newpar
+# sent_id = 221
 # text = Also, wenn Sie sich zum Spiel anmelden, sagen Sie uns, wo Sie wohnen.
 1	Also	also	ADV	ADV	_	11	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	9	punct	_	_
@@ -4063,7 +4097,7 @@
 17	wohnen	wohnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	11	punct	_	_
 
-# sent_id = 219
+# sent_id = 222
 # text = Und dann erhalten Sie Nachrichten-Filme in Echtzeit, die Ihnen zeigen, wie viel Öl kostet, was es nicht gibt, wie Nahrungsversorgung beeinträchtigt ist, wie Transport beeinträchtigt wird, ob Schulen geschlossen sind, ob es Aufstände gibt.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	dann	dann	ADV	ADV	_	3	advmod	_	_
@@ -4110,7 +4144,7 @@
 43	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	ccomp	_	SpaceAfter=No
 44	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 220
+# sent_id = 223
 # text = Und Sie müssen herausfinden, wie Sie Ihr echtes Leben gestalten, wenn es wahr wäre.
 1	Und	und	CCONJ	ADJD	_	4	cc	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
@@ -4128,9 +4162,10 @@
 14	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 15	wahr	wahr	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	11	advcl	_	_
 16	wäre	sein	AUX	NN	Case=Acc|Gender=Masc|Number=Sing	15	cop	_	SpaceAfter=No
-17	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 221
+# newpar
+# sent_id = 224
 # text = Und wir bitten Sie, darüber zu bloggen, Videos oder Photos einzustellen.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	wir	wir	PRON	ADJD	_	3	nsubj	_	_
@@ -4147,7 +4182,7 @@
 13	einzustellen	einstellen	VERB	VVIZU	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 222
+# sent_id = 225
 # text = Wir haben dieses Spiel mit 1.700 Spielern in 2007 getestet.
 1	Wir	wir	PRON	ADJD	_	10	nsubj	_	_
 2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
@@ -4161,7 +4196,7 @@
 10	getestet	testen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	10	punct	_	_
 
-# sent_id = 223
+# sent_id = 226
 # text = Und wir haben sie seitdem über die letzten drei Jahre begleitet.
 1	Und	und	CCONJ	ADJD	_	11	cc	_	_
 2	wir	wir	PRON	ADJD	_	11	nsubj	_	_
@@ -4176,7 +4211,7 @@
 11	begleitet	begleitet	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	11	punct	_	_
 
-# sent_id = 224
+# sent_id = 227
 # text = Und ich kann Ihnen sagen, es war eine verändernde Erfahrung.
 1	Und	und	CCONJ	ADJD	_	5	cc	_	_
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
@@ -4191,7 +4226,7 @@
 11	Erfahrung	Erfahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	ccomp	_	SpaceAfter=No
 12	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 225
+# sent_id = 228
 # text = Niemand möchte sein Leben ändern, weil es gut für die Umwelt ist oder weil wir es sollten.
 1	Niemand	niemand	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	5	nsubj	_	_
 2	möchte	mögen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
@@ -4213,7 +4248,7 @@
 18	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 226
+# sent_id = 229
 # text = Aber wenn Sie in einem epischen Abenteuer sind und gesagt bekommen: "Uns geht das Öl aus."
 1	Aber	aber	CCONJ	KON	_	11	cc	_	_
 2	wenn	wenn	SCONJ	VVFIN	_	8	mark	_	_
@@ -4236,7 +4271,7 @@
 19	.	.	PUNCT	$.	_	11	punct	_	SpaceAfter=No
 20	"	"	PUNCT	$(	_	11	punct	_	_
 
-# sent_id = 227
+# sent_id = 230
 # text = Das ist ein faszinierendes Abenteuer, auf das man geht.
 1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -4250,7 +4285,7 @@
 10	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	SpaceAfter=No
 11	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 228
+# sent_id = 231
 # text = Finden Sie heraus, wie Sie überleben würden.
 1	Finden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	_
@@ -4262,7 +4297,7 @@
 8	würden	werden	AUX	NN	Case=Acc|Gender=Fem|Number=Plur	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 229
+# sent_id = 232
 # text = Die meisten unserer Spieler haben die im Spiel gelernten Gewohnheiten beibehalten.
 1	Die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	2	det	_	_
 2	meisten	meist	PRON	NN	Case=Dat|Gender=Masc|Number=Sing	12	nsubj	_	_
@@ -4279,7 +4314,7 @@
 12	beibehalten	beibehalten	VERB	VVPP	VerbForm=Inf	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	$.	_	12	punct	_	_
 
-# sent_id = 230
+# sent_id = 233
 # text = Also haben wir uns für das nächste weltrettende Spiel ein größeres, höheres Ziel gesteckt als nur Ölknappheit.
 1	Also	also	ADV	ADV	_	15	advmod	_	_
 2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
@@ -4301,7 +4336,7 @@
 18	Ölknappheit	Ölknappheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	15	punct	_	_
 
-# sent_id = 231
+# sent_id = 234
 # text = Wir haben das Spiel "Superstruct" am Institut für die Zukunft entwickelt.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
@@ -4320,7 +4355,7 @@
 14	entwickelt	entwickeln	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	$.	_	14	punct	_	_
 
-# sent_id = 232
+# sent_id = 235
 # text = Ausgangspunkt ist die Berechnung eines Supercomputers, dass die Menschen nur noch 23 Jahre auf dem Planeten übrig haben.
 1	Ausgangspunkt	Ausgangspunkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -4343,7 +4378,7 @@
 19	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
 20	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 233
+# sent_id = 236
 # text = Dieser Supercomputer heißt "Globales Aussterbungs- Sensibilisierungs-System", natürlich.
 1	Dieser	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	Supercomputer	Supercomputer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
@@ -4360,7 +4395,7 @@
 13	natürlich	natürlich	ADJ	ADV	_	3	conj	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 234
+# sent_id = 237
 # text = Den Aufruf an Spieler, sich anzumelden, haben wir fast wie einen "Jerry-Bruckheimer"-Film gestaltet.
 1	Den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Aufruf	Aufruf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
@@ -4385,7 +4420,7 @@
 21	gestaltet	gestalten	ADJ	VVPP	VerbForm=Part	9	xcomp	_	SpaceAfter=No
 22	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 235
+# sent_id = 238
 # text = Sie kennen Jerry Bruckheimer-Filme, wo es das "Dream-Team" gibt.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	kennen	kennen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4405,7 +4440,7 @@
 16	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 236
+# sent_id = 239
 # text = Sie haben den Astronauten, den Wissenschaftler, den Ex-Sträfling und nur zusammen können sie die Welt retten.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4429,7 +4464,7 @@
 20	retten	retten	VERB	VVINF	VerbForm=Inf	2	conj	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 237
+# sent_id = 240
 # text = Aber in unserem Spiel, anstatt von nur 5 Leuten, sagen wir, jeder ist im Dream-Team, und es ist unsere Aufgabe, die Zukunft für Energie, Nahrung, Gesundheit, Sicherheit und die Zukunft der sozialen Gerechtigkeit zu erschaffen.
 1	Aber	aber	CCONJ	KON	_	12	cc	_	_
 2	in	in	ADP	APPR	_	4	case	_	_
@@ -4480,7 +4515,7 @@
 46	erschaffen	erschaffen	VERB	VVINF	VerbForm=Inf	27	xcomp	_	SpaceAfter=No
 47	.	.	PUNCT	$.	_	12	punct	_	_
 
-# sent_id = 238
+# sent_id = 241
 # text = 8.000 Spieler spielten das Spiel 8 Wochen lang.
 1	8.000	8.000	NUM	CARD	NumType=Card	2	nummod	_	_
 2	Spieler	Spieler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
@@ -4492,7 +4527,7 @@
 8	lang	lang	ADJ	ADJD	_	3	advmod	_	SpaceAfter=No
 9	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 239
+# sent_id = 242
 # text = Sie fanden 500 unglaublich kreative Lösungen, die Sie nachlesen können, wenn Sie "Superstruct" googlen.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	fanden	finden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -4514,8 +4549,8 @@
 18	googlen	googlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 240
-# text = Und das letzte Spiel bringen wir am 3. März heraus.
+# sent_id = 243
+# text = Und das letzte Spiel bringen wir am 3.
 1	Und	und	CCONJ	ADJD	_	5	cc	_	_
 2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 3	letzte	letzt	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	_
@@ -4523,15 +4558,20 @@
 5	bringen	bringen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	wir	wir	PRON	ADJD	_	5	nsubj	_	_
 7-8	am	_	_	_	_	_	_	_	_
-7	an	an	ADP	APPR	_	11	case	_	_
-8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
-9	3	3	NUM	CARD	NumType=Card	11	nummod	_	SpaceAfter=No
-10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
-11	März	März	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	5	obl	_	_
-12	heraus	heraus	ADV	PTKVZ	_	5	compound:prt	_	SpaceAfter=No
-13	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+7	an	an	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	3	3	NUM	CARD	NumType=Card	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
-# sent_id = 241
+# newpar
+# sent_id = 244
+# text = März heraus.
+1	März	März	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	heraus	heraus	ADV	PTKVZ	_	1	compound:prt	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 245
 # text = Es ist ein Spiel in Zusammenarbeit mit der Weltbank.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
@@ -4544,7 +4584,7 @@
 9	Weltbank	Weltbank	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 242
+# sent_id = 246
 # text = Wenn Sie das Spiel abschließen, erhalten Sie von der Weltbank die Auszeichnung "Sozialer Umgestalter", Abschluss 2010.
 1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	_
 2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
@@ -4568,7 +4608,7 @@
 20	2010	2010	NUM	CARD	NumType=Card	19	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	7	punct	_	_
 
-# sent_id = 243
+# sent_id = 247
 # text = Wir arbeiten mit Universitäten in ganz Schwarzafrika und laden sie ein, soziales Umgestalten zu lernen.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	arbeiten	arbeiten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4588,16 +4628,17 @@
 16	lernen	lernen	VERB	VVINF	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
 17	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 244
+# sent_id = 248
 # text = Wir haben ein Comic dazu.
 1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
 2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	Comic	Comic	NOUN	NE	Case=Nom|Number=Sing	2	obj	_	_
 5	dazu	dazu	ADV	PAV	_	2	advmod	_	SpaceAfter=No
-6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 245
+# newpar
+# sent_id = 249
 # text = Wir haben "Level hoch" für regionales Verstehen, Wissensvernetzung, Nachhaltigkeit, Vision und Einfallsreichtum.
 1	Wir	wir	PRON	ADJD	_	5	nsubj	_	_
 2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
@@ -4618,7 +4659,7 @@
 17	Einfallsreichtum	Einfallsreichtum	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
 18	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 246
+# sent_id = 250
 # text = Ich möchte Sie alle einladen, dieses Spiel mit jungen Leuten zu teilen, überall auf der Welt, vor allem in Entwicklungsgebieten, die davon profitieren, sich zusammen ihre eigenen sozialen Unternehmungen vorzustellen, um die Welt zu retten.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 2	möchte	mögen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
@@ -4663,7 +4704,7 @@
 41	retten	retten	VERB	VVINF	VerbForm=Inf	35	advcl	_	SpaceAfter=No
 42	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 247
+# sent_id = 251
 # text = Ich komme nun zum Ende.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	komme	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4674,7 +4715,7 @@
 6	Ende	Ende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
 7	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 248
+# sent_id = 252
 # text = Ich möchte Sie etwas fragen.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 2	möchte	mögen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
@@ -4683,7 +4724,7 @@
 5	fragen	fragen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 249
+# sent_id = 253
 # text = Was, glauben Sie, passiert als Nächstes?
 1	Was	was	PRON	FM	Foreign=Yes	3	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	1	punct	_	_
@@ -4695,7 +4736,7 @@
 8	Nächstes	nah	NOUN	ADJA	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
 9	?	?	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 250
+# sent_id = 254
 # text = Wir haben all diese fantastischen Spieler, wir haben Spiele, die uns zeigen, was wir tun können, aber wir haben die echte Welt noch nicht gerettet.
 1	Wir	wir	PRON	ADJD	_	5	nsubj	_	_
 2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
@@ -4728,7 +4769,7 @@
 29	gerettet	retten	ADJ	VVPP	VerbForm=Part	18	conj	_	SpaceAfter=No
 30	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 251
+# sent_id = 255
 # text = Tja, ich hoffe, dass Sie mir darin zustimmen, dass Spieler menschliche Ressourcen sind, die wir zur Arbeit im echten Leben einsetzen können, und dass Spiele eine große Bedeutung für Veränderung haben.
 1	Tja	Tja	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	4	punct	_	_
@@ -4772,7 +4813,7 @@
 38	haben	haben	VERB	VAINF	VerbForm=Inf	10	conj	_	SpaceAfter=No
 39	.	.	PUNCT	$.	_	4	punct	_	_
 
-# sent_id = 252
+# sent_id = 256
 # text = Wir haben diese ganzen Superkräfte, glückselige Produktivität, die Fähigkeit, enge soziale Netze zu knüpfen, Dringlichkeits-Optimismus und das Verlangen nach epischer Bedeutung.
 1	Wir	wir	PRON	ADJD	_	5	nsubj	_	_
 2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
@@ -4803,7 +4844,7 @@
 27	Bedeutung	Bedeutung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	$.	_	5	punct	_	_
 
-# sent_id = 253
+# sent_id = 257
 # text = Ich hoffe wirklich, dass wir zusammen bedeutende Spiele spielen, um auf diesem Planeten ein weiteres Jahrhundert zu überleben.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	hoffe	hoffen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4827,7 +4868,7 @@
 20	überleben	überleben	VERB	VVINF	VerbForm=Inf	10	advcl	_	SpaceAfter=No
 21	.	.	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 254
+# sent_id = 258
 # text = Und ich hoffe, Sie werden mit mir solche Spielen entwerfen und spielen.
 1	Und	und	CCONJ	ADJD	_	3	cc	_	_
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
@@ -4844,7 +4885,7 @@
 13	spielen	spielen	VERB	VVFIN	VerbForm=Inf	11	conj	_	SpaceAfter=No
 14	.	.	PUNCT	$.	_	3	punct	_	_
 
-# sent_id = 255
+# sent_id = 259
 # text = Wenn ich ins nächste Jahrzehnt vorausschaue, bin ich mir bei zwei Dingen sicher: dass wir jede vorstellbare Zukunft erschaffen können, und dass wir alle möglichen Spiele spielen können.
 1	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	_
 2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
@@ -4881,7 +4922,7 @@
 32	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	SpaceAfter=No
 33	.	.	PUNCT	$.	_	9	punct	_	_
 
-# sent_id = 256
+# sent_id = 260
 # text = Also sage ich, lasst die weltverändernden Spiele beginnen!
 1	Also	also	ADV	ADV	_	2	advmod	_	_
 2	sage	sagen	VERB	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
@@ -4894,14 +4935,14 @@
 9	beginnen	beginnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
 10	!	!	PUNCT	$.	_	2	punct	_	_
 
-# sent_id = 257
+# sent_id = 261
 # text = Dankeschön.
 1	Dankeschön	Dankeschön	ADJ	ADJD	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	$.	_	1	punct	_	_
 
-# sent_id = 258
+# sent_id = 262
 # text = (Beifall)
 1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Beifall	Beifall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-3	)	)	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\n
+3	)	)	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\n\n
 

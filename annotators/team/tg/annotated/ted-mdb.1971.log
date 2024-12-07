@@ -1,4 +1,4 @@
-annotation protocol for ted-mdb.1971.xlsx 
+ 	annotation protocol for ted-mdb.1971.xlsx 
 --------------------------------------------------------------------------
 
 Uncertainties and problems
@@ -6,13 +6,20 @@ Uncertainties and problems
 
 ! - Sentence-level broken, see: https://github.com/acoli-repo/AURIS/issues/25
 
+	- see Git issues
 
 - Demonstrative pronouns are often pre-annotated, although not syntactical head; e.g. 89, 174 etc.
 
+	- TODO: add examples to GitHub Issues
+
 - NP after possessive pronouns not marked by the parser, e.g. 71, 551, 568, 638 etc.
-	see: https://github.com/acoli-repo/AURIS/issues/30
+
+	- see: https://github.com/acoli-repo/AURIS/issues/30
 
 - 292: "ankle" prosthesis unclear; interpreted as prosthesis in general
 
+	- eher unterkonzept, REF=NEW, IS=UNIQUE (bridging)
+
 - Subsets of e.g. prostheses: "uniform" or "customized" each annotated as REF=NEW entity, as long as no specific new REF-category has been created
-	see: https://github.com/acoli-repo/AURIS/issues/24
+
+	- see: https://github.com/acoli-repo/AURIS/issues/24

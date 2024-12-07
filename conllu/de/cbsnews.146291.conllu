@@ -1,7 +1,7 @@
-# newdoc id = txt/de/cbsnews.146291.txt
+# newdoc
 # newpar
 # sent_id = 1
-# text = Heftige Regenfälle, Überschwemmung gibt Anlass zu Rettungen in Louisiana, Mississippi Heftige Regenfälle und großflächige Überschwemmungen in Louisiana zwangen den Gouverneur dazu, am Freitag den Notstand auszurufen.
+# text = Heftige Regenfälle, Überschwemmung gibt Anlass zu Rettungen in Louisiana, Mississippi
 1	Heftige	Heftig	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	2	amod	_	_
 2	Regenfälle	Regenfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	5	punct	_	_
@@ -9,33 +9,37 @@
 5	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 6	Anlass	Anlaß	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	_
 7	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	case	_	_
-8	Rettungen	Rettung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nmod	_	_
+8	Rettungen	Rettungen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	nmod	_	_
 9	in	in	ADP	APPR	_	10	case	_	_
 10	Louisiana	Louisiana	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	$,	_	12	punct	_	_
-12	Mississippi	Mississippi	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	conj	_	SpacesAfter=\n
-13	Heftige	Heftig	PROPN	ADJA	Case=Acc|Gender=Masc|Number=Plur	12	flat	_	_
-14	Regenfälle	Regenfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	conj	_	_
-15	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	17	cc	_	_
-16	großflächige	großflächig	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	17	amod	_	_
-17	Überschwemmungen	Überschwemmung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	conj	_	_
-18	in	in	ADP	APPR	_	19	case	_	_
-19	Louisiana	Louisiana	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	_
-20	zwangen	zwingen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	_
-21	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
-22	Gouverneur	Gouverneur	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
-23	dazu	dazu	ADV	PAV	_	20	advmod	_	SpaceAfter=No
-24	,	,	PUNCT	$,	_	30	punct	_	_
-25-26	am	_	_	_	_	_	_	_	_
-25	an	an	ADP	APPR	_	27	case	_	_
-26	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	30	obl	_	_
-28	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
-29	Notstand	Notstand	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	30	obj	_	_
-30	auszurufen	auszurufen	VERB	VVPP	VerbForm=Part	20	conj	_	SpaceAfter=No
-31	.	.	PUNCT	$.	_	2	punct	_	_
+12	Mississippi	Mississippi	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	appos	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 2
+# text = Heftige Regenfälle und großflächige Überschwemmungen in Louisiana zwangen den Gouverneur dazu, am Freitag den Notstand auszurufen.
+1	Heftige	Heftig	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	2	amod	_	_
+2	Regenfälle	Regenfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+3	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	5	cc	_	_
+4	großflächige	großflächig	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	5	amod	_	_
+5	Überschwemmungen	Überschwemmung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	conj	_	_
+6	in	in	ADP	APPR	_	7	case	_	_
+7	Louisiana	Louisiana	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	_
+8	zwangen	zwingen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Gouverneur	Gouverneur	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+11	dazu	dazu	ADV	PAV	_	8	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	18	punct	_	_
+13-14	am	_	_	_	_	_	_	_	_
+13	an	an	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	_
+16	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Notstand	Notstand	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+18	auszurufen	auszurufen	VERB	VVPP	VerbForm=Part	8	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 3
 # text = Es wird den ganzen Samstag über mit mehr Regenfällen gerechnet.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	_
 2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux:pass	_	_
@@ -47,9 +51,10 @@
 8	mehr	mehr	PRON	PIAT	Definite=Ind|PronType=Ind	9	det	_	_
 9	Regenfällen	Regenfall	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	obl	_	_
 10	gerechnet	rechnen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
 
-# sent_id = 3
+# newpar
+# sent_id = 4
 # text = Zahlreiche Flüsse im Südosten Louisianas und dem Süden des Mississippis überfluteten ihre Ufer und drohten mit großflächigen Überschwemmungen nach extremen Regenfällen, berichtete der Nationale Wetterdienst.
 1	Zahlreiche	zahlreich	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
 2	Flüsse	Fluß	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
@@ -79,9 +84,10 @@
 25	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 26	Nationale	National	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	27	amod	_	_
 27	Wetterdienst	Wetterdienst	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	SpaceAfter=No
-28	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+28	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
 
-# sent_id = 4
+# newpar
+# sent_id = 5
 # text = Der Gouverneur von Louisiana John Bel Edwards teilte mit, dass Staatsbeamte im ständigen Kontakt mit den örtlichen Behörden stehen und Hilfe zu den betroffenen Gemeinden bereits unterwegs sei.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Gouverneur	Gouverneur	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
@@ -114,9 +120,10 @@
 28	bereits	bereits	ADV	ADV	_	30	advmod	_	_
 29	unterwegs	unterwegs	ADV	ADV	_	30	advmod	_	_
 30	sei	sein	VERB	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	SpaceAfter=No
-31	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+31	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n
 
-# sent_id = 5
+# newpar
+# sent_id = 6
 # text = Mike Steele, ein Sprecher für das Office of Homeland Security and Emergency Preparedness des Gouverneurs, teilte mit, dass sich die Anfragen für Hochwasserfahrzeuge, Boote und Sandsäcke mehrten.
 1	Mike	Miken	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
 2	Steele	Steele	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
@@ -149,9 +156,10 @@
 29	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	30	cc	_	_
 30	Sandsäcke	Sandsack	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	26	conj	_	_
 31	mehrten	mehren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	ccomp	_	SpaceAfter=No
-32	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n
+32	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n\n
 
-# sent_id = 6
+# newpar
+# sent_id = 7
 # text = Steele sagte, dass allein die Gemeinde Tangipahoa zehntausend Sandsäcke angefordert hätte.
 1	Steele	Steel	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -165,9 +173,10 @@
 10	Sandsäcke	Sandsack	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 11	angefordert	angefordern	VERB	VVPP	VerbForm=Part	2	ccomp	_	_
 12	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	SpaceAfter=No
-13	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+13	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 7
+# newpar
+# sent_id = 8
 # text = Ein Überschwemmungswarnsystem wird über weite Teile im Süden Louisianas bis Samstag eingesetzt.
 1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	Überschwemmungswarnsystem	Überschwemmungswarnsystem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	nsubj:pass	_	_
@@ -183,9 +192,10 @@
 11	bis	bis	ADP	APPR	_	12	case	_	_
 12	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	_
 13	eingesetzt	einsetzen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-14	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n\n
 
-# sent_id = 8
+# newpar
+# sent_id = 9
 # text = Der Wetterdienst ließ verlautbaren, dass in diesem Gebiet zusätzliche 3 bis 5 Zoll an Regen fallen könnten.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Wetterdienst	Wetterdienst	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
@@ -205,9 +215,10 @@
 16	Regen	Regen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	_
 17	fallen	fallen	VERB	VVINF	VerbForm=Inf	3	ccomp	_	_
 18	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	SpaceAfter=No
-19	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 9
+# newpar
+# sent_id = 10
 # text = Im Süden Alabamas wurde am Freitag ein Flutfrühwarnsystem eingesetzt, während es im Gebiet Mobile weiterhin regnete.
 1-2	Im	_	_	_	_	_	_	_	_
 1	In	in	ADP	APPR	_	3	case	_	_
@@ -232,9 +243,10 @@
 18	Mobile	mobil	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	17	appos	_	_
 19	weiterhin	weiterhin	ADV	ADV	_	20	advmod	_	_
 20	regnete	regnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	advcl	_	SpaceAfter=No
-21	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n
+21	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n\n
 
-# sent_id = 10
+# newpar
+# sent_id = 11
 # text = Der Fluss Comite in der Nähe Baton Rouges und der Fluss Amite in der Nähe Denham Springs, die sich beide in Louisiana befinden, werden aller Wahrscheinlichkeit nach über das Wochenende Rekordpegel erreichen.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Fluss	Fluß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	34	nsubj	_	_
@@ -270,9 +282,10 @@
 32	Wochenende	Wochenende	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	34	obl	_	_
 33	Rekordpegel	Rekordpegel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	32	appos	_	_
 34	erreichen	erreichen	VERB	VVFIN	VerbForm=Inf	0	root	_	SpaceAfter=No
-35	.	.	PUNCT	$.	_	34	punct	_	SpacesAfter=\n
+35	.	.	PUNCT	$.	_	34	punct	_	SpacesAfter=\n\n
 
-# sent_id = 11
+# newpar
+# sent_id = 12
 # text = Der Metereologe Alek Krautmann sagt, dass beide Flüsse viele Häuser in den Vorortgegenden nahe Baton Rouge überschwemmen könnten.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Metereologe	Metereologe	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -293,9 +306,10 @@
 17	Rouge	Rouge	PROPN	NE	Case=Dat|Number=Sing	16	flat	_	_
 18	überschwemmen	überschwemmen	VERB	VVINF	VerbForm=Inf	5	ccomp	_	_
 19	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	SpaceAfter=No
-20	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
-# sent_id = 12
+# newpar
+# sent_id = 13
 # text = Er sagte auch, dass eine stromabwärts gerichtete Überschwemmung in Ascension Parish eine Gefahr darstellt, da diese über die getretenen Flüsse nur langsam in den Lake Maurepas fließen werden.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -327,9 +341,10 @@
 28	Maurepas	Maurepas	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	27	flat	_	_
 29	fließen	fließen	VERB	VVINF	VerbForm=Inf	2	advcl	_	_
 30	werden	werden	AUX	NE	Case=Acc|Number=Plur	29	aux:pass	_	SpaceAfter=No
-31	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+31	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 13
+# newpar
+# sent_id = 14
 # text = Der Fluss Tickfaw, südlich der Mississippi Staatsgrenze in Liverpool, Louisiana, erreichte am Freitag bereits um 09.00 den höchsten Stand, der jemals aufgezeichnet wurde.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Fluss	Fluß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
@@ -360,9 +375,10 @@
 26	jemals	jemals	ADV	ADV	_	27	advmod	_	_
 27	aufgezeichnet	aufzeichnen	VERB	VVPP	VerbForm=Part	23	acl	_	_
 28	wurde	werden	AUX	KON	_	27	aux:pass	_	SpaceAfter=No
-29	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n
+29	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n\n
 
-# sent_id = 14
+# newpar
+# sent_id = 15
 # text = Rettungsteams zupften noch immer Leute aus dem Flutwasser in den Bezirken Amite und Wilkinson im Südwesten von Mississippi.
 1	Rettungsteams	Rettungsteam	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	zupften	zupfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -384,9 +400,10 @@
 17	Südwesten	Südwesten	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	_
 18	von	von	ADP	FM	Foreign=Yes	19	case	_	_
 19	Mississippi	Mississippi	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
-20	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 15
+# newpar
+# sent_id = 16
 # text = Leroy Hansford, seine Frau und sein Stiefsohn befanden sich unter denjenigen, die am Freitag in der Nähe von Gloster gerettet wurden.
 1	Leroy	Leroy	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 2	Hansford	Hansford	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
@@ -413,9 +430,10 @@
 22	Gloster	Gloster	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nmod	_	_
 23	gerettet	retten	VERB	VVPP	VerbForm=Part	12	acl	_	_
 24	wurden	werden	AUX	FM	Foreign=Yes	23	aux:pass	_	SpaceAfter=No
-25	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
 
-# sent_id = 16
+# newpar
+# sent_id = 17
 # text = Hansford, 62, sagt, dass Wasser von Beaver Creek, das normalerweise mehr als 400 Fuß von seinem Haus entfernt liegt, über Nacht stark anstieg.
 1	Hansford	Hansford	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	$,	_	3	punct	_	_
@@ -445,9 +463,10 @@
 26	Nacht	Nacht	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	28	nmod	_	_
 27	stark	stark	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	28	advmod	_	_
 28	anstieg	anstieg	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
-29	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+29	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
-# sent_id = 17
+# newpar
+# sent_id = 18
 # text = Er sagte, dass ihn ein weiterer Stiefsohn, der in der Nähe wohnt, gewarnt hätte.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -466,9 +485,10 @@
 15	,	,	PUNCT	$,	_	8	punct	_	_
 16	gewarnt	warnen	VERB	VVPP	VerbForm=Part	2	ccomp	_	_
 17	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	SpaceAfter=No
-18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 18
+# newpar
+# sent_id = 19
 # text = "Wir sind aufgewacht und das Wasser strömte und strömte herein," sagte Hansford.
 1	"	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Wir	wir	PRON	ADJD	_	4	nsubj	_	_
@@ -485,17 +505,19 @@
 13	"	"	PUNCT	$(	_	4	punct	_	_
 14	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 15	Hansford	Hansford	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
-16	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n
+16	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n\n
 
-# sent_id = 19
+# newpar
+# sent_id = 20
 # text = Es erreichte meine Taille.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	erreichte	erreichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	meine	mein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	4	det:poss	_	_
 4	Taille	Taille	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 20
+# newpar
+# sent_id = 21
 # text = Seine Frau sagte Hansford, dass sie in den 48 Jahren, in denen sie dort lebte, noch nie einen solchen Hochstand des Flusses gesehen hätte.
 1	Seine	sein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	2	det:poss	_	_
 2	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -524,9 +546,10 @@
 25	Flusses	Fluß	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
 26	gesehen	sehen	VERB	VVINF	VerbForm=Inf	3	ccomp	_	_
 27	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	aux	_	SpaceAfter=No
-28	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+28	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 21
+# newpar
+# sent_id = 22
 # text = Hansford sagte, dass er und seine Familienmitglieder alle Behinderungen hätten und er der Einzige wäre, der schwimmen kann.
 1	Hansford	Hansford	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -548,9 +571,10 @@
 18	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	19	nsubj	_	_
 19	schwimmen	schwimmen	VERB	VVINF	VerbForm=Inf	15	acl	_	_
 20	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	SpaceAfter=No
-21	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+21	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 22
+# newpar
+# sent_id = 23
 # text = Hansford sagte, dass Nothelfer alle drei in einem großen Militär-LKW gerettet hätten und sie zu der nächsten Feuerwache in Gloster gebracht hätten, wo sie bis zum Freitag untergebracht waren.
 1	Hansford	Hansford	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -585,9 +609,10 @@
 30	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	31	obl	_	_
 31	untergebracht	unterbringen	VERB	VVPP	VerbForm=Part	2	acl	_	_
 32	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	31	aux:pass	_	SpaceAfter=No
-33	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+33	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 23
+# newpar
+# sent_id = 24
 # text = Krautmann sagte, dass die Überschwemmung "sich schnell ausgebreitet" hatte, da es weiterhin schwere Regenfälle gab und, dass die Behörden Evakuierungsanweisungen in Betracht zögen.
 1	Krautmann	Krautmann	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -617,9 +642,10 @@
 26	in	in	ADP	APPR	_	27	case	_	_
 27	Betracht	Betracht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	28	nmod	_	_
 28	zögen	zög	ADJ	NN	Case=Dat|Gender=Neut|Number=Sing	19	conj	_	SpaceAfter=No
-29	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+29	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 24
+# newpar
+# sent_id = 25
 # text = Laut Krautmann meldete ein Beobachter in der Nähe von Livingstone von Mitternacht bis Freitag morgen von 13,75 Zoll Regen.
 1	Laut	laut	ADP	NN	Case=Nom|Gender=Masc|Number=Sing	2	case	_	_
 2	Krautmann	Krautmann	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	_
@@ -640,9 +666,10 @@
 17	13,75	13,75	NUM	CARD	NumType=Card	18	nummod	_	_
 18	Zoll	Zoll	NOUN	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	obl	_	_
 19	Regen	Regen	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	appos	_	SpaceAfter=No
-20	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 25
+# newpar
+# sent_id = 26
 # text = Krautmann sagte, dass der Boden durch die Regenfälle seit Mittwoch erheblich vollgesogen sei.
 1	Krautmann	Krautmann	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -658,9 +685,10 @@
 12	erheblich	erheblich	ADJ	ADJD	_	13	advmod	_	_
 13	vollgesogen	vollgesiehen	VERB	ADJD	_	2	ccomp	_	_
 14	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
-15	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 26
+# newpar
+# sent_id = 27
 # text = Die Behörden gaben an, dass schwere Regenfälle und Straßenüberschwemmungen die Rettung von Einwohnern aus ihren Häusern in Tangipahoa Parish und Unterrichtsausfall in fünf Schulbezirken verursachten.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	Behörden	Behörde	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
@@ -688,9 +716,10 @@
 24	fünf	fünf	NUM	CARD	NumType=Card	25	nummod	_	_
 25	Schulbezirken	Schulbezirk	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	22	nmod	_	_
 26	verursachten	verursachen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
-27	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+27	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 27
+# newpar
+# sent_id = 28
 # text = Der CBS-Tochtersender WWL berichtete, dass eine Beigeordnete in Tangipahoa 200 überschwemmte Häuser angab.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	CBS	CBS	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	5	amod	_	SpaceAfter=No
@@ -708,9 +737,10 @@
 14	überschwemmte	überschwemmt	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	15	amod	_	_
 15	Häuser	Haus	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	16	nsubj	_	_
 16	angab	angeben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
-17	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
 
-# sent_id = 28
+# newpar
+# sent_id = 29
 # text = Die Einwohner wurden in zwei Kirchen evakuiert, die jetzt beide überschwemmt wurden.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	Einwohner	Einwohner	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj:pass	_	_
@@ -725,9 +755,10 @@
 11	beide	beide	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	12	nsubj:pass	_	_
 12	überschwemmt	überschwemmen	VERB	VVPP	VerbForm=Part	7	acl	_	_
 13	wurden	werden	AUX	FM	Foreign=Yes	12	aux:pass	_	SpaceAfter=No
-14	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+14	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
 
-# sent_id = 29
+# newpar
+# sent_id = 30
 # text = Der Vorsteher der Gemeinde Robby Miller sagte, dass die Behörden 72 Leute und sieben Haustiere gerettet hätten, die vom Hochwasser angespült wurden.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Vorsteher	Vorsteher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -755,9 +786,10 @@
 23	Hochwasser	Hochwasser	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	24	obl	_	_
 24	angespült	angespülen	VERB	VVPP	VerbForm=Part	7	acl	_	_
 25	wurden	werden	AUX	FM	Foreign=Yes	24	aux:pass	_	SpaceAfter=No
-26	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
 
-# sent_id = 30
+# newpar
+# sent_id = 31
 # text = In den Städten Amite und Hammond wurden Notunterkünfte eingerichtet, um die Evakuierten zu beherbergen.
 1	In	in	ADP	APPR	_	3	case	_	_
 2	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
@@ -774,9 +806,10 @@
 13	Evakuierten	Evakuiert	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
 14	zu	zu	PART	NN	Case=Acc|Gender=Fem|Number=Plur	15	mark	_	_
 15	beherbergen	beherbergen	VERB	VVINF	VerbForm=Inf	9	advcl	_	SpaceAfter=No
-16	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+16	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
 
-# sent_id = 31
+# newpar
+# sent_id = 32
 # text = "Sobald das Wasser anfängt zurückzugehen, werden sie wieder in ihre Häuser zurückgehen können," sagte er.
 1	"	"	PUNCT	$(	_	6	punct	_	SpaceAfter=No
 2	Sobald	sobald	SCONJ	KOUS	_	6	mark	_	_
@@ -797,9 +830,10 @@
 17	"	"	PUNCT	$(	_	18	punct	_	_
 18	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	parataxis	_	_
 19	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	SpaceAfter=No
-20	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n\n
 
-# sent_id = 32
+# newpar
+# sent_id = 33
 # text = In der Stadt Hammond der Gemeinde Tangipahoa wurden fast zwei dutzend Straßen aufgrund des Hochwassers geschlossen und Sandsäcke für die Bewohner zur Mitnahme bereitgestellt, die hoffen, das Wasser aus ihren Häusern und Geschäften halten zu können.
 1	In	in	ADP	APPR	_	3	case	_	_
 2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -841,9 +875,10 @@
 37	halten	halten	VERB	VVINF	VerbForm=Inf	28	xcomp	_	_
 38	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	37	mark	_	_
 39	können	können	AUX	VMINF	VerbForm=Inf	37	aux	_	SpaceAfter=No
-40	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n
+40	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n\n
 
-# sent_id = 33
+# newpar
+# sent_id = 34
 # text = "Die letzte große Überschwemmung, die wir hatten, war im März," sagte Lacy Landrum von der Stadtverwaltung.
 1	"	"	PUNCT	$(	_	5	punct	_	SpaceAfter=No
 2	Die	der	PRON	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -868,9 +903,10 @@
 20	von	von	ADP	FM	Foreign=Yes	22	case	_	_
 21	der	der	PRON	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 22	Stadtverwaltung	Stadtverwaltung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
-23	.	.	PUNCT	$.	_	19	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	$.	_	19	punct	_	SpacesAfter=\n\n
 
-# sent_id = 34
+# newpar
+# sent_id = 35
 # text = Dies scheint ein ähnlicher Vorfall zu werden.
 1	Dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -879,9 +915,10 @@
 5	Vorfall	Vorfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 6	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	7	mark	_	_
 7	werden	werden	VERB	NE	Case=Gen|Gender=Masc|Number=Plur	2	xcomp	_	SpaceAfter=No
-8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 35
+# newpar
+# sent_id = 36
 # text = In Mississipp sagte der Notfallmanager Rupert Lacy des Harrison Countys, dass es an der Golfküste weiterhin regnete.
 1	In	in	ADP	APPR	_	2	case	_	_
 2	Mississipp	Mississipp	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	obl	_	_
@@ -901,9 +938,10 @@
 16	Golfküste	Golfküste	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	_
 17	weiterhin	weiterhin	ADV	ADV	_	18	advmod	_	_
 18	regnete	regnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
-19	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 36
+# newpar
+# sent_id = 37
 # text = Laut seinen Angaben sollen eine Handvoll Häuser am Donnerstag als überschwemmt gemeldet worden sein, aber am Freitag wurden bis jetzt keine gemeldet.
 1	Laut	laut	ADP	APPR	_	3	case	_	_
 2	seinen	sein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Poss=Yes	3	det:poss	_	_
@@ -932,9 +970,10 @@
 23	jetzt	jetzt	ADV	ADV	_	25	advmod	_	_
 24	keine	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Neg|PronType=Neg	25	nmod	_	_
 25	gemeldet	melden	ADJ	VVPP	VerbForm=Part	13	conj	_	SpaceAfter=No
-26	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n
+26	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n\n
 
-# sent_id = 37
+# newpar
+# sent_id = 38
 # text = Keith Townson, Manager bei Shopper Value Foods in Amite, lebt bereits seit 40 Jahren in der Gegend.
 1	Keith	Keith	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
 2	Townson	Townson	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
@@ -955,9 +994,10 @@
 17	in	in	ADP	APPR	_	19	case	_	_
 18	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	Gegend	Gegend	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
-20	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
 
-# sent_id = 38
+# newpar
+# sent_id = 39
 # text = "Ich habe Wasser an Orten gesehen, an denen ich es nie zuvor gesehen habe," sagte Townson, "und es kommt noch immer."
 1	"	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
@@ -987,5 +1027,5 @@
 26	noch	noch	ADV	CARD	NumType=Card	25	advmod	_	_
 27	immer	immer	ADV	ADV	_	25	advmod	_	SpaceAfter=No
 28	.	.	PUNCT	$.	_	7	punct	_	SpaceAfter=No
-29	"	"	PUNCT	$(	_	7	punct	_	SpacesAfter=\n
+29	"	"	PUNCT	$(	_	7	punct	_	SpacesAfter=\n\n
 

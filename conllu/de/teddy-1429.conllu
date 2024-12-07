@@ -1,4 +1,4 @@
-# newdoc id = txt/de/teddy-1429.txt
+# newdoc
 # newpar
 # sent_id = 1
 # text = Vor einigen Jahren, hier bei TED, stellte Peter Skillman einen Design-Wettbewerb namens "Die Marshmallow-Herausforderung" vor.
@@ -464,13 +464,15 @@
 8	Wie	wie	ADV	NN	Case=Nom|Gender=Neut|Number=Sing	9	advmod	_	_
 9	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
 10	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	nsubj	_	SpaceAfter=No
-11	?	?	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+11	?	?	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 20
 # text = Warum?
 1	Warum	warum	PROPN	PWAV	PronType=Int	0	root	_	SpaceAfter=No
-2	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+2	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 21
 # text = Was ist mit denen?
 1	Was	was	PRON	FM	Foreign=Yes	2	nsubj	_	_
@@ -770,8 +772,9 @@
 # text = Und warum?
 1	Und	und	CCONJ	ADJD	_	2	cc	_	_
 2	warum	warum	ADV	ADJD	_	0	root	_	SpaceAfter=No
-3	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+3	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 39
 # text = Weil sie Dreiecke verstehen und sich-selbst-verstärkende geometrische Muster sind der Schlüssel um stabile Strukturen zu bauen.
 1	Weil	weil	SCONJ	KOUS	_	4	mark	_	_
@@ -833,8 +836,9 @@
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 3	unglaublich	unglaublich	ADJ	ADJD	_	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 44
 # text = Sie sehen sich um und erkennen "Dieses Team wird gewinnen."
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
@@ -857,8 +861,9 @@
 2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	das	der	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
 4	vorhersagen	vorhersagen	NOUN	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 46
 # text = Warum geht das?
 1	Warum	warum	ADV	PWAV	PronType=Int	2	advmod	_	_
@@ -1458,5 +1463,5 @@
 # text = (Applaus)
 1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Applaus	Applaus	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
-3	)	)	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\n
+3	)	)	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\n\n
 

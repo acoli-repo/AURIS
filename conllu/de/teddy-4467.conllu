@@ -1,4 +1,4 @@
-# newdoc id = txt/de/teddy-4467.txt
+# newdoc
 # newpar
 # sent_id = 1
 # text = Charlie Rose: Larry hat mir eine Mail geschickt.
@@ -1259,8 +1259,9 @@
 3	Da	Da	ADV	NE	Case=Nom|Gender=Fem|Number=Sing	4	advmod	_	_
 4	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
 5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	SpaceAfter=No
-6	.	.	PUNCT	$.	_	0	root	_	SpacesAfter=\n
+6	.	.	PUNCT	$.	_	0	root	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 83
 # text = Sehen Sie die Katze?
 1	Sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2384,8 +2385,9 @@
 1	LP	LP	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	3	punct	_	_
 3	Absolut	absolut	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	1	appos	_	SpaceAfter=No
-4	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+4	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 153
 # text = Ich habe das Foto von Sergey und Edward Snowden gestern gesehen.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
@@ -2988,8 +2990,9 @@
 1	LP	LP	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	3	punct	_	_
 3	Gut	Gut	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	1	appos	_	SpaceAfter=No
-4	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+4	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 189
 # text = Hol deine Voodoo-Puppe raus und tu, was du tun musst.
 1	Hol	Hol	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
@@ -3237,8 +3240,9 @@
 1	LP	LP	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	$.	_	3	punct	_	_
 3	Ja	Ja	PROPN	PTKANT	_	1	appos	_	SpaceAfter=No
-4	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+4	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 200
 # text = Ich habe ein Stimmproblem.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
@@ -3487,8 +3491,9 @@
 2	werden	werden	AUX	NE	Case=Acc|Number=Plur	4	aux:pass	_	_
 3	20	20	NUM	CARD	NumType=Card	4	nummod	_	_
 4	Mio	Mio	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 216
 # text = Menschen oder mehr pro Jahr verletzt.
 1	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
@@ -5130,8 +5135,9 @@
 26	Tisch	Tisch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	28	obl	_	_
 27	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	28	mark	_	_
 28	sitzen	sitzen	VERB	VVINF	VerbForm=Inf	20	acl	_	SpaceAfter=No
-29	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+29	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 309
 # text = Danke, Larry!
 1	Danke	Dank	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -5154,5 +5160,5 @@
 2	:	:	PUNCT	$.	_	3	punct	_	_
 3	Larry	Larry	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 4	Page	Page	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\n
+5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\n\n
 

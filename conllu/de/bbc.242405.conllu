@@ -1,7 +1,7 @@
-# newdoc id = txt/de/bbc.242405.txt
+# newdoc
 # newpar
 # sent_id = 1
-# text = Royal Bank of Scotland für Kunden außerhalb Schottlands nicht mehr verfügbar Die Marke RBS soll laut dem Vorstandschef der Bank nurmehr auf eine Backoffice-Rolle reduziert werden.
+# text = Royal Bank of Scotland für Kunden außerhalb Schottlands nicht mehr verfügbar
 1	Royal	royal	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
 2	Bank	Bank	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	_
 3	of	of	PROPN	NE	Foreign=Yes	1	flat	_	_
@@ -12,27 +12,32 @@
 8	Schottlands	Schottlands	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 9	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advmod	_	_
 10	mehr	mehr	ADV	ADV	_	9	advmod	_	_
-11	verfügbar	verfügbar	ADJ	ADJD	_	0	root	_	SpacesAfter=\n
-12	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	Marke	Marke	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	27	nsubj:pass	_	_
-14	RBS	RBS	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	13	appos	_	_
-15	soll	sollen	AUX	NN	Case=Nom|Gender=Masc|Number=Plur	27	aux	_	_
-16	laut	laut	ADP	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	case	_	_
-17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	Vorstandschef	Vorstandschef	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	27	obl	_	_
-19	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	Bank	Bank	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
-21	nurmehr	nurmehr	ADV	ADV	_	27	advmod	_	_
-22	auf	auf	ADP	APPR	_	26	case	_	_
-23	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-24	Backoffice	Backoffice	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	26	compound	_	SpaceAfter=No
-25	-	-	PUNCT	$(	_	24	punct	_	SpaceAfter=No
-26	Rolle	Rolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	obl	_	_
-27	reduziert	reduzieren	VERB	VVPP	VerbForm=Part	11	parataxis	_	_
-28	werden	werden	AUX	NE	Case=Acc|Number=Plur	27	aux:pass	_	SpaceAfter=No
-29	.	.	PUNCT	$.	_	27	punct	_	SpacesAfter=\n
+11	verfügbar	verfügbar	ADJ	ADJD	_	0	root	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 2
+# text = Die Marke RBS soll laut dem Vorstandschef der Bank nurmehr auf eine Backoffice-Rolle reduziert werden.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Marke	Marke	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nsubj:pass	_	_
+3	RBS	RBS	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
+4	soll	sollen	AUX	NN	Case=Nom|Gender=Masc|Number=Plur	16	aux	_	_
+5	laut	laut	ADP	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Vorstandschef	Vorstandschef	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	_
+8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Bank	Bank	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	nurmehr	nurmehr	ADV	ADV	_	16	advmod	_	_
+11	auf	auf	ADP	APPR	_	15	case	_	_
+12	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+13	Backoffice	Backoffice	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	compound	_	SpaceAfter=No
+14	-	-	PUNCT	$(	_	13	punct	_	SpaceAfter=No
+15	Rolle	Rolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+16	reduziert	reduzieren	VERB	VVPP	VerbForm=Part	0	root	_	_
+17	werden	werden	AUX	NE	Case=Acc|Number=Plur	16	aux:pass	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
 # text = Die Royal Bank of Scotland wird für Kunden außerhalb Schottlands nicht mehr verfügbar sein.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Royal	royal	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
@@ -48,9 +53,10 @@
 12	mehr	mehr	ADV	ADV	_	11	advmod	_	_
 13	verfügbar	verfügbar	ADJ	ADJD	_	0	root	_	_
 14	sein	sein	AUX	VAINF	VerbForm=Inf	13	cop	_	SpaceAfter=No
-15	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n\n
 
-# sent_id = 3
+# newpar
+# sent_id = 4
 # text = Ross McEwan teilte der BBC Scotland mit, dass die Marke RBS mit den globalen Ambitionen der Bank verbunden waren.
 1	Ross	Roß	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	McEwan	McEwan	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
@@ -72,9 +78,10 @@
 18	Bank	Banken	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
 19	verbunden	verbunden	ADJ	VVPP	VerbForm=Part	3	ccomp	_	_
 20	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	SpaceAfter=No
-21	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+21	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 4
+# newpar
+# sent_id = 5
 # text = Die Bank hat sich seitdem distanziert, als sie vor acht Jahren fast kollabierte und gerettet werden musste.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Bank	Bank	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -94,9 +101,10 @@
 16	gerettet	retten	VERB	VVPP	VerbForm=Part	14	conj	_	_
 17	werden	werden	AUX	NE	Case=Acc|Number=Plur	14	aux:pass	_	_
 18	musste	müssen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	SpaceAfter=No
-19	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
 
-# sent_id = 5
+# newpar
+# sent_id = 6
 # text = In dieser Zeit haben Markenstrategen "RBS" dazu verwendet, andere Endverbraucherfinanzmarken zu schützen.
 1	In	in	ADP	APPR	_	3	case	_	_
 2	dieser	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -113,9 +121,10 @@
 13	Endverbraucherfinanzmarken	Endverbraucherfinanzmark	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
 14	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	15	mark	_	_
 15	schützen	schützen	VERB	VVINF	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
-16	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+16	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
 
-# sent_id = 6
+# newpar
+# sent_id = 7
 # text = Sie unterstützte den internationalen Sport mit Millionen Pfund an Sponsoring, vom Six Nations Rugby bis hin zum Wimbledon Sieger Andy Murray.
 1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	unterstützte	unterstützen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -143,9 +152,10 @@
 22	Sieger	Sieger	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	23	amod	_	_
 23	Andy	Andy	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	21	flat	_	_
 24	Murray	Murray	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	21	flat	_	SpaceAfter=No
-25	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 7
+# newpar
+# sent_id = 8
 # text = Aber jetzt hat sie sich dazu entschieden, mehr nationale Marken in den Fokus zu rücken.
 1	Aber	aber	CCONJ	KON	_	7	cc	_	_
 2	jetzt	jetzt	ADV	ADV	_	7	advmod	_	_
@@ -163,9 +173,10 @@
 14	Fokus	Fokus	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_
 15	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	16	mark	_	_
 16	rücken	rücken	VERB	VVINF	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
-17	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
 
-# sent_id = 8
+# newpar
+# sent_id = 9
 # text = Die Royal Bank of Scotland wird nur für Kunden in Schottland verfügbar sein, aber wird nicht initialisiert werden.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Royal	royal	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
@@ -186,9 +197,10 @@
 17	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advmod	_	_
 18	initialisiert	initialisieren	VERB	VVPP	VerbForm=Part	12	conj	_	_
 19	werden	werden	AUX	NE	Case=Acc|Number=Plur	18	aux:pass	_	SpaceAfter=No
-20	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+20	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
 
-# sent_id = 9
+# newpar
+# sent_id = 10
 # text = In England und Wales werden alle RSB Referenzen, der dezentrale Hauptsitz und die Börsennotierung zu NatWest wechseln.
 1	In	in	ADP	APPR	_	2	case	_	_
 2	England	England	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	_
@@ -208,9 +220,10 @@
 16	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	17	case	_	_
 17	NatWest	NatWest	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	18	obl	_	_
 18	wechseln	wechseln	VERB	VVINF	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-19	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n
+19	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n\n
 
-# sent_id = 10
+# newpar
+# sent_id = 11
 # text = Die Marke Ulster Bank wird bereits für Kunden in der Republik Irland und Nordirland verwendet.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Marke	Marke	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj:pass	_	_
@@ -227,9 +240,10 @@
 13	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	14	cc	_	_
 14	Nordirland	Nordirland	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	12	conj	_	_
 15	verwendet	verwenden	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-16	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n
+16	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n\n
 
-# sent_id = 11
+# newpar
+# sent_id = 12
 # text = Es gibt andere, kleinere Marken für das Privatkundengeschäft, die mehr Bedeutung erhalten werden - Coutts, Adam & Co, Drummond und Holt's Military Bank.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -258,9 +272,10 @@
 25	Holt's	Holt's	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	17	conj	_	_
 26	Military	Military	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	25	flat	_	_
 27	Bank	Bank	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	9	appos	_	SpaceAfter=No
-28	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+28	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 12
+# newpar
+# sent_id = 13
 # text = McEwan wurde während einer Besichtigungstour von Kunden und Mitarbeitern in Inverness-shire interviewt.
 1	McEwan	McEwan	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	_
 2	wurde	werden	AUX	NE	Case=Nom|Gender=Masc|Number=Sing	12	aux:pass	_	_
@@ -274,9 +289,10 @@
 10	in	in	ADP	APPR	_	11	case	_	_
 11	Inverness-shire	Inverness-shire	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	_
 12	interviewt	interviewen	VERB	VVPP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-13	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+13	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
 
-# sent_id = 13
+# newpar
+# sent_id = 14
 # text = Er teilte der BBC Scotland mit: "Die Marke RSB wird zu unserer Investorenmarke sowie zu der Marke, unter der unsere Mitarbeiter beschäftigt sein werden, da wir jetzt mehr zu einer Bank von Marken werden."
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	teilte	teilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -317,9 +333,10 @@
 37	Marken	Marke	NOUN	NE	Case=Acc|Gender=Fem|Number=Plur	35	nmod	_	_
 38	werden	werden	VERB	NE	Case=Acc|Number=Plur	12	advcl	_	SpaceAfter=No
 39	.	.	PUNCT	$.	_	12	punct	_	SpaceAfter=No
-40	"	"	PUNCT	$(	_	12	punct	_	SpacesAfter=\n
+40	"	"	PUNCT	$(	_	12	punct	_	SpacesAfter=\n\n
 
-# sent_id = 14
+# newpar
+# sent_id = 15
 # text = Als die Bank selber zu einer globalen Marke wurde, wurde RBS zur globalen Marke.
 1	Als	als	SCONJ	KOUS	_	9	mark	_	_
 2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -338,9 +355,10 @@
 14	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 15	globalen	global	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	16	amod	_	_
 16	Marke	Marke	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n\n
 
-# sent_id = 15
+# newpar
+# sent_id = 16
 # text = Ich sage jetzt, dass wir keine globalen Ziele, sondern lokale Ziele verfolgen.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	sage	sagen	VERB	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
@@ -356,9 +374,10 @@
 12	lokale	lokal	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	13	amod	_	_
 13	Ziele	Ziele	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	_
 14	verfolgen	verfolgen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
-15	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 16
+# newpar
+# sent_id = 17
 # text = Jede dieser Marken wird in ihren eigenen Gemeinden für etwas vollkommen anderes stehen und unsere Mitarbeiter werden unter diesen Marken mit den Kunden arbeiten.
 1	Jede	jed	PRON	PIS	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	13	nsubj	_	_
 2	dieser	dies	PRON	PDAT	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
@@ -384,9 +403,10 @@
 22	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
 23	Kunden	Kunde	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	24	obl	_	_
 24	arbeiten	arbeiten	VERB	VVFIN	VerbForm=Inf	13	conj	_	SpaceAfter=No
-25	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n\n
 
-# sent_id = 17
+# newpar
+# sent_id = 18
 # text = RBS hat bereits ausgesagt, dass es sein Six Nations Sponsoring nicht mehr fortführen wird und, dass es die Wahrnehmbarkeit der verschiedenen Marken in seinem Sport-Sponsoring erhöhen wird.
 1	RBS	RBS	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
 2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
@@ -419,9 +439,10 @@
 29	Sponsoring	Sponsoring	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	30	obl	_	_
 30	erhöhen	erhöhen	VERB	VVINF	VerbForm=Inf	14	conj	_	_
 31	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	SpaceAfter=No
-32	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+32	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 18
+# newpar
+# sent_id = 19
 # text = "Es ist Zeit für uns, sich zur Bank der Marken zu entwickeln, denn wie konzentrieren wir uns im Inneren (wir haben gefragt) darauf, dies zu einer besseren Bank für Kunden zu machen?" sagte der Vorstandschef.
 1	"	"	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
@@ -470,9 +491,10 @@
 43	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 44	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
 45	Vorstandschef	Vorstandschef	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	43	nsubj	_	SpaceAfter=No
-46	.	.	PUNCT	$.	_	43	punct	_	SpacesAfter=\n
+46	.	.	PUNCT	$.	_	43	punct	_	SpacesAfter=\n\n
 
-# sent_id = 19
+# newpar
+# sent_id = 20
 # text = Es wäre vor drei Jahren sehr zynisch gewesen, wenn wir gesagt hätten, dass wir für unsere Kunden eine tolle Bank sein werden und diese Marken lanciert hätten.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
 2	wäre	sein	AUX	NN	Foreign=Yes	7	aux	_	_
@@ -503,9 +525,10 @@
 27	Marken	Marke	NOUN	NE	Case=Acc|Gender=Fem|Number=Plur	28	obj	_	_
 28	lanciert	lanciert	VERB	VVPP	VerbForm=Part	23	conj	_	_
 29	hätten	haben	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	28	aux	_	SpaceAfter=No
-30	.	.	PUNCT	$.	_	23	punct	_	SpacesAfter=\n
+30	.	.	PUNCT	$.	_	23	punct	_	SpacesAfter=\n\n
 
-# sent_id = 20
+# newpar
+# sent_id = 21
 # text = Aber mit unserer Arbeit, dem Fokus auf Kundenbedürfnisse und nicht unsere eigenen, denke ich, wird man viele Veränderungen sehen.
 1	Aber	aber	CCONJ	KON	_	15	advmod	_	_
 2	mit	mit	ADP	ADJA	Case=Nom|Gender=Fem|Number=Plur	4	case	_	_
@@ -529,9 +552,10 @@
 20	viele	viel	DET	NN	Case=Dat|Gender=Fem|Number=Sing	21	amod	_	_
 21	Veränderungen	Veränderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	22	obj	_	_
 22	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
-23	.	.	PUNCT	$.	_	22	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	$.	_	22	punct	_	SpacesAfter=\n\n
 
-# sent_id = 21
+# newpar
+# sent_id = 22
 # text = Wir können diese Marken wieder lancieren, daher denke ich, dass die Zeit gekommen ist.
 1	Wir	wir	PRON	ADJD	_	6	nsubj	_	_
 2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
@@ -549,5 +573,5 @@
 14	Zeit	Zeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
 15	gekommen	kommen	VERB	VVPP	VerbForm=Part	9	ccomp	_	_
 16	ist	sein	AUX	ADJD	_	15	aux	_	SpaceAfter=No
-17	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+17	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
 

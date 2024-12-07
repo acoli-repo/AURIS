@@ -1,4 +1,4 @@
-# newdoc id = txt/de/teddy-953.txt
+# newdoc
 # newpar
 # sent_id = 1
 # text = Als Steve Lopez, Kolumnist der Los Angeles Times, eines Tages durch die Straßen im Zentrum von Los Angeles ging, hörte er eine wundervolle Musik.
@@ -351,8 +351,9 @@
 6	Musik	Musik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
 7	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	8	mark	_	_
 8	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
-9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 11
 # text = Und ein paar Tage später bekam ich eine E-Mail, in der stand, dass Nathaniel sich für Geigenunterricht bei mir interessierte.
 1	Und	und	CCONJ	ADJD	_	6	cc	_	_
@@ -883,8 +884,9 @@
 1	Musik	Musik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 2	ist	sein	AUX	ADJD	_	3	cop	_	_
 3	Medizin	Medizin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 30
 # text = Musik verändert uns.
 1	Musik	Musik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
@@ -1122,8 +1124,9 @@
 6	:	:	PUNCT	$.	_	8	punct	_	_
 7	Vielen	viel	DET	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	8	amod	_	_
 8	Dank	Dank	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
-9	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+9	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 42
 # text = Danke.
 1	Danke	Dank	NOUN	PTKANT	_	0	root	_	SpaceAfter=No
@@ -1168,5 +1171,5 @@
 # text = (Musik)
 1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
 2	Musik	Musik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-3	)	)	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\n
+3	)	)	PUNCT	$(	_	2	punct	_	SpacesAfter=\s\n\n
 

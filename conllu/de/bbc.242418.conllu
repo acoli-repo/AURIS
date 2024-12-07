@@ -1,7 +1,7 @@
-# newdoc id = txt/de/bbc.242418.txt
+# newdoc
 # newpar
 # sent_id = 1
-# text = Frankie Dettori erreicht auf Predilection seinen 3.000ten Gewinn bei Newmarket Dettori sprüht Champagner nach einem Double bei Newmarket, der ihm 3.000ten Gewinn bringt Der Jockey Frankie Dettori sicherte am Freitag seinen 3.000ten britischen Gewinn bei Newmarket.
+# text = Frankie Dettori erreicht auf Predilection seinen 3.000ten Gewinn bei Newmarket
 1	Frankie	Frankie	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 2	Dettori	Dettori	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	_
 3	erreicht	erreichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -11,39 +11,48 @@
 7	3.000ten	3.000t	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	8	amod	_	_
 8	Gewinn	Gewinn	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
 9	bei	bei	ADP	APPR	_	10	case	_	_
-10	Newmarket	Newmarket	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	8	nmod	_	SpacesAfter=\n
-11	Dettori	Dettori	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	10	flat	_	_
-12	sprüht	sprühen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
-13	Champagner	Champagner	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
-14	nach	nach	ADP	ADJA	_	16	case	_	_
-15	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
-16	Double	Double	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	_
-17	bei	bei	ADP	APPR	_	18	case	_	_
-18	Newmarket	Newmarket	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
-19	,	,	PUNCT	$,	_	24	punct	_	_
-20	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	24	nsubj	_	_
-21	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	iobj	_	_
-22	3.000ten	3.000t	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	23	amod	_	_
-23	Gewinn	Gewinn	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	24	obj	_	_
-24	bringt	bringen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl	_	SpacesAfter=\n
-25	Der	der	PRON	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	nmod	_	_
-26	Jockey	Jockey	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
-27	Frankie	Frankie	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	26	flat	_	_
-28	Dettori	Dettori	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	26	flat	_	_
-29	sicherte	sicheren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	conj	_	_
-30-31	am	_	_	_	_	_	_	_	_
-30	an	an	ADP	APPR	_	32	case	_	_
-31	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
-32	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	29	obl	_	_
-33	seinen	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	36	det:poss	_	_
-34	3.000ten	3.000t	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	36	amod	_	_
-35	britischen	britisch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	36	amod	_	_
-36	Gewinn	Gewinn	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	29	obj	_	_
-37	bei	bei	ADP	APPR	_	38	case	_	_
-38	Newmarket	Newmarket	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	29	obl	_	SpaceAfter=No
-39	.	.	PUNCT	$.	_	24	punct	_	SpacesAfter=\n
+10	Newmarket	Newmarket	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	SpacesAfter=\n\n
 
+# newpar
 # sent_id = 2
+# text = Dettori sprüht Champagner nach einem Double bei Newmarket, der ihm 3.000ten Gewinn bringt
+1	Dettori	Dettori	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	sprüht	sprühen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Champagner	Champagner	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	nach	nach	ADP	ADJA	_	6	case	_	_
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Double	Double	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
+7	bei	bei	ADP	APPR	_	8	case	_	_
+8	Newmarket	Newmarket	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	14	punct	_	_
+10	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	14	nsubj	_	_
+11	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+12	3.000ten	3.000t	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	13	amod	_	_
+13	Gewinn	Gewinn	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+14	bringt	bringen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Der Jockey Frankie Dettori sicherte am Freitag seinen 3.000ten britischen Gewinn bei Newmarket.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Jockey	Jockey	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	Frankie	Frankie	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+4	Dettori	Dettori	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	_
+5	sicherte	sichern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6-7	am	_	_	_	_	_	_	_	_
+6	an	an	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	_
+9	seinen	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	12	det:poss	_	_
+10	3.000ten	3.000t	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	12	amod	_	_
+11	britischen	britisch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	12	amod	_	_
+12	Gewinn	Gewinn	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+13	bei	bei	ADP	APPR	_	14	case	_	_
+14	Newmarket	Newmarket	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
 # text = Er setzte auf Predilection, die von John Gosden trainiert wird, auf seiner lokalen Rennstrecke mit seinem zweiten Gewinn der Nacht einen Meilenstein.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	setzte	setzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -69,9 +78,10 @@
 22	Nacht	Nacht	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
 23	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	Meilenstein	Meilenstein	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
-25	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+25	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 3
+# newpar
+# sent_id = 5
 # text = Der 45-jährige Italiener ist der sechste Jockey, der den Meilenstein im Flachrennen erreicht.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 2	45	45	NUM	ADJA	Case=Acc|Gender=Fem|Number=Sing|NumType=Card	4	nummod	_	SpaceAfter=No
@@ -91,9 +101,10 @@
 15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
 16	Flachrennen	Flachrennen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	_
 17	erreicht	erreichen	VERB	VVPP	VerbForm=Part	9	acl	_	SpaceAfter=No
-18	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
 
-# sent_id = 4
+# newpar
+# sent_id = 6
 # text = Er folgt Sir Gordon Richards, Doug Smith, Lester Piggott, Pat Eddry und Willie Carson.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	folgt	folgen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -112,9 +123,10 @@
 15	und	und	CCONJ	NE	Foreign=Yes	16	cc	_	_
 16	Willie	Willie	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
 17	Carson	Carson	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	16	flat	_	SpaceAfter=No
-18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 5
+# newpar
+# sent_id = 7
 # text = Der dreimalige Sieger Dettori, der davor auf Ghayyar gewann, sagte: "Es ist etwas Besonderes."
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	dreimalige	dreimalig	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
@@ -135,45 +147,51 @@
 17	etwas	etwas	PRON	PIS	Definite=Ind|Gender=Neut|PronType=Ind	18	nsubj	_	_
 18	Besonderes	besonderes	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	12	parataxis	_	SpaceAfter=No
 19	.	.	PUNCT	$.	_	18	punct	_	SpaceAfter=No
-20	"	"	PUNCT	$(	_	18	punct	_	SpacesAfter=\n
+20	"	"	PUNCT	$(	_	18	punct	_	SpacesAfter=\n\n
 
-# sent_id = 6
-# text = Ich bin sehr emotional, weil meine Familie auch hier ist Ich bin sehr glücklich darüber, dass es bei Newmarket geschehen ist, weil ich hier vor 30 Jahren gelandet bin.
+# newpar
+# sent_id = 8
+# text = Ich bin sehr emotional, weil meine Familie auch hier ist
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	sehr	sehr	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	4	advmod	_	_
-4	emotional	emotional	ADJ	ADJD	_	0	root	_	SpaceAfter=No
-5	,	,	PUNCT	$,	_	15	punct	_	_
+4	emotional	emotional	ADJ	ADJD	_	11	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	10	punct	_	_
 6	weil	weil	SCONJ	KOUS	_	10	mark	_	_
 7	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	8	det:poss	_	_
 8	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
 9	auch	auch	ADV	ADV	_	10	advmod	_	_
-10	hier	hier	ADV	ADV	_	15	advmod	_	_
-11	ist	sein	AUX	ADJD	_	15	cop	_	SpacesAfter=\n
-12	Ich	ich	PRON	NN	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
-13	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	cop	_	_
-14	sehr	sehr	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	15	advmod	_	_
-15	glücklich	glücklich	ADJ	ADJD	_	4	conj	_	_
-16	darüber	darüber	PRON	PAV	_	15	conj	_	SpaceAfter=No
-17	,	,	PUNCT	$,	_	22	punct	_	_
-18	dass	dass	SCONJ	KOUS	_	22	mark	_	_
-19	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj:pass	_	_
-20	bei	bei	ADP	APPR	_	21	case	_	_
-21	Newmarket	Newmarket	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	22	obl	_	_
-22	geschehen	geschehen	VERB	VVPP	VerbForm=Part	15	ccomp	_	_
-23	ist	sein	AUX	ADJD	_	22	aux:pass	_	SpaceAfter=No
-24	,	,	PUNCT	$,	_	31	punct	_	_
-25	weil	weil	SCONJ	KOUS	_	31	mark	_	_
-26	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	_	_
-27	hier	hier	ADV	ADV	_	31	advmod	_	_
-28	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	30	case	_	_
-29	30	30	NUM	CARD	NumType=Card	30	nummod	_	_
-30	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	31	obl	_	_
-31	gelandet	landen	VERB	VVPP	VerbForm=Part	22	advcl	_	_
-32	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	31	aux	_	SpaceAfter=No
-33	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+10	hier	hier	ADV	ADV	_	4	advcl	_	_
+11	ist	sein	VERB	ADJD	_	0	root	_	SpacesAfter=\n\n
 
-# sent_id = 7
+# newpar
+# sent_id = 9
+# text = Ich bin sehr glücklich darüber, dass es bei Newmarket geschehen ist, weil ich hier vor 30 Jahren gelandet bin.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	sehr	sehr	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	4	advmod	_	_
+4	glücklich	glücklich	ADJ	ADJD	_	0	root	_	_
+5	darüber	darüber	PRON	PAV	_	11	dep	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	11	punct	_	_
+7	dass	dass	SCONJ	KOUS	_	11	mark	_	_
+8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj:pass	_	_
+9	bei	bei	ADP	APPR	_	10	case	_	_
+10	Newmarket	Newmarket	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_
+11	geschehen	geschehen	VERB	VVPP	VerbForm=Part	4	advcl	_	_
+12	ist	sein	AUX	ADJD	_	11	aux:pass	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	20	punct	_	_
+14	weil	weil	SCONJ	KOUS	_	20	mark	_	_
+15	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+16	hier	hier	ADV	ADV	_	20	advmod	_	_
+17	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	19	case	_	_
+18	30	30	NUM	CARD	NumType=Card	19	nummod	_	_
+19	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	20	obl	_	_
+20	gelandet	landen	VERB	VVPP	VerbForm=Part	11	advcl	_	_
+21	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
 # text = Es ist kein großes Treffen, es ist nicht Royal Ascot - es ist ein banaler Freitag abend mit 20.000 Leuten.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -196,9 +214,10 @@
 19	mit	mit	ADP	$(	_	21	case	_	_
 20	20.000	20.000	NUM	CARD	NumType=Card	21	nummod	_	_
 21	Leuten	Leu	NOUN	NN	Case=Dat|Number=Plur	17	nmod	_	SpaceAfter=No
-22	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+22	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
-# sent_id = 8
+# newpar
+# sent_id = 11
 # text = Ich bin erleichtert und sehr bescheiden.
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
@@ -206,10 +225,11 @@
 4	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	6	cc	_	_
 5	sehr	sehr	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	6	advmod	_	_
 6	bescheiden	bescheiden	ADJ	VVINF	VerbForm=Inf	3	conj	_	SpaceAfter=No
-7	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+7	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 9
-# text = Dettori nimmt den Jubel auf, als er auf Predilection den Sieg holt Zwei Jockeys haben den Meilenstein im Hindernisrennen erreicht - Jockey Richard Johnson und der pensionierte 20-malige Sieger Sir Anthony McCoy, der mehr als 4.300 Siege in einer rekordbrechenden Karriere erreichte.
+# newpar
+# sent_id = 12
+# text = Dettori nimmt den Jubel auf, als er auf Predilection den Sieg holt
 1	Dettori	Dettori	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	nimmt	nehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -222,84 +242,94 @@
 10	Predilection	Predilection	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
 11	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	Sieg	Sieg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
-13	holt	holen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	SpacesAfter=\n
-14	Zwei	zwei	NUM	CARD	NumType=Card	15	nummod	_	_
-15	Jockeys	Jockeys	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	22	nsubj	_	_
-16	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
-17	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	Meilenstein	Meilenstein	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	obj	_	_
-19-20	im	_	_	_	_	_	_	_	_
-19	in	in	ADP	APPR	_	21	case	_	_
-20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	21	det	_	_
-21	Hindernisrennen	Hindernisrennen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	22	nmod	_	_
-22	erreicht	erreichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
-23	-	-	PUNCT	$(	_	24	punct	_	_
-24	Jockey	Jockey	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
-25	Richard	Richard	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	24	flat	_	_
-26	Johnson	Johnson	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	24	flat	_	_
-27	und	und	CCONJ	NE	Foreign=Yes	31	cc	_	_
-28	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
-29	pensionierte	pensionieren	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	31	amod	_	_
-30	20-malige	20-malig	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	31	amod	_	_
-31	Sieger	Sieger	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	conj	_	_
-32	Sir	Sir	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	31	appos	_	_
-33	Anthony	Anthony	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	32	flat	_	_
-34	McCoy	McCoy	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	32	flat	_	SpaceAfter=No
-35	,	,	PUNCT	$,	_	45	punct	_	_
-36	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	45	nsubj	_	_
-37	mehr	mehr	ADV	ADV	_	45	advmod	_	_
-38	als	als	ADP	KOKOM	_	40	case	_	_
-39	4.300	4.300	NUM	CARD	NumType=Card	40	nummod	_	_
-40	Siege	Siege	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	45	obl	_	_
-41	in	in	ADP	APPR	_	44	case	_	_
-42	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
-43	rekordbrechenden	rekordbrechend	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	44	amod	_	_
-44	Karriere	Karriere	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	45	obl	_	_
-45	erreichte	erreichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	acl	_	SpaceAfter=No
-46	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+13	holt	holen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpacesAfter=\n\n
 
-# sent_id = 10
-# text = Lester Piggott, der neunmalige Derbysieger hatte 4.493 Karrieresiege Frankie ist einer der besten Jockey der Moderne und es ist keine Überraschung, dass er diesen Meilenstein erreicht hat, den nur wenige vor ihm erreicht haben.
+# newpar
+# sent_id = 13
+# text = Zwei Jockeys haben den Meilenstein im Hindernisrennen erreicht - Jockey Richard Johnson und der pensionierte 20-malige Sieger Sir Anthony McCoy, der mehr als 4.300 Siege in einer rekordbrechenden Karriere erreichte.
+1	Zwei	zwei	NUM	CARD	NumType=Card	2	nummod	_	_
+2	Jockeys	Jockeys	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	9	nsubj	_	_
+3	haben	haben	AUX	VAINF	VerbForm=Inf	9	aux	_	_
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Meilenstein	Meilenstein	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	obj	_	_
+6-7	im	_	_	_	_	_	_	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Hindernisrennen	Hindernisrennen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	_
+9	erreicht	erreichen	VERB	VVPP	VerbForm=Part	0	root	_	_
+10	-	-	PUNCT	$(	_	11	punct	_	_
+11	Jockey	Jockey	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	9	conj	_	_
+12	Richard	Richard	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	11	flat	_	_
+13	Johnson	Johnson	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	11	flat	_	_
+14	und	und	CCONJ	NE	Foreign=Yes	18	cc	_	_
+15	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+16	pensionierte	pensionieren	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	18	amod	_	_
+17	20-malige	20-malig	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	18	amod	_	_
+18	Sieger	Sieger	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_
+19	Sir	Sir	PROPN	NE	Foreign=Yes	18	appos	_	_
+20	Anthony	Anthony	PROPN	NE	Foreign=Yes	19	flat	_	_
+21	McCoy	McCoy	PROPN	NE	Foreign=Yes	19	flat	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	32	punct	_	_
+23	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	32	nsubj	_	_
+24	mehr	mehr	ADV	ADV	_	32	advmod	_	_
+25	als	als	ADP	KOKOM	_	27	case	_	_
+26	4.300	4.300	NUM	CARD	NumType=Card	27	nummod	_	_
+27	Siege	Siege	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	32	obl	_	_
+28	in	in	ADP	APPR	_	31	case	_	_
+29	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	rekordbrechenden	rekordbrechend	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	31	amod	_	_
+31	Karriere	Karriere	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	32	obl	_	_
+32	erreichte	erreichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	acl	_	SpaceAfter=No
+33	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = Lester Piggott, der neunmalige Derbysieger hatte 4.493 Karrieresiege
 1	Lester	Le	ADJ	NE	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
-2	Piggott	Piggott	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	Piggott	Piggott	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	7	dep	_	SpaceAfter=No
 3	,	,	PUNCT	$,	_	7	punct	_	_
 4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	neunmalige	neunmalig	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
 6	Derbysieger	Derbysieger	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
-7	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+7	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 8	4.493	4.493	NUM	CARD	NumType=Card	9	nummod	_	_
-9	Karrieresiege	Karrieresiege	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	7	obj	_	SpacesAfter=\n
-10	Frankie	Frankie	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	_
-11	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
-12	einer	ein	PRON	PIS	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	15	nsubj	_	_
-13	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
-14	besten	gut	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Plur	15	amod	_	_
-15	Jockey	Jockey	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	obj	_	_
-16	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
-17	Moderne	Moderne	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
-18	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	22	cc	_	_
-19	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
-20	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
-21	keine	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	22	nmod	_	_
-22	Überraschung	Überraschung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
-23	,	,	PUNCT	$,	_	28	punct	_	_
-24	dass	dass	SCONJ	KOUS	_	28	mark	_	_
-25	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
-26	diesen	dies	PRON	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	27	det	_	_
-27	Meilenstein	Meilenstein	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	28	obj	_	_
-28	erreicht	erreichen	VERB	VVPP	VerbForm=Part	22	acl	_	_
-29	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	SpaceAfter=No
-30	,	,	PUNCT	$,	_	36	punct	_	_
-31	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	36	nsubj	_	_
-32	nur	nur	ADV	CARD	NumType=Card	33	advmod	_	_
-33	wenige	wenig	DET	NN	Case=Acc|Gender=Masc|Number=Sing	36	amod	_	_
-34	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	35	case	_	_
-35	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	obl	_	_
-36	erreicht	erreichen	VERB	VVPP	VerbForm=Part	28	acl	_	_
-37	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	SpaceAfter=No
-38	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+9	Karrieresiege	Karrieresiege	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	SpacesAfter=\n\n
 
-# sent_id = 11
+# newpar
+# sent_id = 15
+# text = Frankie ist einer der besten Jockey der Moderne und es ist keine Überraschung, dass er diesen Meilenstein erreicht hat, den nur wenige vor ihm erreicht haben.
+1	Frankie	Frankie	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	einer	ein	PRON	PIS	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	besten	gut	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Plur	6	amod	_	_
+6	Jockey	Jockey	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Moderne	Moderne	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+9	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	13	cc	_	_
+10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	keine	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	13	nmod	_	_
+13	Überraschung	Überraschung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	19	punct	_	_
+15	dass	dass	SCONJ	KOUS	_	19	mark	_	_
+16	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+17	diesen	dies	PRON	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	Meilenstein	Meilenstein	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	obj	_	_
+19	erreicht	erreichen	VERB	VVPP	VerbForm=Part	13	ccomp	_	_
+20	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	27	punct	_	_
+22	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	27	nsubj	_	_
+23	nur	nur	ADV	CARD	NumType=Card	24	advmod	_	_
+24	wenige	wenig	DET	NN	Case=Acc|Gender=Masc|Number=Sing	27	amod	_	_
+25	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	26	case	_	_
+26	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obl	_	_
+27	erreicht	erreichen	VERB	VVPP	VerbForm=Part	19	acl	_	_
+28	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
 # text = Er hat Stil und ist stark, aber es ist sein taktischer Intellekt, der ihn von den anderen im Gewichtskontrollraum unterscheidet.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -325,9 +355,10 @@
 21	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	Gewichtskontrollraum	Gewichtskontrollraum	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	23	nmod	_	_
 23	unterscheidet	unterscheiden	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
-24	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+24	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 12
+# newpar
+# sent_id = 17
 # text = Er ist ein fantastischer Botschafter für Rennen, sein Enthusiasmus und Charisma begeistert Fans schon seit Jahren für diese Sportart.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -349,9 +380,10 @@
 18	für	für	ADP	APPR	_	20	case	_	_
 19	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
 20	Sportart	Sportart	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
-21	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+21	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
 
-# sent_id = 13
+# newpar
+# sent_id = 18
 # text = Ich sagte Frankie vor einigen Wochen bei Epsom, dass er bereits 6.000 Gewinne geholt hätte, wenn er nicht nur ein Wochenend- und Großturnierjockey wäre!
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -380,9 +412,10 @@
 25	und	und	CCONJ	NE	Foreign=Yes	26	cc	_	_
 26	Großturnierjockey	Großturnierjockey	NOUN	NN	Foreign=Yes	23	conj	_	_
 27	wäre	sein	AUX	NN	Foreign=Yes	23	cop	_	SpaceAfter=No
-28	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+28	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 14
+# newpar
+# sent_id = 19
 # text = Frankie hat in GB bereits fast 30 Jahre Gewinner geritten, was toll ist.
 1	Frankie	Frankie	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
 2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
@@ -398,9 +431,10 @@
 12	was	was	PRON	NN	Case=Gen|Gender=Fem|Number=Plur	13	nsubj	_	_
 13	toll	toll	ADJ	ADJD	_	10	acl	_	_
 14	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	13	cop	_	SpaceAfter=No
-15	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+15	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
 
-# sent_id = 15
+# newpar
+# sent_id = 20
 # text = Er hat eine lebendige Persönlichkeit, was für ein britisches Rennen gut ist, aber darüber hinaus ist er ein unglaublicher Jockey.
 1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -424,10 +458,11 @@
 20	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 21	unglaublicher	unglaublich	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	22	amod	_	_
 22	Jockey	Jockey	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
-23	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+23	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
 
-# sent_id = 16
-# text = Frankie Dettori feierte den Meilenstein mit einem typischen Flying Dismount Von Flying Finishes zu Flying Dismounts, Frankie Dettori ist seit zwei Jahrzehnten das Aushängeschild des britischen Flachrennens.
+# newpar
+# sent_id = 21
+# text = Frankie Dettori feierte den Meilenstein mit einem typischen Flying Dismount
 1	Frankie	Frankie	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 2	Dettori	Dettori	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	_
 3	feierte	feiern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -437,35 +472,41 @@
 7	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 8	typischen	typisch	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	9	amod	_	_
 9	Flying	Flying	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
-10	Dismount	Dismount	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	appos	_	SpacesAfter=\n
-11	Von	von	PROPN	APPR	_	10	flat	_	_
-12	Flying	Flying	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	10	flat	_	_
-13	Finishes	Finishes	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	flat	_	_
-14	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	15	case	_	_
-15	Flying	Flying	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
-16	Dismounts	Dismounts	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	15	flat	_	SpaceAfter=No
-17	,	,	PUNCT	$,	_	18	punct	_	_
-18	Frankie	Frankie	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	15	appos	_	_
-19	Dettori	Dettori	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	18	flat	_	_
-20	ist	sein	AUX	ADJD	_	25	cop	_	_
-21	seit	seit	ADP	ADJA	Case=Acc|Gender=Fem|Number=Sing	23	case	_	_
-22	zwei	zwei	NUM	NN	Case=Dat|Gender=Neut|Number=Sing	23	nummod	_	_
-23	Jahrzehnten	Jahrzehnt	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	25	nmod	_	_
-24	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	25	det	_	_
-25	Aushängeschild	Aushängeschild	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	obj	_	_
-26	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
-27	britischen	britisch	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing	28	amod	_	_
-28	Flachrennens	Flachrennen	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
-29	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+10	Dismount	Dismount	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	appos	_	SpacesAfter=\n\n
 
-# sent_id = 17
+# newpar
+# sent_id = 22
+# text = Von Flying Finishes zu Flying Dismounts, Frankie Dettori ist seit zwei Jahrzehnten das Aushängeschild des britischen Flachrennens.
+1	Von	von	ADP	APPR	_	2	case	_	_
+2	Flying	Flying	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	_
+3	Finishes	Finishes	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+4	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	5	case	_	_
+5	Flying	Flying	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+6	Dismounts	Dismounts	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	Frankie	Frankie	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	5	appos	_	_
+9	Dettori	Dettori	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	8	flat	_	_
+10	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+11	seit	seit	ADP	ADJA	Case=Acc|Gender=Fem|Number=Plur	13	case	_	_
+12	zwei	zwei	NUM	NN	Case=Dat|Gender=Neut|Number=Sing	13	nummod	_	_
+13	Jahrzehnten	Jahrzehnt	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	15	nmod	_	_
+14	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Aushängeschild	Aushängeschild	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+16	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	britischen	britisch	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing	18	amod	_	_
+18	Flachrennens	Flachrennen	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
 # text = Es war nervenaufreibend.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	war	sein	AUX	ADV	_	3	cop	_	_
 3	nervenaufreibend	nervenaufreibend	ADJ	ADJD	_	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 18
+# newpar
+# sent_id = 24
 # text = Eine ganze Reihe an Großturniergewinnen, einschließlich seiner berühmten "Glorreichen Sieben" 1996 in Ascot, aber er überlebte auch einen Flugzeugabsturz und erhielt ein Drogenverbot.
 1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	ganze	ganz	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
@@ -494,9 +535,10 @@
 25	erhielt	erhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	conj	_	_
 26	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	27	det	_	_
 27	Drogenverbot	Drogenverbot	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	25	obj	_	SpaceAfter=No
-28	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+28	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
 
-# sent_id = 19
+# newpar
+# sent_id = 25
 # text = Vor drei Jahren hatte er anfangs Schwierigkeiten, als er von seiner sechsmonatigen Sperre zurückkehrte, aber er zeigte eine beeindruckende charakterliche Stärke, um seinen Zweiflern zu trotzen und zu seiner Bestform zurückzukehren.
 1	Vor	vor	ADP	NN	Case=Nom|Gender=Masc|Number=Sing	3	case	_	_
 2	drei	drei	NUM	CARD	NumType=Card	3	nummod	_	_
@@ -532,9 +574,10 @@
 32	seiner	sein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	33	det:poss	_	_
 33	Bestform	Bestform	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	34	obl	_	_
 34	zurückzukehren	zurückkehren	VERB	VVIZU	VerbForm=Inf	29	conj	_	SpaceAfter=No
-35	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+35	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
 
-# sent_id = 20
+# newpar
+# sent_id = 26
 # text = Und er ist noch lange nicht am Ende - Dettori hat früher einmal gesagt, dass er bei Wettbewerben bis zu seinem mindestens 50.ten Lebensjahr weitermachen will.
 1	Und	und	CCONJ	NN	Case=Nom|Gender=Masc|Number=Sing	15	cc	_	_
 2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
@@ -565,5 +608,5 @@
 26	Lebensjahr	Lebensjahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	27	obl	_	_
 27	weitermachen	weitermachen	VERB	ADJA	Case=Acc|Gender=Masc|Number=Sing	15	ccomp	_	_
 28	will	wollen	AUX	NE	Case=Acc|Gender=Masc|Number=Plur	27	aux	_	SpaceAfter=No
-29	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n
+29	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n\n
 
