@@ -1,0 +1,128 @@
+annotation protocol for ted-mdb.1927.xlsx 
+--------------------------------------------------------------------------
+
+Note: sentence boundaries broken, only COREF and REF annotation
+
+## TG 2024-11-xx + responses CC 2024-12-05
+
+Uncertainties and problems
+
+- institutional investors (92) as a subset "investoren_inst" of REF=GEN investors (21) "investoren" -> REF=NEW; see https://github.com/acoli-repo/AURIS/issues/24
+
+	- annotate as REF=NEW, IS=UNIQUE (even if not unique, but just one of possible subsets)
+
+- differentiation between the topic of sustainability (35) and the entity of sustainability (86)
+
+	- ok
+
+- "wir": 128, 134 = interpreted here as a GROUP of speaker + listener. IDs to distinguish the entire population of the Earth as "from" menschheit the generic address to all people as "menschen"
+	
+	- ok
+
+- syntactic head of compounds often not correctly recognized, e.g., 227, 405, 457, etc.
+
+## CC 2024-12-09 check
+
+- durchgesehen bis 1255
+
+- grundsätzlich sieht alles gut [OK] aus, es gibt kleine korrekturen [CORR], teile mit ermessensspielräumen [ERM] und potentielle Lücken in den Guidelines [GAP]. [TBC] sind dinge, die wir nochmal in den guidelines nachlesen müssen. Problematisch ist am ehesten, dass Dinge nicht immer ganz einheitlich behandelt werden. Ich habe das z.T. korrigiert, aer nicht überall
+
+- [ERM] 45 "themen" sieht wie PRED aus, würde ich hier aber eher als antezedens von "diese Dinge" (60) wählen als prädikat zu "Nachhaltigkeit", da es besseres Agreement zeigt. argumentativ denke ich, dass es dem sprecher v.a. um die unternehmensführung geht, und er sich an ein BWL-orientiertes Publikum richtet. nachhaltigkeit ist denen tendentiell unwichtig, unternehmensführung nicht. Solche "identifikationale Kopula" kann es auch zwischen zwei referentiellen Ausdrücken geben, z.B. im Tristan, wo Tristan sich als "Tantris" ausgibt und es erst spät offenbart wird: "Tristan ist Tantris".
+
+- [ERM] 86 wenn "themen" in 45 nicht koreferentiell mit "nachhaltigkeit" ist, kann hier die "nachhaltigkeitskette" fortgesetzt werden. das würde ich vorzuziehen, weil es besser zur sprachlichen oberfläche passt, so dass ein naiver annotator (wie ein künftiger algorithmus) das ähnlich beurteilen würde.
+
+- [OK] 96 richtig, Apposition ist immer PRED
+
+- [CORR] 129 "uns" ist reflexivpronomen und damit syntaktisch gebunden (test: ersetzung mit "er ... sich")
+
+- [OK] 148 ist expletivpronomen und so offenbar vom parser erkannt. der kann aber auch irren ;)
+
+- [OK] 162 "Jahrhunderts" als SIT, ggf. expliziter in guidelines aufnehmen ("Dinge aus dem hier und jetzt des Sprechers [und/oder der Hörer]")
+
+- [ERM] 213 "themen_wirtschaft" ggf. dieselbe kette wie themen_umwsoz, dann OLD. wäre im Sinne von "längere anaphorische Ketten" (sollte in den guidelines stehen, bitte prüfen)
+
+- [OK] 224/227 gut!
+
+- [ERM] 242 kann auch als GEN gelesen werden
+
+- [ERM] 248 klingt etwas unnatürlich, wenn es nicht verweis auf eine folie ist, dann SIT, nicht CAT
+
+- [CORR] 257 "(in) den Sand" ist eine selbständige PP/NP, muss annotiert werden (IDIOM)
+
+- [GAP?] allg: bin nicht sicher, ob das in guidelines steht, aber bei IDIOM kann coref-id weggelassen werden. 
+
+- [GAP+CORR] 259 "das" ist nicht koreferentiell mit "Kopf", sondern mit "(Kopf in den Sand) stecken", das müsste hier annotiert werden. Aber ich denke nicht, dass die Guidelines das hergeben, eine deskriptive Beschreibung eines Bildes zu annotieren, _nachdem_ darauf bereits anaphorisch/deiktisch bezug genommen wurde. Am besten Beispiel als problematisch vermerken und in vorbereitung der regelmäßigen guidelines-revision zur Klärung zurückstellen.
+
+- [CORR] 259 ich würde das bild_kopf_in_sand (248, SIT) und kopf_in_sand (259!) trennen, kopf von letzterem ist "stecken" (da erstes hauptverb beider teilsätze), bezug von 267 kann dann so bleinem
+
+- [GAP] 271-272: elidiertes subjektpronomen ("das"). brauchen richtlinien zur annotation. beleg bitte für revision vormerken
+
+- [TBC] 283 was sagen die guidelines zu Coref-ID bei BOUND?
+
+- [OK] 290, aber ist nicht vorannotiert, annotieren nur wenn darauf bezug genommen wrd. wir betrachten das nicht als pronomen. andernfalls müsste man auch morgen (295) annotieren
+
+- [OK/ERM] 299 gut gelöst, der kommentar mit dem antezedens ist notwendig
+
+- [ERM] 303 Investoren sieht wie neue oder generische investoren aus. kommentar notwendig 
+
+- [CORR] 325 Cashflow ist syntaktischer Kopf. sollte aber nicht vorannotiert sein, da indefinitum. kommentar eher "parser error: kein Eigenname"
+
+- [OK] 365 diese gruppenelemente sind alle im prolog vorbenannt und auch als gruppe referenziert. hier bekommt die gruppe einen neuen namen, aber nach guidelines sollte ESG neu sein. das sieht (im deutschen) nicht so aus, weil es wie ein neues akronym ist, aber im original sind das nur die anfangsbuchstaben der nachfolgenden begriffe. allerdings wird 441 zwischen ESG und "die (heißen) Dinge" differnziert, so dass austauschbarkeit entlang der kette nicht gegeben ist. insofern ok
+
+- [GAP] 368 "Umwelt" ist wörtliche wiederholung, d.h., betonte lexikalische kohäsion. sollte als sonderfall in die richtlinien aufgenommen werden; so haben sie es bei "thema_soziales" auch gemacht. muss in jedem fall einheitlich sein. belege vormerken. die antezedenten müssen dann auch mit annotiert werden.
+
+- [OK] 401: finde "Supply" als head ok. ist im deutschen nicht transparent und damit parser-konform.
+
+- [OK/ERM] 423 mit kommentar ok
+
+- [ERM] 514 privatsektor könnten investoren sein
+
+- [ERM] 556 Wurzel IDIOM?
+
+- [CORR] 562 relativpronomen
+
+- [CORR] 573 93% sind nicht austauschbar mit "80% der CEOs" oder "CEOs", sondern Teilmenge. daher Bridging, daher REF=NEW, IS=UNIQUE; aber nicht vorannotiert, damit nicht notwendig. was hätte (REF=OLD) annotiert werden müssen, wäre "der CEOs" gewesen -- wenn es hier stünde. Beleg bitte in die Guidelines.
+
+- [CORR] 550 kommentar: wir meinen die CEOs weltweit, nicht 80% davon. beleg in die guidelines, für für die 80% wäre "%" der Kopf.
+
+- [CORR/GAP] 567 "ihren" sollte annotiert werden (TBC: was sagen guidelines zu possessivpronomen, ggf. ändern, so dass possessivpronomen immer annotiert werden)
+
+- [CORR/ERM] 585 bezieht sich nicht auf alle CEOs, sondern auf die 93%. damit brauchen wir das auch als antezedens
+
+- [GAP] 613 "Ein Beispiel" ist ein ähnlicher fall wie die CAT-Annotation oben, hier gibt es einen referentiellen ausdruck, der mit einem nachfolgenden event coreferentiell ist. aus gründen der einheitlichkeit sollte das wohl ausgeschlossen werden. aber beleg vormerken, vlt. machen wir später mal event-anaphern
+
+- [CORR] 631: parser errror, head ist 633
+
+- [TBC] 641 ist "wir" wirklich "State Street" oder ist "State Street" ein Kunde von "uns"?
+
+- [CORR] 669 falscher sentence break. bitte kommentieren
+
+- [OK] 710 ok, da so vor-tokenisiert. normalerweise wäre das teil eines kompoisitums und nicht annotierbar
+
+- [CORR] 745 fehlt, bezug auf investition_pentair
+
+- [CORR] 788: eher neuer ID mit teilmengenbezug zur "menschheit", da andere anzahl
+
+- [CORR] 794 fehlt: kommentar "parser error"
+
+- [CORR] 808: "das" bezieht sich auf beide fallstudien, nicht nur pentair
+
+- prüfen Sie mal IDs _erde_ und _welt_, ob die nicht gemergt werden können
+
+- [GAP] 1025: "einige" ist teilmenge. sollte "REF=NEW, IS=UNIQUE" sein. beleg vormerken
+
+- [CORR] 1025 und 1030 _müssen_ einheitlich analysiert werden
+
+- [CORR] 1010 Kernaufgabe hätte vorannotiert sein sollen, da possessiv. kommentar parser error
+
+- [CORR] 1158 und 1132 _müssen_ einheitlich analysiert werden, notwendig wegen 1187, könnte man bis auf 1132 ausdehnen (aber alles prädikationen), oder fonds (pl!) vom unternehmen unterscheiden, dann neuer ID pensonsfond in 1187 (REF=NEW, IS=UNIQUE)
+
+- [ERM] 1228 "uns" ist hier wohl nicht generisch, sondern eher das exklusive "wir", denn er will ja überzeugen und als vorbild dienen
+
+- [CORR] 1245 "alle" ist kein indefinitpronomen, sondern koref mit investoren (1240) und wir (1255)
+
+## contributors
+
+- TG Tabea Gröger
+
+- CC Christian Chiarcos
