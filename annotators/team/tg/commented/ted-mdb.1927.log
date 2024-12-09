@@ -25,7 +25,16 @@ Uncertainties and problems
 
 - durchgesehen bis 1255
 
-- grundsätzlich sieht alles gut [OK] aus, es gibt kleine korrekturen [CORR], teile mit ermessensspielräumen [ERM] und potentielle Lücken in den Guidelines [GAP]. [TBC] sind dinge, die wir nochmal in den guidelines nachlesen müssen. Problematisch ist am ehesten, dass Dinge nicht immer ganz einheitlich behandelt werden. Ich habe das z.T. korrigiert, aer nicht überall
+- systematisch: teilmengenbeziehungen (CEOs ... 80% der CEOs ...) sind i.d.R. nicht koreferenziell. man braucht einen ID für die obermenge, einen ID für die jeweilige teilmenge, d.h. 
+
+	CEOs 	ceos
+	...
+	80% 	80%_ceos
+	der
+	CEOs 	ceos
+	...
+
+- grundsätzlich sieht alles sonst gut [OK] aus, es gibt kleine korrekturen [CORR], teile mit ermessensspielräumen [ERM] und potentielle Lücken in den Guidelines [GAP]. [TBC] sind dinge, die wir nochmal in den guidelines nachlesen müssen. Problematisch ist am ehesten, dass Dinge nicht immer ganz einheitlich behandelt werden. Ich habe das z.T. korrigiert, aber nicht überall
 
 - [ERM] 45 "themen" sieht wie PRED aus, würde ich hier aber eher als antezedens von "diese Dinge" (60) wählen als prädikat zu "Nachhaltigkeit", da es besseres Agreement zeigt. argumentativ denke ich, dass es dem sprecher v.a. um die unternehmensführung geht, und er sich an ein BWL-orientiertes Publikum richtet. nachhaltigkeit ist denen tendentiell unwichtig, unternehmensführung nicht. Solche "identifikationale Kopula" kann es auch zwischen zwei referentiellen Ausdrücken geben, z.B. im Tristan, wo Tristan sich als "Tantris" ausgibt und es erst spät offenbart wird: "Tristan ist Tantris".
 
@@ -120,6 +129,8 @@ Uncertainties and problems
 - [ERM] 1228 "uns" ist hier wohl nicht generisch, sondern eher das exklusive "wir", denn er will ja überzeugen und als vorbild dienen
 
 - [CORR] 1245 "alle" ist kein indefinitpronomen, sondern koref mit investoren (1240) und wir (1255)
+
+- Abbruch Zeile 1255
 
 ## contributors
 
