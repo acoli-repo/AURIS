@@ -1,37 +1,36 @@
-# text = Heftige Regenfälle, Überschwemmung gibt Anlass zu Rettungen in Louisiana, Mississippi Heftige Regenfälle und großflächige Überschwemmungen in Louisiana zwangen den Gouverneur dazu, am Freitag den Notstand auszurufen.				
+# text = Heftige Regenfälle, Überschwemmung gibt Anlass zu Rettungen in Louisiana, Mississippi				
 Heftige					1	Heftige		
-*Gouverneur*					10	Gouverneur		
-*,*					11	,		
-*,*					12	,		
-Regenfälle	other	indef-np.bare			14	Regenfälle		
-,					15	,		
-Überschwemmung	SBJ_2	indef-np.bare			16	großflächige		
-gibt					17	gibt		
-Anlass	OBJ_2	indef-np.bare			18	Anlass		
-zu	other_4	pron.pind						
-Rettungen	other_3	indef-np.bare						
-in								
-Louisiana	other_4	ne	OLD		19	Louisiana		
-,								
-Mississippi	other_5	ne	OLD					
-Heftige					20	Rettungen		
-Regenfälle	other_3	indef-np.bare						
-und								
-großflächige								
-Überschwemmungen	other_4	indef-np.bare						
-in								
-Louisiana	other_4	ne	OLD					
-zwangen								
-den					21	den		
-Gouverneur	OBJ_3	def-np.the	OLD					
-dazu								
-,								
-an								
+Regenfälle	other	indef-np.bare			2	Regenfälle		
+,					3	,		
+Überschwemmung	SBJ_2	indef-np.bare			4	Überschwemmung		
+gibt					5	gibt		
+Anlass	OBJ_2	indef-np.bare			6	Anlass		
+zu	other_4	pron.pind			7	zu		
+Rettungen	other_3	indef-np.bare			8	Rettungen		
+in					9	in		
+Louisiana	other_4	ne	OLD		10	Louisiana		
+,					11	,		
+Mississippi	other_5	ne	OLD	12	Mississippi	
+		
+# text = Heftige Regenfälle und großflächige Überschwemmungen in Louisiana zwangen den Gouverneur dazu, am Freitag den Notstand auszurufen.	
+Heftige					1	Heftige		
+Regenfälle	SBJ	indef-np.bare			2	Regenfälle		
+und					3	und		
+großflächige					4	großflächige		
+Überschwemmungen	other_2	indef-np.bare			5	Überschwemmungen		
+in					6	in		
+Louisiana	other_3	ne	OLD		7	Louisiana		
+zwangen					8	zwangen		
+den					9	den		
+Gouverneur	OBJ	def-np.the	OLD		10	Gouverneur		
+dazu					11	dazu		
+,					12	,		
+an					13	an		
 dem								
-Freitag	other_4	ne	OLD					
-den								
-Notstand	OBJ_4	def-np.the	OLD					
-auszurufen								
+Freitag	other_2	ne	OLD		14	Freitag		
+den					15	den		
+Notstand	OBJ_2	def-np.the	OLD		16	Notstand		
+auszurufen					17	auszurufen		
 .				18	.	
 		
 # text = Es wird den ganzen Samstag über mit mehr Regenfällen gerechnet.	

@@ -1,36 +1,38 @@
-# text = Clintons und Trumps Wirtschaftspolitik im Vergleich: It's all about the money In Infrastruktur investieren und das Handelsabkommen TTP verhindern - das wollen sowohl Clinton als auch Trump.				
-Clintons	other_2	ne	OLD					
-und								
-Trumps	other_3	ne	OLD					
-Wirtschaftspolitik	OBJ	def-np.poss	OLD					
+# text = Clintons und Trumps Wirtschaftspolitik im Vergleich: It's all about the money				
+Clintons	other	ne	OLD		1	Clintons		
+und					2	und		
+Trumps	other_2	ne	OLD		3	Trumps		
+Wirtschaftspolitik	other	def-np.poss	OLD		4	Wirtschaftspolitik		
 in								
 dem								
-Vergleich	other	def-np.the	OLD					
+Vergleich	other	def-np.the	OLD		6	Vergleich		
 :								
-It's	SBJ							
-all	other_2	pron.pind						
+It's								
+all	other_4	pron.pind						
 about								
-the	other_2	ne	OLD					
-money	OBJ	ne	OLD					
-In								
-Infrastruktur					15	Infrastruktur		
-investieren								
-und								
-das								
-Handelsabkommen	OBJ_2	def-np.the	OLD					
-TTP	other_3	ne	OLD					
-verhindern								
-_								
-das								
-wollen	SBJ_2	def-np.the	OLD					
-sowohl								
-Clinton	other	ne	OLD					
-als								
-auch								
-Trump	other_2	indef-np.bare			16	Trumps		
-.							
+the	other_4	ne	OLD					
+money	other_3	ne	OLD				
 	
-# text = Uneins sind sich die beiden US-Präsidentschaftsbewerber jedoch bei der Steuer- und Energiepolitik sowie in einer Grundsatzfrage.				
+# text = In Infrastruktur investieren und das Handelsabkommen TTP verhindern - das wollen sowohl Clinton als auch Trump.				
+In					1	In		
+Infrastruktur	other	indef-np.bare			2	Infrastruktur		
+investieren					3	investieren	set_0	
+und					4	und		
+das					5	das		
+Handelsabkommen	OBJ_2	def-np.the	OLD		6	Handelsabkommen		
+TTP	other_3	ne	OLD		7	TTP		
+verhindern					8	verhindern		
+_					9			
+das					10	das	set_0	
+wollen	SBJ_2	def-np.the	OLD		11	wollen		
+sowohl					12	sowohl		
+Clinton	SBJ	ne	OLD		13	Clinton	set_1	
+als					14	als		
+auch					15	auch		
+Trump	other_2	indef-np.bare			16	Trump	set_28	
+.				17	.	
+		
+# text = Uneins sind sich die beiden US-Präsidentschaftsbewerber jedoch bei der Steuer- und Energiepolitik sowie in einer Grundsatzfrage.	
 Uneins								
 sind								
 sich	OBJ							

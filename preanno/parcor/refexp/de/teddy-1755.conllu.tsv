@@ -1,9 +1,12 @@
-# text = (Video) N. Negroponte: "Können wir zur Bildplatte schalten, die sich im Abspielmodus befindet?				
-(								
+# text = (Video) N.				
+(					1	(		
 Video	other	indef-np.bare						
 )								
-N.	other	ne	OLD		1	N.		
-Negroponte								
+N.	other	ne	OLD				
+	
+--				
+# text = Negroponte: "Können wir zur Bildplatte schalten, die sich im Abspielmodus befindet?				
+Negroponte	other	indef-np.bare			1	Negroponte		
 :								
 &quot;								
 Können								
@@ -109,20 +112,22 @@ dem
 Körper	other_4	def-np.the	OLD					
 .				19	.	
 		
-# text = (Gesprächsfetzen) Am 11. September wurde die Welt plötzlich größer.	
-(								
+# text = (Gesprächsfetzen) Am 11.	
+(					1	(		
 Gesprächsfetzen	other	indef-np.bare						
 )								
 An								
 dem								
-11								
-.								
-September	other	ne	OLD					
-wurde								
+11					2	11		
+.							
+	
+# text = September wurde die Welt plötzlich größer.				
+September	SBJ	ne	OLD					
+wurde					2	wurde		
 die								
-Welt	SBJ	def-np.the	OLD					
+Welt	SBJ_2	def-np.the	OLD					
 plötzlich								
-größer					13	größer		
+größer								
 .							
 	
 # text = (Applaus) NN: Vielen Dank.				
@@ -1065,7 +1070,7 @@ Mann	SBJ	indef-np.a
 namens								
 Jerry	other_2	ne	OLD					
 Wiesner								
-,					1	,		
+,								
 der								
 zufällig								
 Präsident	other_2	def-np.poss	OLD					
@@ -1073,7 +1078,7 @@ des
 MIT	other_3	ne	OLD					
 war								
 ,								
-hielt								
+hielt					14	hielt		
 es	SBJ	pron.pper	OLD					
 dann								
 doch								
@@ -1962,13 +1967,13 @@ heißt					24	denn
 *.*					16	.	
 **						
 *erwähnen*					21	erwähnen		
-*,*					1	,		
+Nimm	other_2	ne	OLD		18	nehmen	set_50	
 *das*					5	das		
 *Sie*					1	Sie		
 *wollen*					2	wollen		
 *ein*					3	ein		
 *Hühnchen*					4	Hühnchen	set_51	
-Nimm	other_2	ne	OLD		5	in		
+*in*					5	in		
 *den*					6	den		
 *Ofen*					7	Ofen		
 *schieben*					8	schieben		

@@ -936,41 +936,40 @@ Gewinner	other	def-np.the	OLD		12	Gewinner	set_48
 		
 # text = Was glauben Sie passierte mit diesen Design-Studenten?	
 Was					1	Was		
-glauben					10	diesen		
-*Design*					2	Design	set_47	
+glauben					2	glauben		
 Sie	SBJ	pron.pper	OLD		3	Sie		
 passierte					4	passierte		
-mit					5	mit		
-diesen	other_4	pron.pds	OLD					
-Design								
+mit								
+diesen	other_4	pron.pds	OLD		6	diesen		
+Design					7	Design		
 _								
 Studenten	other_2	indef-np.bare			7	Studenten	set_49	
-?				8			
-	
-# text = Was war das Ergebnis?				
-Was	SBJ	pron	OLD					
-war								
-das								
-Ergebnis	other	def-np.the	OLD		1	Ergebnis		
-?							
-	
-# text = Das hier passierte.				
-Das	SBJ							
-hier								
-passierte								
-.				1	.		
-	
-# text = Nicht ein Team hatte eine stabile Struktur.				
-Nicht								
-ein								
-Team	SBJ	indef-np.a						
-hatte								
-eine								
-stabile								
-Struktur	OBJ	indef-np.a						
-.				1	.		
-	
-# text = Falls irgendwer eine 2,5cm hohe Konstruktion gebaut hätte, hätte er den Preis nach Hause getragen.				
+?				10		
+		
+# text = Was war das Ergebnis?	
+Was	SBJ	pron	OLD		1	Was		
+war					2	war		
+das					3	das		
+Ergebnis	other	def-np.the	OLD		4	Ergebnis		
+?				5		
+		
+# text = Das hier passierte.	
+Das	SBJ				1	Das	set_47	
+hier					2	hier		
+passierte					3	passierte		
+.				4	.	
+		
+# text = Nicht ein Team hatte eine stabile Struktur.	
+Nicht					1	Nicht		
+ein					2	ein		
+Team	SBJ	indef-np.a			3	Team		
+hatte					4	hatte	set_47	
+eine					5	eine		
+stabile					6	stabile		
+Struktur	OBJ	indef-np.a			7	Struktur		
+.				8	.	
+		
+# text = Falls irgendwer eine 2,5cm hohe Konstruktion gebaut hätte, hätte er den Preis nach Hause getragen.	
 Falls								
 irgendwer	OBJ_2	pron	OLD					
 eine								
@@ -979,74 +978,69 @@ hohe
 Konstruktion	SBJ_2	indef-np.a						
 gebaut								
 hätte								
-,					1	,		
-*,*					1	,		
-*.*					1	.		
-hätte					1	Sie		
-*Nun*					1	Nun		
-er	SBJ	pron.pper	OLD		2	verstanden		
-*Sie*					3	Sie	set_49	
+,								
+hätte								
+er	SBJ	pron.pper	OLD					
+den								
+Preis	OBJ	def-np.the	OLD					
+nach								
+Hause	other	indef-np.bare						
+getragen					16	getragen		
+.							
+	
+# text = Ist es also nicht interessant, dass hohe Wetteinsätze einen starken Effekt haben?				
+Ist					1	Ist		
+es	SBJ	pron.pper	OLD		2	es		
+also					3	also		
+nicht					4	nicht		
+interessant					5	interessant		
+,					6	,		
+dass					7	dass		
+hohe					8	hohe		
+Wetteinsätze	SBJ_2	indef-np.bare			9	Wetteinsätze		
+einen					10	einen		
+starken					11	starken		
+Effekt	OBJ_2	indef-np.a			12	Effekt		
+haben					13	haben		
+?				14		
+		
+# text = Wir wiederholten diese Übung mit denselben Studenten.	
+Wir	SBJ	pron	OLD		1	Wir		
+wiederholten					2	wiederholten		
+diese	other_2	pron.pds	OLD		3	diese		
+Übung	OBJ	def-np.dem	OLD		4	Übung		
+mit					5	mit		
+denselben					6	denselben		
+Studenten	other	indef-np.bare			7	Studenten	set_49	
+.				8	.	
+		
+# text = Was glauben Sie passierte nun?	
+Was					1	Was		
+glauben					2	glauben		
+Sie	SBJ	pron.pper	OLD		3	Sie		
+passierte					4	passierte		
+nun					5	nun		
+?				6		
+		
+--	
+# text = Nun verstanden Sie den Vorteil des "Prototyping".				
+Nun					1	Nun		
+verstanden					2	verstanden		
+Sie	SBJ	pron.pper	OLD		3	Sie	set_49	
 den					4	den		
-Preis	OBJ	def-np.the	OLD		5	Vorteil		
-nach					6	des		
-Hause	other	indef-np.bare			7	''		
-getragen					8	Prototyping		
-*''*					9	''		
+Vorteil	OBJ	def-np.the	OLD		5	Vorteil		
+des					6	des		
+&quot;					7	''		
+Prototyping	other_2	def-np.the	OLD		8	Prototyping		
+&quot;					9	''		
 .				10	.	
 		
-# text = Ist es also nicht interessant, dass hohe Wetteinsätze einen starken Effekt haben?	
-Ist					1	So		
-es	SBJ	pron.pper	OLD		2	wurde		
-also					3	aus		
-nicht					4	demselben		
-interessant								
+# text = So wurde aus demselben, schlechten Team eines unter den besten.	
+So					1	So		
+wurde					2	wurde		
+aus					3	aus		
+demselben					4	demselben		
 ,					5	,		
-dass								
-hohe								
-Wetteinsätze	SBJ_2	indef-np.bare						
-einen								
-starken								
-Effekt	OBJ_2	indef-np.a						
-haben								
-?							
-
-# text = Wir wiederholten diese Übung mit denselben Studenten.				
-Wir	SBJ	pron	OLD					
-wiederholten								
-diese	other_2	pron.pds	OLD					
-Übung	OBJ	def-np.dem	OLD					
-mit								
-denselben								
-Studenten	other	indef-np.bare						
-.							
-
-# text = Was glauben Sie passierte nun?				
-Was								
-glauben								
-Sie	SBJ	pron.pper	OLD					
-passierte								
-nun								
-?							
-
---				
-# text = Nun verstanden Sie den Vorteil des "Prototyping".				
-Nun								
-verstanden								
-Sie	SBJ	pron.pper	OLD					
-den								
-Vorteil	OBJ	def-np.the	OLD					
-des								
-&quot;								
-Prototyping	other_2	def-np.the	OLD					
-&quot;								
-.							
-
-# text = So wurde aus demselben, schlechten Team eines unter den besten.				
-So								
-wurde								
-aus								
-demselben								
-,								
 schlechten					6	schlechten		
 Team	OBJ_2	indef-np.bare			7	Team		
 eines					8	eines		

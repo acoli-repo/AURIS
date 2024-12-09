@@ -598,7 +598,7 @@ zu					8	zu
 öffnen					9	öffnen		
 ?				10		
 		
-# text = Ein Mensch, der für mich Türen geöffnet hat, war mein Kinderarzt am A.I. Dupont Institut in Wilmington in Delaware.	
+# text = Ein Mensch, der für mich Türen geöffnet hat, war mein Kinderarzt am A.I.	
 Ein					1	Ein		
 Mensch	SBJ	indef-np.a			2	Mensch	set_8	
 ,					3	,		
@@ -614,23 +614,27 @@ mein	other	pron.ppos	OLD		12	mein
 Kinderarzt	other	indef-np.bare			13	Kinderarzt	set_13	
 an								
 dem								
-A.I.	other	ne	OLD		15	A.I.	set_98	
-Dupont								
-Institut								
-in					18	in		
-Wilmington	other_2	ne	OLD					
-in					20	in	set_13	
-Delaware	other_3	ne	OLD		21	Delaware		
-.				22	.	
+A.I.	other	ne	OLD	15	A.I.	set_98
 		
-# text = Er heißt Dr. Pizzutillo.	
+# text = Dupont Institut in Wilmington in Delaware.	
+Dupont	other	ne	OLD		1	Dupont	set_13	
+Institut								
+in								
+Wilmington	other	ne	OLD					
+in								
+Delaware	other_2	ne	OLD					
+.							
+	
+# text = Er heißt Dr.				
 Er	SBJ	pron.pper	OLD		1	Er	set_13	
 heißt					2	heißt		
-Dr.					3	Dr.		
-Pizzutillo	OBJ	ne	OLD		4	Pizzutillo	set_13	
-.				5	.	
+Dr.				3	Dr.	set_13
 		
-# text = Ein Italo-Amerikaner, dessen Name, wie Sie sich denken können, die meisten Amerikaner nicht korrekt aussprechen konnten.	
+# text = Pizzutillo.	
+Pizzutillo	other	indef-np.bare			1	Pizzutillo	set_13	
+.							
+	
+# text = Ein Italo-Amerikaner, dessen Name, wie Sie sich denken können, die meisten Amerikaner nicht korrekt aussprechen konnten.				
 Ein								
 Italo					2	Italo		
 _								
@@ -654,38 +658,42 @@ aussprechen
 konnten								
 .							
 	
-# text = Also wurde er immer Dr. P. genannt.				
+# text = Also wurde er immer Dr.				
 Also					1	Also		
 wurde					2	wurde		
-er	SBJ_2	pron.pper	OLD		3	er	set_13	
+er	SBJ	pron.pper	OLD		3	er	set_13	
 immer					4	immer		
-Dr.	other	ne	OLD		5	Dr.	set_13	
-P.					6	P.		
-genannt					7	genannt		
-.				8	.	
+Dr.	other	indef-np.bare		5	Dr.	set_13
 		
-# text = Und Dr. P. trug immer sehr bunte Fliegen und war für die Arbeit mit Kindern einfach wie geschaffen.	
+# text = P. genannt.	
+P.	other	ne	OLD					
+genannt					2	genannt		
+.							
+	
+# text = Und Dr.				
 Und					1	Und		
-Dr.					2	Dr.		
-P.					3	P.	set_13	
-trug					4	trug		
-immer					5	immer		
-sehr					6	sehr		
-bunte					7	bunte		
-Fliegen	OBJ	indef-np.bare			8	Fliegen		
-und					9	und		
-war					10	war		
-für					11	für		
-die					12	die		
-Arbeit	other_2	def-np.the	OLD		13	Arbeit		
-mit					14	mit		
-Kindern	other_3	indef-np.bare			15	Kindern		
-einfach					16	einfach		
-wie					17	wie		
-geschaffen					18	geschaffen		
-.				19	.	
+Dr.	other	indef-np.bare		2	Dr.	set_13
 		
-# text = Ich fand die Zeit, die ich in diesem Krankenhaus verbracht habe, einfach toll – bis auf meine Physiotherapie.	
+# text = P. trug immer sehr bunte Fliegen und war für die Arbeit mit Kindern einfach wie geschaffen.	
+P.	SBJ	ne	OLD					
+trug					2	trug		
+immer								
+sehr								
+bunte								
+Fliegen	OBJ	indef-np.bare						
+und								
+war								
+für								
+die								
+Arbeit	other_2	def-np.the	OLD					
+mit								
+Kindern	other_3	indef-np.bare						
+einfach								
+wie								
+geschaffen								
+.							
+	
+# text = Ich fand die Zeit, die ich in diesem Krankenhaus verbracht habe, einfach toll – bis auf meine Physiotherapie.				
 Ich	SBJ	pron.pper	OLD		1	Ich		
 fand					2	fand		
 die					3	die		
@@ -774,7 +782,7 @@ sie	SBJ	pron	OLD		3	sie	set_140
 gehasst					4	gehasst		
 .				5	.	
 		
-# text = Und stellen Sie sich vor, ich hab sogar schon als fünfjähriges Kind mit Dr. P. verhandelt und so versucht, diese Übungen zu stoppen, natürllich ohne Erfolg.	
+# text = Und stellen Sie sich vor, ich hab sogar schon als fünfjähriges Kind mit Dr.	
 Und					1	Und		
 stellen					2	stellen		
 Sie	SBJ	pron.pper	OLD		3	Sie		
@@ -789,24 +797,26 @@ als					11	als
 fünfjähriges					12	fünfjähriges		
 Kind	other_2	indef-np.bare			13	Kind		
 mit					14	mit		
-Dr.					15	Dr.	set_13	
-P.					16	P.		
-verhandelt					17	verhandelt		
-und					18	und		
-so					19	so		
-versucht					20	versucht		
-,					21	,		
-diese	other_4	pron.pds	OLD		22	diese		
-Übungen	OBJ_3	def-np.dem	OLD		23	Übungen	set_14	
-zu					24	zu		
-stoppen					25	stoppen		
-,					26	,		
-natürllich					27	natürllich		
-ohne					28	ohne		
-Erfolg	other_3	indef-np.bare			29	Erfolg		
-.				30	.	
+Dr.	other	indef-np.bare		15	Dr.	set_13
 		
---	
+# text = P. verhandelt und so versucht, diese Übungen zu stoppen, natürllich ohne Erfolg.	
+P.	SBJ	ne	OLD					
+verhandelt					17	verhandelt		
+und								
+so								
+versucht								
+,								
+diese	other_3	pron.pds	OLD					
+Übungen	OBJ_2	def-np.dem	OLD					
+zu								
+stoppen								
+,								
+natürllich								
+ohne								
+Erfolg	other_2	indef-np.bare						
+.							
+	
+--				
 # text = Und eines Tages hat er mich bei einer meiner Übungen beobachtet -- diese Übungen waren einfach ermüdend und gnadenlos -- und er sagte zu mir, "Wow, Aimee, Du bist so ein starkes, kraftvolles und junges Mädchen, Du wirst eines Tages eines dieser Bänder zerreißen.				
 Und					1	Und		
 eines					2	eines		
@@ -876,7 +886,7 @@ Dollar	OBJ	ne	OLD		11	Dollar
 .					12	.		
 &quot;				13	''	
 		
-# text = Das war natürlich nur ein einfacher Trick von Dr. P., damit ich die Übungen mache, die ich nicht machen wollte, mit der Aussicht, dass reichste fünfjährige Mädchen in der Krankenstation im zweiten Stock zu werden.	
+# text = Das war natürlich nur ein einfacher Trick von Dr.	
 Das	SBJ	pron	OLD		1	Das	set_103	
 war					2	war		
 natürlich					3	natürlich		
@@ -885,41 +895,43 @@ ein					5	ein
 einfacher					6	einfacher		
 Trick	other	indef-np.a			7	Trick		
 von					8	von		
-Dr.	other	ne	OLD		9	Dr.	set_13	
-P.					10	P.		
-,					11	,		
-damit					12	damit		
-ich	SBJ_2	pron.pper	OLD		13	ich		
-die					14	die		
-Übungen	other	def-np.the	OLD		15	Übungen	set_14	
-mache	other_2	pron	OLD		16	mache		
-,					17	,		
-die	OBJ_4				18	die	set_14	
-ich	SBJ_4	pron.pper	OLD		19	ich		
-nicht					20	nicht		
-machen					21	machen		
-wollte					22	wollte		
-,					23	,		
-mit					24	mit		
-der					25	der		
-Aussicht	other_2	def-np.the	OLD		26	Aussicht		
-,					27	,		
-dass					28	dass		
-reichste					29	reichste		
-fünfjährige					30	fünfjährige		
-Mädchen	SBJ_4	indef-np.bare			31	Mädchen		
-in					32	in		
-der					33	der		
-Krankenstation	other_5	def-np.the	OLD		34	Krankenstation		
-in								
-dem					35	dem		
-zweiten					36	zweiten		
-Stock	other_6	def-np.the	OLD		37	Stock		
-zu					38	zu		
-werden					39	werden		
-.				40	.	
+Dr.	other	indef-np.bare		9	Dr.	set_13
 		
-# text = Aber er hat mich tatsächlich dazu gebracht, meinen täglichen Übungs-Horror mit neuen Augen zu sehen.	
+# text = P., damit ich die Übungen mache, die ich nicht machen wollte, mit der Aussicht, dass reichste fünfjährige Mädchen in der Krankenstation im zweiten Stock zu werden.	
+P.	other	ne	OLD		1	P.	set_13	
+,								
+damit								
+ich	SBJ_2	pron.pper	OLD					
+die								
+Übungen	other	def-np.the	OLD					
+mache	other_2	pron	OLD					
+,								
+die	OBJ_4							
+ich	SBJ_4	pron.pper	OLD					
+nicht								
+machen								
+wollte								
+,								
+mit								
+der								
+Aussicht	other_2	def-np.the	OLD					
+,								
+dass								
+reichste								
+fünfjährige								
+Mädchen	SBJ_4	indef-np.bare						
+in								
+der								
+Krankenstation	other_5	def-np.the	OLD					
+in								
+dem								
+zweiten								
+Stock	other_6	def-np.the	OLD					
+zu								
+werden								
+.							
+	
+# text = Aber er hat mich tatsächlich dazu gebracht, meinen täglichen Übungs-Horror mit neuen Augen zu sehen.				
 Aber					1	Aber		
 er	SBJ	pron.pper	OLD		2	er	set_13	
 hat					3	hat		
@@ -1494,149 +1506,32 @@ bei					22	bei
 mir	other_2	pron.pper	OLD		23	mir		
 .				24	.	
 		
-*bzw*					8	bzw		
-*.*					9	.		
-*die*					10	die		
-*des*					11	des		
-*Kampfs*					12	Kampfs		
-*eines*					13	eines		
-*Menschen*					14	Menschen		
-*herabsetzen*					15	herabsetzen		
-*Es*					1	Es		
-*gibt*					2	gibt		
-*dem*					3	dem		
-*Leben*					4	Leben		
-*Widrigkeiten*					5	Widrigkeiten	set_145	
-*jede*					16	jede		
-*geht*					18	geht		
-*.*					22	.	
-**						
-*Aber*					1	Aber		
-*die*					2	die		
-*Frage*					3	Frage		
-*lautet*					4	lautet		
-*nicht*					5	nicht		
-*,*					6	,		
-*ob*					7	ob		
-*wir*					8	wir		
-*mit*					9	mit		
-*Widrigkeiten*					10	Widrigkeiten	set_113	
-*klar*					11	klar		
-*kommen*					12	kommen		
-*oder*					13	oder		
-*nicht*					14	nicht		
-*,*					15	,		
-*sondern*					16	sondern		
-*wie*					17	wie		
-*wir*					18	wir		
-*damit*					19	damit	set_113	
-*klar*					20	klar		
-*kommen*					21	kommen		
-*.*					22	.	
-**						
-*Wir*					1	Wir		
-*sind*					2	sind		
-*also*					3	also		
-*nicht*					4	nicht		
-*nur*					5	nur		
-*dafür*					6	dafür	set_114	
-*verantwortlich*					7	verantwortlich		
-*,*					8	,		
-*die*					9	die		
-*Menschen*					10	Menschen	set_25	
-*die*					11	die	set_25	
-*wir*					12	wir		
-*lieben*					13	lieben	set_114	
-*,*					14	,		
-*vor*					15	vor		
-# text = Und ich will damit keinesfalls die Auswirkung bzw. die Schwere des Kampfs eines Menschen herabsetzen.	16	Schicksalsschlägen		
-*zu*					17	zu		
-*bewahren*					18	bewahren		
-*,*					19	,		
-*sondern*					20	sondern		
-*sie*					21	sie	set_25	
-*auch*					22	auch		
-*darauf*					23	darauf		
-*vorzubereiten*					24	vorzubereiten		
-*,*					25	,		
-*gut*					26	gut		
-*damit*					27	damit		
-*klar*					28	klar		
-*zu*					29	zu		
-*kommen*					30	kommen		
-*.*					31	.	
-**						
-Und					1	Und		
-*wir*					2	wir		
-*erweisen*					3	erweisen		
-*unseren*					4	unseren		
-*Kindern*					5	Kindern	set_26	
-*keinen*					6	keinen		
-*Gefallen*					7	Gefallen		
-*,*					8	,		
-*wenn*					9	wenn		
-*wir*					10	wir		
-*ihnen*					11	ihnen	set_26	
-*das*					12	das		
-*Gefühl*					13	Gefühl		
-*geben*					14	geben		
-*,*					15	,		
-*dass*					16	dass		
-*sie*					17	sie	set_26	
-*sich*					18	sich		
-*nicht*					19	nicht		
-*anpassen*					20	anpassen		
-*können*					21	können		
-*.*					22	.	
-**						
-*Man*					1	Man		
-*muss*					2	muss		
-*zwei*					3	zwei		
-*Dinge*					4	Dinge		
-*klar*					5	klar		
-*trennen*					6	trennen		
-*amputiert*					14	amputiert		
-*.*					31	.	
-**						
-*Und*					1	Und		
-*um*					2	um		
-*ehrlich*					3	ehrlich		
-*zu*					4	zu		
-*sein*					5	sein		
-*,*					6	,		
-*die*					7	die		
-*einzige*					8	einzige		
-*wirkliche*					9	wirkliche		
-*und*					10	und		
-*bleibende*					11	bleibende		
-*Behinderung*					12	Behinderung	set_27	
-*,*					13	,		
-*mit*					14	mit		
-*der*					15	der	set_27	
-ich	SBJ	pron.pper	OLD		16	ich		
+# text = Und ich will damit keinesfalls die Auswirkung bzw. die Schwere des Kampfs eines Menschen herabsetzen.	
+Und								
+ich	SBJ	pron.pper	OLD					
 will								
 damit								
 keinesfalls								
 die								
 Auswirkung	SBJ	def-np.the	OLD					
-bzw								
-.								
-die								
+bzw					8	bzw		
+.					9	.		
+die					10	die		
 Schwere	other_2	def-np.the	OLD					
-des								
-Kampfs	other_3	def-np.the	OLD					
-eines								
-Menschen	other_4	indef-np.a						
-herabsetzen								
+des					11	des		
+Kampfs	other_3	def-np.the	OLD		12	Kampfs		
+eines					13	eines		
+Menschen	other_4	indef-np.a			14	Menschen		
+herabsetzen					15	herabsetzen		
 .							
-
+	
 # text = Es gibt im Leben Widrigkeiten und Herausforderungen, und die sind nur alllzu real und jede Person geht damit anders um.				
-Es	SBJ	pron.pper	OLD					
-gibt								
+Es	SBJ	pron.pper	OLD		1	Es		
+gibt					2	gibt		
 in								
-dem								
-Leben	other	def-np.the	OLD					
-Widrigkeiten	OBJ	indef-np.bare						
+dem					3	dem		
+Leben	other	def-np.the	OLD		4	Leben		
+Widrigkeiten	OBJ	indef-np.bare			5	Widrigkeiten	set_145	
 und								
 Herausforderungen	other_2	indef-np.bare						
 ,								
@@ -1647,102 +1542,102 @@ nur
 alllzu								
 real								
 und								
-jede	other_3	pron.pind						
+jede	other_3	pron.pind			16	jede		
 Person	SBJ_2	indef-np.bare						
-geht								
+geht					18	geht		
 damit								
 anders								
 um								
-.							
-
-# text = Aber die Frage lautet nicht, ob wir mit Widrigkeiten klar kommen oder nicht, sondern wie wir damit klar kommen.				
-Aber								
-die								
-Frage	SBJ	def-np.the	OLD					
-lautet								
-nicht								
-,								
-ob								
-wir	SBJ_2	pron	OLD					
-mit								
-Widrigkeiten	other_2	indef-np.bare						
-klar								
-kommen								
-oder								
-nicht								
-,								
-sondern								
-wie								
-wir	SBJ_3	pron	OLD					
-damit								
-klar								
-kommen								
-.							
-
-# text = Wir sind also nicht nur dafür verantwortlich, die Menschen die wir lieben, vor Schicksalsschlägen zu bewahren, sondern sie auch darauf vorzubereiten, gut damit klar zu kommen.				
-Wir	SBJ	pron	OLD					
-sind								
-also								
-nicht								
-nur								
-dafür								
-verantwortlich								
-,								
-die								
-Menschen	SBJ_2	def-np.the	OLD					
-die	OBJ_2							
-wir	SBJ_2	pron	OLD					
-lieben								
-,								
-vor								
-Schicksalsschlägen	other_3	indef-np.bare						
-zu								
-bewahren								
-,								
-sondern								
-sie	SBJ_2	pron	OLD					
-auch								
-darauf								
-vorzubereiten								
-,								
-gut								
-damit								
-klar								
-zu								
-kommen								
-.							
-
-# text = Und wir erweisen unseren Kindern keinen Gefallen, wenn wir ihnen das Gefühl geben, dass sie sich nicht anpassen können.				
-Und								
-wir	SBJ	pron	OLD					
-erweisen								
-unseren	other_2	pron.ppos	OLD					
-Kindern	OBJ	indef-np.bare						
-keinen	other_2	pron	OLD					
-Gefallen	OBJ	indef-np.quant						
-,								
-wenn								
-wir	SBJ_2	pron	OLD					
-ihnen	OBJ_2	pron.pper	OLD					
-das								
-Gefühl	OBJ_2	def-np.the	OLD					
-geben								
-,								
-dass								
-sie	SBJ_3	pron	OLD					
-sich	OBJ_3							
-nicht								
-anpassen								
-können								
-.							
-
-# text = Man muss zwei Dinge klar trennen: zum einen die medizinische Tatsache, amputiert zu sein und zum anderen die gesellschaftliche Meinung darüber, ob ich behindert bin oder nicht.				
-Man	SBJ	pron.pind						
-muss								
-zwei								
-Dinge	OBJ	indef-np.quant						
-klar								
-trennen								
+.				22	.	
+		
+# text = Aber die Frage lautet nicht, ob wir mit Widrigkeiten klar kommen oder nicht, sondern wie wir damit klar kommen.	
+Aber					1	Aber		
+die					2	die		
+Frage	SBJ	def-np.the	OLD		3	Frage		
+lautet					4	lautet		
+nicht					5	nicht		
+,					6	,		
+ob					7	ob		
+wir	SBJ_2	pron	OLD		8	wir		
+mit					9	mit		
+Widrigkeiten	other_2	indef-np.bare			10	Widrigkeiten	set_113	
+klar					11	klar		
+kommen					12	kommen		
+oder					13	oder		
+nicht					14	nicht		
+,					15	,		
+sondern					16	sondern		
+wie					17	wie		
+wir	SBJ_3	pron	OLD		18	wir		
+damit					19	damit	set_113	
+klar					20	klar		
+kommen					21	kommen		
+.				22	.	
+		
+# text = Wir sind also nicht nur dafür verantwortlich, die Menschen die wir lieben, vor Schicksalsschlägen zu bewahren, sondern sie auch darauf vorzubereiten, gut damit klar zu kommen.	
+Wir	SBJ	pron	OLD		1	Wir		
+sind					2	sind		
+also					3	also		
+nicht					4	nicht		
+nur					5	nur		
+dafür					6	dafür	set_114	
+verantwortlich					7	verantwortlich		
+,					8	,		
+die					9	die		
+Menschen	SBJ_2	def-np.the	OLD		10	Menschen	set_25	
+die	OBJ_2				11	die	set_25	
+wir	SBJ_2	pron	OLD		12	wir		
+lieben					13	lieben	set_114	
+,					14	,		
+vor					15	vor		
+Schicksalsschlägen	other_3	indef-np.bare			16	Schicksalsschlägen		
+zu					17	zu		
+bewahren					18	bewahren		
+,					19	,		
+sondern					20	sondern		
+sie	SBJ_2	pron	OLD		21	sie	set_25	
+auch					22	auch		
+darauf					23	darauf		
+vorzubereiten					24	vorzubereiten		
+,					25	,		
+gut					26	gut		
+damit					27	damit		
+klar					28	klar		
+zu					29	zu		
+kommen					30	kommen		
+.				31	.	
+		
+# text = Und wir erweisen unseren Kindern keinen Gefallen, wenn wir ihnen das Gefühl geben, dass sie sich nicht anpassen können.	
+Und					1	Und		
+wir	SBJ	pron	OLD		2	wir		
+erweisen					3	erweisen		
+unseren	other_2	pron.ppos	OLD		4	unseren		
+Kindern	OBJ	indef-np.bare			5	Kindern	set_26	
+keinen	other_2	pron	OLD		6	keinen		
+Gefallen	OBJ	indef-np.quant			7	Gefallen		
+,					8	,		
+wenn					9	wenn		
+wir	SBJ_2	pron	OLD		10	wir		
+ihnen	OBJ_2	pron.pper	OLD		11	ihnen	set_26	
+das					12	das		
+Gefühl	OBJ_2	def-np.the	OLD		13	Gefühl		
+geben					14	geben		
+,					15	,		
+dass					16	dass		
+sie	SBJ_3	pron	OLD		17	sie	set_26	
+sich	OBJ_3				18	sich		
+nicht					19	nicht		
+anpassen					20	anpassen		
+können					21	können		
+.				22	.	
+		
+# text = Man muss zwei Dinge klar trennen: zum einen die medizinische Tatsache, amputiert zu sein und zum anderen die gesellschaftliche Meinung darüber, ob ich behindert bin oder nicht.	
+Man	SBJ	pron.pind			1	Man		
+muss					2	muss		
+zwei					3	zwei		
+Dinge	OBJ	indef-np.quant			4	Dinge		
+klar					5	klar		
+trennen					6	trennen		
 :								
 zu	other_3	pron.pind						
 dem								
@@ -1751,7 +1646,7 @@ die
 medizinische								
 Tatsache	SBJ_2	def-np.the	OLD					
 ,								
-amputiert								
+amputiert					14	amputiert		
 zu								
 sein								
 und								
@@ -1769,25 +1664,25 @@ behindert
 bin								
 oder								
 nicht								
-.							
-
-# text = Und um ehrlich zu sein, die einzige wirkliche und bleibende Behinderung, mit der ich mich auseinander setzen musste, ist, dass die Welt ständig meint, sie könne mich mit diesen Definitionen beschreiben.				
-Und								
-um								
-ehrlich								
-zu								
-sein								
-,								
-die								
-einzige								
-wirkliche								
-und								
-bleibende								
-Behinderung	other	def-np.the	OLD					
-,								
-mit								
-der								
-ich	SBJ_2	pron.pper	OLD					
+.				31	.	
+		
+# text = Und um ehrlich zu sein, die einzige wirkliche und bleibende Behinderung, mit der ich mich auseinander setzen musste, ist, dass die Welt ständig meint, sie könne mich mit diesen Definitionen beschreiben.	
+Und					1	Und		
+um					2	um		
+ehrlich					3	ehrlich		
+zu					4	zu		
+sein					5	sein		
+,					6	,		
+die					7	die		
+einzige					8	einzige		
+wirkliche					9	wirkliche		
+und					10	und		
+bleibende					11	bleibende		
+Behinderung	other	def-np.the	OLD		12	Behinderung	set_27	
+,					13	,		
+mit					14	mit		
+der					15	der	set_27	
+ich	SBJ_2	pron.pper	OLD		16	ich		
 mich	OBJ_2				17	mich		
 auseinander					18	auseinander		
 setzen					19	setzen		
@@ -2229,76 +2124,23 @@ zu					31	zu
 tanzen					32	wandeln		
 .				33	.	
 		
-*Also*					1	Also		
-*,*					2	,		
-*nochmals*					3	nochmals		
-*,*					4	,		
-*Wandel*					5	Wandel		
-*und*					6	und		
-*Anpassung*					7	Anpassung		
-*sind*					8	sind		
-*die*					9	die		
-# text = Und vielleicht schaffen wir es, Widrigkeiten als etwas natürliches, stimmiges und nützliches zu sehen und fühlen uns so durch ihre Präsenz nicht mehr so belastet.	10	großartigsten		
-*Fähigkeiten*					11	Fähigkeiten		
-*des*					12	des		
-*Menschen*					13	Menschen		
-*.*					14	.	
-**						
-Und					1	Und		
-vielleicht					2	vielleicht		
-schaffen					3	wissen	set_120	
-wir	SBJ	pron	OLD		4	wir		
-es	OBJ	pron.pper	OLD		5	erst		
-,					6	,		
-*aus*					7	aus		
-*welchem*					8	welchem		
-*Holz*					9	Holz		
-*wir*					10	wir		
-*geschnitzt*					11	geschnitzt		
-*sind*					12	sind		
-*,*					13	,		
-*wenn*					14	wenn		
-*wir*					15	wir		
-*wirklich*					16	wirklich		
-*geprüft*					17	geprüft		
-*werden*					18	werden		
-*.*					19	.	
-**						
-*Möglicherweise*					1	Möglicherweise		
-*ist*					2	ist		
-*genau*					3	genau		
-*das*					4	das	set_120	
-*der*					5	der		
-*Sinn*					6	Sinn		
-*von*					7	von		
-Widrigkeiten	SBJ_4	indef-np.bare			8	Widrigkeiten		
-*,*					9	,		
-*eine*					10	eine		
-*Wahrnehmung*					11	Wahrnehmung		
-als					12	des		
-*Ichs*					13	Ichs		
-*,*					14	,		
-*ein*					15	ein		
-*Gefühl*					16	Gefühl		
-*für*					17	für		
-*unsere*					18	unsere		
-*eigene*					19	eigene		
-*Kraft*					20	Kraft		
-*.*					21	.	
-**						
-*Wir*					1	Wir		
-*können*					2	können		
-*uns*					3	uns		
-*so*					4	so		
-*selbst*					5	selbst		
-etwas	other_4	pron.pind			6	etwas		
+# text = Und vielleicht schaffen wir es, Widrigkeiten als etwas natürliches, stimmiges und nützliches zu sehen und fühlen uns so durch ihre Präsenz nicht mehr so belastet.				
+Und								
+vielleicht								
+schaffen								
+wir	SBJ	pron	OLD					
+es	OBJ	pron.pper	OLD					
+,								
+Widrigkeiten	SBJ_4	indef-np.bare						
+als								
+etwas	other_4	pron.pind						
 natürliches								
 ,								
 stimmiges								
 und								
 nützliches								
 zu								
-sehen					7	schenken		
+sehen								
 und								
 fühlen								
 uns	OBJ_2	pron	OLD					
@@ -2310,8 +2152,8 @@ nicht
 mehr								
 so								
 belastet								
-.				8	.	
-		
+.							
+	
 # text = In diesem Jahr feiern wir den 200.				
 In								
 diesem	other_2	pron.pds	OLD					
@@ -2321,7 +2163,7 @@ wir	SBJ	pron	OLD
 den								
 200								
 .							
-	
+
 # text = Geburtstag von Charles Darwin und als er vor 150 Jahren über Evolution geschrieben hat, hat Darwin, in meinen Augen, auf etwas sehr Wahres im menschlichen Charakter hingewiesen.				
 Geburtstag	other_2	indef-np.bare						
 von								
@@ -2435,78 +2277,78 @@ wandeln
 .							
 
 # text = Also, nochmals, Wandel und Anpassung sind die großartigsten Fähigkeiten des Menschen.				
-Also								
-,								
-nochmals								
-,								
-Wandel	SBJ	indef-np.bare						
-und								
-Anpassung	other_2	indef-np.bare						
-sind								
-die								
-großartigsten								
-Fähigkeiten	other	def-np.the	OLD					
-des								
-Menschen	other	def-np.the	OLD					
-.							
-
-# text = Und vielleicht wissen wir erst, aus welchem Holz wir geschnitzt sind, wenn wir wirklich geprüft werden.				
-Und								
-vielleicht								
-wissen								
-wir	SBJ	pron	OLD					
-erst								
-,								
-aus								
-welchem	other_3	pron.pint						
-Holz	other_2	indef-np.bare						
-wir	SBJ_2	pron	OLD					
-geschnitzt								
-sind								
-,								
-wenn								
-wir	SBJ_2	pron	OLD					
-wirklich								
-geprüft								
-werden								
-.							
-
-# text = Möglicherweise ist genau das der Sinn von Widrigkeiten, eine Wahrnehmung des Ichs, ein Gefühl für unsere eigene Kraft.				
-Möglicherweise								
-ist								
-genau								
-das								
-der								
-Sinn	other	def-np.the	OLD					
-von								
-Widrigkeiten	other	indef-np.bare						
-,								
-eine								
-Wahrnehmung	other_2	indef-np.a						
-des								
-Ichs	other_3	def-np.the	OLD					
-,								
-ein								
-Gefühl	other_2	indef-np.a						
-für								
-unsere	other_4	pron.ppos	OLD					
-eigene								
-Kraft	other_3	indef-np.bare						
-.							
-
-# text = Wir können uns so selbst etwas schenken.				
+Also					1	Also		
+,					2	,		
+nochmals					3	nochmals		
+,					4	,		
+Wandel	SBJ	indef-np.bare			5	Wandel		
+und					6	und		
+Anpassung	other_2	indef-np.bare			7	Anpassung		
+sind					8	sind		
+die					9	die		
+großartigsten					10	großartigsten		
+Fähigkeiten	other	def-np.the	OLD		11	Fähigkeiten		
+des					12	des		
+Menschen	other	def-np.the	OLD		13	Menschen		
+.				14	.	
+		
+# text = Und vielleicht wissen wir erst, aus welchem Holz wir geschnitzt sind, wenn wir wirklich geprüft werden.	
+Und					1	Und		
+vielleicht					2	vielleicht		
+wissen					3	wissen	set_120	
+wir	SBJ	pron	OLD		4	wir		
+erst					5	erst		
+,					6	,		
+aus					7	aus		
+welchem	other_3	pron.pint			8	welchem		
+Holz	other_2	indef-np.bare			9	Holz		
+wir	SBJ_2	pron	OLD		10	wir		
+geschnitzt					11	geschnitzt		
+sind					12	sind		
+,					13	,		
+wenn					14	wenn		
+wir	SBJ_2	pron	OLD		15	wir		
+wirklich					16	wirklich		
+geprüft					17	geprüft		
+werden					18	werden		
+.				19	.	
+		
+# text = Möglicherweise ist genau das der Sinn von Widrigkeiten, eine Wahrnehmung des Ichs, ein Gefühl für unsere eigene Kraft.	
+Möglicherweise					1	Möglicherweise		
+ist					2	ist		
+genau					3	genau		
+das					4	das	set_120	
+der					5	der		
+Sinn	other	def-np.the	OLD		6	Sinn		
+von					7	von		
+Widrigkeiten	other	indef-np.bare			8	Widrigkeiten		
+,					9	,		
+eine					10	eine		
+Wahrnehmung	other_2	indef-np.a			11	Wahrnehmung		
+des					12	des		
+Ichs	other_3	def-np.the	OLD		13	Ichs		
+,					14	,		
+ein					15	ein		
+Gefühl	other_2	indef-np.a			16	Gefühl		
+für					17	für		
+unsere	other_4	pron.ppos	OLD		18	unsere		
+eigene					19	eigene		
+Kraft	other_3	indef-np.bare			20	Kraft		
+.				21	.	
+		
+# text = Wir können uns so selbst etwas schenken.	
 Wir	SBJ	pron	OLD		1	Wir		
 können					2	können		
-uns	OBJ	pron	OLD					
-so								
-selbst								
-etwas	OBJ	pron	OLD					
-schenken								
-.							
-
-# text = Wir können Widrigkeiten eine neue Bedeutung geben, die über schwere Zeiten hinaus geht.				
-Wir	SBJ	pron	OLD					
-können								
+uns	OBJ	pron	OLD		3	uns		
+so					4	so		
+selbst					5	selbst		
+etwas	OBJ	pron	OLD		6	etwas		
+schenken					7	schenken		
+.				8	.	
+		
+# text = Wir können Widrigkeiten eine neue Bedeutung geben, die über schwere Zeiten hinaus geht.	
+Wir	SBJ	pron	OLD		1	Wir		
+können					2	können		
 Widrigkeiten	SBJ	indef-np.bare			3	Widrigkeiten		
 eine					4	eine		
 neue					5	neue		
@@ -2992,45 +2834,47 @@ klick					7	klick
 gemacht					8	gemacht		
 .				9	.	
 		
-# text = Das war Dr. Kean, ein Mann, den ich nur aus Erzählungen meiner Mutter über diesen Tag kannte, weil ich natürlich, ganz typisch, zu meinem Geburtstag zwei Wochen zu spät kam.	
+# text = Das war Dr.	
 Das	SBJ	pron	OLD		1	Das		
 war					2	war		
-Dr.					3	Dr.		
-Kean	other	ne	OLD		4	Kean	set_45	
-,					5	,		
-ein					6	ein		
-Mann	other	indef-np.a			7	Mann		
-,					8	,		
-den	OBJ_3				9	den	set_45	
-ich	SBJ_3	pron.pper	OLD		10	ich		
-nur					11	nur		
-aus					12	aus		
-Erzählungen	other_3	indef-np.bare			13	Erzählungen		
-meiner	other_5	pron.ppos	OLD		14	meiner		
-Mutter	other_4	indef-np.bare			15	Mutter		
-über					16	über		
-diesen	other_4	pron.pds	OLD		17	diesen		
-Tag	other_3	def-np.dem	OLD		18	Tag		
-kannte					19	kannte		
-,					20	,		
-weil					21	weil		
-ich	SBJ_6	pron.pper	OLD		22	ich		
-natürlich					23	natürlich		
-,					24	,		
-ganz					25	ganz		
-typisch					26	typisch		
-,					27	,		
-zu	other_6	pron.pind			28	zu		
-meinem	other_6	pron.ppos	OLD		29	meinem		
-Geburtstag	other_5	indef-np.bare			30	Geburtstag		
-zwei					31	zwei		
-Wochen	SBJ_4	indef-np.quant			32	Wochen		
-zu					33	zu		
-spät					34	spät		
-kam					35	kam		
-.				36	.	
+Dr.	other	indef-np.bare		3	Dr.	set_45
 		
-# text = Der Arzt für pränatale Diagnostik meiner Mutter war im Urlaub, und so kannten meine Eltern den Mann, der mich zur Welt brachte, überhaupt nicht.	
+# text = Kean, ein Mann, den ich nur aus Erzählungen meiner Mutter über diesen Tag kannte, weil ich natürlich, ganz typisch, zu meinem Geburtstag zwei Wochen zu spät kam.	
+Kean	other	ne	OLD		1	Kean	set_45	
+,					2	,		
+ein					3	ein		
+Mann	other	indef-np.a						
+,								
+den	OBJ_3							
+ich	SBJ_3	pron.pper	OLD					
+nur								
+aus								
+Erzählungen	other_3	indef-np.bare						
+meiner	other_5	pron.ppos	OLD					
+Mutter	other_4	indef-np.bare						
+über								
+diesen	other_4	pron.pds	OLD					
+Tag	other_3	def-np.dem	OLD					
+kannte					16	kannte		
+,								
+weil								
+ich	SBJ_6	pron.pper	OLD					
+natürlich								
+,								
+ganz								
+typisch								
+,								
+zu	other_6	pron.pind						
+meinem	other_6	pron.ppos	OLD					
+Geburtstag	other_5	indef-np.bare						
+zwei								
+Wochen	SBJ_4	indef-np.quant						
+zu								
+spät								
+kam								
+.							
+	
+# text = Der Arzt für pränatale Diagnostik meiner Mutter war im Urlaub, und so kannten meine Eltern den Mann, der mich zur Welt brachte, überhaupt nicht.				
 Der					1	Der		
 Arzt	SBJ	def-np.the	OLD		2	Arzt		
 für					3	für		
@@ -3291,73 +3135,77 @@ sein					17	sein
 kann					18	kann		
 .				19	.	
 		
---	
-# text = Und Dr. Kean erzählte weiter, er sagte: "Ich habe gelernt, dass Kinder, wenn sie nicht ständig etwas anderes gesagt bekommen, und auch wenn sie nur ein bisschen Unterstützung bekommen, wenn man Kinder sich selbst überlässt, dann können Kinder sehr viel erreichen."				
+# text = Und Dr.	
 Und					1	Und		
-Dr.					2	Dr.		
-Kean	SBJ	ne	OLD		3	Kean	set_45	
-erzählte					4	erzählte		
-weiter					5	weiter		
-,					6	,		
-er	SBJ_2	pron.pper	OLD		7	er	set_45	
-sagte					8	sagte		
-:					9	:		
-&quot;					10	''		
-Ich	SBJ_3	pron.pper	OLD		11	Ich		
-habe					12	habe		
-gelernt					13	gelernt		
-,					14	,		
-dass					15	dass		
-Kinder	SBJ_4	indef-np.bare			16	Kinder	set_57	
-,					17	,		
-wenn					18	wenn		
-sie	SBJ_5	pron	OLD		19	sie	set_57	
-nicht					20	nicht		
-ständig					21	ständig		
-etwas					22	etwas		
-anderes	OBJ_5	pron.pind			23	anderes		
-gesagt					24	gesagt		
-bekommen					25	bekommen		
-,					26	,		
-und					27	und		
-auch					28	auch		
-wenn					29	wenn		
-sie	SBJ_4	pron	OLD		30	sie	set_57	
-nur					31	nur		
-ein					32	ein		
-bisschen					33	bisschen		
-Unterstützung	OBJ_4	indef-np.a			34	Unterstützung		
-bekommen					35	bekommen		
-,					36	,		
-wenn					37	wenn		
-man	SBJ_5	pron.pind			38	man		
-Kinder	OBJ_5	indef-np.bare			39	Kinder	set_58	
-sich	SBJ_5				40	sich	set_58	
-selbst					41	selbst		
-überlässt					42	überlässt		
-,					43	,		
-dann					44	dann		
-können					45	können		
-Kinder	SBJ_6	indef-np.bare			46	Kinder		
-sehr					47	sehr		
-viel	OBJ_6	pron	OLD		48	viel		
-erreichen					49	erreichen		
-.					50	.		
-&quot;				51	''	
+Dr.	other	indef-np.bare		2	Dr.	set_45
 		
-# text = Sehen Sie, Dr. Kean hat sein Denken verändert.	
+--	
+# text = Kean erzählte weiter, er sagte: \"Ich habe gelernt, dass Kinder, wenn sie nicht ständig etwas anderes gesagt bekommen, und auch wenn sie nur ein bisschen Unterstützung bekommen, wenn man Kinder sich selbst überlässt, dann können Kinder sehr viel erreichen.\"				
+Kean	SBJ	ne	OLD					
+erzählte					2	erzählte		
+weiter								
+,								
+er	SBJ_2	pron.pper	OLD					
+sagte								
+:								
+&quot;								
+Ich	SBJ_3	pron.pper	OLD					
+habe								
+gelernt								
+,								
+dass								
+Kinder	SBJ_4	indef-np.bare						
+,								
+wenn								
+sie	SBJ_5	pron	OLD					
+nicht								
+ständig								
+etwas								
+anderes	OBJ_5	pron.pind						
+gesagt								
+bekommen								
+,								
+und								
+auch								
+wenn								
+sie	SBJ_4	pron	OLD					
+nur								
+ein								
+bisschen								
+Unterstützung	OBJ_4	indef-np.a						
+bekommen								
+,								
+wenn								
+man	SBJ_5	pron.pind						
+Kinder	OBJ_5	indef-np.bare						
+sich	SBJ_5							
+selbst								
+überlässt								
+,								
+dann								
+können								
+Kinder	SBJ_6	indef-np.bare						
+sehr								
+viel	OBJ_6	pron	OLD					
+erreichen								
+.								
+&quot;							
+	
+# text = Sehen Sie, Dr.				
 Sehen					1	Sehen		
 Sie	SBJ	pron.pper	OLD		2	Sie		
 ,					3	,		
-Dr.					4	Dr.		
-Kean	SBJ_3	ne	OLD		5	Kean	set_45	
-hat					6	hat		
-sein					7	sein	set_45	
-Denken	OBJ_2	indef-np			8	Denken		
-verändert					9	verändert		
-.				10	.	
+Dr.	other	indef-np.bare		4	Dr.	set_45
 		
-# text = Er hatte verstanden, dass die medizinische Diagnose, und wie jemand damit umgeht, zwei unterschiedliche Dinge sind.	
+# text = Kean hat sein Denken verändert.	
+Kean	SBJ	ne	OLD					
+hat								
+sein								
+Denken	OBJ	indef-np						
+verändert					5	verändert		
+.							
+	
+# text = Er hatte verstanden, dass die medizinische Diagnose, und wie jemand damit umgeht, zwei unterschiedliche Dinge sind.				
 Er	SBJ	pron.pper	OLD		1	Er	set_45	
 hatte					2	hatte		
 verstanden					3	verstanden		
@@ -3749,16 +3597,76 @@ usw					14	usw
 .				15	.	
 		
 --	
-# text = Sie haben dann über einen dreimonatigen Zeitraum Schülern mit einem "Ausreichend" (D) die Note "Sehr gut" (A) gegeben.				
-Sie	SBJ	pron.pper	OLD					
-haben								
-dann								
-über								
-einen								
-dreimonatigen								
-Zeitraum	other	indef-np.a						
-Schülern	OBJ	indef-np.bare						
-mit								
+# text = Sie haben dann über einen dreimonatigen Zeitraum Schülern mit einem "Ausreichend" (D) die Note "Sehr gut" (A) gegeben.	26	gegeben		
+*Es*					1	Es		
+*wurde*					2	wurde		
+*ihnen*					3	ihnen	set_65	
+*gesagt*					4	gesagt		
+*,*					5	,		
+*sie*					6	sie	set_65	
+*seien*					7	seien		
+*Asse*					8	Asse		
+*,*					9	,		
+*dass*					10	dass		
+Sie	SBJ	pron.pper	OLD		11	sie	set_65	
+*sehr*					12	sehr		
+*schlau*					13	schlau		
+*wären*					14	wären		
+*.*					15	.	
+**						
+*Und*					1	Und		
+*nach*					2	nach		
+*diesen*					3	diesen		
+*drei*					4	drei		
+*Monaten*					5	Monaten		
+haben					6	haben		
+*sie*					7	sie	set_65	
+*wirklich*					8	wirklich		
+*Einser*					9	Einser		
+*geschrieben*					10	geschrieben		
+*.*					11	.	
+**						
+*Und*					1	Und		
+*natürlich*					2	natürlich		
+*zerbricht*					3	zerbricht		
+*es*					4	es		
+*einem*					5	einem		
+*das*					6	das		
+*Herz*					7	Herz		
+*zu*					8	zu		
+*hören*					9	hören		
+*gesagt*					15	gesagt		
+*.*					22	.	
+**						
+*Und*					1	Und		
+*genauso*					2	genauso		
+*war*					3	war		
+*es*					4	es		
+dann					5	dann		
+*nach*					6	nach		
+*den*					7	den		
+*drei*					8	drei		
+*Monaten*					9	Monaten		
+*auch*					10	auch		
+*.*					11	.	
+**						
+über					1	Aber		
+*nur*					2	nur		
+*jene*					3	jene	set_79	
+*,*					4	,		
+*die*					5	die	set_79	
+*immer*					6	immer		
+*noch*					7	noch		
+*in*					8	in		
+*der*					9	der		
+einen					10	Schule		
+*waren*					11	waren		
+dreimonatigen					12	–		
+*abgesehen*					13	abgesehen		
+Zeitraum	other	indef-np.a			14	von		
+*den*					15	den		
+Schülern	OBJ	indef-np.bare			16	Schülern	set_67	
+mit					17	,		
 einem								
 &quot;								
 Ausreichend	other	indef-np.a						
@@ -3766,58 +3674,97 @@ Ausreichend	other	indef-np.a
 (								
 D	other_2	ne	OLD					
 )								
-die								
-Note	SBJ	def-np.the	OLD					
+die					18	die	set_67	
+*die*					19	die		
+*Schule*					20	Schule		
+*geschmissen*					21	geschmissen		
+*hatten*					22	hatten		
+*.*					23	.	
+**						
+*Ganz*					1	Ganz		
+*entscheidend*					2	entscheidend		
+*bei*					3	bei		
+*dieser*					4	dieser		
+*Studie*					5	Studie	set_136	
+*war*					6	war		
+*,*					7	,		
+*dass*					8	dass		
+*die*					9	die		
+*Lehrer*					10	Lehrer	set_151	
+*nicht*					11	nicht		
+*eingeweiht*					12	eingeweiht		
+*waren*					13	waren		
+*.*					14	.	
+**						
+*Die*					1	Die		
+*Lehrer*					2	Lehrer	set_151	
+*wussten*					3	wussten		
+*nicht*					4	nicht		
+*,*					5	,		
+*dass*					6	dass		
+*etwas*					7	etwas		
+*geändert*					8	geändert		
+*wurde*					9	wurde		
+*.*					10	.	
+**						
+*Ihnen*					1	Ihnen	set_151	
+*wurde*					2	wurde		
+*einfach*					3	einfach		
+*gesagt*					4	gesagt		
+*die*					13	die		
+*mit*					15	mit	set_72	
+*der*					16	der	set_72	
+Note	SBJ	def-np.the	OLD		17	Note		
 &quot;								
-Sehr	other_4	ne	OLD					
+Sehr	other_4	ne	OLD		18	ausreichend	set_72	
 gut								
 &quot;								
 (								
 A	other_2	ne	OLD					
 )								
-gegeben					26	gegeben		
+gegeben								
+.				19	.	
+		
+# text = Es wurde ihnen gesagt, sie seien Asse, dass sie sehr schlau wären.				
+Es								
+wurde								
+ihnen	OBJ	pron.pper	OLD					
+gesagt								
+,								
+sie	SBJ_2	pron	OLD					
+seien								
+Asse	other	indef-np.bare						
+,								
+dass								
+sie	SBJ_3	pron	OLD					
+sehr								
+schlau								
+wären								
 .							
 	
-# text = Es wurde ihnen gesagt, sie seien Asse, dass sie sehr schlau wären.				
-Es					1	Es		
-wurde					2	wurde		
-ihnen	OBJ	pron.pper	OLD		3	ihnen	set_65	
-gesagt					4	gesagt		
-,					5	,		
-sie	SBJ_2	pron	OLD		6	sie	set_65	
-seien					7	seien		
-Asse	other	indef-np.bare			8	Asse		
-,					9	,		
-dass					10	dass		
-sie	SBJ_3	pron	OLD		11	sie	set_65	
-sehr					12	sehr		
-schlau					13	schlau		
-wären					14	wären		
-.				15	.	
-		
-# text = Und nach diesen drei Monaten haben sie wirklich Einser geschrieben.	
+# text = Und nach diesen drei Monaten haben sie wirklich Einser geschrieben.				
 Und					1	Und		
-nach					2	nach		
-diesen	other_2	pron.pds	OLD		3	diesen		
-drei					4	drei		
-Monaten	other	def-np.dem	OLD		5	Monaten		
-haben					6	haben		
-sie	OBJ	pron	OLD		7	sie	set_65	
-wirklich					8	wirklich		
-Einser	other	indef-np.bare			9	Einser		
-geschrieben					10	geschrieben		
-.				11	.	
-		
-# text = Und natürlich zerbricht es einem das Herz zu hören, dass umgekehrt den Einser-Schülern gesagt wurde, sie seien nur ausreichend.	
-Und					1	Und		
-natürlich					2	natürlich		
-zerbricht					3	zerbricht		
-es	SBJ	pron.pper	OLD		4	es		
-einem	OBJ_2				5	einem		
-das					6	das		
-Herz	OBJ_2	def-np.the	OLD		7	Herz		
-zu					8	zu		
-hören					9	hören		
+nach								
+diesen	other_2	pron.pds	OLD					
+drei								
+Monaten	other	def-np.dem	OLD					
+haben								
+sie	OBJ	pron	OLD					
+wirklich								
+Einser	other	indef-np.bare						
+geschrieben								
+.							
+
+# text = Und natürlich zerbricht es einem das Herz zu hören, dass umgekehrt den Einser-Schülern gesagt wurde, sie seien nur ausreichend.				
+Und								
+natürlich								
+zerbricht								
+es	SBJ	pron.pper	OLD					
+einem	OBJ_2							
+das								
+Herz	OBJ_2	def-np.the	OLD					
+zu								
+hören								
 ,								
 dass								
 umgekehrt								
@@ -3825,90 +3772,90 @@ den
 Einser								
 _								
 Schülern	OBJ_2	def-np.the	OLD					
-gesagt					15	gesagt		
+gesagt								
 wurde								
 ,								
 sie	SBJ_3	pron	OLD					
 seien								
 nur								
 ausreichend								
-.				22	.	
-		
-# text = Und genauso war es dann nach den drei Monaten auch.	
-Und					1	Und		
+.							
+
+# text = Und genauso war es dann nach den drei Monaten auch.				
+Und								
 genauso					2	genauso		
-war					3	war		
-es	SBJ	pron.pper	OLD		4	es		
-dann					5	dann		
-nach					6	nach		
-den					7	den		
-drei					8	drei		
-Monaten	other	def-np.quant	OLD		9	Monaten		
-auch					10	auch		
-.				11	.	
-		
-# text = Aber nur jene, die immer noch in der Schule waren – abgesehen von den Schülern, die die Schule geschmissen hatten.	
-Aber					1	Aber		
-nur					2	nur		
-jene	other	pron.pds	OLD		3	jene	set_79	
-,					4	,		
-die	SBJ_2				5	die	set_79	
-immer					6	immer		
-noch					7	noch		
-in					8	in		
-der					9	der		
-Schule	other_2	def-np.the	OLD		10	Schule		
-waren					11	waren		
-–					12	–		
-abgesehen					13	abgesehen		
-von					14	von		
-den					15	den		
-Schülern	other_2	def-np.the	OLD		16	Schülern	set_67	
-,					17	,		
-die	SBJ_4				18	die	set_67	
-die					19	die		
-Schule	OBJ_4	def-np.the	OLD		20	Schule		
-geschmissen					21	geschmissen		
-hatten					22	hatten		
-.				23	.	
-		
-# text = Ganz entscheidend bei dieser Studie war, dass die Lehrer nicht eingeweiht waren.	
-Ganz					1	Ganz		
-entscheidend					2	entscheidend		
-bei					3	bei		
-dieser	other_2	pron.pds	OLD		4	dieser		
-Studie	other	def-np.dem	OLD		5	Studie	set_136	
-war					6	war		
-,					7	,		
-dass					8	dass		
-die					9	die		
-Lehrer	SBJ_2	def-np.the	OLD		10	Lehrer	set_151	
-nicht					11	nicht		
-eingeweiht					12	eingeweiht		
-waren					13	waren		
-.				14	.	
-		
-# text = Die Lehrer wussten nicht, dass etwas geändert wurde.	
-Die					1	Die		
-Lehrer	SBJ	def-np.the	OLD		2	Lehrer	set_151	
-wussten					3	wussten		
-nicht					4	nicht		
-,					5	,		
-dass					6	dass		
-etwas	SBJ_2	pron.pind			7	etwas		
-geändert					8	geändert		
-wurde					9	wurde		
-.				10	.	
-		
-# text = Ihnen wurde einfach gesagt, dass seien die Einser-Schüler und dass sind die Schüler mit der Note ausreichend.	
-Ihnen	OBJ	pron.pper	OLD		1	Ihnen	set_151	
-wurde					2	wurde		
-einfach					3	einfach		
-gesagt					4	gesagt		
+war								
+es	SBJ	pron.pper	OLD					
+dann								
+nach								
+den								
+drei								
+Monaten	other	def-np.quant	OLD					
+auch								
+.							
+
+# text = Aber nur jene, die immer noch in der Schule waren – abgesehen von den Schülern, die die Schule geschmissen hatten.				
+Aber								
+nur								
+jene	other	pron.pds	OLD					
+,								
+die	SBJ_2							
+immer								
+noch								
+in								
+der								
+Schule	other_2	def-np.the	OLD					
+waren								
+–								
+abgesehen								
+von								
+den								
+Schülern	other_2	def-np.the	OLD					
+,								
+die	SBJ_4							
+die								
+Schule	OBJ_4	def-np.the	OLD					
+geschmissen								
+hatten								
+.							
+
+# text = Ganz entscheidend bei dieser Studie war, dass die Lehrer nicht eingeweiht waren.				
+Ganz								
+entscheidend								
+bei								
+dieser	other_2	pron.pds	OLD					
+Studie	other	def-np.dem	OLD					
+war								
+,								
+dass								
+die								
+Lehrer	SBJ_2	def-np.the	OLD					
+nicht								
+eingeweiht								
+waren								
+.							
+
+# text = Die Lehrer wussten nicht, dass etwas geändert wurde.				
+Die								
+Lehrer	SBJ	def-np.the	OLD					
+wussten								
+nicht								
+,								
+dass								
+etwas	SBJ_2	pron.pind						
+geändert								
+wurde								
+.							
+
+# text = Ihnen wurde einfach gesagt, dass seien die Einser-Schüler und dass sind die Schüler mit der Note ausreichend.				
+Ihnen	OBJ	pron.pper	OLD					
+wurde								
+einfach								
+gesagt								
 ,								
 dass								
 seien								
-die					13	die		
+die								
 Einser								
 _								
 Schüler	SBJ_2	def-np.the	OLD					
@@ -3917,15 +3864,15 @@ dass
 sind								
 die								
 Schüler	SBJ_2	def-np.the	OLD					
-mit					15	mit	set_72	
-der					16	der	set_72	
-Note	other_3	def-np.the	OLD		17	Note		
-ausreichend					18	ausreichend	set_72	
-.				19	.	
-		
-# text = Und genauso haben sie ihnen etwas beigebracht und sie behandelt.	
-Und					1	Und		
-genauso					2	genauso		
+mit								
+der								
+Note	other_3	def-np.the	OLD					
+ausreichend								
+.							
+
+# text = Und genauso haben sie ihnen etwas beigebracht und sie behandelt.				
+Und								
+genauso								
 haben					3	haben		
 sie	SBJ	pron	OLD		4	sie	set_151	
 ihnen	OBJ	pron.pper	OLD		5	ihnen	set_72	

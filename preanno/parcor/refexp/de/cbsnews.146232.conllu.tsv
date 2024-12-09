@@ -1,20 +1,20 @@
-# text = Simone Biles schafft Gold im Damenturnen Vergessen Sie den Druck.				
+# text = Simone Biles schafft Gold im Damenturnen				
 Simone	SBJ	ne	OLD		1	Simone	set_42	
-Biles								
-schafft								
-Gold	OBJ	ne	OLD					
+Biles					2	Biles		
+schafft					3	schafft		
+Gold	OBJ	ne	OLD		4	Gold		
 in								
 dem								
-Damenturnen	other	def-np.the	OLD					
-Vergessen								
-Sie	SBJ_2	pron.pper	OLD					
-den					10	den	set_0	
-Druck	OBJ	def-np.the	OLD		11	Druck		
-.				12	.		
-*Biles*					2	Biles		
-*Damenturnen*					6	Damenturnen		
-	
-# text = Vergessen Sie den Hype.				
+Damenturnen	other	def-np.the	OLD	6	Damenturnen	
+		
+# text = Vergessen Sie den Druck.	
+Vergessen	other	indef-np.bare			1	Vergessen		
+Sie	SBJ	pron.pper	OLD		2	Sie		
+den					3	den		
+Druck	OBJ	def-np.the	OLD		4	Druck	set_0	
+.				5	.	
+		
+# text = Vergessen Sie den Hype.	
 Vergessen	other	indef-np.bare			1	Vergessen	set_0	
 Sie	SBJ	pron.pper	OLD		2	Sie		
 den					3	den		
@@ -367,20 +367,20 @@ angesehen
 werden								
 .							
 	
-# text = Die Amerikanerinnen Simone Biles, links, und Aly Raisman umarmen sich, nachdem sie jeweils Gold und Silber im Einzelmehrkampffinale der Frauen im Kunstturnen bei den Olympischen Sommerspielen 2016 in Rio de Janeiro, Brasilien, Donnerstag, gewonnen haben Biles holte die erste Medaille am Dienstag, während sie auf der Abschiedsfeier der sich in Ruhestand begehenden Mannschaftskoordinatorin Martha Karolyi als Ausrufezeichen diente.				
-Die								
-Amerikanerinnen	SBJ	def-np.the	OLD					
-Simone	other_2	ne	OLD					
-Biles					1	Biles	set_42	
-,								
-links								
-,								
-und								
-Aly	other_2	ne	OLD					
-Raisman					10	Raisman	set_42	
-umarmen					11	auf		
-sich	OBJ							
-,								
+# text = Die Amerikanerinnen Simone Biles, links, und Aly Raisman umarmen sich, nachdem sie jeweils Gold und Silber im Einzelmehrkampffinale der Frauen im Kunstturnen bei den Olympischen Sommerspielen 2016 in Rio de Janeiro, Brasilien, Donnerstag, gewonnen haben				
+Die					1	Die		
+Amerikanerinnen	SBJ	def-np.the	OLD		2	Amerikanerinnen		
+Simone	other_2	ne	OLD		3	Simone	set_42	
+Biles					4	Biles		
+,					5	,		
+links					6	links		
+,					7	,		
+und					8	und		
+Aly	other_2	ne	OLD		9	Aly	set_30	
+Raisman					10	Raisman		
+umarmen					11	umarmen		
+sich	OBJ				12	sich		
+,					37	,		
 nachdem								
 sie	SBJ_2	pron	OLD					
 jeweils								
@@ -390,9 +390,9 @@ Silber	other_3	indef-np.bare
 in								
 dem								
 Einzelmehrkampffinale	other_3	def-np.the	OLD					
-der					12	der		
-Frauen	other_4	def-np.the	OLD		2	Amerikanerinnen		
-in					25	.		
+der								
+Frauen	other_4	def-np.the	OLD					
+in								
 dem								
 Kunstturnen	other_5	def-np.the	OLD					
 bei								
@@ -400,46 +400,47 @@ den
 Olympischen								
 Sommerspielen	other_6	ne	OLD					
 2016								
-in					3	Simone	set_42	
+in								
 Rio	other_7	ne	OLD					
 de								
 Janeiro								
-,					37	,		
-Brasilien	other_8	ne	OLD		4	Biles		
-*gewonnen*					40	gewonnen		
-,					48	,		
-Donnerstag	other_8	ne	OLD		49-50	am		
-,					51	,		
-gewonnen								
-haben								
-Biles	other_2	pron.pind						
-holte								
-die								
-erste								
-Medaille	OBJ_2	def-np.the	OLD					
-an								
-dem								
-Dienstag	other_3	ne	OLD					
-,					52	,		
-während								
-sie	SBJ_3	pron	OLD					
-auf								
-der								
-Abschiedsfeier	other_3	def-np.the	OLD					
-der	other_5	pron	OLD					
-sich	OBJ_5							
-in								
-Ruhestand	other_6	ne	OLD					
-begehenden								
-Mannschaftskoordinatorin	other_4	def-np.the	OLD					
-Martha	other_5	ne	OLD					
-Karolyi								
-als					53	Aly	set_30	
-Ausrufezeichen	other_3	indef-np.bare						
-diente								
-.							
+,								
+Brasilien	other_8	ne	OLD					
+,								
+Donnerstag	other_8	ne	OLD					
+,								
+gewonnen					40	gewonnen		
+haben							
 	
-# text = Obwohl Biles darauf bestand, während ihres langen Wegs auf die Spitze, nie die Zukunft geplant zu haben, ist das nicht wirklich wahr.				
+# text = Biles holte die erste Medaille am Dienstag, während sie auf der Abschiedsfeier der sich in Ruhestand begehenden Mannschaftskoordinatorin Martha Karolyi als Ausrufezeichen diente.				
+Biles	SBJ	pron.pind			1	Biles	set_42	
+holte					2	holte		
+die					3	die		
+erste					4	erste		
+Medaille	OBJ	def-np.the	OLD		5	Medaille		
+an					6	an		
+dem								
+Dienstag	other_2	ne	OLD		7	Dienstag		
+,					8	,		
+während					10	während		
+sie	SBJ_2	pron	OLD		10	sie	set_42	
+auf					11	auf		
+der					12	der		
+Abschiedsfeier	other_2	def-np.the	OLD		13	Abschiedsfeier		
+der	SBJ_2	pron	OLD		14	der		
+sich	OBJ_2				15	sich		
+in								
+Ruhestand	other_4	ne	OLD		17	Ruhestand		
+begehenden								
+Mannschaftskoordinatorin	other_2	indef-np.bare			19	Mannschaftskoordinatorin		
+Martha	other_3	ne	OLD					
+Karolyi								
+als					22	als		
+Ausrufezeichen	other_2	indef-np.bare			23	Ausrufezeichen		
+diente					24	diente		
+.				25	.	
+		
+# text = Obwohl Biles darauf bestand, während ihres langen Wegs auf die Spitze, nie die Zukunft geplant zu haben, ist das nicht wirklich wahr.	
 Obwohl					1	Obwohl		
 Biles	SBJ_2	pron.pind			2	Biles	set_42	
 darauf	other_2	pron.padv	OLD		3	darauf		

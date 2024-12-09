@@ -1,25 +1,27 @@
-# text = Russlands Putin feuert Stabschef Sergei Ivanov Der russische Präsident Vladimir Putin hat unerwarteterweise seinen Stabschef Sergei Ivanov entlassen.				
-Russlands	other_4	ne	OLD					
-Putin								
-feuert								
-Stabschef	SBJ_2	indef-np.bare						
-Sergei	other_3	ne	OLD					
-Ivanov					12	Ivanov		
-Der								
-russische								
-Präsident	SBJ	def-np.the	OLD					
-Vladimir	other_2	ne	OLD					
-Putin								
-hat								
-unerwarteterweise								
-seinen								
-Stabschef	OBJ_2	indef-np						
-Sergei	other_3	ne	OLD					
-Ivanov								
-entlassen								
-.							
-	
-# text = Ivanov war viele Jahre Teil des engsten Vertrauenskreises von Putin.				
+# text = Russlands Putin feuert Stabschef Sergei Ivanov				
+Russlands	other_2	ne	OLD		1	Russlands	set_41	
+Putin					2	Putin		
+feuert					3	feuert		
+Stabschef	other	indef-np.bare			4	Stabschef		
+Sergei	other	ne	OLD		5	Sergei		
+Ivanov				6	Ivanov	
+		
+# text = Der russische Präsident Vladimir Putin hat unerwarteterweise seinen Stabschef Sergei Ivanov entlassen.	
+Der					1	Der		
+russische					2	russische		
+Präsident	SBJ	def-np.the	OLD		3	Präsident	set_41	
+Vladimir	other_2	ne	OLD		4	Vladimir		
+Putin					5	Putin		
+hat					6	hat		
+unerwarteterweise					7	unerwarteterweise		
+seinen					8	seinen	set_41	
+Stabschef	SBJ_2	indef-np			9	Stabschef	set_38	
+Sergei	other_3	ne	OLD		10	Sergei		
+Ivanov					11	Ivanov		
+entlassen					12	entlassen		
+.				13	.	
+		
+# text = Ivanov war viele Jahre Teil des engsten Vertrauenskreises von Putin.	
 Ivanov	SBJ	ne	OLD		1	Ivanov	set_38	
 war					2	war		
 viele					3	viele		
@@ -501,50 +503,50 @@ und					6	und
 Verteidigungsminister	other	indef-np.bare			7	Verteidigungsminister		
 .				8	.	
 		
-# text = Er ist Mitglied des russischen Sicherheitsrates und wie Putin ehemaliges Mitglied des Staatssicherheitsdienstes KGB. In den späten 1990er Jahren, als Putin Vorsitzender des Bundessicherheitsdienstes (FSB) war, der den KGB ersetzte, wurde Ivanov zu seinem Stellvertreter ernannt.	
+# text = Er ist Mitglied des russischen Sicherheitsrates und wie Putin ehemaliges Mitglied des Staatssicherheitsdienstes KGB.	
 Er	SBJ	pron.pper	OLD		1	Er	set_38	
-ist								
-Mitglied	other	indef-np.bare						
+ist					2	ist		
+Mitglied	other	indef-np.bare			3	Mitglied		
+des					4	des		
+russischen					5	russischen		
+Sicherheitsrates	other	def-np.the	OLD		6	Sicherheitsrates		
+und					7	und		
+wie					8	wie		
+Putin					9	Putin	set_41	
+ehemaliges					10	ehemaliges		
+Mitglied	other	indef-np.bare			11	Mitglied		
+des					12	des		
+Staatssicherheitsdienstes	other_2	def-np.the	OLD		13	Staatssicherheitsdienstes		
+KGB	other_3	ne	OLD		14	KGB		
+.				15	.	
+		
+# text = In den späten 1990er Jahren, als Putin Vorsitzender des Bundessicherheitsdienstes (FSB) war, der den KGB ersetzte, wurde Ivanov zu seinem Stellvertreter ernannt.	
+In					1	In		
+den					2	den		
+späten					3	späten		
+1990er					4	1990er		
+Jahren	other_2	def-np.the	OLD		5	Jahren		
+,					6	,		
+als					7	als		
+Putin	other_2	indef-np.bare			8	Putin	set_41	
+Vorsitzender	other	indef-np.bare			9	Vorsitzender		
 des					10	des		
-russischen								
-Sicherheitsrates	other	def-np.the	OLD					
-und								
-wie								
-Putin								
-ehemaliges								
-Mitglied	other	indef-np.bare						
-des								
-Staatssicherheitsdienstes	other_2	def-np.the	OLD		11	Bundessicherheitsdienstes	set_23	
-KGB	other_3	ne	OLD		12	(		
-*FSB*					13	FSB		
-*)*					14	)		
-.					15	.		
-In								
-den					17	den		
-späten					18	Mitglied		
-1990er					19	1990er		
-Jahren	other_4	def-np.the	OLD		20	Jahren		
-,					21	,		
-als					22	als		
-Putin	other_4	indef-np.bare			23	Putin		
-Vorsitzender	SBJ_3	indef-np.bare						
-des								
-Bundessicherheitsdienstes	other_4	def-np.the	OLD					
-(								
-FSB	other_5	ne	OLD					
-)								
-war								
-,								
-der	SBJ_3							
-den					24	Putin	set_41	
-KGB	OBJ_3	ne	OLD					
+Bundessicherheitsdienstes	other_2	def-np.the	OLD		11	Bundessicherheitsdienstes	set_23	
+(					12	(		
+FSB	other_2	ne	OLD		13	FSB	set_23	
+)					14	)		
+war					15	war		
+,					16	,		
+der	SBJ_3				17	der	set_23	
+den					18	den		
+KGB	OBJ_3	ne	OLD		19	KGB		
 ersetzte					20	ersetzte		
-,								
-wurde								
-Ivanov	SBJ_2	ne	OLD					
-zu								
-seinem								
-Stellvertreter	other_2	indef-np						
+,					21	,		
+wurde					22	wurde		
+Ivanov	SBJ	ne	OLD		23	Ivanov		
+zu					24	zu		
+seinem					25	seinem	set_41	
+Stellvertreter	other	indef-np			26	Stellvertreter		
 ernannt					27	ernannt		
 .				28	.	
 		

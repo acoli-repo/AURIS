@@ -1,4 +1,4 @@
-# text = 28-jähriger Koch in San Francisco Mall tot aufgefunden Ein 28-jähriger Koch, der vor kurzem nach San Francisco gezogen ist, wurde im Treppenhaus eines örtlichen Einkaufzentrums tot aufgefunden.				
+# text = 28-jähriger Koch in San Francisco Mall tot aufgefunden				
 28-								
 jähriger								
 Koch	SBJ	ne	OLD					
@@ -7,11 +7,13 @@ San	other_2	ne	OLD
 Francisco								
 Mall								
 tot								
-aufgefunden					18	aufgefunden		
+aufgefunden				8	aufgefunden	
+		
+# text = Ein 28-jähriger Koch, der vor kurzem nach San Francisco gezogen ist, wurde im Treppenhaus eines örtlichen Einkaufzentrums tot aufgefunden.	
 Ein								
-28-								
+28-					16	28-		
 jähriger								
-Koch	OBJ	ne	OLD					
+Koch	SBJ	ne	OLD					
 ,								
 der	SBJ_3	pron	OLD					
 vor								
@@ -25,12 +27,12 @@ ist
 wurde								
 in								
 dem								
-Treppenhaus	other_2	def-np.the	OLD					
-eines								
-örtlichen								
-Einkaufzentrums	other_3	indef-np.a						
+Treppenhaus	other	def-np.the	OLD					
+eines					17	eines		
+örtlichen					18	örtlichen		
+Einkaufzentrums	other_2	indef-np.a			19	Einkaufzentrums		
 tot								
-aufgefunden								
+aufgefunden					21	aufgefunden		
 .							
 	
 --				

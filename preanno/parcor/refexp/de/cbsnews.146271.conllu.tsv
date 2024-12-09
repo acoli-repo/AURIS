@@ -1,4 +1,4 @@
-# text = Mutter eines 6-Jährigen mit Mikrozephalie: \"Es wird besser\" Wie die meisten 6-Jährigen liebt Edmund Picciuto das Singen, Spielzeuge und natürlich seine Mutter.				
+# text = Mutter eines 6-Jährigen mit Mikrozephalie: "Es wird besser"				
 Mutter	SBJ	indef-np.bare						
 eines								
 6								
@@ -10,24 +10,26 @@ Mikrozephalie	other	indef-np.bare
 &quot;								
 Es								
 wird								
-besser								
-&quot;								
-Wie								
-die								
-meisten								
-6								
--Jährigen	SBJ_2	def-np.quant	OLD					
-liebt								
-Edmund	SBJ_2	ne	OLD					
+besser					10	besser		
+&quot;							
+	
+# text = Wie die meisten 6-Jährigen liebt Edmund Picciuto das Singen, Spielzeuge und natürlich seine Mutter.				
+Wie					1	Wie		
+die					2	die		
+meisten					3	meisten		
+6					4	6		
+-Jährigen	other	def-np.quant	OLD					
+liebt					5	liebt		
+Edmund	SBJ	ne	OLD					
 Picciuto								
 das								
-Singen	OBJ_2	def-np.the	OLD					
-,					10	,		
-Spielzeuge	other_3	indef-np.bare						
+Singen	OBJ	def-np.the	OLD					
+,								
+Spielzeuge	other_2	indef-np.bare						
 und								
 natürlich								
 seine								
-Mutter	other_3	indef-np						
+Mutter	other_2	indef-np						
 .							
 	
 # text = Aber wie die wenigsten seiner Altergenossen hat Edmund Mikrozephalie, das Ergebnis einer genetischen Störung, über die seine Mutter Elizabeth Picciuto während ihrer Schwangerschaft nichts wusste.				

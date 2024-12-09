@@ -1,19 +1,21 @@
-# text = Queensferry Crossing: Brücke nun mit Fife verbunden Das £ 1,35 Mrd.				
-Queensferry					1	Das		
-Crossing					10	Crossing		
-:					11	1,35		
-Brücke	other	ne	OLD		12	Brücke		
+# text = Queensferry Crossing: Brücke nun mit Fife verbunden				
+Queensferry					1	Queensferry		
+Crossing					2	Crossing		
+:					3	:		
+Brücke	other	ne	OLD		4	Brücke		
 nun					5	nun		
 mit					6	mit		
 Fife	other_2	indef-np.bare			7	Fife		
-verbunden					8	verbunden		
-Das								
-£	SBJ_4	def-np.the	OLD					
-1,35								
-Mrd	other_3	pron.pper	OLD					
-.				13	.	
+verbunden				8	verbunden	
 		
-# text = teure Projekt soll bis Mai 2017 fertiggestellt werden Ingenieure haben das Norddeck des Queensferry Crossings mit dem Viadukt verbunden - was bedeutet, dass die Brücke jetzt mit Fife verbunden ist.	
+# text = Das £ 1,35 Mrd.	
+Das					1	Das		
+£	SBJ	def-np.the	OLD		2	£		
+1,35					3	1,35		
+Mrd	other	pron.pper	OLD		4	Mrd		
+.				5	.	
+		
+# text = teure Projekt soll bis Mai 2017 fertiggestellt werden	
 teure								
 Projekt	SBJ	indef-np						
 soll								
@@ -21,33 +23,35 @@ bis
 Mai	other	ne	OLD					
 2017								
 fertiggestellt					11	fertiggestellt		
-werden								
-Ingenieure	SBJ_2	indef-np.bare						
-haben								
-das								
-Norddeck	SBJ_2	def-np.poss	OLD					
-des								
-Queensferry	other_3	ne	OLD					
-Crossings								
-mit								
-dem								
-Viadukt	other_2	def-np.the	OLD					
-verbunden								
-_								
-was	SBJ_3	pron	OLD					
-bedeutet								
-,								
-dass								
-die								
-Brücke	SBJ_4	def-np.the	OLD					
-jetzt								
-mit								
-Fife	other_4	indef-np.bare						
-verbunden								
-ist								
-.							
+werden							
 	
---				
+# text = Ingenieure haben das Norddeck des Queensferry Crossings mit dem Viadukt verbunden - was bedeutet, dass die Brücke jetzt mit Fife verbunden ist.				
+Ingenieure	SBJ	indef-np.bare			1	Ingenieure		
+haben					2	haben		
+das					3	das		
+Norddeck	SBJ	def-np.poss	OLD		4	Norddeck		
+des					5	des		
+Queensferry	other_2	ne	OLD		6	Queensferry		
+Crossings					7	Crossings		
+mit					8	mit		
+dem					9	dem		
+Viadukt	other	def-np.the	OLD		10	Viadukt		
+verbunden					11	verbunden	set_0	
+_					12			
+was	SBJ_2	pron	OLD		13	was	set_0	
+bedeutet					14	bedeutet		
+,					15	,		
+dass					16	dass		
+die					17	die		
+Brücke	SBJ_3	def-np.the	OLD		18	Brücke		
+jetzt					19	jetzt		
+mit					20	mit		
+Fife	other_3	indef-np.bare			21	Fife		
+verbunden					22	verbunden		
+ist					23	ist		
+.				24	.	
+		
+--	
 # text = Es ist das erste von vier Verschließungen der "Deckgebläse", die sich der Fertigstellung um jeden der drei Türme der Brücke nähern.				
 Es	SBJ	pron.pper	OLD		1	Es		
 ist					2	ist		

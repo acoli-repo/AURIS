@@ -1,30 +1,32 @@
-# text = Pokémon Go, eine Jagd nach Gesundheit und Glück, die sich lohnt Es ist faszinierend zuzusehen, wie sich die Welt verändert.				
-Pokémon	SBJ	ne	OLD					
-Go								
-,								
-eine					17	eine		
-Jagd	other_2	indef-np.a						
-nach								
-Gesundheit	other_3	indef-np.bare						
-und								
-Glück	other_4	indef-np.bare						
-,								
-die	SBJ_4							
-sich	OBJ_4							
-lohnt								
-Es	SBJ_4	pron.pper	OLD					
-ist								
-faszinierend								
-zuzusehen								
-,								
-wie								
-sich	OBJ_2							
-die								
-Welt	SBJ_2	def-np.the	OLD					
-verändert								
-.							
-	
-# text = Dass Teenager und Kind zum Spielen nicht mehr nach draußen gehen, sondern es vielmehr bevorzugen, ihre Freizeit damit zu verbringen, auf Bildschirme zu starren, wurde im letzten Jahrzehnt von vielen beklagt.				
+# text = Pokémon Go, eine Jagd nach Gesundheit und Glück, die sich lohnt				
+Pokémon	other	ne	OLD		1	Pokémon	set_30	
+Go					2	Go		
+,					3	,		
+eine					4	eine		
+Jagd	other	indef-np.a			5	Jagd		
+nach					6	nach		
+Gesundheit	other_2	indef-np.bare			7	Gesundheit		
+und					8	und		
+Glück	other_3	indef-np.bare			9	Glück		
+,					10	,		
+die	SBJ_3				11	die		
+sich	OBJ_3				12	sich		
+lohnt				13	lohnt	
+		
+# text = Es ist faszinierend zuzusehen, wie sich die Welt verändert.	
+Es	SBJ	pron.pper	OLD		1	Es		
+ist					2	ist		
+faszinierend					3	faszinierend		
+zuzusehen					4	zuzusehen		
+,					5	,		
+wie					6	wie		
+sich	OBJ_2				7	sich		
+die					8	die		
+Welt	SBJ_2	def-np.the	OLD		9	Welt		
+verändert					10	verändert		
+.				11	.	
+		
+# text = Dass Teenager und Kind zum Spielen nicht mehr nach draußen gehen, sondern es vielmehr bevorzugen, ihre Freizeit damit zu verbringen, auf Bildschirme zu starren, wurde im letzten Jahrzehnt von vielen beklagt.	
 Dass								
 Teenager	SBJ_2	indef-np.bare						
 und								
@@ -430,7 +432,7 @@ Leistungssteigerung	other_3	def-np.the	OLD		18	Leistungssteigerung
 .				19	.	
 		
 --	
-*stießen*					35	stießen		
+*''*					24	''		
 # text = Viele öffentliche Aufklärungskampagnen zur Gesundheit, die Leute dazu bringen wollen "sich 30 Minuten Zeit zu nehmen," "vom Sofa zu kommen" und "jeden Tag aktiv zu sein" stießen auf taube Ohren, weil viele öffentliche Botschaften zur Gesundheit langweilig sind und von Leuten kommen, die elend aussehen.	1	Dennoch		
 *kann*					2	kann		
 Viele	other_3	pron	OLD		3	die		
@@ -586,55 +588,18 @@ elend					12	über
 aussehen					15	müssen		
 .				16	.	
 		
-# text = Dennoch kann die Bedeutung von Sport nicht überbewertet werden.	
-Dennoch					1	Und		
-*ja*					2	ja		
-*,*					3	,		
-*jemand*					4	jemand		
-kann					5	könnte		
-*gegen*					6	gegen		
-*eine*					7	eine		
-*Tür*					8	Tür		
-*laufen*					9	laufen		
-*.*					10	.	
-**						
-*Was*					1	Was		
-*soll's*					2	soll's		
-*_*					3		
-**						
-*Es*					1	Es		
-*hat*					2	hat		
-*sich*					3	sich		
-*ein*					4	ein		
-*Durchbruch*					5	Durchbruch		
-*ereignet*					6	ereignet		
-*.*					7	.	
-**						
-*gaben*					13	gaben		
-*Das*					1	Das		
-*Neue*					2	Neue		
-*wird*					3	wird		
-*seinen*					4	seinen		
-*Reiz*					5	Reiz		
-*verlieren*					6	verlieren		
-*und*					7	und		
-die					8	die		
-Bedeutung	SBJ	def-np.the	OLD		9	Verwendung		
-*wird*					10	wird		
-*mit*					11	mit		
-*der*					12	der		
-*Zeit*					13	Zeit		
-*nachlassen*					14	nachlassen		
-*.*					15	.	
-**						
-*Aufgrund*					1	Aufgrund		
-von					2	von		
+# text = Dennoch kann die Bedeutung von Sport nicht überbewertet werden.				
+Dennoch								
+kann								
+die								
+Bedeutung	SBJ	def-np.the	OLD					
+von								
 Sport	other_2	indef-np.bare						
 nicht								
 überbewertet								
 werden								
 .							
-
+	
 # text = Wer regelmäßig Sport treibt, reduziert seine Chancen, an Krebs oder Depressionen zu erkranken.				
 Wer	SBJ	pron.pint						
 regelmäßig								
@@ -762,32 +727,32 @@ müssen
 .							
 
 # text = Und ja, jemand könnte gegen eine Tür laufen.				
-Und								
-ja								
-,								
-jemand	SBJ	pron.pind						
-könnte								
-gegen								
-eine								
-Tür	other	indef-np.a						
-laufen								
-.							
-
-# text = Was soll's?				
-Was	SBJ	pron	OLD					
-soll's								
-?							
-
-# text = Es hat sich ein Durchbruch ereignet.				
-Es	SBJ	pron.pper	OLD					
-hat								
-sich	OBJ							
-ein								
-Durchbruch	SBJ	indef-np.a						
-ereignet								
-.							
-
-# text = Auch wenn Smartphone-Apps wie Fitbit bereits früher unsere Aktivität nachverfolgen konnten, gaben sie uns keinen Grund, Sport zu treiben, wie es dieses Spiel tut.				
+Und					1	Und		
+ja					2	ja		
+,					3	,		
+jemand	SBJ	pron.pind			4	jemand		
+könnte					5	könnte		
+gegen					6	gegen		
+eine					7	eine		
+Tür	other	indef-np.a			8	Tür		
+laufen					9	laufen		
+.				10	.	
+		
+# text = Was soll's?	
+Was	SBJ	pron	OLD		1	Was		
+soll's					2	soll's		
+?				3		
+		
+# text = Es hat sich ein Durchbruch ereignet.	
+Es	SBJ	pron.pper	OLD		1	Es		
+hat					2	hat		
+sich	OBJ				3	sich		
+ein					4	ein		
+Durchbruch	SBJ	indef-np.a			5	Durchbruch		
+ereignet					6	ereignet		
+.				7	.	
+		
+# text = Auch wenn Smartphone-Apps wie Fitbit bereits früher unsere Aktivität nachverfolgen konnten, gaben sie uns keinen Grund, Sport zu treiben, wie es dieses Spiel tut.	
 Auch								
 wenn								
 Smartphone	SBJ_2	ne	OLD					
@@ -802,7 +767,7 @@ Aktivität	OBJ_2	indef-np.bare
 nachverfolgen								
 konnten								
 ,								
-gaben								
+gaben					13	gaben		
 sie	SBJ	pron	OLD					
 uns	OBJ	pron	OLD					
 keinen	other_2	pron	OLD					
@@ -818,27 +783,27 @@ dieses	other_4	pron.pds	OLD
 Spiel	OBJ_3	def-np.dem	OLD					
 tut								
 .							
-
+	
 # text = Das Neue wird seinen Reiz verlieren und die Verwendung wird mit der Zeit nachlassen.				
-Das								
-Neue	SBJ	ne	OLD					
-wird								
-seinen								
-Reiz	OBJ	indef-np						
-verlieren								
-und								
-die								
-Verwendung	SBJ_2	def-np.the	OLD					
-wird								
-mit								
-der								
-Zeit	other_2	def-np.the	OLD					
-nachlassen								
-.							
-
-# text = Aufgrund von Pokemons Erfolg wird es jedoch mehr Spiele geben, die Apps und virtuelle Realität mit dem Aktivwerden in der realen Welt vereinen werden und dabei vielen Leuten auf der Jagd helfen werden, aktiver, fitter und gesünder zu sein.				
-Aufgrund								
-von								
+Das					1	Das		
+Neue	SBJ	ne	OLD		2	Neue		
+wird					3	wird		
+seinen					4	seinen		
+Reiz	OBJ	indef-np			5	Reiz		
+verlieren					6	verlieren		
+und					7	und		
+die					8	die		
+Verwendung	SBJ_2	def-np.the	OLD		9	Verwendung		
+wird					10	wird		
+mit					11	mit		
+der					12	der		
+Zeit	other_2	def-np.the	OLD		13	Zeit		
+nachlassen					14	nachlassen		
+.				15	.	
+		
+# text = Aufgrund von Pokemons Erfolg wird es jedoch mehr Spiele geben, die Apps und virtuelle Realität mit dem Aktivwerden in der realen Welt vereinen werden und dabei vielen Leuten auf der Jagd helfen werden, aktiver, fitter und gesünder zu sein.	
+Aufgrund					1	Aufgrund		
+von					2	von		
 Pokemons	other	ne	OLD		3	Pokemons		
 Erfolg					4	Erfolg		
 wird					5	wird		

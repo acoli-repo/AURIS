@@ -1,34 +1,33 @@
-# text = Flucht: "Jede geflüchtete Frau hat Erfahrungen mit sexueller Gewalt" Sexuelle Gewalt gehört für Frauen, die alleine fliehen, fast schon zum Alltag.				
+# text = Flucht: "Jede geflüchtete Frau hat Erfahrungen mit sexueller Gewalt"				
 Flucht	other	indef-np.bare			1	Flucht		
-*,*					10	,		
-*Gewalt*					11	Gewalt		
-*''*					12	''		
-:					14	:		
-&quot;					15	''		
-Jede	other_3	pron.pind			16	Jede		
-geflüchtete								
-Frau	SBJ_2	indef-np.bare						
-hat								
-Erfahrungen	OBJ_2	indef-np.bare						
-mit								
-sexueller								
-Gewalt	other_4	indef-np.bare						
-&quot;								
-Sexuelle	SBJ_4	indef-np.bare						
-Gewalt	SBJ_4	indef-np.bare						
-gehört								
-für								
-Frauen	other_4	indef-np.bare			17	Frauen	set_2	
-,					18	,		
-die	SBJ_6				19	die	set_2	
-alleine					20	Erfahrungen		
-fliehen					21	fliehen		
-,								
-fast								
-schon								
-zu	other_5	pron.pind						
-dem								
-Alltag	other_4	def-np.the	OLD		14	Alltag		
+:					2	:		
+&quot;					3	''		
+Jede	other_3	pron.pind			4	Jede		
+geflüchtete					5	geflüchtete		
+Frau	SBJ_2	indef-np.bare			6	Frau		
+hat					7	hat		
+Erfahrungen	OBJ_2	indef-np.bare			8	Erfahrungen		
+mit					9	mit		
+sexueller					10	sexueller		
+Gewalt	other_3	indef-np.bare			11	Gewalt		
+&quot;				12	''	
+		
+# text = Sexuelle Gewalt gehört für Frauen, die alleine fliehen, fast schon zum Alltag.	
+Sexuelle					1	Sexuelle		
+Gewalt	SBJ	indef-np.bare			2	Gewalt		
+gehört					3	gehört		
+für					4	für		
+Frauen	other	indef-np.bare			5	Frauen	set_2	
+,					6	,		
+die	SBJ_3				7	die	set_2	
+alleine					8	alleine		
+fliehen					9	fliehen		
+,					10	,		
+fast					11	fast		
+schon					12	schon		
+zu	other_2	pron.pind						
+dem					13	dem		
+Alltag	other	def-np.the	OLD		14	Alltag		
 .				15	.	
 		
 # text = Wenn sie in Deutschland ankommen, sind sie oft traumatisiert.	
@@ -520,28 +519,7 @@ Frauen	other_3	def-np.the	OLD		2	Frauen	set_37
 *so*					5	so		
 *gewohnt*					6	gewohnt		
 ,					7	,		
-*dass*					8	dass		
-*sie*					9	sie	set_37	
-*nichts*					10	nichts		
-*sagen*					11	sagen		
-*.*					12	.	
-**						
-*''*					1	''		
-*Oder*					2	Oder		
-*sie*					3	sie	set_37	
-*trauen*					4	trauen		
-*sich*					5	sich		
-*nicht*					6	nicht		
-*,*					7	,		
-*offen*					8	offen		
-*über*					9	über		
-*das*					10	das		
-*Erlebte*					11	Erlebte		
-*zu*					12	zu		
-*sprechen*					13	sprechen		
-*,*					14	,		
-*weil*					15	weil		
-die	SBJ_4				16	die		
+die	SBJ_4							
 in								
 der								
 Unterkunft	other_4	def-np.the	OLD					
@@ -580,30 +558,30 @@ es
 so								
 gewohnt								
 ,								
-dass								
-sie	SBJ_2	pron	OLD					
-nichts	OBJ_2	pron	OLD					
-sagen								
-.							
-
---				
-# text = "Oder sie trauen sich nicht, offen über das Erlebte zu sprechen, weil die Scham zu groß ist".				
+dass					8	dass		
+sie	SBJ_2	pron	OLD		9	sie	set_37	
+nichts	OBJ_2	pron	OLD		10	nichts		
+sagen					11	sagen		
+.				12	.	
+		
+--	
+# text = "Oder sie trauen sich nicht, offen über das Erlebte zu sprechen, weil die Scham zu groß ist".	1	''		
 &quot;								
-Oder								
-sie	SBJ	pron	OLD					
-trauen								
-sich	OBJ							
-nicht								
-,								
-offen								
-über								
-das								
-Erlebte	other_2	def-np.the	OLD					
-zu								
-sprechen								
-,								
-weil								
-die								
+Oder					2	Oder		
+sie	SBJ	pron	OLD		3	sie	set_37	
+trauen					4	trauen		
+sich	OBJ				5	sich		
+nicht					6	nicht		
+,					7	,		
+offen					8	offen		
+über					9	über		
+das					10	das		
+Erlebte	other_2	def-np.the	OLD		11	Erlebte		
+zu					12	zu		
+sprechen					13	sprechen		
+,					14	,		
+weil					15	weil		
+die					16	die		
 Scham	SBJ_2	def-np.the	OLD		17	Scham		
 zu					18	zu		
 groß					19	groß		

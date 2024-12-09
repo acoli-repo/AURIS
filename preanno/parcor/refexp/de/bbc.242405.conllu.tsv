@@ -1,31 +1,32 @@
-*Die*					1	Die	set_12	
-# text = Royal Bank of Scotland für Kunden außerhalb Schottlands nicht mehr verfügbar Die Marke RBS soll laut dem Vorstandschef der Bank nurmehr auf eine Backoffice-Rolle reduziert werden.	10	mehr		
-Royal	SBJ	ne	OLD		11	auf		
-Bank					13	Bank		
-of					14	RBS		
-Scotland					15	Scotland		
-für					16	für		
-Kunden	other_2	def-np.poss	OLD		17	Kunden		
-außerhalb								
-Schottlands	other_3	ne	OLD					
-nicht								
-mehr								
-verfügbar								
+# text = Royal Bank of Scotland für Kunden außerhalb Schottlands nicht mehr verfügbar				
+Royal	SBJ	ne	OLD		1	Royal	set_12	
+Bank					2	Bank		
+of					3	of		
+Scotland					4	Scotland		
+für					5	für		
+Kunden	other_2	def-np.poss	OLD		6	Kunden		
+außerhalb					7	außerhalb		
+Schottlands	other_3	ne	OLD		8	Schottlands		
+nicht					9	nicht		
+mehr					10	mehr		
+verfügbar				11	verfügbar	
+		
+# text = Die Marke RBS soll laut dem Vorstandschef der Bank nurmehr auf eine Backoffice-Rolle reduziert werden.	
 Die								
-Marke	SBJ_2	def-np.the	OLD					
-RBS	other_3	ne	OLD					
+Marke	SBJ	def-np.the	OLD					
+RBS	other_2	ne	OLD					
 soll								
 laut								
 dem								
-Vorstandschef	other_2	def-np.the	OLD		18	Vorstandschef		
-der					19	Schottlands		
-Bank	other_3	def-np.the	OLD		20	Bank		
+Vorstandschef	other	def-np.the	OLD					
+der								
+Bank	other_2	def-np.the	OLD					
 nurmehr								
 auf								
 eine								
 Backoffice								
 _								
-Rolle	other_2	indef-np.a						
+Rolle	other	indef-np.a						
 reduziert					14	reduziert		
 werden								
 .							

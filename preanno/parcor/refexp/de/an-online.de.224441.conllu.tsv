@@ -1,20 +1,19 @@
-# text = Golfer Langer erhält die Sportpyramide Seine Erfahrungen auf dem Pferd sind überschaubar.				
-Golfer	SBJ	ne	OLD					
-Langer								
-erhält								
-die								
-Sportpyramide	OBJ	def-np.the	OLD					
+# text = Golfer Langer erhält die Sportpyramide				
+Golfer	SBJ	ne	OLD		1	Golfer	set_18	
+Langer					2	Langer		
+erhält					3	erhält		
+die					4	die		
+Sportpyramide	OBJ	def-np.the	OLD	5	Sportpyramide	
+		
+# text = Seine Erfahrungen auf dem Pferd sind überschaubar.	1	Am	set_18	
 Seine								
-Erfahrungen	OBJ	indef-np						
-auf					1	Am	set_18	
-dem								
-Pferd	other_2	def-np.the	OLD		10	Pferd		
-sind								
-überschaubar					12	überschaubar		
-.				13	.		
-*Erfahrungen*					2	Erfahrungen		
-*auf*					3	auf		
-*dem*					4	dem		
+Erfahrungen	SBJ	indef-np			2	Erfahrungen		
+auf					3	auf		
+dem					4	dem		
+Pferd	other_2	def-np.the	OLD		5	Pferd		
+sind					6	sind		
+überschaubar					7	überschaubar		
+.				8	.		
 	
 # text = Am Ende eines Golfturniers in Südafrika suchte Bernhard Langer mit einigen Kollegen ein bisschen Abwechslung mit einem Ausritt am Strand.				
 An					1	An		
@@ -54,41 +53,43 @@ Premiere	other	indef-np.a			7	Premiere
 .							
 	
 --				
-# text = CHIO: \"Goldene Sportpyramide\" für Bernhard Langer Nach einigen Minuten erinnerten sich die Pferde an ihren Feierabend, sie jagten im schnellen Galopp nach Hause zu den Futtertrögen.				
-CHIO	SBJ	ne	OLD					
-:								
-&quot;								
-Goldene					13	Goldene		
-Sportpyramide	other_2	ne	OLD					
-&quot;								
-für								
-Bernhard	other_3	ne	OLD					
-Langer								
-Nach								
-einigen	other_5	pron.pind						
-Minuten	other_4	indef-np.quant						
-erinnerten								
-sich	OBJ							
-die								
-Pferde	SBJ	def-np.the	OLD					
-an								
-ihren								
-Feierabend	other	indef-np						
-,								
-sie	SBJ_2	pron	OLD					
-jagten								
+# text = CHIO: "Goldene Sportpyramide" für Bernhard Langer				
+CHIO	other	ne	OLD		1	CHIO		
+:					2	:		
+&quot;					3	''		
+Goldene					4	Goldene		
+Sportpyramide	other	ne	OLD		5	Sportpyramide		
+&quot;					6	''		
+für					7	für		
+Bernhard	other_2	ne	OLD		8	Bernhard	set_18	
+Langer				9	Langer	
+		
+# text = Nach einigen Minuten erinnerten sich die Pferde an ihren Feierabend, sie jagten im schnellen Galopp nach Hause zu den Futtertrögen.	
+Nach					1	Nach		
+einigen	other_2	pron.pind			2	einigen		
+Minuten	other	indef-np.quant			3	Minuten		
+erinnerten					4	erinnerten		
+sich	OBJ				5	sich		
+die					6	die		
+Pferde	SBJ	def-np.the	OLD		7	Pferde	set_2	
+an					8	an		
+ihren					9	ihren	set_2	
+Feierabend	other	indef-np			10	Feierabend		
+,					11	,		
+sie	SBJ_2	pron	OLD		12	sie	set_2	
+jagten					13	jagten		
 in								
-dem								
-schnellen								
-Galopp	other_2	def-np.the	OLD					
-nach								
-Hause	other_3	indef-np.bare						
-zu	other_5	pron.pind						
-den								
-Futtertrögen	other_4	def-np.the	OLD					
-.							
-	
-# text = Ein Kilometer bei diesem Tempo, ich habe Angst gehabt.				
+dem					14	dem		
+schnellen					15	schnellen		
+Galopp	other_2	def-np.the	OLD		16	Galopp		
+nach					17	nach		
+Hause	other_3	indef-np.bare			18	Hause		
+zu	other_5	pron.pind			19	zu		
+den					20	den		
+Futtertrögen	other_4	def-np.the	OLD		21	Futtertrögen		
+.				22	.	
+		
+# text = Ein Kilometer bei diesem Tempo, ich habe Angst gehabt.	
 Ein					1	Ein		
 Kilometer	other	indef-np.a			2	Kilometer		
 bei					3	bei		
@@ -230,32 +231,34 @@ Sportler	OBJ	def-np.the	OLD		7	Sportler
 nicht					8	nicht		
 .				9	.	
 		
-# text = Bundesverdienstkreuz, Silbernes Lorbeerblatt, Champions-Tour-Player of the year... Selbst die britische Queen hat ihn schon geadelt.	
-Bundesverdienstkreuz	SBJ_2	ne	OLD					
-,								
-Silbernes	other_3	ne	OLD					
-Lorbeerblatt								
-,								
-Champions	other_3	ne	OLD					
+# text = Bundesverdienstkreuz, Silbernes Lorbeerblatt, Champions-Tour-Player of the year...	
+Bundesverdienstkreuz	other	ne	OLD		1	Bundesverdienstkreuz		
+,					2	,		
+Silbernes	other	ne	OLD		3	Silbernes		
+Lorbeerblatt					4	Lorbeerblatt		
+,					5	,		
+Champions	other	ne	OLD		6	Champions		
 _								
 Tour								
 _								
 Player					10	Player		
-of								
-the								
-year								
-...								
-Selbst								
-die								
-britische								
-Queen	SBJ	def-np.the	OLD					
-hat								
-ihn	OBJ	pron.pper	OLD					
-schon								
-geadelt					12	geadelt		
-.							
-	
-# text = Langer ist der 18.				
+of					11	of		
+the					12	the		
+year					13	year		
+...				10	...	
+		
+# text = Selbst die britische Queen hat ihn schon geadelt.	
+Selbst					1	Selbst		
+die					2	die		
+britische					3	britische		
+Queen	SBJ	def-np.the	OLD		4	Queen		
+hat					5	hat		
+ihn	OBJ	pron.pper	OLD		6	ihn	set_18	
+schon					7	schon		
+geadelt					8	geadelt		
+.				9	.	
+		
+# text = Langer ist der 18.	
 Langer	SBJ	indef-np.bare			1	Langer	set_18	
 ist					2	ist		
 der					3	der		

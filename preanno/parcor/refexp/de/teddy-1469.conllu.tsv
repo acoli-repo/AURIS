@@ -77,28 +77,30 @@ grenzüberschreitende
 Probleme	OBJ	indef-np.quant						
 .							
 	
-# text = Wir leben im 21. Jahrhundert, in einer Welt mit gegenseitigen Abhängigkeiten und brutalen wechselseitigen Problemen.				
+# text = Wir leben im 21.				
 Wir	SBJ	pron	OLD		1	Wir		
 leben					2	leben		
 in								
 dem					3	dem		
 21					4	21		
-.								
-Jahrhundert	other	def-np.quant	OLD		6	Jahrhundert		
-,					7	,		
-in					8	in		
-einer					10	einer		
-Welt	other_2	indef-np.a			10	Welt		
-mit					11	mit		
-gegenseitigen					12	gegenseitigen		
-Abhängigkeiten	other_3	indef-np.bare			13	Abhängigkeiten		
-und					14	und		
-brutalen					15	brutalen		
-wechselseitigen					16	wechselseitigen		
-Problemen	other_4	indef-np.bare			17	Problemen		
-.				18	.	
+.				5	.	
 		
-# text = Wenn wir in der Politik und der Demokratie nach Lösungen suchen, werden wir mit politischen Institutionen konfrontiert, die vor 400 Jahren entworfen wurden: Autonome, souveräne Nationalstaaten mit Rechtssprechung und Staatsgebieten, die sie voneinander trennen.	
+# text = Jahrhundert, in einer Welt mit gegenseitigen Abhängigkeiten und brutalen wechselseitigen Problemen.	
+Jahrhundert	other	indef-np.bare			1	Jahrhundert		
+,								
+in								
+einer								
+Welt	other	indef-np.a						
+mit								
+gegenseitigen								
+Abhängigkeiten	other_2	indef-np.bare						
+und								
+brutalen								
+wechselseitigen								
+Problemen	other_3	indef-np.bare						
+.							
+	
+# text = Wenn wir in der Politik und der Demokratie nach Lösungen suchen, werden wir mit politischen Institutionen konfrontiert, die vor 400 Jahren entworfen wurden: Autonome, souveräne Nationalstaaten mit Rechtssprechung und Staatsgebieten, die sie voneinander trennen.				
 Wenn								
 wir	SBJ_2	pron	OLD					
 in								
@@ -154,28 +156,30 @@ zu
 können								
 .							
 	
-# text = Eine Welt des 21. Jahrhunderts, mit transnationalen Problemen und Herausforderungen, und politische Institutionen des 17.				
+# text = Eine Welt des 21.				
 Eine					1	Eine		
 Welt	other	indef-np.a			2	Welt	set_8	
 des					3	des		
 21					4	21		
-.					5	.		
-Jahrhunderts	other	def-np.quant	OLD		6	Jahrhunderts		
-,					7	,		
-mit					8	mit		
-transnationalen					9	transnationalen		
-Problemen	other_2	indef-np.bare			10	Problemen		
-und					11	und		
-Herausforderungen	other_3	indef-np.bare			12	Herausforderungen		
-,					13	,		
-und					14	und		
-politische					15	politische		
-Institutionen	other_3	indef-np.quant			16	Institutionen		
-des					17	des		
-17					18	17		
-.				19	.	
+.				5	.	
 		
-# text = Jahrhunderts.	
+# text = Jahrhunderts, mit transnationalen Problemen und Herausforderungen, und politische Institutionen des 17.	
+Jahrhunderts	other	indef-np.bare						
+,								
+mit								
+transnationalen								
+Problemen	other	indef-np.bare			10	Problemen	set_8	
+und								
+Herausforderungen	other	indef-np.bare						
+,								
+und								
+politische								
+Institutionen	other	indef-np.quant						
+des								
+17								
+.							
+	
+# text = Jahrhunderts.				
 Jahrhunderts	other	indef-np.bare			1	Jahrhunderts	set_8	
 .							
 	
@@ -208,13 +212,15 @@ tun					14	tun
 können					15	können		
 .				16	.	
 		
-# text = Die Herausforderungen des 21. Jahrhunderts und die veralteten und zunehmend funktionsunfähigen politischen Institutionen wie die Nationalstaaten.	
+# text = Die Herausforderungen des 21.	
 Die								
-Herausforderungen	other	def-np.the	OLD		18	Herausforderungen		
+Herausforderungen	other	def-np.quant	OLD		18	Herausforderungen		
 des								
 21								
-.								
-Jahrhunderts	other	def-np.quant	OLD					
+.							
+	
+# text = Jahrhunderts und die veralteten und zunehmend funktionsunfähigen politischen Institutionen wie die Nationalstaaten.				
+Jahrhunderts	other	indef-np.bare						
 und								
 die								
 veralteten								
@@ -222,10 +228,10 @@ und
 zunehmend								
 funktionsunfähigen								
 politischen								
-Institutionen	other_2	def-np.the	OLD					
+Institutionen	other	def-np.the	OLD		30	Institutionen		
 wie								
 die								
-Nationalstaaten	other_3	def-np.the	OLD					
+Nationalstaaten	other	def-np.the	OLD					
 .							
 	
 # text = Ich schlage vor, dass wir das Thema wechseln, dass wir nicht mehr über Nationen reden, über Staaten mit Grenzen, sondern über Städte.				
@@ -497,40 +503,26 @@ heiraten					20	heiraten
 beten					22	beten		
 ,								
 spielen					24	spielen		
-*und*					28	und		
-*letztendlich*					29	letztendlich		
-*sterben*					30	sterben		
-*.*					31	.	
-**						
-*Sie*					1	Sie	set_15	
-*sind*					2	sind		
-*Heimat*					3	Heimat		
-*.*					4	.	
-**						
-*Ganz*					1	Ganz		
-*anders*					2	anders		
-*als*					3	als		
-*Nationalstaaten*					4	Nationalstaaten		
-,					5	,		
+,								
 alt								
 werden								
-und								
-letztendlich								
-sterben								
-.							
-
-# text = Sie sind Heimat.				
-Sie	SBJ	pron.pper	OLD					
-sind								
-Heimat	other	indef-np.bare						
-.							
-
-# text = Ganz anders als Nationalstaaten, welche abstrakte Gebilde sind.				
-Ganz								
-anders								
-als								
-Nationalstaaten	other	indef-np.bare						
-,								
+und					28	und		
+letztendlich					29	letztendlich		
+sterben					30	sterben		
+.				31	.	
+		
+# text = Sie sind Heimat.	
+Sie	SBJ	pron.pper	OLD		1	Sie	set_15	
+sind					2	sind		
+Heimat	other	indef-np.bare			3	Heimat		
+.				4	.	
+		
+# text = Ganz anders als Nationalstaaten, welche abstrakte Gebilde sind.	
+Ganz					1	Ganz		
+anders					2	anders		
+als					3	als		
+Nationalstaaten	other	indef-np.bare			4	Nationalstaaten		
+,					5	,		
 welche	other_3	pron	OLD		6	welche		
 abstrakte					7	abstrakte		
 Gebilde	other_2	indef-np.bare			8	Gebilde		
@@ -997,11 +989,11 @@ Warum
 Bürgermeister	SBJ	indef-np.bare						
 so								
 anders					23	anders		
-sind					18	befinden		
-als					1	Um		
-Premierminister	other	indef-np.bare			2	Premierminister		
-und					3	oder		
-Präsidenten	other_2	indef-np.bare			4	Präsident		
+*befinden*					18	befinden		
+*Um*					1	Um		
+*Premierminister*					2	Premierminister		
+*oder*					3	oder		
+*Präsident*					4	Präsident		
 *zu*					5	zu		
 *sein*					6	sein		
 *,*					7	,		
@@ -1015,26 +1007,25 @@ Präsidenten	other_2	indef-np.bare			4	Präsident
 *Meta*					16	Meta		
 *braucht*					18	braucht		
 *braucht*					29	braucht		
-.				32	.	
-		
-# text = Mein Ausgangspunkt ist, dass Bürgermeister und Premierminister sich am jeweils anderen Ende eines politischen Spektrums befinden.	3	gewählt		
-Mein					1	Bei		
-Ausgangspunkt	SBJ	indef-np			2	Bürgermeistern		
-ist					3	ist		
+*.*					32	.	
+**						
+*gewählt*					3	gewählt		
+*Bei*					1	Bei		
+*Bürgermeistern*					2	Bürgermeistern		
+*ist*					3	ist		
 *es*					4	es		
 *genau*					5	genau		
 *umgekehrt*					6	umgekehrt		
 *.*					7	.	
 **						
 *Bürgermeister*					1	Bürgermeister	set_104	
-*sind*					2	sind		
+sind					2	sind		
 *Pragmatiker*					3	Pragmatiker		
 *;*					4	;	
 **						
 *Problemlöser*					3	Problemlöser		
-,					1	,		
-dass					
-Bürgermeister	SBJ	indef-np.bare			1	Bürgermeister		
+*,*					1	,		
+*Bürgermeister*					1	Bürgermeister		
 *Nutter*					2	Nutter		
 *aus*					3	aus		
 *Philadelphia*					4	Philadelphia		
@@ -1084,7 +1075,7 @@ Bürgermeister	SBJ	indef-np.bare			1	Bürgermeister
 *sind*					12	sind		
 *alles*					13	alles		
 *andere*					14	andere		
-*als*					15	als		
+als					15	als		
 *pragmatisch*					16	pragmatisch		
 *.*					17	.	
 **						
@@ -1111,13 +1102,38 @@ Bürgermeister	SBJ	indef-np.bare			1	Bürgermeister
 *,*					12	,		
 *der*					13	der		
 *großartige*					14	großartige		
-*Bürgermeister*					15	Bürgermeister		
+Premierminister	other	indef-np.bare			15	Bürgermeister		
 *von*					16	von		
 *Jerusalem*					17	Jerusalem		
 *in*					18	in		
 *den*					19	den		
 *80ern*					20	80ern		
 und					21	und		
+*90ern*					22	90ern		
+*,*					23	,		
+*an*					24	an		
+*einem*					25	einem		
+*Tag*					26	Tag		
+*in*					27	in		
+*seinem*					28	seinem	set_34	
+*Büro*					29	Büro		
+*von*					30	von		
+Präsidenten	other_2	indef-np.bare			31	religiösen		
+*Anführern*					32	Anführern		
+*jeglicher*					33	jeglicher		
+*Art*					34	Art		
+*belagert*					35	belagert		
+*wurde*					36	wurde		
+.				37	.	
+		
+# text = Mein Ausgangspunkt ist, dass Bürgermeister und Premierminister sich am jeweils anderen Ende eines politischen Spektrums befinden.				
+Mein								
+Ausgangspunkt	SBJ	indef-np						
+ist								
+,								
+dass								
+Bürgermeister	SBJ	indef-np.bare						
+und								
 Premierminister	other_2	indef-np.bare						
 sich								
 an								
@@ -1130,7 +1146,7 @@ politischen
 Spektrums	other_2	indef-np.a						
 befinden								
 .							
-
+	
 # text = Um Premierminister oder Präsident zu sein, braucht man eine Ideologie, braucht man eine Meta-Erzählung, braucht man eine Theorie darüber, wie Dinge funktionieren und man braucht eine Partei.				
 Um								
 Premierminister	SBJ_3	indef-np.bare						
@@ -1377,24 +1393,24 @@ in
 den								
 80ern	other_3	def-np.the	OLD					
 und								
-90ern					22	90ern		
-,					23	,		
-an					24	an		
-einem					25	einem		
-Tag	other_3	indef-np.a			26	Tag		
-in					27	in		
-seinem					28	seinem	set_34	
-Büro	other_2	indef-np			29	Büro		
-von					30	von		
-religiösen					31	religiösen		
-Anführern	other_3	indef-np.bare			32	Anführern		
-jeglicher					33	jeglicher		
-Art					34	Art		
-belagert					35	belagert		
-wurde					36	wurde		
-.				37	.	
-		
-# text = Christliche Prälaten, Rabbis und Imame.	
+90ern								
+,								
+an								
+einem								
+Tag	other_3	indef-np.a						
+in								
+seinem								
+Büro	other_2	indef-np						
+von								
+religiösen								
+Anführern	other_3	indef-np.bare						
+jeglicher								
+Art								
+belagert								
+wurde								
+.							
+
+# text = Christliche Prälaten, Rabbis und Imame.				
 Christliche								
 Prälaten	other	indef-np.bare			2	Prälaten	set_35	
 ,								
@@ -1525,18 +1541,66 @@ fährt					2	fährt
 mit					3	mit		
 dem					4	dem		
 Fahrrad	other	def-np.the	OLD		5	Fahrrad		
-zu	other_2	pron.pind			10	.		
-der					
-*,*					1	,		
-*.*					1	.		
-*.*					1	.		
-*,*					1	,		
-*,*					1	,		
-Arbeit	other	def-np.the	OLD		1	Bürgermeister	set_107	
+zu	other_2	pron.pind						
+der					6	der		
+Arbeit	other	def-np.the	OLD		7	Arbeit		
+und					8	und		
+ist					10	ist		
+trotzdem					10	trotzdem		
+in					11	in		
+mancher					12	mancher		
+Hinsicht	other_2	indef-np.quant			13	Hinsicht		
+ein					14	ein		
+Konservativer	other	indef-np.a			15	Konservativer		
+.				16	.	
+		
+# text = Bloomberg in New York war ein Demokrat, dann Republikaner und letztendlich wurde er unabhängig.	
+Bloomberg	SBJ	ne	OLD		1	Bloomberg	set_40	
+in					2	in		
+New	other_2	ne	OLD		3	New		
+York					4	York		
+war					5	war		
+ein					6	ein		
+Demokrat	other	indef-np.a			7	Demokrat		
+,					8	,		
+dann					9	dann		
+Republikaner	other	ne	OLD		10	Republikaner		
+und					11	und		
+letztendlich					12	letztendlich		
+wurde					13	wurde		
+er	SBJ_2	pron.pper	OLD		14	er	set_40	
+unabhängig					15	unabhängig		
+.				16	.	
+		
+# text = Er sagte: Das Partei-Etikett ist hinderlich.	
+Er	SBJ	pron.pper	OLD					
+sagte					18	sagte		
+:								
+Das								
+Partei	SBJ_2	ne	OLD					
+_								
+Etikett								
+ist								
+hinderlich								
+.							
+	
+# text = Luschkov war 20 Jahre Bürgermeister von Moskau.				
+Luschkov	SBJ	ne	OLD		1	Luschkov	set_42	
+war					2	war		
+20					3	20		
+Jahre	other	indef-np.quant			4	Jahre		
+Bürgermeister	other	indef-np.bare			5	Bürgermeister		
+von					6	von		
+Moskau	other	ne	OLD		7	Moskau		
+.				8	.	
+		
+*ließ*					12	ließ		
+*verlor*					2	verlor		
+# text = Obwohl er dabei half, die Partei Putins zu gründen, ließ er sich nicht durch die Partei definieren.	1	Bürgermeister	set_107	
 *sind*					2	sind		
 *also*					3	also		
 *Pragmatiker*					4	Pragmatiker		
-und					5	und		
+*und*					5	und		
 *Problemlöser*					6	Problemlöser		
 *.*					7	.	
 **						
@@ -1550,16 +1614,16 @@ und					5	und
 *:*					2	:		
 *Ein*					3	Ein		
 *Bürgermeister*					4	Bürgermeister		
-ist					5	ist		
-trotzdem					6			
-in					7	und		
+*ist*					5	ist		
+*_*					6			
+*und*					7	und		
 *deshalb*					8	deshalb		
-mancher					9	nenne		
-Hinsicht	other_2	indef-np.quant			10	ich		
+*nenne*					9	nenne		
+*ich*					10	ich		
 *sie*					11	sie	set_107	
-ein					12	gerne		
+*gerne*					12	gerne		
 *''*					13	''		
-Konservativer	other	indef-np.a			14	Homeboys		
+Obwohl					14	Homeboys		
 *''*					15	''		
 *,*					16	,		
 *oder*					17	oder		
@@ -1569,17 +1633,17 @@ Konservativer	other	indef-np.a			14	Homeboys
 *''*					21	''		
 *Homies*					22	Homies		
 *''*					23	''		
-.				24	.	
-		
-# text = Bloomberg in New York war ein Demokrat, dann Republikaner und letztendlich wurde er unabhängig.	1	Sie	set_107	
-Bloomberg	SBJ	ne	OLD		2	kommen		
+*.*					24	.	
+**						
+*Sie*					1	Sie	set_107	
+*kommen*					2	kommen		
 *aus*					3	aus		
 *der*					4	der		
 *Nachbarschaft*					5	Nachbarschaft		
 *.*					6	.	
 **						
 *Sie*					1	Sie	set_107	
-in					2	sind		
+*sind*					2	sind		
 *Nachbarschaft*					3	Nachbarschaft		
 *,*					4	,		
 *man*					5	man		
@@ -1592,20 +1656,20 @@ in					2	sind
 *lief*					3	lief		
 *manchmal*					4	manchmal		
 *durch*					5	durch		
-New	other_2	ne	OLD		6	New		
-York					7	York		
+*New*					6	New		
+*York*					7	York		
 *City*					8	City		
 *und*					9	und		
-war					10	fragte		
+*fragte*					10	fragte		
 *:*					11	:		
 *„*					12	„		
-ein					13	Wie		
+*Wie*					13	Wie		
 *mache*					14	mache		
 *ich*					15	ich		
 *mich*					16	mich		
 *_*					17			
 *“*					18	“	
-Demokrat	other	indef-np.a				
+**						
 *Stellen*					1	Stellen		
 *Sie*					2	Sie		
 *sich*					3	sich		
@@ -1613,19 +1677,19 @@ Demokrat	other	indef-np.a
 *David*					5	David	set_48	
 *Cameron*					6	Cameron		
 *vor*					7	vor		
-,					8	,		
+*,*					8	,		
 *wie*					9	wie		
-*er*					10	er	set_48	
+er	SBJ_2	pron.pper	OLD		10	er	set_48	
 *durch*					11	durch		
-dann					12	das		
+dabei					12	das		
 *Vereinigte*					13	Vereinigte		
-*Königreich*					14	Königreich		
-Republikaner	other	ne	OLD		15	spaziert		
-und					16	und		
-letztendlich					17	fragt		
+half					14	Königreich		
+*spaziert*					15	spaziert		
+*und*					16	und		
+*fragt*					17	fragt		
 *:*					18	:		
 *„*					19	„		
-wurde					20	Wie		
+*Wie*					20	Wie		
 *mache*					21	mache		
 *ich*					22	ich		
 *mich*					23	mich		
@@ -1641,71 +1705,67 @@ wurde					20	Wie
 *Koch*					1	Koch	set_52	
 *konnte*					2	konnte		
 *das*					3	das		
-*,*					4	,		
+,					4	,		
 *weil*					5	weil		
-er	SBJ_2	pron.pper	OLD		6	er	set_52	
-*die*					7	die		
+*er*					6	er	set_52	
+die					7	die		
 *New*					8	New	set_51	
 *Yorker*					9	Yorker		
-unabhängig					10	kannte		
+*kannte*					10	kannte		
 *,*					11	,		
 *und*					12	und		
 *sie*					13	sie	set_51	
-*kannten*					14	kannten		
+Partei	OBJ_3	def-np.the	OLD		14	kannten		
 *ihn*					15	ihn	set_52	
-.				16	.	
-		
+*.*					16	.	
+**						
 *Normalerweise*					1	Normalerweise		
 *kommen*					2	kommen		
-# text = Er sagte: Das Partei-Etikett ist hinderlich.	3	Bürgermeister	set_108	
+Putins	other_4	ne	OLD		3	Bürgermeister	set_108	
 *aus*					4	aus		
-Er	SBJ	pron.pper	OLD		5	der		
+*der*					5	der		
 *Gegend*					6	Gegend	set_53	
 *,*					7	,		
 *die*					8	die	set_53	
-sagte					9	sie	set_108	
+*sie*					9	sie	set_108	
 *regieren*					10	regieren		
-:					11	.	
-Das						
-Partei	SBJ_2	ne	OLD		
-_					1	Es		
-Etikett								
-ist					2	ist		
+*.*					11	.	
+**						
+*Es*					1	Es		
+*ist*					2	ist		
 *schwierig*					3	schwierig		
 *,*					4	,		
 *als*					5	als		
-hinderlich					6	dahergereister		
+*dahergereister*					6	dahergereister		
 *Politiker*					7	Politiker		
 *Bürgermeister*					8	Bürgermeister		
-*zu*					9	zu		
-*werden*					10	werden	set_55	
-.				11	.	
-		
-# text = Luschkov war 20 Jahre Bürgermeister von Moskau.	
-Luschkov	SBJ	ne	OLD					
-war					1	Man		
+zu					9	zu		
+gründen					10	werden	set_55	
+*.*					11	.	
+**						
+*Man*					1	Man		
 *kann*					2	kann		
 *in*					3	in		
 *einem*					4	einem		
 *anderen*					5	anderen		
 *Bundesstaat*					6	Bundesstaat		
-20					7	als		
-Jahre	other	indef-np.quant			8	Senator		
+*als*					7	als		
+*Senator*					8	Senator		
 *kandidieren*					9	kandidieren		
-*,*					10	,		
+,					10	,		
 *doch*					11	doch		
 *für*					12	für		
-Bürgermeister	other	indef-np.bare			13	Bürgermeister		
-von					14	ist		
-Moskau	other	ne	OLD		15	das	set_55	
+*Bürgermeister*					13	Bürgermeister		
+*ist*					14	ist		
+*das*					15	das	set_55	
 *schwierig*					16	schwierig		
-.				17	.	
-		
+*.*					17	.	
+**						
 *Aus*					1	Aus		
 *diesem*					2	diesem		
 *Grund*					3	Grund		
 *genießen*					4	genießen		
-# text = Obwohl er dabei half, die Partei Putins zu gründen, ließ er sich nicht durch die Partei definieren.	5	Bürgermeister		
+*Bürgermeister*					5	Bürgermeister		
 *,*					6	,		
 *Stadträte*					7	Stadträte		
 *und*					8	und		
@@ -1722,8 +1782,8 @@ Moskau	other	ne	OLD		15	das	set_55
 *den*					2	den		
 *USA*					3	USA		
 *kennen*					4	kennen		
-Obwohl					5	wir		
-*die*					6	die		
+*wir*					5	wir		
+ließ					6	die		
 *erbärmlichen*					7	erbärmlichen		
 *Zahlen*					8	Zahlen		
 *:*					9	:		
@@ -1736,10 +1796,9 @@ Obwohl					5	wir
 *Kongress*					16	Kongress		
 *und*					17	und		
 *was*					18	was		
-er	SBJ_2	pron.pper	OLD		19	er		
-dabei					20	tut		
-half								
-,					21	,		
+er	SBJ	pron.pper	OLD		19	er		
+*tut*					20	tut		
+*,*					21	,		
 *gut*					22	gut		
 *.*					23	.	
 **						
@@ -1752,23 +1811,21 @@ half
 *wie*					7	wie		
 *Obama*					8	Obama		
 *ist*					9	ist		
-die					10	die		
-Partei	OBJ_3	def-np.the	OLD		11	Wahlbeteiligung		
-Putins	other_4	ne	OLD		12	40		
-zu								
-gründen								
-,					13	,		
+*die*					10	die		
+*Wahlbeteiligung*					11	Wahlbeteiligung		
+*40*					12	40		
+*,*					13	,		
 *45*					14	45		
 *,*					15	,		
 *höchstens*					16	höchstens		
 *50*					17	50		
-ließ					18	Prozent		
+*Prozent*					18	Prozent		
 *.*					19	.	
 **						
-er	SBJ	pron.pper	OLD		1	Dem		
+*Dem*					1	Dem		
 *Obersten*					2	Obersten		
-*Gerichtshof*					3	Gerichtshof		
-sich	OBJ				4	wird		
+sich	OBJ				3	Gerichtshof		
+*wird*					4	wird		
 nicht					5	nicht		
 *mehr*					6	mehr		
 *so*					7	so		
@@ -1813,15 +1870,14 @@ Letztendlich					22	sind
 verlor					
 er	SBJ	pron.pper	OLD		29	arbeiten		
 seinen					13	steigen	set_62	
-Job	OBJ	indef-np			
-nicht					1	Kein		
-unter					2	Staatschef	set_64	
-Breschnew	other	ne	OLD		3	dürfte		
+*Kein*					1	Kein		
+*Staatschef*					2	Staatschef	set_64	
+*dürfte*					3	dürfte		
 *das*					4	das	set_62	
-,					5	,		
+*,*					5	,		
 *wegen*					6	wegen		
 *der*					7	der		
-*Sicherheitsbestimmungen*					8	Sicherheitsbestimmungen		
+Job	OBJ	indef-np			8	Sicherheitsbestimmungen		
 *oder*					9	oder		
 *sie*					10	sie	set_64	
 *kommen*					11	kommen		
@@ -1833,8 +1889,8 @@ nicht					13	nicht
 *Lage*					17	Lage		
 *.*					18	.	
 **						
-*Dieser*					1	Dieser		
-unter					2	Unterschied		
+unter					1	Dieser		
+Breschnew	other	ne	OLD		2	Unterschied		
 *entspringt*					3	entspringt		
 *direkt*					4	direkt		
 *aus*					5	aus		
@@ -1843,28 +1899,27 @@ unter					2	Unterschied
 *der*					8	der		
 *Städte*					9	Städte		
 *selbst*					10	selbst		
-Gorbatschow	other	ne	OLD		11	.	
+*.*					11	.	
 **						
 *multikulturell*					15	multikulturell		
 ,					11	,		
-*Zusammenarbeit*					14	Zusammenarbeit		
-sondern					1	Wenn		
+nicht					14	Zusammenarbeit		
+*Wenn*					1	Wenn		
 *Staaten*					2	Staaten		
 unter					3	aufeinander		
-Putin	other	indef-np.bare			4	treffen		
+Gorbatschow	other	ne	OLD		4	treffen		
 ,					5	,		
-*wie*					6	wie		
+sondern					6	wie		
 *China*					7	China	set_65	
-*und*					8	und		
-der	SBJ_3				9	die		
+unter					8	und		
+Putin	other	indef-np.bare			9	die		
 *USA*					10	USA		
-*,*					11	,		
-*dann*					12	dann		
+,					11	,		
+der	SBJ_3				12	dann		
 einen					13	handeln		
-treueren								
-Parteianhänger	OBJ_3	indef-np.a			14	sie	set_65	
-wollte					15	etwa		
-*so*					16	so		
+treueren					14	sie	set_65	
+Parteianhänger	OBJ_3	indef-np.a			15	etwa		
+wollte					16	so		
 .				17	.	
 		
 *Wenn*					1	Wenn		

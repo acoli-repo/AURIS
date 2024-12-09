@@ -4000,52 +4000,54 @@ Müll	other_3	ne	OLD
 bietet								
 .							
 	
-# text = BG: Ja. Nun, was mit dem Müll passiert: Man kann ihn sitzen lassen -- es gibt viel weniger Müll mit dieser Methode -- dann nehmen Sie ihn und packen ihn in den nächsten Reaktor und verbrennen es weiter.				
-BG	other_4	ne	OLD					
-:								
-Ja	other_5	ne	OLD		1	Ja		
-.								
-Nun	other_2	ne	OLD					
-,								
-was	SBJ_4	pron	OLD					
-mit								
-dem								
-Müll	other_4	ne	OLD					
-passiert								
-:								
-Man	SBJ	pron.pind						
-kann								
-ihn	OBJ	pron.pper	OLD					
-sitzen								
-lassen					13	lassen		
-_								
-es	SBJ_2	pron.pper	OLD					
-gibt								
-viel								
-weniger								
-Müll	OBJ_2	ne	OLD					
-mit								
-dieser	other_4	pron.pds	OLD					
-Methode	other_3	def-np.dem	OLD					
-_								
-dann								
-nehmen								
-Sie	SBJ_2	pron.pper	OLD					
-ihn	OBJ_2	pron.pper	OLD					
-und								
-packen								
-ihn	OBJ_3	pron.pper	OLD					
-in								
-den								
-nächsten								
-Reaktor	other_2	def-np.the	OLD					
-und								
-verbrennen								
-es	OBJ_2	pron.pper	OLD					
-weiter								
+# text = BG: Ja.				
+BG	other	ne	OLD					
+:					1	:		
+Ja	other	ne	OLD					
 .							
 	
-# text = Und wir beginnen, indem wir den Müll nehmen, der bereits existiert, der in diesen Kühlbecken oder Trockenbehältern bei den Reaktoren liegt.				
+# text = Nun, was mit dem Müll passiert: Man kann ihn sitzen lassen -- es gibt viel weniger Müll mit dieser Methode -- dann nehmen Sie ihn und packen ihn in den nächsten Reaktor und verbrennen es weiter.				
+Nun					1	Nun		
+,					2	,		
+was	SBJ_3	pron	OLD		3	was		
+mit					4	mit		
+dem					5	dem		
+Müll	other_3	ne	OLD		6	Müll	set_98	
+passiert					7	passiert		
+:					8	:		
+Man	SBJ	pron.pind			9	Man		
+kann					10	kann		
+ihn	OBJ	pron.pper	OLD		11	ihn	set_98	
+sitzen					12	sitzen		
+lassen					13	lassen		
+_					14			
+es	SBJ_2	pron.pper	OLD		15	es		
+gibt					16	gibt		
+viel					17	viel		
+weniger					18	weniger		
+Müll	OBJ_2	ne	OLD		19	Müll	set_99	
+mit					20	mit		
+dieser	other_4	pron.pds	OLD		21	dieser		
+Methode	other_3	def-np.dem	OLD		22	Methode	set_195	
+_					23			
+dann					24	dann		
+nehmen					25	nehmen		
+Sie	SBJ_3	pron.pper	OLD		26	Sie		
+ihn	OBJ_3	pron.pper	OLD		27	ihn	set_99	
+und					28	und		
+packen					29	packen		
+ihn	OBJ_5	pron.pper	OLD		30	ihn	set_99	
+in					31	in		
+den					32	den		
+nächsten					33	nächsten		
+Reaktor	other_4	def-np.the	OLD		34	Reaktor		
+und					35	und		
+verbrennen					36	verbrennen		
+es	OBJ_4	pron.pper	OLD		37	es	set_99	
+weiter					38	weiter		
+.				39	.	
+		
+# text = Und wir beginnen, indem wir den Müll nehmen, der bereits existiert, der in diesen Kühlbecken oder Trockenbehältern bei den Reaktoren liegt.	
 Und					1	Und		
 wir	SBJ	pron	OLD		2	wir		
 beginnen					3	beginnen		

@@ -98,22 +98,22 @@ keinen	other_2	pron	OLD		6	keinen
 Sinn	OBJ	def-np.the	OLD		7	Sinn		
 .				8	.	
 		
-# text = Wir wissen seit dem 16. Jahrhundert, wie man Malaria heilt.	
+# text = Wir wissen seit dem 16.	
 Wir	SBJ	pron	OLD		1	Wir		
-wissen								
-seit								
-dem								
-16								
-.								
-Jahrhundert	other	def-np.quant	OLD					
+wissen					2	wissen		
+seit					3	seit		
+dem					4	dem		
+16					5	16		
+.				6	.	
+		
+# text = Jahrhundert, wie man Malaria heilt.	
+Jahrhundert	other	indef-np.bare						
 ,								
 wie								
-man	SBJ_2	pron.pind			10	man		
-Malaria	OBJ_2	ne	OLD		11	Malaria	set_138	
-heilt					12	dem		
-.				13	.		
-*.*					6	.		
-*Jahrhundert*					7	Jahrhundert		
+man	SBJ	pron.pind						
+Malaria	OBJ	ne	OLD					
+heilt					4	heilt		
+.							
 	
 # text = Damals entdeckten die jesuitischen Missionare in Peru die Chinarinde und in dieser Rinde war Chinin enthalten, was bis heute ein wirksames Heilmittel für Malaria ist.				
 Damals								

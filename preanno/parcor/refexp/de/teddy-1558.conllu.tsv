@@ -2052,19 +2052,18 @@ nicht					4	nicht
 *Data*					8	Data		
 .				9	.	
 		
-# text = Im Grunde passiert Folgendes, und Genomik ist bloß ein Beispiel davon: Technologie ist der Antrieb für das natürliche Wachstum der Tätigkeit über die uns vertrauten Institutionsgrenzen hinaus, und vor allem über die institutionellen Grenzen hinaus, in der Geschäftsstrategie als Disziplin formuliert ist.	1	Z.		
-*B.*					2	B.		
-In					3	in		
-*der*					4	der		
-dem					5	Telekommunikation		
-*können*					6	können	
-Grunde	other	def-np.the	OLD			
-passiert					13	erklären		
-Folgendes	other	indef-np.bare			1	Oder		
-*in*					2	in		
+*Z.*					1	Z.	
+**						
+*können*					5	können	
+**						
+# text = Im Grunde passiert Folgendes, und Genomik ist bloß ein Beispiel davon: Technologie ist der Antrieb für das natürliche Wachstum der Tätigkeit über die uns vertrauten Institutionsgrenzen hinaus, und vor allem über die institutionellen Grenzen hinaus, in der Geschäftsstrategie als Disziplin formuliert ist.	13	erklären		
+*Oder*					1	Oder		
+In					2	in		
 *der*					3	der		
-*Pharmaindustrie*					4	Pharmaindustrie		
-*oder*					5	oder		
+dem					4	Pharmaindustrie		
+Grunde	other	def-np.the	OLD		5	oder		
+passiert								
+Folgendes	other	indef-np.bare						
 ,					6	,		
 *eigentlich*					7	eigentlich		
 *auch*					8	auch		
@@ -2308,9 +2307,11 @@ Big
 Data	other	ne	OLD					
 .							
 
-# text = Z. B. in der Telekommunikation können				
-Z.								
-B.	other_2	indef-np.bare						
+# text = Z.				
+Z.							
+
+# text = B. in der Telekommunikation können				
+B.								
 in								
 der								
 Telekommunikation	other	def-np.the	OLD					
@@ -2497,28 +2498,30 @@ Strategie	OBJ_4	def-np.the	OLD		38	Strategie
 voraussetzt					39	voraussetzt		
 .				40	.	
 		
-# text = Es bedeutet z. B., dass wir ausarbeiten müssen, wie man Zusammenarbeit und Konkurrenz gleichzeitig unterbringt.	
+# text = Es bedeutet z.	
 Es	SBJ	pron.pper	OLD		1	Es	set_78	
 bedeutet					2	bedeutet		
 z					3	z		
-.					4	.		
-B.					4	B.		
+.				4	.	
+		
+# text = B., dass wir ausarbeiten müssen, wie man Zusammenarbeit und Konkurrenz gleichzeitig unterbringt.	
+B.								
 ,								
 dass								
-wir	SBJ_3	pron	OLD					
-ausarbeiten					8	ausarbeiten		
+wir	SBJ	pron	OLD					
+ausarbeiten					5	ausarbeiten		
 müssen								
-,					10	,		
-wie					11	wie		
-man	SBJ_3	pron.pind			12	man		
-Zusammenarbeit	OBJ_3	indef-np.bare			13	Zusammenarbeit		
-und					14	und		
-Konkurrenz	other_4	indef-np.bare			15	Konkurrenz		
-gleichzeitig					16	gleichzeitig		
-unterbringt					17	unterbringt		
-.				18	.	
-		
-# text = Denken Sie an das Genom.	
+,								
+wie								
+man	SBJ_2	pron.pind						
+Zusammenarbeit	OBJ_2	indef-np.bare						
+und								
+Konkurrenz	other_3	indef-np.bare						
+gleichzeitig								
+unterbringt								
+.							
+	
+# text = Denken Sie an das Genom.				
 Denken					1	Denken		
 Sie	SBJ	pron.pper	OLD		2	Sie		
 an					3	an		

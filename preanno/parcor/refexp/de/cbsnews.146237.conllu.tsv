@@ -1,38 +1,40 @@
-# text = Polizei: 3 Opfer in Serienmörderfall beim Musikhören im Auto erschossen Laut Polizeiberichten, die am Donnerstag veröffentlicht wurden, wurden zwei Frauen und ein 12-Jahre altes Mädchen erschossen, die in einem der tödlichsten Angriffe seit einem Jahrzehnt im ersten Serienmörderfall von Phoenix umgekommen sind, während sie sich im Auto unterhielten und Musik hörten.				
-Polizei	other	indef-np.bare						
+# text = Polizei: 3 Opfer in Serienmörderfall beim Musikhören im Auto erschossen				
+Polizei	SBJ	indef-np.bare						
 :								
 3								
-Opfer	SBJ	indef-np.quant						
+Opfer	OBJ	indef-np.quant						
 in								
 Serienmörderfall	other_2	indef-np.bare						
 bei								
 dem								
-Musikhören	other_2	def-np.the	OLD					
+Musikhören	other_3	def-np.the	OLD					
 in								
 dem								
-Auto	other_3	def-np.the	OLD					
-erschossen					18	erschossen		
+Auto	other_4	def-np.the	OLD					
+erschossen				11	erschossen	
+		
+# text = Laut Polizeiberichten, die am Donnerstag veröffentlicht wurden, wurden zwei Frauen und ein 12-Jahre altes Mädchen erschossen, die in einem der tödlichsten Angriffe seit einem Jahrzehnt im ersten Serienmörderfall von Phoenix umgekommen sind, während sie sich im Auto unterhielten und Musik hörten.	
 Laut								
-Polizeiberichten	other_2	indef-np.bare						
+Polizeiberichten	other	indef-np.bare						
 ,								
-die	SBJ_4							
+die	SBJ_3							
 an								
 dem								
-Donnerstag	other_4	ne	OLD					
+Donnerstag	other_3	ne	OLD					
 veröffentlicht								
 wurden								
 ,								
 wurden								
 zwei								
-Frauen	OBJ	indef-np.quant						
+Frauen	SBJ	indef-np.quant						
 und								
 ein								
-12								
+12					16	12		
 _								
 Jahre	other_4	indef-np.quant						
 altes								
 Mädchen	other_2	indef-np.a						
-erschossen								
+erschossen					18	erschossen		
 ,								
 die	SBJ_2							
 in								

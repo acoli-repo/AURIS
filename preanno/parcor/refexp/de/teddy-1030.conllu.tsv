@@ -998,13 +998,13 @@ litten					18	litten
 ?					19			
 &quot;				20	''	
 		
-# text = Und hier ist eine Überraschung: Und die Überraschung ist, dass Patient A eine viel schlechtere Erinnrung an die Darmspiegelung hatte als Patient B. Die Geschichten der Darmspiegelungen waren unterschiedlich, und weil ein sehr entscheidender Teil der Geschichte ist, wie sie endet -- und keine dieser Geschichten ist sehr erbaulich oder großartig -- aber eine von ihnen ist diese deutlich ... (Gelächter) aber eine von ihnen ist deutlich schlimmer als die andere.				
+# text = Und hier ist eine Überraschung: Und die Überraschung ist, dass Patient A eine viel schlechtere Erinnrung an die Darmspiegelung hatte als Patient B. Die Geschichten der Darmspiegelungen waren unterschiedlich, und weil ein sehr entscheidender Teil der Geschichte ist, wie sie endet -- und keine dieser Geschichten ist sehr erbaulich oder großartig -- aber eine von ihnen ist diese deutlich ...	
 Und								
 hier								
 ist								
 eine								
 Überraschung	SBJ	indef-np.a						
-:								
+:					31	:		
 Und								
 die								
 Überraschung	SBJ_2	def-np.the	OLD					
@@ -1062,851 +1062,853 @@ ihnen	other_4	pron.pper	OLD
 ist								
 diese	SBJ_3	pron.pds	OLD					
 deutlich								
-...								
+...							
+	
+# text = (Gelächter) aber eine von ihnen ist deutlich schlimmer als die andere.				
 (								
-Gelächter	other_4	indef-np.bare						
+Gelächter	other	indef-np.bare						
 )								
 aber								
-eine	SBJ_4							
-von								
-ihnen	other_5	pron.pper	OLD					
+eine	SBJ	pron.pind						
+von					3	von		
+ihnen	other_2	pron.pper	OLD					
 ist								
 deutlich								
-schlimmer								
+schlimmer					10	schlimmer		
 als								
 die								
-andere	other_4	pron.pind						
+andere	other	pron.pind						
 .							
 	
 # text = Und die, die schlimmer ist war die, wo der Schmerz ganz am Ende auf seinem Höhepunkt war.				
-Und								
-die	SBJ							
-,								
-die	SBJ_2							
-schlimmer								
-ist								
-war								
-die								
-,								
-wo								
-der								
-Schmerz	SBJ_2	def-np.the	OLD					
-ganz								
-an								
+Und					1	Und		
+die	SBJ				2	die		
+,					3	,		
+die	SBJ_2				4	die	set_190	
+schlimmer					5	schlimmer		
+ist					6	ist		
+war					7	war		
+die					8	die	set_190	
+,					9	,		
+wo					10	wo	set_191	
+der					11	der		
+Schmerz	SBJ_2	def-np.the	OLD		12	Schmerz	set_191	
+ganz					13	ganz		
+an					14	an		
 dem								
-Ende	other_2	def-np.the	OLD					
-auf								
-seinem								
-Höhepunkt	other_3	indef-np						
-war								
-.							
-
-# text = Es ist eine schlimme Geschichte.				
-Es	SBJ	pron.pper	OLD					
-ist								
-eine								
-schlimme								
-Geschichte	other	indef-np.a						
-.							
-
-# text = Woher wissen wir das?				
-Woher								
-wissen								
-wir	SBJ	pron	OLD					
-das	OBJ							
-?							
-
---				
+Ende	other_2	def-np.the	OLD		15	Ende	set_191	
+auf					16	auf		
+seinem					17	seinem	set_43	
+Höhepunkt	other_3	indef-np			18	Höhepunkt		
+war					19	war		
+.				20	.	
+		
+# text = Es ist eine schlimme Geschichte.	
+Es	SBJ	pron.pper	OLD		1	Es	set_191	
+ist					2	ist		
+eine					3	eine		
+schlimme					4	schlimme		
+Geschichte	other	indef-np.a			5	Geschichte		
+.				6	.	
+		
+# text = Woher wissen wir das?	
+Woher					1	Woher		
+wissen					2	wissen		
+wir	SBJ	pron	OLD		3	wir		
+das	OBJ				4	das	set_192	
+?				5		
+		
+--	
 # text = Weil wir diese Leute nach ihrer Darmspiegelung gefragt haben, und auch viel später: \"Wie schlimm war die ganze Sache insgesamt?\", und sie war viel schlimmer für A als für B in der Erinnrung.				
-Weil								
-wir	SBJ	pron	OLD					
-diese	other_2	pron.pds	OLD					
-Leute	SBJ	def-np.dem	OLD					
-nach								
-ihrer								
-Darmspiegelung	other	indef-np						
-gefragt								
-haben								
-,								
-und								
-auch								
-viel								
-später								
-:								
-&quot;								
-Wie								
-schlimm								
-war								
-die								
-ganze								
-Sache	SBJ_4	def-np.the	OLD					
-insgesamt								
-?								
-&quot;								
-,								
-und								
-sie	SBJ_3	pron	OLD					
-war								
-viel	other_3	pron	OLD					
-schlimmer								
-für								
-A	other_3	ne	OLD					
-als								
-für								
-B	other_4	ne	OLD					
+Weil					1	Weil		
+wir	SBJ	pron	OLD		2	wir		
+diese	other_2	pron.pds	OLD		3	diese		
+Leute	SBJ	def-np.dem	OLD		4	Leute	set_185	
+nach					5	nach		
+ihrer					6	ihrer	set_185	
+Darmspiegelung	other	indef-np			7	Darmspiegelung	set_131	
+gefragt					8	gefragt		
+haben					9	haben		
+,					10	,		
+und					11	und		
+auch					12	auch		
+viel					13	viel		
+später					14	später		
+:					15	:		
+&quot;					16	''		
+Wie					17	Wie		
+schlimm					18	schlimm		
+war					19	war		
+die					20	die		
+ganze					21	ganze		
+Sache	SBJ_4	def-np.the	OLD		22	Sache	set_131	
+insgesamt					23	insgesamt		
+?					24			
+&quot;					25	''		
+,					26	,		
+und					27	und		
+sie	SBJ_3	pron	OLD		28	sie	set_131	
+war					29	war		
+viel	other_3	pron	OLD		30	viel		
+schlimmer					31	schlimmer	set_132	
+für					32	für		
+A	other_3	ne	OLD		33	A		
+als					34	als		
+für					35	für		
+B	other_4	ne	OLD		36	B		
+in					37	in		
+der					38	der		
+Erinnrung	other_5	def-np.the	OLD		39	Erinnrung		
+.				40	.	
+		
+# text = Nun, das ist ein direkter Konflikt zwischen dem erlebenden Selbst und dem erinnernden Selbst.	
+Nun					1	Nun		
+,					2	,		
+das	SBJ	pron.pds	OLD		3	das	set_132	
+ist					4	ist		
+ein					5	ein		
+direkter					6	direkter		
+Konflikt	other	indef-np.a			7	Konflikt		
+zwischen					8	zwischen		
+dem					9	dem		
+erlebenden					10	erlebenden		
+Selbst					11	Selbst	set_232	
+und					12	und		
+dem					13	dem		
+erinnernden					14	erinnernden		
+Selbst					15	Selbst	set_236	
+.				16	.	
+		
+# text = Aus Sicht des erlebenden Selbst hatte B eindeutig eine schlechtere Zeit.	
+Aus					1	Aus		
+Sicht	other	indef-np.bare			2	Sicht		
+des					3	des		
+erlebenden					4	erlebenden		
+Selbst					5	Selbst	set_232	
+hatte					6	hatte		
+B	SBJ	ne	OLD		7	B	set_188	
+eindeutig					8	eindeutig		
+eine					9	eine		
+schlechtere					10	schlechtere		
+Zeit	OBJ	indef-np.a			11	Zeit		
+.				12	.	
+		
+# text = Nun, was man mit Patient A machen könnte, und wir haben tatsächlich klinische Experimente durchgeführt, und es ist gemacht worden, und es funktioniert, man könnte eigentlich die Darmspiegelung von Patient A verlängern indem man einfach den Schlauch drin lässt ohne zu sehr an ihm zu rütteln.	
+Nun					1	Nun		
+,					2	,		
+was	OBJ_2	pron	OLD		3	was		
+man	SBJ_2	pron.pind			4	man		
+mit					5	mit		
+Patient	other_2	indef-np.bare			6	Patient	set_195	
+A	other_3	ne	OLD		7	A		
+machen					8	machen		
+könnte					9	könnte		
+,					10	,		
+und					11	und		
+wir	SBJ_2	pron	OLD		12	wir		
+haben					13	haben		
+tatsächlich					14	tatsächlich		
+klinische					15	klinische		
+Experimente	SBJ_2	indef-np.bare			16	Experimente		
+durchgeführt					17	durchgeführt		
+,					18	,		
+und					19	und		
+es					20	es	set_133	
+ist					21	ist		
+gemacht					22	gemacht		
+worden					23	worden		
+,					24	,		
+und					25	und		
+es	SBJ_3	pron.pper	OLD		26	es	set_133	
+funktioniert					27	funktioniert		
+,					28	,		
+man	SBJ_4	pron.pind			29	man		
+könnte					30	könnte		
+eigentlich					31	eigentlich		
+die					32	die		
+Darmspiegelung	OBJ_4	def-np.the	OLD		33	Darmspiegelung		
+von					34	von		
+Patient	other_5	ne	OLD		35	Patient	set_195	
+A	other_6	ne	OLD		36	A		
+verlängern					37	verlängern	set_133	
+indem					38	indem		
+man	SBJ_5	pron.pind			39	man		
+einfach					40	einfach		
+den					41	den		
+Schlauch	OBJ_5	def-np.the	OLD		42	Schlauch	set_201	
+drin					43	drin		
+lässt					44	lässt		
+ohne					45	ohne		
+zu					46	zu		
+sehr					47	sehr		
+an					48	an		
+ihm	other_6	pron.pper	OLD		49	ihm	set_201	
+zu					50	zu		
+rütteln					51	rütteln		
+.				52	.	
+		
+# text = Das wird dazu führen, dass der Patient leidet, aber nur ein bisschen und viel weniger als vorher.	
+Das	SBJ				1	Das	set_133	
+wird					2	wird		
+dazu					3	dazu		
+führen					4	führen		
+,					5	,		
+dass					6	dass		
+der					7	der		
+Patient	SBJ_2	def-np.the	OLD		8	Patient	set_195	
+leidet					9	leidet		
+,					10	,		
+aber					11	aber		
+nur					12	nur		
+ein					13	ein		
+bisschen	other_2	pron.pind			14	bisschen		
+und					15	und		
+viel					16	viel		
+weniger					17	weniger		
+als					18	als		
+vorher					19	vorher		
+.				20	.	
+		
+# text = Und wenn man das ein paar Minuten lang macht hat man bewirkt, dass das erlebende Selbst von Patient A schlechter dran ist und man hat bewirkt, dass das erinnernde Selbst von Patient A viel besser dran ist, denn nun hat man Patient A eine bessere Geschichte über seine Erfahrung gegeben.	
+Und					1	Und		
+wenn					2	wenn		
+man	SBJ_2	pron.pind			3	man		
+das	SBJ_3	pron.pds	OLD		4	das	set_133	
+ein					5	ein		
+paar	other_4	pron.pind			6	paar		
+Minuten	other_3	indef-np.a			7	Minuten		
+lang					8	lang		
+macht					9	macht		
+hat					10	hat		
+man	SBJ	pron.pind			11	man		
+bewirkt					12	bewirkt		
+,					13	,		
+dass					14	dass		
+das					15	das		
+erlebende					16	erlebende		
+Selbst	SBJ_2				17	Selbst	set_232	
+von					18	von		
+Patient	other_3	ne	OLD		19	Patient	set_195	
+A	other_4	ne	OLD		20	A		
+schlechter					21	schlechter		
+dran					22	dran		
+ist					23	ist		
+und					24	und		
+man	SBJ_3	pron.pind			25	man		
+hat					26	hat		
+bewirkt	OBJ_3				27	bewirkt		
+,					28	,		
+dass					29	dass		
+das					30	das		
+erinnernde					31	erinnernde		
+Selbst	SBJ_5				32	Selbst	set_236	
+von					33	von		
+Patient	other_6	indef-np.bare			34	Patient	set_195	
+A	other_7	ne	OLD		35	A		
+viel	SBJ_5	ne	OLD		36	viel		
+besser					37	besser		
+dran	other_4	pron.padv	OLD		38	dran		
+ist					39	ist		
+,					40	,		
+denn					41	denn		
+nun					42	nun		
+hat					43	hat		
+man	SBJ_7	pron.pind			44	man		
+Patient	SBJ_6	indef-np.bare			45	Patient	set_195	
+A	other_7	ne	OLD		46	A		
+eine					47	eine		
+bessere					48	bessere		
+Geschichte	OBJ_6	indef-np.a			49	Geschichte		
+über					50	über		
+seine					51	seine	set_195	
+Erfahrung	other_7	indef-np			52	Erfahrung		
+gegeben					53	gegeben		
+.				54	.	
+		
+# text = Wodurch zeichnet sich eine Geschichte aus?	
+Wodurch					1	Wodurch		
+zeichnet					2	zeichnet		
+sich	OBJ				3	sich		
+eine					4	eine		
+Geschichte	SBJ	indef-np.a			5	Geschichte		
+aus					6	aus		
+?				7		
+		
+# text = Und das gilt für die Geschichten, die das Gedächtnis uns liefert und es gilt auch für die Geschichten, die wir erfinden.	
+Und					1	Und		
+das	SBJ	pron.pds	OLD		2	das	set_196	
+gilt					3	gilt		
+für					4	für		
+die					5	die		
+Geschichten	other	def-np.the	OLD		6	Geschichten	set_49	
+,					7	,		
+die	SBJ_3				8	die	set_49	
+das					9	das		
+Gedächtnis	OBJ_3	def-np.the	OLD		10	Gedächtnis		
+uns	OBJ_3	pron	OLD		11	uns		
+liefert					12	liefert		
+und					13	und		
+es	SBJ_4	pron.pper	OLD		14	es	set_196	
+gilt					15	gilt		
+auch					16	auch		
+für					17	für		
+die					18	die		
+Geschichten	other_4	def-np.the	OLD		19	Geschichten	set_48	
+,					20	,		
+die	OBJ_6				21	die	set_48	
+wir	SBJ_6	pron	OLD		22	wir		
+erfinden					23	erfinden		
+.				24	.	
+		
+# text = Wodurch sich eine Geschichte auszeichnet sind Umbrüche, bedeutende Augenblicke und Enden.	
+Wodurch					1	Wodurch		
+sich					2	sich		
+eine					3	eine		
+Geschichte	SBJ	indef-np.a			4	Geschichte		
+auszeichnet					5	auszeichnet	set_196	
+sind					6	sind		
+Umbrüche	OBJ	indef-np.bare			7	Umbrüche		
+,					8	,		
+bedeutende					9	bedeutende		
+Augenblicke	other_2	indef-np.bare			10	Augenblicke		
+und					11	und		
+Enden	other_2	indef-np.bare			12	Enden		
+.				13	.	
+		
+# text = Enden sind sehr, sehr wichtig und in diesem Fall dominierte das Ende.	
+Enden	SBJ	indef-np.bare			1	Enden		
+sind					2	sind		
+sehr					3	sehr		
+,					4	,		
+sehr					5	sehr		
+wichtig					6	wichtig		
+und					7	und		
+in					8	in		
+diesem	other_3	pron.pds	OLD		9	diesem		
+Fall	other_2	def-np.dem	OLD		10	Fall	set_190	
+dominierte					11	dominierte		
+das					12	das		
+Ende	OBJ_2	def-np.the	OLD		13	Ende		
+.				14	.	
+		
+# text = Nun, das erlebende Selbst lebt sein Leben kontinuierlich.	
+Nun					1	Nun		
+,					2	,		
+das					3	das		
+erlebende					4	erlebende		
+Selbst	SBJ				5	Selbst	set_232	
+lebt					6	lebt		
+sein					7	sein	set_232	
+Leben	OBJ_2	indef-np			8	Leben		
+kontinuierlich					9	kontinuierlich		
+.				10	.	
+		
+# text = Es hat Augenblicke des Erlebens, einen nach dem anderen.	
+Es	SBJ	pron.pper	OLD		1	Es	set_232	
+hat					2	hat		
+Augenblicke	OBJ	ne	OLD		3	Augenblicke	set_202	
+des					4	des		
+Erlebens	other_2	ne	OLD		5	Erlebens		
+,					6	,		
+einen	OBJ_2				7	einen		
+nach					8	nach		
+dem					9	dem		
+anderen	other	pron.pind			10	anderen		
+.				11	.	
+		
+# text = Und Sie fragen: Was passiert mit diesen Momenten?	
+Und					1	Und		
+Sie	SBJ	pron.pper	OLD		2	Sie		
+fragen					3	fragen		
+:					4	:		
+Was	SBJ_2	pron	OLD		5	Was		
+passiert					6	passiert		
+mit					7	mit		
+diesen	other_3	pron.pds	OLD		8	diesen		
+Momenten	other_2	def-np.dem	OLD		9	Momenten	set_202	
+?				10		
+		
+# text = Und die Antwort ist wirklich einfach.	
+Und					1	Und		
+die					2	die		
+Antwort	SBJ	def-np.the	OLD		3	Antwort		
+ist					4	ist		
+wirklich					5	wirklich		
+einfach					6	einfach		
+.				7	.	
+		
+# text = Sie sind für immer verloren.	
+Sie	SBJ	pron.pper	OLD		1	Sie	set_202	
+sind					2	sind		
+für					3	für		
+immer					4	immer		
+verloren					5	verloren		
+.				6	.	
+		
+# text = Ich meine, die meisten Augenblicke unseres Lebens -- und ich habe das ausgerechnet -- Sie wissen, die psychologische Gegenwart gilt als ungefähr drei Sekunden lang.	
+Ich	SBJ	pron.pper	OLD		1	Ich		
+meine	other	pron.ppos	OLD		2	meine		
+,					3	,		
+die					4	die		
+meisten					5	meisten		
+Augenblicke	other	def-np.the	OLD		6	Augenblicke	set_55	
+unseres					7	unseres		
+Lebens	other	indef-np.bare			8	Lebens		
+_					9			
+und					10	und		
+ich	SBJ_2	pron.pper	OLD		11	ich		
+habe					12	habe		
+das					13	das		
+ausgerechnet					14	ausgerechnet		
+_					15			
+Sie	OBJ_2	pron.pper	OLD		16	Sie		
+wissen					17	wissen		
+,					18	,		
+die					19	die		
+psychologische					20	psychologische		
+Gegenwart	SBJ_2	def-np.the	OLD		21	Gegenwart	set_204	
+gilt					22	gilt		
+als					23	als		
+ungefähr					24	ungefähr		
+drei					25	drei		
+Sekunden	other_3	indef-np.quant			26	Sekunden		
+lang					27	lang		
+.				28	.	
+		
+# text = Was bedeutet, wissen Sie, dass es in einem Leben ungefähr 600 Millionen davon gibt.	
+Was	SBJ_2	pron	OLD		1	Was		
+bedeutet					2	bedeutet		
+,					3	,		
+wissen					4	wissen		
+Sie	SBJ	pron.pper	OLD		5	Sie		
+,					6	,		
+dass					7	dass		
+es	SBJ_2	pron.pper	OLD		8	es		
+in					9	in		
+einem					10	einem		
+Leben	other_2	indef-np.a			11	Leben		
+ungefähr					12	ungefähr		
+600					13	600		
+Millionen	other_3	indef-np.bare			14	Millionen		
+davon					15	davon	set_204	
+gibt					16	gibt		
+.				17	.	
+		
+# text = In einem Monat gibt es ungefähr 600.000.	
+In					1	In		
+einem					2	einem		
+Monat	other	indef-np.a			3	Monat		
+gibt					4	gibt		
+es	SBJ	pron.pper	OLD		5	es		
+ungefähr					6	ungefähr		
+600.000					7	600.000	set_204	
+.				8	.	
+		
+# text = Die meisten von ihnen hinterlassen keine Spur.	
+Die					1	Die		
+meisten	SBJ	pron	OLD		2	meisten		
+von					3	von		
+ihnen	other_2	pron.pper	OLD		4	ihnen	set_55	
+hinterlassen					5	hinterlassen		
+keine	other_2	pron	OLD		6	keine		
+Spur	OBJ	indef-np.quant			7	Spur		
+.				8	.	
+		
+# text = Die meisten von ihnen werden komplett ignoriert vom erinnernden Selbst.	
+Die					1	Die		
+meisten	SBJ	pron	OLD		2	meisten		
+von					3	von		
+ihnen	other_2	pron.pper	OLD		4	ihnen	set_55	
+werden					5	werden		
+komplett					6	komplett		
+ignoriert					7	ignoriert		
+von								
+dem					8	dem		
+erinnernden					10	erinnernden	set_236	
+Selbst					10	Selbst	set_236	
+.				11	.	
+		
+# text = Und doch bekommen Sie irgendwie den Eindruck, dass sie zählen sollten, dass was während dieser Augenblicke des Erlebens passiert unser Leben ist.	
+Und					1	Und		
+doch					2	doch		
+bekommen					3	bekommen		
+Sie	SBJ	pron.pper	OLD		4	Sie		
+irgendwie					5	irgendwie		
+den					6	den		
+Eindruck	other	def-np.the	OLD		7	Eindruck		
+,					8	,		
+dass					9	dass		
+sie	SBJ_2	pron	OLD		10	sie	set_55	
+zählen					11	zählen		
+sollten					12	sollten		
+,					13	,		
+dass					14	dass		
+was	SBJ_3	pron	OLD		15	was		
+während					16	während		
+dieser	other_4	pron.pds	OLD		17	dieser		
+Augenblicke	other_3	def-np.dem	OLD		18	Augenblicke	set_55	
+des					19	des		
+Erlebens	other_4	def-np.the	OLD		20	Erlebens	set_56	
+passiert					21	passiert		
+unser	other_4	pron.ppos	OLD		22	unser		
+Leben	OBJ_3	indef-np.bare			23	Leben		
+ist					24	ist		
+.				25	.	
+		
+# text = Es ist die begrenzte Ressource, die wir verbrauchen während wir auf dieser Welt sind.	
+Es	SBJ	pron.pper	OLD		1	Es	set_56	
+ist					2	ist		
+die					3	die		
+begrenzte					4	begrenzte		
+Ressource	other	def-np.the	OLD		5	Ressource	set_15	
+,					6	,		
+die	OBJ_2				7	die	set_15	
+wir	SBJ_2	pron	OLD		8	wir		
+verbrauchen					9	verbrauchen		
+während					10	während		
+wir	SBJ_3	pron	OLD		11	wir		
+auf					12	auf		
+dieser	other_3	pron.pds	OLD		13	dieser		
+Welt	other_2	def-np.dem	OLD		14	Welt		
+sind					15	sind		
+.				16	.	
+		
+# text = Und wie wir sie verbrauchen würde scheinbar wichtig sein, aber das ist nicht die Geschichte, die das erinnernde Selbst für uns behält.	
+Und					1	Und		
+wie					2	wie		
+wir	SBJ	pron	OLD		3	wir		
+sie	OBJ	pron	OLD		4	sie	set_15	
+verbrauchen					5	verbrauchen	set_134	
+würde					6	würde		
+scheinbar					7	scheinbar		
+wichtig					8	wichtig		
+sein					9	sein		
+,					10	,		
+aber					11	aber		
+das	SBJ_2	pron	OLD		12	das	set_134	
+ist					13	ist		
+nicht					14	nicht		
+die					15	die		
+Geschichte	other	def-np.the	OLD		16	Geschichte	set_16	
+,					17	,		
+die	SBJ_3				18	die	set_16	
+das					19	das		
+erinnernde					20	erinnernde		
+Selbst	OBJ_3				21	Selbst	set_236	
+für					22	für		
+uns	other_3	pron	OLD		23	uns		
+behält					24	behält		
+.				25	.	
+		
+# text = Also haben wir das erinnernde Selbst und das erlebende Selbst, und sie sind wirklich ziemlich verschieden.	
+Also					1	Also		
+haben					2	haben		
+wir	SBJ	pron	OLD		3	wir		
+das					4	das		
+erinnernde					5	erinnernde		
+Selbst	OBJ				6	Selbst	set_207	
+und					7	und		
+das					8	das		
+erlebende					9	erlebende		
+Selbst					10	Selbst	set_232	
+,					11	,		
+und					12	und		
+sie	SBJ_2	pron	OLD		13	sie	set_207	
+sind					14	sind		
+wirklich					15	wirklich		
+ziemlich					16	ziemlich		
+verschieden					17	verschieden		
+.				18	.	
+		
+# text = Der größte Unterschied zwischen ihnen ist der Umgang mit Zeit.	
+Der					1	Der		
+größte					2	größte		
+Unterschied	SBJ	def-np.the	OLD		3	Unterschied		
+zwischen					4	zwischen		
+ihnen	other_2	pron.pper	OLD		5	ihnen	set_207	
+ist					6	ist		
+der					7	der		
+Umgang	other	def-np.the	OLD		8	Umgang		
+mit					9	mit		
+Zeit	other	indef-np.bare			10	Zeit		
+.				11	.	
+		
+# text = Aus Sicht des erlebenden Selbst, wenn Sie einen Urlaub haben und die zweite Woche genau so gut ist wie die erste, dann ist der zweiwöchige Urlaub doppelt so gut wie der einwöchige Urlaub.	
+Aus					1	Aus		
+Sicht	other	indef-np.bare			2	Sicht		
+des					3	des		
+erlebenden					4	erlebenden		
+Selbst					5	Selbst	set_232	
+,					6	,		
+wenn					7	wenn		
+Sie	SBJ	pron.pper	OLD		8	Sie		
+einen					9	einen		
+Urlaub	OBJ	indef-np.a			10	Urlaub		
+haben					11	haben	set_136	
+und					12	und		
+die					13	die		
+zweite					14	zweite		
+Woche	other_2	def-np.the	OLD		15	Woche	set_135	
+genau					16	genau		
+so					17	so		
+gut					18	gut		
+ist					19	ist		
+wie					20	wie		
+die					21	die		
+erste					22	erste	set_135	
+,					23	,		
+dann					24	dann		
+ist					25	ist		
+der					26	der		
+zweiwöchige					27	zweiwöchige		
+Urlaub	SBJ_4	def-np.the	OLD		28	Urlaub		
+doppelt					29	doppelt		
+so					30	so		
+gut					31	gut		
+wie					32	wie		
+der					33	der		
+einwöchige					34	einwöchige		
+Urlaub	other_4	def-np.the	OLD		35	Urlaub	set_212	
+.				36	.	
+		
+# text = So funktioniert das überhaupt nicht für das erinnernde Selbst.	
+So					1	So		
+funktioniert					2	funktioniert		
+das	SBJ	pron.pds	OLD		3	das	set_136	
+überhaupt					4	überhaupt		
+nicht					5	nicht		
+für					6	für		
+das					7	das		
+erinnernde					8	erinnernde		
+Selbst					9	Selbst	set_236	
+.				10	.	
+		
+# text = Für das erinnernde Selbst ist ein zweiwöchiger Urlaub kaum besser als der einwöchige Urlaub, weil da keine neuen Erinnerungen hinzugefügt werden.	
+Für					1	Für		
+das					2	das		
+erinnernde					3	erinnernde		
+Selbst					4	Selbst	set_236	
+ist					5	ist		
+ein					6	ein		
+zweiwöchiger					7	zweiwöchiger		
+Urlaub	SBJ	indef-np.a			8	Urlaub		
+kaum					9	kaum		
+besser					10	besser		
+als					11	als		
+der					12	der		
+einwöchige					13	einwöchige		
+Urlaub	other	def-np.the	OLD		14	Urlaub	set_212	
+,					15	,		
+weil					16	weil		
+da					17	da		
+keine	other_3	pron	OLD		18	keine		
+neuen					19	neuen		
+Erinnerungen	SBJ_2	indef-np.quant			20	Erinnerungen	set_137	
+hinzugefügt					21	hinzugefügt		
+werden					22	werden		
+.				23	.	
+		
+# text = Sie haben die Geschichte nicht geändert.	
+Sie	SBJ	pron.pper	OLD		1	Sie	set_137	
+haben					2	haben		
+die					3	die		
+Geschichte	OBJ	def-np.the	OLD		4	Geschichte	set_138	
+nicht					5	nicht		
+geändert					6	geändert		
+.				7	.	
+		
+# text = Und auf diese Weise ist Zeit eigentlich die kritische Variable, die ein erinnerndes Selbst unterscheidet von einem erlebenden Selbst.	
+Und					1	Und		
+auf					2	auf		
+diese	other_3	pron.pds	OLD		3	diese		
+Weise	other_2	def-np.dem	OLD		4	Weise		
+ist					5	ist		
+Zeit	other	indef-np.bare			6	Zeit		
+eigentlich					7	eigentlich		
+die					8	die		
+kritische					9	kritische		
+Variable	other	def-np.the	OLD		10	Variable	set_17	
+,					11	,		
+die	SBJ_2				12	die	set_17	
+ein					13	ein		
+erinnerndes					14	erinnerndes		
+Selbst	OBJ_2				15	Selbst	set_236	
+unterscheidet					16	unterscheidet		
+von					17	von		
+einem					18	einem		
+erlebenden					19	erlebenden		
+Selbst					20	Selbst	set_232	
+.				21	.	
+		
+# text = Zeit hat sehr wenig Einfluss auf diese Geschichte.	
+Zeit	SBJ	indef-np.bare			1	Zeit		
+hat					2	hat		
+sehr					3	sehr		
+wenig					4	wenig		
+Einfluss	OBJ	indef-np.quant			5	Einfluss		
+auf					6	auf		
+diese	other_2	pron.pds	OLD		7	diese		
+Geschichte	other	def-np.dem	OLD		8	Geschichte	set_138	
+.				9	.	
+		
+# text = Nun, das erinnernde Selbst macht mehr, als zu erinnern und Geschichten zu erzählen.	
+Nun					1	Nun		
+,					2	,		
+das					3	das		
+erinnernde					4	erinnernde		
+Selbst	SBJ				5	Selbst	set_236	
+macht					6	macht		
+mehr					7	mehr		
+,					8	,		
+als					9	als		
+zu					10	zu		
+erinnern					11	erinnern		
+und					12	und		
+Geschichten	OBJ_3	indef-np.bare			13	Geschichten		
+zu					14	zu		
+erzählen					15	erzählen		
+.				16	.	
+		
+# text = Es ist eigentlich dasjenige, das Entscheidungen trifft, denn wenn Sie einen Patienten haben, der, sagen wir zwei Darmspiegelungen bei zwei unterschiedlichen Chirurgen hatte und sich entscheidet, welchen er wählen soll, dann ist der, der wählt der, der die Erinnerung hat, die weniger schlimm ist und das ist der Chirurg, der ausgewählt werden wird.	
+Es	SBJ	pron.pper	OLD		1	Es		
+ist					2	ist		
+eigentlich					3	eigentlich		
+dasjenige	other	pron.pind			4	dasjenige	set_236	
+,					5	,		
+das					6	das	set_236	
+Entscheidungen	OBJ_2	def-np.the	OLD		7	Entscheidungen		
+trifft					8	trifft		
+,					9	,		
+denn					10	denn		
+wenn					11	wenn		
+Sie	SBJ_2	pron.pper	OLD		12	Sie		
+einen					13	einen		
+Patienten	OBJ_2	indef-np.a			14	Patienten	set_19	
+haben					15	haben		
+,					16	,		
+der	SBJ_2				17	der	set_19	
+,					18	,		
+sagen					19	sagen		
+wir	SBJ_2	pron	OLD		20	wir		
+zwei					21	zwei		
+Darmspiegelungen	OBJ_2	indef-np.quant			22	Darmspiegelungen		
+bei					23	bei		
+zwei					24	zwei		
+unterschiedlichen					25	unterschiedlichen		
+Chirurgen	other_2	indef-np.quant			26	Chirurgen		
+hatte					27	hatte		
+und					28	und		
+sich	OBJ_3				29	sich		
+entscheidet					30	entscheidet		
+,					31	,		
+welchen	OBJ_4	pron.pint			32	welchen		
+er	SBJ_4	pron.pper	OLD		33	er	set_19	
+wählen					34	wählen		
+soll					35	soll		
+,					36	,		
+dann					37	dann		
+ist					38	ist		
+der	SBJ_4	pron	OLD		39	der	set_19	
+,					40	,		
+der	SBJ_6				41	der	set_19	
+wählt					42	wählt		
+der					43	der	set_19	
+,					44	,		
+der	SBJ_6				45	der	set_19	
+die					46	die		
+Erinnerung	OBJ_6	def-np.the	OLD		47	Erinnerung	set_20	
+hat					48	hat		
+,					49	,		
+die	SBJ_7				50	die	set_20	
+weniger					51	weniger		
+schlimm					52	schlimm		
+ist					53	ist		
+und					54	und		
+das	SBJ_7	pron	OLD		55	das		
+ist					56	ist		
+der					57	der		
+Chirurg	other_6	def-np.the	OLD		58	Chirurg	set_21	
+,					59	,		
+der	SBJ_8				60	der	set_21	
+ausgewählt					61	ausgewählt		
+werden					62	werden		
+wird					63	wird		
+.				64	.	
+		
+# text = Das erlebende Selbst hat keine Stimme in dieser Wahl.	
+Das					1	Das		
+erlebende					2	erlebende		
+Selbst	SBJ				3	Selbst	set_232	
+hat					4	hat		
+keine	other_2	pron	OLD		5	keine		
+Stimme	OBJ	indef-np.quant			6	Stimme		
+in					7	in		
+dieser	other_2	pron.pds	OLD		8	dieser		
+Wahl	other	def-np.dem	OLD		9	Wahl		
+.				10	.	
+		
+# text = Eigentlich wählen wir nicht zwischen Erlebnissen.	
+Eigentlich					1	Eigentlich		
+wählen					2	wählen		
+wir	SBJ	pron	OLD		3	wir		
+nicht					4	nicht		
+zwischen					5	zwischen		
+Erlebnissen	other	indef-np.bare			6	Erlebnissen		
+.				7	.	
+		
+# text = Wir wählen zwischen Erinnerungen an Erlebnisse.	
+Wir	SBJ	pron	OLD		1	Wir		
+wählen					2	wählen		
+zwischen					3	zwischen		
+Erinnerungen	other	indef-np.bare			4	Erinnerungen		
+an					5	an		
+Erlebnisse	other_2	indef-np.bare			6	Erlebnisse		
+.				7	.	
+		
+# text = Und selbst wenn wir an die Zukunft denken, denken wir an unsere Zukunft normalerweise nicht als Erlebnisse.	
+Und					1	Und		
+selbst					2	selbst		
+wenn					3	wenn		
+wir	SBJ_2	pron	OLD		4	wir		
+an					5	an		
+die					6	die		
+Zukunft	other_2	def-np.the	OLD		7	Zukunft		
+denken					8	denken		
+,					9	,		
+denken					10	denken		
+wir	SBJ	pron	OLD		11	wir		
+an					12	an		
+unsere	other_2	pron.ppos	OLD		13	unsere		
+Zukunft	other	indef-np.bare			14	Zukunft		
+normalerweise					15	normalerweise		
+nicht					16	nicht		
+als					17	als		
+Erlebnisse	other	indef-np.bare			18	Erlebnisse		
+.				19	.	
+		
+# text = Wir denken über unsere Zukunft nach als vorausgesehene Erinnerungen.	
+Wir	SBJ	pron	OLD		1	Wir		
+denken					2	denken	set_139	
+über					3	über		
+unsere	other_2	pron.ppos	OLD		4	unsere		
+Zukunft	other	indef-np.bare			5	Zukunft		
+nach					6	nach		
+als					7	als		
+vorausgesehene					8	vorausgesehene		
+Erinnerungen	other	indef-np.bare			9	Erinnerungen		
+.				10	.	
+		
+# text = Und im Grunde können	
+Und					1	Und		
 in								
-der								
-Erinnrung	other_5	def-np.the	OLD					
-.							
-
-# text = Nun, das ist ein direkter Konflikt zwischen dem erlebenden Selbst und dem erinnernden Selbst.				
-Nun								
-,								
-das	SBJ	pron.pds	OLD					
-ist								
-ein								
-direkter								
-Konflikt	other	indef-np.a						
-zwischen								
-dem								
-erlebenden								
-Selbst								
-und								
-dem								
-erinnernden								
-Selbst								
-.							
-
-# text = Aus Sicht des erlebenden Selbst hatte B eindeutig eine schlechtere Zeit.				
-Aus								
-Sicht	other	indef-np.bare						
-des								
-erlebenden								
-Selbst								
-hatte								
-B	SBJ	ne	OLD					
-eindeutig								
-eine								
-schlechtere								
-Zeit	OBJ	indef-np.a						
-.							
-
-# text = Nun, was man mit Patient A machen könnte, und wir haben tatsächlich klinische Experimente durchgeführt, und es ist gemacht worden, und es funktioniert, man könnte eigentlich die Darmspiegelung von Patient A verlängern indem man einfach den Schlauch drin lässt ohne zu sehr an ihm zu rütteln.				
-Nun								
-,								
-was	OBJ_2	pron	OLD					
-man	SBJ_2	pron.pind						
-mit								
-Patient	other_2	indef-np.bare						
-A	other_3	ne	OLD					
-machen								
-könnte								
-,								
-und								
-wir	SBJ_2	pron	OLD					
-haben								
-tatsächlich								
-klinische								
-Experimente	SBJ_2	indef-np.bare						
-durchgeführt								
-,								
-und								
-es								
-ist								
-gemacht								
-worden								
-,								
-und								
-es	SBJ_3	pron.pper	OLD					
-funktioniert								
-,								
-man	SBJ_4	pron.pind						
-könnte								
-eigentlich								
-die								
-Darmspiegelung	OBJ_4	def-np.the	OLD					
-von								
-Patient	other_5	ne	OLD					
-A	other_6	ne	OLD					
-verlängern								
-indem								
-man	SBJ_5	pron.pind						
-einfach								
-den								
-Schlauch	OBJ_5	def-np.the	OLD					
-drin								
-lässt								
-ohne								
-zu								
-sehr								
-an								
-ihm	other_6	pron.pper	OLD					
-zu								
-rütteln								
-.							
-
-# text = Das wird dazu führen, dass der Patient leidet, aber nur ein bisschen und viel weniger als vorher.				
-Das	SBJ							
-wird								
-dazu								
-führen								
-,								
-dass								
-der								
-Patient	SBJ_2	def-np.the	OLD					
-leidet								
-,								
-aber								
-nur								
-ein								
-bisschen	other_2	pron.pind						
-und								
-viel								
-weniger								
-als								
-vorher								
-.							
-
-# text = Und wenn man das ein paar Minuten lang macht hat man bewirkt, dass das erlebende Selbst von Patient A schlechter dran ist und man hat bewirkt, dass das erinnernde Selbst von Patient A viel besser dran ist, denn nun hat man Patient A eine bessere Geschichte über seine Erfahrung gegeben.				
-Und								
-wenn								
-man	SBJ_2	pron.pind						
-das	SBJ_3	pron.pds	OLD					
-ein								
-paar	other_4	pron.pind						
-Minuten	other_3	indef-np.a						
-lang								
-macht								
-hat								
-man	SBJ	pron.pind						
-bewirkt								
-,								
-dass								
-das								
-erlebende								
-Selbst	SBJ_2							
-von								
-Patient	other_3	ne	OLD					
-A	other_4	ne	OLD					
-schlechter								
-dran								
-ist								
-und								
-man	SBJ_3	pron.pind						
-hat								
-bewirkt	OBJ_3							
-,								
-dass								
-das								
-erinnernde								
-Selbst	SBJ_5							
-von								
-Patient	other_6	indef-np.bare						
-A	other_7	ne	OLD					
-viel	SBJ_5	ne	OLD					
-besser								
-dran	other_4	pron.padv	OLD					
-ist								
-,								
-denn								
-nun								
-hat								
-man	SBJ_7	pron.pind						
-Patient	SBJ_6	indef-np.bare						
-A	other_7	ne	OLD					
-eine								
-bessere								
-Geschichte	OBJ_6	indef-np.a						
-über								
-seine								
-Erfahrung	other_7	indef-np						
-gegeben								
-.							
-
-# text = Wodurch zeichnet sich eine Geschichte aus?				
-Wodurch								
-zeichnet								
-sich	OBJ							
-eine								
-Geschichte	SBJ	indef-np.a						
-aus								
-?							
-
-# text = Und das gilt für die Geschichten, die das Gedächtnis uns liefert und es gilt auch für die Geschichten, die wir erfinden.				
-Und								
-das	SBJ	pron.pds	OLD					
-gilt								
-für								
-die								
-Geschichten	other	def-np.the	OLD					
-,								
-die	SBJ_3							
-das								
-Gedächtnis	OBJ_3	def-np.the	OLD					
-uns	OBJ_3	pron	OLD					
-liefert								
-und								
-es	SBJ_4	pron.pper	OLD					
-gilt								
-auch								
-für								
-die								
-Geschichten	other_4	def-np.the	OLD					
-,								
-die	OBJ_6							
-wir	SBJ_6	pron	OLD					
-erfinden								
-.							
-
-# text = Wodurch sich eine Geschichte auszeichnet sind Umbrüche, bedeutende Augenblicke und Enden.				
-Wodurch								
-sich								
-eine								
-Geschichte	SBJ	indef-np.a						
-auszeichnet								
-sind								
-Umbrüche	OBJ	indef-np.bare						
-,								
-bedeutende								
-Augenblicke	other_2	indef-np.bare						
-und								
-Enden	other_2	indef-np.bare						
-.							
-
-# text = Enden sind sehr, sehr wichtig und in diesem Fall dominierte das Ende.				
-Enden	SBJ	indef-np.bare						
-sind								
-sehr								
-,								
-sehr								
-wichtig								
-und								
-in								
-diesem	other_3	pron.pds	OLD					
-Fall	other_2	def-np.dem	OLD					
-dominierte								
-das								
-Ende	OBJ_2	def-np.the	OLD					
-.							
-
-# text = Nun, das erlebende Selbst lebt sein Leben kontinuierlich.				
-Nun								
-,								
-das								
-erlebende								
-Selbst	SBJ							
-lebt								
-sein								
-Leben	OBJ_2	indef-np						
-kontinuierlich								
-.							
-
-# text = Es hat Augenblicke des Erlebens, einen nach dem anderen.				
-Es	SBJ	pron.pper	OLD					
-hat								
-Augenblicke	OBJ	ne	OLD					
-des								
-Erlebens	other_2	ne	OLD					
-,								
-einen	OBJ_2							
-nach								
-dem								
-anderen	other	pron.pind						
-.							
-
-# text = Und Sie fragen: Was passiert mit diesen Momenten?				
-Und								
-Sie	SBJ	pron.pper	OLD					
-fragen								
-:								
-Was	SBJ_2	pron	OLD					
-passiert								
-mit								
-diesen	other_3	pron.pds	OLD					
-Momenten	other_2	def-np.dem	OLD					
-?							
-
-# text = Und die Antwort ist wirklich einfach.				
-Und								
-die								
-Antwort	SBJ	def-np.the	OLD					
-ist								
-wirklich								
-einfach								
-.							
-
-# text = Sie sind für immer verloren.				
-Sie	SBJ	pron.pper	OLD					
-sind								
-für								
-immer								
-verloren								
-.							
-
-# text = Ich meine, die meisten Augenblicke unseres Lebens -- und ich habe das ausgerechnet -- Sie wissen, die psychologische Gegenwart gilt als ungefähr drei Sekunden lang.				
-Ich	SBJ	pron.pper	OLD					
-meine	other	pron.ppos	OLD					
-,								
-die								
-meisten								
-Augenblicke	other	def-np.the	OLD					
-unseres								
-Lebens	other	indef-np.bare						
-_								
-und								
-ich	SBJ_2	pron.pper	OLD					
-habe								
-das								
-ausgerechnet								
-_								
-Sie	OBJ_2	pron.pper	OLD					
-wissen								
-,								
-die								
-psychologische								
-Gegenwart	SBJ_2	def-np.the	OLD					
-gilt								
-als								
-ungefähr								
-drei								
-Sekunden	other_3	indef-np.quant						
-lang								
-.							
-
-# text = Was bedeutet, wissen Sie, dass es in einem Leben ungefähr 600 Millionen davon gibt.				
-Was	SBJ_2	pron	OLD					
-bedeutet								
-,								
-wissen								
-Sie	SBJ	pron.pper	OLD					
-,								
-dass								
-es	SBJ_2	pron.pper	OLD					
-in								
-einem								
-Leben	other_2	indef-np.a						
-ungefähr								
-600								
-Millionen	other_3	indef-np.bare						
-davon								
-gibt								
-.							
-
-# text = In einem Monat gibt es ungefähr 600.000.				
-In								
-einem								
-Monat	other	indef-np.a						
-gibt								
-es	SBJ	pron.pper	OLD					
-ungefähr								
-600.000								
-.							
-
-# text = Die meisten von ihnen hinterlassen keine Spur.				
-Die								
-meisten	SBJ	pron	OLD					
-von								
-ihnen	other_2	pron.pper	OLD					
-hinterlassen								
-keine	other_2	pron	OLD					
-Spur	OBJ	indef-np.quant						
-.							
-
-# text = Die meisten von ihnen werden komplett ignoriert vom erinnernden Selbst.				
-Die								
-meisten	SBJ	pron	OLD					
-von								
-ihnen	other_2	pron.pper	OLD					
-werden								
-komplett								
-ignoriert								
-von								
-dem								
-erinnernden								
-Selbst								
-.							
-
-# text = Und doch bekommen Sie irgendwie den Eindruck, dass sie zählen sollten, dass was während dieser Augenblicke des Erlebens passiert unser Leben ist.				
-Und								
-doch								
-bekommen								
-Sie	SBJ	pron.pper	OLD					
-irgendwie								
-den								
-Eindruck	other	def-np.the	OLD					
-,								
-dass								
-sie	SBJ_2	pron	OLD					
-zählen								
-sollten								
-,								
-dass								
-was	SBJ_3	pron	OLD					
-während								
-dieser	other_4	pron.pds	OLD					
-Augenblicke	other_3	def-np.dem	OLD					
-des								
-Erlebens	other_4	def-np.the	OLD					
-passiert								
-unser	other_4	pron.ppos	OLD					
-Leben	OBJ_3	indef-np.bare						
-ist								
-.							
-
-# text = Es ist die begrenzte Ressource, die wir verbrauchen während wir auf dieser Welt sind.				
-Es	SBJ	pron.pper	OLD					
-ist								
-die								
-begrenzte								
-Ressource	other	def-np.the	OLD					
-,								
-die	OBJ_2							
-wir	SBJ_2	pron	OLD					
-verbrauchen								
-während								
-wir	SBJ_3	pron	OLD					
-auf								
-dieser	other_3	pron.pds	OLD					
-Welt	other_2	def-np.dem	OLD					
-sind								
-.							
-
-# text = Und wie wir sie verbrauchen würde scheinbar wichtig sein, aber das ist nicht die Geschichte, die das erinnernde Selbst für uns behält.				
-Und								
-wie								
-wir	SBJ	pron	OLD					
-sie	OBJ	pron	OLD					
-verbrauchen								
-würde								
-scheinbar								
-wichtig								
-sein								
-,								
-aber								
-das	SBJ_2	pron	OLD					
-ist								
-nicht								
-die								
-Geschichte	other	def-np.the	OLD					
-,								
-die	SBJ_3							
-das								
-erinnernde								
-Selbst	OBJ_3							
-für								
-uns	other_3	pron	OLD					
-behält								
-.							
-
-# text = Also haben wir das erinnernde Selbst und das erlebende Selbst, und sie sind wirklich ziemlich verschieden.				
-Also								
-haben								
-wir	SBJ	pron	OLD					
-das								
-erinnernde								
-Selbst	OBJ							
-und								
-das								
-erlebende								
-Selbst								
-,								
-und								
-sie	SBJ_2	pron	OLD					
-sind								
-wirklich								
-ziemlich								
-verschieden								
-.							
-
-# text = Der größte Unterschied zwischen ihnen ist der Umgang mit Zeit.				
-Der								
-größte								
-Unterschied	SBJ	def-np.the	OLD					
-zwischen								
-ihnen	other_2	pron.pper	OLD					
-ist								
-der								
-Umgang	other	def-np.the	OLD					
-mit								
-Zeit	other	indef-np.bare						
-.							
-
-# text = Aus Sicht des erlebenden Selbst, wenn Sie einen Urlaub haben und die zweite Woche genau so gut ist wie die erste, dann ist der zweiwöchige Urlaub doppelt so gut wie der einwöchige Urlaub.				
-Aus								
-Sicht	other	indef-np.bare						
-des								
-erlebenden								
-Selbst								
-,								
-wenn								
-Sie	SBJ	pron.pper	OLD					
-einen								
-Urlaub	OBJ	indef-np.a						
-haben								
-und								
-die								
-zweite								
-Woche	other_2	def-np.the	OLD					
-genau								
-so								
-gut								
-ist								
-wie								
-die								
-erste								
-,								
-dann								
-ist								
-der								
-zweiwöchige								
-Urlaub	SBJ_4	def-np.the	OLD					
-doppelt								
-so								
-gut								
-wie								
-der								
-einwöchige								
-Urlaub	other_4	def-np.the	OLD					
-.							
-
-# text = So funktioniert das überhaupt nicht für das erinnernde Selbst.				
-So								
-funktioniert								
-das	SBJ	pron.pds	OLD					
-überhaupt								
-nicht								
-für								
-das								
-erinnernde								
-Selbst								
-.							
-
-# text = Für das erinnernde Selbst ist ein zweiwöchiger Urlaub kaum besser als der einwöchige Urlaub, weil da keine neuen Erinnerungen hinzugefügt werden.				
-Für								
-das								
-erinnernde								
-Selbst								
-ist								
-ein								
-zweiwöchiger								
-Urlaub	SBJ	indef-np.a						
-kaum								
-besser								
-als								
-der								
-einwöchige								
-Urlaub	other	def-np.the	OLD					
-,								
-weil								
-da								
-keine	other_3	pron	OLD					
-neuen								
-Erinnerungen	SBJ_2	indef-np.quant						
-hinzugefügt								
-werden								
-.							
-
-# text = Sie haben die Geschichte nicht geändert.				
-Sie	SBJ	pron.pper	OLD					
-haben								
-die								
-Geschichte	OBJ	def-np.the	OLD					
-nicht								
-geändert								
-.							
-
-# text = Und auf diese Weise ist Zeit eigentlich die kritische Variable, die ein erinnerndes Selbst unterscheidet von einem erlebenden Selbst.				
-Und								
-auf								
-diese	other_3	pron.pds	OLD					
-Weise	other_2	def-np.dem	OLD					
-ist								
-Zeit	other	indef-np.bare						
-eigentlich								
-die								
-kritische								
-Variable	other	def-np.the	OLD					
-,								
-die	SBJ_2							
-ein								
-erinnerndes								
-Selbst	OBJ_2							
-unterscheidet								
-von								
-einem								
-erlebenden								
-Selbst								
-.							
-
-# text = Zeit hat sehr wenig Einfluss auf diese Geschichte.				
-Zeit	SBJ	indef-np.bare						
-hat								
-sehr								
-wenig								
-Einfluss	OBJ	indef-np.quant						
-auf								
-diese	other_2	pron.pds	OLD					
-Geschichte	other	def-np.dem	OLD					
-.							
-
-# text = Nun, das erinnernde Selbst macht mehr, als zu erinnern und Geschichten zu erzählen.				
-Nun								
-,								
-das								
-erinnernde								
-Selbst	SBJ							
-macht								
-mehr								
-,								
-als								
-zu								
-erinnern								
-und								
-Geschichten	OBJ_3	indef-np.bare						
-zu								
-erzählen								
-.							
-
-# text = Es ist eigentlich dasjenige, das Entscheidungen trifft, denn wenn Sie einen Patienten haben, der, sagen wir zwei Darmspiegelungen bei zwei unterschiedlichen Chirurgen hatte und sich entscheidet, welchen er wählen soll, dann ist der, der wählt der, der die Erinnerung hat, die weniger schlimm ist und das ist der Chirurg, der ausgewählt werden wird.				
-Es	SBJ	pron.pper	OLD					
-ist								
-eigentlich								
-dasjenige	other	pron.pind						
-,								
-das								
-Entscheidungen	OBJ_2	def-np.the	OLD					
-trifft								
-,								
-denn								
-wenn								
-Sie	SBJ_2	pron.pper	OLD					
-einen								
-Patienten	OBJ_2	indef-np.a						
-haben								
-,								
-der	SBJ_2							
-,								
-sagen								
-wir	SBJ_2	pron	OLD					
-zwei								
-Darmspiegelungen	OBJ_2	indef-np.quant						
-bei								
-zwei								
-unterschiedlichen								
-Chirurgen	other_2	indef-np.quant						
-hatte								
-und								
-sich	OBJ_3							
-entscheidet								
-,								
-welchen	OBJ_4	pron.pint						
-er	SBJ_4	pron.pper	OLD					
-wählen								
-soll								
-,								
-dann								
-ist								
-der	SBJ_4	pron	OLD					
-,								
-der	SBJ_6							
-wählt								
-der								
-,								
-der	SBJ_6							
-die								
-Erinnerung	OBJ_6	def-np.the	OLD					
-hat								
-,								
-die	SBJ_7							
-weniger								
-schlimm								
-ist								
-und								
-das	SBJ_7	pron	OLD					
-ist								
-der								
-Chirurg	other_6	def-np.the	OLD					
-,								
-der	SBJ_8							
-ausgewählt								
-werden								
-wird								
-.							
-
-# text = Das erlebende Selbst hat keine Stimme in dieser Wahl.				
-Das								
-erlebende								
-Selbst	SBJ							
-hat								
-keine	other_2	pron	OLD					
-Stimme	OBJ	indef-np.quant						
-in								
-dieser	other_2	pron.pds	OLD					
-Wahl	other	def-np.dem	OLD					
-.							
-
-# text = Eigentlich wählen wir nicht zwischen Erlebnissen.				
-Eigentlich								
-wählen								
-wir	SBJ	pron	OLD					
-nicht								
-zwischen								
-Erlebnissen	other	indef-np.bare						
-.							
-
-# text = Wir wählen zwischen Erinnerungen an Erlebnisse.				
-Wir	SBJ	pron	OLD					
-wählen								
-zwischen								
-Erinnerungen	other	indef-np.bare						
-an								
-Erlebnisse	other_2	indef-np.bare						
-.							
-
-# text = Und selbst wenn wir an die Zukunft denken, denken wir an unsere Zukunft normalerweise nicht als Erlebnisse.				
-Und								
-selbst								
-wenn								
-wir	SBJ_2	pron	OLD					
-an								
-die								
-Zukunft	other_2	def-np.the	OLD					
-denken								
-,								
-denken								
-wir	SBJ	pron	OLD					
-an								
-unsere	other_2	pron.ppos	OLD					
-Zukunft	other	indef-np.bare						
-normalerweise								
-nicht								
-als								
-Erlebnisse	other	indef-np.bare						
-.							
-
-# text = Wir denken über unsere Zukunft nach als vorausgesehene Erinnerungen.				
-Wir	SBJ	pron	OLD					
-denken								
-über								
-unsere	other_2	pron.ppos	OLD					
-Zukunft	other	indef-np.bare						
-nach								
-als								
-vorausgesehene								
-Erinnerungen	other	indef-np.bare						
-.							
-
-# text = Und im Grunde können				
-Und								
-in								
-dem								
+dem					2	dem		
 Grunde	other	def-np.the	OLD					
-können							
-
-# text = Sie das betrachten, wissen Sie, als eine Tyrannei des erinnernden Selbst, und Sie können sich das erinnernde Selbst denken als eins, das sozusagen das erlebende Selbst schleppt durch Erfahrungen, die das erlebende Selbst nicht braucht.				
+können				4	können	
+		
+# text = Sie das betrachten, wissen Sie, als eine Tyrannei des erinnernden Selbst, und Sie können sich das erinnernde Selbst denken als eins, das sozusagen das erlebende Selbst schleppt durch Erfahrungen, die das erlebende Selbst nicht braucht.	
 Sie	SBJ	pron.pper	OLD					
 das	OBJ	pron.pds	OLD					
-betrachten								
+betrachten					3	betrachten		
 ,								
 wissen								
 Sie	SBJ_2	pron.pper	OLD					
@@ -1945,306 +1947,306 @@ Selbst	OBJ_6
 nicht								
 braucht								
 .							
-
+	
 # text = Ich habe den Eindruck, dass wenn wir Urlaub machen das sehr häufig der Fall ist, das heißt, wir machen Urlaub weitestgehend im Dienste des erinnernden Selbst.				
-Ich	SBJ	pron.pper	OLD					
-habe								
-den								
-Eindruck	OBJ	def-np.the	OLD					
-,								
-dass								
-wenn								
-wir	SBJ_3	pron	OLD					
-Urlaub	OBJ_3	indef-np.bare						
-machen								
-das								
-sehr								
-häufig								
-der								
-Fall	other	def-np.the	OLD					
-ist								
-,								
-das	SBJ_4	pron.pds	OLD					
-heißt								
-,								
-wir	SBJ_3	pron	OLD					
-machen								
-Urlaub	OBJ_3	indef-np.bare						
-weitestgehend								
+Ich	SBJ	pron.pper	OLD		1	Ich		
+habe					2	habe		
+den					3	den		
+Eindruck	OBJ	def-np.the	OLD		4	Eindruck		
+,					5	,		
+dass					6	dass		
+wenn					7	wenn		
+wir	SBJ_3	pron	OLD		8	wir		
+Urlaub	OBJ_3	indef-np.bare			9	Urlaub		
+machen					10	machen		
+das					11	das	set_141	
+sehr					12	sehr		
+häufig					13	häufig		
+der					14	der		
+Fall	other	def-np.the	OLD		15	Fall	set_140	
+ist					16	ist		
+,					17	,		
+das	SBJ_4	pron.pds	OLD		18	das	set_140	
+heißt					19	heißt		
+,					20	,		
+wir	SBJ_3	pron	OLD		21	wir		
+machen					22	machen	set_141	
+Urlaub	OBJ_3	indef-np.bare			23	Urlaub		
+weitestgehend					24	weitestgehend		
 in								
-dem								
-Dienste	other_3	def-np.the	OLD					
-des								
-erinnernden								
-Selbst								
-.							
-
-# text = Und das ist ein bisschen schwer zu rechtfertigen, denke ich.				
-Und								
-das	SBJ_2	pron.pds	OLD					
-ist								
-ein								
-bisschen								
-schwer								
-zu								
-rechtfertigen								
-,								
-denke								
-ich	SBJ	pron.pper	OLD					
-.							
-
-# text = Ich meine, wie sehr zehren wir von unseren Erinnerungen?				
-Ich	SBJ	pron.pper	OLD					
-meine	OBJ	pron	OLD					
-,								
-wie								
-sehr								
-zehren								
-wir	SBJ_2	pron	OLD					
-von								
-unseren	other_2	pron.ppos	OLD					
-Erinnerungen	other	indef-np.bare						
-?							
-
-# text = Das ist eine der Erklärungen, die für die Dominanz des erinnernden Selbst gegeben wird.				
-Das	SBJ	pron.pds	OLD					
-ist								
-eine	other	pron.pind						
-der								
-Erklärungen	other	def-np.the	OLD					
-,								
-die	SBJ_3							
-für								
-die								
-Dominanz	other_3	def-np.the	OLD					
-des								
-erinnernden								
-Selbst								
-gegeben								
-wird								
-.							
-
-# text = Und wenn ich darüber nachdenke, denke ich an einen Urlaub, den wir vor ein paar Jahren in der Antarktis gemacht haben, der eindeutig der beste Urlaub war, den ich je gehabt hatte, und ich denke relativ oft daran im Verhältnis dazu, wie oft ich an andere Urlaube denke.				
-Und								
-wenn								
-ich	SBJ_2	pron.pper	OLD					
-darüber								
-nachdenke								
-,								
-denke								
-ich	SBJ	pron.pper	OLD					
-an								
-einen								
-Urlaub	other	indef-np.a						
-,								
-den	OBJ_3							
-wir	SBJ_3	pron	OLD					
-vor								
-ein								
-paar	other_4	pron.pind						
-Jahren	other_3	indef-np.a						
+dem					25	dem		
+Dienste	other_3	def-np.the	OLD		26	Dienste		
+des					27	des	set_141	
+erinnernden					28	erinnernden	set_141	
+Selbst					29	Selbst		
+.				30	.	
+		
+# text = Und das ist ein bisschen schwer zu rechtfertigen, denke ich.	
+Und					1	Und		
+das	SBJ_2	pron.pds	OLD		2	das	set_141	
+ist					3	ist		
+ein					4	ein		
+bisschen					5	bisschen		
+schwer					6	schwer		
+zu					7	zu		
+rechtfertigen					8	rechtfertigen		
+,					9	,		
+denke					10	denke		
+ich	SBJ	pron.pper	OLD		11	ich		
+.				12	.	
+		
+# text = Ich meine, wie sehr zehren wir von unseren Erinnerungen?	
+Ich	SBJ	pron.pper	OLD		1	Ich		
+meine	OBJ	pron	OLD		2	meine		
+,					3	,		
+wie					4	wie		
+sehr					5	sehr		
+zehren					6	zehren	set_219	
+wir	SBJ_2	pron	OLD		7	wir		
+von					8	von		
+unseren	other_2	pron.ppos	OLD		9	unseren		
+Erinnerungen	other	indef-np.bare			10	Erinnerungen		
+?				11		
+		
+# text = Das ist eine der Erklärungen, die für die Dominanz des erinnernden Selbst gegeben wird.	
+Das	SBJ	pron.pds	OLD		1	Das	set_219	
+ist					2	ist		
+eine	other	pron.pind			3	eine		
+der					4	der		
+Erklärungen	other	def-np.the	OLD		5	Erklärungen	set_24	
+,					6	,		
+die	SBJ_3				7	die	set_24	
+für					8	für		
+die					9	die		
+Dominanz	other_3	def-np.the	OLD		10	Dominanz		
+des					11	des		
+erinnernden					12	erinnernden		
+Selbst					13	Selbst	set_236	
+gegeben					14	gegeben		
+wird					15	wird		
+.				16	.	
+		
+# text = Und wenn ich darüber nachdenke, denke ich an einen Urlaub, den wir vor ein paar Jahren in der Antarktis gemacht haben, der eindeutig der beste Urlaub war, den ich je gehabt hatte, und ich denke relativ oft daran im Verhältnis dazu, wie oft ich an andere Urlaube denke.	
+Und					1	Und		
+wenn					2	wenn		
+ich	SBJ_2	pron.pper	OLD		3	ich		
+darüber					4	darüber		
+nachdenke					5	nachdenke		
+,					6	,		
+denke					7	denke		
+ich	SBJ	pron.pper	OLD		8	ich		
+an					9	an		
+einen					10	einen		
+Urlaub	other	indef-np.a			11	Urlaub	set_96	
+,					12	,		
+den	OBJ_3				13	den	set_96	
+wir	SBJ_3	pron	OLD		14	wir		
+vor					15	vor		
+ein					16	ein		
+paar	other_4	pron.pind			17	paar		
+Jahren	other_3	indef-np.a			18	Jahren		
+in					19	in		
+der					20	der		
+Antarktis	other_3	ne	OLD		21	Antarktis		
+gemacht					22	gemacht		
+haben					23	haben		
+,					24	,		
+der	SBJ_2				25	der		
+eindeutig					26	eindeutig		
+der					27	der		
+beste					28	beste		
+Urlaub	other	def-np.the	OLD		29	Urlaub	set_96	
+war					30	war		
+,					31	,		
+den	OBJ_3				32	den	set_96	
+ich	SBJ_3	pron.pper	OLD		33	ich		
+je					34	je		
+gehabt					35	gehabt		
+hatte					36	hatte		
+,					37	,		
+und					38	und		
+ich	SBJ_2	pron.pper	OLD		39	ich		
+denke					40	denke		
+relativ					41	relativ		
+oft					42	oft		
+daran					43	daran	set_96	
 in								
-der								
-Antarktis	other_3	ne	OLD					
-gemacht								
-haben								
-,								
-der	SBJ_2							
-eindeutig								
-der								
-beste								
-Urlaub	other	def-np.the	OLD					
-war								
-,								
-den	OBJ_3							
-ich	SBJ_3	pron.pper	OLD					
-je								
-gehabt								
-hatte								
-,								
-und								
-ich	SBJ_2	pron.pper	OLD					
-denke								
-relativ								
-oft								
-daran								
+dem					44	dem		
+Verhältnis	other_2	def-np.the	OLD		45	Verhältnis		
+dazu					46	dazu		
+,					47	,		
+wie					48	wie		
+oft					49	oft		
+ich	SBJ_3	pron.pper	OLD		50	ich		
+an					51	an		
+andere	other_4	pron	OLD		52	andere	set_96	
+Urlaube	other_3	indef-np.bare			53	Urlaube	set_96	
+denke					54	denke		
+.				55	.	
+		
+# text = Und ich habe wahrscheinlich von meinen Erinnerungen an diese dreiwöchige Reise, ich würde sagen ungefähr 25 Minuten lang in den letzten vier Jahren gezehrt.	
+Und					1	Und		
+ich	SBJ	pron.pper	OLD		2	ich		
+habe					3	habe		
+wahrscheinlich					4	wahrscheinlich		
+von					5	von		
+meinen	other_2	pron.ppos	OLD		6	meinen		
+Erinnerungen	other	indef-np.bare			7	Erinnerungen		
+an					8	an		
+diese	other_3	pron.pds	OLD		9	diese		
+dreiwöchige	other_3	pron	OLD		10	dreiwöchige		
+Reise	other_2	def-np.dem	OLD		11	Reise	set_96	
+,					12	,		
+ich	SBJ_2	pron.pper	OLD		13	ich		
+würde					14	würde		
+sagen					15	sagen		
+ungefähr					16	ungefähr		
+25					17	25		
+Minuten	other_3	indef-np.quant			18	Minuten	set_220	
+lang					19	lang		
+in					20	in		
+den					21	den		
+letzten					22	letzten		
+vier					23	vier		
+Jahren	other	def-np.quant	OLD		24	Jahren		
+gezehrt					25	gezehrt		
+.				26	.	
+		
+# text = Nun, wenn ich je den Ordner geöffnet hätte mit den 600 Bildern darin hätte ich eine weitere Stunde verbracht.	
+Nun					1	Nun		
+,					2	,		
+wenn					3	wenn		
+ich	SBJ_2	pron.pper	OLD		4	ich		
+je					5	je		
+den					6	den		
+Ordner	OBJ_2	def-np.the	OLD		7	Ordner	set_146	
+geöffnet					8	geöffnet		
+hätte					9	hätte		
+mit					10	mit		
+den					11	den		
+600					12	600		
+Bildern	other	def-np.quant	OLD		13	Bildern		
+darin					14	darin	set_146	
+hätte					15	hätte		
+ich	SBJ	pron.pper	OLD		16	ich		
+eine					17	eine		
+weitere					18	weitere		
+Stunde	OBJ	indef-np.a			19	Stunde	set_220	
+verbracht					20	verbracht		
+.				21	.	
+		
+# text = Nun, das sind drei Wochen, und das sind höchstens eineinhalb Stunden.	
+Nun					1	Nun		
+,					2	,		
+das	SBJ	pron.pds	OLD		3	das	set_96	
+sind					4	sind		
+drei					5	drei		
+Wochen	other	indef-np.quant			6	Wochen		
+,					7	,		
+und					8	und		
+das	SBJ_2	pron.pds	OLD		9	das	set_220	
+sind					10	sind		
+höchstens					11	höchstens		
+eineinhalb					12	eineinhalb		
+Stunden	other	indef-np.quant			13	Stunden		
+.				14	.	
+		
+# text = Da scheint es eine Unstimmigkeit zu geben.	
+Da					1	Da		
+scheint					2	scheint		
+es	SBJ	pron.pper	OLD		3	es		
+eine					4	eine		
+Unstimmigkeit	OBJ_2	indef-np.a			5	Unstimmigkeit		
+zu					6	zu		
+geben					7	geben		
+.				8	.	
+		
+# text = Nun, ich mag ein bisschen extrem sein, wissen Sie, darin, wie wenig Appetit ich auf das Zehren von Erinnerungen habe, aber selbst, wenn Sie mehr davon machen gibt es eine echte Frage.	
+Nun					1	Nun		
+,					2	,		
+ich	SBJ_2	pron.pper	OLD		3	ich		
+mag					4	mag		
+ein					5	ein		
+bisschen	SBJ_2	pron.pind			6	bisschen		
+extrem					7	extrem		
+sein					8	sein		
+,					9	,		
+wissen					10	wissen		
+Sie	SBJ	pron.pper	OLD		11	Sie		
+,					12	,		
+darin	other	pron.padv	OLD		13	darin		
+,					14	,		
+wie					15	wie		
+wenig					16	wenig		
+Appetit	OBJ_2	ne	OLD		17	Appetit		
+ich	SBJ_2	pron.pper	OLD		18	ich		
+auf					19	auf		
+das					20	das		
+Zehren	other_2	def-np.the	OLD		21	Zehren		
+von					22	von		
+Erinnerungen	other_3	indef-np.bare			23	Erinnerungen	set_148	
+habe					24	habe		
+,					25	,		
+aber					26	aber		
+selbst					27	selbst		
+,					28	,		
+wenn					29	wenn		
+Sie	SBJ_4	pron.pper	OLD		30	Sie		
+mehr					31	mehr		
+davon	other_4	pron.padv	OLD		32	davon	set_148	
+machen					33	machen		
+gibt					34	gibt		
+es	SBJ_3	pron.pper	OLD		35	es		
+eine					36	eine		
+echte					37	echte		
+Frage	OBJ_3	indef-np.a			38	Frage		
+.				39	.	
+		
+# text = Warum geben wir Erinnerungen so viel Gewicht im Verlgeich zu dem Gewicht, das wir Erlebnissen geben?	
+Warum					1	Warum		
+geben					2	geben		
+wir	SBJ	pron	OLD		3	wir		
+Erinnerungen	SBJ_2	indef-np.bare			4	Erinnerungen		
+so					5	so		
+viel	other_2	pron.pind			6	viel		
+Gewicht	OBJ	indef-np.quant			7	Gewicht		
 in								
-dem								
-Verhältnis	other_2	def-np.the	OLD					
-dazu								
-,								
-wie								
-oft								
-ich	SBJ_3	pron.pper	OLD					
-an								
-andere	other_4	pron	OLD					
-Urlaube	other_3	indef-np.bare						
-denke								
-.							
-
-# text = Und ich habe wahrscheinlich von meinen Erinnerungen an diese dreiwöchige Reise, ich würde sagen ungefähr 25 Minuten lang in den letzten vier Jahren gezehrt.				
-Und								
-ich	SBJ	pron.pper	OLD					
-habe								
-wahrscheinlich								
-von								
-meinen	other_2	pron.ppos	OLD					
-Erinnerungen	other	indef-np.bare						
-an								
-diese	other_3	pron.pds	OLD					
-dreiwöchige	other_3	pron	OLD					
-Reise	other_2	def-np.dem	OLD					
-,								
-ich	SBJ_2	pron.pper	OLD					
-würde								
-sagen								
-ungefähr								
-25								
-Minuten	other_3	indef-np.quant						
-lang								
-in								
-den								
-letzten								
-vier								
-Jahren	other	def-np.quant	OLD					
-gezehrt								
-.							
-
-# text = Nun, wenn ich je den Ordner geöffnet hätte mit den 600 Bildern darin hätte ich eine weitere Stunde verbracht.				
-Nun								
-,								
-wenn								
-ich	SBJ_2	pron.pper	OLD					
-je								
-den								
-Ordner	OBJ_2	def-np.the	OLD					
-geöffnet								
-hätte								
-mit								
-den								
-600								
-Bildern	other	def-np.quant	OLD					
-darin								
-hätte								
-ich	SBJ	pron.pper	OLD					
-eine								
-weitere								
-Stunde	OBJ	indef-np.a						
-verbracht								
-.							
-
-# text = Nun, das sind drei Wochen, und das sind höchstens eineinhalb Stunden.				
-Nun								
-,								
-das	SBJ	pron.pds	OLD					
-sind								
-drei								
-Wochen	other	indef-np.quant						
-,								
-und								
-das	SBJ_2	pron.pds	OLD					
-sind								
-höchstens								
-eineinhalb								
-Stunden	other	indef-np.quant						
-.							
-
-# text = Da scheint es eine Unstimmigkeit zu geben.				
-Da								
-scheint								
-es	SBJ	pron.pper	OLD					
-eine								
-Unstimmigkeit	OBJ_2	indef-np.a						
-zu								
-geben								
-.							
-
-# text = Nun, ich mag ein bisschen extrem sein, wissen Sie, darin, wie wenig Appetit ich auf das Zehren von Erinnerungen habe, aber selbst, wenn Sie mehr davon machen gibt es eine echte Frage.				
-Nun								
-,								
-ich	SBJ_2	pron.pper	OLD					
-mag								
-ein								
-bisschen	SBJ_2	pron.pind						
-extrem								
-sein								
-,								
-wissen								
-Sie	SBJ	pron.pper	OLD					
-,								
-darin	other	pron.padv	OLD					
-,								
-wie								
-wenig								
-Appetit	OBJ_2	ne	OLD					
-ich	SBJ_2	pron.pper	OLD					
-auf								
-das								
-Zehren	other_2	def-np.the	OLD					
-von								
-Erinnerungen	other_3	indef-np.bare						
-habe								
-,								
-aber								
-selbst								
-,								
-wenn								
-Sie	SBJ_4	pron.pper	OLD					
-mehr								
-davon	other_4	pron.padv	OLD					
-machen								
-gibt								
-es	SBJ_3	pron.pper	OLD					
-eine								
-echte								
-Frage	OBJ_3	indef-np.a						
-.							
-
-# text = Warum geben wir Erinnerungen so viel Gewicht im Verlgeich zu dem Gewicht, das wir Erlebnissen geben?				
-Warum								
-geben								
-wir	SBJ	pron	OLD					
-Erinnerungen	SBJ_2	indef-np.bare						
-so								
-viel	other_2	pron.pind						
-Gewicht	OBJ	indef-np.quant						
-in								
-dem								
-Verlgeich	other	def-np.the	OLD					
-zu	other_2	pron.pind						
-dem								
-Gewicht	other	def-np.the	OLD					
-,								
-das	OBJ_3							
-wir	SBJ_3	pron	OLD					
-Erlebnissen	OBJ_3	indef-np.bare						
-geben								
-?							
-
-# text = Daher möchte ich, dass Sie über ein Gedankenexperiment nachdenken.				
-Daher								
-möchte								
-ich	SBJ	pron.pper	OLD					
-,								
-dass								
-Sie	SBJ_2	pron.pper	OLD					
-über								
-ein								
-Gedankenexperiment	other_2	indef-np.a						
-nachdenken								
-.							
-
-# text = Stellen Sie sich ihren nächsten Urlaub vor, Sie wissen, dass am Ende des Urlaubs alle Ihre Bilder vernichtet werden und Sie bekommen ein amnestisches Medikament, so dass Sie sich an nichts erinnern werden.				
-Stellen	other_2	indef-np.bare						
-Sie	SBJ	pron.pper	OLD					
-sich	OBJ							
-ihren								
-nächsten								
-Urlaub	OBJ	indef-np						
-vor								
-,								
-Sie	other	pron.pper	OLD					
-wissen								
+dem					8	dem		
+Verlgeich	other	def-np.the	OLD		10	Verlgeich		
+zu	other_2	pron.pind			10	zu		
+dem					11	dem	set_26	
+Gewicht	other	def-np.the	OLD		12	Gewicht	set_26	
+,					13	,		
+das	OBJ_3				14	das	set_26	
+wir	SBJ_3	pron	OLD		15	wir		
+Erlebnissen	OBJ_3	indef-np.bare			16	Erlebnissen		
+geben					17	geben		
+?				18		
+		
+# text = Daher möchte ich, dass Sie über ein Gedankenexperiment nachdenken.	
+Daher					1	Daher		
+möchte					2	möchte		
+ich	SBJ	pron.pper	OLD		3	ich		
+,					4	,		
+dass					5	dass		
+Sie	SBJ_2	pron.pper	OLD		6	Sie		
+über					7	über		
+ein					8	ein		
+Gedankenexperiment	other_2	indef-np.a			9	Gedankenexperiment		
+nachdenken					10	nachdenken		
+.				11	.	
+		
+# text = Stellen Sie sich ihren nächsten Urlaub vor, Sie wissen, dass am Ende des Urlaubs alle Ihre Bilder vernichtet werden und Sie bekommen ein amnestisches Medikament, so dass Sie sich an nichts erinnern werden.	
+Stellen	other_2	indef-np.bare			1	Stellen		
+Sie	SBJ	pron.pper	OLD		2	Sie		
+sich	OBJ				3	sich		
+ihren					4	ihren		
+nächsten					5	nächsten		
+Urlaub	OBJ	indef-np			6	Urlaub	set_152	
+vor					7	vor		
+,					8	,		
+Sie	other	pron.pper	OLD		9	Sie		
+wissen					10	wissen		
 ,								
 dass								
 an								
@@ -2253,9 +2255,9 @@ Ende	other_2	def-np.the	OLD
 des								
 Urlaubs	other_3	def-np.the	OLD					
 alle	other_4	pron.pind						
-Ihre	other_3	indef-np.quant						
+Ihre	other_3	indef-np.quant			18	Ihre		
 Bilder	OBJ_2	indef-np.bare						
-vernichtet								
+vernichtet					20	vernichtet		
 werden								
 und								
 Sie	SBJ_3	pron.pper	OLD					
@@ -2273,31 +2275,31 @@ nichts	other_3	pron	OLD
 erinnern								
 werden								
 .							
-
+	
 # text = Nun, würden Sie den gleichen Urlaub wählen?				
-Nun								
-,								
-würden								
-Sie	SBJ	pron.pper	OLD					
-den								
-gleichen								
-Urlaub	OBJ	def-np.the	OLD					
-wählen								
-?							
-
-# text = (Gelächter) Und wenn Sie einen anderen Urlaub wählen würden, gibt es einen Konflikt zwischen Ihren beiden Arten des Selbst und Sie müssen darüber nachdenken, wie Sie diesen Konflikt entscheiden und das ist wirklich überhaupt nicht offensichtlich, denn wenn Sie im Sinne von Zeit denken bekommen Sie eine Antwort.				
-(								
+Nun					1	Nun		
+,					2	,		
+würden					3	würden		
+Sie	SBJ	pron.pper	OLD		4	Sie		
+den					5	den		
+gleichen					6	gleichen		
+Urlaub	OBJ	def-np.the	OLD		7	Urlaub	set_152	
+wählen					8	wählen		
+?				9		
+		
+# text = (Gelächter) Und wenn Sie einen anderen Urlaub wählen würden, gibt es einen Konflikt zwischen Ihren beiden Arten des Selbst und Sie müssen darüber nachdenken, wie Sie diesen Konflikt entscheiden und das ist wirklich überhaupt nicht offensichtlich, denn wenn Sie im Sinne von Zeit denken bekommen Sie eine Antwort.	
+(					1	(		
 Gelächter	SBJ	indef-np.bare						
 )								
-Und								
+Und					1	Und		
 wenn								
-Sie	SBJ_3	pron.pper	OLD					
+Sie	SBJ_3	pron.pper	OLD		10	gibt		
 einen								
 anderen								
 Urlaub	OBJ_3	indef-np.a						
-wählen								
-würden								
-,								
+wählen					10	wählen		
+würden					11	würden		
+,					12	,		
 gibt								
 es								
 einen								
@@ -2328,8 +2330,8 @@ nicht
 offensichtlich								
 ,								
 denn								
-wenn								
-Sie	SBJ_4	pron.pper	OLD					
+wenn					2	wenn		
+Sie	SBJ_4	pron.pper	OLD		3	Sie		
 in								
 dem								
 Sinne	other_4	def-np.the	OLD					
@@ -2338,10 +2340,10 @@ Zeit	other_4	indef-np.bare
 denken								
 bekommen								
 Sie	SBJ_3	pron.pper	OLD					
-eine								
-Antwort	OBJ_3	indef-np.a						
-.							
-
+eine					4	einen	set_152	
+Antwort	OBJ_3	indef-np.a			5	anderen	set_152	
+.				6	Urlaub	set_152	
+	
 # text = Und wenn Sie im Sinne von Erinnerungen denken könnten Sie eine andere Antwort bekommen.				
 Und								
 wenn								
@@ -2354,459 +2356,459 @@ Erinnerungen	other_2	indef-np.bare
 denken								
 könnten								
 Sie	SBJ	pron.pper	OLD					
-eine								
-andere								
+eine					11	eine	set_155	
+andere					12	andere	set_155	
 Antwort	OBJ	indef-np.a						
-bekommen								
+bekommen					14	bekommen		
 .							
-
+	
 # text = Warum wir die Urlaube aussuchen, die wir aussuchen ist ein Problem, das sich uns stellt mit einer Wahl zwischen den beiden Arten des Selbst.				
-Warum								
-wir	SBJ_2	pron	OLD					
-die								
-Urlaube	OBJ_2	def-np.the	OLD					
-aussuchen								
-,								
-die	OBJ_2							
-wir	SBJ_2	pron	OLD					
-aussuchen								
-ist								
-ein								
-Problem	other	indef-np.a						
-,								
-das	SBJ_2							
-sich	OBJ_2							
-uns	OBJ_2	pron	OLD					
-stellt								
-mit								
-einer								
-Wahl	other_2	indef-np.a						
-zwischen								
-den								
-beiden								
-Arten	other_3	def-np.quant	OLD					
-des								
-Selbst								
-.							
-
-# text = Nun, die beiden Arten des Selbst werfen zwei Begriffe vom Glück auf.				
-Nun								
-,								
-die								
-beiden								
-Arten	SBJ	def-np.quant	OLD					
-des								
-Selbst	other_2	def-np.the	OLD					
-werfen								
-zwei								
-Begriffe	SBJ	indef-np.quant						
+Warum					1	Warum		
+wir	SBJ_2	pron	OLD		2	wir		
+die					3	die		
+Urlaube	OBJ_2	def-np.the	OLD		4	Urlaube	set_59	
+aussuchen					5	aussuchen		
+,					6	,		
+die	OBJ_2				7	die	set_59	
+wir	SBJ_2	pron	OLD		8	wir		
+aussuchen					9	aussuchen		
+ist					10	ist		
+ein					11	ein		
+Problem	other	indef-np.a			12	Problem	set_60	
+,					13	,		
+das	SBJ_2				14	das	set_60	
+sich	OBJ_2				15	sich		
+uns	OBJ_2	pron	OLD		16	uns		
+stellt					17	stellt		
+mit					18	mit		
+einer					19	einer		
+Wahl	other_2	indef-np.a			20	Wahl		
+zwischen					21	zwischen		
+den					22	den		
+beiden					23	beiden		
+Arten	other_3	def-np.quant	OLD		24	Arten	set_68	
+des					25	des		
+Selbst					26	Selbst		
+.				27	.	
+		
+# text = Nun, die beiden Arten des Selbst werfen zwei Begriffe vom Glück auf.	
+Nun					1	Nun		
+,					2	,		
+die					3	die		
+beiden					4	beiden		
+Arten	SBJ	def-np.quant	OLD		5	Arten	set_68	
+des					6	des		
+Selbst	other_2	def-np.the	OLD		7	Selbst		
+werfen					8	werfen		
+zwei					9	zwei		
+Begriffe	SBJ	indef-np.quant			10	Begriffe		
 von								
 dem								
-Glück	other_2	def-np.the	OLD					
+Glück	other_2	def-np.the	OLD		12	Glück		
 auf								
-.							
-
-# text = Es gibt tatsächlich zwei Konzepte vom Glück, die wir anwenden können, eines pro Selbst.				
-Es	SBJ	pron.pper	OLD					
-gibt								
-tatsächlich								
-zwei								
-Konzepte	OBJ	indef-np.quant						
+.				14	.	
+		
+# text = Es gibt tatsächlich zwei Konzepte vom Glück, die wir anwenden können, eines pro Selbst.	
+Es	SBJ	pron.pper	OLD		1	Es		
+gibt					2	gibt		
+tatsächlich					3	tatsächlich		
+zwei					4	zwei		
+Konzepte	OBJ	indef-np.quant			5	Konzepte	set_221	
 von								
 dem								
-Glück	other_2	def-np.the	OLD					
+Glück	other_2	def-np.the	OLD		7	Glück		
 ,								
 die	OBJ_5							
 wir	SBJ_5	pron	OLD					
-anwenden								
+anwenden					11	anwenden		
 können								
-,								
+,					13	,		
 eines	other_3	pron	OLD					
-pro								
-Selbst								
-.							
-
-# text = Sie können also fragen: Wie glücklich ist das erlebende Selbst?				
-Sie	SBJ	pron.pper	OLD					
-können								
-also								
-fragen								
-:								
-Wie								
-glücklich								
-ist								
-das								
-erlebende								
-Selbst	SBJ_2							
-?							
-
-# text = Und dann würden Sie fragen: Wie glücklich sind die Augenblicke im Leben des erlebenden Selbst?				
-Und								
-dann								
-würden								
-Sie	SBJ	pron.pper	OLD					
-fragen								
-:								
-Wie								
-glücklich								
-sind								
-die								
-Augenblicke	SBJ	def-np.the	OLD					
+pro					15	pro		
+Selbst					16	Selbst		
+.				17	.	
+		
+# text = Sie können also fragen: Wie glücklich ist das erlebende Selbst?	
+Sie	SBJ	pron.pper	OLD		1	Sie		
+können					2	können		
+also					3	also		
+fragen					4	fragen		
+:					5	:		
+Wie					6	Wie		
+glücklich					7	glücklich		
+ist					8	ist		
+das					9	das		
+erlebende					10	erlebende		
+Selbst	SBJ_2				11	Selbst	set_232	
+?				12		
+		
+# text = Und dann würden Sie fragen: Wie glücklich sind die Augenblicke im Leben des erlebenden Selbst?	
+Und					1	Und		
+dann					2	dann		
+würden					3	würden		
+Sie	SBJ	pron.pper	OLD		4	Sie		
+fragen					5	fragen		
+:					6	:		
+Wie					7	Wie		
+glücklich					8	glücklich		
+sind					9	sind		
+die					10	die		
+Augenblicke	SBJ	def-np.the	OLD		11	Augenblicke	set_62	
 in								
-dem								
-Leben	other_2	def-np.the	OLD					
-des								
-erlebenden								
-Selbst								
-?							
-
-# text = Und sie sind alle -- Glück für Augenblicke ist ein ziemlich komplizierter Prozess.				
-Und								
-sie	SBJ	pron	OLD					
-sind								
-alle	other_2	pron.pind						
-_								
-Glück	SBJ	ne	OLD					
-für								
-Augenblicke	other_2	ne	OLD					
-ist								
-ein								
-ziemlich								
-komplizierter								
-Prozess	other	indef-np.a						
-.							
-
-# text = Welches sind die Emotionen, die gemessen werden können?				
-Welches	SBJ							
-sind								
-die								
-Emotionen	other	def-np.the	OLD					
-,								
-die	SBJ_2							
-gemessen								
-werden								
-können								
-?							
-
-# text = Und, nebenbei, wir sind nun imstande eine ziemlich gute Vorstellung zu bekommen vom Glück des erlebenden Selbst über die Zeit.				
-Und								
-,								
-nebenbei								
-,								
-wir	SBJ	pron	OLD					
-sind								
-nun								
-imstande								
-eine								
-ziemlich								
-gute								
-Vorstellung	OBJ	indef-np.a						
-zu								
-bekommen								
+dem					12	dem		
+Leben	other_2	def-np.the	OLD		13	Leben		
+des					14	des	set_232	
+erlebenden					15	erlebenden	set_232	
+Selbst					16	Selbst		
+?				17		
+		
+# text = Und sie sind alle -- Glück für Augenblicke ist ein ziemlich komplizierter Prozess.	
+Und					1	Und		
+sie	SBJ	pron	OLD		2	sie	set_62	
+sind					3	sind		
+alle	other_2	pron.pind			4	alle		
+_					5			
+Glück	SBJ	ne	OLD		6	Glück		
+für					7	für		
+Augenblicke	other_2	ne	OLD		8	Augenblicke		
+ist					9	ist		
+ein					10	ein		
+ziemlich					11	ziemlich		
+komplizierter					12	komplizierter		
+Prozess	other	indef-np.a			13	Prozess		
+.				14	.	
+		
+# text = Welches sind die Emotionen, die gemessen werden können?	
+Welches	SBJ				1	Welches		
+sind					2	sind		
+die					3	die		
+Emotionen	other	def-np.the	OLD		4	Emotionen	set_27	
+,					5	,		
+die	SBJ_2				6	die	set_27	
+gemessen					7	gemessen		
+werden					8	werden		
+können					9	können		
+?				10		
+		
+# text = Und, nebenbei, wir sind nun imstande eine ziemlich gute Vorstellung zu bekommen vom Glück des erlebenden Selbst über die Zeit.	
+Und					1	Und		
+,					2	,		
+nebenbei					3	nebenbei		
+,					4	,		
+wir	SBJ	pron	OLD		5	wir		
+sind					6	sind		
+nun					7	nun		
+imstande					8	imstande		
+eine					9	eine		
+ziemlich					10	ziemlich		
+gute					11	gute		
+Vorstellung	OBJ	indef-np.a			12	Vorstellung		
+zu					13	zu		
+bekommen					14	bekommen		
 von								
-dem								
-Glück	other	def-np.the	OLD					
-des								
-erlebenden								
-Selbst								
-über								
-die								
-Zeit	other_2	def-np.the	OLD					
-.							
-
-# text = Wenn Sie nach dem Glück des erinnernden Selbst fragen ist es eine ganz andere Sache.				
-Wenn								
-Sie	SBJ_2	pron.pper	OLD					
-nach								
-dem								
-Glück	other_2	def-np.the	OLD					
-des								
-erinnernden								
-Selbst								
-fragen								
-ist								
-es	SBJ	pron.pper	OLD					
-eine								
-ganz								
-andere								
-Sache	other	indef-np.a						
-.							
-
-# text = Das handelt nicht davon, wie glücklich eine Person lebt.				
-Das	SBJ	pron.pds	OLD					
-handelt								
-nicht								
-davon								
-,								
-wie								
-glücklich								
-eine								
-Person	SBJ_2	indef-np.a						
-lebt								
-.							
-
-# text = Es handelt davon, wie zufrieden oder erfreut die Person ist, wenn diese Person über ihr Leben nachdenkt.				
-Es	SBJ	pron.pper	OLD					
-handelt								
-davon	other_2	pron.padv	OLD					
-,								
-wie								
-zufrieden								
-oder								
-erfreut								
-die								
-Person	OBJ	def-np.the	OLD					
-ist								
-,								
-wenn								
-diese	other_3	pron.pds	OLD					
-Person	SBJ_2	def-np.dem	OLD					
-über								
-ihr								
-Leben	other_2	indef-np						
-nachdenkt								
-.							
-
-# text = Sehr unterschiedlicher Begriff.				
-Sehr								
-unterschiedlicher								
-Begriff	other	indef-np.bare						
-.							
-
-# text = Jeder, der diese Begriffe nicht unterscheidet wird die Erforschung des Glücks vermasseln, und ich gehöre zu einer Menge von Forschern über Wohlbefinden, die die Erforschung des Glücks lange vermasselt haben auf genau diese Art.				
-Jeder	other_2	pron.pind						
-,								
-der	SBJ_4							
-diese	other_5	pron.pds	OLD					
-Begriffe	OBJ_4	def-np.dem	OLD					
-nicht								
-unterscheidet								
-wird								
-die								
-Erforschung	OBJ	def-np.the	OLD					
-des								
-Glücks	other_2	def-np.the	OLD					
-vermasseln								
-,								
-und								
-ich	SBJ_2	pron.pper	OLD					
-gehöre								
-zu	other_3	pron.pind						
-einer								
-Menge	other_2	indef-np.a						
-von								
-Forschern	other_3	indef-np.bare						
-über								
-Wohlbefinden	other_4	indef-np.bare						
-,								
-die	SBJ_6							
-die								
-Erforschung	OBJ_6	def-np.the	OLD					
-des								
-Glücks	other_7	def-np.the	OLD					
-lange								
-vermasselt								
-haben								
-auf								
-genau								
-diese	other_3	pron.pds	OLD					
-Art	other_2	def-np.dem	OLD					
-.							
-
-# text = Die Unterscheidung zwischen dem Glück des erlebenden Selbst und der Zufriedenheit des erinnernden Selbst ist in den letzten Jahren erkannt worden, und jetzt bemüht man sich, die beiden separat zu messen.				
-Die								
-Unterscheidung	SBJ	def-np.the	OLD					
-zwischen								
-dem								
-Glück	other_2	def-np.the	OLD					
-des								
-erlebenden								
-Selbst								
-und								
-der								
-Zufriedenheit	other_3	def-np.the	OLD					
-des								
-erinnernden								
-Selbst								
-ist								
-in								
-den								
-letzten								
-Jahren	other	def-np.the	OLD					
-erkannt								
-worden								
-,								
-und								
-jetzt								
-bemüht								
-man	SBJ_2	pron.pind						
-sich	OBJ_2							
-,								
-die								
-beiden	SBJ_3	pron.pind						
-separat								
-zu								
-messen								
-.							
-
-# text = Die Gallup Organization hat eine weltweite Umfrage, bei der mehr als einer halben Million Leute Fragen gestellt worden sind darüber, was sie über ihr Leben denken und über ihre Erlebnisse.				
-Die								
-Gallup	SBJ	ne	OLD					
-Organization								
-hat								
-eine								
-weltweite								
-Umfrage	OBJ	indef-np.a						
-,								
-bei								
-der								
-mehr								
-als								
-einer								
-halben								
-Million	other_3	indef-np.a						
-Leute								
-Fragen	other_2	ne	OLD					
-gestellt								
-worden								
-sind								
-darüber								
-,								
-was	SBJ_3	pron	OLD					
-sie	SBJ_3	pron	OLD					
-über								
-ihr								
-Leben	other_3	indef-np						
-denken								
-und								
-über								
-ihre								
-Erlebnisse	other_3	indef-np						
-.							
-
-# text = Und es gab andere Bemühungen in der Richtung.				
-Und								
-es								
-gab								
-andere	other_2	pron	OLD					
-Bemühungen	SBJ	indef-np.bare						
-in								
-der								
-Richtung	other	def-np.the	OLD					
-.							
-
-# text = In den letzten Jahren haben wir also angefangen, über das Glück der beiden Arten des Selbst zu lernen.				
-In								
-den								
-letzten								
-Jahren	other	def-np.the	OLD					
-haben								
-wir	SBJ	pron	OLD					
-also								
-angefangen								
-,								
-über								
-das								
-Glück	other_2	def-np.the	OLD					
-der								
-beiden								
-Arten	other_3	def-np.quant	OLD					
-des								
-Selbst								
-zu								
-lernen								
-.							
-
-# text = Und die hauptsächliche Lektion, die wir, glaube ich, gelernt haben ist, dass sie wirklich unterschiedlich sind.				
-Und								
-die								
-hauptsächliche								
-Lektion	SBJ	def-np.the	OLD					
-,								
-die	OBJ_3							
-wir	SBJ_5	pron	OLD					
-,								
-glaube								
-ich	SBJ_3	pron.pper	OLD					
-,								
-gelernt								
-haben								
-ist								
-,								
-dass								
-sie	SBJ_2	pron	OLD					
-wirklich								
-unterschiedlich								
-sind								
-.							
-
-# text = Sie können wissen, wie zufrieden jemand mit seinem Leben ist, und das lehrt sie wirklich nicht viel darüber, wie glücklich er sein Leben lebt und umgekehrt.				
-Sie	SBJ	pron.pper	OLD					
-können								
-wissen								
-,								
-wie								
-zufrieden								
-jemand	SBJ_2	pron.pind						
-mit								
-seinem								
-Leben	other_3	indef-np						
-ist								
-,								
-und								
-das	OBJ_2	pron.pds	OLD					
-lehrt								
-sie	SBJ_2	pron	OLD					
-wirklich								
-nicht								
-viel	OBJ_2	pron	OLD					
-darüber								
-,								
-wie								
-glücklich								
-er	SBJ_3	pron.pper	OLD					
-sein								
-Leben	SBJ_3	indef-np						
-lebt								
-und								
-umgekehrt								
-.							
-
-# text = Nur um Ihnen einen Eindruck von der Korrelation zu vermitteln, die Korrelation ist ungefähr .5.				
-Nur								
-um								
-Ihnen	other	pron.pper	OLD					
-einen								
-Eindruck	OBJ	indef-np.a						
-von								
-der								
-Korrelation	other_2	def-np.the	OLD					
-zu								
-vermitteln								
-,								
-die								
-Korrelation	SBJ_2	def-np.the	OLD					
-ist								
-ungefähr								
-.5.							
-
-# text = Was das bedeutet ist, dass wenn Sie jemanden treffen würden und man würde Ihnen sagen, oh, sein Vater ist ein Zwei-Meter-Mann, wie viel würden Sie über seine Größe wissen?				
-Was	SBJ	pron	OLD					
-das	SBJ							
-bedeutet								
-ist								
-,								
-dass								
-wenn								
-Sie	SBJ_2	pron.pper	OLD					
-jemanden	OBJ_2	pron.pind						
-treffen								
-würden								
-und								
-man	SBJ_2	pron.pind						
-würde								
-Ihnen	OBJ_2	pron.pper	OLD					
-sagen								
+dem					15	dem		
+Glück	other	def-np.the	OLD		16	Glück		
+des					17	des	set_232	
+erlebenden					18	erlebenden	set_232	
+Selbst					19	Selbst		
+über					20	über		
+die					21	die		
+Zeit	other_2	def-np.the	OLD		22	Zeit		
+.				23	.	
+		
+# text = Wenn Sie nach dem Glück des erinnernden Selbst fragen ist es eine ganz andere Sache.	
+Wenn					1	Wenn		
+Sie	SBJ_2	pron.pper	OLD		2	Sie		
+nach					3	nach		
+dem					4	dem		
+Glück	other_2	def-np.the	OLD		5	Glück	set_235	
+des					6	des		
+erinnernden					7	erinnernden		
+Selbst					8	Selbst	set_236	
+fragen					9	fragen		
+ist					10	ist		
+es	SBJ	pron.pper	OLD		11	es	set_235	
+eine					12	eine		
+ganz					13	ganz		
+andere					14	andere		
+Sache	other	indef-np.a			15	Sache		
+.				16	.	
+		
+# text = Das handelt nicht davon, wie glücklich eine Person lebt.	
+Das	SBJ	pron.pds	OLD		1	Das	set_235	
+handelt					2	handelt		
+nicht					3	nicht		
+davon					4	davon		
+,					5	,		
+wie					6	wie		
+glücklich					7	glücklich		
+eine					8	eine		
+Person	SBJ_2	indef-np.a			9	Person	set_157	
+lebt					10	lebt		
+.				11	.	
+		
+# text = Es handelt davon, wie zufrieden oder erfreut die Person ist, wenn diese Person über ihr Leben nachdenkt.	
+Es	SBJ	pron.pper	OLD		1	Es	set_235	
+handelt					2	handelt		
+davon	other_2	pron.padv	OLD		3	davon		
+,					4	,		
+wie					5	wie		
+zufrieden					6	zufrieden		
+oder					7	oder		
+erfreut					8	erfreut		
+die					9	die		
+Person	OBJ	def-np.the	OLD		10	Person	set_157	
+ist					11	ist		
+,					12	,		
+wenn					13	wenn		
+diese	other_3	pron.pds	OLD		14	diese		
+Person	SBJ_2	def-np.dem	OLD		15	Person	set_157	
+über					16	über		
+ihr					17	ihr	set_157	
+Leben	other_2	indef-np			18	Leben		
+nachdenkt					19	nachdenkt		
+.				20	.	
+		
+# text = Sehr unterschiedlicher Begriff.	
+Sehr					1	Sehr		
+unterschiedlicher					2	unterschiedlicher		
+Begriff	other	indef-np.bare			3	Begriff		
+.				4	.	
+		
+# text = Jeder, der diese Begriffe nicht unterscheidet wird die Erforschung des Glücks vermasseln, und ich gehöre zu einer Menge von Forschern über Wohlbefinden, die die Erforschung des Glücks lange vermasselt haben auf genau diese Art.	
+Jeder	other_2	pron.pind			1	Jeder	set_63	
+,					2	,		
+der	SBJ_4				3	der	set_63	
+diese	other_5	pron.pds	OLD		4	diese		
+Begriffe	OBJ_4	def-np.dem	OLD		5	Begriffe		
+nicht					6	nicht		
+unterscheidet					7	unterscheidet		
+wird					8	wird		
+die					9	die		
+Erforschung	OBJ	def-np.the	OLD		10	Erforschung		
+des					11	des		
+Glücks	other_2	def-np.the	OLD		12	Glücks		
+vermasseln					13	vermasseln		
+,					14	,		
+und					15	und		
+ich	SBJ_2	pron.pper	OLD		16	ich		
+gehöre					17	gehöre		
+zu	other_3	pron.pind			18	zu		
+einer					19	einer		
+Menge	other_2	indef-np.a			20	Menge		
+von					21	von		
+Forschern	other_3	indef-np.bare			22	Forschern	set_64	
+über					23	über		
+Wohlbefinden	other_4	indef-np.bare			24	Wohlbefinden		
+,					25	,		
+die	SBJ_6				26	die	set_64	
+die					27	die		
+Erforschung	OBJ_6	def-np.the	OLD		28	Erforschung		
+des					29	des		
+Glücks	other_7	def-np.the	OLD		30	Glücks		
+lange					31	lange		
+vermasselt					32	vermasselt		
+haben					33	haben		
+auf					34	auf		
+genau					35	genau		
+diese	other_3	pron.pds	OLD		36	diese		
+Art	other_2	def-np.dem	OLD		37	Art		
+.				38	.	
+		
+# text = Die Unterscheidung zwischen dem Glück des erlebenden Selbst und der Zufriedenheit des erinnernden Selbst ist in den letzten Jahren erkannt worden, und jetzt bemüht man sich, die beiden separat zu messen.	
+Die					1	Die		
+Unterscheidung	SBJ	def-np.the	OLD		2	Unterscheidung		
+zwischen					3	zwischen		
+dem					4	dem		
+Glück	other_2	def-np.the	OLD		5	Glück	set_226	
+des					6	des		
+erlebenden					7	erlebenden		
+Selbst					8	Selbst		
+und					9	und		
+der					10	der		
+Zufriedenheit	other_3	def-np.the	OLD		11	Zufriedenheit		
+des					12	des		
+erinnernden					13	erinnernden		
+Selbst					14	Selbst	set_236	
+ist					15	ist		
+in					16	in		
+den					17	den		
+letzten					18	letzten		
+Jahren	other	def-np.the	OLD		19	Jahren		
+erkannt					20	erkannt		
+worden					21	worden		
+,					22	,		
+und					23	und		
+jetzt					24	jetzt		
+bemüht					25	bemüht		
+man	SBJ_2	pron.pind			26	man		
+sich	OBJ_2				27	sich		
+,					28	,		
+die					29	die		
+beiden	SBJ_3	pron.pind			30	beiden	set_226	
+separat					31	separat		
+zu					32	zu		
+messen					33	messen		
+.				34	.	
+		
+# text = Die Gallup Organization hat eine weltweite Umfrage, bei der mehr als einer halben Million Leute Fragen gestellt worden sind darüber, was sie über ihr Leben denken und über ihre Erlebnisse.	
+Die					1	Die		
+Gallup	SBJ	ne	OLD		2	Gallup		
+Organization					3	Organization		
+hat					4	hat		
+eine					5	eine		
+weltweite					6	weltweite		
+Umfrage	OBJ	indef-np.a			7	Umfrage	set_234	
+,					8	,		
+bei					9	bei		
+der					10	der	set_234	
+mehr					11	mehr		
+als					12	als		
+einer					13	einer		
+halben					14	halben		
+Million	other_3	indef-np.a			15	Million	set_66	
+Leute					16	Leute	set_66	
+Fragen	other_2	ne	OLD		17	Fragen		
+gestellt					18	gestellt		
+worden					19	worden		
+sind					20	sind		
+darüber					21	darüber		
+,					22	,		
+was	SBJ_3	pron	OLD		23	was		
+sie	SBJ_3	pron	OLD		24	sie	set_66	
+über					25	über		
+ihr					26	ihr	set_66	
+Leben	other_3	indef-np			27	Leben		
+denken					28	denken		
+und					29	und		
+über					30	über		
+ihre					31	ihre	set_66	
+Erlebnisse	other_3	indef-np			32	Erlebnisse		
+.				33	.	
+		
+# text = Und es gab andere Bemühungen in der Richtung.	
+Und					1	Und		
+es					2	es		
+gab					3	gab		
+andere	other_2	pron	OLD		4	andere		
+Bemühungen	SBJ	indef-np.bare			5	Bemühungen	set_234	
+in					6	in		
+der					7	der		
+Richtung	other	def-np.the	OLD		8	Richtung	set_234	
+.				9	.	
+		
+# text = In den letzten Jahren haben wir also angefangen, über das Glück der beiden Arten des Selbst zu lernen.	
+In					1	In		
+den					2	den		
+letzten					3	letzten		
+Jahren	other	def-np.the	OLD		4	Jahren		
+haben					5	haben		
+wir	SBJ	pron	OLD		6	wir		
+also					7	also		
+angefangen					8	angefangen		
+,					9	,		
+über					10	über		
+das					11	das		
+Glück	other_2	def-np.the	OLD		12	Glück		
+der					13	der		
+beiden					14	beiden		
+Arten	other_3	def-np.quant	OLD		15	Arten	set_68	
+des					16	des		
+Selbst					17	Selbst		
+zu					18	zu		
+lernen					19	lernen		
+.				20	.	
+		
+# text = Und die hauptsächliche Lektion, die wir, glaube ich, gelernt haben ist, dass sie wirklich unterschiedlich sind.	
+Und					1	Und		
+die					2	die		
+hauptsächliche					3	hauptsächliche		
+Lektion	SBJ	def-np.the	OLD		4	Lektion	set_67	
+,					5	,		
+die	OBJ_3				6	die	set_67	
+wir	SBJ_5	pron	OLD		7	wir		
+,					8	,		
+glaube					9	glaube		
+ich	SBJ_3	pron.pper	OLD		10	ich		
+,					11	,		
+gelernt					12	gelernt		
+haben					13	haben		
+ist					14	ist		
+,					15	,		
+dass					16	dass		
+sie	SBJ_2	pron	OLD		17	sie	set_68	
+wirklich					18	wirklich		
+unterschiedlich					19	unterschiedlich		
+sind					20	sind		
+.				21	.	
+		
+# text = Sie können wissen, wie zufrieden jemand mit seinem Leben ist, und das lehrt sie wirklich nicht viel darüber, wie glücklich er sein Leben lebt und umgekehrt.	
+Sie	SBJ	pron.pper	OLD		1	Sie		
+können					2	können		
+wissen					3	wissen	set_159	
+,					4	,		
+wie					5	wie		
+zufrieden					6	zufrieden		
+jemand	SBJ_2	pron.pind			7	jemand	set_102	
+mit					8	mit		
+seinem					9	seinem	set_102	
+Leben	other_3	indef-np			10	Leben		
+ist					11	ist		
+,					12	,		
+und					13	und		
+das	OBJ_2	pron.pds	OLD		14	das	set_159	
+lehrt					15	lehrt		
+sie	SBJ_2	pron	OLD		16	sie		
+wirklich					17	wirklich		
+nicht					18	nicht		
+viel	OBJ_2	pron	OLD		19	viel		
+darüber					20	darüber		
+,					21	,		
+wie					22	wie		
+glücklich					23	glücklich		
+er	SBJ_3	pron.pper	OLD		24	er	set_102	
+sein					25	sein	set_102	
+Leben	SBJ_3	indef-np			26	Leben		
+lebt					27	lebt		
+und					28	und		
+umgekehrt					29	umgekehrt		
+.				30	.	
+		
+# text = Nur um Ihnen einen Eindruck von der Korrelation zu vermitteln, die Korrelation ist ungefähr .5.	
+Nur					1	Nur		
+um					2	um		
+Ihnen	other	pron.pper	OLD		3	Ihnen		
+einen					4	einen		
+Eindruck	OBJ	indef-np.a			5	Eindruck		
+von					6	von		
+der					7	der		
+Korrelation	other_2	def-np.the	OLD		8	Korrelation		
+zu					9	zu		
+vermitteln					10	vermitteln		
+,					11	,		
+die					12	die		
+Korrelation	SBJ_2	def-np.the	OLD		13	Korrelation		
+ist					14	ist		
+ungefähr					15	ungefähr		
+.5.				16	.5.	set_160
+		
+# text = Was das bedeutet ist, dass wenn Sie jemanden treffen würden und man würde Ihnen sagen, oh, sein Vater ist ein Zwei-Meter-Mann, wie viel würden Sie über seine Größe wissen?	
+Was	SBJ	pron	OLD		1	Was		
+das	SBJ				2	das	set_160	
+bedeutet					3	bedeutet		
+ist					4	ist		
+,					5	,		
+dass					6	dass		
+wenn					7	wenn		
+Sie	SBJ_2	pron.pper	OLD		8	Sie		
+jemanden	OBJ_2	pron.pind			9	jemanden	set_71	
+treffen					10	treffen		
+würden					11	würden		
+und					12	und		
+man	SBJ_2	pron.pind			13	man		
+würde					14	würde		
+Ihnen	OBJ_2	pron.pper	OLD		15	Ihnen		
+sagen					16	sagen		
 ,								
 oh								
 ,								
@@ -2818,8 +2820,8 @@ Zwei
 _								
 Meter								
 _								
-Mann	other_2	indef-np.a						
-,								
+Mann	other_2	indef-np.a			24	Mann		
+,					34		
 wie								
 viel	other_4	pron	OLD					
 würden								
@@ -2829,81 +2831,81 @@ seine
 Größe	other_4	indef-np						
 wissen								
 ?							
-
-# text = Nun, Sie würden etwas über seine Größe wissen, aber es gibt viel Unsicherheit.				
-Nun								
-,								
-Sie	SBJ	pron.pper	OLD					
-würden								
-etwas								
-über								
-seine								
-Größe	other	indef-np						
-wissen								
-,								
-aber								
-es								
-gibt								
-viel								
-Unsicherheit	OBJ_2	indef-np.quant						
-.							
-
-# text = Sie haben so viel Unsicherheit.				
-Sie	SBJ	pron.pper	OLD					
-haben								
-so								
-viel								
-Unsicherheit	OBJ	indef-np.quant						
-.							
-
-# text = Wenn ich Ihnen sage, dass jemand sein Leben als acht auf einer Skala von zehn eingeordnet hat haben Sie viel Unsicherheit darüber, wie glücklich er ist mit seinem erlebenden Selbst.				
-Wenn								
-ich	SBJ_5	pron.pper	OLD					
-Ihnen	OBJ_5	pron.pper	OLD					
-sage								
-,								
-dass								
-jemand	SBJ_6	pron.pind						
-sein								
-Leben	OBJ_6	indef-np						
-als								
-acht								
-auf								
-einer								
-Skala	other_6	indef-np.a						
-von								
-zehn								
-eingeordnet								
-hat								
-haben								
-Sie	SBJ_3	pron.pper	OLD					
-viel								
-Unsicherheit	other	ne	OLD					
-darüber								
-,								
-wie								
-glücklich								
-er	SBJ	pron.pper	OLD					
-ist								
-mit								
-seinem								
-erlebenden								
-Selbst								
-.							
-
-# text = Die Korrelation ist also gering.				
-Die								
-Korrelation	SBJ	def-np.the	OLD					
-ist								
-also								
-gering								
-.							
-
-# text = Wir wissen etwas darüber, was die Zufriedenheit des Glücks-Selbst bestimmt.				
-Wir	SBJ	pron	OLD					
-wissen								
-etwas	OBJ	pron	OLD					
-darüber								
+		
+# text = Nun, Sie würden etwas über seine Größe wissen, aber es gibt viel Unsicherheit.	
+Nun					1	Nun		
+,					2	,		
+Sie	SBJ	pron.pper	OLD		3	Sie		
+würden					4	würden		
+etwas					5	etwas		
+über					6	über		
+seine					7	seine	set_71	
+Größe	other	indef-np			8	Größe		
+wissen					9	wissen		
+,					10	,		
+aber					11	aber		
+es					12	es		
+gibt					13	gibt		
+viel					14	viel		
+Unsicherheit	OBJ_2	indef-np.quant			15	Unsicherheit		
+.				16	.	
+		
+# text = Sie haben so viel Unsicherheit.	
+Sie	SBJ	pron.pper	OLD		1	Sie		
+haben					2	haben		
+so					3	so		
+viel					4	viel		
+Unsicherheit	OBJ	indef-np.quant			5	Unsicherheit		
+.				6	.	
+		
+# text = Wenn ich Ihnen sage, dass jemand sein Leben als acht auf einer Skala von zehn eingeordnet hat haben Sie viel Unsicherheit darüber, wie glücklich er ist mit seinem erlebenden Selbst.	
+Wenn					1	Wenn		
+ich	SBJ_5	pron.pper	OLD		2	ich		
+Ihnen	OBJ_5	pron.pper	OLD		3	Ihnen		
+sage					4	sage		
+,					5	,		
+dass					6	dass		
+jemand	SBJ_6	pron.pind			7	jemand	set_72	
+sein					8	sein	set_72	
+Leben	OBJ_6	indef-np			9	Leben		
+als					10	als		
+acht					11	acht		
+auf					12	auf		
+einer					13	einer		
+Skala	other_6	indef-np.a			14	Skala		
+von					15	von		
+zehn					16	zehn		
+eingeordnet					17	eingeordnet		
+hat					18	hat		
+haben					19	haben		
+Sie	SBJ_3	pron.pper	OLD		20	Sie		
+viel					21	viel		
+Unsicherheit	other	ne	OLD		22	Unsicherheit		
+darüber					23	darüber		
+,					24	,		
+wie					25	wie		
+glücklich					26	glücklich		
+er	SBJ	pron.pper	OLD		27	er	set_72	
+ist					28	ist		
+mit					29	mit		
+seinem					30	seinem	set_72	
+erlebenden					31	erlebenden		
+Selbst					32	Selbst		
+.				33	.	
+		
+# text = Die Korrelation ist also gering.	
+Die					1	Die		
+Korrelation	SBJ	def-np.the	OLD		2	Korrelation		
+ist					3	ist		
+also					4	also		
+gering					5	gering		
+.				6	.	
+		
+# text = Wir wissen etwas darüber, was die Zufriedenheit des Glücks-Selbst bestimmt.	
+Wir	SBJ	pron	OLD		1	Wir		
+wissen					2	wissen		
+etwas	OBJ	pron	OLD		3	etwas		
+darüber					4	darüber		
 ,								
 was	SBJ_3	pron	OLD					
 die								
@@ -2911,69 +2913,69 @@ Zufriedenheit	OBJ_3	def-np.poss	OLD
 des								
 Glücks	other_4	ne	OLD					
 _								
-Selbst								
-bestimmt								
-.							
-
-# text = Wir wissen, dass Geld sehr wichtig ist, Ziele sind sehr wichtig.				
-Wir	SBJ	pron	OLD					
-wissen								
-,								
-dass								
-Geld	SBJ_2	indef-np.bare						
-sehr								
-wichtig								
-ist								
-,								
-Ziele	SBJ_2	indef-np.bare						
-sind								
-sehr								
-wichtig								
-.							
-
-# text = Wir wissen, dass Glück hauptsächlich bedeutet, zufrieden zu sein mit Menschen, die wir mögen, Zeit zu verbringen mit Menschen, die wir mögen.				
-Wir	SBJ	pron	OLD					
-wissen								
-,								
-dass								
-Glück	SBJ_2	ne	OLD					
-hauptsächlich								
-bedeutet								
-,								
-zufrieden								
-zu								
-sein								
-mit								
-Menschen	other_2	indef-np.bare						
-,								
-die	SBJ_4							
-wir	SBJ_4	pron	OLD					
-mögen								
-,								
-Zeit	OBJ_5	indef-np.bare						
-zu								
-verbringen								
-mit								
-Menschen	other_5	indef-np.bare						
-,								
-die	OBJ_7							
-wir	SBJ_7	pron	OLD					
-mögen								
-.							
-
-# text = Es gibt andere Vergnügen, aber das ist dominant.				
-Es								
-gibt								
-andere	other_2	pron.pind						
-Vergnügen	SBJ	indef-np.bare						
-,								
-aber								
-das	SBJ_3	pron.pds	OLD					
-ist								
-dominant								
-.							
-
-# text = Wenn Sie also das Glück der beiden Arten des Selbst maximieren wollen werden Sie am Ende sehr unterschiedliche Dinge tun.				
+Selbst					11	Selbst		
+bestimmt					11	bestimmt		
+.				12	.	
+		
+# text = Wir wissen, dass Geld sehr wichtig ist, Ziele sind sehr wichtig.	
+Wir	SBJ	pron	OLD		1	Wir		
+wissen					2	wissen		
+,					3	,		
+dass					4	dass		
+Geld	SBJ_2	indef-np.bare			5	Geld		
+sehr					6	sehr		
+wichtig					7	wichtig		
+ist					8	ist		
+,					9	,		
+Ziele	SBJ_2	indef-np.bare			10	Ziele		
+sind					11	sind		
+sehr					12	sehr		
+wichtig					13	wichtig		
+.				14	.	
+		
+# text = Wir wissen, dass Glück hauptsächlich bedeutet, zufrieden zu sein mit Menschen, die wir mögen, Zeit zu verbringen mit Menschen, die wir mögen.	
+Wir	SBJ	pron	OLD		1	Wir		
+wissen					2	wissen		
+,					3	,		
+dass					4	dass		
+Glück	SBJ_2	ne	OLD		5	Glück		
+hauptsächlich					6	hauptsächlich		
+bedeutet					7	bedeutet		
+,					8	,		
+zufrieden					9	zufrieden	set_161	
+zu					10	zu	set_161	
+sein					11	sein	set_161	
+mit					12	mit		
+Menschen	other_2	indef-np.bare			13	Menschen	set_161	
+,					14	,		
+die	SBJ_4				15	die	set_73	
+wir	SBJ_4	pron	OLD		16	wir		
+mögen					17	mögen		
+,					18	,		
+Zeit	OBJ_5	indef-np.bare			19	Zeit		
+zu					20	zu		
+verbringen					21	verbringen		
+mit					22	mit		
+Menschen	other_5	indef-np.bare			23	Menschen	set_74	
+,					24	,		
+die	OBJ_7				25	die	set_74	
+wir	SBJ_7	pron	OLD		26	wir		
+mögen					27	mögen		
+.				28	.	
+		
+# text = Es gibt andere Vergnügen, aber das ist dominant.	
+Es					1	Es		
+gibt					2	gibt		
+andere	other_2	pron.pind			3	andere		
+Vergnügen	SBJ	indef-np.bare			4	Vergnügen	set_161	
+,					5	,		
+aber					6	aber		
+das	SBJ_3	pron.pds	OLD		7	das	set_161	
+ist					8	ist		
+dominant					9	dominant		
+.				10	.	
+		
+# text = Wenn Sie also das Glück der beiden Arten des Selbst maximieren wollen werden Sie am Ende sehr unterschiedliche Dinge tun.	
 Wenn								
 Sie	SBJ_2	pron.pper	OLD					
 also								
@@ -2992,11 +2994,36 @@ an
 dem								
 Ende	other	def-np.the	OLD					
 sehr								
-unterschiedliche								
+unterschiedliche					18	unterschiedliche		
 Dinge	OBJ	indef-np.bare						
-tun								
-.							
-
+tun					20	tun		
+*Die*					1	Die		
+*Schlussfolgerung*					2	Schlussfolgerung		
+*aus*					3	aus		
+*dem*					4	dem		
+*,*					5	,		
+*was*					6	was		
+*ich*					7	ich		
+*hier*					8	hier		
+*gesagt*					9	gesagt		
+*habe*					10	habe		
+*ist*					11	ist		
+*,*					12	,		
+*dass*					13	dass		
+*wir*					14	wir		
+*uns*					15	uns		
+*Glück*					16	Glück	set_75	
+*wirklich*					17	wirklich		
+*nicht*					18	nicht		
+*vorstellen*					19	vorstellen		
+*sollten*					20	sollten		
+*als*					21	als		
+*einen*					22	einen		
+*Ersatz*					23	Ersatz		
+*für*					24	für		
+*Wohlbefinden*					25	Wohlbefinden		
+.				26	.	
+		
 # text = Die Schlussfolgerung aus dem, was ich hier gesagt habe ist, dass wir uns Glück wirklich nicht vorstellen sollten als einen Ersatz für Wohlbefinden.				
 Die								
 Schlussfolgerung	other	def-np.the	OLD					
@@ -3024,118 +3051,118 @@ Ersatz	other_3	indef-np.a
 für								
 Wohlbefinden	other_4	indef-np.bare						
 .							
-
+	
 # text = Es ist ein komplett anderer Begriff.				
-Es	SBJ	pron.pper	OLD					
-ist								
-ein								
-komplett								
-anderer								
-Begriff	other	indef-np.a						
-.							
-
-# text = Nun, ganz kurz, ein anderer Grund, aus dem wir nicht klar über Glück nachdenken können ist, dass wir nicht auf die selben Dinge achten wenn wir über das Leben nachdenken und wenn wir tatsächlich leben.				
-Nun								
-,								
-ganz								
-kurz								
-,								
-ein								
-anderer								
-Grund	SBJ	indef-np.a						
-,								
-aus								
-dem								
-wir	SBJ_3	pron	OLD					
-nicht								
-klar								
-über								
-Glück	other_3	ne	OLD					
-nachdenken								
-können								
-ist								
-,								
-dass								
-wir	SBJ	pron	OLD					
-nicht								
-auf								
-die								
-selben								
-Dinge	other	def-np.the	OLD					
-achten								
-wenn								
-wir	SBJ_2	pron	OLD					
-über								
-das								
-Leben	other_2	def-np.the	OLD					
-nachdenken								
-und								
-wenn								
-wir	SBJ_2	pron	OLD					
-tatsächlich								
-leben								
-.							
-
-# text = Wenn Sie also die einfache Frage stellen, wie glücklich die Leute in Kalifornien sind werden Sie nicht die korrekte Antwort bekommen.				
-Wenn								
-Sie	SBJ	pron.pper	OLD					
-also								
-die								
-einfache								
-Frage	OBJ	def-np.the	OLD					
-stellen								
-,								
-wie								
-glücklich								
-die								
-Leute	SBJ_3	def-np.the	OLD					
-in								
-Kalifornien	other_3	ne	OLD					
-sind								
-werden								
-Sie	SBJ_2	pron.pper	OLD					
-nicht								
-die								
-korrekte								
-Antwort	OBJ_2	def-np.the	OLD					
-bekommen								
-.							
-
-# text = Wenn Sie diese Frage stellen denken Sie, dass die Leute in Kalifornien glücklicher sein müssen wenn Sie, sagen wir, in Ohio leben.				
-Wenn								
-Sie	SBJ_2	pron.pper	OLD					
-diese	other_3	pron.pds	OLD					
-Frage	OBJ_2	def-np.dem	OLD					
-stellen								
-denken								
-Sie	SBJ	pron.pper	OLD					
-,								
-dass								
-die								
-Leute	SBJ_2	def-np.the	OLD					
-in								
-Kalifornien	other_2	ne	OLD					
-glücklicher								
-sein								
-müssen								
-wenn								
-Sie	SBJ_2	pron.pper	OLD					
-,								
-sagen								
-wir	SBJ_2	pron	OLD					
-,								
-in								
-Ohio	other_3	ne	OLD					
-leben								
-.							
-
-# text = (Gelächter) Und was passiert ist, dass wenn Sie über das Leben in Kalifornien nachdenken, denken Sie an den Unterschied zwischen Kalifornien und anderen Orten, und dieser Unterschied besteht, sagen wir, im Klima.				
+Es	SBJ	pron.pper	OLD		1	Es	set_75	
+ist					2	ist		
+ein					3	ein		
+komplett					4	komplett		
+anderer					5	anderer		
+Begriff	other	indef-np.a			6	Begriff		
+.				7	.	
+		
+# text = Nun, ganz kurz, ein anderer Grund, aus dem wir nicht klar über Glück nachdenken können ist, dass wir nicht auf die selben Dinge achten wenn wir über das Leben nachdenken und wenn wir tatsächlich leben.	
+Nun					1	Nun		
+,					2	,		
+ganz					3	ganz		
+kurz					4	kurz		
+,					5	,		
+ein					6	ein		
+anderer					7	anderer		
+Grund	SBJ	indef-np.a			8	Grund	set_229	
+,					9	,		
+aus					10	aus		
+dem					11	dem	set_229	
+wir	SBJ_3	pron	OLD		12	wir		
+nicht					13	nicht		
+klar					14	klar		
+über					15	über		
+Glück	other_3	ne	OLD		16	Glück		
+nachdenken					17	nachdenken		
+können					18	können		
+ist					19	ist		
+,					20	,		
+dass					21	dass		
+wir	SBJ	pron	OLD		22	wir		
+nicht					23	nicht		
+auf					24	auf		
+die					25	die		
+selben					26	selben		
+Dinge	other	def-np.the	OLD		27	Dinge		
+achten					28	achten		
+wenn					29	wenn		
+wir	SBJ_2	pron	OLD		30	wir		
+über					31	über		
+das					32	das		
+Leben	other_2	def-np.the	OLD		33	Leben		
+nachdenken					34	nachdenken		
+und					35	und		
+wenn					36	wenn		
+wir	SBJ_2	pron	OLD		37	wir		
+tatsächlich					38	tatsächlich		
+leben					39	leben		
+.				40	.	
+		
+# text = Wenn Sie also die einfache Frage stellen, wie glücklich die Leute in Kalifornien sind werden Sie nicht die korrekte Antwort bekommen.	
+Wenn					1	Wenn		
+Sie	SBJ	pron.pper	OLD		2	Sie		
+also					3	also		
+die					4	die		
+einfache					5	einfache		
+Frage	OBJ	def-np.the	OLD		6	Frage	set_164	
+stellen					7	stellen		
+,					8	,		
+wie					9	wie		
+glücklich					10	glücklich	set_164	
+die					11	die		
+Leute	SBJ_3	def-np.the	OLD		12	Leute		
+in					13	in		
+Kalifornien	other_3	ne	OLD		14	Kalifornien		
+sind					15	sind	set_164	
+werden					16	werden		
+Sie	SBJ_2	pron.pper	OLD		17	Sie		
+nicht					18	nicht		
+die					19	die		
+korrekte					20	korrekte		
+Antwort	OBJ_2	def-np.the	OLD		21	Antwort		
+bekommen					22	bekommen		
+.				23	.	
+		
+# text = Wenn Sie diese Frage stellen denken Sie, dass die Leute in Kalifornien glücklicher sein müssen wenn Sie, sagen wir, in Ohio leben.	
+Wenn					1	Wenn		
+Sie	SBJ_2	pron.pper	OLD		2	Sie		
+diese	other_3	pron.pds	OLD		3	diese		
+Frage	OBJ_2	def-np.dem	OLD		4	Frage	set_164	
+stellen					5	stellen		
+denken					6	denken		
+Sie	SBJ	pron.pper	OLD		7	Sie		
+,					8	,		
+dass					9	dass		
+die					10	die		
+Leute	SBJ_2	def-np.the	OLD		11	Leute		
+in					12	in		
+Kalifornien	other_2	ne	OLD		13	Kalifornien		
+glücklicher					14	glücklicher		
+sein					15	sein		
+müssen					16	müssen		
+wenn					17	wenn		
+Sie	SBJ_2	pron.pper	OLD		18	Sie		
+,					19	,		
+sagen					20	sagen		
+wir	SBJ_2	pron	OLD		21	wir		
+,					22	,		
+in					23	in		
+Ohio	other_3	ne	OLD		24	Ohio		
+leben					25	leben		
+.				26	.	
+		
+# text = (Gelächter) Und was passiert ist, dass wenn Sie über das Leben in Kalifornien nachdenken, denken Sie an den Unterschied zwischen Kalifornien und anderen Orten, und dieser Unterschied besteht, sagen wir, im Klima.	
 (								
 Gelächter	other_2	indef-np.bare						
 )								
 Und								
 was	SBJ	pron	OLD					
-passiert								
+passiert					3	passiert		
 ist								
 ,								
 dass								
@@ -3171,48 +3198,48 @@ in
 dem								
 Klima	other_2	def-np.the	OLD					
 .							
-
+	
 # text = Nun, es stellt sich heraus, dass Klima nicht sehr wichtig für das erlebende Selbst ist, und es ist nicht einmal sehr wichtig für das nachdenkliche Selbst, das entscheidet, wie glücklich Leute sind.				
-Nun								
-,								
-es	SBJ	pron.pper	OLD					
-stellt								
-sich	OBJ							
-heraus								
-,								
-dass								
-Klima	SBJ_2	indef-np.bare						
-nicht								
-sehr								
-wichtig								
-für								
-das								
-erlebende								
-Selbst								
-ist								
-,								
-und								
-es								
-ist								
-nicht								
-einmal								
-sehr								
-wichtig								
-für								
-das								
-nachdenkliche								
-Selbst								
-,								
-das	SBJ_2	pron.pds	OLD					
-entscheidet								
-,								
-wie								
-glücklich								
-Leute	other_2	indef-np.bare						
-sind								
-.							
-
-# text = Nun aber, weil das nachdenkliche Selbst verantwortlich ist, können Sie am Ende -- einige Leute könnten am Ende nach Kalifornien ziehen.				
+Nun					1	Nun		
+,					2	,		
+es	SBJ	pron.pper	OLD		3	es		
+stellt					4	stellt		
+sich	OBJ				5	sich		
+heraus					6	heraus		
+,					7	,		
+dass					8	dass		
+Klima	SBJ_2	indef-np.bare			9	Klima	set_77	
+nicht					10	nicht		
+sehr					11	sehr		
+wichtig					12	wichtig		
+für					13	für		
+das					14	das		
+erlebende					15	erlebende		
+Selbst					16	Selbst	set_232	
+ist					17	ist		
+,					18	,		
+und					19	und		
+es					20	es	set_77	
+ist					21	ist		
+nicht					22	nicht		
+einmal					23	einmal		
+sehr					24	sehr		
+wichtig					25	wichtig		
+für					26	für		
+das					27	das		
+nachdenkliche					28	nachdenkliche		
+Selbst					29	Selbst	set_78	
+,					30	,		
+das	SBJ_2	pron.pds	OLD		31	das	set_78	
+entscheidet					32	entscheidet		
+,					33	,		
+wie					34	wie		
+glücklich					35	glücklich		
+Leute	other_2	indef-np.bare			36	Leute		
+sind					37	sind		
+.				38	.	
+		
+# text = Nun aber, weil das nachdenkliche Selbst verantwortlich ist, können Sie am Ende -- einige Leute könnten am Ende nach Kalifornien ziehen.	
 Nun								
 aber								
 ,								
@@ -3237,142 +3264,142 @@ dem
 Ende	other	def-np.the	OLD					
 nach								
 Kalifornien	other	ne	OLD					
-ziehen								
+ziehen					23	ziehen		
 .							
-
+	
 # text = Und es ist sozusagen interessant zu verfolgen, was passiert mit Leuten, die nach Kalifornien ziehen in der Hoffnung, glücklicher zu werden.				
-Und								
-es								
-ist								
-sozusagen								
-interessant								
-zu								
-verfolgen								
-,								
-was	SBJ_2	pron	OLD					
-passiert								
-mit								
-Leuten	other_2	indef-np.bare						
-,								
-die	SBJ_4							
-nach								
-Kalifornien	other_4	ne	OLD					
-ziehen								
-in								
-der								
-Hoffnung	other_4	def-np.the	OLD					
-,								
-glücklicher	other_6	indef-np.bare						
-zu								
-werden								
-.							
-
-# text = Nun, ihr erlebendes Selbst wird nicht glücklicher werden.				
-Nun								
-,								
-ihr								
-erlebendes								
-Selbst	SBJ							
-wird								
-nicht								
-glücklicher								
-werden								
-.							
-
-# text = Wir wissen das.				
-Wir	SBJ	pron	OLD					
-wissen								
-das	OBJ							
-.							
-
-# text = Aber eine Sache wird passieren.				
-Aber								
-eine								
-Sache	SBJ	indef-np.a						
-wird								
-passieren								
-.							
-
-# text = Sie werden denken, dass sie glücklicher sind, denn wenn sie darüber nachdenken werden sie daran erinnert werden, wie schrecklich das Wetter in Ohio war.				
-Sie	SBJ	pron.pper	OLD					
-werden								
-denken								
-,								
-dass								
-sie	SBJ_3	pron	OLD					
-glücklicher								
-sind								
-,								
-denn								
-wenn								
-sie	SBJ_2	pron	OLD					
-darüber								
-nachdenken								
-werden								
-sie	SBJ_2	pron	OLD					
-daran								
-erinnert								
-werden								
-,								
-wie								
-schrecklich								
-das								
-Wetter	other	def-np.the	OLD					
-in								
-Ohio	other_2	ne	OLD					
-war								
-.							
-
-# text = Und sie werden spüren, dass sie die richtige Entscheidung getroffen haben.				
-Und								
-sie	SBJ	pron	OLD					
-werden								
-spüren								
-,								
-dass								
-sie	SBJ_2	pron	OLD					
-die								
-richtige								
-Entscheidung	OBJ_2	def-np.the	OLD					
-getroffen								
-haben								
-.							
-
-# text = Es ist sehr schwierig, klar über Wohlbefinden nachzudenken, und ich hoffe, ich habe Ihnen einen Eindruck davon vermittelt, wie schwierig es ist.				
-Es	SBJ	pron.pper	OLD					
-ist								
-sehr								
-schwierig								
-,								
-klar								
-über								
-Wohlbefinden	other_2	indef-np.bare						
-nachzudenken								
-,								
-und								
-ich	SBJ_2	pron.pper	OLD					
-hoffe								
-,								
-ich	SBJ_3	pron.pper	OLD					
-habe								
-Ihnen	OBJ_3	pron.pper	OLD					
-einen								
-Eindruck	OBJ_3	indef-np.a						
-davon								
-vermittelt								
-,								
-wie								
-schwierig								
-es	SBJ_4	pron.pper	OLD					
-ist								
-.							
-
-# text = Danke.				
-Danke	other	indef-np.bare						
-.							
-
-# text = (Beifall) Chris Anderson: Danke.				
-(								
+Und					1	Und		
+es					2	es		
+ist					3	ist		
+sozusagen					4	sozusagen		
+interessant					5	interessant		
+zu					6	zu		
+verfolgen					7	verfolgen		
+,					8	,		
+was	SBJ_2	pron	OLD		9	was		
+passiert					10	passiert		
+mit					11	mit		
+Leuten	other_2	indef-np.bare			12	Leuten	set_79	
+,					13	,		
+die	SBJ_4				14	die	set_79	
+nach					15	nach		
+Kalifornien	other_4	ne	OLD		16	Kalifornien		
+ziehen					17	ziehen		
+in					18	in		
+der					19	der		
+Hoffnung	other_4	def-np.the	OLD		20	Hoffnung		
+,					21	,		
+glücklicher	other_6	indef-np.bare			22	glücklicher		
+zu					23	zu		
+werden					24	werden		
+.				25	.	
+		
+# text = Nun, ihr erlebendes Selbst wird nicht glücklicher werden.	
+Nun					1	Nun		
+,					2	,		
+ihr					3	ihr	set_79	
+erlebendes					4	erlebendes		
+Selbst	SBJ				5	Selbst	set_232	
+wird					6	wird		
+nicht					7	nicht		
+glücklicher					8	glücklicher	set_233	
+werden					9	werden		
+.				10	.	
+		
+# text = Wir wissen das.	
+Wir	SBJ	pron	OLD		1	Wir		
+wissen					2	wissen		
+das	OBJ				3	das	set_233	
+.				4	.	
+		
+# text = Aber eine Sache wird passieren.	
+Aber					1	Aber		
+eine					2	eine		
+Sache	SBJ	indef-np.a			3	Sache		
+wird					4	wird		
+passieren					5	passieren		
+.				6	.	
+		
+# text = Sie werden denken, dass sie glücklicher sind, denn wenn sie darüber nachdenken werden sie daran erinnert werden, wie schrecklich das Wetter in Ohio war.	
+Sie	SBJ	pron.pper	OLD		1	Sie		
+werden					2	werden		
+denken					3	denken		
+,					4	,		
+dass					5	dass		
+sie	SBJ_3	pron	OLD		6	sie		
+glücklicher					7	glücklicher		
+sind					8	sind		
+,					9	,		
+denn					10	denn		
+wenn					11	wenn		
+sie	SBJ_2	pron	OLD		12	sie		
+darüber					13	darüber		
+nachdenken					14	nachdenken		
+werden					15	werden		
+sie	SBJ_2	pron	OLD		16	sie		
+daran					17	daran		
+erinnert					18	erinnert		
+werden					19	werden		
+,					20	,		
+wie					21	wie		
+schrecklich					22	schrecklich		
+das					23	das		
+Wetter	other	def-np.the	OLD		24	Wetter		
+in					25	in		
+Ohio	other_2	ne	OLD		26	Ohio		
+war					27	war		
+.				28	.	
+		
+# text = Und sie werden spüren, dass sie die richtige Entscheidung getroffen haben.	
+Und					1	Und		
+sie	SBJ	pron	OLD		2	sie		
+werden					3	werden		
+spüren					4	spüren		
+,					5	,		
+dass					6	dass		
+sie	SBJ_2	pron	OLD		7	sie		
+die					8	die		
+richtige					9	richtige		
+Entscheidung	OBJ_2	def-np.the	OLD		10	Entscheidung		
+getroffen					11	getroffen		
+haben					12	haben		
+.				13	.	
+		
+# text = Es ist sehr schwierig, klar über Wohlbefinden nachzudenken, und ich hoffe, ich habe Ihnen einen Eindruck davon vermittelt, wie schwierig es ist.	
+Es	SBJ	pron.pper	OLD		1	Es		
+ist					2	ist		
+sehr					3	sehr		
+schwierig					4	schwierig		
+,					5	,		
+klar					6	klar		
+über					7	über		
+Wohlbefinden	other_2	indef-np.bare			8	Wohlbefinden		
+nachzudenken					9	nachzudenken	set_166	
+,					10	,		
+und					11	und		
+ich	SBJ_2	pron.pper	OLD		12	ich		
+hoffe					13	hoffe		
+,					14	,		
+ich	SBJ_3	pron.pper	OLD		15	ich		
+habe					16	habe		
+Ihnen	OBJ_3	pron.pper	OLD		17	Ihnen		
+einen					18	einen		
+Eindruck	OBJ_3	indef-np.a			19	Eindruck		
+davon					20	davon		
+vermittelt					21	vermittelt		
+,					22	,		
+wie					23	wie		
+schwierig					24	schwierig		
+es	SBJ_4	pron.pper	OLD		25	es	set_166	
+ist					26	ist		
+.				27	.	
+		
+# text = Danke.	
+Danke	other	indef-np.bare			1	Danke		
+.				2	.	
+		
+# text = (Beifall) Chris Anderson: Danke.	
+(					1	(		
 Beifall	other	indef-np.bare						
 )								
 Chris	other	ne	OLD					
@@ -3380,188 +3407,188 @@ Anderson
 :								
 Danke	other	ne	OLD					
 .							
-
+	
 # text = Ich habe eine Frage an Sie.				
-Ich	SBJ	pron.pper	OLD					
-habe								
-eine								
-Frage	OBJ	indef-np.a						
-an								
-Sie	other_2	pron.pper	OLD					
-.							
-
-# text = Vielen Dank.				
-Vielen								
-Dank	other	indef-np.quant						
-.							
-
-# text = Nun, als wir vor ein paar Wochen telefoniert haben erwähnten Sie mir gegenüber, dass es ein ziemlich interessantes Ergebnis gab, das aus dieser Gallup Umfrage kam.				
-Nun								
-,								
-als								
-wir	SBJ_2	pron	OLD					
-vor								
-ein								
-paar	other_3	pron.pind						
-Wochen	other_2	indef-np.a						
-telefoniert								
-haben								
-erwähnten								
-Sie	SBJ	pron.pper	OLD					
-mir	OBJ	pron.pper	OLD					
-gegenüber								
-,								
-dass								
-es								
-ein								
-ziemlich								
-interessantes								
-Ergebnis	OBJ_2	indef-np.a						
-gab								
-,								
-das	SBJ_2							
-aus								
-dieser	other_3	pron.pds	OLD					
-Gallup	other_2	def-np.dem	OLD					
-Umfrage	SBJ_2	indef-np.bare						
-kam								
-.							
-
-# text = Ist das etwas, woran Sie uns teilhaben lassen können, weil Sie jetzt ein paar Minuten übrig haben?				
-Ist								
-das								
-etwas	other_2	pron	OLD					
-,								
-woran								
-Sie	SBJ	pron.pper	OLD					
-uns	OBJ	pron	OLD					
-teilhaben								
-lassen								
-können								
-,								
-weil								
-Sie	SBJ_2	pron.pper	OLD					
-jetzt								
-ein								
-paar	other_3	pron.pind						
-Minuten	OBJ_2	indef-np.a						
-übrig								
-haben								
-?							
-
-# text = Daniel Kahneman:				
+Ich	SBJ	pron.pper	OLD		1	Ich		
+habe					2	habe		
+eine					3	eine		
+Frage	OBJ	indef-np.a			4	Frage		
+an					5	an		
+Sie	other_2	pron.pper	OLD		6	Sie		
+.				7	.	
+		
+# text = Vielen Dank.	
+Vielen					1	Vielen		
+Dank	other	indef-np.quant			2	Dank		
+.				3	.	
+		
+# text = Nun, als wir vor ein paar Wochen telefoniert haben erwähnten Sie mir gegenüber, dass es ein ziemlich interessantes Ergebnis gab, das aus dieser Gallup Umfrage kam.	
+Nun					1	Nun		
+,					2	,		
+als					3	als		
+wir	SBJ_2	pron	OLD		4	wir		
+vor					5	vor		
+ein					6	ein		
+paar	other_3	pron.pind			7	paar		
+Wochen	other_2	indef-np.a			8	Wochen		
+telefoniert					9	telefoniert		
+haben					10	haben		
+erwähnten					11	erwähnten		
+Sie	SBJ	pron.pper	OLD		12	Sie		
+mir	OBJ	pron.pper	OLD		13	mir		
+gegenüber					14	gegenüber		
+,					15	,		
+dass					16	dass		
+es					17	es		
+ein					18	ein		
+ziemlich					19	ziemlich		
+interessantes					20	interessantes		
+Ergebnis	OBJ_2	indef-np.a			21	Ergebnis	set_167	
+gab					22	gab		
+,					23	,		
+das	SBJ_2				24	das	set_167	
+aus					25	aus		
+dieser	other_3	pron.pds	OLD		26	dieser		
+Gallup	other_2	def-np.dem	OLD		27	Gallup	set_234	
+Umfrage	SBJ_2	indef-np.bare			28	Umfrage	set_234	
+kam					29	kam		
+.				30	.	
+		
+# text = Ist das etwas, woran Sie uns teilhaben lassen können, weil Sie jetzt ein paar Minuten übrig haben?	
+Ist					1	Ist		
+das					2	das	set_167	
+etwas	other_2	pron	OLD		3	etwas		
+,					4	,		
+woran					5	woran		
+Sie	SBJ	pron.pper	OLD		6	Sie		
+uns	OBJ	pron	OLD		7	uns		
+teilhaben					8	teilhaben		
+lassen					9	lassen		
+können					10	können		
+,					11	,		
+weil					12	weil		
+Sie	SBJ_2	pron.pper	OLD		13	Sie		
+jetzt					14	jetzt		
+ein					15	ein		
+paar	other_3	pron.pind			16	paar		
+Minuten	OBJ_2	indef-np.a			17	Minuten		
+übrig					18	übrig		
+haben					19	haben		
+?				20		
+		
+# text = Daniel Kahneman:	
 Daniel	other	ne	OLD					
 Kahneman								
-:							
-
+:				1	:		
+	
 # text = Sicher.				
-Sicher	other	indef-np.bare						
-.							
-
-# text = I denke, das interessanteste Ergebnis, das wir in der Gallup Umfrage gefunden haben ist eine Zahl, die wir absolut nicht zu finden erwartet hatten.				
-I	SBJ	pron	OLD					
-denke								
-,								
-das								
-interessanteste								
-Ergebnis	SBJ_2	def-np.the	OLD					
-,								
-das	OBJ_4							
-wir	SBJ_4	pron	OLD					
+Sicher	other	indef-np.bare			1	Sicher		
+.				2	.	
+		
+# text = I denke, das interessanteste Ergebnis, das wir in der Gallup Umfrage gefunden haben ist eine Zahl, die wir absolut nicht zu finden erwartet hatten.	
+I	SBJ	pron	OLD		1	I		
+denke					2	denke		
+,					3	,		
+das					4	das		
+interessanteste					5	interessanteste		
+Ergebnis	SBJ_2	def-np.the	OLD		6	Ergebnis	set_167	
+,					7	,		
+das	OBJ_4				8	das	set_167	
+wir	SBJ_4	pron	OLD		9	wir		
+in					10	in		
+der					11	der		
+Gallup	other_4	ne	OLD		12	Gallup		
+Umfrage					13	Umfrage		
+gefunden					14	gefunden		
+haben					15	haben		
+ist					16	ist		
+eine					17	eine		
+Zahl	OBJ	indef-np.a			18	Zahl	set_82	
+,					19	,		
+die	OBJ_4				20	die	set_82	
+wir	SBJ_4	pron	OLD		21	wir		
+absolut					22	absolut		
+nicht					23	nicht		
+zu					24	zu		
+finden					25	finden		
+erwartet					26	erwartet		
+hatten					27	hatten		
+.				28	.	
+		
+# text = Wir fanden das im Hinblick auf das Glück des erlebenden Selbst.	
+Wir	SBJ	pron	OLD		1	Wir		
+fanden					2	fanden		
+das					3	das	set_167	
 in								
-der								
-Gallup	other_4	ne	OLD					
-Umfrage								
-gefunden								
-haben								
-ist								
-eine								
-Zahl	OBJ	indef-np.a						
-,								
-die	OBJ_4							
-wir	SBJ_4	pron	OLD					
-absolut								
-nicht								
-zu								
-finden								
-erwartet								
-hatten								
-.							
-
-# text = Wir fanden das im Hinblick auf das Glück des erlebenden Selbst.				
-Wir	SBJ	pron	OLD					
-fanden								
-das								
-in								
+dem					4	dem		
+Hinblick	other	def-np.dem	OLD		5	Hinblick		
+auf					6	auf		
+das					7	das		
+Glück	other_2	def-np.the	OLD		8	Glück	set_235	
+des					10	des	set_235	
+erlebenden					10	erlebenden	set_235	
+Selbst					11	Selbst		
+.				12	.	
+		
+# text = Wenn wir uns anschauten, wie Gefühle mit dem Einkommen variieren.	
+Wenn					1	Wenn		
+wir	SBJ	pron	OLD		2	wir		
+uns	OBJ	pron	OLD		3	uns		
+anschauten					4	anschauten		
+,					5	,		
+wie					6	wie		
+Gefühle	other_2	indef-np.bare			7	Gefühle		
+mit					8	mit		
+dem					9	dem		
+Einkommen	other_3	def-np.the	OLD		10	Einkommen		
+variieren					11	variieren		
+.				12	.	
+		
+# text = Und es stellt sich heraus, dass unter einem Einkommen von 60.000 Dollar im Jahr, für Amerikaner, und das ist eine sehr große Stichprobe von Amerikanern, ungefähr 600.000, aber es ist eine große repräsentative Stichprobe, unter einem Einkommen von 600.000 Dollar im Jahr CA: 60.000.	
+Und					1	Und		
+es	SBJ	pron.pper	OLD		2	es		
+stellt					3	stellt		
+sich	OBJ				4	sich		
+heraus					5	heraus		
+,					6	,		
+dass					7	dass		
+unter					8	unter		
+einem					9	einem		
+Einkommen	other	indef-np.a			10	Einkommen		
+von					11	von		
+60.000					12	60.000		
+Dollar	other_2	ne	OLD		13	Dollar		
+in					14	:		
 dem								
-Hinblick	other	def-np.dem	OLD					
-auf								
-das								
-Glück	other_2	def-np.the	OLD					
-des								
-erlebenden								
-Selbst								
-.							
-
-# text = Wenn wir uns anschauten, wie Gefühle mit dem Einkommen variieren.				
-Wenn								
-wir	SBJ	pron	OLD					
-uns	OBJ	pron	OLD					
-anschauten								
-,								
-wie								
-Gefühle	other_2	indef-np.bare						
-mit								
-dem								
-Einkommen	other_3	def-np.the	OLD					
-variieren								
-.							
-
-# text = Und es stellt sich heraus, dass unter einem Einkommen von 60.000 Dollar im Jahr, für Amerikaner, und das ist eine sehr große Stichprobe von Amerikanern, ungefähr 600.000, aber es ist eine große repräsentative Stichprobe, unter einem Einkommen von 600.000 Dollar im Jahr CA: 60.000.				
-Und								
-es	SBJ	pron.pper	OLD					
-stellt								
-sich	OBJ							
-heraus								
-,								
-dass								
+Jahr	other_2	def-np.the	OLD		15	Jahr		
+,					16	,		
+für					17	für		
+Amerikaner	other_3	indef-np.bare			18	Amerikaner		
+,					19	,		
+und					20	und		
+das	SBJ_3	pron.pds	OLD		21	das		
+ist					22	ist		
+eine					23	eine		
+sehr					24	sehr		
+große					25	große		
+Stichprobe	other_2	indef-np.a			26	Stichprobe	set_83	
+von					27	von	set_83	
+Amerikanern	other_3	ne	OLD		28	Amerikanern		
+,					29	,		
+ungefähr					30	ungefähr		
+600.000					31	600.000		
+,					32	,		
+aber					33	aber		
+es	SBJ_3	pron.pper	OLD		34	es	set_83	
+ist					35	ist		
+eine					36	eine		
+große					37	große		
+repräsentative					38	repräsentative		
+Stichprobe	other_2	indef-np.a			39	Stichprobe		
+,					40	,		
 unter								
 einem								
-Einkommen	other	indef-np.a						
-von								
-60.000								
-Dollar	other_2	ne	OLD					
-in								
-dem								
-Jahr	other_2	def-np.the	OLD					
-,								
-für								
-Amerikaner	other_3	indef-np.bare						
-,								
-und								
-das	SBJ_3	pron.pds	OLD					
-ist								
-eine								
-sehr								
-große								
-Stichprobe	other_2	indef-np.a						
-von								
-Amerikanern	other_3	ne	OLD					
-,								
-ungefähr								
-600.000								
-,								
-aber								
-es	SBJ_3	pron.pper	OLD					
-ist								
-eine								
-große								
-repräsentative								
-Stichprobe	other_2	indef-np.a						
-,								
-unter								
-einem								
-Einkommen	other_2	indef-np.a						
+Einkommen	other_2	indef-np.a			43	Einkommen		
 von								
 600.000								
 Dollar	other_3	indef-np.quant						
@@ -3572,13 +3599,13 @@ CA	other_3	ne	OLD
 :								
 60.000								
 .							
-
+	
 # text = DK: 60.000.				
 DK	other	ne	OLD					
-:								
+:					1	:		
 60.000								
 .							
-
+	
 # text = 60.000 Dollar im Jahr sind die Leute unglücklich, und sie werden zunehmend unglücklicher, je ärmer sie werden.				
 60.000								
 Dollar	SBJ	indef-np.quant						
@@ -3586,9 +3613,9 @@ in
 dem								
 Jahr	other_2	def-np.the	OLD					
 sind								
-die								
+die					6	die	set_84	
 Leute	SBJ	def-np.the	OLD					
-unglücklich								
+unglücklich					8	unglücklich		
 ,								
 und								
 sie	SBJ_2	pron	OLD					
@@ -3601,31 +3628,31 @@ je
 sie	SBJ_2	pron	OLD					
 werden								
 .							
-
+	
 # text = Darüber bekommen wir eine absolut flache Linie.				
-Darüber								
-bekommen								
-wir	SBJ	pron	OLD					
-eine								
-absolut								
-flache								
-Linie	OBJ	indef-np.a						
-.							
-
-# text = Ich meine, ich habe selten so flache Linien gesehen.				
-Ich	SBJ	pron.pper	OLD					
-meine	other	pron	OLD					
-,								
-ich	SBJ_2	pron.pper	OLD					
-habe								
-selten								
-so								
-flache								
-Linien	OBJ_2	indef-np.bare						
-gesehen								
-.							
-
-# text = Was passiert, ist offensichtlich, dass Geld einem kein Erlebnis-Glück beschafft, aber dass Mangel an Geld einem sicherlich Elend beschafft, und wir können dieses Elend sehr, sehr klar messen.				
+Darüber					1	Darüber		
+bekommen					2	bekommen		
+wir	SBJ	pron	OLD		3	wir		
+eine					4	eine		
+absolut					5	absolut		
+flache					6	flache		
+Linie	OBJ	indef-np.a			7	Linie		
+.				8	.	
+		
+# text = Ich meine, ich habe selten so flache Linien gesehen.	
+Ich	SBJ	pron.pper	OLD		1	Ich		
+meine	other	pron	OLD		2	meine		
+,					3	,		
+ich	SBJ_2	pron.pper	OLD		4	ich		
+habe					5	habe		
+selten					6	selten		
+so					7	so		
+flache					8	flache		
+Linien	OBJ_2	indef-np.bare			9	Linien		
+gesehen					10	gesehen		
+.				11	.	
+		
+# text = Was passiert, ist offensichtlich, dass Geld einem kein Erlebnis-Glück beschafft, aber dass Mangel an Geld einem sicherlich Elend beschafft, und wir können dieses Elend sehr, sehr klar messen.	
 Was	SBJ_2	pron	OLD					
 passiert								
 ,								
@@ -3634,14 +3661,14 @@ offensichtlich
 ,								
 dass								
 Geld	SBJ_2	indef-np.bare						
-einem								
+einem					1	Im		
 kein	other_3	pron	OLD					
 Erlebnis								
 _								
 Glück	SBJ_2	indef-np.a						
-beschafft								
+beschafft					12	beschafft		
 ,								
-aber								
+aber					2	passiert		
 dass								
 Mangel	SBJ_3	ne	OLD					
 an								
@@ -3654,15 +3681,18 @@ beschafft
 und								
 wir	SBJ_2	pron	OLD					
 können								
-dieses	other_3	pron.pds	OLD					
+dieses	other_3	pron.pds	OLD		27	dieses	set_168	
 Elend	OBJ_2	def-np.dem	OLD					
-sehr								
-,								
-sehr								
+sehr					29	sehr		
+,					3	,		
+*,*					30	,		
+sehr					31	sehr		
 klar								
-messen								
-.							
-
+messen					33	messen		
+.				34	.		
+*ist*					4	ist		
+*offensichtlich*					5	offensichtlich		
+	
 # text = Im Sinne des anderen Selbst, des erinnernden Selbst, bekommen Sie eine andere Geschichte.				
 In								
 dem								
@@ -3675,34 +3705,34 @@ des
 erinnernden								
 Selbst								
 ,								
-bekommen								
+bekommen					11	bekommen		
 Sie	SBJ	pron.pper	OLD					
 eine								
 andere								
 Geschichte	OBJ	indef-np.a						
 .							
-
+	
 # text = Je mehr Geld man verdient desto zufriedener ist man.				
-Je								
-mehr								
-Geld	SBJ	indef-np.bare						
-man	SBJ	pron.pind						
-verdient								
-desto								
-zufriedener								
-ist								
-man	SBJ	pron.pind						
-.							
-
-# text = Das gilt nicht für Emotionen.				
-Das	SBJ	pron.pds	OLD					
-gilt								
-nicht								
-für								
-Emotionen	other	indef-np.bare						
-.							
-
-# text = CA: Aber Danny, im gesamten amerikanischen Bestreben geht es um Leben, Freiheit, das Streben nach Glückseligkeit.				
+Je					1	Je		
+mehr					2	mehr		
+Geld	SBJ	indef-np.bare			3	Geld		
+man	SBJ	pron.pind			4	man		
+verdient					5	verdient	set_169	
+desto					6	desto		
+zufriedener					7	zufriedener		
+ist					8	ist		
+man	SBJ	pron.pind			9	man		
+.				10	.	
+		
+# text = Das gilt nicht für Emotionen.	
+Das	SBJ	pron.pds	OLD		1	Das	set_169	
+gilt					2	gilt	set_171	
+nicht					3	nicht		
+für					4	für		
+Emotionen	other	indef-np.bare			5	Emotionen		
+.				6	.	
+		
+# text = CA: Aber Danny, im gesamten amerikanischen Bestreben geht es um Leben, Freiheit, das Streben nach Glückseligkeit.	
 CA								
 :								
 Aber	SBJ	ne	OLD					
@@ -3713,7 +3743,7 @@ dem
 gesamten								
 amerikanischen								
 Bestreben	other	def-np.the	OLD					
-geht								
+geht					11	geht		
 es								
 um								
 Leben	other	indef-np.bare						
@@ -3725,77 +3755,77 @@ Streben	SBJ	def-np.the	OLD
 nach								
 Glückseligkeit	other_2	indef-np.bare						
 .							
-
+	
 # text = Wenn Leute diesen Befund ernst nehmen würden, ich meine, es scheint alles auf den Kopf zu stellen, alles, was wir glauben, zum Beispiel in Bezug auf Steuerpolitik und so weiter.				
-Wenn								
-Leute	SBJ_2	indef-np.bare						
-diesen	other_3	pron.pds	OLD					
-Befund	OBJ_2	def-np.dem	OLD					
-ernst								
-nehmen								
-würden								
-,								
-ich	SBJ_3	pron.pper	OLD					
-meine	other_4	pron.ppos	OLD					
-,								
-es	SBJ_3	pron.pper	OLD					
-scheint								
-alles	OBJ_3	pron.pind						
-auf								
-den								
-Kopf	other_4	def-np.the	OLD					
-zu								
-stellen								
-,								
-alles	other	pron.pind						
-,								
-was	OBJ_2	pron	OLD					
-wir	SBJ_2	pron	OLD					
-glauben								
-,								
+Wenn					1	Wenn		
+Leute	SBJ_2	indef-np.bare			2	Leute		
+diesen	other_3	pron.pds	OLD		3	diesen		
+Befund	OBJ_2	def-np.dem	OLD		4	Befund	set_171	
+ernst					5	ernst		
+nehmen					6	nehmen		
+würden					7	würden		
+,					8	,		
+ich	SBJ_3	pron.pper	OLD		9	ich		
+meine	other_4	pron.ppos	OLD		10	meine		
+,					11	,		
+es	SBJ_3	pron.pper	OLD		12	es	set_171	
+scheint					13	scheint		
+alles	OBJ_3	pron.pind			14	alles		
+auf					15	auf		
+den					16	den		
+Kopf	other_4	def-np.the	OLD		17	Kopf		
+zu					18	zu		
+stellen					19	stellen		
+,					20	,		
+alles	other	pron.pind			21	alles	set_103	
+,					22	,		
+was	OBJ_2	pron	OLD		23	was	set_103	
+wir	SBJ_2	pron	OLD		24	wir		
+glauben					25	glauben		
+,					26	,		
 zu	other_3	pron.pind						
-dem								
-Beispiel	other_2	def-np.the	OLD					
-in								
-Bezug	other_3	indef-np.bare						
-auf								
-Steuerpolitik	other_4	indef-np.bare						
-und								
-so								
-weiter								
-.							
-
-# text = Gibt es eine Chance, dass Politiker, dass das Land generell einen Befund wie den ernst nehmen würde und darauf basierend Politik machen würde?				
-Gibt								
-es	SBJ	pron.pper	OLD					
-eine								
-Chance	OBJ_2	indef-np.a						
-,								
-dass								
-Politiker	SBJ_2	indef-np.bare						
-,								
-dass								
-das								
-Land	SBJ_3	def-np.the	OLD					
-generell								
-einen								
-Befund	OBJ_3	indef-np.a						
-wie								
-den								
-ernst								
-nehmen								
-würde								
-und								
-darauf								
-basierend								
-Politik	other_2	indef-np.bare						
-machen								
-würde								
-?							
-
-# text = DK: Wissen Sie, ich glaube, dass es Anerkennung gibt für die Rolle der Glücksforschung in der Politik.				
+dem					27	dem		
+Beispiel	other_2	def-np.the	OLD		28	Beispiel		
+in					29	in		
+Bezug	other_3	indef-np.bare			30	Bezug		
+auf					31	auf		
+Steuerpolitik	other_4	indef-np.bare			32	Steuerpolitik		
+und					33	und		
+so					34	so		
+weiter					35	weiter		
+.				36	.	
+		
+# text = Gibt es eine Chance, dass Politiker, dass das Land generell einen Befund wie den ernst nehmen würde und darauf basierend Politik machen würde?	
+Gibt					1	Gibt		
+es	SBJ	pron.pper	OLD		2	es		
+eine					3	eine		
+Chance	OBJ_2	indef-np.a			4	Chance		
+,					5	,		
+dass					6	dass		
+Politiker	SBJ_2	indef-np.bare			7	Politiker		
+,					8	,		
+dass					9	dass		
+das					10	das		
+Land	SBJ_3	def-np.the	OLD		11	Land		
+generell					12	generell		
+einen					13	einen		
+Befund	OBJ_3	indef-np.a			14	Befund	set_171	
+wie					15	wie	set_171	
+den					16	den	set_171	
+ernst					17	ernst		
+nehmen					18	nehmen		
+würde					19	würde		
+und					20	und		
+darauf					21	darauf	set_171	
+basierend					22	basierend		
+Politik	other_2	indef-np.bare			23	Politik		
+machen					24	machen		
+würde					25	würde		
+?				26		
+		
+# text = DK: Wissen Sie, ich glaube, dass es Anerkennung gibt für die Rolle der Glücksforschung in der Politik.	
 DK	other	ne	OLD					
-:								
+:					1	:		
 Wissen	SBJ_2	ne	OLD					
 Sie	OBJ_2	pron.pper	OLD					
 ,								
@@ -3815,7 +3845,7 @@ in
 der								
 Politik	other_5	def-np.the	OLD					
 .							
-
+	
 # text = Die Anerkennung wird langsam sein in den Vereinigten Staaten, keine Frage, aber im Vereinigten Königreich passiert sie gerade und in anderen Ländern passiert sie gerade.				
 Die								
 Anerkennung	SBJ	def-np.the	OLD					
@@ -3832,10 +3862,10 @@ Frage	other	indef-np.quant
 ,								
 aber								
 in								
-dem								
-Vereinigten								
+dem					15	dem		
+Vereinigten					16	Vereinigten	set_173	
 Königreich	other	ne	OLD					
-passiert								
+passiert					18	passiert		
 sie	SBJ	pron	OLD					
 gerade								
 und								
@@ -3846,48 +3876,48 @@ passiert
 sie	SBJ_2	pron	OLD					
 gerade								
 .							
-
+	
 # text = Die Leute sind dabei, anzuerkennen, dass sie an Glück denken sollten, wenn sie an Politik denken.				
-Die								
-Leute	SBJ	def-np.the	OLD					
-sind								
-dabei	other	pron.padv	OLD					
-,								
-anzuerkennen								
-,								
-dass								
-sie	SBJ_3	pron	OLD					
-an								
-Glück	other_3	indef-np.bare						
-denken								
-sollten								
-,								
-wenn								
-sie	SBJ_4	pron	OLD					
-an								
-Politik	other_4	indef-np.bare						
-denken								
-.							
-
-# text = Es wird eine Weile dauern, und die Leute werden diskutieren, ob sie Erlebnis-Glück erforschen wollen oder ob sie Lebens-Bewertung erforschen wollen, also müssen wir diese Diskussion ziemlich bald führen.				
-Es								
-wird								
-eine								
-Weile	OBJ	indef-np.a						
-dauern								
-,								
-und								
-die								
-Leute	OBJ_2	def-np.the	OLD					
-werden								
-diskutieren								
+Die					1	Die		
+Leute	SBJ	def-np.the	OLD		2	Leute	set_89	
+sind					3	sind		
+dabei	other	pron.padv	OLD		4	dabei		
+,					5	,		
+anzuerkennen					6	anzuerkennen		
+,					7	,		
+dass					8	dass		
+sie	SBJ_3	pron	OLD		9	sie	set_89	
+an					10	an		
+Glück	other_3	indef-np.bare			11	Glück		
+denken					12	denken		
+sollten					13	sollten		
+,					14	,		
+wenn					15	wenn		
+sie	SBJ_4	pron	OLD		16	sie	set_89	
+an					17	an		
+Politik	other_4	indef-np.bare			18	Politik		
+denken					19	denken		
+.				20	.	
+		
+# text = Es wird eine Weile dauern, und die Leute werden diskutieren, ob sie Erlebnis-Glück erforschen wollen oder ob sie Lebens-Bewertung erforschen wollen, also müssen wir diese Diskussion ziemlich bald führen.	
+Es					1	Es		
+wird					2	wird		
+eine					3	eine		
+Weile	OBJ	indef-np.a			4	Weile		
+dauern					5	dauern		
+,					6	,		
+und					7	und		
+die					8	die		
+Leute	OBJ_2	def-np.the	OLD		9	Leute	set_89	
+werden					10	werden		
+diskutieren					11	diskutieren		
 ,								
 ob								
 sie	SBJ_3	pron	OLD					
 Erlebnis								
 _								
 Glück	OBJ_3	indef-np.bare						
-erforschen								
+erforschen					16	erforschen		
 wollen								
 oder								
 ob								
@@ -3901,109 +3931,109 @@ wollen
 also								
 müssen								
 wir	SBJ_3	pron	OLD					
-diese	other_4	pron.pds	OLD					
+diese	other_4	pron.pds	OLD		28	diese		
 Diskussion	OBJ_3	def-np.dem	OLD					
 ziemlich								
 bald								
-führen								
-.							
-
-# text = Wie man Glück steigern kann geht sehr unterschiedlich abhängig davon, wie Sie denken und ob Sie an das erinnernde Selbst denken oder ob Sie an das erlebende Selbst denken.				
-Wie								
-man	SBJ_2	pron.pind						
-Glück	OBJ_2	indef-np.bare						
-steigern								
-kann								
-geht								
-sehr								
-unterschiedlich								
-abhängig								
-davon								
-,								
-wie								
-Sie	SBJ_2	pron.pper	OLD					
-denken								
-und								
-ob								
-Sie	SBJ_3	pron.pper	OLD					
-an								
-das								
-erinnernde								
-Selbst								
-denken								
-oder								
-ob								
-Sie	SBJ_4	pron.pper	OLD					
-an								
-das								
-erlebende								
-Selbst								
-denken								
-.							
-
-# text = Das wird Politik beeinflussen, denke ich, in den kommenden Jahren.				
-Das	SBJ							
-wird								
-Politik	OBJ	indef-np.bare						
-beeinflussen								
-,								
-denke								
-ich	SBJ_2	pron.pper	OLD					
-,								
-in								
-den								
-kommenden								
-Jahren	other_2	def-np.the	OLD					
-.							
-
-# text = In den Vereinigten Staaten strengt man sich an, das Erlebnis-Glück der Bevölkerung zu messen.				
-In								
-den								
-Vereinigten								
-Staaten	other	ne	OLD					
-strengt								
-man	SBJ	pron.pind						
-sich	OBJ							
-an								
+führen					32	führen		
+.				33	.	
+		
+# text = Wie man Glück steigern kann geht sehr unterschiedlich abhängig davon, wie Sie denken und ob Sie an das erinnernde Selbst denken oder ob Sie an das erlebende Selbst denken.	
+Wie					1	Wie		
+man	SBJ_2	pron.pind			2	man		
+Glück	OBJ_2	indef-np.bare			3	Glück	set_175	
+steigern					4	steigern		
+kann					5	kann		
+geht					6	geht	set_237	
+sehr					7	sehr		
+unterschiedlich					8	unterschiedlich		
+abhängig					9	abhängig		
+davon					10	davon		
+,					11	,		
+wie					12	wie		
+Sie	SBJ_2	pron.pper	OLD		13	Sie		
+denken					14	denken		
+und					15	und		
+ob					16	ob		
+Sie	SBJ_3	pron.pper	OLD		17	Sie		
+an					18	an		
+das					19	das		
+erinnernde					20	erinnernde		
+Selbst					21	Selbst	set_236	
+denken					22	denken		
+oder					23	oder		
+ob					24	ob		
+Sie	SBJ_4	pron.pper	OLD		25	Sie		
+an					26	an		
+das					27	das		
+erlebende					28	erlebende		
+Selbst					29	Selbst	set_232	
+denken					30	denken		
+.				31	.	
+		
+# text = Das wird Politik beeinflussen, denke ich, in den kommenden Jahren.	
+Das	SBJ				1	Das	set_237	
+wird					2	wird		
+Politik	OBJ	indef-np.bare			3	Politik		
+beeinflussen					4	beeinflussen		
+,					5	,		
+denke					6	denke		
+ich	SBJ_2	pron.pper	OLD		7	ich		
+,					8	,		
+in					9	in		
+den					10	den		
+kommenden					11	kommenden		
+Jahren	other_2	def-np.the	OLD		12	Jahren		
+.				13	.	
+		
+# text = In den Vereinigten Staaten strengt man sich an, das Erlebnis-Glück der Bevölkerung zu messen.	
+In					1	In		
+den					2	den		
+Vereinigten					3	Vereinigten		
+Staaten	other	ne	OLD		4	Staaten		
+strengt					5	strengt		
+man	SBJ	pron.pind			6	man		
+sich	OBJ				7	sich		
+an					8	an		
 ,								
 das								
 Erlebnis								
 _								
 Glück	OBJ_2	def-np.the	OLD					
-der								
+der					12	der		
 Bevölkerung	other_3	def-np.the	OLD					
 zu								
-messen								
-.							
-
-# text = Das wird, denke ich, in den nächsten ein oder zwei Jahrzehnten Teil der nationalen Statistik sein.				
-Das	SBJ							
-wird								
-,								
-denke								
-ich	SBJ	pron.pper	OLD					
-,								
-in								
-den								
-nächsten								
-ein								
-oder								
-zwei								
-Jahrzehnten	other_3	indef-np.quant						
-Teil	other	def-np.quant	OLD					
-der								
-nationalen								
-Statistik	other_2	def-np.the	OLD					
-sein								
-.							
-
-# text = CA: Nun, es scheint mir, dieses Thema wird, oder sollte wenigstens die interessanteste politische Debatte zum Verfolgen sein über die nächsten paar Jahre.				
+messen					15	messen	set_174	
+.				16	.	
+		
+# text = Das wird, denke ich, in den nächsten ein oder zwei Jahrzehnten Teil der nationalen Statistik sein.	
+Das	SBJ				1	Das	set_174	
+wird					2	wird		
+,					3	,		
+denke					4	denke		
+ich	SBJ	pron.pper	OLD		5	ich		
+,					6	,		
+in					7	in		
+den					8	den		
+nächsten					9	nächsten		
+ein					10	ein		
+oder					11	oder		
+zwei					12	zwei		
+Jahrzehnten	other_3	indef-np.quant			13	Jahrzehnten		
+Teil	other	def-np.quant	OLD		14	Teil		
+der					15	der		
+nationalen					16	nationalen		
+Statistik	other_2	def-np.the	OLD		17	Statistik		
+sein					18	sein		
+.				19	.	
+		
+# text = CA: Nun, es scheint mir, dieses Thema wird, oder sollte wenigstens die interessanteste politische Debatte zum Verfolgen sein über die nächsten paar Jahre.	
 CA								
 :								
 Nun	other	ne	OLD					
 ,								
 es	SBJ	pron.pper	OLD					
-scheint								
+scheint					4	scheint		
 mir	OBJ	pron.pper	OLD					
 ,								
 dieses	other_3	pron.pds	OLD					
@@ -4027,23 +4057,23 @@ nächsten
 paar	other_3	pron.pind						
 Jahre	other_2	indef-np.quant						
 .							
-
+	
 # text = Vielen Dank für die Erfindung der Verhaltensökonomie.				
-Vielen								
-Dank	other	indef-np.quant						
-für								
-die								
-Erfindung	other	def-np.the	OLD					
-der								
-Verhaltensökonomie	other_2	def-np.the	OLD					
-.							
-
-# text = Danke, Danny Kahneman.				
-Danke	other	indef-np.bare						
-,								
-Danny	other	ne	OLD					
-Kahneman								
-.							
-
+Vielen					1	Vielen		
+Dank	other	indef-np.quant			2	Dank		
+für					3	für		
+die					4	die		
+Erfindung	other	def-np.the	OLD		5	Erfindung		
+der					6	der		
+Verhaltensökonomie	other_2	def-np.the	OLD		7	Verhaltensökonomie		
+.				8	.	
+		
+# text = Danke, Danny Kahneman.	
+Danke	other	indef-np.bare			1	Danke		
+,					2	,		
+Danny	other	ne	OLD		3	Danny		
+Kahneman					4	Kahneman		
+.				5	.	
+		
 
 

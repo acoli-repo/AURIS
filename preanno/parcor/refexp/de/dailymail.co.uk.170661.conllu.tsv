@@ -1,61 +1,66 @@
-# text = Assistenzärzte möchten weitere Streiks organisieren, nachdem sie Jeremy Hunts Vorschlag abgelehnt haben Die Minister hatten gehofft, den Streit über die Änderungen durch Annahme eines reformierten Vertrages mit den Funktionären der British Medical Association beenden zu können, aber 58 Prozent der 37.000 Assistenzärzte, die bei einer Wahl abstimmten, lehnten ihn ab.				
+# text = Assistenzärzte möchten weitere Streiks organisieren, nachdem sie Jeremy Hunts Vorschlag abgelehnt haben				
 Assistenzärzte	SBJ	indef-np.bare			1	Assistenzärzte		
-möchten								
-weitere								
-Streiks	OBJ	indef-np.bare						
-organisieren								
-,								
-nachdem								
-sie	SBJ_2	pron	OLD					
-Jeremy	OBJ_2	ne	OLD					
+möchten					2	möchten		
+weitere					3	weitere		
+Streiks	OBJ	indef-np.bare			4	Streiks		
+organisieren					5	organisieren		
+,					6	,		
+nachdem					7	nachdem		
+sie	SBJ_2	pron	OLD		8	sie		
+Jeremy	SBJ_2	ne	OLD		9	Jeremy	set_13	
 Hunts					10	Hunts		
 Vorschlag	OBJ_2	indef-np.bare			11	Vorschlag	set_14	
-abgelehnt					12	Annahme		
-haben								
-Die					13	eines		
-Minister	SBJ_2	def-np.the	OLD		15	Minister		
-hatten					16	hatten		
-gehofft					17	Streiks		
-,					18	,		
+abgelehnt					12	abgelehnt		
+haben				13	haben	
+		
+# text = Die Minister hatten gehofft, den Streit über die Änderungen durch Annahme eines reformierten Vertrages mit den Funktionären der British Medical Association beenden zu können, aber 58 Prozent der 37.000 Assistenzärzte, die bei einer Wahl abstimmten, lehnten ihn ab.	
+Die					1	Die		
+Minister	SBJ	def-np.the	OLD					
+hatten								
+gehofft								
+,								
 den								
-Streit	OBJ_4	def-np.the	OLD					
+Streit	OBJ_2	def-np.the	OLD					
 über								
 die								
-Änderungen	other_5	def-np.the	OLD					
-durch								
-Annahme	other_6	indef-np.bare						
-eines								
-reformierten								
-Vertrages	other_7	indef-np.a						
-mit								
-den								
-Funktionären	other_6	def-np.poss	OLD					
-der								
-British								
-Medical								
-Association	other_7	ne	OLD					
-beenden								
-zu								
-können								
-,					19	,		
-aber								
-58								
-Prozent	other_3	indef-np.quant			20	Streit		
-der								
-37.000								
-Assistenzärzte	other_4	def-np.quant	OLD					
-,								
-die	SBJ_6				21	sie		
-bei								
-einer								
-Wahl	other_6	indef-np.a			22	Jeremy	set_13	
-abstimmten								
-,								
-lehnten								
-ihn	OBJ_3	pron.pper	OLD					
-ab								
+Änderungen	other_3	def-np.the	OLD		10	Änderungen		
+durch					11	durch		
+Annahme	other_4	indef-np.bare			12	Annahme		
+eines					13	eines		
+reformierten					14	reformierten		
+Vertrages	other_5	indef-np.a			15	Vertrages		
+mit					16	mit		
+den					17	den		
+Funktionären	other_4	def-np.poss	OLD		18	Funktionären		
+der					19	der		
+*Minister*					2	Minister		
+British					20	British		
+Medical					21	Medical		
+Association	other_5	ne	OLD		22	Association		
+beenden					23	beenden		
+zu					24	zu		
+können					25	können		
+,					26	,		
+aber					27	aber		
+58					28	58		
+Prozent	SBJ_2	indef-np.quant			29	Prozent		
+*hatten*					3	hatten		
+der					30	der		
+37.000					31	37.000		
+Assistenzärzte	SBJ_3	def-np.quant	OLD		32	Assistenzärzte	set_10	
+,					33	,		
+die	SBJ_5				34	die	set_10	
+bei					35	bei		
+einer					36	einer		
+Wahl	other_5	indef-np.a			37	Wahl		
+abstimmten					38	abstimmten		
+,					39	,		
+*gehofft*					4	gehofft		
+lehnten					40	lehnten		
+ihn	OBJ_2	pron.pper	OLD		41	ihn	set_14	
+ab					42	ab		
 .				43	.		
-	
+
 --				
 # text = Im Juli hatte Hunt Pläne enthüllt, den Vertrag zwangsweise einzuführen und sagte, dass die NHS sich in einem \"Niemandsland\" befände und jede weitere Verzögerung für die Mitarbeiter und Patienten schädlich wäre.				
 In								
@@ -64,17 +69,17 @@ Juli	other	ne	OLD
 hatte								
 Hunt	SBJ	ne	OLD					
 Pläne	OBJ	indef-np.bare						
-enthüllt					6	enthüllt		
-,								
-den								
+enthüllt								
+,					5	,		
+den					6	den		
 Vertrag	OBJ_2	def-np.the	OLD					
-zwangsweise								
+zwangsweise					7	Streit		
 einzuführen								
-und								
+und					8	über		
 sagte								
 ,								
 dass								
-die								
+die					9	die		
 NHS	SBJ_3	ne	OLD					
 sich	OBJ_3							
 in								
@@ -96,7 +101,7 @@ schädlich
 wäre								
 .							
 	
-# text = Die ersten Assistenzärzte sollen einen neuen Vertrag erhalten, der Änderungen zu Nacht- und Wochenendarbeiten enthält, um die Pflege zu ungastlichen Uhrzeiten zu verbessern.				
+# text = Die ersten Assistenzärzte sollen einen neuen Vertrag erhalten, der Änderungen zu Nacht- und Wochenendarbeiten enthält, um die Pflege zu ungastlichen Uhrzeiten zu verbessern.	6	enthüllt		
 Die					1	Die		
 ersten					2	ersten		
 Assistenzärzte	SBJ	def-np.the	OLD		3	Assistenzärzte		

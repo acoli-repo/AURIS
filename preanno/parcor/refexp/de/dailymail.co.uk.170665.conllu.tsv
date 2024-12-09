@@ -1,4 +1,4 @@
-# text = Das £2-pro Tag- Medikament, das Herzinfarktrisiko senken kann Tausende von Herzinfarktpatienten werden von einem £2-pro Tag-Medikament profitieren, nachdem von den Behörden empfohlen wurde, dieses mehr Leuten für einen längeren Zeitraum zu verabreichen.				
+# text = Das £2-pro Tag- Medikament, das Herzinfarktrisiko senken kann				
 Das								
 £2-	SBJ	def-np.the	OLD					
 pro								
@@ -6,37 +6,39 @@ Tag
 _								
 Medikament	other_2	indef-np.bare						
 ,								
-das								
-Herzinfarktrisiko	OBJ_3	def-np.the	OLD					
-senken								
-kann					10	kann		
-Tausende	other_2	indef-np.bare						
+das					7	das		
+Herzinfarktrisiko	OBJ	def-np.the	OLD					
+senken					10	senken		
+kann							
+	
+# text = Tausende von Herzinfarktpatienten werden von einem £2-pro Tag-Medikament profitieren, nachdem von den Behörden empfohlen wurde, dieses mehr Leuten für einen längeren Zeitraum zu verabreichen.				
+Tausende	SBJ	indef-np.bare						
 von								
-Herzinfarktpatienten	other_3	indef-np.bare			14	Herzinfarktpatienten		
+Herzinfarktpatienten	other_2	indef-np.bare						
 werden								
 von								
 einem								
 £2-	other	indef-np.a						
 pro								
-Tag					15	Tag		
+Tag								
 _								
-Medikament	other_2	indef-np.bare						
-profitieren								
-,					17	,		
+Medikament	other	indef-np.bare						
+profitieren					10	profitieren		
+,								
 nachdem								
 von								
 den								
-Behörden	other_3	def-np.the	OLD					
+Behörden	other_2	def-np.the	OLD					
 empfohlen								
 wurde								
 ,								
-dieses	other_3	pron.pds	OLD					
+dieses	other_4	pron.pds	OLD					
 mehr								
-Leuten	OBJ_2	def-np.dem	OLD					
+Leuten	OBJ_3	def-np.dem	OLD					
 für								
-einen					19	Herzinfarktrisiko	set_0	
-längeren					20	Tag		
-Zeitraum	other_2	indef-np.a						
+einen								
+längeren								
+Zeitraum	other_3	indef-np.a						
 zu								
 verabreichen								
 .							

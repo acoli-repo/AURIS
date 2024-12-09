@@ -4731,7 +4731,7 @@ ich	SBJ_5	pron.pper	OLD		19	ich
 handle					20	handle		
 .				21	.	
 		
-# text = Ich kann jetzt rausgehen, ohne mich zu fürchten, und ich glaube nicht, dass diese schlechten Gefühle zurückkommen werden, und wenn Dr. Miranda nicht gewesen wäre, wäre ich immer noch zu Hause mit der Decke über meinem Kopf, wenn ich überhaupt noch am Leben wäre.	
+# text = Ich kann jetzt rausgehen, ohne mich zu fürchten, und ich glaube nicht, dass diese schlechten Gefühle zurückkommen werden, und wenn Dr.	
 Ich	SBJ	pron.pper	OLD		1	Ich		
 kann					2	kann		
 jetzt					3	jetzt		
@@ -4756,36 +4756,38 @@ werden					21	werden
 ,					22	,		
 und					23	und		
 wenn					24	wenn		
-Dr.					25	Dr.		
-Miranda	SBJ_3	ne	OLD		26	Miranda		
-nicht					27	nicht		
-gewesen					28	gewesen		
-wäre					29	wäre		
-,					30	,		
-wäre					31	wäre		
-ich	SBJ_3	pron.pper	OLD		32	ich		
-immer					33	immer		
-noch					34	noch		
-zu					35	zu		
-Hause	other_2	indef-np.bare			36	Hause		
-mit					37	mit		
-der					38	der		
-Decke	other_3	def-np.the	OLD		39	Decke		
-über					40	über		
-meinem					41	meinem		
-Kopf	other_4	indef-np			42	Kopf		
-,					43	,		
-wenn					44	wenn		
-ich	SBJ_5	pron.pper	OLD		45	ich		
-überhaupt					46	überhaupt		
-noch					47	noch		
-an					48	an		
-dem								
-Leben	other_5	def-np.the	OLD		49	Leben		
-wäre					50	wäre		
-.				51	.	
+Dr.	other	indef-np.bare		25	Dr.	
 		
---	
+# text = Miranda nicht gewesen wäre, wäre ich immer noch zu Hause mit der Decke über meinem Kopf, wenn ich überhaupt noch am Leben wäre.	
+Miranda	SBJ_3	ne	OLD					
+nicht								
+gewesen								
+wäre					31	wäre		
+,								
+wäre								
+ich	SBJ	pron.pper	OLD					
+immer								
+noch								
+zu	other_2	pron.pind						
+Hause	other	indef-np.bare						
+mit								
+der								
+Decke	other	def-np.the	OLD					
+über								
+meinem								
+Kopf	other_2	indef-np						
+,								
+wenn								
+ich	SBJ_2	pron.pper	OLD					
+überhaupt								
+noch								
+an								
+dem								
+Leben	other_2	def-np.the	OLD					
+wäre								
+.							
+	
+--				
 # text = Ich bat Gott, mir einen Engel zu schicken und er erhörte meine Gebete."				
 Ich	SBJ	pron.pper	OLD		1	Ich		
 bat					2	bat		

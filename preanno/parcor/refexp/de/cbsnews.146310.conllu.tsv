@@ -1,23 +1,25 @@
-# text = Mahaj Brown, 6, "von Kugeln durchlöchert", überlebt Schießerei in Philadelphia Die Polizei teilt mit, dass der 6-jährige Junge in Philadelphia angeschossen wurde, diese Woche bereits das zweite Mal, dass ein 6-jähriges Kind angeschossen wird.				
-Mahaj	SBJ	ne	OLD					
-Brown								
-,					18	,		
-6	other_2	ne	OLD					
-,								
-&quot;								
-von								
-Kugeln	other_3	indef-np.bare						
-durchlöchert								
-&quot;								
-,								
-überlebt								
-Schießerei	OBJ	indef-np.bare						
-in								
-Philadelphia	other_2	ne	OLD					
-Die	other_2	pron	OLD					
-Polizei	SBJ	ne	OLD					
-teilt								
-mit								
+# text = Mahaj Brown, 6, "von Kugeln durchlöchert", überlebt Schießerei in Philadelphia				
+Mahaj	SBJ	ne	OLD		1	Mahaj	set_24	
+Brown					2	Brown		
+,					3	,		
+6	other_2	ne	OLD		4	6		
+,					5	,		
+&quot;					6	''		
+von					7	von		
+Kugeln	other_3	indef-np.bare			8	Kugeln		
+durchlöchert					9	durchlöchert		
+&quot;					10	''		
+,					11	,		
+überlebt					12	überlebt		
+Schießerei	other	indef-np.bare			13	Schießerei		
+in					14	in		
+Philadelphia	other	ne	OLD	15	Philadelphia	
+		
+# text = Die Polizei teilt mit, dass der 6-jährige Junge in Philadelphia angeschossen wurde, diese Woche bereits das zweite Mal, dass ein 6-jähriges Kind angeschossen wird.	
+Die					1	Die		
+Polizei	SBJ	def-np.the	OLD		2	Polizei		
+teilt					3	teilt		
+mit					4	mit		
 ,								
 dass								
 der								
@@ -27,27 +29,27 @@ jährige
 Junge	SBJ_2	def-np.the	OLD					
 in								
 Philadelphia	other_2	ne	OLD					
-angeschossen								
+angeschossen					12	angeschossen		
 wurde								
 ,								
 diese	other_4	pron.pds	OLD					
-Woche	OBJ_3	def-np.dem	OLD					
+Woche	SBJ_3	def-np.dem	OLD					
 bereits								
 das								
 zweite								
-Mal	other_3	def-np.the	OLD					
+Mal	other_2	def-np.the	OLD					
 ,								
 dass								
 ein								
-6								
+6					26	6		
 _								
 jähriges								
-Kind	SBJ_3	indef-np.a						
-angeschossen								
+Kind	SBJ_2	indef-np.a						
+angeschossen					26	angeschossen		
 wird								
-.							
-	
-# text = Die Großeltern des Jungen identifizierten ihn für CBS Philadelphia als Mahaj Brown.				
+.				28	.	
+		
+# text = Die Großeltern des Jungen identifizierten ihn für CBS Philadelphia als Mahaj Brown.	
 Die					1	Die		
 Großeltern	SBJ	def-np.the	OLD		2	Großeltern		
 des					3	des		

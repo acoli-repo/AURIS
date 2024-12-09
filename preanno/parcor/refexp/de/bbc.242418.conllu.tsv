@@ -1,45 +1,49 @@
-# text = Frankie Dettori erreicht auf Predilection seinen 3.000ten Gewinn bei Newmarket Dettori sprüht Champagner nach einem Double bei Newmarket, der ihm 3.000ten Gewinn bringt Der Jockey Frankie Dettori sicherte am Freitag seinen 3.000ten britischen Gewinn bei Newmarket.				
-Frankie	SBJ	ne	OLD					
-Dettori					1	Der		
-erreicht								
-auf								
-Predilection	other	indef-np.bare						
-seinen								
-3.000ten								
-Gewinn	OBJ	indef-np						
-bei								
-Newmarket	other_2	ne	OLD		10	Newmarket	set_1	
-Dettori					12	Dettori		
-sprüht								
-Champagner	OBJ_2	ne	OLD		13	Champagner	set_38	
-nach					14	Dettori	set_38	
-einem					15	Predilection	set_1	
-Double	other_2	indef-np.a			16	Double	set_1	
-bei								
-Newmarket	other_3	ne	OLD					
-,								
-der	SBJ_4							
-ihm	OBJ_4	pron.pper	OLD					
-3.000ten					17	3.000ten		
-Gewinn	OBJ_4	indef-np.bare			18	Gewinn		
-bringt					19	,		
-Der	other_5	pron	OLD					
-Jockey	SBJ_4	ne	OLD					
-Frankie								
-Dettori								
-sicherte								
-an								
+# text = Frankie Dettori erreicht auf Predilection seinen 3.000ten Gewinn bei Newmarket				
+Frankie	SBJ	ne	OLD		1	Frankie	set_38	
+Dettori					2	Dettori		
+erreicht					3	erreicht		
+auf					4	auf		
+Predilection	other	indef-np.bare			5	Predilection		
+seinen					6	seinen	set_38	
+3.000ten					7	3.000ten		
+Gewinn	OBJ	indef-np			8	Gewinn		
+bei					9	bei		
+Newmarket	other	ne	OLD	10	Newmarket	
+		
+# text = Dettori sprüht Champagner nach einem Double bei Newmarket, der ihm 3.000ten Gewinn bringt	
+Dettori	SBJ	ne	OLD		1	Dettori	set_38	
+sprüht					2	sprüht		
+Champagner	OBJ	ne	OLD		3	Champagner		
+nach					4	nach		
+einem					5	einem		
+Double	other	indef-np.a			6	Double	set_1	
+bei					7	bei		
+Newmarket	other_2	ne	OLD		8	Newmarket		
+,					9	,		
+der	SBJ_3				10	der	set_1	
+ihm	OBJ_3	pron.pper	OLD		11	ihm	set_38	
+3.000ten					12	3.000ten		
+Gewinn	OBJ_3	indef-np.bare			13	Gewinn		
+bringt				14	bringt	
+		
+# text = Der Jockey Frankie Dettori sicherte am Freitag seinen 3.000ten britischen Gewinn bei Newmarket.	
+Der					1	Der		
+Jockey	SBJ	ne	OLD		2	Jockey	set_38	
+Frankie	other_2	ne	OLD		3	Frankie		
+Dettori					4	Dettori		
+sicherte					5	sicherte		
+an					6	an		
 dem								
-Freitag	other_5	ne	OLD					
-seinen								
-3.000ten								
-britischen								
-Gewinn	OBJ_5	indef-np						
-bei								
-Newmarket	other_5	ne	OLD					
-.							
-	
-# text = Er setzte auf Predilection, die von John Gosden trainiert wird, auf seiner lokalen Rennstrecke mit seinem zweiten Gewinn der Nacht einen Meilenstein.				
+Freitag	other	ne	OLD		7	Freitag		
+seinen					8	seinen	set_38	
+3.000ten					10	3.000ten		
+britischen					10	britischen		
+Gewinn	OBJ	indef-np			11	Gewinn		
+bei					12	bei		
+Newmarket	other	ne	OLD		13	Newmarket		
+.				14	.	
+		
+# text = Er setzte auf Predilection, die von John Gosden trainiert wird, auf seiner lokalen Rennstrecke mit seinem zweiten Gewinn der Nacht einen Meilenstein.	
 Er	SBJ	pron.pper	OLD		1	Er	set_38	
 setzte					2	setzte		
 auf					3	auf		
@@ -129,40 +133,41 @@ Besonderes	other	indef-np.quant			18	Besonderes
 .					19	.		
 &quot;				20	''	
 		
-# text = Ich bin sehr emotional, weil meine Familie auch hier ist Ich bin sehr glücklich darüber, dass es bei Newmarket geschehen ist, weil ich hier vor 30 Jahren gelandet bin.	
+# text = Ich bin sehr emotional, weil meine Familie auch hier ist	
+Ich	SBJ_2	pron.pper	OLD		1	Ich		
+bin					2	bin		
+sehr					3	sehr		
+emotional					4	emotional		
+,					5	,		
+weil					6	weil		
+meine	other_4	pron.ppos	OLD		7	meine		
+Familie	SBJ_3	indef-np.bare			8	Familie		
+auch					9	auch		
+hier					10	hier		
+ist				11	ist	
+		
+# text = Ich bin sehr glücklich darüber, dass es bei Newmarket geschehen ist, weil ich hier vor 30 Jahren gelandet bin.	
 Ich	SBJ	pron.pper	OLD		1	Ich		
-*Newmarket*					10	Newmarket		
-bin					13	bin		
-sehr					14	sehr		
-emotional					15	emotional		
-,					17	,		
-weil					18	dass		
-meine	other_4	pron.ppos	OLD					
-Familie	SBJ_3	indef-np.bare			19	Familie		
-auch					20	auch		
-hier								
+bin					2	bin		
+sehr					3	sehr		
+glücklich					4	glücklich		
+darüber	other_2	pron.padv	OLD		5	darüber		
+,					6	,		
+dass					7	dass		
+es	SBJ_2	pron.pper	OLD		8	es		
+bei					9	bei		
+Newmarket	other_2	ne	OLD		10	Newmarket		
+geschehen					11	geschehen		
 ist					12	ist		
-Ich	SBJ_2	pron	OLD					
-bin								
-sehr								
-glücklich								
-darüber	other_2	pron.padv	OLD					
-,								
-dass								
-es	SBJ_3	pron.pper	OLD					
-bei								
-Newmarket	other_3	ne	OLD					
-geschehen								
-ist								
-,								
-weil								
-ich	SBJ_4	pron.pper	OLD					
-hier								
-vor								
-30								
-Jahren	other_4	indef-np.quant						
+,					13	,		
+weil					14	weil		
+ich	SBJ_3	pron.pper	OLD		15	ich		
+hier					16	hier		
+vor					17	vor		
+30					18	30		
+Jahren	other_3	indef-np.quant			19	Jahren		
 gelandet					20	gelandet		
-bin								
+bin					21	bin		
 .				22	.	
 		
 # text = Es ist kein großes Treffen, es ist nicht Royal Ascot - es ist ein banaler Freitag abend mit 20.000 Leuten.	
@@ -198,93 +203,96 @@ sehr					5	sehr
 bescheiden					6	bescheiden		
 .				7	.	
 		
-# text = Dettori nimmt den Jubel auf, als er auf Predilection den Sieg holt Zwei Jockeys haben den Meilenstein im Hindernisrennen erreicht - Jockey Richard Johnson und der pensionierte 20-malige Sieger Sir Anthony McCoy, der mehr als 4.300 Siege in einer rekordbrechenden Karriere erreichte.	
+# text = Dettori nimmt den Jubel auf, als er auf Predilection den Sieg holt	
 Dettori	SBJ	ne	OLD		1	Dettori	set_38	
-nimmt								
-den								
-Jubel	OBJ	def-np.the	OLD					
-auf								
-,								
-als								
-er	SBJ_3	pron.pper	OLD					
-auf								
-Predilection	other_3	indef-np.bare						
-den								
-Sieg	OBJ_3	def-np.the	OLD					
-holt								
+nimmt					2	nimmt		
+den					3	den		
+Jubel	OBJ	def-np.the	OLD		4	Jubel		
+auf					5	auf		
+,					6	,		
+als					7	als		
+er	SBJ_2	pron.pper	OLD		8	er	set_38	
+auf					9	auf		
+Predilection	other_2	indef-np.bare			10	Predilection		
+den					11	den		
+Sieg	OBJ_2	def-np.the	OLD		12	Sieg		
+holt				13	holt	
+		
+# text = Zwei Jockeys haben den Meilenstein im Hindernisrennen erreicht - Jockey Richard Johnson und der pensionierte 20-malige Sieger Sir Anthony McCoy, der mehr als 4.300 Siege in einer rekordbrechenden Karriere erreichte.	
 Zwei								
-Jockeys	SBJ_2	ne	OLD		15	Jockeys		
+Jockeys	SBJ	indef-np.quant						
 haben								
-den					16	den		
-*Jubel*					17	Jubel		
-Meilenstein	OBJ_2	def-np.the	OLD		18	Meilenstein		
+den								
+Meilenstein	OBJ	def-np.the	OLD					
 in								
-dem								
-Hindernisrennen	other_2	def-np.the	OLD					
-erreicht								
+dem					6	dem		
+Hindernisrennen	other	def-np.the	OLD					
+erreicht					8	erreicht		
 _								
-Jockey	SBJ_2	ne	OLD					
+Jockey	other	ne	OLD					
 Richard								
 Johnson								
 und								
-der					22	er	set_38	
+der								
 pensionierte								
 20-malige								
-Sieger	other_3	def-np.the	OLD					
-Sir	other_4	ne	OLD					
-Anthony					19	Anthony	set_12	
-McCoy					20	McCoy	set_12	
+Sieger	other_2	def-np.the	OLD					
+Sir	other_3	ne	OLD					
+Anthony								
+McCoy								
 ,								
-der	SBJ_5							
+der	SBJ_4							
 mehr								
 als								
 4.300								
-Siege	other_5	indef-np.quant						
+Siege	other_4	indef-np.quant						
 in								
 einer								
 rekordbrechenden								
-Karriere	other_5	indef-np.a						
+Karriere	other_4	indef-np.a						
 erreichte								
-.				32	.	
+.							
+	
+# text = Lester Piggott, der neunmalige Derbysieger hatte 4.493 Karrieresiege				
+Lester					1	Lester		
+Piggott	other	indef-np.bare			2	Piggott		
+,					3	,		
+der					4	der		
+neunmalige					5	neunmalige		
+Derbysieger	SBJ	def-np.the	OLD		6	Derbysieger		
+hatte					7	hatte		
+4.493					8	4.493		
+Karrieresiege	OBJ	indef-np.quant		9	Karrieresiege	
 		
-# text = Lester Piggott, der neunmalige Derbysieger hatte 4.493 Karrieresiege Frankie ist einer der besten Jockey der Moderne und es ist keine Überraschung, dass er diesen Meilenstein erreicht hat, den nur wenige vor ihm erreicht haben.	1	Frankie	set_38	
-Lester								
-Piggott	other	indef-np.bare			11	Piggott		
-,					12	,		
-der					13	der		
-neunmalige					14	besten		
-Derbysieger	SBJ_2	def-np.the	OLD		15	Derbysieger		
-hatte					16	der		
-4.493					17	4.493		
-Karrieresiege	OBJ_2	indef-np.quant			18	Karrieresiege		
-Frankie								
-ist								
-einer	SBJ_3	pron.pind						
-der								
-besten								
-Jockey	OBJ_2	def-np.the	OLD					
-der								
-Moderne	other_3	def-np.the	OLD					
-und								
-es	SBJ_3	pron.pper	OLD					
-ist								
-keine	other_3	pron	OLD					
-Überraschung	other_2	indef-np.quant			13	Überraschung		
-,								
-dass								
-er	SBJ_4	pron.pper	OLD					
-diesen	other_5	pron.pds	OLD					
-Meilenstein	OBJ_4	def-np.dem	OLD					
-erreicht								
-hat								
-,								
-den	SBJ_5							
-nur								
-wenige								
-vor								
-ihm	other_5	pron.pper	OLD					
-erreicht								
-haben								
+# text = Frankie ist einer der besten Jockey der Moderne und es ist keine Überraschung, dass er diesen Meilenstein erreicht hat, den nur wenige vor ihm erreicht haben.	
+Frankie	SBJ	ne	OLD		1	Frankie	set_38	
+ist					2	ist		
+einer	other	pron.pind			3	einer		
+der					4	der		
+besten					5	besten		
+Jockey	other	def-np.the	OLD		6	Jockey		
+der					7	der		
+Moderne	other_2	def-np.the	OLD		8	Moderne		
+und					9	und		
+es	SBJ_2	pron.pper	OLD		10	es		
+ist					11	ist		
+keine	other_2	pron	OLD		12	keine		
+Überraschung	other	indef-np.quant			13	Überraschung		
+,					14	,		
+dass					15	dass		
+er	SBJ_3	pron.pper	OLD		16	er	set_38	
+diesen	other_4	pron.pds	OLD		17	diesen		
+Meilenstein	OBJ_3	def-np.dem	OLD		18	Meilenstein	set_8	
+erreicht					19	erreicht		
+hat					20	hat		
+,					21	,		
+den	SBJ_4				22	den	set_8	
+nur					23	nur		
+wenige					24	wenige		
+vor					25	vor		
+ihm	other_4	pron.pper	OLD		26	ihm	set_38	
+erreicht					27	erreicht		
+haben					28	haben		
 .				29	.	
 		
 # text = Er hat Stil und ist stark, aber es ist sein taktischer Intellekt, der ihn von den anderen im Gewichtskontrollraum unterscheidet.	
@@ -408,36 +416,37 @@ unglaublicher					21	unglaublicher
 Jockey	other	indef-np.a			22	Jockey		
 .				23	.	
 		
-# text = Frankie Dettori feierte den Meilenstein mit einem typischen Flying Dismount Von Flying Finishes zu Flying Dismounts, Frankie Dettori ist seit zwei Jahrzehnten das Aushängeschild des britischen Flachrennens.	
+# text = Frankie Dettori feierte den Meilenstein mit einem typischen Flying Dismount	
 Frankie	SBJ	ne	OLD		1	Frankie	set_38	
-*Dismount*					10	Dismount		
-Dettori					12	Dettori		
-feierte					13	Finishes		
-den					14	den		
-Meilenstein	OBJ	def-np.the	OLD					
-mit								
-einem								
-typischen								
-Flying	other	indef-np.a			15	Flying		
-Dismount	other_2	ne	OLD					
-Von								
-Flying								
-Finishes								
-zu	other_2	pron.pind						
-Flying	other	ne	OLD					
-Dismounts					16	Dismounts		
-,					17	,		
-Frankie	other_2	ne	OLD		18	Frankie		
-Dettori					19	Dettori	set_38	
-ist								
-seit								
-zwei								
-Jahrzehnten	other_2	indef-np.quant						
-das								
-Aushängeschild	OBJ	def-np.the	OLD		15	Aushängeschild		
-des								
-britischen								
-Flachrennens	other_2	def-np.the	OLD					
+Dettori					2	Dettori		
+feierte					3	feierte		
+den					4	den		
+Meilenstein	OBJ	def-np.the	OLD		5	Meilenstein		
+mit					6	mit		
+einem					7	einem		
+typischen					8	typischen		
+Flying	other	indef-np.a			9	Flying		
+Dismount	other_2	ne	OLD	10	Dismount	
+		
+# text = Von Flying Finishes zu Flying Dismounts, Frankie Dettori ist seit zwei Jahrzehnten das Aushängeschild des britischen Flachrennens.	
+Von					1	Von		
+Flying	other_2	ne	OLD		2	Flying		
+Finishes	SBJ	ne	OLD		3	Finishes		
+zu	other_3	pron.pind			4	zu		
+Flying	other_2	ne	OLD		5	Flying		
+Dismounts					6	Dismounts		
+,					7	,		
+Frankie	other_3	ne	OLD		8	Frankie	set_38	
+Dettori					9	Dettori		
+ist					10	ist		
+seit					11	seit		
+zwei					12	zwei		
+Jahrzehnten	other	indef-np.quant			13	Jahrzehnten		
+das					14	das		
+Aushängeschild	other	def-np.the	OLD		15	Aushängeschild		
+des					16	des		
+britischen					17	britischen		
+Flachrennens	other	def-np.the	OLD		18	Flachrennens		
 .				19	.	
 		
 # text = Es war nervenaufreibend.	
