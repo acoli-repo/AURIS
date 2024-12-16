@@ -3,7 +3,9 @@
 > Note to annotators: In most cases, referring expressions should be automatically pre-annotated. 
 In this case, this section is not relevant for annotation, but only for you to interpret the automated pre-annotations.
 
+<!--
 > Note to developers: Additional technical details can be found in the technical appendix [WHERE].
+-->
 
 # 3.1 Markables (things to be annotated)
 

@@ -1,4 +1,4 @@
-## 6. Information Structure
+## 6. Topicality / Backward-Looking Center
 
 We provide a partial annotation of information structure, only, by focusing on information status and familiarity topics. As for the latter, we adopt the approach and the terminology of Centering Theory, and thus speak of "backward-looking center" (CB)
 
