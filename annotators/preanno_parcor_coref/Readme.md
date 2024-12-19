@@ -1,5 +1,9 @@
 # Preannotation derived from ParCor corpus
 
+**DISCLAIMER**:
+This is not a full annotation, but limited to the top entities per text. Can be used for assessing annotator skills, though. 
+DO NOT DIRECTLY USE AS PART OF CORPUS.
+
 See [../../preanno/parcor](../../preanno/parcor), also for attribution.
 
 - The `raw/` files in this directory are just copies from `../../ready-for-annotation`
