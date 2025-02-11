@@ -59,7 +59,7 @@ We call the series of mentions of the same referent one *referential chain*. As 
 > <example id="nr2">(2) *Susanne doesn't like \[gymnastics\]<sub>1</sub>, because \[it\]<sub>1</sub> is very hard.*</example>
 
 > <example id="nr3">(3) *At noon, \[the Federal President\]<sub>1</sub> opened \[the session\]<sub>2</sub>, and
-in the evening, \[Joachim Gauck\]<sub>1</sub> closed \[it\]<sub>2</sub>\> again.*</example>
+in the evening, \[Joachim Gauck\]<sub>1</sub> closed \[it\]<sub>2</sub> again.*</example>
 
 The annotation task for is to process each text in reading order and identify all markables. As described below, this process is partially automated. After marking a markable, it can also be assigned various attributes that characterize the type of the markable. Here, this comprises annotations for referentiality (`REF`), coreference (`COREF`), information status (`IS`, "givenness") and backward-looking center (`CB`, "sentence topic"). 
 
