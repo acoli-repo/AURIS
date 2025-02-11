@@ -32,18 +32,18 @@ Head identification is defined in lines of the Universal Dependencies, i.e.,
 - The syntactic head of a prepositional phrase is the head of its noun phrase.
 - The syntactic head of a multi-word proper name is the first proper noun
 - The syntactic head of a conjunction is the first conjunct. If multiple conjuncts in a conjunction serve as antecedents, annotate each conjunct separately.
+<example id="nr5">
+> <sub id="nr5.a">(1) English: *\[<ins>Hans</ins> -- who always had \[a soft <ins>spot</ins>\] \[for <ins>Susanne</ins>\]  -- \]  was also there.*</sub>
 
-> (1) English: *\[<ins>Hans</ins> -- who always had \[a soft <ins>spot</ins>\] \[for <ins>Susanne</ins>\]  -- \]  was also there.*
-
-> (2) German: *\[<ins>Hans</ins> -- der immer schon \[eine <ins>Schwäche</ins>\] \[für <ins>Susanne</ins>\] hatte -- \] war auch da.*
-
+> <sub id="nr5.b">(2) German: *\[<ins>Hans</ins> -- der immer schon \[eine <ins>Schwäche</ins>\] \[für <ins>Susanne</ins>\] hatte -- \] war auch da.*</sub>
+</example>
 ## 3.4 Types of candidate anaphors (primary markables)
 
 ### 3.4.1 Pronouns
 
 Pronouns include personal pronouns, demonstrative pronouns, pronominal adverbs, and possessived pronouns and *both* in nominal use (i.e. not as a determiner),<sup>[3](lit.md#refexp3)</sup> e.g.,
 
-> (3) *\[I\] saw \[her\] yesterday.*
+> <example id="nr6">(3) *\[I\] saw \[her\] yesterday.*</example>
 
 We distinguish the following types:
 
@@ -68,29 +68,29 @@ A description (NP or PP) is definite if it contains the determiner *both*, a dem
 
 - NP with definite article
 
-	> (4) *\[the <ins>pizza</ins>\]*
+	> <example id="nr7">(4) *\[the <ins>pizza</ins>\]*</example>
 
 - demonstratve NP
 
-	> (5) *\[that <ins>pizza</ins>\]*, *\[this <ins>pizza</ins>\]*
+	> <example id="nr8">(5) *\[that <ins>pizza</ins>\]*, *\[this <ins>pizza</ins>\]*</example>
 
-- possessive NP (NP with possessive modifier) includes both constructions with possessive pronouns (7) and with morphologically marked possessor arguments (e.g., genitive, as in 6).
+- possessive NP (NP with possessive modifier) includes both constructions with possessive pronouns <ref id="nr10">(7)</ref> and with morphologically marked possessor arguments (e.g., genitive, as in <ref id="nr9">6</ref>).
+<example id="nr9">
+	> <sub id="nr9.a">(6.a) *\[John\'s <ins>pizza</ins>\]*</sub>
 
-	> (6.a) *\[John\'s <ins>pizza</ins>\]*
+	> <sub id="nr9.b">(6.b) *\[the <ins>pizza</ins> of John\]*</sub>
 
-	> (6.b) *\[the <ins>pizza</ins> of John\]*
+	> <sub id="nr9.c">(6.c) *\[the other man's <ins>pizza</ins>\]*</sub>
 
-	> (6.c) *\[the other man's <ins>pizza</ins>\]*
-
-	> (6.d) *\[this man's <ins>pizza</ins>\]*
-
-	> (7) *\[his <ins>pizza</ins>\]*
+	> <sub id="nr9.d">(6.d) *\[this man's <ins>pizza</ins>\]*</sub>
+</example>
+	> <example id="nr10">(7) *\[his <ins>pizza</ins>\]*</example>
 
 - **Quantified Definite NP** includes cases where a quantifier is combined with a definite article (`the two men`) or with determiner \'both\'
-
-	> (8.a) *\[the two <ins>pizzas</ins>\]*
-	> (8.b) *\[both <ins>pizzas</ins>\]*
-
+<example id="nr11">
+	> <sub id="nr11.a">(8.a) *\[the two <ins>pizzas</ins>\]*</sub>
+	> <sub id="nr11.b">(8.b) *\[both <ins>pizzas</ins>\]*</sub>
+</example>
 	But not: *two pizzas*.
 
 ### 3.4.3  Proper Names and Titles
@@ -99,45 +99,45 @@ Typical instances of proper names are geographic places
 (*Philadelphia*), persons (*Judge Jenkins*), companies (*Morgan
 Stanley & Co.*), newspaper titles (*The New York Times*), political, social or financial institution names (*Congress, European Investment
 Bank* ). 
+<example id="nr12">
+> <sub id="nr12.a">(10.a)  *\[Bertolt <ins>Brecht</ins>\]*</sub> (full name)
 
-> (10.a)  *\[Bertolt <ins>Brecht</ins>\]* (full name)
+> <sub id="nr12.b">(10.b)  *\[Bert <ins>Brecht</ins>\]*</sub> (reduced full name)
 
-> (10.b)  *\[Bert <ins>Brecht</ins>\]* (reduced full name)
-
-> (10.c)  *<ins>Brecht</ins>* (surname)
+> <sub id="nr12.c">(10.c)  *<ins>Brecht</ins>*</sub> (surname)
 	
-> (10.d) 	*<ins>Bertolt</ins>* (first name)
+> <sub id="nr12.d">(10.d) 	*<ins>Bertolt</ins>*</sub> (first name)
 	
-> (10.e) 	*<ins>Bert</ins>* (nickname)
+> <sub id="nr12.e">(10.e) 	*<ins>Bert</ins>*</sub> (nickname)
 
-> (10.f)   *<ins>BB</ins>* (abbreviation)
+> <sub id="nr12.f">(10.f)   *<ins>BB</ins>*</sub> (abbreviation)
 
-> (10.g)   *the well-known <U>Brecht</ins>* (name, modified by a definite description)
+> <sub id="nr12.g">(10.g)   *the well-known <U>Brecht</ins>*</sub> (name, modified by a definite description)
 
-> (10.h) *<ins>Brecht</ins>, who is author of the "Dreigroschenoper"* (proper name + clause)
+> <sub id="nr12.h">(10.h) *<ins>Brecht</ins>, who is author of the "Dreigroschenoper"*</sub> (proper name + clause)
 
-> (10.i) *<ins>Brecht</ins>, author of the "Dreigroschenoper"* (proper name + apposition)
-
+> <sub id="nr12.i">(10.i) *<ins>Brecht</ins>, author of the "Dreigroschenoper"*</sub> (proper name + apposition)
+</example>
 Complex proper names are only treated as a single markable and are not further divided. If the internal dependency structure is transparent, annotate the syntactic head. For names composed of given and family names, we consider the name of the individual to be head, and the name of the family as modifier. If the structure of a name is not transparent to a common speaker of the language, annotate the first word that is not clearly recognizable as a modifier.
- 
-> (10.j) \[Dr. <ins>Mueller</ins>\]
+<example id="nr13"> 
+> <sub id="nr13.a">(10.j) \[Dr. <ins>Mueller</ins>\]</sub>
 
-> (10.k) \[Dr. <ins>Martin</ins> Luther King, Jr.\]
+> <sub id="nr13.b">(10.k) \[Dr. <ins>Martin</ins> Luther King, Jr.\]</sub>
 
-> (10.l) \[Prince <ins>Dipangkorn</ins> Rasmijoti Sirivibulyarajakumar of Thailand\]
+> <sub id="nr13.c">(10.l) \[Prince <ins>Dipangkorn</ins> Rasmijoti Sirivibulyarajakumar of Thailand\]</sub>
 
-> (10.m) \[Heidelberger <ins>Druckmaschinen</ins> Vertrieb Deutschland GmbH\]
-
+> <sub id="nr13.d">(10.m) \[Heidelberger <ins>Druckmaschinen</ins> Vertrieb Deutschland GmbH\]</sub>
+</example>
 Standalone titles that can stand in for an individual (*Mr./Ms./Dr./President/Chairman*) are treated like proper names, e.g., 
 
-> (11.a) *Schröder<sub>1</sub>\...Fischer<sub>2</sub> \... Die anfängliche Überreaktion von <ins>Kanzler</ins><sub>1</sub> und <ins>Außenminister</ins><sub>2</sub>\...*
+> <example id="nr14">(11.a) *Schröder<sub>1</sub>\...Fischer<sub>2</sub> \... Die anfängliche Überreaktion von <ins>Kanzler</ins><sub>1</sub> und <ins>Außenminister</ins><sub>2</sub>\...*</example> 
 
-In (11.a), *Kanzler* and *Außenminister* have to be annotated as primary markables, because proper names are inherently definite
+In <ref id="nr14">(11.a)</ref>, *Kanzler* and *Außenminister* have to be annotated as primary markables, because proper names are inherently definite
 
 Parts of complex proper names cannot be analyzed separately. So, in the following example, *Petrie* in *\[of
 Petrie Stores Corp.\]* should not be annotated!
 
-> (11.b) *\[Milton Petrie, chairman \[of Petrie Stores Corp.\] said\...*
+> <example id="nr15">(11.b) *\[Milton Petrie, chairman \[of Petrie Stores Corp.\] said\...*</example>
 
 ## 3.5 Other forms of referring expressions
 
@@ -147,7 +147,7 @@ Types of referring expressions that are unlikely or impossible anaphors include 
 
 Annotate such an expression only if you are certain about the reference. If another reading is equally possible or feels more likely, do not annotate the secondary markable. (Add a comment about your uncertainty.)
 
-> (12) *I saw \[a <ins>cat</ins>\] tonight in the street. <ins>It(= the cat)</ins> was gray.*
+> <example id="nr16">(12) *I saw \[a <ins>cat</ins>\] tonight in the street. <ins>It(= the cat)</ins> was gray.*</example>
 
 **but not**: *I saw a cat tonight in the street. <ins>It(= the night/expletive?)</ins> was pitch black.*
 
@@ -168,44 +168,44 @@ Non-referring markables are to be *manually* given the appropriate referentialit
 
 -   expletive expressions
 
-	> (21) *Then, when it would have been easier to resist them, nothing was done* (expletive *it*).
+	> <example id="nr17">(21) *Then, when it would have been easier to resist them, nothing was done* (expletive *it*).</example>
 
 -   pronominal adverbs which are controllers of relative clauses
 
-	> (22) *Dazu kommt, dass in Werder am 24. Februar ein Bürgermeister gewählt wird und es bisher als sicher galt, dass CDU-Amtsinhaber Werner Größe unangefochten bleibt.*
+	> <example id="nr18">(22) *Dazu kommt, dass in Werder am 24. Februar ein Bürgermeister gewählt wird und es bisher als sicher galt, dass CDU-Amtsinhaber Werner Größe unangefochten bleibt.*</example>
 
 	*Dazu\...dass, es\...dass* should not be annotated as markables (*Dazu* and *es* are controllers of relative clauses).
 
 -   pronominal adverbs functioning as discourse markers
-
-	> (23.a) *Ich habe dich angesprochen, damit du mir zuhörst*. "I am talking to you to let you know that you must listen to me."
-	> (23.b) *Ich habe dir das gesagt, damit du weißt, dass du mir zuh¨oren sollst*.
-	> (23.c) *Ich habe dir das gesagt, dass du weißt, dass du mir zuh¨oren sollst.*
-
+<example id="nr19">
+	> <sub id="nr19.a">(23.a) *Ich habe dich angesprochen, damit du mir zuhörst.*</sub>
+	> <sub id="nr19.b">(23.b) *Ich habe dir das gesagt, damit du weißt, dass du mir zuh¨oren sollst.*</sub>
+	> <sub id="nr19.c">(23.c) *Ich habe dir das gesagt, dass du weißt, dass du mir zuh¨oren sollst.*</sub>
+</example>
 -   relative pronouns
 
 	If a form cannot be unambiguously classified as a relative pronoun, apply the following test: it is a relative pronoun if it can be substituted by "which" respectively "welch" in German.
 
-	> (23.d.) *The car that went through his garden wall\...* (constructed)
+	> <example id="nr20">(23.d.) *The car that went through his garden wall\...*</example> (constructed)
 
 	However, relative pronouns in possessive constructions (i.e. for which the test for relative pronouns fails) are annotated as possessive pronouns (see possessive NPs).
-
-	> (24) *Und so schielen die Israelis nach Washington, an dessen /\*welchem Tropf sie wirtschaftlich und militärisch hängen,\...*
-	> (24') *Und so schielen die Israelis nach Washington, das/welches sie wirtschaftlich und militärisch unterstützt* (*das* is a relative pronoun).
-
+<example id="nr21">
+	> <sub id="nr21.a">(24) *Und so schielen die Israelis nach Washington, an dessen /\*welchem Tropf sie wirtschaftlich und militärisch hängen,\...*</sub>
+	> <sub id="nr21.b">(24') *Und so schielen die Israelis nach Washington, das/welches sie wirtschaftlich und militärisch unterstützt*</sub> (*das* is a relative pronoun).
+</example>
 	Alternatively, the following test can be applied: substitute a pronoun in question with a possessive construction. If it works, you have a possessive pronoun, not a relative one.
 
-	> (25) *die Frau und deren Kinder = die Frau und ihre Kinder*
+	> <example id="nr22">(25) *die Frau und deren Kinder = die Frau und ihre Kinder*</example>
 
 	The annotation is as follows in this case:
 
-	> (26) *Und so schielen \[die Israelis\]i \[(nach Washington)w, \[an \[dessen\]w Tropf\] \[sie\]i wirtschaftlich und milit¨arisch h¨angen\]<sub>w</sub>*′ *,\...*
+	> <example id="nr23">(26) *Und so schielen \[die Israelis\]i \[(nach Washington)w, \[an \[dessen\]w Tropf\] \[sie\]i wirtschaftlich und milit¨arisch h¨angen\]<sub>w</sub>*′ *,\...*</example>
 
 -   prepositional phrases with prepositions *as, than*, *bis, als, wie* (in German) Such prases are annotated as normal NPs, i.e. *bis* and *als* are not included. ^3^
 
 -   nominal premodifiers in compound nouns
 
-	> (27) *peanut butter, airline analyst, the creditors commettee, investment bank*
+	> <example id="nr24">(27) *peanut butter, airline analyst, the creditors commettee, investment bank*</example>
 
 	*Peanut, airline, cretitors* and *investment* are no separate markables. Note that in *the creditor's opinion*, *the creditor's* is annotated as a markable, since it is a nominal in genitive and thus not a part of a compounds.
 
@@ -213,7 +213,7 @@ Non-referring markables are to be *manually* given the appropriate referentialit
 
 Referring expressions in idioms and collocations.
 
-> (28) *It sent Kate into the pits when she learned from her "friend" Martha, who seemed to get off on laying bad trips on people, that Harvey was getting it on with Carol.* \[Gib94, p.265\]
+> <example id="nr25">(28) *It sent Kate into the pits when she learned from her "friend" Martha, who seemed to get off on laying bad trips on people, that Harvey was getting it on with Carol.*</example> \[Gib94, p.265\]
 
 According to Gibbs, we find several idiomatic phrases in this example, some of which contain pronouns or full NPs -- potential primary markables.
 
