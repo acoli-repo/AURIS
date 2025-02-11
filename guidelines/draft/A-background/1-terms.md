@@ -37,7 +37,7 @@ This annotation scheme is focusing on the annotation of referring expressions, i
 
 A *referring expression* is any linguistic form that can be used to refer to an object, person, or state of affairs (or several respectively) of the \"real world\" or a \"conceptualized world\" (as it only exists in our imagination) in a broad sense. We also include non-referring expressions, if they meet the syntactic criteria of referring expressions, e.g., \"generic terms\" such as in 
 
-> (1) *\[The <ins>whale</ins>\] is known to be a mammal*
+> <example id="nr1">(1) *\[The <ins>whale</ins>\] is known to be a mammal*</example>
 
 Referring expressions designate (refer to) a particular *discourse referent*, i.e., a conceptual object that representss an entity, person, or fact in the discourse model, resp., the common ground established between speaker and hearer during the discourse. A discourse referent is an abstract, conceptual object that exists regardless of whether it corresponds to an object of the world (or just of imagination).
 
@@ -56,10 +56,10 @@ If markables they are in a coreference relation, they are given an index that in
 
 We call the series of mentions of the same referent one *referential chain*. As result of the annotation, all elements of a referential chain must carry the same index.
 
-> (2) *Susanne doesn't like \[gymnastics\]<sub>1</sub>, because \[it\]<sub>1</sub> is very hard.*
+> <example id="nr2">(2) *Susanne doesn't like \[gymnastics\]<sub>1</sub>, because \[it\]<sub>1</sub> is very hard.*</example>
 
-> (3) *At noon, \[the Federal President\]<sub>1</sub> opened \[the session\]<sub>2</sub>, and
-in the evening, \[Joachim Gauck\]<sub>1</sub> closed \[it\]<sub>2</sub>\> again.*
+> <example id="nr3">(3) *At noon, \[the Federal President\]<sub>1</sub> opened \[the session\]<sub>2</sub>, and
+in the evening, \[Joachim Gauck\]<sub>1</sub> closed \[it\]<sub>2</sub>\> again.*</example>
 
 The annotation task for is to process each text in reading order and identify all markables. As described below, this process is partially automated. After marking a markable, it can also be assigned various attributes that characterize the type of the markable. Here, this comprises annotations for referentiality (`REF`), coreference (`COREF`), information status (`IS`, "givenness") and backward-looking center (`CB`, "sentence topic"). 
 
@@ -75,10 +75,10 @@ During annotation, dynamic pre-annotation will predict possible values for `IS` 
 
 Although this manual sometimes gives phrasal markables for illustration, we only annotate their syntactic head, as defined by the [Universal Dependencies](https://universaldependencies.org/guidelines.html) (De Marneffe et al. 2021).<sup>[2](lit.md#terms2)</sup>
  As a result, markables must never overlap.
-
-> (4.a) English: *\[<ins>Hans</ins> -- who always had \[a soft <ins>spot</ins>\] \[for <ins>Susanne</ins>\]  -- \]  was also there.*
-> (4.b) German: *\[<ins>Hans</ins> -- der immer schon \[eine <ins>Schwäche</ins>\] \[für <ins>Susanne</ins>\] hatte -- \] war auch da.*
-
+<example id="nr4">
+> <sub id="nr4.a">(4.a) English: *\[<ins>Hans</ins> -- who always had \[a soft <ins>spot</ins>\] \[for <ins>Susanne</ins>\]  -- \]  was also there.*</sub>
+> <sub id="nr4.b">(4.b) German: *\[<ins>Hans</ins> -- der immer schon \[eine <ins>Schwäche</ins>\] \[für <ins>Susanne</ins>\] hatte -- \] war auch da.*</sub>
+</example>
 > Note: Annotators should normally not need to decide which expression consistutes the head of a referring expression, as these are subject to automated pre-annotation.
 
 ## 1.5 About this Document
