@@ -147,7 +147,7 @@ A referent is FAMILIAR if it meets one of the following criteria.
 
 A referent is UNIQUELY IDENTIFIABLE if it meets one of the following criteria:
 
-1.  The referring form contains adequate descriptive/conceptual content
+1.  The referring utterance contains adequate descriptive/conceptual content
     to create a unique referent.
 
     > (17) 
@@ -164,6 +164,8 @@ A referent is UNIQUELY IDENTIFIABLE if it meets one of the following criteria:
      Agatha Christie)
 
     > (19) (Looking at a box) I think **the bottom** fell out.
+
+3.  A referent is always uniquely identifiable if it has been unambiguously introduced by a proper name.
 
 ### 5.2.5 REFERENTIAL (`REF`)
 
