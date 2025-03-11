@@ -166,6 +166,10 @@ A referent is UNIQUELY IDENTIFIABLE if it meets one of the following criteria:
     > (19) (Looking at a box) I think **the bottom** fell out.
 
 3.  A referent is always uniquely identifiable if it has been unambiguously introduced by a proper name.
+ 
+    > (20) **Lester Piggott**, the nine-time Derby winner, achieved more than 5,000 wins in his career.
+    
+    > (21) We visited the **Eiffel Tower** last summer. The structure was even more impressive in person.
 
 ### 5.2.5 REFERENTIAL (`REF`)
 
@@ -173,22 +177,22 @@ A referent exists, is REFERENTIAL, if it meets one of the following criteria.
 
 1.  It is mentioned subsequently in the discourse.
 
-    > (20) When my youngest child was 3 or so, we were at **a
+    > (22) When my youngest child was 3 or so, we were at **a
      friend's** house visiting and my friend was babysitting
      her infant nephew.
 
 2.  It is evident from the context that the speaker intends to refer to
     some specific entity.
 
-    > (21) I want to tell you about **this strange guy I saw today**.
+    > (23) I want to tell you about **this strange guy I saw today**.
 
 ### 5.2.6 TYPE IDENTIFIABLE (`TYPE`)
 
 An interpretation is TYPE IDENTIFIABLE if the sense of the phrase (the descriptive/conceptual content it encodes) is understandable.
 
-> (22) I don't have **a VCR** and neither does my neighbor.
+> (24) I don't have **a VCR** and neither does my neighbor.
 
-> (23) Whenever Mary passes that store, she always picks up **a
+> (25) Whenever Mary passes that store, she always picks up **a
      newspaper**.
 
 ## 5.3 Troubleshooting
