@@ -91,7 +91,7 @@ Antecedent of die Kicker "kickers" depends on the understanding of the "size" me
 If different interpretations are equally possible, apply the following disambiguation preferences in the following order:
 
 - prefer anaphoric interpretation to antecedentless one
-- for antecedents, prefer a primary markable (`REF_AUTO=?OLD`, `REF=OLD`, etc.) over a secondary markable (no `REF_AUTO`, `REF=NEW`, etc.) or a group reference
+- for antecedents, prefer a primary markable (<!-->`REF_AUTO=?OLD`, </>`REF=OLD`, etc.) over a secondary markable (no `REF_AUTO`, `REF=NEW`, etc.) or a group reference
 - prefer a discourse referent that is more frequently mentioned in preceding discourse
 - if several discourse referents are equally frequent, prefer the last mentioned discourse referent
 
