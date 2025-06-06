@@ -1,4 +1,6 @@
-# Future extensions: Aspects of Focus
+# Future extensions: Aspects of Focus (TO BE UPDATED)
+
+> Note: We conducted initial annotation experiments with span-based annotation, see [there](3-focus-spans.md) for the current version of these guidelines. DO NOT USE THESE GUIDELINES unless the changes from there are integrated.
 
 In the context of information structure, "focus" refers to the part(s) of the sentence that comprise information that cannot be presupposed by the speaker, i.e., new information. Approaches on focus annotation concentrate on a question test, i.e., the annotator needs to construct a hypothetical question that a hearer might be asking at the current point in discourse and to which the next utterance might be a possible answer. Unfortunately, annotating these questions is infeasible in terms of effort and agreement between annotators regarding those questions is low.
 
