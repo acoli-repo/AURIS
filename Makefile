@@ -36,8 +36,6 @@ stats:
 	done | \
 	sort -b -u
 
-
-
 update: update-conllu
 	if [ -e ready-for-annotation ]; then rm -rf ready-for-annotation; fi;
 	make update-ready-for-annotation
