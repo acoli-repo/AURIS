@@ -22,7 +22,7 @@ In (1), the following content words are to be annotated:
 - `her` (anaphoric pronoun)
 - `(such) hamsters` (definite noun phrase)
 
-As a rule, relative clauses and prepositional phrase that modify noun phrases are not considered to be part of the referring expression designated by the noun phrase.
+As a rule, relative clauses and prepositional phrases that modify noun phrases are not considered to be part of the referring expression designated by the noun phrase.
 
 For zero anaphors, no a referring expression is only to be annotated if a token representing the zero anaphora has been created during preprocessing (e.g., tokenization or parsing). Likewise, clitics are only to be annotated as referring expressions if they are separated from the word they are attached to, either by orthographic convention or during preprocessing. Automated preprocessing may be error-prone, but annotators are advised to not correct any tokenization errors they observe, but document such errors in a separate file ("log") and to hand in that log file along with their annotation. 
 
@@ -44,9 +44,9 @@ We distinguish two major qualities of newsworthy information:
 
         > Note: For the latter case (not unambiguously identifiable, but in a semantic relation with a `KNOWN` referring expression `Y`) , annotate `KNOWN` for a referring expression `X` if and only if (a) `X` can be replaced by `Y` without a change in meaning, or (b) `X` can be paraphrased by `(the) X of Y` (or `... from Y`, or another preposition) without a change in meaning.
 
-        > Note: Syntactically bound pronouns (e.g., relative pronouns such as `the people, **who** ...` or syntactically bound possessive pronouns) are function words that are not to be annotated unless included in an otherwise continuous span. Nominal predicates (e.g. `Peter is **a football star**`) are to be annotated as non-referring expressions.
+        > Note: Syntactically bound pronouns (e.g., relative pronouns such as `the people, **who** ...`) and attributive possessive pronouns (e.g., `**our** students`) are function words that are not to be annotated unless included in an otherwise continuous span. Nominal predicates (e.g. `Peter is **a football star**`) are to be annotated as non-referring expressions.
 
-    - *for non-referring expressions* (e.g., verbs, predicative adverbs, predicative adjectives): a context word that has been introduced before, either directly, with a morphologically related form (`America` - `American`), or means of a semantic relation (synonymy, hypernymy, hyponymy, meronymy, etc.) with a previously mentioned word.
+    - *for non-referring expressions* (e.g., verbs, predicative adverbs, predicative adjectives): a context word that has been introduced in a preceding sentence, either directly, with a morphologically related form (`America` - `American`), or means of a semantic relation (synonymy, hypernymy, hyponymy, meronymy, etc.) with a previously mentioned word.
 
         > Note: For the latter case (semantic relation between word `X` and a previously mentioned word `Y`), annotate `KNOWN` only `X` could be replaced by `Y` without a change in meaning.
 

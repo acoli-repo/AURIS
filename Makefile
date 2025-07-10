@@ -243,6 +243,15 @@ txt/bibl:
 		done;\
 	fi;
 
+	@if [ ! -e txt/bibl/it ]; then \
+		mkdir -p txt/bibl/it; \
+		cd txt/bibl/it; \
+		src=christos.it;\
+		wget -nc "https://github.com/christos-c/bible-corpus/blob/master/bibles/Italian.xml?raw=true" -O $$src.xml || echo "warning: could not retrieve "$$src.xml  1>&2; \
+		wget -nc "https://github.com/christos-c/bible-corpus/blob/master/LICENSE"  || echo "warning: could not retrieve" LICENSE 1>&2; \
+		done;\
+	fi;
+
 	@for lang in txt/bibl/*; do \
 		for xml in $$lang/*.xml; do \
 			if [ ! -e txt/`basename $$lang` ] ; then mkdir -p txt/`basename $$lang`; fi; \
@@ -265,7 +274,7 @@ conllu:
 	if [ ! -e conllu ]; then make update-conllu; fi;
 
 update-conllu: udpipe txt txt/bibl txt/doyle
-	@LANGS="de en fr ru pt pl";\
+	@LANGS="de en fr ru pt pl it";\
 	echo "warning: we're supporting only "$$LANGS" at the moment" 1>&2;\
 	for lang in $$LANGS; do \
 		for file in txt/$$lang/*.txt; do \
@@ -276,7 +285,7 @@ update-conllu: udpipe txt txt/bibl txt/doyle
 				cat $$file \
 				| grep -v '^#' \
 				| sed s/'$$'/'\n'/g \
-				| udpipe/src/udpipe `find udpipe/models/$$lang/*udpipe | head` --tokenize --tag --parse --output=conllu > $$tgt;\
+				| udpipe/src/udpipe `find udpipe/models/$$lang/*udpipe | head -n 1` --tokenize --tag --parse --output=conllu > $$tgt;\
 				echo 1>&2;\
 			fi;\
 		done;\
