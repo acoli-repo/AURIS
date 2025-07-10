@@ -249,7 +249,6 @@ txt/bibl:
 		src=christos.it;\
 		wget -nc "https://github.com/christos-c/bible-corpus/blob/master/bibles/Italian.xml?raw=true" -O $$src.xml || echo "warning: could not retrieve "$$src.xml  1>&2; \
 		wget -nc "https://github.com/christos-c/bible-corpus/blob/master/LICENSE"  || echo "warning: could not retrieve" LICENSE 1>&2; \
-		done;\
 	fi;
 
 	@for lang in txt/bibl/*; do \
