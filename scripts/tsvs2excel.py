@@ -59,29 +59,39 @@ if args.sentences!=None:
 	with open(args.sentences,"rt",errors="ignore") as input:
 		for nr,line in enumerate(input):
 			line=line.rstrip()
+			fields=line.split("\t")
 
 			if line!="":
 
 				# Copy content
-				for col,val,layout in zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ",line.split("\t"), FORMATS):
+				for col,val,layout in zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ",fields, FORMATS):
 					worksheet.write(f'{col}{nr+2}', val.strip(), layout)
 
 				# Create formulas and placeholder values
 				if line[0]!="#":
 					
 					# MARKER
-					worksheet.write_formula(f'G{nr+2}', 
-						f'=IF(A{nr+2}=1,"_",IF(C{nr+2}="_","???",C{nr+2}))',
-						FORMATS[6],'') # '' required to trigger recalculation in LibreOffice
+					if len(fields)>5 and not(fields[5].strip() in ["","_"]): 
+						marker=fields[5].strip()
+						worksheet.write(f'G{nr+2}', marker, FORMATS[6])
+					else:
+						worksheet.write_formula(f'G{nr+2}', 
+							f'=IF(A{nr+2}=1,"_",IF(C{nr+2}="_","???",C{nr+2}))',
+							FORMATS[6],'') # '' required to trigger recalculation in LibreOffice
 
 					# TARGET
-					worksheet.write(f'H{nr+2}', "_", FORMATS[7])
+					target_pre="_"
+					if len(fields)>6: target_pre=fields[6].strip()
+					worksheet.write(f'H{nr+2}', target_pre, FORMATS[7])
 
 					# RELATION
-					worksheet.write(f'I{nr+2}', "_", FORMATS[8]) # TODO: replace by marker lookup
+					relation_pre="_"
+					if len(fields)>7: relation_pre=fields[7].strip()
+					worksheet.write(f'I{nr+2}', relation_pre, FORMATS[8]) # TODO: replace by marker lookup
 
 					# COMMENT is empty
-					worksheet.write(f"J{nr+2}","",FORMATS[9])
+					comment_pre=""
+					worksheet.write(f"J{nr+2}",comment_pre,FORMATS[9])
 
 	# 3. overall layout
 	worksheet.set_default_row(60)
