@@ -1,0 +1,678 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = talkid: 1971
+1	talkid	talkid	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpacesBefore=\n\n|SpaceAfter=No
+2	:	:	PUNCT	interp	PunctType=Colo	1	punct	_	_
+3	1971	1971	X	dig	NumForm=Digit	1	amod	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 2
+# text = David Sengeh: Bolesny problem protez kończynowych
+1	David	David	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Sengeh	Sengeh	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+3	:	:	PUNCT	interp	PunctType=Colo	5	punct	_	_
+4	Bolesny	bolesny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	problem	problem	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+6	protez	protez	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	kończynowych	kończynowy	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 3
+# text = Urodziłem się i wychowałem w Sierra Leone, małym i bardzo pięknym kraju w Afryce Zachodniej, zasobnym w surowce i talent twórczy.
+1-2	Urodziłem	_	_	_	_	_	_	_	_
+1	Urodził	urodzić	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Long	1	aux:clitic	_	_
+3	się	się	PRON	part	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+4	i	i	CCONJ	conj	_	5	cc	_	_
+5-6	wychowałem	_	_	_	_	_	_	_	_
+5	wychował	wychować	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+6	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Long	5	aux:clitic	_	_
+7	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	8	case	_	_
+8	Sierra	Sierr	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+9	Leone	Leyć	PROPN	subst:sg:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Sing	5	iobj	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+11	małym	mały	ADJ	adj:sg:inst:m1:pos	Animacy=Hum|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+12	i	i	CCONJ	conj	_	15	cc	_	_
+13	bardzo	bardzo	ADV	adv:pos	Degree=Pos	14	advmod	_	_
+14	pięknym	piękny	ADJ	ppas:sg:loc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	15	acl	_	_
+15	kraju	kraj	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	conj	_	_
+16	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	17	case	_	_
+17	Afryce	Afryka	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+18	Zachodniej	zachodni	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	17	amod:flat	_	SpaceAfter=No
+19	,	,	PUNCT	interp	PunctType=Comm	20	punct	_	_
+20	zasobnym	zasobny	ADJ	ppas:sg:loc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	conj	_	_
+21	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	22	case	_	_
+22	surowce	surowiec	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	20	obl	_	_
+23	i	i	CCONJ	conj	_	24	cc	_	_
+24	talent	talent	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	conj	_	_
+25	twórczy	twórczy	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Jednak Sierra Leone ma złą sławę z czasów 10-letniej wojny rebeliantów w latach 90., kiedy palono całe wsie.
+1	Jednak	jednak	CCONJ	conj	_	4	cc	_	_
+2	Sierra	Sierr	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Leone	Leone	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
+4	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	złą	zły	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	sławę	sława	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	4	iobj	_	_
+7	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	8	case	_	_
+8	czasów	czas	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod:arg	_	_
+9	10-letniej	10-letni	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	wojny	wojna	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	nmod:arg	_	_
+11	rebeliantów	rebeliant	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+12	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	13	case	_	_
+13	latach	rok	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	nmod	_	_
+14	90	90	ADJ	adj:pl:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Ord	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	interp	PunctType=Peri	14	punct	_	SpaceAfter=No
+16	,	,	PUNCT	interp	PunctType=Comm	18	punct	_	_
+17	kiedy	kiedy	ADV	adv	PronType=Rel	18	advmod	_	_
+18	palono	palić	VERB	imps:perf	Aspect=Perf|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+19	całe	cały	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	_
+20	wsie	wieś	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 5
+# text = Około 8000 mężczyzn, kobiet i dzieci straciło wtedy ręce lub nogi.
+1	Około	około	PART	part	_	2	advmod:emph	_	_
+2	8000	8000	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	3	nummod:gov	_	_
+3	mężczyzn	mężczyzna	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	5	punct	_	_
+5	kobiet	kobieta	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	3	conj	_	_
+6	i	i	CCONJ	conj	_	7	cc	_	_
+7	dzieci	dziecko	NOUN	subst:pl:gen:n:col	Case=Gen|Gender=Neut|Number=Plur|NumType=Sets	3	conj	_	_
+8	straciło	stracić	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	wtedy	wtedy	ADV	adv	PronType=Dem	8	advmod	_	_
+10	ręce	ręka	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
+11	lub	lub	CCONJ	conj	_	12	cc	_	_
+12	nogi	noga	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	8	punct	_	_
+
+# sent_id = 6
+# text = Moja rodzina uciekła przed takim atakiem, kiedy miałem około 12 lat, i wtedy zdecydowałem, że zrobię wszystko, by moje dzieci nie przechodziły przez to samo, co my.
+1	Moja	mój	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	rodzina	rodzina	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	uciekła	uciec	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	przed	przed	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+5	takim	taki	DET	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	atakiem	atak	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+8	kiedy	kiedy	ADV	adv	PronType=Rel	9	advmod	_	_
+9-10	miałem	_	_	_	_	_	_	_	_
+9	miał	mieć	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Long	9	aux:clitic	_	_
+11	około	około	PART	part	_	12	advmod:emph	_	_
+12	12	12	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	13	nummod:gov	_	_
+13	lat	rok	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	iobj	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+15	i	i	CCONJ	conj	_	17	cc	_	_
+16	wtedy	wtedy	ADV	adv	PronType=Dem	17	advmod	_	_
+17-18	zdecydowałem	_	_	_	_	_	_	_	SpaceAfter=No
+17	zdecydował	zdecydować	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+18	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Long	17	aux:clitic	_	_
+19	,	,	PUNCT	interp	PunctType=Comm	21	punct	_	_
+20	że	że	SCONJ	comp	_	21	mark	_	_
+21	zrobię	zrobić	VERB	fin:sg:pri:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	17	ccomp	_	_
+22	wszystko	wszystko	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	21	obj	_	SpaceAfter=No
+23	,	,	PUNCT	interp	PunctType=Comm	28	punct	_	_
+24	by	by	SCONJ	comp	_	28	mark	_	_
+25	moje	mój	DET	adj:sg:nom:n:pos	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	dzieci	dziecko	NOUN	subst:pl:nom:n:col	Case=Nom|Gender=Neut|Number=Plur|NumType=Sets	28	nsubj	_	_
+27	nie	nie	PART	part	Polarity=Neg	28	advmod:neg	_	_
+28	przechodziły	przechodzić	VERB	praet:pl:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	21	ccomp	_	_
+29	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	30	case	_	_
+30	to	to	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	28	obj	_	_
+31	samo	sam	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	SpaceAfter=No
+32	,	,	PUNCT	interp	PunctType=Comm	34	punct	_	_
+33	co	co	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	34	nsubj	_	_
+34	my	my	PRON	ppron12:pl:nom:m1:pri	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	30	acl:relcl	_	SpaceAfter=No
+35	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 7
+# text = Aby były częścią Sierra Leone, gdzie wojna i amputacje nie będą już sposobem walki o władzę.
+1	Aby	aby	SCONJ	comp	_	3	mark	_	_
+2	były	być	AUX	praet:pl:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	częścią	część	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+4	Sierra	Sierr	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	3	nmod:arg	_	_
+5	Leone	Leone	PROPN	subst:sg:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Sing	4	flat	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	14	punct	_	_
+7	gdzie	gdzie	ADV	adv	PronType=Rel	14	advmod	_	_
+8	wojna	wojna	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+9	i	i	CCONJ	conj	_	10	cc	_	_
+10	amputacje	amputacja	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	8	conj	_	_
+11	nie	nie	PART	part	Polarity=Neg	12	advmod:neg	_	_
+12	będą	być	AUX	bedzie:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	14	cop	_	_
+13	już	już	PART	part	_	14	advmod:emph	_	_
+14	sposobem	sposób	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	acl:relcl	_	_
+15	walki	walka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	14	nmod:arg	_	_
+16	o	o	ADP	prep:acc	AdpType=Prep	17	case	_	_
+17	władzę	władza	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	15	nmod:arg	_	SpaceAfter=No
+18	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = Kiedy patrzyłem na znajomych, bliskich mi ludzi, którzy dochodzili do siebie, bardzo się martwiłem, że wiele osób po amputacji nie używa protez.
+1	Kiedy	kiedy	ADV	adv	PronType=Int	2	advmod	_	_
+2-3	patrzyłem	_	_	_	_	_	_	_	_
+2	patrzył	patrzyć	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	advcl	_	_
+3	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Long	2	aux:clitic	_	_
+4	na	na	ADP	prep:acc	AdpType=Prep	5	case	_	_
+5	znajomych	znajomy	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	2	obl:arg	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	2	punct	_	_
+7	bliskich	bliski	NOUN	subst:pl:loc:m1:pt	Animacy=Hum|Case=Loc|Gender=Masc|Number=Ptan	18	nsubj	_	_
+8	mi	ja	PRON	ppron12:sg:dat:m1:pri:nakc	Animacy=Hum|Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs|Variant=Short	18	iobj	_	_
+9	ludzi	człowiek	NOUN	subst:pl:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+11	którzy	który	DET	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	12	nsubj	_	_
+12	dochodzili	dochodzić	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+13	do	do	ADP	prep:gen	AdpType=Prep	14	case	_	_
+14	siebie	siebie	PRON	siebie:gen	Case=Gen|PronType=Prs|Reflex=Yes	12	obl:arg	_	SpaceAfter=No
+15	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+16	bardzo	bardzo	ADV	adv:pos	Degree=Pos	18	advmod	_	_
+17	się	się	PRON	part	PronType=Prs|Reflex=Yes	18	expl:pv	_	_
+18-19	martwiłem	_	_	_	_	_	_	_	SpaceAfter=No
+18	martwił	martwić	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+19	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Long	18	aux:clitic	_	_
+20	,	,	PUNCT	interp	PunctType=Comm	27	punct	_	_
+21	że	że	SCONJ	comp	_	27	mark	_	_
+22	wiele	wiele	DET	num:pl:nom:f:rec	Case=Nom|Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	23	det:numgov	_	_
+23	osób	osoba	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	27	nsubj	_	_
+24	po	po	ADP	prep:loc	AdpType=Prep	25	case	_	_
+25	amputacji	amputacja	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	27	obl	_	_
+26	nie	nie	PART	part	Polarity=Neg	27	advmod:neg	_	_
+27	używa	używać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	ccomp	_	_
+28	protez	proteza	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	obj	_	SpaceAfter=No
+29	.	.	PUNCT	interp	PunctType=Peri	18	punct	_	_
+
+# sent_id = 9
+# text = Jak się wkrótce dowiedziałem, wynikało to z faktu, że leje ich protez sprawiały ból, bo nie były dobrze dopasowane.
+1	Jak	jak	SCONJ	comp	_	4	mark	_	_
+2	się	się	PRON	part	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	wkrótce	wkrótce	ADV	adv	_	4	advmod	_	_
+4-5	dowiedziałem	_	_	_	_	_	_	_	SpaceAfter=No
+4	dowiedział	dowiedzieć	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis:insert	_	_
+5	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Long	4	aux:clitic	_	_
+6	,	,	PUNCT	interp	PunctType=Comm	4	punct	_	_
+7	wynikało	wynikać	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	_
+9	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	10	case	_	_
+10	faktu	fakt	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl:arg	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	13	punct	_	_
+12	że	że	SCONJ	comp	_	13	mark	_	_
+13	leje	lać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	_	_
+14	ich	on	PRON	ppron3:pl:acc:m1:ter:akc:npraep	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	13	obj	_	_
+15	protez	proteza	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	16	case	_	_
+16	sprawiały	sprawiać	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obl	_	_
+17	ból	ból	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+18	,	,	PUNCT	interp	PunctType=Comm	23	punct	_	_
+19	bo	bo	SCONJ	comp	_	23	mark	_	_
+20	nie	nie	PART	part	Polarity=Neg	21	advmod:neg	_	_
+21	były	być	AUX	praet:pl:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	23	aux:pass	_	_
+22	dobrze	dobrze	ADV	adv:pos	Degree=Pos	23	advmod	_	_
+23	dopasowane	dopasować	ADJ	ppas:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	13	advcl	_	SpaceAfter=No
+24	.	.	PUNCT	interp	PunctType=Peri	7	punct	_	_
+
+# sent_id = 10
+# text = Lej protezowy to część, gdzie człowiek wkłada kikut kończyny i która jest połączona z resztą protezy.
+1	Lej	leko	ADV	adv:com	Degree=Cmp	2	advmod	_	_
+2	protezowy	protezowy	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	4	cop	_	_
+4	część	część	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+6	gdzie	gdzie	ADV	adv	PronType=Rel	8	advmod	_	_
+7	człowiek	człowiek	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	wkłada	wkładać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+9	kikut	kikut	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	kończyny	kończyć	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	9	nmod:arg	_	_
+11	i	i	CCONJ	conj	_	14	cc	_	_
+12	która	który	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	14	nsubj:pass	_	_
+13	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
+14	połączona	połączyć	ADJ	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	10	acl:relcl	_	_
+15	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	16	case	_	_
+16	resztą	reszta	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	14	obl:arg	_	_
+17	protezy	proteza	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	16	nmod:arg	_	SpaceAfter=No
+18	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 11
+# text = Nawet w rozwiniętych krajach trzeba czekać od trzech tygodni po wiele lat, zanim lej stanie się wygodny, a nie zawsze tak się dzieje.
+1	Nawet	nawet	PART	part	_	4	advmod:emph	_	_
+2	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	4	case	_	_
+3	rozwiniętych	rozwinięty	ADJ	adj:pl:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+4	krajach	kraj	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	obl	_	_
+5	trzeba	trzeba	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	_	_
+6	czekać	czekać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	9	case	_	_
+8	trzech	trzy	NUM	num:pl:gen:m3:congr	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumForm=Word	9	nummod	_	_
+9	tygodni	tydzień	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+10	po	po	ADP	prep:acc	AdpType=Prep	12	case	_	_
+11	wiele	wiele	DET	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	12	det:numgov	_	_
+12	lat	rok	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	16	punct	_	_
+14	zanim	zanim	SCONJ	comp	_	16	mark	_	_
+15	lej	lać	ADV	adv:com	Degree=Cmp	16	advmod	_	_
+16	stanie	stać	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	advcl	_	_
+17	się	się	PRON	part	PronType=Prs|Reflex=Yes	16	expl:pv	_	_
+18	wygodny	wygodny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	xcomp:pred	_	SpaceAfter=No
+19	,	,	PUNCT	interp	PunctType=Comm	25	punct	_	_
+20	a	a	CCONJ	conj	_	25	cc	_	_
+21	nie	nie	PART	part	Polarity=Neg	22	advmod:neg	_	_
+22	zawsze	zawsze	ADV	adv	PronType=Tot	25	advmod	_	_
+23	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	25	advmod	_	_
+24	się	się	PRON	part	PronType=Prs|Reflex=Yes	25	expl:pv	_	_
+25	dzieje	dziać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	SpaceAfter=No
+26	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 12
+# text = Protetycy wciąż wykorzystują tradycyjne metody, czyli modelowanie i odlewanie, by stworzyć lej z jednego materiału.
+1	Protetycy	Protetyk	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	wciąż	wciąż	ADV	adv	_	3	advmod	_	_
+3	wykorzystują	wykorzystywać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	tradycyjne	tradycyjny	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
+5	metody	metoda	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+7	czyli	czyli	CCONJ	conj	_	8	cc	_	_
+8	modelowanie	modelować	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	5	conj	_	_
+9	i	i	CCONJ	conj	_	10	cc	_	_
+10	odlewanie	odlewać	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	5	conj	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	13	punct	_	_
+12	by	by	SCONJ	comp	_	13	mark	_	_
+13	stworzyć	stworzyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+14	lej	leko	ADV	adv:com	Degree=Cmp	13	advmod	_	_
+15	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	17	case	_	_
+16	jednego	jeden	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	materiału	materiał	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	obl:arg	_	SpaceAfter=No
+18	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 13
+# text = Takie leje często wywierają nieznośny nacisk na kończynę, zostawiając odgnioty czy pęcherze.
+1	Takie	taki	DET	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	leje	lej	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	często	często	ADV	adv:pos	Degree=Pos	4	advmod	_	_
+4	wywierają	wywierać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	nieznośny	nieznośny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	nacisk	nacisk	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	na	na	ADP	prep:acc	AdpType=Prep	8	case	_	_
+8	kończynę	kończyna	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	6	nmod:arg	_	SpaceAfter=No
+9	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+10	zostawiając	zostawiać	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	advcl	_	_
+11	odgnioty	odgniot	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+12	czy	czy	CCONJ	conj	_	13	cc	_	_
+13	pęcherze	pęcher	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 14
+# text = Nie ma znaczenia, jak mocny jest przegub protezy.
+1	Nie	nie	PART	part	Polarity=Neg	2	advmod:neg	_	_
+2	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	znaczenia	znaczenie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	2	iobj	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+5	jak	jak	SCONJ	comp	_	6	mark	_	_
+6	mocny	mocny	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	ccomp	_	_
+7	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+8	przegub	przegub	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+9	protezy	proteza	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 15
+# text = Jeśli lej protezy jest niewygodny, noga nie będzie używana, a tego nie można zaakceptować w naszych czasach.
+1	Jeśli	jeśli	SCONJ	comp	_	5	mark	_	_
+2	lej	leko	ADV	adv:com	Degree=Cmp	5	advmod	_	_
+3	protezy	proteza	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+4	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+5	niewygodny	niewygodny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	5	punct	_	_
+7	noga	noga	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+8	nie	nie	PART	part	Polarity=Neg	9	advmod:neg	_	_
+9	będzie	być	AUX	bedzie:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	aux:pass	_	_
+10	używana	używać	ADJ	ppas:sg:nom:f:imperf:aff	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	15	punct	_	_
+12	a	a	CCONJ	conj	_	15	cc	_	_
+13	tego	to	PRON	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	16	obj	_	_
+14	nie	nie	PART	part	Polarity=Neg	15	advmod:neg	_	_
+15	można	można	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	10	conj	_	_
+16	zaakceptować	zaakceptować	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+17	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	19	case	_	_
+18	naszych	nasz	DET	adj:pl:loc:m3:pos	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	czasach	czas	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	interp	PunctType=Peri	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Kiedy spotkałem prof. Hugh Herra około dwóch i pół roku temu, zapytał, czy wiem jak rozwiązać ten problem.
+1	Kiedy	kiedy	ADV	adv	PronType=Int	2	advmod	_	_
+2-3	spotkałem	_	_	_	_	_	_	_	_
+2	spotkał	spotkać	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Long	2	aux:clitic	_	_
+4	prof	profesor	X	brev:pun	Abbr=Yes|Pun=Yes	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+6	Hugh	Hugh	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+7	Herra	Herr	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	około	około	PART	part	_	9	advmod:emph	_	_
+9	dwóch	dwa	NUM	num:pl:gen:m1:congr	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|NumForm=Word	13	nummod	_	_
+10	i	i	CCONJ	conj	_	12	cc	_	_
+11	pół	pół	NUM	num:sg:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumForm=Word	12	nummod:gov	_	_
+12	roku	rok	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	conj	_	_
+13	temu	temu	ADP	prep:acc	AdpType=Post|Case=Acc	6	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	15	punct	_	_
+15	zapytał	zapytać	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	interp	PunctType=Comm	18	punct	_	_
+17	czy	czy	PART	part	PartType=Int	18	advmod	_	_
+18	wiem	wiedzieć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	15	ccomp	_	_
+19	jak	jak	ADV	adv:pos	Degree=Pos|PronType=Int	20	advmod	_	_
+20	rozwiązać	rozwiązać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+21	ten	ten	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+22	problem	problem	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 17
+# text = Odpowiedziałem: "Jeszcze nie, ale z przyjemnością się dowiem".
+1-2	Odpowiedziałem	_	_	_	_	_	_	_	SpaceAfter=No
+1	Odpowiedział	odpowiedzieć	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Long	1	aux:clitic	_	_
+3	:	:	PUNCT	interp	PunctType=Colo	1	punct	_	_
+4	"	"	PUNCT	interp	PunctType=Quot	6	punct	_	SpaceAfter=No
+5	Jeszcze	jeszcze	PART	part	_	6	advmod:emph	_	_
+6	nie	nie	PART	part	Polarity=Neg	1	parataxis:obj	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+8	ale	ale	CCONJ	conj	_	12	cc	_	_
+9	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	10	case	_	_
+10	przyjemnością	przyjemność	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	12	obl	_	_
+11	się	się	PRON	part	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+12	dowiem	dowiedzieć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	SpaceAfter=No
+13	"	"	PUNCT	interp	PunctType=Quot	6	punct	_	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 18
+# text = W ramach swojego doktoratu w MIT Media Lab wynalazłem dopasowane leje protezy, szybkie i tanie w produkcji, które są wygodniejsze od klasycznych.
+1	W	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	4	case	_	_
+2	ramach	ramy	NOUN	subst:pl:loc:n:pt	Case=Loc|Gender=Neut|Number=Ptan	1	fixed	_	_
+3	swojego	swój	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	4	det:poss	_	_
+4	doktoratu	doktorat	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+6	MIT	mit	PROPN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	9	obl	_	_
+7	Media	media	NOUN	subst:pl:nom:n:pt	Case=Nom|Gender=Neut|Number=Ptan	6	nmod:flat	_	_
+8	Lab	Lab	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	7	flat	_	_
+9-10	wynalazłem	_	_	_	_	_	_	_	_
+9	wynalazł	wynaleźć	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Long	9	aux:clitic	_	_
+11	dopasowane	dopasować	ADJ	ppas:pl:nom:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	12	acl	_	_
+12	leje	lać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	obj	_	_
+13	protezy	proteza	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	15	punct	_	_
+15	szybkie	szybki	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	13	conj	_	_
+16	i	i	CCONJ	conj	_	17	cc	_	_
+17	tanie	tać	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	12	conj	_	_
+18	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	19	case	_	_
+19	produkcji	produkcja	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	interp	PunctType=Comm	23	punct	_	_
+21	które	który	DET	adj:pl:nom:f:pos	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	23	nsubj	_	_
+22	są	być	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	cop	_	_
+23	wygodniejsze	wygodny	ADJ	adj:pl:nom:f:com	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur	19	acl:relcl	_	_
+24	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	25	case	_	_
+25	klasycznych	klasyczny	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	23	obl:arg	_	SpaceAfter=No
+26	.	.	PUNCT	interp	PunctType=Peri	9	punct	_	_
+
+# sent_id = 19
+# text = Wykorzystałem rezonans magnetyczny, by dokładnie zbadać budowę pacjenta, a potem wykorzystałem metodę elementów skończonych, by lepiej przewidzieć wewnętrzne napięcia i naprężenia powstające przy użyciu normalnej siły.
+1-2	Wykorzystałem	_	_	_	_	_	_	_	_
+1	Wykorzystał	wykorzystać	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Long	1	aux:clitic	_	_
+3	rezonans	rezonans	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+4	magnetyczny	magnetyczny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+6	by	by	SCONJ	comp	_	8	mark	_	_
+7	dokładnie	dokładnie	ADV	adv:pos	Degree=Pos	8	advmod	_	_
+8	zbadać	zbadać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	advcl	_	_
+9	budowę	budowa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	pacjenta	pacjent	NOUN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	14	punct	_	_
+12	a	a	CCONJ	conj	_	14	cc	_	_
+13	potem	potem	ADV	adv	_	14	advmod	_	_
+14-15	wykorzystałem	_	_	_	_	_	_	_	_
+14	wykorzystał	wykorzystać	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+15	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Long	14	aux:clitic	_	_
+16	metodę	metoda	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+17	elementów	element	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod:arg	_	_
+18	skończonych	skończony	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	interp	PunctType=Comm	22	punct	_	_
+20	by	by	SCONJ	comp	_	22	mark	_	_
+21	lepiej	dobrze	ADV	adv:com	Degree=Cmp	22	advmod	_	_
+22	przewidzieć	przewidzieć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	14	advcl	_	_
+23	wewnętrzne	wewnętrzny	ADJ	adj:pl:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	24	amod	_	_
+24	napięcia	napięcie	NOUN	subst:pl:acc:n:ncol	Case=Acc|Gender=Neut|Number=Plur	22	obj	_	_
+25	i	i	CCONJ	conj	_	26	cc	_	_
+26	naprężenia	naprężenie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	24	conj	_	_
+27	powstające	powstawać	ADJ	pact:pl:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	26	acl	_	_
+28	przy	przy	ADP	prep:loc	AdpType=Prep	29	case	_	_
+29	użyciu	użyć	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	27	obl	_	_
+30	normalnej	normalny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	siły	siła	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	29	obj	_	SpaceAfter=No
+32	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 20
+# text = Potem stworzyłem lej do ogólnej produkcji.
+1	Potem	potem	ADV	adv	_	2	advmod	_	_
+2-3	stworzyłem	_	_	_	_	_	_	_	_
+2	stworzył	stworzyć	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Long	2	aux:clitic	_	_
+4	lej	ly	ADV	adv:com	Degree=Cmp	2	advmod	_	_
+5	do	do	ADP	prep:gen	AdpType=Prep	7	case	_	_
+6	ogólnej	ogólny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	produkcji	produkcja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	obl:arg	_	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 21
+# text = Wykorzystujemy drukarkę 3D, by tworzyć lej z różnych materiałów, który tam, gdzie potrzeba, zmniejsza nacisk na ciało pacjenta.
+1	Wykorzystujemy	Wykorzystować	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	drukarkę	drukarka	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+3	3D	3d	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	2	nmod:arg	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+5	by	by	SCONJ	comp	_	6	mark	_	_
+6	tworzyć	tworzyć	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	1	advcl	_	_
+7	lej	leko	ADV	adv:com	Degree=Cmp	6	advmod	_	_
+8	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	10	case	_	_
+9	różnych	różny	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+10	materiałów	materiał	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl:arg	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	18	punct	_	_
+12	który	który	DET	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	18	nsubj	_	_
+13	tam	tam	ADV	adv	PronType=Dem	18	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	16	punct	_	_
+15	gdzie	gdzie	ADV	adv	PronType=Rel	16	advmod	_	_
+16	potrzeba	potrzeba	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	SpaceAfter=No
+17	,	,	PUNCT	interp	PunctType=Comm	16	punct	_	_
+18	zmniejsza	zmniejszać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+19	nacisk	nacisk	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+20	na	na	ADP	prep:acc	AdpType=Prep	21	case	_	_
+21	ciało	ciało	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	18	obl:arg	_	_
+22	pacjenta	pacjent	NOUN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 22
+# text = W skrócie, używamy danych, by stworzyć nowoczesne protezy szybko i tanio.
+1	W	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	2	case	_	_
+2	skrócie	skrót	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	4	punct	_	_
+4	używamy	używać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+5	danych	dane	NOUN	subst:pl:gen:n:pt	Case=Gen|Gender=Neut|Number=Ptan	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+7	by	by	SCONJ	comp	_	8	mark	_	_
+8	stworzyć	stworzyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	4	advcl	_	_
+9	nowoczesne	nowoczesny	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
+10	protezy	proteza	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
+11	szybko	szybko	ADV	adv:pos	Degree=Pos	8	advmod	_	_
+12	i	i	CCONJ	conj	_	13	cc	_	_
+13	tanio	tanio	ADV	adv:pos	Degree=Pos	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 23
+# text = W niedawno ukończonych testach w Media Lab, jeden z naszych pacjentów, amerykański weteran, który nie miał kończyny od około 20 lat i wypróbował w życiu z 10 protez, powiedział o jednej z naszych drukowanych części tak: "Jest taka miękka, jakbym chodził na poduszkach.
+1	W	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	4	case	_	_
+2	niedawno	niedawno	ADV	adv:pos	Degree=Pos	3	advmod	_	_
+3	ukończonych	ukończyć	ADJ	adj:pl:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+4	testach	test	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	33	obl	_	_
+5	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+6	Media	media	NOUN	subst:pl:acc:n:pt	Case=Acc|Gender=Neut|Number=Ptan	33	obl	_	_
+7	Lab	Lab	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+9	jeden	jeden	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+10	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	12	case	_	_
+11	naszych	nasz	DET	adj:pl:gen:m1:pos	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	pacjentów	pacjent	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	14	punct	_	_
+14	amerykański	amerykański	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	weteran	weteran	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	interp	PunctType=Comm	19	punct	_	_
+17	który	który	DET	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	19	nsubj	_	_
+18	nie	nie	PART	part	Polarity=Neg	19	advmod:neg	_	_
+19	miał	mieć	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
+20	kończyny	kończyć	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	19	iobj	_	_
+21	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	24	case	_	_
+22	około	około	PART	part	_	23	advmod:emph	_	_
+23	20	20	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	24	nummod:gov	_	_
+24	lat	rok	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	obl	_	_
+25	i	i	CCONJ	conj	_	26	cc	_	_
+26	wypróbował	wypróbować	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	_
+27	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	28	case	_	_
+28	życiu	życie	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	26	obl	_	_
+29	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	31	case	_	_
+30	10	10	NUM	num:pl:gen:f:congr	Case=Gen|Gender=Fem|Number=Plur|NumForm=Digit|NumType=Card	31	nummod	_	_
+31	protez	proteza	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	28	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	interp	PunctType=Comm	19	punct	_	_
+33	powiedział	powiedzieć	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+34	o	o	ADP	prep:loc	AdpType=Prep	35	case	_	_
+35	jednej	jeden	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	33	obl:arg	_	_
+36	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	39	case	_	_
+37	naszych	nasz	DET	adj:pl:gen:f:pos	Case=Gen|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	39	det:poss	_	_
+38	drukowanych	drukować	ADJ	ppas:pl:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	39	acl	_	_
+39	części	część	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	35	obl:arg	_	_
+40	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	33	advmod	_	SpaceAfter=No
+41	:	:	PUNCT	interp	PunctType=Colo	33	punct	_	_
+42	"	"	PUNCT	interp	PunctType=Quot	43	punct	_	SpaceAfter=No
+43	Jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	parataxis:obj	_	_
+44	taka	taki	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	45	det	_	_
+45	miękka	miękko	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	43	nsubj	_	SpaceAfter=No
+46	,	,	PUNCT	interp	PunctType=Comm	49	punct	_	_
+47-48	jakbym	_	_	_	_	_	_	_	_
+47	jakby	jakby	SCONJ	comp	ConjType=Cmpr	49	mark	_	_
+48	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	49	aux:clitic	_	_
+49	chodził	chodzić	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	43	advcl:cmpr	_	_
+50	na	na	ADP	prep:loc	AdpType=Prep	51	case	_	_
+51	poduszkach	poduszko	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	49	obl:arg	_	SpaceAfter=No
+52	.	.	PUNCT	interp	PunctType=Peri	33	punct	_	_
+
+# sent_id = 24
+# text = I jest niesamowicie seksowna".
+1	I	i	CCONJ	conj	_	4	cc	_	_
+2	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	niesamowicie	niesamowicie	ADV	adv:pos	Degree=Pos	4	advmod	_	_
+4	seksowna	seksowny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	"	"	PUNCT	interp	PunctType=Quot	4	punct	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 25
+# text = (Śmiech)
+1	(	(	PUNCT	interp	PunctSide=Ini|PunctType=Brck	2	punct	_	SpaceAfter=No
+2	Śmiech	śmiech	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	interp	PunctSide=Fin|PunctType=Brck	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 26
+# text = Współcześnie niepełnosprawność nie powinna nikomu utrudniać prowadzenia pełnowartosciowego życia.
+1	Współcześnie	Współcześnie	ADV	adv:pos	Degree=Pos	4	advmod	_	_
+2	niepełnosprawność	niepełnosprawność	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	nie	nie	PART	part	Polarity=Neg	4	advmod:neg	_	_
+4	powinna	powinien	VERB	winien:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	0	root	_	_
+5	nikomu	nikt	PRON	subst:sg:dat:m1	Animacy=Hum|Case=Dat|Gender=Masc|Number=Sing|PronType=Neg	6	iobj	_	_
+6	utrudniać	utrudniać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+7	prowadzenia	prowadzić	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	6	obj	_	_
+8	pełnowartosciowego	pełnowartosciowy	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	życia	życie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 27
+# text = Mam nadzieję i pragnienie, że narzędzia i technologie rozwijane przez naszą grupę badawczą będą dostarczać wysokofunkcjonalnych protez tym, którzy ich potrzebują.
+1	Mam	mieć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	nadzieję	nadzieja	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	iobj	_	_
+3	i	i	CCONJ	conj	_	4	cc	_	_
+4	pragnienie	pragnienie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	16	punct	_	_
+6	że	że	SCONJ	comp	_	16	mark	_	_
+7	narzędzia	narzędzie	NOUN	subst:pl:nom:n:ncol	Case=Nom|Gender=Neut|Number=Plur	16	nsubj	_	_
+8	i	i	CCONJ	conj	_	9	cc	_	_
+9	technologie	technologia	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	7	conj	_	_
+10	rozwijane	rozwijać	ADJ	ppas:pl:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	9	acl	_	_
+11	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	13	case	_	_
+12	naszą	nasz	DET	adj:sg:acc:f:pos	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	grupę	grupa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	10	obl:agent	_	_
+14	badawczą	badawczy	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+15	będą	być	AUX	bedzie:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	16	aux	_	_
+16	dostarczać	dostarczać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	4	ccomp:obj	_	_
+17	wysokofunkcjonalnych	wysokofunkcjonalny	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	16	xcomp	_	_
+18	protez	protez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	19	case	_	_
+19	tym	ten	DET	adj:pl:dat:m1:pos	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|PronType=Dem	17	obl:arg	_	SpaceAfter=No
+20	,	,	PUNCT	interp	PunctType=Comm	23	punct	_	_
+21	którzy	który	DET	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	23	nsubj	_	_
+22	ich	on	PRON	ppron3:pl:gen:m1:ter:akc:npraep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	23	obj	_	_
+23	potrzebują	potrzebować	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	acl:relcl	_	SpaceAfter=No
+24	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 28
+# text = Dla mnie początek leczenia dusz dotkniętych przez wojnę i choroby leży w stworzeniu wygodnych i tanich interfejsów dla ich ciał.
+1	Dla	dla	ADP	prep:gen	AdpType=Prep	2	case	_	_
+2	mnie	ja	PRON	ppron12:sg:gen:m1:pri:akc	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs|Variant=Long	11	obl	_	_
+3	początek	początek	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+4	leczenia	leczyć	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	3	nmod:arg	_	_
+5	dusz	dusza	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	dotkniętych	dotknąć	ADJ	ppas:pl:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	4	acl	_	_
+7	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	8	case	_	_
+8	wojnę	wojna	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	6	obl:agent	_	_
+9	i	i	CCONJ	conj	_	10	cc	_	_
+10	choroby	choroba	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	8	conj	_	_
+11	leży	leżeć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	13	case	_	_
+13	stworzeniu	stworzyć	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	11	obl	_	_
+14	wygodnych	wygodny	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	17	amod	_	_
+15	i	i	CCONJ	conj	_	16	cc	_	_
+16	tanich	tani	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	14	conj	_	_
+17	interfejsów	interfejs	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod:arg	_	_
+18	dla	dla	ADP	prep:gen	AdpType=Prep	20	case	_	_
+19	ich	on	PRON	ppron3:pl:gen:m1:ter:akc:npraep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	20	nmod	_	_
+20	ciał	ciało	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	13	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	interp	PunctType=Peri	11	punct	_	_
+
+# sent_id = 29
+# text = Czy w Sierra Leone czy Bostonie, mam nadzieję, że to nie tylko przywróci, ale i zmieni ich poczucie własnych możliwości.
+1	Czy	czy	PART	part	PartType=Int	3	advmod	_	_
+2	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	3	case	_	_
+3	Sierra	Sierr	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	0	root	_	_
+4	Leone	Leone	PROPN	subst:sg:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Sing	3	flat	_	_
+5	czy	czy	CCONJ	conj	_	6	cc	_	_
+6	Bostonie	Boston	PROPN	subst:sg:loc:m1	Animacy=Hum|Case=Loc|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+8	mam	mieć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis:insert	_	_
+9	nadzieję	nadzieja	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	8	iobj	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	15	punct	_	_
+11	że	że	SCONJ	comp	_	15	mark	_	_
+12	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	cop	_	_
+13	nie	nie	CCONJ	conj	_	15	cc:preconj	_	_
+14	tylko	tylko	CCONJ	conj	_	13	fixed	_	_
+15	przywróci	przywrót	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	9	ccomp	_	SpaceAfter=No
+16	,	,	PUNCT	interp	PunctType=Comm	19	punct	_	_
+17	ale	ale	CCONJ	conj	_	19	cc	_	_
+18	i	i	CCONJ	conj	_	17	fixed	_	_
+19	zmieni	zmienić	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	15	conj	_	_
+20	ich	on	PRON	ppron3:pl:acc:m1:ter:akc:npraep	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	19	obj	_	_
+21	poczucie	poczuć	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	19	obj	_	_
+22	własnych	własny	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	23	amod	_	_
+23	możliwości	możliwość	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 30
+# text = Bardzo dziękuję.
+1	Bardzo	bardzo	ADV	adv:pos	Degree=Pos	2	advmod	_	_
+2	dziękuję	dziękować	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	SpacesAfter=\n\n
+

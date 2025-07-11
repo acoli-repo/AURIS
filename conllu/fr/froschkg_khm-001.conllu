@@ -1,0 +1,1954 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Dans des temps très anciens, alors qu'il pouvait encore être utile de faire des voeux, vivait un roi dont toutes les filles étaient belles.
+1	Dans	dans	ADP	_	_	4	case	_	SpacesBefore=\n\n
+2-3	des	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	temps	temps	NOUN	_	Gender=Masc|Number=Plur	11	obl:mod	_	_
+5	très	très	ADV	_	_	6	advmod	_	_
+6	anciens	ancien	ADJ	_	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	alors	alors	ADV	_	_	11	mark	_	_
+9	qu'	que	SCONJ	_	_	8	fixed	_	SpaceAfter=No
+10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	pouvait	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	advcl	_	_
+12	encore	encore	ADV	_	_	11	advmod	_	_
+13	être	être	AUX	_	VerbForm=Inf	14	cop	_	_
+14	utile	utile	ADJ	_	Gender=Masc|Number=Sing	11	xcomp	_	_
+15	de	de	ADP	_	_	16	mark	_	SpacesAfter=\n
+16	faire	faire	VERB	_	VerbForm=Inf	14	xcomp	_	_
+17-18	des	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	voeux	voeu	NOUN	_	Gender=Masc|Number=Plur	16	obl:arg	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	11	punct	_	_
+21	vivait	vivoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	roi	roi	NOUN	_	Gender=Masc|Number=Sing	21	nsubj	_	_
+24	dont	dont	PRON	_	PronType=Rel	29	iobj	_	_
+25	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	27	amod	_	_
+26	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	filles	fille	NOUN	_	Gender=Fem|Number=Plur	29	nsubj	_	_
+28	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	29	cop	_	_
+29	belles	beau	ADJ	_	Gender=Fem|Number=Plur	23	acl:relcl	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 2
+# text = La plus jeune était si belle que le soleil, qui en a cependant tant vu, s'étonnait chaque fois qu'il illuminait son visage.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpacesAfter=\n
+2	plus	plus	ADV	_	_	3	advmod	_	_
+3	jeune	jeune	ADJ	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	si	si	ADV	_	_	6	advmod	_	_
+6	belle	beau	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+7	que	que	SCONJ	_	_	9	case	_	_
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	soleil	soleil	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	qui	qui	PRON	_	PronType=Rel	13	nsubj	_	_
+12	en	en	PRON	_	Person=3	13	expl:comp	_	_
+13	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+14	cependant	cependant	ADV	_	_	13	advmod	_	_
+15	tant	tant	ADV	_	_	16	advmod	_	_
+16	vu	vue	ADJ	_	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\n
+18	s'	se	PRON	_	Person=3|PronType=Prs	19	expl:comp	_	SpaceAfter=No
+19	étonnait	étonnaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+20	chaque	chaque	DET	_	Gender=Fem|Number=Sing	21	det	_	_
+21	fois	fois	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	_
+22	qu'	que	SCONJ	_	_	24	mark	_	SpaceAfter=No
+23	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+24	illuminait	illuminer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	ccomp	_	_
+25	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	det	_	_
+26	visage	visage	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 3
+# text = Non loin du château du roi, il y avait une grande et sombre forêt et, dans la forêt, sous un vieux tilleul, une fontaine.
+1	Non	non	ADV	_	_	2	advmod	_	_
+2	loin	loin	ADV	_	_	12	advmod	_	_
+3-4	du	_	_	_	_	_	_	_	SpacesAfter=\n
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	château	château	NOUN	_	Gender=Masc|Number=Sing	2	obl:arg	_	_
+6-7	du	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	roi	roi	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	2	punct	_	_
+10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	expl:subj	_	_
+11	y	y	PRON	_	_	12	expl:comp	_	_
+12	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+14	grande	grand	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+15	et	et	CCONJ	_	_	16	cc	_	_
+16	sombre	sombre	ADJ	_	Gender=Fem|Number=Sing	14	conj	_	_
+17	forêt	forêt	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+18	et	et	CCONJ	_	_	22	cc	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	dans	dans	ADP	_	_	22	case	_	_
+21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	forêt	forêt	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	27	punct	_	SpacesAfter=\n
+24	sous	sous	ADP	_	_	27	case	_	_
+25	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	vieux	vieux	ADJ	_	Gender=Masc|Number=Sing	27	amod	_	_
+27	tilleul	tilleul	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	_
+29	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	fontaine	fontaine	NOUN	_	Gender=Fem|Number=Sing	27	conj	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 4
+# text = Un jour qu'il faisait très chaud, la royale enfant partit dans le bois, et s'assit au bord de la source fraîche.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	jour	jour	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	_
+3	qu'	que	PRON	_	PronType=Rel	5	obj	_	SpaceAfter=No
+4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	acl:relcl	_	_
+6	très	très	ADV	_	_	7	advmod	_	_
+7	chaud	chaud	NOUN	_	Gender=Masc|Number=Sing	5	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	royale	royale	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+11	enfant	enfant	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
+12	partit	partir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	dans	dans	ADP	_	_	15	case	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	bois	bois	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	19	punct	_	_
+17	et	et	CCONJ	_	_	19	cc	_	_
+18	s'	se	PRON	_	Person=3|PronType=Prs	19	expl:comp	_	SpaceAfter=No
+19	assit	assir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	_
+20-21	au	_	_	_	_	_	_	_	_
+20	à	à	ADP	_	_	22	case	_	_
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	bord	bord	NOUN	_	Gender=Masc|Number=Sing	19	obl:mod	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	source	source	NOUN	_	Gender=Fem|Number=Sing	22	nmod	_	SpacesAfter=\n
+26	fraîche	frais	ADJ	_	Gender=Fem|Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 5
+# text = Et comme elle s'ennuyait, elle prit sa balle en or, la jeta en l'air et la rattrapa;
+1	Et	et	CCONJ	_	_	5	cc	_	_
+2	comme	comme	SCONJ	_	_	5	mark	_	_
+3	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	s'	se	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	SpaceAfter=No
+5	ennuyait	ennuyer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	prit	prendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
+10	balle	balle	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	en	en	ADP	_	_	12	case	_	_
+12	or	or	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	15	punct	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	jeta	jeta	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+16	en	en	ADP	_	_	18	case	_	SpacesAfter=\n
+17	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	air	air	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	et	et	CCONJ	_	_	20	cc	_	_
+20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	conj	_	_
+21	rattrapa;	rattrapa;	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 6
+# text = c'était son jeu favori.
+1	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	nsubj	_	SpaceAfter=No
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	_
+4	jeu	jeu	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	favori	favori	ADV	_	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Il arriva que la balle d'or, au lieu de revenir dans sa main, tomba sur le sol et roula tout droit dans l'eau.
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	arriva	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	18	mark	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	balle	balle	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
+6	d'	de	ADP	_	_	7	case	_	SpaceAfter=No
+7	or	or	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9-10	au	_	_	_	_	_	_	_	_
+9	à	à	ADP	_	_	11	case	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	lieu	lieu	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+12	de	de	ADP	_	_	13	mark	_	_
+13	revenir	revenir	VERB	_	VerbForm=Inf	5	acl	_	_
+14	dans	dans	ADP	_	_	16	case	_	_
+15	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det	_	_
+16	main	main	NOUN	_	Gender=Fem|Number=Sing	13	obl:mod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	5	punct	_	_
+18	tomba	tomber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+19	sur	sur	ADP	_	_	21	case	_	SpacesAfter=\n
+20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	sol	sol	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+22	et	et	CCONJ	_	_	23	cc	_	_
+23	roula	rouler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	conj	_	_
+24	tout	tout	DET	_	Gender=Masc|Number=Sing	25	det	_	_
+25	droit	droit	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	_
+26	dans	dans	ADP	_	_	28	case	_	_
+27	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	eau	eau	NOUN	_	Gender=Fem|Number=Sing	23	obl:arg	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 8
+# text = La princesse la suivit des yeux, mais la balle disparut: la fontaine était si profonde qu'on n'en voyait pas le fond.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	princesse	princesse	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	suivit	suivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5-6	des	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	yeux	oeil	NOUN	_	Gender=Masc|Number=Plur	4	obl:arg	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+9	mais	mais	CCONJ	_	_	12	cc	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	balle	balle	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+12	disparut	disparaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	18	punct	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	fontaine	fontaine	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
+16	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	cop	_	_
+17	si	si	ADV	_	_	18	advmod	_	_
+18	profonde	profond	ADJ	_	Gender=Fem|Number=Sing	12	parataxis	_	_
+19	qu'	que	SCONJ	_	_	23	mark	_	SpaceAfter=No
+20	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	23	nsubj	_	_
+21	n'	ne	ADV	_	Polarity=Neg	23	advmod	_	SpaceAfter=No
+22	en	en	PRON	_	Person=3	23	expl:comp	_	SpacesAfter=\n
+23	voyait	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	18	conj	_	_
+24	pas	pas	ADV	_	Polarity=Neg	23	advmod	_	_
+25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	fond	fond	NOUN	_	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 9
+# text = La jeune fille se mit à pleurer, à pleurer de plus en plus fort; elle était inconsolable.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	jeune	jeune	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	fille	fille	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	se	se	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	_
+5	mit	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	advcl	_	_
+6	à	à	ADP	_	_	7	mark	_	_
+7	pleurer	pleurer	VERB	_	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	à	à	ADP	_	_	10	mark	_	_
+10	pleurer	pleurer	VERB	_	VerbForm=Inf	7	xcomp	_	_
+11	de	de	ADP	_	_	15	advmod	_	_
+12	plus	plus	ADV	_	_	11	fixed	_	SpacesAfter=\n
+13	en	en	ADP	_	_	11	fixed	_	_
+14	plus	plus	ADV	_	_	11	fixed	_	_
+15	fort	fort	ADJ	_	Gender=Masc|Number=Sing	10	xcomp	_	SpaceAfter=No
+16	;	;	PUNCT	_	_	5	punct	_	_
+17	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+18	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+19	inconsolable	inconsolable	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 10
+# text = Comme elle gémissait ainsi, quelqu'un lui cria: "Pourquoi pleures-tu, princesse, si fort qu'une pierre s'en laisserait attendrir?" Elle regarda autour d'elle pour voir d'où venait la voix et aperçut une grenouille qui tendait hors de l'eau sa tête grosse et affreuse.
+1	Comme	comme	SCONJ	_	_	3	mark	_	_
+2	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	gémissait	gémisser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	advcl	_	_
+4	ainsi	ainsi	ADV	_	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+6	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	8	iobj	_	_
+8	cria	cria	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	12	punct	_	_
+10	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+11	Pourquoi	pourquoi	ADV	_	_	12	advmod	_	_
+12	pleures	pleur	ADJ	_	Gender=Fem|Number=Plur	8	parataxis	_	SpaceAfter=No
+13	-tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	12	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	princesse	princesse	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	24	punct	_	_
+17	si	si	SCONJ	_	_	24	mark	_	_
+18	fort	fort	ADV	_	_	17	fixed	_	_
+19	qu'	que	SCONJ	_	_	24	mark	_	SpaceAfter=No
+20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	SpacesAfter=\n
+21	pierre	pierre	NOUN	_	Gender=Fem|Number=Sing	24	nsubj	_	_
+22	s'	se	PRON	_	Person=3|PronType=Prs	24	expl:comp	_	SpaceAfter=No
+23	en	en	PRON	_	Person=3	24	expl:comp	_	_
+24	laisserait	laisser	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+25	attendrir	attendrir	VERB	_	VerbForm=Inf	24	xcomp	_	SpaceAfter=No
+26	?	?	PUNCT	_	_	29	punct	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	29	punct	_	_
+28	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+29	regarda	regarder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	parataxis	_	_
+30	autour	autour	ADV	_	_	25	advmod	_	_
+31	d'	de	ADP	_	_	32	case	_	SpaceAfter=No
+32	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	obl:arg	_	_
+33	pour	pour	ADP	_	_	34	mark	_	SpacesAfter=\n
+34	voir	voir	VERB	_	VerbForm=Inf	25	advcl	_	_
+35	d'	de	ADP	_	_	36	case	_	SpaceAfter=No
+36	où	où	ADV	_	PronType=Rel	37	obl:arg	_	_
+37	venait	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	ccomp	_	_
+38	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
+39	voix	voix	NOUN	_	Gender=Fem|Number=Sing	37	nsubj	_	_
+40	et	et	CCONJ	_	_	41	cc	_	_
+41	aperçut	apercevoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	37	conj	_	_
+42	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
+43	grenouille	grenouille	NOUN	_	Gender=Fem|Number=Sing	41	obj	_	_
+44	qui	qui	PRON	_	PronType=Rel	45	nsubj	_	_
+45	tendait	tendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	43	acl:relcl	_	_
+46	hors	hors	ADV	_	_	45	advmod	_	_
+47	de	de	ADP	_	_	49	case	_	SpacesAfter=\n
+48	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	SpaceAfter=No
+49	eau	eau	NOUN	_	Gender=Fem|Number=Sing	46	obl:arg	_	_
+50	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	51	det	_	_
+51	tête	tête	NOUN	_	Gender=Fem|Number=Sing	45	obj	_	_
+52	grosse	gros	ADJ	_	Gender=Fem|Number=Sing	51	amod	_	_
+53	et	et	CCONJ	_	_	54	cc	_	_
+54	affreuse	affreux	ADJ	_	Gender=Fem|Number=Sing	52	conj	_	SpaceAfter=No
+55	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 11
+# text = "Ah! c'est toi, vieille barboteuse!" dit-elle, "je pleure ma balle d'or qui est tombée dans la fontaine." - "Tais-toi et ne pleure plus," dit la grenouille, "je vais t'aider.
+1	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
+2	Ah	ah	INTJ	_	_	6	discourse	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+4	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	6	nsubj	_	SpaceAfter=No
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	toi	soi	PRON	_	Number=Sing|Person=2	12	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	vieille	vieux	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	SpacesAfter=\n
+9	barboteuse	barboteur	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+10	!	!	PUNCT	_	_	6	punct	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	6	punct	_	_
+12	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	12	punct	_	_
+15	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+16	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	pleure	pleurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
+18	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det	_	_
+19	balle	balle	NOUN	_	Gender=Fem|Number=Sing	17	obj	_	_
+20	d'	de	ADP	_	_	21	case	_	SpaceAfter=No
+21	or	or	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	_
+22	qui	qui	PRON	_	PronType=Rel	24	nsubj	_	_
+23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux:tense	_	_
+24	tombée	tomber	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	parataxis	_	_
+25	dans	dans	ADP	_	_	27	case	_	SpacesAfter=\n
+26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	fontaine	fontaine	NOUN	_	Gender=Fem|Number=Sing	24	obl:mod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	32	punct	_	SpaceAfter=No
+29	"	"	PUNCT	_	_	32	punct	_	_
+30	-	-	PUNCT	_	_	32	punct	_	_
+31	"	"	PUNCT	_	_	32	punct	_	SpaceAfter=No
+32	Tais	Ter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	24	parataxis	_	SpaceAfter=No
+33	-toi	soi	PRON	_	Number=Sing|Person=2	32	obj	_	_
+34	et	et	CCONJ	_	_	36	cc	_	_
+35	ne	ne	ADV	_	Polarity=Neg	36	advmod	_	_
+36	pleure	pleurer	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	conj	_	_
+37	plus	plus	ADV	_	_	36	advmod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	40	punct	_	SpaceAfter=No
+39	"	"	PUNCT	_	_	40	punct	_	_
+40	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	conj	_	_
+41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	grenouille	grenouille	NOUN	_	Gender=Fem|Number=Sing	40	obj	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	40	punct	_	_
+44	"	"	PUNCT	_	_	46	punct	_	SpaceAfter=No
+45	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	46	nsubj	_	SpacesAfter=\n
+46	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	36	parataxis	_	_
+47	t'	le	PRON	_	Number=Sing|Person=2|PronType=Prs	48	obj	_	SpaceAfter=No
+48	aider	aider	VERB	_	VerbForm=Inf	46	xcomp	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 12
+# text = Mais que me donneras-tu si je te rapporte ton jouet?" - "Ce que tu voudras, chère grenouille," répondit-elle, "mes habits, mes perles et mes diamants et même la couronne d'or que je porte sur la tête." - "Je ne veux ni de tes perles, ni de tes diamants, ni de ta couronne.
+1	Mais	mais	CCONJ	_	_	9	cc	_	_
+2	que	que	SCONJ	_	_	9	mark	_	_
+3	me	le	X	_	Foreign=Yes	9	nsubj	_	_
+4	donneras	donneras	X	_	Foreign=Yes	3	flat:foreign	_	SpaceAfter=No
+5	-tu	-tre	PRON	_	Number=Sing|Person=2|PronType=Prs	9	obj	_	_
+6	si	si	SCONJ	_	_	9	mark	_	_
+7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	te	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	9	iobj	_	_
+9	rapporte	rapporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	ton	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	_
+11	jouet	jouet	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	?	?	PUNCT	_	_	16	punct	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	16	punct	_	_
+14	-	-	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	Ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	11	appos	_	_
+17	que	que	PRON	_	PronType=Rel	25	obj	_	_
+18	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	25	nsubj	_	_
+19	voudras	voudra	ADJ	_	Gender=Masc|Number=Plur	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	chère	chérer	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+22	grenouille	grenouiller	NOUN	_	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	18	punct	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	25	punct	_	_
+25	répondit	répondre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No
+26	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	30	punct	_	_
+28	"	"	PUNCT	_	_	30	punct	_	SpaceAfter=No
+29	mes	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	30	det	_	_
+30	habits	habit	NOUN	_	Gender=Masc|Number=Plur	25	obj	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	33	punct	_	SpacesAfter=\n
+32	mes	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	33	det	_	_
+33	perles	perle	NOUN	_	Gender=Fem|Number=Plur	30	conj	_	_
+34	et	et	CCONJ	_	_	36	cc	_	_
+35	mes	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	36	det	_	_
+36	diamants	diamant	NOUN	_	Gender=Masc|Number=Plur	30	conj	_	_
+37	et	et	CCONJ	_	_	40	cc	_	_
+38	même	même	ADV	_	_	40	advmod	_	_
+39	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	couronne	couronne	NOUN	_	Gender=Fem|Number=Sing	30	conj	_	_
+41	d'	de	ADP	_	_	42	case	_	SpaceAfter=No
+42	or	or	NOUN	_	Gender=Masc|Number=Sing	40	nmod	_	_
+43	que	que	PRON	_	PronType=Rel	45	obj	_	_
+44	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	45	nsubj	_	_
+45	porte	porter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	acl:relcl	_	_
+46	sur	sur	ADP	_	_	48	case	_	_
+47	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	SpacesAfter=\n
+48	tête	tête	NOUN	_	Gender=Fem|Number=Sing	45	obl	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	55	punct	_	SpaceAfter=No
+50	"	"	PUNCT	_	_	55	punct	_	_
+51	-	-	PUNCT	_	_	55	punct	_	_
+52	"	"	PUNCT	_	_	55	punct	_	SpaceAfter=No
+53	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	55	nsubj	_	_
+54	ne	ne	ADV	_	Polarity=Neg	55	advmod	_	_
+55	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	40	parataxis	_	_
+56	ni	ni	CCONJ	_	_	59	cc	_	_
+57	de	de	ADP	_	_	59	case	_	_
+58	tes	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	59	det	_	_
+59	perles	perle	NOUN	_	Gender=Masc|Number=Plur	55	conj	_	SpaceAfter=No
+60	,	,	PUNCT	_	_	64	punct	_	_
+61	ni	ni	CCONJ	_	_	64	cc	_	_
+62	de	de	ADP	_	_	64	case	_	_
+63	tes	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	64	det	_	_
+64	diamants	diamant	NOUN	_	Gender=Masc|Number=Plur	55	conj	_	SpaceAfter=No
+65	,	,	PUNCT	_	_	68	punct	_	_
+66	ni	ni	CCONJ	_	_	68	cc	_	_
+67	de	de	ADP	_	_	68	case	_	_
+68	ta	ta	NOUN	_	Gender=Fem|Number=Sing	55	conj	_	SpacesAfter=\n
+69	couronne	couron	ADJ	_	Gender=Fem|Number=Sing	68	amod	_	SpaceAfter=No
+70	.	.	PUNCT	_	_	55	punct	_	_
+
+# sent_id = 13
+# text = Mais, si tu acceptes de m'aimer, si tu me prends comme compagne et camarade de jeux, si je peux m'asseoir à ta table à côté de toi, manger dans ton assiette, boire dans ton gobelet et dormir dans ton lit, si tu me promets tout cela, je plongerai au fond de la source et te rendrai ta balle." - "Mais oui," dit-elle, "je te promets tout ce que tu veux à condition que tu me retrouves ma balle." Elle se disait:
+1	Mais	mais	CCONJ	_	_	5	cc	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	si	si	SCONJ	_	_	5	mark	_	_
+4	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+5	acceptes	accepte	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	de	de	ADP	_	_	8	mark	_	_
+7	m'	se	PRON	_	Number=Sing|Person=1|PronType=Prs	8	obj	_	SpaceAfter=No
+8	aimer	aimer	VERB	_	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	si	si	SCONJ	_	_	13	mark	_	_
+11	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	13	nsubj	_	_
+12	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	13	obj	_	_
+13	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+14	comme	comme	ADP	_	_	15	case	_	SpacesAfter=\n
+15	compagne	compagne	NOUN	_	Gender=Masc|Number=Sing	13	obl:mod	_	_
+16	et	et	CCONJ	_	_	17	cc	_	_
+17	camarade	camarade	NOUN	_	Gender=Masc|Number=Sing	15	conj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	jeux	jeu	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	5	punct	_	_
+21	si	si	SCONJ	_	_	23	mark	_	_
+22	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+23	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+24	m'	se	PRON	_	Number=Sing|Person=1|PronType=Prs	25	obj	_	SpaceAfter=No
+25	asseoir	asseoir	VERB	_	VerbForm=Inf	23	xcomp	_	_
+26	à	à	ADP	_	_	27	case	_	_
+27	ta	ta	NOUN	_	Gender=Fem|Number=Sing	25	obl:mod	_	_
+28	table	table	ADJ	_	Gender=Fem|Number=Sing	27	amod	_	_
+29	à	à	ADP	_	_	25	advmod	_	_
+30	côté	côté	NOUN	_	Gender=Masc|Number=Sing	29	fixed	_	_
+31	de	de	ADP	_	_	32	case	_	SpacesAfter=\n
+32	toi	soi	PRON	_	Number=Sing|Person=2	29	obl:arg	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	34	punct	_	_
+34	manger	manger	VERB	_	VerbForm=Inf	25	conj	_	_
+35	dans	dans	ADP	_	_	37	case	_	_
+36	ton	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	37	det	_	_
+37	assiette	assiette	NOUN	_	Gender=Masc|Number=Sing	34	obl:mod	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	39	punct	_	_
+39	boire	boire	VERB	_	VerbForm=Inf	23	conj	_	_
+40	dans	dans	ADP	_	_	42	case	_	_
+41	ton	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	42	det	_	_
+42	gobelet	gobelet	NOUN	_	Gender=Masc|Number=Sing	39	obl:mod	_	_
+43	et	et	CCONJ	_	_	44	cc	_	_
+44	dormir	dormir	VERB	_	VerbForm=Inf	23	conj	_	_
+45	dans	dans	ADP	_	_	47	case	_	_
+46	ton	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	47	det	_	SpacesAfter=\n
+47	lit	lit	NOUN	_	Gender=Masc|Number=Sing	44	obl:mod	_	SpaceAfter=No
+48	,	,	PUNCT	_	_	5	punct	_	_
+49	si	si	SCONJ	_	_	52	mark	_	_
+50	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	52	nsubj	_	_
+51	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	52	iobj	_	_
+52	promets	promettre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+53	tout	tout	DET	_	Gender=Masc|Number=Sing	54	det	_	_
+54	cela	cela	PRON	_	Number=Sing|PronType=Dem	52	obj	_	SpaceAfter=No
+55	,	,	PUNCT	_	_	57	punct	_	_
+56	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	57	nsubj	_	_
+57	plongerai	plonger	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	52	conj	_	_
+58-59	au	_	_	_	_	_	_	_	_
+58	à	à	ADP	_	_	60	case	_	_
+59	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	60	det	_	_
+60	fond	fond	NOUN	_	Gender=Masc|Number=Sing	57	obl:mod	_	_
+61	de	de	ADP	_	_	63	case	_	_
+62	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	63	det	_	_
+63	source	source	NOUN	_	Gender=Fem|Number=Sing	60	nmod	_	_
+64	et	et	CCONJ	_	_	66	cc	_	_
+65	te	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	66	obj	_	SpacesAfter=\n
+66	rendrai	rendr	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	57	conj	_	_
+67	ta	ta	SYM	_	_	66	xcomp	_	_
+68	balle	bal	NOUN	_	Gender=Fem|Number=Sing	67	nmod	_	SpaceAfter=No
+69	.	.	PUNCT	_	_	5	punct	_	SpaceAfter=No
+70	"	"	PUNCT	_	_	5	punct	_	_
+71	-	-	PUNCT	_	_	5	punct	_	_
+72	"	"	PUNCT	_	_	5	punct	_	SpaceAfter=No
+73	Mais	mais	CCONJ	_	_	74	cc	_	_
+74	oui	oui	NOUN	_	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+75	,	,	PUNCT	_	_	74	punct	_	SpaceAfter=No
+76	"	"	PUNCT	_	_	77	punct	_	_
+77	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	74	parataxis	_	SpaceAfter=No
+78	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	77	nsubj	_	SpaceAfter=No
+79	,	,	PUNCT	_	_	74	punct	_	_
+80	"	"	PUNCT	_	_	74	punct	_	SpaceAfter=No
+81	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	74	appos	_	_
+82	te	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	83	obj	_	_
+83	promets	promettre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	81	acl:relcl	_	_
+84	tout	tout	DET	_	Gender=Masc|Number=Sing	85	det	_	_
+85	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	83	nsubj	_	SpacesAfter=\n
+86	que	que	PRON	_	PronType=Rel	88	obj	_	_
+87	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	88	nsubj	_	_
+88	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	85	acl:relcl	_	_
+89	à	à	ADP	_	_	90	case	_	_
+90	condition	condition	NOUN	_	Gender=Fem|Number=Sing	88	obl:mod	_	_
+91	que	que	SCONJ	_	_	94	mark	_	_
+92	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	94	nsubj	_	_
+93	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	94	iobj	_	_
+94	retrouves	retrouf	ADJ	_	Gender=Fem|Number=Plur	96	amod	_	_
+95	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	96	det	_	_
+96	balle	balle	NOUN	_	Gender=Fem|Number=Sing	88	xcomp	_	SpaceAfter=No
+97	.	.	PUNCT	_	_	96	punct	_	SpaceAfter=No
+98	"	"	PUNCT	_	_	96	punct	_	_
+99	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	101	nsubj	_	_
+100	se	se	PRON	_	Person=3|PronType=Prs	101	expl:pass	_	_
+101	disait	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	96	acl:relcl	_	SpaceAfter=No
+102	:	:	PUNCT	_	_	83	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Elle vit là, dans l'eau avec les siens et coasse.
+1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	vit	vivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	là	là	ADV	_	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	dans	dans	ADP	_	_	7	case	_	_
+6	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	eau	eau	NOUN	_	Gender=Fem|Number=Sing	2	obl:arg	_	_
+8	avec	avec	ADP	_	_	10	case	_	_
+9	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	siens	sien	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+11	et	et	CCONJ	_	_	12	cc	_	_
+12	coasse	coasser	NOUN	_	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 15
+# text = Comment serait-elle la compagne d'un être humain?
+1	Comment	comment	ADV	_	_	5	advmod	_	_
+2	serait	être	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+3	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	SpacesAfter=\n
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	compagne	compagne	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+6	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	être	être	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+9	humain	humain	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	?	?	PUNCT	_	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Quand la grenouille eut obtenu sa promesse, elle mit la tête sous l'eau, plongea et, peu après, réapparut en tenant la balle entre ses lèvres.
+1	Quand	quand	SCONJ	_	_	5	mark	_	_
+2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	grenouille	grenouille	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	eut	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:tense	_	_
+5	obtenu	obtenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+6	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	_
+7	promesse	promesse	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	5	punct	_	_
+9	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	mit	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	tête	tête	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+13	sous	sous	ADP	_	_	15	case	_	SpacesAfter=\n
+14	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	eau	eau	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	plongea	plonger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+18	et	et	CCONJ	_	_	21	cc	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	peu	peu	ADV	_	_	21	advmod	_	_
+21	après	après	ADV	_	_	10	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	réapparut	réapparaître	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+24	en	en	ADP	_	_	25	mark	_	_
+25	tenant	tenir	VERB	_	Tense=Pres|VerbForm=Part	23	advcl	_	_
+26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	balle	balle	NOUN	_	Gender=Fem|Number=Sing	25	obj	_	_
+28	entre	entre	ADP	_	_	30	case	_	_
+29	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	30	det	_	SpacesAfter=\n
+30	lèvres	lèvre	NOUN	_	Gender=Fem|Number=Plur	25	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 17
+# text = Elle la jeta sur l'herbe.
+1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	jeta	jeter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	sur	sur	ADP	_	_	6	case	_	_
+5	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	herbe	herbe	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 18
+# text = En retrouvant son beau jouet, la fille du roi fut folle de joie.
+1	En	en	ADP	_	_	2	mark	_	_
+2	retrouvant	retrouver	VERB	_	Tense=Pres|VerbForm=Part	13	advcl	_	_
+3	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	_
+4	beau	beau	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	jouet	jouet	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	2	punct	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpacesAfter=\n
+8	fille	fille	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+9-10	du	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	roi	roi	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+13	folle	folle	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	joie	joie	NOUN	_	Gender=Fem|Number=Sing	13	obl:arg	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 19
+# text = Elle le ramassa et partit en courant.
+1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	ramassa	ramasser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	et	et	CCONJ	_	_	5	cc	_	_
+5	partit	partir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	_
+6	en	en	ADP	_	_	7	case	_	_
+7	courant	courant	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = "Attends! Attends!" cria la grenouille.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Attends	Attends	PROPN	_	_	7	nsubj	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	4	punct	_	_
+4	Attends	Attends	PROPN	_	_	2	flat:name	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	2	punct	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	2	punct	_	_
+7	cria	crier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	grenouille	grenouille	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 21
+# text = "Emmène-moi!
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Emmène-moi	Emmène-moi	PROPN	_	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 22
+# text = Je ne peux pas courir aussi vite que toi!" Mais il ne lui servit à rien de pousser ses 'coâ! coâ! coâ!' aussi fort qu'elle pouvait.
+1	Je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ne	ne	ADV	_	Polarity=Neg	3	advmod	_	_
+3	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	pas	pas	ADV	_	Polarity=Neg	3	advmod	_	SpacesAfter=\n
+5	courir	courir	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	aussi	aussi	ADV	_	_	5	advmod	_	_
+7	vite	vite	ADV	_	_	5	advmod	_	_
+8	que	que	SCONJ	_	_	9	case	_	_
+9	toi	soi	PRON	_	Number=Sing|Person=2	5	obl:mod	_	SpaceAfter=No
+10	!	!	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	9	punct	_	_
+12	Mais	mais	CCONJ	_	_	16	cc	_	_
+13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+14	ne	ne	ADV	_	Polarity=Neg	16	advmod	_	_
+15	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	16	iobj	_	_
+16	servit	servir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	conj	_	_
+17	à	à	ADP	_	_	18	case	_	_
+18	rien	rien	PRON	_	Number=Sing	16	obl:mod	_	_
+19	de	de	ADP	_	_	20	mark	_	_
+20	pousser	pousser	VERB	_	VerbForm=Inf	16	xcomp	_	_
+21	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	24	det	_	SpacesAfter=\n
+22	'	'	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	coâ!	coâ!	PUNCT	_	_	21	punct	_	_
+24	coâ	coâ	NOUN	_	_	20	obj	_	SpaceAfter=No
+25	!	!	PUNCT	_	_	26	punct	_	_
+26	coâ	coâ	NOUN	_	_	24	appos	_	SpaceAfter=No
+27	!'	!'	PUNCT	_	_	29	punct	_	_
+28	aussi	aussi	ADV	_	_	29	advmod	_	_
+29	fort	fort	ADV	_	_	26	advmod	_	_
+30	qu'	que	SCONJ	_	_	32	mark	_	SpaceAfter=No
+31	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	nsubj	_	_
+32	pouvait	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	ccomp	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 23
+# text = La jeune fille ne l'écoutait pas.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	jeune	jeune	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	fille	fille	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	ne	ne	ADV	_	Polarity=Neg	6	advmod	_	SpacesAfter=\n
+5	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
+6	écoutait	êcoutre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	pas	pas	ADV	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 24
+# text = Elle se hâtait de rentrer à la maison et bientôt la pauvre grenouille fut oubliée.
+1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	se	se	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	_
+3	hâtait	hâtir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	nsubj:pass	_	_
+4	de	de	ADP	_	_	5	mark	_	_
+5	rentrer	rentrer	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	à	à	ADP	_	_	8	case	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	maison	maison	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	_
+9	et	et	CCONJ	_	_	10	cc	_	_
+10	bientôt	bientôt	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpacesAfter=\n
+12	pauvre	pauvre	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+13	grenouille	grenouille	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	_
+14	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	oubliée	oublier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 25
+# text = Il ne lui restait plus qu'à replonger dans la fontaine.
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	ne	ne	ADV	_	Polarity=Neg	4	advmod	_	_
+3	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	4	iobj	_	_
+4	restait	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	plus	plus	ADV	_	_	4	advmod	_	_
+6	qu'	que	SCONJ	_	_	8	mark	_	SpaceAfter=No
+7	à	à	ADP	_	_	8	mark	_	_
+8	replonger	replonger	VERB	_	VerbForm=Inf	4	ccomp	_	SpacesAfter=\n
+9	dans	dans	ADP	_	_	11	case	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	fontaine	fontaine	NOUN	_	Gender=Fem|Number=Sing	8	obl:mod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 26
+# text = Le lendemain, comme la petite princesse était à table, mangeant dans sa jolie assiette d'or, avec le roi et tous les gens de la Cour, on entendit - plouf! plouf! plouf! plouf! - quelque chose qui montait l'escalier de marbre.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	lendemain	lendemain	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	7	punct	_	_
+4	comme	comme	ADP	_	_	7	case	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	petite	petit	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+7	princesse	princesse	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+9	à	à	ADP	_	_	10	case	_	_
+10	table	table	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	12	punct	_	_
+12	mangeant	mangeer	VERB	_	Tense=Pres|VerbForm=Part	10	acl	_	_
+13	dans	dans	ADP	_	_	16	case	_	_
+14	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det	_	SpacesAfter=\n
+15	jolie	joli	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+16	assiette	assiette	NOUN	_	Gender=Fem|Number=Sing	12	obl:arg	_	_
+17	d'	de	ADP	_	_	18	case	_	SpaceAfter=No
+18	or	or	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	22	punct	_	_
+20	avec	avec	ADP	_	_	22	case	_	_
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	roi	roi	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	_
+23	et	et	CCONJ	_	_	26	cc	_	_
+24	tous	tout	ADJ	_	Gender=Masc|Number=Plur	26	amod	_	_
+25	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	gens	gens	NOUN	_	Gender=Masc|Number=Plur	22	conj	_	_
+27	de	de	ADP	_	_	29	case	_	_
+28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Cour	cour	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	32	punct	_	_
+31	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	32	nsubj	_	SpacesAfter=\n
+32	entendit	entendire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+33	-	-	PUNCT	_	_	34	punct	_	_
+34	plouf!	plouf!	PUNCT	_	_	36	punct	_	_
+35	plouf!	plouf!	PUNCT	_	_	36	punct	_	_
+36	plouf	plouf	NOUN	_	Gender=Masc|Number=Sing	32	conj	_	SpaceAfter=No
+37	!	!	PUNCT	_	_	36	punct	_	_
+38	plouf	plouf	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+39	!	!	PUNCT	_	_	36	punct	_	_
+40	-	-	PUNCT	_	_	42	punct	_	_
+41	quelque	quelque	DET	_	Gender=Fem|Number=Sing	42	det	_	_
+42	chose	chose	NOUN	_	Gender=Fem|Number=Sing	36	conj	_	_
+43	qui	qui	PRON	_	PronType=Rel	44	nsubj	_	_
+44	montait	monter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	42	acl:relcl	_	SpacesAfter=\n
+45	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	SpaceAfter=No
+46	escalier	escalier	NOUN	_	Gender=Masc|Number=Sing	44	obj	_	_
+47	de	de	ADP	_	_	48	case	_	_
+48	marbre	marbre	NOUN	_	Gender=Masc|Number=Sing	46	nmod	_	SpaceAfter=No
+49	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 27
+# text = Puis on frappa à la porte et une voix dit: "Fille du roi, la plus jeune, ouvre moi!" Elle se leva de table pour voir qui était là.
+1	Puis	puis	ADV	_	_	3	cc	_	_
+2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+3	frappa	frapper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	à	à	ADP	_	_	6	case	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	porte	porte	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	_
+7	et	et	CCONJ	_	_	9	cc	_	_
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	voix	voix	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
+10	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	13	punct	_	SpacesAfter=\n
+12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	Fille	fille	NOUN	_	Gender=Fem|Number=Sing	6	appos	_	_
+14-15	du	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	roi	roi	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	20	punct	_	_
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	plus	plus	ADV	_	_	20	advmod	_	_
+20	jeune	jeune	ADJ	_	Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	ouvre	ouvrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+23	moi	soi	PRON	_	Number=Sing|Person=1	22	obj	_	SpaceAfter=No
+24	!	!	PUNCT	_	_	13	punct	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	13	punct	_	_
+26	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+27	se	se	PRON	_	Person=3|PronType=Prs	28	expl:comp	_	_
+28	leva	lealler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	table	table	NOUN	_	Gender=Fem|Number=Sing	28	obl:arg	_	_
+31	pour	pour	ADP	_	_	32	mark	_	SpacesAfter=\n
+32	voir	voir	VERB	_	VerbForm=Inf	28	advcl	_	_
+33	qui	qui	PRON	_	PronType=Int	35	nsubj	_	_
+34	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	35	cop	_	_
+35	là	là	ADV	_	_	32	advmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 28
+# text = Quand elle ouvrit, elle aperçut la grenouille.
+1	Quand	quand	SCONJ	_	_	3	mark	_	_
+2	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	ouvrit	ouvrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	aperçut	apercevoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	grenouille	grenouille	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 29
+# text = Elle repoussa bien vite la porte et alla reprendre sa place.
+1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	SpacesAfter=\n
+2	repoussa	repousser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	bien	bien	ADV	_	_	4	advmod	_	_
+4	vite	vite	ADV	_	_	2	advmod	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	porte	porte	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+7	et	et	CCONJ	_	_	8	cc	_	_
+8	alla	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	reprendre	reprendre	VERB	_	VerbForm=Inf	8	xcomp	_	_
+10	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	_
+11	place	place	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 30
+# text = Elle avait très peur.
+1	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	très	très	ADV	_	_	4	advmod	_	SpacesAfter=\n
+4	peur	peur	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 31
+# text = Le roi vit que son coeur battait fort et dit: "Que crains-tu, mon enfant?
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	roi	roi	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	vit	vivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	_
+6	coeur	coeur	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	battait	battre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+8	fort	fort	ADV	_	_	7	advmod	_	_
+9	et	et	CCONJ	_	_	10	cc	_	_
+10	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	14	punct	_	_
+12	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+13	Que	que	PRON	_	PronType=Int	14	obj	_	_
+14	crains	crain	PRON	_	Gender=Masc|Number=Plur	3	parataxis	_	SpaceAfter=No
+15	-tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det	_	SpacesAfter=\n
+18	enfant	enfant	NOUN	_	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+19	?	?	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 32
+# text = Y aurait-il un géant derrière la porte, qui viendrait te chercher?" - "Oh! non," répondit-elle, "ce n'est pas un géant, mais une vilaine grenouille." - "Que te veut cette grenouille?" - "Ah! cher père, hier, comme j'étais au bord de la fontaine et que je jouais avec ma balle d'or, celle-ci tomba dans l'eau.
+1	Y	y	PRON	_	_	2	expl:comp	_	_
+2	aurait	avoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	géant	géant	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+6	derrière	derrière	ADP	_	_	8	case	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	porte	porte	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	qui	qui	PRON	_	PronType=Rel	11	nsubj	_	_
+11	viendrait	venir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+12	te	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	13	obj	_	SpacesAfter=\n
+13	chercher	chercher	VERB	_	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+14	?	?	PUNCT	_	_	18	punct	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	18	punct	_	_
+16	-	-	PUNCT	_	_	18	punct	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
+18	Oh!	oh!	PROPN	_	_	22	nsubj	_	_
+19	non	non	ADV	_	_	22	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	22	punct	_	_
+22	répondit	répondre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	parataxis	_	SpaceAfter=No
+23	-elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	31	punct	_	_
+25	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
+26	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	31	nsubj	_	_
+27	n'	ne	ADV	_	Polarity=Neg	31	advmod	_	SpaceAfter=No
+28	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+29	pas	pas	ADV	_	Polarity=Neg	31	advmod	_	_
+30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	géant	géant	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	36	punct	_	_
+33	mais	mais	CCONJ	_	_	36	cc	_	SpacesAfter=\n
+34	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+35	vilaine	vilaine	ADJ	_	Gender=Fem|Number=Sing	36	amod	_	_
+36	grenouille	grenouiller	NOUN	_	Gender=Fem|Number=Sing	31	conj	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+38	"	"	PUNCT	_	_	31	punct	_	_
+39	-	-	PUNCT	_	_	31	punct	_	_
+40	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
+41	Que	que	PRON	_	PronType=Int	43	obj	_	_
+42	te	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	43	iobj	_	_
+43	veut	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	xcomp	_	_
+44	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	45	det	_	_
+45	grenouille	grenouille	NOUN	_	Gender=Fem|Number=Sing	43	nsubj	_	SpaceAfter=No
+46	?	?	PUNCT	_	_	50	punct	_	SpaceAfter=No
+47	"	"	PUNCT	_	_	50	punct	_	_
+48	-	-	PUNCT	_	_	50	punct	_	_
+49	"	"	PUNCT	_	_	50	punct	_	SpaceAfter=No
+50	Ah	ah	INTJ	_	_	45	appos	_	SpaceAfter=No
+51	!	!	PUNCT	_	_	53	punct	_	SpacesAfter=\n
+52	cher	cher	ADJ	_	Gender=Masc|Number=Sing	53	amod	_	_
+53	père	père	NOUN	_	Gender=Masc|Number=Sing	43	parataxis	_	SpaceAfter=No
+54	,	,	PUNCT	_	_	55	punct	_	_
+55	hier	hier	ADV	_	_	53	conj	_	SpaceAfter=No
+56	,	,	PUNCT	_	_	55	punct	_	_
+57	comme	comme	SCONJ	_	_	59	mark	_	_
+58	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	59	nsubj	_	SpaceAfter=No
+59	étais	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	53	advcl	_	_
+60-61	au	_	_	_	_	_	_	_	_
+60	à	à	ADP	_	_	62	case	_	_
+61	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+62	bord	bord	NOUN	_	Gender=Masc|Number=Sing	59	obl:arg	_	_
+63	de	de	ADP	_	_	65	case	_	_
+64	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	65	det	_	_
+65	fontaine	fontaine	NOUN	_	Gender=Fem|Number=Sing	62	nmod	_	_
+66	et	et	CCONJ	_	_	69	cc	_	_
+67	que	que	SCONJ	_	_	69	mark	_	_
+68	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	69	nsubj	_	_
+69	jouais	jouais	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	59	conj	_	SpacesAfter=\n
+70	avec	avec	ADP	_	_	72	case	_	_
+71	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	72	det	_	_
+72	balle	balle	NOUN	_	Gender=Fem|Number=Sing	69	obl:arg	_	_
+73	d'	de	ADP	_	_	74	case	_	SpaceAfter=No
+74	or	or	NOUN	_	Gender=Masc|Number=Sing	72	nmod	_	SpaceAfter=No
+75	,	,	PUNCT	_	_	77	punct	_	_
+76	celle-ci	celui-ci	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	77	nsubj	_	_
+77	tomba	tomber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	59	conj	_	_
+78	dans	dans	ADP	_	_	80	case	_	_
+79	l'	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	80	det	_	SpaceAfter=No
+80	eau	eau	NOUN	_	Gender=Fem|Number=Sing	77	obl:arg	_	SpaceAfter=No
+81	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 33
+# text = Parce que je pleurais bien fort, la grenouille me l'a rapportée.
+1	Parce	parce	ADV	_	_	4	mark	_	_
+2	que	que	SCONJ	_	_	1	fixed	_	_
+3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	pleurais	pleur	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n
+5	bien	bien	ADV	_	_	6	advmod	_	_
+6	fort	fort	ADV	_	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	13	punct	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	grenouille	grenouille	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+10	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+11	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	13	obj	_	SpaceAfter=No
+12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
+13	rapportée	rapporter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 34
+# text = Et comme elle me le demandait avec insistance, je lui ai promis qu'elle deviendrait ma compagne.
+1	Et	et	CCONJ	_	_	13	cc	_	_
+2	comme	comme	SCONJ	_	_	6	mark	_	_
+3	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+5	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpacesAfter=\n
+6	demandait	demander	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	advcl	_	_
+7	avec	avec	ADP	_	_	8	case	_	_
+8	insistance	insistance	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	6	punct	_	_
+10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+11	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	13	iobj	_	_
+12	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux:tense	_	_
+13	promis	promettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	qu'	que	SCONJ	_	_	16	mark	_	SpaceAfter=No
+15	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	deviendrait	devenir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+17	ma	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det	_	SpacesAfter=\n
+18	compagne	compagne	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 35
+# text = Mais je ne pensais pas qu'elle sortirait de son eau.
+1	Mais	mais	CCONJ	_	_	4	cc	_	_
+2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	ne	ne	ADV	_	Polarity=Neg	4	advmod	_	_
+4	pensais	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	pas	pas	ADV	_	Polarity=Neg	4	advmod	_	_
+6	qu'	que	SCONJ	_	_	8	mark	_	SpaceAfter=No
+7	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	sortirait	sortir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	son	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det	_	_
+11	eau	eau	NOUN	_	Gender=Fem|Number=Sing	8	obl:arg	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 36
+# text = Et voilà qu'elle est là dehors et veut venir auprès de moi."
+1	Et	et	CCONJ	_	_	2	cc	_	_
+2	voilà	voilà	VERB	_	_	0	root	_	SpacesAfter=\n
+3	qu'	que	SCONJ	_	_	7	mark	_	SpaceAfter=No
+4	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	là	là	ADV	_	_	7	advmod	_	_
+7	dehors	dehors	ADV	_	_	2	ccomp	_	_
+8	et	et	CCONJ	_	_	9	cc	_	_
+9	veut	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+10	venir	venir	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11	auprès	auprès	ADV	_	_	10	iobj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	moi	soi	PRON	_	Number=Sing|Person=1	11	obl:arg	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 37
+# text = Sur ces entrefaites, on frappa une seconde fois à la porte et une voix dit:
+1	Sur	sur	ADP	_	_	3	case	_	_
+2	ces	ce	DET	_	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	SpacesAfter=\n
+3	entrefaites	entrefaite	NOUN	_	Gender=Fem|Number=Plur	6	obl:mod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+6	frappa	frapper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	seconde	second	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+9	fois	fois	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+10	à	à	ADP	_	_	12	case	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	porte	porte	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	_
+13	et	et	CCONJ	_	_	15	cc	_	_
+14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	voix	voix	NOUN	_	Gender=Fem|Number=Sing	12	conj	_	_
+16	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	SpaceAfter=No
+17	:	:	PUNCT	_	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 38
+# text = "Fille du roi, la plus jeune, Ouvre-moi!
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Fille	fille	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	roi	roi	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	plus	plus	ADV	_	_	9	advmod	_	_
+9	jeune	jeune	ADJ	_	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+11	Ouvre-moi	Ouvre-moi	PROPN	_	_	2	appos	_	SpaceAfter=No
+12	!	!	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 39
+# text = Ne sais-tu plus ce qu'hier Au bord de la fontaine fraîche Tu me promis?
+1	Ne	ne	ADV	_	Polarity=Neg	2	advmod	_	_
+2	sais	ser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	-tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+4	plus	plus	ADV	_	_	2	advmod	_	_
+5	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	obj	_	_
+6	qu'	que	PRON	_	PronType=Rel	17	obj	_	SpaceAfter=No
+7	hier	hier	ADV	_	_	6	advmod	_	SpacesAfter=\n
+8-9	Au	_	_	_	_	_	_	_	_
+8	À	à	ADP	_	_	10	case	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	bord	bord	NOUN	_	Gender=Masc|Number=Sing	17	obl:mod	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	fontaine	fontaine	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	fraîche	frais	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	SpacesAfter=\n
+15	Tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	17	nsubj	_	_
+16	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	17	iobj	_	_
+17	promis	promi	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl:relcl	_	SpaceAfter=No
+18	?	?	PUNCT	_	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 40
+# text = Fille du roi, la plus jeune, Ouvre-moi!"
+1	Fille	fille	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2-3	du	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	roi	roi	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	advmod	_	_
+7	plus	plus	ADV	_	_	6	fixed	_	_
+8	jeune	jeune	ADJ	_	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+10	Ouvre-moi	Ouvre-moi	PROPN	_	_	1	appos	_	SpaceAfter=No
+11	!	!	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 41
+# text = Le roi dit alors: "Ce que tu as promis, il faut le faire.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	roi	roi	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	_
+3	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+4	alors	alors	ADV	_	_	3	advmod	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	2	punct	_	_
+6	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+7	Ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	appos	_	_
+8	que	que	PRON	_	PronType=Rel	11	obj	_	_
+9	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	11	nsubj	_	_
+10	as	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	aux:tense	_	_
+11	promis	promettre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	2	punct	_	_
+13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	expl:subj	_	_
+14	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+16	faire	faire	VERB	_	VerbForm=Inf	14	ccomp	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 42
+# text = Va et ouvre!" Elle se leva et ouvrit la porte.
+1	Va	va	PROPN	_	_	8	nsubj	_	_
+2	et	et	CCONJ	_	_	3	cc	_	SpacesAfter=\n
+3	ouvre	ouvrir	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	1	punct	_	SpaceAfter=No
+5	"	"	PUNCT	_	_	1	punct	_	_
+6	Elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	flat:name	_	_
+7	se	se	PRON	_	Person=3|PronType=Prs	8	obj	_	_
+8	leva	lealler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	et	et	CCONJ	_	_	10	cc	_	_
+10	ouvrit	ouvrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	porte	porte	NOUN	_	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 43
+# text = La grenouille sautilla dans la salle, toujours sur ses talons, jusqu'à sa chaise.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	grenouille	grenouille	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	sautilla	sautiller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	dans	dans	ADP	_	_	6	case	_	_
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpacesAfter=\n
+6	salle	salle	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	toujours	toujours	ADV	_	_	11	advmod	_	_
+9	sur	sur	ADP	_	_	11	case	_	_
+10	ses	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det	_	_
+11	talons	talon	NOUN	_	Gender=Masc|Number=Plur	3	obl:mod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	16	punct	_	_
+13	jusqu'	jusque	ADV	_	_	16	advmod	_	SpaceAfter=No
+14	à	à	ADP	_	_	16	case	_	_
+15	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det	_	_
+16	chaise	chaise	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 44
+# text = Là, elle s'arrêta et dit: "Prends-moi auprès de toi!" La princesse hésita.
+1	Là	là	ADV	_	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	s'	se	PRON	_	Person=3|PronType=Prs	5	expl:comp	_	SpaceAfter=No
+5	arrêta	arrêta	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpacesAfter=\n
+6	et	et	CCONJ	_	_	7	cc	_	_
+7	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	10	punct	_	_
+9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Prends-moi	Prends-moi	NOUN	_	Gender=Masc|Number=Sing	7	parataxis	_	_
+11	auprès	auprès	ADV	_	_	10	advmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	toi	soi	PRON	_	Number=Sing|Person=2	11	obl:arg	_	SpaceAfter=No
+14	!	!	PUNCT	_	_	10	punct	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	10	punct	_	_
+16	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	princesse	princesse	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+18	hésita	hésita	X	_	_	17	appos	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 45
+# text = Mais le roi lui donna l'ordre d'obéir.
+1	Mais	mais	CCONJ	_	_	5	cc	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	roi	roi	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	SpacesAfter=\n
+4	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+5	donna	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	ordre	ordre	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	d'	de	ADP	_	_	9	mark	_	SpaceAfter=No
+9	obéir	obéir	VERB	_	VerbForm=Inf	7	acl	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 46
+# text = Quand la grenouille fut installée sur la chaise, elle demanda à monter sur la table.
+1	Quand	quand	SCONJ	_	_	5	mark	_	_
+2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	grenouille	grenouille	NOUN	_	Gender=Fem|Number=Sing	5	nsubj:pass	_	_
+4	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	installée	installer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+6	sur	sur	ADP	_	_	8	case	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	SpacesAfter=\n
+8	chaise	chaise	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	demanda	demander	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	à	à	ADP	_	_	13	mark	_	_
+13	monter	monter	VERB	_	VerbForm=Inf	11	xcomp	_	_
+14	sur	sur	ADP	_	_	16	case	_	_
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	table	table	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 47
+# text = Et quand elle y fut, elle dit: "Approche ta petite assiette d'or, nous allons y manger ensemble."
+1	Et	et	CCONJ	_	_	8	cc	_	_
+2	quand	quand	SCONJ	_	_	8	mark	_	_
+3	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+4	y	y	PRON	_	_	8	obl:mod	_	_
+5	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	SpacesAfter=\n
+8	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	11	punct	_	_
+10	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	Approche	approche	PROPN	_	_	8	ccomp	_	_
+12	ta	ter	SYM	_	_	14	case	_	_
+13	petite	petit	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+14	assiette	assiette	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+15	d'	de	ADP	_	_	16	case	_	SpaceAfter=No
+16	or	or	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	19	punct	_	_
+18	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
+19	allons	aller	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	conj	_	_
+20	y	y	PRON	_	_	21	obl:mod	_	_
+21	manger	manger	VERB	_	VerbForm=Inf	19	xcomp	_	SpacesAfter=\n
+22	ensemble	ensemble	ADV	_	_	21	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	11	punct	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 48
+# text = La princesse fit ce qu'on voulait, mais c'était malgré tout de mauvais coeur.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	princesse	princesse	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	fit	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	3	obj	_	_
+5	qu'	que	PRON	_	PronType=Rel	7	obj	_	SpaceAfter=No
+6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+7	voulait	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	13	punct	_	_
+9	mais	mais	CCONJ	_	_	13	cc	_	_
+10	c'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	13	nsubj	_	SpaceAfter=No
+11	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+12	malgré	malgré	ADP	_	_	13	case	_	SpacesAfter=\n
+13	tout	tout	PRON	_	Gender=Masc|Number=Sing	3	conj	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	mauvais	mauvais	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+16	coeur	coeur	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 49
+# text = La grenouille mangea de bon appétit; quant à la princesse, chaque bouchée lui restait au travers de la gorge.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	grenouille	grenouille	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	mangea	mangeer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	de	de	ADP	_	_	3	advmod	_	_
+5	bon	bon	ADJ	_	Gender=Masc|Number=Sing	4	fixed	_	_
+6	appétit;	appétit;	PUNCT	_	_	10	punct	_	_
+7	quant	quant	ADV	_	_	10	case	_	_
+8	à	à	ADP	_	_	7	fixed	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	SpacesAfter=\n
+10	princesse	princesse	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	15	punct	_	_
+12	chaque	chaque	DET	_	Gender=Fem|Number=Sing	13	det	_	_
+13	bouchée	bouchée	NOUN	_	Gender=Fem|Number=Sing	15	nsubj	_	_
+14	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	15	iobj	_	_
+15	restait	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	_
+16-17	au	_	_	_	_	_	_	_	_
+16	à	à	ADP	_	_	18	case	_	_
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	travers	travers	NOUN	_	Gender=Masc|Number=Sing	15	obl:arg	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	gorge	gorge	NOUN	_	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 50
+# text = À la fin, la grenouille dit: "J'ai mangé à satiété; maintenant, je suis fatiguée.
+1	À	à	ADP	_	_	3	case	_	_
+2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fin	fin	NOUN	_	Gender=Fem|Number=Sing	7	obl:mod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\n
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	grenouille	grenouille	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	12	punct	_	_
+9	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+10	J'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	SpaceAfter=No
+11	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux:tense	_	_
+12	mangé	manger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	_
+13	à	à	ADP	_	_	19	mark	_	_
+14	satiété;	satiété;	PUNCT	_	_	19	punct	_	_
+15	maintenant	maintenant	ADV	_	_	19	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+18	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux:tense	_	SpacesAfter=\n
+19	fatiguée	fatiguer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	ccomp	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 51
+# text = Conduis-moi dans ta chambrette et prépare ton lit de soie; nous allons dormir."
+1	Conduis	Conduis	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	SpaceAfter=No
+2	-moi	-moi	PRON	_	Number=Sing|Person=1	1	obj	_	_
+3	dans	dans	ADP	_	_	4	case	_	_
+4	ta	ter	SYM	_	_	1	obl:mod	_	_
+5	chambrette	chambrette	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+6	et	et	CCONJ	_	_	7	cc	_	_
+7	prépare	préparer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+8	ton	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_
+9	lit	lit	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	soie	soie	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	;	;	PUNCT	_	_	1	punct	_	SpacesAfter=\n
+13	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
+14	allons	aller	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	dormir	dormir	VERB	_	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	14	punct	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 52
+# text = La fille du roi se mit à pleurer;
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	fille	fille	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+3-4	du	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	roi	roi	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+6	se	se	PRON	_	Person=3|PronType=Prs	7	obj	_	_
+7	mit	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	à	à	ADP	_	_	9	mark	_	_
+9	pleurer	pleurer	VERB	_	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+10	;	;	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 53
+# text = elle avait peur du contact glacé de la grenouille et n'osait pas la toucher.
+1	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	peur	peur	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	SpacesAfter=\n
+4-5	du	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	contact	contact	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+7	glacé	glacé	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	grenouille	grenouille	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+11	et	et	CCONJ	_	_	13	cc	_	_
+12	n'	ne	ADV	_	Polarity=Neg	13	advmod	_	SpaceAfter=No
+13	osait	oser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+14	pas	pas	ADV	_	Polarity=Neg	13	advmod	_	_
+15	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+16	toucher	toucher	VERB	_	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 54
+# text = Et maintenant, elle allait dormir dans son joli lit bien propre!
+1	Et	et	CCONJ	_	_	5	cc	_	SpacesAfter=\n
+2	maintenant	maintenant	ADV	_	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	allait	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	dormir	dormir	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	dans	dans	ADP	_	_	10	case	_	_
+8	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
+9	joli	joli	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+10	lit	lit	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
+11	bien	bien	ADV	_	_	12	advmod	_	_
+12	propre	propre	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+13	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 55
+# text = Mais le roi se fâcha et dit: "Tu n'as pas le droit de mépriser celle qui t'a aidée quand tu étais dans le chagrin."
+1	Mais	mais	CCONJ	_	_	5	cc	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	SpacesAfter=\n
+3	roi	roi	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	se	se	PRON	_	Person=3|PronType=Prs	5	obj	_	_
+5	fâcha	fâcha	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	et	et	CCONJ	_	_	7	cc	_	_
+7	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+8	:	:	PUNCT	_	_	12	punct	_	_
+9	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+10	Tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	12	nsubj	_	_
+11	n'	ne	ADV	_	Polarity=Neg	12	advmod	_	SpaceAfter=No
+12	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+13	pas	pas	ADV	_	Polarity=Neg	12	advmod	_	_
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	droit	droit	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+16	de	de	ADP	_	_	17	mark	_	_
+17	mépriser	mépriser	VERB	_	VerbForm=Inf	15	acl	_	_
+18	celle	celui	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	17	obj	_	_
+19	qui	qui	PRON	_	PronType=Rel	22	nsubj	_	_
+20	t'	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	22	obj	_	SpaceAfter=No
+21	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:tense	_	SpacesAfter=\n
+22	aidée	aider	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+23	quand	quand	SCONJ	_	_	25	mark	_	_
+24	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	25	nsubj	_	_
+25	étais	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	12	advcl	_	_
+26	dans	dans	ADP	_	_	28	case	_	_
+27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	chagrin	chagrin	NOUN	_	Gender=Masc|Number=Sing	25	obl:arg	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	12	punct	_	SpaceAfter=No
+30	"	"	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 56
+# text = La princesse saisit la grenouille entre deux doigts, la monta dans sa chambre et la déposa dans un coin.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	princesse	princesse	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	saisit	saisir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpacesAfter=\n
+5	grenouille	grenouille	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	entre	entre	ADP	_	_	8	case	_	_
+7	deux	deux	NUM	_	_	8	nummod	_	_
+8	doigts	doigt	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	monta	monta	NOUN	_	Gender=Fem|Number=Sing	8	appos	_	_
+12	dans	dans	ADP	_	_	14	case	_	_
+13	sa	son	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det	_	_
+14	chambre	chambre	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+15	et	et	CCONJ	_	_	17	cc	_	_
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	déposa	déposa	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
+18	dans	dans	ADP	_	_	20	case	_	SpacesAfter=\n
+19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	coin	coin	NOUN	_	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 57
+# text = Quand elle fut couchée, la grenouille sauta près du lit et dit: "Prends-moi, sinon je le dirai à ton père." La princesse se mit en colère, saisit la grenouille et la projeta de toutes ses forces contre le mur: "Comme ça tu dormiras, affreuse grenouille!"
+1	Quand	quand	SCONJ	_	_	4	mark	_	_
+2	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+3	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	couchée	coucher	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	grenouille	grenouille	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	sauta	sauter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	près	près	ADV	_	_	8	obj	_	_
+10-11	du	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	lit	lit	NOUN	_	Gender=Masc|Number=Sing	9	obl:arg	_	_
+13	et	et	CCONJ	_	_	14	cc	_	_
+14	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	conj	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	31	punct	_	SpacesAfter=\n
+16	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
+17	Prends-moi	Prends-moi	NOUN	_	Gender=Masc|Number=Sing	31	nsubj	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	sinon	sinon	SCONJ	_	_	22	mark	_	_
+20	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+21	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+22	dirai	dir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	31	advcl	_	_
+23	à	à	ADP	_	_	25	case	_	_
+24	ton	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	det	_	_
+25	père	père	NOUN	_	Gender=Masc|Number=Sing	22	obl:arg	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	22	punct	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	22	punct	_	_
+28	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	princesse	princesse	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+30	se	se	PRON	_	Person=3|PronType=Prs	31	obj	_	_
+31	mit	mettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	parataxis	_	_
+32	en	en	ADP	_	_	33	case	_	SpacesAfter=\n
+33	colère	colère	NOUN	_	Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	35	punct	_	_
+35	saisit	saisir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	conj	_	_
+36	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	grenouille	grenouille	NOUN	_	Gender=Fem|Number=Sing	35	obj	_	_
+38	et	et	CCONJ	_	_	40	cc	_	_
+39	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	projeta	projeta	NOUN	_	Gender=Fem|Number=Sing	37	conj	_	_
+41	de	de	ADP	_	_	44	case	_	_
+42	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	44	amod	_	_
+43	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	44	det	_	_
+44	forces	force	NOUN	_	Gender=Fem|Number=Plur	37	nmod	_	_
+45	contre	contre	ADP	_	_	50	case	_	SpacesAfter=\n
+46	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+47	mur:	mur:	PUNCT	_	_	46	punct	_	_
+48	"	"	PUNCT	_	_	46	punct	_	SpaceAfter=No
+49	Comme	comme	SCONJ	_	_	50	mark	_	_
+50	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	44	nmod	_	_
+51	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	50	nsubj	_	_
+52	dormiras	dormira	ADJ	_	Gender=Masc|Number=Plur	51	amod	_	SpaceAfter=No
+53	,	,	PUNCT	_	_	55	punct	_	_
+54	affreuse	affreur	ADJ	_	Gender=Fem|Number=Sing	55	amod	_	_
+55	grenouille	grenouiller	NOUN	_	Gender=Fem|Number=Sing	51	appos	_	SpaceAfter=No
+56	!	!	PUNCT	_	_	55	punct	_	SpaceAfter=No
+57	"	"	PUNCT	_	_	55	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 58
+# text = Mais quand l'animal retomba sur le sol, ce n'était plus une grenouille.
+1	Mais	mais	CCONJ	_	_	15	cc	_	_
+2	quand	quand	SCONJ	_	_	5	mark	_	_
+3	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	animal	animal	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	retomba	retomber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	advcl	_	_
+6	sur	sur	ADP	_	_	8	case	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	sol	sol	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	5	punct	_	_
+10	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	15	nsubj	_	_
+11	n'	ne	ADV	_	Polarity=Neg	15	advmod	_	SpaceAfter=No
+12	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+13	plus	plus	ADV	_	_	15	advmod	_	_
+14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	SpacesAfter=\n
+15	grenouille	grenouille	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 59
+# text = Un prince aux beaux yeux pleins d'amitié la regardait.
+1	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	prince	prince	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+3-4	aux	_	_	_	_	_	_	_	_
+3	à	à	ADP	_	_	6	case	_	_
+4	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	beaux	beau	ADJ	_	Gender=Masc|Number=Plur	6	amod	_	_
+6	yeux	oeil	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+7	pleins	plein	ADJ	_	Gender=Masc|Number=Plur	2	amod	_	_
+8	d'	de	ADP	_	_	9	case	_	SpaceAfter=No
+9	amitié	amitié	NOUN	_	Gender=Fem|Number=Sing	2	nmod	_	_
+10	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	regardait	regarder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 60
+# text = Il en fut fait selon la volonté du père de la princesse.
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	SpacesAfter=\n
+2	en	en	PRON	_	Person=3	4	iobj	_	_
+3	fut	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+4	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	selon	selon	ADP	_	_	7	case	_	_
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	volonté	volonté	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8-9	du	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	père	père	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	princesse	princesse	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 61
+# text = Il devint son compagnon aimé et son époux.
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	devint	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	SpacesAfter=\n
+4	compagnon	compagnon	NOUN	_	Gender=Masc|Number=Sing	2	xcomp	_	_
+5	aimé	aimé	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	et	et	CCONJ	_	_	8	cc	_	_
+7	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	_
+8	époux	époux	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 62
+# text = Il lui raconta qu'une méchante sorcière lui avait jeté un sort et la princesse seule pouvait l'en libérer.
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+3	raconta	raconter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	qu'	que	SCONJ	_	_	10	mark	_	SpaceAfter=No
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	méchante	méchant	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+7	sorcière	sorcier	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	SpacesAfter=\n
+8	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	10	iobj	_	_
+9	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux:tense	_	_
+10	jeté	jeter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	sort	sort	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	et	et	CCONJ	_	_	17	cc	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	princesse	princesse	NOUN	_	Gender=Fem|Number=Sing	17	nsubj	_	_
+16	seule	seul	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+17	pouvait	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	conj	_	_
+18	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	20	obj	_	SpaceAfter=No
+19	en	en	PRON	_	Person=3	20	iobj	_	_
+20	libérer	libérer	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 63
+# text = Le lendemain, ils partiraient tous deux pour son royaume.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpacesAfter=\n
+2	lendemain	lendemain	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+5	partiraient	partir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	tous	tout	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
+7	deux	deux	NUM	_	_	5	obj	_	_
+8	pour	pour	ADP	_	_	10	case	_	_
+9	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	_
+10	royaume	royaume	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 64
+# text = Ils s'endormirent et, au matin, quand le soleil se leva, on vit arriver une voiture attelée de huit chevaux blancs.
+1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	SpacesAfter=\n
+2	s'	se	PRON	_	Person=3|PronType=Prs	3	expl:comp	_	SpaceAfter=No
+3	endormirent	endormirer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	et	et	CCONJ	_	_	8	cc	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6-7	au	_	_	_	_	_	_	_	_
+6	à	à	ADP	_	_	8	case	_	_
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	matin	matin	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	14	punct	_	_
+10	quand	quand	SCONJ	_	_	14	mark	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	soleil	soleil	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	se	se	PRON	_	Person=3|PronType=Prs	14	expl:pass	_	_
+14	leva	lealler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+17	vit	vivre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+18	arriver	arriver	VERB	_	VerbForm=Inf	17	xcomp	_	_
+19	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	SpacesAfter=\n
+20	voiture	voiture	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	_
+21	attelée	atteler	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	acl	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	huit	huit	NUM	_	_	24	nummod	_	_
+24	chevaux	cheval	NOUN	_	Gender=Masc|Number=Plur	21	obl:arg	_	_
+25	blancs	blanc	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 65
+# text = Ils avaient de blancs plumets sur la tête et leurs harnais étaient d'or.
+1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	avaient	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	blancs	blancs	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
+5	plumets	plumet	NOUN	_	Gender=Masc|Number=Plur	2	obl:arg	_	SpacesAfter=\n
+6	sur	sur	ADP	_	_	8	case	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	tête	tête	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+9	et	et	CCONJ	_	_	11	cc	_	_
+10	leurs	son	DET	_	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det	_	_
+11	harnais	harnais	NOUN	_	Gender=Masc|Number=Plur	8	conj	_	_
+12	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	obj	_	_
+13	d'	de	ADP	_	_	14	case	_	SpaceAfter=No
+14	or	or	NOUN	_	Gender=Masc|Number=Sing	12	obl:arg	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 66
+# text = À l'arrière se tenait le valet du jeune roi.
+1	À	à	ADP	_	_	3	case	_	_
+2	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	arrière	arrière	NOUN	_	Gender=Masc|Number=Sing	5	obl:mod	_	_
+4	se	se	PRON	_	Person=3|PronType=Prs	5	expl:pass	_	_
+5	tenait	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	SpacesAfter=\n
+7	valet	valet	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+8-9	du	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	11	case	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	jeune	jeune	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+11	roi	roi	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 67
+# text = C'était le fidèle Henri.
+1	C'	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	nsubj	_	SpaceAfter=No
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	fidèle	fidèle	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+5	Henri	Henri	PROPN	_	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 68
+# text = Il avait eu tant de chagrin quand il avait vu son seigneur transformé en grenouille qu'il s'était fait bander la poitrine de trois cercles de fer pour que son coeur n'éclatât pas de douleur.
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux:tense	_	_
+3	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	tant	tant	ADV	_	_	3	obj	_	_
+5	de	de	ADP	_	_	6	case	_	SpacesAfter=\n
+6	chagrin	chagrin	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	_
+7	quand	quand	SCONJ	_	_	10	mark	_	_
+8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux:tense	_	_
+10	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+11	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det	_	_
+12	seigneur	seigneur	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	transformé	transformer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+14	en	en	ADP	_	_	15	case	_	_
+15	grenouille	grenouille	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	_
+16	qu'	que	SCONJ	_	_	21	mark	_	SpaceAfter=No
+17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj:caus	_	SpacesAfter=\n
+18	s'	se	PRON	_	Person=3|PronType=Prs	21	iobj	_	SpaceAfter=No
+19	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux:tense	_	_
+20	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	aux:caus	_	_
+21	bander	bander	VERB	_	VerbForm=Inf	10	ccomp	_	_
+22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	poitrine	poitrine	NOUN	_	Gender=Fem|Number=Sing	21	obj:agent	_	_
+24	de	de	ADP	_	_	26	case	_	_
+25	trois	trois	NUM	_	_	26	nummod	_	_
+26	cercles	cercle	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	fer	fer	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+29	pour	pour	ADP	_	_	34	mark	_	_
+30	que	que	SCONJ	_	_	34	mark	_	_
+31	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	32	det	_	SpacesAfter=\n
+32	coeur	coeur	NOUN	_	Gender=Masc|Number=Sing	34	nsubj	_	_
+33	n'	ne	ADV	_	Polarity=Neg	34	advmod	_	SpaceAfter=No
+34	éclatât	éclater	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	advcl	_	_
+35	pas	pas	ADV	_	Polarity=Neg	34	advmod	_	_
+36	de	un	ADP	_	_	37	case	_	_
+37	douleur	douleur	NOUN	_	Gender=Fem|Number=Sing	34	obl:arg	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 69
+# text = La voiture devait emmener le prince dans son royaume.
+1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	voiture	voiture	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	emmener	emmener	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	prince	prince	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	SpacesAfter=\n
+7	dans	dans	ADP	_	_	9	case	_	_
+8	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_
+9	royaume	royaume	NOUN	_	Gender=Masc|Number=Sing	4	obl:arg	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 70
+# text = Le fidèle Henri l'y fit monter avec la princesse, et s'installa de nouveau à l'arrière, tout heureux de voir son maître libéré du mauvais sort.
+1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	fidèle	fidèle	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+3	Henri	Henri	PROPN	_	_	7	nsubj:caus	_	_
+4	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+5	y	y	PRON	_	_	7	obl:mod	_	_
+6	fit	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:caus	_	_
+7	monter	monter	VERB	_	VerbForm=Inf	0	root	_	_
+8	avec	avec	ADP	_	_	10	case	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	princesse	princesse	NOUN	_	Gender=Fem|Number=Sing	7	obl:arg	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	14	punct	_	_
+12	et	et	CCONJ	_	_	14	cc	_	SpacesAfter=\n
+13	s'	se	PRON	_	Person=3|PronType=Prs	14	obj	_	SpaceAfter=No
+14	installa	installer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+15	de	de	ADP	_	_	14	advmod	_	_
+16	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	15	fixed	_	_
+17	à	à	ADP	_	_	19	case	_	_
+18	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	arrière	arrière	NOUN	_	Gender=Masc|Number=Sing	14	obl:mod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	tout	tout	ADV	_	_	22	advmod	_	_
+22	heureux	heureux	ADJ	_	Gender=Masc|Number=Sing	7	advcl	_	_
+23	de	de	ADP	_	_	24	mark	_	_
+24	voir	voir	VERB	_	VerbForm=Inf	22	ccomp	_	_
+25	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	det	_	_
+26	maître	maître	NOUN	_	Gender=Masc|Number=Sing	24	obj	_	SpacesAfter=\n
+27	libéré	libérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl	_	_
+28-29	du	_	_	_	_	_	_	_	_
+28	de	de	ADP	_	_	31	case	_	_
+29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	mauvais	mauvais	ADJ	_	Gender=Masc|Number=Sing	31	amod	_	_
+31	sort	sort	NOUN	_	Gender=Masc|Number=Sing	27	obl:arg	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 71
+# text = Quand ils eurent roulé pendant quelque temps, le prince entendit des craquements derrière lui, comme si quelque chose se brisait.
+1	Quand	quand	SCONJ	_	_	3	mark	_	_
+2	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	eurent	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	advcl	_	_
+4	roulé	rouler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	_
+5	pendant	pendant	ADP	_	_	7	case	_	_
+6	quelque	quelque	DET	_	Gender=Masc|Number=Sing	7	det	_	_
+7	temps	temps	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	3	punct	_	_
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	prince	prince	NOUN	_	Gender=Masc|Number=Sing	11	nsubj	_	_
+11	entendit	entendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12-13	des	_	_	_	_	_	_	_	SpacesAfter=\n
+12	de	de	ADP	_	_	14	case	_	_
+13	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	craquements	craquement	NOUN	_	Gender=Masc|Number=Plur	11	obl:arg	_	_
+15	derrière	derrière	ADP	_	_	16	case	_	_
+16	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	11	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	23	punct	_	_
+18	comme	comme	SCONJ	_	_	23	mark	_	_
+19	si	si	SCONJ	_	_	23	mark	_	_
+20	quelque	quelque	DET	_	Gender=Fem|Number=Sing	21	det	_	_
+21	chose	chose	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
+22	se	se	PRON	_	Person=3|PronType=Prs	23	expl:pass	_	_
+23	brisait	briser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	advcl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 72
+# text = Il tourna la tête et dit:
+1	Il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	tourna	tourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpacesAfter=\n
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	tête	tête	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	et	et	CCONJ	_	_	6	cc	_	_
+6	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+7	:	:	PUNCT	_	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 73
+# text = "Henri, est-ce l'attelage qui brise ses chaînes?" "Eh! non, Seigneur, ce n'est pas la voiture, Mais de mon coeur l'une des ceintures.
+1	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+2	Henri	Henri	PROPN	_	_	7	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
+5	-ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	7	expl:subj	_	_
+6	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	attelage	attelage	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+8	qui	qui	PRON	_	PronType=Rel	9	nsubj	_	_
+9	brise	briser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	ses	son	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	11	det	_	_
+11	chaînes	chaîne	NOUN	_	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+12	?	?	PUNCT	_	_	7	punct	_	SpaceAfter=No
+13	"	"	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+14	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+15	Eh!	eh!	PROPN	_	_	7	appos	_	_
+16	non	non	ADV	_	_	18	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	Seigneur	seigneur	PROPN	_	_	7	appos	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	7	punct	_	_
+20	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	25	nsubj	_	_
+21	n'	ne	ADV	_	Polarity=Neg	25	advmod	_	SpaceAfter=No
+22	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+23	pas	pas	ADV	_	Polarity=Neg	25	advmod	_	_
+24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	voiture	voiture	NOUN	_	Gender=Fem|Number=Sing	7	parataxis	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	30	punct	_	SpacesAfter=\n
+27	Mais	mais	CCONJ	_	_	30	cc	_	_
+28	de	de	ADP	_	_	30	case	_	_
+29	mon	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	30	det	_	_
+30	coeur	coeur	NOUN	_	Gender=Masc|Number=Sing	7	conj	_	_
+31	l'	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	une	un	PRON	_	Gender=Fem|Number=Sing	30	appos	_	_
+33-34	des	_	_	_	_	_	_	_	_
+33	de	de	ADP	_	_	35	case	_	_
+34	les	le	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	ceintures	ceinture	NOUN	_	Gender=Fem|Number=Plur	32	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 74
+# text = Car j'ai eu tant de peine Quand vous étiez dans la fontaine, Transformé en grenouille vilaine!"
+1	Car	car	CCONJ	_	_	4	cc	_	_
+2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_
+4	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	tant	tant	ADV	_	_	4	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	peine	peine	NOUN	_	Gender=Fem|Number=Sing	5	obl:arg	_	SpacesAfter=\n
+8	Quand	quand	SCONJ	_	_	10	mark	_	_
+9	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	10	nsubj	_	_
+10	étiez	étier	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+11	dans	dans	ADP	_	_	13	case	_	_
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	fontaine	fontaine	NOUN	_	Gender=Fem|Number=Sing	10	obl:mod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+15	Transformé	transformé	PROPN	_	_	13	appos	_	_
+16	en	en	ADP	_	_	17	case	_	_
+17	grenouille	grenouille	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+18	vilaine	vilain	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	!	!	PUNCT	_	_	4	punct	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 75
+# text = Par deux fois encore, en cours de route, on entendit des craquements et le prince crut encore que la voiture se brisait.
+1	Par	par	ADP	_	_	3	case	_	_
+2	deux	deux	NUM	_	_	3	nummod	_	_
+3	fois	fois	NOUN	_	Gender=Fem|Number=Plur	12	obl:mod	_	_
+4	encore	encore	ADV	_	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	3	punct	_	_
+6	en	en	ADP	_	_	7	case	_	_
+7	cours	cours	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	route	route	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	3	punct	_	_
+11	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+12	entendit	entendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13-14	des	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	craquements	craquement	NOUN	_	Gender=Masc|Number=Plur	12	obl:arg	_	_
+16	et	et	CCONJ	_	_	19	cc	_	SpacesAfter=\n
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	prince	prince	NOUN	_	Gender=Masc|Number=Sing	19	nsubj	_	_
+19	crut	crut	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	conj	_	_
+20	encore	encore	ADV	_	_	19	advmod	_	_
+21	que	que	SCONJ	_	_	25	mark	_	_
+22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	voiture	voiture	NOUN	_	Gender=Fem|Number=Sing	25	nsubj	_	_
+24	se	se	PRON	_	Person=3|PronType=Prs	25	expl:pass	_	_
+25	brisait	briser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	ccomp	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 76
+# text = Mais ce n'était que les cercles de fer du fidèle Henri, heureux de voir son seigneur délivré.
+1	Mais	mais	CCONJ	_	_	7	cc	_	_
+2	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	7	nsubj	_	_
+3	n'	ne	ADV	_	Polarity=Neg	7	advmod	_	SpaceAfter=No
+4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+5	que	que	ADV	_	_	7	advmod	_	SpacesAfter=\n
+6	les	le	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	cercles	cercle	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	fer	fer	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+10-11	du	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	13	case	_	_
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	fidèle	fidèle	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+13	Henri	Henri	PROPN	_	_	7	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	heureux	heureux	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+16	de	de	ADP	_	_	17	mark	_	_
+17	voir	voir	VERB	_	VerbForm=Inf	15	ccomp	_	_
+18	son	son	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det	_	_
+19	seigneur	seigneur	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	SpacesAfter=\n
+20	délivré	délivrer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+

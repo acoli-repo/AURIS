@@ -1,0 +1,3665 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Nel lungo corso della storia umana, la malattia infettiva che ha causato più morti in assoluto è la malaria.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	corso	corso	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	storia	storia	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	umana	umano	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+12	infettiva	infettivo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	causato	causare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+16	più	più	ADV	B	_	17	advmod	_	_
+17	morti	morto	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	assoluto	assoluto	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 2
+# text = Viene trasmessa dalle punture di zanzare infette, e probabilmente è il nostro più antico flagello.
+1	Viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	trasmessa	trasmettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	dalle	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	punture	puntura	NOUN	S	Gender=Fem|Number=Plur	2	obl:agent	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	zanzare	zanzara	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+8	infette	infetto	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	14	punct	_	_
+10	e	e	CCONJ	CC	_	14	cc	_	_
+11	probabilmente	probabilmente	ADV	B	_	14	advmod	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	nostro	nostro	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	conj	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	antico	antico	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	flagello	flagello	NOUN	S	Gender=Masc|Number=Sing	14	compound	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = È probabile che la malaria esista da quando ci siamo evoluti dalle scimmie.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	probabile	probabile	ADJ	A	Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	malaria	malario	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	esista	esista	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+7	da	da	ADP	E	_	11	mark	_	_
+8	quando	quando	SCONJ	CS	_	7	fixed	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	11	expl	_	_
+10	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	evoluti	evolere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	advcl	_	_
+12-13	dalle	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	scimmie	scimmia	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = E ad oggi, la malaria fa pagare un dazio pesante alla nostra specie.
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	ad	a	ADP	E	_	3	case	_	_
+3	oggi	oggi	ADV	B	_	7	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	pagare	pagare	VERB	V	VerbForm=Inf	7	ccomp	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	dazio	dazio	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	pesante	pesante	ADJ	A	Number=Sing	10	amod	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	specie	specie	NOUN	S	Gender=Fem	8	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Abbiamo 300 milioni di casi ogni anno e più di mezzo milione di decessi.
+1	Abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	300	300	NUM	N	NumType=Card	3	nummod	_	_
+3	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	casi	caso	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	7	det	_	_
+7	anno	anno	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9	più	più	ADV	B	_	12	advmod	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	mezzo	mezzo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	milione	milione	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	decessi	decesso	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Tutto questo non ha senso.
+1	Tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	senso	senso	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Sappiamo come curare la malaria dal 1600.
+1	Sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	come	come	SCONJ	CS	_	3	mark	_	_
+3	curare	curare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	1600	1600	NUM	N	NumType=Card	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Da quando cioè i missionari gesuiti in Perù scoprirono la corteccia dell'albero della china, al cui interno c'era il chinino, tuttora una cura efficace contro la malaria.
+1	Da	da	ADP	E	_	2	case	_	_
+2	quando	quando	SCONJ	CS	_	9	mark	_	_
+3	cioè	cioè	ADV	B	_	5	advmod	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	missionari	missionaro	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+6	gesuiti	gesuire	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Perù	Perù	PROPN	SP	_	5	nmod	_	_
+9	scoprirono	scoprire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	corteccia	corteccia	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	albero	albero	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	china	china	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	9	punct	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	22	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	cui	cui	DET	DR	PronType=Rel	22	det:poss	_	_
+22	interno	interno	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+23	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	24	expl	_	SpaceAfter=No
+24	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	chinino	chinino	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	24	punct	_	_
+28	tuttora	tuttora	ADV	B	_	24	advmod	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	cura	cura	NOUN	S	Gender=Fem|Number=Sing	24	nsubj	_	_
+31	efficace	efficace	ADJ	A	Number=Sing	30	amod	_	_
+32	contro	contro	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 9
+# text = Quindi sappiamo come curare la malaria da centinaia di anni.
+1	Quindi	quindi	CCONJ	CC	_	2	cc	_	_
+2	sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	come	come	SCONJ	CS	_	4	mark	_	_
+4	curare	curare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	centinaia	centinaio	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Sappiamo come prevenire la malaria dal 1897.
+1	Sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	come	come	SCONJ	CS	_	3	mark	_	_
+3	prevenire	prevenire	VERB	V	VerbForm=Inf	1	ccomp	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	1897	1897	NUM	N	NumType=Card	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Fu quando Ronald Ross, chirurgo dell'esercito britannico, scoprì che erano le zanzare a veicolare la malaria, non l'aria cattiva o i miasmi, come si credeva allora.
+1	Fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	cop	_	_
+2	quando	quando	SCONJ	CS	_	12	mark	_	_
+3	Ronald	Ronald	PROPN	SP	_	12	nsubj	_	_
+4	Ross	Ross	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	chirurgo	chirurgo	NOUN	S	Gender=Masc|Number=Sing	3	appos	_	_
+7-8	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+7	di	di	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	esercito	esercito	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	britannico	britannico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	scoprì	scoprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	advcl	_	_
+13	che	che	SCONJ	CS	_	16	mark	_	_
+14	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	zanzare	zanzara	NOUN	S	Gender=Fem|Number=Plur	12	ccomp	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	veicolare	veicolare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	12	punct	_	_
+22	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	SpaceAfter=No
+24	aria	aria	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+25	cattiva	cattivo	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+26	o	o	CCONJ	CC	_	28	cc	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	miasmi	miasma	NOUN	S	Gender=Masc|Number=Plur	24	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	28	punct	_	_
+30	come	come	SCONJ	CS	_	32	mark	_	_
+31	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	32	expl	_	_
+32	credeva	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	advcl	_	_
+33	allora	allora	ADV	B	_	32	advmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 12
+# text = Così la malaria dovrebbe essere una malattia facilmente curabile, ma di fatto, ancora oggi, centinaia di migliaia di persone sono destinate a morire a causa di una puntura di zanzara.
+1	Così	così	ADV	B	_	7	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	essere	essere	AUX	V	VerbForm=Inf	7	cop	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+8	facilmente	facilmente	ADV	B	_	9	advmod	_	_
+9	curabile	curabile	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	ma	ma	CCONJ	CC	_	13	cc	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	ancora	ancora	ADV	B	_	16	advmod	_	_
+16	oggi	oggi	ADV	B	_	18	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	centinaia	centinaio	NOUN	S	Gender=Fem|Number=Plur	24	nsubj:pass	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	migliaia	migliaio	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	persone	persona	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	_
+23	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux:pass	_	_
+24	destinate	destinare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+25	a	a	ADP	E	_	26	mark	_	_
+26	morire	morire	VERB	V	VerbForm=Inf	24	xcomp	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	causa	causa	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	puntura	puntura	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	zanzara	zanzara	NOUN	S	Gender=Fem|Number=Sing	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 13
+# text = Perché è così?
+1	Perché	perché	ADV	B	_	3	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	così	così	ADV	B	_	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = È una domanda che personalmente mi ha incuriosito per molto tempo.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+5	personalmente	personalmente	ADV	B	_	8	advmod	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	incuriosito	incuriosire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	11	det	_	_
+11	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Sono cresciuta come figlia di immigrati indiani, andavo a trovare i miei cugini in India ogni estate, e siccome non ero immune ai tipi di malaria locali, dovevo dormire sotto queste reti antizanzara caldissime e umide ogni sera, mentre i miei cugini potevano dormire fuori, sulla terrazza, e godersi la fresca brezza notturna che soffiava su di loro.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	cresciuta	crescere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+3	come	come	ADP	E	_	4	case	_	_
+4	figlia	figlio	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	immigrati	immigrato	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+7	indiani	indiano	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	andavo	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	trovare	trovare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	cugini	cugine	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	India	India	PROPN	SP	_	11	obl	_	_
+17	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	18	det	_	_
+18	estate	estate	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	24	punct	_	_
+20	e	e	CCONJ	CC	_	24	cc	_	_
+21	siccome	siccome	SCONJ	CS	_	24	mark	_	_
+22	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+23	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	24	cop	_	_
+24	immune	immune	ADJ	A	Number=Sing	11	conj	_	_
+25-26	ai	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	tipi	tipo	NOUN	S	Gender=Masc|Number=Plur	24	obl	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	_
+30	locali	locale	ADJ	A	Number=Plur	29	amod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	33	punct	_	_
+32	dovevo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33	dormire	dormire	VERB	V	VerbForm=Inf	9	conj	_	_
+34	sotto	sotto	ADP	E	_	36	case	_	_
+35	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	36	det	_	_
+36	reti	rete	NOUN	S	Gender=Fem|Number=Plur	33	obl	_	_
+37	antizanzara	antizanzarare	ADV	B	_	38	advmod	_	_
+38	caldissime	caldo	ADJ	A	Degree=Abs|Gender=Fem|Number=Plur	36	amod	_	_
+39	e	e	CCONJ	CC	_	40	cc	_	_
+40	umide	umidere	ADJ	A	Gender=Fem|Number=Plur	38	conj	_	_
+41	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	42	det	_	_
+42	sera	sera	NOUN	S	Gender=Fem|Number=Sing	33	obl	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	33	punct	_	_
+44	mentre	mentre	SCONJ	CS	_	49	mark	_	_
+45	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
+46	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	47	det:poss	_	_
+47	cugini	cugine	NOUN	S	Gender=Masc|Number=Plur	49	nsubj	_	_
+48	potevano	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	49	aux	_	_
+49	dormire	dormire	VERB	V	VerbForm=Inf	33	advcl	_	_
+50	fuori	fuori	ADV	B	_	49	advmod	_	SpaceAfter=No
+51	,	,	PUNCT	FF	_	49	punct	_	_
+52-53	sulla	_	_	_	_	_	_	_	_
+52	su	su	ADP	E	_	54	case	_	_
+53	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+54	terrazza	terrazza	NOUN	S	Gender=Fem|Number=Sing	49	obl	_	SpaceAfter=No
+55	,	,	PUNCT	FF	_	57	punct	_	_
+56	e	e	CCONJ	CC	_	57	cc	_	_
+57-58	godersi	_	_	_	_	_	_	_	_
+57	goder	godere	VERB	V	VerbForm=Inf	49	conj	_	_
+58	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	57	expl	_	_
+59	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
+60	fresca	fresco	ADJ	A	Gender=Fem|Number=Sing	61	amod	_	_
+61	brezza	brezza	NOUN	S	Gender=Fem|Number=Sing	57	obj	_	_
+62	notturna	notturno	ADJ	A	Gender=Fem|Number=Sing	61	amod	_	_
+63	che	che	PRON	PR	PronType=Rel	64	nsubj	_	_
+64	soffiava	soffiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	61	acl:relcl	_	_
+65	su	su	ADP	E	_	67	case	_	_
+66	di	di	ADP	E	_	65	fixed	_	_
+67	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	64	obl	_	SpaceAfter=No
+68	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 16
+# text = E ho davvero odiato le zanzare per questo.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	davvero	davvero	ADV	B	_	4	advmod	_	_
+4	odiato	odiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	zanzare	zanzara	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 17
+# text = Ma allo stesso tempo, provengo da una famiglia giainista e il Giainismo è una religione che professa una forma molto estrema di non violenza.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2-3	allo	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	5	case	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	provengo	provenire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	giainista	giainista	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Giainismo	Giainismo	PROPN	SP	_	10	conj	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	religione	religione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	professa	professare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	forma	forma	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	molto	molto	ADV	B	_	23	advmod	_	_
+23	estrema	estremo	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+26	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 18
+# text = I giainisti non mangiano carne.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	giainisti	giainista	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	mangiano	mangiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	carne	carne	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = Non calpestiamo l'erba, perché inavvertitamente potremmo uccidere qualche insetto mentre camminiamo sull'erba.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	calpestiamo	calpestare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	erba	erba	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	perché	perché	SCONJ	CS	_	9	mark	_	_
+7	inavvertitamente	inavvertitamente	ADV	B	_	9	advmod	_	_
+8	potremmo	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	uccidere	uccidere	VERB	V	VerbForm=Inf	2	advcl	_	_
+10	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	insetto	insetto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	mentre	mentre	SCONJ	CS	_	13	mark	_	_
+13	camminiamo	camminare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+14-15	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+14	su	su	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	erba	erba	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = E di certo, non possiamo schiacciare le zanzare.
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	certo	certo	ADV	B	_	7	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	schiacciare	schiacciare	VERB	V	VerbForm=Inf	0	root	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	zanzare	zanzara	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 21
+# text = Perciò fin da piccola mi fu chiaro il terribile potere di questo piccolo insetto, ed è una delle ragioni per cui ho trascorso cinque anni come giornalista a cercare di capire perché la malaria è stata un tale orribile flagello per tutti noi per così tanto tempo.
+1	Perciò	perciò	ADV	B	_	7	advmod	_	_
+2	fin	fino	ADV	B	_	4	advmod	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	7	obl	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+6	fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+7	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	terribile	terribile	ADJ	A	Number=Sing	10	amod	_	_
+10	potere	potere	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+13	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	insetto	insetto	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	ed	e	CCONJ	CC	_	18	cc	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	7	conj	_	_
+19-20	delle	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	ragioni	ragione	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+22	per	per	ADP	E	_	23	case	_	_
+23	cui	cui	PRON	PR	PronType=Rel	25	obl	_	_
+24	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	trascorso	trascorrere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+26	cinque	cinque	NUM	N	NumType=Card	27	nummod	_	_
+27	anni	anno	NOUN	S	Gender=Masc|Number=Plur	25	obj	_	_
+28	come	come	ADP	E	_	29	case	_	_
+29	giornalista	giornalista	NOUN	S	Number=Sing	25	obl	_	_
+30	a	a	ADP	E	_	31	mark	_	_
+31	cercare	cercare	VERB	V	VerbForm=Inf	25	xcomp	_	_
+32	di	di	ADP	E	_	33	mark	_	_
+33	capire	capire	VERB	V	VerbForm=Inf	31	xcomp	_	_
+34	perché	perché	SCONJ	CS	_	42	mark	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	malaria	malario	NOUN	S	Gender=Fem|Number=Sing	42	nsubj	_	_
+37	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	aux	_	_
+38	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	42	cop	_	_
+39	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+40	tale	tale	DET	DD	Number=Sing|PronType=Dem	42	det	_	_
+41	orribile	orribile	ADJ	A	Number=Sing	42	amod	_	_
+42	flagello	flagello	NOUN	S	Gender=Masc|Number=Sing	33	ccomp	_	_
+43	per	per	ADP	E	_	45	case	_	_
+44	tutti	tutti	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	45	det	_	_
+45	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	42	nmod	_	_
+46	per	per	ADP	E	_	49	case	_	_
+47	così	così	ADV	B	_	49	advmod	_	_
+48	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	49	det	_	_
+49	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	42	obl	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 22
+# text = E credo che le ragioni principali siano tre.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	ragioni	ragione	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+6	principali	principale	ADJ	A	Number=Plur	5	amod	_	_
+7	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	tre	tre	NUM	N	NumType=Card	2	ccomp	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = Queste tre ragioni si sommano ad una quarta, che probabilmente è la più importante di tutte.
+1	Queste	questo	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
+2	tre	tre	NUM	N	NumType=Card	3	nummod	_	_
+3	ragioni	ragione	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	sommano	sommare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	ad	a	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	quarta	quarto	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	probabilmente	probabilmente	ADV	B	_	12	advmod	_	_
+12	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	importante	importante	ADJ	A	Number=Sing	12	xcomp	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 24
+# text = La prima motivazione è sicuramente scientifica.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	motivazione	motivazione	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	sicuramente	sicuramente	ADV	B	_	6	advmod	_	_
+6	scientifica	scientifica	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 25
+# text = Questo piccolo parassita che causa la malaria, è probabilmente uno dei patogeni più complessi e astuti che l'umanità abbia conosciuto.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+2	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	parassita	parassitare	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	causa	causare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	probabilmente	probabilmente	ADV	B	_	11	advmod	_	_
+11	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	patogeni	patogeno	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	complessi	complesso	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	astuti	astuto	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+19	che	che	SCONJ	CS	_	23	mark	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	umanità	umanità	NOUN	S	Gender=Fem	23	nsubj	_	_
+22	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	conosciuto	conoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	ccomp	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 26
+# text = Vive metà della sua vita all'interno della zanzara a sangue freddo e l'altra metà all'interno del corpo umano a sangue caldo.
+1	Vive	vivo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	metà	metà	NOUN	S	Gender=Fem	1	obj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	vita	vita	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	interno	interno	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	zanzara	zanzara	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	freddo	freddo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+18	altra	altro	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+19	metà	metà	NOUN	S	Gender=Fem	1	conj	_	_
+20-21	all'	_	_	_	_	_	_	_	SpaceAfter=No
+20	a	a	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	interno	interno	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+26	umano	umano	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	22	nmod	_	_
+29	caldo	caldo	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 27
+# text = Questi due ambienti sono completamente diversi, ma non solo, entrambi sono anche molto ostili.
+1	Questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	ambienti	ambiente	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	completamente	completamente	ADV	B	_	6	advmod	_	_
+6	diversi	diverso	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	ma	ma	CCONJ	CC	_	10	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	solo	solo	ADV	B	_	6	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	16	punct	_	_
+12	entrambi	entrambi	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	16	nsubj	_	_
+13	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	anche	anche	ADV	B	_	16	advmod	_	_
+15	molto	molto	ADV	B	_	16	advmod	_	_
+16	ostili	ostile	ADJ	A	Number=Plur	6	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 28
+# text = L'insetto infatti cerca continuamente di liberarsi del parassita, e lo stesso fa il corpo umano.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	insetto	insetto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	infatti	infatti	ADV	B	_	4	advmod	_	_
+4	cerca	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	continuamente	continuamente	ADV	B	_	4	advmod	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7-8	liberarsi	_	_	_	_	_	_	_	_
+7	liberar	liberare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	parassita	parassita	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	16	nsubj	_	_
+16	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	corpo	corpo	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	umano	umano	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 29
+# text = Questa piccola creatura sopravvive sotto un continuo assedio, ma non solo sopravvive, addirittura prospera e si espande.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+2	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	creatura	creatura	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	sopravvive	sopravvivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	sotto	sotto	ADP	E	_	8	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	continuo	continuo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	assedio	assedio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	ma	ma	CCONJ	CC	_	13	cc	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	solo	solo	ADV	B	_	13	advmod	_	_
+13	sopravvive	sopravvivo	ADJ	A	Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	addirittura	addirittura	ADV	B	_	16	advmod	_	_
+16	prospera	prospera	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+19	espande	espande	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 30
+# text = Riesce a rendere vano l'attacco in modi che nemmeno conosciamo.
+1	Riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3	rendere	rendere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	vano	re	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	modi	modo	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	nemmeno	nemmeno	ADV	BN	PronType=Neg	11	advmod	_	_
+11	conosciamo	conoscere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 31
+# text = Per un verso, è in grado di trasformarsi.
+1	Per	per	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	verso	verso	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	grado	grado	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9-10	trasformarsi	_	_	_	_	_	_	_	SpaceAfter=No
+9	trasformar	trasformare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 32
+# text = Come un bruco che si trasforma in farfalla, così il parassita della malaria si trasforma circa sette volte nell'arco del suo ciclo vitale.
+1	Come	come	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	bruco	bruco	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	trasforma	trasformare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	farfalla	farfalla	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	così	così	ADV	B	_	12	advmod	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	parassita	parassita	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+13-14	della	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	trasforma	trasformare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	circa	circa	ADV	B	_	19	advmod	_	_
+19	sette	sette	NUM	N	NumType=Card	20	nummod	_	_
+20	volte	volta	NOUN	S	Gender=Fem|Number=Plur	17	obl	_	_
+21-22	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+21	in	in	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	arco	arco	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	27	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	ciclo	ciclo	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+28	vitale	vitale	ADJ	A	Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 33
+# text = E ciascuno di questi stadi non solo è completamente diverso dagli altri, ma ha una fisiologia del tutto differente.
+1	E	e	CCONJ	CC	_	10	cc	_	_
+2	ciascuno	ciascuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	nsubj:pass	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	stadi	stadio	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	solo	solo	ADV	B	_	10	advmod	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+9	completamente	completamente	ADV	B	_	10	advmod	_	_
+10	diverso	diverso	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11-12	dagli	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	10	obl:agent	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	ma	ma	CCONJ	CC	_	16	cc	_	_
+16	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	fisiologia	fisiologia	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	tutto	tutto	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	differente	differente	ADJ	A	Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 34
+# text = Quindi, supponiamo che abbiate trovato un farmaco che funzioni contro uno stadio della vita del parassita.
+1	Quindi	quindi	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	supponiamo	supporre	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	abbiate	avere	AUX	VA	Mood=Sub|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	farmaco	farmaco	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	funzioni	funzionare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	contro	contro	ADP	E	_	13	case	_	_
+12	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	stadio	stadio	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	vita	vita	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	parassita	parassita	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 35
+# text = Quel farmaco potrebbe essere inefficace durante gli altri stadi.
+1	Quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	farmaco	farmaco	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	essere	essere	AUX	V	VerbForm=Inf	5	cop	_	_
+5	inefficace	inefficace	ADJ	A	Number=Sing	0	root	_	_
+6	durante	durante	ADP	E	_	9	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	altri	altro	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+9	stadi	stadio	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 36
+# text = È in grado di nascondersi nel nostro organismo senza farsi scoprire, e rimanere nascosto, inosservato, per giorni, settimane, mesi ed anni, in alcuni casi persino decenni.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	grado	grado	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	nascondersi	_	_	_	_	_	_	_	_
+5	nasconder	nascondere	VERB	V	VerbForm=Inf	3	acl	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	organismo	organismo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+11	senza	senza	ADP	E	_	12	mark	_	_
+12-13	farsi	_	_	_	_	_	_	_	_
+12	far	fare	VERB	V	VerbForm=Inf	5	advcl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	scoprire	scoprire	VERB	V	VerbForm=Inf	12	ccomp	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	rimanere	rimanere	VERB	V	VerbForm=Inf	14	conj	_	_
+18	nascosto	nascosto	ADJ	A	Gender=Masc|Number=Sing	17	xcomp	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	inosservato	inosservato	ADJ	A	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	18	punct	_	_
+22	per	per	ADP	E	_	23	case	_	_
+23	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	23	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	27	punct	_	_
+27	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	23	conj	_	_
+28	ed	e	CCONJ	CC	_	29	cc	_	_
+29	anni	anno	NOUN	S	Gender=Masc|Number=Plur	23	conj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	18	punct	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	33	det	_	_
+33	casi	caso	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+34	persino	persino	ADV	B	_	35	advmod	_	_
+35	decenni	decenne	ADJ	A	Number=Plur	33	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 37
+# text = Il parassita rappresenta una sfida enorme per la scienza, ma lo è altrettanto la zanzara che veicola il parassita.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	parassita	parassita	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	rappresenta	rappresentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	enorme	enorme	ADJ	A	Number=Sing	5	amod	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	scienza	scienza	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	16	punct	_	_
+11	ma	ma	CCONJ	CC	_	16	cc	_	_
+12	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	altrettanto	altrettanto	ADV	B	_	16	advmod	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	zanzara	zanzara	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	veicola	veicolare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	parassita	parassita	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 38
+# text = Solo circa 12 specie di zanzare veicolano la maggior parte della malaria del mondo, e sappiamo abbastanza sulle tipologie di habitat acquatici che prediligono.
+1	Solo	solo	ADV	B	_	7	advmod	_	_
+2	circa	circa	ADV	B	_	3	advmod	_	_
+3	12	12	NUM	N	NumType=Card	4	nummod	_	_
+4	specie	specie	NOUN	S	Gender=Fem	7	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	zanzare	zanzara	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+7	veicolano	veicolare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	10	amod	_	_
+10	parte	parte	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	_
+20	abbastanza	abbastanza	ADV	B	_	19	advmod	_	_
+21-22	sulle	_	_	_	_	_	_	_	_
+21	su	su	ADP	E	_	23	case	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	tipologie	tipologia	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	habitat	habitat	NOUN	S	Gender=Masc	23	nmod	_	_
+26	acquatici	acquatico	ADJ	A	Gender=Masc|Number=Plur	25	amod	_	_
+27	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+28	prediligono	prediligere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 39
+# text = Perciò si potrebbe pensare, bene, perché semplicemente non evitiamo queli luoghi dove vivono le zanzare killer?
+1	Perciò	perciò	ADV	B	_	4	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+3	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	pensare	pensare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	bene	bene	ADV	B	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	perché	perché	SCONJ	CS	_	11	mark	_	_
+9	semplicemente	semplicemente	ADV	B	_	11	advmod	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	evitiamo	evitare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+12	queli	quele	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+13	luoghi	luogo	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+14	dove	dove	ADV	B	_	15	advmod	_	_
+15	vivono	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	zanzare	zanzara	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+18	killer	killere	NOUN	S	_	17	compound	_	SpaceAfter=No
+19	?	?	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 40
+# text = Giusto?
+1	Giusto	giusto	ADV	B	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 41
+# text = Potremmo evitare i luoghi dove vivono gli orsi grizzly assassini e i luoghi dove vivono i coccodrilli assassini.
+1	Potremmo	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	evitare	evitare	VERB	V	VerbForm=Inf	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	luoghi	luogo	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	dove	dove	ADV	B	_	6	advmod	_	_
+6	vivono	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	orsi	orso	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+9	grizzly	grizzly	CCONJ	CC	_	10	cc	_	_
+10	assassini	assassino	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	luoghi	luogo	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	_
+14	dove	dove	ADV	B	_	15	advmod	_	_
+15	vivono	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	coccodrilli	coccodrillo	NOUN	S	Gender=Masc|Number=Plur	15	nsubj	_	_
+18	assassini	assassino	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 42
+# text = Ma supponiamo che abitiate ai tropici e che un giorno usciate dalla vostra capanna e lasciate delle impronte sul morbido terreno attorno alla vostra casa.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	supponiamo	supporre	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	abitiate	abitiare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	2	ccomp	_	_
+5-6	ai	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	tropici	tropico	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	che	che	SCONJ	CS	_	11	mark	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+12	usciate	usciare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+13-14	dalla	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	16	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	capanna	capanna	NOUN	S	Gender=Fem|Number=Sing	12	obl:agent	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	lasciate	lasciata	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	_
+19-20	delle	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	impronte	impronta	NOUN	S	Gender=Fem|Number=Plur	18	nmod	_	_
+22-23	sul	_	_	_	_	_	_	_	_
+22	su	su	ADP	E	_	25	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	morbido	morbido	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+25	terreno	terreno	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+26	attorno	attorno	ADV	B	_	30	case	_	_
+27-28	alla	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	26	fixed	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	casa	casa	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 43
+# text = O supponiamo che lo faccia la vostra vacca, o il vostro maiale, e che poi piova, e che in quelle impronte ristagni un po' d'acqua.
+1	O	o	CCONJ	CC	_	2	cc	_	_
+2	supponiamo	supporre	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	faccia	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	vacca	vacca	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	o	o	CCONJ	CC	_	13	cc	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	maiale	maiale	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16	che	che	SCONJ	CS	_	18	mark	_	_
+17	poi	poi	ADV	B	_	18	advmod	_	_
+18	piova	piova	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	25	punct	_	_
+20	e	e	CCONJ	CC	_	25	cc	_	_
+21	che	che	SCONJ	CS	_	25	mark	_	_
+22	in	in	ADP	E	_	25	case	_	_
+23	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	25	det	_	_
+24	impronte	impronta	ADJ	A	Gender=Fem|Number=Plur	25	amod	_	_
+25	ristagni	ristagne	NOUN	S	Gender=Masc|Number=Plur	18	conj	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	po'	poco	ADV	B	_	29	advmod	_	_
+28	d'	di	ADP	E	_	29	case	_	SpaceAfter=No
+29	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 44
+# text = Ecco fatto.
+1	Ecco	ecco	ADV	B	_	2	advmod	_	_
+2	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 45
+# text = Avete appena creato l'habitat perfetto per la zanzara della malaria proprio fuori la vostra porta di casa.
+1	Avete	avere	AUX	VM	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	appena	appena	ADV	B	_	3	advmod	_	_
+3	creato	creare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	habitat	habitat	NOUN	S	Gender=Masc	3	obj	_	_
+6	perfetto	perfetto	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	zanzara	zanzara	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	proprio	proprio	ADV	B	_	17	advmod	_	_
+14	fuori	fuori	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	porta	porta	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	casa	casa	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 46
+# text = Perciò non è facile stare alla larga da questi insetti.
+1	Perciò	perciò	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	facile	facile	ADJ	A	Number=Sing	0	root	_	_
+5	stare	stare	VERB	V	VerbForm=Inf	4	csubj	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	larga	largo	ADJ	A	Gender=Fem|Number=Sing	5	obl	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	11	det	_	_
+11	insetti	insetto	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 47
+# text = Diamo vita ad ambienti dove questi insetti amano vivere semplicemente vivendo le nostre vite.
+1	Diamo	dire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	vita	vita	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+3	ad	a	ADP	E	_	4	case	_	_
+4	ambienti	ambiente	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+5	dove	dove	ADV	B	_	8	advmod	_	_
+6	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
+7	insetti	insetto	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+8	amano	amare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+9	vivere	vivere	VERB	V	VerbForm=Inf	8	xcomp	_	_
+10	semplicemente	semplicemente	ADV	B	_	9	advmod	_	_
+11	vivendo	vivere	VERB	V	VerbForm=Ger	9	advcl	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	vite	vita	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 48
+# text = C'è dunque una grande sfida scientifica, ma ce n'è anche una economica.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dunque	dunque	ADV	B	_	2	advmod	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	grande	grande	ADJ	A	Number=Sing	6	amod	_	_
+6	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+7	scientifica	scientifico	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	ma	ma	CCONJ	CC	_	12	cc	_	_
+10	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	_
+11	n'	ne	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	SpaceAfter=No
+12	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+13	anche	anche	ADV	B	_	15	advmod	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	economica	economico	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 49
+# text = La malaria è diffusa in alcuni dei luoghi più poveri e remoti della terra, e questo per un motivo preciso.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	diffusa	diffondere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	obl	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	luoghi	luogo	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	poveri	povero	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	remoti	remota	ADJ	A	Gender=Masc|Number=Plur	11	conj	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	terra	terra	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	conj	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	19	orphan	_	_
+23	preciso	preciso	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 50
+# text = Se siete poveri, è più facile che prendiate la malaria.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	siete	essere	AUX	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	poveri	povero	ADJ	A	Gender=Masc|Number=Plur	7	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	facile	facile	ADJ	A	Number=Sing	0	root	_	_
+8	che	che	SCONJ	CS	_	9	mark	_	_
+9	prendiate	prendiare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 51
+# text = Se siete poveri, è più facile che viviate in abitazioni rudimentali su terre marginali che sono poco drenate.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	siete	essere	AUX	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	poveri	povero	ADJ	A	Gender=Masc|Number=Plur	7	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	facile	facile	ADJ	A	Number=Sing	0	root	_	_
+8	che	che	SCONJ	CS	_	9	mark	_	_
+9	viviate	viviare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	ccomp	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	abitazioni	abitazione	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+12	rudimentali	rudimentale	ADJ	A	Number=Plur	11	amod	_	_
+13	su	su	ADP	E	_	14	case	_	_
+14	terre	terra	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+15	marginali	marginale	ADJ	A	Number=Plur	14	amod	_	_
+16	che	che	PRON	PR	PronType=Rel	19	nsubj:pass	_	_
+17	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+18	poco	poco	ADV	B	_	19	advmod	_	_
+19	drenate	drenare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	14	acl:relcl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 52
+# text = Questi sono posti dove le zanzare si riproducono.
+1	Questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	3	nsubj:pass	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	posti	porre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	dove	dove	ADV	B	_	8	advmod	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	zanzare	zanzara	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	riproducono	riprodurre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 53
+# text = È improbabile che ci siano zanzariere alle porte e alle finestre.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	improbabile	improbabile	ADJ	A	Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	siano	essere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	zanzariere	zanzariere	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+7-8	alle	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	porte	porta	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	finestre	finestra	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 54
+# text = È improbabile che ci sia elettricità e tutte quelle attività al chiuso che l'elettricità rende possibili, quindi si sta per lo più all'aperto.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	improbabile	improbabile	ADJ	A	Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	_
+6	elettricità	elettricità	NOUN	S	Gender=Fem	5	nsubj	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	10	det:predet	_	_
+9	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	10	det	_	_
+10	attività	attività	NOUN	S	Gender=Fem	5	conj	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	chiuso	chiuso	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	che	che	SCONJ	CS	_	17	mark	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	elettricità	elettricità	NOUN	S	Gender=Fem	17	nsubj	_	_
+17	rende	rendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+18	possibili	possibile	ADJ	A	Number=Plur	17	xcomp	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	10	punct	_	_
+20	quindi	quindi	ADV	B	_	22	advmod	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+23	per	per	ADP	E	_	25	case	_	_
+24	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	più	più	ADV	B	_	22	advmod	_	_
+26-27	all'	_	_	_	_	_	_	_	SpaceAfter=No
+26	a	a	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	aperto	aperto	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 55
+# text = E si è punti dalle zanzare più spesso.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	punti	pumere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	dalle	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	zanzare	zanzara	NOUN	S	Gender=Fem|Number=Plur	4	obl:agent	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	spesso	spesso	ADV	B	_	7	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 56
+# text = Perciò la povertà causa la malaria, ma sappiamo anche che è la stessa malaria a causare la povertà.
+1	Perciò	perciò	ADV	B	_	4	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	povertà	povertà	NOUN	S	Gender=Fem	4	nsubj	_	_
+4	causa	causare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	ma	ma	CCONJ	CC	_	9	cc	_	_
+9	sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	anche	anche	ADV	B	_	15	advmod	_	_
+11	che	che	SCONJ	CS	_	15	mark	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+15	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	causare	causare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	povertà	povertà	NOUN	S	Gender=Fem	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 57
+# text = Per un verso, la malaria è più infettiva durante la stagione dei raccolti, quindi proprio quando i contadini dovrebbero stare fuori, nei campi per il raccolto, sono a casa con la febbre.
+1	Per	per	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	verso	verso	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	infettiva	infettivo	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	_
+10	durante	durante	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13-14	dei	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	raccolti	raccolto	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	9	punct	_	_
+17	quindi	quindi	ADV	B	_	23	advmod	_	_
+18	proprio	proprio	ADV	B	_	23	advmod	_	_
+19	quando	quando	SCONJ	CS	_	23	mark	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	contadini	contadino	NOUN	S	Gender=Masc|Number=Plur	23	nsubj	_	_
+22	dovrebbero	dovere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	stare	stare	VERB	V	VerbForm=Inf	35	advcl	_	_
+24	fuori	fuori	ADV	B	_	23	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	23	punct	_	_
+26-27	nei	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	campi	campo	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	_
+29	per	per	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	raccolto	raccolto	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	23	punct	_	_
+33	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	_
+34	a	a	ADP	E	_	35	case	_	_
+35	casa	casa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+36	con	con	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	febbre	febbre	NOUN	S	Gender=Fem|Number=Sing	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	35	punct	_	_
+
+# sent_id = 58
+# text = Ma la malaria predispone le persone alla morte per altre cause.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	predispone	predisporre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	persone	persona	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	morte	morte	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	altre	altro	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+12	cause	causa	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 59
+# text = È ciò che è accaduto storicamente.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	accaduto	accadere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	storicamente	storicamente	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 60
+# text = Siamo riusciti a eliminare la malaria da una società.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	riusciti	riuscire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	eliminare	eliminare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	società	società	NOUN	S	Gender=Fem	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 61
+# text = Tutto il resto rimane uguale, quindi abbiamo ancora cibo cattivo, acqua cattiva, condizioni sanitarie cattive, e tutte queste cose fanno ammalare la gente.
+1	Tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	3	det:predet	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	resto	resto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	rimane	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	uguale	uguale	ADJ	A	Number=Sing	4	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	quindi	quindi	ADV	B	_	8	advmod	_	_
+8	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	ancora	ancora	ADV	B	_	8	advmod	_	_
+10	cibo	cibo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	cattivo	cattivo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+14	cattiva	cattivo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	condizioni	condizione	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+17	sanitarie	sanitario	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+18	cattive	cattivo	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	24	punct	_	_
+20	e	e	CCONJ	CC	_	24	cc	_	_
+21	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	23	det:predet	_	_
+22	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	23	det	_	_
+23	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	24	nsubj	_	_
+24	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+25	ammalare	ammalare	VERB	V	VerbForm=Inf	24	ccomp	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	gente	gente	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 62
+# text = Ma se si elimina la malaria, i decessi per altre cause diminuiscono.
+1	Ma	ma	CCONJ	CC	_	13	cc	_	_
+2	se	se	SCONJ	CS	_	4	mark	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:pass	_	_
+4	elimina	eliminare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	decessi	decesso	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	altre	altro	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+12	cause	causa	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	_
+13	diminuiscono	diminuire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 63
+# text = E l'economista Jeff Sachs ha di fatto quantificato che cosa significa tutto ciò per una società.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	economista	economista	NOUN	S	Number=Sing	6	nsubj	_	_
+4	Jeff	Jeff	PROPN	SP	_	3	nmod	_	_
+5	Sachs	Sachs	PROPN	SP	_	4	flat:name	_	_
+6	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+9	quantificato	quantificato	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+11	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	12	obj	_	_
+12	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+13	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	14	det	_	_
+14	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	12	nsubj	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	società	società	NOUN	S	Gender=Fem	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 64
+# text = Significa che, se nella vostra società c'è la malaria, la vostra crescita economica rallenta dell'1,3 per cento ogni anno, anno dopo anno, solo a causa di questa malattia.
+1	Significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	18	mark	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	18	punct	_	_
+4	se	se	SCONJ	CS	_	10	mark	_	_
+5-6	nella	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	società	società	NOUN	S	Gender=Fem	10	obl	_	_
+9	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	SpaceAfter=No
+10	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+17	economica	economico	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	rallenta	rallentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+19-20	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+19	di	di	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	1,3	1,3	NUM	N	NumType=Card	18	nummod	_	_
+22	per	per	ADP	E	_	23	case	_	_
+23	cento	cento	NUM	N	NumType=Card	21	nummod	_	_
+24	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	25	det	_	_
+25	anno	anno	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	anno	anno	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+28	dopo	dopo	ADP	E	_	29	case	_	_
+29	anno	anno	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	18	punct	_	_
+31	solo	solo	ADV	B	_	33	advmod	_	_
+32	a	a	ADP	E	_	33	case	_	_
+33	causa	causa	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	36	det	_	_
+36	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 65
+# text = Ciò implica una sfida economica enorme, perché ammettendo che abbiate trovato un farmaco o un grande vaccino -- come lo portate in un luogo dove non ci sono strade, non ci sono infrastrutture, non c'è l'elettricità, necessaria per la refrigerazione non ci sono cliniche, né personale medico in grado di portare i farmaci dove servono?
+1	Ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	implica	implicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	economica	economico	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	enorme	enorme	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	perché	perché	SCONJ	CS	_	9	mark	_	_
+9	ammettendo	ammettere	VERB	V	VerbForm=Ger	2	advcl	_	_
+10	che	che	SCONJ	CS	_	12	mark	_	_
+11	abbiate	avere	AUX	VA	Mood=Sub|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	ccomp	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	farmaco	farmaco	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	o	o	CCONJ	CC	_	18	cc	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	grande	grande	ADJ	A	Number=Sing	18	amod	_	_
+18	vaccino	vaccino	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+19	-	-	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+20	-	-	PUNCT	FB	_	12	punct	_	_
+21	come	come	ADP	E	_	23	case	_	_
+22	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	portate	portare	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+27	dove	dove	ADV	B	_	30	advmod	_	_
+28	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+29	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	30	expl	_	_
+30	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+31	strade	strada	NOUN	S	Gender=Fem|Number=Plur	30	nsubj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	35	punct	_	_
+33	non	non	ADV	BN	PronType=Neg	35	advmod	_	_
+34	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	35	expl	_	_
+35	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+36	infrastrutture	infrastruttura	ADV	B	_	35	advmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	40	punct	_	_
+38	non	non	ADV	BN	PronType=Neg	40	advmod	_	_
+39	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	40	expl	_	SpaceAfter=No
+40	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+41	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	42	det	_	SpaceAfter=No
+42	elettricità	elettricità	NOUN	S	Gender=Fem	40	nsubj	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	44	punct	_	_
+44	necessaria	necessario	ADJ	A	Gender=Fem|Number=Sing	50	nsubj	_	_
+45	per	per	ADP	E	_	47	case	_	_
+46	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	refrigerazione	refrigerazione	NOUN	S	Gender=Fem|Number=Sing	50	obl	_	_
+48	non	non	ADV	BN	PronType=Neg	50	advmod	_	_
+49	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	50	expl	_	_
+50	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+51	cliniche	clinico	NOUN	S	Gender=Fem|Number=Plur	50	nsubj	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	55	punct	_	_
+53	né	né	CCONJ	CC	_	55	cc	_	_
+54	personale	personale	ADJ	A	Number=Sing	55	amod	_	_
+55	medico	medico	NOUN	S	Gender=Masc|Number=Sing	51	conj	_	_
+56	in	in	ADP	E	_	57	case	_	_
+57	grado	grado	NOUN	S	Gender=Masc|Number=Sing	55	nmod	_	_
+58	di	di	ADP	E	_	59	mark	_	_
+59	portare	portare	VERB	V	VerbForm=Inf	57	acl	_	_
+60	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	61	det	_	_
+61	farmaci	farmaco	NOUN	S	Gender=Masc|Number=Plur	59	obj	_	_
+62	dove	dove	ADV	B	_	63	advmod	_	_
+63	servono	servire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	61	acl:relcl	_	SpaceAfter=No
+64	?	?	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 66
+# text = Perciò la sfida economica nei confronti della malaria è enorme.
+1	Perciò	perciò	ADV	B	_	12	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+4	economica	economico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5-6	nei	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	enorme	enorme	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 67
+# text = E oltre alle sfide economica e scientifica, c'è anche quella culturale, e questo è forse l'aspetto inerente la malaria di cui la gente non ama parlare.
+1	E	e	CCONJ	CC	_	11	cc	_	_
+2	oltre	oltre	ADV	B	_	5	case	_	_
+3-4	alle	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	2	fixed	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	sfide	sfida	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+6	economica	economico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	scientifica	scientifico	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	SpaceAfter=No
+11	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	anche	anche	ADV	B	_	13	advmod	_	_
+13	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	11	nsubj	_	_
+14	culturale	culturale	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	21	punct	_	_
+16	e	e	CCONJ	CC	_	21	cc	_	_
+17	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	21	nsubj	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+19	forse	forse	ADV	B	_	21	advmod	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	11	conj	_	_
+22	inerente	inerente	ADJ	A	Number=Sing	21	amod	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	cui	cui	PRON	PR	PronType=Rel	30	obl	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	gente	gente	NOUN	S	Gender=Fem|Number=Sing	30	nsubj	_	_
+29	non	non	ADV	BN	PronType=Neg	30	advmod	_	_
+30	ama	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+31	parlare	parlare	VERB	V	VerbForm=Inf	30	xcomp	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 68
+# text = Ed è un paradosso il fatto che le persone che nel mondo sono più soggette alla malaria siano quelle che meno se ne prendono cura.
+1	Ed	e	CCONJ	CC	_	4	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	paradosso	paradosso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	che	che	SCONJ	CS	_	21	mark	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	persone	persona	NOUN	S	Gender=Fem|Number=Plur	21	nsubj	_	_
+10	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	soggette	soggetto	ADJ	A	Gender=Fem|Number=Plur	9	acl:relcl	_	_
+17-18	alla	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+20	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	6	advcl	_	_
+22	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+23	meno	meno	ADV	B	_	26	advmod	_	_
+24	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+25	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	26	iobj	_	_
+26	prendono	prendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	_
+27	cura	cura	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 69
+# text = È quello che gli antropologi medici constatano in continuazione.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	antropologi	antropologo	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+6	medici	medico	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	constatano	constatare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	continuazione	continuazione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 70
+# text = Chiedono alle persone che abitano nelle zone malariche di tutto il mondo, "Che cosa pensi della malaria?"
+1	Chiedono	chiedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	alle	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	persone	persona	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	abitano	abitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7-8	nelle	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	zone	zona	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+10	malariche	malarico	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	14	det:predet	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	19	punct	_	_
+16	"	"	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+17	Che	che	DET	DQ	PronType=Int	18	det	_	_
+18	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+19	pensi	pensare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+23	?	?	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+24	"	"	PUNCT	FB	_	1	punct	_	_
+
+# sent_id = 71
+# text = E la gente non dice "È una malattia mortale, ne siamo spaventati".
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	gente	gente	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+7	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	5	advcl	_	_
+10	mortale	mortale	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	14	iobj	_	_
+13	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	spaventati	spaventare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	parataxis	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 72
+# text = Dicono, "La malaria fa parte dei normali problemi della vita."
+1	Dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+4	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	parte	parte	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	normali	normale	ADJ	A	Number=Plur	11	amod	_	_
+11	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	vita	vita	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	6	punct	_	_
+
+# sent_id = 73
+# text = E questa è stata sicuramente la mia esperienza personale.
+1	E	e	CCONJ	CC	_	8	cc	_	_
+2	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	8	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+4	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+5	sicuramente	sicuramente	ADV	B	_	8	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+9	personale	personale	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 74
+# text = Quando dissi ai miei parenti in India che stavo scrivendo un libro sulla malaria, mi guardarono come se stessi scrivendo un libro sulle verruche o cose del genere.
+1	Quando	quando	SCONJ	CS	_	2	mark	_	_
+2	dissi	diggere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	advcl	_	_
+3-4	ai	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	parenti	parente	NOUN	S	Number=Plur	2	obl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	India	India	PROPN	SP	_	2	obl	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	stavo	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+11	scrivendo	scrivere	VERB	V	VerbForm=Ger	10	advcl	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	libro	libro	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14-15	sulla	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	2	punct	_	_
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	iobj	_	_
+19	guardarono	guardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+20	come	come	ADV	B	_	22	case	_	_
+21	se	se	SCONJ	CS	_	20	fixed	_	_
+22	stessi	stesso	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	19	obl	_	_
+23	scrivendo	scrivere	VERB	V	VerbForm=Ger	22	advcl	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	libro	libro	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+26-27	sulle	_	_	_	_	_	_	_	_
+26	su	su	ADP	E	_	28	case	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	verruche	verruca	NOUN	S	Gender=Fem|Number=Plur	25	nmod	_	_
+29	o	o	CCONJ	CC	_	30	cc	_	_
+30	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	28	conj	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	genere	genere	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 75
+# text = Dicevano cose tipo, perché scrivere un libro su qualcosa di così noioso?
+1	Dicevano	Dicere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	1	nsubj	_	_
+3	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	2	compound	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	perché	perché	SCONJ	CS	_	6	mark	_	_
+6	scrivere	scrivere	VERB	V	VerbForm=Inf	1	advcl	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	libro	libro	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	su	su	ADP	E	_	10	case	_	_
+10	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	8	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	così	così	ADV	B	_	13	advmod	_	_
+13	noioso	noioso	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 76
+# text = Così comune?
+1	Così	così	ADV	B	_	2	advmod	_	_
+2	comune	comune	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 77
+# text = Non ti pare?
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	iobj	_	_
+3	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 78
+# text = È una visione semplicistica del rischio, davvero.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	visione	visione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	semplicistica	semplicistico	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	davvero	davvero	ADV	B	_	3	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 79
+# text = Una bimba in Malawi, per esempio, può avere 12 episodi di malaria prima di aver compiuto due anni, ma se sopravvive, continuerà ad avere la malaria per il resto della vita, ma è meno probabile che ne muoia.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	bimba	bimbo	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	Malawi	Malawi	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	avere	avere	VERB	V	VerbForm=Inf	0	root	_	_
+11	12	12	NUM	N	NumType=Card	12	nummod	_	_
+12	episodi	episodio	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	prima	prima	ADV	B	_	18	mark	_	_
+16	di	di	ADP	E	_	15	fixed	_	_
+17	aver	avere	AUX	VA	VerbForm=Inf	18	aux	_	_
+18	compiuto	compiere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+19	due	due	NUM	N	NumType=Card	20	nummod	_	_
+20	anni	anno	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	18	punct	_	_
+22	ma	ma	CCONJ	CC	_	24	cc	_	_
+23	se	se	SCONJ	CS	_	24	mark	_	_
+24	sopravvive	sopravvivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	24	punct	_	_
+26	continuerà	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	24	advcl	_	_
+27	ad	a	ADP	E	_	28	mark	_	_
+28	avere	avere	VERB	V	VerbForm=Inf	26	xcomp	_	_
+29	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	_
+31	per	per	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	resto	resto	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	_
+34-35	della	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	vita	vita	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	41	punct	_	_
+38	ma	ma	CCONJ	CC	_	41	cc	_	_
+39	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	_
+40	meno	meno	ADV	B	_	41	advmod	_	_
+41	probabile	probabile	ADJ	A	Number=Sing	26	conj	_	_
+42	che	che	PRON	PR	PronType=Rel	44	nsubj	_	_
+43	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	44	iobj	_	_
+44	muoia	muoiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	acl:relcl	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 80
+# text = Perciò, nella sua esperienza vissuta, la malaria è qualcosa che va e che viene.
+1	Perciò	perciò	ADV	B	_	12	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	nella	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+7	vissuta	vivere	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	0	root	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 81
+# text = E questo è vero per la maggior parte della malaria nel mondo.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	per	per	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	8	amod	_	_
+8	parte	parte	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 82
+# text = La maggior parte delle volte, la malaria va e viene da sola.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	3	amod	_	_
+3	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	volte	volta	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	sola	solo	ADJ	A	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 83
+# text = C'è talmente tanta malaria che quella piccola porzione di casi che porta al decesso si aggiunge a questa cifra enorme.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	talmente	talmente	ADV	B	_	2	advmod	_	_
+4	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
+5	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	18	obj	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+8	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	porzione	porzione	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	casi	caso	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	decesso	decesso	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	aggiunge	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
+21	cifra	cifra	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	_
+22	enorme	enorme	ADJ	A	Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 84
+# text = Perciò credo che le persone nelle zone malariche del mondo considerino la malaria allo stesso modo in cui coloro che vivono nelle zone temperate considerano il raffreddore o l'influenza.
+1	Perciò	perciò	ADV	B	_	2	advmod	_	_
+2	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	13	mark	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	persone	persona	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+6-7	nelle	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	zone	zona	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9	malariche	malarico	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13	considerino	considerare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16-17	allo	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	19	case	_	_
+17	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	modo	modo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	cui	cui	PRON	PR	PronType=Rel	29	obl	_	_
+22	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	29	nsubj	_	_
+23	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+24	vivono	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+25-26	nelle	_	_	_	_	_	_	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	zone	zona	NOUN	S	Gender=Fem|Number=Plur	24	obl	_	_
+28	temperate	temperato	ADJ	A	Gender=Fem|Number=Plur	27	amod	_	_
+29	considerano	considerare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	raffreddore	raffreddore	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+32	o	o	CCONJ	CC	_	34	cc	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	SpaceAfter=No
+34	influenza	influenza	NOUN	S	Gender=Fem|Number=Sing	31	conj	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 85
+# text = Giusto?
+1	Giusto	giusto	ADV	B	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 86
+# text = Il raffreddore e l'influenza hanno un peso enorme sulle nostre società, e sulle nostre vite, ma non ci preoccupiamo di prendere le più rudimentali precauzioni contro queste malattie perché consideriamo normale prendere un raffreddore o l'influenza durante la stagione del raffreddore e dell'influenza.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	raffreddore	raffreddore	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	influenza	influenza	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+6	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	peso	peso	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	enorme	enorme	ADJ	A	Number=Sing	8	amod	_	_
+10-11	sulle	_	_	_	_	_	_	_	_
+10	su	su	ADP	E	_	13	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	nostre	nostra	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	società	società	NOUN	S	Gender=Fem	6	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	19	punct	_	_
+15	e	e	CCONJ	CC	_	19	cc	_	_
+16-17	sulle	_	_	_	_	_	_	_	_
+16	su	su	ADP	E	_	19	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+18	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	vite	vita	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	24	punct	_	_
+21	ma	ma	CCONJ	CC	_	24	cc	_	_
+22	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+23	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	24	expl	_	_
+24	preoccupiamo	preoccupare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	conj	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26	prendere	prendere	VERB	V	VerbForm=Inf	24	xcomp	_	_
+27	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	26	obj	_	_
+28	più	più	ADV	B	_	29	advmod	_	_
+29	rudimentali	rudimentale	ADJ	A	Number=Plur	30	amod	_	_
+30	precauzioni	precauzioni	NOUN	S	Gender=Fem|Number=Plur	26	obj	_	_
+31	contro	contro	ADP	E	_	33	case	_	_
+32	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	33	det	_	_
+33	malattie	malattia	NOUN	S	Gender=Fem|Number=Plur	30	nmod	_	_
+34	perché	perché	SCONJ	CS	_	35	mark	_	_
+35	consideriamo	considerare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	advcl	_	_
+36	normale	normale	ADJ	A	Number=Sing	35	xcomp	_	_
+37	prendere	prendere	VERB	V	VerbForm=Inf	35	csubj	_	_
+38	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	raffreddore	raffreddore	NOUN	S	Gender=Masc|Number=Sing	37	obj	_	_
+40	o	o	CCONJ	CC	_	42	cc	_	_
+41	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	42	det	_	SpaceAfter=No
+42	influenza	influenza	NOUN	S	Gender=Fem|Number=Sing	39	conj	_	_
+43	durante	durante	ADP	E	_	45	case	_	_
+44	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+45	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	37	obl	_	_
+46-47	del	_	_	_	_	_	_	_	_
+46	di	di	ADP	E	_	48	case	_	_
+47	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	raffreddore	raffreddore	NOUN	S	Gender=Masc|Number=Sing	45	nmod	_	_
+49	e	e	CCONJ	CC	_	52	cc	_	_
+50-51	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+50	di	di	ADP	E	_	52	case	_	_
+51	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	52	det	_	_
+52	influenza	influenza	NOUN	S	Gender=Fem|Number=Sing	48	conj	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 87
+# text = E ciò implica una grande sfida culturale nell'affrontare la malaria, perché se le persone ritengono normale avere la malaria, come fare per far sì che vadano dal dottore a farsi visitare, prendano la prescrizione, la compilino, prendano le medicine, utilizzino i repellenti, dormano sotto le zanzariere?
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	implica	implicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	grande	grande	ADJ	A	Number=Sing	6	amod	_	_
+6	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7	culturale	culturale	ADJ	A	Number=Sing	6	amod	_	_
+8-9	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	in	in	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	affrontare	affrontare	VERB	V	VerbForm=Inf	3	obl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	perché	perché	ADV	B	_	18	advmod	_	_
+15	se	se	SCONJ	CS	_	18	mark	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	persone	persona	NOUN	S	Gender=Fem|Number=Plur	18	nsubj	_	_
+18	ritengono	ritenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+19	normale	normale	ADV	B	_	18	advmod	_	_
+20	avere	avere	VERB	V	VerbForm=Inf	18	ccomp	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	20	punct	_	_
+24	come	come	ADP	E	_	25	mark	_	_
+25	fare	fare	VERB	V	VerbForm=Inf	20	advcl	_	_
+26	per	per	ADP	E	_	27	mark	_	_
+27	far	fare	VERB	V	VerbForm=Inf	25	advcl	_	_
+28	sì	sì	ADV	B	_	27	advmod	_	_
+29	che	che	SCONJ	CS	_	30	mark	_	_
+30	vadano	andare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp	_	_
+31-32	dal	_	_	_	_	_	_	_	_
+31	da	da	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	dottore	dottore	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+34	a	a	ADP	E	_	35	mark	_	_
+35-36	farsi	_	_	_	_	_	_	_	_
+35	far	fare	VERB	V	VerbForm=Inf	30	xcomp	_	_
+36	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	35	obj	_	_
+37	visitare	visitare	VERB	V	VerbForm=Inf	35	xcomp	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	25	punct	_	_
+39	prendano	prendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	advcl	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	prescrizione	prescrizione	NOUN	S	Gender=Fem|Number=Sing	39	obj	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	44	punct	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	compilino	compilino	NOUN	S	Gender=Masc|Number=Sing	41	conj	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	46	punct	_	_
+46	prendano	prendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	conj	_	_
+47	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	48	det	_	_
+48	medicine	medicina	NOUN	S	Gender=Fem|Number=Plur	46	obj	_	SpaceAfter=No
+49	,	,	PUNCT	FF	_	39	punct	_	_
+50	utilizzino	utilizzare	ADP	E	_	52	case	_	_
+51	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	52	det	_	_
+52	repellenti	repellente	NOUN	S	Number=Plur	39	obl	_	SpaceAfter=No
+53	,	,	PUNCT	FF	_	39	punct	_	_
+54	dormano	dormere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	parataxis	_	_
+55	sotto	sotto	ADP	E	_	57	case	_	_
+56	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	57	det	_	_
+57	zanzariere	zanzariera	NOUN	S	Gender=Fem|Number=Plur	54	obl	_	SpaceAfter=No
+58	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 88
+# text = Questa è una sfida culturale enorme nei confronti della malaria.
+1	Questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	culturale	culturale	ADJ	A	Number=Sing	4	amod	_	_
+6	enorme	enorme	ADJ	A	Number=Sing	4	amod	_	_
+7-8	nei	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	confronti	confronto	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 89
+# text = E adesso mettiamo tutto insieme.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	adesso	adesso	ADV	B	_	3	advmod	_	_
+3	mettiamo	mettere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obj	_	_
+5	insieme	insieme	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 90
+# text = Abbiamo una malattia, scientificamente complessa, una sfida economica da affrontare, e coloro che ne dovrebbero beneficiare sono quelli che più se ne disinteressano.
+1	Abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	scientificamente	scientificamente	ADV	B	_	6	advmod	_	_
+6	complessa	complesso	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	3	appos	_	_
+10	economica	economico	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	da	da	ADP	E	_	12	mark	_	_
+12	affrontare	affrontare	VERB	V	VerbForm=Inf	9	acl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	21	punct	_	_
+14	e	e	CCONJ	CC	_	21	cc	_	_
+15	coloro	coloro	PRON	PD	Number=Plur|PronType=Dem	21	nsubj	_	_
+16	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+17	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	19	iobj	_	_
+18	dovrebbero	dovere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	beneficiare	beneficiare	VERB	V	VerbForm=Inf	15	acl:relcl	_	_
+20	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	3	conj	_	_
+22	che	che	PRON	PR	PronType=Rel	26	nsubj	_	_
+23	più	più	ADV	B	_	26	advmod	_	_
+24	se	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	expl	_	_
+25	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	26	iobj	_	_
+26	disinteressano	disinteressare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 91
+# text = E a tutto ciò si aggiunge il problema più grave di tutti, che, ovviamente, è quello politico.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	4	det	_	_
+4	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	obl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	aggiunge	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	problema	problema	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	grave	grave	ADJ	A	Number=Sing	8	amod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	19	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	ovviamente	ovviamente	ADV	B	_	19	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	acl:relcl	_	_
+20	politico	politico	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 92
+# text = Come si fa a coinvolgere un leader politico affinché faccia qualcosa per un problema come questo?
+1	Come	come	ADV	B	_	3	advmod	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	coinvolgere	coinvolgere	VERB	V	VerbForm=Inf	3	ccomp	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	leader	leader	NOUN	S	_	5	obj	_	_
+8	politico	politico	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	affinché	affinché	SCONJ	CS	_	10	mark	_	_
+10	faccia	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+11	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	10	obj	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	problema	problema	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+15	come	come	ADP	E	_	16	case	_	_
+16	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	10	obl	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 93
+# text = E storicamente, la risposta è che non è possibile.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	storicamente	storicamente	ADV	B	_	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	possibile	possibile	ADJ	A	Number=Sing	6	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 94
+# text = Nella storia, la maggioranza delle società malariche ha semplicemente convissuto con la malattia.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	storia	storia	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	maggioranza	maggioranza	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	società	società	NOUN	S	Gender=Fem	6	nmod	_	_
+10	malariche	malarico	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	semplicemente	semplicemente	ADV	B	_	13	advmod	_	_
+13	convissuto	convivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 95
+# text = Perciò la malaria è stata combattuta più tenacemente dall'esterno delle società malariche, da persone che non sono legate da queste politiche alquanto paralizzanti.
+1	Perciò	perciò	ADV	B	_	6	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	combattuta	combattere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	tenacemente	tenacemente	ADV	B	_	6	advmod	_	_
+9-10	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+9	da	da	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	esterno	esterno	NOUN	S	Gender=Masc|Number=Sing	6	obl:agent	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	società	società	NOUN	S	Gender=Fem	11	nmod	_	_
+15	malariche	malarico	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	11	punct	_	_
+17	da	da	ADP	E	_	18	case	_	_
+18	persone	persona	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+19	che	che	PRON	PR	PronType=Rel	22	nsubj:pass	_	_
+20	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+21	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
+22	legate	legare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	25	det	_	_
+25	politiche	politica	NOUN	S	Gender=Fem|Number=Plur	22	obl:agent	_	_
+26	alquanto	alquanto	ADV	B	_	27	advmod	_	_
+27	paralizzanti	paralizzante	ADJ	A	Number=Plur	25	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 96
+# text = Penso che ciò introduca tutta una serie di altre difficoltà.
+1	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+4	introduca	introdurre	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+5	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	7	det:predet	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	serie	serie	NOUN	S	Gender=Fem	4	obj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	altre	altro	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+10	difficoltà	difficoltà	NOUN	S	Gender=Fem	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 97
+# text = Il primo attacco concertato contro la malaria cominciò negli anni '50 del secolo scorso.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4	concertato	concertare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	contro	contro	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	cominciò	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9-10	negli	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+12	'50	'50	NUM	N	NumType=Card	11	nummod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	secolo	secolo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+16	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 98
+# text = Fu un'idea del Dipartimento di Stato degli Stati Uniti.
+1	Fu	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	idea	idea	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Dipartimento	dipartimento	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Stato	stato	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9-10	degli	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	Stati	Stati	PROPN	SP	_	6	nmod	_	_
+12	Uniti	Uniti	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 99
+# text = E questo impegno era ben consapevole della sfida economica.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	impegno	impegno	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+5	ben	bene	ADV	B	_	6	advmod	_	_
+6	consapevole	consapevole	ADJ	A	Number=Sing	0	root	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	economica	economico	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 100
+# text = Sapevano che dovevano focalizzarsi su strumenti poco costosi, facili da usare, e si concentrarono sul DDT.
+1	Sapevano	sapere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	dovevano	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4-5	focalizzarsi	_	_	_	_	_	_	_	_
+4	focalizzar	focalizzare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	su	su	ADP	E	_	7	case	_	_
+7	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	poco	poco	ADV	B	_	9	advmod	_	_
+9	costosi	costoso	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	facili	facile	ADJ	A	Number=Plur	9	conj	_	_
+12	da	da	ADP	E	_	13	mark	_	_
+13	usare	usare	VERB	V	VerbForm=Inf	4	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+17	concentrarono	concentrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+18-19	sul	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	DDT	DDT	PROPN	SP	_	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 101
+# text = Capirono la sfida culturale.
+1	Capirono	Capire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	_
+4	culturale	culturale	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 102
+# text = Infatti, la loro visione un po' paternalistica era che alla gente a rischio di malaria non si doveva chiedere di fare nulla.
+1	Infatti	infatti	ADV	B	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	loro	loro	DET	AP	Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	visione	visione	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	po'	poco	ADV	B	_	8	advmod	_	_
+8	paternalistica	paternalistico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+9	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	che	che	SCONJ	CS	_	21	mark	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	gente	gente	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl:impers	_	_
+20	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+21	chiedere	chiedere	VERB	V	VerbForm=Inf	9	ccomp	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	fare	fare	VERB	V	VerbForm=Inf	21	ccomp	_	_
+24	nulla	nulla	PRON	PI	Number=Sing|PronType=Ind	23	obj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 103
+# text = Tutto andava fatto a loro e per loro.
+1	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	andava	andare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	3	obl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	5	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 104
+# text = Ma sottovalutarono gravemente la sfida scientifica.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	sottovalutarono	sottovalutare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	gravemente	gravemente	ADV	B	_	2	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6	scientifica	scientifica	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 105
+# text = Avevano così fiducia nei loro strumenti che smisero di fare ricerche sulla malaria.
+1	Avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	così	così	ADV	B	_	1	advmod	_	_
+3	fiducia	fiducia	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4-5	nei	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	loro	loro	DET	AP	Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	smisero	smidere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	fare	fare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	ricerche	ricerca	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+13-14	sulla	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 106
+# text = E così, quando i loro strumenti cominciarono a fallire, e l'opinione pubblica cominciò a essere sfavorevole a tali mezzi, non avevano alcuna esperienza scientifica per comprendere cosa fare.
+1	E	e	CCONJ	CC	_	8	cc	_	_
+2	così	così	ADV	B	_	8	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	quando	quando	SCONJ	CS	_	8	mark	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	loro	loro	DET	AP	Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+8	cominciarono	cominciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	fallire	fallire	VERB	V	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	16	punct	_	_
+12	e	e	CCONJ	CC	_	16	cc	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	_
+15	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	cominciò	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+17	a	a	ADP	E	_	19	mark	_	_
+18	essere	essere	AUX	V	VerbForm=Inf	19	cop	_	_
+19	sfavorevole	sfavorevole	ADJ	A	Number=Sing	16	xcomp	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	tali	tale	DET	DD	Number=Plur|PronType=Dem	22	det	_	_
+22	mezzi	mezzo	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+25	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	_
+26	alcuna	alcuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	27	det	_	_
+27	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+28	scientifica	scientifico	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+29	per	per	ADP	E	_	30	mark	_	_
+30	comprendere	comprendere	VERB	V	VerbForm=Inf	25	advcl	_	_
+31	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	30	obj	_	_
+32	fare	fare	VERB	V	VerbForm=Inf	30	xcomp	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 107
+# text = L'intera campagna fallì, la malaria tornò a diffondersi, ma era peggio di prima perché era confinata in regioni difficilissime da raggiungere e nelle forme più difficili da controllare.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	intera	intero	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	fallì	fallire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+8	tornò	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10-11	diffondersi	_	_	_	_	_	_	_	SpaceAfter=No
+10	diffonder	diffondere	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	ma	ma	CCONJ	CC	_	15	cc	_	_
+14	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+15	peggio	peggio	ADV	B	_	20	advmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	prima	prima	ADV	B	_	15	advmod	_	_
+18	perché	perché	SCONJ	CS	_	20	mark	_	_
+19	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+20	confinata	confinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	regioni	regione	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	_
+23	difficilissime	difficile	ADJ	A	Degree=Abs|Gender=Fem|Number=Plur	22	amod	_	_
+24	da	da	ADP	E	_	25	mark	_	_
+25	raggiungere	raggiungere	VERB	V	VerbForm=Inf	23	advcl	_	_
+26	e	e	CCONJ	CC	_	29	cc	_	_
+27-28	nelle	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	forme	forma	NOUN	S	Gender=Fem|Number=Plur	25	obl	_	_
+30	più	più	ADV	B	_	31	advmod	_	_
+31	difficili	difficile	ADJ	A	Number=Plur	29	amod	_	_
+32	da	da	ADP	E	_	33	mark	_	_
+33	controllare	controllare	VERB	V	VerbForm=Inf	31	advcl	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 108
+# text = Un funzionario dell'OMS al tempo definì l'intera campagna "uno dei più grandi errori mai commessi nel campo della sanità pubblica.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	funzionario	funzionario	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	OMS	Oms	PROPN	SP	_	2	nmod	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+9	definì	definire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+11	intera	intero	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+13	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	xcomp	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	19	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+17	più	più	ADV	B	_	18	advmod	_	_
+18	grandi	grande	ADJ	A	Number=Plur	19	amod	_	_
+19	errori	errore	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+20	mai	mai	ADV	B	_	21	advmod	_	_
+21	commessi	commettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	acl	_	_
+22-23	nel	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	campo	campo	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	sanità	sanità	NOUN	S	Gender=Fem	24	nmod	_	_
+28	pubblica	pubblico	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	9	punct	_	SpaceAfter=No
+
+# sent_id = 109
+# text = "
+1	"	"	PUNCT	FB	_	0	root	_	_
+
+# sent_id = 110
+# text = L'ultimo tentativo di sconfiggere la malaria è iniziato verso la fine degli anni '90.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	sconfiggere	sconfiggere	VERB	V	VerbForm=Inf	3	acl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	iniziato	iniziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	verso	verso	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	fine	fine	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+13-14	degli	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	anni	anno	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+16	'90	'90	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 111
+# text = Anche in questo caso fu diretto e finanziato principalmente da paesi non colpiti dalla malaria.
+1	Anche	anche	ADV	B	_	4	advmod	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	caso	caso	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	diretto	dirigere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	finanziato	finanziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+9	principalmente	principalmente	ADV	B	_	8	advmod	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	8	obl:agent	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	colpiti	colpire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+14-15	dalla	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	13	obl:agent	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 112
+# text = Questo tentativo ha ben chiare le sfide scientifiche.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	ben	bene	ADV	B	_	5	advmod	_	_
+5	chiare	chiare	VERB	V	VerbForm=Inf	0	root	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	sfide	sfida	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8	scientifiche	scientifico	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 113
+# text = Stanno portando avanti tonnellate di ricerche sulla malaria.
+1	Stanno	stare	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	portando	portare	VERB	V	VerbForm=Ger	0	root	_	_
+3	avanti	avanti	ADV	B	_	2	advmod	_	_
+4	tonnellate	tonnellato	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	ricerche	ricerca	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+7-8	sulla	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 114
+# text = E hanno ben chiara anche la sfida economica.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	ben	bene	ADV	B	_	4	advmod	_	_
+4	chiara	chiaro	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	anche	anche	ADV	B	_	7	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+8	economica	economico	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 115
+# text = Sono focalizzati nel trovare strumenti facili da usare ed economici.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	focalizzati	focalizzare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	trovare	trovare	VERB	V	VerbForm=Inf	2	obl	_	_
+6	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+7	facili	facile	ADJ	A	Number=Plur	6	amod	_	_
+8	da	da	ADP	E	_	9	mark	_	_
+9	usare	usare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+10	ed	e	CCONJ	CC	_	11	cc	_	_
+11	economici	economico	ADJ	A	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 116
+# text = Ma questa volta, credo che il dilemma sia la sfida culturale.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	volta	volta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	11	mark	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	dilemma	dilemma	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+9	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	5	ccomp	_	_
+12	culturale	culturale	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 117
+# text = Il punto nevralgico dell'attuale tentativo è la zanzariera da letto.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	punto	punto	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	nevralgico	nevralgico	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	7	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+6	attuale	attuale	ADJ	A	Number=Sing	7	amod	_	_
+7	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	zanzariera	zanzariera	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+11	da	da	ADP	E	_	12	case	_	_
+12	letto	letto	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 118
+# text = Viene trattata con insetticidi.
+1	Viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	trattata	trattare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	insetticidi	insetticidio	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 119
+# text = Questo dispositivo è stato distribuito in tutti i paesi colpiti dalla malaria a milioni.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	dispositivo	dispositivo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	distribuito	distribuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	9	det:predet	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+10	colpiti	colpire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+11-12	dalla	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	10	obl:agent	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 120
+# text = E quando pensate alla zanzariera da letto, è come una specie di intervento chirurgico.
+1	E	e	CCONJ	CC	_	13	cc	_	_
+2	quando	quando	SCONJ	CS	_	3	mark	_	_
+3	pensate	pensare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	zanzariera	zanzariera	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	letto	letto	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	come	come	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	specie	specie	NOUN	S	Gender=Fem	0	root	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16	chirurgico	chirurgico	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 121
+# text = Non ha alcun reale valore per la famiglia con la malaria, tranne per il fatto che aiuta a prevenire la malaria.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	alcun	alcuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+4	reale	reale	ADJ	A	Number=Sing	5	amod	_	_
+5	valore	valore	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+9	con	con	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	_	_
+13	tranne	tranne	ADP	E	_	16	case	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	aiuta	aiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20	prevenire	prevenire	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 122
+# text = E chiediamo allora alle persone di usare queste zanzariere ogni sera.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	chiediamo	chiedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	allora	allora	ADV	B	_	2	advmod	_	_
+4-5	alle	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	persone	persona	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	usare	usare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+9	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	10	det	_	_
+10	zanzariere	zanzariera	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+11	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	12	det	_	_
+12	sera	sera	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 123
+# text = Devono dormire sotto la zanzariera ogni notte.
+1	Devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	dormire	dormire	VERB	V	VerbForm=Inf	0	root	_	_
+3	sotto	sotto	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	zanzariera	zanzariera	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	7	det	_	_
+7	notte	notte	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 124
+# text = Solo così le zanzariere sono efficaci.
+1	Solo	solo	ADV	B	_	2	advmod	_	_
+2	così	così	ADV	B	_	6	advmod	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	zanzariere	zanzariera	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	efficaci	efficace	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 125
+# text = E le persone devono farlo anche se la zanzariera blocca la brezza notturna, anche se devono alzarsi nel cuore della notte per avere un po' di refrigerio, anche se devono spostare tutti i mobili per montare la zanzariera, anche se magari vivono in una capanna circolare dove è difficlle montare una zanzariera quadrata.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	persone	persona	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5-6	farlo	_	_	_	_	_	_	_	_
+5	far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	anche	anche	ADV	B	_	11	mark	_	_
+8	se	se	SCONJ	CS	_	7	fixed	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	zanzariera	zanzariera	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+11	blocca	bloccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	brezza	brezza	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	notturna	notturno	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	5	punct	_	_
+16	anche	anche	ADV	B	_	19	mark	_	_
+17	se	se	SCONJ	CS	_	16	fixed	_	_
+18	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19-20	alzarsi	_	_	_	_	_	_	_	_
+19	alzar	alzare	VERB	V	VerbForm=Inf	5	advcl	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+21-22	nel	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+24-25	della	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	notte	notte	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	per	per	ADP	E	_	28	mark	_	_
+28	avere	avere	VERB	V	VerbForm=Inf	19	advcl	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	po'	poco	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	refrigerio	refrigerio	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	19	punct	_	_
+34	anche	anche	ADV	B	_	37	mark	_	_
+35	se	se	SCONJ	CS	_	34	fixed	_	_
+36	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	aux	_	_
+37	spostare	spostare	VERB	V	VerbForm=Inf	19	advcl	_	_
+38	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	40	det:predet	_	_
+39	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+40	mobili	mobile	NOUN	S	Gender=Masc|Number=Plur	37	obj	_	_
+41	per	per	ADP	E	_	42	mark	_	_
+42	montare	montare	VERB	V	VerbForm=Inf	37	advcl	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	zanzariera	zanzariera	NOUN	S	Gender=Fem|Number=Sing	42	obj	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	19	punct	_	_
+46	anche	anche	ADV	B	_	49	mark	_	_
+47	se	se	SCONJ	CS	_	46	fixed	_	_
+48	magari	magari	ADV	B	_	49	advmod	_	_
+49	vivono	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+50	in	in	ADP	E	_	52	case	_	_
+51	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	52	det	_	_
+52	capanna	capanna	NOUN	S	Gender=Fem|Number=Sing	49	obl	_	_
+53	circolare	circolare	ADJ	A	Number=Sing	52	amod	_	_
+54	dove	dove	ADV	B	_	56	advmod	_	_
+55	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	cop	_	_
+56	difficlle	difficllo	ADJ	A	Number=Sing	52	acl:relcl	_	_
+57	montare	montare	VERB	V	VerbForm=Inf	56	csubj	_	_
+58	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+59	zanzariera	zanzariera	NOUN	S	Gender=Fem|Number=Sing	57	obj	_	_
+60	quadrata	quadrato	ADJ	A	Gender=Fem|Number=Sing	59	amod	_	SpaceAfter=No
+61	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 126
+# text = Non è un grave problema se si sta combattendo una malattia mortale.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	grave	grave	ADJ	A	Number=Sing	5	amod	_	_
+5	problema	problema	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	se	se	SCONJ	CS	_	9	mark	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+8	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	combattendo	combattere	VERB	V	VerbForm=Ger	5	advcl	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	mortale	mortale	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 127
+# text = Voglio dire che questi sono inconvenienti di poca importanza.
+1	Voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	6	nsubj	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	inconvenienti	inconveniente	ADJ	A	Number=Plur	2	ccomp	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	poca	poco	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	9	det	_	_
+9	importanza	importanza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 128
+# text = Ma non è quello che pensano le persone affette da malaria.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	pensano	pensare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	persone	persona	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9	affette	affetto	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	9	obl:agent	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 129
+# text = Per loro, il ragionamento è alquanto diverso.
+1	Per	per	ADP	E	_	2	case	_	_
+2	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	8	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ragionamento	ragionamento	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	alquanto	alquanto	ADV	B	_	8	advmod	_	_
+8	diverso	diverso	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 130
+# text = Immaginate, per esempio, un gruppo di kenioti ben intenzionati venire da noi che viviamo nelle zone temperate e dirci, "Sapete, voi avete un sacco di raffreddore e influenza.
+1	Immaginate	immaginare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	kenioti	keniota	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+10	ben	bene	ADV	B	_	11	advmod	_	_
+11	intenzionati	intenzionato	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+12	venire	venire	VERB	V	VerbForm=Inf	11	advcl	_	_
+13	da	da	ADP	E	_	14	case	_	_
+14	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	12	obl	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	viviamo	vivere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17-18	nelle	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	zone	zona	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+20	temperate	temperato	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22-23	dirci	_	_	_	_	_	_	_	SpaceAfter=No
+22	dir	dire	VERB	V	VerbForm=Inf	12	conj	_	_
+23	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	22	obj	_	_
+24	,	,	PUNCT	FF	_	22	punct	_	_
+25	"	"	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+26	Sapete	sapere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	22	advcl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	26	punct	_	_
+28	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	29	nsubj	_	_
+29	avete	avere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	26	advcl	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	sacco	sacco	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	raffreddore	raffreddore	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	influenza	influenza	NOUN	S	Gender=Fem|Number=Sing	33	conj	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 131
+# text = Abbiamo progettato questo dispositivo, semplice da usare ed economico, e ve lo diamo gratuitamente.
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	progettato	progettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	dispositivo	dispositivo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	semplice	semplice	ADJ	A	Number=Sing	4	amod	_	_
+7	da	da	ADP	E	_	8	mark	_	_
+8	usare	usare	VERB	V	VerbForm=Inf	6	advcl	_	_
+9	ed	e	CCONJ	CC	_	10	cc	_	_
+10	economico	economico	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	ve	vi	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+14	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+15	diamo	dire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	xcomp	_	_
+16	gratuitamente	gratuito	ADV	B	_	15	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 132
+# text = Si chiama mascherina, e tutto quello che dovete fare è indossarlo ogni giorno durante la stagione del raffreddore e dell'influenza quando andate a scuola o al lavoro."
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mascherina	mascherina	NOUN	S	Gender=Fem|Number=Sing	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	12	punct	_	_
+5	e	e	CCONJ	CC	_	12	cc	_	_
+6	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+7	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	12	nsubj	_	_
+8	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+9	dovete	dovere	AUX	VM	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	fare	fare	VERB	V	VerbForm=Inf	7	acl:relcl	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12-13	indossarlo	_	_	_	_	_	_	_	_
+12	indossar	indossare	VERB	V	VerbForm=Inf	2	conj	_	_
+13	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	15	det	_	_
+15	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+16	durante	durante	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	stagione	stagione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	raffreddore	raffreddore	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23-24	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+23	di	di	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	influenza	influenza	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	_
+26	quando	quando	SCONJ	CS	_	27	mark	_	_
+27	andate	andare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+28	a	a	ADP	E	_	29	case	_	_
+29	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+30	o	o	CCONJ	CC	_	33	cc	_	_
+31-32	al	_	_	_	_	_	_	_	_
+31	a	a	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	29	conj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+35	"	"	PUNCT	FB	_	2	punct	_	_
+
+# sent_id = 133
+# text = Lo faremmo?
+1	Lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	faremmo	faere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 134
+# text = Mi domando se è così che la gente delle zone malariche vede queste zanzariere quando le riceve per la prima volta.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	domando	domandare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	se	se	SCONJ	CS	_	5	mark	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	così	così	ADV	B	_	2	advcl	_	_
+6	che	che	SCONJ	CS	_	13	mark	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	gente	gente	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	zone	zona	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12	malariche	malarico	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+13	vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+14	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	15	det	_	_
+15	zanzariere	zanzariera	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+16	quando	quando	SCONJ	CS	_	18	mark	_	_
+17	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
+18	riceve	ricevere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+19	per	per	ADP	E	_	22	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	22	amod	_	_
+22	volta	volta	NOUN	S	Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 135
+# text = Sappiamo da alcuni studi che solo il 20 per cento delle zanzariere che furono distribuite per prime venne poi davvero utilizzato.
+1	Sappiamo	sapere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	studi	studio	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+5	che	che	PRON	PR	PronType=Rel	22	nsubj:pass	_	_
+6	solo	solo	ADV	B	_	8	advmod	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	20	20	NUM	N	NumType=Card	22	nsubj:pass	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	cento	cento	NUM	N	NumType=Card	8	nummod	_	_
+11-12	delle	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	zanzariere	zanzariera	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj:pass	_	_
+15	furono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
+16	distribuite	distribuire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	prime	primo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	16	obl	_	_
+19	venne	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux:pass	_	_
+20	poi	poi	ADV	B	_	22	advmod	_	_
+21	davvero	davvero	ADV	B	_	22	advmod	_	_
+22	utilizzato	utilizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 136
+# text = Ed è anche probabile che sia un valore sovrastimato, perché le stesse persone che distribuirono le zanzariere ritornarono dalle persone e chiesero loro, "Oh, avete usato le zanzariere che vi abbiamo dato?"
+1	Ed	e	CCONJ	CC	_	4	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	probabile	probabile	ADJ	A	Number=Sing	0	root	_	_
+5	che	che	SCONJ	CS	_	8	mark	_	_
+6	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	valore	valore	NOUN	S	Gender=Masc|Number=Sing	4	ccomp	_	_
+9	sovrastimato	sovrastimato	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	perché	perché	SCONJ	CS	_	19	mark	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	stesse	stesso	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+14	persone	persona	NOUN	S	Gender=Fem|Number=Plur	19	nsubj	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	distribuirono	distribuire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	acl:relcl	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	zanzariere	zanzariera	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	_
+19	ritornarono	ritornare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
+20-21	dalle	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	persone	persona	NOUN	S	Gender=Fem|Number=Plur	19	obl	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	chiesero	chiedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	conj	_	_
+25	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	24	obj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	24	punct	_	_
+27	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+28	Oh	Oh	INTJ	I	_	31	discourse	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	28	punct	_	_
+30	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	usato	usare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	advcl	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	zanzariere	zanzariera	NOUN	S	Gender=Fem|Number=Plur	31	obj	_	_
+34	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+35	vi	vi	ADV	B	_	37	advmod	_	_
+36	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	37	aux	_	_
+37	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	acl:relcl	_	SpaceAfter=No
+38	?	?	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+39	"	"	PUNCT	FB	_	4	punct	_	_
+
+# sent_id = 137
+# text = Che è come se tua zia Jane ti chiedesse, "Oh, hai usato il vaso che ti ho regalato a Natale?"
+1	Che	che	PRON	PR	PronType=Rel	2	nsubj	_	_
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	come	come	ADV	B	_	2	advmod	_	_
+4	se	se	SCONJ	CS	_	9	mark	_	_
+5	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	zia	zia	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+7	Jane	Jane	PROPN	SP	_	6	nmod	_	_
+8	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	9	obj	_	_
+9	chiedesse	chiedessa	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+12	Oh	Oh	INTJ	I	_	2	punct	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	usato	usare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	vaso	vaso	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+19	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	21	obj	_	_
+20	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	regalato	regalare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	Natale	Natale	PROPN	SP	_	21	obl	_	SpaceAfter=No
+24	?	?	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	2	punct	_	_
+
+# sent_id = 138
+# text = Perciò è probabile che sia sovrastimato.
+1	Perciò	perciò	ADV	B	_	3	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	probabile	probabile	ADJ	A	Number=Sing	0	root	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	sovrastimato	sovrastimare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	csubj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 139
+# text = Ma non è un problema insormontabile.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	problema	problema	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	insormontabile	insormontabile	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 140
+# text = Possiamo migliorare l'educazione, possiamo cercare di convincere queste persone a usare le zanzariere.
+1	Possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	migliorare	migliorare	VERB	V	VerbForm=Inf	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	educazione	educazione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	cercare	cercare	VERB	V	VerbForm=Inf	2	conj	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	convincere	convincere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	11	det	_	_
+11	persone	persona	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	usare	usare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	zanzariere	zanzariera	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 141
+# text = Ed è ciò che sta accadendo ora.
+1	Ed	e	CCONJ	CC	_	3	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	accadendo	accadere	VERB	V	VerbForm=Ger	3	acl:relcl	_	_
+7	ora	ora	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 142
+# text = Stiamo investendo molto più tempo e denaro in seminari, percorsi di formazione, musical e giochi e incontri nelle scuole, tutto questo per convincere le persone ad utilizzare le zanzariere che abbiamo distribuito.
+1	Stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	investendo	investire	VERB	V	VerbForm=Ger	0	root	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	seminari	seminario	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	percorsi	percorso	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	formazione	formazione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	musical	musical	NOUN	S	Gender=Masc	11	conj	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	giochi	gioco	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	incontri	incontro	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	_
+20-21	nelle	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	25	det	_	_
+25	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	11	conj	_	_
+26	per	per	ADP	E	_	27	mark	_	_
+27	convincere	convincere	VERB	V	VerbForm=Inf	2	advcl	_	_
+28	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	29	det	_	_
+29	persone	persona	NOUN	S	Gender=Fem|Number=Plur	27	obj	_	_
+30	ad	a	ADP	E	_	31	mark	_	_
+31	utilizzare	utilizzare	VERB	V	VerbForm=Inf	27	xcomp	_	_
+32	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	33	det	_	_
+33	zanzariere	zanzariera	NOUN	S	Gender=Fem|Number=Plur	31	obj	_	_
+34	che	che	PRON	PR	PronType=Rel	36	obj	_	_
+35	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	distribuito	distribuire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	acl:relcl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 143
+# text = E potrebbe funzionare.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	funzionare	funzionare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 144
+# text = Ma richiede tempo e denaro.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	richiede	richiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 145
+# text = Richiedere risorse e infrastrutture.
+1	Richiedere	richiedere	VERB	V	VerbForm=Inf	0	root	_	_
+2	risorse	risorsa	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	infrastrutture	infrastruttura	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 146
+# text = Richiede tutto quello che non ci si aspettava che quella semplice zanzariera, facile da usare ed economica, richiedesse.
+1	Richiede	richiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	1	obj	_	_
+4	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	expl	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:impers	_	_
+8	aspettava	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	_
+9	che	che	SCONJ	CS	_	20	mark	_	_
+10	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+11	semplice	semplice	ADJ	A	Number=Sing	12	amod	_	_
+12	zanzariera	zanzariera	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	facile	facile	ADJ	A	Number=Sing	12	amod	_	_
+15	da	da	ADP	E	_	16	mark	_	_
+16	usare	usare	VERB	V	VerbForm=Inf	14	advcl	_	_
+17	ed	e	CCONJ	CC	_	18	cc	_	_
+18	economica	economico	ADJ	A	Gender=Fem|Number=Sing	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	12	punct	_	_
+20	richiedesse	richiedere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 147
+# text = Perciò è difficile sconfiggere la malaria dall'interno delle società malariche, ma è altrettanto complicato quando lo si prova a fare dall'esterno di quelle società.
+1	Perciò	perciò	ADV	B	_	3	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	difficile	difficile	ADJ	A	Number=Sing	0	root	_	_
+4	sconfiggere	sconfiggere	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+7	da	da	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	interno	interno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	società	società	NOUN	S	Gender=Fem	9	nmod	_	_
+13	malariche	malarico	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	ma	ma	CCONJ	CC	_	18	cc	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	altrettanto	altrettanto	ADV	B	_	18	advmod	_	_
+18	complicato	complicato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+19	quando	quando	SCONJ	CS	_	22	mark	_	_
+20	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obj	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl:impers	_	_
+22	prova	provare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	_
+23	a	a	ADP	E	_	24	mark	_	_
+24	fare	fare	VERB	V	VerbForm=Inf	22	xcomp	_	_
+25-26	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+25	da	da	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	esterno	esterno	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	quelle	quello	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	30	det	_	_
+30	società	società	NOUN	S	Gender=Fem	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 148
+# text = SI finisce con l'imporre le nostre priorità alle persone delle società malariche.
+1	SI	si	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	finisce	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	con	con	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	imporre	imporre	VERB	V	VerbForm=Inf	2	obl	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	priorità	priorità	NOUN	S	Gender=Fem	5	obj	_	_
+9-10	alle	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	persone	persona	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	società	società	NOUN	S	Gender=Fem	11	nmod	_	_
+15	malariche	malarico	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 149
+# text = È esattamente quello che abbiamo fatto negli anni '50, e il tentativo fallì.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	esattamente	esattamente	ADV	B	_	3	advmod	_	_
+3	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+5	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7-8	negli	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	anni	anno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+10	'50	'50	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+15	fallì	fallire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 150
+# text = Vorrei dimostrare oggi che, quando distribuiamo strumenti che abbiamo progettato noi e che non necessariamente hanno senso nella vita delle persone, corriamo il rischio di ripetere lo stesso errore.
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	dimostrare	dimostrare	VERB	V	VerbForm=Inf	0	root	_	_
+3	oggi	oggi	ADV	B	_	2	advmod	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	quando	quando	SCONJ	CS	_	7	mark	_	_
+7	distribuiamo	distribuire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+8	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+9	che	che	PRON	PR	PronType=Rel	11	obj	_	_
+10	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	progettato	progettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+12	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
+13	e	e	CCONJ	CC	_	17	cc	_	_
+14	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	necessariamente	necessariamente	ADV	B	_	17	advmod	_	_
+17	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+18	senso	senso	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+19-20	nella	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	vita	vita	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+22-23	delle	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	persone	persona	NOUN	S	Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	17	punct	_	_
+26	corriamo	correre	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	rischio	rischio	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29	di	di	ADP	E	_	30	mark	_	_
+30	ripetere	ripetere	VERB	V	VerbForm=Inf	28	acl	_	_
+31	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+32	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	33	amod	_	_
+33	errore	errore	NOUN	S	Gender=Masc|Number=Sing	30	obj	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 151
+# text = Ciò non significa che la malaria è invincibile, perché io penso che si possa sconfiggerla, ma che accadrebbe se combattessimo la malattia secondo le priorità delle persone che convivono con essa?
+1	Ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	malaria	malario	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	invincibile	invincibile	ADJ	A	Number=Sing	3	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	perché	perché	SCONJ	CS	_	12	mark	_	_
+11	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+13	che	che	SCONJ	CS	_	16	mark	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	_
+15	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16-17	sconfiggerla	_	_	_	_	_	_	_	SpaceAfter=No
+16	sconfigger	sconfiggere	VERB	V	VerbForm=Inf	12	ccomp	_	_
+17	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	ma	ma	CCONJ	CC	_	21	cc	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	accadrebbe	accadere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+22	se	se	SCONJ	CS	_	23	mark	_	_
+23	combattessimo	combattessimo	VERB	V	Mood=Sub|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	21	ccomp	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	malattia	malattia	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+26	secondo	secondo	ADP	E	_	28	case	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	priorità	priorità	NOUN	S	Gender=Fem	23	obl	_	_
+29-30	delle	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	persone	persona	NOUN	S	Gender=Fem|Number=Plur	28	nmod	_	_
+32	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+33	convivono	convivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	acl:relcl	_	_
+34	con	con	ADP	E	_	35	case	_	_
+35	essa	esso	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	obl	_	SpaceAfter=No
+36	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 152
+# text = Prendete l'esempio dell'Inghilterra e degli Stati Uniti.
+1	Prendete	prendere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	Inghilterra	Inghilterra	PROPN	SP	_	3	nmod	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8-9	degli	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	Stati	Stati	PROPN	SP	_	6	conj	_	_
+11	Uniti	Uniti	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 153
+# text = Per centinaia di anni hanno avuto la malaria, ma ce ne siamo liberati definitivamente, e non perché abbiamo combattuto la malaria.
+1	Per	per	ADP	E	_	2	case	_	_
+2	centinaia	centinaio	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	14	punct	_	_
+10	ma	ma	CCONJ	CC	_	14	cc	_	_
+11	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	_
+12	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	14	iobj	_	_
+13	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	liberati	liberare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+15	definitivamente	definitivamente	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	21	punct	_	_
+17	e	e	CCONJ	CC	_	21	cc	_	_
+18	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+19	perché	perché	SCONJ	CS	_	21	mark	_	_
+20	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	combattuto	combattere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 154
+# text = Non l'abbiamo fatto.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No
+3	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 155
+# text = Abbiamo lottato contro strade e case inadeguate, contro i sistemi di drenaggio inefficienti, la mancanza di elettricità e la povertà nelle campagne.
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	lottato	lottare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	contro	contro	ADP	E	_	4	case	_	_
+4	strade	strada	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	case	casa	NOUN	S	Gender=Fem|Number=Plur	4	conj	_	_
+7	inadeguate	inadeguato	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	contro	contro	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	sistemi	sistema	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	drenaggio	drenaggio	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	inefficienti	inefficiente	ADJ	A	Number=Plur	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	2	punct	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	mancanza	mancanza	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	elettricità	elettricità	NOUN	S	Gender=Fem	17	nmod	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	povertà	povertà	NOUN	S	Gender=Fem	17	conj	_	_
+23-24	nelle	_	_	_	_	_	_	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	campagne	campagna	NOUN	S	Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 156
+# text = Abbiamo combattuto lo stile di vita malarico, e così facendo, abbiamo lentamente sconfitto la malaria.
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	combattuto	combattere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	stile	stile	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	vita	vita	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	malarico	malarico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	15	punct	_	_
+9	e	e	CCONJ	CC	_	15	cc	_	_
+10	così	così	ADV	B	_	11	advmod	_	_
+11	facendo	fare	VERB	V	VerbForm=Ger	15	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	lentamente	lentamente	ADV	B	_	15	advmod	_	_
+15	sconfitto	sconfiggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	malaria	malaria	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 157
+# text = Combattere lo stile di vita malarico, è qualcosa -- sono queste le cose che interessano alla gente oggi.
+1	Combattere	combattere	VERB	V	VerbForm=Inf	9	csubj	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	stile	stile	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	vita	vita	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	malarico	malarico	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	0	root	_	_
+10	-	-	PUNCT	FF	_	9	punct	_	SpaceAfter=No
+11	-	-	PUNCT	FF	_	9	punct	_	_
+12	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	queste	questo	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	9	ccomp	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	13	nsubj	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	interessano	interessare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	gente	gente	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+21	oggi	oggi	ADV	B	_	17	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 158
+# text = E combattere lo stile di vita malarico, non è rapido, non è economico, non è facile, ma credo che sia l'unica strada percorribile.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	combattere	combattere	VERB	V	VerbForm=Inf	11	advcl	_	_
+3	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	stile	stile	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	vita	vita	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	malarico	malarico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	rapido	rapido	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	economico	economico	ADJ	A	Gender=Masc|Number=Sing	11	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	facile	facile	ADJ	A	Number=Sing	11	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	ma	ma	CCONJ	CC	_	22	cc	_	_
+22	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	conj	_	_
+23	che	che	SCONJ	CS	_	27	mark	_	_
+24	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+26	unica	unico	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+27	strada	strada	NOUN	S	Gender=Fem|Number=Sing	22	ccomp	_	_
+28	percorribile	percorribile	ADJ	A	Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 159
+# text = Grazie mille.
+1	Grazie	grazie	NOUN	S	_	0	root	_	_
+2	mille	mille	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 160
+# text = (Applausi)
+1	(	(	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Applausi	applauso	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	FB	_	2	punct	_	SpacesAfter=\s\n\n
+

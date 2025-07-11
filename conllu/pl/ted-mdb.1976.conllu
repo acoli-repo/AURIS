@@ -1,0 +1,1355 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = talkid: 1976
+1	talkid	talkid	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpacesBefore=\n\n|SpaceAfter=No
+2	:	:	PUNCT	interp	PunctType=Colo	1	punct	_	_
+3	1976	1976	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|NumForm=Digit|NumType=Ord	1	amod	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 2
+# text = Jeremy Kasdin: Przesłona gwiezdna w kształcie płatków kwiatu, która może pomóc w odkryciu planet podobnych do Ziemi
+1	Jeremy	Jerem	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+2	Kasdin	Kasdin	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+3	:	:	PUNCT	interp	PunctType=Colo	1	punct	_	_
+4	Przesłona	Przesłona	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	parataxis:obj	_	_
+5	gwiezdna	gwiezdny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+6	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	8	case	_	_
+7	kształcie	kształt	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	fixed	_	_
+8	płatków	płatek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+9	kwiatu	kwiat	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+11	która	który	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	12	nsubj	_	_
+12	może	móc	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+13	pomóc	pomóc	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	15	case	_	_
+15	odkryciu	odkrycie	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	13	obl	_	_
+16	planet	planeta	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	15	nmod:arg	_	_
+17	podobnych	podobny	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	_
+18	do	do	ADP	prep:gen	AdpType=Prep	19	case	_	_
+19	Ziemi	Ziemia	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 3
+# text = Wszechświat jest pełen planet.
+1	Wszechświat	wszechświat	NOUN	subst:sg:nom:m2	Animacy=Nhum|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	pełen	pełny	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	planet	planeta	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 4
+# text = Chcę, żebyśmy w następnej dekadzie zbudowali teleskop, który pozwoli uchwycić Ziemię w pobliżu innej gwiazdy i odkryć, czy jest na niej życie.
+1	Chcę	chcieć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+3-4	żebyśmy	_	_	_	_	_	_	_	_
+3	żeby	żeby	SCONJ	comp	_	8	mark	_	_
+4	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Plur|Person=1|Variant=Short	8	aux:clitic	_	_
+5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	7	case	_	_
+6	następnej	następny	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	dekadzie	dekada	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+8	zbudowali	zbudować	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	ccomp	_	_
+9	teleskop	teleskop	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+11	który	który	DET	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	12	nsubj	_	_
+12	pozwoli	pozwolić	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+13	uchwycić	uchwycić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	Ziemię	ziemia	PROPN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	18	case	_	_
+16	pobliżu	pobliże	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	15	fixed	_	_
+17	innej	inny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	gwiazdy	gwiazda	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+19	i	i	CCONJ	conj	_	20	cc	_	_
+20	odkryć	odkryć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	8	conj	_	SpaceAfter=No
+21	,	,	PUNCT	interp	PunctType=Comm	23	punct	_	_
+22	czy	czy	PART	part	PartType=Int	23	advmod	_	_
+23	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	ccomp	_	_
+24	na	na	ADP	prep:loc	AdpType=Prep	25	case	_	_
+25	niej	on	PRON	ppron3:sg:loc:f:ter:akc:praep	Case=Loc|Gender=Fem|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	23	obl:arg	_	_
+26	życie	życie	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	23	nsubj	_	SpaceAfter=No
+27	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 5
+# text = Razem z pracownikami Labolatorium Napędu Odrzutowego NASA w Princeton pracujemy nad technologią, która pozwoli to zrealizować w najbliższych latach.
+1	Razem	razem	ADV	adv	_	3	case	_	_
+2	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	1	fixed	_	_
+3	pracownikami	pracownik	NOUN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	10	obl	_	_
+4	Labolatorium	Labolatorium	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	Napędu	napęd	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	Odrzutowego	Odrzutowy	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	NASA	NASA	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	9	case	_	_
+9	Princeton	Princeton	PROPN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
+10	pracujemy	pracować	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	nad	nad	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	12	case	_	_
+12	technologią	technologia	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	10	obl:arg	_	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	15	punct	_	_
+14	która	który	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	15	nsubj	_	_
+15	pozwoli	pozwolić	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+16	to	to	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	17	obj	_	_
+17	zrealizować	zrealizować	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+18	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	20	case	_	_
+19	najbliższych	bliski	ADJ	adj:pl:loc:m3:sup	Animacy=Inan|Case=Loc|Degree=Sup|Gender=Masc|Number=Plur	20	amod	_	_
+20	latach	rok	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	interp	PunctType=Peri	10	punct	_	_
+
+# sent_id = 6
+# text = Obecnie astronomowie uważają, że każda gwiazda w galaktyce ma planetę i szacują, że nawet jedna na pięć ma planetę jak Ziemia, na której może istnieć życie, ale żadnej jeszcze nie widzieliśmy.
+1	Obecnie	obecnie	ADV	adv:pos	Degree=Pos	3	advmod	_	_
+2	astronomowie	astronom	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	uważają	uważać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+5	że	że	SCONJ	comp	_	10	mark	_	_
+6	każda	każdy	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	7	det	_	_
+7	gwiazda	gwiazda	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+8	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	9	case	_	_
+9	galaktyce	galaktyka	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+10	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp:obj	_	_
+11	planetę	planeta	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	10	iobj	_	_
+12	i	i	CCONJ	conj	_	13	cc	_	_
+13	szacują	szacować	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	20	punct	_	_
+15	że	że	SCONJ	comp	_	20	mark	_	_
+16	nawet	nawet	PART	part	_	17	advmod:emph	_	_
+17	jedna	jeden	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	nsubj	_	_
+18	na	na	ADP	prep:acc	AdpType=Prep	19	case	_	_
+19	pięć	pięć	NUM	num:pl:acc:f:rec	Case=Acc|Gender=Fem|Number=Plur|NumForm=Word	17	obl	_	_
+20	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp	_	_
+21	planetę	planeta	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	20	iobj	_	_
+22	jak	jak	SCONJ	comp	ConjType=Cmpr	23	mark	_	_
+23	Ziemia	Ziemia	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	20	obl:cmpr	_	SpaceAfter=No
+24	,	,	PUNCT	interp	PunctType=Comm	27	punct	_	_
+25	na	na	ADP	prep:loc	AdpType=Prep	26	case	_	_
+26	której	który	DET	adj:sg:loc:f:pos	Case=Loc|Gender=Fem|Number=Sing|PronType=Rel	28	obl:arg	_	_
+27	może	móc	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	acl:relcl	_	_
+28	istnieć	istnieć	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	27	xcomp	_	_
+29	życie	życie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	28	obj	_	SpaceAfter=No
+30	,	,	PUNCT	interp	PunctType=Comm	35	punct	_	_
+31	ale	ale	CCONJ	conj	_	35	cc	_	_
+32	żadnej	żaden	DET	adj:sg:gen:f:pos	Case=Gen|Gender=Fem|Number=Sing|PronType=Neg	35	obj	_	_
+33	jeszcze	jeszcze	PART	part	_	35	advmod:emph	_	_
+34	nie	nie	PART	part	Polarity=Neg	35	advmod:neg	_	_
+35-36	widzieliśmy	_	_	_	_	_	_	_	SpaceAfter=No
+35	widzieli	widzieć	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	27	conj	_	_
+36	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Plur|Person=1|Variant=Short	35	aux:clitic	_	_
+37	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 7
+# text = Wykrywamy je tylko pośrednio.
+1	Wykrywamy	Wykrywać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	je	on	PRON	ppron3:pl:acc:m3:ter:akc:npraep	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	1	obj	_	_
+3	tylko	tylko	PART	part	_	4	advmod:emph	_	_
+4	pośrednio	pośrednio	ADV	adv:pos	Degree=Pos	1	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = To jest słynne zdjęcie "Błękitnej kropki" NASA.
+1	To	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	4	cop	_	_
+2	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+3	słynne	słynny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	zdjęcie	zdjęcie	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+5	"	"	PUNCT	interp	PunctType=Quot	7	punct	_	SpaceAfter=No
+6	Błękitnej	błękitny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	kropki	kropka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod:arg	_	SpaceAfter=No
+8	"	"	PUNCT	interp	PunctType=Quot	7	punct	_	_
+9	NASA	Nas	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 9
+# text = Zostało zrobione przez sondę Voyager w 1990 roku, kiedy opuszczała Układ Słoneczny obrócono ją, aby zrobiła zdjęcie Ziemi z odległości 6 miliardów kilometrów.
+1	Zostało	zostać	AUX	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	aux:pass	_	_
+2	zrobione	zrobić	ADJ	ppas:pl:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+3	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	4	case	_	_
+4	sondę	sonda	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	obl:agent	_	_
+5	Voyager	Voyager	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	4	flat	_	_
+6	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	8	case	_	_
+7	1990	1990	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|NumForm=Digit|NumType=Ord	8	amod:flat	_	_
+8	roku	rok	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+10	kiedy	kiedy	ADV	adv	PronType=Rel	11	advmod	_	_
+11	opuszczała	opuszczać	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	Układ	układ	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+13	Słoneczny	słoneczny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+14	obrócono	obrócić	VERB	imps:perf	Aspect=Perf|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	11	xcomp	_	_
+15	ją	on	PRON	ppron3:sg:acc:f:ter:akc:npraep	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	interp	PunctType=Comm	18	punct	_	_
+17	aby	aby	SCONJ	comp	_	18	mark	_	_
+18	zrobiła	zrobić	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	_	_
+19	zdjęcie	zdjęcie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
+20	Ziemi	Ziemia	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	22	case	_	_
+22	odległości	odległość	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	18	obl	_	_
+23	6	6	NUM	num:pl:gen:m3:congr	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	25	nummod	_	_
+24	miliardów	miliard	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	flat	_	_
+25	kilometrów	kilometr	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod:arg	_	SpaceAfter=No
+26	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 10
+# text = Chcę zrobić takie zdjęcie planety w pobliżu innej gwiazdy.
+1	Chcę	chcieć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	zrobić	zrobić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3	takie	taki	DET	adj:sg:acc:n:pos	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	zdjęcie	zdjęcie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+5	planety	planeta	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod:arg	_	_
+6	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	9	case	_	_
+7	pobliżu	pobliże	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	6	fixed	_	_
+8	innej	inny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	gwiazdy	gwiazda	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Czemu tego nie zrobiliśmy i czemu to takie trudne?
+1	Czemu	czemu	ADV	adv	PronType=Int	4	advmod	_	_
+2	tego	to	PRON	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	_
+3	nie	nie	PART	part	Polarity=Neg	4	advmod:neg	_	_
+4-5	zrobiliśmy	_	_	_	_	_	_	_	_
+4	zrobili	zrobić	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Plur|Person=1|Variant=Short	4	aux:clitic	_	_
+6	i	i	CCONJ	conj	_	10	cc	_	_
+7	czemu	co	PRON	subst:sg:dat:n:ncol	Case=Dat|Gender=Neut|Number=Sing|PronType=Int	10	nsubj	_	_
+8	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	10	cop	_	_
+9	takie	taki	DET	adj:sg:nom:n:pos	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	det	_	_
+10	trudne	trudny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	conj	_	SpaceAfter=No
+11	?	?	PUNCT	interp	PunctType=Qest	4	punct	_	_
+
+# sent_id = 12
+# text = Wyobraźmy sobie, że bierzemy Kosmiczny Teleskop Hubble'a, obracamy go i przenosimy na orbitę Marsa.
+1	Wyobraźmy	wyobrazić	VERB	impt:pl:pri:perf	Aspect=Perf|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
+2	sobie	siebie	PRON	siebie:dat	Case=Dat|PronType=Prs|Reflex=Yes	1	expl:pv	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	5	punct	_	_
+4	że	że	SCONJ	comp	_	5	mark	_	_
+5	bierzemy	brać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	_
+6	Kosmiczny	Kosmiczny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	Teleskop	teleskop	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	Hubble'a	Hubble	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+10	obracamy	obracać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+11	go	on	PRON	ppron3:sg:acc:m1:ter:nakc:npraep	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	10	obj	_	_
+12	i	i	CCONJ	conj	_	13	cc	_	_
+13	przenosimy	przenosić	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+14	na	na	ADP	prep:acc	AdpType=Prep	15	case	_	_
+15	orbitę	orbita	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	13	obl:arg	_	_
+16	Marsa	Mars	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 13
+# text = Zobaczymy coś takiego, nieco rozmazany obraz Ziemi, bo to dość mały teleskop na orbicie Marsa.
+1	Zobaczymy	zobaczyć	VERB	fin:pl:pri:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+2	coś	coś	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	1	obj	_	_
+3	takiego	taki	DET	adj:sg:gen:n:pos	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+5	nieco	nieco	ADV	adv	_	6	advmod	_	_
+6	rozmazany	rozmazać	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	obraz	obraz	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+8	Ziemi	Ziemia	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	interp	PunctType=Comm	14	punct	_	_
+10	bo	bo	SCONJ	comp	_	14	mark	_	_
+11	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	14	cop	_	_
+12	dość	dość	PART	part	_	13	advmod:emph	_	_
+13	mały	mały	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	teleskop	teleskop	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
+15	na	na	ADP	prep:loc	AdpType=Prep	16	case	_	_
+16	orbicie	orbić	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	_
+17	Marsa	Mars	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 14
+# text = Teraz przenieśmy się dziesięć razy dalej.
+1	Teraz	teraz	ADV	adv	_	2	advmod	_	_
+2	przenieśmy	przenieść	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	się	się	PRON	part	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
+4	dziesięć	dziesięć	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	5	nummod:gov	_	_
+5	razy	raz	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+6	dalej	daleko	ADV	adv:com	Degree=Cmp	2	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 15
+# text = Jesteśmy na orbicie Urana.
+1	Jesteśmy	być	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	na	na	ADP	prep:loc	AdpType=Prep	3	case	_	_
+3	orbicie	orbić	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl:arg	_	_
+4	Urana	Uran	PROPN	subst:sg:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 16
+# text = Jest mniejsza, mniej wyraźna.
+1	Jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+2	mniejsza	mały	ADJ	adj:sg:nom:f:com	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	5	punct	_	_
+4	mniej	mało	ADV	adv:com	Degree=Cmp	5	advmod	_	_
+5	wyraźna	wyraźny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 17
+# text = Wciąż można dostrzec mały Księżyc, ale znów przenieśmy się dziesięć razy dalej.
+1	Wciąż	wciąż	ADV	adv	_	2	advmod	_	_
+2	można	można	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	_	_
+3	dostrzec	dostrzec	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	mały	mały	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	Księżyc	Księżyc	PROPN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+7	ale	ale	CCONJ	conj	_	9	cc	_	_
+8	znów	znów	PART	part	_	9	advmod:emph	_	_
+9	przenieśmy	przenieść	VERB	fin:pl:pri:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	_
+10	się	się	PRON	part	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+11	dziesięć	dziesięć	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	12	nummod:gov	_	_
+12	razy	raz	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+13	dalej	daleko	ADV	adv:com	Degree=Cmp	9	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 18
+# text = Jesteśmy na granicy Układu Słonecznego w Pasie Kuipera.
+1	Jesteśmy	być	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	na	na	ADP	prep:loc	AdpType=Prep	3	case	_	_
+3	granicy	granica	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	1	obl	_	_
+4	Układu	układ	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod:arg	_	_
+5	Słonecznego	słoneczny	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+6	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	7	case	_	_
+7	Pasie	Pas	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
+8	Kuipera	Kuipero	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 19
+# text = Teraz obraz jest całkiem niewyraźny.
+1	Teraz	teraz	ADV	adv	_	5	advmod	_	_
+2	obraz	obraz	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+4	całkiem	całkiem	ADV	adv	_	5	advmod	_	_
+5	niewyraźny	niewyraźny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 20
+# text = Teraz to "Błękitna kropka" Carla Sagana.
+1	Teraz	teraz	ADV	adv	_	5	advmod	_	_
+2	to	to	DET	adj:sg:nom:n:pos	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
+3	"	"	PUNCT	interp	PunctType=Quot	5	punct	_	SpaceAfter=No
+4	Błękitna	Błękitny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	kropka	kropka	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	"	"	PUNCT	interp	PunctType=Quot	5	punct	_	_
+7	Carla	Carla	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	Sagana	Sagan	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	7	flat	_	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 21
+# text = Przenieśmy się znowu dziesięć razy dalej.
+1	Przenieśmy	Przenieść	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	się	się	PRON	part	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	znowu	znowu	PART	part	_	4	advmod:emph	_	_
+4	dziesięć	dziesięć	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	5	nummod:gov	_	_
+5	razy	raz	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	obl	_	_
+6	dalej	daleko	ADV	adv:com	Degree=Cmp	1	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 22
+# text = Jesteśmy w Obłoku Oorta poza Układem Słonecznym i zaczynamy widzieć, jak Słońce przesuwa się w pole widzenia, w miejsce, gdzie jest planeta.
+1	Jesteśmy	być	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	3	case	_	_
+3	Obłoku	obłok	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl:arg	_	_
+4	Oorta	Oorta	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	poza	poza	ADP	prep:inst	AdpType=Prep	6	case	_	_
+6	Układem	układ	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	_
+7	Słonecznym	Słoneczny	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+8	i	i	CCONJ	conj	_	9	cc	_	_
+9	zaczynamy	zaczynać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+10	widzieć	widzieć	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	14	punct	_	_
+12	jak	jak	SCONJ	comp	_	14	mark	_	_
+13	Słońce	Słońce	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+14	przesuwa	przesuwać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	_	_
+15	się	się	PRON	part	PronType=Prs|Reflex=Yes	14	expl:pv	_	_
+16	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	17	case	_	_
+17	pole	pole	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_
+18	widzenia	widzenie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	17	fixed	_	SpaceAfter=No
+19	,	,	PUNCT	interp	PunctType=Comm	21	punct	_	_
+20	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	21	case	_	_
+21	miejsce	miejsce	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	17	conj	_	SpaceAfter=No
+22	,	,	PUNCT	interp	PunctType=Comm	24	punct	_	_
+23	gdzie	gdzie	ADV	adv	PronType=Rel	24	advmod	_	_
+24	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	acl:relcl	_	_
+25	planeta	planeta	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	SpaceAfter=No
+26	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 23
+# text = Przenieśmy się dziesięć razy dalej.
+1	Przenieśmy	Przenieść	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	się	się	PRON	part	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	dziesięć	dziesięć	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	4	nummod:gov	_	_
+4	razy	raz	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	obl	_	_
+5	dalej	daleko	ADV	adv:com	Degree=Cmp	1	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 24
+# text = Jesteśmy przy Alfa Centauri, najbliższej gwieździe, a planeta zniknęła.
+1	Jesteśmy	być	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	przy	przy	ADP	prep:loc	AdpType=Prep	3	case	_	_
+3	Alfa	Alf	PROPN	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	1	obl:arg	_	_
+4	Centauri	Centauri	PROPN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	flat	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+6	najbliższej	bliski	ADJ	adj:sg:loc:f:sup	Case=Loc|Degree=Sup|Gender=Fem|Number=Sing	7	amod	_	_
+7	gwieździe	gwieźda	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+9	a	a	CCONJ	conj	_	11	cc	_	_
+10	planeta	planeta	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+11	zniknęła	zniknąć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 25
+# text = Widać tylko promienną gwiazdę dziesięć miliardów razy jaśniejszą niż planeta, która powinna być w miejscu czerwonego kółka.
+1	Widać	widać	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	_	_
+2	tylko	tylko	PART	part	_	3	advmod:emph	_	_
+3	promienną	promienny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	gwiazdę	gwiazda	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	iobj	_	_
+5	dziesięć	dziesięć	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	6	nummod:gov	_	_
+6	miliardów	miliard	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	razy	raz	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod:arg	_	_
+8	jaśniejszą	jasny	ADJ	adj:sg:acc:f:com	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	7	amod	_	_
+9	niż	niż	SCONJ	comp	ConjType=Cmpr	10	mark	_	_
+10	planeta	planeta	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	8	obl:cmpr	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	13	punct	_	_
+12	która	który	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	13	nsubj	_	_
+13	powinna	powinien	VERB	winien:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	10	acl:relcl	_	_
+14	być	być	AUX	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	16	cop	_	_
+15	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	16	case	_	_
+16	miejscu	miejsce	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	13	xcomp	_	_
+17	czerwonego	czerwony	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	kółka	kółko	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod:arg	_	SpaceAfter=No
+19	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 26
+# text = To chcemy zobaczyć.
+1	To	to	PART	part	_	2	advmod:emph	_	_
+2	chcemy	chcieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	zobaczyć	zobaczyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 27
+# text = Dlatego to jest trudne.
+1	Dlatego	dlatego	ADV	adv	PronType=Dem	4	advmod	_	_
+2	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	trudne	trudny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 28
+# text = Światło gwiazdy ulega dyfrakcji.
+1	Światło	światło	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	gwiazdy	gwiazda	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	1	nmod:arg	_	_
+3	ulega	ulegać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	dyfrakcji	dyfrakcja	NOUN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	3	iobj	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 29
+# text = Rozprasza się wewnątrz teleskopu, tworząc ten jasny obraz, który zamazuje planetę.
+1	Rozprasza	rozpraszać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	się	się	PRON	part	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	wewnątrz	wewnątrz	ADP	prep:gen	AdpType=Prep	4	case	_	_
+4	teleskopu	teleskop	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obl:arg	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+6	tworząc	tworzyć	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	1	advcl	_	_
+7	ten	ten	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+8	jasny	jasny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	obraz	obraz	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+11	który	który	DET	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	12	nsubj	_	_
+12	zamazuje	zamazywać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+13	planetę	planeta	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 30
+# text = Aby więc dostrzec planetę, trzeba coś zrobić z tym światłem.
+1	Aby	aby	SCONJ	comp	_	6	mark	_	_
+2	więc	więc	SCONJ	comp	_	3	mark	_	_
+3	dostrzec	dostrzec	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	6	advcl	_	_
+4	planetę	planeta	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	3	punct	_	_
+6	trzeba	trzeba	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	_	_
+7	coś	coś	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	8	obj	_	_
+8	zrobić	zrobić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+9	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	11	case	_	_
+10	tym	to	DET	adj:sg:inst:n:pos	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	11	det	_	_
+11	światłem	światło	NOUN	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing	8	obl:arg	_	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	6	punct	_	_
+
+# sent_id = 31
+# text = Trzeba się go pozbyć.
+1	Trzeba	trzeba	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	_	_
+2	się	się	PRON	part	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	go	on	PRON	ppron3:sg:acc:m1:ter:nakc:npraep	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	4	iobj	_	_
+4	pozbyć	pozbyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 32
+# text = Wielu moich kolegów pracuje nad niesamowitymi technologiami, ale chcę powiedzieć o jednej, chyba najfajniejszej i najprawdopodobniej ona ukaże nam Ziemię w najbliższej dekadzie.
+1	Wielu	wiele	DET	num:pl:nom:m1:rec	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	3	det:numgov	_	_
+2	moich	mój	DET	adj:pl:gen:m1:pos	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	kolegów	kolega	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	pracuje	pracować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	nad	nad	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	7	case	_	_
+6	niesamowitymi	niesamowity	ADJ	adj:pl:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
+7	technologiami	technologia	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+9	ale	ale	CCONJ	conj	_	10	cc	_	_
+10	chcę	chcieć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+11	powiedzieć	powiedzieć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	o	o	ADP	prep:loc	AdpType=Prep	13	case	_	_
+13	jednej	jeden	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	obl:arg	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	16	punct	_	_
+15	chyba	chyba	PART	part	_	16	advmod:emph	_	_
+16	najfajniejszej	fajny	ADJ	adj:sg:gen:f:sup	Case=Gen|Degree=Sup|Gender=Fem|Number=Sing	10	conj	_	_
+17	i	i	CCONJ	conj	_	20	cc	_	_
+18	najprawdopodobniej	prawdopodobnie	ADV	adv:sup	Degree=Sup	20	parataxis:insert	_	_
+19	ona	on	PRON	ppron3:sg:nom:f:ter:akc:npraep	Case=Nom|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	20	nsubj	_	_
+20	ukaże	ukazać	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	10	conj	_	_
+21	nam	my	PRON	ppron12:pl:dat:m1:pri	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	20	iobj	_	_
+22	Ziemię	ziemia	PROPN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+23	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	25	case	_	_
+24	najbliższej	bliski	ADJ	adj:sg:loc:f:sup	Case=Loc|Degree=Sup|Gender=Fem|Number=Sing	25	amod	_	_
+25	dekadzie	dekada	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+26	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 33
+# text = Zaproponował ją Lyman Spitzer, ojciec kosmicznego teleskopu, w 1962 roku, zainspirowany zaćmieniem.
+1	Zaproponował	zaproponować	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ją	on	PRON	ppron3:sg:acc:f:ter:akc:npraep	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	1	obj	_	_
+3	Lyman	Lyman	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+4	Spitzer	Spitzer	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	3	flat	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+6	ojciec	ojciec	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+7	kosmicznego	kosmiczny	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	teleskopu	teleskop	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+10	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	12	case	_	_
+11	1962	1962	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|NumForm=Digit|NumType=Ord	12	amod:flat	_	_
+12	roku	rok	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	15	punct	_	_
+14	zainspirowany	zainspirować	ADJ	ppas:sg:acc:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	15	acl	_	_
+15	zaćmieniem	zaćmienie	NOUN	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing	12	conj	_	SpaceAfter=No
+16	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 34
+# text = Wszyscy to widzieli - zaćmienie Słońca.
+1	Wszyscy	wszyscy	PRON	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	3	nsubj	_	_
+2	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	3	cop	_	_
+3	widzieli	widzieć	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	parataxis:obj	_	_
+4	-	-	PUNCT	interp	PunctType=Hyph	5	punct	_	_
+5	zaćmienie	zaćmienie	NOUN	ger:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	0	root	_	_
+6	Słońca	Słońce	PROPN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 35
+# text = Księżyc przesunął się przed Słońce.
+1	Księżyc	księżyc	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	przesunął	przesunąć	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	się	się	PRON	part	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
+4	przed	przed	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	5	case	_	_
+5	Słońce	Słońce	PROPN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 36
+# text = Zasłonił większość światła tak, że widać wokół niego przyćmioną koronę.
+1	Zasłonił	Zasłonić	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	większość	większość	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
+3	światła	światło	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	2	nmod:arg	_	_
+4	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	1	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+6	że	że	SCONJ	comp	_	7	mark	_	_
+7	widać	widać	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	1	ccomp:obj	_	_
+8	wokół	wokół	ADP	prep:gen	AdpType=Prep	9	case	_	_
+9	niego	on	PRON	ppron3:sg:gen:m1:ter:akc:praep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	7	obl	_	_
+10	przyćmioną	przyćmić	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	koronę	korona	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	7	iobj	_	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 37
+# text = To tak, jakbym palcem zasłonił światło wpadające do oka, widzę was w tylnym rzędzie.
+1	To	to	PART	part	_	2	advmod:emph	_	_
+2	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+4-5	jakbym	_	_	_	_	_	_	_	_
+4	jakby	jakby	SCONJ	comp	ConjType=Cmpr	7	mark	_	_
+5	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	7	aux:clitic	_	_
+6	palcem	palec	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl	_	_
+7	zasłonił	zasłonić	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl:cmpr	_	_
+8	światło	światło	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	wpadające	wpadać	ADJ	pact:pl:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	8	acl	_	_
+10	do	do	ADP	prep:gen	AdpType=Prep	11	case	_	_
+11	oka	oko	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	interp	PunctType=Comm	13	punct	_	_
+13	widzę	widzieć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+14	was	wy	PRON	ppron12:pl:acc:m1:sec	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur|Person=2|PronType=Prs	13	obj	_	_
+15	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	17	case	_	_
+16	tylnym	tylny	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	rzędzie	rząd	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl:arg	_	SpaceAfter=No
+18	.	.	PUNCT	interp	PunctType=Peri	7	punct	_	_
+
+# sent_id = 38
+# text = Co się dzieje?
+1	Co	co	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	3	nsubj	_	_
+2	się	się	PRON	part	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	dzieje	dziać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	interp	PunctType=Qest	3	punct	_	_
+
+# sent_id = 39
+# text = Księżyc rzuca cień na Ziemię.
+1	Księżyc	księżyc	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	rzuca	rzucać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	cień	cień	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
+4	na	na	ADP	prep:acc	AdpType=Prep	5	case	_	_
+5	Ziemię	ziemia	PROPN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 40
+# text = W tym cieniu umieszczamy teleskop lub aparat, znów patrzymy na Słońce i większość światła została usunięta, widać przyćmioną, drobną strukturę w koronie.
+1	W	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	3	case	_	_
+2	tym	ten	DET	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	cieniu	cień	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+4	umieszczamy	umieszczać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	teleskop	teleskop	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	lub	lub	CCONJ	conj	_	7	cc	_	_
+7	aparat	aparat	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+9	znów	znów	PART	part	_	10	advmod:emph	_	_
+10	patrzymy	patrzeć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+11	na	na	ADP	prep:acc	AdpType=Prep	12	case	_	_
+12	Słońce	Słońce	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	10	obl	_	_
+13	i	i	CCONJ	conj	_	17	cc	_	_
+14	większość	większość	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	17	nsubj:pass	_	_
+15	światła	światło	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	14	nmod:arg	_	_
+16	została	zostać	AUX	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	aux:pass	_	_
+17	usunięta	usunąć	ADJ	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	4	conj	_	SpaceAfter=No
+18	,	,	PUNCT	interp	PunctType=Comm	19	punct	_	_
+19	widać	widać	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	4	conj	_	_
+20	przyćmioną	przyćmić	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+21	,	,	PUNCT	interp	PunctType=Comm	22	punct	_	_
+22	drobną	drobny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	conj	_	_
+23	strukturę	struktura	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	19	iobj	_	_
+24	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	25	case	_	_
+25	koronie	korona	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 41
+# text = Spitzer proponował zrobić to w kosmosie.
+1	Spitzer	Spitzer	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	proponował	proponować	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	zrobić	zrobić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	to	to	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	_
+5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+6	kosmosie	kosmos	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 42
+# text = Zbudować wielki ekran, polecieć w kosmos, umieścić go przed gwiazdą, zasłonić większość światła, wysłać kosmiczny teleskop do uzyskanego cienia, i bum - możemy zobaczyć planety.
+1	Zbudować	zbudować	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	28	xcomp	_	_
+2	wielki	wielki	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	ekran	ekran	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	5	punct	_	_
+5	polecieć	polecieć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	conj	_	_
+6	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	7	case	_	_
+7	kosmos	kosmos	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl:arg	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+9	umieścić	umieścić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	conj	_	_
+10	go	on	PRON	ppron3:sg:acc:m1:ter:nakc:npraep	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	9	obj	_	_
+11	przed	przed	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	12	case	_	_
+12	gwiazdą	gwiazda	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	14	punct	_	_
+14	zasłonić	zasłonić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	conj	_	_
+15	większość	większość	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+16	światła	światło	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	15	nmod:arg	_	SpaceAfter=No
+17	,	,	PUNCT	interp	PunctType=Comm	18	punct	_	_
+18	wysłać	wysłać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	conj	_	_
+19	kosmiczny	kosmiczny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	teleskop	teleskop	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+21	do	do	ADP	prep:gen	AdpType=Prep	23	case	_	_
+22	uzyskanego	uzyskać	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	cienia	cień	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+24	,	,	PUNCT	interp	PunctType=Comm	26	punct	_	_
+25	i	i	CCONJ	conj	_	26	cc	_	_
+26	bum	bum	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	conj	_	_
+27	-	-	PUNCT	interp	PunctType=Hyph	1	punct	_	_
+28	możemy	móc	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+29	zobaczyć	zobaczyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	28	xcomp	_	_
+30	planety	planeta	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	29	obj	_	SpaceAfter=No
+31	.	.	PUNCT	interp	PunctType=Peri	28	punct	_	_
+
+# sent_id = 43
+# text = Tak by to mniej więcej wyglądało.
+1	Tak	tak	PART	part	_	6	advmod:emph	_	_
+2	by	by	AUX	part	_	6	aux:cnd	_	_
+3	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
+4	mniej	mało	ADV	adv:com	Degree=Cmp	6	advmod	_	_
+5	więcej	dużo	ADV	adv:com	Degree=Cmp	4	fixed	_	_
+6	wyglądało	wyglądać	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	6	punct	_	_
+
+# sent_id = 44
+# text = Jest ogromny ekran i nie ma planet, bo niestety to tak nie działa, gdyż światło faluje i fale ulegają dyfrakcji wokół tego ekranu tak samo jak w teleskopie.
+1	Jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+2	ogromny	ogromny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	ekran	ekran	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	i	i	CCONJ	conj	_	6	cc	_	_
+5	nie	nie	PART	part	Polarity=Neg	6	advmod:neg	_	_
+6	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	planet	planeta	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	6	iobj	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	14	punct	_	_
+9	bo	bo	SCONJ	comp	_	14	mark	_	_
+10	niestety	niestety	PART	part	_	14	advmod:emph	_	_
+11	to	to	PART	part	_	12	advmod:emph	_	_
+12	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	14	advmod	_	_
+13	nie	nie	PART	part	Polarity=Neg	14	advmod:neg	_	_
+14	działa	działać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	interp	PunctType=Comm	18	punct	_	_
+16	gdyż	gdyż	SCONJ	comp	_	18	mark	_	_
+17	światło	światło	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+18	faluje	falować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl	_	_
+19	i	i	CCONJ	conj	_	21	cc	_	_
+20	fale	fale	ADV	adv:pos	Degree=Pos	21	advmod	_	_
+21	ulegają	ulegać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	_	_
+22	dyfrakcji	dyfrakcja	NOUN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	21	iobj	_	_
+23	wokół	wokół	ADP	prep:gen	AdpType=Prep	25	case	_	_
+24	tego	ten	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
+25	ekranu	ekran	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	obl	_	_
+26	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	21	advmod	_	_
+27	samo	samo	ADV	adv:pos	Degree=Pos	26	fixed	_	_
+28	jak	jak	SCONJ	comp	ConjType=Cmpr	30	mark	_	_
+29	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	30	case	_	_
+30	teleskopie	teleskop	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	26	obl:cmpr	_	SpaceAfter=No
+31	.	.	PUNCT	interp	PunctType=Peri	6	punct	_	_
+
+# sent_id = 45
+# text = Tak jak woda opływa kamień w strumieniu, światło zakłóca ten cień.
+1	Tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	4	advmod	_	_
+2	jak	jak	SCONJ	comp	ConjType=Cmpr	3	mark	_	_
+3	woda	woda	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	obl:cmpr	_	_
+4	opływa	opływać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	kamień	kamień	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	7	case	_	_
+7	strumieniu	strumień	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+9	światło	światło	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+10	zakłóca	zakłócać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+11	ten	ten	DET	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	cień	cień	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 46
+# text = Okropny cień.
+1	Okropny	okropny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	cień	cień	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 47
+# text = I nie widać planet.
+1	I	i	CCONJ	conj	_	3	cc	_	_
+2	nie	nie	PART	part	Polarity=Neg	3	advmod:neg	_	_
+3	widać	widać	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	_	_
+4	planet	planeta	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	3	iobj	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 48
+# text = Ale Spitzer znał odpowiedź.
+1	Ale	ale	CCONJ	conj	_	3	cc	_	_
+2	Spitzer	Spitzer	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	znał	znać	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	odpowiedź	odpowiedź	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 49
+# text = Jeśli złagodzi się krawędzie, aby kontrolować dyfrakcję, można zobaczyć planetę.
+1	Jeśli	jeśli	SCONJ	comp	_	2	mark	_	_
+2	złagodzi	złagodzić	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	advcl	_	_
+3	się	się	PRON	part	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
+4	krawędzie	krawęda	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+6	aby	aby	SCONJ	comp	_	7	mark	_	_
+7	kontrolować	kontrolować	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	4	advcl	_	_
+8	dyfrakcję	dyfrakcja	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+10	można	można	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	4	conj	_	_
+11	zobaczyć	zobaczyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	planetę	planeta	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 50
+# text = Przez 10 ostatnich lat znaleziono optymalne rozwiązanie.
+1	Przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	4	case	_	_
+2	10	10	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	4	nummod:gov	_	_
+3	ostatnich	ostatni	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+4	lat	rok	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+5	znaleziono	znaleźć	VERB	imps:perf	Aspect=Perf|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	optymalne	optymalny	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	rozwiązanie	rozwiązanie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 51
+# text = Wygląda mniej więcej tak.
+1	Wygląda	wyglądać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	mniej	mało	ADV	adv:com	Degree=Cmp	4	advmod	_	_
+3	więcej	dużo	ADV	adv:com	Degree=Cmp	2	fixed	_	_
+4	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	1	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 52
+# text = Nazywamy to przesłoną gwiezdną z płatków kwiatów.
+1	Nazywamy	nazywać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	to	to	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	obj	_	_
+3	przesłoną	przesłony	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	1	iobj	_	_
+4	gwiezdną	gwiezdna	ADJ	adj:sg:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+5	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+6	płatków	płatek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+7	kwiatów	kwiat	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod:arg	_	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 53
+# text = Jeśli krawędzie tych płatków będą odpowiednie, to przez ich kontrolę możemy kontrolować dyfrakcję, i uzyskać doskonały cień.
+1	Jeśli	jeśli	SCONJ	comp	_	2	mark	_	_
+2	krawędzie	krawęda	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	advcl	_	_
+3	tych	ten	DET	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	płatków	płatek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obj	_	_
+5	będą	być	AUX	bedzie:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	cop	_	_
+6	odpowiednie	odpowiedni	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+8	to	to	SCONJ	comp	_	12	mark	_	_
+9	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	11	case	_	_
+10	ich	on	PRON	ppron3:pl:gen:m1:ter:akc:npraep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	11	nmod	_	_
+11	kontrolę	kontrola	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	13	obl:arg	_	_
+12	możemy	móc	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+13	kontrolować	kontrolować	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	dyfrakcję	dyfrakcja	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	interp	PunctType=Comm	17	punct	_	_
+16	i	i	CCONJ	conj	_	17	cc	_	_
+17	uzyskać	uzyskać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	13	conj	_	_
+18	doskonały	doskonały	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	cień	cień	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	interp	PunctType=Peri	6	punct	_	_
+
+# sent_id = 54
+# text = Jest około 10 miliardów razy ciemniejszy niż wcześniej i widać, jak pojawiają się planety.
+1	Jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	około	około	PART	part	_	3	advmod:emph	_	_
+3	10	10	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	4	nummod:gov	_	_
+4	miliardów	miliard	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nsubj	_	_
+5	razy	raz	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	ciemniejszy	ciemny	ADJ	adj:sg:nom:m3:com	Animacy=Inan|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	5	amod	_	_
+7	niż	niż	SCONJ	comp	ConjType=Cmpr	8	mark	_	_
+8	wcześniej	wcześnie	ADV	adv:com	Degree=Cmp	6	obl:cmpr	_	_
+9	i	i	CCONJ	conj	_	10	cc	_	_
+10	widać	widać	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	1	conj	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	13	punct	_	_
+12	jak	jak	ADV	adv:pos	Degree=Pos|PronType=Int	13	advmod	_	_
+13	pojawiają	pojawiać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+14	się	się	PRON	part	PronType=Prs|Reflex=Yes	13	expl:pv	_	_
+15	planety	planeta	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 55
+# text = Musi być oczywiście większe niż palec.
+1	Musi	musieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	być	być	AUX	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	4	cop	_	_
+3	oczywiście	oczywiście	ADV	adv:pos	Degree=Pos	4	parataxis:insert	_	_
+4	większe	duży	ADJ	adj:sg:nom:n:com	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	1	xcomp	_	_
+5	niż	niż	SCONJ	comp	ConjType=Cmpr	6	mark	_	_
+6	palec	palec	NOUN	subst:sg:nom:m2	Animacy=Nhum|Case=Nom|Gender=Masc|Number=Sing	4	obl:cmpr	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 56
+# text = Ta przesłona gwiezdna jest wielkości połowy boiska i musi odlecieć na 50 tysięcy kilometrów od teleskopu, pozostać dokładnie w cieniu i wtedy można zobaczyć planety.
+1	Ta	ten	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	przesłona	przesłyć	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	gwiezdna	gwiezdno	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+4	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
+5	wielkości	wielkość	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	0	root	_	_
+6	połowy	połowa	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	nmod:arg	_	_
+7	boiska	boisko	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	i	i	CCONJ	conj	_	9	cc	_	_
+9	musi	musieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+10	odlecieć	odlecieć	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	na	na	ADP	prep:acc	AdpType=Prep	14	case	_	_
+12	50	50	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	14	nummod:gov	_	_
+13	tysięcy	tysiąc	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	flat	_	_
+14	kilometrów	kilometr	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
+15	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	16	case	_	_
+16	teleskopu	teleskop	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	interp	PunctType=Comm	18	punct	_	_
+18	pozostać	pozostać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	10	conj	_	_
+19	dokładnie	dokładnie	ADV	adv:pos	Degree=Pos	18	advmod	_	_
+20	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	21	case	_	_
+21	cieniu	cień	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl:arg	_	_
+22	i	i	CCONJ	conj	_	24	cc	_	_
+23	wtedy	wtedy	ADV	adv	PronType=Dem	24	advmod	_	_
+24	można	można	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	5	conj	_	_
+25	zobaczyć	zobaczyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	24	xcomp	_	_
+26	planety	planeta	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	25	obj	_	SpaceAfter=No
+27	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 57
+# text = Brzmi to wspaniale, ale genialni inżynierowie, moi koledzy z laboratorium, stworzyli cudowny projekt uzyskania tego cienia, a wygląda to tak.
+1	Brzmi	brzmieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	_	_
+3	wspaniale	wspaniale	ADV	adv:pos	Degree=Pos	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	14	punct	_	_
+5	ale	ale	CCONJ	conj	_	14	cc	_	_
+6	genialni	genialny	ADJ	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
+7	inżynierowie	inżynier	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+9	moi	mój	DET	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	koledzy	kolega	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	7	appos	_	_
+11	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	12	case	_	_
+12	laboratorium	laboratorium	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+14	stworzyli	stworzyć	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+15	cudowny	cudowny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	projekt	projekt	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+17	uzyskania	uzyskać	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	16	nmod:arg	_	_
+18	tego	ten	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+19	cienia	cień	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	interp	PunctType=Comm	22	punct	_	_
+21	a	a	CCONJ	conj	_	22	cc	_	_
+22	wygląda	wyglądać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+23	to	to	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	24	iobj	_	_
+24	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	22	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 58
+# text = Najpierw jest owinięty wokół centrum.
+1	Najpierw	najpierw	ADV	adv	_	3	advmod	_	_
+2	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	owinięty	owinąć	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+4	wokół	wokół	ADP	prep:gen	AdpType=Prep	5	case	_	_
+5	centrum	centrum	NOUN	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 59
+# text = Oddziela się od teleskopu.
+1	Oddziela	Oddzielać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	się	się	PRON	part	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	4	case	_	_
+4	teleskopu	teleskop	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obl:arg	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 60
+# text = Płatki rozwijają się, otwierają, teleskop obraca się, następnie przekręca się i odlatuje 50 tysięcy kilometrów od teleskopu.
+1	Płatki	Płatek	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	rozwijają	rozwijać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	się	się	PRON	part	PronType=Prs|Reflex=Yes	2	expl:pv	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	5	punct	_	_
+5	otwierają	otwierać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+7	teleskop	teleskop	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	obraca	obracać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+9	się	się	PRON	part	PronType=Prs|Reflex=Yes	8	expl:pv	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+11	następnie	następnie	ADV	adv	_	12	advmod	_	_
+12	przekręca	przekręcać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+13	się	się	PRON	part	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+14	i	i	CCONJ	conj	_	15	cc	_	_
+15	odlatuje	odlatywać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
+16	50	50	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	18	nummod:gov	_	_
+17	tysięcy	tysiąc	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	flat	_	_
+18	kilometrów	kilometr	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obj	_	_
+19	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	20	case	_	_
+20	teleskopu	teleskop	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 61
+# text = Przemieści się przed gwiazdę, właśnie tak, tworząc cudowny cień.
+1	Przemieści	Przemieścić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	się	się	PRON	part	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	przed	przed	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	4	case	_	_
+4	gwiazdę	gwiazda	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+6	właśnie	właśnie	PART	part	_	7	advmod:emph	_	_
+7	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	1	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+9	tworząc	tworzyć	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	7	advcl	_	_
+10	cudowny	cudowny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	cień	cień	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 62
+# text = Gotowe, mamy planety krążące na orbicie.
+1	Gotowe	gotowy	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	iobj	_	SpaceAfter=No
+2	,	,	PUNCT	interp	PunctType=Comm	1	punct	_	_
+3	mamy	mieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	planety	planeta	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	3	iobj	_	_
+5	krążące	krążyć	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+6	na	na	ADP	prep:loc	AdpType=Prep	7	case	_	_
+7	orbicie	orbić	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 63
+# text = (Brawa) Dziękuję.
+1	(	(	PUNCT	interp	PunctSide=Ini|PunctType=Brck	2	punct	_	SpaceAfter=No
+2	Brawa	brawo	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+3	)	)	PUNCT	interp	PunctSide=Fin|PunctType=Brck	2	punct	_	_
+4	Dziękuję	dziękować	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 64
+# text = To nie jest science fiction.
+1	To	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	4	nsubj	_	_
+2	nie	nie	PART	part	Polarity=Neg	3	advmod:neg	_	_
+3	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	science	sciency	NOUN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	0	root	_	_
+5	fiction	fiction	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	4	nmod:arg	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 65
+# text = Pracujemy nad tym od pięciu czy sześciu lat.
+1	Pracujemy	pracować	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	nad	nad	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	3	case	_	_
+3	tym	to	PRON	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	1	obl:arg	_	_
+4	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	5	case	_	_
+5	pięciu	pięć	NUM	num:pl:gen:f:congr	Case=Gen|Gender=Fem|Number=Plur|NumForm=Word	1	obl	_	_
+6	czy	czy	CCONJ	conj	_	8	cc	_	_
+7	sześciu	sześć	NUM	num:pl:gen:m3:congr:ncol	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|NumForm=Word	8	nummod	_	_
+8	lat	rok	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 66
+# text = Tego lata przeprowadziliśmy fajny test w Northrop Grumman w Kaliforni.
+1	Tego	ten	DET	adj:sg:gen:n:pos	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
+2	lata	rok	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+3-4	przeprowadziliśmy	_	_	_	_	_	_	_	_
+3	przeprowadzili	przeprowadzić	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Plur|Person=1|Variant=Short	3	aux:clitic	_	_
+5	fajny	fajny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	test	test	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+7	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	8	case	_	_
+8	Northrop	Northrop	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
+9	Grumman	Grumman	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	nmod:arg	_	_
+10	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	11	case	_	_
+11	Kaliforni	Kalifornia	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 67
+# text = Oto cztery płatki.
+1	Oto	oto	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	_	_
+2	cztery	cztery	NUM	num:pl:acc:f:congr	Case=Acc|Gender=Fem|Number=Plur|NumForm=Word	3	nummod	_	_
+3	płatki	płatka	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	1	iobj	_	SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 68
+# text = To gwiezdny cień w małej skali.
+1	To	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	3	cop	_	_
+2	gwiezdny	gwiezdny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	cień	cień	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+5	małej	mały	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	skali	skala	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 69
+# text = Jest może połowę mniejszy niż ten, który widzieliście.
+1	Jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	może	móc	PART	part	PartType=Mod	3	advmod:emph	_	_
+3	połowę	połowa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+4	mniejszy	mny	ADJ	adj:sg:nom:m3:com	Animacy=Inan|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	3	amod	_	_
+5	niż	niż	SCONJ	comp	ConjType=Cmpr	6	mark	_	_
+6	ten	ten	DET	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	4	obl:cmpr	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+8	który	który	DET	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	9	nsubj	_	_
+9-10	widzieliście	_	_	_	_	_	_	_	SpaceAfter=No
+9	widzieli	widzieć	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	ście	być	AUX	aglt:pl:sec:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Plur|Person=2|Variant=Short	9	aux:clitic	_	_
+11	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 70
+# text = Płatki rozwijają się.
+1	Płatki	Płatek	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	rozwijają	rozwijać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	się	się	PRON	part	PronType=Prs|Reflex=Yes	2	expl:pv	_	SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 71
+# text = Te cztery płatki zbudowało czterech studentów w czasie letniego stażu w laboratorium.
+1	Te	ten	DET	adj:pl:nom:f:pos	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
+2	cztery	cztery	NUM	num:pl:nom:f:congr	Case=Nom|Gender=Fem|Number=Plur|NumForm=Word	3	nummod	_	_
+3	płatki	płatka	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+4	zbudowało	zbudować	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	czterech	cztery	NUM	num:pl:acc:m1:rec	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	6	nummod:gov	_	_
+6	studentów	student	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	4	obj	_	_
+7	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	10	case	_	_
+8	czasie	czas	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	fixed	_	_
+9	letniego	letni	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	stażu	staż	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+11	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	12	case	_	_
+12	laboratorium	laboratorium	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 72
+# text = Jak widzicie otwiera się.
+1	Jak	jak	ADV	adv:pos	Degree=Pos|PronType=Int	3	advmod	_	_
+2	widzicie	widzieć	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	3	nsubj	_	_
+3	otwiera	otwierać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	się	się	PRON	part	PronType=Prs|Reflex=Yes	3	expl:pv	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 73
+# text = Płatki muszą obrócić się na miejsce.
+1	Płatki	Płatek	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	muszą	musieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	obrócić	obrócić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	się	się	PRON	part	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+5	na	na	ADP	prep:acc	AdpType=Prep	6	case	_	_
+6	miejsce	miejsce	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 74
+# text = Podstawa płatków musi zawsze trafić w to samo miejsce z dokładnością do dziesiątych części milimetra.
+1	Podstawa	podstawa	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	płatków	płatek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod:arg	_	_
+3	musi	musieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	zawsze	zawsze	ADV	adv	PronType=Tot	5	advmod	_	_
+5	trafić	trafić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+6	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	9	case	_	_
+7	to	ten	DET	adj:sg:acc:n:pos	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	9	det	_	_
+8	samo	sam	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	fixed	_	_
+9	miejsce	miejsce	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+10	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	11	case	_	_
+11	dokładnością	dokładność	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	5	obl:arg	_	_
+12	do	do	ADP	prep:gen	AdpType=Prep	14	case	_	_
+13	dziesiątych	dziesiąty	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	14	amod	_	_
+14	części	część	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	11	nmod:arg	_	_
+15	milimetra	milimetr	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	14	nmod:arg	_	SpaceAfter=No
+16	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 75
+# text = Test przeprowadziliśmy 16 razy i 16 razy trafiła w to samo miejsce do dziesiątych części milimetra.
+1	Test	test	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2-3	przeprowadziliśmy	_	_	_	_	_	_	_	_
+2	przeprowadzili	przeprowadzić	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Plur|Person=1|Variant=Short	2	aux:clitic	_	_
+4	16	16	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	5	nummod	_	_
+5	razy	raz	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obl	_	_
+6	i	i	CCONJ	conj	_	9	cc	_	_
+7	16	16	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	8	nummod	_	_
+8	razy	raz	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obl	_	_
+9	trafiła	trafić	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+10	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	13	case	_	_
+11	to	ten	DET	adj:sg:acc:n:pos	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	13	det	_	_
+12	samo	sam	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	fixed	_	_
+13	miejsce	miejsce	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
+14	do	do	ADP	prep:gen	AdpType=Prep	16	case	_	_
+15	dziesiątych	dziesiąty	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	_
+16	części	część	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	9	obl:arg	_	_
+17	milimetra	milimetr	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	16	nmod:arg	_	SpaceAfter=No
+18	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 76
+# text = Musi to być zrobione bardzo precyzyjnie, ale jeśli stworzymy tę technologię i gdy przeniesiemy ją do kosmosu, można będzie zobaczyć coś takiego.
+1	Musi	musieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	_	_
+3	być	być	AUX	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	4	aux:pass	_	_
+4	zrobione	zrobić	ADJ	ppas:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	1	xcomp	_	_
+5	bardzo	bardzo	ADV	adv:pos	Degree=Pos	6	advmod	_	_
+6	precyzyjnie	precyzyjnie	ADV	adv:pos	Degree=Pos	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	20	punct	_	_
+8	ale	ale	CCONJ	conj	_	20	cc	_	_
+9	jeśli	jeśli	SCONJ	comp	_	10	mark	_	_
+10	stworzymy	stworzyć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	20	advcl	_	_
+11	tę	ten	DET	adj:sg:acc:f:pos	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	technologię	technologia	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+13	i	i	CCONJ	conj	_	15	cc	_	_
+14	gdy	gdy	ADV	adv	_	15	advmod	_	_
+15	przeniesiemy	przeniesąć	VERB	fin:pl:pri:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	10	conj	_	_
+16	ją	on	PRON	ppron3:sg:acc:f:ter:akc:npraep	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	15	obj	_	_
+17	do	do	ADP	prep:gen	AdpType=Prep	18	case	_	_
+18	kosmosu	kosmos	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+20	można	można	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	1	conj	_	_
+21	będzie	być	AUX	bedzie:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	aux	_	_
+22	zobaczyć	zobaczyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+23	coś	coś	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	22	obj	_	_
+24	takiego	taki	DET	adj:sg:gen:n:pos	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	23	det	_	SpaceAfter=No
+25	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 77
+# text = To zdjęcie jednej z najbliższych gwiazd, zrobione Kosmicznym Teleskopem Hubble'a.
+1	To	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	2	cop	_	_
+2	zdjęcie	zdjęcie	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+3	jednej	jeden	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+4	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+5	najbliższych	bliski	ADJ	adj:pl:gen:f:sup	Case=Gen|Degree=Sup|Gender=Fem|Number=Plur	6	amod	_	_
+6	gwiazd	gwiazda	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+8	zrobione	zrobić	ADJ	ppas:pl:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	3	conj	_	_
+9	Kosmicznym	Kosmiczny	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	Teleskopem	Teleskop	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	iobj	_	_
+11	Hubble'a	Hubble	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 78
+# text = Jeśli będziemy mogli podobny kosmiczny teleskop, trochę większy, umieścić tam, a przed niego wysłać przesłonę, moglibyśmy zobaczyć coś takiego, to portret rodzinny naszego Układu Słonecznego, ale nie naszego.
+1	Jeśli	jeśli	SCONJ	comp	_	3	mark	_	_
+2	będziemy	być	AUX	bedzie:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	3	aux	_	_
+3	mogli	móc	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	28	advcl	_	_
+4	podobny	podobny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	kosmiczny	kosmiczny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	teleskop	teleskop	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	iobj	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+8	trochę	trochę	ADV	adv	_	9	advmod	_	_
+9	większy	duży	ADJ	adj:sg:acc:m3:com	Animacy=Inan|Case=Acc|Degree=Cmp|Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+11	umieścić	umieścić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+12	tam	tam	ADV	adv	PronType=Dem	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	17	punct	_	_
+14	a	a	CCONJ	conj	_	17	cc	_	_
+15	przed	przed	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	16	case	_	_
+16	niego	on	PRON	ppron3:sg:gen:m1:ter:akc:praep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	17	obl	_	_
+17	wysłać	wysłać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	11	conj	_	_
+18	przesłonę	przesłona	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+19	,	,	PUNCT	interp	PunctType=Comm	20	punct	_	_
+20-22	moglibyśmy	_	_	_	_	_	_	_	_
+20	mogli	móc	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	_
+21	by	by	AUX	part	_	20	aux:cnd	_	_
+22	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Plur|Person=1|Variant=Short	20	aux:clitic	_	_
+23	zobaczyć	zobaczyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+24	coś	coś	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	23	obj	_	_
+25	takiego	taki	DET	adj:sg:gen:n:pos	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	24	det	_	SpaceAfter=No
+26	,	,	PUNCT	interp	PunctType=Comm	3	punct	_	_
+27	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	28	cop	_	_
+28	portret	portret	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+29	rodzinny	rodzinny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+30	naszego	nasz	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	Układu	układ	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+32	Słonecznego	słoneczny	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	SpaceAfter=No
+33	,	,	PUNCT	interp	PunctType=Comm	36	punct	_	_
+34	ale	ale	CCONJ	conj	_	36	cc	_	_
+35	nie	nie	PART	part	Polarity=Neg	36	advmod:neg	_	_
+36	naszego	nasz	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	31	conj	_	SpaceAfter=No
+37	.	.	PUNCT	interp	PunctType=Peri	28	punct	_	_
+
+# sent_id = 79
+# text = Mamy nadzieję, że będzie to Układ Słoneczny kogoś innego, widziany przez gwiezdną przesłonę, jak ta.
+1	Mamy	mieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	nadzieję	nadzieja	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	iobj	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+4	że	że	SCONJ	comp	_	7	mark	_	_
+5	będzie	być	AUX	bedzie:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	aux	_	_
+6	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	7	cop	_	_
+7	Układ	układ	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	ccomp	_	_
+8	Słoneczny	słoneczny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	kogoś	ktoś	PRON	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	7	nmod	_	_
+10	innego	inny	ADJ	adj:sg:acc:m1:pos	Animacy=Hum|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+12	widziany	widzieć	ADJ	ppas:sg:acc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	10	acl	_	_
+13	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	15	case	_	_
+14	gwiezdną	gwiezdny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	przesłonę	przesłona	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	12	obl:agent	_	SpaceAfter=No
+16	,	,	PUNCT	interp	PunctType=Comm	18	punct	_	_
+17	jak	jak	SCONJ	comp	ConjType=Cmpr	18	mark	_	_
+18	ta	ten	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	12	obl:cmpr	_	SpaceAfter=No
+19	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 80
+# text = Możecie zobaczyć Jowisza, Saturna, Urana, Neptuna, a pośrodku, obok szczątkowego światła jest ta "Błękitna kropka".
+1	Możecie	móc	VERB	fin:pl:sec:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	zobaczyć	zobaczyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3	Jowisza	Jowisz	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	5	punct	_	_
+5	Saturna	Saturn	PROPN	subst:sg:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+7	Urana	Uran	PROPN	subst:sg:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+9	Neptuna	Neptun	PROPN	subst:sg:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	21	punct	_	_
+11	a	a	CCONJ	conj	_	21	cc	_	_
+12	pośrodku	pośrodek	ADV	adv	_	21	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	21	punct	_	_
+14	obok	obok	ADP	prep:gen	AdpType=Prep	16	case	_	_
+15	szczątkowego	szczątkowy	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	światła	światło	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+17	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	_	_
+18	ta	ten	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
+19	"	"	PUNCT	interp	PunctType=Quot	21	punct	_	SpaceAfter=No
+20	Błękitna	Błękitny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	kropka	kropka	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+22	"	"	PUNCT	interp	PunctType=Quot	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 81
+# text = To Ziemia.
+1	To	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	2	cop	_	_
+2	Ziemia	Ziemia	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 82
+# text = Chcemy zobaczyć, czy jest tam woda, tlen, ozon, które mogłyby wskazać na to, czy istnieje na niej życie.
+1	Chcemy	chcieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	zobaczyć	zobaczyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	5	punct	_	_
+4	czy	czy	PART	part	PartType=Int	5	advmod	_	_
+5	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+6	tam	tam	ADV	adv	PronType=Dem	5	advmod	_	_
+7	woda	woda	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+9	tlen	tlen	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+11	ozon	ozon	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	interp	PunctType=Comm	14	punct	_	_
+13	które	który	DET	adj:pl:nom:f:pos	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	14	nsubj	_	_
+14-15	mogłyby	_	_	_	_	_	_	_	_
+14	mogły	móc	VERB	praet:pl:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+15	by	by	AUX	part	_	14	aux:cnd	_	_
+16	wskazać	wskazać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+17	na	na	ADP	prep:acc	AdpType=Prep	18	case	_	_
+18	to	to	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	16	obl:arg	_	SpaceAfter=No
+19	,	,	PUNCT	interp	PunctType=Comm	21	punct	_	_
+20	czy	czy	PART	part	PartType=Int	21	advmod	_	_
+21	istnieje	istnieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl:relcl	_	_
+22	na	na	ADP	prep:acc	AdpType=Prep	23	case	_	_
+23	niej	on	PRON	ppron3:sg:loc:f:ter:akc:praep	Case=Loc|Gender=Fem|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	21	obl:arg	_	_
+24	życie	życie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	SpaceAfter=No
+25	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 83
+# text = To chyba najfajniejsza dziedzina nauki.
+1	To	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	4	cop	_	_
+2	chyba	chyba	PART	part	_	4	advmod:emph	_	_
+3	najfajniejsza	fajny	ADJ	adj:sg:nom:f:sup	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing	4	amod	_	_
+4	dziedzina	dziedzina	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+5	nauki	nauka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod:arg	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 84
+# text = Zacząłem to robić, bo myślę, że to zmieni świat.
+1-2	Zacząłem	_	_	_	_	_	_	_	_
+1	Zaczął	zacząć	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Long	1	aux:clitic	_	_
+3	to	to	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	_
+4	robić	robić	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+6	bo	bo	SCONJ	comp	_	7	mark	_	_
+7	myślę	myśleć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+9	że	że	SCONJ	comp	_	11	mark	_	_
+10	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj	_	_
+11	zmieni	zmienić	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	ccomp	_	_
+12	świat	świat	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 85
+# text = Wszystko się zmieni, kiedy to zobaczymy.
+1	Wszystko	wszystko	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	3	nsubj	_	_
+2	się	się	PRON	part	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+3	zmieni	zmienić	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+5	kiedy	kiedy	ADV	adv	PronType=Int	7	advmod	_	_
+6	to	to	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	7	obj	_	_
+7	zobaczymy	zobaczyć	VERB	fin:pl:pri:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	3	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 86
+# text = Dziękuję.
+1	Dziękuję	dziękować	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	SpacesAfter=\n\n
+

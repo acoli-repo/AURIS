@@ -1,0 +1,778 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ﻿
+1	﻿	﻿	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = talkid: 2009
+1	talkid	talkid	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	interp	PunctType=Colo	1	punct	_	_
+3	2009	2009	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|NumForm=Digit|NumType=Ord	1	amod:flat	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 3
+# text = Kitra Cahana: Rzut oka na życie w drodze
+1	Kitra	Kiter	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Cahana	Cahan	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+3	:	:	PUNCT	interp	PunctType=Colo	1	punct	_	_
+4	Rzut	rzut	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	parataxis:obj	_	_
+5	oka	oko	NOUN	subst:sg:gen:n:col	Case=Gen|Gender=Neut|Number=Sing|NumType=Sets	4	nmod:arg	_	_
+6	na	na	ADP	prep:acc	AdpType=Prep	7	case	_	_
+7	życie	życie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	4	nmod:arg	_	_
+8	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	9	case	_	_
+9	drodze	droga	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 4
+# text = Jako dziewczynka wyobrażałam sobie, że pewnego dnia ucieknę.
+1	Jako	jako	SCONJ	comp	ConjType=Pred	2	mark	_	_
+2	dziewczynka	dziewczynka	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	obl	_	_
+3-4	wyobrażałam	_	_	_	_	_	_	_	_
+3	wyobrażała	wyobrażać	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	3	aux:clitic	_	_
+5	sobie	siebie	PRON	siebie:dat	Case=Dat|PronType=Prs|Reflex=Yes	3	expl:pv	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+7	że	że	SCONJ	comp	_	10	mark	_	_
+8	pewnego	pewien	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
+9	dnia	dzień	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+10	ucieknę	ucieknąć	VERB	fin:sg:pri:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	3	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 5
+# text = Odkąd skończyłam 6 lat, miałam spakowany plecak z ciuchami i puszki z jedzeniem schowane na dnie szafy.
+1	Odkąd	odkąd	ADV	adv	PronType=Int	2	advmod	_	_
+2-3	skończyłam	_	_	_	_	_	_	_	_
+2	skończyła	skończyć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	2	aux:clitic	_	_
+4	6	6	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	5	nummod:gov	_	_
+5	lat	rok	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	iobj	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+7-8	miałam	_	_	_	_	_	_	_	_
+7	miała	mieć	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	7	aux:clitic	_	_
+9	spakowany	spakować	ADJ	ppas:sg:acc:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	10	acl	_	_
+10	plecak	plecak	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	iobj	_	_
+11	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	12	case	_	_
+12	ciuchami	ciuch	NOUN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	10	nmod:arg	_	_
+13	i	i	CCONJ	conj	_	14	cc	_	_
+14	puszki	puszka	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	12	conj	_	_
+15	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	16	case	_	_
+16	jedzeniem	jedzenie	NOUN	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing	14	nmod	_	_
+17	schowane	schować	ADJ	ppas:pl:acc:f:perf:aff	Aspect=Perf|Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	16	acl	_	_
+18	na	na	ADP	prep:acc	AdpType=Prep	20	case	_	_
+19	dnie	dno	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	_
+20	szafy	szafa	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	17	obl:arg	_	SpaceAfter=No
+21	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 6
+# text = Był we mnie głęboki niepokój, lęk, że padnę ofiarą życia w rutynie i nudzie.
+1	Był	być	VERB	praet:sg:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	we	w	ADP	prep:loc:wok	AdpType=Prep|Variant=Long	3	case	_	_
+3	mnie	ja	PRON	ppron12:sg:loc:m1:pri	Animacy=Hum|Case=Loc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	1	obl:arg	_	_
+4	głęboki	głęboki	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	niepokój	niepokój	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+7	lęk	lęk	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+9	że	że	SCONJ	comp	_	10	mark	_	_
+10	padnę	paść	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	7	ccomp	_	_
+11	ofiarą	ofiara	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	10	nmod:arg	_	_
+12	życia	życie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	11	nmod:arg	_	_
+13	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	14	case	_	_
+14	rutynie	rutyna	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
+15	i	i	CCONJ	conj	_	16	cc	_	_
+16	nudzie	nuda	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 7
+# text = Dużo moich wspomnień z dzieciństwa zawiera zawiłe sny na jawie, w których przemierzam granice poszukując leśnych owoców i poznaję dziwnych ludzi prowadzących niekonwencjonalny, koczowniczy styl życia.
+1	Dużo	dużo	DET	num:pl:acc:f:rec	Case=Acc|Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	3	det:numgov	_	_
+2	moich	mój	DET	adj:pl:gen:n:pos	Case=Gen|Gender=Neut|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	wspomnień	wspomnienie	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	6	nsubj	_	_
+4	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	5	case	_	_
+5	dzieciństwa	dzieciństwo	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+6	zawiera	zawierać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	zawiłe	zawiły	ADJ	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+8	sny	sen	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+9	na	na	ADP	prep:loc	AdpType=Prep	10	case	_	_
+10	jawie	jawa	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	14	punct	_	_
+12	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	13	case	_	_
+13	których	który	DET	adj:pl:loc:f:pos	Case=Loc|Gender=Fem|Number=Plur|PronType=Rel	14	obl	_	_
+14	przemierzam	przemierzać	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+15	granice	granica	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	_
+16	poszukując	poszukiwać	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	15	advcl	_	_
+17	leśnych	leśny	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	18	amod	_	_
+18	owoców	owoc	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obj	_	_
+19	i	i	CCONJ	conj	_	20	cc	_	_
+20	poznaję	poznać	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	18	conj	_	_
+21	dziwnych	dziwny	ADJ	adj:pl:gen:m1:pos	Animacy=Hum|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	22	amod	_	_
+22	ludzi	człowiek	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	20	nmod:arg	_	_
+23	prowadzących	prowadzić	ADJ	pact:pl:gen:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	22	acl	_	_
+24	niekonwencjonalny	niekonwencjonalny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+25	,	,	PUNCT	interp	PunctType=Comm	26	punct	_	_
+26	koczowniczy	koczowniczy	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	conj	_	_
+27	styl	styl	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+28	życia	życie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	interp	PunctType=Peri	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = Lata minęły, a wiele przygód, o których śniłam jako dziecko, podróżując i snując się pomiędzy światami innymi od mojego, zostało zrealizowanych dzięki mojej pracy dokumentalistki.
+1	Lata	rok	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	minęły	minęć	VERB	praet:pl:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+4	a	a	CCONJ	conj	_	6	cc	_	_
+5	wiele	wiele	DET	num:pl:nom:f:rec	Case=Nom|Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	6	det:numgov	_	_
+6	przygód	przygoda	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+8	o	o	ADP	prep:loc	AdpType=Prep	9	case	_	_
+9	których	który	DET	adj:pl:loc:f:pos	Case=Loc|Gender=Fem|Number=Plur|PronType=Rel	10	obl:arg	_	_
+10-11	śniłam	_	_	_	_	_	_	_	_
+10	śniła	śnić	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+11	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	10	aux:clitic	_	_
+12	jako	jako	SCONJ	comp	ConjType=Pred	13	mark	_	_
+13	dziecko	dziecko	NOUN	subst:sg:nom:n:col	Case=Nom|Gender=Neut|Number=Sing|NumType=Sets	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	15	punct	_	_
+15	podróżując	podróżować	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	10	advcl	_	_
+16	i	i	CCONJ	conj	_	21	cc	_	_
+17	snując	snować	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	21	advcl	_	_
+18	się	się	PRON	part	PronType=Prs|Reflex=Yes	17	expl:pv	_	_
+19	pomiędzy	pomiędzy	ADP	prep:inst	AdpType=Prep	20	case	_	_
+20	światami	świat	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	17	obl	_	_
+21	innymi	inny	ADJ	adj:pl:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	10	conj	_	_
+22	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	23	case	_	_
+23	mojego	mój	DET	adj:sg:gen:n:pos	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	21	obl:cmpr	_	SpaceAfter=No
+24	,	,	PUNCT	interp	PunctType=Comm	26	punct	_	_
+25	zostało	zostać	AUX	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	26	aux:pass	_	_
+26	zrealizowanych	zrealizować	ADJ	ppas:pl:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	23	conj	_	_
+27	dzięki	dzięki	ADP	prep:dat	AdpType=Prep	29	case	_	_
+28	mojej	mój	DET	adj:sg:gen:f:pos	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	pracy	praca	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	26	obl	_	_
+30	dokumentalistki	dokumentalistka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	29	nmod:arg	_	SpaceAfter=No
+31	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 9
+# text = Żadne inne doświadczenie nie było tak podobne do moich marzeń z dzieciństwa, jak dokumentowanie stylu życia włóczęgów w Stanach Zjednoczonych.
+1	Żadne	żaden	DET	adj:sg:nom:n:pos	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	3	det	_	_
+2	inne	inny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	doświadczenie	doświadczenie	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+4	nie	nie	PART	part	Polarity=Neg	5	advmod:neg	_	_
+5	było	być	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	15	advmod	_	_
+7	podobne	podobny	ADJ	adj:pl:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	15	amod	_	_
+8	do	do	ADP	prep:gen	AdpType=Prep	10	case	_	_
+9	moich	mój	DET	adj:pl:gen:n:pos	Case=Gen|Gender=Neut|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	marzeń	marzenie	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	_
+11	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	12	case	_	_
+12	dzieciństwa	dzieciństwo	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	15	punct	_	_
+14	jak	jak	SCONJ	comp	ConjType=Cmpr	15	mark	_	_
+15	dokumentowanie	dokumentować	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	5	nsubj	_	_
+16	stylu	styl	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obj	_	_
+17	życia	życie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	włóczęgów	włóczęga	NOUN	subst:pl:gen:n:pt	Case=Gen|Gender=Neut|Number=Ptan	17	nmod	_	_
+19	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	20	case	_	_
+20	Stanach	Stany	PROPN	subst:pl:loc:n:pt	Case=Loc|Gender=Neut|Number=Ptan	15	nmod	_	_
+21	Zjednoczonych	Zjednoczone	ADJ	adj:pl:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	20	amod:flat	_	SpaceAfter=No
+22	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 10
+# text = To jest właśnie sen wędrowców, inna wersja amerykańskiego snu, sposób życia młodych bezdomnych, podróżników, autostopowiczów, włóczęgów i kloszardów.
+1	To	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	4	cop	_	_
+2	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+3	właśnie	właśnie	PART	part	_	4	advmod:emph	_	_
+4	sen	sen	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+5	wędrowców	wędrowiec	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+7	inna	inny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	wersja	wersja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	_
+9	amerykańskiego	amerykański	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	snu	sen	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod:arg	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+12	sposób	sposób	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
+13	życia	życie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	młodych	młody	ADJ	adj:pl:gen:m1:pos	Animacy=Hum|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_
+15	bezdomnych	bezdomny	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	interp	PunctType=Comm	17	punct	_	_
+17	podróżników	podróżnik	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
+18	,	,	PUNCT	interp	PunctType=Comm	19	punct	_	_
+19	autostopowiczów	autostopowicz	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
+20	,	,	PUNCT	interp	PunctType=Comm	21	punct	_	_
+21	włóczęgów	włóczęga	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	conj	_	_
+22	i	i	CCONJ	conj	_	23	cc	_	_
+23	kloszardów	kloszard	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
+24	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Dla większości z nas postać wędrowca jest reliktem przeszłości.
+1	Dla	dla	ADP	prep:gen	AdpType=Prep	2	case	_	_
+2	większości	większość	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+3	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	4	case	_	_
+4	nas	my	PRON	ppron12:pl:gen:m1:pri	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	2	nmod:arg	_	_
+5	postać	postać	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+6	wędrowca	wędrowiec	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod:arg	_	_
+7	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
+8	reliktem	relikt	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+9	przeszłości	przeszłość	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	8	punct	_	_
+
+# sent_id = 12
+# text = Wyraz "włóczęga" przywołuje na myśl starą, biało-czarną fotografię postarzałego mężczyzny pokrytego węglem, z nogami zwisającymi z brzegu wagonu, ale te zdjęcia są w kolorze, przedstawiają społeczność rozpowszechnioną w całym kraju, nieustannie aktywną i kreatywnie wolną, obserwującą oblicza Ameryki, jakich nikt inny nie ma okazji zobaczyć.
+1	Wyraz	wyraz	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	"	"	PUNCT	interp	PunctType=Quot	3	punct	_	SpaceAfter=No
+3	włóczęga	włóczęga	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+4	"	"	PUNCT	interp	PunctType=Quot	3	punct	_	_
+5	przywołuje	przywoływać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	na	na	ADP	prep:acc	AdpType=Prep	7	case	_	_
+7	myśl	myśl	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+8	starą	stary	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+10	biało	biały	ADJ	adja	Hyph=Yes	7	amod	_	SpaceAfter=No
+11	-	-	PUNCT	interp	PunctType=Hyph	12	punct	_	SpaceAfter=No
+12	czarną	czarny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	conj	_	_
+13	fotografię	fotografia	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	_
+14	postarzałego	postarzały	ADJ	adj:sg:gen:m1:pos	Animacy=Hum|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	mężczyzny	mężczyzna	NOUN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	pokrytego	pokryć	ADJ	adj:sg:gen:m1:pos	Animacy=Hum|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	węglem	węgiel	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	interp	PunctType=Comm	20	punct	_	_
+19	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	20	case	_	_
+20	nogami	noga	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	10	conj	_	_
+21	zwisającymi	zwisać	ADJ	pact:pl:inst:f:imperf:aff	Aspect=Imp|Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	24	acl	_	_
+22	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	23	case	_	_
+23	brzegu	brzeg	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	obl	_	_
+24	wagonu	wagon	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	interp	PunctType=Comm	31	punct	_	_
+26	ale	ale	CCONJ	conj	_	31	cc	_	_
+27	te	ten	DET	adj:pl:nom:n:pos	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	28	det	_	_
+28	zdjęcia	zdjęcie	NOUN	subst:pl:nom:n:ncol	Case=Nom|Gender=Neut|Number=Plur	31	nsubj	_	_
+29	są	być	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	cop	_	_
+30	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	31	case	_	_
+31	kolorze	kolor	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+32	,	,	PUNCT	interp	PunctType=Comm	33	punct	_	_
+33	przedstawiają	przedstawiać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+34	społeczność	społeczność	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	33	obj	_	_
+35	rozpowszechnioną	rozpowszechnić	ADJ	ppas:sg:acc:f:perf:aff	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	34	acl	_	_
+36	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	38	case	_	_
+37	całym	cały	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
+38	kraju	kraj	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
+39	,	,	PUNCT	interp	PunctType=Comm	41	punct	_	_
+40	nieustannie	nieustannie	ADV	adv:pos	Degree=Pos	41	advmod	_	_
+41	aktywną	aktywny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	conj	_	_
+42	i	i	CCONJ	conj	_	44	cc	_	_
+43	kreatywnie	kreatywnie	ADV	adv:pos	Degree=Pos	44	advmod	_	_
+44	wolną	wolny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	41	conj	_	SpaceAfter=No
+45	,	,	PUNCT	interp	PunctType=Comm	46	punct	_	_
+46	obserwującą	obserwować	ADJ	pact:sg:acc:f:imperf:aff	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	41	conj	_	_
+47	oblicza	oblicze	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	41	conj	_	_
+48	Ameryki	Ameryka	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	47	obj	_	SpaceAfter=No
+49	,	,	PUNCT	interp	PunctType=Comm	54	punct	_	_
+50	jakich	jaki	DET	adj:pl:gen:f:pos	Case=Gen|Gender=Fem|Number=Plur|PronType=Rel	55	det	_	_
+51	nikt	nikt	PRON	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|PronType=Neg	54	nsubj	_	_
+52	inny	inny	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	51	amod	_	_
+53	nie	nie	PART	part	Polarity=Neg	54	advmod:neg	_	_
+54	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	47	conj	_	_
+55	okazji	okazja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	56	obl	_	_
+56	zobaczyć	zobaczyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	54	xcomp	_	SpaceAfter=No
+57	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = Podobnie jak ich przodkowie, współcześni wędrowcy podążają stalowymi i asfaltowymi ścieżkami Stanów Zjednoczonych.
+1	Podobnie	podobnie	ADV	adv:pos	Degree=Pos	0	root	_	_
+2	jak	jak	SCONJ	comp	ConjType=Cmpr	4	mark	_	_
+3	ich	on	PRON	ppron3:pl:gen:m1:ter:akc:npraep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	4	nmod	_	_
+4	przodkowie	przodek	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	1	obl:cmpr	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+6	współcześni	współczesny	ADJ	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
+7	wędrowcy	wędrowiec	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	podążają	podążać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+9	stalowymi	stalowy	ADJ	adj:pl:inst:m2:pos	Animacy=Nhum|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
+10	i	i	CCONJ	conj	_	11	cc	_	_
+11	asfaltowymi	asfaltowy	ADJ	adj:pl:inst:m2:pos	Animacy=Nhum|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	9	conj	_	_
+12	ścieżkami	ścieżka	NOUN	subst:pl:inst:m2	Animacy=Nhum|Case=Ins|Gender=Masc|Number=Plur	8	iobj	_	_
+13	Stanów	Stany	PROPN	subst:pl:gen:n:pt	Case=Gen|Gender=Neut|Number=Ptan	12	nmod:arg	_	_
+14	Zjednoczonych	Zjednoczone	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	13	amod:flat	_	SpaceAfter=No
+15	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 14
+# text = W dzień zeskakują z pociągów towarowych, wystawiają uniesione kciuki i przemierzają autostrady z kim bądź, od kierowców ciężarówek do matek z dziećmi.
+1	W	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	2	case	_	_
+2	dzień	dzień	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+3	zeskakują	zeskakiwać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	5	case	_	_
+5	pociągów	pociąg	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl:arg	_	_
+6	towarowych	towarowy	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+8	wystawiają	wystawiać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+9	uniesione	unieść	ADJ	ppas:pl:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	acl	_	_
+10	kciuki	kciuk	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+11	i	i	CCONJ	conj	_	12	cc	_	_
+12	przemierzają	przemierzać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+13	autostrady	autostrada	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	_
+14	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	15	case	_	_
+15	kim	kto	PRON	subst:sg:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Sing|PronType=Rel	13	nmod	_	_
+16	bądź	być	CCONJ	conj	_	19	cc	_	SpaceAfter=No
+17	,	,	PUNCT	interp	PunctType=Comm	19	punct	_	_
+18	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	19	case	_	_
+19	kierowców	kierowca	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	15	conj	_	_
+20	ciężarówek	ciężarówka	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	19	nmod:arg	_	_
+21	do	do	ADP	prep:gen	AdpType=Prep	22	case	_	_
+22	matek	matka	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	19	nmod:arg	_	_
+23	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	24	case	_	_
+24	dziećmi	dziecko	NOUN	subst:pl:inst:n:col	Case=Ins|Gender=Neut|Number=Plur|NumType=Sets	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 15
+# text = W nocy śpią pod rozgwieżdżonym niebem, wtuleni w stada psów, z kotami i udomowionymi szczurami pomiędzy swoimi ciałami.
+1	W	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	2	case	_	_
+2	nocy	noc	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+3	śpią	spać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	pod	pod	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+5	rozgwieżdżonym	rozgwieżdżyć	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	niebem	niebo	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+8	wtuleni	wtulić	ADJ	ppas:pl:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	3	xcomp	_	_
+9	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	10	case	_	_
+10	stada	stado	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
+11	psów	pies	NOUN	subst:pl:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	interp	PunctType=Comm	14	punct	_	_
+13	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	14	case	_	_
+14	kotami	kot	NOUN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	8	obl	_	_
+15	i	i	CCONJ	conj	_	17	cc	_	_
+16	udomowionymi	udomowiony	ADJ	ppas:pl:inst:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Ins|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	17	acl	_	_
+17	szczurami	szczur	NOUN	subst:pl:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	14	conj	_	_
+18	pomiędzy	pomiędzy	ADP	prep:inst	AdpType=Prep	20	case	_	_
+19	swoimi	swój	DET	adj:pl:inst:m3:pos	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	20	det:poss	_	_
+20	ciałami	ciało	NOUN	subst:pl:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Dla niektórych życie koczownika to wybór, odrzucenie materializmu, tradycyjnej pracy i akademickich dyplomów w zamian za odrobinę przygody.
+1	Dla	dla	ADP	prep:gen	AdpType=Prep	3	case	_	_
+2	niektórych	niektóry	DET	adj:pl:gen:n:pos	Case=Gen|Gender=Neut|Number=Plur|PronType=Ind	3	det	_	_
+3	życie	życie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+4	koczownika	koczownik	NOUN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	6	cop	_	_
+6	wybór	wybór	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+8	odrzucenie	odrzucić	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	6	conj	_	_
+9	materializmu	materializm	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+11	tradycyjnej	tradycyjny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	pracy	praca	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	9	conj	_	_
+13	i	i	CCONJ	conj	_	15	cc	_	_
+14	akademickich	akademicki	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_
+15	dyplomów	dyplom	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	conj	_	_
+16	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	19	case	_	_
+17	zamian	zamian	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	fixed	_	_
+18	za	za	ADP	prep:acc	AdpType=Prep	16	fixed	_	_
+19	odrobinę	odrobina	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	_
+20	przygody	przygoda	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	19	nmod:arg	_	SpaceAfter=No
+21	.	.	PUNCT	interp	PunctType=Peri	6	punct	_	_
+
+# sent_id = 17
+# text = Inni pochodzą z nizin społecznych i nigdy nie dostali szansy na wyrwanie się stamtąd.
+1	Inni	inny	ADJ	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	pochodzą	pochodzić	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	4	case	_	_
+4	nizin	nizina	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	2	obl:arg	_	_
+5	społecznych	społeczny	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+6	i	i	CCONJ	conj	_	9	cc	_	_
+7	nigdy	nigdy	ADV	adv	PronType=Neg	9	advmod	_	_
+8	nie	nie	PART	part	Polarity=Neg	9	advmod:neg	_	_
+9	dostali	dostać	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+10	szansy	szansa	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	9	iobj	_	_
+11	na	na	ADP	prep:acc	AdpType=Prep	12	case	_	_
+12	wyrwanie	wyrwać	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	10	nmod	_	_
+13	się	się	PRON	part	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+14	stamtąd	stamtąd	ADV	adv	PronType=Dem	12	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 18
+# text = Sieroty i nastolatki uciekające przed prześladowaniem i bezlitosnym otoczeniem.
+1	Sieroty	sierota	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+2	i	i	CCONJ	conj	_	3	cc	_	_
+3	nastolatki	nastolatek	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
+4	uciekające	uciekać	ADJ	pact:pl:nom:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	3	acl	_	_
+5	przed	przed	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+6	prześladowaniem	prześladować	NOUN	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing	4	obl	_	_
+7	i	i	CCONJ	conj	_	9	cc	_	_
+8	bezlitosnym	bezlitosny	ADJ	adj:sg:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	otoczeniem	otoczenie	NOUN	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = Tam, gdzie inni widzą historie o ubóstwie i porażce ekonomicznej, podróżnicy widzą swoją własną egzystencję przez pryzmat wyzwolenia i wolności.
+1	Tam	tam	ADV	adv	PronType=Dem	14	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	interp	PunctType=Comm	5	punct	_	_
+3	gdzie	gdzie	ADV	adv	PronType=Rel	5	advmod	_	_
+4	inni	inny	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	widzą	widzieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+6	historie	historia	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+7	o	o	ADP	prep:loc	AdpType=Prep	8	case	_	_
+8	ubóstwie	ubóstwo	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	6	nmod:arg	_	_
+9	i	i	CCONJ	conj	_	10	cc	_	_
+10	porażce	porażka	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	8	conj	_	_
+11	ekonomicznej	ekonomiczny	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	interp	PunctType=Comm	5	punct	_	_
+13	podróżnicy	podróżnik	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+14	widzą	widzieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+15	swoją	swój	DET	adj:sg:acc:f:pos	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	17	det:poss	_	_
+16	własną	własny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	egzystencję	egzystencja	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+18	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	19	case	_	_
+19	pryzmat	pryzmat	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
+20	wyzwolenia	wyzwolenie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	19	nmod:arg	_	_
+21	i	i	CCONJ	conj	_	22	cc	_	_
+22	wolności	wolność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	interp	PunctType=Peri	14	punct	_	_
+
+# sent_id = 20
+# text = Oni wybierają życie bez nadmiaru, odrzucają zwyczaje rozrzutnego, konsumpcyjnego społeczeństwa, nie dają się zniewolić mrzonce tradycyjnego amerykańskiego snu.
+1	Oni	on	PRON	ppron3:pl:nom:m1:ter:akc:npraep	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	2	nsubj	_	_
+2	wybierają	wybierać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	życie	życie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	bez	bez	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	5	case	_	_
+5	nadmiaru	nadmiar	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+7	odrzucają	odrzucać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	zwyczaje	zwyczaj	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+9	rozrzutnego	rozrzutny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+11	konsumpcyjnego	konsumpcyjny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	conj	_	_
+12	społeczeństwa	społeczeństwo	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	15	punct	_	_
+14	nie	nie	PART	part	Polarity=Neg	15	advmod:neg	_	_
+15	dają	dawać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+16	się	się	PRON	part	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
+17	zniewolić	zniewolić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+18	mrzonce	mrzonka	NOUN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	17	iobj	_	_
+19	tradycyjnego	tradycyjny	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+20	amerykańskiego	amerykański	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	snu	sen	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod:arg	_	SpaceAfter=No
+22	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 21
+# text = Wykorzystują fakt, że w Stanach Zjednoczonych 40% żywności kończy na śmietniku, przeszukując kontenery i śmietniki w poszukiwaniu dobrych jeszcze produktów.
+1	Wykorzystują	wykorzystywać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	fakt	fakt	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+4	że	że	SCONJ	comp	_	11	mark	_	_
+5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+6	Stanach	Stany	PROPN	subst:pl:loc:n:pt	Case=Loc|Gender=Neut|Number=Ptan	11	obl	_	_
+7	Zjednoczonych	Zjednoczone	ADJ	ppas:pl:acc:f:imperf:aff	Aspect=Imp|Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	6	acl	_	_
+8	40	40	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	9	nummod:gov	_	SpaceAfter=No
+9	%	%	SYM	interp	_	7	iobj	_	_
+10	żywności	żywność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	9	nmod:arg	_	_
+11	kończy	kończyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+12	na	na	ADP	prep:loc	AdpType=Prep	13	case	_	_
+13	śmietniku	śmietnik	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	15	punct	_	_
+15	przeszukując	przeszukować	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	11	advcl	_	_
+16	kontenery	kontener	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obj	_	_
+17	i	i	CCONJ	conj	_	18	cc	_	_
+18	śmietniki	śmietnik	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	conj	_	_
+19	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	20	case	_	_
+20	poszukiwaniu	poszukiwać	NOUN	ger:sg:loc:n:imperf:aff	Aspect=Imp|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	15	obl	_	_
+21	dobrych	dobry	ADJ	adj:pl:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	20	amod	_	_
+22	jeszcze	jeszcze	PART	part	_	23	advmod:emph	_	_
+23	produktów	produkt	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	obj	_	SpaceAfter=No
+24	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 22
+# text = Poświęcają komfort materialny, zyskując przestrzeń i czas na odkrywanie swojego kreatywnego wnętrza, na marzenie, czytanie, pisanie, tworzenie muzyki i malowanie.
+1	Poświęcają	poświęcać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	komfort	komfort	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+3	materialny	materialny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	5	punct	_	_
+5	zyskując	zyskiwać	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	1	advcl	_	_
+6	przestrzeń	przestrzeń	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	i	i	CCONJ	conj	_	8	cc	_	_
+8	czas	czas	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	conj	_	_
+9	na	na	ADP	prep:acc	AdpType=Prep	10	case	_	_
+10	odkrywanie	odkrywać	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	5	obl	_	_
+11	swojego	swój	DET	adj:sg:gen:n:pos	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	13	det:poss	_	_
+12	kreatywnego	kreatywny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	wnętrza	wnętrze	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	10	obj	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	16	punct	_	_
+15	na	na	ADP	prep:acc	AdpType=Prep	16	case	_	_
+16	marzenie	marzenie	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	13	conj	_	SpaceAfter=No
+17	,	,	PUNCT	interp	PunctType=Comm	18	punct	_	_
+18	czytanie	czytać	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	interp	PunctType=Comm	20	punct	_	_
+20	pisanie	pisać	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	16	conj	_	SpaceAfter=No
+21	,	,	PUNCT	interp	PunctType=Comm	22	punct	_	_
+22	tworzenie	tworzyć	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	16	conj	_	_
+23	muzyki	muzyka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	22	obj	_	_
+24	i	i	CCONJ	conj	_	25	cc	_	_
+25	malowanie	malować	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	16	conj	_	SpaceAfter=No
+26	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = Jednak wiele aspektów takiego życia jest dalekich od ideału.
+1	Jednak	jednak	CCONJ	conj	_	7	cc	_	_
+2	wiele	wiele	DET	num:pl:nom:m3:rec	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	3	det:numgov	_	_
+3	aspektów	aspekt	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nsubj	_	_
+4	takiego	taki	DET	adj:sg:gen:n:pos	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
+5	życia	życie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+6	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+7	dalekich	daleki	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	_
+8	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	9	case	_	_
+9	ideału	ideał	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	7	punct	_	_
+
+# sent_id = 24
+# text = Wyruszając w podróż, nie pozbywamy się wewnętrznych demonów.
+1	Wyruszając	Wyruszać	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	6	advcl	_	_
+2	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	3	case	_	_
+3	podróż	podróż	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	1	punct	_	_
+5	nie	nie	PART	part	Polarity=Neg	6	advmod:neg	_	_
+6	pozbywamy	pozbywać	VERB	fin:pl:pri:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	się	się	PRON	part	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+8	wewnętrznych	wewnętrzny	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
+9	demonów	demon	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	iobj	_	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	6	punct	_	_
+
+# sent_id = 25
+# text = Uzależnienie jest prawdziwe, przestępczość jest prawdziwa, jazda pociągiem towarowym może skończyć się ranami i śmiercią.
+1	Uzależnienie	uzależnienie	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	prawdziwe	prawdziwy	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+5	przestępczość	przestępczość	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+7	prawdziwa	prawdziwy	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+9	jazda	jazda	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+10	pociągiem	pociąg	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	nmod	_	_
+11	towarowym	towarowy	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+12	może	móc	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+13	skończyć	skończyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	się	się	PRON	part	PronType=Prs|Reflex=Yes	13	expl:pv	_	_
+15	ranami	rano	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	13	iobj	_	_
+16	i	i	CCONJ	conj	_	17	cc	_	_
+17	śmiercią	śmierć	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 26
+# text = Każdy, kto mieszkał na ulicy, może wskazać niewyczerpaną listę przepisów delegalizujących życie bezdomnych.
+1	Każdy	każdy	DET	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	interp	PunctType=Comm	4	punct	_	_
+3	kto	kto	PRON	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	4	nsubj	_	_
+4	mieszkał	mieszkać	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+5	na	na	ADP	prep:loc	AdpType=Prep	6	case	_	_
+6	ulicy	ulica	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	4	punct	_	_
+8	może	móc	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	wskazać	wskazać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	niewyczerpaną	niewyczerpany	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	listę	lista	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+12	przepisów	przepis	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod:arg	_	_
+13	delegalizujących	delegalizować	ADJ	pact:pl:gen:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	12	acl	_	_
+14	życie	życie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+15	bezdomnych	bezdomny	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	interp	PunctType=Peri	8	punct	_	_
+
+# sent_id = 27
+# text = Kto z was zdaje sobie sprawę, że w wielu amerykańskich miastach nielegalne jest: siedzenie na krawężniku, okrywanie się kocem, spanie we własnym samochodzie, zaoferowanie jedzenia nieznajomemu?
+1	Kto	kto	PRON	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|PronType=Int	4	nsubj	_	_
+2	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	3	case	_	_
+3	was	wy	PRON	ppron12:pl:gen:m1:sec	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Person=2|PronType=Prs	1	nmod	_	_
+4	zdaje	zdawać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	sobie	siebie	PRON	siebie:dat	Case=Dat|PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+6	sprawę	sprawa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	4	iobj	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	13	punct	_	_
+8	że	że	SCONJ	comp	_	13	mark	_	_
+9	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	12	case	_	_
+10	wielu	wiele	DET	num:pl:loc:n:congr:ncol	Case=Loc|Gender=Neut|Number=Plur|NumType=Card|PronType=Ind	12	det:nummod	_	_
+11	amerykańskich	amerykański	ADJ	adj:pl:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	12	amod	_	_
+12	miastach	miasto	NOUN	subst:pl:loc:n:ncol	Case=Loc|Gender=Neut|Number=Plur	13	obl	_	_
+13	nielegalne	nielegalny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	ccomp	_	_
+14	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	SpaceAfter=No
+15	:	:	PUNCT	interp	PunctType=Colo	13	punct	_	_
+16	siedzenie	siedzenie	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+17	na	na	ADP	prep:loc	AdpType=Prep	18	case	_	_
+18	krawężniku	krawężnik	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	interp	PunctType=Comm	20	punct	_	_
+20	okrywanie	okrywać	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	16	conj	_	_
+21	się	się	PRON	part	PronType=Prs|Reflex=Yes	20	expl:pv	_	_
+22	kocem	koc	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	iobj	_	SpaceAfter=No
+23	,	,	PUNCT	interp	PunctType=Comm	24	punct	_	_
+24	spanie	spać	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	16	conj	_	_
+25	we	w	ADP	prep:loc:wok	AdpType=Prep|Variant=Long	27	case	_	_
+26	własnym	własny	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	samochodzie	samochód	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	,	,	PUNCT	interp	PunctType=Comm	29	punct	_	_
+29	zaoferowanie	zaoferować	NOUN	ger:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	16	conj	_	_
+30	jedzenia	jedzenie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	29	obj	_	_
+31	nieznajomemu	nieznajom	ADJ	adj:sg:dat:n:pos	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	SpaceAfter=No
+32	?	?	PUNCT	interp	PunctType=Qest	4	punct	_	_
+
+# sent_id = 28
+# text = Poznałam te przepisy, gdyż widziałam, jak moi koledzy i inni podróżnicy byli wtrącani do więzienia albo dostawali mandaty za popełnienie tych tak zwanych przestępstw.
+1-2	Poznałam	_	_	_	_	_	_	_	_
+1	Poznała	poznać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	1	aux:clitic	_	_
+3	te	ten	DET	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	przepisy	przepis	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+6	gdyż	gdyż	SCONJ	comp	_	7	mark	_	_
+7-8	widziałam	_	_	_	_	_	_	_	SpaceAfter=No
+7	widziała	widzieć	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	_
+8	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	7	aux:clitic	_	_
+9	,	,	PUNCT	interp	PunctType=Comm	17	punct	_	_
+10	jak	jak	SCONJ	comp	_	17	mark	_	_
+11	moi	mój	DET	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	koledzy	kolega	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+13	i	i	CCONJ	conj	_	15	cc	_	_
+14	inni	inny	ADJ	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_
+15	podróżnicy	podróżnik	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	12	conj	_	_
+16	byli	być	AUX	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	cop	_	_
+17	wtrącani	wtrącać	ADJ	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	ccomp	_	_
+18	do	do	ADP	prep:gen	AdpType=Prep	19	case	_	_
+19	więzienia	więzienie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	17	obl	_	_
+20	albo	albo	CCONJ	conj	_	21	cc	_	_
+21	dostawali	dostawać	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	_	_
+22	mandaty	mandat	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	21	obj	_	_
+23	za	za	ADP	prep:acc	AdpType=Prep	24	case	_	_
+24	popełnienie	popełnić	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	21	obl	_	_
+25	tych	ten	DET	adj:pl:gen:n:pos	Case=Gen|Gender=Neut|Number=Plur|PronType=Dem	28	det	_	_
+26	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	27	advmod	_	_
+27	zwanych	zwać	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	28	amod	_	_
+28	przestępstw	przestępstwo	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	24	obj	_	SpaceAfter=No
+29	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 29
+# text = Wielu z was może się zastanawiać, dlaczego ktokolwiek wybrałby życie pod kontrolą dyskryminującego prawa, zjadając resztki ze śmieci, śpiąc pod mostem, i od czasu do czasu wykonując prace sezonowe.
+1	Wielu	wiele	DET	num:pl:nom:m1:rec	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	4	nsubj	_	_
+2	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	3	case	_	_
+3	was	wy	PRON	ppron12:pl:gen:m1:sec	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Person=2|PronType=Prs	1	nmod	_	_
+4	może	móc	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	się	się	PRON	part	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+6	zastanawiać	zastanawiacić	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+8	dlaczego	dlaczego	ADV	adv	PronType=Int	10	advmod	_	_
+9	ktokolwiek	ktokolwiek	PRON	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	10	nsubj	_	_
+10-11	wybrałby	_	_	_	_	_	_	_	_
+10	wybrał	wybrać	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	ccomp	_	_
+11	by	by	AUX	part	_	10	aux:cnd	_	_
+12	życie	życie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+13	pod	pod	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	14	case	_	_
+14	kontrolą	kontrola	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+15	dyskryminującego	dyskryminować	ADJ	pact:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	16	acl	_	_
+16	prawa	prawo	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	14	nmod:arg	_	SpaceAfter=No
+17	,	,	PUNCT	interp	PunctType=Comm	18	punct	_	_
+18	zjadając	zjadać	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	10	advcl	_	_
+19	resztki	resztka	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	18	obj	_	_
+20	ze	z	ADP	prep:inst:wok	AdpType=Prep|Variant=Long	21	case	_	_
+21	śmieci	śmieć	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	19	nmod:arg	_	SpaceAfter=No
+22	,	,	PUNCT	interp	PunctType=Comm	23	punct	_	_
+23	śpiąc	śpać	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	advcl	_	_
+24	pod	pod	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	25	case	_	_
+25	mostem	most	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+26	,	,	PUNCT	interp	PunctType=Comm	23	punct	_	_
+27	i	i	CCONJ	conj	_	32	cc	_	_
+28	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	32	advmod	_	_
+29	czasu	czas	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	fixed	_	_
+30	do	do	ADP	prep:gen	AdpType=Prep	28	advmod	_	_
+31	czasu	czas	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	fixed	_	_
+32	wykonując	wykonywać	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	23	conj	_	_
+33	prace	praca	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	32	obj	_	_
+34	sezonowe	sezonowy	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	33	amod	_	SpaceAfter=No
+35	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 30
+# text = Odpowiedź na to pytanie jest tak różna, jak różni są ludzie wybierający koczownicze życie, ale często odpowiadają oni jednym słowem: wolność.
+1	Odpowiedź	odpowiedź	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	na	na	ADP	prep:acc	AdpType=Prep	4	case	_	_
+3	to	ten	DET	adj:sg:acc:n:pos	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	pytanie	pytanie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	1	nmod:arg	_	_
+5	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+6	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	7	advmod	_	_
+7	różna	różny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+9	jak	jak	SCONJ	comp	ConjType=Cmpr	10	mark	_	_
+10	różni	różny	ADJ	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	advcl:cmpr	_	_
+11	są	być	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
+12	ludzie	człowiek	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+13	wybierający	wybierać	ADJ	pact:pl:nom:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	12	acl	_	_
+14	koczownicze	koczowniczy	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	życie	życie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	interp	PunctType=Comm	19	punct	_	_
+17	ale	ale	CCONJ	conj	_	19	cc	_	_
+18	często	często	ADV	adv:pos	Degree=Pos	19	advmod	_	_
+19	odpowiadają	odpowiadać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+20	oni	on	PRON	ppron3:pl:nom:m1:ter:akc:npraep	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	19	nsubj	_	_
+21	jednym	jeden	ADJ	adj:sg:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	słowem	słowo	NOUN	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing	19	iobj	_	SpaceAfter=No
+23	:	:	PUNCT	interp	PunctType=Colo	24	punct	_	_
+24	wolność	wolność	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+25	.	.	PUNCT	interp	PunctType=Peri	7	punct	_	_
+
+# sent_id = 31
+# text = Dopóki nie żyjemy w społeczeństwie, w którym każdy człowiek ma zapewnioną godną pracę, może pracować, aby dobrze żyć, a nie tylko pracować, aby przetrwać, zawsze znajdzie się odsetek tych, dla których wędrówka jest formą ucieczki, wyzwolenia i oczywiście sprzeciwu.
+1	Dopóki	dopóki	SCONJ	comp	_	3	mark	_	_
+2	nie	nie	PART	part	Polarity=Neg	3	advmod:neg	_	_
+3	żyjemy	żyć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	_
+4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	5	case	_	_
+5	społeczeństwie	społeczeństwo	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	3	obl:arg	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+7	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	8	case	_	_
+8	którym	który	DET	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Rel	11	obl	_	_
+9	każdy	każdy	DET	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	10	det	_	_
+10	człowiek	człowiek	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+12	zapewnioną	zapewnić	ADJ	ppas:sg:acc:f:perf:aff	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	14	acl	_	_
+13	godną	godny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	pracę	praca	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	11	iobj	_	SpaceAfter=No
+15	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+16	może	móc	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+17	pracować	pracować	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	16	xcomp	_	SpaceAfter=No
+18	,	,	PUNCT	interp	PunctType=Comm	21	punct	_	_
+19	aby	aby	SCONJ	comp	_	21	mark	_	_
+20	dobrze	dobrze	ADV	adv:pos	Degree=Pos	21	advmod	_	_
+21	żyć	żyć	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	17	advcl	_	SpaceAfter=No
+22	,	,	PUNCT	interp	PunctType=Comm	26	punct	_	_
+23	a	a	CCONJ	conj	_	26	cc	_	_
+24	nie	nie	CCONJ	conj	_	23	fixed	_	_
+25	tylko	tylko	PART	part	_	26	advmod:emph	_	_
+26	pracować	pracować	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	16	conj	_	SpaceAfter=No
+27	,	,	PUNCT	interp	PunctType=Comm	29	punct	_	_
+28	aby	aby	SCONJ	comp	_	29	mark	_	_
+29	przetrwać	przetrwać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	26	advcl	_	SpaceAfter=No
+30	,	,	PUNCT	interp	PunctType=Comm	32	punct	_	_
+31	zawsze	zawsze	ADV	adv	PronType=Tot	32	advmod	_	_
+32	znajdzie	znaleźć	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	29	ccomp	_	_
+33	się	się	PRON	part	PronType=Prs|Reflex=Yes	32	expl:pv	_	_
+34	odsetek	odsetka	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	32	nsubj	_	_
+35	tych	ten	DET	adj:pl:gen:f:pos	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	34	det	_	SpaceAfter=No
+36	,	,	PUNCT	interp	PunctType=Comm	41	punct	_	_
+37	dla	dla	ADP	prep:gen	AdpType=Prep	38	case	_	_
+38	których	który	DET	adj:pl:gen:f:pos	Case=Gen|Gender=Fem|Number=Plur|PronType=Rel	41	nmod	_	_
+39	wędrówka	wędrówka	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	41	nsubj	_	_
+40	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	41	cop	_	_
+41	formą	forma	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	35	acl:relcl	_	_
+42	ucieczki	ucieczka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No
+43	,	,	PUNCT	interp	PunctType=Comm	44	punct	_	_
+44	wyzwolenia	wyzwolenie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	42	conj	_	_
+45	i	i	CCONJ	conj	_	47	cc	_	_
+46	oczywiście	oczywiście	ADV	adv:pos	Degree=Pos	47	parataxis:insert	_	_
+47	sprzeciwu	sprzeciwo	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	42	conj	_	SpaceAfter=No
+48	.	.	PUNCT	interp	PunctType=Peri	16	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 32
+# text = Dziękuję.
+1	Dziękuję	dziękować	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	SpacesAfter=\n\n
+

@@ -1,0 +1,1619 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Parecchi anni fa, qui a TED, Petere Skillman introdusse una sfida di progettazione chiamata la sfida marshmallow.
+1	Parecchi	parecchio	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	anni	anno	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+3	fa	fa	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	qui	qui	ADV	B	_	11	advmod	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	TED	TED	PROPN	SP	_	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	Petere	Petere	PROPN	SP	_	11	nsubj	_	_
+10	Skillman	Skillman	PROPN	SP	_	9	flat:name	_	_
+11	introdusse	introdurre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	progettazione	progettazione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	chiamata	chiamare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	16	nsubj:pass	_	_
+19	marshmallow	marshmallow	NOUN	S	_	18	compound	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 2
+# text = E l'idea è molto semplice.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	idea	idea	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	semplice	semplice	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Gruppi di quattro persone devono costruire la più alta torre possibile che si regga in piedi da sola, utilizzando 20 spaghetti, un metro di nastro adesivo, un metro di spago e un marshmallow.
+1	Gruppi	gruppo	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	quattro	quattro	NUM	N	NumType=Card	4	nummod	_	_
+4	persone	persona	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+5	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	costruire	costruire	VERB	V	VerbForm=Inf	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	alta	alto	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	torre	torre	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+11	possibile	possibile	ADJ	A	Number=Sing	10	amod	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	regga	reggare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+17	da	da	ADP	E	_	18	case	_	_
+18	sola	solo	ADJ	A	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	14	punct	_	_
+20	utilizzando	utilizzare	VERB	V	VerbForm=Ger	14	advcl	_	_
+21	20	20	NUM	N	NumType=Card	22	nummod	_	_
+22	spaghetti	spaghetto	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	metro	metro	NOUN	S	Gender=Masc|Number=Sing	22	appos	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	nastro	nastro	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+28	adesivo	adesivo	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	31	punct	_	_
+30	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	metro	metro	NOUN	S	Gender=Masc|Number=Sing	25	conj	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	spago	spago	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+34	e	e	CCONJ	CC	_	36	cc	_	_
+35	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	marshmallow	marshmallow	NOUN	S	Gender=Masc	25	conj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Il marshmallow deve essere piazzato in cima alla torre.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	marshmallow	marshmallow	NOUN	S	_	5	nsubj:pass	_	_
+3	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	essere	essere	AUX	VA	VerbForm=Inf	5	aux:pass	_	_
+5	piazzato	piazzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	cima	cima	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	torre	torre	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = E, anche se sembra molto semplice, di fatto è piuttosto difficile, perché costringe le persone a collaborare molto rapidamente.
+1	E	e	CCONJ	CC	_	5	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	5	punct	_	_
+3	anche	anche	ADV	B	_	5	mark	_	_
+4	se	se	SCONJ	CS	_	3	fixed	_	_
+5	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	molto	molto	ADV	B	_	7	advmod	_	_
+7	semplice	semplice	ADJ	A	Number=Sing	5	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	piuttosto	piuttosto	ADV	B	_	13	advmod	_	_
+13	difficile	difficile	ADJ	A	Number=Sing	10	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	perché	perché	SCONJ	CS	_	16	mark	_	_
+16	costringe	costringere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	persone	persona	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20	collaborare	collaborare	VERB	V	VerbForm=Inf	16	advcl	_	_
+21	molto	molto	ADV	B	_	22	advmod	_	_
+22	rapidamente	rapidamente	ADV	B	_	20	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Ho quindi pensato che fosse un'idea interessante, e l'ho incorporata in un laboratorio sulla progettazione.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	quindi	quindi	ADV	B	_	3	advmod	_	_
+3	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5	fosse	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	ccomp	_	_
+6	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	idea	idea	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+8	interessante	interessante	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	13	obj	_	SpaceAfter=No
+12	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	incorporata	incorporare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	laboratorio	laboratorio	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17-18	sulla	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	progettazione	progettazione	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Ed è stato un enorme successo.
+1	Ed	e	CCONJ	CC	_	6	cc	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	enorme	enorme	ADJ	A	Number=Sing	6	amod	_	_
+6	successo	successo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = E da allora, ho organizzato circa 70 laboratori di progettazione di questo tipo in giro per il mondo con studenti, designer e architetti, perfino direttori di ricerca e sviluppo delle aziende di Fortune 50.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	allora	allora	ADV	B	_	6	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	organizzato	organizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	circa	circa	ADV	B	_	8	advmod	_	_
+8	70	70	NUM	N	NumType=Card	9	nummod	_	_
+9	laboratori	laboratorio	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	progettazione	progettazione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	giro	giro	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	con	con	ADP	E	_	21	case	_	_
+21	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	designer	designer	NOUN	S	Gender=Masc	21	conj	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	architetti	architetto	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	6	punct	_	_
+27	perfino	perfino	ADV	B	_	28	advmod	_	_
+28	direttori	direttore	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	_
+31	e	e	CCONJ	CC	_	32	cc	_	_
+32	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	30	conj	_	_
+33-34	delle	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	35	det	_	_
+35	aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	32	nmod	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	Fortune	fortune	PROPN	SP	_	35	nmod	_	_
+38	50	50	NUM	N	NumType=Card	37	nummod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = C'è qualcosa in questo esercizio che rivela lezioni importanti sulla natura della collaborazione, e vorrei condividere alcune di queste lezioni con voi.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	2	nsubj	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	esercizio	esercizio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	rivela	rivelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	lezioni	lezione	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+10	importanti	importante	ADJ	A	Number=Plur	9	amod	_	_
+11-12	sulla	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	natura	natura	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	condividere	condividere	VERB	V	VerbForm=Inf	2	conj	_	_
+21	alcune	alcuno	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	20	obj	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	24	det	_	_
+24	lezioni	lezione	NOUN	S	Gender=Fem|Number=Plur	21	nmod	_	_
+25	con	con	ADP	E	_	26	case	_	_
+26	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Normalmente, la maggior parte delle persone comincia con l'orientarsi verso il compito da eseguire.
+1	Normalmente	normalmente	ADV	B	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	5	amod	_	_
+5	parte	parte	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	persone	persona	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9	comincia	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12-13	orientarsi	_	_	_	_	_	_	_	_
+12	orientar	orientare	VERB	V	VerbForm=Inf	9	obl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	verso	verso	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	compito	compito	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+17	da	da	ADP	E	_	18	mark	_	_
+18	eseguire	eseguire	VERB	V	VerbForm=Inf	12	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 11
+# text = Ne parlano, si immaginano che aspetto potrebbe avere, competono per il potere, poi passano il tempo pianificando, organizzando.
+1	Ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	2	iobj	_	_
+2	parlano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	immaginano	immaginare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	che	che	DET	DQ	PronType=Int	7	det	_	_
+7	aspetto	aspettare	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	avere	avere	VERB	V	VerbForm=Inf	5	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	competono	competono	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	potere	potere	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16	poi	poi	ADV	B	_	17	advmod	_	_
+17	passano	passare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	pianificando	pianificare	VERB	V	VerbForm=Ger	17	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	17	punct	_	_
+22	organizzando	organizzare	VERB	V	VerbForm=Ger	17	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Fanno degli schizzi e predispongono gli spaghetti.
+1	Fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+2-3	degli	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	schizzi	schizzo	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	predispongono	predisporre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	spaghetti	spaghetto	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Trascorrono la maggior parte del tempo a disposizione assemblando gli spaghetti in strutture crescenti e, alla fine, proprio quando il tempo sta per scadere, qualcuno tira fuori il marshmallow, e cautamente lo posizionano in cima, fanno un passo indietro e Ta-da!
+1	Trascorrono	Trascorre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	4	amod	_	_
+4	parte	parte	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	disposizione	disposizione	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+10	assemblando	assemblare	VERB	V	VerbForm=Ger	1	advcl	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	spaghetti	spaghetto	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	strutture	struttura	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+15	crescenti	crescente	ADJ	A	Number=Plur	14	amod	_	_
+16	e	e	CCONJ	CC	_	31	cc	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	31	punct	_	_
+18-19	alla	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	fine	fine	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	proprio	proprio	ADV	B	_	26	advmod	_	_
+23	quando	quando	SCONJ	CS	_	26	mark	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	_
+26	sta	sta	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+27	per	per	ADP	E	_	28	mark	_	_
+28	scadere	scadere	VERB	V	VerbForm=Inf	26	advcl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	20	punct	_	_
+30	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	31	nsubj	_	_
+31	tira	tirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+32	fuori	fuori	ADV	B	_	31	advmod	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	marshmallow	marshmallow	NOUN	S	Gender=Masc	31	obj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	39	punct	_	_
+36	e	e	CCONJ	CC	_	39	cc	_	_
+37	cautamente	cautamente	ADV	B	_	39	advmod	_	_
+38	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	39	obj	_	_
+39	posizionano	posizionare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+40	in	in	ADP	E	_	41	case	_	_
+41	cima	cima	NOUN	S	Gender=Fem|Number=Sing	39	obl	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	39	punct	_	_
+43	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	advcl	_	_
+44	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	passo	passo	NOUN	S	Gender=Masc|Number=Sing	43	obj	_	_
+46	indietro	indietro	ADV	B	_	45	advmod	_	_
+47	e	e	CCONJ	CC	_	48	cc	_	_
+48	Ta-da	Ta-da	PROPN	SP	_	46	conj	_	SpaceAfter=No
+49	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Ammirano il lavoro.
+1	Ammirano	Ammirare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Ma quello che succede realmente, la maggior parte delle volte, è che il "Ta-da" si trasforma in un "Uh-oh", perché il peso del marshmallow fa piegare e collassare l'intera struttura.
+1	Ma	ma	CCONJ	CC	_	14	cc	_	_
+2	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	succede	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	realmente	realmente	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	9	amod	_	_
+9	parte	parte	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	volte	volta	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	2	punct	_	_
+14	è	é	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	che	che	SCONJ	CS	_	22	mark	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	Ta-	ta-	PROPN	SP	_	22	nsubj	_	SpaceAfter=No
+19	da	da	ADP	E	_	22	mark	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	22	punct	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+22	trasforma	trasformare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+23	in	in	ADP	E	_	26	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	"	"	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+26	Uh	Uh	PROPN	SP	_	22	obl	_	SpaceAfter=No
+27	-	-	PUNCT	FF	_	22	punct	_	SpaceAfter=No
+28	oh	oh	ADV	B	_	22	advmod	_	SpaceAfter=No
+29	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	14	punct	_	_
+31	perché	perché	SCONJ	CS	_	37	mark	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	peso	peso	NOUN	S	Gender=Masc|Number=Sing	37	nsubj	_	_
+34-35	del	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	marshmallow	marshmallow	NOUN	S	Gender=Masc	33	nmod	_	_
+37	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+38	piegare	piegare	VERB	V	VerbForm=Inf	37	xcomp	_	_
+39	e	e	CCONJ	CC	_	40	cc	_	_
+40	collassare	collassare	VERB	V	VerbForm=Inf	38	conj	_	_
+41	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	43	det	_	SpaceAfter=No
+42	intera	intero	ADJ	A	Gender=Fem|Number=Sing	43	amod	_	_
+43	struttura	struttura	NOUN	S	Gender=Fem|Number=Sing	40	obj	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 16
+# text = C'è un certo numero di persone che ha molti più momenti "uh-oh" di altri, e tra i peggiori ci sono i neolaureati delle business school.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	certo	certo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	numero	numero	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	persone	persona	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	26	obl	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	momenti	momento	NOUN	S	Gender=Masc|Number=Plur	26	nsubj	_	_
+13	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	uh	uh	INTJ	I	_	12	punct	_	SpaceAfter=No
+15	-	-	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+16	oh	oh	ADV	B	_	12	advmod	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	12	punct	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	12	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	24	punct	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22	tra	tra	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	peggiori	peggiore	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	_
+25	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	26	expl	_	_
+26	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+27	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	neolaureati	neolaureato	NOUN	S	Gender=Masc|Number=Plur	26	nsubj	_	_
+29-30	delle	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	business	business	NOUN	S	Gender=Fem	28	nmod	_	_
+32	school.	schoolii	NOUN	S	_	31	compound	_	_
+
+# sent_id = 17
+# text = (Risate) Mentono, imbrogliano, si distraggono, e creano strutture assolutamente traballanti.
+1	(	(	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Risate	risate	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+3	)	)	PUNCT	FB	_	2	punct	_	_
+4	Mentono	Mentere	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	imbrogliano	imbrogliare	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	distraggono	distraggere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	creano	creare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+13	strutture	struttura	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+14	assolutamente	assolutamente	ADV	B	_	15	advmod	_	_
+15	traballanti	traballante	ADJ	A	Number=Plur	13	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 18
+# text = E ci sono naturalmente gruppi che hanno molte più strutture "ta-da", e, tra i migliori, ci sono i neodiplomati delle scuole d'infanzia.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	naturalmente	naturalmente	ADV	B	_	5	advmod	_	_
+5	gruppi	gruppo	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	molte	molto	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	strutture	struttura	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	ta-da	ta-da	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	22	punct	_	_
+15	e	e	CCONJ	CC	_	22	cc	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	22	punct	_	_
+17	tra	tra	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	migliori	migliore	ADJ	A	Degree=Cmp|Number=Plur	22	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	22	expl	_	_
+22	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	neodiplomati	neodiplomato	NOUN	S	Gender=Masc|Number=Plur	22	nsubj	_	_
+25-26	delle	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+27	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	24	nmod	_	_
+28	d'	di	ADP	E	_	29	case	_	SpaceAfter=No
+29	infanzia	infanzia	NOUN	S	Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 19
+# text = Ed è incredibile.
+1	Ed	e	CCONJ	CC	_	3	cc	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	incredibile	incredibile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = Come dice Peter, non solo creano le strutture più alte, ma sono anche le strutture più interessanti.
+1	Come	come	SCONJ	CS	_	2	mark	_	_
+2	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+3	Peter	Peter	PROPN	SP	_	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	solo	solo	ADV	B	_	7	advmod	_	_
+7	creano	creare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	strutture	struttura	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	alte	alto	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	17	punct	_	_
+13	ma	ma	CCONJ	CC	_	17	cc	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	anche	anche	ADV	B	_	17	advmod	_	_
+16	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	strutture	struttura	NOUN	S	Gender=Fem|Number=Plur	7	conj	_	_
+18	più	più	ADV	B	_	19	advmod	_	_
+19	interessanti	interessante	ADJ	A	Number=Plur	17	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 21
+# text = E la vostra domanda sarà:
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 22
+# text = Come è possibile?
+1	Come	come	ADV	B	_	3	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	possibile	possibile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = Perché?
+1	Perché	perché	ADV	B	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 24
+# text = Che cos'hanno di particolare?
+1	Che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+2	cos'	cosa	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
+3	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 25
+# text = E Peter ama dire che, "Nessuno dei ragazzi trascorre tempo cercando di diventare il direttore della Spaghetti SpA".
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	Peter	Peter	PROPN	SP	_	3	nsubj	_	_
+3	ama	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dire	dire	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	che	che	SCONJ	CS	_	12	mark	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	Nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	nsubj	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	trascorre	trascorre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+13	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+14	cercando	cercare	VERB	V	VerbForm=Ger	12	advcl	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	diventare	diventare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Spaghetti	Spaghetti	PROPN	SP	_	18	nmod	_	_
+22	SpA	Spa	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	"	"	PUNCT	FB	_	21	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 26
+# text = Giusto.
+1	Giusto	giusto	ADV	B	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 27
+# text = Non trascorrono tempo competendo per il potere.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	trascorrono	trascorrere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+4	competendo	competere	VERB	V	VerbForm=Ger	2	advcl	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	potere	potere	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 28
+# text = Ma c'è anche un'altro motivo.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	anche	anche	ADV	B	_	7	advmod	_	_
+5	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+6	altro	altro	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 29
+# text = E il motivo è che gli studenti di economia sono formati per trovare il singolo miglior progetto.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	11	mark	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	economia	economia	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	formati	formare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	ccomp	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	trovare	trovare	VERB	V	VerbForm=Inf	11	advcl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+15	singolo	singolo	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+16	miglior	migliore	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 30
+# text = E poi eseguirlo.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	poi	poi	ADV	B	_	3	advmod	_	_
+3-4	eseguirlo	_	_	_	_	_	_	_	SpaceAfter=No
+3	eseguir	eseguire	VERB	V	VerbForm=Inf	0	root	_	_
+4	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 31
+# text = E dopo, quello che succede è che quando mettono il marshmallow in cima, non hanno più tempo, e cosa succede?
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	dopo	dopo	ADV	B	_	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	succede	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	che	che	SCONJ	CS	_	17	mark	_	_
+9	quando	quando	SCONJ	CS	_	10	mark	_	_
+10	mettono	mettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	marshmallow	marshmallow	NOUN	S	Gender=Masc	10	obj	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	cima	cima	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+18	più	più	ADV	B	_	17	advmod	_	_
+19	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	23	punct	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	23	nsubj	_	_
+23	succede	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	SpaceAfter=No
+24	?	?	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 32
+# text = La crisi.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	crisi	crisi	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 33
+# text = Vi suona familiare?
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	suona	suonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	familiare	familiare	ADJ	A	Number=Sing	2	xcomp	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 34
+# text = Giusto.
+1	Giusto	giusto	ADV	B	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 35
+# text = Quello che i bambini fanno diversamente, è che cominciano dal marshmallow, e costruiscono prototipi, uno dopo l'altro, tenendo sempre in cima il marshmallow, hanno quindi diverse possibilità di aggiustare prototipi traballanti lungo il cammino.
+1	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	31	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	5	obj	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+5	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+6	diversamente	diversamente	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	cominciano	cominciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11-12	dal	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	marshmallow	marshmallow	NOUN	S	_	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	costruiscono	costruire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+17	prototipi	prototipo	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	appos	_	_
+20	dopo	dopo	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	10	punct	_	_
+24	tenendo	tenere	VERB	V	VerbForm=Ger	10	advcl	_	_
+25	sempre	sempre	ADV	B	_	24	advmod	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	cima	cima	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	marshmallow	marshmallow	NOUN	S	Gender=Masc	24	obj	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	10	punct	_	_
+31	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+32	quindi	quindi	ADV	B	_	31	advmod	_	_
+33	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	34	det	_	_
+34	possibilità	possibilità	NOUN	S	Gender=Fem	31	obj	_	_
+35	di	di	ADP	E	_	36	mark	_	_
+36	aggiustare	aggiustare	VERB	V	VerbForm=Inf	34	acl	_	_
+37	prototipi	prototipo	NOUN	S	Gender=Masc|Number=Plur	36	obj	_	_
+38	traballanti	traballare	ADJ	A	Number=Plur	37	amod	_	_
+39	lungo	lungo	ADP	E	_	41	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	cammino	cammino	NOUN	S	Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	31	punct	_	_
+
+# sent_id = 36
+# text = I designer riconoscono che questo tipo di collaborazione è l'essenza del processo iterativo.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	designer	designer	NOUN	S	Gender=Masc	3	nsubj	_	_
+3	riconoscono	riconoscere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	11	mark	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	essenza	essenza	NOUN	S	Gender=Fem|Number=Sing	3	ccomp	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	processo	processo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	iterativo	iterativo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 37
+# text = E con ogni versione, i bambini hanno un feedback istantaneo su cosa funziona e cosa non funziona.
+1	E	e	CCONJ	CC	_	8	cc	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+4	versione	versione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+8	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	feedback	feedback	NOUN	S	Gender=Masc	8	obj	_	_
+11	istantaneo	istantaneo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	su	su	ADP	E	_	13	case	_	_
+13	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	funziona	funzione	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	e	e	CCONJ	CC	_	18	cc	_	_
+16	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	18	nsubj	_	_
+17	non	non	ADV	BN	PronType=Neg	18	advmod	_	_
+18	funziona	funzionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 38
+# text = Quindi la capacità di lavorare su prototipi è essenziale, ma vediamo come lavorano diversi gruppi.
+1	Quindi	quindi	ADV	B	_	3	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	capacità	capacità	NOUN	S	Gender=Fem	9	nsubj	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	lavorare	lavorare	VERB	V	VerbForm=Inf	3	acl	_	_
+6	su	su	ADP	E	_	7	case	_	_
+7	prototipi	prototipo	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	essenziale	essenziale	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	ma	ma	CCONJ	CC	_	12	cc	_	_
+12	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	conj	_	_
+13	come	come	SCONJ	CS	_	14	mark	_	_
+14	lavorano	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+15	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
+16	gruppi	gruppo	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 39
+# text = La media per la maggior parte delle persone è di circa 50 centrimetri, per gli studenti di economia, circa la metà, avvocati, un pò meglio, ma non molto, bambini, meglio di molti adulti.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	media	medio	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+3	per	per	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	6	amod	_	_
+6	parte	parte	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	persone	persona	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	circa	circa	ADV	B	_	13	advmod	_	_
+13	50	50	NUM	N	NumType=Card	14	nummod	_	_
+14	centrimetri	centrimetro	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	economia	economia	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22	circa	circa	ADV	B	_	24	advmod	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	metà	metà	NOUN	S	Gender=Fem	18	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	avvocati	avvocato	NOUN	S	Gender=Masc|Number=Plur	18	conj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	29	punct	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	pò	pare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	conj	_	_
+30	meglio	meglio	ADV	B	_	29	advmod	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	29	punct	_	_
+32	ma	ma	CCONJ	CC	_	34	cc	_	_
+33	non	non	ADV	BN	PronType=Neg	34	advmod	_	_
+34	molto	molto	ADV	B	_	29	advmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	29	punct	_	_
+36	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	29	obj	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	36	punct	_	_
+38	meglio	meglio	ADV	B	_	36	advmod	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	41	det	_	_
+41	adulti	adulto	NOUN	S	Gender=Masc|Number=Plur	38	obl	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 40
+# text = Chi fa meglio di tutti?
+1	Chi	chi	PRON	PR	Number=Sing|PronType=Rel	0	root	_	_
+2	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+3	meglio	meglio	ADV	B	_	2	advmod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	obl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 41
+# text = Architetti e ingegneri, grazie al cielo.
+1	Architetti	architetto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	ingegneri	ingegnere	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	8	punct	_	_
+5	grazie	grazie	NOUN	S	_	8	case	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	5	fixed	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 42
+# text = 99 cm è la struttura più alta che io abbia mai visto.
+1	99	99	NUM	N	NumType=Card	2	nummod	_	_
+2	cm	cm	NOUN	S	_	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	struttura	struttura	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	alta	alto	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+8	che	che	PRON	PR	PronType=Rel	12	obj	_	_
+9	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+10	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	mai	mai	ADV	B	_	12	advmod	_	_
+12	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 43
+# text = E perché?
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	perché	perché	ADV	B	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 44
+# text = Perché capiscono che i triangoli e i modelli geometrici autorinforzanti sono la chiave per costruire strutture stabili.
+1	Perché	perché	ADV	B	_	2	advmod	_	_
+2	capiscono	capire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	13	mark	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	triangoli	triangolo	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	modelli	modello	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+9	geometrici	geometrico	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+10	autorinforzanti	autorinforzante	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	13	nsubj	_	_
+11	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	chiave	chiave	NOUN	S	Gender=Fem|Number=Sing	2	ccomp	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	costruire	costruire	VERB	V	VerbForm=Inf	13	acl	_	_
+16	strutture	struttura	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+17	stabili	stabile	ADJ	A	Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 45
+# text = Poi abbiamo i direttori generali, un pò meglio della media.
+1	Poi	poi	ADV	B	_	2	advmod	_	_
+2	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	direttori	direttore	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	generali	generale	ADJ	A	Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	pò	pare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+9	meglio	meglio	ADV	B	_	8	advmod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	media	media	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 46
+# text = Ma ecco dove diventa interessante.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	ecco	ecco	ADV	B	_	3	advmod	_	_
+3	dove	dove	ADV	B	_	4	advmod	_	_
+4	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	interessante	interessante	ADJ	A	Number=Sing	4	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 47
+# text = Se includete un amministratore delegato, il gruppo riesce a fare molto meglio.
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	includete	includere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	amministratore	amministratore	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	delegato	delegato	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	fare	fare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	molto	molto	ADV	B	_	13	advmod	_	_
+13	meglio	meglio	ADV	B	_	11	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 48
+# text = E' incredibile.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	incredibile	incredibile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 49
+# text = Si va un pò in giro, si osserva "Vedrai che quel gruppo vincerà" Si riesce a capire in anticipo.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	pò	pare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	xcomp	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	giro	giro	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	osserva	osservare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	Vedrai	vedere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	9	ccomp	_	_
+12	che	che	SCONJ	CS	_	15	mark	_	_
+13	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+15	vincerà	vincere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	ccomp	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	11	punct	_	_
+17	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	18	expl	_	_
+18	riesce	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20	capire	capire	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	anticipo	anticipo	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 50
+# text = E perché?
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	perché	perché	ADV	B	_	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 51
+# text = Perché hanno abilità particolari nell'agevolare il lavoro altrui.
+1	Perché	perché	ADV	B	_	2	advmod	_	_
+2	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	abilità	abilità	NOUN	S	Gender=Fem	2	obj	_	_
+4	particolari	particolare	ADJ	A	Number=Plur	3	amod	_	_
+5-6	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+5	in	in	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	agevolare	agevolare	VERB	V	VerbForm=Inf	3	acl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	altrui	altrui	DET	AP	Poss=Yes|PronType=Prs	9	det:poss	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 52
+# text = Gestiscono il processo, lo capiscono.
+1	Gestiscono	Gestire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	processo	processo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	capiscono	capire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 53
+# text = E tutti i gruppi che gestiscono e prestano attenzione al lavoro miglioreranno in maniera significativa il risultato del team.
+1	E	e	CCONJ	CC	_	13	cc	_	_
+2	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	4	det:predet	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	gruppi	gruppo	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	gestiscono	gestire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	prestano	prestare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+9	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	miglioreranno	migliorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	maniera	maniera	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+16	significativa	significativo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	team	team	NOUN	S	Gender=Masc	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 54
+# text = Doti speciali e doti di agevolazione, e la loro combinazione portano a un sicuro successo.
+1	Doti	dote	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	speciali	speciale	ADJ	A	Number=Plur	1	amod	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	doti	dote	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	agevolazione	agevolazione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	12	punct	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	loro	loro	DET	AP	Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	combinazione	combinazione	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+12	portano	portare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+13	a	a	ADP	E	_	16	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	successo	successo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 55
+# text = Se avete 10 gruppi che di solito lavorano bene, ne avrete forse sei che otterranno strutture che stanno in piedi.
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	avete	avere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	10	10	NUM	N	NumType=Card	4	nummod	_	_
+4	gruppi	gruppo	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	solito	solito	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+8	lavorano	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+9	bene	bene	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	12	iobj	_	_
+12	avrete	avere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	8	advcl	_	_
+13	forse	forse	ADV	B	_	12	advmod	_	_
+14	sei	sei	NUM	N	NumType=Card	12	obj	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	otterranno	otterre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	14	acl:relcl	_	_
+17	strutture	struttura	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	stanno	stare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	piedi	piede	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 56
+# text = E ho tentato un esperimento interessante.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	tentato	tentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	esperimento	esperimento	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	interessante	interessante	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 57
+# text = Ho pensato, alziamo la posta per una volta.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	alziamo	alzare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	posta	posta	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	volta	volta	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 58
+# text = Ho messo sul piatto 10.000 dollari di premio in software al team vincente.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	sul	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	piatto	piatto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	10.000	10.000	NUM	N	NumType=Card	7	nummod	_	_
+7	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	premio	premio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	software	software	NOUN	S	Gender=Masc	2	obl	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	team	team	NOUN	S	Gender=Masc	2	obl	_	_
+15	vincente	vincente	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 59
+# text = Cosa pensate che sia successo agli studenti di design?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	2	nsubj	_	_
+2	pensate	pensare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	successo	succedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+6-7	agli	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	design	design	NOUN	S	Gender=Masc	8	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 60
+# text = Quale è stato il risultato?
+1	Quale	quale	PRON	PQ	Number=Sing|PronType=Int	5	nsubj	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 61
+# text = Ecco cos'è successo.
+1	Ecco	ecco	ADV	B	_	4	advmod	_	_
+2	cos'	cosa	PRON	PQ	Number=Sing|PronType=Int	4	nsubj	_	SpaceAfter=No
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	successo	successo	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 62
+# text = Nessuno dei team ha creato una struttura stabile.
+1	Nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	team	team	NOUN	S	Gender=Masc	1	nmod	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	creato	creare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	struttura	struttura	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	stabile	stabile	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 63
+# text = Se uno solo di loro avesse costruito una struttura da 2,5 cm, avrebbe portato a casa il premio.
+1	Se	se	SCONJ	CS	_	7	mark	_	_
+2	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	nsubj	_	_
+3	solo	solo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	3	nmod	_	_
+6	avesse	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	costruito	costruire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	struttura	struttura	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	2,5	2,5	NUM	N	NumType=Card	12	nummod	_	_
+12	cm	cm	NOUN	S	_	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	casa	casa	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	premio	premio	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 64
+# text = Non è interessante che una posta alta abbia un impatto così forte?
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	interessante	interessante	ADJ	A	Number=Sing	0	root	_	_
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	posta	posta	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	alta	alto	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	abbia	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	impatto	impatto	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	così	così	ADV	B	_	12	advmod	_	_
+12	forte	forte	ADJ	A	Number=Sing	8	xcomp	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 65
+# text = Abbiamo tentato di nuovo l'esercizio con gli stessi studenti.
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	tentato	tentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	2	obl	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	esercizio	esercizio	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+7	con	con	ADP	E	_	10	case	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+10	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 66
+# text = Cosa pensate sia successo?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	2	obj	_	_
+2	pensate	pensare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	successo	succedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	csubj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 67
+# text = Ora avevano capito il valore di un prototipo.
+1	Ora	ora	ADV	B	_	3	advmod	_	_
+2	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	valore	valore	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	prototipo	prototipo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 68
+# text = Lo stesso team, dal peggiore è diventato il migliore.
+1	Lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	team	team	NOUN	S	Gender=Masc	9	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5-6	dal	_	_	_	_	_	_	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	peggiore	peggiore	NOUN	S	Number=Sing	9	obl	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	diventato	diventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	9	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 69
+# text = Hanno creato la struttura più alta nel minor tempo.
+1	Hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	creato	creare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	struttura	struttura	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	alta	alto	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	minor	minor	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 70
+# text = Sono quindi lezioni importanti sulla natura degli incentivi e sul successo Potreste allora chiedervi:
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	quindi	quindi	ADV	B	_	3	advmod	_	_
+3	lezioni	lezione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	importanti	importante	ADJ	A	Number=Plur	3	amod	_	_
+5-6	sulla	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	natura	natura	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8-9	degli	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	incentivi	incentivo	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12-13	sul	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	successo	successo	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+15	Potreste	potreste	PROPN	SP	_	14	nmod	_	_
+16	allora	allora	ADV	B	_	17	advmod	_	_
+17-18	chiedervi	_	_	_	_	_	_	_	SpaceAfter=No
+17	chieder	chiedere	VERB	V	VerbForm=Inf	3	csubj	_	_
+18	vi	vi	ADV	B	_	17	advmod	_	_
+19	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 71
+# text = perché qualcuno dovrebbe passare il tempo a scrivere una sfida marshmallow?
+1	perché	perché	SCONJ	CS	_	4	mark	_	_
+2	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+3	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	passare	passare	VERB	V	VerbForm=Inf	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	scrivere	scrivere	VERB	V	VerbForm=Inf	4	advcl	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	marshmallow	marshmallow	NOUN	S	Gender=Masc	10	compound	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 72
+# text = La ragione è questa:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 73
+# text = aiuto a creare strumenti digitali e processi per aiutare gruppi a costruire auto, videogiochi e effetti visivi.
+1	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3	creare	creare	VERB	V	VerbForm=Inf	1	acl	_	_
+4	strumenti	strumento	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+5	digitali	digitale	ADJ	A	Number=Plur	4	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	processi	processo	ADJ	A	Gender=Masc|Number=Plur	5	conj	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	aiutare	aiutare	VERB	V	VerbForm=Inf	3	advcl	_	_
+10	gruppi	gruppo	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	costruire	costruire	VERB	V	VerbForm=Inf	9	xcomp	_	_
+13	auto	auto	NOUN	S	Gender=Fem	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	videogiochi	videogioco	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+18	visivi	visivo	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 74
+# text = E quello che fa una sfida marshmallow è aiutare a identificare i presupposti nascosti.
+1	E	e	CCONJ	CC	_	9	cc	_	_
+2	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	marshmallow	marshmallow	NOUN	S	_	6	compound	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	aiutare	aiutare	VERB	V	VerbForm=Inf	0	root	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	identificare	identificare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	presupposti	presupposto	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+14	nascosti	nascosto	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 75
+# text = Perché, onestamente, ogni progetto ha il suo marshmallow, non è così?
+1	Perché	perché	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	onestamente	onestamente	ADV	B	_	7	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	progetto	progetto	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	marshmallow	marshmallow	NOUN	S	_	7	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	così	così	ADV	B	_	7	advmod	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 76
+# text = La sfida fornisce un'esperienza condivisa, un linguaggio comune, una posizione comune per costruire un prototipo.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	fornisce	fornire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	condivisa	condiviso	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	linguaggio	linguaggio	NOUN	S	Gender=Masc|Number=Sing	5	appos	_	_
+10	comune	comune	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+14	comune	comune	ADJ	A	Number=Sing	13	amod	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	costruire	costruire	VERB	V	VerbForm=Inf	13	acl	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	prototipo	prototipo	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 77
+# text = E quindi, questo è il valore dell'esperienza, di questo semplice esercizio.
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	quindi	quindi	ADV	B	_	7	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	valore	valore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+14	semplice	semplice	ADJ	A	Number=Sing	15	amod	_	_
+15	esercizio	esercizio	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 78
+# text = E chi di voi fosse interessato, può andare su marshmallowchallenge.com.
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	chi	chi	PRON	PQ	PronType=Int	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	2	nmod	_	_
+5	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	interessato	interessato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	andare	andare	VERB	V	VerbForm=Inf	6	conj	_	_
+10	su	su	ADP	E	_	11	case	_	_
+11	marshmallowchallenge.com	marshmallowchallenge.com	NOUN	S	Gender=Masc	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 79
+# text = E' un blog in cui potete dare un'occhiata a come costruire i marshmallow.
+1	E'	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	blog	blog	NOUN	S	_	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	cui	cui	PRON	PR	PronType=Rel	7	obl	_	_
+6	potete	potere	AUX	VM	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	dare	dare	VERB	V	VerbForm=Inf	3	acl:relcl	_	_
+8	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	occhiata	occhiata	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	a	a	ADP	E	_	12	mark	_	_
+11	come	come	SCONJ	CS	_	10	fixed	_	_
+12	costruire	costruire	VERB	V	VerbForm=Inf	7	advcl	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	marshmallow	marshmallow	NOUN	S	_	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 80
+# text = Ci sono istruzioni passo per passo.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	istruzioni	istruzione	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+4	passo	passare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	passo	passo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 81
+# text = Ci sono esempi pazzeschi da tutto il mondo su come la gente corregge e aggiusta il sistema.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	esempi	esempo	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+4	pazzeschi	pazzesco	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	da	da	ADP	E	_	8	case	_	_
+6	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	8	det:predet	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+9	su	su	ADV	B	_	13	mark	_	_
+10	come	come	ADP	E	_	9	fixed	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	gente	gente	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+13	corregge	correggere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	aggiusta	aggiusta	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 82
+# text = C'è anche il record del mondo.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	record	record	NOUN	S	Gender=Masc	2	nsubj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 83
+# text = E la lezione più importante, credo, è che il design è veramente uno sport di contatto.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	lezione	lezione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	importante	importante	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	credo	credere	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	è	é	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	che	che	SCONJ	CS	_	16	mark	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	design	design	NOUN	S	Gender=Masc	16	nsubj	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	veramente	veramente	ADV	B	_	16	advmod	_	_
+15	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	sport	sport	NOUN	S	Gender=Masc	9	ccomp	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	contatto	contatto	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 84
+# text = Richiede l'impiego di tutti i sensi, e l'utilizzo dei ragionamenti più fini, le sensazioni e la manualità per gestire la sfida che si ha in mano.
+1	Richiede	richiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	impiego	impiego	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	7	det:predet	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	sensi	senso	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	utilizzo	utilizzo	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	ragionamenti	ragionamento	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	fini	fine	ADJ	A	Number=Plur	14	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	sensazioni	sensazione	NOUN	S	Gender=Fem|Number=Plur	14	conj	_	_
+20	e	e	CCONJ	CC	_	22	cc	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	manualità	manualità	NOUN	S	Gender=Fem	14	conj	_	_
+23	per	per	ADP	E	_	24	mark	_	_
+24	gestire	gestire	VERB	V	VerbForm=Inf	11	acl	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+27	che	che	PRON	PR	PronType=Rel	29	obj	_	_
+28	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	29	expl:impers	_	_
+29	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+30	in	in	ADP	E	_	31	case	_	_
+31	mano	mano	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 85
+# text = E qualche volta, un piccolo prototipo di quest'esperienza è tutto ciò che è necessario per trasformare un momento "uh-oh" in un momento "ta-da".
+1	E	e	CCONJ	CC	_	13	cc	_	_
+2	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	volta	volta	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	prototipo	prototipo	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	quest'	questo	DET	DD	Number=Sing|PronType=Dem	10	det	_	SpaceAfter=No
+10	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	13	det	_	_
+13	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	13	acl:relcl	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18	trasformare	trasformare	VERB	V	VerbForm=Inf	16	advcl	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	momento	momento	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	"	"	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	uh	uh	INTJ	I	_	28	punct	_	SpaceAfter=No
+23	-	-	PUNCT	FF	_	22	punct	_	SpaceAfter=No
+24	oh	oh	ADV	B	_	22	advmod	_	SpaceAfter=No
+25	"	"	PUNCT	FB	_	22	punct	_	_
+26	in	in	ADP	E	_	28	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	momento	momento	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+29	"	"	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+30	ta-da	ta-do	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+31	"	"	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 86
+# text = E tutto ciò può fare veramente la differenza.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+6	veramente	veramente	ADV	B	_	5	advmod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 87
+# text = Grazie mille.
+1	Grazie	grazie	NOUN	S	_	0	root	_	_
+2	mille	mille	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 88
+# text = (Applausi)
+1	(	(	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Applausi	applauso	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	FB	_	2	punct	_	SpacesAfter=\s\n\n
+
