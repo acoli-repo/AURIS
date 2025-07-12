@@ -15,17 +15,19 @@
 
 - `rst2tsv.py` converts RST annotations to sentence-level TSV pre-annotation. This is based on the strict nuclearity principle and the the head-first interpretation for multi-nuclears. Note that it keeps the original relation labels.
 
-	- how to create RS3 files from CoNLL-U:
+- `txt2rst.py` create pre-split RS3 files from text
 
-		- take CoNLL-U file, extract '# text' content
-		- replace end of line by \n\n
-		- import into rsttool
-		- save as rs3
-		- remove superfluous \n
+		- e.g., from stdin: take CoNLL-U file, extract '# text' content
 
 Example call
 
 ```
-$> python3 rst2tsv.py rotkaeppchen_khm-026_grimm_schema_test.rs3 > rotkaeppchen_khm-026_grimm_schema_test.tsv
+$> egrep '# text =' rotkaeppchen_khm-026_grimm.conllu \
+   | cut -f 2 -d '=' \
+   | python3 txt2rs3.py \
+   > rotkaeppchen_khm-026_grimm_schema_test.rs3
+$> rsttool rotkaeppchen_khm-026_grimm_schema_test.rs3 # do some annotation
+$> python3 rst2tsv.py rotkaeppchen_khm-026_grimm_schema_test.rs3 \
+   > rotkaeppchen_khm-026_grimm_schema_test.tsv
 $> python3 tsvs2excel.py -s rotkaeppchen_khm-026_grimm_schema_test.tsv rotkaeppchen_khm-026_grimm_schema_test.xslx
 ```
