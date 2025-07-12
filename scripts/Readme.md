@@ -19,6 +19,15 @@
 
 		- e.g., from stdin: take CoNLL-U file, extract '# text' content
 
+- `align.py` from https://github.com/acoli-repo/conll-merge, version of 2024-07-12
+	- for aligning TSV files with one-word-per-line (aka "CoNLL") annotations
+
+TODOS:
+
+- `pdtb2tsv.py` to convert annotations created with the PDTB Annotator (Liu et al. 2016, https://aclanthology.org/C16-2026.pdf)
+- add optional mapping table to `rst2tsv.py` and `pdtb2tsv.py`
+- add optional reference segmentation to `rst2tsv.py` and `pdtb2tsv.py`
+
 Example call
 
 ```
