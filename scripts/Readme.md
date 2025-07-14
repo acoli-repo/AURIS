@@ -1,5 +1,7 @@
 # Conversion tools
 
+## Excel generation
+
 - `tsvs2excel.py` main libary, converts pre-annotations in TSV to Excel spreadsheet
 
 	expected input format for sentence-level annotations:
@@ -13,22 +15,19 @@
 	- TARGET (optional, from pre-annotation)
 	- RELATION (optional, from pre-annotation)
 
+- **TODO**
+
+	- add optional mapping table to `tsvs2excel.py`
+
+## RST conversion
+
 - `rst2tsv.py` converts RST annotations to sentence-level TSV pre-annotation. This is based on the strict nuclearity principle and the the head-first interpretation for multi-nuclears. Note that it keeps the original relation labels.
 
 - `txt2rst.py` create pre-split RS3 files from text
 
-		- e.g., from stdin: take CoNLL-U file, extract '# text' content
+	- e.g., from stdin: take CoNLL-U file, extract '# text' content
 
-- `align.py` from https://github.com/acoli-repo/conll-merge, version of 2024-07-12
-	- for aligning TSV files with one-word-per-line (aka "CoNLL") annotations
-
-TODOS:
-
-- `pdtb2tsv.py` to convert annotations created with the PDTB Annotator (Liu et al. 2016, https://aclanthology.org/C16-2026.pdf)
-- add optional mapping table to `rst2tsv.py` and `pdtb2tsv.py`
-- add optional reference segmentation to `rst2tsv.py` and `pdtb2tsv.py`
-
-Example call
+Example calls
 
 ```
 $> egrep '# text =' rotkaeppchen_khm-026_grimm.conllu \
@@ -40,3 +39,33 @@ $> python3 rst2tsv.py rotkaeppchen_khm-026_grimm_schema_test.rs3 \
    > rotkaeppchen_khm-026_grimm_schema_test.tsv
 $> python3 tsvs2excel.py -s rotkaeppchen_khm-026_grimm_schema_test.tsv rotkaeppchen_khm-026_grimm_schema_test.xslx
 ```
+
+- **TODO**
+	
+	- add optional reference segmentation to `rst2tsv.py`
+	- cf. `align.py` from https://github.com/acoli-repo/conll-merge, version of 2024-07-12
+		- for aligning TSV files with one-word-per-line (aka "CoNLL") annotations
+
+## PDTB workflow
+
+We don't annotate PDTB, we only convert existing data.
+
+- `pdtb2tsv.py` to convert annotations created with the PDTB Annotator (Liu et al. 2016, https://aclanthology.org/C16-2026.pdf)
+	
+	- note: currently uses integrated sentence splitter and ignores input segmentation
+
+Example calls
+
+```
+$> python3 pdtb2tsv.py ted-mdb-1927.raw.txt ted-mdb-1927.ann.txt > ted-mdb-1927.tsv 2> text-msdb-1927.log
+$> python3 tsvs2excel.py -s ted-mdb-1927.tsv ted-mdb-1927.xlsx
+```
+
+- **TODO**
+
+	- add optional reference segmentation to `pdtb2tsv.py`
+	- perform actual alignment (we align heuristically only, without checking overlapping characters)
+	- cf. `align.py` from https://github.com/acoli-repo/conll-merge, version of 2024-07-12
+		- for aligning TSV files with one-word-per-line (aka "CoNLL") annotations
+
+
