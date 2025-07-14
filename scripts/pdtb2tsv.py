@@ -235,6 +235,7 @@ for src, tgt2marker2rel in seg2seg2marker2rel.items():
 # serialize as TSV
 
 for eduid,edu in enumerate(edus):
+	eduid=eduid+1
 	if len(edu.strip())>0:
 		marker="_"
 		rel="_"
@@ -243,8 +244,7 @@ for eduid,edu in enumerate(edus):
 		predicate="_"
 		if eduid in edu2marker_edu_rel:
 			marker,tgt,rel=edu2marker_edu_rel[eduid]
-			tgt=tgt+1
-		print(f"{eduid+1}\t{pred_id}\t{marker}\t{predicate}\t{edu}\t_\t{tgt}\t{rel}")
+		print(f"{eduid}\t{pred_id}\t{marker}\t{predicate}\t{edu}\t_\t{tgt}\t{rel}")
 		
 
 #        - SENTENCE_ID

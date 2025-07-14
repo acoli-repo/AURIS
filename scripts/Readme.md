@@ -2,7 +2,7 @@
 
 ## Excel generation
 
-- `tsvs2excel.py` main libary, converts pre-annotations in TSV to Excel spreadsheet
+- `tsvs2excel.py` main libary, converts pre-annotations in TSV to Excel spreadsheet, if a mapping table is provided with (`-sm`), we map discourse relations and transformation errors
 
 	expected input format for sentence-level annotations:
 	
@@ -15,9 +15,6 @@
 	- TARGET (optional, from pre-annotation)
 	- RELATION (optional, from pre-annotation)
 
-- **TODO**
-
-	- add optional mapping table to `tsvs2excel.py`
 
 ## RST conversion
 
@@ -54,11 +51,11 @@ We don't annotate PDTB, we only convert existing data.
 	
 	- note: currently uses integrated sentence splitter and ignores input segmentation
 
-Example calls
+Example call with mapping from TED-MDB
 
 ```
 $> python3 pdtb2tsv.py ted-mdb-1927.raw.txt ted-mdb-1927.ann.txt > ted-mdb-1927.tsv 2> text-msdb-1927.log
-$> python3 tsvs2excel.py -s ted-mdb-1927.tsv ted-mdb-1927.xlsx
+$> python3 tsvs2excel.py -s ted-mdb-1927.tsv -sm padtb2auris.tsv ted-mdb-1927.xlsx
 ```
 
 - **TODO**
