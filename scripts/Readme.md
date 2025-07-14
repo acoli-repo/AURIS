@@ -49,13 +49,14 @@ We don't annotate PDTB, we only convert existing data.
 
 - `pdtb2tsv.py` to convert annotations created with the PDTB Annotator (Liu et al. 2016, https://aclanthology.org/C16-2026.pdf)
 	
-	- note: currently uses integrated sentence splitter and ignores input segmentation
+	- note: requires edu segmentation, otherwise, falls back to \n-segmentation of base text (typically paragraphs!)
+	- for segment alignment, we align with the longest (and, if ambiguous, the first) overlapping segment from the external segmentation
 
 Example call with mapping from TED-MDB
 
 ```
-$> python3 pdtb2tsv.py ted-mdb-1927.raw.txt ted-mdb-1927.ann.txt > ted-mdb-1927.tsv 2> text-msdb-1927.log
-$> python3 tsvs2excel.py -s ted-mdb-1927.tsv -sm padtb2auris.tsv ted-mdb-1927.xlsx
+$> python3 pdtb2tsv.py ted-mdb-1927.raw.txt ted-mdb-1927.ann.txt ted-mdb-1927.seg.txt  > ted-mdb-1927.tsv 2> text-msdb-1927.log
+$> python3 tsvs2excel.py -s ted-mdb-1927.tsv -sm pdtb2auris.tsv ted-mdb-1927.xlsx
 ```
 
 - **TODO**

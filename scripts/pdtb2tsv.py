@@ -4,8 +4,10 @@ import sys,os,re,argparse
 args=argparse.ArgumentParser(description="""convert PDTB-style standoff annotations (text-based format) created by the PDTB Annotator as used for TED-MDB, but also PDTB v.3.0""")
 args.add_argument("base_text", type=str, help="text file that the standoff annotation has been performed against")
 args.add_argument("anno_text", type=str, help="text(!) file that contains standoff annotations")
-# args.add_argument("base_seg", type=str, nargs="?", help="base segmentation, if ommitted, we use a heuristic sentence-splitter", default=None)
+args.add_argument("base_seg", type=str, nargs="?", help="base segmentation, defaults to base_text. Note that we do not perform sentence splitting", default=None)
 args=args.parse_args()
+
+if args.base_seg==None: args.base_seg = args.base_text
 
 ##########################
 # PDTB annotation schema #
@@ -70,13 +72,14 @@ with open(args.base_text, "rt") as input:
 		if re.match(r"^\s+$",c):
 			tok=tok.strip()
 			if len(tok)>0:
+
 				tok_start_ends.append((tok,start,pos))
 			tok=""
 			start=pos+1
 		else:
 			tok+=c
-
-# print(tok_start_ends)
+	if tok.strip()!="":
+		tok_start_ends.append((tok,start,pos))
 
 ##################
 # read anno text #
@@ -138,38 +141,49 @@ with open(args.anno_text, "rt") as input:
 				#	12	SClass2B	Second Semantic Class of the Second Connective
 				# "PBVerb" 		empty in TED-MDB, hence ignored
 
+#########################
+# read edu segmentation #
+#########################
+
+edu2start_end={}
+edu=1
+edu_start=0
+edu_end=1
+edus=[""]
+
+with open(args.base_seg, "rt") as input:
+	base_text=input.read()
+	tok=""
+	start=0
+	for pos,c in enumerate(base_text):
+		if c in ["\n","\r"] and len(edus[-1].strip())>0:
+			edu_end=pos
+			edu2start_end[edu]=(edu_start,edu_end)
+			edus[-1]=" ".join(edus[-1].split()).strip()
+			edus.append("")
+			edu+=1
+			edu_start=pos+1
+			edu_end=edu_start+2
+		else:
+			edus[-1]+=c
+	if len(edus[-1].strip())>0:
+			edu_end=pos
+			edu2start_end[edu]=(edu_start,edu_end)
+			edus[-1]=" ".join(edus[-1].split()).strip()
+	if edus[-1].strip()=="":
+		edus=edus[:-1]
 
 ##################
 # resegmentation #
 ##################
 # TODO: import edu segmentation
 
-
-# build (sentence-level) segmentation from scratch
-
-# tok_start_ends
-edu2start_end={}
-edu=1
-edu_start=0
-edu_end=1
-edus=[""]
-for tokid,(tok,start,end) in enumerate(tok_start_ends):
-#	print((tokid,tok,start,end))
-	edu_end=end
-	edu2start_end[edu]=(edu_start,edu_end)
-	edus[-1]=(edus[-1]+" "+" ".join(tok.split()).strip()).strip()
-	if re.match(r".*[a-zA-Z].*",edus[-1]) and len(re.sub(r"[^a-zA-Z.!?]*$","",tok)) > 0 and re.sub(r"[^a-zA-Z.!?]*$","",tok)[-1] in [".","!","?"]:
-		edus.append("")
-		edu+=1
-		edu_start=end+1
-		edu_end=end+1
-#		print("")
-
 #print(edu2start_end)
 
 # we align heuristically by maximum overlap
 seg2edu={}
-_,tok_start,_=tok_start_ends[0]
+#print(tok_start_ends)
+_,tok_start,_ =tok_start_ends[0]
 _,_,tok_end=tok_start_ends[-1]
 edu_start,_=min(edu2start_end.values())
 _,edu_end=max(edu2start_end.values())

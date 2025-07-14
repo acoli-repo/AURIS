@@ -123,7 +123,7 @@ if args.sentences!=None:
 												transformed_rel.append(sRel2auris[rel])
 										else:
 											sys.stderr.write(f"warning: discourse relation {rel} is not covered by the mapping\n")
-							transformed_rel="+".join(sorted(set(transformed_rel)))
+							transformed_rel="|".join(sorted(set(transformed_rel)))
 
 							if transformed_rel=="":
 								comment_pre+="\n"+f"(unmappable relation)"
