@@ -1,6 +1,7 @@
 # PDTB annotation	AURIS relation/ISO SemAF relation or argument role 	comment
 Expectation 	expectation-raiser
 Concession.arg1-as-denier 	expectation-raiser
+Comparison.Concession.Arg1-as-denier 	expectation-raiser 	TED-MDB
 Contra-Expectation	contra-expectation
 Concession.arg2-as-denier	contra-expectation
 Comparison.Concession.Arg2-as-denier 	contra-expectation
@@ -16,10 +17,14 @@ Cause.result	result
 Contingency.Cause 	causal 	TED-MDB
 Contingency.Cause.Result 	result	TED-MDB
 Condition	condition
+Contingency.Condition.Arg2-as-cond 	condition 	TED-MDB
 Result	goal
 Purpose.Arg2-as-goal	goal
+Contingency.Purpose.Arg2-as-goal 	goal 	TED-MDB
 Purpose.Arg1-as-goal	enablement
 succession	after
+Temporal.Asynchronous.Precedence	before 	TED-MDB
+Temporal.Synchronous 	Synchrony 	TED-MDB
 Exception	Exception
 Exception.Arg1-as-excpt	regular
 Exception	exception
@@ -42,11 +47,14 @@ Restatement.specification	specific
 Level-of-detail.Arg2-as-detail	specific
 Expansion.Level-of-detail.Arg2-as-detail 	specific
 Manner.Arg1-as-manner	achievement
+Expansion.Manner.Arg1-as-manner 	achievement 	TED-MDB
+Expansion.Manner.Arg2-as-manner 	achievement 	TED-MDB
 Restatement.equivalence	Restatement
 Expansion.Equivalence 	Restatement
 Equivalence	Restatement
 conjunctive	Disjunction
 disjunctive	Disjunction
+Expansion.Disjunction 	Disjunction 	TED-MDB
 Conjunction	Conjunction
 Expansion.Conjunction 	Conjunction 	TED-MDB
 List	Conjunction

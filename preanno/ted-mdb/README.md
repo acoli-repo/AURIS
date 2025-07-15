@@ -3,6 +3,15 @@
 This repository contains the AURIS conversion of the TED-Multilingual Discourse  Bank (TED-MDB) corpus.
 
 Deposit the original data under `src/` and run `make`.
+Will create:
+
+- `pdtb/` (source data, renamed and completed with external segmentation (`*.seg`))
+- `tsv/` (TSV conversion, using external segmentation, keeping PDTB relations)
+- `xslx/` (Excel files)
+
+For rebuilding from scratch, remove these directories, first.
+
+Note that TSV conversion is lossy, because intra-segmental relations will be skipped and only one annotation per segment will be allowed.
 
 ## On the original data 
 

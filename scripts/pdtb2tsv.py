@@ -1,4 +1,4 @@
-import sys,os,re,argparse
+import sys,os,re,argparse,traceback
 #from pprint import pprint as print
 
 args=argparse.ArgumentParser(description="""convert PDTB-style standoff annotations (text-based format) created by the PDTB Annotator as used for TED-MDB, but also PDTB v.3.0""")
@@ -95,35 +95,41 @@ with open(args.anno_text, "rt") as input:
 		if "|" in line:
 			key2val=parse_anno_line(line.strip())
 			if(key2val!=None):
-				marker=key2val["Conn1"]
-				if key2val["RelationType"]!="Excplicit":
-					marker=f"({marker})"
+				try:
+					marker=key2val["Conn1"]
+					if key2val["RelationType"]!="Excplicit":
+						marker=f"({marker})"
 
-				rel=key2val["SClass1A"]
+					rel=key2val["SClass1A"]
 
-				src_span=key2val["Arg2SpanList"]
-				src_start=min([int(x) for x in re.sub(r"[^0-9]+"," ",src_span).split()])
-				src_end=max([int(x) for x in re.sub(r"[^0-9]+"," ",src_span).split()])
+					src_span=key2val["Arg2SpanList"]
+					src_start=min([int(x) for x in re.sub(r"[^0-9]+"," ",src_span).split()])
+					src_end=max([int(x) for x in re.sub(r"[^0-9]+"," ",src_span).split()])
 
-				src_seg=len(seg2start_end)
-				if not src_start in start2end2seg: start2end2seg[src_start]={src_end : src_seg}
-				if not src_end in start2end2seg[src_start]: start2end2seg[src_start][src_end] = src_seg
-				src_seg=start2end2seg[src_start][src_end]
-				seg2start_end[src_seg]=(src_start,src_end)
+					src_seg=len(seg2start_end)
+					if not src_start in start2end2seg: start2end2seg[src_start]={src_end : src_seg}
+					if not src_end in start2end2seg[src_start]: start2end2seg[src_start][src_end] = src_seg
+					src_seg=start2end2seg[src_start][src_end]
+					seg2start_end[src_seg]=(src_start,src_end)
 
-				tgt_span=key2val["Arg1SpanList"]
-				tgt_start=min([int(x) for x in re.sub(r"[^0-9]+"," ",tgt_span).split()])
-				tgt_end=max([int(x) for x in re.sub(r"[^0-9]+"," ",tgt_span).split()])
+					tgt_span=key2val["Arg1SpanList"]
+					tgt_start=min([int(x) for x in re.sub(r"[^0-9]+"," ",tgt_span).split()])
+					tgt_end=max([int(x) for x in re.sub(r"[^0-9]+"," ",tgt_span).split()])
 
-				tgt_seg=len(seg2start_end)
-				if not tgt_start in start2end2seg: start2end2seg[tgt_start]={tgt_end : tgt_seg}
-				if not tgt_end in start2end2seg[tgt_start]: start2end2seg[tgt_start][tgt_end] = tgt_seg
-				tgt_seg=start2end2seg[tgt_start][tgt_end]
-				seg2start_end[tgt_seg]=(tgt_start,tgt_end)
+					tgt_seg=len(seg2start_end)
+					if not tgt_start in start2end2seg: start2end2seg[tgt_start]={tgt_end : tgt_seg}
+					if not tgt_end in start2end2seg[tgt_start]: start2end2seg[tgt_start][tgt_end] = tgt_seg
+					tgt_seg=start2end2seg[tgt_start][tgt_end]
+					seg2start_end[tgt_seg]=(tgt_start,tgt_end)
 
-				if not src_seg in seg2seg2marker2rel: seg2seg2marker2rel[src_seg]={}
-				if not tgt_seg in seg2seg2marker2rel[src_seg]: seg2seg2marker2rel[src_seg][tgt_seg]={marker:rel}
-				# simplification: we always go with the first (implicit) discourse marker and its first sense
+					if not src_seg in seg2seg2marker2rel: seg2seg2marker2rel[src_seg]={}
+					if not tgt_seg in seg2seg2marker2rel[src_seg]: seg2seg2marker2rel[src_seg][tgt_seg]={marker:rel}
+					# simplification: we always go with the first (implicit) discourse marker and its first sense
+
+				except Exception:
+					traceback.print_exc()
+					sys.stderr.write("while processing the following line:\n"+line+"\n")
+					sys.stderr.flush()
 
 				# used:		
 				#	0	RelationType	Explicit, Implicit, AltLex, AltLexC, Hypophora, EntRel, NoRel
@@ -226,7 +232,7 @@ for src, tgt2marker2rel in seg2seg2marker2rel.items():
 					# prefer annotation with marker over annotation without
 					sys.stderr.write(f"warning (marker preference): skipping {src} -{edu2marker_edu_rel[src][2]}-> {edu2marker_edu_rel[src][1]} in favor of {src} -{marker}/{rel}-> {tgt}\n")
 					edu2marker_edu_rel[src]=(marker,tgt,rel)
-				elif (not marker.strip()[0] in "([") and edu2marker_edu_rel[src][0].strip()[0] in "([])":
+				elif (not marker.strip()[0] in "([_") and edu2marker_edu_rel[src][0].strip()[0] in "([])":
 					# prefer explicit over implicit and altlex
 					sys.stderr.write(f"warning (explicit marker preference): skipping {src} -{edu2marker_edu_rel[src][2]}-> {edu2marker_edu_rel[src][1]} in favor of {src} -{marker}/{rel}-> {tgt}\n")
 					edu2marker_edu_rel[src]=(marker,tgt,rel)
