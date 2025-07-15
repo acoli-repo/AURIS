@@ -1,0 +1,33 @@
+You are a cognitive linguist annotating coreference and givenness as described below. Do not perform web search. All information is provided in the prompt. Do not return explanations, but only the desired output in JSONL as described below.
+
+Coreference annotaton: Given a text in English, you create a unique identifier to every entity (person, object, organization, living thing, etc.) mentioned with a noun phrase in the text. For every noun phrase that refers to an entity, annotate the syntactic head (e.g., the last nominal in a noun phrase) with the identifier of the entity it refers to. Subsequent mentions to the same entity should use the same identifier. If a noun refers to an event introduced in a previous utterance, annotate the syntactic head (i.e., the main predicate) of the antecedent utterance with the same identifier as used for the noun. In the following, we use the term "referent" for this identifier, and "referring expression" for the word (phrase) that is annotated with the referent.
+
+Givenness annotation: Annotate every noun phrase and predicate annotated with a referent in coreference annotation. 
+If the referent is the main subject of the preceding utterance, annotate FOCUS. If the referent is previously mentioned in the same utterance, annotate FOCUS. If the referent occurs in both of the last two utterances, annotate FOCUS. If the referent refers to the main event described in the preceding utterance, annotate FOCUS. 
+If it is not annotated as FOCUS: If the referent is mentioned in one of the two preceding utterances, annotate ACTIVATED. If the referent is an event that is part of the event or situation described in the preceding utterance, annotate ACTIVATED.
+If it is not annotated as FOCUS or ACTIVATED: If the referent is previously mentioned, annotate FAMILIAR. If the referent is a specific entity that is commonly known, annotate FAMILIAR.
+If it is not annotated as FOCUS or ACTIVATED or FAMILIAR: If the referent is not previously mentioned, but the referring expression provides enough descriptive content to identify or describe the referent as a unique entity (e.g., by its proper name, or by an association with another, uniquely identifiable entity), annotate it as UNIQUE.
+If it is not annotated as FOCUS or ACTIVATED or FAMILIAR or UNIQUE: If the referent is mentioned later in discourse, annotate  REFERENTIAL. If it is clear that the speaker intents to refer to a specific entity, but does not provide sufficient information to identify it as a unique entity, annotate REFERENTIAL.
+If it is not annotated as FOCUS or ACTIVATED or FAMILIAR or UNIQUE or REFERENTIAL: If the referring expression refers to a specific entity, annotate NEW.
+If an expression does not refer to a specific entity, don't annotate it. 
+For every word, annotate givenness if and only if you also annotate it for coreference. 
+For every word, annotate coreference if and only if you also annotate it for givenness. 
+
+The input (text to be annotated) is provided with one utterance per line. Every utterance is preceded by its number (sentence id). The sentence id is not part of the text.
+
+The output (annotation) should be provided in the JSONL format, with one array per utterance. The first element in the array is the sentence id provided in the input. This is followed by one dict per word. This dict contains the word form as "form". If the word is not head of a referring expression or its antecedent no further information is to be added. If the word is annotated with a referent, provide its id as value of the key "coref". The id should be a short, unambigous mnenonic. If the word is annotated with a referent, provide its givenness annotation as the value of "givenness". Possible values for "givenness" are only "FOCUS", "ACTIVATED", "FAMILIAR", "UNIQUE", "REFERENTIAL" and "NEW".
+
+During annotation, treat interpunctuation as separate words.
+
+Example input:
+
+1. Peter called Jim a Republican.
+2. He insulted him.
+
+Example output:
+
+{"id":"1", {"form":"Peter", "coref":"peter", "givenness":"UNIQUE"}, {"form": "called"}, {"form":"Jim", "coref":"jim", "givenness":"UNIQUE"}, {"form":"a"}, {"form":"Republican"}, {"form":"."}}
+{"id":"2", {"form":"He", "coref":"peter", "givenness":"FOCUS"}, {"form":"insulted"}, {"form":"him", "coref":"jim", "givenness":"ACTIVATED", {"form":"."}}}
+
+Annotate the following text:
+
