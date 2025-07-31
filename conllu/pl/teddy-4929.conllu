@@ -1,0 +1,770 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Niemiecki pancernik Bismarck zatonął 27 maja 1941 roku podczas zaciętej walki.
+1	Niemiecki	niemiecki	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	pancernik	pancernik	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	Bismarck	Bismarck	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+4	zatonął	zatonąć	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	27	27	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|NumForm=Digit|NumType=Ord	4	obl	_	_
+6	maja	maj	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod:flat	_	_
+7	1941	1941	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|NumForm=Digit|NumType=Ord	8	amod:flat	_	_
+8	roku	rok	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod:flat	_	_
+9	podczas	podczas	ADP	prep:gen	AdpType=Prep	11	case	_	_
+10	zaciętej	zaciąć	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	walki	walka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 2
+# text = Spośród 2 200 członków załogi przeżyło jedynie 118 osób.
+1	Spośród	spośród	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	2	2	X	dig	NumForm=Digit	1	amod	_	_
+3	200	200	NUM	num:pl:nom:m1:rec	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	4	nummod:gov	_	_
+4	członków	członek	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+5	załogi	załoga	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	przeżyło	przeżyć	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	jedynie	jedynie	PART	part	_	8	advmod:emph	_	_
+8	118	118	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	9	nummod:gov	_	_
+9	osób	osoba	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	6	iobj	_	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	6	punct	_	_
+
+# sent_id = 3
+# text = Ale kiedy brytyjski niszczyciel przybył, aby przejąć więźniów odnaleźli niespodziewanego ocalałego.
+1	Ale	ale	CCONJ	conj	_	5	cc	_	_
+2	kiedy	kiedy	ADV	adv	PronType=Int	5	advmod	_	_
+3	brytyjski	brytyjski	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	niszczyciel	niszczyciel	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	przybył	przybyć	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+7	aby	aby	SCONJ	comp	_	8	mark	_	_
+8	przejąć	przejąć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	5	advcl	_	_
+9	więźniów	więzień	NOUN	subst:pl:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+10	odnaleźli	odnaleźć	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod:arg	_	_
+11	niespodziewanego	spodziewać	ADJ	adj:sg:gen:m1:pos	Animacy=Hum|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	ocalałego	ocalały	NOUN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 4
+# text = Czarno-białego kota, który desperacko trzymał się dryfującej deski.
+1	Czarno	czarny	ADJ	adja	Hyph=Yes	4	amod	_	SpaceAfter=No
+2	-	-	PUNCT	interp	PunctType=Hyph	3	punct	_	SpaceAfter=No
+3	białego	biały	ADJ	adj:sg:gen:m2:pos	Animacy=Nhum|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	1	conj	_	_
+4	kota	kot	NOUN	subst:sg:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+6	który	który	DET	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	8	nsubj	_	_
+7	desperacko	desperacko	ADV	adv:pos	Degree=Pos	8	advmod	_	_
+8	trzymał	trzymać	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+9	się	się	PRON	part	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+10	dryfującej	dryfuć	ADJ	pact:sg:gen:f:imperf:aff	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	11	acl	_	_
+11	deski	deska	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	iobj	_	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 5
+# text = Przez kilka następnych miesięcy ten kot polował na szczury i podnosił morale, do chwili, gdy torpeda zniszczyła poszycie i doprowadziła do zatonięcia statku.
+1	Przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	4	case	_	_
+2	kilka	kilka	DET	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	4	det:numgov	_	_
+3	następnych	następny	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+4	miesięcy	miesiąc	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+5	ten	ten	DET	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	kot	kot	NOUN	subst:sg:nom:m2	Animacy=Nhum|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	polował	polować	VERB	praet:sg:m2:perf	Animacy=Nhum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	na	na	ADP	prep:acc	AdpType=Prep	9	case	_	_
+9	szczury	szczur	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	7	obl:arg	_	_
+10	i	i	CCONJ	conj	_	11	cc	_	_
+11	podnosił	podnosić	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+12	morale	morale	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	15	punct	_	_
+14	do	do	ADP	prep:gen	AdpType=Prep	15	case	_	_
+15	chwili	chwila	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+16	,	,	PUNCT	interp	PunctType=Comm	19	punct	_	_
+17	gdy	gdy	ADV	adv	_	19	advmod	_	_
+18	torpeda	torpeda	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+19	zniszczyła	zniszczyć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
+20	poszycie	poszyć	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	19	obj	_	_
+21	i	i	CCONJ	conj	_	22	cc	_	_
+22	doprowadziła	doprowadzić	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	conj	_	_
+23	do	do	ADP	prep:gen	AdpType=Prep	24	case	_	_
+24	zatonięcia	zatoniąć	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	22	obl	_	_
+25	statku	statek	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+26	.	.	PUNCT	interp	PunctType=Peri	7	punct	_	_
+
+# sent_id = 6
+# text = Ale jakimś cudem kot przeżył.
+1	Ale	ale	CCONJ	conj	_	5	cc	_	_
+2	jakimś	jakiś	DET	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|PronType=Ind	3	det	_	_
+3	cudem	cud	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+4	kot	kot	NOUN	subst:sg:nom:m2	Animacy=Nhum|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+5	przeżył	przeżyć	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 7
+# text = Został ochrzczony Niezatapialnym Samem, popłynął na Gibraltar z ocalałymi członkami załogi oraz pełnił służbę jako kot pokładowy na trzech innych okrętach, jeden z nich również zatonął, a kot później przeszedł na emeryturę.
+1	Został	zostać	AUX	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	aux:pass	_	_
+2	ochrzczony	ochrzczyć	ADJ	ppas:sg:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+3	Niezatapialnym	niezatapialny	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	Samem	Sam	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	iobj	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+6	popłynął	popłynąć	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+7	na	na	ADP	prep:acc	AdpType=Prep	8	case	_	_
+8	Gibraltar	Gibraltar	PROPN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl:arg	_	_
+9	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	11	case	_	_
+10	ocalałymi	ocalały	ADJ	adj:pl:inst:m1:pos	Animacy=Hum|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_
+11	członkami	członek	NOUN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	6	obl:arg	_	_
+12	załogi	załoga	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	11	nmod:arg	_	_
+13	oraz	oraz	CCONJ	conj	_	14	cc	_	_
+14	pełnił	pełnić	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+15	służbę	służba	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+16	jako	jako	SCONJ	comp	ConjType=Pred	17	mark	_	_
+17	kot	kot	NOUN	subst:sg:nom:m2	Animacy=Nhum|Case=Nom|Gender=Masc|Number=Sing	28	obl	_	_
+18	pokładowy	pokładowy	ADJ	adj:sg:nom:m2:pos	Animacy=Nhum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	obl	_	_
+19	na	na	ADP	prep:loc	AdpType=Prep	22	case	_	_
+20	trzech	trzy	NUM	num:pl:loc:m3:congr	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|NumForm=Word	22	nummod	_	_
+21	innych	inny	ADJ	adj:pl:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	22	amod	_	_
+22	okrętach	okręt	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	obl	_	SpaceAfter=No
+23	,	,	PUNCT	interp	PunctType=Comm	24	punct	_	_
+24	jeden	jeden	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	nsubj	_	_
+25	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	26	case	_	_
+26	nich	on	PRON	ppron3:pl:gen:m1:ter:akc:praep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	24	obl	_	_
+27	również	również	PART	part	_	28	advmod:emph	_	_
+28	zatonął	zatonąć	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	conj	_	SpaceAfter=No
+29	,	,	PUNCT	interp	PunctType=Comm	33	punct	_	_
+30	a	a	CCONJ	conj	_	33	cc	_	_
+31	kot	kot	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	33	nsubj	_	_
+32	później	późno	ADV	adv:com	Degree=Cmp	33	advmod	_	_
+33	przeszedł	przejść	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	28	conj	_	_
+34	na	na	ADP	prep:acc	AdpType=Prep	35	case	_	_
+35	emeryturę	emerytura	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	33	obl:arg	_	SpaceAfter=No
+36	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 8
+# text = Wielu ludzi nie uważa kotów za solidnych marynarzy ani za kompanów, na których można polegać.
+1	Wielu	wiele	DET	num:pl:nom:m1:rec	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	2	det:numgov	_	_
+2	ludzi	człowiek	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	nie	nie	PART	part	Polarity=Neg	4	advmod:neg	_	_
+4	uważa	uważać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	kotów	kot	NOUN	subst:pl:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Plur	4	obj	_	_
+6	za	za	ADP	prep:acc	AdpType=Prep	8	case	_	_
+7	solidnych	solidny	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+8	marynarzy	marynarz	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+9	ani	ani	CCONJ	conj	_	11	cc	_	_
+10	za	za	ADP	prep:gen	AdpType=Prep	11	case	_	_
+11	kompanów	kompan	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+12	,	,	PUNCT	interp	PunctType=Comm	15	punct	_	_
+13	na	na	ADP	prep:loc	AdpType=Prep	14	case	_	_
+14	których	który	DET	adj:pl:loc:f:pos	Case=Loc|Gender=Fem|Number=Plur|PronType=Rel	16	obl:arg	_	_
+15	można	można	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	11	acl:relcl	_	_
+16	polegać	polegać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 9
+# text = Ale przez tysiące lat koty współpracowały z ludźmi, pomagając nam równie często, jak my im. Jak te odosobnione istoty zmieniły się z drapieżników w oficerów marynarki albo towarzyszy do spędzania czasu na kanapie?
+1	Ale	ale	CCONJ	conj	_	6	cc	_	_
+2	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	3	case	_	_
+3	tysiące	tysiąc	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+4	lat	rok	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod:arg	_	_
+5	koty	kot	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	nmod:arg	_	_
+6	współpracowały	współpracować	VERB	praet:pl:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	8	case	_	_
+8	ludźmi	człowiek	NOUN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	6	obl:arg	_	SpaceAfter=No
+9	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+10	pomagając	pomagać	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	6	advcl	_	_
+11	nam	my	PRON	ppron12:pl:dat:m1:pri	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	10	iobj	_	_
+12	równie	równie	ADV	adv:pos	Degree=Pos	13	advmod	_	_
+13	często	często	ADV	adv:pos	Degree=Pos	10	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	16	punct	_	_
+15	jak	jak	SCONJ	comp	ConjType=Cmpr	16	mark	_	_
+16	my	my	PRON	ppron12:pl:nom:m1:pri	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	12	obl:cmpr	_	_
+17	im	on	PRON	ppron3:pl:dat:m1:ter:akc:npraep	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	16	iobj	_	SpaceAfter=No
+18	.	.	PUNCT	interp	PunctType=Peri	6	punct	_	_
+19	Jak	jak	SCONJ	comp	ConjType=Cmpr	23	mark	_	_
+20	te	ten	DET	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	22	det	_	_
+21	odosobnione	odosobnić	ADJ	ppas:pl:nom:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	22	acl	_	_
+22	istoty	istota	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+23	zmieniły	zmienić	VERB	praet:pl:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl:cmpr	_	_
+24	się	się	PRON	part	PronType=Prs|Reflex=Yes	23	expl:pv	_	_
+25	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	26	case	_	_
+26	drapieżników	drapieżnik	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	obl:arg	_	_
+27	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	28	case	_	_
+28	oficerów	oficer	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	nmod	_	_
+29	marynarki	marynarka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	28	nmod:arg	_	_
+30	albo	albo	CCONJ	conj	_	31	cc	_	_
+31	towarzyszy	towarzysz	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	26	conj	_	_
+32	do	do	ADP	prep:gen	AdpType=Prep	33	case	_	_
+33	spędzania	spędzać	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	31	nmod	_	_
+34	czasu	czas	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	obj	_	_
+35	na	na	ADP	prep:loc	AdpType=Prep	36	case	_	_
+36	kanapie	kanapa	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+37	?	?	PUNCT	interp	PunctType=Qest	6	punct	_	_
+
+# sent_id = 10
+# text = Oswojenie kota domowego miało miejsce 10 tysięcy lat temu na terenie starożytnego Bliskiego Wschodu, wraz z początkiem Neolitu.
+1	Oswojenie	Oswojenie	NOUN	ger:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	4	nsubj	_	_
+2	kota	kot	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	1	obj	_	_
+3	domowego	domowy	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+4	miało	mieć	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	miejsce	miejsce	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	4	iobj	_	_
+6	10	10	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	8	nummod:gov	_	_
+7	tysięcy	tysiąc	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	flat	_	_
+8	lat	rok	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+9	temu	temu	ADP	prep:acc	AdpType=Post|Case=Acc	8	case	_	_
+10	na	na	ADP	prep:loc	AdpType=Prep	11	case	_	_
+11	terenie	teren	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+12	starożytnego	starożytć	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+13	Bliskiego	bliski	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	Wschodu	wschód	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod:arg	_	SpaceAfter=No
+15	,	,	PUNCT	interp	PunctType=Comm	18	punct	_	_
+16	wraz	wraz	ADV	adv	_	18	case	_	_
+17	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	16	fixed	_	_
+18	początkiem	początek	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	conj	_	_
+19	Neolitu	Neolit	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 11
+# text = Ludzie uczyli się, jak podporządkować sobie naturę i w pewnym momencie wytwarzali więcej jedzenia niż mogli zjeść.
+1	Ludzie	człowiek	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	uczyli	uczyć	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	się	się	PRON	part	PronType=Prs|Reflex=Yes	2	expl:pv	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+5	jak	jak	ADV	adv:pos	Degree=Pos|PronType=Int	6	advmod	_	_
+6	podporządkować	podporządkować	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+7	sobie	siebie	PRON	siebie:dat	Case=Dat|PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+8	naturę	natura	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+9	i	i	CCONJ	conj	_	13	cc	_	_
+10	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	12	case	_	_
+11	pewnym	pewien	DET	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
+12	momencie	moment	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+13	wytwarzali	wytwarzać	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+14	więcej	więcej	DET	num:pl:acc:n:rec:ncol	Case=Acc|Gender=Neut|Number=Plur|NumType=Card|PronType=Ind	13	obj	_	_
+15	jedzenia	jedzenie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	18	obj	_	_
+16	niż	niż	SCONJ	comp	ConjType=Cmpr	17	mark	_	_
+17	mogli	móc	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl:cmpr	_	_
+18	zjeść	zjeść	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 12
+# text = Rolnicy przechowywali nadmiar zbóż w głębokich dołach i silosach z gliny.
+1	Rolnicy	rolnik	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	przechowywali	przechowywać	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	nadmiar	nadmiar	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	zbóż	zboże	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	3	nmod:arg	_	_
+5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	7	case	_	_
+6	głębokich	głęboki	ADJ	adj:pl:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
+7	dołach	dół	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	2	obl	_	_
+8	i	i	CCONJ	conj	_	9	cc	_	_
+9	silosach	silos	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	conj	_	_
+10	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	11	case	_	_
+11	gliny	glina	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 13
+# text = Ale tak przechowywane jedzenie przyciągało hordy gryzoni, a za nimi podążał ich konsument, Felis silvestris lybica, kot nubijski zamieszkujący Afrykę Północną i Azję Południowo-Wschodnią.
+1	Ale	ale	CCONJ	conj	_	5	cc	_	_
+2	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	3	advmod	_	_
+3	przechowywane	przechowywać	ADJ	ppas:pl:nom:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	4	acl	_	_
+4	jedzenie	jeść	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+5	przyciągało	przyciągać	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	hordy	horda	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+7	gryzoni	gryzoń	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+9	a	a	CCONJ	conj	_	12	cc	_	_
+10	za	za	ADP	prep:inst	AdpType=Prep	11	case	_	_
+11	nimi	on	PRON	ppron3:pl:inst:m1:ter:akc:praep	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	12	obl	_	_
+12	podążał	podążać	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+13	ich	on	PRON	ppron3:pl:gen:m1:ter:akc:npraep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	12	iobj	_	_
+14	konsument	konsument	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	interp	PunctType=Comm	16	punct	_	_
+16	Felis	Felis	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+17	silvestris	silvestris	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nmod	_	_
+18	lybica	lybica	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	interp	PunctType=Comm	20	punct	_	_
+20	kot	kot	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	conj	_	_
+21	nubijski	nubijski	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+22	zamieszkujący	zamieszkuć	ADJ	pact:sg:acc:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	20	acl	_	_
+23	Afrykę	Afryka	PROPN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+24	Północną	północny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	23	amod:flat	_	_
+25	i	i	CCONJ	conj	_	26	cc	_	_
+26	Azję	Azja	PROPN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	23	conj	_	_
+27	Południowo	południowy	ADJ	adja	Hyph=Yes	26	amod:flat	_	SpaceAfter=No
+28	-	-	PUNCT	interp	PunctType=Hyph	29	punct	_	SpaceAfter=No
+29	Wschodnią	wschodni	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	27	conj	_	SpaceAfter=No
+30	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 14
+# text = Te dzikie koty były szybkimi, groźnymi, mięsożernymi łowcami.
+1	Te	ten	DET	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+2	dzikie	dziki	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+3	koty	kot	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+4	były	być	AUX	praet:pl:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	_
+5	szybkimi	szybki	ADJ	adj:pl:inst:m1:pos	Animacy=Hum|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+7	groźnymi	groźny	ADJ	adj:pl:inst:m1:pos	Animacy=Hum|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+9	mięsożernymi	mięsożerny	ADJ	adj:pl:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	5	conj	_	_
+10	łowcami	łowca	NOUN	subst:pl:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	10	punct	_	_
+
+# sent_id = 15
+# text = Rozmiarem i wyglądem bardzo przypominały współczesne koty domowe.
+1	Rozmiarem	Rozmiar	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	iobj	_	_
+2	i	i	CCONJ	conj	_	3	cc	_	_
+3	wyglądem	wygląd	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	conj	_	_
+4	bardzo	bardzo	ADV	adv:pos	Degree=Pos	5	advmod	_	_
+5	przypominały	przypominać	VERB	praet:pl:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	współczesne	współczesć	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
+7	koty	kot	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+8	domowe	domowy	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 16
+# text = Główną różnicę stanowił fakt, że pradawne koty były lepiej umięśnione, miały prążkowaną sierść i nie były chętne do kontaktu z innymi kotami czy ludźmi.
+1	Główną	główny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	różnicę	różnica	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+3	stanowił	stanowić	VERB	praet:sg:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	fakt	fakt	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+6	że	że	SCONJ	comp	_	11	mark	_	_
+7	pradawne	pradawny	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+8	koty	kot	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj:pass	_	_
+9	były	być	AUX	praet:pl:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	_
+10	lepiej	dobrze	ADV	adv:com	Degree=Cmp	11	advmod	_	_
+11	umięśnione	umięśniony	ADJ	ppas:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	4	ccomp	_	SpaceAfter=No
+12	,	,	PUNCT	interp	PunctType=Comm	13	punct	_	_
+13	miały	mieć	VERB	praet:pl:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	_
+14	prążkowaną	prążkować	ADJ	ppas:sg:acc:f:perf:aff	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	15	acl	_	_
+15	sierść	sierść	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	13	iobj	_	_
+16	i	i	CCONJ	conj	_	19	cc	_	_
+17	nie	nie	PART	part	Polarity=Neg	18	advmod:neg	_	_
+18	były	być	AUX	praet:pl:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	cop	_	_
+19	chętne	chętny	ADJ	adj:pl:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	11	conj	_	_
+20	do	do	ADP	prep:gen	AdpType=Prep	21	case	_	_
+21	kontaktu	kontakt	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	obl	_	_
+22	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	24	case	_	_
+23	innymi	inny	ADJ	adj:pl:inst:m1:pos	Animacy=Hum|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	24	amod	_	_
+24	kotami	kot	NOUN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	19	obl:arg	_	_
+25	czy	czy	CCONJ	conj	_	26	cc	_	_
+26	ludźmi	człowiek	NOUN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	24	conj	_	SpaceAfter=No
+27	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 17
+# text = Spichlerze opanowane przez gryzonie zapewniały dostatek ofiar i to przyciągało te zazwyczaj żyjące w odosobnieniu zwierzęta.
+1	Spichlerze	Spichler	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+2	opanowane	opanować	ADJ	ppas:pl:nom:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	1	acl	_	_
+3	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	4	case	_	_
+4	gryzonie	gryzon	NOUN	subst:pl:acc:m2	Animacy=Nhum|Case=Acc|Gender=Masc|Number=Plur	2	obl:agent	_	_
+5	zapewniały	zapewniać	VERB	praet:pl:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	dostatek	dostatek	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	ofiar	ofiara	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	6	nmod:arg	_	_
+8	i	i	CCONJ	conj	_	10	cc	_	_
+9	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	_
+10	przyciągało	przyciągeć	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+11	te	ten	DET	adj:pl:acc:n:pos	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	16	det	_	_
+12	zazwyczaj	zazwyczaj	ADV	adv	_	13	advmod	_	_
+13	żyjące	żyć	ADJ	pact:pl:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	16	acl	_	_
+14	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	15	case	_	_
+15	odosobnieniu	odosobnienie	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	13	obl	_	_
+16	zwierzęta	zwierzę	NOUN	subst:pl:acc:n:ncol	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	SpaceAfter=No
+17	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 18
+# text = Gdy te koty nauczyły się tolerować obecność ludzi i innych osobników podczas posiłku, farmerzy także akceptowali ich obecność jako darmową ochronę przed gryzoniami.
+1	Gdy	gdy	ADV	adv	_	4	advmod	_	_
+2	te	ten	DET	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	koty	kot	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	nauczyły	nauczyć	VERB	praet:pl:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	advcl	_	_
+5	się	się	PRON	part	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+6	tolerować	tolerować	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+7	obecność	obecność	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	ludzi	człowiek	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	i	i	CCONJ	conj	_	11	cc	_	_
+10	innych	inny	ADJ	adj:pl:gen:m1:pos	Animacy=Hum|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	_
+11	osobników	osobnik	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	8	conj	_	_
+12	podczas	podczas	ADP	prep:gen	AdpType=Prep	13	case	_	_
+13	posiłku	posiłek	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	4	punct	_	_
+15	farmerzy	farmer	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+16	także	także	PART	part	_	17	advmod:emph	_	_
+17	akceptowali	akceptować	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+18	ich	on	PRON	ppron3:pl:acc:m1:ter:akc:npraep	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	19	nmod	_	_
+19	obecność	obecność	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+20	jako	jako	SCONJ	comp	ConjType=Pred	22	mark	_	_
+21	darmową	darmowy	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	ochronę	ochrona	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
+23	przed	przed	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	24	case	_	_
+24	gryzoniami	gryzonie	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	interp	PunctType=Peri	17	punct	_	_
+
+# sent_id = 19
+# text = Ta relacja była na tyle korzystna, że koty przesiedlały się wraz z rolnikami z Anatolii do Europy oraz do krajów śródziemnomorskich.
+1	Ta	ten	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	relacja	relacja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	była	być	AUX	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+4	na	na	ADP	prep:acc	AdpType=Prep	5	case	_	_
+5	tyle	tyle	ADV	adv	_	6	advmod	_	_
+6	korzystna	korzystny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+8	że	że	SCONJ	comp	_	10	mark	_	_
+9	koty	kot	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+10	przesiedlały	przesiedlać	VERB	praet:pl:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	ccomp	_	_
+11	się	się	PRON	part	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+12	wraz	wraz	ADV	adv	_	14	case	_	_
+13	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	12	fixed	_	_
+14	rolnikami	rolnik	NOUN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	10	obl	_	_
+15	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	16	case	_	_
+16	Anatolii	Anatolia	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	do	do	ADP	prep:gen	AdpType=Prep	18	case	_	_
+18	Europy	Europa	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+19	oraz	oraz	CCONJ	conj	_	21	cc	_	_
+20	do	do	ADP	prep:gen	AdpType=Prep	21	case	_	_
+21	krajów	kraj	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	conj	_	_
+22	śródziemnomorskich	śródziemnomorski	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	interp	PunctType=Peri	6	punct	_	_
+
+# sent_id = 20
+# text = Szkodniki były ogromną zmorą podczas podróży.
+1	Szkodniki	Szkodnik	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	były	być	AUX	praet:pl:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	ogromną	ogromny	ADJ	adj:sg:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	zmorą	zmora	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+5	podczas	podczas	ADP	prep:gen	AdpType=Prep	6	case	_	_
+6	podróży	podróż	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 21
+# text = Zjadały pożywienie i podgryzały wiązania, więc koty już dawno zostały ważnymi towarzyszami morskich podróży.
+1	Zjadały	Zjadać	VERB	praet:pl:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	pożywienie	pożywienie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+3	i	i	CCONJ	conj	_	4	cc	_	_
+4	podgryzały	podgryzać	VERB	praet:pl:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+5	wiązania	wiązać	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	13	punct	_	_
+7	więc	więc	SCONJ	comp	_	13	mark	_	_
+8	koty	kot	NOUN	subst:pl:nom:m2	Animacy=Nhum|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+9	już	już	PART	part	_	10	advmod:emph	_	_
+10	dawno	dawno	ADV	adv:pos	Degree=Pos	13	advmod	_	_
+11	zostały	zostać	AUX	praet:pl:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	_	_
+12	ważnymi	ważny	ADJ	adj:pl:inst:m1:pos	Animacy=Hum|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_
+13	towarzyszami	towarzysz	NOUN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	1	advcl	_	_
+14	morskich	morski	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
+15	podróży	podróż	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	13	nmod:arg	_	SpaceAfter=No
+16	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 22
+# text = W czasie, gdy te anatolijskie koty wyruszyły w podróż, Egipcjanie udomowili koty, które zamieszkiwały w ich okolicy.
+1	W	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	2	case	_	_
+2	czasie	czas	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+4	gdy	gdy	ADV	adv	_	8	advmod	_	_
+5	te	ten	DET	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
+6	anatolijskie	anatolijski	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
+7	koty	kot	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	wyruszyły	wyruszyć	VERB	praet:pl:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+9	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	10	case	_	_
+10	podróż	podróż	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+12	Egipcjanie	Egipcjan	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	13	obj	_	_
+13	udomowili	udomowić	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	koty	kot	NOUN	subst:pl:acc:m2	Animacy=Nhum|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	interp	PunctType=Comm	17	punct	_	_
+16	które	który	DET	adj:pl:nom:f:pos	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	17	nsubj	_	_
+17	zamieszkiwały	zamieszkiwać	VERB	praet:pl:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	acl:relcl	_	_
+18	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	20	case	_	_
+19	ich	on	PRON	ppron3:pl:gen:f:ter:akc:npraep	Case=Gen|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	20	nmod	_	_
+20	okolicy	okolica	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	interp	PunctType=Peri	13	punct	_	_
+
+# sent_id = 23
+# text = Czczone za umiejętność zabijania szczurów, jadowitych węży oraz łapania ptaków, stały się ważnym elementem egipskich wierzeń religijnych.
+1	Czczone	Czczyć	ADJ	ppas:pl:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+2	za	za	ADP	prep:acc	AdpType=Prep	3	case	_	_
+3	umiejętność	umiejętność	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_
+4	zabijania	zabijać	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	3	nmod:arg	_	_
+5	szczurów	szczur	NOUN	subst:pl:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+7	jadowitych	jadowity	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+8	węży	wądz	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	conj	_	_
+9	oraz	oraz	CCONJ	conj	_	10	cc	_	_
+10	łapania	łapać	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	4	conj	_	_
+11	ptaków	ptak	NOUN	subst:pl:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+12	,	,	PUNCT	interp	PunctType=Comm	13	punct	_	_
+13	stały	stać	VERB	praet:pl:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+14	się	się	PRON	part	PronType=Prs|Reflex=Yes	13	expl:pv	_	_
+15	ważnym	ważny	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	elementem	element	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	xcomp:pred	_	_
+17	egipskich	egipski	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	18	amod	_	_
+18	wierzeń	wierzenie	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	16	nmod:arg	_	_
+19	religijnych	religijny	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 24
+# text = Były uwieczniane na freskach, hieroglifach, posągach czy grobowcach, często były też mumifikowane wraz ze swoimi właścicielami.
+1	Były	być	AUX	praet:pl:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	aux:pass	_	_
+2	uwieczniane	uwieczniać	ADJ	ppas:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+3	na	na	ADP	prep:loc	AdpType=Prep	4	case	_	_
+4	freskach	fresk	NOUN	subst:pl:loc:n:ncol	Case=Loc|Gender=Neut|Number=Plur	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+6	hieroglifach	hieroglifa	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+8	posągach	posąga	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	4	conj	_	_
+9	czy	czy	CCONJ	conj	_	10	cc	_	_
+10	grobowcach	grobowiec	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	15	punct	_	_
+12	często	często	ADV	adv:pos	Degree=Pos	15	advmod	_	_
+13	były	być	AUX	praet:pl:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	15	aux:pass	_	_
+14	też	też	PART	part	_	15	advmod:emph	_	_
+15	mumifikowane	mumifikować	ADJ	ppas:pl:nom:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	2	advcl	_	_
+16	wraz	wraz	ADV	adv	_	19	case	_	_
+17	ze	z	ADP	prep:inst:wok	AdpType=Prep|Variant=Long	16	fixed	_	_
+18	swoimi	swój	DET	adj:pl:inst:m1:pos	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	19	det:poss	_	_
+19	właścicielami	właściciel	NOUN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 25
+# text = Koty przebywały na statkach kursujących po Nilu, ich zadaniem było łowienie jadowitych węży rzecznych.
+1	Koty	kot	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	przebywały	przebywać	VERB	praet:pl:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	na	na	ADP	prep:loc	AdpType=Prep	4	case	_	_
+4	statkach	statek	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	obl	_	_
+5	kursujących	kursować	ADJ	pact:pl:gen:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	4	acl	_	_
+6	po	po	ADP	prep:loc	AdpType=Prep	7	case	_	_
+7	Nilu	Nil	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+9	ich	on	PRON	ppron3:pl:gen:m1:ter:akc:npraep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	10	nmod	_	_
+10	zadaniem	zadanie	NOUN	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing	5	conj	_	_
+11	było	być	AUX	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	_
+12	łowienie	łowić	NOUN	ger:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	10	nsubj	_	_
+13	jadowitych	jadowity	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_
+14	węży	wądz	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obj	_	_
+15	rzecznych	rzeczny	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 26
+# text = Po przejściu na większe okręty, koty zaczęły się przemieszczać z portu do portu.
+1	Po	po	ADP	prep:loc	AdpType=Prep	2	case	_	_
+2	przejściu	przejście	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	8	obl	_	_
+3	na	na	ADP	prep:acc	AdpType=Prep	4	case	_	_
+4	większe	duży	ADJ	adj:sg:acc:n:com	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	2	obl:arg	_	_
+5	okręty	okręt	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	2	punct	_	_
+7	koty	kot	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	zaczęły	zacząć	VERB	praet:pl:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	się	się	PRON	part	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+10	przemieszczać	przemieszczać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+11	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	12	case	_	_
+12	portu	port	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+13	do	do	ADP	prep:gen	AdpType=Prep	14	case	_	_
+14	portu	port	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	interp	PunctType=Peri	8	punct	_	_
+
+# sent_id = 27
+# text = W czasach Cesarstwa Rzymskiego statki kursujące między Indiami a Egiptem miały na pokładzie cały ród kotów stepowych z Azji Środkowej.
+1	W	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	2	case	_	_
+2	czasach	czas	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	nmod	_	_
+3	Cesarstwa	cesarstwo	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	Rzymskiego	rzymski	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+5	statki	statek	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+6	kursujące	kursować	ADJ	pact:pl:nom:f:imperf:aff	Aspect=Imp|Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	5	acl	_	_
+7	między	między	ADP	prep:inst	AdpType=Prep	8	case	_	_
+8	Indiami	Indie	PROPN	subst:pl:inst:n:pt	Case=Ins|Gender=Neut|Number=Ptan	6	obl	_	_
+9	a	a	CCONJ	conj	_	11	cc	_	_
+10	Egiptem	Egipt	PROPN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	iobj	_	_
+11	miały	mieć	VERB	praet:pl:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+12	na	na	ADP	prep:loc	AdpType=Prep	13	case	_	_
+13	pokładzie	pokład	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+14	cały	cały	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	ród	ród	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	iobj	_	_
+16	kotów	kot	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod:arg	_	_
+17	stepowych	stepowy	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	_
+18	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	19	case	_	_
+19	Azji	Azja	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+20	Środkowej	środkowy	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod:flat	_	SpaceAfter=No
+21	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 28
+# text = Kilkaset lat później, w średniowieczu, egipskie koty dotarły na wody Bałtyku na łodziach wikingów.
+1	Kilkaset	kilkaset	DET	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	2	det:numgov	_	_
+2	lat	rok	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+3	później	późno	ADV	adv:com	Degree=Cmp	10	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+6	średniowieczu	średniowiecze	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+8	egipskie	egipski	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	_
+9	koty	kot	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+10	dotarły	dotrzeć	VERB	praet:pl:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	na	na	ADP	prep:loc	AdpType=Prep	12	case	_	_
+12	wody	woda	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+13	Bałtyku	Bałtyk	PROPN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod:arg	_	_
+14	na	na	ADP	prep:loc	AdpType=Prep	15	case	_	_
+15	łodziach	łodzie	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	10	obl	_	_
+16	wikingów	wiking	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod:arg	_	SpaceAfter=No
+17	.	.	PUNCT	interp	PunctType=Peri	10	punct	_	_
+
+# sent_id = 29
+# text = Koty wywodzące się z Bliskiego Wschodu i Północnej Afryki, prawdopodobnie wtedy już oswojone, kontynuowały podróż po Europie, aż w końcu wyruszyły do Australii i obu Ameryk.
+1	Koty	kot	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+2	wywodzące	wywodzyć	ADJ	pact:pl:nom:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	1	acl	_	_
+3	się	się	PRON	part	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
+4	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+5	Bliskiego	bliski	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	Wschodu	wschód	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl:arg	_	_
+7	i	i	CCONJ	conj	_	9	cc	_	_
+8	Północnej	północny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	Afryki	Afryka	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	14	punct	_	_
+11	prawdopodobnie	prawdopodobnie	ADV	adv:pos	Degree=Pos	14	parataxis:insert	_	_
+12	wtedy	wtedy	ADV	adv	PronType=Dem	14	advmod	_	_
+13	już	już	PART	part	_	14	advmod:emph	_	_
+14	oswojone	oswoić	ADJ	ppas:pl:nom:m2:perf:aff	Animacy=Nhum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	1	acl	_	SpaceAfter=No
+15	,	,	PUNCT	interp	PunctType=Comm	14	punct	_	_
+16	kontynuowały	kontynuować	VERB	praet:pl:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+17	podróż	podróż	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+18	po	po	ADP	prep:loc	AdpType=Prep	19	case	_	_
+19	Europie	Europa	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	interp	PunctType=Comm	24	punct	_	_
+21	aż	aż	PART	part	_	24	advmod:emph	_	_
+22	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	24	advmod	_	_
+23	końcu	koniec	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	fixed	_	_
+24	wyruszyły	wyruszyć	VERB	praet:pl:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
+25	do	do	ADP	prep:gen	AdpType=Prep	26	case	_	_
+26	Australii	Australie	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	24	obl	_	_
+27	i	i	CCONJ	conj	_	29	cc	_	_
+28	obu	oba	NUM	num:pl:gen:f:congr:ncol	Case=Gen|Gender=Fem|Number=Plur|NumForm=Word	29	nummod	_	_
+29	Ameryk	Ameryk	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	26	conj	_	SpaceAfter=No
+30	.	.	PUNCT	interp	PunctType=Peri	16	punct	_	_
+
+# sent_id = 30
+# text = Współczesne koty domowe głównie wywodzą się z bliskowschodniej lub z egipskiej linii rodu kota nubijskiego.
+1	Współczesne	współczesny	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
+2	koty	kot	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	domowe	domowy	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
+4	głównie	głównie	ADV	adv:pos	Degree=Pos	5	advmod	_	_
+5	wywodzą	wywodzić	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	się	się	PRON	part	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+7	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	8	case	_	_
+8	bliskowschodniej	bliskowschodnie	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	obl:arg	_	_
+9	lub	lub	CCONJ	conj	_	12	cc	_	_
+10	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	12	case	_	_
+11	egipskiej	egipski	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	linii	linia	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	conj	_	_
+13	rodu	rod	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	kota	kot	NOUN	subst:sg:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	nubijskiego	nubijski	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 31
+# text = Ale dogłębna analiza genomów i ubarwienia współczesnych kotów wskazuje na to, że w przeciwieństwie do psów, które przez wieki były poddawane selektywnemu rozmnażaniu, pod względem genetycznym dzisiejsze koty są bardzo podobne do tych antycznych.
+1	Ale	ale	CCONJ	conj	_	9	cc	_	_
+2	dogłębna	dogłębny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	analiza	analiza	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+4	genomów	genom	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod:arg	_	_
+5	i	i	CCONJ	conj	_	6	cc	_	_
+6	ubarwienia	ubarwić	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	4	conj	_	_
+7	współczesnych	współczesny	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+8	kotów	kot	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obj	_	_
+9	wskazuje	wskazywać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	na	na	ADP	prep:acc	AdpType=Prep	11	case	_	_
+11	to	to	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	9	obl:arg	_	SpaceAfter=No
+12	,	,	PUNCT	interp	PunctType=Comm	17	punct	_	_
+13	że	że	SCONJ	comp	_	17	mark	_	_
+14	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	17	case	_	_
+15	przeciwieństwie	przeciwieństwo	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	14	fixed	_	_
+16	do	do	ADP	prep:gen	AdpType=Prep	14	fixed	_	_
+17	psów	pies	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	ccomp:cleft	_	SpaceAfter=No
+18	,	,	PUNCT	interp	PunctType=Comm	23	punct	_	_
+19	które	który	DET	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	23	nsubj:pass	_	_
+20	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	21	case	_	_
+21	wieki	wiek	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	23	nsubj:pass	_	_
+22	były	być	AUX	praet:pl:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	23	aux:pass	_	_
+23	poddawane	poddawać	ADJ	ppas:pl:nom:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	17	acl:relcl	_	_
+24	selektywnemu	selektywny	ADJ	adj:sg:dat:n:pos	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	rozmnażaniu	rozmnażać	NOUN	subst:sg:dat:n:ncol	Case=Dat|Gender=Neut|Number=Sing	23	iobj	_	SpaceAfter=No
+26	,	,	PUNCT	interp	PunctType=Comm	34	punct	_	_
+27	pod	pod	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	28	case	_	_
+28	względem	wzgląd	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	34	obl	_	_
+29	genetycznym	genetyczny	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+30	dzisiejsze	dzisiejszy	ADJ	adj:pl:acc:m3:com	Animacy=Inan|Case=Acc|Degree=Cmp|Gender=Masc|Number=Plur	31	amod	_	_
+31	koty	kot	NOUN	subst:pl:acc:m2	Animacy=Nhum|Case=Acc|Gender=Masc|Number=Plur	28	nmod:arg	_	_
+32	są	być	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	cop	_	_
+33	bardzo	bardzo	ADV	adv:pos	Degree=Pos	34	advmod	_	_
+34	podobne	podobny	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	23	conj	_	_
+35	do	do	ADP	prep:gen	AdpType=Prep	37	case	_	_
+36	tych	ten	DET	adj:pl:gen:f:pos	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	37	det	_	_
+37	antycznych	antyczny	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	34	obl:arg	_	SpaceAfter=No
+38	.	.	PUNCT	interp	PunctType=Peri	9	punct	_	_
+
+# sent_id = 32
+# text = Poza tym, że stały się bardziej towarzyskie i uległe, nie zrobiliśmy wiele, aby zmienić ich naturalne zachowanie.
+1	Poza	poza	ADP	prep:inst	AdpType=Prep	2	case	_	_
+2	tym	to	PRON	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	5	punct	_	_
+4	że	że	SCONJ	comp	_	5	mark	_	_
+5	stały	stać	VERB	praet:pl:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp:cleft	_	_
+6	się	się	PRON	part	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+7	bardziej	bardzo	ADV	adv:com	Degree=Cmp	8	advmod	_	_
+8	towarzyskie	towarzyski	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	xcomp:pred	_	_
+9	i	i	CCONJ	conj	_	10	cc	_	_
+10	uległe	uległy	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	13	punct	_	_
+12	nie	nie	PART	part	Polarity=Neg	13	advmod:neg	_	_
+13-14	zrobiliśmy	_	_	_	_	_	_	_	_
+13	zrobili	zrobić	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+14	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Plur|Person=1|Variant=Short	13	aux:clitic	_	_
+15	wiele	wiele	DET	num:pl:nom:f:rec	Case=Nom|Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	interp	PunctType=Comm	18	punct	_	_
+17	aby	aby	SCONJ	comp	_	18	mark	_	_
+18	zmienić	zmienić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	13	advcl	_	_
+19	ich	on	PRON	ppron3:pl:gen:m1:ter:akc:npraep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	21	nmod	_	_
+20	naturalne	naturalny	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	zachowanie	zachowanie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	18	obj	_	SpaceAfter=No
+22	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 33
+# text = Innymi słowy, współczesne koty są mniej więcej takie, jak zawsze: dzikie.
+1	Innymi	inny	ADJ	adj:pl:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Plur	2	amod	_	_
+2	słowy	słowo	NOUN	subst:pl:inst:n:ncol	Case=Ins|Gender=Neut|Number=Plur	9	parataxis:insert	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	2	punct	_	_
+4	współczesne	współczesny	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+5	koty	kot	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+6	są	być	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
+7	mniej	mało	ADV	adv:com	Degree=Cmp	9	advmod	_	_
+8	więcej	dużo	ADV	adv:com	Degree=Cmp	7	fixed	_	_
+9	takie	taki	DET	adj:sg:nom:n:pos	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+11	jak	jak	SCONJ	comp	ConjType=Cmpr	12	mark	_	_
+12	zawsze	zawsze	ADV	adv	PronType=Tot	9	obl:cmpr	_	SpaceAfter=No
+13	:	:	PUNCT	interp	PunctType=Colo	14	punct	_	_
+14	dzikie	dziki	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	interp	PunctType=Peri	9	punct	_	_
+
+# sent_id = 34
+# text = Drapieżni łowcy.
+1	Drapieżni	Drapieżny	ADJ	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
+2	łowcy	łowiec	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 35
+# text = Stworzenia, nie uważające nas za swoich właścicieli.
+1	Stworzenia	stworzyć	NOUN	subst:pl:nom:n:ncol	Case=Nom|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	interp	PunctType=Comm	4	punct	_	_
+3	nie	nie	PART	part	Polarity=Neg	4	advmod:neg	_	_
+4	uważające	uważać	ADJ	pact:pl:nom:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	1	acl	_	_
+5	nas	my	PRON	ppron12:pl:gen:m1:pri	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	4	iobj	_	_
+6	za	za	ADP	prep:acc	AdpType=Prep	8	case	_	_
+7	swoich	swój	DET	adj:pl:gen:m1:pos	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	8	det:poss	_	_
+8	właścicieli	właściciel	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 36
+# text = Patrząc na naszą wspólną historię, prawdopodobnie mają rację.
+1	Patrząc	patrzeć	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	_
+2	na	na	ADP	prep:acc	AdpType=Prep	5	case	_	_
+3	naszą	nasz	DET	adj:sg:acc:f:pos	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+4	wspólną	wspólny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	historię	historia	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	obl:arg	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	1	punct	_	_
+7	prawdopodobnie	prawdopodobnie	ADV	adv:pos	Degree=Pos	8	parataxis:insert	_	_
+8	mają	mieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	rację	racja	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	8	iobj	_	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	8	punct	_	SpacesAfter=\s\n\n
+

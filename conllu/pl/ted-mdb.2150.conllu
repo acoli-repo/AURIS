@@ -1,0 +1,972 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = talkid: 2150
+1	talkid	talkid	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpacesBefore=\n\n|SpaceAfter=No
+2	:	:	PUNCT	interp	PunctType=Colo	1	punct	_	_
+3	2150	2150	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	1	nmod	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 2
+# text = Dave Troy: Mapy społeczne, które ukazują miejskie podziały i wspólnoty
+1	Dave	Dave	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	Troy	Troy	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
+3	:	:	PUNCT	interp	PunctType=Colo	1	punct	_	_
+4	Mapy	mapa	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	1	parataxis:obj	_	_
+5	społeczne	społeczny	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+7	które	który	DET	adj:pl:nom:f:pos	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	8	nsubj	_	_
+8	ukazują	ukazywać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+9	miejskie	miejski	ADJ	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+10	podziały	podział	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+11	i	i	CCONJ	conj	_	12	cc	_	_
+12	wspólnoty	wspólnota	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	conj	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 3
+# text = Słysząc termin "odwzorowanie miasta", myślimy o ulicach i budynkach, czynnikach wpływających na ich stworzenie albo o śmiałej wizji miejskiego architekta.
+1	Słysząc	słyszeć	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	_
+2	termin	termin	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+3	"	"	PUNCT	interp	PunctType=Quot	4	punct	_	SpaceAfter=No
+4	odwzorowanie	odwzorować	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	2	nmod:arg	_	_
+5	miasta	miasto	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	4	obj	_	SpaceAfter=No
+6	"	"	PUNCT	interp	PunctType=Quot	4	punct	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	1	punct	_	_
+8	myślimy	myśleć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	o	o	ADP	prep:loc	AdpType=Prep	10	case	_	_
+10	ulicach	ulica	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	8	obl	_	_
+11	i	i	CCONJ	conj	_	12	cc	_	_
+12	budynkach	budynek	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	14	punct	_	_
+14	czynnikach	czynnik	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	conj	_	_
+15	wpływających	wpływać	ADJ	pact:pl:gen:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	14	acl	_	_
+16	na	na	ADP	prep:acc	AdpType=Prep	18	case	_	_
+17	ich	on	PRON	ppron3:pl:gen:f:ter:akc:npraep	Case=Gen|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	18	obj	_	_
+18	stworzenie	stworzyć	NOUN	ger:sg:acc:n:perf:aff	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	15	obl:arg	_	_
+19	albo	albo	CCONJ	conj	_	22	cc	_	_
+20	o	o	ADP	prep:loc	AdpType=Prep	22	case	_	_
+21	śmiałej	śmiały	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	wizji	wizja	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	18	conj	_	_
+23	miejskiego	miejski	ADJ	adj:sg:gen:m1:pos	Animacy=Hum|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	architekta	architekt	NOUN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	22	nmod:arg	_	SpaceAfter=No
+25	.	.	PUNCT	interp	PunctType=Peri	8	punct	_	_
+
+# sent_id = 4
+# text = Ale można zupełnie inaczej myśleć o mapach miast i tym, jak są przygotowywane.
+1	Ale	ale	CCONJ	conj	_	2	cc	_	_
+2	można	można	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	_	_
+3	zupełnie	zupełnie	ADV	adv:pos	Degree=Pos	4	advmod	_	_
+4	inaczej	inaczej	ADV	adv	_	5	advmod	_	_
+5	myśleć	myśleć	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+6	o	o	ADP	prep:loc	AdpType=Prep	7	case	_	_
+7	mapach	mapa	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	5	obl:arg	_	_
+8	miast	miasto	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	7	nmod:arg	_	_
+9	i	i	CCONJ	conj	_	10	cc	_	_
+10	tym	to	PRON	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	5	conj	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	14	punct	_	_
+12	jak	jak	SCONJ	comp	_	14	mark	_	_
+13	są	być	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
+14	przygotowywane	przygotowywać	ADJ	ppas:pl:nom:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	10	ccomp:cleft	_	SpaceAfter=No
+15	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 5
+# text = Chciałbym pokazać wam nowy rodzaj mapy.
+1-3	Chciałbym	_	_	_	_	_	_	_	_
+1	Chciał	chcieć	VERB	praet:sg:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	by	by	AUX	part	_	1	aux:cnd	_	_
+3	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	1	aux:clitic	_	_
+4	pokazać	pokazać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+5	wam	wy	PRON	ppron12:pl:dat:m1:sec	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=2|PronType=Prs	4	iobj	_	_
+6	nowy	nowy	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	rodzaj	rodzaj	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+8	mapy	mapa	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 6
+# text = To nie jest mapa geograficzna.
+1	To	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	4	cop	_	_
+2	nie	nie	PART	part	Polarity=Neg	3	advmod:neg	_	_
+3	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+4	mapa	mapa	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+5	geograficzna	geograficzny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 7
+# text = To jest mapa związków międzyludzkich w moim mieście, Baltimore w stanie Maryland.
+1	To	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	3	cop	_	_
+2	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	mapa	mapa	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+4	związków	związek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod:arg	_	_
+5	międzyludzkich	międzyludzki	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+6	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	8	case	_	_
+7	moim	mój	DET	adj:sg:loc:n:pos	Case=Loc|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	mieście	miasto	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+10	Baltimore	Baltimorzeć	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+11	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	12	case	_	_
+12	stanie	stan	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+13	Maryland	Maryland	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 8
+# text = Każda kropka reprezentuje pojedynczą osobę, każda linia to związek pomiędzy tymi ludźmi, a każdy kolor przedstawia wspólnotę w ramach tej sieci.
+1	Każda	każdy	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	2	det	_	_
+2	kropka	kropka	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	reprezentuje	reprezentować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	pojedynczą	pojedynczy	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	osobę	osoba	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+7	każda	każdy	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	8	det	_	_
+8	linia	linia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+9	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	10	cop	_	_
+10	związek	związek	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+11	pomiędzy	pomiędzy	ADP	prep:inst	AdpType=Prep	13	case	_	_
+12	tymi	ten	DET	adj:pl:inst:m3:pos	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
+13	ludźmi	człowiek	NOUN	subst:pl:inst:m1:pt	Animacy=Hum|Case=Ins|Gender=Masc|Number=Ptan	10	nmod:arg	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	18	punct	_	_
+15	a	a	CCONJ	conj	_	18	cc	_	_
+16	każdy	każdy	DET	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	17	det	_	_
+17	kolor	kolor	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+18	przedstawia	przedstawiać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+19	wspólnotę	wspólnota	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+20	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	23	case	_	_
+21	ramach	ramy	NOUN	subst:pl:loc:n:pt	Case=Loc|Gender=Neut|Number=Ptan	20	fixed	_	_
+22	tej	ten	DET	adj:sg:gen:f:pos	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
+23	sieci	siecie	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
+24	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Ja jestem na zielono, po prawej, z innymi okularnikami i TEDx też jest tutaj po prawej.
+1	Ja	ja	PRON	ppron12:sg:nom:m1:pri	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	jestem	być	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	na	na	ADP	prep:acc	AdpType=Prep	4	case	_	_
+4	zielono	zielono	ADV	adv:pos	Degree=Pos	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+6	po	po	ADP	prep:loc	AdpType=Prep	7	case	_	_
+7	prawej	prawy	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+9	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	11	case	_	_
+10	innymi	inny	ADJ	adj:pl:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_
+11	okularnikami	okularnika	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	7	obl	_	_
+12	i	i	CCONJ	conj	_	18	cc	_	_
+13	TEDx	TEDx	PROPN	subst:sg:nom:m2	Animacy=Nhum|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+14	też	też	PART	part	_	18	advmod:emph	_	_
+15	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	cop	_	_
+16	tutaj	tutaj	ADV	adv	PronType=Dem	18	advmod	_	_
+17	po	po	ADP	prep:loc	AdpType=Prep	18	case	_	_
+18	prawej	prawy	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+19	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 10
+# text = (Śmiech)
+1	(	(	PUNCT	interp	PunctSide=Ini|PunctType=Brck	2	punct	_	SpaceAfter=No
+2	Śmiech	śmiech	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	interp	PunctSide=Fin|PunctType=Brck	2	punct	_	_
+
+# sent_id = 11
+# text = Po przeciwnej stronie mapy znajdziemy głownie Afro-Amerykanów oraz Latynosów, interesujących się czymś innym niż okularnicy.
+1	Po	po	ADP	prep:loc	AdpType=Prep	3	case	_	_
+2	przeciwnej	przeciwny	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	stronie	strona	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+4	mapy	mapa	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	znajdziemy	znaleźć	VERB	fin:pl:pri:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+6	głownie	głownie	ADV	adv:pos	Degree=Pos	5	advmod	_	_
+7	Afro	Afro	PROPN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No
+8	-Amerykanów	-Amerykany	PROPN	subst:pl:gen:n:pt	Case=Gen|Gender=Neut|Number=Ptan	7	flat	_	_
+9	oraz	oraz	CCONJ	conj	_	10	cc	_	_
+10	Latynosów	Latynos	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+12	interesujących	interesujący	ADJ	pact:pl:gen:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	10	acl	_	_
+13	się	się	PRON	part	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+14	czymś	coś	PRON	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing|PronType=Ind	12	iobj	_	_
+15	innym	inny	ADJ	adj:sg:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+16	niż	niż	SCONJ	comp	ConjType=Cmpr	17	mark	_	_
+17	okularnicy	okularnik	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	15	obl:cmpr	_	SpaceAfter=No
+18	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 12
+# text = Aby pokazać sens mapy, zieloną część mapy nazwiemy Smalltimore, ponieważ dla tych, którzy ją zamieszkują, jest jak wioska.
+1	Aby	aby	SCONJ	comp	_	2	mark	_	_
+2	pokazać	pokazać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	9	advcl	_	_
+3	sens	sens	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	mapy	mapa	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	2	punct	_	_
+6	zieloną	zielony	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	część	część	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+8	mapy	mapa	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	nmod:arg	_	_
+9	nazwiemy	nazwać	VERB	fin:pl:pri:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+10	Smalltimore	Smalltimore	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	9	iobj	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	20	punct	_	_
+12	ponieważ	ponieważ	SCONJ	comp	_	20	mark	_	_
+13	dla	dla	ADP	prep:gen	AdpType=Prep	14	case	_	_
+14	tych	ten	DET	adj:pl:gen:m1:pos	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	20	obl	_	SpaceAfter=No
+15	,	,	PUNCT	interp	PunctType=Comm	18	punct	_	_
+16	którzy	który	DET	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	18	nsubj	_	_
+17	ją	on	PRON	ppron3:sg:acc:f:ter:akc:npraep	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	18	obj	_	_
+18	zamieszkują	zamieszkiwać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	SpaceAfter=No
+19	,	,	PUNCT	interp	PunctType=Comm	18	punct	_	_
+20	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
+21	jak	jak	SCONJ	comp	ConjType=Cmpr	22	mark	_	_
+22	wioska	wioska	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	20	obl:cmpr	_	SpaceAfter=No
+23	.	.	PUNCT	interp	PunctType=Peri	9	punct	_	_
+
+# sent_id = 13
+# text = Spotykamy ciągle tych samych ludzi, tak naprawdę nie odkrywamy miasta w całej jego rozciągłości.
+1	Spotykamy	spotykać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ciągle	ciągle	ADV	adv:pos	Degree=Pos	1	advmod	_	_
+3	tych	ten	DET	adj:pl:gen:m1:pos	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+4	samych	sam	ADJ	adj:pl:gen:m1:pos	Animacy=Hum|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	3	fixed	_	_
+5	ludzi	człowiek	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+7	tak	tak	PART	part	_	10	advmod:emph	_	_
+8	naprawdę	naprawdę	PART	part	_	7	fixed	_	_
+9	nie	nie	PART	part	Polarity=Neg	10	advmod:neg	_	_
+10	odkrywamy	odkrywać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+11	miasta	miasto	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	10	obj	_	_
+12	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	15	case	_	_
+13	całej	cały	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+14	jego	on	PRON	ppron3:sg:gen:m1:ter:akc:npraep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	15	nmod	_	_
+15	rozciągłości	rozciągłość	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 14
+# text = Po drugiej stronie siatki mamy ludzi interesujących się hip-hopem.
+1	Po	po	ADP	prep:loc	AdpType=Prep	3	case	_	_
+2	drugiej	drugi	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	stronie	strona	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+4	siatki	siatka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	mamy	mieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	ludzi	człowiek	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	5	iobj	_	_
+7	interesujących	interesujący	ADJ	pact:pl:gen:m1:imperf:aff	Animacy=Hum|Aspect=Imp|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	6	acl	_	_
+8	się	się	PRON	part	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+9	hip-hopem	hip-hop	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	iobj	_	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 15
+# text = Oni identyfikują się bardziej z mieszkańcami Maryland lub Virginii niż z pozostałymi mieszkańcami Baltimore.
+1	Oni	on	PRON	ppron3:pl:nom:m1:ter:akc:npraep	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	2	nsubj	_	_
+2	identyfikują	identyfikować	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	się	się	PRON	part	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
+4	bardziej	bardzo	ADV	adv:com	Degree=Cmp	6	advmod	_	_
+5	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+6	mieszkańcami	mieszkaniec	NOUN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	2	obl	_	_
+7	Maryland	Maryland	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+8	lub	lub	CCONJ	conj	_	9	cc	_	_
+9	Virginii	Virginia	PROPN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	conj	_	_
+10	niż	niż	SCONJ	comp	ConjType=Cmpr	13	mark	_	_
+11	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	13	case	_	_
+12	pozostałymi	pozostały	ADJ	adj:pl:inst:m1:pos	Animacy=Hum|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_
+13	mieszkańcami	mieszkaniec	NOUN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	4	obl:cmpr	_	_
+14	Baltimore	Baltimore	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	SpaceAfter=No
+15	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 16
+# text = Pomiędzy nimi znajdziemy jednak coś, co łączy dwie różne społeczności, a jest to sport.
+1	Pomiędzy	pomiędzy	ADP	prep:inst	AdpType=Prep	2	case	_	_
+2	nimi	on	PRON	ppron3:pl:inst:m1:ter:akc:praep	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	3	obl	_	_
+3	znajdziemy	znaleźć	VERB	fin:pl:pri:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	jednak	jednak	CCONJ	conj	_	3	cc	_	_
+5	coś	coś	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+7	co	co	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	8	nsubj	_	_
+8	łączy	łączyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+9	dwie	dwa	NUM	num:pl:nom:f:congr	Case=Nom|Gender=Fem|Number=Plur|NumForm=Word	11	nummod	_	_
+10	różne	różny	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	11	amod	_	_
+11	społeczności	społeczność	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	interp	PunctType=Comm	16	punct	_	_
+13	a	a	CCONJ	conj	_	16	cc	_	_
+14	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	_
+15	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	16	cop	_	_
+16	sport	sport	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+17	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 17
+# text = Mamy drużynę piłkarską i baseballową oraz olimpijczyka, Michaela Phelpsa.
+1	Mamy	mieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	drużynę	drużyna	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	iobj	_	_
+3	piłkarską	piłkarski	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+4	i	i	CCONJ	conj	_	5	cc	_	_
+5	baseballową	baseballowy	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	_
+6	oraz	oraz	CCONJ	conj	_	7	cc	_	_
+7	olimpijczyka	olimpijczyk	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+9	Michaela	Michael	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	7	appos	_	_
+10	Phelpsa	Phelps	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	9	flat	_	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 18
+# text = Firma sportowa Under Armour ma swoją siedzibę w Baltimore.
+1	Firma	firma	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+2	sportowa	sportowy	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	_
+3	Under	Under	X	frag	Foreign=Yes	1	nmod	_	_
+4	Armour	Armour	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	3	flat	_	_
+5	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	swoją	swój	DET	adj:sg:acc:f:pos	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	det:poss	_	_
+7	siedzibę	siedziba	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	5	iobj	_	_
+8	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	9	case	_	_
+9	Baltimore	Baltimore	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 19
+# text = Sport jest jedynym łącznikiem między tymi dwoma społecznościami.
+1	Sport	sport	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+3	jedynym	jedyny	ADJ	adj:sg:inst:m1:pos	Animacy=Hum|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	łącznikiem	łącznik	NOUN	subst:sg:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+5	między	między	ADP	prep:inst	AdpType=Prep	8	case	_	_
+6	tymi	ten	DET	adj:pl:inst:f:pos	Case=Ins|Gender=Fem|Number=Plur|PronType=Dem	7	det	_	_
+7	dwoma	dwa	NUM	num:pl:inst:f:congr	Case=Ins|Gender=Fem|Number=Plur|NumForm=Word	8	nummod	_	_
+8	społecznościami	społeczność	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = Przyjrzyjmy się San Francisco.
+1	Przyjrzyjmy	przyjrzeć	VERB	impt:pl:pri:perf	Aspect=Perf|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
+2	się	się	PRON	part	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	San	San	X	frag	Foreign=Yes	1	obl	_	_
+4	Francisco	Francisco	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	3	flat	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 21
+# text = Można zauważyć, że w San Francisco wygląda to trochę inaczej.
+1	Można	można	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	_	_
+2	zauważyć	zauważyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+4	że	że	SCONJ	comp	_	8	mark	_	_
+5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+6	San	San	X	frag	Foreign=Yes	8	obl	_	_
+7	Francisco	Francisco	PROPN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	6	flat	_	_
+8	wygląda	wyglądać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+9	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	_	_
+10	trochę	trochę	ADV	adv	_	11	advmod	_	_
+11	inaczej	inaczej	ADV	adv	_	8	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 22
+# text = Mamy tu media, polityków, dziennikarzy, tak jak w Baltimore i innych miastach.
+1	Mamy	mieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	tu	tu	ADV	adv	PronType=Dem	1	advmod	_	_
+3	media	media	NOUN	subst:pl:nom:n:pt	Case=Nom|Gender=Neut|Number=Ptan	1	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	5	punct	_	_
+5	polityków	polityka	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+7	dziennikarzy	dziennikarz	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+9	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	3	conj	_	_
+10	jak	jak	SCONJ	comp	ConjType=Cmpr	12	mark	_	_
+11	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	12	case	_	_
+12	Baltimore	Baltimore	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	9	obl:cmpr	_	_
+13	i	i	CCONJ	conj	_	15	cc	_	_
+14	innych	inny	ADJ	adj:pl:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	15	amod	_	_
+15	miastach	miasto	NOUN	subst:pl:loc:n:ncol	Case=Loc|Gender=Neut|Number=Plur	12	conj	_	SpaceAfter=No
+16	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 23
+# text = Jednak liczebnie wyróżnia się grupa okularników i fanów techniki, stanowiących prawie połowę sieci.
+1	Jednak	jednak	CCONJ	conj	_	3	cc	_	_
+2	liczebnie	liczebnie	ADV	adv:pos	Degree=Pos	3	advmod	_	_
+3	wyróżnia	wyróżniać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	się	się	PRON	part	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+5	grupa	grupa	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+6	okularników	okularnik	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	5	nmod:arg	_	_
+7	i	i	CCONJ	conj	_	8	cc	_	_
+8	fanów	fan	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	6	conj	_	_
+9	techniki	technika	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	nmod:arg	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+11	stanowiących	stanowić	ADJ	pact:pl:gen:f:imperf:aff	Aspect=Imp|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	6	acl	_	_
+12	prawie	prawie	PART	part	_	13	advmod:emph	_	_
+13	połowę	połowa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+14	sieci	sieć	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	13	nmod:arg	_	SpaceAfter=No
+15	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 24
+# text = Mamy nawet grupę inną od reszty, którą nazwać możemy pracownikami Twittera.
+1	Mamy	mieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	nawet	nawet	PART	part	_	3	advmod:emph	_	_
+3	grupę	grupa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	iobj	_	_
+4	inną	inny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+5	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+6	reszty	reszta	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+8	którą	który	DET	adj:sg:acc:f:pos	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	9	obj	_	_
+9	nazwać	nazwać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	6	acl:relcl	_	_
+10	możemy	móc	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	xcomp	_	_
+11	pracownikami	pracownik	NOUN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	10	iobj	_	_
+12	Twittera	Twitter	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 25
+# text = Obok okularników, pomiędzy nimi a graczami na przeciwnym końcu od słuchaczy hip-hopu.
+1	Obok	obok	ADP	prep:gen	AdpType=Prep	2	case	_	_
+2	okularników	okularnik	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	5	punct	_	_
+4	pomiędzy	pomiędzy	ADP	prep:inst	AdpType=Prep	5	case	_	_
+5	nimi	on	PRON	ppron3:pl:inst:m1:ter:akc:praep	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	2	conj	_	_
+6	a	a	CCONJ	conj	_	7	cc	_	_
+7	graczami	gracz	NOUN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	5	conj	_	_
+8	na	na	ADP	prep:loc	AdpType=Prep	10	case	_	_
+9	przeciwnym	przeciwny	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	końcu	koniec	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+11	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	12	case	_	_
+12	słuchaczy	słuchacz	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+13	hip-hopu	hip-hop	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod:arg	_	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 26
+# text = Możecie zobaczyć, że napięcia panujące w San Francisco w związku z gentryfikacją i nowymi firmami gwarantującymi bogactwo i przebudowę miasta są prawdziwe, widać je na tej mapie.
+1	Możecie	móc	VERB	fin:pl:sec:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	zobaczyć	zobaczyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	23	punct	_	_
+4	że	że	SCONJ	comp	_	23	mark	_	_
+5	napięcia	napięcie	NOUN	subst:pl:nom:n:ncol	Case=Nom|Gender=Neut|Number=Plur	23	nsubj	_	_
+6	panujące	panować	ADJ	pact:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	5	acl	_	_
+7	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	8	case	_	_
+8	San	San	X	frag	Foreign=Yes	6	obl	_	_
+9	Francisco	Francisco	PROPN	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing	8	flat	_	_
+10	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	13	case	_	_
+11	związku	związek	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	fixed	_	_
+12	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	10	fixed	_	_
+13	gentryfikacją	gentryfikacja	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+14	i	i	CCONJ	conj	_	16	cc	_	_
+15	nowymi	nowy	ADJ	adj:pl:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur	16	amod	_	_
+16	firmami	firma	NOUN	subst:pl:inst:f	Case=Ins|Gender=Fem|Number=Plur	13	conj	_	_
+17	gwarantującymi	gwarantować	ADJ	pact:pl:inst:f:imperf:aff	Aspect=Imp|Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	13	acl	_	_
+18	bogactwo	bogactwo	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+19	i	i	CCONJ	conj	_	20	cc	_	_
+20	przebudowę	przebudowa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	18	conj	_	_
+21	miasta	miasto	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+22	są	być	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	cop	_	_
+23	prawdziwe	prawdziwy	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	ccomp	_	SpaceAfter=No
+24	,	,	PUNCT	interp	PunctType=Comm	25	punct	_	_
+25	widać	widać	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	1	conj	_	_
+26	je	on	PRON	ppron3:pl:acc:f:ter:akc:npraep	Case=Acc|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	25	iobj	_	_
+27	na	na	ADP	prep:loc	AdpType=Prep	29	case	_	_
+28	tej	ten	DET	adj:sg:loc:f:pos	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	29	det	_	_
+29	mapie	mapa	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
+30	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 27
+# text = Możecie zauważyć, że społeczność LGBT nie dogaduje się z okularnikami, społecznością artystów i muzyków.
+1	Możecie	móc	VERB	fin:pl:sec:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	zauważyć	zauważyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+4	że	że	SCONJ	comp	_	8	mark	_	_
+5	społeczność	społeczność	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+6	LGBT	LGBT	PROPN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	nie	nie	PART	part	Polarity=Neg	8	advmod:neg	_	_
+8	dogaduje	dogadować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp:obj	_	_
+9	się	się	PRON	part	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+10	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	11	case	_	_
+11	okularnikami	okularnika	NOUN	subst:pl:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	obl:arg	_	SpaceAfter=No
+12	,	,	PUNCT	interp	PunctType=Comm	13	punct	_	_
+13	społecznością	społeczność	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	11	conj	_	_
+14	artystów	artysta	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+15	i	i	CCONJ	conj	_	16	cc	_	_
+16	muzyków	muzyk	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 28
+# text = A to prowadzi do czegoś takiego.
+1	A	a	CCONJ	conj	_	3	cc	_	_
+2	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	prowadzi	prowadzić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	do	do	ADP	prep:gen	AdpType=Prep	5	case	_	_
+5	czegoś	coś	PRON	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind	3	obl	_	_
+6	takiego	taki	DET	adj:sg:gen:n:pos	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 29
+# text = ["Eksmitować Twitter"]
+1	[	[	PUNCT	interp	PunctSide=Ini|PunctType=Brck	3	punct	_	SpaceAfter=No
+2	"	"	PUNCT	interp	PunctType=Quot	3	punct	_	SpaceAfter=No
+3	Eksmitować	Eksmitować	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+4	Twitter	Twitter	PROPN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+5	"	"	PUNCT	interp	PunctType=Quot	3	punct	_	SpaceAfter=No
+6	]	]	PUNCT	interp	PunctSide=Fin|PunctType=Brck	3	punct	_	_
+
+# sent_id = 30
+# text = Dostałem to zdjęcie parę tygodni temu.
+1-2	Dostałem	_	_	_	_	_	_	_	_
+1	Dostał	dostać	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Long	1	aux:clitic	_	_
+3	to	ten	DET	adj:sg:acc:n:pos	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	zdjęcie	zdjęcie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	1	iobj	_	_
+5	parę	parę	DET	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	6	det:numgov	_	_
+6	tygodni	tydzień	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	obl	_	_
+7	temu	temu	ADP	prep:acc	AdpType=Post|Case=Acc	6	case	_	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 31
+# text = Obrazujące ono, co dzieje się w San Francisco.
+1	Obrazujące	Obrazuć	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	ono	on	PRON	ppron3:sg:nom:n:ter:akc:npraep	Case=Nom|Gender=Neut|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	5	punct	_	_
+4	co	co	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	5	nsubj	_	_
+5	dzieje	dziać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+6	się	się	PRON	part	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+7	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	8	case	_	_
+8	San	San	X	frag	Foreign=Yes	5	obl	_	_
+9	Francisco	Francisco	PROPN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	8	flat	_	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 32
+# text = Można spróbować to zrozumieć, analizując naszą mapę.
+1	Można	można	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	_	_
+2	spróbować	spróbować	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3	to	to	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	_
+4	zrozumieć	zrozumieć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+6	analizując	analizować	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	4	advcl	_	_
+7	naszą	nasz	DET	adj:sg:acc:f:pos	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	mapę	mapa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 33
+# text = Spójrzmy na Rio de Janeiro.
+1	Spójrzmy	spojrzeć	VERB	impt:pl:pri:perf	Aspect=Perf|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
+2	na	na	ADP	prep:acc	AdpType=Prep	3	case	_	_
+3	Rio	Rio	PROPN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	_
+4	de	de	X	frag	Foreign=Yes	3	flat	_	_
+5	Janeiro	Janeiro	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	4	flat	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 34
+# text = Spędziłem kilka tygodni, zbierając dane o tym mieście i szczególnie uderzyło mnie to, że wszystko jest tu pomieszane.
+1-2	Spędziłem	_	_	_	_	_	_	_	_
+1	Spędził	spędzić	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	em	być	AUX	aglt:sg:pri:imperf:wok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Long	1	aux:clitic	_	_
+3	kilka	kilka	DET	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	4	det:numgov	_	_
+4	tygodni	tydzień	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+6	zbierając	zbierać	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	1	advcl	_	_
+7	dane	dane	NOUN	subst:pl:acc:n:pt	Case=Acc|Gender=Neut|Number=Ptan	6	obj	_	_
+8	o	o	ADP	prep:loc	AdpType=Prep	10	case	_	_
+9	tym	ten	DET	adj:sg:loc:n:pos	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	10	det	_	_
+10	mieście	miasto	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	_
+11	i	i	CCONJ	conj	_	13	cc	_	_
+12	szczególnie	szczególnie	ADV	adv:pos	Degree=Pos	13	advmod	_	_
+13	uderzyło	uderzyć	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+14	mnie	ja	PRON	ppron12:sg:acc:f:pri:akc	Case=Acc|Gender=Fem|Number=Sing|Person=1|PronType=Prs|Variant=Long	13	iobj	_	_
+15	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	13	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	interp	PunctType=Comm	21	punct	_	_
+17	że	że	SCONJ	comp	_	21	mark	_	_
+18	wszystko	wszystko	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	21	nsubj:pass	_	_
+19	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux:pass	_	_
+20	tu	tu	ADV	adv	PronType=Dem	21	advmod	_	_
+21	pomieszane	pomieszać	ADJ	ppas:pl:nom:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	15	ccomp:cleft	_	SpaceAfter=No
+22	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 35
+# text = To miasto bardziej różnorodne niż Baltimore czy San Francisco.
+1	To	to	DET	adj:sg:nom:n:pos	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
+2	miasto	miasto	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	bardziej	bardzo	ADV	adv:com	Degree=Cmp	4	advmod	_	_
+4	różnorodne	różnorodny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+5	niż	niż	SCONJ	comp	ConjType=Cmpr	6	mark	_	_
+6	Baltimore	Baltimore	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	4	obl:cmpr	_	_
+7	czy	czy	CCONJ	conj	_	8	cc	_	_
+8	San	Sam	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+9	Francisco	Francisco	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	8	flat	_	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 36
+# text = Nadal mamy odłam ludzi zaangażowanych w politykę czy media.
+1	Nadal	nadal	ADV	adv	_	3	advmod	_	_
+2	mamy	mieć	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3-4	odłam	_	_	_	_	_	_	_	_
+3	odła	eść	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	3	aux:clitic	_	_
+5	ludzi	człowiek	NOUN	subst:pl:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+6	zaangażowanych	zaangażować	ADJ	ppas:pl:gen:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	5	acl	_	_
+7	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	8	case	_	_
+8	politykę	polityka	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	6	obl:arg	_	_
+9	czy	czy	CCONJ	conj	_	10	cc	_	_
+10	media	media	NOUN	subst:pl:acc:n:pt	Case=Acc|Gender=Neut|Number=Ptan	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 37
+# text = TEDxRio jest na dole po prawej, tuż obok pisarzy i blogerów.
+1	TEDxRio	TEDxRio	ADV	adv:pos	Degree=Pos	2	advmod	_	_
+2	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	na	na	ADP	prep:loc	AdpType=Prep	4	case	_	_
+4	dole	dół	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	po	po	ADP	prep:loc	AdpType=Prep	6	case	_	_
+6	prawej	prawy	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+8	tuż	tuż	PART	part	_	9	advmod:emph	_	_
+9	obok	obok	ADP	prep:gen	AdpType=Prep	10	case	_	_
+10	pisarzy	pisarz	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	6	conj	_	_
+11	i	i	CCONJ	conj	_	12	cc	_	_
+12	blogerów	bloger	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 38
+# text = Ale widzimy też ogromną różnorodność ludzi wynikającą ze słuchania różnej muzyki.
+1	Ale	ale	CCONJ	conj	_	2	cc	_	_
+2	widzimy	widzieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	też	też	PART	part	_	2	advmod:emph	_	_
+4	ogromną	ogromny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	różnorodność	różnorodność	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+6	ludzi	człowiek	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	5	nmod:arg	_	_
+7	wynikającą	wynikać	ADJ	pact:sg:acc:f:imperf:aff	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	6	acl	_	_
+8	ze	z	ADP	prep:gen:wok	AdpType=Prep|Variant=Long	9	case	_	_
+9	słuchania	słuchać	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	7	obl:arg	_	_
+10	różnej	różny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	muzyki	muzyk	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 39
+# text = Są nawet fani Justina Biebera.
+1	Są	być	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	nawet	nawet	PART	part	_	3	advmod:emph	_	_
+3	fani	fać	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
+4	Justina	Justin	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	Biebera	Bieber	PROPN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	4	flat	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 40
+# text = Inne boys bandy, piosenkarze country, muzyka gospel, funk, rap, komicy stand-up, jest nawet sekcja kawałów i narkotyków.
+1	Inne	inny	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	2	amod	_	_
+2	boys	boys	NOUN	subst:sg:nom:m2	Animacy=Nhum|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	bandy	band	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	5	punct	_	_
+5	piosenkarze	piosenkarz	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	_
+6	country	country	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+8	muzyka	muzyka	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
+9	gospel	gospel	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+11	funk	funk	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+12	,	,	PUNCT	interp	PunctType=Comm	13	punct	_	_
+13	rap	rapa	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	15	punct	_	_
+15	komicy	komica	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	_
+16	stand-	standterminowy	PUNCT	interp	PunctType=Hyph	17	punct	_	SpaceAfter=No
+17	up	up	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	interp	PunctType=Comm	21	punct	_	_
+19	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	_	_
+20	nawet	nawet	PART	part	_	21	advmod:emph	_	_
+21	sekcja	sekcja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	17	conj	_	_
+22	kawałów	kawał	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod:arg	_	_
+23	i	i	CCONJ	conj	_	24	cc	_	_
+24	narkotyków	narkotyk	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 41
+# text = Super, co nie?
+1	Super	super	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	interp	PunctType=Comm	4	punct	_	_
+3	co	co	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	4	nsubj	_	_
+4	nie	nie	PART	part	Polarity=Neg	1	acl:relcl	_	SpaceAfter=No
+5	?	?	PUNCT	interp	PunctType=Qest	4	punct	_	_
+
+# sent_id = 42
+# text = Swoich przedstawicieli ma nawet drużyna piłkarska Flamengo.
+1	Swoich	swój	DET	adj:pl:gen:m1:pos	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	2	det:poss	_	_
+2	przedstawicieli	przedstawiciel	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	3	iobj	_	_
+3	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	nawet	nawet	PART	part	_	3	advmod:emph	_	_
+5	drużyna	drużyna	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	piłkarska	piłkarski	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+7	Flamengo	Flamengo	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	6	nmod:arg	_	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 43
+# text = Więc mamy taką samą mapę sportu, spraw miejskich, sztuki i muzyki ale reprezentowanych całkiem inaczej, w zgodzie z naszym wyobrażeniem Rio jako multikulturowego i muzycznie zróżnicowanego miasta.
+1	Więc	więc	SCONJ	comp	_	2	mark	_	_
+2	mamy	mieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	taką	taki	DET	adj:sg:acc:f:pos	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+4	samą	sam	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	mapę	mapa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	iobj	_	_
+6	sportu	sport	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod:arg	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+8	spraw	sprawa	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	6	conj	_	_
+9	miejskich	miejski	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+11	sztuki	sztuka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	6	conj	_	_
+12	i	i	CCONJ	conj	_	13	cc	_	_
+13	muzyki	muzyk	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	6	conj	_	_
+14	ale	ale	CCONJ	conj	_	15	cc	_	_
+15	reprezentowanych	reprezentować	ADJ	ppas:pl:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	13	acl	_	_
+16	całkiem	całkiem	ADV	adv	_	17	advmod	_	_
+17	inaczej	inaczej	ADV	adv	_	15	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	interp	PunctType=Comm	20	punct	_	_
+19	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	20	case	_	_
+20	zgodzie	zgoda	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_
+21	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	23	case	_	_
+22	naszym	nasz	DET	adj:sg:inst:n:pos	Case=Ins|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	wyobrażeniem	wyobrażenie	NOUN	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing	20	nmod:arg	_	_
+24	Rio	Rio	PROPN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	23	nmod:arg	_	_
+25	jako	jako	SCONJ	comp	ConjType=Pred	26	mark	_	_
+26	multikulturowego	multikulturowy	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+27	i	i	CCONJ	conj	_	30	cc	_	_
+28	muzycznie	muzycznie	ADV	adv:pos	Degree=Pos	29	advmod	_	_
+29	zróżnicowanego	zróżnicować	ADJ	ppas:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	30	acl	_	_
+30	miasta	miasto	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	26	conj	_	SpaceAfter=No
+31	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 44
+# text = Więc mamy te wszystkie dane.
+1	Więc	więc	SCONJ	comp	_	2	mark	_	_
+2	mamy	mieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	te	ten	DET	adj:pl:acc:n:pos	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	5	det	_	_
+4	wszystkie	wszystek	DET	adj:pl:acc:n:pos	Case=Acc|Gender=Neut|Number=Plur|PronType=Tot	5	det	_	_
+5	dane	dane	NOUN	subst:pl:acc:n:pt	Case=Acc|Gender=Neut|Number=Ptan	2	iobj	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 45
+# text = W dzisiejszych czasach mamy bardo dużo informacji o miastach, pewnie więcej niż w jakimkolwiek zbiorze danych wcześniej.
+1	W	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	3	case	_	_
+2	dzisiejszych	dzisiejszy	ADJ	adj:pl:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+3	czasach	czas	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	4	obl	_	_
+4	mamy	mieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	bardo	bardo	ADV	adv:pos	Degree=Pos	4	advmod	_	_
+6	dużo	dużo	DET	num:pl:acc:f:rec	Case=Acc|Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	7	det:numgov	_	_
+7	informacji	informacja	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	4	iobj	_	_
+8	o	o	ADP	prep:loc	AdpType=Prep	9	case	_	_
+9	miastach	miasto	NOUN	subst:pl:loc:n:ncol	Case=Loc|Gender=Neut|Number=Plur	7	nmod:arg	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+11	pewnie	pewnie	PART	part	_	12	parataxis:insert	_	_
+12	więcej	więcej	DET	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	4	iobj	_	_
+13	niż	niż	SCONJ	comp	ConjType=Cmpr	16	mark	_	_
+14	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	16	case	_	_
+15	jakimkolwiek	jakikolwiek	DET	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
+16	zbiorze	zbiór	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl:cmpr	_	_
+17	danych	dane	NOUN	subst:pl:gen:n:pt	Case=Gen|Gender=Neut|Number=Ptan	16	nmod	_	_
+18	wcześniej	wcześnie	ADV	adv:com	Degree=Cmp	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 46
+# text = Ale co możemy z nimi zrobić?
+1	Ale	ale	CCONJ	conj	_	3	cc	_	_
+2	co	co	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	3	nsubj	_	_
+3	możemy	móc	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	5	case	_	_
+5	nimi	on	PRON	ppron3:pl:inst:m1:ter:akc:praep	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	6	obl:arg	_	_
+6	zrobić	zrobić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	SpaceAfter=No
+7	?	?	PUNCT	interp	PunctType=Qest	3	punct	_	_
+
+# sent_id = 47
+# text = Po pierwsze musimy zrozumieć, że segregacja jest konstruktem społecznym.
+1	Po	po	ADP	prep:acc	AdpType=Prep	2	case	_	_
+2	pierwsze	pierwszy	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	parataxis:insert	_	_
+3	musimy	musieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	zrozumieć	zrozumieć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+6	że	że	SCONJ	comp	_	9	mark	_	_
+7	segregacja	segregacja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+8	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
+9	konstruktem	konstrukt	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	ccomp	_	_
+10	społecznym	społeczny	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 48
+# text = Jest to coś, co wybieramy, więc możemy wybrać inaczej.
+1	Jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+2	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	3	cop	_	_
+3	coś	coś	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+5	co	co	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	6	obj	_	_
+6	wybieramy	wybierać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+8	więc	więc	SCONJ	comp	_	9	mark	_	_
+9	możemy	móc	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+10	wybrać	wybrać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	inaczej	inaczej	ADV	adv	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 49
+# text = Jeśli się nad tym zastanowić, to nasze badanie jest jak patrzenie przez teleskop na ogromną szkolną stołówkę i określanie, kto z kim siedzi.
+1	Jeśli	jeśli	SCONJ	comp	_	5	mark	_	_
+2	się	się	PRON	part	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+3	nad	nad	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	4	case	_	_
+4	tym	to	PRON	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	5	obl:arg	_	_
+5	zastanowić	zastanowić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	10	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	5	punct	_	_
+7	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	10	cop	_	_
+8	nasze	nasz	DET	adj:sg:nom:n:pos	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	badanie	badanie	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+10	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	jak	jak	SCONJ	comp	ConjType=Cmpr	12	mark	_	_
+12	patrzenie	patrzeć	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	10	obl:cmpr	_	_
+13	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	14	case	_	_
+14	teleskop	teleskop	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	_
+15	na	na	ADP	prep:acc	AdpType=Prep	18	case	_	_
+16	ogromną	ogromny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+17	szkolną	szkolny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	stołówkę	stołówka	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	14	nmod:arg	_	_
+19	i	i	CCONJ	conj	_	20	cc	_	_
+20	określanie	określać	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	14	conj	_	SpaceAfter=No
+21	,	,	PUNCT	interp	PunctType=Comm	25	punct	_	_
+22	kto	kto	PRON	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	25	nsubj	_	_
+23	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	24	case	_	_
+24	kim	kto	PRON	subst:sg:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Sing|PronType=Int	25	obl:arg	_	_
+25	siedzi	siedzieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	SpaceAfter=No
+26	.	.	PUNCT	interp	PunctType=Peri	10	punct	_	_
+
+# sent_id = 50
+# text = Może nadszedł czas zburzyć ten ład.
+1	Może	może	PART	part	PartType=Mod	2	advmod:emph	_	_
+2	nadszedł	nadejść	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	czas	czas	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+4	zburzyć	zburzyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+5	ten	ten	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	ład	ład	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 51
+# text = Zaczynamy rozumieć, że rasa to zły wyznacznik różnorodności.
+1	Zaczynamy	zaczynać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	rozumieć	rozumieć	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+4	że	że	SCONJ	comp	_	8	mark	_	_
+5	rasa	rasa	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+6	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	8	cop	_	_
+7	zły	zły	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	wyznacznik	wyznacznik	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	ccomp	_	_
+9	różnorodności	różnorodność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 52
+# text = Ludzie wszystkich ras są rozrzuceni po całej mapie.
+1	Ludzie	człowiek	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+2	wszystkich	wszystek	DET	adj:pl:gen:f:pos	Case=Gen|Gender=Fem|Number=Plur|PronType=Tot	3	det	_	_
+3	ras	rasa	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+4	są	być	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	rozrzuceni	rozrzucić	ADJ	ppas:pl:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+6	po	po	ADP	prep:loc	AdpType=Prep	8	case	_	_
+7	całej	cały	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	mapie	mapa	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 53
+# text = Analizowanie grup wyłącznie według ras nie mówi nam nic o różnorodności.
+1	Analizowanie	Analizować	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	7	nsubj	_	_
+2	grup	grupa	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	1	obj	_	_
+3	wyłącznie	wyłącznie	ADV	adv:pos	Degree=Pos	5	advmod	_	_
+4	według	według	ADP	prep:gen	AdpType=Prep	5	case	_	_
+5	ras	rasa	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	7	obl	_	_
+6	nie	nie	PART	part	Polarity=Neg	7	advmod:neg	_	_
+7	mówi	mówić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	nam	my	PRON	ppron12:pl:dat:m1:pri	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	7	iobj	_	_
+9	nic	nic	PRON	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing|PronType=Neg	7	obj	_	_
+10	o	o	ADP	prep:loc	AdpType=Prep	11	case	_	_
+11	różnorodności	różnorodność	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	9	nmod:arg	_	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	7	punct	_	_
+
+# sent_id = 54
+# text = Jeśli chcemy używać różnorodności jako sposobu na rozwiązanie zawiłych problemów, to musimy inaczej ją rozumieć.
+1	Jeśli	jeśli	SCONJ	comp	_	2	mark	_	_
+2	chcemy	chcieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_
+3	używać	używać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	różnorodności	różnorodność	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	obj	_	_
+5	jako	jako	SCONJ	comp	ConjType=Pred	6	mark	_	_
+6	sposobu	sposób	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+7	na	na	ADP	prep:acc	AdpType=Prep	8	case	_	_
+8	rozwiązanie	rozwiązać	NOUN	ger:sg:acc:n:imperf:aff	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	3	obl	_	_
+9	zawiłych	zawiły	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+10	problemów	problem	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	13	punct	_	_
+12	to	to	SCONJ	comp	_	13	mark	_	_
+13	musimy	musieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+14	inaczej	inaczej	ADV	adv	_	16	advmod	_	_
+15	ją	on	PRON	ppron3:sg:acc:f:ter:akc:npraep	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	16	obj	_	_
+16	rozumieć	rozumieć	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	interp	PunctType=Peri	13	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 55
+# text = Możemy zmienić strukturę naszych miast i wierzę, że skoro mamy takie możliwości, jest to wręcz nasz obowiązek.
+1	Możemy	móc	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	zmienić	zmienić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3	strukturę	struktura	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	naszych	nasz	DET	adj:pl:gen:n:pos	Case=Gen|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	miast	miasto	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
+6	i	i	CCONJ	conj	_	7	cc	_	_
+7	wierzę	wierzyć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	19	punct	_	_
+9	że	że	SCONJ	comp	_	19	mark	_	_
+10	skoro	skoro	SCONJ	comp	_	11	mark	_	_
+11	mamy	mieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	19	advcl	_	_
+12	takie	taki	DET	adj:pl:acc:f:pos	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	13	det	_	_
+13	możliwości	możliwość	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	11	iobj	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+15	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	_
+16	to	to	PART	part	_	19	advmod:emph	_	_
+17	wręcz	wręcz	PART	part	_	19	advmod:emph	_	_
+18	nasz	nasz	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	obowiązek	obowiązek	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	ccomp	_	SpaceAfter=No
+20	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 56
+# text = Czym więc jest miasto?
+1	Czym	co	PRON	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing|PronType=Int	3	iobj	_	_
+2	więc	więc	SCONJ	comp	_	3	mark	_	_
+3	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	miasto	miasto	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	interp	PunctType=Qest	3	punct	_	_
+
+# sent_id = 57
+# text = Niektórzy stwierdzą, że to obszar geograficzny, zbiór ulic i budynków.
+1	Niektórzy	niektóry	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	stwierdzą	stwierdzić	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+4	że	że	SCONJ	comp	_	6	mark	_	_
+5	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	6	cop	_	_
+6	obszar	obszar	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	ccomp:obj	_	_
+7	geograficzny	geograficzny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+9	zbiór	zbiór	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+10	ulic	ulica	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	9	nmod:arg	_	_
+11	i	i	CCONJ	conj	_	12	cc	_	_
+12	budynków	budynek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 58
+# text = Jednak moim zdaniem jest to suma związków pomiędzy jego mieszkańcami.
+1	Jednak	jednak	CCONJ	conj	_	6	cc	_	_
+2	moim	mój	DET	adj:sg:inst:n:pos	Case=Ins|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	zdaniem	zdanie	NOUN	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing	6	parataxis:insert	_	_
+4	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+5	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	6	cop	_	_
+6	suma	suma	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+7	związków	związek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod:arg	_	_
+8	pomiędzy	pomiędzy	ADP	prep:inst	AdpType=Prep	10	case	_	_
+9	jego	on	PRON	ppron3:sg:gen:m1:ter:akc:npraep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	10	nmod	_	_
+10	mieszkańcami	mieszkaniec	NOUN	subst:pl:inst:m1	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur	7	nmod:arg	_	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	6	punct	_	_
+
+# sent_id = 59
+# text = Jeśli zaczniemy je naprawdę rejestrować, to być może uda się stworzyć takie miasta, o jakich marzymy.
+1	Jeśli	jeśli	SCONJ	comp	_	2	mark	_	_
+2	zaczniemy	zacząć	VERB	fin:pl:pri:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	9	advcl	_	_
+3	je	on	PRON	ppron3:pl:acc:m3:ter:akc:npraep	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	2	obj	_	_
+4	naprawdę	naprawdę	PART	part	_	5	advmod:emph	_	_
+5	rejestrować	rejestrować	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	2	punct	_	_
+7	to	to	SCONJ	comp	_	9	mark	_	_
+8	być	być	AUX	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	9	aux	_	_
+9	może	móc	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	uda	udać	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	xcomp	_	_
+11	się	się	PRON	part	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+12	stworzyć	stworzyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+13	takie	taki	DET	adj:pl:acc:n:pos	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	14	det	_	_
+14	miasta	miasto	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	interp	PunctType=Comm	18	punct	_	_
+16	o	o	ADP	prep:loc	AdpType=Prep	18	case	_	_
+17	jakich	jaki	DET	adj:pl:gen:f:pos	Case=Gen|Gender=Fem|Number=Plur|PronType=Rel	18	det:numgov	_	_
+18	marzymy	marzym	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+19	.	.	PUNCT	interp	PunctType=Peri	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 60
+# text = Dziękuję.
+1	Dziękuję	dziękować	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	SpacesAfter=\n\n
+

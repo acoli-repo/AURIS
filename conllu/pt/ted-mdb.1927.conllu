@@ -1,0 +1,2513 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = O mundo está a mudar de formas muito profundas .
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	está	estar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	SCONJ	_	_	5	mark	_	_
+5	mudar	mudar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	formas	forma	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
+8	muito	muito	ADV	_	_	9	advmod	_	_
+9	profundas	profundo	ADJ	_	Gender=Fem|Number=Plur	7	amod	_	_
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 2
+# text = Preocupa -me que os investidores não estejam a prestar suficiente atenção a algumas de_ as principais forças de mudança , especialmente no que se refere à sustentabilidade .
+1	Preocupa	preocupar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	-me	-me	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+3	que	que	SCONJ	_	_	9	mark	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	investidores	investidor	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
+6	não	não	ADV	_	Polarity=Neg	9	advmod	_	_
+7	estejam	estar	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	a	a	SCONJ	_	_	9	mark	_	_
+9	prestar	prestar	VERB	_	VerbForm=Inf	1	csubj	_	_
+10	suficiente	suficiente	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+11	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	14	det	_	_
+14	de_	de_	PROPN	_	Number=Sing	11	nmod	_	_
+15	as	a	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	principais	principal	ADJ	_	Gender=Fem|Number=Plur	17	amod	_	_
+17	forças	força	NOUN	_	Gender=Fem|Number=Plur	11	appos	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	mudança	mudança	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	especialmente	especialmente	ADV	_	_	17	advmod	_	_
+22-23	no	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	23	case	_	_
+23	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	21	obl	_	_
+24	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	26	obj	_	_
+25	se	se	PRON	_	Case=Acc|Gender=Unsp|PronType=Prs	26	nsubj	_	_
+26	refere	referir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+27-28	à	_	_	_	_	_	_	_	_
+27	a	a	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	sustentabilidade	sustentabilidade	NOUN	_	Gender=Fem|Number=Sing	26	iobj	_	_
+30	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 3
+# text = Por sustentabilidade , quero dizer as coisas que realmente interessam , tais como questões ambientais e sociais e a liderança de_ as corporações .
+1	Por	por	ADP	_	_	2	case	_	_
+2	sustentabilidade	sustentabilidade	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	quero	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	dizer	dizer	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	coisas	coisa	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
+8	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	10	nsubj	_	_
+9	realmente	realmente	ADV	_	_	10	advmod	_	_
+10	interessam	interess	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	tais	tal	DET	_	Gender=Fem|Number=Plur|PronType=Dem	14	det	_	_
+13	como	como	ADP	_	_	12	fixed	_	_
+14	questões	questão	NOUN	_	Gender=Fem|Number=Plur	5	conj	_	_
+15	ambientais	ambiental	ADJ	_	Gender=Fem|Number=Plur	14	amod	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	sociais	social	ADJ	_	Gender=Fem|Number=Plur	15	conj	_	_
+18	e	e	CCONJ	_	_	20	cc	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	liderança	liderança	PROPN	_	Gender=Fem|Number=Sing	14	conj	_	_
+21	de_	de_	PROPN	_	Number=Sing	20	flat:name	_	_
+22	as	a	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	corporações	corporação	NOUN	_	Gender=Fem|Number=Plur	20	appos	_	_
+24	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 4
+# text = Eu acho uma imprudência ignorar estas coisas , porque , a_ o fazê# -lo , podemos comprometer retornos a longo prazo no futuro .
+1	Eu	eu	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	acho	achar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	imprudência	imprudência	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	ignorar	ignorar	VERB	_	VerbForm=Inf	4	acl	_	_
+6	estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	7	det	_	_
+7	coisas	coisa	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	_
+8	,	,	PUNCT	_	_	5	punct	_	_
+9	porque	porque	SCONJ	_	_	13	mark	_	_
+10	,	,	PUNCT	_	_	13	punct	_	_
+11	a_	a_	PROPN	_	Number=Sing	10	flat:name	_	_
+12	o	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	fazê	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+14	#	#	PUNCT	_	_	15	punct	_	_
+15	-lo	-lo	NOUN	_	Gender=Masc|Number=Sing	18	nsubj	_	_
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	csubj	_	_
+18	comprometer	comprometer	VERB	_	VerbForm=Inf	17	xcomp	_	_
+19	retornos	retornos	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	_
+20	a	a	ADP	_	_	22	case	_	_
+21	longo	longo	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+22	prazo	prazo	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+23-24	no	_	_	_	_	_	_	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	futuro	futuro	NOUN	_	Gender=Masc|Number=Sing	18	obl	_	_
+26	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 5
+# text = Esta é uma coisa que vos pode surpreender
+1	Esta	este	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	8	obj	_	_
+6	vos	vós	PRON	_	Case=Dat|Gender=Unsp|Number=Plur|Person=2|PronType=Prs	8	nsubj	_	_
+7	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	surpreender	surpreender	VERB	_	VerbForm=Inf	7	xcomp	_	_
+
+# sent_id = 6
+# text = : o equilíbrio de_ o poder para influenciar a sustentabilidade está nas mãos de_ os investidores institucionais , os grandes investidores tais como os fundos de pensão , as fundações e as dotações .
+1	:	:	PUNCT	_	_	14	punct	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	equilíbrio	equilíbrio	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+4	de_	de_	PROPN	_	Number=Sing	3	flat:name	_	_
+5	o	ele	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	poder	poder	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+7	para	para	SCONJ	_	_	8	mark	_	_
+8	influenciar	influenciar	VERB	_	VerbForm=Inf	6	acl	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	sustentabilidade	sustentabilidade	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12-13	nas	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	mãos	mão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+15	de_	de_	PROPN	_	Number=Sing	14	flat:name	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	investidores	investidor	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	_
+18	institucionais	institucional	ADJ	_	Gender=Masc|Number=Plur	17	amod	_	_
+19	,	,	PUNCT	_	_	22	punct	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	grandes	grande	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	_
+22	investidores	investidor	NOUN	_	Gender=Masc|Number=Plur	14	conj	_	_
+23	tais	tal	ADJ	_	Gender=Masc|Number=Plur	22	amod	_	_
+24	como	como	ADP	_	_	26	case	_	_
+25	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	fundos	fundo	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	pensão	pensão	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+29	,	,	PUNCT	_	_	31	punct	_	_
+30	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	fundações	fundações	NOUN	_	Gender=Fem|Number=Plur	14	conj	_	_
+32	e	e	CCONJ	_	_	34	cc	_	_
+33	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	dotações	dotação	NOUN	_	Gender=Fem|Number=Plur	14	conj	_	_
+35	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 7
+# text = Acredito que um investimento sustentável é menos complicado de_ o que vocês pensam , com melhor desempenho de_ o que julgam e , mais importante ainda , de_ o que podemos imaginar .
+1	Acredito	acreditar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	que	que	SCONJ	_	_	8	mark	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	investimento	investimento	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	_
+5	sustentável	sustentável	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	menos	menos	ADV	_	_	8	advmod	_	_
+8	complicado	complicado	ADJ	_	Gender=Masc|Number=Sing	1	ccomp	_	_
+9	de_	de_	PROPN	_	Number=Sing	8	flat:name	_	_
+10	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	8	appos	_	_
+11	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	13	obj	_	_
+12	vocês	você	PRON	_	Case=Nom|Gender=Unsp|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+13	pensam	pensar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	com	com	ADP	_	_	17	case	_	_
+16	melhor	bom	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+17	desempenho	desempenho	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+18	de_	de_	PROPN	_	Number=Sing	17	flat:name	_	_
+19	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	17	appos	_	_
+20	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	21	nsubj	_	_
+21	julgam	julgar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+22	e	e	CCONJ	_	_	28	cc	_	_
+23	,	,	PUNCT	_	_	25	punct	_	_
+24	mais	mais	ADV	_	_	25	advmod	_	_
+25	importante	importante	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
+26	ainda	ainda	ADV	_	_	25	advmod	_	_
+27	,	,	PUNCT	_	_	25	punct	_	_
+28	de_	de_	PROPN	_	Number=Sing	21	obj	_	_
+29	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	28	appos	_	_
+30	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	32	obj	_	_
+31	podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+32	imaginar	imaginar	VERB	_	VerbForm=Inf	31	xcomp	_	_
+33	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Lembro -vos o que já sabemos .
+1	Lembro	Lembro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	-vos	-vo	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
+3	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	appos	_	_
+4	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	6	obj	_	_
+5	já	já	ADV	_	_	6	advmod	_	_
+6	sabemos	saber	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 9
+# text = Temos uma população que está a crescer e a envelhecer ; temos hoje sete mil milhões de almas a caminho de_ os 10 mil milhões até a_ o final de_ o século ; consumimos recursos naturais mais depressa de_ o que eles podem ser repostos
+1	Temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	população	população	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	7	nsubj	_	_
+5	está	estar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	a	a	SCONJ	_	_	7	mark	_	_
+7	crescer	crescer	VERB	_	VerbForm=Inf	5	xcomp	_	_
+8	e	e	CCONJ	_	_	10	cc	_	_
+9	a	a	SCONJ	_	_	10	mark	_	_
+10	envelhecer	envelhecer	VERB	_	VerbForm=Inf	7	conj	_	_
+11	;	;	PUNCT	_	_	12	punct	_	_
+12	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+13	hoje	hoje	ADV	_	_	12	advmod	_	_
+14	sete	sete	NUM	_	NumType=Card	12	obj	_	_
+15	mil	mil	NUM	_	NumType=Card	14	flat	_	_
+16	milhões	milhão	NUM	_	NumType=Card	14	flat	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	almas	alma	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
+19	a	a	ADP	_	_	20	case	_	_
+20	caminho	caminho	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+21	de_	de_	PROPN	_	Number=Sing	20	nmod	_	_
+22	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	10	10	NUM	_	NumType=Card	12	nsubj	_	_
+24	mil	mil	NUM	_	NumType=Card	23	flat	_	_
+25	milhões	milhão	NUM	_	NumType=Card	23	flat	_	_
+26	até	até	ADP	_	_	27	case	_	_
+27	a_	a_	PROPN	_	Number=Sing	23	nmod	_	_
+28	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	final	final	ADJ	_	Gender=Masc|Number=Sing	30	amod	_	_
+30	de_	de_	PROPN	_	Number=Sing	27	flat:name	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	século	século	NOUN	_	Gender=Masc|Number=Sing	30	parataxis	_	_
+33	;	;	PUNCT	_	_	34	punct	_	_
+34	consumimos	consumir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	32	conj	_	_
+35	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	34	obj	_	_
+36	naturais	natural	ADJ	_	Gender=Masc|Number=Plur	35	amod	_	_
+37	mais	mais	ADV	_	_	38	advmod	_	_
+38	depressa	depressa	ADV	_	_	35	advmod	_	_
+39	de_	de_	PROPN	_	Number=Sing	38	flat:name	_	_
+40	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	35	appos	_	_
+41	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	45	nsubj:pass	_	_
+42	eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	45	nsubj:pass	_	_
+43	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	acl:relcl	_	_
+44	ser	ser	AUX	_	VerbForm=Inf	45	aux:pass	_	_
+45	repostos	repor	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	43	xcomp	_	_
+
+# sent_id = 10
+# text = ; e as emissões , que são as principais responsáveis pela alteração climática , continuam a aumentar .
+1	;	;	PUNCT	_	_	18	punct	_	_
+2	e	e	CCONJ	_	_	4	cc	_	_
+3	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	18	nsubj	_	_
+5	,	,	PUNCT	_	_	10	punct	_	_
+6	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	10	nsubj	_	_
+7	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	principais	principal	ADJ	_	Gender=Fem|Number=Plur	10	amod	_	_
+10	responsáveis	responsável	NOUN	_	Gender=Fem|Number=Plur	4	acl:relcl	_	_
+11-12	pela	_	_	_	_	_	_	_	_
+11	por	por	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	alteração	alteração	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+14	climática	climático	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+15	,	,	PUNCT	_	_	10	punct	_	_
+16	continuam	continuar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	a	a	SCONJ	_	_	18	mark	_	_
+18	aumentar	aumentar	VERB	_	VerbForm=Inf	16	xcomp	_	_
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 11
+# text = Claramente , estas são questões ambientais e sociais , mas isto não é tudo .
+1	Claramente	claramente	ADV	_	_	5	advmod	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
+4	são	são	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	questões	questão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+6	ambientais	ambiental	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	sociais	social	ADJ	_	Gender=Fem|Number=Plur	6	conj	_	_
+9	,	,	PUNCT	_	_	14	punct	_	_
+10	mas	mas	CCONJ	_	_	14	cc	_	_
+11	isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	14	nsubj	_	_
+12	não	não	ADV	_	Polarity=Neg	14	advmod	_	_
+13	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	tudo	tudo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	5	conj	_	_
+15	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 12
+# text = Estas são questões económicas , e isso torna -as relevantes quanto a_ o risco e a_ o retorno .
+1	Estas	este	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	3	nsubj	_	_
+2	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	questões	questão	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+4	económicas	económico	ADJ	_	Gender=Fem|Number=Plur	3	amod	_	_
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	e	e	CCONJ	_	_	8	cc	_	_
+7	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	8	nsubj	_	_
+8	torna	tornar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	-as	-a	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+10	relevantes	relevante	ADJ	_	Gender=Fem|Number=Plur	9	amod	_	_
+11	quanto	quanto	ADV	_	_	9	advmod	_	_
+12	a_	a_	PROPN	_	Number=Sing	11	flat:name	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	risco	risco	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	a_	a_	PROPN	_	Number=Sing	11	conj	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	retorno	retorno	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+19	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 13
+# text = São realmente complexas e podem parecer muito distantes .
+1	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	realmente	realmente	ADV	_	_	3	advmod	_	_
+3	complexas	complexo	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
+4	e	e	CCONJ	_	_	6	cc	_	_
+5	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+6	parecer	parecer	VERB	_	VerbForm=Inf	5	xcomp	_	_
+7	muito	muito	ADV	_	_	8	advmod	_	_
+8	distantes	distante	ADJ	_	Gender=Fem|Number=Plur	6	xcomp	_	_
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 14
+# text = A tentação pode ser fazer isto : enterrar a cabeça na areia e não pensar mais em_ isso .
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tentação	tentação	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ser	ser	AUX	_	VerbForm=Inf	5	aux	_	_
+5	fazer	fazer	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	8	nsubj	_	_
+7	:	:	PUNCT	_	_	5	punct	_	_
+8	enterrar	enterrar	VERB	_	VerbForm=Inf	5	parataxis	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	cabeça	cabeça	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	areia	areia	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	e	e	CCONJ	_	_	16	cc	_	_
+15	não	não	ADV	_	Polarity=Neg	16	advmod	_	_
+16	pensar	pensar	VERB	_	VerbForm=Inf	8	conj	_	_
+17	mais	mais	ADV	_	_	18	advmod	_	_
+18	em_	em_	PROPN	_	Number=Sing	16	obj	_	_
+19	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	16	obj	_	_
+20	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 15
+# text = Resistam , se puderem .
+1	Resistam	Resistar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	,	,	PUNCT	_	_	4	punct	_	_
+3	se	se	SCONJ	_	_	4	mark	_	_
+4	puderem	puder	VERB	_	Number=Plur|Person=3|VerbForm=Inf	1	xcomp	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 16
+# text = Não façam isso lá em casa . ( Risos )
+1	Não	não	ADV	_	Polarity=Neg	2	advmod	_	_
+2	façam	fazer	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	obj	_	_
+4	lá	lá	ADV	_	_	2	advmod	_	_
+5	em	em	ADP	_	_	6	case	_	_
+6	casa	casa	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+8	(	(	PUNCT	_	_	9	punct	_	_
+9	Risos	Risos	NOUN	_	Gender=Masc|Number=Plur	2	obl	_	_
+10	)	)	PUNCT	_	_	9	punct	_	SpacesAfter=\s\n
+
+# sent_id = 17
+# text = Mas isso faz
+1	Mas	mas	CCONJ	_	_	3	cc	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+
+# sent_id = 18
+# text = -me pensar se as atuais regras de investimento são adequadas a_ os objetivos de amanhã .
+1	-me	-me	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	pensar	pensar	VERB	_	VerbForm=Inf	1	xcomp	_	_
+3	se	se	SCONJ	_	_	10	mark	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	atuais	atual	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	_
+6	regras	regra	NOUN	_	Gender=Fem|Number=Plur	10	nsubj:pass	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	investimento	investimento	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	adequadas	adequado	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+11	a_	a_	PROPN	_	Number=Sing	10	flat:name	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	objetivos	objetivos	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	amanhã	amanhã	ADV	_	_	13	advmod	_	_
+16	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 19
+# text = Sabemos que os investidores , quando olham para uma empresa para decidir se investem , olham para os dados financeiros , medidas tais como crescimento de vendas , fluxo de caixa , quota de mercado , apreciação de_ o valor — vocês sabem , as coisas atraentes . ( Risos )
+1	Sabemos	saber	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	que	que	SCONJ	_	_	16	mark	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	investidores	investidor	NOUN	_	Gender=Masc|Number=Plur	16	nsubj	_	_
+5	,	,	PUNCT	_	_	14	punct	_	_
+6	quando	quando	ADV	_	_	7	advmod	_	_
+7	olham	olhar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	para	para	ADP	_	_	10	case	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+11	para	para	SCONJ	_	_	12	mark	_	_
+12	decidir	decidir	VERB	_	VerbForm=Inf	10	acl	_	_
+13	se	se	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
+14	investem	investir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+15	,	,	PUNCT	_	_	7	punct	_	_
+16	olham	olhar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+17	para	para	ADP	_	_	19	case	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	dados	dado	NOUN	_	Gender=Masc|Number=Plur	16	obl	_	_
+20	financeiros	financeiro	ADJ	_	Gender=Masc|Number=Plur	19	amod	_	_
+21	,	,	PUNCT	_	_	16	punct	_	_
+22	medidas	medida	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	_
+23	tais	tal	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	_
+24	como	como	ADP	_	_	25	case	_	_
+25	crescimento	crescimento	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	vendas	venda	NOUN	_	Gender=Fem|Number=Plur	25	nmod	_	_
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	fluxo	fluxo	NOUN	_	Gender=Masc|Number=Sing	27	conj	_	_
+30	de	de	ADP	_	_	31	case	_	_
+31	caixa	caixa	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	_
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	quota	quota	NOUN	_	Gender=Fem|Number=Sing	27	conj	_	_
+34	de	de	ADP	_	_	35	case	_	_
+35	mercado	mercado	NOUN	_	Gender=Masc|Number=Sing	33	nmod	_	_
+36	,	,	PUNCT	_	_	37	punct	_	_
+37	apreciação	apreciação	NOUN	_	Gender=Fem|Number=Sing	27	conj	_	_
+38	de_	de_	PROPN	_	Number=Sing	37	flat:name	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	valor	valor	NOUN	_	Gender=Masc|Number=Sing	37	appos	_	_
+41	—	—	PUNCT	_	_	43	punct	_	_
+42	vocês	você	PRON	_	Case=Nom|Gender=Unsp|Number=Plur|Person=3|PronType=Prs	43	nsubj	_	_
+43	sabem	saber	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	acl:relcl	_	_
+44	,	,	PUNCT	_	_	43	punct	_	_
+45	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	46	det	_	_
+46	coisas	coisa	NOUN	_	Gender=Fem|Number=Plur	16	obj	_	_
+47	atraentes	atraente	ADJ	_	Gender=Fem|Number=Plur	46	amod	_	_
+48	.	.	PUNCT	_	_	50	punct	_	_
+49	(	(	PUNCT	_	_	50	punct	_	_
+50	Risos	Risos	NOUN	_	Gender=Masc|Number=Plur	46	appos	_	_
+51	)	)	PUNCT	_	_	50	punct	_	_
+
+# sent_id = 20
+# text = Estas coisas são fundamentais , obviamente , mas não são suficientes .
+1	Estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
+2	coisas	coisa	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	fundamentais	fundamental	ADJ	_	Gender=Fem|Number=Plur	0	root	_	_
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	obviamente	obviamente	ADV	_	_	4	advmod	_	_
+7	,	,	PUNCT	_	_	11	punct	_	_
+8	mas	mas	CCONJ	_	_	11	cc	_	_
+9	não	não	ADV	_	Polarity=Neg	11	advmod	_	_
+10	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	suficientes	suficiente	ADJ	_	Gender=Masc|Number=Plur	4	conj	_	_
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 21
+# text = Os investidores deviam olhar para a análise de_ o desempenho em_ aquilo a que chamamos ASG : Ambiente , Social e Governação .
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	investidores	investidor	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	deviam	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	olhar	olhar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	para	para	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	análise	análise	PROPN	_	Gender=Fem|Number=Sing	4	obl	_	_
+8	de_	de_	PROPN	_	Number=Sing	7	flat:name	_	_
+9	o	o	DET	_	Number=Sing|PronType=Art	10	det	_	_
+10	desempenho	desempenho	PROPN	_	Number=Sing	4	obj	_	_
+11	em_	em_	PROPN	_	Number=Sing	10	flat:name	_	_
+12	aquilo	aquilo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	iobj	_	_
+13	a	a	ADP	_	_	14	case	_	_
+14	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	15	obj	_	_
+15	chamamos	chamar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+16	ASG	ASG	PROPN	_	Gender=Masc|Number=Sing	15	appos	_	_
+17	:	:	PUNCT	_	_	15	punct	_	_
+18	Ambiente	Ambiente	PROPN	_	Number=Sing	16	flat:name	_	_
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	Social	Social	PROPN	_	Number=Sing	16	conj	_	_
+21	e	e	CCONJ	_	_	22	cc	_	_
+22	Governação	governação	PROPN	_	Number=Sing	16	conj	_	_
+23	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 22
+# text = Ambiente inclui consumo de energia , disponibilidade de água , lixo e poluição .
+1	Ambiente	Ambiente	ADV	_	_	2	advmod	_	_
+2	inclui	incluir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	consumo	consumo	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	energia	energia	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	disponibilidade	disponibilidade	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	água	água	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	lixo	lixo	NOUN	_	Gender=Masc|Number=Sing	3	conj	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	poluição	poluição	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	_
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 23
+# text = Trata de_ o uso eficaz de_ os recursos .
+1	Trata	tratar	PROPN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+2	de_	de_	PROPN	_	Number=Sing	1	flat:name	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	uso	uso	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	eficaz	eficaz	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	de_	de_	PROPN	_	Number=Sing	5	obj	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	recursos	recurso	NOUN	_	Gender=Masc|Number=Plur	5	obl	_	_
+9	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 24
+# text = O social inclui o capital humano , coisas como o envolvimento de_ os empregados e capacidade de inovação , assim como a gestão de_ a cadeia de fornecimento , direitos de_ os trabalhadores e direitos humanos .
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	social	social	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	inclui	incluir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	capital	capital	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	humano	humano	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	,	,	PUNCT	_	_	8	punct	_	_
+8	coisas	coisa	NOUN	_	Gender=Fem|Number=Plur	5	appos	_	_
+9	como	como	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	envolvimento	envolvimento	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+12	de_	de_	PROPN	_	Number=Sing	11	flat:name	_	_
+13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	empregados	empregado	NOUN	_	Gender=Masc|Number=Plur	11	appos	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	capacidade	capacidade	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	inovação	inovação	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+19	,	,	PUNCT	_	_	23	punct	_	_
+20	assim	assim	ADV	_	_	23	cc	_	_
+21	como	como	ADP	_	_	20	fixed	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	gestão	gestão	NOUN	_	Gender=Fem|Number=Sing	14	conj	_	_
+24	de_	de_	PROPN	_	Number=Sing	23	flat:name	_	_
+25	a	a	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	cadeia	cadeia	NOUN	_	Gender=Fem|Number=Sing	23	appos	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	fornecimento	fornecimento	NOUN	_	Gender=Masc|Number=Sing	26	nmod	_	_
+29	,	,	PUNCT	_	_	30	punct	_	_
+30	direitos	direito	NOUN	_	Gender=Masc|Number=Plur	28	conj	_	_
+31	de_	de_	PROPN	_	Number=Sing	30	flat:name	_	_
+32	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	33	det	_	_
+33	trabalhadores	trabalhador	NOUN	_	Gender=Masc|Number=Plur	26	appos	_	_
+34	e	e	CCONJ	_	_	35	cc	_	_
+35	direitos	direito	NOUN	_	Gender=Masc|Number=Plur	33	conj	_	_
+36	humanos	humanos	ADJ	_	Gender=Masc|Number=Plur	35	amod	_	_
+37	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 25
+# text = Governação refere -se à supervisão de_ as empresas através de_ os conselhos e de_ os investidores .
+1	Governação	governação	NOUN	_	Gender=Fem|Number=Sing	2	nsubj	_	_
+2	refere	referir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	-se	-se	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4-5	à	_	_	_	_	_	_	_	_
+4	a	a	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	supervisão	supervisão	PROPN	_	Gender=Fem|Number=Sing	3	nmod	_	_
+7	de_	de_	PROPN	_	Number=Sing	6	flat:name	_	_
+8	as	a	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	3	appos	_	_
+10	através	através	ADV	_	_	9	advmod	_	_
+11	de_	de_	PROPN	_	Number=Sing	10	flat:name	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	conselhos	conselho	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	de_	de_	PROPN	_	Number=Sing	10	conj	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	investidores	investidor	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 26
+# text = Eu disse que isto é o que realmente interessa .
+1	Eu	eu	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	ccomp	_	_
+7	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	9	nsubj	_	_
+8	realmente	realmente	ADV	_	_	9	advmod	_	_
+9	interessa	interimir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 27
+# text = Mas o ASG é a medida de_ a sustentabilidade , e o investimento sustentável incorpora os fatores ASG com os fatores financeiros no processo de investimento .
+1	Mas	mas	CCONJ	_	_	6	cc	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ASG	ASG	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	medida	medida	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+7	de_	de_	PROPN	_	Number=Sing	6	flat:name	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sustentabilidade	sustentabilidade	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+10	,	,	PUNCT	_	_	15	punct	_	_
+11	e	e	CCONJ	_	_	15	cc	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	investimento	investimento	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+14	sustentável	sustentável	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+15	incorpora	incorporar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	fatores	fator	NOUN	_	Gender=Masc|Number=Plur	15	obj	_	_
+18	ASG	ASG	X	_	_	17	appos	_	_
+19	com	com	ADP	_	_	21	case	_	_
+20	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	fatores	fator	NOUN	_	Gender=Masc|Number=Plur	18	nmod	_	_
+22	financeiros	financeiro	ADJ	_	Gender=Masc|Number=Plur	21	amod	_	_
+23-24	no	_	_	_	_	_	_	_	_
+23	em	em	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	processo	processo	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	investimento	investimento	NOUN	_	Gender=Masc|Number=Sing	25	nmod	_	_
+28	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 28
+# text = Isso significa limitar o risco futuro minimizando os danos às pessoas e a_ o planeta .
+1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	significa	significar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	limitar	limitar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	risco	risco	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	futuro	futuro	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	minimizando	minimizar	VERB	_	VerbForm=Ger	3	advcl	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	danos	dano	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	_
+10-11	às	_	_	_	_	_	_	_	_
+10	a	a	ADP	_	_	12	case	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	7	iobj	_	_
+13	e	e	CCONJ	_	_	14	cc	_	_
+14	a_	a_	PROPN	_	Number=Sing	7	conj	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	planeta	planeta	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 29
+# text = Isso significa providenciar capital a_ os utilizadores que o aplicam para a obtenção de resultados produtivos e sustentáveis .
+1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	significa	significar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	providenciar	providenciar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	capital	capital	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+5	a_	a_	PROPN	_	Number=Sing	3	obj	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	utilizadores	utilizador	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+8	que	que	PRON	_	Gender=Masc|Number=Plur|PronType=Rel	10	nsubj	_	_
+9	o	ele	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	aplicam	aplicar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+11	para	para	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	obtenção	obtenção	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	13	nmod	_	_
+16	produtivos	produtivo	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	sustentáveis	sustentável	ADJ	_	Gender=Masc|Number=Plur	16	conj	_	_
+19	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 30
+# text = Se a sustentabilidade hoje tem importância financeira , — e tudo indica que amanhã ainda será mais importante — será que o setor privado está a prestar atenção ?
+1	Se	se	SCONJ	_	_	5	mark	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	sustentabilidade	sustentabilidade	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	hoje	hoje	ADV	_	_	5	advmod	_	_
+5	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+6	importância	importância	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+7	financeira	financeiro	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	,	,	PUNCT	_	_	12	punct	_	_
+9	—	—	PUNCT	_	_	12	punct	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	tudo	tudo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	12	nsubj	_	_
+12	indica	indicar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	que	que	SCONJ	_	_	18	mark	_	_
+14	amanhã	amanhã	ADV	_	_	18	advmod	_	_
+15	ainda	ainda	ADV	_	_	18	advmod	_	_
+16	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	cop	_	_
+17	mais	mais	ADV	_	_	18	advmod	_	_
+18	importante	importante	ADJ	_	Gender=Masc|Number=Sing	12	ccomp	_	_
+19	—	—	PUNCT	_	_	12	punct	_	_
+20	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	appos	_	_
+21	que	que	SCONJ	_	_	27	mark	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	setor	setor	NOUN	_	Gender=Masc|Number=Sing	27	nsubj	_	_
+24	privado	privado	ADJ	_	Gender=Masc|Number=Sing	23	amod	_	_
+25	está	estar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+26	a	a	SCONJ	_	_	27	mark	_	_
+27	prestar	prestar	VERB	_	VerbForm=Inf	25	xcomp	_	_
+28	atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	27	obj	_	_
+29	?	?	PUNCT	_	_	27	punct	_	_
+
+# sent_id = 31
+# text = Pelo menos , a maioria de_ os administradores está .
+1-2	Pelo	_	_	_	_	_	_	_	_
+1	Por	por	ADP	_	_	3	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	menos	menos	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	maioria	maioria	PROPN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+7	de_	de_	PROPN	_	Number=Sing	6	flat:name	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	administradores	administrador	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+10	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+11	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 32
+# text = Eles começaram a ver a sustentabilidade não só como uma coisa importante , mas como crucial para o êxito de_ o negócio .
+1	Eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	começaram	começar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	SCONJ	_	_	4	mark	_	_
+4	ver	ver	VERB	_	VerbForm=Inf	2	xcomp	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sustentabilidade	sustentabilidade	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	não	não	ADV	_	Polarity=Neg	8	advmod	_	_
+8	só	só	ADV	_	_	11	advmod	_	_
+9	como	como	ADP	_	_	11	case	_	_
+10	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+12	importante	importante	ADJ	_	Gender=Fem|Number=Sing	11	amod	_	_
+13	,	,	PUNCT	_	_	16	punct	_	_
+14	mas	mas	CCONJ	_	_	16	cc	_	_
+15	como	como	ADP	_	_	16	case	_	_
+16	crucial	crucial	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
+17	para	para	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	êxito	êxito	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+20	de_	de_	PROPN	_	Number=Sing	19	flat:name	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	negócio	negócio	NOUN	_	Gender=Masc|Number=Sing	19	appos	_	_
+23	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 33
+# text = Cerca de 80 % de_ os administradores veem a sustentabilidade como a base para o crescimento na inovação e para alcançar vantagens competitivas nos seus setores industriais .
+1	Cerca	cerca	ADV	_	_	4	advmod	_	_
+2	de	de	ADP	_	_	1	fixed	_	_
+3	80	80	NUM	_	NumType=Card	4	nummod	_	_
+4	%	%	SYM	_	_	8	obl	_	_
+5	de_	de_	PROPN	_	Number=Sing	4	flat:name	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	administradores	administrador	NOUN	_	Gender=Masc|Number=Plur	8	nsubj	_	_
+8	veem	ve	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	sustentabilidade	sustentabilidade	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	como	como	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	base	base	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+14	para	para	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	crescimento	crescimento	NOUN	_	Gender=Masc|Number=Sing	13	nmod	_	_
+17-18	na	_	_	_	_	_	_	_	_
+17	em	em	ADP	_	_	19	case	_	_
+18	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	inovação	inovação	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	e	e	CCONJ	_	_	22	cc	_	_
+21	para	para	SCONJ	_	_	22	mark	_	_
+22	alcançar	alcançar	VERB	_	VerbForm=Inf	8	conj	_	_
+23	vantagens	vantagem	NOUN	_	Gender=Fem|Number=Plur	22	obj	_	_
+24	competitivas	competitivo	ADJ	_	Gender=Fem|Number=Plur	23	amod	_	_
+25-26	nos	_	_	_	_	_	_	_	_
+25	em	em	ADP	_	_	28	case	_	_
+26	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+27	seus	seu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	28	det	_	_
+28	setores	setor	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	_
+29	industriais	industrial	ADJ	_	Gender=Masc|Number=Plur	28	amod	_	_
+30	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 34
+# text = Mas 93 % consideram o ASG como o futuro , ou igualmente importante para o futuro de_ os seus negócios .
+1	Mas	mas	CCONJ	_	_	4	cc	_	_
+2	93	93	NUM	_	NumType=Card	3	nummod	_	_
+3	%	%	SYM	_	_	4	nsubj	_	_
+4	consideram	considerar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ASG	ASG	PROPN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	como	como	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	futuro	futuro	NOUN	_	Gender=Masc|Number=Sing	4	xcomp	_	_
+10	,	,	PUNCT	_	_	4	punct	_	_
+11	ou	ou	CCONJ	_	_	13	cc	_	_
+12	igualmente	igualmente	ADV	_	_	13	advmod	_	_
+13	importante	importante	ADJ	_	Gender=Masc|Number=Sing	4	conj	_	_
+14	para	para	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	futuro	futuro	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	_
+17	de_	de_	PROPN	_	Number=Sing	16	flat:name	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	seus	seu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	20	det	_	_
+20	negócios	negócio	NOUN	_	Gender=Masc|Number=Plur	13	obl	_	_
+21	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 35
+# text = Assim , a visão de_ os administradores é clara .
+1	Assim	assim	ADV	_	_	9	advmod	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	visão	visão	PROPN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+5	de_	de_	PROPN	_	Number=Sing	4	flat:name	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	administradores	administrador	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	clara	claro	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 36
+# text = Existe uma tremenda oportunidade na sustentabilidade .
+1	Existe	existir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	tremenda	tremendo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	oportunidade	oportunidade	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sustentabilidade	sustentabilidade	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 37
+# text = Então , como é que as empresas estão a promover o ASG para alcançarem resultados sólidos ?
+1	Então	então	ADV	_	_	7	advmod	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	como	como	ADV	_	_	7	advmod	_	_
+4	é	ser	AUX	_	_	7	cop	_	_
+5	que	que	SCONJ	_	_	4	fixed	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	empresas	empresa	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
+8	estão	estar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	a	SCONJ	_	_	10	mark	_	_
+10	promover	promover	VERB	_	VerbForm=Inf	8	xcomp	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ASG	ASG	PROPN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	para	para	SCONJ	_	_	14	mark	_	_
+14	alcançarem	alcançar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	10	advcl	_	_
+15	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	_
+16	sólidos	sólido	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	14	xcomp	_	_
+17	?	?	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 38
+# text = Temos um exemplo bem perto que nos é muito querido .
+1	Temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	bem	bem	ADV	_	_	5	advmod	_	_
+5	perto	perto	ADV	_	_	1	advmod	_	_
+6	que	que	SCONJ	_	_	11	mark	_	_
+7-8	nos	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	os	o	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	11	obl	_	_
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	muito	muito	ADV	_	_	11	advmod	_	_
+11	querido	querido	ADJ	_	Gender=Masc|Number=Sing	5	ccomp	_	_
+12	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 39
+# text = Em 2012 , o State Street migrou 54 aplicações para o ambiente de_ a nuvem , e retirámos outras 85 .
+1	Em	em	ADP	_	_	2	case	_	_
+2	2012	2012	NUM	_	NumType=Card	7	obl	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	State	State	PROPN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	Street	Street	PROPN	_	Number=Sing	5	flat:name	_	_
+7	migrou	migrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	54	54	NUM	_	NumType=Card	9	nummod	_	_
+9	aplicações	aplicação	NOUN	_	Gender=Fem|Number=Plur	7	obj	_	_
+10	para	para	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ambiente	ambiente	PROPN	_	Gender=Masc|Number=Sing	7	obl	_	_
+13	de_	de_	PROPN	_	Number=Sing	12	flat:name	_	_
+14	a	a	ADP	_	_	15	case	_	_
+15	nuvem	nuvem	NOUN	_	Gender=Masc|Number=Sing	12	nmod	_	_
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	e	e	CCONJ	_	_	18	cc	_	_
+18	retirámos	retirar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	7	conj	_	_
+19	outras	outro	DET	_	Gender=Fem|Number=Plur|PronType=Ind	20	det	_	_
+20	85	85	NUM	_	NumType=Card	18	obj	_	_
+21	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 40
+# text = Virtualizámos os ambientes de_ os nossos sistemas operativos e completámos numerosos projetos de automação .
+1	Virtualizámos	Virtualizar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	ambientes	ambiente	PROPN	_	Gender=Masc|Number=Plur	1	obj	_	_
+4	de_	de_	PROPN	_	Number=Sing	3	flat:name	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	nossos	nosso	DET	_	Gender=Masc|Number=Plur|PronType=Prs	7	det	_	_
+7	sistemas	sistema	NOUN	_	Gender=Masc|Number=Plur	3	appos	_	_
+8	operativos	operativo	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	completámos	completar	ADJ	_	Gender=Masc|Number=Plur	8	conj	_	_
+11	numerosos	numeroso	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
+12	projetos	projeto	NOUN	_	Gender=Masc|Number=Plur	7	appos	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	automação	automação	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+15	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 41
+# text = Estas iniciativas criam um ambiente de trabalho mais móvel e reduzem a nossa pegada imobiliária .
+1	Estas	este	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
+2	iniciativas	iniciativa	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	criam	criar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ambiente	ambiente	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	mais	mais	ADV	_	_	9	advmod	_	_
+9	móvel	móvel	ADJ	_	Gender=Masc|Number=Sing	7	amod	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	reduzem	reduzir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	nossa	nosso	DET	_	Gender=Fem|Number=Sing|PronType=Prs	14	det	_	_
+14	pegada	pegada	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+15	imobiliária	imobiliário	ADJ	_	Gender=Fem|Number=Sing	14	amod	_	_
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 42
+# text = Permitem uma economia em custos operacionais na ordem de 23 milhões de dólares anuais e evitam emissões de 100 mil toneladas métricas de carbono .
+1	Permitem	permitir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	economia	economia	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	custos	custo	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+6	operacionais	operacional	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	ordem	ordem	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	23	23	NUM	_	NumType=Card	9	nmod	_	_
+12	milhões	milhão	NUM	_	NumType=Card	11	flat	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	dólares	dólar	NOUN	_	Gender=Masc|Number=Plur	11	nmod	_	_
+15	anuais	anual	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	evitam	evitar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+18	emissões	emissão	NOUN	_	Gender=Fem|Number=Plur	17	obj	_	_
+19	de	de	ADP	_	_	22	case	_	_
+20	100	100	NUM	_	NumType=Card	22	nummod	_	_
+21	mil	mil	NUM	_	NumType=Card	20	flat	_	_
+22	toneladas	tonelada	NOUN	_	Gender=Fem|Number=Plur	18	nmod	_	_
+23	métricas	métrico	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	carbono	carbono	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	_
+26	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 43
+# text = Isto equivale a retirar de_ as ruas 21 mil carros .
+1	Isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	equivale	equivaler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	SCONJ	_	_	4	mark	_	_
+4	retirar	retirar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+5	de_	de_	PROPN	_	Number=Sing	4	obj	_	_
+6	as	a	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	ruas	rua	NOUN	_	Gender=Fem|Number=Plur	4	nsubj	_	_
+8	21	21	NUM	_	NumType=Card	10	nummod	_	_
+9	mil	mil	NUM	_	NumType=Card	8	flat	_	_
+10	carros	carro	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 44
+# text = É muito bom , não é ?
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	muito	muito	ADV	_	_	3	advmod	_	_
+3	bom	bom	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	não	não	ADV	_	Polarity=Neg	6	advmod	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+7	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 45
+# text = Outro exemplo é a Pentair .
+1	Outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	é	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	o	SCONJ	_	_	5	mark	_	_
+5	Pentair	Pentair	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 46
+# text = A Pentair é um conglomerado industrial de_ os EUA .
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Pentair	Pentair	PROPN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	conglomerado	conglomerado	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+6	industrial	industrial	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	de_	de_	PROPN	_	Number=Sing	5	flat:name	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	EUA	EUA	PROPN	_	Gender=Masc|Number=Plur	5	appos	_	_
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 47
+# text = Há cerca de uma década , venderam o seu principal negócio de ferramentas elétricas e reinvestiram o que apuraram no negócio de_ a água .
+1	Há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+2	cerca	cerca	ADV	_	_	5	advmod	_	_
+3	de	de	ADP	_	_	2	fixed	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	década	década	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+6	,	,	PUNCT	_	_	1	punct	_	_
+7	venderam	vender	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+9	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	11	det	_	_
+10	principal	principal	ADJ	_	Gender=Masc|Number=Sing	11	amod	_	_
+11	negócio	negócio	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	ferramentas	ferramenta	NOUN	_	Gender=Fem|Number=Plur	11	nmod	_	_
+14	elétricas	elétrico	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	reinvestiram	reinvestir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	7	conj	_	_
+17	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	16	obj	_	_
+18	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	19	nsubj	_	_
+19	apuraram	apurar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	acl:relcl	_	_
+20-21	no	_	_	_	_	_	_	_	_
+20	em	em	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	negócio	negócio	PROPN	_	Gender=Masc|Number=Sing	19	obl	_	_
+23	de_	de_	PROPN	_	Number=Sing	22	flat:name	_	_
+24	a	a	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	água	água	NOUN	_	Gender=Fem|Number=Sing	19	obj	_	_
+26	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 48
+# text = Foi uma aposta muito grande .
+1	Foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+2	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	aposta	aposta	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4	muito	muito	ADV	_	_	5	advmod	_	_
+5	grande	grande	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 49
+# text = Porque é que fizeram isso ?
+1	Porque	porque	ADV	_	_	4	advmod	_	_
+2	é	ser	AUX	_	_	4	discourse	_	_
+3	que	que	SCONJ	_	_	2	fixed	_	_
+4	fizeram	fazer	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+5	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	_
+6	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 50
+# text = Desculpem -me os fãs de_ a Reforma de Habitações , mas há um crescimento maior em água de_ o que em ferramentas elétricas , e esta companhia tem a visão direcionada para o que eles chamam de " o novo Novo Mundo " .
+1	Desculpem	Desculper	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	-me	-me	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+3	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	fãs	fã	NOUN	_	Gender=Masc|Number=Plur	2	appos	_	_
+5	de_	de_	PROPN	_	Number=Sing	4	flat:name	_	_
+6	a	a	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Reforma	reforma	PROPN	_	Gender=Fem|Number=Sing	1	nsubj	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	Habitações	habitações	PROPN	_	Number=Sing	7	nmod	_	_
+10	,	,	PUNCT	_	_	12	punct	_	_
+11	mas	mas	CCONJ	_	_	12	cc	_	_
+12	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+13	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	crescimento	crescimento	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+15	maior	grande	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+16	em	em	ADP	_	_	17	case	_	_
+17	água	água	PROPN	_	Gender=Fem|Number=Sing	14	nmod	_	_
+18	de_	de_	PROPN	_	Number=Sing	17	flat:name	_	_
+19	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	14	appos	_	_
+20	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	28	nsubj	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	ferramentas	ferramenta	NOUN	_	Gender=Fem|Number=Plur	28	obl	_	_
+23	elétricas	elétrico	ADJ	_	Gender=Fem|Number=Plur	22	amod	_	_
+24	,	,	PUNCT	_	_	28	punct	_	_
+25	e	e	CCONJ	_	_	28	cc	_	_
+26	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	27	det	_	_
+27	companhia	companhia	NOUN	_	Gender=Fem|Number=Sing	28	nsubj	_	_
+28	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+29	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	visão	visão	NOUN	_	Gender=Fem|Number=Sing	28	obj	_	_
+31	direcionada	direcionado	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	28	xcomp	_	_
+32	para	para	ADP	_	_	33	case	_	_
+33	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	31	obl	_	_
+34	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	36	obj	_	_
+35	eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	36	nsubj	_	_
+36	chamam	chamar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	_
+37	de	de	ADP	_	_	41	case	_	_
+38	"	"	PUNCT	_	_	41	punct	_	_
+39	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+40	novo	novo	ADJ	_	Gender=Masc|Number=Sing	41	amod	_	_
+41	Novo	Novo	PROPN	_	Gender=Masc|Number=Sing	36	obl	_	_
+42	Mundo	Mundo	PROPN	_	Number=Sing	41	flat:name	_	_
+43	"	"	PUNCT	_	_	1	punct	_	_
+44	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 51
+# text = São quatro mil milhões de pessoas de_ a classe média que precisam de comida , de energia e de água .
+1	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	quatro	quatro	NUM	_	NumType=Card	0	root	_	_
+3	mil	mil	NUM	_	NumType=Card	2	flat	_	_
+4	milhões	milhão	NUM	_	NumType=Card	2	flat	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+7	de_	de_	PROPN	_	Number=Sing	6	flat:name	_	_
+8	a	a	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	classe	classe	NOUN	_	Gender=Fem|Number=Sing	6	appos	_	_
+10	média	médio	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	_
+11	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	12	nsubj	_	_
+12	precisam	precisar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	comida	comida	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	energia	energia	NOUN	_	Gender=Fem|Number=Sing	12	obl	_	_
+18	e	e	CCONJ	_	_	20	cc	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	água	água	NOUN	_	Gender=Fem|Number=Sing	17	conj	_	_
+21	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 52
+# text = Vocês podem estar a perguntar -se : " Estes casos são casos isolados ? " Quero dizer , vamos lá .
+1	Vocês	você	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+2	podem	poder	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+3	estar	estar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	a	a	SCONJ	_	_	5	mark	_	_
+5	perguntar	perguntar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	-se	-se	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7	:	:	PUNCT	_	_	12	punct	_	_
+8	"	"	PUNCT	_	_	12	punct	_	_
+9	Estes	este	DET	_	Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
+10	casos	caso	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	_	_
+11	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	casos	caso	NOUN	_	Gender=Masc|Number=Plur	6	appos	_	_
+13	isolados	isolar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	12	acl	_	_
+14	?	?	PUNCT	_	_	12	punct	_	_
+15	"	"	PUNCT	_	_	12	punct	_	_
+16	Quero	quero	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+17	dizer	dizer	VERB	_	VerbForm=Inf	16	xcomp	_	_
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	vamos	ir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	lá	lá	ADV	_	_	19	advmod	_	_
+21	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 53
+# text = A sério ?
+1	A	o	ADP	_	_	2	case	_	_
+2	sério	sério	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 54
+# text = As companhias que praticam a sustentabilidade estão mesmo bem financeiramente ?
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	companhias	companhia	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
+3	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	4	nsubj	_	_
+4	praticam	praticar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sustentabilidade	sustentabilidade	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	mesmo	mesmo	ADV	_	_	9	advmod	_	_
+9	bem	bem	ADV	_	_	10	advmod	_	_
+10	financeiramente	financeiramente	ADV	_	_	0	root	_	_
+11	?	?	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 55
+# text = A resposta pode surpreender -vos , mas é : " Estão , sim " .
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	surpreender	surpreender	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	-vos	-vo	NOUN	_	Gender=Masc|Number=Plur	4	obj	_	_
+6	,	,	PUNCT	_	_	11	punct	_	_
+7	mas	mas	CCONJ	_	_	11	cc	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	:	:	PUNCT	_	_	11	punct	_	_
+10	"	"	PUNCT	_	_	11	punct	_	_
+11	Estão	Estão	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	_
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	sim	sim	ADV	_	_	11	conj	_	_
+14	"	"	PUNCT	_	_	11	punct	_	_
+15	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 56
+# text = Os dados mostram que as ações com melhores resultados de ASG vão tão bem como as outras .
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	dados	dado	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	mostram	mostrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	que	que	SCONJ	_	_	12	mark	_	_
+5	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	ações	ação	NOUN	_	Gender=Fem|Number=Plur	12	nsubj	_	_
+7	com	com	ADP	_	_	9	case	_	_
+8	melhores	bom	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+9	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	ASG	ASG	PROPN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+12	vão	ir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+13	tão	tão	ADV	_	_	12	advmod	_	_
+14	bem	bem	ADP	_	_	17	cc	_	_
+15	como	como	ADP	_	_	14	fixed	_	_
+16	as	a	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	outras	outro	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	13	conj	_	_
+18	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 57
+# text = A azul , vemos o MSCI World .
+1	A	o	ADP	_	_	2	case	_	_
+2	azul	azul	ADJ	_	Gender=Masc|Number=Sing	4	obl	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	vemos	ver	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	MSCI	MSCI	PROPN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	World	World	PROPN	_	Number=Sing	6	flat:name	_	_
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 58
+# text = É um índice de grandes companhias de mercados desenvolvidos em todo o mundo .
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	índice	índice	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	grandes	grande	ADJ	_	Gender=Fem|Number=Plur	6	amod	_	_
+6	companhias	companhias	NOUN	_	Gender=Fem|Number=Plur	3	nmod	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	mercados	mercado	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	_
+9	desenvolvidos	desenvolver	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	8	acl	_	_
+10	em	em	ADP	_	_	13	case	_	_
+11	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	13	det	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 59
+# text = A dourado , vemos um subgrupo de companhias avaliadas como tendo os melhores desempenhos ASG .
+1	A	o	ADP	_	_	2	mark	_	_
+2	dourado	dourado	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	advcl	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	vemos	ver	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	subgrupo	subgrupo	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	companhias	companhia	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
+9	avaliadas	avaliar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	8	acl	_	_
+10	como	como	SCONJ	_	_	14	mark	_	_
+11	tendo	ter	AUX	_	VerbForm=Ger	14	cop	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	melhores	bom	ADJ	_	Gender=Masc|Number=Plur	14	amod	_	_
+14	desempenhos	desempenho	NOUN	_	Gender=Masc|Number=Plur	4	xcomp	_	_
+15	ASG	ASG	PROPN	_	Gender=Masc|Number=Sing	14	appos	_	_
+16	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 60
+# text = Em mais de 3 anos não houve perda de desempenho .
+1	Em	em	ADP	_	_	5	case	_	_
+2	mais	mais	ADV	_	_	4	advmod	_	_
+3	de	de	ADP	_	_	2	fixed	_	_
+4	3	3	NUM	_	NumType=Card	5	nummod	_	_
+5	anos	ano	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+6	não	não	ADV	_	Polarity=Neg	7	advmod	_	_
+7	houve	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	perda	perda	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	desempenho	desempenho	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+11	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 61
+# text = Tudo bem , certo ?
+1	Tudo	tudo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+2	bem	bem	ADV	_	_	1	advmod	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	certo	certo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	1	parataxis	_	_
+5	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 62
+# text = Mas nós queremos mais .
+1	Mas	mas	CCONJ	_	_	3	cc	_	_
+2	nós	nós	PRON	_	Case=Nom|Gender=Unsp|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	queremos	querer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mais	mais	ADV	_	_	3	advmod	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 63
+# text = Eu quero mais . em_ alguns casos , pode haver um desempenho superior de ASG .
+1	Eu	eu	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	quero	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mais	mais	ADV	_	_	2	advmod	_	_
+4	.	.	PUNCT	_	_	10	obl	_	_
+5	em_	em_	PROPN	_	Number=Sing	4	flat:name	_	_
+6	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	casos	caso	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+10	haver	haver	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	desempenho	desempenho	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13	superior	alto	ADJ	_	Gender=Masc|Number=Sing	12	amod	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	ASG	ASG	PROPN	_	Gender=Unsp|Number=Sing	12	nmod	_	_
+16	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 64
+# text = A azul , vemos o desempenho de_ as 500 maiores companhias mundiais e a dourado , vemos um subconjunto de companhias com as melhores práticas em estratégias de alteração climática e gestão de riscos . a_ o fim de quase oito anos , elas superaram o seu desempenho em quase dois terços .
+1	A	o	ADP	_	_	2	case	_	_
+2	azul	azul	ADJ	_	Gender=Masc|Number=Sing	4	obl	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	vemos	ver	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	desempenho	desempenho	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	de_	de_	PROPN	_	Number=Sing	6	flat:name	_	_
+8	as	a	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+9	500	500	NUM	_	NumType=Card	11	nummod	_	_
+10	maiores	grande	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
+11	companhias	companhia	NOUN	_	Gender=Fem|Number=Plur	45	obl	_	_
+12	mundiais	mundial	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
+13	e	e	CCONJ	_	_	15	cc	_	_
+14	a	a	ADP	_	_	15	mark	_	_
+15	dourado	dourar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	11	conj	_	_
+16	,	,	PUNCT	_	_	4	punct	_	_
+17	vemos	ver	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	subconjunto	subconjunto	NOUN	_	Gender=Masc|Number=Sing	45	nsubj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	companhias	companhia	NOUN	_	Gender=Fem|Number=Plur	45	obl	_	_
+22	com	com	ADP	_	_	25	case	_	_
+23	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+24	melhores	bom	ADJ	_	Gender=Fem|Number=Plur	25	amod	_	_
+25	práticas	prática	NOUN	_	Gender=Fem|Number=Plur	45	obl	_	_
+26	em	em	ADP	_	_	27	case	_	_
+27	estratégias	estratégia	NOUN	_	Gender=Fem|Number=Plur	45	obl	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	alteração	alteração	NOUN	_	Gender=Fem|Number=Sing	45	obj	_	_
+30	climática	climático	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	_
+31	e	e	CCONJ	_	_	32	cc	_	_
+32	gestão	gestão	NOUN	_	Gender=Fem|Number=Sing	29	conj	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	riscos	risco	NOUN	_	Gender=Masc|Number=Plur	32	nmod	_	_
+35	.	.	PUNCT	_	_	45	punct	_	_
+36	a_	a_	PROPN	_	Number=Sing	35	flat:name	_	_
+37	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	fim	fim	NOUN	_	Gender=Masc|Number=Sing	45	nsubj	_	_
+39	de	de	ADP	_	_	42	case	_	_
+40	quase	quase	ADV	_	_	41	advmod	_	_
+41	oito	oito	NUM	_	NumType=Card	42	nummod	_	_
+42	anos	ano	NOUN	_	Gender=Masc|Number=Plur	38	nmod	_	_
+43	,	,	PUNCT	_	_	45	punct	_	_
+44	elas	elas	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	45	nsubj	_	_
+45	superaram	superar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	xcomp	_	_
+46	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+47	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	48	det	_	_
+48	desempenho	desempenho	NOUN	_	Gender=Masc|Number=Sing	45	obj	_	_
+49	em	em	ADP	_	_	51	case	_	_
+50	quase	quase	ADV	_	_	51	advmod	_	_
+51	dois	dois	NUM	_	NumType=Card	45	obl	_	_
+52	terços	terço	ADJ	_	Gender=Masc|Number=Plur|NumType=Ord	51	amod	_	_
+53	.	.	PUNCT	_	_	45	punct	_	_
+
+# sent_id = 65
+# text = Tudo bem , isto é uma correlação .
+1	Tudo	tudo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	7	nsubj	_	_
+2	bem	bem	ADV	_	_	7	advmod	_	_
+3	,	,	PUNCT	_	_	7	punct	_	_
+4	isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	correlação	correlação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 66
+# text = Não é causalidade .
+1	Não	não	ADV	_	Polarity=Neg	3	advmod	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	causalidade	causalidade	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 67
+# text = Mas ilustra que a liderança em ambientalismo é compatível com bons retornos .
+1	Mas	mas	CCONJ	_	_	2	cc	_	_
+2	ilustra	ilustrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	9	mark	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	liderança	liderança	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	ambientalismo	ambientalismo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	compatível	compatível	ADJ	_	Gender=Masc|Number=Sing	2	ccomp	_	_
+10	com	com	ADP	_	_	12	case	_	_
+11	bons	bom	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
+12	retornos	retornos	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
+13	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 68
+# text = Então , se o retorno é o mesmo ou melhor e o planeta beneficia , isto não devia ser a regra ?
+1	Então	então	ADV	_	_	21	advmod	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	se	se	SCONJ	_	_	16	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	retorno	retorno	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+8	mesmo	mesmo	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+9	ou	ou	CCONJ	_	_	10	cc	_	_
+10	melhor	bom	ADJ	_	Gender=Masc|Number=Sing	8	conj	_	_
+11	e	e	CCONJ	_	_	13	cc	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	planeta	planeta	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	_
+14	beneficia	beneficio	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+15	,	,	PUNCT	_	_	8	punct	_	_
+16	isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	21	nsubj	_	_
+17	não	não	ADV	_	Polarity=Neg	21	advmod	_	_
+18	devia	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+19	ser	ser	AUX	_	VerbForm=Inf	21	cop	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	regra	regra	NOUN	_	Gender=Fem|Number=Sing	18	xcomp	_	_
+22	?	?	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 69
+# text = Os investidores , em especial os investidores institucionais estão empenhados ? Bem , alguns estão e alguns de_ eles estão realmente na vanguarda .
+1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	investidores	investidor	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	,	,	PUNCT	_	_	5	punct	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	especial	especial	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+6	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	investidores	investidor	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
+8	institucionais	institucional	ADJ	_	Gender=Masc|Number=Plur	7	amod	_	_
+9	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	empenhados	empenhado	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
+11	?	?	PUNCT	_	_	15	punct	_	_
+12	Bem	Bem	ADV	_	_	15	advmod	_	_
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	alguns	algum	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	15	nsubj	_	_
+15	estão	estar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+16	e	e	CCONJ	_	_	20	cc	_	_
+17	alguns	algum	DET	_	Gender=Masc|Number=Plur|PronType=Ind	18	det	_	_
+18	de_	de_	PROPN	_	Number=Sing	15	nsubj	_	_
+19	eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+20	estão	estar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+21	realmente	realmente	ADV	_	_	20	advmod	_	_
+22-23	na	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	vanguarda	vanguarda	NOUN	_	Gender=Fem|Number=Sing	20	obl	_	_
+25	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 70
+# text = A Hesta .
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Hesta	Hesta	PROPN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 71
+# text = A Hesta é um fundo de pensões de_ os empregados de_ os serviços de saúde e comunitários na Austrália , com ativos de 22 mil milhões de dólares .
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Hesta	Hesta	PROPN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fundo	fundo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	pensões	pensão	PROPN	_	Gender=Fem|Number=Plur	5	nmod	_	_
+8	de_	de_	PROPN	_	Number=Sing	7	flat:name	_	_
+9	os	eles	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	empregados	empregar	NOUN	_	Gender=Masc|Number=Plur	7	appos	_	_
+11	de_	de_	PROPN	_	Number=Sing	10	flat:name	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	serviços	serviço	NOUN	_	Gender=Masc|Number=Plur	10	conj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	saúde	saúde	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	comunitários	comunitário	ADJ	_	Gender=Masc|Number=Plur	10	conj	_	_
+18-19	na	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Austrália	Austrália	PROPN	_	Gender=Fem|Number=Sing	17	obl	_	_
+21	,	,	PUNCT	_	_	23	punct	_	_
+22	com	com	ADP	_	_	23	case	_	_
+23	ativos	ativo	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	22	22	NUM	_	NumType=Card	23	nmod	_	_
+26	mil	mil	NUM	_	NumType=Card	25	flat	_	_
+27	milhões	milhão	NUM	_	NumType=Card	25	flat	_	_
+28	de	de	ADP	_	_	29	case	_	_
+29	dólares	dólar	NOUN	_	Gender=Masc|Number=Plur	25	nmod	_	_
+30	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 72
+# text = Eles acreditam que o ASG tem o potencial de criar impacto em riscos e receitas , assim , incorporar o ASG no processo de investimento é fundamental a_ o seu dever de agir no melhor interesse de_ os membros de_ o fundo , é fundamental a_ o seu dever .
+1	Eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	acreditam	acreditar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	csubj	_	_
+3	que	que	SCONJ	_	_	6	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ASG	ASG	PROPN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	potencial	potencial	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	de	de	SCONJ	_	_	10	mark	_	_
+10	criar	criar	VERB	_	VerbForm=Inf	8	acl	_	_
+11	impacto	impacto	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+12	em	em	ADP	_	_	13	case	_	_
+13	riscos	risco	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	_
+14	e	e	CCONJ	_	_	15	cc	_	_
+15	receitas	receita	NOUN	_	Gender=Fem|Number=Plur	13	conj	_	_
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	assim	assim	ADV	_	_	6	conj	_	_
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	incorporar	incorporar	VERB	_	VerbForm=Inf	2	xcomp	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	ASG	ASG	PROPN	_	Gender=Masc|Number=Sing	19	obj	_	_
+22-23	no	_	_	_	_	_	_	_	_
+22	em	em	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	processo	processo	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	_
+25	de	de	ADP	_	_	26	case	_	_
+26	investimento	investimento	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+27	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	fundamental	fundamental	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+29	a_	a_	PROPN	_	Number=Sing	28	flat:name	_	_
+30	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	32	det	_	_
+32	dever	dever	NOUN	_	Gender=Masc|Number=Sing	28	nsubj	_	_
+33	de	de	SCONJ	_	_	34	mark	_	_
+34	agir	agir	VERB	_	VerbForm=Inf	32	acl	_	_
+35-36	no	_	_	_	_	_	_	_	_
+35	em	em	ADP	_	_	38	case	_	_
+36	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+37	melhor	bom	ADJ	_	Gender=Masc|Number=Sing	38	amod	_	_
+38	interesse	interesse	NOUN	_	Gender=Masc|Number=Sing	34	obl	_	_
+39	de_	de_	PROPN	_	Number=Sing	38	flat:name	_	_
+40	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+41	membros	membro	NOUN	_	Gender=Masc|Number=Plur	38	appos	_	_
+42	de_	de_	PROPN	_	Number=Sing	41	flat:name	_	_
+43	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	fundo	fundo	NOUN	_	Gender=Masc|Number=Sing	41	nmod	_	_
+45	,	,	PUNCT	_	_	47	punct	_	_
+46	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	cop	_	_
+47	fundamental	fundamental	ADJ	_	Gender=Fem|Number=Sing	44	amod	_	_
+48	a_	a_	PROPN	_	Number=Sing	47	flat:name	_	_
+49	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+50	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	51	det	_	_
+51	dever	dever	NOUN	_	Gender=Masc|Number=Sing	47	nsubj	_	_
+52	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 73
+# text = Temos que gostar de_ os australianos , não é ?
+1	Temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	que	que	SCONJ	_	_	3	mark	_	_
+3	gostar	gostar	VERB	_	VerbForm=Inf	1	xcomp	_	_
+4	de_	de_	PROPN	_	Number=Sing	3	obj	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	australianos	australiano	NOUN	_	Gender=Masc|Number=Plur	3	nsubj	_	_
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	não	não	ADV	_	Polarity=Neg	1	advmod	_	_
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	fixed	_	_
+10	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 74
+# text = A CaIPERS é outro exemplo .
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	CaIPERS	CaIPERS	PROPN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	outro	outro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 75
+# text = A CalPERS é um fundo de pensões para funcionários públicos na Califórnia .
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	CalPERS	CalPERS	PROPN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fundo	fundo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	pensões	pensão	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	SpacesAfter=\s\n
+8	para	para	ADP	_	_	9	case	_	_
+9	funcionários	funcionário	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+10	públicos	público	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Califórnia	Califórnia	PROPN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+14	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 76
+# text = Com ativos de 244 mil milhões de dólares
+1	Com	com	ADP	_	_	2	case	_	_
+2	ativos	ativo	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	244	244	NUM	_	NumType=Card	2	nmod	_	_
+5	mil	mil	NUM	_	NumType=Card	4	flat	_	_
+6	milhões	milhão	NUM	_	NumType=Card	4	flat	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	dólares	dólar	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
+
+# sent_id = 77
+# text = , são o segundo maior de_ os EUA e o sexto maior de_ o mundo .
+1	,	,	PUNCT	_	_	6	punct	_	_
+2	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+4	segundo	segundo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	6	amod	_	_
+5	maior	grande	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+6	de_	de_	PROPN	_	Number=Sing	0	root	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	EUA	EUA	PROPN	_	Gender=Masc|Number=Plur	6	nsubj	_	_
+9	e	e	CCONJ	_	_	13	cc	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+11	sexto	sexto	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
+12	maior	grande	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+13	de_	de_	PROPN	_	Number=Sing	6	conj	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	13	flat:name	_	_
+16	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 78
+# text = Agora , estão a passar para investimentos 100 % sustentáveis integrando sistematicamente o ASG em todo o fundo .
+1	Agora	agora	ADV	_	_	5	advmod	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	estão	estar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	SCONJ	_	_	5	mark	_	_
+5	passar	passar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	para	para	ADP	_	_	7	case	_	_
+7	investimentos	investimento	NOUN	_	Gender=Masc|Number=Plur	11	obl	_	_
+8	100	100	NUM	_	NumType=Card	9	nummod	_	_
+9	%	%	SYM	_	_	11	nsubj	_	_
+10	sustentáveis	sustentável	ADJ	_	Gender=Masc|Number=Plur	9	amod	_	_
+11	integrando	integrar	VERB	_	VerbForm=Ger	5	advcl	_	_
+12	sistematicamente	sistematicamente	ADV	_	_	11	advmod	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	ASG	ASG	PROPN	_	Gender=Masc|Number=Sing	11	obj	_	_
+15	em	em	ADP	_	_	18	case	_	_
+16	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	18	det	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	fundo	fundo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	_
+19	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 79
+# text = Porquê ?
+1	Porquê	porquê	ADV	_	_	0	root	_	_
+2	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 80
+# text = Eles acreditam que é fundamental apoiar rendimentos de longo prazo sustentáveis , ponto final .
+1	Eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	acreditam	acreditar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	5	mark	_	_
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	fundamental	fundamental	ADJ	_	Gender=Masc|Number=Sing	2	ccomp	_	_
+6	apoiar	apoiar	VERB	_	VerbForm=Inf	5	csubj	_	_
+7	rendimentos	rendimento	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	longo	longo	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+10	prazo	prazo	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	_
+11	sustentáveis	sustentável	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	ponto	ponto	NOUN	_	Gender=Masc|Number=Sing	7	appos	_	_
+14	final	final	ADJ	_	Gender=Masc|Number=Sing	13	amod	_	_
+15	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 81
+# text = Nas palavras de_ eles , " a criação de valor de longo prazo requer a gestão eficaz " de_ as três formas de capital : financeiro , humano e físico . " Esta é a razão por que nos preocupamos com o ASG . " Eu falo com muitos investidores — faz parte de_ o meu trabalho — e nem todos eles encaram isto de_ esta maneira .
+1-2	Nas	_	_	_	_	_	_	_	_
+1	Em	em	ADP	_	_	3	case	_	_
+2	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	palavras	palavra	NOUN	_	Gender=Fem|Number=Plur	15	obl	_	_
+4	de_	de_	PROPN	_	Number=Sing	3	flat:name	_	_
+5	eles	ele	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+6	,	,	PUNCT	_	_	9	punct	_	_
+7	"	"	PUNCT	_	_	9	punct	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	criação	criação	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	valor	valor	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	longo	longo	ADJ	_	Gender=Masc|Number=Sing	14	amod	_	_
+14	prazo	prazo	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+15	requer	requerer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	gestão	gestão	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+18	eficaz	eficaz	ADJ	_	Gender=Fem|Number=Sing	17	amod	_	_
+19	"	"	PUNCT	_	_	15	punct	_	_
+20	de_	de_	PROPN	_	Number=Sing	19	flat:name	_	_
+21	as	a	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+22	três	três	NUM	_	NumType=Card	23	nummod	_	_
+23	formas	forma	NOUN	_	Gender=Fem|Number=Plur	17	appos	_	_
+24	de	de	ADP	_	_	25	case	_	_
+25	capital	capital	NOUN	_	Gender=Masc|Number=Sing	23	nmod	_	_
+26	:	:	PUNCT	_	_	15	punct	_	_
+27	financeiro	financeiro	ADJ	_	Gender=Masc|Number=Sing	23	appos	_	_
+28	,	,	PUNCT	_	_	29	punct	_	_
+29	humano	humano	ADJ	_	Gender=Masc|Number=Sing	27	conj	_	_
+30	e	e	CCONJ	_	_	31	cc	_	_
+31	físico	físico	ADJ	_	Gender=Masc|Number=Sing	27	conj	_	_
+32	.	.	PUNCT	_	_	37	punct	_	_
+33	"	"	PUNCT	_	_	37	mark	_	_
+34	Esta	este	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	37	nsubj	_	_
+35	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
+36	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	razão	razão	NOUN	_	Gender=Fem|Number=Sing	23	appos	_	_
+38	por	por	ADP	_	_	39	case	_	_
+39	que	que	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	42	obl	_	_
+40-41	nos	_	_	_	_	_	_	_	_
+40	em	em	ADP	_	_	41	case	_	_
+41	os	o	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	42	obl	_	_
+42	preocupamos	preocupar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	37	acl:relcl	_	_
+43	com	com	ADP	_	_	45	case	_	_
+44	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
+45	ASG	ASG	PROPN	_	Gender=Masc|Number=Sing	42	obl	_	_
+46	.	.	PUNCT	_	_	37	punct	_	_
+47	"	"	PUNCT	_	_	49	punct	_	SpacesAfter=\s\n
+48	Eu	eu	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=1|PronType=Prs	49	nsubj	_	_
+49	falo	falar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	37	acl:relcl	_	_
+50	com	com	ADP	_	_	52	case	_	_
+51	muitos	muito	DET	_	Gender=Masc|Number=Plur|PronType=Ind	52	det	_	_
+52	investidores	investidor	NOUN	_	Gender=Masc|Number=Plur	49	obj	_	_
+53	—	—	PUNCT	_	_	54	punct	_	_
+54	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	conj	_	_
+55	parte	parte	NOUN	_	Gender=Fem|Number=Sing	54	obj	_	_
+56	de_	de_	PROPN	_	Number=Sing	55	flat:name	_	_
+57	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+58	meu	meu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	59	det	_	_
+59	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	54	xcomp	_	_
+60	—	—	PUNCT	_	_	65	punct	_	_
+61	e	e	CCONJ	_	_	65	cc	_	_
+62	nem	nem	ADV	_	_	65	advmod	_	_
+63	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Tot	65	iobj	_	_
+64	eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	65	nsubj	_	_
+65	encaram	encarar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	59	conj	_	_
+66	isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	65	obj	_	_
+67	de_	de_	PROPN	_	Number=Sing	66	flat:name	_	_
+68	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	69	det	_	_
+69	maneira	maneira	NOUN	_	Gender=Fem|Number=Sing	65	obl	_	_
+70	.	.	PUNCT	_	_	49	punct	_	_
+
+# sent_id = 82
+# text = Ouço -os dizer muitas vezes : " Pedem -nos para maximizar as receitas , " portanto , não fazemos isso aqui " , ou : " Nós não queremos usar o portfólio " para fazer declarações políticas . " O que realmente me irrita é : " Se quiserem fazer alguma coisa quanto a isso , " ganhem dinheiro e deem os lucros para obras de caridade . " É de bradar a_ os céus !
+1	Ouço	Ouço	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	-os	-o	ADJ	_	Gender=Masc|Number=Plur	1	amod	_	_
+3	dizer	dizer	VERB	_	VerbForm=Inf	0	root	_	_
+4	muitas	muitas	ADP	_	_	5	case	_	_
+5	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	_
+6	:	:	PUNCT	_	_	3	punct	_	_
+7	"	"	PUNCT	_	_	3	punct	_	_
+8	Pedem	pedem	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+9	-nos	-no	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	_
+10	para	para	SCONJ	_	_	11	mark	_	_
+11	maximizar	maximizar	VERB	_	VerbForm=Inf	8	advcl	_	_
+12	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	receitas	receita	NOUN	_	Gender=Fem|Number=Plur	11	obj	_	_
+14	,	,	PUNCT	_	_	11	punct	_	_
+15	"	"	PUNCT	_	_	16	punct	_	_
+16	portanto	portanto	CCONJ	_	_	19	cc	_	_
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	não	não	ADV	_	Polarity=Neg	19	advmod	_	_
+19	fazemos	fazer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+20	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	19	obj	_	_
+21	aqui	aqui	ADV	_	_	19	advmod	_	_
+22	"	"	PUNCT	_	_	19	punct	_	_
+23	,	,	PUNCT	_	_	29	punct	_	_
+24	ou	ou	CCONJ	_	_	29	cc	_	_
+25	:	:	PUNCT	_	_	29	punct	_	_
+26	"	"	PUNCT	_	_	29	punct	_	_
+27	Nós	nós	PRON	_	Case=Nom|Gender=Unsp|Number=Plur|Person=1|PronType=Prs	29	nsubj	_	_
+28	não	não	ADV	_	Polarity=Neg	29	advmod	_	_
+29	queremos	querer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	conj	_	_
+30	usar	usar	VERB	_	VerbForm=Inf	29	xcomp	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	portfólio	portfólio	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	_
+33	"	"	PUNCT	_	_	30	punct	_	_
+34	para	para	SCONJ	_	_	35	mark	_	_
+35	fazer	fazer	VERB	_	VerbForm=Inf	29	advcl	_	_
+36	declarações	declaração	NOUN	_	Gender=Fem|Number=Plur	35	obj	_	_
+37	políticas	político	ADJ	_	Gender=Fem|Number=Plur	36	amod	_	_
+38	.	.	PUNCT	_	_	49	punct	_	_
+39	"	"	PUNCT	_	_	49	punct	_	_
+40	O	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	49	nsubj	_	_
+41	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	44	nsubj	_	_
+42	realmente	realmente	ADV	_	_	44	advmod	_	_
+43	me	eu	PRON	_	Case=Acc|Gender=Unsp|Number=Sing|Person=1|PronType=Prs	44	obj	_	_
+44	irrita	irrever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	acl:relcl	_	_
+45	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	cop	_	_
+46	:	:	PUNCT	_	_	49	punct	_	_
+47	"	"	PUNCT	_	_	49	punct	_	_
+48	Se	se	SCONJ	_	_	49	mark	_	_
+49	quiserem	querer	VERB	_	Number=Plur|Person=3|VerbForm=Inf	29	conj	_	_
+50	fazer	fazer	VERB	_	VerbForm=Inf	49	xcomp	_	_
+51	alguma	algum	DET	_	Gender=Fem|Number=Sing|PronType=Ind	52	det	_	_
+52	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	50	obj	_	_
+53	quanto	quanto	ADV	_	_	55	case	_	_
+54	a	a	ADP	_	_	53	fixed	_	_
+55	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	50	obl	_	_
+56	,	,	PUNCT	_	_	58	punct	_	_
+57	"	"	PUNCT	_	_	50	punct	_	_
+58	ganhem	ganhar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	50	conj	_	_
+59	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	58	obj	_	_
+60	e	e	CCONJ	_	_	61	cc	_	_
+61	deem	de	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	49	conj	_	_
+62	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	63	det	_	_
+63	lucros	lucro	NOUN	_	Gender=Masc|Number=Plur	61	obj	_	_
+64	para	para	ADP	_	_	65	case	_	_
+65	obras	obra	NOUN	_	Gender=Fem|Number=Plur	63	nmod	_	_
+66	de	de	ADP	_	_	67	case	_	_
+67	caridade	caridade	NOUN	_	Gender=Fem|Number=Sing	65	nmod	_	_
+68	.	.	PUNCT	_	_	70	punct	_	_
+69	"	"	PUNCT	_	_	70	punct	_	_
+70	É	ser	PROPN	_	Gender=Masc|Number=Sing	49	obj	_	_
+71	de	de	ADP	_	_	72	case	_	_
+72	bradar	bradar	PROPN	_	Number=Sing	70	nmod	_	_
+73	a_	a_	PROPN	_	Number=Sing	72	flat:name	_	_
+74	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	75	det	_	_
+75	céus	céu	NOUN	_	Gender=Masc|Number=Plur	70	appos	_	_
+76	!	!	PUNCT	_	_	70	punct	_	SpacesAfter=\s\n
+
+# sent_id = 83
+# text = Quero dizer , deixem -me esclarecer uma coisa .
+1	Quero	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	dizer	dizer	VERB	_	VerbForm=Inf	1	xcomp	_	_
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	deixem	deixar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	-me	-me	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+6	esclarecer	esclarecer	VERB	_	VerbForm=Inf	4	xcomp	_	_
+7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	_
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 84
+# text = As companhias e os investidores não são os únicos responsáveis pelo destino de_ o planeta .
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	companhias	companhias	NOUN	_	Gender=Fem|Number=Plur	10	nsubj	_	_
+3	e	e	CCONJ	_	_	5	cc	_	_
+4	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	investidores	investidor	NOUN	_	Gender=Masc|Number=Plur	2	conj	_	_
+6	não	não	ADV	_	Polarity=Neg	10	advmod	_	_
+7	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	únicos	único	ADJ	_	Gender=Masc|Number=Plur	10	amod	_	_
+10	responsáveis	responsável	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+11-12	pelo	_	_	_	_	_	_	_	_
+11	por	por	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	destino	destino	PROPN	_	Number=Sing	16	nmod	_	_
+14	de_	de_	PROPN	_	Number=Sing	13	flat:name	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	planeta	planeta	NOUN	_	Gender=Masc|Number=Sing	10	appos	_	_
+17	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 85
+# text = Eles não tem obrigações sociais ilimitadas .
+1	Eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	não	não	ADV	_	Polarity=Neg	3	advmod	_	_
+3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	obrigações	obrigações	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+5	sociais	social	ADJ	_	Gender=Fem|Number=Plur	4	amod	_	_
+6	ilimitadas	ilimitar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	4	acl	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 86
+# text = O investimento cauteloso e a teoria financeira não estão subordinados à sustentabilidade .
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	investimento	investimento	NOUN	_	Gender=Masc|Number=Sing	10	nsubj	_	_
+3	cauteloso	cauteloso	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	e	e	CCONJ	_	_	6	cc	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	teoria	teoria	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	_
+7	financeira	financeiro	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
+8	não	não	ADV	_	Polarity=Neg	10	advmod	_	_
+9	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	subordinados	subordinar	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
+11-12	à	_	_	_	_	_	_	_	_
+11	a	a	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	sustentabilidade	sustentabilidade	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+14	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 87
+# text = São compatíveis .
+1	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	compatíveis	compatível	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 88
+# text = Portanto , não estou a falar apenas de compensações .
+1	Portanto	portanto	ADV	_	_	6	advmod	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	não	não	ADV	_	Polarity=Neg	6	advmod	_	_
+4	estou	estar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	SCONJ	_	_	6	mark	_	_
+6	falar	falar	VERB	_	VerbForm=Inf	4	xcomp	_	_
+7	apenas	apenas	ADV	_	_	9	advmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	compensações	compensação	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	_
+10	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 89
+# text = Mas os investidores institucionais são a peça chave para a sustentabilidade .
+1	Mas	mas	CCONJ	_	_	7	cc	_	_
+2	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	investidores	investidor	NOUN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+4	institucionais	institucional	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	_
+5	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	peça	peça	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+8	chave	chaver	ADJ	_	Gender=Fem|Number=Sing	7	amod	_	_
+9	para	para	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	sustentabilidade	sustentabilidade	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+12	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 90
+# text = Porque é que eles têm a chave ?
+1	Porque	porque	ADV	_	_	5	advmod	_	_
+2	é	ser	AUX	_	_	5	discourse	_	_
+3	que	que	SCONJ	_	_	2	fixed	_	_
+4	eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+5	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	chave	chave	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+8	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 91
+# text = A resposta é que eles têm o dinheiro . ( Risos )
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	resposta	resposta	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mark	_	_
+4	que	que	SCONJ	_	_	6	mark	_	_
+5	eles	eles	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+9	.	.	PUNCT	_	_	6	punct	_	_
+10	(	(	PUNCT	_	_	11	punct	_	_
+11	Risos	riso	NOUN	_	Gender=Masc|Number=Plur	6	obl	_	_
+12	)	)	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 92
+# text = Muito dinheiro .
+1	Muito	muito	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 93
+# text = Quero dizer , muito dinheiro mesmo .
+1	Quero	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	dizer	dizer	VERB	_	VerbForm=Inf	1	xcomp	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	muito	muito	DET	_	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+6	mesmo	mesmo	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 94
+# text = O mercado global de ações vale 55 biliões de dólares .
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mercado	mercado	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	global	global	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	ações	ação	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	_
+6	vale	valer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	55	55	NUM	_	NumType=Card	8	nummod	_	_
+8	biliões	bilião	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	dólares	dólar	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	_
+11	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 95
+# text = O mercado global de títulos , 78 biliões . Combinados , são 133 biliões .
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mercado	mercado	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	_
+3	global	global	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	títulos	título	NOUN	_	Gender=Masc|Number=Plur	2	nmod	_	_
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	78	78	NUM	_	NumType=Card	8	nummod	_	_
+8	biliões	bilião	NOUN	_	Gender=Masc|Number=Plur	2	appos	_	_
+9	.	.	PUNCT	_	_	8	punct	_	_
+10	Combinados	combinados	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	8	acl	_	_
+11	,	,	PUNCT	_	_	8	punct	_	_
+12	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	133	133	NUM	_	NumType=Card	14	nummod	_	_
+14	biliões	bilião	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 96
+# text = São oito vezes e meia o PIB de_ os EUA .
+1	São	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+2	oito	oito	NUM	_	NumType=Card	3	nummod	_	_
+3	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
+4	e	e	CCONJ	_	_	5	cc	_	_
+5	meia	meia	NUM	_	Gender=Masc|Number=Sing|NumType=Frac	3	conj	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	PIB	PIB	PROPN	_	Gender=Masc|Number=Sing	0	root	_	_
+8	de_	de_	PROPN	_	Number=Sing	7	flat:name	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	EUA	EUA	PROPN	_	Gender=Masc|Number=Plur	7	nsubj	_	_
+11	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 97
+# text = É a maior economia de_ o mundo .
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	maior	grande	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
+4	economia	economia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+5	de_	de_	PROPN	_	Number=Sing	4	flat:name	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	4	nmod	_	_
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 98
+# text = É um poder de fogo excecional .
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	poder	poder	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	fogo	fogo	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	_
+6	excecional	excecional	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 99
+# text = Assim , podemos reconsiderar alguns desses desafios prementes , como a água fresca , o ar puro , dar de comer a 10 mil milhões de bocas , se os investidores institucionais integrarem o ASG nos seus investimentos .
+1	Assim	assim	ADV	_	_	4	advmod	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	podemos	poder	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	reconsiderar	reconsiderar	VERB	_	VerbForm=Inf	3	xcomp	_	_
+5	alguns	algum	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	4	obj	_	_
+6-7	desses	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	esses	esse	DET	_	Gender=Masc|Number=Plur|PronType=Dem	8	det	_	_
+8	desafios	desafio	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+9	prementes	premente	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
+10	,	,	PUNCT	_	_	4	punct	_	_
+11	como	como	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	água	água	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+14	fresca	fresco	ADJ	_	Gender=Fem|Number=Sing	13	amod	_	_
+15	,	,	PUNCT	_	_	4	punct	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	ar	ar	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	_
+18	puro	puro	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	dar	dar	VERB	_	VerbForm=Inf	17	acl	_	_
+21	de	de	SCONJ	_	_	22	mark	_	_
+22	comer	comer	VERB	_	VerbForm=Inf	20	xcomp	_	_
+23	a	a	ADP	_	_	24	case	_	_
+24	10	10	NUM	_	NumType=Card	22	obj	_	_
+25	mil	mil	NUM	_	NumType=Card	24	flat	_	_
+26	milhões	milhão	NUM	_	NumType=Card	24	flat	_	_
+27	de	de	ADP	_	_	28	case	_	_
+28	bocas	boco	NOUN	_	Gender=Fem|Number=Plur	24	nmod	_	_
+29	,	,	PUNCT	_	_	22	punct	_	_
+30	se	se	SCONJ	_	_	34	mark	_	_
+31	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	investidores	investidor	NOUN	_	Gender=Masc|Number=Plur	34	nsubj	_	_
+33	institucionais	institucional	ADJ	_	Gender=Masc|Number=Plur	32	amod	_	_
+34	integrarem	integrar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	20	advcl	_	_
+35	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	ASG	ASG	PROPN	_	Gender=Masc|Number=Sing	34	obj	_	_
+37-38	nos	_	_	_	_	_	_	_	_
+37	em	em	ADP	_	_	40	case	_	_
+38	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	40	det	_	_
+39	seus	seu	DET	_	Gender=Masc|Number=Plur|PronType=Prs	40	det	_	_
+40	investimentos	investimento	NOUN	_	Gender=Masc|Number=Plur	34	obl	_	_
+41	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 100
+# text = Que tal , se usassem todo esse poder de fogo para colocar mais de_ o seu capital em companhias que dão o seu melhor para resolver este desafios ou , pelo menos , não os agravar ?
+1	Que	que	SCONJ	_	_	5	mark	_	_
+2	tal	tal	ADV	_	_	1	fixed	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	se	se	SCONJ	_	_	5	mark	_	_
+5	usassem	usar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	8	det	_	_
+7	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	poder	poder	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+9	de	de	ADP	_	_	10	case	_	_
+10	fogo	fogo	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	_
+11	para	para	SCONJ	_	_	12	mark	_	_
+12	colocar	colocar	VERB	_	VerbForm=Inf	5	advcl	_	_
+13	mais	mais	ADV	_	_	17	advmod	_	_
+14	de_	de_	PROPN	_	Number=Sing	13	flat:name	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	17	det	_	_
+17	capital	capital	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	companhias	companhia	NOUN	_	Gender=Fem|Number=Plur	17	nmod	_	_
+20	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	21	nsubj	_	_
+21	dão	dar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	seu	seu	DET	_	Gender=Masc|Number=Sing|PronType=Prs	24	det	_	_
+24	melhor	bom	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+25	para	para	SCONJ	_	_	26	mark	_	_
+26	resolver	resolver	VERB	_	VerbForm=Inf	21	advcl	_	_
+27	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	28	det	_	_
+28	desafios	desafio	NOUN	_	Gender=Masc|Number=Sing	26	obj	_	_
+29	ou	ou	CCONJ	_	_	37	cc	_	_
+30	,	,	PUNCT	_	_	33	punct	_	_
+31-32	pelo	_	_	_	_	_	_	_	_
+31	por	por	ADP	_	_	33	case	_	_
+32	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	menos	menos	NOUN	_	Gender=Masc|Number=Plur	37	obl	_	_
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	não	não	ADV	_	Polarity=Neg	37	advmod	_	_
+36	os	eles	PRON	_	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	37	obj	_	_
+37	agravar	agravar	VERB	_	VerbForm=Inf	26	conj	_	_
+38	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 101
+# text = E se trabalharmos , pouparmos e investirmos só para descobrir que o mundo onde nos aposentamos é mais cansativo e menos seguro de_ o que é agora ?
+1	E	e	CCONJ	_	_	10	cc	_	_
+2	se	se	SCONJ	_	_	3	mark	_	_
+3	trabalharmos	trabalhar	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	pouparmos	poupar	VERB	_	Number=Plur|Person=1|VerbForm=Inf	3	conj	_	_
+6	e	e	CCONJ	_	_	7	cc	_	_
+7	investirmos	investir	VERB	_	Number=Plur|Person=1|VerbForm=Inf	3	conj	_	_
+8	só	só	ADV	_	_	10	advmod	_	_
+9	para	para	SCONJ	_	_	10	mark	_	_
+10	descobrir	descobrir	VERB	_	VerbForm=Inf	3	conj	_	_
+11	que	que	SCONJ	_	_	20	mark	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	20	nsubj	_	_
+14	onde	onde	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	17	obl	_	_
+15-16	nos	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	16	case	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	obl	_	_
+17	aposentamos	aposentar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+18	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	mais	mais	ADV	_	_	20	advmod	_	_
+20	cansativo	cansativo	ADJ	_	Gender=Masc|Number=Sing	10	ccomp	_	_
+21	e	e	CCONJ	_	_	23	cc	_	_
+22	menos	pouco	ADV	_	_	23	advmod	_	_
+23	seguro	seguro	ADJ	_	Gender=Masc|Number=Sing	20	conj	_	_
+24	de_	de_	PROPN	_	Number=Sing	23	flat:name	_	_
+25	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	10	obj	_	_
+26	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	28	nsubj	_	_
+27	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	agora	agora	ADV	_	_	25	acl:relcl	_	_
+29	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 102
+# text = E se não houver ar limpo ou água pura ?
+1	E	e	CCONJ	_	_	4	cc	_	_
+2	se	se	SCONJ	_	_	4	mark	_	_
+3	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
+4	houver	haver	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	ar	ar	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+6	limpo	limpo	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7	ou	ou	CCONJ	_	_	8	cc	_	_
+8	água	água	ADJ	_	Gender=Fem|Number=Sing	5	conj	_	_
+9	pura	puro	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+10	?	?	PUNCT	_	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 103
+# text = Uma pergunta justa seria :
+1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	pergunta	pergunta	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	justa	justo	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+4	seria	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	2	cop	_	_
+5	:	:	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 104
+# text = E se toda essa coisa de risco de sustentabilidade for um exagero , superestimado , que não é urgente , uma coisa para consumidores virtuosos ou uma opção de estilo de vida ?
+1	E	e	CCONJ	_	_	12	cc	_	_
+2	se	se	SCONJ	_	_	12	mark	_	_
+3	toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Tot	5	det	_	_
+4	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	risco	risco	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	sustentabilidade	sustentabilidade	NOUN	_	Gender=Fem|Number=Sing	7	nmod	_	_
+10	for	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	12	cop	_	_
+11	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	exagero	exagero	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+13	,	,	PUNCT	_	_	14	punct	_	_
+14	superestimado	superestimar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	12	acl	_	_
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	19	nsubj	_	_
+17	não	não	ADV	_	Polarity=Neg	19	advmod	_	_
+18	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	urgente	urgente	ADJ	_	Gender=Fem|Number=Sing	12	acl:relcl	_	_
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	12	appos	_	_
+23	para	para	ADP	_	_	24	case	_	_
+24	consumidores	consumidor	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
+25	virtuosos	virtuoso	ADJ	_	Gender=Masc|Number=Plur	24	amod	_	_
+26	ou	ou	CCONJ	_	_	28	cc	_	_
+27	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	opção	opção	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	estilo	estilo	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	_
+31	de	de	ADP	_	_	32	case	_	_
+32	vida	vida	NOUN	_	Gender=Fem|Number=Sing	30	nmod	_	_
+33	?	?	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 105
+# text = Bem , o presidente John F .
+1	Bem	bem	ADV	_	_	4	advmod	_	_
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	presidente	presidente	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+5	John	John	PROPN	_	Gender=Masc|Number=Sing	4	appos	_	_
+6	F	F	PROPN	_	Number=Sing	5	flat:name	_	_
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = 106
+# text = Kennedy disse uma coisa sobre isso que acerta no alvo : " Há riscos e custos em_ um programa de ação , " mas eles são bem menores de_ o que os riscos a longo prazo " de_ a inação confortável " .
+1	Kennedy	Kennedy	PROPN	_	Gender=Masc|Number=Sing	2	nsubj	_	_
+2	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+5	sobre	sobre	ADP	_	_	6	case	_	_
+6	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	nmod	_	_
+7	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	8	obj	_	_
+8	acerta	acertar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	alvo	alvo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+12	:	:	PUNCT	_	_	2	punct	_	_
+13	"	"	PUNCT	_	_	14	punct	_	_
+14	Há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+15	riscos	risco	NOUN	_	Gender=Masc|Number=Plur	14	obj	_	_
+16	e	e	CCONJ	_	_	17	cc	_	_
+17	custos	custos	NOUN	_	Gender=Masc|Number=Plur	15	conj	_	_
+18	em_	em_	PROPN	_	Number=Sing	17	flat:name	_	_
+19	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	programa	programa	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	_
+21	de	de	ADP	_	_	22	case	_	_
+22	ação	ação	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	_
+23	,	,	PUNCT	_	_	2	punct	_	_
+24	"	"	PUNCT	_	_	29	punct	_	_
+25	mas	mas	CCONJ	_	_	29	cc	_	_
+26	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	29	nsubj	_	_
+27	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+28	bem	bem	ADV	_	_	29	advmod	_	_
+29	menores	pequeno	ADJ	_	Gender=Masc|Number=Plur	14	conj	_	_
+30	de_	de_	PROPN	_	Number=Sing	29	flat:name	_	_
+31	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	29	appos	_	_
+32	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	34	nsubj	_	_
+33	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	riscos	risco	NOUN	_	Gender=Masc|Number=Plur	31	nmod	_	_
+35	a	a	ADP	_	_	37	case	_	_
+36	longo	longo	ADJ	_	Gender=Masc|Number=Sing	37	amod	_	_
+37	prazo	prazo	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	_
+38	"	"	PUNCT	_	_	41	punct	_	_
+39	de_	de_	PROPN	_	Number=Sing	41	nmod	_	_
+40	a	a	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	inação	inação	NOUN	_	Gender=Fem|Number=Sing	37	appos	_	_
+42	confortável	confortável	ADJ	_	Gender=Fem|Number=Sing	41	amod	_	_
+43	"	"	PUNCT	_	_	41	punct	_	_
+44	.	.	PUNCT	_	_	41	punct	_	_
+
+# sent_id = 107
+# text = Reconheço que há em_ isso um risco calculado .
+1	Reconheço	Reconhecer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	que	que	SCONJ	_	_	3	mark	_	_
+3	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+4	em_	em_	PROPN	_	Number=Sing	3	obj	_	_
+5	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	risco	risco	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	_
+8	calculado	calculado	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	7	acl	_	_
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 108
+# text = Mas como tem por base um amplo consenso científico , as hipóteses de que não esteja completamente errado são melhores de_ o que a hipótese de a nossa casa arder totalmente ou de termos um acidente de carro .
+1	Mas	mas	CCONJ	_	_	3	cc	_	_
+2	como	como	ADV	_	_	3	advmod	_	_
+3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	por	por	ADP	_	_	5	case	_	_
+5	base	base	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	amplo	amplo	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+8	consenso	consenso	NOUN	_	Gender=Masc|Number=Sing	5	appos	_	_
+9	científico	científico	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	_
+10	,	,	PUNCT	_	_	8	punct	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	hipóteses	hipótese	NOUN	_	Gender=Fem|Number=Plur	20	nsubj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	que	que	PRON	_	Gender=Fem|Number=Plur|PronType=Rel	18	obl	_	_
+15	não	não	ADV	_	Polarity=Neg	18	advmod	_	_
+16	esteja	estar	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	completamente	completamente	ADV	_	_	18	advmod	_	_
+18	errado	errar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	12	acl:relcl	_	_
+19	são	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+20	melhores	bom	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
+21	de_	de_	PROPN	_	Number=Sing	20	flat:name	_	_
+22	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	20	appos	_	_
+23	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	30	obj	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	hipótese	hipótese	NOUN	_	Gender=Fem|Number=Sing	30	nsubj	_	_
+26	de	de	ADP	_	_	29	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	nossa	nosso	DET	_	Gender=Fem|Number=Sing|PronType=Prs	29	det	_	_
+29	casa	casa	NOUN	_	Gender=Fem|Number=Sing	25	nmod	_	_
+30	arder	arder	VERB	_	VerbForm=Inf	22	acl:relcl	_	_
+31	totalmente	totalmente	ADV	_	_	30	advmod	_	_
+32	ou	ou	CCONJ	_	_	34	cc	_	_
+33	de	de	ADP	_	_	34	case	_	_
+34	termos	ter	NOUN	_	Gender=Masc|Number=Plur	31	conj	_	_
+35	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	acidente	acidente	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	_
+37	de	de	ADP	_	_	38	case	_	_
+38	carro	carro	NOUN	_	Gender=Masc|Number=Sing	36	nmod	_	_
+39	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = 109
+# text = Isso , se não morarmos em Boston . ( Risos )
+1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+2	,	,	PUNCT	_	_	5	punct	_	_
+3	se	se	SCONJ	_	_	5	mark	_	_
+4	não	não	ADV	_	Polarity=Neg	5	advmod	_	_
+5	morarmos	morar	VERB	_	Mood=Sub|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	1	xcomp	_	_
+6	em	em	ADP	_	_	7	case	_	_
+7	Boston	Boston	PROPN	_	Gender=Masc|Number=Sing	5	obl	_	_
+8	.	.	PUNCT	_	_	5	punct	_	_
+9	(	(	PUNCT	_	_	10	punct	_	_
+10	Risos	Risos	NOUN	_	Gender=Masc|Number=Plur	8	parataxis	_	_
+11	)	)	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 110
+# text = Mas a minha questão é que compramos um seguro para nos protegermos financeiramente no caso de essas coisas acontecerem , não é ?
+1	Mas	mas	CCONJ	_	_	7	cc	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	minha	meu	DET	_	Gender=Fem|Number=Sing|PronType=Prs	4	det	_	_
+4	questão	questão	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	discourse	_	_
+6	que	que	SCONJ	_	_	5	fixed	_	_
+7	compramos	comprar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	seguro	seguro	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	para	para	ADP	_	_	13	case	_	_
+11-12	nos	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	protegermos	protegermo	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	_
+14	financeiramente	financeiramente	ADV	_	_	13	advmod	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	17	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	caso	caso	NOUN	_	Gender=Masc|Number=Sing	14	obl	_	_
+18	de	de	ADP	_	_	21	case	_	_
+19	essas	esse	DET	_	Gender=Fem|Number=Plur|PronType=Dem	20	det	_	_
+20	coisas	coisa	NOUN	_	Gender=Fem|Number=Plur	21	nsubj	_	_
+21	acontecerem	acontecer	VERB	_	Number=Plur|Person=3|VerbForm=Inf	17	acl	_	_
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	não	não	ADV	_	Polarity=Neg	7	obj	_	_
+24	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	fixed	_	_
+25	?	?	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 111
+# text = Quando investimos na sustentabilidade estamos a fazer duas coisas .
+1	Quando	quando	SCONJ	_	_	2	mark	_	_
+2	investimos	investir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	na	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sustentabilidade	sustentabilidade	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	_
+6	estamos	estar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	a	a	SCONJ	_	_	8	mark	_	_
+8	fazer	fazer	VERB	_	VerbForm=Inf	6	xcomp	_	_
+9	duas	dois	NUM	_	NumType=Card	10	nummod	_	_
+10	coisas	coisa	NOUN	_	Gender=Fem|Number=Plur	8	obj	_	_
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 112
+# text = Estamos a criar uma cobertura , reduzindo o risco para o nosso planeta e para a nossa economia e , a_ o mesmo tempo , a curto prazo , não estamos a sacrificar o nosso desempenho . [ " E se tudo isso for um embuste e criamos um mundo melhor para nada ?
+1	Estamos	estar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	SCONJ	_	_	3	mark	_	_
+3	criar	criar	VERB	_	VerbForm=Inf	1	xcomp	_	_
+4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	cobertura	cobertura	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	reduzindo	reduzir	VERB	_	VerbForm=Ger	3	advcl	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	risco	risco	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	para	para	ADP	_	_	13	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	nosso	nosso	DET	_	Gender=Masc|Number=Sing|PronType=Prs	13	det	_	_
+13	planeta	planeta	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+14	e	e	CCONJ	_	_	18	cc	_	_
+15	para	para	ADP	_	_	18	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	nossa	nosso	DET	_	Gender=Fem|Number=Sing|PronType=Prs	18	det	_	_
+18	economia	economia	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	_
+19	e	e	CCONJ	_	_	33	cc	_	_
+20	,	,	PUNCT	_	_	21	punct	_	_
+21	a_	a_	PROPN	_	Number=Sing	33	obj	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	mesmo	mesmo	ADJ	_	Gender=Masc|Number=Sing	24	amod	_	_
+24	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	33	nsubj	_	_
+25	,	,	PUNCT	_	_	28	punct	_	_
+26	a	o	ADP	_	_	28	case	_	_
+27	curto	curto	ADJ	_	Gender=Masc|Number=Sing	28	amod	_	_
+28	prazo	prazo	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	não	não	ADV	_	Polarity=Neg	33	advmod	_	_
+31	estamos	estar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	_
+32	a	a	SCONJ	_	_	33	mark	_	_
+33	sacrificar	sacrificar	VERB	_	VerbForm=Inf	31	xcomp	_	_
+34	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+35	nosso	nosso	DET	_	Gender=Masc|Number=Sing|PronType=Prs	36	det	_	_
+36	desempenho	desempenho	NOUN	_	Gender=Masc|Number=Sing	33	obj	_	_
+37	.	.	PUNCT	_	_	33	punct	_	_
+38	[	[	PUNCT	_	_	39	punct	_	_
+39	"	"	PUNCT	_	_	40	punct	_	_
+40	E	e	CCONJ	_	_	36	appos	_	_
+41	se	se	SCONJ	_	_	44	mark	_	_
+42	tudo	tudo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	44	nsubj	_	_
+43	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	42	fixed	_	_
+44	for	ser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	40	ccomp	_	_
+45	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	embuste	embuste	NOUN	_	Gender=Masc|Number=Sing	44	obj	_	_
+47	e	e	CCONJ	_	_	48	cc	_	_
+48	criamos	criar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	44	conj	_	_
+49	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	48	obj	_	_
+51	melhor	bom	ADJ	_	Gender=Masc|Number=Sing	50	amod	_	_
+52	para	para	ADP	_	_	53	case	_	_
+53	nada	nada	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	50	nmod	_	_
+54	?	?	PUNCT	_	_	40	punct	_	_
+
+# sent_id = 113
+# text = " ] Ótimo , vocês gostaram .
+1	"	"	PUNCT	_	_	0	root	_	_
+2	]	_	PUNCT	_	_	3	punct	_	SpacesAfter=\s\n
+3	Ótimo	ótimo	PROPN	_	Gender=Masc|Number=Sing	1	parataxis	_	_
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	vocês	você	PRON	_	Case=Nom|Gender=Unsp|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	gostaram	gostar	VERB	_	Mood=Ind|Number=Plur|Person=3|VerbForm=Fin	3	parataxis	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 114
+# text = Eu também gosto . ( Risos )
+1	Eu	eu	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	também	também	ADV	_	_	3	advmod	_	_
+3	gosto	gostar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+5	(	(	PUNCT	_	_	6	punct	_	_
+6	Risos	Risos	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	_
+7	)	)	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 115
+# text = Eu gosto porque faz troça de_ os dois lados de_ a questão de_ a alteração climática .
+1	Eu	eu	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	gosto	gostar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	porque	porque	SCONJ	_	_	4	mark	_	_
+4	faz	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	troça	troça	PROPN	_	Gender=Fem|Number=Sing	4	obj	_	_
+6	de_	de_	PROPN	_	Number=Sing	5	flat:name	_	_
+7	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	dois	dois	NUM	_	NumType=Card	9	nummod	_	_
+9	lados	lado	NOUN	_	Gender=Masc|Number=Plur	4	conj	_	_
+10	de_	de_	PROPN	_	Number=Sing	9	flat:name	_	_
+11	a	a	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	questão	questão	PROPN	_	Gender=Fem|Number=Sing	9	appos	_	_
+13	de_	de_	PROPN	_	Number=Sing	12	flat:name	_	_
+14	a	a	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	alteração	alteração	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+16	climática	climático	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 116
+# text = Aposto que não adivinham de que lado estou .
+1	Aposto	apostar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	que	que	SCONJ	_	_	4	mark	_	_
+3	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
+4	adivinham	adivinhar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+5	de	de	SCONJ	_	_	7	mark	_	_
+6	que	que	SCONJ	_	_	5	fixed	_	_
+7	lado	lado	NOUN	_	Gender=Masc|Number=Sing	4	ccomp	_	_
+8	estou	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = 117
+# text = Mas o que eu gosto em_ isto é que me lembra uma coisa que Mark Twain disse : " Planeia para o futuro , " porque é onde vais passar o resto de_ a tua vida . " Obrigado .
+1	Mas	mas	CCONJ	_	_	2	cc	_	_
+2	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	que	que	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	5	obj	_	_
+4	eu	eu	PRON	_	Case=Nom|Gender=Unsp|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	gosto	gostar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	em_	em_	PROPN	_	Number=Sing	11	obj	_	_
+7	isto	isto	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	11	nsubj	_	_
+8	é	ser	AUX	_	_	11	discourse	_	_
+9	que	que	SCONJ	_	_	8	fixed	_	_
+10	me	eu	PRON	_	Case=Dat|Gender=Unsp|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+11	lembra	lembrar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	xcomp	_	_
+12	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	_
+14	que	que	SCONJ	_	_	17	mark	_	_
+15	Mark	Mark	PROPN	_	Gender=Masc|Number=Sing	17	nsubj	_	_
+16	Twain	Twain	PROPN	_	Number=Sing	15	flat:name	_	_
+17	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+18	:	:	PUNCT	_	_	30	punct	_	_
+19	"	"	PUNCT	_	_	30	punct	_	_
+20	Planeia	planeia	PROPN	_	Gender=Fem|Number=Sing	30	nsubj	_	_
+21	para	para	ADP	_	_	23	case	_	_
+22	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	futuro	futuro	NOUN	_	Gender=Masc|Number=Sing	20	nmod	_	_
+24	,	,	PUNCT	_	_	30	punct	_	_
+25	"	"	PUNCT	_	_	30	punct	_	_
+26	porque	porque	SCONJ	_	_	28	mark	_	_
+27	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	onde	onde	PRON	_	Gender=Unsp|Number=Sing|PronType=Rel	30	obl	_	_
+29	vais	ir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	passar	passar	VERB	_	VerbForm=Inf	17	advcl	_	_
+31	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	resto	resto	NOUN	_	Gender=Masc|Number=Sing	30	obj	_	_
+33	de_	de_	PROPN	_	Number=Sing	32	flat:name	_	_
+34	a	a	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+35	tua	tuo	ADJ	_	Gender=Fem|Number=Sing	36	amod	_	_
+36	vida	vida	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
+37	.	.	PUNCT	_	_	39	punct	_	_
+38	"	"	PUNCT	_	_	39	punct	_	SpacesAfter=\s\n
+39	Obrigado	Obrigado	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	30	conj	_	_
+40	.	.	PUNCT	_	_	39	punct	_	SpacesAfter=\s\n
+

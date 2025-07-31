@@ -1,0 +1,2627 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = W długiej historii ludzkości najbardziej śmiercionośną chorobą zakaźną jest malaria.
+1	W	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	3	case	_	_
+2	długiej	długi	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	historii	historia	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+4	ludzkości	ludzkość	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	najbardziej	bardzo	ADV	adv:sup	Degree=Sup	6	advmod	_	_
+6	śmiercionośną	śmiercionośny	ADJ	adj:sg:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	chorobą	choroba	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+8	zakaźną	zakaźny	ADJ	adj:sg:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+9	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+10	malaria	malaria	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	7	punct	_	_
+
+# sent_id = 2
+# text = Przenoszą je ukąszenia zarażonych komarów i stanowi chyba najstarszą zmorę ludzkości.
+1	Przenoszą	przenosić	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	je	on	PRON	ppron3:pl:acc:n:ter:akc:npraep	Case=Acc|Gender=Neut|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	1	obj	_	_
+3	ukąszenia	ukąszenie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	1	iobj	_	_
+4	zarażonych	zarażony	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+5	komarów	komar	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obj	_	_
+6	i	i	CCONJ	conj	_	7	cc	_	_
+7	stanowi	stanowić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+8	chyba	chyba	PART	part	_	7	advmod:emph	_	_
+9	najstarszą	stary	ADJ	adj:sg:inst:f:sup	Case=Ins|Degree=Sup|Gender=Fem|Number=Sing	10	amod	_	_
+10	zmorę	zmora	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	7	xcomp:pred	_	_
+11	ludzkości	ludzkość	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	10	nmod:arg	_	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 3
+# text = Możliwe, że malaria towarzyszy nam odkąd ewoluowaliśmy z małp.
+1	Możliwe	możliwy	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	interp	PunctType=Comm	5	punct	_	_
+3	że	że	SCONJ	comp	_	5	mark	_	_
+4	malaria	malaria	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	towarzyszy	towarzyszyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	_
+6	nam	my	PRON	ppron12:pl:dat:m1:pri	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	5	iobj	_	_
+7	odkąd	odkąd	ADV	adv	PronType=Int	8	advmod	_	_
+8-9	ewoluowaliśmy	_	_	_	_	_	_	_	_
+8	ewoluowali	ewoluować	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	_
+9	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Plur|Person=1|Variant=Short	8	aux:clitic	_	_
+10	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	11	case	_	_
+11	małp	małpa	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	8	obl:arg	_	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 4
+# text = Do dziś malaria wyrządza nam wielkie szkody.
+1	Do	do	ADP	prep:gen	AdpType=Prep	2	case	_	_
+2	dziś	dziś	ADV	adv	_	4	advmod	_	_
+3	malaria	malaria	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	wyrządza	wyrządzać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	nam	my	PRON	ppron12:pl:dat:m1:pri	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	4	iobj	_	_
+6	wielkie	wielki	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
+7	szkody	szkoda	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 5
+# text = Co roku odnotowuje się 300 mln przypadków i ponad pół miliona zgonów.
+1	Co	co	ADP	prep:gen	AdpType=Prep	2	case	_	_
+2	roku	rok	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+3	odnotowuje	odnotowywać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	się	się	PRON	part	PronType=Prs|Reflex=Yes	3	expl:pv	_	_
+5	300	300	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	7	nummod:gov	_	_
+6	mln	milion	X	brev:npun	Abbr=Yes|Pun=No	5	flat	_	_
+7	przypadków	przypadek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+8	i	i	CCONJ	conj	_	12	cc	_	_
+9	ponad	ponad	PART	part	_	10	advmod:emph	_	_
+10	pół	pół	NUM	num:pl:nom:m3:rec	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	12	nummod:gov	_	_
+11	miliona	milion	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	flat	_	_
+12	zgonów	zgon	NOUN	subst:pl:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 6
+# text = Nie ma to żadnego sensu.
+1	Nie	nie	PART	part	Polarity=Neg	2	advmod:neg	_	_
+2	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	_
+4	żadnego	żaden	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Neg	5	det	_	_
+5	sensu	sens	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	iobj	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 7
+# text = Wiemy, jak leczyć malarię od XVII wieku.
+1	Wiemy	wiedzieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	interp	PunctType=Comm	4	punct	_	_
+3	jak	jak	ADV	adv:pos	Degree=Pos|PronType=Int	4	advmod	_	_
+4	leczyć	leczyć	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+5	malarię	malaria	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	8	case	_	_
+7	XVII	XVII	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|NumForm=Roman|NumType=Ord	8	amod	_	_
+8	wieku	wiek	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 8
+# text = To wtedy jezuiccy misjonarze w Peru odkryli korę chinowca, która zawiera chininę, do dziś skuteczny lek na malarię.
+1	To	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	7	cop	_	_
+2	wtedy	wtedy	ADV	adv	PronType=Dem	7	advmod	_	_
+3	jezuiccy	jezuicki	ADJ	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+4	misjonarze	misjonarz	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+6	Peru	Peru	PROPN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	odkryli	odkryć	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	korę	kora	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	chinowca	chinowiec	NOUN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+11	która	który	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	12	nsubj	_	_
+12	zawiera	zawierać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+13	chininę	chinina	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+15	do	do	ADP	prep:gen	AdpType=Prep	16	case	_	_
+16	dziś	dziś	ADV	adv	_	7	obl	_	_
+17	skuteczny	skuteczny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	lek	lek	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+19	na	na	ADP	prep:acc	AdpType=Prep	20	case	_	_
+20	malarię	malaria	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	interp	PunctType=Peri	7	punct	_	_
+
+# sent_id = 9
+# text = Od wieków wiemy, jak leczyć malarię.
+1	Od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	2	case	_	_
+2	wieków	wiek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+3	wiemy	wiedzieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+5	jak	jak	ADV	adv:pos	Degree=Pos|PronType=Int	6	advmod	_	_
+6	leczyć	leczyć	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+7	malarię	malaria	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 10
+# text = Wiemy, jak zapobiegać malarii od 1897 r.
+1	Wiemy	wiedzieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	interp	PunctType=Comm	4	punct	_	_
+3	jak	jak	ADV	adv:pos	Degree=Pos|PronType=Int	4	advmod	_	_
+4	zapobiegać	zapobiegać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+5	malarii	malaria	NOUN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	4	iobj	_	_
+6	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	8	case	_	_
+7	1897	1897	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	8	nummod	_	_
+8	r	rok	X	brev:pun	Abbr=Yes|Pun=Yes	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 11
+# text = To wtedy chirurg armii brytyjskiej, Ronald Ross, odkrył, że to komary przenoszą malarię, a nie morowe powietrze, jak uważano wcześniej.
+1	To	to	PART	part	_	2	advmod:emph	_	_
+2	wtedy	wtedy	ADV	adv	PronType=Dem	10	advmod	_	_
+3	chirurg	chirurg	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+4	armii	armia	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	brytyjskiej	brytyjski	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+7	Ronald	Ronald	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	3	appos	_	_
+8	Ross	Ross	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	7	flat	_	SpaceAfter=No
+9	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+10	odkrył	odkryć	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	15	punct	_	_
+12	że	że	SCONJ	comp	_	15	mark	_	_
+13	to	to	PART	part	_	14	advmod:emph	_	_
+14	komary	komar	NOUN	subst:pl:nom:m2	Animacy=Nhum|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+15	przenoszą	przenosić	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp:obj	_	_
+16	malarię	malaria	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+17	,	,	PUNCT	interp	PunctType=Comm	21	punct	_	_
+18	a	a	CCONJ	conj	_	21	cc	_	_
+19	nie	nie	CCONJ	conj	_	18	fixed	_	_
+20	morowe	morowy	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	powietrze	powietrze	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	15	conj	_	SpaceAfter=No
+22	,	,	PUNCT	interp	PunctType=Comm	24	punct	_	_
+23	jak	jak	SCONJ	comp	ConjType=Cmpr	24	mark	_	_
+24	uważano	uważać	VERB	imps:imperf	Aspect=Imp|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	21	advcl:cmpr	_	_
+25	wcześniej	wcześnie	ADV	adv:com	Degree=Cmp	24	advmod	_	SpaceAfter=No
+26	.	.	PUNCT	interp	PunctType=Peri	10	punct	_	_
+
+# sent_id = 12
+# text = Dlatego malaria nie powinna stanowić większego problemu, a jednak nadal setki tysięcy ludzi będą umierać przez ukąszenia komara.
+1	Dlatego	dlatego	ADV	adv	PronType=Dem	4	advmod	_	_
+2	malaria	malaria	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	nie	nie	PART	part	Polarity=Neg	4	advmod:neg	_	_
+4	powinna	powinien	VERB	winien:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin|VerbType=Mod|Voice=Act	0	root	_	_
+5	stanowić	stanowić	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	większego	wielki	ADJ	adj:sg:gen:m3:com	Animacy=Inan|Case=Gen|Degree=Cmp|Gender=Masc|Number=Sing	7	amod	_	_
+7	problemu	problem	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	iobj	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	16	punct	_	_
+9	a	a	CCONJ	conj	_	16	cc	_	_
+10	jednak	jednak	CCONJ	conj	_	16	cc	_	_
+11	nadal	nadal	ADV	adv	_	16	advmod	_	_
+12	setki	setka	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	_
+13	tysięcy	tysiąc	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod:arg	_	_
+14	ludzi	człowiek	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	13	nmod:arg	_	_
+15	będą	być	AUX	bedzie:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	16	aux	_	_
+16	umierać	umierać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	4	conj	_	_
+17	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	18	case	_	_
+18	ukąszenia	ukąszenie	NOUN	subst:pl:acc:n:ncol	Case=Acc|Gender=Neut|Number=Plur	16	obl	_	_
+19	komara	komar	NOUN	subst:sg:gen:m2	Animacy=Nhum|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 13
+# text = Dlaczego?
+1	Dlaczego	dlaczego	ADV	adv	PronType=Int	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	interp	PunctType=Qest	1	punct	_	_
+
+# sent_id = 14
+# text = To pytanie intryguje mnie od dawna.
+1	To	ten	DET	adj:sg:nom:n:pos	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
+2	pytanie	pytanie	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	intryguje	intrygować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	mnie	ja	PRON	ppron12:sg:acc:m1:pri:akc	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs|Variant=Long	3	obj	_	_
+5	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+6	dawna	dawny	ADJ	adjp	PrepCase=Pre	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 15
+# text = Dorastałam jako córka hinduskich imigrantów i każdego lata odwiedzałam kuzynów w Indiach.
+1-2	Dorastałam	_	_	_	_	_	_	_	_
+1	Dorastała	Dorastać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	1	aux:clitic	_	_
+3	jako	jako	SCONJ	comp	ConjType=Pred	4	mark	_	_
+4	córka	córka	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	obl	_	_
+5	hinduskich	hinduski	ADJ	adj:pl:gen:m1:pos	Animacy=Hum|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+6	imigrantów	imigrant	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+7	i	i	CCONJ	conj	_	10	cc	_	_
+8	każdego	każdy	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Tot	9	det	_	_
+9	lata	rok	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obl	_	_
+10-11	odwiedzałam	_	_	_	_	_	_	_	_
+10	odwiedzała	odwiedzać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+11	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	10	aux:clitic	_	_
+12	kuzynów	kuzyn	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obj	_	_
+13	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	14	case	_	_
+14	Indiach	Indie	PROPN	subst:pl:loc:n:pt	Case=Loc|Gender=Neut|Number=Ptan	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 16
+# text = Jako że nie byłam odporna na tamtejsze malarie, kazano mi spać pod duszną moskitierą, podczas gdy kuzyni mogli spać na tarasie, gdzie cieszyli się chłodnym, nocnym powietrzem.
+1	Jako	jako	SCONJ	comp	_	6	mark	_	_
+2	że	że	SCONJ	comp	_	1	fixed	_	_
+3	nie	nie	PART	part	Polarity=Neg	4	advmod:neg	_	_
+4-5	byłam	_	_	_	_	_	_	_	_
+4	była	być	AUX	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+5	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	6	aux:clitic	_	_
+6	odporna	odporny	ADJ	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	advcl	_	_
+7	na	na	ADP	prep:acc	AdpType=Prep	9	case	_	_
+8	tamtejsze	tamtejszy	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
+9	malarie	malaria	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+11	kazano	kazano	VERB	imps:imperf	Aspect=Imp|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	mi	ja	PRON	ppron12:sg:dat:m1:pri:nakc	Animacy=Hum|Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs|Variant=Short	11	iobj	_	_
+13	spać	spać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+14	pod	pod	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	16	case	_	_
+15	duszną	duszny	ADJ	adj:sg:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	moskitierą	moskitiera	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+17	,	,	PUNCT	interp	PunctType=Comm	21	punct	_	_
+18	podczas	podczas	ADP	prep:gen	AdpType=Prep	21	mark	_	_
+19	gdy	gdy	ADV	adv	_	18	fixed	_	_
+20	kuzyni	kuzyni	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+21	mogli	móc	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	advcl	_	_
+22	spać	spać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+23	na	na	ADP	prep:loc	AdpType=Prep	24	case	_	_
+24	tarasie	taras	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+25	,	,	PUNCT	interp	PunctType=Comm	27	punct	_	_
+26	gdzie	gdzie	ADV	adv	PronType=Rel	27	advmod	_	_
+27	cieszyli	cieszyć	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	24	acl:relcl	_	_
+28	się	się	PRON	part	PronType=Prs|Reflex=Yes	27	expl:pv	_	_
+29	chłodnym	chłodny	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	SpaceAfter=No
+30	,	,	PUNCT	interp	PunctType=Comm	31	punct	_	_
+31	nocnym	nocny	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	29	conj	_	_
+32	powietrzem	powietrze	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	27	iobj	_	SpaceAfter=No
+33	.	.	PUNCT	interp	PunctType=Peri	11	punct	_	_
+
+# sent_id = 17
+# text = Naprawdę nienawidziłam za to komarów.
+1	Naprawdę	naprawdę	PART	part	_	2	advmod:emph	_	_
+2-3	nienawidziłam	_	_	_	_	_	_	_	_
+2	nienawidziła	nienawidziła	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	2	aux:clitic	_	_
+4	za	za	ADP	prep:acc	AdpType=Prep	5	case	_	_
+5	to	to	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	6	nmod	_	_
+6	komarów	komar	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 18
+# text = Jednocześnie pochodzę z rodziny wyznającej dźinizm.
+1	Jednocześnie	jednocześnie	ADV	adv:pos	Degree=Pos	2	advmod	_	_
+2	pochodzę	pochodzić	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	4	case	_	_
+4	rodziny	rodzina	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	obl:arg	_	_
+5	wyznającej	wyznać	ADJ	pact:sg:gen:f:imperf:aff	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	4	acl	_	_
+6	dźinizm	dźinizm	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 19
+# text = Dźinizm to religia, w której wierzy się w bardzo ekstremalne odmiany anty-przemocy.
+1	Dźinizm	Dźinizm	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	3	cop	_	_
+3	religia	religia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+6	której	który	DET	adj:sg:loc:f:pos	Case=Loc|Gender=Fem|Number=Sing|PronType=Rel	7	obl	_	_
+7	wierzy	wierzyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+8	się	się	PRON	part	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+9	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	12	case	_	_
+10	bardzo	bardzo	ADV	adv:pos	Degree=Pos	11	advmod	_	_
+11	ekstremalne	ekstremalny	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	_
+12	odmiany	odmiana	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	7	obl:arg	_	_
+13	anty	ant	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	12	nmod:arg	_	SpaceAfter=No
+14	-	-	PUNCT	interp	PunctType=Hyph	15	punct	_	SpaceAfter=No
+15	przemocy	przemoc	NOUN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	12	appos	_	SpaceAfter=No
+16	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 20
+# text = Dźiniści nie jedzą mięsa.
+1	Dźiniści	Dźinista	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	nie	nie	PART	part	Polarity=Neg	3	advmod:neg	_	_
+3	jedzą	jeść	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	mięsa	mięso	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 21
+# text = Nie chodzimy po trawie, bo jeszcze niechcący zabilibyśmy jakieś owady.
+1	Nie	nie	PART	part	Polarity=Neg	2	advmod:neg	_	_
+2	chodzimy	chodzić	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	po	po	ADP	prep:loc	AdpType=Prep	4	case	_	_
+4	trawie	trawa	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+6	bo	bo	SCONJ	comp	_	9	mark	_	_
+7	jeszcze	jeszcze	PART	part	_	8	advmod:emph	_	_
+8	niechcący	niechcący	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9-11	zabilibyśmy	_	_	_	_	_	_	_	_
+9	zabili	zabić	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+10	by	by	AUX	part	_	9	aux:cnd	_	_
+11	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Plur|Person=1|Variant=Short	9	aux:clitic	_	_
+12	jakieś	jakiś	DET	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+13	owady	owad	NOUN	subst:pl:acc:m2	Animacy=Nhum|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 22
+# text = Oczywiście nie zabijamy komarów.
+1	Oczywiście	oczywiście	ADV	adv:pos	Degree=Pos	3	parataxis:insert	_	_
+2	nie	nie	PART	part	Polarity=Neg	3	advmod:neg	_	_
+3	zabijamy	zabijać	VERB	fin:pl:pri:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	komarów	komar	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 23
+# text = Dlatego przerażająca moc tego małego owada była dla mnie oczywista od wczesnych lat.
+1	Dlatego	dlatego	ADV	adv	PronType=Dem	2	advmod	_	_
+2	przerażająca	przerażający	ADJ	pact:sg:nom:f:imperf:aff	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	0	root	_	_
+3	moc	moc	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	tego	ten	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+5	małego	mały	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	owada	owad	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+7	była	być	AUX	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	aux:pass	_	_
+8	dla	dla	ADP	prep:gen	AdpType=Prep	9	case	_	_
+9	mnie	ja	PRON	ppron12:sg:gen:m1:pri:akc	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs|Variant=Long	2	obl	_	_
+10	oczywista	oczywista	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+11	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	13	case	_	_
+12	wczesnych	wczesny	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_
+13	lat	rok	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 24
+# text = Jako dziennikarka spędziłam 5 lat starając się zrozumieć, czemu malaria od tak dawna jest zmorą ludzkości.
+1	Jako	jako	SCONJ	comp	ConjType=Pred	2	mark	_	_
+2	dziennikarka	dziennikarka	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	obl	_	_
+3-4	spędziłam	_	_	_	_	_	_	_	_
+3	spędziła	spędzić	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	3	aux:clitic	_	_
+5	5	5	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	6	nummod:gov	_	_
+6	lat	rok	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obj	_	_
+7	starając	starać	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	3	advcl	_	_
+8	się	się	PRON	part	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+9	zrozumieć	zrozumieć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	17	punct	_	_
+11	czemu	czemu	ADV	adv	PronType=Int	17	advmod	_	_
+12	malaria	malaria	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+13	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	15	case	_	_
+14	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	15	advmod	_	_
+15	dawna	dawny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	nmod	_	_
+16	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	_
+17	zmorą	zmora	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	9	ccomp	_	_
+18	ludzkości	ludzkość	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	17	nmod:arg	_	SpaceAfter=No
+19	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 25
+# text = Uważam, że istnieją trzy główne powody.
+1	Uważam	uważać	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	interp	PunctType=Comm	4	punct	_	_
+3	że	że	SCONJ	comp	_	4	mark	_	_
+4	istnieją	istnieć	VERB	fin:pl:ter:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	ccomp:obj	_	_
+5	trzy	trzy	NUM	num:pl:acc:m3:congr	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	7	nummod	_	_
+6	główne	główny	ADJ	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
+7	powody	powód	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 26
+# text = Te trzy powody tworzą czwarty powód, chyba najistotniejszy.
+1	Te	ten	DET	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	trzy	trzy	NUM	num:pl:nom:m3:congr	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumForm=Word	3	nummod	_	_
+3	powody	powód	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	tworzą	tworzyć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	czwarty	czwarty	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	powód	powód	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+8	chyba	chyba	PART	part	_	9	advmod:emph	_	_
+9	najistotniejszy	istotny	ADJ	adj:sg:nom:m3:sup	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 27
+# text = Pierwszy jest natury naukowej.
+1	Pierwszy	pierwszy	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+2	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
+3	natury	natura	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	1	nsubj	_	_
+4	naukowej	naukowy	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 28
+# text = Ten mały pasożyt powodujący malarię jest jednym z najbardziej skomplikowanych i przebiegłych patogenów znanych człowiekowi.
+1	Ten	ten	DET	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+2	mały	mały	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	pasożyt	pasożyt	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+4	powodujący	powodować	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	malarię	malaria	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	3	nmod	_	_
+6	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+7	jednym	jeden	ADJ	adj:sg:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+8	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	10	case	_	_
+9	najbardziej	bardzo	ADV	adv:sup	Degree=Sup	10	advmod	_	_
+10	skomplikowanych	skomplikowany	ADJ	ppas:pl:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	15	acl	_	_
+11	i	i	CCONJ	conj	_	13	cc	_	_
+12	przebiegłych	przebiegły	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	13	amod	_	_
+13	patogenów	patogen	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	conj	_	_
+14	znanych	znany	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	15	amod	_	_
+15	człowiekowi	człowiek	NOUN	subst:sg:dat:m1	Animacy=Hum|Case=Dat|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+16	.	.	PUNCT	interp	PunctType=Peri	7	punct	_	_
+
+# sent_id = 29
+# text = Połowę życia spędza w zmiennocieplnym komarze, a drugą w stałocieplnym człowieku.
+1	Połowę	połowa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+2	życia	życie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	1	nmod:arg	_	_
+3	spędza	spędzać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+5	zmiennocieplnym	zmiennocieplny	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	komarze	komar	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+8	a	a	CCONJ	conj	_	9	cc	_	_
+9	drugą	drugi	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	_
+10	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	12	case	_	_
+11	stałocieplnym	stałocieplny	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	człowieku	człowiek	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 30
+# text = Te dwa środowiska są całkowicie różne, a w dodatku całkowicie wrogie.
+1	Te	ten	DET	adj:pl:nom:n:pos	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	3	det	_	_
+2	dwa	dwa	NUM	num:pl:nom:n:congr:ncol	Case=Nom|Gender=Neut|Number=Plur|NumForm=Word	3	nummod	_	_
+3	środowiska	środowisko	NOUN	subst:pl:nom:n:ncol	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
+4	są	być	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+5	całkowicie	całkowicie	ADV	adv:pos	Degree=Pos	6	advmod	_	_
+6	różne	różny	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+8	a	a	CCONJ	conj	_	12	cc	_	_
+9	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	10	case	_	_
+10	dodatku	dodatek	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	_	_
+11	całkowicie	całkowicie	ADV	adv:pos	Degree=Pos	12	advmod	_	_
+12	wrogie	wrogi	ADJ	adj:pl:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	6	punct	_	_
+
+# sent_id = 31
+# text = Zarówno owad jak i organizm ludzki cały czas starają się pozbyć pasożyta.
+1	Zarówno	zarówno	CCONJ	conj	_	2	cc:preconj	_	_
+2	owad	owad	NOUN	subst:sg:nom:m2	Animacy=Nhum|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+3	jak	jak	CCONJ	conj	_	5	cc	_	_
+4	i	i	CCONJ	conj	_	3	fixed	_	_
+5	organizm	organizm	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+6	ludzki	ludzki	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+7	cały	cały	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	czas	czas	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+9	starają	starać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	się	się	PRON	part	PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+11	pozbyć	pozbyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+12	pasożyta	pasożyta	NOUN	subst:sg:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	9	punct	_	_
+
+# sent_id = 32
+# text = To stworzonko nie tylko wychodzi zwycięsko z tej walki, ale wręcz kwitnie.
+1	To	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	5	nsubj	_	_
+2	stworzonko	stworzonko	ADV	adv:pos	Degree=Pos	5	advmod	_	_
+3	nie	nie	CCONJ	conj	_	5	cc	_	_
+4	tylko	tylko	CCONJ	conj	_	3	fixed	_	_
+5	wychodzi	wychodzić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	zwycięsko	zwycięsko	PART	part	_	9	advmod:emph	_	_
+7	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	9	case	_	_
+8	tej	ten	DET	adj:sg:gen:f:pos	Case=Gen|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	walki	walka	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	13	punct	_	_
+11	ale	ale	CCONJ	conj	_	13	cc	_	_
+12	wręcz	wręcz	PART	part	_	13	advmod:emph	_	_
+13	kwitnie	kwitnie	ADV	adv:pos	Degree=Pos	5	conj	_	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 33
+# text = Rozprzestrzenia się.
+1	Rozprzestrzenia	rozprzestrzeniać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	się	się	PRON	part	PronType=Prs|Reflex=Yes	1	expl:pv	_	SpaceAfter=No
+3	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 34
+# text = Zna więcej uników, niż nam się wydaje.
+1	Zna	znać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	więcej	więcej	DET	num:pl:nom:m3:rec	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	3	det:numgov	_	_
+3	uników	unik	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+5	niż	niż	SCONJ	comp	ConjType=Cmpr	8	mark	_	_
+6	nam	my	PRON	ppron12:pl:dat:m1:pri	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	8	iobj	_	_
+7	się	się	PRON	part	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+8	wydaje	wydawać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl:cmpr	_	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 35
+# text = Po pierwsze może zmienić kształt.
+1	Po	po	ADP	prep:acc	AdpType=Prep	2	case	_	_
+2	pierwsze	pierwszy	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	obl	_	_
+3	może	móc	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	zmienić	zmienić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	kształt	kształt	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 36
+# text = Tak jak gąsienica zamienia się w motyla, tak pasożyt malarii przekształca się siedem razy w ciągu życia.
+1	Tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	4	advmod	_	_
+2	jak	jak	SCONJ	comp	ConjType=Cmpr	3	mark	_	_
+3	gąsienica	gąsienica	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	obl:cmpr	_	_
+4	zamienia	zamieniać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	się	się	PRON	part	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+6	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	7	case	_	_
+7	motyla	motyl	NOUN	subst:sg:acc:m2	Animacy=Nhum|Case=Acc|Gender=Masc|Number=Sing	4	obl:arg	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+9	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	10	advmod	_	_
+10	pasożyt	pasożyt	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+11	malarii	malaria	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	10	nmod:arg	_	_
+12	przekształca	przekształcać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+13	się	się	PRON	part	PronType=Prs|Reflex=Yes	12	expl:pv	_	_
+14	siedem	siedem	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Word	15	nummod:gov	_	_
+15	razy	raz	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+16	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	18	case	_	_
+17	ciągu	ciąg	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	fixed	_	_
+18	życia	życie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No
+19	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 37
+# text = Każdy etap całkowicie różni się od reszty, a dodatku ma zupełnie inną fizjologię.
+1	Każdy	każdy	DET	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	2	det	_	_
+2	etap	etap	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+3	całkowicie	całkowicie	ADV	adv:pos	Degree=Pos	4	advmod	_	_
+4	różni	różnić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	się	się	PRON	part	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+6	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	7	case	_	_
+7	reszty	reszta	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	obl:arg	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+9	a	a	CCONJ	conj	_	11	cc	_	_
+10	dodatku	dodatek	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+12	zupełnie	zupełnie	ADV	adv:pos	Degree=Pos	13	advmod	_	_
+13	inną	inny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	fizjologię	fizjologia	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	11	iobj	_	SpaceAfter=No
+15	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 38
+# text = Powiedzmy, że opracowano świetny lek, który działa w pierwszym etapie życia pasożyta.
+1	Powiedzmy	powiedzieć	VERB	impt:pl:pri:perf	Aspect=Perf|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	interp	PunctType=Comm	4	punct	_	_
+3	że	że	SCONJ	comp	_	4	mark	_	_
+4	opracowano	opracować	VERB	imps:perf	Aspect=Perf|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	1	ccomp:obj	_	_
+5	świetny	świetny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	lek	lek	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+8	który	który	DET	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	9	nsubj	_	_
+9	działa	działać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	12	case	_	_
+11	pierwszym	pierwszy	ADJ	adj:sg:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	etapie	etap	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+13	życia	życie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	12	nmod:arg	_	_
+14	pasożyta	pasożyta	NOUN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 39
+# text = Może być bezużyteczny w innych etapach.
+1	Może	móc	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	być	być	AUX	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	3	cop	_	_
+3	bezużyteczny	bezużyteczny	ADJ	adj:sg:nom:m2:pos	Animacy=Nhum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	xcomp	_	_
+4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+5	innych	inny	ADJ	adj:pl:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+6	etapach	etap	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 40
+# text = Może ukrywać się w organizmie przez dni, tygodnie, miesiące, lata, nawet dziesiątki lat.
+1	Może	może	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ukrywać	ukrywać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3	się	się	PRON	part	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
+4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	5	case	_	_
+5	organizmie	organizm	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+6	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	7	case	_	_
+7	dni	dzień	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+9	tygodnie	tydzień	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+11	miesiące	miesiąc	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	interp	PunctType=Comm	13	punct	_	_
+13	lata	rok	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	16	punct	_	_
+15	nawet	nawet	PART	part	_	16	advmod:emph	_	_
+16	dziesiątki	dziesiątka	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	7	conj	_	_
+17	lat	rok	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	nmod:arg	_	SpaceAfter=No
+18	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 41
+# text = Pasożyt stanowi duże wyzwanie naukowe, podobnie jak komar-nosiciel.
+1	Pasożyt	Pasożyt	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	stanowi	stanowić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	duże	duży	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	wyzwanie	wyzwanie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	2	xcomp:pred	_	_
+5	naukowe	naukowy	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+7	podobnie	podobnie	ADV	adv:pos	Degree=Pos	2	advmod	_	_
+8	jak	jak	SCONJ	comp	ConjType=Cmpr	9	mark	_	_
+9	komar-	komarterminowy	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	obl:cmpr	_	SpaceAfter=No
+10	nosiciel	nosiciel	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 42
+# text = Tylko 12 gatunków komarów przenosi większość malarii na świecie i wiemy trochę o wodnych siedliskach, w których się specjalizują.
+1	Tylko	tylko	PART	part	_	2	advmod:emph	_	_
+2	12	12	NUM	num:pl:nom:m3:rec	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	3	nummod:gov	_	_
+3	gatunków	gatunek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	_
+4	komarów	komar	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	przenosi	przenosić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	większość	większość	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	malarii	malaria	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	6	nmod:arg	_	_
+8	na	na	ADP	prep:loc	AdpType=Prep	9	case	_	_
+9	świecie	świat	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+10	i	i	CCONJ	conj	_	11	cc	_	_
+11	wiemy	wiedzieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+12	trochę	trochę	ADV	adv	_	11	advmod	_	_
+13	o	o	ADP	prep:loc	AdpType=Prep	15	case	_	_
+14	wodnych	wodny	ADJ	adj:pl:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
+15	siedliskach	siedlisko	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	11	obl:arg	_	SpaceAfter=No
+16	,	,	PUNCT	interp	PunctType=Comm	20	punct	_	_
+17	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	18	case	_	_
+18	których	który	DET	adj:pl:loc:f:pos	Case=Loc|Gender=Fem|Number=Plur|PronType=Rel	20	obl	_	_
+19	się	się	PRON	part	PronType=Prs|Reflex=Yes	20	expl:pv	_	_
+20	specjalizują	specjalizować	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl:relcl	_	SpaceAfter=No
+21	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 43
+# text = Może spytacie, czemu po prostu nie unikać siedlisk zarażonych komarów.
+1	Może	może	PART	part	PartType=Mod	2	advmod:emph	_	_
+2	spytacie	spytać	VERB	fin:pl:sec:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+4	czemu	czemu	ADV	adv	PronType=Int	8	advmod	_	_
+5	po	po	ADP	prep:acc	AdpType=Prep	6	case	_	_
+6	prostu	prosty	ADJ	adjp	PrepCase=Pre	8	obl	_	_
+7	nie	nie	PART	part	Polarity=Neg	8	advmod:neg	_	_
+8	unikać	unikać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+9	siedlisk	siedlisko	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	8	obj	_	_
+10	zarażonych	zarażony	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	11	amod	_	_
+11	komarów	komar	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 44
+# text = Możemy unikać siedlisk niedźwiedzi grizli i unikamy siedlisk krokodyli.
+1	Możemy	móc	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	unikać	unikać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3	siedlisk	siedlisko	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	niedźwiedzi	niedźwiedza	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	nmod:arg	_	_
+5	grizli	grizć	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod:arg	_	_
+6	i	i	CCONJ	conj	_	7	cc	_	_
+7	unikamy	unikać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+8	siedlisk	siedlisko	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+9	krokodyli	krokodyl	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	nmod:arg	_	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 45
+# text = Ale kiedy mieszkasz w tropikach i wychodzisz z chaty, zostawiasz po sobie odciski stóp wokoło domu.
+1	Ale	ale	CCONJ	conj	_	11	cc	_	_
+2	kiedy	kiedy	ADV	adv	PronType=Int	3	advmod	_	_
+3	mieszkasz	mieszkać	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	_
+4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	5	case	_	_
+5	tropikach	tropika	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	_
+6	i	i	CCONJ	conj	_	7	cc	_	_
+7	wychodzisz	wychodzić	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+8	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	9	case	_	_
+9	chaty	chata	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	3	punct	_	_
+11	zostawiasz	zostawiać	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	po	po	ADP	prep:loc	AdpType=Prep	13	case	_	_
+13	sobie	siebie	PRON	siebie:loc	Case=Loc|PronType=Prs|Reflex=Yes	11	obl:arg	_	_
+14	odciski	odcisk	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+15	stóp	stopa	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	14	nmod:arg	_	_
+16	wokoło	wokoło	ADP	prep:gen	AdpType=Prep	17	case	_	_
+17	domu	dom	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	interp	PunctType=Peri	11	punct	_	_
+
+# sent_id = 46
+# text = Albo zostawia je twoja krowa lub świnia, a potem pada deszcz i odciski wypełniają się wodą.
+1	Albo	albo	CCONJ	conj	_	2	cc	_	_
+2	zostawia	zostawiać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	je	on	PRON	ppron3:pl:acc:f:ter:akc:npraep	Case=Acc|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	2	obj	_	_
+4	twoja	twój	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	krowa	krowa	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	nsubj	_	_
+6	lub	lub	CCONJ	conj	_	7	cc	_	_
+7	świnia	świnia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+9	a	a	CCONJ	conj	_	11	cc	_	_
+10	potem	potem	ADV	adv	_	11	advmod	_	_
+11	pada	padać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+12	deszcz	deszcz	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+13	i	i	CCONJ	conj	_	15	cc	_	_
+14	odciski	odcisk	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obj	_	_
+15	wypełniają	wypełniać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
+16	się	się	PRON	part	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
+17	wodą	woda	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	15	iobj	_	SpaceAfter=No
+18	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 47
+# text = Tylko tyle.
+1	Tylko	tylko	PART	part	_	2	advmod:emph	_	_
+2	tyle	tyle	ADV	adv	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 48
+# text = Tworzysz przed domem idealne siedlisko dla komarów przenoszących malarię.
+1	Tworzysz	tworzyć	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	przed	przed	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	3	case	_	_
+3	domem	dom	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	obl	_	_
+4	idealne	idealny	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	siedlisko	siedlisko	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+6	dla	dla	ADP	prep:gen	AdpType=Prep	7	case	_	_
+7	komarów	komar	NOUN	subst:pl:gen:n:pt	Case=Gen|Gender=Neut|Number=Ptan	5	nmod	_	_
+8	przenoszących	przenoszący	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	9	amod	_	_
+9	malarię	malaria	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 49
+# text = Niełatwo uwolnić się od tych owadów.
+1	Niełatwo	niełatwo	ADV	adv:pos	Degree=Pos	2	advmod	_	_
+2	uwolnić	uwolnić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	_
+3	się	się	PRON	part	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
+4	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+5	tych	ten	DET	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	owadów	owad	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl:arg	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 50
+# text = Tworzymy miejsca, w których chcą mieszkać, przez prowadzenie normalnego życia.
+1	Tworzymy	tworzyć	VERB	fin:pl:pri:perf	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+2	miejsca	miejsce	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	1	iobj	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	5	case	_	_
+5	których	który	DET	adj:pl:loc:m3:pos	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|PronType=Rel	6	obl	_	_
+6	chcą	chcieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+7	mieszkać	mieszkać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+9	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	10	case	_	_
+10	prowadzenie	prowadzić	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
+11	normalnego	normalny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	życia	życie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 51
+# text = Takie jest wyzwanie naukowe, ale istnieje też ogromne wyzwanie gospodarcze.
+1	Takie	taki	DET	adj:sg:nom:n:pos	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	0	root	_	_
+2	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
+3	wyzwanie	wyzwanie	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
+4	naukowe	naukowy	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+6	ale	ale	CCONJ	conj	_	7	cc	_	_
+7	istnieje	istnieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+8	też	też	PART	part	_	7	advmod:emph	_	_
+9	ogromne	ogromny	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	wyzwanie	wyzwanie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+11	gospodarcze	gospodarczy	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 52
+# text = Malaria występuje w najbiedniejszych i najodleglejszych miejscach na Ziemi.
+1	Malaria	malaria	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	występuje	występować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	7	case	_	_
+4	najbiedniejszych	biedny	ADJ	adj:pl:gen:f:sup	Case=Gen|Degree=Sup|Gender=Fem|Number=Plur	7	amod	_	_
+5	i	i	CCONJ	conj	_	6	cc	_	_
+6	najodleglejszych	odleglejy	ADJ	adj:pl:gen:f:sup	Case=Gen|Degree=Sup|Gender=Fem|Number=Plur	4	conj	_	_
+7	miejscach	miejsce	NOUN	subst:pl:loc:n:ncol	Case=Loc|Gender=Neut|Number=Plur	2	obl	_	_
+8	na	na	ADP	prep:loc	AdpType=Prep	9	case	_	_
+9	Ziemi	Ziemia	PROPN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 53
+# text = Jest po temu przyczyna.
+1	Jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	po	po	ADP	prep:loc	AdpType=Prep	3	case	_	_
+3	temu	ten	PRON	subst:sg:dat:n:ncol	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	1	obl	_	_
+4	przyczyna	przyczyna	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 54
+# text = Biedni częściej zapadają na malarię.
+1	Biedni	biedny	ADJ	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	częściej	często	ADV	adv:com	Degree=Cmp	3	advmod	_	_
+3	zapadają	zapadać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	na	na	ADP	prep:acc	AdpType=Prep	5	case	_	_
+5	malarię	malaria	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	3	obl:arg	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 55
+# text = Biedni częściej mieszkają w prymitywnych warunkach, na podmokłych obszarach marginalnych.
+1	Biedni	biedny	ADJ	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	częściej	często	ADV	adv:com	Degree=Cmp	3	advmod	_	_
+3	mieszkają	mieszkać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+5	prymitywnych	prymitywć	ADJ	adj:pl:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	6	amod	_	_
+6	warunkach	warunki	NOUN	subst:pl:loc:n:pt	Case=Loc|Gender=Neut|Number=Ptan	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+8	na	na	ADP	prep:loc	AdpType=Prep	10	case	_	_
+9	podmokłych	podmokły	ADJ	adj:pl:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+10	obszarach	obszar	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	conj	_	_
+11	marginalnych	marginalny	ADJ	adj:pl:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 56
+# text = Takie miejsca to wylęgarnie komarów.
+1	Takie	taki	DET	adj:sg:nom:n:pos	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
+2	miejsca	miejsce	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	4	iobj	_	_
+3	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	4	nsubj	_	_
+4	wylęgarnie	wylęgarnąć	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+5	komarów	komar	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 57
+# text = Biedni rzadko mają moskitiery na drzwiach i oknach.
+1	Biedni	biedny	ADJ	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	rzadko	rzadko	ADV	adv:pos	Degree=Pos	1	advmod	_	_
+3	mają	mieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	moskitiery	moskitiera	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	3	iobj	_	_
+5	na	na	ADP	prep:loc	AdpType=Prep	6	case	_	_
+6	drzwiach	drzwi	NOUN	subst:pl:loc:n:pt	Case=Loc|Gender=Neut|Number=Ptan	4	nmod	_	_
+7	i	i	CCONJ	conj	_	8	cc	_	_
+8	oknach	okno	NOUN	subst:pl:loc:n:ncol	Case=Loc|Gender=Neut|Number=Plur	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 58
+# text = Rzadko mają prąd, umożliwiający domowe czynności, więc częściej są na zewnątrz.
+1	Rzadko	rzadko	ADV	adv:pos	Degree=Pos	2	advmod	_	_
+2	mają	mieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	prąd	prąd	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	iobj	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+5	umożliwiający	umożliwiać	ADJ	pact:sg:acc:m3:imperf:aff	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Act	7	acl	_	_
+6	domowe	domowy	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	_
+7	czynności	czynność	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+9	więc	więc	SCONJ	comp	_	12	mark	_	_
+10	częściej	często	ADV	adv:com	Degree=Cmp	12	advmod	_	_
+11	są	być	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	_
+12	na	na	ADP	prep:acc	AdpType=Prep	2	advcl	_	_
+13	zewnątrz	zewnątrz	ADV	adv	_	12	fixed	_	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	12	punct	_	_
+
+# sent_id = 59
+# text = Częściej kąsają ich komary.
+1	Częściej	często	ADV	adv:com	Degree=Cmp	2	advmod	_	_
+2	kąsają	kąsać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ich	on	PRON	ppron3:pl:gen:m1:ter:akc:npraep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	4	nmod	_	_
+4	komary	komar	NOUN	subst:pl:nom:m2	Animacy=Nhum|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 60
+# text = Ubóstwo powoduje malarię, ale teraz wiemy także, że sama malaria powoduje ubóstwo.
+1	Ubóstwo	ubóstwo	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	powoduje	powodować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	malarię	malaria	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+5	ale	ale	CCONJ	conj	_	7	cc	_	_
+6	teraz	teraz	ADV	adv	_	7	advmod	_	_
+7	wiemy	wiedzieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	także	także	PART	part	_	7	advmod:emph	_	SpaceAfter=No
+9	,	,	PUNCT	interp	PunctType=Comm	13	punct	_	_
+10	że	że	SCONJ	comp	_	13	mark	_	_
+11	sama	sam	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	malaria	malaria	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+13	powoduje	powodiwać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	_
+14	ubóstwo	ubóstwo	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 61
+# text = Po pierwsze najmocniej atakuje podczas żniw, gdy rolnicy spędzają czas na polu, zbierają plony, a potem w domu dostają gorączki.
+1	Po	po	ADP	prep:acc	AdpType=Prep	2	case	_	_
+2	pierwsze	pierwszy	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	parataxis:insert	_	_
+3	najmocniej	mocno	ADV	adv:sup	Degree=Sup	4	advmod	_	_
+4	atakuje	atakować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	podczas	podczas	ADP	prep:gen	AdpType=Prep	6	case	_	_
+6	żniw	żniwo	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+8	gdy	gdy	ADV	adv	_	10	advmod	_	_
+9	rolnicy	rolnik	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+10	spędzają	spędzać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+11	czas	czas	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+12	na	na	ADP	prep:loc	AdpType=Prep	13	case	_	_
+13	polu	pole	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	15	punct	_	_
+15	zbierają	zbierać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
+16	plony	plon	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	interp	PunctType=Comm	22	punct	_	_
+18	a	a	CCONJ	conj	_	22	cc	_	_
+19	potem	potem	ADV	adv	_	22	advmod	_	_
+20	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	21	case	_	_
+21	domu	dom	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	_
+22	dostają	dostawać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
+23	gorączki	gorączka	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	SpaceAfter=No
+24	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 62
+# text = Oslabieni ludzie łatwiej umierają także z różnych innych przyczyn.
+1	Oslabieni	Oslabić	ADJ	ppas:pl:nom:m1:perf:aff	Animacy=Hum|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	2	acl	_	_
+2	ludzie	człowiek	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	łatwiej	łatwo	ADV	adv:com	Degree=Cmp	4	advmod	_	_
+4	umierają	umierać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	także	także	PART	part	_	9	advmod:emph	_	_
+6	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	9	case	_	_
+7	różnych	różny	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
+8	innych	inny	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	9	amod	_	_
+9	przyczyn	przyczyna	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	4	obl:arg	_	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 63
+# text = Widać to na przestrzeni lat.
+1	Widać	widać	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	_	_
+2	to	to	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	iobj	_	_
+3	na	na	ADP	prep:loc	AdpType=Prep	4	case	_	_
+4	przestrzeni	przestrić	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	1	obl:arg	_	_
+5	lat	rok	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod:arg	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 64
+# text = Udało nam się usunąć malarię ze społeczeństwa.
+1	Udało	udać	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	nam	my	PRON	ppron12:pl:dat:m1:pri	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	1	iobj	_	_
+3	się	się	PRON	part	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+4	usunąć	usunąć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+5	malarię	malaria	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	ze	z	ADP	prep:gen:wok	AdpType=Prep|Variant=Long	7	case	_	_
+7	społeczeństwa	społeczeństwo	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	4	obl:arg	_	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 65
+# text = Reszta się nie zmieniła, więc nadal mamy złe jedzenie, złą wodę, złą higienę.
+1	Reszta	reszta	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	się	się	PRON	part	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+3	nie	nie	PART	part	Polarity=Neg	4	advmod:neg	_	_
+4	zmieniła	zmienić	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+6	więc	więc	SCONJ	comp	_	8	mark	_	_
+7	nadal	nadal	ADV	adv	_	8	advmod	_	_
+8	mamy	mieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
+9	złe	zły	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	jedzenie	jeść	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	8	iobj	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	13	punct	_	_
+12	złą	zły	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	wodę	woda	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	8	iobj	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	16	punct	_	_
+15	złą	zły	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	higienę	higiena	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+17	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 66
+# text = Wszystko to, przez co ludzie chorują.
+1	Wszystko	wszystko	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	7	nsubj	_	_
+2	to	ten	DET	adj:sg:nom:n:pos	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	det	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+4	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	5	case	_	_
+5	co	co	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	7	obl	_	_
+6	ludzie	człowiek	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	chorują	chorować	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	7	punct	_	_
+
+# sent_id = 67
+# text = Ale gdy tylko usunie się malarię, liczba zgonów z innych przyczyn maleje.
+1	Ale	ale	CCONJ	conj	_	13	cc	_	_
+2	gdy	gdy	ADV	adv	_	4	advmod	_	_
+3	tylko	tylko	PART	part	_	4	advmod:emph	_	_
+4	usunie	usunąć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_
+5	się	się	PRON	part	PronType=Prs|Reflex=Yes	4	expl:pv	_	_
+6	malarię	malaria	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	4	punct	_	_
+8	liczba	liczba	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+9	zgonów	zgon	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod:arg	_	_
+10	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	12	case	_	_
+11	innych	inny	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	_
+12	przyczyn	przyczyna	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+13	maleje	maleć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	13	punct	_	_
+
+# sent_id = 68
+# text = Ekonomista Jeff Sachs określił ilościowo, co to oznacza dla społeczeństwa: jeśli w danym społeczeństwie występuje malaria, wzrost gospodarczy co roku obniża się o 1,3% tylko przez samą tę chorobę.
+1	Ekonomista	ekonomista	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	Jeff	Jeff	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	Sachs	Sachs	PROPN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
+4	określił	określić	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	ilościowo	ilościowo	ADV	adv:pos	Degree=Pos	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+7	co	co	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	9	iobj	_	_
+8	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	_
+9	oznacza	oznaczać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_
+10	dla	dla	ADP	prep:gen	AdpType=Prep	11	case	_	_
+11	społeczeństwa	społeczeństwo	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
+12	:	:	PUNCT	interp	PunctType=Colo	9	punct	_	_
+13	jeśli	jeśli	SCONJ	comp	_	17	mark	_	_
+14	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	16	case	_	_
+15	danym	dany	ADJ	adj:sg:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	społeczeństwie	społeczeństwo	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_
+17	występuje	występować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	advcl	_	_
+18	malaria	malaria	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	interp	PunctType=Comm	17	punct	_	_
+20	wzrost	wzrost	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+21	gospodarczy	gospodarczy	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+22	co	co	ADP	prep:gen	AdpType=Prep	23	case	_	_
+23	roku	rok	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod:arg	_	_
+24	obniża	obniżać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis:obj	_	_
+25	się	się	PRON	part	PronType=Prs|Reflex=Yes	24	expl:pv	_	_
+26	o	o	ADP	prep:acc	AdpType=Prep	28	case	_	_
+27	1,3	1,3	NUM	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	28	nummod	_	SpaceAfter=No
+28	%	%	SYM	interp	_	24	obl:arg	_	_
+29	tylko	tylko	PART	part	_	33	advmod:emph	_	_
+30	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	33	case	_	_
+31	samą	sam	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+32	tę	ten	DET	adj:sg:acc:f:pos	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	33	det	_	_
+33	chorobę	choroba	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	28	nmod:arg	_	SpaceAfter=No
+34	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 69
+# text = Stanowi to ogromne wyzwanie gospodarcze, bo powiedzmy, że opracuje się świetny lek lub świetną szczepionkę.
+1	Stanowi	stanowić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	to	to	DET	adj:sg:acc:n:pos	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+3	ogromne	ogromny	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	wyzwanie	wyzwanie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	1	xcomp:pred	_	_
+5	gospodarcze	gospodarczy	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+7	bo	bo	SCONJ	comp	_	8	mark	_	_
+8	powiedzmy	powiedzieć	VERB	impt:pl:pri:perf	Aspect=Perf|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	1	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+10	że	że	SCONJ	comp	_	11	mark	_	_
+11	opracuje	opracować	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	ccomp	_	_
+12	się	się	PRON	part	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+13	świetny	świetny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	lek	lek	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+15	lub	lub	CCONJ	conj	_	17	cc	_	_
+16	świetną	świetny	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	szczepionkę	szczepionka	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
+18	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 70
+# text = Jak dostarczyć ją do miejsca, gdzie nie ma dróg, nie ma infrastruktury, nie ma prądu, aby przechowywać je w zimnie, nie ma klinik, ani klinicystów, którzy dostarczyliby je tam, gdzie trzeba?
+1	Jak	jak	ADV	adv:pos	Degree=Pos|PronType=Int	2	advmod	_	_
+2	dostarczyć	dostarczyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	_
+3	ją	on	PRON	ppron3:sg:acc:f:ter:akc:npraep	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	2	obj	_	_
+4	do	do	ADP	prep:gen	AdpType=Prep	5	case	_	_
+5	miejsca	miejsce	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+7	gdzie	gdzie	ADV	adv	PronType=Rel	9	advmod	_	_
+8	nie	nie	PART	part	Polarity=Neg	9	advmod:neg	_	_
+9	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+10	dróg	droga	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	9	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	13	punct	_	_
+12	nie	nie	PART	part	Polarity=Neg	13	advmod:neg	_	_
+13	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+14	infrastruktury	infrastruktura	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	13	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	interp	PunctType=Comm	17	punct	_	_
+16	nie	nie	PART	part	Polarity=Neg	17	advmod:neg	_	_
+17	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+18	prądu	prąd	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
+19	,	,	PUNCT	interp	PunctType=Comm	21	punct	_	_
+20	aby	aby	SCONJ	comp	_	21	mark	_	_
+21	przechowywać	przechowywać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	17	advcl	_	_
+22	je	on	PRON	ppron3:pl:acc:f:ter:akc:npraep	Case=Acc|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	21	obj	_	_
+23	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	24	case	_	_
+24	zimnie	zimno	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	interp	PunctType=Comm	27	punct	_	_
+26	nie	nie	PART	part	Polarity=Neg	27	advmod:neg	_	_
+27	ma	mieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+28	klinik	klinika	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	iobj	_	SpaceAfter=No
+29	,	,	PUNCT	interp	PunctType=Comm	31	punct	_	_
+30	ani	ani	CCONJ	conj	_	31	cc	_	_
+31	klinicystów	klinicysta	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	28	conj	_	SpaceAfter=No
+32	,	,	PUNCT	interp	PunctType=Comm	34	punct	_	_
+33	którzy	który	DET	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	34	nsubj	_	_
+34-35	dostarczyliby	_	_	_	_	_	_	_	_
+34	dostarczyli	dostarczyć	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	28	acl:relcl	_	_
+35	by	by	AUX	part	_	34	aux:cnd	_	_
+36	je	on	PRON	ppron3:pl:acc:m3:ter:akc:npraep	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	34	obj	_	_
+37	tam	tam	ADV	adv	PronType=Dem	34	advmod	_	SpaceAfter=No
+38	,	,	PUNCT	interp	PunctType=Comm	40	punct	_	_
+39	gdzie	gdzie	ADV	adv	PronType=Rel	40	advmod	_	_
+40	trzeba	trzeba	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	37	acl:relcl	_	SpaceAfter=No
+41	?	?	PUNCT	interp	PunctType=Qest	2	punct	_	_
+
+# sent_id = 71
+# text = Wyzwanie gospodarcze jest ogromne.
+1	Wyzwanie	wyzwanie	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	4	nsubj	_	_
+2	gospodarcze	gospodarczy	ADJ	adj:pl:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	1	amod	_	_
+3	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	ogromne	ogromny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 72
+# text = Oprócz wyzwania naukowego i wyzwania gospodarczego istnieje także wyzwanie kulturalne.
+1	Oprócz	oprócz	ADP	prep:gen	AdpType=Prep	2	case	_	_
+2	wyzwania	wyzwanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	7	obl:arg	_	_
+3	naukowego	naukowy	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+4	i	i	CCONJ	conj	_	5	cc	_	_
+5	wyzwania	wyzwanie	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	3	conj	_	_
+6	gospodarczego	gospodarczy	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+7	istnieje	istnieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	także	także	PART	part	_	9	advmod:emph	_	_
+9	wyzwanie	wyzwanie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+10	kulturalne	kulturalny	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	7	punct	_	_
+
+# sent_id = 73
+# text = To prawdopodobnie ta kwestia, o której niechętnie się dyskutuje.
+1	To	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	4	cop	_	_
+2	prawdopodobnie	prawdopodobnie	ADV	adv:pos	Degree=Pos	4	parataxis:insert	_	_
+3	ta	ten	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	kwestia	kwestia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+6	o	o	ADP	prep:loc	AdpType=Prep	7	case	_	_
+7	której	który	DET	adj:sg:loc:f:pos	Case=Loc|Gender=Fem|Number=Sing|PronType=Rel	10	obl:arg	_	_
+8	niechętnie	niechętnie	ADV	adv:pos	Degree=Pos	10	advmod	_	_
+9	się	się	PRON	part	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+10	dyskutuje	dyskutować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 74
+# text = To paradoks, że ludzi, którzy mieli najwięcej do czynienia z malarią, zazwyczaj obchodzi to najmniej.
+1	To	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	2	cop	_	_
+2	paradoks	paradoks	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	16	punct	_	_
+4	że	że	SCONJ	comp	_	16	mark	_	_
+5	ludzi	człowiek	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+7	którzy	który	DET	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	8	nsubj	_	_
+8	mieli	mieć	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+9	najwięcej	najwięcej	ADV	adv:sup	Degree=Sup	8	advmod	_	_
+10	do	do	ADP	prep:gen	AdpType=Prep	11	case	_	_
+11	czynienia	czynić	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	8	obl:arg	_	_
+12	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	13	case	_	_
+13	malarią	malaria	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	11	obl:arg	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+15	zazwyczaj	zazwyczaj	ADV	adv	_	16	advmod	_	_
+16	obchodzi	obchodzić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+17	to	to	PART	part	_	18	advmod:emph	_	_
+18	najmniej	mało	ADV	adv:sup	Degree=Sup	16	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 75
+# text = Świadczą o tym wyniki badań antropologów medycznych.
+1	Świadczą	świadczyć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	o	o	ADP	prep:loc	AdpType=Prep	3	case	_	_
+3	tym	to	PRON	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	1	obl:arg	_	_
+4	wyniki	wynik	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
+5	badań	badać	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	4	nmod:arg	_	_
+6	antropologów	antropolog	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod:arg	_	_
+7	medycznych	medyczny	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 76
+# text = Pytają ludzi w miejscach dotkniętych malarią: "Co myślisz o malarii?".
+1	Pytają	pytać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ludzi	człowiek	NOUN	subst:pl:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur	1	obj	_	_
+3	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	4	case	_	_
+4	miejscach	miejsce	NOUN	subst:pl:loc:n:ncol	Case=Loc|Gender=Neut|Number=Plur	1	obl	_	_
+5	dotkniętych	dotknąć	ADJ	ppas:pl:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	4	acl	_	_
+6	malarią	malaria	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	5	iobj	_	SpaceAfter=No
+7	:	:	PUNCT	interp	PunctType=Colo	6	punct	_	_
+8	"	"	PUNCT	interp	PunctType=Quot	10	punct	_	SpaceAfter=No
+9	Co	co	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	10	obj	_	_
+10	myślisz	myśleć	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis:obj	_	_
+11	o	o	ADP	prep:loc	AdpType=Prep	12	case	_	_
+12	malarii	malaria	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	10	obl:arg	_	SpaceAfter=No
+13	?	?	PUNCT	interp	PunctType=Qest	10	punct	_	SpaceAfter=No
+14	"	"	PUNCT	interp	PunctType=Quot	10	punct	_	SpaceAfter=No
+15	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 77
+# text = Odpowiedź nie brzmi: "To straszna choroba śmiertelna", ale: "Malaria to normalny problem życia".
+1	Odpowiedź	odpowiedź	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	nie	nie	PART	part	Polarity=Neg	3	advmod:neg	_	_
+3	brzmi	brzmieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	interp	PunctType=Colo	3	punct	_	_
+5	"	"	PUNCT	interp	PunctType=Quot	8	punct	_	SpaceAfter=No
+6	To	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	8	cop	_	_
+7	straszna	straszny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	choroba	choroba	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	parataxis:obj	_	_
+9	śmiertelna	śmiertelny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	"	"	PUNCT	interp	PunctType=Quot	8	punct	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	18	punct	_	_
+12	ale	ale	CCONJ	conj	_	18	cc	_	SpaceAfter=No
+13	:	:	PUNCT	interp	PunctType=Colo	18	punct	_	_
+14	"	"	PUNCT	interp	PunctType=Quot	18	punct	_	SpaceAfter=No
+15	Malaria	malaria	PROPN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+16	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	18	cop	_	_
+17	normalny	normalny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	problem	problem	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	conj	_	_
+19	życia	życie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	SpaceAfter=No
+20	"	"	PUNCT	interp	PunctType=Quot	18	punct	_	SpaceAfter=No
+21	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 78
+# text = Takie było na pewno moje doświadczenie.
+1	Takie	taki	DET	adj:sg:nom:n:pos	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
+2	było	być	AUX	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+3	na	na	ADP	prep:acc	AdpType=Prep	6	parataxis:insert	_	_
+4	pewno	pewno	ADV	adv:pos	Degree=Pos	3	fixed	_	_
+5	moje	mój	DET	adj:sg:nom:n:pos	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	doświadczenie	doświadczenie	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	6	punct	_	_
+
+# sent_id = 79
+# text = Gdy powiedziałam krewnym z Indii, że piszę książkę o malarii, spojrzeli na mnie, jakbym powiedziała, że piszę książkę o brodawkach.
+1	Gdy	gdy	ADV	adv	_	2	advmod	_	_
+2-3	powiedziałam	_	_	_	_	_	_	_	_
+2	powiedziała	powiedzieć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	2	aux:clitic	_	_
+4	krewnym	krewny	ADJ	adj:sg:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	2	iobj	_	_
+5	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+6	Indii	Indie	PROPN	subst:pl:gen:n:pt	Case=Gen|Gender=Neut|Number=Ptan	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+8	że	że	SCONJ	comp	_	9	mark	_	_
+9	piszę	pisać	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp:obj	_	_
+10	książkę	książka	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+11	o	o	ADP	prep:loc	AdpType=Prep	12	case	_	_
+12	malarii	malaria	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	14	punct	_	_
+14	spojrzeli	spojrzeć	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
+15	na	na	ADP	prep:acc	AdpType=Prep	16	case	_	_
+16	mnie	ja	PRON	ppron12:sg:acc:m1:pri:akc	Animacy=Hum|Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs|Variant=Long	14	obl:arg	_	SpaceAfter=No
+17	,	,	PUNCT	interp	PunctType=Comm	20	punct	_	_
+18-19	jakbym	_	_	_	_	_	_	_	_
+18	jakby	jakby	SCONJ	comp	ConjType=Cmpr	20	mark	_	_
+19	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	20	aux:clitic	_	_
+20	powiedziała	powiedzieć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl:cmpr	_	SpaceAfter=No
+21	,	,	PUNCT	interp	PunctType=Comm	23	punct	_	_
+22	że	że	SCONJ	comp	_	23	mark	_	_
+23	piszę	pisać	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	20	ccomp	_	_
+24	książkę	książka	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+25	o	o	ADP	prep:loc	AdpType=Prep	26	case	_	_
+26	brodawkach	brodawka	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 80
+# text = Po co pisać o czymś tak nudnym, tak powszednim?
+1	Po	po	ADP	prep:acc	AdpType=Prep	2	case	_	_
+2	co	co	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	3	obl	_	_
+3	pisać	pisać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+4	o	o	ADP	prep:loc	AdpType=Prep	5	case	_	_
+5	czymś	coś	PRON	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing|PronType=Ind	3	obl:arg	_	_
+6	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	7	advmod	_	_
+7	nudnym	nudny	ADJ	adj:sg:inst:m1:pos	Animacy=Hum|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	3	iobj	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+9	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	10	advmod	_	_
+10	powszednim	powszedni	ADJ	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+11	?	?	PUNCT	interp	PunctType=Qest	3	punct	_	_
+
+# sent_id = 81
+# text = To proste postrzeganie zagrożeń.
+1	To	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	3	cop	_	_
+2	proste	prosty	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	postrzeganie	postrzegać	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+4	zagrożeń	zagrożenie	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	3	nmod:arg	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 82
+# text = Na przykład malawijskie dziecko może mieć 12 epizodów malarii zanim ukończy 2 lata, ale jeśli przetrwa, będzie chorowało na malarię przez całe życie, choć raczej na nią nie umrze.
+1	Na	na	ADP	prep:acc	AdpType=Prep	5	parataxis:insert	_	_
+2	przykład	przykład	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	malawijskie	malawijski	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	dziecko	dziecko	NOUN	subst:sg:nom:n:col	Case=Nom|Gender=Neut|Number=Sing|NumType=Sets	5	nsubj	_	_
+5	może	móc	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	mieć	mieć	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	12	12	NUM	num:pl:nom:m3:rec	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	8	nummod:gov	_	_
+8	epizodów	epizód	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	iobj	_	_
+9	malarii	malaria	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	6	iobj	_	_
+10	zanim	zanim	SCONJ	comp	_	11	mark	_	_
+11	ukończy	ukończyć	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	advcl	_	_
+12	2	2	NUM	num:pl:acc:m3:congr	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	13	nummod	_	_
+13	lata	rok	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	20	punct	_	_
+15	ale	ale	CCONJ	conj	_	20	cc	_	_
+16	jeśli	jeśli	SCONJ	comp	_	17	mark	_	_
+17	przetrwa	przetrwać	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	20	advcl	_	SpaceAfter=No
+18	,	,	PUNCT	interp	PunctType=Comm	17	punct	_	_
+19	będzie	być	AUX	bedzie:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	20	aux	_	_
+20	chorowało	chorować	VERB	praet:sg:n:imperf	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+21	na	na	ADP	prep:acc	AdpType=Prep	22	case	_	_
+22	malarię	malaria	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_
+23	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	25	case	_	_
+24	całe	cały	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	życie	życie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No
+26	,	,	PUNCT	interp	PunctType=Comm	32	punct	_	_
+27	choć	choć	SCONJ	comp	_	32	mark	_	_
+28	raczej	raczej	PART	part	_	32	advmod:emph	_	_
+29	na	na	ADP	prep:acc	AdpType=Prep	30	case	_	_
+30	nią	on	PRON	ppron3:sg:acc:f:ter:akc:praep	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	32	obl:arg	_	_
+31	nie	nie	PART	part	Polarity=Neg	32	advmod:neg	_	_
+32	umrze	umrzeć	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	20	advcl	_	SpaceAfter=No
+33	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 83
+# text = Dlatego z jego doświadczenia malaria jest czymś, co pojawią się i znika.
+1	Dlatego	dlatego	ADV	adv	PronType=Dem	7	advmod	_	_
+2	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	4	case	_	_
+3	jego	on	PRON	ppron3:sg:gen:m1:ter:akc:npraep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	4	nmod	_	_
+4	doświadczenia	doświadczenie	NOUN	subst:pl:acc:n:ncol	Case=Acc|Gender=Neut|Number=Plur	7	obl:arg	_	_
+5	malaria	malaria	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+7	czymś	coś	PRON	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+9	co	co	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	10	obj	_	_
+10	pojawią	pojawić	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+11	się	się	PRON	part	PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+12	i	i	CCONJ	conj	_	13	cc	_	_
+13	znika	znikać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	7	punct	_	_
+
+# sent_id = 84
+# text = Tyczy się to większości przypadków malarii.
+1	Tyczy	tyczyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	się	się	PRON	part	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	_	_
+4	większości	większość	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	przypadków	przypadek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod:arg	_	_
+6	malarii	malaria	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	5	nmod:arg	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 85
+# text = Większość przypadków malarii sama z siebie pojawia się i znika.
+1	Większość	większość	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+2	przypadków	przypadek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod:arg	_	_
+3	malarii	malaria	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	sama	sam	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+5	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+6	siebie	siebie	PRON	siebie:gen	Case=Gen|PronType=Prs|Reflex=Yes	3	nmod	_	_
+7	pojawia	pojawiać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	się	się	PRON	part	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+9	i	i	CCONJ	conj	_	10	cc	_	_
+10	znika	znikać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	7	punct	_	_
+
+# sent_id = 86
+# text = Tylko że choruje tyle ludzi, że mały ułamek przypadków śmiertelnych jest ogromną liczbą.
+1	Tylko	tylko	PART	part	_	2	advmod:emph	_	_
+2	że	że	SCONJ	comp	_	3	mark	_	_
+3	choruje	chorować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	tyle	tyle	DET	num:pl:acc:m2:rec	Animacy=Nhum|Case=Acc|Gender=Masc|Number=Plur|NumType=Card|PronType=Dem	5	det:numgov	_	_
+5	ludzi	człowiek	NOUN	subst:pl:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	14	punct	_	_
+7	że	że	SCONJ	comp	_	14	mark	_	_
+8	mały	mały	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	ułamek	ułamek	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+10	przypadków	przypadek	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod:arg	_	_
+11	śmiertelnych	śmiertelny	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+12	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
+13	ogromną	ogromny	ADJ	adj:sg:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	liczbą	liczba	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	4	advcl:cmpr	_	SpaceAfter=No
+15	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 87
+# text = Ludzie w miejscach dotkniętych malarią muszą chyba postrzegać malarię tak, jak mieszkańcy strefy umiarkowanej postrzegają przeziębienie i grypę, które mają ogromny wpływ na społeczeństwa i nasze własne życie, ale nawet nie wprowadzamy podstawowych środków zapobiegawczych, bo uważamy przeziębienie i grypę za coś normalnego podczas sezonu na przeziębienia i grypę.
+1	Ludzie	człowiek	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+2	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	3	case	_	_
+3	miejscach	miejsce	NOUN	subst:pl:loc:n:ncol	Case=Loc|Gender=Neut|Number=Plur	1	nmod	_	_
+4	dotkniętych	dotknąć	ADJ	ppas:pl:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	3	acl	_	_
+5	malarią	malaria	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	4	iobj	_	_
+6	muszą	musieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	chyba	chyba	PART	part	_	8	advmod:emph	_	_
+8	postrzegać	postrzegać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	16	advcl	_	_
+9	malarię	malaria	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	16	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	13	punct	_	_
+12	jak	jak	SCONJ	comp	ConjType=Cmpr	13	mark	_	_
+13	mieszkańcy	mieszkaniec	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	10	obl:cmpr	_	_
+14	strefy	strefa	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	13	nmod:arg	_	_
+15	umiarkowanej	umiarkowany	ADJ	ppas:sg:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	14	acl	_	_
+16	postrzegają	postrzegać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	xcomp	_	_
+17	przeziębienie	przeziębienie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+18	i	i	CCONJ	conj	_	19	cc	_	_
+19	grypę	grypa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	interp	PunctType=Comm	22	punct	_	_
+21	które	który	DET	adj:pl:nom:f:pos	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	22	nsubj	_	_
+22	mają	mieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
+23	ogromny	ogromny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	wpływ	wpływ	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	iobj	_	_
+25	na	na	ADP	prep:acc	AdpType=Prep	26	case	_	_
+26	społeczeństwa	społeczeństwo	NOUN	subst:pl:acc:n:ncol	Case=Acc|Gender=Neut|Number=Plur	24	nmod:arg	_	_
+27	i	i	CCONJ	conj	_	30	cc	_	_
+28	nasze	nasz	DET	adj:sg:acc:n:pos	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	30	det:poss	_	_
+29	własne	własny	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
+30	życie	życie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	26	conj	_	SpaceAfter=No
+31	,	,	PUNCT	interp	PunctType=Comm	35	punct	_	_
+32	ale	ale	CCONJ	conj	_	35	cc	_	_
+33	nawet	nawet	PART	part	_	35	advmod:emph	_	_
+34	nie	nie	PART	part	Polarity=Neg	35	advmod:neg	_	_
+35	wprowadzamy	wprowadzać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	22	conj	_	_
+36	podstawowych	podstawowy	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	37	amod	_	_
+37	środków	środek	NOUN	subst:pl:gen:n:pt	Case=Gen|Gender=Neut|Number=Ptan	35	obj	_	_
+38	zapobiegawczych	zapobiegawczy	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	37	amod	_	SpaceAfter=No
+39	,	,	PUNCT	interp	PunctType=Comm	41	punct	_	_
+40	bo	bo	SCONJ	comp	_	41	mark	_	_
+41	uważamy	uważać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	35	advcl	_	_
+42	przeziębienie	przeziębienie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	41	obj	_	_
+43	i	i	CCONJ	conj	_	44	cc	_	_
+44	grypę	grypa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	42	conj	_	_
+45	za	za	ADP	prep:acc	AdpType=Prep	46	case	_	_
+46	coś	coś	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	41	obl:arg	_	_
+47	normalnego	normalny	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	46	amod	_	_
+48	podczas	podczas	ADP	prep:gen	AdpType=Prep	49	case	_	_
+49	sezonu	sezon	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	46	nmod	_	_
+50	na	na	ADP	prep:acc	AdpType=Prep	51	case	_	_
+51	przeziębienia	przeziębienie	NOUN	subst:pl:acc:n:ncol	Case=Acc|Gender=Neut|Number=Plur	49	nmod:arg	_	_
+52	i	i	CCONJ	conj	_	53	cc	_	_
+53	grypę	grypa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	51	conj	_	SpaceAfter=No
+54	.	.	PUNCT	interp	PunctType=Peri	6	punct	_	_
+
+# sent_id = 88
+# text = Dlatego jest to ogromnym wyzwaniem kulturalnym, bo skoro malaria wydaje się normalna, to jak skłonić ludzi do pójścia do lekarza po diagnozę i receptę, do kupna i zażywania leku, do używania repelentów i moskitier?
+1	Dlatego	dlatego	ADV	adv	PronType=Dem	5	advmod	_	_
+2	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+3	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	5	cop	_	_
+4	ogromnym	ogromny	ADJ	adj:sg:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	wyzwaniem	wyzwanie	NOUN	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing	0	root	_	_
+6	kulturalnym	kulturalny	ADJ	adj:sg:inst:n:pos	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	17	punct	_	_
+8	bo	bo	SCONJ	comp	_	17	mark	_	_
+9	skoro	skoro	SCONJ	comp	_	11	mark	_	_
+10	malaria	malaria	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+11	wydaje	wydawać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	_	_
+12	się	się	PRON	part	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+13	normalna	normalny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	xcomp:pred	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+15	to	to	SCONJ	comp	_	17	mark	_	_
+16	jak	jak	ADV	adv:pos	Degree=Pos|PronType=Int	17	advmod	_	_
+17	skłonić	skłonić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	5	advcl	_	_
+18	ludzi	człowiek	NOUN	subst:pl:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
+19	do	do	ADP	prep:gen	AdpType=Prep	20	case	_	_
+20	pójścia	pójść	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	17	obl	_	_
+21	do	do	ADP	prep:gen	AdpType=Prep	22	case	_	_
+22	lekarza	lekarz	NOUN	subst:sg:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Sing	20	obl:arg	_	_
+23	po	po	ADP	prep:acc	AdpType=Prep	24	case	_	_
+24	diagnozę	diagnoza	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	20	obl:arg	_	_
+25	i	i	CCONJ	conj	_	26	cc	_	_
+26	receptę	recepta	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+27	,	,	PUNCT	interp	PunctType=Comm	29	punct	_	_
+28	do	do	ADP	prep:gen	AdpType=Prep	29	case	_	_
+29	kupna	kupno	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	24	conj	_	_
+30	i	i	CCONJ	conj	_	31	cc	_	_
+31	zażywania	zażywać	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	29	conj	_	_
+32	leku	lek	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	31	nmod:arg	_	SpaceAfter=No
+33	,	,	PUNCT	interp	PunctType=Comm	35	punct	_	_
+34	do	do	ADP	prep:gen	AdpType=Prep	35	case	_	_
+35	używania	używać	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	24	conj	_	_
+36	repelentów	repelent	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	35	obj	_	_
+37	i	i	CCONJ	conj	_	38	cc	_	_
+38	moskitier	moskitier	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	35	conj	_	SpaceAfter=No
+39	?	?	PUNCT	interp	PunctType=Qest	5	punct	_	_
+
+# sent_id = 89
+# text = To ogromne wyzwanie kulturalne związane z tą chorobą.
+1	To	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	3	cop	_	_
+2	ogromne	ogromny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	wyzwanie	wyzwanie	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+4	kulturalne	kulturalny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+5	związane	związać	ADJ	ppas:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	acl	_	_
+6	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	8	case	_	_
+7	tą	ten	DET	adj:sg:inst:f:pos	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	chorobą	choroba	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	5	obl:arg	_	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 90
+# text = Podsumujmy to wszystko.
+1	Podsumujmy	Podsumować	VERB	impt:pl:pri:perf	Aspect=Perf|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
+2	to	ten	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	3	cop	_	_
+3	wszystko	wszystko	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	1	nsubj	_	SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 91
+# text = Mamy chorobę.
+1	Mamy	mieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	chorobę	choroba	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	iobj	_	SpaceAfter=No
+3	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 92
+# text = Jest naukowo skomplikowana, gospodarczo trudno sobie z nią poradzić, a ludzi, którzy najbardziej skorzystaliby z rozwiązań, obchodzi to najmniej.
+1	Jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+2	naukowo	naukowo	ADV	adv:pos	Degree=Pos	3	advmod	_	_
+3	skomplikowana	skomplikowany	ADJ	ppas:sg:nom:f:imperf:aff	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+5	gospodarczo	gospodarczo	ADV	adv:pos	Degree=Pos	6	advmod	_	_
+6	trudno	trudno	ADV	adv:pos	Degree=Pos	3	conj	_	_
+7	sobie	siebie	PRON	siebie:dat	Case=Dat|PronType=Prs|Reflex=Yes	10	expl:pv	_	_
+8	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	9	case	_	_
+9	nią	on	PRON	ppron3:sg:inst:f:ter:akc:praep	Case=Ins|Gender=Fem|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	10	obl:arg	_	_
+10	poradzić	poradzić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	22	punct	_	_
+12	a	a	CCONJ	conj	_	22	cc	_	_
+13	ludzi	człowiek	NOUN	subst:pl:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur	22	obj	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	17	punct	_	_
+15	którzy	który	DET	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	17	nsubj	_	_
+16	najbardziej	bardzo	ADV	adv:sup	Degree=Sup	17	advmod	_	_
+17-18	skorzystaliby	_	_	_	_	_	_	_	_
+17	skorzystali	skorzystać	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+18	by	by	AUX	part	_	17	aux:cnd	_	_
+19	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	20	case	_	_
+20	rozwiązań	rozwiązanie	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	17	obl:arg	_	SpaceAfter=No
+21	,	,	PUNCT	interp	PunctType=Comm	22	punct	_	_
+22	obchodzi	obchodzić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
+23	to	to	PART	part	_	24	advmod:emph	_	_
+24	najmniej	mało	ADV	adv:sup	Degree=Sup	3	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 93
+# text = Daje to nam największy problem ze wszystkich, czyli oczywiście problem polityczny.
+1	Daje	dawać	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+2	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	5	cop	_	_
+3	nam	my	PRON	ppron12:pl:dat:m1:pri	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	5	nmod	_	_
+4	największy	wielki	ADJ	adj:sg:nom:m3:sup	Animacy=Inan|Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	5	amod	_	_
+5	problem	problem	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	ze	z	ADP	prep:inst:wok	AdpType=Prep|Variant=Long	7	case	_	_
+7	wszystkich	wszyscy	PRON	subst:pl:gen:m1:pt	Animacy=Hum|Case=Gen|Gender=Masc|Number=Ptan|PronType=Tot	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+9	czyli	czyli	CCONJ	conj	_	11	cc	_	_
+10	oczywiście	oczywiście	ADV	adv:pos	Degree=Pos	11	parataxis:insert	_	_
+11	problem	problem	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+12	polityczny	polityczny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 94
+# text = Jak sprawić, aby przywódca polityczny zrobił coś z takim problemem?
+1	Jak	jak	ADV	adv:pos	Degree=Pos|PronType=Int	2	advmod	_	_
+2	sprawić	sprawić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+4	aby	aby	SCONJ	comp	_	7	mark	_	_
+5	przywódca	przywódca	NOUN	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	polityczny	polityczny	ADJ	adj:sg:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+7	zrobił	zrobić	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp:obj	_	_
+8	coś	coś	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	7	obj	_	_
+9	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	11	case	_	_
+10	takim	taki	DET	adj:sg:inst:m3:pos	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	problemem	problem	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	obl:arg	_	SpaceAfter=No
+12	?	?	PUNCT	interp	PunctType=Qest	2	punct	_	_
+
+# sent_id = 95
+# text = Historia uczy, że się nie da.
+1	Historia	historia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	uczy	uczyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+4	że	że	SCONJ	comp	_	7	mark	_	_
+5	się	się	PRON	part	PronType=Prs|Reflex=Yes	7	expl:pv	_	_
+6	nie	nie	PART	part	Polarity=Neg	7	advmod:neg	_	_
+7	da	dać	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 96
+# text = Większość społeczeństw dotkniętych malarią po prostu żyje z chorobą.
+1	Większość	większość	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	społeczeństw	społeczeństwo	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	1	nmod:arg	_	_
+3	dotkniętych	dotknąć	ADJ	ppas:pl:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	1	acl	_	_
+4	malarią	malaria	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	po	po	ADP	prep:acc	AdpType=Prep	6	case	_	_
+6	prostu	prosty	ADJ	adjp	PrepCase=Pre	7	obl	_	_
+7	żyje	żyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_
+8	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	9	case	_	_
+9	chorobą	choroba	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	7	obl:arg	_	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 97
+# text = Główne ataki na malarię pochodziły spoza tych społeczeństw, ze strony ludzi, których nie ograniczała taka paraliżująca polityka.
+1	Główne	główny	ADJ	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	_
+2	ataki	atak	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+3	na	na	ADP	prep:acc	AdpType=Prep	4	case	_	_
+4	malarię	malaria	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	5	obl:arg	_	_
+5	pochodziły	pochodzić	VERB	praet:pl:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	spoza	spoza	ADP	prep:inst	AdpType=Prep	8	case	_	_
+7	tych	ten	DET	adj:pl:gen:n:pos	Case=Gen|Gender=Neut|Number=Plur|PronType=Dem	8	det	_	_
+8	społeczeństw	społeczeństwo	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+10	ze	z	ADP	prep:gen:wok	AdpType=Prep|Variant=Long	12	case	_	_
+11	strony	strona	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	10	fixed	_	_
+12	ludzi	człowiek	NOUN	subst:pl:gen:m1:pt	Animacy=Hum|Case=Gen|Gender=Masc|Number=Ptan	5	obl	_	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	16	punct	_	_
+14	których	który	DET	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|PronType=Rel	16	obj	_	_
+15	nie	nie	PART	part	Polarity=Neg	16	advmod:neg	_	_
+16	ograniczała	ograniczać	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+17	taka	taki	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
+18	paraliżująca	paraliżować	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	polityka	polityk	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 98
+# text = Ale to stawia przed nami wiele innych trudności.
+1	Ale	ale	CCONJ	conj	_	3	cc	_	_
+2	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	stawia	stawiać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	przed	przed	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	5	case	_	_
+5	nami	my	PRON	ppron12:pl:inst:m1:pri	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur|Person=1|PronType=Prs	3	obl:arg	_	_
+6	wiele	wiele	DET	num:pl:nom:f:rec	Case=Nom|Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	8	det:numgov	_	_
+7	innych	inny	ADJ	adj:pl:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
+8	trudności	trudność	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 99
+# text = Pierwszy wspólny atak na malarię rozpoczął się w latach 50.
+1	Pierwszy	pierwszy	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+2	wspólny	wspólny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	atak	atak	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	na	na	ADP	prep:acc	AdpType=Prep	5	case	_	_
+5	malarię	malaria	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+6	rozpoczął	rozpocząć	VERB	praet:sg:m3:perf	Animacy=Inan|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	się	się	PRON	part	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+8	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	9	case	_	_
+9	latach	rok	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	obl	_	_
+10	50	50	X	dig	NumForm=Digit	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 100
+# text = XX wieku.
+1	XX	XX	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|NumForm=Roman|NumType=Ord	2	amod	_	_
+2	wieku	wiek	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 101
+# text = Był to pomysł Departamentu Stanu USA.
+1	Był	być	AUX	praet:sg:m3:imperf	Animacy=Inan|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
+2	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	3	cop	_	_
+3	pomysł	pomysł	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+4	Departamentu	departament	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	Stanu	stan	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	USA	USA	PROPN	subst:pl:gen:n:pt	Case=Gen|Gender=Neut|Number=Ptan	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 102
+# text = Ta inicjatywa dobrze rozumiała wyzwanie gospodarcze.
+1	Ta	ten	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	inicjatywa	inicjatywa	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	dobrze	dobrze	ADV	adv:pos	Degree=Pos	4	advmod	_	_
+4	rozumiała	rozumieć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	wyzwanie	wyzwanie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	gospodarcze	gospodarczy	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 103
+# text = Wiedzieli, że muszą skupić się na tanich i łatwych w użyciu narzędziach i skupili się na DDT.
+1	Wiedzieli	wiedzieć	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	interp	PunctType=Comm	4	punct	_	_
+3	że	że	SCONJ	comp	_	4	mark	_	_
+4	muszą	musieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	_
+5	skupić	skupić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	się	się	PRON	part	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+7	na	na	ADP	prep:loc	AdpType=Prep	13	case	_	_
+8	tanich	tani	ADJ	adj:pl:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	13	amod	_	_
+9	i	i	CCONJ	conj	_	10	cc	_	_
+10	łatwych	łatwy	ADJ	adj:pl:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Plur	8	conj	_	_
+11	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	13	case	_	_
+12	użyciu	użyć	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	11	fixed	_	_
+13	narzędziach	narzędzie	NOUN	subst:pl:loc:n:ncol	Case=Loc|Gender=Neut|Number=Plur	5	obl:arg	_	_
+14	i	i	CCONJ	conj	_	15	cc	_	_
+15	skupili	skupić	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+16	się	się	PRON	part	PronType=Prs|Reflex=Yes	15	expl:pv	_	_
+17	na	na	ADP	prep:loc	AdpType=Prep	18	case	_	_
+18	DDT	DDT	PROPN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 104
+# text = Rozumieli wyzwanie kulturalne.
+1	Rozumieli	Rozumieć	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	wyzwanie	wyzwanie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+3	kulturalne	kulturalny	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 105
+# text = W ich raczej protekcjonalnej opinii nie należy kazać ludziom zagrożonym malarią niczego robić.
+1	W	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	5	case	_	_
+2	ich	on	PRON	ppron3:pl:gen:f:ter:akc:npraep	Case=Gen|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	5	nmod	_	_
+3	raczej	raczej	PART	part	_	5	advmod:emph	_	_
+4	protekcjonalnej	protekcjonalny	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	opinii	opinia	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+6	nie	nie	PART	part	Polarity=Neg	7	advmod:neg	_	_
+7	należy	należeć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	kazać	kazać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	ludziom	człowiek	NOUN	subst:pl:dat:m1	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur	8	iobj	_	_
+10	zagrożonym	zagrożyć	ADJ	ppas:sg:inst:m3:perf:aff	Animacy=Inan|Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	acl	_	_
+11	malarią	malaria	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	8	iobj	_	_
+12	niczego	nic	PRON	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing|PronType=Neg	13	obj	_	_
+13	robić	robić	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	interp	PunctType=Peri	7	punct	_	_
+
+# sent_id = 106
+# text = Wszystko należy robić im i dla nich.
+1	Wszystko	wszystko	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	2	nsubj	_	_
+2	należy	należeć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	robić	robić	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	im	on	PRON	ppron3:pl:dat:m1:ter:akc:npraep	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	3	iobj	_	_
+5	i	i	CCONJ	conj	_	7	cc	_	_
+6	dla	dla	ADP	prep:gen	AdpType=Prep	7	case	_	_
+7	nich	on	PRON	ppron3:pl:gen:m1:ter:akc:praep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 107
+# text = Ale znacznie zbagatelizowali wyzwanie naukowe.
+1	Ale	ale	CCONJ	conj	_	3	cc	_	_
+2	znacznie	znacznie	ADV	adv:pos	Degree=Pos	3	advmod	_	_
+3	zbagatelizowali	zbagatelizować	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	wyzwanie	wyzwanie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	naukowe	naukowy	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 108
+# text = Tak bardzo wierzyli w swoje narzędzia, że zaprzestali badań nad malarią.
+1	Tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	3	advmod	_	_
+2	bardzo	bardzo	ADV	adv:pos	Degree=Pos	3	advmod	_	_
+3	wierzyli	wierzyć	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	w	w	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+5	swoje	swój	DET	adj:pl:acc:n:pos	Case=Acc|Gender=Neut|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	6	det:poss	_	_
+6	narzędzia	narzędzie	NOUN	subst:pl:acc:n:ncol	Case=Acc|Gender=Neut|Number=Plur	3	obl:arg	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+8	że	że	SCONJ	comp	_	9	mark	_	_
+9	zaprzestali	zaprzestać	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	ccomp	_	_
+10	badań	badanie	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	9	obj	_	_
+11	nad	nad	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	12	case	_	_
+12	malarią	malaria	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	10	nmod:arg	_	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 109
+# text = Gdy narzędzia zaczęły zawodzić i opinia publiczna zaczęła się od nich odwracać, zabrakło im ekspertyzy, by zdecydować, co dalej.
+1	Gdy	gdy	ADV	adv	_	3	advmod	_	_
+2	narzędzia	narzędzie	NOUN	subst:pl:nom:n:ncol	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+3	zaczęły	zacząć	VERB	praet:pl:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	_	_
+4	zawodzić	zawodzić	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	i	i	CCONJ	conj	_	8	cc	_	_
+6	opinia	opinia	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+7	publiczna	publiczny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+8	zaczęła	zacząć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+9	się	się	PRON	part	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+10	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	11	case	_	_
+11	nich	on	PRON	ppron3:pl:gen:m1:ter:akc:praep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	12	obl	_	_
+12	odwracać	odwracać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	3	punct	_	_
+14	zabrakło	zabraknąć	VERB	praet:sg:n:perf	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	im	on	PRON	ppron3:pl:dat:m1:ter:akc:npraep	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	14	iobj	_	_
+16	ekspertyzy	ekspertyza	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	14	iobj	_	SpaceAfter=No
+17	,	,	PUNCT	interp	PunctType=Comm	19	punct	_	_
+18	by	by	SCONJ	comp	_	19	mark	_	_
+19	zdecydować	zdecydować	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	14	advcl	_	SpaceAfter=No
+20	,	,	PUNCT	interp	PunctType=Comm	22	punct	_	_
+21	co	co	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	22	obj	_	_
+22	dalej	daleko	ADV	adv:com	Degree=Cmp	19	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	interp	PunctType=Peri	14	punct	_	_
+
+# sent_id = 110
+# text = Cała kampania padła, malaria wróciła, i to nawet gorsza niż wcześniej, bo zawężono ją do najbardziej niedostępnych miejsc, w odmianach najtrudniejszych do kontroli.
+1	Cała	cały	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	kampania	kampania	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	padła	paść	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+5	malaria	malaria	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	wróciła	wrócić	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+8	i	i	CCONJ	conj	_	11	cc	_	_
+9	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	11	cop	_	_
+10	nawet	nawet	PART	part	_	11	advmod:emph	_	_
+11	gorsza	zły	ADJ	adj:sg:nom:f:com	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing	3	conj	_	_
+12	niż	niż	SCONJ	comp	ConjType=Cmpr	13	mark	_	_
+13	wcześniej	wcześnie	ADV	adv:com	Degree=Cmp	11	obl:cmpr	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	16	punct	_	_
+15	bo	bo	SCONJ	comp	_	16	mark	_	_
+16	zawężono	zawężyć	VERB	imps:perf	Aspect=Perf|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	_
+17	ją	on	PRON	ppron3:sg:acc:f:ter:akc:npraep	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	16	obj	_	_
+18	do	do	ADP	prep:gen	AdpType=Prep	21	case	_	_
+19	najbardziej	bardzo	ADV	adv:sup	Degree=Sup	20	advmod	_	_
+20	niedostępnych	niedostępny	ADJ	adj:pl:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	21	amod	_	_
+21	miejsc	miejsce	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	16	obl:arg	_	SpaceAfter=No
+22	,	,	PUNCT	interp	PunctType=Comm	24	punct	_	_
+23	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	24	case	_	_
+24	odmianach	odmiana	NOUN	subst:pl:loc:f	Case=Loc|Gender=Fem|Number=Plur	21	conj	_	_
+25	najtrudniejszych	trudny	ADJ	adj:pl:loc:f:sup	Case=Loc|Degree=Sup|Gender=Fem|Number=Plur	24	amod	_	_
+26	do	do	ADP	prep:gen	AdpType=Prep	27	case	_	_
+27	kontroli	kontrola	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	25	obl:arg	_	SpaceAfter=No
+28	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 111
+# text = Ktoś ze Światowej Organizacji Zdrowia nazwał tę kampanię "jednym z największych błędów w zdrowiu publicznym".
+1	Ktoś	ktoś	PRON	subst:sg:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	6	nsubj	_	_
+2	ze	z	ADP	prep:gen:wok	AdpType=Prep|Variant=Long	4	case	_	_
+3	Światowej	światowy	ADJ	adj:sg:gen:f:pos	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod:flat	_	_
+4	Organizacji	organizacja	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	6	obl:arg	_	_
+5	Zdrowia	zdrowie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	4	nmod:flat	_	_
+6	nazwał	nazwać	VERB	praet:sg:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	tę	ten	DET	adj:sg:acc:f:pos	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	kampanię	kampania	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+9	"	"	PUNCT	interp	PunctType=Quot	10	punct	_	SpaceAfter=No
+10	jednym	jeden	ADJ	adj:sg:inst:m1:pos	Animacy=Hum|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	iobj	_	_
+11	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	13	case	_	_
+12	największych	duży	ADJ	adj:pl:gen:m1:sup	Animacy=Hum|Case=Gen|Degree=Sup|Gender=Masc|Number=Plur	13	amod	_	_
+13	błędów	błąd	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
+14	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	15	case	_	_
+15	zdrowiu	zdrowie	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
+16	publicznym	publiczny	ADJ	adj:sg:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	SpaceAfter=No
+17	"	"	PUNCT	interp	PunctType=Quot	10	punct	_	SpaceAfter=No
+18	.	.	PUNCT	interp	PunctType=Peri	6	punct	_	_
+
+# sent_id = 112
+# text = Ostatnia próba pokonania malarii zaczęła się pod koniec XX wieku.
+1	Ostatnia	ostatni	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	próba	próba	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	pokonania	pokonać	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	2	nmod:arg	_	_
+4	malarii	malaria	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	3	obj	_	_
+5	zaczęła	zacząć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	się	się	PRON	part	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+7	pod	pod	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	10	case	_	_
+8	koniec	koniec	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	fixed	_	_
+9	XX	XX	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|NumForm=Roman|NumType=Ord	10	amod	_	_
+10	wieku	wiek	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 113
+# text = Jest podobnie skierowana i sfinansowana głównie przez kraje niedotknięte malarią.
+1	Jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+2	podobnie	podobnie	ADV	adv:pos	Degree=Pos	3	advmod	_	_
+3	skierowana	skierować	ADJ	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	0	root	_	_
+4	i	i	CCONJ	conj	_	5	cc	_	_
+5	sfinansowana	sfinansować	ADJ	ppas:sg:nom:f:imperf:aff	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	3	conj	_	_
+6	głównie	głównie	PART	part	_	8	advmod:emph	_	_
+7	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	8	case	_	_
+8	kraje	kraj	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+9	niedotknięte	dotknąć	ADJ	ppas:pl:nom:m3:perf:neg	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Polarity=Neg|VerbForm=Part|Voice=Pass	10	iobj	_	_
+10	malarią	malaria	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis:obj	_	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	10	punct	_	_
+
+# sent_id = 114
+# text = Ta próba dobrze rozumie wyzwanie naukowe.
+1	Ta	ten	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	próba	próba	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	dobrze	dobrze	ADV	adv:pos	Degree=Pos	4	advmod	_	_
+4	rozumie	rozumieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	wyzwanie	wyzwanie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	naukowe	naukowy	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 115
+# text = Prowadzą wiele badań nad malarią.
+1	Prowadzą	prowadzić	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	wiele	wiele	DET	num:pl:acc:n:rec:ncol	Case=Acc|Gender=Neut|Number=Plur|NumType=Card|PronType=Ind	3	det:numgov	_	_
+3	badań	badanie	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	1	obj	_	_
+4	nad	nad	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	5	case	_	_
+5	malarią	malaria	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	3	nmod:arg	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 116
+# text = Rozumieją też wyzwanie gospodarcze.
+1	Rozumieją	rozumieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	też	też	PART	part	_	1	advmod:emph	_	_
+3	wyzwanie	wyzwanie	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+4	gospodarcze	gospodarczy	ADJ	adj:sg:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 117
+# text = Skupiają się na bardzo tanich i łatwych w użyciu narzędziach.
+1	Skupiają	skupiać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	się	się	PRON	part	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	na	na	ADP	prep:acc	AdpType=Prep	5	case	_	_
+4	bardzo	bardzo	ADV	adv:pos	Degree=Pos	5	advmod	_	_
+5	tanich	tani	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	1	obl:arg	_	_
+6	i	i	CCONJ	conj	_	7	cc	_	_
+7	łatwych	łatwy	ADJ	adj:pl:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	5	conj	_	_
+8	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	10	case	_	_
+9	użyciu	użyć	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	8	fixed	_	_
+10	narzędziach	narzędzie	NOUN	subst:pl:loc:n:ncol	Case=Loc|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 118
+# text = Ale uważam, że dylemat tkwi w wyzwaniu kulturalnym.
+1	Ale	ale	CCONJ	conj	_	2	cc	_	_
+2	uważam	uważać	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+4	że	że	SCONJ	comp	_	6	mark	_	_
+5	dylemat	dylemat	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	tkwi	tkwić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp:obj	_	_
+7	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	8	case	_	_
+8	wyzwaniu	wyzwanie	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+9	kulturalnym	kulturalny	ADJ	adj:sg:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 119
+# text = Nacisk kładzie się na moskitiery nad łóżkiem.
+1	Nacisk	nacisk	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	kładzie	kłaść	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	się	się	PRON	part	PronType=Prs|Reflex=Yes	2	expl:pv	_	_
+4	na	na	ADP	prep:acc	AdpType=Prep	5	case	_	_
+5	moskitiery	moskitiera	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	2	obl:arg	_	_
+6	nad	nad	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	7	case	_	_
+7	łóżkiem	łóżko	NOUN	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing	5	nmod:arg	_	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 120
+# text = Wykorzystuje się insektycydy.
+1	Wykorzystuje	wykorzystywać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	się	się	PRON	part	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	insektycydy	insektycyd	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	SpaceAfter=No
+4	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 121
+# text = Miliony ludzi rozprowadzają je w krajach dotkniętych malarią.
+1	Miliony	milion	NOUN	subst:pl:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	ludzi	człowiek	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	1	nmod:arg	_	_
+3	rozprowadzają	rozprowadzać	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	je	on	PRON	ppron3:pl:acc:m3:ter:akc:npraep	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	3	obj	_	_
+5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+6	krajach	kraj	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	_
+7	dotkniętych	dotknąć	ADJ	adj:pl:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+8	malarią	malaria	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 122
+# text = Jednak koncepcja moskitiery nad łóżkiem to trochę interwencja chirurgiczna.
+1	Jednak	jednak	CCONJ	conj	_	8	cc	_	_
+2	koncepcja	koncepcja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+3	moskitiery	moskitiera	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	nmod:arg	_	_
+4	nad	nad	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	5	case	_	_
+5	łóżkiem	łóżko	NOUN	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing	3	nmod:arg	_	_
+6	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	8	cop	_	_
+7	trochę	trochę	ADV	adv	_	8	advmod	_	_
+8	interwencja	interwencja	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+9	chirurgiczna	chirurgiczny	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	interp	PunctType=Peri	8	punct	_	_
+
+# sent_id = 123
+# text = Nic nie daje rodzinie dotkniętej malarią, oprócz tego, że pomaga jej zapobiegać.
+1	Nic	nic	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	3	nsubj	_	_
+2	nie	nie	PART	part	Polarity=Neg	3	advmod:neg	_	_
+3	daje	dawać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	rodzinie	rodzina	NOUN	subst:sg:dat:f	Case=Dat|Gender=Fem|Number=Sing	3	iobj	_	_
+5	dotkniętej	dotknąć	ADJ	ppas:sg:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	4	acl	_	_
+6	malarią	malaria	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	5	iobj	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+8	oprócz	oprócz	ADP	prep:gen	AdpType=Prep	9	case	_	_
+9	tego	to	PRON	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+11	że	że	SCONJ	comp	_	12	mark	_	_
+12	pomaga	pomagać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	ccomp:cleft	_	_
+13	jej	on	PRON	ppron3:sg:dat:f:ter:akc:npraep	Case=Dat|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	12	iobj	_	_
+14	zapobiegać	zapobiegać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 124
+# text = Nakłaniamy ich do ciągłego korzystania z moskitier.
+1	Nakłaniamy	Nakłaniać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ich	on	PRON	ppron3:pl:acc:m1:ter:akc:npraep	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	1	obj	_	_
+3	do	do	ADP	prep:gen	AdpType=Prep	5	case	_	_
+4	ciągłego	ciągły	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	korzystania	korzystać	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	1	obl:arg	_	_
+6	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	7	case	_	_
+7	moskitier	moskitier	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	5	obl:arg	_	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 125
+# text = Muszą codziennie pod nimi spać.
+1	Muszą	musieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	codziennie	codziennie	ADV	adv:pos	Degree=Pos	5	advmod	_	_
+3	pod	pod	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	4	case	_	_
+4	nimi	on	PRON	ppron3:pl:inst:m1:ter:akc:praep	Animacy=Hum|Case=Ins|Gender=Masc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	5	obl	_	_
+5	spać	spać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 126
+# text = Tylko wtedy są skuteczne.
+1	Tylko	tylko	PART	part	_	2	advmod:emph	_	_
+2	wtedy	wtedy	ADV	adv	PronType=Dem	4	advmod	_	_
+3	są	być	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	skuteczne	skuteczny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 127
+# text = I muszą to robić, nawet jeśli siatka blokuje przewiew, nawet jeśli muszą wstać w nocy, żeby się wypróżnić, nawet jeśli trzeba przestawić meble, aby ją zawiesić, nawet jeśli żyje się w okrągłej chatce, w której trudno rozwiesić kwadratową siatkę.
+1	I	i	CCONJ	conj	_	2	cc	_	_
+2	muszą	musieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	to	to	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	obj	_	_
+4	robić	robić	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+6	nawet	nawet	PART	part	_	7	advmod:emph	_	_
+7	jeśli	jeśli	SCONJ	comp	_	9	mark	_	_
+8	siatka	siatka	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+9	blokuje	blokować	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+10	przewiew	przewiew	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	14	punct	_	_
+12	nawet	nawet	PART	part	_	13	advmod:emph	_	_
+13	jeśli	jeśli	SCONJ	comp	_	14	mark	_	_
+14	muszą	musieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
+15	wstać	wstać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	17	case	_	_
+17	nocy	noc	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+18	,	,	PUNCT	interp	PunctType=Comm	21	punct	_	_
+19	żeby	żeby	SCONJ	comp	_	21	mark	_	_
+20	się	się	PRON	part	PronType=Prs|Reflex=Yes	21	expl:pv	_	_
+21	wypróżnić	wypróżnić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	15	advcl	_	SpaceAfter=No
+22	,	,	PUNCT	interp	PunctType=Comm	25	punct	_	_
+23	nawet	nawet	PART	part	_	24	advmod:emph	_	_
+24	jeśli	jeśli	SCONJ	comp	_	25	mark	_	_
+25	trzeba	trzeba	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	21	advcl	_	_
+26	przestawić	przestawić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	25	xcomp	_	_
+27	meble	mebel	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	26	obj	_	SpaceAfter=No
+28	,	,	PUNCT	interp	PunctType=Comm	31	punct	_	_
+29	aby	aby	SCONJ	comp	_	31	mark	_	_
+30	ją	on	PRON	ppron3:sg:acc:f:ter:akc:npraep	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	31	obj	_	_
+31	zawiesić	zawiesić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	26	advcl	_	SpaceAfter=No
+32	,	,	PUNCT	interp	PunctType=Comm	35	punct	_	_
+33	nawet	nawet	PART	part	_	34	advmod:emph	_	_
+34	jeśli	jeśli	SCONJ	comp	_	35	mark	_	_
+35	żyje	żyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	advcl	_	_
+36	się	się	PRON	part	PronType=Prs|Reflex=Yes	35	expl:pv	_	_
+37	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	39	case	_	_
+38	okrągłej	okrągły	ADJ	adj:sg:loc:f:pos	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+39	chatce	chatka	NOUN	subst:sg:loc:f	Case=Loc|Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No
+40	,	,	PUNCT	interp	PunctType=Comm	43	punct	_	_
+41	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	42	case	_	_
+42	której	który	DET	adj:sg:loc:f:pos	Case=Loc|Gender=Fem|Number=Sing|PronType=Rel	43	obl	_	_
+43	trudno	trudno	ADV	adv:pos	Degree=Pos	39	acl:relcl	_	_
+44	rozwiesić	rozwiesić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	43	xcomp	_	_
+45	kwadratową	kwadratowy	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	46	amod	_	_
+46	siatkę	siatka	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	44	obj	_	SpaceAfter=No
+47	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 128
+# text = To nic wielkiego, jeśli walczy się ze śmiertelną chorobą.
+1	To	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	2	cop	_	_
+2	nic	nic	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg	0	root	_	_
+3	wielkiego	wielki	ADJ	adj:sg:gen:n:pos	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+5	jeśli	jeśli	SCONJ	comp	_	6	mark	_	_
+6	walczy	walczyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+7	się	się	PRON	part	PronType=Prs|Reflex=Yes	6	expl:pv	_	_
+8	ze	z	ADP	prep:inst:wok	AdpType=Prep|Variant=Long	10	case	_	_
+9	śmiertelną	śmiertelny	ADJ	adj:sg:inst:f:pos	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	chorobą	choroba	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	6	obl:arg	_	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 129
+# text = Są to małe niedogodności.
+1	Są	być	AUX	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+2	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	4	cop	_	_
+3	małe	mały	ADJ	adj:pl:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+4	niedogodności	niedogodność	NOUN	subst:pl:nom:f	Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 130
+# text = Ale ludzie z malarią patrzą na malarię inaczej.
+1	Ale	ale	CCONJ	conj	_	5	cc	_	_
+2	ludzie	człowiek	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+3	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	4	case	_	_
+4	malarią	malaria	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+5	patrzą	patrzeć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	na	na	ADP	prep:acc	AdpType=Prep	7	case	_	_
+7	malarię	malaria	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	5	obl:arg	_	_
+8	inaczej	inaczej	ADV	adv	_	5	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 131
+# text = Dla nich rachunek musi być inny.
+1	Dla	dla	ADP	prep:gen	AdpType=Prep	2	case	_	_
+2	nich	on	PRON	ppron3:pl:gen:m1:ter:akc:praep	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	4	obl	_	_
+3	rachunek	rachunek	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	musi	musieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	być	być	AUX	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	6	cop	_	_
+6	inny	inny	ADJ	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 132
+# text = Gdyby grupa życzliwych Kenijczyków powiedziała mieszkańcom stref umiarkowanych: "Często łapiecie przeziębienia i grypę.
+1	Gdyby	gdyby	SCONJ	comp	_	5	mark	_	_
+2	grupa	grupa	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	życzliwych	życzliwy	ADJ	adj:pl:gen:m1:pos	Animacy=Hum|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+4	Kenijczyków	Kenijczyk	PROPN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	2	nmod:arg	_	_
+5	powiedziała	powiedzieć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	mieszkańcom	mieszkaniec	NOUN	subst:pl:dat:m1	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur	5	iobj	_	_
+7	stref	strefa	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	umiarkowanych	umiarkowany	ADJ	ppas:pl:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	7	acl	_	SpaceAfter=No
+9	:	:	PUNCT	interp	PunctType=Colo	5	punct	_	_
+10	"	"	PUNCT	interp	PunctType=Quot	12	punct	_	SpaceAfter=No
+11	Często	często	ADV	adv:pos	Degree=Pos	12	advmod	_	_
+12	łapiecie	łapieść	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	5	parataxis:obj	_	_
+13	przeziębienia	przeziębienie	NOUN	ger:sg:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	12	nmod:arg	_	_
+14	i	i	CCONJ	conj	_	15	cc	_	_
+15	grypę	grypa	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 133
+# text = Zaprojektowaliśmy świetne, łatwe w użyciu, tanie narzędzie i damy wam je za darmo.
+1-2	Zaprojektowaliśmy	_	_	_	_	_	_	_	_
+1	Zaprojektowali	Zaprojektować	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Plur|Person=1|Variant=Short	1	aux:clitic	_	_
+3	świetne	świetny	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	1	iobj	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	5	punct	_	_
+5	łatwe	łatwy	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	conj	_	_
+6	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	7	case	_	_
+7	użyciu	użyć	NOUN	ger:sg:loc:n:perf:aff	Aspect=Perf|Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	5	obl:arg	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+9	tanie	tać	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	1	conj	_	_
+10	narzędzie	narzędzie	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+11	i	i	CCONJ	conj	_	12	cc	_	_
+12	damy	dać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+13	wam	wy	PRON	ppron12:pl:dat:m1:sec	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur|Person=2|PronType=Prs	12	iobj	_	_
+14	je	on	PRON	ppron3:pl:acc:m3:ter:akc:npraep	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	12	obj	_	_
+15	za	za	ADP	prep:acc	AdpType=Prep	16	case	_	_
+16	darmo	darmo	ADV	adv	_	12	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 134
+# text = Nazywa się maska na twarz i musicie po prostu nosić ją codziennie podczas sezonu grypowego, idąc do szkoły czy do pracy".
+1	Nazywa	nazywać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	się	się	PRON	part	PronType=Prs|Reflex=Yes	1	expl:pv	_	_
+3	maska	maska	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
+4	na	na	ADP	prep:acc	AdpType=Prep	5	case	_	_
+5	twarz	twarz	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	obl:arg	_	_
+6	i	i	CCONJ	conj	_	7	cc	_	_
+7	musicie	musieć	VERB	fin:pl:sec:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+8	po	po	ADP	prep:acc	AdpType=Prep	9	case	_	_
+9	prostu	prosty	ADJ	adjp	PrepCase=Pre	10	obl	_	_
+10	nosić	nosić	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+11	ją	on	PRON	ppron3:sg:acc:f:ter:akc:npraep	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	10	obj	_	_
+12	codziennie	codziennie	ADV	adv:pos	Degree=Pos	10	advmod	_	_
+13	podczas	podczas	ADP	prep:gen	AdpType=Prep	14	case	_	_
+14	sezonu	sezon	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+15	grypowego	grypowy	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	interp	PunctType=Comm	17	punct	_	_
+17	idąc	iść	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	1	advcl	_	_
+18	do	do	ADP	prep:gen	AdpType=Prep	19	case	_	_
+19	szkoły	szkoła	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
+20	czy	czy	CCONJ	conj	_	22	cc	_	_
+21	do	do	ADP	prep:gen	AdpType=Prep	22	case	_	_
+22	pracy	praca	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
+23	"	"	PUNCT	interp	PunctType=Quot	17	punct	_	SpaceAfter=No
+24	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 135
+# text = Zrobilibyśmy to?
+1-3	Zrobilibyśmy	_	_	_	_	_	_	_	_
+1	Zrobili	zrobić	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	by	by	AUX	part	_	1	aux:cnd	_	_
+3	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Plur|Person=1|Variant=Short	1	aux:clitic	_	_
+4	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	interp	PunctType=Qest	1	punct	_	_
+
+# sent_id = 136
+# text = Zastanawiam się, czy właśnie tak w krajach dotkniętych malarią postrzega się rozdawane moskitiery.
+1	Zastanawiam	zastanawiać	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	się	się	PRON	part	PronType=Prs|Reflex=Yes	1	expl:pv	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+4	czy	czy	PART	part	PartType=Int	11	advmod	_	_
+5	właśnie	właśnie	PART	part	_	6	advmod:emph	_	_
+6	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	8	advmod	_	_
+7	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	8	case	_	_
+8	krajach	kraj	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	11	obl	_	_
+9	dotkniętych	dotknąć	ADJ	adj:pl:loc:m3:pos	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+10	malarią	malaria	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	8	nmod	_	_
+11	postrzega	postrzegać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	_
+12	się	się	PRON	part	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+13	rozdawane	rozdawać	ADJ	ppas:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	14	acl	_	_
+14	moskitiery	moskitiera	NOUN	subst:pl:nom:n:pt	Case=Nom|Gender=Neut|Number=Ptan	11	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 137
+# text = Wiemy z badań, że skorzystano tylko z 20% rozdanych moskitier.
+1	Wiemy	wiedzieć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	3	case	_	_
+3	badań	badanie	NOUN	subst:pl:gen:n:ncol	Case=Gen|Gender=Neut|Number=Plur	1	obl:arg	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+5	że	że	SCONJ	comp	_	6	mark	_	_
+6	skorzystano	skorzystać	VERB	imps:perf	Aspect=Perf|Mood=Ind|Person=0|Tense=Past|VerbForm=Fin|Voice=Act	1	ccomp	_	_
+7	tylko	tylko	PART	part	_	10	advmod:emph	_	_
+8	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	10	case	_	_
+9	20	20	NUM	num:pl:gen:f:congr	Case=Gen|Gender=Fem|Number=Plur|NumForm=Digit|NumType=Card	10	nummod	_	SpaceAfter=No
+10	%	%	SYM	interp	_	6	obl:arg	_	_
+11	rozdanych	rozdany	ADJ	ppas:pl:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	12	acl	_	_
+12	moskitier	moskitier	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	10	nmod:arg	_	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 138
+# text = Pewnie jest ich jeszcze mniej, bo ci sami ludzie, którzy rozprowadzili moskitiery, wrócili i spytali: "Skorzystaliście z siatek od nas?".
+1	Pewnie	pewnie	ADV	adv:pos	Degree=Pos	2	parataxis:insert	_	_
+2	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ich	on	PRON	ppron3:pl:gen:f:ter:akc:npraep	Case=Gen|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	2	nsubj	_	_
+4	jeszcze	jeszcze	PART	part	_	5	advmod:emph	_	_
+5	mniej	mało	ADV	adv:com	Degree=Cmp	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	interp	PunctType=Comm	16	punct	_	_
+7	bo	bo	SCONJ	comp	_	16	mark	_	_
+8	ci	ten	DET	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
+9	sami	sam	ADJ	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	_
+10	ludzie	człowiek	NOUN	subst:pl:nom:m1	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	13	punct	_	_
+12	którzy	który	DET	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	13	nsubj	_	_
+13	rozprowadzili	rozprowadzić	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+14	moskitiery	moskitiera	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	interp	PunctType=Comm	13	punct	_	_
+16	wrócili	wrócić	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+17	i	i	CCONJ	conj	_	18	cc	_	_
+18	spytali	spytać	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	16	conj	_	SpaceAfter=No
+19	:	:	PUNCT	interp	PunctType=Colo	18	punct	_	_
+20	"	"	PUNCT	interp	PunctType=Quot	21	punct	_	SpaceAfter=No
+21-22	Skorzystaliście	_	_	_	_	_	_	_	_
+21	Skorzystali	Skorzystać	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	18	parataxis:obj	_	_
+22	ście	być	AUX	aglt:pl:sec:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Plur|Person=2|Variant=Short	21	aux:clitic	_	_
+23	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	24	case	_	_
+24	siatek	siatka	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	21	obl:arg	_	_
+25	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	26	case	_	_
+26	nas	my	PRON	ppron12:pl:gen:m1:pri	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	24	nmod	_	SpaceAfter=No
+27	?	?	PUNCT	interp	PunctType=Qest	21	punct	_	SpaceAfter=No
+28	"	"	PUNCT	interp	PunctType=Quot	21	punct	_	SpaceAfter=No
+29	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 139
+# text = To tak, jakby ciocia pytała się: "Używasz tego wazonu, który dałam ci na Święta?".
+1	To	to	PART	part	_	10	advmod:emph	_	_
+2	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	10	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+4	jakby	jakby	SCONJ	comp	ConjType=Cmpr	6	mark	_	_
+5	ciocia	ciocia	NOUN	subst:pl:nom:n:ncol	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
+6	pytała	pytać	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl:cmpr	_	_
+7	się	się	PRON	part	PronType=Prs|Reflex=Yes	6	expl:pv	_	SpaceAfter=No
+8	:	:	PUNCT	interp	PunctType=Colo	6	punct	_	_
+9	"	"	PUNCT	interp	PunctType=Quot	6	punct	_	SpaceAfter=No
+10	Używasz	Używasz	VERB	fin:sg:sec:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	tego	ten	DET	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	wazonu	wazon	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	15	punct	_	_
+14	który	który	DET	adj:sg:nom:m3:pos	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	15	nsubj	_	_
+15-16	dałam	_	_	_	_	_	_	_	_
+15	dała	dać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+16	m	być	AUX	aglt:sg:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Sing|Person=1|Variant=Short	15	aux:clitic	_	_
+17	ci	ty	PRON	ppron12:sg:dat:m1:sec:nakc	Animacy=Hum|Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs|Variant=Short	15	iobj	_	_
+18	na	na	ADP	prep:acc	AdpType=Prep	19	case	_	_
+19	Święta	święto	NOUN	subst:pl:acc:n:ncol	Case=Acc|Gender=Neut|Number=Plur	15	obl:arg	_	SpaceAfter=No
+20	?	?	PUNCT	interp	PunctType=Qest	10	punct	_	SpaceAfter=No
+21	"	"	PUNCT	interp	PunctType=Quot	10	punct	_	SpaceAfter=No
+22	.	.	PUNCT	interp	PunctType=Peri	10	punct	_	_
+
+# sent_id = 140
+# text = Dlatego jest to pewnie zawyżona liczba.
+1	Dlatego	dlatego	ADV	adv	PronType=Dem	6	advmod	_	_
+2	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+3	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	6	cop	_	_
+4	pewnie	pewnie	PART	part	_	6	advmod:emph	_	_
+5	zawyżona	zawyżyć	ADJ	ppas:sg:nom:f:perf:aff	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	6	acl	_	_
+6	liczba	liczba	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	6	punct	_	_
+
+# sent_id = 141
+# text = Ale nie jest to problem nie do rozwiązania.
+1	Ale	ale	CCONJ	conj	_	5	cc	_	_
+2	nie	nie	PART	part	Polarity=Neg	3	advmod:neg	_	_
+3	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+4	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	5	cop	_	_
+5	problem	problem	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	nie	nie	PART	part	Polarity=Neg	8	advmod:neg	_	_
+7	do	do	ADP	prep:gen	AdpType=Prep	8	case	_	_
+8	rozwiązania	rozwiązanie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 142
+# text = Możemy dokształcić ludzi, możemy spróbować przekonać ich do korzystania z moskitier.
+1	Możemy	móc	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	dokształcić	dokształcić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3	ludzi	człowiek	NOUN	subst:pl:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	5	punct	_	_
+5	możemy	móc	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+6	spróbować	spróbować	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	przekonać	przekonać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	ich	on	PRON	ppron3:pl:acc:m1:ter:akc:npraep	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	7	obj	_	_
+9	do	do	ADP	prep:gen	AdpType=Prep	10	case	_	_
+10	korzystania	korzystać	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	7	obl:arg	_	_
+11	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	12	case	_	_
+12	moskitier	moskitier	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	10	obl:arg	_	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 143
+# text = I właśnie teraz to robimy.
+1	I	i	CCONJ	conj	_	5	cc	_	_
+2	właśnie	właśnie	PART	part	_	3	advmod:emph	_	_
+3	teraz	teraz	ADV	adv	_	5	advmod	_	_
+4	to	to	PRON	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	obj	_	_
+5	robimy	robić	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	5	punct	_	_
+
+# sent_id = 144
+# text = Przeznaczamy znacznie więcej czasu i pieniędzy na warsztaty, szkolenia, musicale, przedstawienia i spotkania szkolne, które mają przekonać ludzi do korzystania z ofiarowanych siatek.
+1	Przeznaczamy	Przeznaczać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	znacznie	znacznie	ADV	adv:pos	Degree=Pos	1	advmod	_	_
+3	więcej	więcej	DET	num:pl:acc:m3:rec	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumType=Card|PronType=Ind	4	det:numgov	_	_
+4	czasu	czas	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	iobj	_	_
+5	i	i	CCONJ	conj	_	6	cc	_	_
+6	pieniędzy	pieniądz	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	conj	_	_
+7	na	na	ADP	prep:acc	AdpType=Prep	8	case	_	_
+8	warsztaty	warsztaty	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obl:arg	_	SpaceAfter=No
+9	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+10	szkolenia	szkolić	NOUN	subst:pl:acc:n:ncol	Case=Acc|Gender=Neut|Number=Plur	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+12	musicale	musical	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	14	punct	_	_
+14	przedstawienia	przedstawić	NOUN	subst:pl:acc:n:ncol	Case=Acc|Gender=Neut|Number=Plur	8	conj	_	_
+15	i	i	CCONJ	conj	_	16	cc	_	_
+16	spotkania	spotkanie	NOUN	subst:pl:acc:n:ncol	Case=Acc|Gender=Neut|Number=Plur	8	conj	_	_
+17	szkolne	szkolny	ADJ	adj:pl:acc:n:pos	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	interp	PunctType=Comm	20	punct	_	_
+19	które	który	DET	adj:pl:nom:n:pos	Case=Nom|Gender=Neut|Number=Plur|PronType=Rel	20	nsubj	_	_
+20	mają	mieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+21	przekonać	przekonać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	20	xcomp	_	_
+22	ludzi	człowiek	NOUN	subst:pl:acc:m1	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur	21	obj	_	_
+23	do	do	ADP	prep:gen	AdpType=Prep	24	case	_	_
+24	korzystania	korzystać	NOUN	ger:sg:gen:n:imperf:aff	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	21	obl:arg	_	_
+25	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	27	case	_	_
+26	ofiarowanych	ofiarowany	ADJ	ppas:pl:gen:f:perf:aff	Aspect=Perf|Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	27	acl	_	_
+27	siatek	siatka	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	24	obl:arg	_	SpaceAfter=No
+28	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 145
+# text = I może się to sprawdzić.
+1	I	i	CCONJ	conj	_	2	cc	_	_
+2	może	może	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	się	się	PRON	part	PronType=Prs|Reflex=Yes	5	expl:pv	_	_
+4	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+5	sprawdzić	sprawdzić	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 146
+# text = Ale potrzeba czasu i pieniędzy.
+1	Ale	ale	CCONJ	conj	_	2	cc	_	_
+2	potrzeba	potrzeba	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	czasu	czas	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod:arg	_	_
+4	i	i	CCONJ	conj	_	5	cc	_	_
+5	pieniędzy	pieniądz	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 147
+# text = Potrzeba zasobów i infrastruktury.
+1	Potrzeba	potrzeba	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	zasobów	zasób	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod:arg	_	_
+3	i	i	CCONJ	conj	_	4	cc	_	_
+4	infrastruktury	infrastruktura	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+5	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 148
+# text = Potrzeba wszystkiego, czym nie miała być ta tania, łatwa w użyciu moskitiera.
+1	Potrzeba	potrzeba	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	_	_
+2	wszystkiego	wszystko	PRON	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	1	iobj	_	SpaceAfter=No
+3	,	,	PUNCT	interp	PunctType=Comm	6	punct	_	_
+4	czym	co	PRON	subst:sg:inst:n:ncol	Case=Ins|Gender=Neut|Number=Sing|PronType=Int	6	iobj	_	_
+5	nie	nie	PART	part	Polarity=Neg	6	advmod:neg	_	_
+6	miała	mieć	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+7	być	być	AUX	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	9	cop	_	_
+8	ta	ten	DET	adj:sg:nom:f:pos	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	tania	tania	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	11	punct	_	_
+11	łatwa	łatwo	ADJ	adj:sg:nom:f:pos	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	conj	_	_
+12	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	14	case	_	_
+13	użyciu	użyć	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	12	fixed	_	_
+14	moskitiera	moskitier	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 149
+# text = Trudno walczyć z malarią od wewnątrz, ale równie trudno jest walczyć z nią od zewnątrz.
+1	Trudno	trudno	ADV	adv:pos	Degree=Pos	11	parataxis:insert	_	_
+2	walczyć	walczyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	4	case	_	_
+4	malarią	malaria	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	2	obl:arg	_	_
+5	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+6	wewnątrz	wewnątrz	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+8	ale	ale	CCONJ	conj	_	10	cc	_	_
+9	równie	równie	ADV	adv:pos	Degree=Pos	10	advmod	_	_
+10	trudno	trudno	ADV	adv:pos	Degree=Pos	1	conj	_	_
+11	jest	być	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	walczyć	walczyć	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	14	case	_	_
+14	nią	on	PRON	ppron3:sg:inst:f:ter:akc:praep	Case=Ins|Gender=Fem|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	12	obl:arg	_	_
+15	od	od	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	16	case	_	_
+16	zewnątrz	zewnątrz	ADV	adv	_	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	interp	PunctType=Peri	11	punct	_	_
+
+# sent_id = 150
+# text = W rezultacie narzucamy własne priorytety ludziom z krajów dotkniętych malarią.
+1	W	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	3	advmod	_	_
+2	rezultacie	rezultat	NOUN	subst:sg:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	narzucamy	narzucać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	własne	własny	ADJ	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	_
+5	priorytety	priorytet	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	obj	_	_
+6	ludziom	człowiek	NOUN	subst:pl:dat:m1	Animacy=Hum|Case=Dat|Gender=Masc|Number=Plur	3	iobj	_	_
+7	z	z	ADP	prep:gen:nwok	AdpType=Prep|Variant=Short	8	case	_	_
+8	krajów	kraj	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	dotkniętych	dotknąć	ADJ	ppas:pl:gen:n:perf:aff	Aspect=Perf|Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Pass	8	acl	_	_
+10	malarią	malaria	NOUN	subst:sg:inst:f	Case=Ins|Gender=Fem|Number=Sing	9	iobj	_	SpaceAfter=No
+11	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 151
+# text = To samo robiliśmy w latach 50. i ponieśliśmy klęskę.
+1	To	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	samo	sam	ADV	adv:pos	Degree=Pos	3	advmod	_	_
+3-4	robiliśmy	_	_	_	_	_	_	_	_
+3	robili	robić	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Plur|Person=1|Variant=Short	3	aux:clitic	_	_
+5	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	6	case	_	_
+6	latach	rok	NOUN	subst:pl:loc:m3	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	obl	_	_
+7	50	50	NUM	num:pl:loc:m3:congr	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|NumForm=Digit|NumType=Card	6	appos	_	SpaceAfter=No
+8	.	.	PUNCT	interp	PunctType=Peri	7	punct	_	_
+9	i	i	CCONJ	conj	_	10	cc	_	_
+10-11	ponieśliśmy	_	_	_	_	_	_	_	_
+10	ponieśli	ponieść	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+11	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Plur|Person=1|Variant=Short	10	aux:clitic	_	_
+12	klęskę	klęska	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	3	punct	_	_
+
+# sent_id = 152
+# text = Uważam, że obecnie, gdy rozprowadzamy zaprojektowane przez nas narzędzia, które niekoniecznie mają sens w codziennym życiu, istnieje ryzyko, że powtórzymy ten sam błąd.
+1	Uważam	uważać	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	interp	PunctType=Comm	21	punct	_	_
+3	że	że	SCONJ	comp	_	21	mark	_	_
+4	obecnie	obecnie	ADV	adv:pos	Degree=Pos	21	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+6	gdy	gdy	ADV	adv	_	7	advmod	_	_
+7	rozprowadzamy	rozprowadzać	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+8	zaprojektowane	zaprojektować	ADJ	ppas:sg:nom:n:perf:aff	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Part|Voice=Pass	11	acl	_	_
+9	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	10	case	_	_
+10	nas	my	PRON	ppron12:pl:acc:m1:pri	Animacy=Hum|Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	8	obl:agent	_	_
+11	narzędzia	narzędzie	NOUN	subst:pl:acc:n:ncol	Case=Acc|Gender=Neut|Number=Plur	7	obj	_	SpaceAfter=No
+12	,	,	PUNCT	interp	PunctType=Comm	15	punct	_	_
+13	które	który	DET	adj:pl:acc:n:pos	Case=Acc|Gender=Neut|Number=Plur|PronType=Int	15	iobj	_	_
+14	niekoniecznie	niekoniecznie	ADV	adv:pos	Degree=Pos	15	advmod	_	_
+15	mają	mieć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+16	sens	sens	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	iobj	_	_
+17	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	19	case	_	_
+18	codziennym	codzienny	ADJ	adj:sg:loc:n:pos	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	życiu	życie	NOUN	subst:sg:loc:n:ncol	Case=Loc|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	interp	PunctType=Comm	15	punct	_	_
+21	istnieje	istnieć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp:obj	_	_
+22	ryzyko	ryzyko	NOUN	subst:sg:acc:n:ncol	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	SpaceAfter=No
+23	,	,	PUNCT	interp	PunctType=Comm	25	punct	_	_
+24	że	że	SCONJ	comp	_	25	mark	_	_
+25	powtórzymy	powtórzyć	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	22	ccomp	_	_
+26	ten	ten	DET	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	28	det	_	_
+27	sam	sam	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	26	fixed	_	_
+28	błąd	błąd	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+29	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 153
+# text = Nie oznacza to, że malarii nie da się pokonać, bo uważam, że się da, ale może zaatakujmy tę chorobę zgodnie z priorytetami ludzi, którzy z nią żyją?
+1	Nie	nie	PART	part	Polarity=Neg	2	advmod:neg	_	_
+2	oznacza	oznaczać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	to	to	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	interp	PunctType=Comm	8	punct	_	_
+5	że	że	SCONJ	comp	_	8	mark	_	_
+6	malarii	malaria	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	8	nsubj	_	_
+7	nie	nie	PART	part	Polarity=Neg	8	advmod:neg	_	_
+8	da	dać	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+9	się	się	PRON	part	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+10	pokonać	pokonać	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	13	punct	_	_
+12	bo	bo	SCONJ	comp	_	13	mark	_	_
+13	uważam	uważać	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	interp	PunctType=Comm	17	punct	_	_
+15	że	że	SCONJ	comp	_	17	mark	_	_
+16	się	się	PRON	part	PronType=Prs|Reflex=Yes	17	expl:pv	_	_
+17	da	dać	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	13	ccomp	_	SpaceAfter=No
+18	,	,	PUNCT	interp	PunctType=Comm	21	punct	_	_
+19	ale	ale	CCONJ	conj	_	21	cc	_	_
+20	może	móc	PART	part	PartType=Mod	21	advmod:emph	_	_
+21	zaatakujmy	zaatakować	VERB	impt:pl:pri:imperf	Aspect=Imp|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	2	conj	_	_
+22	tę	ten	DET	adj:sg:acc:f:pos	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
+23	chorobę	choroba	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+24	zgodnie	zgodnie	ADV	adv:pos	Degree=Pos	21	advmod	_	_
+25	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	26	case	_	_
+26	priorytetami	priorytet	NOUN	subst:pl:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	24	obl:arg	_	_
+27	ludzi	człowiek	NOUN	subst:pl:gen:m1	Animacy=Hum|Case=Gen|Gender=Masc|Number=Plur	26	nmod:arg	_	SpaceAfter=No
+28	,	,	PUNCT	interp	PunctType=Comm	32	punct	_	_
+29	którzy	który	DET	adj:pl:nom:m1:pos	Animacy=Hum|Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	32	nsubj	_	_
+30	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	31	case	_	_
+31	nią	on	PRON	ppron3:sg:inst:f:ter:akc:praep	Case=Ins|Gender=Fem|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs|Variant=Long	32	obl:arg	_	_
+32	żyją	żyć	VERB	fin:pl:ter:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	acl:relcl	_	SpaceAfter=No
+33	?	?	PUNCT	interp	PunctType=Qest	2	punct	_	_
+
+# sent_id = 154
+# text = Weźmy na przykład Anglię i USA.
+1	Weźmy	wziąć	VERB	impt:pl:pri:perf	Aspect=Perf|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
+2	na	na	ADP	prep:acc	AdpType=Prep	4	parataxis:insert	_	_
+3	przykład	przykład	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	fixed	_	_
+4	Anglię	Anglia	PROPN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+5	i	i	CCONJ	conj	_	6	cc	_	_
+6	USA	USA	PROPN	subst:pl:dat:n:pt	Case=Dat|Gender=Neut|Number=Ptan	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 155
+# text = Malaria panowała tam przez setki lat i pozbyliśmy się jej całkowicie.
+1	Malaria	malaria	PROPN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	panowała	panować	VERB	praet:sg:f:imperf	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	tam	tam	ADV	adv	PronType=Dem	2	advmod	_	_
+4	przez	przez	ADP	prep:acc:nwok	AdpType=Prep|Variant=Short	5	case	_	_
+5	setki	setka	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	2	obl	_	_
+6	lat	rok	NOUN	subst:pl:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod:arg	_	_
+7	i	i	CCONJ	conj	_	8	cc	_	_
+8-9	pozbyliśmy	_	_	_	_	_	_	_	_
+8	pozbyli	pozbyć	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+9	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Plur|Person=1|Variant=Short	8	aux:clitic	_	_
+10	się	się	PRON	part	PronType=Prs|Reflex=Yes	8	expl:pv	_	_
+11	jej	on	PRON	ppron3:sg:gen:f:ter:akc:npraep	Case=Gen|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	8	iobj	_	_
+12	całkowicie	całkowicie	ADV	adv:pos	Degree=Pos	8	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 156
+# text = Wcale jej nie atakowaliśmy.
+1	Wcale	wcale	ADV	adv	_	4	advmod	_	_
+2	jej	on	PRON	ppron3:sg:gen:f:ter:akc:npraep	Case=Gen|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|Variant=Long	4	obj	_	_
+3	nie	nie	PART	part	Polarity=Neg	4	advmod:neg	_	_
+4-5	atakowaliśmy	_	_	_	_	_	_	_	SpaceAfter=No
+4	atakowali	atakować	VERB	praet:pl:m1:imperf	Animacy=Hum|Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Plur|Person=1|Variant=Short	4	aux:clitic	_	_
+6	.	.	PUNCT	interp	PunctType=Peri	4	punct	_	_
+
+# sent_id = 157
+# text = Zaatakowaliśmy złe drogi, złe domy, złą kanalizację, brak prądu i ubóstwo wsi.
+1-2	Zaatakowaliśmy	_	_	_	_	_	_	_	_
+1	Zaatakowali	zaatakować	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Plur|Person=1|Variant=Short	1	aux:clitic	_	_
+3	złe	zły	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+4	drogi	droga	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	interp	PunctType=Comm	7	punct	_	_
+6	złe	zły	ADJ	adj:pl:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	_
+7	domy	dom	NOUN	subst:pl:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	10	punct	_	_
+9	złą	zły	ADJ	adj:sg:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	kanalizację	kanalizacja	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+11	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+12	brak	brak	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	conj	_	_
+13	prądu	prąd	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod:arg	_	_
+14	i	i	CCONJ	conj	_	15	cc	_	_
+15	ubóstwo	ubóstwo	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	_
+16	wsi	wieś	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 158
+# text = Zaatakowaliśmy malaryczny styl życia i dzięki temu z czasem pozbyliśmy się malarii.
+1-2	Zaatakowaliśmy	_	_	_	_	_	_	_	_
+1	Zaatakowali	zaatakować	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Plur|Person=1|Variant=Short	1	aux:clitic	_	_
+3	malaryczny	malaryczny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	styl	styl	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+5	życia	życie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	4	nmod:arg	_	_
+6	i	i	CCONJ	conj	_	11	cc	_	_
+7	dzięki	dzięki	ADP	prep:dat	AdpType=Prep	8	case	_	_
+8	temu	to	PRON	subst:sg:dat:n:ncol	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	11	obl	_	_
+9	z	z	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	10	case	_	_
+10	czasem	czas	NOUN	subst:sg:inst:m3	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
+11-12	pozbyliśmy	_	_	_	_	_	_	_	_
+11	pozbyli	pozbyć	VERB	praet:pl:m1:perf	Animacy=Hum|Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+12	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Clitic=Yes|Number=Plur|Person=1|Variant=Short	11	aux:clitic	_	_
+13	się	się	PRON	part	PronType=Prs|Reflex=Yes	11	expl:pv	_	_
+14	malarii	malaria	NOUN	subst:sg:gen:f	Case=Gen|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	interp	PunctType=Peri	1	punct	_	_
+
+# sent_id = 159
+# text = Atak na malaryczny styl życia to coś, co ich dziś obchodzi.
+1	Atak	atak	NOUN	subst:sg:nom:m3	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+2	na	na	ADP	prep:acc	AdpType=Prep	4	case	_	_
+3	malaryczny	malaryczny	ADJ	adj:sg:acc:m3:pos	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	styl	styl	NOUN	subst:sg:acc:m3	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	nmod:arg	_	_
+5	życia	życie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	to	to	AUX	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	7	cop	_	_
+7	coś	coś	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+9	co	co	PRON	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	12	nsubj	_	_
+10	ich	on	PRON	ppron3:pl:gen:n:ter:nakc:npraep	Case=Gen|Gender=Neut|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs|Variant=Short	12	iobj	_	_
+11	dziś	dziś	ADV	adv	_	12	advmod	_	_
+12	obchodzi	obchodzić	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	SpaceAfter=No
+13	.	.	PUNCT	interp	PunctType=Peri	7	punct	_	_
+
+# sent_id = 160
+# text = Atakowanie malarycznego stylu życia nie jest szybkie, tanie, ani łatwe, ale myślę, że tylko dzięki temu możemy stale iść do przodu.
+1	Atakowanie	Atakować	NOUN	subst:sg:nom:n:ncol	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+2	malarycznego	malaryczny	ADJ	adj:sg:gen:m3:pos	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	stylu	styl	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod:arg	_	_
+4	życia	życie	NOUN	subst:sg:gen:n:ncol	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+5	nie	nie	PART	part	Polarity=Neg	6	advmod:neg	_	_
+6	jest	być	AUX	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+7	szybkie	szybki	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	interp	PunctType=Comm	9	punct	_	_
+9	tanie	tać	NOUN	ger:sg:nom:n:imperf:aff	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos|VerbForm=Vnoun	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	interp	PunctType=Comm	12	punct	_	_
+11	ani	ani	CCONJ	conj	_	12	cc	_	_
+12	łatwe	łatwy	ADJ	adj:sg:nom:n:pos	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	interp	PunctType=Comm	15	punct	_	_
+14	ale	ale	CCONJ	conj	_	15	cc	_	_
+15	myślę	myśleć	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	SpaceAfter=No
+16	,	,	PUNCT	interp	PunctType=Comm	21	punct	_	_
+17	że	że	SCONJ	comp	_	21	mark	_	_
+18	tylko	tylko	PART	part	_	20	advmod:emph	_	_
+19	dzięki	dzięki	ADP	prep:dat	AdpType=Prep	20	case	_	_
+20	temu	to	PRON	subst:sg:dat:n:ncol	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	21	obl	_	_
+21	możemy	móc	VERB	fin:pl:pri:imperf	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	15	ccomp	_	_
+22	stale	stale	ADV	adv:pos	Degree=Pos	23	advmod	_	_
+23	iść	iść	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+24	do	do	ADP	prep:gen	AdpType=Prep	25	case	_	_
+25	przodu	przód	NOUN	subst:sg:gen:m3	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+26	.	.	PUNCT	interp	PunctType=Peri	7	punct	_	_
+
+# sent_id = 161
+# text = Bardzo dziękuję.
+1	Bardzo	bardzo	ADV	adv:pos	Degree=Pos	2	advmod	_	_
+2	dziękuję	dziękować	VERB	fin:sg:pri:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	interp	PunctType=Peri	2	punct	_	_
+
+# sent_id = 162
+# text = (Brawa)
+1	(	(	PUNCT	interp	PunctSide=Ini|PunctType=Brck	2	punct	_	SpaceAfter=No
+2	Brawa	brawo	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	interp	PunctSide=Fin|PunctType=Brck	2	punct	_	SpacesAfter=\s\n\n
+

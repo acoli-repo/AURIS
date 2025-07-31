@@ -1,0 +1,68 @@
+# PDTB annotation	AURIS relation/ISO SemAF relation or argument role 	comment
+Expectation 	expectation-raiser
+Concession.arg1-as-denier 	expectation-raiser
+Comparison.Concession.Arg1-as-denier 	expectation-raiser 	TED-MDB
+Contra-Expectation	contra-expectation
+Concession.arg2-as-denier	contra-expectation
+Comparison.Concession.Arg2-as-denier 	contra-expectation
+Contrast	Contrast
+Comparison.Contrast 	Contrast 	TED-MDB
+juxtaposition	Contrast
+opposition	Contrast
+Cause.reason	reason
+Contingency.Cause.Reason	reason 	TED-MDB
+justification	reason
+explanation	reason
+Cause.result	result
+Contingency.Cause 	causal 	TED-MDB
+Contingency.Cause.Result 	result	TED-MDB
+Condition	condition
+Contingency.Condition.Arg2-as-cond 	condition 	TED-MDB
+Result	goal
+Purpose.Arg2-as-goal	goal
+Contingency.Purpose.Arg2-as-goal 	goal 	TED-MDB
+Purpose.Arg1-as-goal	enablement
+succession	after
+Temporal.Asynchronous.Precedence	before 	TED-MDB
+Temporal.Synchronous 	Synchrony 	TED-MDB
+Exception	Exception
+Exception.Arg1-as-excpt	regular
+Exception	exception
+Exception.Arg2-as-excpt	exception
+Expansion.Exception.Arg2-as-excpt 	exception 	TED-MDB
+Substitution.Arg1-as-Subst	disfavoured
+Expansion.Substitution.Arg1-as-subst 	disfavoured 	TED-MDB
+Chosen-alternative	favoured
+Substitution.Arg2-as-Subst	favoured
+Expansion.Substitution.Arg2-as-subst 	favoured 	TED-MDB
+Instantiation.Arg1-as-instance	set
+Instantiation	instance
+Expansion.Instantiation	instance 	TED-MDB
+Instantiation.Arg2-as-instance	instance
+Level-of-detail	Elaboration
+Generalization	broad
+Level-of-detail.Arg1-as-detail	broad
+Expansion.Level-of-detail.Arg1-as-detail 	broad 	TED-MDB
+Restatement.specification	specific
+Level-of-detail.Arg2-as-detail	specific
+Expansion.Level-of-detail.Arg2-as-detail 	specific
+Manner.Arg1-as-manner	achievement
+Expansion.Manner.Arg1-as-manner 	achievement 	TED-MDB
+Expansion.Manner.Arg2-as-manner 	achievement 	TED-MDB
+Restatement.equivalence	Restatement
+Expansion.Equivalence 	Restatement
+Equivalence	Restatement
+conjunctive	Disjunction
+disjunctive	Disjunction
+Expansion.Disjunction 	Disjunction 	TED-MDB
+Conjunction	Conjunction
+Expansion.Conjunction 	Conjunction 	TED-MDB
+List	Conjunction
+Attribution	Attribution
+Comparison.Similarity 	Similarity 	TED-MDB
+Hypophora 	Hypophora 	TED-MDB
+SpeechAct 	_	TED-MDB: ignored flag
+Belief 	_	TED-MDB: ignored flag
+SpeechAct.Result 	result 	TED-MDB
+Belief.Result 	result 	TED-MDB
+Belief.Reason 	reason 	TED-MDB

@@ -5,17 +5,37 @@
 
 import xlsxwriter,sys,io,re,traceback,argparse
 
-args=argparse.ArgumentParser(description="""given files with word-level and sentence-level pre-annotation, produce an Excel file
-
-	TODO: incorporate pre-annotation, work on CoNLL-U files, instead
+args=argparse.ArgumentParser(description="""given files with word-level and sentence-level pre-annotation, 
+	produce an Excel file
 	""")
 args.add_argument("outfile",type=str,help="output file, Excel format")
 args.add_argument("-s","--sentences", type=str, help="sentence-level pre-annotation in TSV format", default=None)
+args.add_argument("-sm", "--sentence_relation_mapping", type=str, help="(requires -s) mapping table for discourse relations, should be a TSV file with SRC<TAB>TGT(<TAB>COMMENT), can contain #-marked comments",default=None)
 args.add_argument("-w","--words", type=str, help="word-level pre-annotation in TSV format", default=None)
+
 args=args.parse_args()
 
 if args.words==None and args.sentences==None:
 	raise Exception("at least one -s or -w argument needs to be provided")
+
+sRel2auris={}
+if args.sentence_relation_mapping!=None:
+	if args.sentences==None: raise Exception("using -sm without -s")
+	with open(args.sentence_relation_mapping,"rt",errors="ignore") as input:
+		for line in input:
+			line=line.strip()
+			if "\t" in line and not line.startswith("#"):
+				fields=line.split("\t")
+				try:
+					sRel=fields[0].strip()
+					auris=fields[1].strip()
+					if sRel!="" and auris!="":
+						if not sRel in sRel2auris: 
+							sRel2auris[sRel]=auris
+						elif not auris in sRel2auris[sRel].split("|"):
+							sRel2auris[sRel]+="|"+auris
+				except Exception:
+					pass
 
 workbook = xlsxwriter.Workbook(args.outfile)
 
@@ -59,29 +79,67 @@ if args.sentences!=None:
 	with open(args.sentences,"rt",errors="ignore") as input:
 		for nr,line in enumerate(input):
 			line=line.rstrip()
+			fields=line.split("\t")
 
 			if line!="":
 
 				# Copy content
-				for col,val,layout in zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ",line.split("\t"), FORMATS):
+				for col,val,layout in zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ",fields, FORMATS):
 					worksheet.write(f'{col}{nr+2}', val.strip(), layout)
 
 				# Create formulas and placeholder values
 				if line[0]!="#":
+
+					comment_pre=""
 					
 					# MARKER
-					worksheet.write_formula(f'G{nr+2}', 
-						f'=IF(A{nr+2}=1,"_",IF(C{nr+2}="_","???",C{nr+2}))',
-						FORMATS[6],'') # '' required to trigger recalculation in LibreOffice
+					if len(fields)>5 and not(fields[5].strip() in ["","_"]): 
+						marker=fields[5].strip()
+						worksheet.write(f'G{nr+2}', marker, FORMATS[6])
+					else:
+						worksheet.write_formula(f'G{nr+2}', 
+							f'=IF(A{nr+2}=1,"_",IF(C{nr+2}="_","???",C{nr+2}))',
+							FORMATS[6],'') # '' required to trigger recalculation in LibreOffice
 
 					# TARGET
-					worksheet.write(f'H{nr+2}', "_", FORMATS[7])
+					target_pre="_"
+					if len(fields)>6: target_pre=fields[6].strip()
+					worksheet.write(f'H{nr+2}', target_pre, FORMATS[7])
 
 					# RELATION
-					worksheet.write(f'I{nr+2}', "_", FORMATS[8]) # TODO: replace by marker lookup
+					relation_pre="_"
+					if len(fields)>7: relation_pre=fields[7].strip()
+					if relation_pre in ("_",""):
+						relation_pre="_"
+					else:
+
+						if len(sRel2auris)>0:
+							transformed_rel=[]
+							for tmp in relation_pre.split("+"):
+								for rel in tmp.split("|"):
+									if len(rel)>0:
+										if rel in sRel2auris:
+											if not sRel2auris[rel].strip() in ("","_"):
+												transformed_rel.append(sRel2auris[rel])
+										else:
+											sys.stderr.write(f"warning: discourse relation {rel} is not covered by the mapping\n")
+							transformed_rel="|".join(sorted(set(transformed_rel)))
+
+							if transformed_rel=="":
+								comment_pre+="\n"+f"(unmappable relation)"
+								transformed_rel=relation_pre
+							else:
+								pass #sys.stderr.write(f"{relation_pre} -> {transformed_rel}\n")
+
+							if transformed_rel!=relation_pre:
+								comment_pre+="\n"+f"(orig: {relation_pre})"
+								relation_pre=transformed_rel
+
+					worksheet.write(f'I{nr+2}', relation_pre, FORMATS[8]) # TODO: replace by marker lookup
 
 					# COMMENT is empty
-					worksheet.write(f"J{nr+2}","",FORMATS[9])
+					comment_pre=comment_pre.strip()
+					worksheet.write(f"J{nr+2}",comment_pre,FORMATS[9])
 
 	# 3. overall layout
 	worksheet.set_default_row(60)
