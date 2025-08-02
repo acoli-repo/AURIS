@@ -13,3 +13,6 @@
 		  done 
 
 - `rs3` annotation with RSTTool, using AURIS labels
+
+	- ca. 10 token/minute
+		- ted-mdb-1927 1844 tokens, ca. 3 Stunden (09:00 - 13:05, 1 Std. Telco dazwischen)
