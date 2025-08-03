@@ -16,3 +16,6 @@
 
 	- ca. 10 token/minute
 		- ted-mdb-1927 1844 tokens, ca. 3 Stunden (09:00 - 13:05, 1 Std. Telco dazwischen)
+		- ted-mdb-1971 647 tokens, ca. 50 min (08:15 - 09:06)
+
+- I guess the annotation of hypophora might be systematically different from PDTB
