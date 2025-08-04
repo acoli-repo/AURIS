@@ -19,6 +19,7 @@
 		- ted-mdb-1971 647 tokens, ca. 50 min (08:15 - 09:06)
 		- ted-mdb-1976 1396 tokens, ca. 70 min
 		- ted-mdb-1978 05:15-06:19, 2070 tokens
+		- ted-mdb-2009 6:23-6:39 792 tokens
 
 - I guess the annotation of hypophora might be systematically different from PDTB
 	- systematic difference from "normal" AURIS is that the direction follows nuclearity, whereas "normal" AURIS follows discourse markers, different exhaustivity constraints (annotate every discourse marker vs. attach every utterance, because sometimes we annotate the relation at the nucleus, depending on directionality)
