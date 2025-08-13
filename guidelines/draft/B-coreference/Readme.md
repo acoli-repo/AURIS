@@ -17,22 +17,23 @@ Note that all annotations need to revised if changes to this manual occur. For t
 
 The manual consists of five separate documents:
 
-- [terms.md](terms.md): basic terminology, originally by Chiarcos and Krasavina (2005)
-- [format.md](format.md): file format and annotation procedure, by Christian Chiarcos (2023)
-- [refexp.mp](refexp.md): guidelines for automated pre-annotation for referring expressions, originally by Chiarcos and Krasavina (2005)
-- [coref.md](coreference.md): guidelines manual annotation of coreference and referentiality, originally by Chiarcos and Krasavina (2005)
-- [information-status.md](information-status.md): guidelines for the manual annotation of information status ("givenness"), originally by Gundel, Hedberg and Zacharski (1993)
-- [topic.md](topic.md): guidelines for the annotation of the familiarity topic according to Centering Theory (backward-lookinf center, Grosz et al., 1995)
+- [terms.md](../A-background/1-terms.md): basic terminology, originally by Chiarcos and Krasavina (2005)
+- [format.md](../A-background/2-format.md): file format and annotation procedure, by Christian Chiarcos (2023)
+- [refexp](../A-background/3-refexp.md): guidelines for automated pre-annotation for referring expressions, originally by Chiarcos and Krasavina (2005)
+- [coreference](1-coreference.md): guidelines manual annotation of coreference and referentiality, originally by Chiarcos and Krasavina (2005)
+- [information-status](../C-information-status/1-information-status.md): guidelines for the manual annotation of information status ("givenness"), originally by Gundel, Hedberg and Zacharski (1993)
+- [topic](../C-information-status/2-topic.md): guidelines for the annotation of the familiarity topic according to Centering Theory (backward-lookinf center, Grosz et al., 1995)
 
 
 Further, as a future extension:
 
-- [to-be-integrated/focus.md](to-be-integrated/focus.md): aspects of the annotation of focus. Currently, we annotate novelty (newsworthiness) as an approximation of new information focus.
+- [focus](../C-informationstatus/3-focus.md): aspects of the annotation of focus. Currently, we annotate novelty (newsworthiness) as an approximation of new information focus.
 
-Supplementary material is provided in
+Supplementary material is provided in accompanying `*.md` files, incl. 
 
-- [lit.md](lit.md): Sources, references, footnotes
-- [addenda.md](addenda.md): Material for future extensions
+- [lit](lit.md): Sources, references, footnotes
+- [addenda-comments](addenda-comments.md): Material for future extensions
+- [appendix-preannotation](appendix-preannotation.md): Material for future extensions
 
 This document is meant to be a practical handbook, compiled and revised from earlier manuals, with a focus on examples and common problems. In some design decisions, we deviate from our sources:
 
