@@ -124,3 +124,5 @@ Then eval
 ```
 $> python3 corefud-scorer/corefud-scorer.py abcnews.199762.corefud.pcf.conllu  abcnews.199762.corefud.tg.conllu
 ```
+
+Note that ParCorFull (at least in our conversion) contains massive gaps in annotation. 
