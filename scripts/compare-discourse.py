@@ -1,12 +1,13 @@
 import sys,re,os,argparse
 args=argparse.ArgumentParser(description="compare discourse annotations")
-args.add_argument("FILE", type=str, nargs=2, help="TSV file with discourse annotations")
+args.add_argument("-s", "--SRC", type=str, nargs="+", help="TSV files with discourse annotations, annotator 1", default=[])
+args.add_argument("-t", "--TGT", type=str, nargs="+", help="TSV files with discourse annotations, annotator 2", default=[])
 id_col=0
 tgt_col=7
 rel_col=8
-args.add_argument("-i", "--id_col", type=int, help=f"ID column, defaults to {id_col}", default=id_col)
-args.add_argument("-t", "--tgt_col", type=int, help=f"TARGET column, defaults to {tgt_col}", default=tgt_col)
-args.add_argument("-r", "--rel_col", type=int, help=f"RELATION column, defaults to {rel_col}", default=rel_col)
+args.add_argument("--id_col", type=int, help=f"ID column, defaults to {id_col}", default=id_col)
+args.add_argument("--tgt_col", type=int, help=f"TARGET column, defaults to {tgt_col}", default=tgt_col)
+args.add_argument("--rel_col", type=int, help=f"RELATION column, defaults to {rel_col}", default=rel_col)
 
 args=args.parse_args()
 
@@ -22,13 +23,25 @@ args=args.parse_args()
 # 			this is a baseline for relation identification
 # eval 3: UTT_CVG: coverage: for every utterance, did annotators annotate a target
 
-src=args.FILE[0]
-tgt=args.FILE[1]
+# prep
 
-with open(src,"rt") as input:
-	sid_tgt_rels=[ (int(row.split("\t")[args.id_col]), int(row.split("\t")[args.tgt_col]), row.split("\t")[args.rel_col].strip()) for row in input if len(row.split("\t"))> max(args.id_col,args.tgt_col,args.rel_col) and re.match(r"^[0-9]+$",row.split("\t")[args.id_col]) and re.match(r"^[0-9]+$",row.split("\t")[args.tgt_col]) ]
-with open(tgt,"rt") as input:
-	tid_tgt_rels=[ (int(row.split("\t")[args.id_col]), int(row.split("\t")[args.tgt_col]), row.split("\t")[args.rel_col].strip()) for row in input if len(row.split("\t"))> max(args.id_col,args.tgt_col,args.rel_col) and re.match(r"^[0-9]+$",row.split("\t")[args.id_col]) and re.match(r"^[0-9]+$",row.split("\t")[args.tgt_col]) ]
+if len(args.SRC)!=len(args.TGT):
+	sys.stderr.write("you need to provide paired (positionally corresponding) files, lists of SRC and TGT files differ in length\n")
+	sys.exit(1)
+
+offset=0
+for src,tgt in zip(args.SRC,args.TGT):
+	sys.stderr.write(f"compare {src} and {tgt}\n")
+	sys.stderr.flush()
+
+	diff=0
+	with open(src,"rt") as input:
+		sid_tgt_rels=[ (offset+int(row.split("\t")[args.id_col]), offset+int(row.split("\t")[args.tgt_col]), row.split("\t")[args.rel_col].strip()) for row in input if len(row.split("\t"))> max(args.id_col,args.tgt_col,args.rel_col) and re.match(r"^[0-9]+$",row.split("\t")[args.id_col]) and re.match(r"^[0-9]+$",row.split("\t")[args.tgt_col]) ]
+		diff=len(input.readlines())
+	with open(tgt,"rt") as input:
+		tid_tgt_rels=[ (offset+int(row.split("\t")[args.id_col]), offset+int(row.split("\t")[args.tgt_col]), row.split("\t")[args.rel_col].strip()) for row in input if len(row.split("\t"))> max(args.id_col,args.tgt_col,args.rel_col) and re.match(r"^[0-9]+$",row.split("\t")[args.id_col]) and re.match(r"^[0-9]+$",row.split("\t")[args.tgt_col]) ]
+		diff=max(diff,len(input.readlines()))
+	offset+=diff+1
 
 # eval 1: PAIR_ACC: did annotators connect the same arguments (= TED-MDB 1)
 sid2tgt={ sid:tgt for sid,tgt,_ in sid_tgt_rels}
@@ -54,7 +67,7 @@ SPANS_UNDIR_TP=SPANS_TP
 for id in set(list(sid2tgt.keys())+list(tid2tgt.keys())):
 	if id in sid2tgt and not id in tid2tgt:
 		tgt=sid2tgt[id]
-		if tgt in tgt2tids and id in tgt2ids[tgt]:
+		if tgt in tgt2tids and id in tgt2tids[tgt]:
 			SPAN_UNDIR_TP+=1
 			continue
 SPANS_UNDIR_ACC=SPANS_UNDIR_TP/SPANS_TOTAL

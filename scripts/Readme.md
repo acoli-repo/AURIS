@@ -66,4 +66,8 @@ $> python3 tsvs2excel.py -s ted-mdb-1927.tsv -sm pdtb2auris.tsv ted-mdb-1927.xls
 	- cf. `align.py` from https://github.com/acoli-repo/conll-merge, version of 2024-07-12
 		- for aligning TSV files with one-word-per-line (aka "CoNLL") annotations
 
+## Eval discourse
 
+```
+$> python3 compare-discourse.py -s ted-mdb.1971.dis.mdb.tsv -t ted-mdb.1971.dis.tg.tsv
+```
