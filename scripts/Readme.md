@@ -1,5 +1,21 @@
 # Conversion tools
 
+## AURIS-to-PAULA
+
+- see [here](https://raw.githubusercontent.com/korpling/paula-xml/master/PAULA_P1.1.2013.1.21a.pdf) for current PAULA-XML documentation
+- we have sample data in [`auris/`](auris/), this is created from [ted-mdb.1971-merged.xlsx](ted-mdb.1971-merged.xlsx) using [`auris2paula.py`](auris2paula.py)
+
+		> Note: We know that this still has issues, but it is XML valid and the data follows the PAULA 1.1 guidelines. Document structure and metadata might still be missing. Top priority would be to fix the data, and then to update the converter and re-do the conversion.
+
+- the goal is to convert this PAULA data to ANNIS, using [Pepper](https://github.com/korpling/pepper)
+- for ANNIS, we then need to manually create resolver_vis_map.annis, cf. the [PCC2.1 ANNIS release](https://angcl.ling.uni-potsdam.de/resources/pcc2.1_annis.zip)
+- for re-building the `auris/` folder, run
+
+	```
+	$> rm -rf auris
+	$> python3 auris2paula.py ted-mdb.1971-merged.xlsx auris/de/ted/ de
+	```
+
 ## AURIS parser (with CSV output)
 
 ```

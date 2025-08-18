@@ -69,9 +69,9 @@ with open(tok_xml,"wt") as output:
 			tokid=f"tok_{nr}"
 			s2w2tokid[s][w]=tokid
 			output.write(f"""\t\t\t\t<mark id="{tokid}" xlink:href="#xpointer(string-range(//body,'',{start+1},{end-start}))"/> <!-- {"_".join(parsed[s].get_words()[w-1]["WORD"].split("-"))} -->\n""")
-	output.write("\t\t\t</marklist>\n\t\t</paula>")
+	output.write("\t\t\t</markList>\n\t\t</paula>")
 
-# word-level annotations
+# coref markables and relations
 # note: our annotations are actually directly over tokens, but as current coref visualizations has separate markables as basis,
 #       we encode them in this way.
 coref_seg_xml=os.path.join(args.tgt,"coref_seg.xml")
@@ -109,6 +109,25 @@ with open(coref_seg_xml,"wt") as output:
 	
 		output.write(f"""\t\t\t</markList>\n\t\t\t</paula>\n""")
 		rels.write(f"""\t\t\t</relList>\n\t\t\t</paula>\n""")
+
+# coref feats
+for feat in ["GR","NP_TYPE","REF","IS","CB"]:
+	feat_xml=os.path.join(args.tgt,f"{feat}.xml")
+	with open(feat_xml,"wt") as output:
+		output.write(f"""<?xml version="1.0" standalone="no"?>
+			<!DOCTYPE paula SYSTEM "paula_feat.dtd">
+			<paula version="1.1">
+			<header paula_id="{docname}.{feat}"/>
+			<featList xmlns:xlink="http://www.w3.org/1999/xlink" type="{feat}" xml:base="{docname}.coref_seg">\n""")
+		mnr=0
+		for snr,s in enumerate(parsed):
+			for wnr,w in enumerate(s.get_words()):
+				if "COREF" in w and not str(w["COREF"]) in ["","_","???","!!!","nan"]:
+					mnr+=1
+					mid=f"markable_{mnr}"
+					if feat in w and not str(w[feat]) in ["", "_", "???", "!!!", "nan"]:
+						output.write(f"""\t\t\t\t<feat xlink:href="#{mid}" value="{w[feat]}"/> <!-- {"_".join(w["WORD"].split("-"))} -->\n""")
+		output.write("""\t\t\t</featList>\n\t\t</paula>\n""")
 
 # sentence-level markables
 sent_xml=os.path.join(args.tgt,"sent_seg.xml") # this is not from a concrete example, just as a general markup file
