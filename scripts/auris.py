@@ -19,8 +19,10 @@ class AURISSentence:
 		return text
 
 	def to_dict(self):
-		""" copy as dict """
-		return { id : feat2val for id,feat2val in self.id2feat2val.items() }
+		""" copy word- and sentence-level annotations as dict """
+		result={ id : feat2val for id,feat2val in self.id2feat2val.items() }
+		result[0]=self.feat2val
+		return result
 
 	def add_w_anno(self, id:int, feat2val:dict):
 		if not id in self.id2feat2val:
@@ -54,6 +56,11 @@ class AURISSentence:
 	def get_annos(self):
 		return self.feat2val
 
+	def get_words(self):
+		# similar to to_dict, but return word-level annotations only, and only as list
+		# we don't check for consequitive keys
+		return [ self.id2feat2val[key] for key in sorted(self.to_dict().keys()) if key>0]
+
 class AURISText:
 
 	wfeats=None
@@ -63,7 +70,6 @@ class AURISText:
 		self.lang=lang
 		self.sentences=[]
 		self.max_key_length=0
-
 	
 	def add_sentence(self, sentence: AURISSentence):
 		self.sentences+=[sentence]
@@ -143,6 +149,7 @@ class AURISParser:
 		text=AURISText(xlsx,self.lang)
 		
 		# init sentences
+		# TODO: if available, we take sentences from CoNLL-U
 		sentences=[]
 		if not isinstance(word_level,pandas.core.frame.DataFrame):
 			row2col2content=sentence_level.transpose().to_dict()
@@ -225,8 +232,16 @@ class AURISParser:
 
 
 if __name__=="__main__":
+
+	import argparse
+	args=argparse.ArgumentParser(description="""parse AURIS Excel and (optionally) accompanying CoNLLU file.
+		Note that we currently require that word-level, sentence-level and conll-u annotations use the same sentence splits""")
+	args.add_argument("xlsx", type=str, help="AURIS xlsx file to be converted")
+	args.add_argument("conllu", type=str, nargs="?", help="optional CoNLL-U file", default=None)
+	args=args.parse_args()
+
 	parser=AURISParser("de")
-	text=parser.parse(sys.argv[1])
+	text=parser.parse(args.xlsx,conllu=args.conllu)
 	print("="*30+" SENTENCE_LEVEL "+"="*30)
 	text.print_sentences()
 	print("="*30+"   WORD_LEVEL   "+"="*30)
