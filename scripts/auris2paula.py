@@ -71,6 +71,32 @@ with open(tok_xml,"wt") as output:
 			output.write(f"""\t\t\t\t<mark id="{tokid}" xlink:href="#xpointer(string-range(//body,'',{start+1},{end-start}))"/> <!-- {"_".join(parsed[s].get_words()[w-1]["WORD"].split("-"))} -->\n""")
 	output.write("\t\t\t</marklist>\n\t\t</paula>")
 
+# word-level annotations
+# note: our annotations are actually directly over tokens, but as current coref visualizations has separate markables as basis,
+#       we encode them in this way.
+coref_seg_xml=os.path.join(args.tgt,"coref_seg.xml")
+with open(coref_seg_xml,"wt") as output:
+	corefid2last_mention={}
+	output.write(f"""<?xml version="1.0" standalone="no"?>
+		<!DOCTYPE paula SYSTEM "paula_mark.dtd">
+		<paula version="1.1">
+		<header paula_id="{docname}.coref_seg"/>
+		<markList xmlns:xlink="http://www.w3.org/1999/xlink" type="mark" xml:base="{docname}.tok.xml">\n""")
+	relnr=0
+	mnr=0
+	for snr,s in enumerate(parsed):
+		for wnr,w in enumerate(s.get_words()):
+			if "COREF" in w and not str(w["COREF"]) in ["","_","???","!!!","nan"]:
+				corefid=w["COREF"]
+				tokid=s2w2tokid[snr][wnr+1]
+				mnr+=1
+				mid=f"markable_{mnr}"
+				output.write(f"""\t\t\t\t<mark id="{mid}" xlink:href="#{tokid}"/> <!-- {"_".join(w["WORD"].split("-"))} -->\n""")
+				corefid2last_mention[corefid]=mid
+#				if corefid in corefid2last_mention:
+#					relnr+=1
+	output.write(f"""\t\t\t</markList>\n\t\t\t</paula>\n""")
+
 # sentence-level markables
 sent_xml=os.path.join(args.tgt,"sent_seg.xml") # this is not from a concrete example, just as a general markup file
 with open(sent_xml,"wt") as output:
