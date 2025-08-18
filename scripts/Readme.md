@@ -1,6 +1,14 @@
 # Conversion tools
 
+## AURIS parser (with CSV output)
+
+```
+$> python3 auris.py ../annotators/team/tg/de/annotated/abcnews.199762.xlsx
+```
+
 ## AURIS conversion (from Excel to different TSV formats)
+
+TODO: revise on the basis of `auris.py`
 
 ```
 $> python3 auris2tsv.py corefud ../annotators/team/tg/de/annotated/abcnews.199762.xlsx
