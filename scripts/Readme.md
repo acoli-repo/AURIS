@@ -1,5 +1,45 @@
 # Conversion tools
 
+## AURIS-to-PAULA
+
+- see [here](https://raw.githubusercontent.com/korpling/paula-xml/master/PAULA_P1.1.2013.1.21a.pdf) for current PAULA-XML documentation
+- we have sample data in [`auris/`](auris/), this is created from [ted-mdb.1971-merged.xlsx](ted-mdb.1971-merged.xlsx) using [`auris2paula.py`](auris2paula.py)
+
+		> Note: We know that this still has issues, but it is XML valid and the data follows the PAULA 1.1 guidelines. Document structure and metadata might still be missing. Top priority would be to fix the data, and then to update the converter and re-do the conversion.
+
+- the goal is to convert this PAULA data to ANNIS, using [Pepper](https://github.com/korpling/pepper)
+- for ANNIS, we then need to manually create resolver_vis_map.annis, cf. the [PCC2.1 ANNIS release](https://angcl.ling.uni-potsdam.de/resources/pcc2.1_annis.zip)
+- for re-building the `auris/` folder, run
+
+	```
+	$> rm -rf auris
+	$> python3 auris2paula.py ted-mdb.1971-merged.xlsx auris/de/ted/ de
+	```
+
+## AURIS parser (with CSV output)
+
+```
+$> python3 auris.py ../annotators/team/tg/de/annotated/abcnews.199762.xlsx
+```
+
+## AURIS conversion (from Excel to different TSV formats)
+
+TODO: revise on the basis of `auris.py`
+
+```
+$> python3 auris2tsv.py corefud ../annotators/team/tg/de/annotated/abcnews.199762.xlsx
+```
+
+Because AURIS doesn't actually contain syntax, it needs to be merged with CoNLL-U:
+
+```
+$> python3 auris2tsv.py corefud ../annotators/team/tg/de/annotated/abcnews.199762.xlsx \
+	| python3 align.py 100 ../conllu/de/abcnews.199762.conllu=1 --=1 \
+	| cut -f 1-9,20 \
+	| sed -e s/'\(\t?\)*$'// -e s/'\t*$'//g \
+	| grep -P '^[0-9#]|^$'
+```
+
 ## Excel generation
 
 - `tsvs2excel.py` main libary, converts pre-annotations in TSV to Excel spreadsheet, if a mapping table is provided with (`-sm`), we map discourse relations and transformation errors
@@ -66,4 +106,47 @@ $> python3 tsvs2excel.py -s ted-mdb-1927.tsv -sm pdtb2auris.tsv ted-mdb-1927.xls
 	- cf. `align.py` from https://github.com/acoli-repo/conll-merge, version of 2024-07-12
 		- for aligning TSV files with one-word-per-line (aka "CoNLL") annotations
 
+## Eval discourse
 
+```
+$> python3 compare-discourse.py -s ted-mdb.1971.dis.mdb.tsv -t ted-mdb.1971.dis.tg.tsv
+```
+
+## Eval coref
+
+Note that we need to add `# global.Entity` for the CorefUD scorer.
+
+Merge with CoNLL-U and convert annotated files to CorefUD format:
+
+```
+$> (echo "# global.Entity = eid-etype-head-other";
+	python3 auris2tsv.py corefud ../annotators/team/tg/de/annotated/abcnews.199762.xlsx \
+	| python3 align.py 100 ../conllu/de/abcnews.199762.conllu=1 --=1 \
+	| cut -f 1-9,20 \
+	| sed -e s/'\(\t?\)*$'// -e s/'\t*$'//g \
+	| grep -P '^[0-9#]|^$') \
+	> abcnews.199762.corefud.tg.conllu
+```
+
+As `align.py` can cope with tokenization mismatches, omissions, insertions and encoding alternatives, we can actually align it with (the syntax part of) external CorefUD files, for parcor-full, we do, however, compare with the AURIS-converted files.
+
+Same for ParCorFull conversion
+
+```
+$> (echo "# global.Entity = eid-etype-head-other"; \
+	python3 align.py 100 ../conllu/de/abcnews.199762.conllu=1 ../preanno/parcor/refexp/de/abcnews.199762.conllu.tsv=0 \
+	| cut -f 1-9,18 \
+	| sed -e s/'\([a-z].*\t\)$'/'\1_'/ \
+			-e s/'\(\t?\)*$'// -e s/'\t*$'//g \
+	| grep -P '^[0-9#]|^$' \
+	| sed s/'^\(\([0-9]*\)\t.*\t\)set_\([0-9]*\)$'/'\1Entity=(e\3-entity-\2)'/) \
+	> abcnews.199762.corefud.pcf.conllu
+```
+
+Then eval
+
+```
+$> python3 corefud-scorer/corefud-scorer.py abcnews.199762.corefud.pcf.conllu  abcnews.199762.corefud.tg.conllu
+```
+
+Note that ParCorFull (at least in our conversion) contains massive gaps in annotation. 
