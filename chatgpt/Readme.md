@@ -13,6 +13,11 @@
 - for estimating token length: https://github.com/openai/tiktoken, https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken, I guess r50k_base is a good upper bound for the length of all later models
 - https://openai.com/index/introducing-structured-outputs-in-the-api/
 
+## JSON
+
+- cat givenness.json | jq '.["choices"][]["message"]["content"]|fromjson' | cut -f 4 -d '`' | sed s/'^json'//
+- response.
+
 ## Initial experiment
 
 ChatGPT, online version 2025-07-09

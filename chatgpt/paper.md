@@ -8,8 +8,14 @@ Gundel et al.'s Givenness Hierarchy is relatively widely used and has been appli
 
 AURIS aims to provide annotations for aspects of reference, information structure and discourse structure in a multilingual and cross-theoretically interpretable manner. At its core, it is a parallel corpus, so that annotations can be compared across different languages. As we consider the underlying, cognitive aspects of information structure and discourse structure to be universals of human communication, AURIS also allows to project discourse and information structure annotations across languages, and to study their relation with surface phenomena often associated with discourse. In our experiment, AURIS is used to 
 
-To some extent, AURIS builds on earlier annotation projects, and annotations converted from these are used for evaluating AURIS guidelines and to train annotations. In fact, the availability of related annotations has guided the selection of texts at the early stages of corpus development. 
+To some extent, AURIS builds on earlier annotation projects, and annotations converted from these are used for evaluating AURIS guidelines and to train annotations. In fact, the availability of related annotations has guided the selection of texts at the early stages of corpus development. At the moment, AURIS includes TED talks (cf. MDTB and Coref), two chapters of Sherlock Holmes stories by Arthur Conan Doyle (cf. FrameNet iSRL annotations), Lewis Carroll's Alice in Wonderland (cf. Emotion annotations), sections of the Bible (cf. OntoNotes coreference), selected fairy tales (cf. emotion annotation) and news articles (cf. Coref). The idea of this collection is to successively complete the annotations to construct a manually annotated core corpus and then subsequently expand it as part and in conjunction with the training of students of different language sciences at the Faculty of Philology and History at the University of Augsburg, Germany.
+
+...
 
 
 
 Prompt engineering: 
+
+The prompt is constructed 
+
+Discussion
