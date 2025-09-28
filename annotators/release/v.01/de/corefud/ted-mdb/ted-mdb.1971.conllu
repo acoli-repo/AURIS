@@ -1,0 +1,746 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Ich bin in Sierra Leone geboren und aufgewachsen , einem kleinen und sehr schönen Land in Westafrika , einem Land reich sowohl an Bodenschätzen als auch an kreativen Talenten .
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Entity=(e1-entity-1)
+2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	in	in	ADP	APPR	_	4	case	_	_
+4	Sierra	Sierra	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	6	obl	_	Entity=(e2-entity-4)
+5	Leone	Leon	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	4	flat	_	_
+6	geboren	gebären	VERB	VVPP	VerbForm=Part	0	root	_	_
+7	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	8	cc	_	_
+8	aufgewachsen	aufwachsen	VERB	VVPP	VerbForm=Part	6	conj	_	_
+9	,	,	PUNCT	$,	_	15	punct	_	_
+10	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+11	kleinen	klein	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	15	amod	_	_
+12	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	14	cc	_	_
+13	sehr	sehr	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	14	advmod	_	_
+14	schönen	schön	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	11	conj	_	_
+15	Land	Land	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	appos	_	_
+16	in	in	ADP	APPR	_	17	case	_	_
+17	Westafrika	Westafrika	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	15	nmod	_	Entity=(e3-entity-17)
+18	,	,	PUNCT	$,	_	20	punct	_	_
+19	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Land	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	appos	_	_
+21	reich	reich	ADJ	VVINF	VerbForm=Inf	6	advmod	_	_
+22	sowohl	sowohl	CCONJ	NN	Case=Dat|Gender=Neut|Number=Sing	21	cc	_	_
+23	an	an	ADP	APPR	_	24	case	_	_
+24	Bodenschätzen	Bodenschatz	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
+25	als	als	CCONJ	KON	_	29	cc	_	_
+26	auch	auch	ADV	ADV	_	29	advmod	_	_
+27	an	an	ADP	APPR	_	29	case	_	_
+28	kreativen	kreativ	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	29	amod	_	_
+29	Talenten	Talent	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	6	obl	_	_
+30	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Allerdings ist Sierra Leone berüchtigt für einen jahrzehntelangen Rebellenkrieg in den 90ern , in dem ganze Dörfer niedergebrannt wurden .
+1	Allerdings	allerdings	ADV	ADV	_	5	advmod	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	Sierra	Sierra	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	Entity=(e2)
+4	Leone	Leon	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	flat	_	_
+5	berüchtigt	berüchtigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	für	für	ADP	APPR	_	9	case	_	_
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	jahrzehntelangen	jahrzehntelang	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Plur	9	amod	_	_
+9	Rebellenkrieg	Rebellenkrieg	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	90ern	90	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	Entity=(e4-entity-12)
+13	,	,	PUNCT	$,	_	18	punct	_	_
+14	in	in	ADP	APPR	_	17	case	_	_
+15	dem	der	DET	ART	Case=Dat|Gender=Neut|Number=Sing|PronType=Rel	17	det	_	_
+16	ganze	ganz	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	17	amod	_	_
+17	Dörfer	Dorf	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	18	obl	_	Entity=(e5-entity-17)
+18	niedergebrannt	niederbrennen	VERB	VVPP	VerbForm=Part	12	acl	_	Entity=(e6-entity-18)
+19	wurden	werden	AUX	FM	Foreign=Yes	18	aux:pass	_	_
+20	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Schätzungsweise 8 000 Männern , Frauen und Kindern wurden in dieser Zeit Arme und Beine amputiert .
+1	Schätzungsweise	schätzungsweise	ADV	ADV	_	2	advmod	_	_
+2	8	8	NUM	CARD	NumType=Card	3	nummod	_	_
+3	000	000	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Männern	Mann	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	iobj	_	_
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	Frauen	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	conj	_	_
+7	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	8	cc	_	_
+8	Kindern	Kind	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	4	conj	_	_
+9	wurden	werden	AUX	FM	Foreign=Yes	16	aux:pass	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	dieser	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	Entity=(e4)
+13	Arme	Arm|Arme	NOUN	ADJA	Case=Acc|Gender=Neut|Number=Plur	16	obj	_	_
+14	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	15	cc	_	_
+15	Beine	Bein	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	conj	_	_
+16	amputiert	amputieren	VERB	VVPP	VerbForm=Part	0	root	_	_
+17	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Meine Familie und ich brachten uns vor einem dieser Angriffe in Sicherheit , als ich 12 war .
+1	Meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	2	det:poss	_	Entity=(e1)
+2	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	Entity=(e7-entity-2)
+3	und	und	CCONJ	NE	Foreign=Yes	4	cc	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	conj	_	Entity=(e1)
+5	brachten	bringen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Entity=(e8-entity-5)
+6	uns	wir	PRON	NE	Case=Gen|Gender=Masc|Number=Sing	5	obj	_	Entity=(e9-entity-6)
+7	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	10	case	_	_
+8	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	dieser	dies	PRON	PDS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	Angriffe	Angriff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	obl	_	Entity=(e6)
+11	in	in	ADP	APPR	_	12	case	_	_
+12	Sicherheit	Sicherheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+13	,	,	PUNCT	$,	_	16	punct	_	_
+14	als	als	SCONJ	KOUS	_	16	mark	_	_
+15	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	Entity=(e1)
+16	12	12	NUM	CARD	NumType=Card	5	advcl	_	_
+17	war	sein	AUX	ADV	_	16	cop	_	_
+18	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = In diesem Moment nahm ich mir vor , alles zu tun , um sicherzustellen , dass meine eigenen Kinder nicht dasselbe erleben müssen , was wir erlebt haben .
+1	In	in	ADP	APPR	_	3	case	_	_
+2	diesem	dies	PRON	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
+3	Moment	Moment	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	Entity=(e8)
+4	nahm	nehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Entity=(e1)
+6	mir	ich	PRON	PRF	Case=Dat|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	iobj	_	Entity=(e1)
+7	vor	vor	ADP	NE	Case=Acc|Gender=Fem|Number=Sing	4	compound:prt	_	_
+8	,	,	PUNCT	$,	_	11	punct	_	_
+9	alles	alle	PRON	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	11	obj	_	_
+10	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	11	mark	_	_
+11	tun	tun	VERB	VVINF	VerbForm=Inf	4	xcomp	_	_
+12	,	,	PUNCT	$,	_	14	punct	_	_
+13	um	um	ADP	KOUI	_	14	mark	_	_
+14	sicherzustellen	sicherstellen	VERB	VVIZU	VerbForm=Inf	4	advcl	_	_
+15	,	,	PUNCT	$,	_	22	punct	_	_
+16	dass	dass	SCONJ	KOUS	_	22	mark	_	_
+17	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Neut|Number=Plur|Poss=Yes	19	det:poss	_	Entity=(e1)
+18	eigenen	eigen	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	19	amod	_	_
+19	Kinder	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	22	nsubj	_	Entity=(e10-entity-19)
+20	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advmod	_	_
+21	dasselbe	dasselbe	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	22	nsubj	_	Entity=(e6)
+22	erleben	erleben	VERB	VVINF	VerbForm=Inf	14	ccomp	_	_
+23	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+24	,	,	PUNCT	$,	_	27	punct	_	_
+25	was	was	PRON	NN	Case=Nom|Gender=Fem|Number=Plur	27	obj	_	_
+26	wir	wir	PRON	ADJD	_	27	nsubj	_	Entity=(e11-entity-26)
+27	erlebt	erleben	VERB	VVPP	VerbForm=Part	4	acl	_	_
+28	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+29	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Vielmehr sollten sie Teil von einem Sierra Leone sein , in dem Krieg und Amputationen nicht als Strategie zur Machtgewinnung genutzt werden .
+1	Vielmehr	vielmehr	ADV	ADV	_	4	advmod	_	_
+2	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	Entity=(e10)
+4	Teil	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	22	nsubj:pass	_	_
+5	von	von	ADP	FM	Foreign=Yes	7	case	_	_
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Sierra	Sierra	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	Entity=(e2)
+8	Leone	Leon	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	7	flat	_	_
+9	sein	sein	AUX	VAINF	VerbForm=Inf	4	cop	_	_
+10	,	,	PUNCT	$,	_	13	punct	_	_
+11	in	in	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Krieg	Krieg	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	Entity=(e12-entity-13)
+14	und	und	CCONJ	NE	Foreign=Yes	15	cc	_	_
+15	Amputationen	Amputation	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_
+16	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advmod	_	_
+17	als	als	ADP	KOKOM	_	18	case	_	_
+18	Strategie	Strategie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obl	_	_
+19-20	zur	_	_	_	_	_	_	_
+19	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	21	case	_	_
+20	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Machtgewinnung	Machtgewinnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	22	obl	_	_
+22	genutzt	nutzen	VERB	VVPP	VerbForm=Part	0	root	_	_
+23	werden	werden	AUX	NE	Case=Acc|Number=Plur	22	aux:pass	_	_
+24	.	.	PUNCT	$.	_	22	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Ich beobachtete Menschen , die ich kannte , liebte , wie sie sich von dieser Verwüstung erholten , aber eine Sache quälte mich zutiefst , und zwar , dass viele der Amputierten in diesem Land nicht ihre Prothesen benutzten .
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Entity=(e1)
+2	beobachtete	beobachten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	obj	_	Entity=(e13-entity-3)
+4	,	,	PUNCT	$,	_	7	punct	_	_
+5	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	7	obj	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Entity=(e1)
+7	kannte	kennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl	_	_
+8	,	,	PUNCT	$,	_	9	punct	_	_
+9	liebte	lieben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+10	,	,	PUNCT	$,	_	17	punct	_	_
+11	wie	wie	SCONJ	NE	Case=Nom|Gender=Neut|Number=Sing	17	mark	_	_
+12	sie	sie	PRON	NN	Case=Acc|Gender=Fem|Number=Sing	17	nsubj	_	Entity=(e13)
+13	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	17	obj	_	_
+14	von	von	ADP	FM	Foreign=Yes	16	case	_	_
+15	dieser	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
+16	Verwüstung	Verwüstung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	Entity=(e12)
+17	erholten	erholten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	advcl	_	_
+18	,	,	PUNCT	$,	_	22	punct	_	_
+19	aber	aber	CCONJ	KON	_	22	cc	_	_
+20	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Sache	Sache	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	nsubj	_	_
+22	quälte	quälen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	conj	_	_
+23	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	22	obj	_	Entity=(e1)
+24	zutiefst	zutiefst	ADV	NN	Case=Nom|Gender=Neut|Number=Sing	22	advmod	_	_
+25	,	,	PUNCT	$,	_	27	punct	_	_
+26	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	27	cc	_	_
+27	zwar	zwar	ADV	ADV	_	2	advmod	_	_
+28	,	,	PUNCT	$,	_	39	punct	_	_
+29	dass	dass	SCONJ	KOUS	_	39	mark	_	_
+30	viele	viel	PRON	NE	Case=Nom|Gender=Neut|Number=Sing	39	nsubj	_	Entity=(e14-entity-30)
+31	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	Amputierten	Amputiert	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	39	nsubj	_	Entity=(e15-entity-32)
+33	in	in	ADP	APPR	_	35	case	_	_
+34	diesem	dies	PRON	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	35	det	_	_
+35	Land	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	32	nmod	_	Entity=(e2)
+36	nicht	nicht	PART	CARD	NumType=Card	39	advmod	_	_
+37	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Poss=Yes	38	det:poss	_	Entity=(e14)
+38	Prothesen	Prothese	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	39	obj	_	Entity=(e16-entity-38)
+39	benutzten	benutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+40	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = Der Grund , wie ich später herausfand , waren die Prothesenschäfte , die Schmerzen verursachten , weil sie nicht gut passten .
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Grund	Grund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	Entity=(e17-entity-2)
+3	,	,	PUNCT	$,	_	7	punct	_	_
+4	wie	wie	SCONJ	NN	Case=Nom|Gender=Neut|Number=Sing	7	mark	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Entity=(e1)
+6	später	spät	ADJ	ADJD	_	7	advmod	_	_
+7	herausfand	herausfinden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	_
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	det	_	_
+11	Prothesenschäfte	Prothesenschaft	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	_
+12	,	,	PUNCT	$,	_	15	punct	_	_
+13	die	der	DET	PRELS	Case=Nom|Number=Plur|PronType=Rel	15	nsubj	_	_
+14	Schmerzen	Schmerz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	15	obj	_	_
+15	verursachten	verursachten	VERB	VVINF	VerbForm=Inf	11	acl	_	_
+16	,	,	PUNCT	$,	_	21	punct	_	_
+17	weil	weil	SCONJ	KOUS	_	21	mark	_	_
+18	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	21	nsubj	_	Entity=(e17)
+19	nicht	nicht	PART	TRUNC	NumType=Card	21	advmod	_	_
+20	gut	gut	ADJ	ADJD	_	21	advmod	_	_
+21	passten	pas	ADJ	NN	Case=Acc|Gender=Masc|Number=Plur	15	advcl	_	_
+22	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Der Prothesenschaft ist der Teil , in welchen der Amputierte seinen Stumpf steckt , der mit der eigentlichen Prothese verbunden ist .
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Prothesenschaft	Prothesenschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	Entity=(e18-entity-2)
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Teil	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	,	,	PUNCT	$,	_	13	punct	_	_
+7	in	in	ADP	APPR	_	8	case	_	_
+8	welchen	welch	PRON	PWS	Case=Dat|Gender=Fem|Number=Plur|PronType=Int	13	obl	_	_
+9	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Amputierte	Amputiert	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	Entity=(e15)
+11	seinen	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	12	det:poss	_	Entity=(e15)
+12	Stumpf	stumpf	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obj	_	_
+13	steckt	stecken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_
+14	,	,	PUNCT	$,	_	20	punct	_	_
+15	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	20	nsubj:pass	_	_
+16	mit	mit	ADP	$(	_	19	case	_	_
+17	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	eigentlichen	eigentlich	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	19	amod	_	_
+19	Prothese	Prothese	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	Entity=(e16)
+20	verbunden	verbinden	VERB	VVPP	VerbForm=Part	5	acl	_	_
+21	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	20	aux:pass	_	_
+22	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Selbst in den Industrieländern dauert es drei Wochen bis hin zu Jahren , bis sich ein Patient an den Schaft gewöhnt , wenn überhaupt .
+1	Selbst	selbst	ADV	ADV	_	5	advmod	_	_
+2	in	in	ADP	APPR	_	4	case	_	_
+3	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	4	det	_	_
+4	Industrieländern	Industrieländ	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	5	obl	_	Entity=(e19-entity-4)
+5	dauert	dauern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+7	drei	drei	NUM	CARD	NumType=Card	8	nummod	_	_
+8	Wochen	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	nsubj	_	_
+9	bis	bis	ADP	APPR	_	10	case	_	_
+10	hin	hin	ADV	ADV	_	5	advmod	_	_
+11	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	12	case	_	_
+12	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	5	obl	_	_
+13	,	,	PUNCT	$,	_	21	punct	_	_
+14	bis	bis	SCONJ	KOUS	_	21	mark	_	_
+15	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	21	obj	_	_
+16	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Patient	Patient	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	Entity=(e20-entity-17)
+18	an	an	ADP	APPR	_	20	case	_	_
+19	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Schaft	Schaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	Entity=(e18)
+21	gewöhnt	wöhnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+22	,	,	PUNCT	$,	_	24	punct	_	_
+23	wenn	wenn	SCONJ	VVFIN	_	24	mark	_	_
+24	überhaupt	überhaupt	ADV	ADV	_	21	advmod	_	_
+25	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Prothesenbauer benutzen immer noch konventionelle Methoden , wie Pressen und Gießen , um Unibody-Prothesenschäfte herzustellen .
+1	Prothesenbauer	Prothesenbauer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	Entity=(e21-entity-1)
+2	benutzen	benutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	immer	immer	ADV	ADV	_	4	advmod	_	_
+4	noch	noch	ADV	CARD	NumType=Card	2	advmod	_	_
+5	konventionelle	konventionell	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	6	amod	_	_
+6	Methoden	Methode	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+7	,	,	PUNCT	$,	_	9	punct	_	_
+8	wie	wie	ADP	NN	Case=Dat|Gender=Fem|Number=Sing	9	case	_	_
+9	Pressen	Presse	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nmod	_	_
+10	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	11	cc	_	_
+11	Gießen	gießen	NOUN	NE	Case=Dat|Gender=Fem|Number=Sing	9	conj	_	_
+12	,	,	PUNCT	$,	_	17	punct	_	_
+13	um	um	ADP	KOUI	_	17	mark	_	_
+14	Unibody	Unibody	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+15	-	-	PUNCT	$(	_	16	punct	_	SpaceAfter=No
+16	Prothesenschäfte	Prothesenschaft	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	14	flat	_	Entity=(e17)
+17	herzustellen	herstellen	VERB	VVIZU	VerbForm=Inf	2	advcl	_	_
+18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = Solche Schäfte üben oft unerträglichen Druck auf die Glieder der Patienten aus und verursachen Druckwunden und Blasen .
+1	Solche	solch	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	Schäfte	Schaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	Entity=(e17)
+3	üben	üben	VERB	ADV	_	0	root	_	_
+4	oft	oft	ADV	CARD	NumType=Card	3	advmod	_	_
+5	unerträglichen	unerträglich	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	6	amod	_	_
+6	Druck	Druck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+7	auf	auf	ADP	APPR	_	9	case	_	_
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	9	det	_	_
+9	Glieder	Glieder	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	nmod	_	Entity=(e22-entity-9)
+10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	Patienten	Patient	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	Entity=(e20)
+12	aus	aus	ADP	APPR	_	3	compound:prt	_	_
+13	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	14	cc	_	_
+14	verursachen	verursachen	VERB	ADJA	Case=Dat|Gender=Masc|Number=Plur	3	conj	_	_
+15	Druckwunden	Druckwunde	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	14	obj	_	_
+16	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	17	cc	_	_
+17	Blasen	blasen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	15	conj	_	_
+18	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = Ganz gleich , wie leistungsfähig die Knöchelprothese ist , wenn der Prothesenschaft unbequem ist , werden Sie die Prothese nicht nutzen , und das ist heutzutage einfach inakzeptabel .
+1	Ganz	ganz	PROPN	ADV	_	2	advmod	_	_
+2	gleich	gleich	ADV	ADV	_	5	advmod	_	_
+3	,	,	PUNCT	$,	_	4	punct	_	_
+4	wie	wie	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	5	advmod	_	_
+5	leistungsfähig	leistungsfähig	ADJ	ADJD	_	7	amod	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Knöchelprothese	Knöchelprothese	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	Entity=(e16)
+8	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+9	,	,	PUNCT	$,	_	13	punct	_	_
+10	wenn	wenn	SCONJ	VVFIN	_	13	mark	_	_
+11	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Prothesenschaft	Prothesenschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	Entity=(e18)
+13	unbequem	unbequem	ADJ	ADJD	_	7	advcl	_	_
+14	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	13	cop	_	_
+15	,	,	PUNCT	$,	_	13	punct	_	_
+16	werden	werden	AUX	NE	Case=Gen|Gender=Masc|Number=Plur	21	aux	_	_
+17	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	_
+18	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Prothese	Prothese	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	Entity=(e16)
+20	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advmod	_	_
+21	nutzen	nutzen	VERB	VVINF	VerbForm=Inf	0	root	_	Entity=(e23-entity-21)
+22	,	,	PUNCT	$,	_	28	punct	_	_
+23	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	28	cc	_	_
+24	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	28	nsubj	_	Entity=(e23)
+25	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+26	heutzutage	heutzutage	ADV	ADV	_	28	advmod	_	_
+27	einfach	einfach	ADJ	ADV	_	28	advmod	_	_
+28	inakzeptabel	inakzeptabel	ADJ	ADJD	_	21	conj	_	_
+29	.	.	PUNCT	$.	_	21	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 14
+# text = Damals , als ich Professor Hugh Herr vor zweieinhalb Jahren traf , und er mich fragte , ob ich eine Lösung für dieses Problem hätte , sagte ich : " Nein , noch nicht , aber ich würde sie liebend gerne finden . "
+1	Damals	damals	ADV	ADV	_	2	advmod	_	_
+2	,	,	PUNCT	$,	_	11	punct	_	_
+3	als	als	SCONJ	KOUS	_	11	mark	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	Entity=(e1)
+5	Professor	Professor	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	obj	_	_
+6	Hugh	Hugh	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	Entity=(e24-entity-6)
+7	Herr	Herr	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	flat	_	_
+8	vor	vor	ADP	NE	Case=Nom|Gender=Masc|Number=Sing	10	case	_	_
+9	zweieinhalb	zweieinhalb	NUM	CARD	NumType=Card	10	nummod	_	_
+10	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	11	obl	_	_
+11	traf	treffen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	advcl	_	_
+12	,	,	PUNCT	$,	_	11	punct	_	_
+13	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	16	cc	_	_
+14	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	Entity=(e24)
+15	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obj	_	Entity=(e1)
+16	fragte	fragen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	ccomp	_	_
+17	,	,	PUNCT	$,	_	25	punct	_	_
+18	ob	ob	SCONJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	mark	_	_
+19	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	Entity=(e1)
+20	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Lösung	Lösung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	Entity=(e25-entity-21)
+22	für	für	ADP	APPR	_	24	case	_	_
+23	dieses	dies	PRON	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	24	det	_	_
+24	Problem	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	21	nmod	_	Entity=(e23)
+25	hätte	haben	VERB	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	ccomp	_	_
+26	,	,	PUNCT	$,	_	16	punct	_	_
+27	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+28	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	Entity=(e1)
+29	:	:	PUNCT	$.	_	31	punct	_	_
+30	"	"	PUNCT	$(	_	31	punct	_	_
+31	Nein	nein	PART	PTKANT	_	27	ccomp	_	_
+32	,	,	PUNCT	$,	_	42	punct	_	_
+33	noch	noch	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	42	cc	_	_
+34	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	advmod	_	_
+35	,	,	PUNCT	$,	_	42	punct	_	_
+36	aber	aber	CCONJ	KON	_	42	cc	_	_
+37	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	42	nsubj	_	Entity=(e1)
+38	würde	werden	AUX	NE	Case=Nom|Number=Sing	42	aux	_	_
+39	sie	sie	PRON	VVINF	VerbForm=Inf	42	nsubj	_	Entity=(e25)
+40	liebend	liebend	ADJ	ADJD	_	42	advmod	_	_
+41	gerne	gerne	ADV	ADV	_	42	advmod	_	_
+42	finden	finden	VERB	VVINF	VerbForm=Inf	27	conj	_	_
+43	.	.	PUNCT	$.	_	27	punct	_	_
+44	"	"	PUNCT	$(	_	27	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Also habe ich für meine Doktorarbeit am MIT Media Lab maßgefertige Prothesenschäfte entworfen , schnell und günstig , mit mehr Tragekomfort als herkömmliche Prothesen .
+1	Also	also	ADV	ADV	_	14	advmod	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	Entity=(e1)
+4	für	für	ADP	APPR	_	6	case	_	_
+5	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	6	det:poss	_	Entity=(e1)
+6	Doktorarbeit	Doktorarbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	Entity=(e26-entity-6)
+7-8	am	_	_	_	_	_	_	_
+7	an	an	ADP	APPR	_	10	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	MIT	Mit	PROPN	APPR	_	10	amod	_	_
+10	Media	Media	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	Entity=(e27-entity-10)
+11	Lab	Leben	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	10	flat	_	_
+12	maßgefertige	maßgefertig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	13	amod	_	_
+13	Prothesenschäfte	Prothesenschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nsubj:pass	_	Entity=(e28-entity-13)
+14	entworfen	entwerfen	VERB	VVPP	VerbForm=Part	0	root	_	_
+15	,	,	PUNCT	$,	_	16	punct	_	_
+16	schnell	schnell	ADJ	NE	Case=Dat|Gender=Neut|Number=Sing	14	advmod	_	_
+17	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	18	cc	_	_
+18	günstig	günstig	ADJ	ADJD	_	16	conj	_	_
+19	,	,	PUNCT	$,	_	25	punct	_	_
+20	mit	mit	ADP	ADJA	Case=Nom|Number=Plur	22	case	_	_
+21	mehr	mehr	PRON	ADV	_	22	det	_	_
+22	Tragekomfort	Tragekomfort	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	25	nmod	_	_
+23	als	als	ADP	KOKOM	_	25	case	_	_
+24	herkömmliche	herkömmlich	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	25	amod	_	_
+25	Prothesen	Prothese	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	14	conj	_	Entity=(e17)
+26	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Mittels Magnetresonanztomografie ( MRT ) erfasste ich die genaue Form der Anatomie des Patienten , benutzte die Berechnungstechnologie FEM , um besser vorherzusehen , welche inneren Belastungen bei normaler Nutzung entstehen , und lies danach einen Prothesenschaft herstellen .
+1	Mittels	mittels	ADP	APPR	_	2	case	_	_
+2	Magnetresonanztomografie	Magnetresonanztomografie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+3	(	(	PUNCT	$(	_	4	punct	_	_
+4	MRT	MRT	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	2	appos	_	Entity=(e29-entity-4)
+5	)	)	PUNCT	$(	_	4	punct	_	_
+6	erfasste	erfassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	advcl	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Entity=(e1)
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	genaue	genau	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	10	amod	_	_
+10	Form	Form	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	Entity=(e30-entity-10)
+11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Anatomie	Anatomie	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	Entity=(e31-entity-12)
+13	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Patienten	Patient	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	Entity=(e20)
+15	,	,	PUNCT	$,	_	6	punct	_	_
+16	benutzte	benutzen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Berechnungstechnologie	Berechnungstechnologie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+19	FEM	F	PROPN	NN	Case=Acc|Gender=Fem|Number=Plur	18	appos	_	Entity=(e32-entity-19)
+20	,	,	PUNCT	$,	_	23	punct	_	_
+21	um	um	ADP	KOUI	_	23	mark	_	_
+22	besser	gut	ADJ	ADJD	_	23	advmod	_	_
+23	vorherzusehen	vorherzusehen	VERB	NN	Case=Dat|Gender=Neut|Number=Sing	16	advcl	_	_
+24	,	,	PUNCT	$,	_	31	punct	_	_
+25	welche	welch	PRON	NN	Case=Dat|Gender=Neut|Number=Sing	31	nsubj	_	_
+26	inneren	inner	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	27	amod	_	_
+27	Belastungen	Belastung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	31	obj	_	_
+28	bei	bei	ADP	APPR	_	30	case	_	_
+29	normaler	normal	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	30	amod	_	_
+30	Nutzung	Nutzung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	31	obl	_	_
+31	entstehen	entstehen	VERB	VVINF	VerbForm=Inf	23	acl	_	_
+32	,	,	PUNCT	$,	_	34	punct	_	_
+33	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	34	cc	_	_
+34	lies	lesen	VERB	FM	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	16	conj	_	_
+35	danach	danach	ADV	PAV	_	34	advmod	_	_
+36	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	Prothesenschaft	Prothesenschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	38	obj	_	_
+38	herstellen	herstellen	VERB	VVINF	VerbForm=Inf	34	xcomp	_	_
+39	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Wir benutzen 3D-Drucker , um Prothesenschäfte aus mehreren Materialen herzustellen , die den Druck dort verringern , wo es die Anatomie des Patienten nötig macht .
+1	Wir	wir	PRON	ADJD	_	2	nsubj	_	Entity=(e33-entity-1)
+2	benutzen	benutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	3D	3D	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	$(	_	3	punct	_	SpaceAfter=No
+5	Drucker	Drucker	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	obj	_	_
+6	,	,	PUNCT	$,	_	12	punct	_	_
+7	um	um	ADP	KOUI	_	12	mark	_	_
+8	Prothesenschäfte	Prothesenschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	Entity=(e28)
+9	aus	aus	ADP	APPR	_	11	case	_	_
+10	mehreren	mehrere	PRON	ADJA	Case=Acc|Gender=Masc|Number=Sing	11	det	_	_
+11	Materialen	Material	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	12	obl	_	_
+12	herzustellen	herstellen	VERB	VVIZU	VerbForm=Inf	2	advcl	_	_
+13	,	,	PUNCT	$,	_	18	punct	_	_
+14	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	18	nsubj	_	_
+15	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Druck	Druck	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	Entity=(e34-entity-16)
+17	dort	dort	ADV	ADV	_	18	advmod	_	_
+18	verringern	verringern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_
+19	,	,	PUNCT	$,	_	27	punct	_	_
+20	wo	wo	ADV	NE	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	27	advmod	_	_
+21	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+22	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Anatomie	Anatomie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	obj	_	Entity=(e31)
+24	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Patienten	Patient	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	Entity=(e20)
+26	nötig	nötig	ADJ	ADJD	_	27	advmod	_	_
+27	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl	_	_
+28	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 18
+# text = Kurz gesagt , wir benutzen Daten , um neuartige Schäfte schnell und günstig herzustellen .
+1	Kurz	kurz	ADJ	ADJD	_	2	advmod	_	_
+2	gesagt	sagen	VERB	VVPP	VerbForm=Part	0	root	_	_
+3	,	,	PUNCT	$,	_	5	punct	_	_
+4	wir	wir	PRON	ADJD	_	5	nsubj	_	Entity=(e33)
+5	benutzen	benutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	Daten	Datum	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	obj	_	_
+7	,	,	PUNCT	$,	_	14	punct	_	_
+8	um	um	ADP	KOUI	_	14	mark	_	_
+9	neuartige	neuartig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	10	amod	_	_
+10	Schäfte	Schaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	obj	_	Entity=(e28)
+11	schnell	schnell	ADJ	ADV	_	14	advmod	_	_
+12	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	13	cc	_	_
+13	günstig	günstig	ADJ	ADJD	_	11	conj	_	_
+14	herzustellen	herstellen	VERB	VVIZU	VerbForm=Inf	5	advcl	_	_
+15	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = In einem Versuch , den wir vor kurzem am Media Lab durchführten , hat einer unserer Patienten , ein US-Veteran , der seit über 20 Jahren amputiert ist und schon dutzende Prothesen getragen hat , Folgendes über unsere ausgedruckten Prothesen gesagt : " Sie ist so weich , als würde man auf Kissen laufen , und verdammt sexy . "	1	--	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	3	case	_	_
+2	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Versuch	Versuch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	_
+4	,	,	PUNCT	$,	_	13	punct	_	_
+5	den	der	PRON	PRELS	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	13	obj	_	_
+6	wir	wir	PRON	ADJD	_	13	nsubj	_	Entity=(e33)
+7	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	8	case	_	_
+8	kurzem	kurz	NOUN	ADJA	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	_
+9-10	am	_	_	_	_	_	_	_
+9	an	an	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Media	Media	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	Entity=(e27)
+12	Lab	Leben	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	11	flat	_	_
+13	durchführten	durchführen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	acl	_	_
+14	,	,	PUNCT	$,	_	13	punct	_	_
+15	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+16	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	unserer	unser	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	18	amod	_	_
+18	Patienten	Patient	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	36	obj	_	Entity=(e35-entity-18)
+19	,	,	PUNCT	$,	_	21	punct	_	_
+20	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	US	US	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No|Entity=(e36-entity-21)
+22	-	-	PUNCT	$(	_	23	punct	_	SpaceAfter=No
+23	Veteran	Veteran	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	21	flat	_	_
+24	,	,	PUNCT	$,	_	30	punct	_	_
+25	der	der	PRON	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	nsubj	_	_
+26	seit	seit	ADP	NN	Case=Nom|Gender=Masc|Number=Sing	29	case	_	_
+27	über	über	ADV	FM	Foreign=Yes	28	advmod	_	_
+28	20	20	NUM	CARD	NumType=Card	29	nummod	_	_
+29	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	30	nmod	_	_
+30	amputiert	amputieren	ADJ	ADJD	_	21	acl	_	_
+31	ist	sein	AUX	ADJD	_	30	cop	_	_
+32	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	35	cc	_	_
+33	schon	schon	ADV	ADV	_	34	advmod	_	_
+34	dutzende	dutzende	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	35	amod	_	_
+35	Prothesen	Prothese	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	36	obj	_	Entity=(e16)
+36	getragen	tragen	VERB	VVPP	VerbForm=Part	44	advcl	_	_
+37	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+38	,	,	PUNCT	$,	_	44	punct	_	_
+39	Folgendes	Folgende	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	44	nsubj	_	_
+40	über	über	ADP	FM	Foreign=Yes	43	case	_	_
+41	unsere	unser	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	43	det:poss	_	Entity=(e33)
+42	ausgedruckten	ausgedruckt	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	43	amod	_	_
+43	Prothesen	Prothese	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	44	obl	_	Entity=(e37-entity-43)
+44	gesagt	sagen	VERB	VVPP	VerbForm=Part	0	root	_	_
+45	:	:	PUNCT	$.	_	50	punct	_	_
+46	"	"	PUNCT	$(	_	50	punct	_	_
+47	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	50	nsubj	_	Entity=(e37)
+48	ist	sein	AUX	ADJD	_	50	cop	_	_
+49	so	so	ADV	NE	Case=Nom|Gender=Neut|Number=Plur	50	advmod	_	_
+50	weich	weich	ADJ	ADJD	_	44	parataxis	_	_
+51	,	,	PUNCT	$,	_	57	punct	_	_
+52	als	als	SCONJ	KOKOM	_	57	mark	_	_
+53	würde	werden	AUX	NE	Case=Nom|Number=Sing	57	aux	_	_
+54	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	57	nsubj	_	_
+55	auf	auf	ADP	APPR	_	56	case	_	_
+56	Kissen	Kissen	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	57	obl	_	_
+57	laufen	laufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	50	conj	_	_
+58	,	,	PUNCT	$,	_	57	punct	_	_
+59	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	60	cc	_	_
+60	verdammt	verdammen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	61	conj	_	_
+61	sexy	sexy	X	FM	Foreign=Yes	50	conj	_	_
+62	.	.	PUNCT	$.	_	50	punct	_	_
+63	"	"	PUNCT	$(	_	50	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = ( Lachen ) Heutzutage sollten Behinderungen niemanden mehr daran hindern , ein sinnsvolles Leben zu führen .
+1	(	(	PUNCT	$(	_	2	punct	_	_
+2	Lachen	Lachen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	dep	_	_
+3	)	)	PUNCT	$(	_	2	punct	_	_
+4	Heutzutage	heutzutage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+5	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+6	Behinderungen	Behinderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+7	niemanden	niemand	PRON	PIS	Case=Acc|Definite=Ind|Number=Sing|PronType=Ind	10	iobj	_	_
+8	mehr	mehr	PRON	ADV	_	9	det	_	_
+9	daran	daran	PRON	PAV	_	10	nsubj	_	_
+10	hindern	hindern	VERB	VVINF	VerbForm=Inf	0	root	_	_
+11	,	,	PUNCT	$,	_	16	punct	_	_
+12	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
+13	sinnsvolles	sinnsvoll	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	14	amod	_	_
+14	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+15	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	16	mark	_	_
+16	führen	führen	VERB	VVINF	VerbForm=Inf	10	xcomp	_	_
+17	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 21
+# text = Meine Hoffnung und mein Wunsch ist es , dass die Werkzeuge und Prozesse , die wir in unserer Forschungsgruppe entwickeln , genutzt werden können , um hochfunktionale Prothesen herzustellen , für die , die sie brauchen .
+1	Meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	2	det:poss	_	Entity=(e1)
+2	Hoffnung	Hoffnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Entity=(e38-entity-2)
+3	und	und	CCONJ	NE	Foreign=Yes	5	cc	_	_
+4	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	5	det:poss	_	Entity=(e1)
+5	Wunsch	Wunsch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	Entity=(e25)
+6	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+8	,	,	PUNCT	$,	_	22	punct	_	_
+9	dass	dass	SCONJ	KOUS	_	22	mark	_	_
+10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	det	_	_
+11	Werkzeuge	Werkzeug	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	22	nsubj:pass	_	Entity=(e39-entity-11)
+12	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	13	cc	_	_
+13	Prozesse	Prozeß	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	conj	_	_
+14	,	,	PUNCT	$,	_	20	punct	_	_
+15	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	20	obj	_	_
+16	wir	wir	PRON	ADJD	_	20	nsubj	_	Entity=(e33)
+17	in	in	ADP	APPR	_	19	case	_	_
+18	unserer	unser	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	19	det:poss	_	Entity=(e33)
+19	Forschungsgruppe	Forschungsgruppe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	Entity=(e40-entity-19)
+20	entwickeln	entwickeln	VERB	VVINF	VerbForm=Inf	11	acl	_	_
+21	,	,	PUNCT	$,	_	11	punct	_	_
+22	genutzt	nutzen	VERB	VVPP	VerbForm=Part	2	csubj	_	_
+23	werden	werden	AUX	NE	Case=Acc|Number=Plur	22	aux:pass	_	_
+24	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+25	,	,	PUNCT	$,	_	29	punct	_	_
+26	um	um	ADP	KOUI	_	29	mark	_	_
+27	hochfunktionale	hochfunktional	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	28	amod	_	_
+28	Prothesen	Prothese	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	29	obj	_	Entity=(e37)
+29	herzustellen	herstellen	VERB	VVIZU	VerbForm=Inf	22	advcl	_	_
+30	,	,	PUNCT	$,	_	32	punct	_	_
+31	für	für	ADP	APPR	_	32	case	_	_
+32	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Rel	29	obl	_	Entity=(e15)
+33	,	,	PUNCT	$,	_	36	punct	_	_
+34	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Rel	36	obj	_	_
+35	sie	sie	PRON	NN	Case=Acc|Gender=Masc|Number=Plur	36	nsubj	_	Entity=(e37)
+36	brauchen	brauchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	acl	_	_
+37	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 22
+# text = Für mich ist es ein Anfang , um die Seelen derer zu heilen , die vom Krieg und Krankheiten betroffen sind , ist für mich komfortable und erschwingliche Schnittstellen für ihre Körper herzustellen .
+1	Für	für	ADP	APPR	_	2	case	_	_
+2	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	nmod	_	Entity=(e1)
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Anfang	Anfang	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	27	nmod	_	_
+7	,	,	PUNCT	$,	_	13	punct	_	_
+8	um	um	ADP	KOUI	_	13	mark	_	_
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	10	det	_	_
+10	Seelen	Seel	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	13	obj	_	Entity=(e41-entity-10)
+11	derer	der	DET	PRELS	Case=Gen|Number=Plur|PronType=Rel	13	det	_	Entity=(e15)
+12	zu	zu	PART	NN	Case=Gen|Gender=Neut|Number=Sing	13	mark	_	_
+13	heilen	heilen	VERB	VVINF	VerbForm=Inf	6	advcl	_	_
+14	,	,	PUNCT	$,	_	21	punct	_	_
+15	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	21	nsubj	_	_
+16-17	vom	_	_	_	_	_	_	_
+16	von	von	ADP	FM	Foreign=Yes	18	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Krieg	Krieg	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	21	obl	_	_
+19	und	und	CCONJ	NE	Case=Dat|Gender=Neut|Number=Sing	20	cc	_	_
+20	Krankheiten	Krankheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	18	conj	_	_
+21	betroffen	betreffen	VERB	ADJD	_	6	acl	_	_
+22	sind	sein	AUX	ADJD	_	21	cop	_	_
+23	,	,	PUNCT	$,	_	6	punct	_	_
+24	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+25	für	für	ADP	APPR	_	26	case	_	_
+26	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	27	nmod	_	Entity=(e1)
+27	komfortable	komfortabel	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
+28	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	29	cc	_	_
+29	erschwingliche	erschwinglich	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	30	conj	_	_
+30	Schnittstellen	Schnittstelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	34	obj	_	_
+31	für	für	ADP	APPR	_	33	case	_	_
+32	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	33	det:poss	_	Entity=(e20)
+33	Körper	Körper	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	30	nmod	_	Entity=(e31)
+34	herzustellen	herstellen	VERB	VVIZU	VerbForm=Inf	27	xcomp	_	Entity=(e42-entity-34)
+35	.	.	PUNCT	$.	_	27	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = Ob in Sierra Leone oder in Boston , ich hoffe , dass dies nicht nur ihren Sinn für menschliches Können wiederherstellt , sondern verändert .
+1	Ob	ob	SCONJ	ADJA	Case=Nom|Gender=Fem|Number=Sing|NumType=Card	3	cc	_	_
+2	in	in	ADP	APPR	_	3	case	_	_
+3	Sierra	Sierra	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	10	obl	_	Entity=(e2)
+4	Leone	Leon	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	flat	_	_
+5	oder	oder	CCONJ	NE	Case=Nom|Gender=Fem|Number=Sing	7	cc	_	_
+6	in	in	ADP	APPR	_	7	case	_	_
+7	Boston	Boston	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	conj	_	Entity=(e43-entity-7)
+8	,	,	PUNCT	$,	_	10	punct	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	Entity=(e1)
+10	hoffe	hoffen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	,	,	PUNCT	$,	_	21	punct	_	_
+12	dass	dass	SCONJ	KOUS	_	21	mark	_	_
+13	dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	21	nsubj	_	Entity=(e42)
+14	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advmod	_	_
+15	nur	nur	ADV	CARD	NumType=Card	17	advmod	_	_
+16	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	17	det:poss	_	Entity=(e31)
+17	Sinn	Sinn	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	21	obj	_	Entity=(e44-entity-17)
+18	für	für	ADP	APPR	_	20	case	_	_
+19	menschliches	menschlich	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	20	amod	_	_
+20	Können	können	NOUN	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	obl	_	_
+21	wiederherstellt	wiederherstellen	VERB	VVPP	VerbForm=Part	10	ccomp	_	_
+22	,	,	PUNCT	$,	_	24	punct	_	_
+23	sondern	sondern	CCONJ	NN	Case=Nom|Gender=Masc|Number=Plur	24	cc	_	_
+24	verändert	verändern	ADJ	VVPP	VerbForm=Part	21	conj	_	_
+25	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 24
+# text = Vielen Dank
+1	Vielen	viel	DET	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	amod	_	_
+2	Dank	Dank	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n\n
+
+
+

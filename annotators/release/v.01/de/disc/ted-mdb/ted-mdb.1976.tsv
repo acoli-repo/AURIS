@@ -1,0 +1,89 @@
+# ID	TEXT	MARKER	TARGET	RELATION
+1	Im All wimmelt es von Planeten .	(aktuell)	2	synchrony
+2	Ich will , dass wir in nur einem Jahrzehnt ein Weltraumteleskop bauen , das das Bild einer Erde im Orbit eines anderen Sterns erfassen und herausfinden kann , ob es dort Leben geben könnte .	(und)	1	Conjunction
+3	Meine Kollegen im NASA Jet Propulsion Laboratory in Princeton und ich arbeiten an einer Technologie , die in einigen Jahren genau dazu in der Lage sein wird .	(aus diesem Grund)	2	result
+4	Astronomen glauben heute , dass jeder Stern in der Galaxis einen Planeten hat .	heute	1	synchrony
+5	Sie schätzen , dass bis zu ein Fünftel davon einen erdähnlichen Planeten hat , auf dem Leben möglich wäre .	(zudem)	4	Conjunction
+6	Gesehen aber haben wir noch keinen ; wir haben sie nur indirekt erfasst .	aber	5	contra-expectation
+7	Dies ist das berühmte NASA-Foto vom blass-blauen Punkt .	_	8	attribution
+8	Aufgenommen wurde es 1990 von der Raumsonde Voyager , als man sie beim Verlassen des Sonnensystems drehte , um aus einer Entfernung von 6 Mrd.	(konkret)	7	specific
+9	km eine Foto von der Erde zu machen .	_	8	fragment
+10	So ein Bild möchte ich von einem erdähnlichen Planeten eines anderen Sterns machen .	so	7	Similarity
+11	Warum gibt es das noch nicht ?	warum	30	Hypophora
+12	Warum ist das schwer ?	(anders gefragt)	11	restatement
+13	Stellen Sie sich vor , wir nähmen das Hubble Weltraumteleskop , drehten es um und setzten es in eine Umlaufbahn um den Mars .	(zu diesem Zweck)	10	enablement
+14	Wir würden vermutlich ein leicht unscharfes Bild der Erde sehen , weil wir ein recht kleines Teleskop in der Umlaufbahn des Mars sind .	(in dem Fall)	13	consequence
+15	Nun gehen wir auf die 10-fache Distanz .	danach (nun)	14	after
+16	Hier sind wir in der Umlaufbahn des Uranus .	(infolgedessen)	15	result
+17	Das Bild ist kleiner , weniger detailliert , gröber .	(in dem Fall)	15	consequence
+18	Man sieht den kleinen Mond noch .	(und)	17	conjunction
+19	Gehen wir wieder 10-mal so weit weg !	(danach)	15	after
+20	Hier sind wir am Rand des Sonnensystems , im Kuipergürtel .	(infolgedessen)	19	result
+21	Es gibt gar keine Auflösung mehr .	(in dem Fall)	19	consequence
+22	Die Erde ist nun Carl Sagans blass-blauer Punkt .	(und)	21	Conjunction
+23	Wir entfernen uns wieder um das 10-Fache .	(danach)	19	after
+24	Nun sind wir in der Oort ' schen Wolke außerhalb des Sonnensystems , und wir sehen , wie die Sonne langsam in unser Sichtfeld rückt , wo sich der Planet befindet .	nun (infolgedessen)	23	result
+25	Und wieder 10-mal weiter weg .	(danach)	23	after
+26	Nun sind wir bei Alpha Centauri , unserem nächsten Nachbarstern , und der Planet ist weg .	nun (infolgedessen)	25	result
+27	Alles , was wir sehen , ist das große strahlende Bild des Sterns , der 10-Mrd.-mal heller leuchtet als der Planet , der in dem kleinen roten Kreis sein sollte .	(in dem Fall)	25	consequence
+28	Das wollen wir sehen .	(aber)	27	contrast
+29	Deshalb ist es so schwer !	deshalb	27	result
+30	Das Licht vom Stern wird gebeugt , im Inneren des Teleskops gestreut , und erzeugt das sehr helle Bild , das den Planeten verblassen lässt .	(weil)	29	reason
+31	Um den Planeten sichtbar zu machen , müssen wir etwas gegen all das Licht tun .	(dafür)	28	enablement
+32	Wir müssen es loswerden .	(anders gesagt)	31	Restatement
+33	Viele meiner Kollegen arbeiten an tollen Technologien zu dem Zweck , aber ich möchte Ihnen heute die vorstellen , die ich am coolsten finde und die uns am ehesten innerhalb des nächsten Jahrzehnts eine Erde liefert .	zu dem Zweck	31	enablement
+34	Vorgestellt wurde die Idee 1962 vom Vater des Weltraumteleskops , Lyman Spitzer .	(zuvor)	33	before
+35	Dazu angeregt hatte ihn eine Eklipse .	dazu (wegen)	34	reason
+36	Sie kennen das alle : eine Sonnenfinsternis .	(anders gesagt)	35	Restatement
+37	Der Mond hat sich vor die Sonne geschoben .	(weil)	36	reason
+38	Er deckt den Großteils des Lichts ab und wir sehen um ihn herum eine matte Korona .	(dadurch)	37	result
+39	Es ist wie wenn ich den Daumen hochhalte und den Strahler abblocke , der mich blendet : Ich kann Sie in der hinteren Reihe sehen .	wie wenn	38	Similarity
+40	Also , was passiert hier ?	was	41	Hypophora
+41	Nun , der Mond wirft einen Schatten auf die Erde .	(kurz gesagt)	40	broad
+42	Wir platzieren ein Teleskop oder eine Kamera in diesen Schatten , blicken zurück auf die Sonne , der Großteil des Lichts ist weg , und wir können die matte , feine Struktur in der Korona erkennen .	(anschließend)	41	after
+43	Spitzer schlug vor , das im Weltraum nachzustellen .	(genauso)	42	Similarity
+44	Wir bauen eine große Lichtblende , fliegen sie ins All , platzieren sie vor dem Stern , verdecken den Großteil des Lichts , fliegen ein Weltraumteleskop in den so erzeugten Schatten und " Zack ! " -- wir sehen Planeten .	(konkret)	43	specific
+45	Aussehen würde das ungefähr so : Da ist die große Lichtblende -- und es gibt keine Planeten .	(dann)	44	consequence
+46	Denn leider funktioniert das so nicht sehr gut , weil die Lichtwellen des Lichts und die Wellen um die Lichtblende gebeugt werden , auf dieselbe Weise wie im Teleskop .	denn	45	reason
+47	Es ist wie Wasser , das einen Stein im Bach umfließt , und all das Licht zerstört den Schatten einfach .	wie	46	Similarity
+48	Es ist ein schlechter Schatten : Wir sehen keine Planeten .	(denn)	45	cause
+49	Aber Spitzer kannte die Lösung .	aber	48	contra-expectation
+50	Wenn wir die Kanten aufbrechen , sie weicher machen könnten , um die Beugung zu reduzieren , dann können wir einen Planeten sehen .	(indem)	49	means
+51	In den letzten , rund zehn Jahren haben wir genau dafür optimale Lösungen gefunden .	dafür	50	enablement
+52	Eine davon sieht ungefähr so aus : Wir nennen sie blütenförmige Sternenblende ( " Starshade " ) .	eine davon	51	instance
+53	Wenn wir die Kanten der Blütenblätter genau richtig hinbekommen , regulieren wir ihre Form so , dass wir die Beugung reduzieren .	(indem)	52	means
+54	Nun ist es ein toller Schatten .	nun (dadurch)	53	result
+55	Er ist etwa 10-Mrd.-mal dunkler als zuvor , und wir erkennen die angestrahlten Planeten -- einfach so .	(konkret)	54	specific
+56	Sie muss natürlich größer sein als mein Daumen .	(zu diesem Zweck)	54	enablement
+57	Starshade ist halb so groß wie ein Fußballfeld .	(konkret)	56	specific
+58	Sie muss 50 000 Kilometer vom Teleskop wegfliegen , das exakt in ihrem Schatten bleiben muss , und dann können wir diese Planeten sehen .	(und)	56	Conjunction
+59	Das klingt schwierig , aber brillante Ingenieure , meine Kollegen bei JPL , haben ein fabelhaftes Design entwickelt , und das sieht so aus .	(auch wenn)	58	concession
+60	Sie ist anfangs um eine Nabe gewickelt .	(außerdem)	57	Conjunction
+61	Sie trennt sich vom Teleskop .	(dann)	60	after
+62	Die Blütenblätter entfalten sich -- öffnen sich .	(dann)	61	after
+63	Das Teleskop dreht sich herum .	(dann)	62	after
+64	Sie sehen , wie Starshade wendet und 50 000 Kilometer vom Teleskop wegfliegt .	(dann)	63	after
+65	Sie wird sich vor den Stern platzieren und , einfach so , einen wunderbaren Schatten erzeugen .	(anschließend)	64	after
+66	Zack , wir kriegen die Planeten in seiner Umlaufbahn .	(dadurch)	65	achievement
+67	( Applaus ) Vielen Dank .	_	_	NoRel
+68	Das ist kein Science-Fiction .	(jedoch)	52	contra-expectation
+69	Wir arbeiten seit 5 oder 6 Jahren daran .	(dafür)	52	enablement
+70	Letzten Sommer haben wir einen coolen Test durchgeführt , in Kalifornien bei Northrop Grumman .	(etwa)	69	instance
+71	Dies sind vier Blütenblätter einer Starshade im kleinen Maßstab .	_	_	NoRel
+72	Sie ist ca. halb so groß wie die , die Sie eben sahen .	(und)	71	conjunction
+73	Hier entfalten sich die Blätter .	(und)	71	Conjunction
+74	Vier Studenten haben diese vier Blätter im Sommerpraktikum bei JPL gebaut .	(zuvor)	71	before
+75	Sie sehen , wie sie ausfahren .	(anders gesagt)	73	restatement
+76	Die Blätter müssen sich richtig drehen .	(dafür)	75	enablement
+77	Das Gerüst der Blätter muss jedes Mal exakt zur selben Stelle ausfahren , auf ein Zehntel Millimeter genau .	(konkret)	75	specific
+78	Wir haben den Test 16-mal ausgeführt , und 16-mal blieb es exakt an derselben Stelle stehen , auf ein Zehntel Millimeter genau .	(konkret)	70	specific
+79	Dies muss mit absoluter Präzision erfolgen , aber wenn es gelingt , diese Technologie zu bauen und ins All zu bringen , dann könnte man so etwas erblicken : Dies ist ein Bild eines unserer Nachbarsterne vom Hubble-Weltraumteleskop .	(dafür)	78	enablement
+80	Wenn wir ein ähnliches Weltraumteleskop , ein etwas größeres , dort hinausbringen und eine Blende davorfliegen könnten , dann sähen wir vielleicht so etwas ...	ähnliches	71	Similarity
+81	Das ist ein Familienporträt des Sonnensystems -- aber nicht unseres ; wir hoffen auf ein anderes Sonnensystem -- , durch eine Blende gesehen , eine Starshade wie diese .	_	_	NoRel
+82	Sie sehen Jupiter , Saturn , Uranus , Neptun und , direkt dort in der Mitte , neben dem Rest an Licht , ist der blass-blaue Punkt .	dort	81	EntRel
+83	Das ist die Erde .	das	81	EntRel
+84	Das wollen wir sehen -- sehen , ob es Wasser gibt , Sauerstoff , Ozon , Dinge , die uns verraten , ob es dort Leben geben könnte .	(und)	83	conjunction
+85	Für mich ist dies die coolste Wissenschaft .	(deshalb)	84	cause
+86	Darum arbeite ich in diesem Feld , weil ich denke , das wird die Welt verändern .	darum	85	result
+87	Wenn wir das sehen , wird das alles verändern .	(und)	84	conjunction
+88	Vielen Dank .	_	_	NoRel

@@ -1,0 +1,1107 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Russland und Türkei: Eine "Allianz von Außenseitern"
+1	Russland	Rußland	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	Entity=(e1-entity-1)
+2	und	und	CCONJ	NE	Foreign=Yes	3	cc	_	_
+3	Türkei	Türkei	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No|Entity=(e2-entity-3)
+4	:	:	PUNCT	$.	_	7	punct	_	_
+5	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	"	"	PUNCT	$(	_	7	punct	_	SpaceAfter=No|Entity=(e3-entity-6)
+7	Allianz	Allianz	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	Entity=(e4-entity-7)
+8	von	von	ADP	FM	Foreign=Yes	9	case	_	_
+9	Außenseitern	Außenseiter	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+10	"	"	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+11	?	?	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Es war eine Geste, die eine Krise beendete.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Entity=(e5-entity-1)
+2	war	sein	AUX	ADV	_	4	cop	_	_
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Geste	Geste	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	9	punct	_	_
+6	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	9	nsubj	_	_
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Krise	Krise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	Entity=(e6-entity-8)
+9	beendete	beenden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Die Anführer Russlands und der Türkei trafen sich am Dienstag, um sich die Hände zu geben und ein offizielles Ende des acht Monate lang andauernden Krieges der Worte und wirtschaftlichen Sanktionen zu verkünden.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Anführer	Anführer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	Entity=(e7-entity-2)
+3	Russlands	Rußlands	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	2	appos	_	Entity=(e1)
+4	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	6	cc	_	_
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Türkei	Türkei	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	3	conj	_	Entity=(e2)
+7	trafen	treffen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
+9-10	am	_	_	_	_	_	_	_
+9	an	an	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Dienstag	Dienstag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No|Entity=(e8-entity-11)
+12	,	,	PUNCT	$,	_	18	punct	_	_
+13	um	um	ADP	KOUI	_	18	mark	_	_
+14	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	18	iobj	_	_
+15	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	Hände	Hand	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	18	obj	_	_
+17	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	18	mark	_	_
+18	geben	geben	VERB	VVINF	VerbForm=Inf	7	advcl	_	Entity=(e5)
+19	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	35	cc	_	_
+20	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
+21	offizielles	offiziell	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	22	amod	_	_
+22	Ende	Ende	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	35	obj	_	_
+23	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+24	acht	acht	NUM	CARD	NumType=Card	25	nummod	_	_
+25	Monate	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	26	nmod	_	_
+26	lang	lang	ADJ	ADJD	_	27	advmod	_	_
+27	andauernden	andauernd	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing	28	amod	_	_
+28	Krieges	Krieg	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	Entity=(e6)
+29	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Worte	Wort	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	28	nmod	_	_
+31	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	33	cc	_	_
+32	wirtschaftlichen	wirtschaftlich	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	33	amod	_	_
+33	Sanktionen	Sanktion	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	30	conj	_	_
+34	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	35	mark	_	_
+35	verkünden	verkünden	VERB	VVINF	VerbForm=Inf	18	conj	_	SpaceAfter=No
+36	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Aber als Vladimir Putin seinen türkischen Gegenspieler im vergoldeten Saal des St. Petersburger Palastes in Empfang nimmt, kann ich mich nicht des Eindrucks verwehren, dass Ankara diese Versöhnung am meisten will.
+1	Aber	aber	CCONJ	KON	_	18	cc	_	_
+2	als	als	ADP	KOKOM	_	4	case	_	_
+3	Vladimir	Vladimu	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	4	det	_	Entity=(e9-entity-3)
+4	Putin	Putin	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+5	seinen	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	7	det:poss	_	Entity=(e9)
+6	türkischen	türkisch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
+7	Gegenspieler	Gegenspieler	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	Entity=(e10-entity-7)
+8-9	im	_	_	_	_	_	_	_
+8	in	in	ADP	APPR	_	11	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	vergoldeten	vergoldet	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	11	amod	_	_
+11	Saal	Saal	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	Entity=(e11-entity-11)
+12	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	St.	St.	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	Petersburger	Petersburger	PROPN	ADJA	_	13	flat	_	_
+15	Palastes	Palast	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	13	flat	_	Entity=(e12-entity-15)
+16	in	in	ADP	APPR	_	17	case	_	_
+17	Empfang	Empfang	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	_
+18	nimmt	nehmen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	18	punct	_	_
+20	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	aux	_	_
+21	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	Entity=(e13-entity-21)
+22	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	26	obj	_	_
+23	nicht	nicht	PART	NN	Case=Acc|Gender=Masc|Number=Sing|NumType=Card	25	advmod	_	_
+24	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	25	det	_	_
+25	Eindrucks	Eindruck	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	26	iobj	_	_
+26	verwehren	verwehren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+27	,	,	PUNCT	$,	_	35	punct	_	_
+28	dass	dass	SCONJ	KOUS	_	35	mark	_	_
+29	Ankara	Ankara	PROPN	NE	Case=Nom|Number=Sing	35	nsubj	_	Entity=(e14-entity-29)
+30	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	31	det	_	_
+31	Versöhnung	Versöhnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	35	obj	_	Entity=(e5)
+32-33	am	_	_	_	_	_	_	_
+32	an	an	ADP	APPR	_	34	case	_	_
+33	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	meisten	meist	PRON	NN	Case=Dat|Gender=Masc|Number=Sing	35	obl	_	_
+35	will	wollen	VERB	NE	Case=Dat|Gender=Masc|Number=Sing	26	ccomp	_	SpaceAfter=No
+36	.	.	PUNCT	$.	_	26	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Es gab den Handschlag, ja.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Handschlag	Handschlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No|Entity=(e5)
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	ja	ja	ADV	KON	_	4	acl	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Aber Putins Lächeln wirkte schmallippig und er strahlte kaum Wärme aus, selbst für seine zurückhaltenden Verhältnisse.
+1	Aber	aber	CCONJ	KON	_	4	cc	_	_
+2	Putins	Putins	PROPN	NE	Case=Acc|Number=Plur	4	nsubj	_	Entity=(e9)
+3	Lächeln	Lächeln	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	2	flat	_	Entity=(e15-entity-3)
+4	wirkte	wirken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	schmallippig	schmallippig	ADJ	ADJD	_	4	advmod	_	_
+6	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	8	cc	_	_
+7	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Entity=(e9)
+8	strahlte	strahlen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+9	kaum	kaum	ADV	ADV	_	8	advmod	_	_
+10	Wärme	Wärme	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+11	aus	aus	ADP	PTKVZ	_	8	compound:prt	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	17	punct	_	_
+13	selbst	selbst	ADV	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	advmod	_	_
+14	für	für	ADP	APPR	_	17	case	_	_
+15	seine	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	17	det:poss	_	Entity=(e9)
+16	zurückhaltenden	zurückhaltend	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	17	amod	_	_
+17	Verhältnisse	Verhältnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No|Entity=(e16-entity-17)
+18	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Recep Tayyip Erdogan hingegen sprach wiederholt von seinem "lieben Freund" Putin - laut einem Bericht ganze fünf Male.	1	--	_	_	_	_	_	_
+1	Recep	Recep	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Entity=(e10)
+2	Tayyip	Tayyip	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+3	Erdogan	Erdogan	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+4	hingegen	hingegen	ADV	ADV	_	5	advmod	_	_
+5	sprach	sprechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	wiederholt	wiederholt	ADJ	VVPP	VerbForm=Part	5	advmod	_	_
+7	von	von	ADP	FM	Foreign=Yes	11	case	_	_
+8	seinem	sein	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	11	det:poss	_	Entity=(e10)
+9	"	"	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+10	lieben	lieb	PROPN	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	amod	_	_
+11	Freund	Freund	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No|Entity=(e9)
+12	"	"	PUNCT	$(	_	13	punct	_	_
+13	Putin	Putin	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	11	flat	_	_
+14	-	-	PUNCT	$(	_	13	punct	_	_
+15	laut	laut	ADP	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	case	_	_
+16	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Bericht	Bericht	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	_
+18	ganze	ganz	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	19	advmod	_	_
+19	fünf	fünf	NUM	CARD	NumType=Card	20	nummod	_	_
+20	Male	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	obl	_	SpaceAfter=No|Entity=(e17-entity-20)
+21	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = Ich konnte es nicht mehr zählen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Entity=(e13)
+2	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Entity=(e17)
+4	nicht	nicht	PART	CARD	NumType=Card	5	advmod	_	_
+5	mehr	mehr	ADV	ADV	_	6	advmod	_	_
+6	zählen	zählen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Er versprach auch, dass die Beziehungen zu Russland nicht nur zu ihrem alten Niveau vor der Krise zurückkehren würden, sondern sich sogar noch verbessern werden.
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Entity=(e10)
+2	versprach	versprechen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	auch	auch	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	19	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	19	mark	_	_
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	Beziehungen	Beziehung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	Entity=(e18-entity-7)
+8	zu	zu	ADP	NE	Case=Gen|Gender=Neut|Number=Sing	9	case	_	_
+9	Russland	Rußland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	Entity=(e1)
+10	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advmod	_	_
+11	nur	nur	ADV	CARD	NumType=Card	19	advmod	_	_
+12	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	15	case	_	_
+13	ihrem	ihr	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes	15	det:poss	_	Entity=(e18)
+14	alten	alt	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	15	amod	_	_
+15	Niveau	Niveau	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	19	obl	_	Entity=(e19-entity-15)
+16	vor	vor	ADP	NE	Case=Dat|Gender=Fem|Number=Sing	18	case	_	_
+17	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Krise	Krise	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	Entity=(e6)
+19	zurückkehren	zurückkehren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+20	würden	werden	AUX	NN	Case=Nom|Gender=Fem|Number=Plur	19	aux	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	26	punct	_	_
+22	sondern	sondern	CCONJ	NN	Case=Nom|Gender=Masc|Number=Plur	26	cc	_	_
+23	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	26	iobj	_	_
+24	sogar	sogar	ADV	ADV	_	26	advmod	_	_
+25	noch	noch	ADV	CARD	NumType=Card	26	advmod	_	_
+26	verbessern	verbessern	VERB	NN	Case=Dat|Gender=Neut|Number=Plur	19	conj	_	_
+27	werden	werden	AUX	NN	Case=Dat|Gender=Neut|Number=Sing	26	aux:pass	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Am nächsten Tag beschrieb eine Zeitung, dass sich Erdogan so benommen hätte, als wäre nie etwas Schlimmes geschehen.
+1-2	Am	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	4	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	nächsten	nah	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	4	amod	_	_
+4	Tag	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	Entity=(e20-entity-4)
+5	beschrieb	beschreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Zeitung	Zeitung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No|Entity=(e21-entity-7)
+8	,	,	PUNCT	$,	_	13	punct	_	_
+9	dass	dass	SCONJ	KOUS	_	13	mark	_	_
+10	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	13	obj	_	_
+11	Erdogan	Erdogan	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	Entity=(e10)
+12	so	so	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	13	advmod	_	_
+13	benommen	benommen	VERB	VVPP	VerbForm=Part	5	ccomp	_	_
+14	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	21	punct	_	_
+16	als	als	CCONJ	KOKOM	_	21	cc	_	_
+17	wäre	sein	AUX	NN	Case=Nom|Gender=Fem|Number=Sing	21	aux	_	_
+18	nie	nie	ADV	ADV	_	21	advmod	_	_
+19	etwas	etwas	PRON	PIS	Definite=Ind|Gender=Neut|PronType=Ind	21	nsubj	_	_
+20	Schlimmes	Schlimm	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	geschehen	geschehen	VERB	VVPP	VerbForm=Part	13	conj	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Mir schien sein Enthusiasmus eher das Gegenteil anzudeuten.
+1	Mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	Entity=(e13)
+2	schien	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	sein	sein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	4	det:poss	_	Entity=(e10)
+4	Enthusiasmus	Enthusiasmus	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Entity=(e22-entity-4)
+5	eher	eher	ADV	ADV	_	2	advmod	_	_
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Gegenteil	Gegenteil	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+8	anzudeuten	anzudeuten	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = Aber eine von Putin ausstrahlende, nachhaltige Kühle zeigte, dass der Staatschef Russlands nichts vergessen hatte.
+1	Aber	aber	CCONJ	KON	_	9	cc	_	_
+2	eine	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	8	det	_	_
+3	von	von	ADP	FM	Foreign=Yes	4	case	_	_
+4	Putin	Putin	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	5	nmod	_	Entity=(e9)
+5	ausstrahlende	ausstrahlend	VERB	ADJA	Case=Nom|Gender=Fem|Number=Sing	8	acl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	8	punct	_	_
+7	nachhaltige	nachhaltig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	8	amod	_	_
+8	Kühle	Kühle	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+9	zeigte	zeigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	16	punct	_	_
+11	dass	dass	SCONJ	KOUS	_	16	mark	_	_
+12	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Staatschef	Staatschef	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	Entity=(e9)
+14	Russlands	Rußlands	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	16	nsubj	_	Entity=(e1)
+15	nichts	nichts	PRON	CARD	NumType=Card	16	obj	_	_
+16	vergessen	vergessen	VERB	VVPP	VerbForm=Part	9	ccomp	_	_
+17	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = Vielmehr war die Ursache der Krise das Erste, was er in seinen Einführungsworten erwähnte: der Abschuss eines russischen Kampfflugzeugs an der syrischen Grenze durch die Türkei.
+1	Vielmehr	vielmehr	ADV	ADV	_	8	advmod	_	_
+2	war	sein	AUX	ADV	_	8	cop	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Ursache	Ursache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	Entity=(e23-entity-4)
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Krise	Krise	NOUN	NE	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	Entity=(e6)
+7	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Erste	erst	NOUN	ADJA	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	15	punct	_	_
+10	was	was	PRON	NN	Case=Nom|Gender=Fem|Number=Plur	15	obj	_	_
+11	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	Entity=(e9)
+12	in	in	ADP	APPR	_	14	case	_	_
+13	seinen	sein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Poss=Yes	14	det:poss	_	Entity=(e9)
+14	Einführungsworten	Einführungswort	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	obl	_	Entity=(e24-entity-14)
+15	erwähnte	erwähnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	acl	_	SpaceAfter=No
+16	:	:	PUNCT	$.	_	18	punct	_	_
+17	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Abschuss	Abschuß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	appos	_	_
+19	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	russischen	russisch	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing	21	amod	_	_
+21	Kampfflugzeugs	Kampfflugzeug	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	Entity=(e25-entity-21)
+22	an	an	ADP	APPR	_	25	case	_	_
+23	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	syrischen	syrisch	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	25	amod	_	_
+25	Grenze	Grenze	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	nmod	_	Entity=(e26-entity-25)
+26	durch	durch	ADP	APPR	_	28	case	_	_
+27	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Türkei	Türkei	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No|Entity=(e2)
+29	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = Moskaus Reaktion zu der Zeit war wutentbrannt.
+1	Moskaus	Moskaus	ADP	ADV	_	2	case	_	Entity=(e27-entity-1)
+2	Reaktion	Reaktion	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	obl	_	_
+3	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	5	case	_	_
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
+6	war	sein	AUX	ADV	_	7	cop	_	_
+7	wutentbrannt	wutentbrennen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Putin teilte aus und beschuldigte Ankara, Russland in den Rücken gefallen zu sein.
+1	Putin	Putin	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Entity=(e9)
+2	teilte	teilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	_
+4	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	5	cc	_	_
+5	beschuldigte	beschuldigt	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+6	Ankara	Ankara	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No|Entity=(e14)
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	Russland	Rußland	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	6	appos	_	Entity=(e1)
+9	in	in	ADP	APPR	_	11	case	_	_
+10	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Rücken	Rücken	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+12	gefallen	fallen|gefallen	VERB	VVPP	VerbForm=Part	5	xcomp	_	_
+13	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	12	mark	_	_
+14	sein	sein	AUX	VAINF	VerbForm=Inf	12	aux	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Das Vergehen war sogar noch größer, da es von einem vermeintlichen Freund begangen wurde.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Vergehen	Vergehen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	Entity=(e23)
+3	war	sein	AUX	ADV	_	6	cop	_	_
+4	sogar	sogar	ADV	ADV	_	5	advmod	_	_
+5	noch	noch	ADV	CARD	NumType=Card	6	advmod	_	_
+6	größer	groß	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	14	punct	_	_
+8	da	da	SCONJ	KOUS	_	14	mark	_	_
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj:pass	_	Entity=(e23)
+10	von	von	ADP	FM	Foreign=Yes	13	case	_	_
+11	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	vermeintlichen	vermeintlich	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	13	amod	_	_
+13	Freund	Freund	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	Entity=(e2)
+14	begangen	begehen	VERB	VVPP	VerbForm=Part	6	advcl	_	_
+15	wurde	werden	AUX	KON	_	14	aux:pass	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Das Vetrauen wieder aufzubauen wird schwierig, wenn nicht sogar unmöglich werden.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Vetrauen	Vetrauen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj:pass	_	Entity=(e28-entity-2)
+3	wieder	wieder	ADV	NN	Case=Gen|Gender=Neut|Number=Sing	4	advmod	_	_
+4	aufzubauen	aufbauen	VERB	VVIZU	VerbForm=Inf	0	root	_	_
+5	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	aux:pass	_	_
+6	schwierig	schwierig	ADJ	ADJD	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	12	punct	_	_
+8	wenn	wenn	SCONJ	VVFIN	_	12	mark	_	_
+9	nicht	nicht	PART	CARD	NumType=Card	12	advmod	_	_
+10	sogar	sogar	ADV	ADV	_	11	advmod	_	_
+11	unmöglich	unmöglich	ADJ	ADJD	_	12	xcomp	_	_
+12	werden	werden	AUX	NN	Case=Dat|Gender=Neut|Number=Sing	4	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 18
+# text = Die öffentliche Meinung in Russland hat sich seit November gewandelt.
+1	Die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	3	det	_	_
+2	öffentliche	öffentlich	ADJ	NN	Case=Nom|Number=Plur	3	amod	_	_
+3	Meinung	Meinung	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+4	in	in	ADP	APPR	_	5	case	_	_
+5	Russland	Rußland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	nmod	_	Entity=(e1)
+6	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+7	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
+8	seit	seit	ADP	NN	Case=Acc|Gender=Fem|Number=Sing	9	case	_	_
+9	November	November	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obl	_	Entity=(e29-entity-9)
+10	gewandelt	wandeln	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = Monate lang führten die staatlich kontrollierten Medien einen heftigen, uneingeschränkten Angriff auf Ankara aus.
+1	Monate	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	2	nmod	_	_
+2	lang	lang	ADJ	ADJD	_	3	advmod	_	_
+3	führten	führen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	7	det	_	_
+5	staatlich	staatlich	ADJ	ADJD	_	6	advmod	_	_
+6	kontrollierten	kontrolliert	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	7	amod	_	_
+7	Medien	Medium	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	nsubj	_	Entity=(e30-entity-7)
+8	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+9	heftigen	heftig	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	9	punct	_	_
+11	uneingeschränkten	uneingeschränkt	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	12	amod	_	_
+12	Angriff	Angriff	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+13	auf	auf	ADP	APPR	_	14	case	_	_
+14	Ankara	Ankara	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	Entity=(e14)
+15	aus	aus	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = Auf einmal schien es, als würden die Türken für alles die Schuld tragen.
+1	Auf	auf	ADP	APPR	_	2	case	_	_
+2	einmal	einmal	ADV	ADV	_	3	advmod	_	_
+3	schien	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	14	punct	_	_
+6	als	als	SCONJ	KOUS	_	14	mark	_	_
+7	würden	werden	AUX	NN	Foreign=Yes	14	aux	_	_
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	Türken	Türke	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	14	nsubj	_	Entity=(e31-entity-9)
+10	für	für	ADP	APPR	_	11	case	_	_
+11	alles	alle	PRON	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	14	obl	_	_
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Schuld	Schuld	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+14	tragen	tragen	VERB	VVINF	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 21
+# text = Am ernsthaftesten waren die Anschuldigungen von leitenden Beamten, dass Erdogans eigene Familie vom illegalen Ölhandel in Gebieten Syriens profitiert hätte, die vom sogenannten Islamischen Staat kontrolliert werden.
+1-2	Am	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ernsthaftesten	ernsthaftest	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	0	root	_	_
+4	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	Anschuldigungen	Anschuldigung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	Entity=(e32-entity-6)
+7	von	von	ADP	FM	Foreign=Yes	9	case	_	_
+8	leitenden	leitenden	ADJ	VVINF	VerbForm=Inf	9	amod	_	_
+9	Beamten	Beamter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	22	punct	_	_
+11	dass	dass	SCONJ	KOUS	_	22	mark	_	_
+12	Erdogans	Erdogans	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	Entity=(e10)
+13	eigene	eigen	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	14	amod	_	_
+14	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	Entity=(e33-entity-14)
+15-16	vom	_	_	_	_	_	_	_
+15	von	von	ADP	FM	Foreign=Yes	18	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	illegalen	illegal	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	18	amod	_	_
+18	Ölhandel	Ölhandel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	nmod	_	Entity=(e34-entity-18)
+19	in	in	ADP	APPR	_	20	case	_	_
+20	Gebieten	Gebieten	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	18	nmod	_	Entity=(e35-entity-20)
+21	Syriens	Syrien	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	Entity=(e36-entity-21)
+22	profitiert	profitieren	VERB	VVPP	VerbForm=Part	3	ccomp	_	_
+23	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	SpaceAfter=No
+24	,	,	PUNCT	$,	_	31	punct	_	_
+25	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	31	nsubj:pass	_	_
+26-27	vom	_	_	_	_	_	_	_
+26	von	von	ADP	FM	Foreign=Yes	30	case	_	_
+27	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+28	sogenannten	sogenannt	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	30	amod	_	_
+29	Islamischen	islamisch	PROPN	ADJA	Case=Dat|Gender=Masc|Number=Sing	30	amod	_	_
+30	Staat	Staat	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	31	obl	_	Entity=(e37-entity-30)
+31	kontrolliert	kontrollieren	VERB	VVPP	VerbForm=Part	3	acl	_	_
+32	werden	werden	AUX	NE	Case=Acc|Number=Plur	31	aux:pass	_	SpaceAfter=No
+33	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 22
+# text = Er hat dies vehement bestritten.
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Entity=(e10)
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	obj	_	Entity=(e32)
+4	vehement	vehement	ADJ	NN	Case=Acc|Gender=Neut|Number=Sing	5	advmod	_	_
+5	bestritten	bestreiten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = Aber in St.Petersburg lautete die offizielle Botschaft, dass es Zeit sei, nach vorne zu blicken.
+1	Aber	aber	CCONJ	KON	_	4	cc	_	_
+2	in	in	ADP	APPR	_	3	case	_	_
+3	St.Petersburg	St.Petersburg	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	Entity=(e38-entity-3)
+4	lautete	lauten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	offizielle	offiziell	ADJ	NN	Case=Nom|Gender=Fem|Number=Sing	7	amod	_	_
+7	Botschaft	Botschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No|Entity=(e39-entity-7)
+8	,	,	PUNCT	$,	_	11	punct	_	_
+9	dass	dass	SCONJ	KOUS	_	11	mark	_	_
+10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	Zeit	Zeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	ccomp	_	_
+12	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	17	punct	_	_
+14	nach	nach	ADP	CARD	NumType=Card	15	case	_	_
+15	vorne	vorne	ADV	NE	Case=Nom|Gender=Fem|Number=Sing	17	advmod	_	_
+16	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	17	mark	_	_
+17	blicken	blicken	VERB	VVINF	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 24
+# text = Schließlich fand dieses Treffen nur deshalb statt, weil Putin vom Präsidenten Erdogan die Entschuldigung erhielt, die er hören wollte.
+1	Schließlich	schließlich	ADV	ADV	_	2	advmod	_	_
+2	fand	finden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	dieses	dies	PRON	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	Treffen	Treffen	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	nsubj	_	Entity=(e40-entity-4)
+5	nur	nur	ADV	CARD	NumType=Card	6	advmod	_	_
+6	deshalb	deshalb	ADV	PAV	_	2	advmod	_	_
+7	statt	statt	ADP	ADV	_	2	compound:prt	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	17	punct	_	_
+9	weil	weil	SCONJ	KOUS	_	17	mark	_	_
+10	Putin	Putin	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	Entity=(e9)
+11-12	vom	_	_	_	_	_	_	_
+11	von	von	ADP	FM	Foreign=Yes	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Präsidenten	Präsident	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	_
+14	Erdogan	Erdogan	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	13	appos	_	Entity=(e10)
+15	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Entschuldigung	Entschuldigung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	Entity=(e41-entity-16)
+17	erhielt	erhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	21	punct	_	_
+19	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Rel	21	obj	_	_
+20	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	Entity=(e9)
+21	hören	hören	VERB	VVINF	VerbForm=Inf	17	acl	_	_
+22	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	aux	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 25
+# text = Russland konnte eine Art Sieg verbuchen.
+1	Russland	Rußland	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	Entity=(e1)
+2	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Art	Art	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	_
+5	Sieg	Siegen	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	4	appos	_	_
+6	verbuchen	verbuchen	VERB	ADJA	Case=Gen|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 26
+# text = Für Ankara liegen die Vorteile eines Waffenstillstands klar auf der Hand.
+1	Für	für	ADP	APPR	_	2	case	_	_
+2	Ankara	Ankara	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	Entity=(e14)
+3	liegen	liegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	Vorteile	Vorteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	Entity=(e42-entity-5)
+6	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Waffenstillstands	Waffenstillstand	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	klar	klar	ADJ	ADJD	_	3	advmod	_	_
+9	auf	auf	ADP	APPR	_	11	case	_	_
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Hand	Hand	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 27
+# text = Erdogan benötigt in erster Linie alle Freunde, die er bekommen kann, nachdem er letzten Monat bei einem gescheiterten Staatsstreich fast seines Amtes enthoben wurde.
+1	Erdogan	Erdogan	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Entity=(e10)
+2	benötigt	benötigen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	erster	erst	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	5	amod	_	_
+5	Linie	Linie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+6	alle	alle	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	Freunde	Freund	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	11	punct	_	_
+9	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Rel	11	obj	_	_
+10	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	Entity=(e10)
+11	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	7	acl	_	_
+12	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	25	punct	_	_
+14	nachdem	nachdem	SCONJ	XY	NumType=Card	25	mark	_	_
+15	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	Entity=(e10)
+16	letzten	letzt	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	17	amod	_	_
+17	Monat	Monat	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	25	nmod	_	_
+18	bei	bei	ADP	APPR	_	21	case	_	_
+19	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	gescheiterten	gescheitert	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	21	amod	_	_
+21	Staatsstreich	Staatsstreich	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	25	obl	_	Entity=(e43-entity-21)
+22	fast	fast	ADV	ADV	_	24	advmod	_	_
+23	seines	sein	DET	PPOSAT	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes	24	det:poss	_	_
+24	Amtes	Amt	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+25	enthoben	enthieben	VERB	NN	Case=Nom|Gender=Fem|Number=Plur	2	advcl	_	_
+26	wurde	werden	AUX	KON	_	25	aux:pass	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 28
+# text = Wiederholte Terrorangriffe auf die Türkei haben ihn ebenfalls erschüttert.
+1	Wiederholte	wiederholt	ADJ	NE	Case=Gen|Gender=Masc|Number=Sing	2	amod	_	_
+2	Terrorangriffe	Terrorangriff	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+3	auf	auf	ADP	APPR	_	5	case	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Türkei	Türkei	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	Entity=(e2)
+6	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+7	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	Entity=(e10)
+8	ebenfalls	ebenfalls	ADV	ADV	_	9	advmod	_	_
+9	erschüttert	erschüttern	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 29
+# text = Aber es gibt auch wirtschaftliche Motive.
+1	Aber	aber	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	auch	auch	ADV	ADV	_	3	advmod	_	_
+5	wirtschaftliche	wirtschaftlich	PRON	NN	Case=Gen|Gender=Neut|Number=Sing	6	det	_	_
+6	Motive	Motiv	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	3	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 30
+# text = Russische Sanktionen haben die Türkei hart getroffen - insbesondere das Verbot von Charterflügen, die jedes Jahr üblicherweise mehrere Millionen russische Touristen an die türkische Küste bringen.
+1	Russische	russisch	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	Sanktionen	Sanktion	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	Entity=(e44-entity-2)
+3	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Türkei	Türkei	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	Entity=(e2)
+6	hart	hart	ADJ	NE	Case=Nom|Gender=Fem|Number=Sing	7	advmod	_	_
+7	getroffen	getroff	ADJ	VVPP	VerbForm=Part	11	amod	_	_
+8	-	-	PUNCT	$(	_	11	punct	_	_
+9	insbesondere	insbesondere	ADV	ADV	_	11	advmod	_	_
+10	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Verbot	Verbot	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+12	von	von	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	13	case	_	_
+13	Charterflügen	Charterflügen	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No|Entity=(e45-entity-13)
+14	,	,	PUNCT	$,	_	27	punct	_	_
+15	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	27	nsubj	_	_
+16	jedes	jed	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	17	det	_	_
+17	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	27	obl	_	_
+18	üblicherweise	üblicherweise	ADV	ADV	_	22	advmod	_	_
+19	mehrere	mehrere	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	20	det	_	_
+20	Millionen	Million	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	22	nmod	_	_
+21	russische	russisch	ADJ	ADJD	_	22	amod	_	_
+22	Touristen	Tourist	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	27	obj	_	_
+23	an	an	ADP	APPR	_	26	case	_	_
+24	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+25	türkische	türkisch	ADJ	NN	Case=Dat|Number=Plur	26	amod	_	_
+26	Küste	Küste	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	obl	_	Entity=(e46-entity-26)
+27	bringen	bringen	VERB	VVINF	VerbForm=Inf	13	acl	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 31
+# text = Die Anzahl ist um fast 90 % zurückgegangen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Anzahl	Anzahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	Entity=(e47-entity-2)
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+4	um	um	ADP	APPR	_	7	case	_	_
+5	fast	fast	ADV	ADV	_	6	advmod	_	_
+6	90	90	NUM	CARD	NumType=Card	7	nummod	_	_
+7	%	%	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	nmod	_	_
+8	zurückgegangen	zurückgehen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 32
+# text = In Russland werden Reiseveranstalter und Chartergesellschaften erleichtert sein, wenn die Flüge wieder aufgenommen werden.
+1	In	in	ADP	APPR	_	2	case	_	_
+2	Russland	Rußland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	Entity=(e1)
+3	werden	werden	AUX	NE	Case=Acc|Number=Plur	7	aux:pass	_	_
+4	Reiseveranstalter	Reiseveranstalter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	Entity=(e48-entity-4)
+5	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	6	cc	_	_
+6	Chartergesellschaften	Chartergesellschaft	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	Entity=(e49-entity-6)
+7	erleichtert	erleichtern	VERB	VVPP	VerbForm=Part	0	root	_	_
+8	sein	sein	AUX	VAINF	VerbForm=Inf	7	cop	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	14	punct	_	_
+10	wenn	wenn	SCONJ	VVFIN	_	14	mark	_	_
+11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	Flüge	Flug	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	nsubj:pass	_	Entity=(e45)
+13	wieder	wieder	ADV	NN	Case=Gen|Gender=Neut|Number=Sing	14	advmod	_	_
+14	aufgenommen	aufgenehmen	VERB	VVPP	VerbForm=Part	7	advcl	_	_
+15	werden	werden	AUX	NE	Case=Gen|Gender=Masc|Number=Plur	14	aux:pass	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 33
+# text = Sie zählen auf einen spätsaisonalen Ansturm ans Mittelmeer.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	Entity=(e50-entity-1)
+2	zählen	zählen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	auf	auf	ADP	APPR	_	6	case	_	_
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	spätsaisonalen	spätsaisonal	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	6	amod	_	_
+6	Ansturm	Ansturm	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+7-8	ans	_	_	_	_	_	_	_
+7	an	an	ADP	APPR	_	9	case	_	_
+8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Mittelmeer	Mittelmeer	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No|Entity=(e46)
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 34
+# text = Diese Woche prognostizierte das Staatsfernsehen billigeres Obst und Gemüse, sobald die türkischen Agrarimporte wieder erlaubt werden.
+1	Diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	Woche	Woche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	Entity=(e51-entity-2)
+3	prognostizierte	prognostizieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Staatsfernsehen	Staatsfernsehen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	Entity=(e52-entity-5)
+6	billigeres	billig	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	7	amod	_	_
+7	Obst	Obst	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+8	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	9	cc	_	_
+9	Gemüse	Gemüse	NOUN	NE	Case=Acc|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	16	punct	_	_
+11	sobald	sobald	SCONJ	KOUS	_	16	mark	_	_
+12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	türkischen	türkisch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	14	amod	_	_
+14	Agrarimporte	Agrarimport	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	16	nsubj:pass	_	Entity=(e53-entity-14)
+15	wieder	wieder	ADV	NN	Case=Gen|Gender=Neut|Number=Sing	16	advmod	_	_
+16	erlaubt	erlauben	VERB	VVPP	VerbForm=Part	3	advcl	_	_
+17	werden	werden	AUX	NE	Case=Gen|Gender=Masc|Number=Plur	16	aux:pass	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 35
+# text = Ein Bericht in Vedemosti formulierte es folgendermaßen: "Touristen dort lang, Tomaten hier lang."
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Bericht	Bericht	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	in	in	ADP	APPR	_	4	case	_	_
+4	Vedemosti	Vedemosti	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	Entity=(e54-entity-4)
+5	formulierte	formulieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+7	folgendermaßen	folgendermitzen	VERB	ADV	_	5	xcomp	_	SpaceAfter=No
+8	:	:	PUNCT	$.	_	10	punct	_	_
+9	"	"	PUNCT	$(	_	10	punct	_	SpaceAfter=No
+10	Touristen	Tourist	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	16	nsubj	_	_
+11	dort	dort	ADV	ADV	_	12	advmod	_	_
+12	lang	lang	ADJ	ADJD	_	10	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	14	punct	_	_
+14	Tomaten	Tomate	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	conj	_	_
+15	hier	hier	ADV	ADV	_	16	advmod	_	_
+16	lang	lang	ADJ	ADJD	_	5	parataxis	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	5	punct	_	SpaceAfter=No
+18	"	"	PUNCT	$(	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 36
+# text = Aber der Besuch hatte einen zusätzlichen politischen Wert für Moskau.
+1	Aber	aber	CCONJ	KON	_	4	cc	_	_
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Besuch	Besuch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Entity=(e40)
+4	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+6	zusätzlichen	zusätzlich	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	8	amod	_	_
+7	politischen	politisch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	8	amod	_	_
+8	Wert	Wert	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+9	für	für	ADP	APPR	_	10	case	_	_
+10	Moskau	Moskau	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No|Entity=(e27)
+11	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 37
+# text = Ankara ist auf den Westen wütend, da es dessen Reaktion auf die versuchte Machtübernahme als schwache Antwort betrachtet.
+1	Ankara	Ankara	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	Entity=(e14)
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	auf	auf	ADP	APPR	_	5	case	_	_
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Westen	Weste|Westen	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	Entity=(e55-entity-5)
+6	wütend	wütend	VERB	ADJD	_	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	19	punct	_	_
+8	da	da	SCONJ	KOUS	_	19	mark	_	_
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	Entity=(e14)
+10	dessen	der	DET	PDAT	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	Entity=(e55)
+11	Reaktion	Reaktion	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	19	nsubj	_	Entity=(e56-entity-11)
+12	auf	auf	ADP	APPR	_	15	case	_	_
+13	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	versuchte	versucht	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	15	amod	_	_
+15	Machtübernahme	Machtübernahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	Entity=(e43)
+16	als	als	ADP	KOKOM	_	18	case	_	_
+17	schwache	schwach	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	18	amod	_	_
+18	Antwort	Antwort	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	19	obl	_	_
+19	betrachtet	betrachten	VERB	VVPP	VerbForm=Part	6	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 38
+# text = Dazu kommen der anhaltende Groll über das Schneckentempo der EU-Beitrittsverhandlungen und Putin - der erpicht darauf ist, aus der kühlen Stimmung Nutzen zu ziehen und die Beziehung der Türkei zum Westen zu verringern.
+1	Dazu	dazu	ADV	PTKVZ	_	2	advmod	_	_
+2	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	anhaltende	anhaltend	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
+5	Groll	Groll	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Entity=(e57-entity-5)
+6	über	über	ADP	NE	Case=Gen|Gender=Masc|Number=Sing	8	case	_	_
+7	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Schneckentempo	Schneckentempi	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	_
+9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	EU	EU	PROPN	NN	Case=Acc|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+11	-	-	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+12	Beitrittsverhandlungen	Beitrittsverhandlung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	flat	_	Entity=(e58-entity-12)
+13	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	14	cc	_	_
+14	Putin	Putin	NOUN	NE	Case=Acc|Gender=Masc|Number=Sing	18	conj	_	Entity=(e9)
+15	-	-	PUNCT	$(	_	18	punct	_	_
+16	der	der	DET	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	18	nsubj	_	Entity=(e9)
+17	erpicht	erpicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advmod	_	_
+18	darauf	darauf	PRON	PAV	_	10	conj	_	Entity=(e59-entity-18)
+19	ist	sein	AUX	ADJD	_	18	cop	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	27	punct	_	_
+21	aus	aus	ADP	APPR	_	23	case	_	_
+22	der	der	PRON	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	nsubj	_	_
+23	kühlen	kühlen	VERB	NN	Case=Gen|Gender=Fem|Number=Plur	27	obl	_	_
+24	Stimmung	Stimmung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	25	obj	_	Entity=(e57)
+25	Nutzen	Nutzen	NOUN	VVINF	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	obj	_	_
+26	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	27	mark	_	_
+27	ziehen	ziehen	VERB	VVINF	VerbForm=Inf	18	xcomp	_	_
+28	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	37	cc	_	_
+29	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Beziehung	Beziehung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	37	obj	_	Entity=(e60-entity-30)
+31	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	Türkei	Türkei	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	Entity=(e2)
+33-34	zum	_	_	_	_	_	_	_
+33	zu	zu	ADP	NE	Case=Gen|Gender=Neut|Number=Sing	35	case	_	_
+34	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	Westen	Weste|Westen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	30	nmod	_	Entity=(e55)
+36	zu	zu	PART	NE	Case=Dat|Gender=Masc|Number=Sing	37	mark	_	_
+37	verringern	verringern	VERB	VVINF	VerbForm=Inf	27	conj	_	SpaceAfter=No|Entity=(e59)
+38	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 39
+# text = Der russische Staatschef gewann in Ankara mit Sicherheit einen Bonus dafür, dass er nach dem versuchten Staatsstreich Unterstützung für die gewählten Staatsorgane forderte.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	russische	russisch	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+3	Staatschef	Staatschef	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Entity=(e9)
+4	gewann	gewinnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Ankara	Ankara	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	Entity=(e14)
+7	mit	mit	ADP	ADJA	Case=Nom|Gender=Neut|Number=Plur	8	case	_	_
+8	Sicherheit	Sicherheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+9	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Bonus	Bonus	NOUN	NE	Case=Nom|Gender=Neut|Number=Sing	4	obj	_	_
+11	dafür	dafür	PRON	PAV	_	10	dep	_	SpaceAfter=No|Entity=(e61-entity-11)
+12	,	,	PUNCT	$,	_	24	punct	_	_
+13	dass	dass	SCONJ	KOUS	_	24	mark	_	_
+14	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	Entity=(e9)
+15	nach	nach	ADP	ADJA	_	18	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	versuchten	versucht	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	18	amod	_	_
+18	Staatsstreich	Staatsstreich	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	24	obl	_	Entity=(e43)
+19	Unterstützung	Unterstützung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+20	für	für	ADP	APPR	_	23	case	_	_
+21	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	gewählten	gewählt	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	23	amod	_	_
+23	Staatsorgane	Staatsorgan	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	nmod	_	Entity=(e62-entity-23)
+24	forderte	fordern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	acl	_	SpaceAfter=No|Entity=(e61)
+25	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 40
+# text = Das ist für Moskau wohlgemerkt eine Selbstverständlichkeit, das selbst eine tiefsitzende Angst vor Regimewechseln hat.
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	Entity=(e61)
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	für	für	ADP	APPR	_	4	case	_	_
+4	Moskau	Moskau	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	Entity=(e27)
+5	wohlgemerkt	wohlgemerken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Selbstverständlichkeit	Selbstverständlichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	16	punct	_	_
+9	das	der	PRON	PRELS	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	16	nsubj	_	Entity=(e27)
+10	selbst	selbst	ADV	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	advmod	_	_
+11	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	tiefsitzende	tiefsitzend	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	13	amod	_	_
+13	Angst	Angst	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+14	vor	vor	ADP	NE	Case=Acc|Gender=Fem|Number=Sing	15	case	_	_
+15	Regimewechseln	Regimewechsel	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	13	nmod	_	_
+16	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 41
+# text = Das Gipfeltreffen in diesem glanzvollen Palast am Meer ermöglichte es Russland und der Türkei, eine, wie es mir ein Analytiker einst beschrieb, "Allianz von Außenseitern" darzustellen: zwei Länder, die sich vom Westen verstoßen und schlecht behandelt fühlen und sich nun verbünden.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Gipfeltreffen	Gipfeltreffen	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	10	nsubj	_	Entity=(e40)
+3	in	in	ADP	APPR	_	6	case	_	_
+4	diesem	dies	PRON	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
+5	glanzvollen	glanzvoll	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	6	amod	_	_
+6	Palast	Palast	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	Entity=(e12)
+7-8	am	_	_	_	_	_	_	_
+7	an	an	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Meer	Meer	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	Entity=(e63-entity-9)
+10	ermöglichte	ermöglichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	_
+12	Russland	Rußland	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	32	nsubj	_	Entity=(e1)
+13	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	15	cc	_	_
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Türkei	Türkei	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	12	conj	_	SpaceAfter=No|Entity=(e2)
+16	,	,	PUNCT	$,	_	17	punct	_	_
+17	eine	ein	PRON	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	obj	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	25	punct	_	_
+19	wie	wie	SCONJ	NE	Case=Nom|Gender=Neut|Number=Sing	25	mark	_	_
+20	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+21	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	23	iobj	_	Entity=(e13)
+22	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Analytiker	Analytiker	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+24	einst	einst	ADV	ADV	_	25	advmod	_	_
+25	beschrieb	beschreiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl	_	SpaceAfter=No
+26	,	,	PUNCT	$,	_	28	punct	_	_
+27	"	"	PUNCT	$(	_	28	punct	_	SpaceAfter=No
+28	Allianz	Allianz	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	appos	_	Entity=(e4)
+29	von	von	ADP	FM	Foreign=Yes	30	case	_	_
+30	Außenseitern	Außenseiter	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	28	nmod	_	SpaceAfter=No
+31	"	"	PUNCT	$(	_	28	punct	_	_
+32	darzustellen	darstellen	VERB	VVIZU	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+33	:	:	PUNCT	$.	_	35	punct	_	_
+34	zwei	zwei	NUM	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	nummod	_	_
+35	Länder	Land	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	32	appos	_	SpaceAfter=No
+36	,	,	PUNCT	$,	_	42	punct	_	_
+37	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	42	nsubj	_	_
+38	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	42	obj	_	_
+39-40	vom	_	_	_	_	_	_	_
+39	von	von	ADP	FM	Foreign=Yes	41	case	_	_
+40	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	Westen	Weste|Westen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	42	obl	_	Entity=(e55)
+42	verstoßen	verstoßen	VERB	VVPP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	acl	_	_
+43	und	und	CCONJ	NE	Foreign=Yes	46	cc	_	_
+44	schlecht	schlecht	ADV	NE	Foreign=Yes	45	advmod	_	_
+45	behandelt	behandeln	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	advmod	_	_
+46	fühlen	fühlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	conj	_	_
+47	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	50	cc	_	_
+48	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	50	obj	_	_
+49	nun	nun	ADV	ADV	_	50	advmod	_	_
+50	verbünden	verbünden	VERB	VVFIN	VerbForm=Inf	42	conj	_	SpaceAfter=No
+51	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 42
+# text = Dennoch, trotz der öffentlichen Versöhnung, bestehen zwischen den beiden noch immer große Differenzen.
+1	Dennoch	dennoch	ADV	ADV	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	8	punct	_	_
+3	trotz	trotz	ADP	APPR	_	6	case	_	_
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	öffentlichen	öffentlich	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	6	amod	_	_
+6	Versöhnung	Versöhnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No|Entity=(e5)
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	bestehen	bestehen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+9	zwischen	zwischen	ADP	NN	Case=Dat|Gender=Masc|Number=Sing	11	case	_	_
+10	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	beiden	beide	PRON	PIS	Case=Dat|Definite=Ind|Number=Plur|PronType=Ind	15	amod	_	Entity=(e7)
+12	noch	noch	ADV	CARD	NumType=Card	13	advmod	_	_
+13	immer	immer	ADV	ADV	_	14	advmod	_	_
+14	große	groß	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	15	amod	_	_
+15	Differenzen	Differenz	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No|Entity=(e64-entity-15)
+16	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 43
+# text = Die größte Differenz ist Syrien, wo sich Moskau vor kurzem die Rolle als Friedensstifter gab, aber wo Russland und die Türkei gegensätzliche Seiten unterstützen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	größte	groß	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+3	Differenz	Differenz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	Entity=(e65-entity-3)
+4	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	Syrien	Syrien	PROPN	NN	Case=Acc|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	16	punct	_	_
+7	wo	wo	ADV	NE	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	16	advmod	_	_
+8	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	16	nsubj	_	_
+9	Moskau	Moskau	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	11	amod	_	Entity=(e27)
+10	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	11	case	_	_
+11	kurzem	kurz	NOUN	ADJA	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	_
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Rolle	Rolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+14	als	als	ADP	KOKOM	_	15	case	_	_
+15	Friedensstifter	Friedensstifter	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	16	obl	_	_
+16	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	26	punct	_	_
+18	aber	aber	CCONJ	KON	_	26	cc	_	_
+19	wo	wo	ADV	NE	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	26	advmod	_	_
+20	Russland	Rußland	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	Entity=(e1)
+21	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	23	cc	_	_
+22	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Türkei	Türkei	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	20	conj	_	Entity=(e2)
+24	gegensätzliche	gegensätzlich	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	25	amod	_	_
+25	Seiten	Seite	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	26	obj	_	_
+26	unterstützen	unterstützen	VERB	VVFIN	VerbForm=Inf	16	conj	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 44
+# text = Es könnte bezeichnend sein, dass nach fast drei Stunden an Erstgesprächen beide Präsidenten auf der Pressekonferenz aussagten, dass sie das Thema nicht einmal gestreift hätten.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	bezeichnend	bezeichnend	ADJ	ADJD	_	0	root	_	_
+4	sein	sein	AUX	VAINF	VerbForm=Inf	3	cop	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	18	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	18	mark	_	_
+7	nach	nach	ADP	ADJA	_	10	case	_	_
+8	fast	fast	ADV	ADV	_	9	advmod	_	_
+9	drei	drei	NUM	CARD	NumType=Card	10	nummod	_	_
+10	Stunden	Stunde|Stunden	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	obl	_	_
+11	an	an	ADP	APPR	_	12	case	_	_
+12	Erstgesprächen	Erstgesprächen	NOUN	ADJA	Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	_
+13	beide	beide	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	Präsidenten	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	Entity=(e7)
+15	auf	auf	ADP	APPR	_	17	case	_	_
+16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Pressekonferenz	Pressekonferenz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	Entity=(e40)
+18	aussagten	aussagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	26	punct	_	_
+20	dass	dass	SCONJ	KOUS	_	26	mark	_	_
+21	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	26	nsubj	_	Entity=(e7)
+22	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
+23	Thema	Thema	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	26	obj	_	Entity=(e65)
+24	nicht	nicht	PART	CARD	NumType=Card	25	advmod	_	_
+25	einmal	einmal	ADV	ADV	_	26	advmod	_	_
+26	gestreift	streifen	VERB	VVPP	VerbForm=Part	18	ccomp	_	_
+27	hätten	haben	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	26	aux	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 45
+# text = Der Präsident der Türkei vermied es absichtlich auf eine Frage über ihre Differenzen zu antworten, während Putin sich dazu entschied diese zu betonen.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Präsident	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Entity=(e10)
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Türkei	Türkei	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	Entity=(e2)
+5	vermied	vermeiden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+7	absichtlich	absichtlich	ADJ	ADJD	_	5	advmod	_	_
+8	auf	auf	ADP	APPR	_	10	case	_	_
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Frage	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	_
+11	über	über	ADP	FM	Foreign=Yes	13	case	_	_
+12	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes	13	det:poss	_	Entity=(e7)
+13	Differenzen	Differenz	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	nmod	_	Entity=(e64)
+14	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	15	mark	_	_
+15	antworten	antworten	VERB	VVINF	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	21	punct	_	_
+17	während	während	SCONJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	21	mark	_	_
+18	Putin	Putin	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	Entity=(e9)
+19	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	21	obj	_	_
+20	dazu	dazu	ADV	PAV	_	21	advmod	_	_
+21	entschied	entscheiden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	_	_
+22	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	24	obj	_	Entity=(e64)
+23	zu	zu	PART	NN	Case=Acc|Gender=Fem|Number=Plur	24	mark	_	_
+24	betonen	betonen	VERB	VVINF	VerbForm=Inf	21	xcomp	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 46
+# text = Es liegt kein eindeutiger Konsens darüber vor, wo ein gemeinsamer Nenner zu Syrien gefunden werden kann.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	kein	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	5	nmod	_	_
+4	eindeutiger	eindeutig	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	5	amod	_	_
+5	Konsens	Konsen	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	2	nsubj	_	_
+6	darüber	darüber	ADV	APPR	_	2	advmod	_	_
+7	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	2	compound:prt	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	15	punct	_	_
+9	wo	wo	ADV	NE	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	15	advmod	_	_
+10	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	gemeinsamer	gemeinsam	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	12	amod	_	_
+12	Nenner	Nenner	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+13	zu	zu	ADP	NE	Case=Gen|Gender=Neut|Number=Sing	14	case	_	_
+14	Syrien	Syrien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	Entity=(e65)
+15	gefunden	finden	VERB	VVPP	VerbForm=Part	2	acl	_	_
+16	werden	werden	AUX	NN	Case=Dat|Gender=Neut|Number=Sing	15	aux:pass	_	_
+17	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 47
+# text = Aber nach Monaten offener Feindseligkeiten - und angesichts des Potenzials für ein vollkommenes Disaster, als das NATO-Mitglied Türkei den russischen Kampfjet abschoss - ist es sicherlich besser, dass die zwei Staatschefs zumindest wieder miteinander reden.
+1	Aber	aber	CCONJ	KON	_	30	cc	_	_
+2	nach	nach	ADP	ADJA	_	3	case	_	_
+3	Monaten	Monat	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	30	nmod	_	_
+4	offener	offen	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	5	amod	_	_
+5	Feindseligkeiten	Feindseligkeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+6	-	-	PUNCT	$(	_	10	punct	_	_
+7	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	10	cc	_	_
+8	angesichts	angesichts	ADP	APPR	_	10	case	_	_
+9	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Potenzials	Potenzials	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	5	conj	_	_
+11	für	für	ADP	APPR	_	14	case	_	_
+12	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
+13	vollkommenes	vollkommen	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	14	amod	_	_
+14	Disaster	Disaster	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	30	punct	_	_
+16	als	als	SCONJ	KOUS	_	30	mark	_	_
+17	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
+18	NATO	NATO	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	30	nsubj	_	SpaceAfter=No
+19	-	-	PUNCT	$(	_	20	punct	_	SpaceAfter=No
+20	Mitglied	Mitglied	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	18	flat	_	_
+21	Türkei	Türkei	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	18	appos	_	Entity=(e2)
+22	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	russischen	russisch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	24	amod	_	_
+24	Kampfjet	Kampfjet	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	30	nsubj	_	Entity=(e25)
+25	abschoss	abschießen	PROPN	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	flat	_	_
+26	-	-	PUNCT	$(	_	27	punct	_	_
+27	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+28	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	expl	_	_
+29	sicherlich	sicherlich	ADJ	ADV	_	30	advmod	_	_
+30	besser	gut	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+31	,	,	PUNCT	$,	_	39	punct	_	_
+32	dass	dass	SCONJ	KOUS	_	39	mark	_	_
+33	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+34	zwei	zwei	NUM	NE	Case=Gen|Gender=Masc|Number=Sing	35	nummod	_	_
+35	Staatschefs	Staatschef	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	39	nsubj	_	Entity=(e7)
+36	zumindest	zumindest	ADV	ADV	_	37	advmod	_	_
+37	wieder	wieder	ADV	NN	Case=Nom|Gender=Neut|Number=Plur	39	advmod	_	_
+38	miteinander	miteinander	ADV	ADV	_	39	advmod	_	_
+39	reden	reden	VERB	ADJD	_	30	ccomp	_	SpaceAfter=No
+40	.	.	PUNCT	$.	_	30	punct	_	SpacesAfter=\n\n
+
+
+

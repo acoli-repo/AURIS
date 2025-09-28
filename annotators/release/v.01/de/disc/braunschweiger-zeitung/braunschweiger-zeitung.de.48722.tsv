@@ -1,0 +1,37 @@
+# ID	TEXT	MARKER	TARGET	RELATION
+1	Wer baut Braunschweigs günstige Wohnungen ?	wer	2	hypophora
+2	Die SPD und Grüne meinen :	_	3	fragment
+3	Investoren sollen künftig viel stärker in die Pflicht genommen werden .	meinen	1	offer
+4	Wie reagiert man auf die schlechte Nachricht , dass Braunschweig in den nächsten Jahren fast 1300 günstige Wohnungen verlieren wird ?	wie	5	hypophora
+5	Die SPD schlägt zur zu der nächsten Ratssitzung ein &quot; Handlungskonzept Wohnen &quot; vor .	(zum Beispiel)	4	instance
+6	Doch Streit ist programmiert .	doch	5	contrast
+7	In erster Linie geht es um die Frage : Wer soll die günstigen Wohnungen eigentlich bauen ?	in erster Linie	6	specific
+8	Eine Regelung fehlt bislang .	(denn)	7	reason
+9	SPD Fraktionsvorsitzender Christoph Bratmann meint : &quot; Wir sind uns mit den Grünen einig : Wer auf städtischen Flächen bauen will , muss künftig 20 Prozent aller Wohnungen als Sozialwohnungen ausweisen . &quot;	meint	7	offer
+10	Die günstigen Wohnungen können allerdings auch im in dem Bestand entstehen .	allerdings	9	contra-expectation
+11	Der große Streitpunkt im in dem Rathaus sei jedoch , so Bratmann : &quot; Wie geht man mit Investoren um , die auf privaten Flächen bauen wollen ? &quot;	jedoch	10	contra-expectation
+12	&quot; Wir wollen , dass Investoren auf solchen Flächen mindestens 10 Prozent , aber möglichst 20 Prozent der Wohnungen als Sozialwohnungen bauen . &quot;	wir wollen	11	offer
+13	Ein neues städtisches Wohnungsbau Förderprogramm , das Millionen kosten wird und noch finanziert werden muss , soll für Anreize sorgen .	(konkret)	12	specific
+14	Das Problem , so Bratmann : &quot; Es gibt momentan noch keine Einigung zwischen den Fraktionen . &quot;	das Problem (allerdings)	13	contra-expectation
+15	Die CDU möchte Investoren möglichst wenige Vorschriften machen .	(zum Beispiel)	14	instance
+16	Die Linke will noch härte Auflagen für Investoren .	(dagegen)	15	contrast
+17	Ungeachtet dessen , so Bratmann , bahne sich eine Verschärfung der Situation auf dem Wohnungsmarkt an .	ungeachtet dessen (insgesamt)	16	broad
+18	Wird das Handlungskonzept umgesetzt , wird das für zusätzliche Aufgaben in der Bauverwaltung sorgen .	(in dem Fall)	13	consequence
+19	Mehr Personal wird benötigt .	(dann)	18	consequence
+20	Es ist unklar , ob wir die Fachkräfte bekommen werden .	(allerdings)	19	contra-expectation
+21	Doch noch steht das Programm nicht gänzlich : Denn die rund 1260 neuen Wohnungen , die sollten ohnehin gebaut werden .	doch	13	contrast
+22	Wie aber gleicht man den Verlust von weiteren rund 1300 günstigen Wohnungen aus , deren Förderung in den nächsten Jahren auslaufen wird ?	wie aber	23	hypophora
+23	Allein bis zum zu dem Jahr 2020 werden es 500 Wohnungen sein .	(konkret)	22	specific
+24	Um das zu verhindern , so die planungspolitische Sprecherin Nicole Palm , sollten jetzt auslaufende Bindungen von der Stadt angekauft werden .	um das zu verhindern (zu diesem Zweck)	22	enablement
+25	Außerdem müsste darüber nachgedacht werden , Wohnungen wieder zurück in die Preisbindung zu holen .	außerdem	24	conjunction
+26	Das ist in der Weststadt möglich .	(konkret)	25	specific
+27	Auf einen Schlag ließe sich das Problem lösen .	(so)	25	consequence
+28	Denn in der Weststadt laufen zum zu dem Jahresende Fristen aus .	denn	26	reason
+29	Rund 1800 Wohnungen könnte man dort zurück in die Preisbindung für günstige Wohnungen holen .	(dann)	28	consequence
+30	Nur : Das wollen die Eigentümer , die Wohnungsbaugesellschaften nicht .	nur	29	contra-expectation
+31	Denn wird die Zahl der Sozialwohnungen in der Weststadt wieder drastisch erhöht , entfernt man sich vom von dem Ziel der sogenannten Durchmischung .	denn	30	reason
+32	Eine Konzentration von Sozialschwachen in nur wenigen Stadtteilen soll es nicht mehr geben .	(und)	31	conjunction
+33	Die Grünen rechnen damit , dass es noch Bewegung in der Diskussion geben wird .	(aber)	14	contrast
+34	Fraktionsvorsitzender Holger Herlitschke meint : &quot; Für eine breite Mehrheit muss die CDU mit ins in das Boot . &quot;	(denn)	33	reason
+35	Die habe sich zwar auf mehr Bauplätze für Einfamilienhäuser konzentriert .	zwar	36	expectation-raiser
+36	Was aber nicht heißt , dass nicht doch noch ein Kompromiss gefunden werden kann .	aber	35	contra-expectation

@@ -1,0 +1,20 @@
+# ID	TEXT	MARKER	TARGET	RELATION
+1	Das £2- pro Tag Medikament , das Herzinfarktrisiko senken kann	(zusammenfassend)	2	broad
+2	Tausende von Herzinfarktpatienten werden von einem £2- pro Tag Medikament profitieren , nachdem von den Behörden empfohlen wurde , dieses mehr Leuten für einen längeren Zeitraum zu verabreichen .	(konkret)	1	specific
+3	Das gerinnungshemmende Medikament Ticagrelor reduziert das Risiko wiederholter Herzinfarkte für Personen mit einer Herzerkrankung .	(denn)	2	reason
+4	Das Medikament wird bereits 12 Monate lang nach einem Herzinfarkt verabreicht , wodurch das Risiko eines Schlaganfalls oder eines weiteren Herzinfarkts reduziert wird .	(konkret)	2	specific
+5	Die Regulierungsbehörde NICE des NHS hat eine vier Jahre lange Einnahme empfohlen , um das Risiko kardiovaskulärer Probleme weiter zu reduzieren .	(konkret)	4	specific
+6	Die Regulierungsbehörde NICE des NHS hat eine vier Jahre lange Einnahme empfohlen , um das Risiko kardiovaskulärer Probleme weiter zu reduzieren .	_	5	fragment
+7	Rund 140.000 Leute erleiden jedes Jahr einen Herzinfarkt und ein Viertel davon erleiden einen weiteren Herzinfarkt oder einen Schlaganfall .	(insgesamt)	2	set
+8	Herzinfarkte und Schlaganfälle werden durch Ansammlungen fetthaltigen Materials in den Arterienwänden verursacht , die Beläge bilden .	(der Grund ist)	7	reason
+9	Wenn der Belag auseinanderbricht , kann es ein Blutgerinnsel verursachen , das den Blutfluss bis zum zu dem Herzen verstopft und dadurch einen Herzinfarkt verursacht .	(indem)	8	means
+10	Wenn sich das Blutgerinnsel löst , kann es durch den Blutstrom fließen und den Blutfluss zum zu dem Gehirn verstopfen , was einen Schlaganfall verursacht .	(und)	9	conjunction
+11	Personen , die bereits einen Herzinfarkt hatten , unterliegen einem höheren Risiko einen weiteren zu haben .	(dabei)	7	specific
+12	Ticagrelor , das von dem britischen Unternehmen AstraZeneca hergestellt wird und unter dem Handelsnamen Brilique vertrieben wird , reduziert dieses Risiko , indem es die Bildung von Blutgerinnseln unwahrscheinlicher macht .	(aber)	11	contrast
+13	Der Anleitungsentwurf von NICE , der heute veröffentlicht wurde , empfiehlt eine 12-monatige Einnahme von 90mg Ticagrelor , gefolgt von 60mg mit einer zweimal täglichen Einnahme von Aspirin für die nächsten drei Jahre .	(daher)	12	result
+14	Professor Carole Longson , Direktorin des NICE Gesundheitstechnologieevaluierungszentrums sagte : &quot; Trotz der Verfügbarkeit von Sekundärprävention haben ein Viertel aller Personen , die einen Herzinfarkt erlitten haben , einen weiteren Herzinfarkt oder einen Schlaganfall oft mit desaströsen Folgen . &quot;	trotz der Verfügbarkeit	12	contra-expectation
+15	Die Angst vor einem erneuten Herzinfarkt kann erhebliche negative Auswirkungen auf die Lebensqualität einer Person haben .	(und)	11	conjunction
+16	Die Erfahrung zeigt , dass Ticagrelor in Kombination mit Aspirin effektiv bei der Reduzierung weiterer Herzinfarkte und Schlaganfälle bei Leuten ist , die bereits einen Herzinfarkt hatten .	Die Erfahrung zeigt (konkret)	12	specific
+17	Durch eine vorläufige Empfehlung von Ticagrelor freuen wir uns , dass wir in der Lage sind , verfügbare Behandlungsoptionen an tausende von Menschen zu erweitern , die davon profitieren können .	(daher)	16	result
+18	Die Information über die Wirksamkeit und Sicherheit von Ticagrelor vor allem das Blutungsrisiko ist auf einen Zeitraum von bis zu drei Jahren beschränkt .	(allerdings)	17	contra-expectation
+19	Der Anleitungsentwurf empfiehlt keine Behandlung , die über diesen Zeitraum hinausgeht .	(daher)	18	result

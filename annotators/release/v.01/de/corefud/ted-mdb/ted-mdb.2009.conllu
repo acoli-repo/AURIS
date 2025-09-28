@@ -1,0 +1,911 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Als kleines Mädchen stellte ich mir vor , dass ich eines Tages von Zuhause weglaufe .
+1	Als	als	ADP	KOKOM	_	3	case	_	_
+2	kleines	klein	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	3	amod	_	_
+3	Mädchen	Mädchen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	obl	_	_
+4	stellte	stellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Entity=(e1-entity-5)
+6	mir	ich	PRON	PRF	Case=Dat|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	obj	_	_
+7	vor	vor	ADP	NE	Case=Acc|Gender=Fem|Number=Sing	4	compound:prt	_	_
+8	,	,	PUNCT	$,	_	15	punct	_	_
+9	dass	dass	SCONJ	KOUS	_	15	mark	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	Entity=(e1)
+11	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Tages	Tag	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	15	iobj	_	_
+13	von	von	ADP	NE	Case=Gen|Gender=Masc|Number=Sing	14	case	_	_
+14	Zuhause	zuhau	NOUN	NE	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	weglaufe	weglaufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+16	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Seit dem sechsten Lebensjahr bewahrte ich eine Tasche mit Kleidung und Konservendosen in meinem Wandschrank auf .
+1	Seit	seit	ADP	APPR	_	4	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	sechsten	sechst	ADJ	NN	Case=Dat|Gender=Masc|Number=Sing	4	amod	_	_
+4	Lebensjahr	Lebensjahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	Entity=(e2-entity-4)
+5	bewahrte	bewahren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Entity=(e1)
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Tasche	Tasche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obj	_	_
+9	mit	mit	ADP	$(	_	10	case	_	_
+10	Kleidung	Kleidung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
+11	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	12	cc	_	_
+12	Konservendosen	Konservendose	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	conj	_	_
+13	in	in	ADP	APPR	_	15	case	_	_
+14	meinem	mein	PRON	PIS	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det:poss	_	Entity=(e1)
+15	Wandschrank	Wandschrank	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	Entity=(e3-entity-15)
+16	auf	auf	ADP	PTKVZ	_	5	compound:prt	_	_
+17	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = In mir war eine tiefe Unruhe , eine Angst , Opfer zu werden , von einem Leben voller Routine und Langeweile .
+1	In	in	ADP	APPR	_	2	case	_	_
+2	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	17	nmod	_	Entity=(e1)
+3	war	sein	AUX	ADV	_	17	cop	_	_
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	tiefe	tief	ADJ	NN	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
+6	Unruhe	Unruhe	NOUN	NE	Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+7	,	,	PUNCT	$,	_	9	punct	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Angst	Angst	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	_
+10	,	,	PUNCT	$,	_	13	punct	_	_
+11	Opfer	Opfer	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	13	xcomp	_	_
+12	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	13	mark	_	_
+13	werden	werden	VERB	NE	Case=Gen|Gender=Masc|Number=Plur	6	acl	_	_
+14	,	,	PUNCT	$,	_	17	punct	_	_
+15	von	von	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	17	case	_	_
+16	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Leben	Leben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	0	root	_	_
+18	voller	voll	ADP	ADJD	_	19	case	_	_
+19	Routine	Routine	NOUN	NE	Case=Acc|Gender=Fem|Number=Sing	17	nmod	_	_
+20	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	21	cc	_	_
+21	Langeweile	Langeweile	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	19	conj	_	_
+22	.	.	PUNCT	$.	_	17	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Viele meiner frühkindlichen Erinnerungen beinhalteten komplizierte Wachträume , in denen ich Grenzen überschritt , Beeren sammelte und allerlei seltsame Leute traf , die unkonventionelle Leben auf der Straße führten .
+1	Viele	viel	PRON	NN	Case=Nom|Gender=Neut|Number=Plur	16	nsubj	_	_
+2	meiner	mein	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Plur|Poss=Yes	4	det:poss	_	Entity=(e1)
+3	frühkindlichen	frühkindlich	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	4	amod	_	_
+4	Erinnerungen	Erinnerung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	16	obj	_	Entity=(e4-entity-4)
+5	beinhalteten	beinhalten	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	amod	_	_
+6	komplizierte	kompliziert	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	7	amod	_	_
+7	Wachträume	Wachtraum	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	obj	_	_
+8	,	,	PUNCT	$,	_	13	punct	_	_
+9	in	in	ADP	APPR	_	10	case	_	_
+10	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Rel	13	obl	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	Entity=(e1)
+12	Grenzen	Grenze	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	obj	_	_
+13	überschritt	überschreiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	acl	_	_
+14	,	,	PUNCT	$,	_	16	punct	_	_
+15	Beeren	Beeren	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+16	sammelte	sammeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+17	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	21	cc	_	_
+18	allerlei	allerlei	ADP	PIAT	Definite=Ind|Polarity=Neg|PronType=Neg	20	case	_	_
+19	seltsame	seltsam	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	20	amod	_	_
+20	Leute	Leute	NOUN	NN	Case=Acc|Number=Plur	21	obl	_	_
+21	traf	treffen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	conj	_	_
+22	,	,	PUNCT	$,	_	29	punct	_	_
+23	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	unkonventionelle	unkonventionell	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	25	amod	_	_
+25	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	29	obj	_	Entity=(e5-entity-25)
+26	auf	auf	ADP	APPR	_	28	case	_	_
+27	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Straße	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	29	obl	_	Entity=(e6-entity-28)
+29	führten	führen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	conj	_	_
+30	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Die Jahre sind vergangen , aber viele meiner Abenteuer , von denen ich als Kind fantasierte -- zu reisen ; meinen Weg zu erfinden zwischen Welten , anders als der meinen -- wurden durch meine Arbeit als Dokumentarfotografin Wirklichkeit .
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	_
+2	Jahre	Jahr	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj:pass	_	_
+3	sind	sein	AUX	ADJD	_	4	aux:pass	_	_
+4	vergangen	vergehen	VERB	VVPP	VerbForm=Part	0	root	_	_
+5	,	,	PUNCT	$,	_	7	punct	_	_
+6	aber	aber	CCONJ	KON	_	7	cc	_	_
+7	viele	viel	PRON	NE	Foreign=Yes	4	conj	_	_
+8	meiner	mein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	9	det:poss	_	Entity=(e1)
+9	Abenteuer	Abenteuer	NOUN	ADJA	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	Entity=(e7-entity-9)
+10	,	,	PUNCT	$,	_	16	punct	_	_
+11	von	von	ADP	FM	Foreign=Yes	12	case	_	_
+12	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Rel	16	obl	_	_
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	Entity=(e1)
+14	als	als	ADP	KOKOM	_	15	case	_	_
+15	Kind	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	16	obl	_	_
+16	fantasierte	fantasieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	acl	_	_
+17	--	--	PUNCT	$(	_	19	punct	_	_
+18	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	19	mark	_	_
+19	reisen	reisen	VERB	VVINF	VerbForm=Inf	16	xcomp	_	_
+20	;	;	PUNCT	$.	_	24	punct	_	_
+21	meinen	mein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	22	det:poss	_	_
+22	Weg	Weg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
+23	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	24	mark	_	_
+24	erfinden	erfinden	VERB	VVINF	VerbForm=Inf	33	xcomp	_	_
+25	zwischen	zwischen	ADP	ADJA	Case=Acc|Gender=Masc|Number=Sing	26	case	_	_
+26	Welten	Welt	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	24	obl	_	_
+27	,	,	PUNCT	$,	_	28	punct	_	_
+28	anders	anders	ADV	ADV	_	26	advmod	_	_
+29	als	als	ADP	KOKOM	_	31	case	_	_
+30	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	meinen	mein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	24	obl	_	Entity=(e8-entity-31)
+32	--	--	PUNCT	$(	_	33	punct	_	_
+33	wurden	werden	AUX	NN	Case=Acc|Gender=Fem|Number=Sing	4	aux:pass	_	_
+34	durch	durch	ADP	APPR	_	36	case	_	_
+35	meine	mein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	36	det:poss	_	Entity=(e1)
+36	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	33	obl	_	Entity=(e9-entity-36)
+37	als	als	ADP	KOKOM	_	39	case	_	_
+38	Dokumentarfotografin	Dokumentarfotografin	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	39	amod	_	_
+39	Wirklichkeit	Wirklichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	36	nmod	_	_
+40	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Aber keine andere Erfahrung kam meinen Kindheitsfantasien so nah , wie die , wie andere Herumtreiber zu leben und ihr Leben überall in den USA zu dokumentieren .
+1	Aber	aber	CCONJ	KON	_	5	cc	_	_
+2	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	4	nmod	_	_
+3	andere	ander	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	_
+4	Erfahrung	Erfahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nsubj	_	Entity=(e10-entity-4)
+5	kam	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	meinen	mein	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Plur|Poss=Yes	7	det:poss	_	Entity=(e1)
+7	Kindheitsfantasien	Symposion|Kindheitsfantasium	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	iobj	_	Entity=(e7)
+8	so	so	ADV	NE	Case=Dat|Number=Plur	9	advmod	_	_
+9	nah	nah	ADJ	ADJD	_	5	advmod	_	_
+10	,	,	PUNCT	$,	_	18	punct	_	_
+11	wie	wie	SCONJ	NN	Case=Nom|Gender=Fem|Number=Sing	18	mark	_	_
+12	die	der	PRON	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	nsubj	_	_
+13	,	,	PUNCT	$,	_	16	punct	_	_
+14	wie	wie	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	16	case	_	_
+15	andere	ander	ADJ	PIS	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	16	amod	_	_
+16	Herumtreiber	Herumtreiber	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	18	obl	_	Entity=(e11-entity-16)
+17	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	18	mark	_	_
+18	leben	leben	VERB	VVINF	VerbForm=Inf	5	advcl	_	Entity=(e12-entity-18)
+19	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	27	cc	_	_
+20	ihr	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	21	det:poss	_	_
+21	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	27	obj	_	_
+22	überall	überall	ADV	NN	Case=Gen|Gender=Masc|Number=Plur	27	advmod	_	_
+23	in	in	ADP	APPR	_	25	case	_	_
+24	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	USA	USA	PROPN	NE	Case=Dat|Gender=Masc|Number=Plur	27	obl	_	Entity=(e13-entity-25)
+26	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	27	mark	_	_
+27	dokumentieren	dokumentieren	VERB	VVINF	VerbForm=Inf	18	conj	_	_
+28	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Das ist der Traum vom nomadischen Leben , eine andere Art amerikanischer Traum , gelebt von jungen Landstreichern , Herumreisenden , Trampern , Nichtsesshaften und Vagabunden .
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	Entity=(e12)
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Traum	Traum	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Entity=(e14-entity-4)
+5-6	vom	_	_	_	_	_	_	_
+5	von	von	ADP	FM	Foreign=Yes	8	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+7	nomadischen	nomadisch	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	8	amod	_	_
+8	Leben	Leben	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	Entity=(e5)
+9	,	,	PUNCT	$,	_	12	punct	_	_
+10	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	andere	ander	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	12	amod	_	_
+12	Art	Art	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+13	amerikanischer	amerikanisch	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	14	amod	_	_
+14	Traum	Traum	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	Entity=(e15-entity-14)
+15	,	,	PUNCT	$,	_	16	punct	_	_
+16	gelebt	leben	VERB	VVPP	VerbForm=Part	4	acl	_	_
+17	von	von	ADP	FM	Foreign=Yes	19	case	_	_
+18	jungen	jung	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	19	amod	_	_
+19	Landstreichern	Landstreicher	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	obl	_	Entity=(e16-entity-19)
+20	,	,	PUNCT	$,	_	21	punct	_	_
+21	Herumreisenden	Herumreisende	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	19	conj	_	Entity=(e17-entity-21)
+22	,	,	PUNCT	$,	_	23	punct	_	_
+23	Trampern	Tramper	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	19	conj	_	Entity=(e18-entity-23)
+24	,	,	PUNCT	$,	_	25	punct	_	_
+25	Nichtsesshaften	Nichtsesshaft	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	19	conj	_	Entity=(e19-entity-25)
+26	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	27	cc	_	_
+27	Vagabunden	Vagabunden	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	19	conj	_	Entity=(e20-entity-27)
+28	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = In den meisten Köpfen ist der Vagabund Teil der Vergangenheit .
+1	In	in	ADP	APPR	_	4	case	_	_
+2	den	der	DET	ART	Case=Dat|Number=Plur|PronType=Art	4	det	_	_
+3	meisten	meist	DET	NN	Case=Dat|Gender=Masc|Number=Sing	4	amod	_	_
+4	Köpfen	Köpfen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nmod	_	Entity=(e21-entity-4)
+5	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	Vagabund	Vagabund	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	Entity=(e20)
+8	Teil	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Vergangenheit	Vergangenheit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	Entity=(e22-entity-10)
+11	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Das Wort " Landstreicher " erinnert an ein Schwarz-Weiß-Foto eines dem Wetter ausgesetzten , verrußten Mannes , der seine Beine aus einem Waggon baumeln lässt .	1	--	_	_	_	_	_	_
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Wort	Wort	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+3	"	"	PUNCT	$(	_	4	punct	_	_
+4	Landstreicher	Landstreicher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	Entity=(e16)
+5	"	"	PUNCT	$(	_	4	punct	_	_
+6	erinnert	erinnern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	an	an	ADP	APPR	_	13	case	_	_
+8	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+9	Schwarz	schwarz	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	compound	_	SpaceAfter=No
+10	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+11	Weiß	Weiß	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	compound	_	SpaceAfter=No
+12	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+13	Foto	Foto	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	Entity=(e23-entity-13)
+14	eines	ein	DET	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	20	det	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Wetter	Wetter	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	iobj	_	Entity=(e24-entity-16)
+17	ausgesetzten	ausgesetzt	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	20	amod	_	_
+18	,	,	PUNCT	$,	_	19	punct	_	_
+19	verrußten	verrußt	ADJ	NE	Case=Nom|Gender=Masc|Number=Sing	17	conj	_	_
+20	Mannes	Mann	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	Entity=(e25-entity-20)
+21	,	,	PUNCT	$,	_	29	punct	_	_
+22	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	29	nsubj	_	_
+23	seine	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	24	det:poss	_	Entity=(e25)
+24	Beine	Bein	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	29	obj	_	Entity=(e26-entity-24)
+25	aus	aus	ADP	APPR	_	27	case	_	_
+26	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	27	det	_	_
+27	Waggon	Waggon	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	28	obl	_	_
+28	baumeln	baumeln	VERB	VVINF	VerbForm=Inf	29	xcomp	_	_
+29	lässt	lassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl	_	_
+30	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Aber diese Fotos sind in Farbe : Sie porträtieren eine Gemeinschaft , die im Land herumwirbelt , heftig lebendig und schöpferisch frei .
+1	Aber	aber	CCONJ	KON	_	9	cc	_	_
+2	diese	dies	PRON	PDAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	3	det	_	_
+3	Fotos	Fotos	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	Entity=(e23)
+4	sind	sein	AUX	ADJD	_	9	cop	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Farbe	Farbe	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
+7	:	:	PUNCT	$.	_	6	punct	_	_
+8	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	Entity=(e23)
+9	porträtieren	porträtieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Gemeinschaft	Gemeinschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	Entity=(e27-entity-11)
+12	,	,	PUNCT	$,	_	17	punct	_	_
+13	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	17	nsubj	_	_
+14-15	im	_	_	_	_	_	_	_
+14	in	in	ADP	APPR	_	16	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Land	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	Entity=(e13)
+17	herumwirbelt	herumwirbeln	VERB	VVPP	VerbForm=Part	11	acl	_	_
+18	,	,	PUNCT	$,	_	20	punct	_	_
+19	heftig	heftig	ADJ	ADJD	_	20	advmod	_	_
+20	lebendig	lebendig	ADJ	ADJD	_	17	conj	_	_
+21	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	23	cc	_	_
+22	schöpferisch	schöpferisch	ADJ	ADJD	_	23	advmod	_	_
+23	frei	frei	ADJ	ADJD	_	17	conj	_	_
+24	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Sie sehen das Amerika , das sonst niemand zu sehen bekommt .
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	Entity=(e27)
+2	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Amerika	Amerika	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	Entity=(e13)
+5	,	,	PUNCT	$,	_	11	punct	_	_
+6	das	der	PRON	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	obj	_	_
+7	sonst	sonst	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	11	advmod	_	_
+8	niemand	niemand	PRON	PIS	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	11	nsubj	_	_
+9	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	mark	_	_
+10	sehen	sehen	VERB	VVINF	VerbForm=Inf	11	xcomp	_	_
+11	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_
+12	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = Wie ihre Vorgänger bereisen die heutigen Nomaden die Hauptverkehrsadern der Vereinigten Staaten aus Stahl und Asphalt .
+1	Wie	wie	ADP	NN	Case=Nom|Gender=Masc|Number=Plur	3	case	_	_
+2	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	3	det:poss	_	Entity=(e28-entity-2)
+3	Vorgänger	Vorgänger	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obl	_	Entity=(e27)
+4	bereisen	bereisen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	heutigen	heutig	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	7	amod	_	_
+7	Nomaden	Nomaden	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	nsubj	_	Entity=(e28)
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	Hauptverkehrsadern	Hauptverkehrsad	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	4	obj	_	Entity=(e29-entity-9)
+10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	Vereinigten	vereinigt	PROPN	ADJA	Case=Gen|Gender=Masc|Number=Plur	12	amod	_	_
+12	Staaten	Staat	PROPN	NN	Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	Entity=(e13)
+13	aus	aus	ADP	APPR	_	14	case	_	_
+14	Stahl	Stahl	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	_
+15	und	und	CCONJ	NE	Case=Dat|Gender=Neut|Number=Sing	16	cc	_	_
+16	Asphalt	Asphalt	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	14	conj	_	_
+17	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = Am Tag springen sie auf Güterzüge oder strecken den Daumen raus , und fahren auf der Autobahn mit jedem mit , egal ob Lkw-Fahrer oder nicht berufstätige Mütter .
+1-2	Am	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Tag	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+4	springen	springen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+5	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	Entity=(e28)
+6	auf	auf	ADP	APPR	_	7	case	_	_
+7	Güterzüge	Güterzug	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+8	oder	oder	CCONJ	XY	_	9	cc	_	_
+9	strecken	strecken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	Daumen	Daumen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	iobj	_	Entity=(e30-entity-11)
+12	raus	raus	PART	PTKVZ	_	9	mark	_	_
+13	,	,	PUNCT	$,	_	15	punct	_	_
+14	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	15	cc	_	_
+15	fahren	fahren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+16	auf	auf	ADP	APPR	_	18	case	_	_
+17	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Autobahn	Autobahn	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	Entity=(e29)
+19	mit	mit	ADP	$(	_	20	case	_	_
+20	jedem	jed	PRON	PIS	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	18	nmod	_	Entity=(e31-entity-20)
+21	mit	mit	ADP	$(	_	31	case	_	_
+22	,	,	PUNCT	$,	_	31	punct	_	_
+23	egal	egal	ADV	ADV	_	31	advmod	_	_
+24	ob	ob	SCONJ	CARD	NumType=Card	31	mark	_	_
+25	Lkw	Lkw	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	SpaceAfter=No
+26	-	-	PUNCT	$(	_	27	punct	_	SpaceAfter=No
+27	Fahrer	Fahrer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	25	flat	_	_
+28	oder	oder	CCONJ	XY	_	30	cc	_	_
+29	nicht	nicht	PART	CARD	NumType=Card	30	advmod	_	_
+30	berufstätige	berufstätig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	25	conj	_	_
+31	Mütter	Mütter	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	20	nmod	_	_
+32	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = Nachts schlafen sie unter den Sternen , gekauert an ihr Rudel aus Hunden , Katzen und Haustierratten zwischen ihren Körpern .
+1	Nachts	nachts	ADV	ADV	_	2	advmod	_	_
+2	schlafen	schlafen	VERB	ADJD	_	0	root	_	_
+3	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	Entity=(e28)
+4	unter	unter	ADP	ADJD	_	6	case	_	_
+5	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	Sternen	Stern	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	Entity=(e32-entity-6)
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	gekauert	kauern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl	_	_
+9	an	an	ADP	APPR	_	11	case	_	_
+10	ihr	ihr	DET	PPER	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	det:poss	_	Entity=(e28)
+11	Rudel	Rudel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	Entity=(e33-entity-11)
+12	aus	aus	ADP	APPR	_	13	case	_	_
+13	Hunden	Hund	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	_
+14	,	,	PUNCT	$,	_	15	punct	_	_
+15	Katzen	Katze	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	conj	_	_
+16	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	17	cc	_	_
+17	Haustierratten	Haustierratte	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_
+18	zwischen	zwischen	ADP	ADJA	Case=Acc|Gender=Masc|Number=Sing	20	case	_	_
+19	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	20	det:poss	_	_
+20	Körpern	Körper	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+21	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Manche Reisende haben sich dieses Leben ausgesucht , verzichten auf Materielles , herkömmliche Arbeit und Uni-Abschlüsse im Tausch gegen einen Hauch von Abenteuer .
+1	Manche	manch	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	Reisende	Reisende	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Entity=(e34-entity-2)
+3	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
+5	dieses	dies	PRON	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
+6	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	Entity=(e5)
+7	ausgesucht	ausgesuchen	VERB	VVPP	VerbForm=Part	0	root	_	_
+8	,	,	PUNCT	$,	_	9	punct	_	_
+9	verzichten	verzichen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+10	auf	auf	ADP	APPR	_	11	case	_	_
+11	Materielles	Materielles	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	obl	_	Entity=(e35-entity-11)
+12	,	,	PUNCT	$,	_	14	punct	_	_
+13	herkömmliche	herkömmlich	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	14	amod	_	_
+14	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	_
+15	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	16	cc	_	_
+16	Uni	Uni	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No|Entity=(e36-entity-16)
+17	-	-	PUNCT	$(	_	18	punct	_	SpaceAfter=No
+18	Abschlüsse	Abschluß	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	flat	_	_
+19-20	im	_	_	_	_	_	_	_
+19	in	in	ADP	APPR	_	21	case	_	_
+20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Tausch	Tausch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	nmod	_	Entity=(e37-entity-21)
+22	gegen	gegen	ADP	APPR	_	24	case	_	_
+23	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Hauch	Hauch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	21	nmod	_	_
+25	von	von	ADP	FM	Foreign=Yes	26	case	_	_
+26	Abenteuer	Abenteuer	NOUN	ADJA	Case=Dat|Gender=Fem|Number=Sing	24	nmod	_	_
+27	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Andere kommen von der Schattenseite der Gesellschaft ; sie bekamen sie nie , die Chance zum sozialen Aufstieg : Ausbrecher aus Pflegefamilien , jugendliche Ausreißer auf der Flucht vor Missbrauch und unversöhnlichen Elternhäusern .
+1	Andere	andere	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	2	nsubj	_	Entity=(e38-entity-1)
+2	kommen	kommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	von	von	ADP	FM	Foreign=Yes	5	case	_	_
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Schattenseite	Schattenseite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	Entity=(e39-entity-5)
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Gesellschaft	Gesellschaft	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	Entity=(e40-entity-7)
+8	;	;	PUNCT	$.	_	10	punct	_	_
+9	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	Entity=(e38)
+10	bekamen	bekommen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+11	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+12	nie	nie	ADV	ADV	_	10	advmod	_	_
+13	,	,	PUNCT	$,	_	15	punct	_	_
+14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Chance	Chance	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	Entity=(e41-entity-15)
+16-17	zum	_	_	_	_	_	_	_
+16	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	19	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	sozialen	sozial	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	19	amod	_	_
+19	Aufstieg	Aufstieg	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	nmod	_	Entity=(e42-entity-19)
+20	:	:	PUNCT	$.	_	21	punct	_	_
+21	Ausbrecher	Ausbrecher	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	26	appos	_	Entity=(e38)
+22	aus	aus	ADP	APPR	_	23	case	_	_
+23	Pflegefamilien	Pflegefamilien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	21	nmod	_	_
+24	,	,	PUNCT	$,	_	26	punct	_	_
+25	jugendliche	jugendlich	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	26	amod	_	_
+26	Ausreißer	Ausreißer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	appos	_	_
+27	auf	auf	ADP	APPR	_	29	case	_	_
+28	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Flucht	Flucht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	26	nmod	_	Entity=(e43-entity-29)
+30	vor	vor	ADP	NE	Case=Dat|Gender=Fem|Number=Sing	31	case	_	_
+31	Missbrauch	Mißbrauch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	29	nmod	_	_
+32	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	34	cc	_	_
+33	unversöhnlichen	unversöhnlich	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	34	amod	_	_
+34	Elternhäusern	Elternhaus	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	31	conj	_	_
+35	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Was andere als Geschichten von Entbehrung und wirtschaftlichem Versagen ansehen , betrachten die Reisenden durch das Prisma der Befreiung und Freiheit .
+1	Was	was	PRON	FM	Foreign=Yes	10	nsubj	_	Entity=(e5)
+2	andere	ander	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	1	nsubj	_	_
+3	als	als	ADP	KOKOM	_	4	case	_	_
+4	Geschichten	Geschichte	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obl	_	_
+5	von	von	ADP	FM	Foreign=Yes	6	case	_	_
+6	Entbehrung	Entbehrung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	_
+7	und	und	CCONJ	NE	Foreign=Yes	9	cc	_	_
+8	wirtschaftlichem	wirtschaftlich	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	9	amod	_	_
+9	Versagen	Versage	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	conj	_	_
+10	ansehen	ansehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	,	,	PUNCT	$,	_	12	punct	_	_
+12	betrachten	betrachten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+13	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	14	det	_	_
+14	Reisenden	Reisende	NOUN	NN	Case=Nom|Number=Plur	12	nsubj	_	Entity=(e28)
+15	durch	durch	ADP	APPR	_	17	case	_	_
+16	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Prisma	Prisma	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	Entity=(e44-entity-17)
+18	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Befreiung	Befreiung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	Entity=(e45-entity-19)
+20	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	21	cc	_	_
+21	Freiheit	Freiheit	NOUN	NE	Case=Dat|Gender=Fem|Number=Sing	19	conj	_	Entity=(e46-entity-21)
+22	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 18
+# text = Lieber zehren sie vom Überfluss einer -- aus ihrer Sicht -- verschwenderischen Konsumgesellschaft , als sich mit einer unrealistischen Chance auf den herkömmlichen " American Dream " abzurackern .	1	--	_	_	_	_	_	_
+1	Lieber	gern	ADV	ADV	_	2	advmod	_	_
+2	zehren	zehren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	Entity=(e28)
+4-5	vom	_	_	_	_	_	_	_
+4	von	von	ADP	FM	Foreign=Yes	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Überfluss	Überfluß	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	Entity=(e47-entity-6)
+7	einer	ein	NUM	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	nummod	_	_
+8	--	--	PUNCT	$(	_	11	punct	_	_
+9	aus	aus	ADP	APPR	_	11	case	_	_
+10	ihrer	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	11	det:poss	_	Entity=(e28)
+11	Sicht	Sicht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	Entity=(e48-entity-11)
+12	--	--	PUNCT	$(	_	11	punct	_	_
+13	verschwenderischen	verschwenderisch	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	14	amod	_	_
+14	Konsumgesellschaft	Konsumgesellschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
+15	,	,	PUNCT	$,	_	29	punct	_	_
+16	als	als	ADP	KOUS	_	17	case	_	_
+17	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	29	obl	_	_
+18	mit	mit	ADP	ADJA	Case=Nom|Gender=Fem|Number=Plur	21	case	_	_
+19	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	unrealistischen	unrealistisch	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	21	amod	_	_
+21	Chance	Chance	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	29	obl	_	Entity=(e41)
+22	auf	auf	ADP	APPR	_	27	case	_	_
+23	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+24	herkömmlichen	herkömmlich	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	27	amod	_	_
+25	"	"	PUNCT	$(	_	27	punct	_	_
+26	American	American	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	27	amod	_	_
+27	Dream	Dream	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	29	obl	_	Entity=(e15)
+28	"	"	PUNCT	$(	_	27	punct	_	_
+29	abzurackern	abzurackern	VERB	VVINF	VerbForm=Inf	2	conj	_	_
+30	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = Sie nutzen die Tatsache aus , dass in den USA bis zu 40 % der Lebensmittel im Abfall landen , in dem sie nach einwandfreien Nahrungsmitteln in Containern und Abfalleimern suchen .
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	Entity=(e28)
+2	nutzen	nutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Tatsache	Tatsache	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	Entity=(e49-entity-4)
+5	aus	aus	ADP	PTKVZ	_	2	compound:prt	_	_
+6	,	,	PUNCT	$,	_	20	punct	_	_
+7	dass	dass	SCONJ	KOUS	_	20	mark	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	USA	USA	PROPN	NE	Case=Dat|Gender=Masc|Number=Plur	20	obl	_	Entity=(e13)
+11	bis	bis	ADP	APPR	_	14	case	_	_
+12	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	14	case	_	_
+13	40	40	NUM	CARD	NumType=Card	14	nummod	_	_
+14	%	%	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	20	obl	_	_
+15	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	16	det	_	_
+16	Lebensmittel	Lebensmittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	14	nmod	_	Entity=(e50-entity-16)
+17-18	im	_	_	_	_	_	_	_
+17	in	in	ADP	APPR	_	19	case	_	_
+18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Abfall	Abfall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	20	nmod	_	Entity=(e51-entity-19)
+20	landen	landen	VERB	ADJA	Case=Dat|Gender=Masc|Number=Sing	2	ccomp	_	_
+21	,	,	PUNCT	$,	_	32	punct	_	_
+22	in	in	ADP	APPR	_	23	case	_	_
+23	dem	der	PRON	PRELS	Case=Dat|Gender=Masc|Number=Sing|PronType=Rel	32	obl	_	_
+24	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	32	nsubj	_	Entity=(e28)
+25	nach	nach	ADP	ADJA	_	27	case	_	_
+26	einwandfreien	einwandfreien	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Plur	27	amod	_	_
+27	Nahrungsmitteln	Nahrungsmittel	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	32	obl	_	Entity=(e50)
+28	in	in	ADP	APPR	_	29	case	_	_
+29	Containern	Container	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	32	obl	_	_
+30	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	31	cc	_	_
+31	Abfalleimern	Abfalleimer	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	29	conj	_	Entity=(e51)
+32	suchen	suchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	acl	_	_
+33	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = Sie opfern materiellen Komfort im Austausch gegen den Raum und die Zeit , ihr kreatives Inneres zu entdecken , um zu träumen , zu lesen , Musik zu machen , Kunst zu erschaffen und zu schreiben .
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	Entity=(e28)
+2	opfern	opfern	ADV	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advmod	_	_
+3	materiellen	materiellen	VERB	ADJA	Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
+4	Komfort	Komfort	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5-6	im	_	_	_	_	_	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Austausch	Austausch	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	Entity=(e52-entity-7)
+8	gegen	gegen	ADP	APPR	_	10	case	_	_
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Raum	Raum	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
+11	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	19	cc	_	_
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+14	,	,	PUNCT	$,	_	19	punct	_	_
+15	ihr	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	17	det:poss	_	Entity=(e28)
+16	kreatives	kreativ	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	17	amod	_	_
+17	Inneres	Inneres	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	19	obj	_	Entity=(e53-entity-17)
+18	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	19	mark	_	_
+19	entdecken	entdecken	VERB	VVINF	VerbForm=Inf	3	conj	_	_
+20	,	,	PUNCT	$,	_	23	punct	_	_
+21	um	um	ADP	KOUI	_	23	mark	_	_
+22	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	23	mark	_	_
+23	träumen	träumen	VERB	VVINF	VerbForm=Inf	3	advcl	_	_
+24	,	,	PUNCT	$,	_	26	punct	_	_
+25	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	26	mark	_	_
+26	lesen	lesen	VERB	VVINF	VerbForm=Inf	3	conj	_	_
+27	,	,	PUNCT	$,	_	30	punct	_	_
+28	Musik	Musik	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	30	obj	_	_
+29	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	30	mark	_	_
+30	machen	machen	VERB	VVINF	VerbForm=Inf	3	conj	_	_
+31	,	,	PUNCT	$,	_	34	punct	_	_
+32	Kunst	Kunst	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	34	obj	_	_
+33	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	34	mark	_	_
+34	erschaffen	erschaffen	VERB	VVINF	VerbForm=Inf	3	conj	_	_
+35	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	37	cc	_	_
+36	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	37	mark	_	_
+37	schreiben	schreiben	VERB	VVINF	VerbForm=Inf	3	conj	_	_
+38	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 21
+# text = Aber es gibt viele Aspekte an dieser Art zu leben , die alles andere als idyllisch sind .
+1	Aber	aber	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+3	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	viele	viel	DET	NE	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	_
+5	Aspekte	Aspekt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+6	an	an	ADP	APPR	_	8	case	_	_
+7	dieser	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	Art	Art	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	Entity=(e12)
+9	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	mark	_	_
+10	leben	leben	VERB	VVINF	VerbForm=Inf	3	xcomp	_	_
+11	,	,	PUNCT	$,	_	14	punct	_	_
+12	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	14	nsubj	_	_
+13	alles	alle	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	14	nsubj	_	_
+14	andere	ander	ADJ	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	3	acl	_	_
+15	als	als	CCONJ	KOKOM	_	16	cc	_	_
+16	idyllisch	idyllisch	ADJ	ADJD	_	14	conj	_	_
+17	sind	sein	AUX	ADJD	_	14	cop	_	_
+18	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 22
+# text = Niemand verliert seine inneren Dämonen , indem er auf der Straße lebt .
+1	Niemand	niemand	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	verliert	verlieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	5	det:poss	_	_
+4	inneren	inner	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	5	amod	_	_
+5	Dämonen	Dämon	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obj	_	_
+6	,	,	PUNCT	$,	_	12	punct	_	_
+7	indem	indem	SCONJ	KOUS	_	12	mark	_	_
+8	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+9	auf	auf	ADP	APPR	_	11	case	_	_
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Straße	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	Entity=(e6)
+12	lebt	leben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+13	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = Drogensucht und extremes Wetter gehören zur Wirklichkeit , Güterzüge verstümmeln oder töten , und wer auf der Straße gelebt hat , kann ein Zeugnis von der Unmenge an Gesetzen ablegen , wodurch sich Obdachlose strafbar machen .
+1	Drogensucht	Drogensuchen	ADJ	VVPP	VerbForm=Part	4	amod	_	Entity=(e54-entity-1)
+2	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	3	cc	_	_
+3	extremes	extrem	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	1	conj	_	_
+4	Wetter	Wetter	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	nsubj	_	Entity=(e24)
+5	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6-7	zur	_	_	_	_	_	_	_
+6	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	case	_	_
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Wirklichkeit	Wirklichkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	Entity=(e55-entity-8)
+9	,	,	PUNCT	$,	_	10	punct	_	_
+10	Güterzüge	Güterzug	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	conj	_	_
+11	verstümmeln	verstümmeln	VERB	FM	Foreign=Yes	5	conj	_	_
+12	oder	oder	CCONJ	XY	_	13	cc	_	_
+13	töten	töten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	conj	_	_
+14	,	,	PUNCT	$,	_	20	punct	_	_
+15	und	und	CCONJ	NE	Foreign=Yes	20	cc	_	_
+16	wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	20	nsubj	_	_
+17	auf	auf	ADP	APPR	_	19	case	_	_
+18	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Straße	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	Entity=(e6)
+20	gelebt	leben	VERB	VVPP	VerbForm=Part	5	conj	_	_
+21	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+22	,	,	PUNCT	$,	_	31	punct	_	_
+23	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+24	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	25	det	_	_
+25	Zeugnis	Zeugnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	31	obj	_	_
+26	von	von	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	28	case	_	_
+27	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Unmenge	Unmenge	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	Entity=(e56-entity-28)
+29	an	an	ADP	APPR	_	30	case	_	_
+30	Gesetzen	Gesetz	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	28	nmod	_	Entity=(e57-entity-30)
+31	ablegen	ablegen	VERB	VVINF	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+32	,	,	PUNCT	$,	_	37	punct	_	_
+33	wodurch	wodurch	PRON	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	nsubj	_	_
+34	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	37	obj	_	_
+35	Obdachlose	Obdachlose	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	37	nsubj	_	Entity=(e28)
+36	strafbar	strafbar	ADJ	ADJD	_	37	xcomp	_	_
+37	machen	machen	VERB	VVINF	VerbForm=Inf	5	acl	_	_
+38	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 24
+# text = Wussten Sie , dass es in vielen Städten der USA nun illegal ist , auf dem Bordstein zu sitzen , sich in eine Decke zu wickeln , im eigenen Auto zu übernachten , einem Fremden Essen anzubieten 
+1	Wussten	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	Entity=(e58-entity-2)
+3	,	,	PUNCT	$,	_	12	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	12	mark	_	_
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	Entity=(e59-entity-5)
+6	in	in	ADP	APPR	_	8	case	_	_
+7	vielen	viel	DET	PIAT	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	8	amod	_	_
+8	Städten	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	12	nmod	_	Entity=(e60-entity-8)
+9	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	USA	USA	PROPN	NE	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	Entity=(e13)
+11	nun	nun	ADV	ADV	_	12	advmod	_	_
+12	illegal	illegal	ADJ	ADJD	_	1	ccomp	_	_
+13	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	12	cop	_	_
+14	,	,	PUNCT	$,	_	19	punct	_	_
+15	auf	auf	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Bordstein	Bordstein	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	obl	_	_
+18	zu	zu	PART	NE	Case=Dat|Gender=Masc|Number=Sing	19	mark	_	_
+19	sitzen	sitzen	VERB	VVINF	VerbForm=Inf	12	xcomp	_	_
+20	,	,	PUNCT	$,	_	26	punct	_	_
+21	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	26	obj	_	_
+22	in	in	ADP	APPR	_	24	case	_	_
+23	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Decke	Decke	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	obl	_	_
+25	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	26	mark	_	_
+26	wickeln	wickeln	VERB	VVINF	VerbForm=Inf	1	xcomp	_	_
+27	,	,	PUNCT	$,	_	33	punct	_	_
+28-29	im	_	_	_	_	_	_	_
+28	in	in	ADP	APPR	_	31	case	_	_
+29	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	31	det	_	_
+30	eigenen	eigen	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	31	amod	_	_
+31	Auto	Auto	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	33	obl	_	_
+32	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	33	mark	_	_
+33	übernachten	übernachten	VERB	VVINF	VerbForm=Inf	26	xcomp	_	_
+34	,	,	PUNCT	$,	_	38	punct	_	_
+35	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	Fremden	Fremde	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	38	iobj	_	_
+37	Essen	Essen	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	38	obj	_	_
+38	anzubieten	anzubien	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+39	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 25
+# text = Ich kenne diese Gesetze , weil ich sah , wie Freunde und andere Herumreisende ins Gefängnis geschleppt oder vorgeladen wurden , weil sie diese sogenannten " Verbrechen " begangen hatten .
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Entity=(e1)
+2	kenne	kennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	diese	dies	PRON	PDAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	4	det	_	_
+4	Gesetze	Gesetz	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	Entity=(e57)
+5	,	,	PUNCT	$,	_	8	punct	_	_
+6	weil	weil	SCONJ	KOUS	_	8	mark	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	Entity=(e1)
+8	sah	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	advcl	_	_
+9	,	,	PUNCT	$,	_	11	punct	_	_
+10	wie	wie	ADP	NN	Case=Nom|Gender=Masc|Number=Sing	11	case	_	_
+11	Freunde	Freund	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	obl	_	Entity=(e61-entity-11)
+12	und	und	CCONJ	NE	Foreign=Yes	14	cc	_	_
+13	andere	ander	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	14	amod	_	_
+14	Herumreisende	Herumreisende	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	Entity=(e62-entity-14)
+15-16	ins	_	_	_	_	_	_	_
+15	in	in	ADP	APPR	_	17	case	_	_
+16	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Gefängnis	Gefängnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	18	obl	_	Entity=(e63-entity-17)
+18	geschleppt	schleppen	VERB	VVPP	VerbForm=Part	8	conj	_	_
+19	oder	oder	CCONJ	XY	_	20	cc	_	_
+20	vorgeladen	vorgeladen	VERB	NN	Case=Acc|Gender=Fem|Number=Plur	18	conj	_	_
+21	wurden	werden	AUX	NE	Foreign=Yes	18	aux:pass	_	_
+22	,	,	PUNCT	$,	_	30	punct	_	_
+23	weil	weil	SCONJ	KOUS	_	30	mark	_	_
+24	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	30	nsubj	_	Entity=(e64-entity-24)
+25	diese	dies	PRON	PDS	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	28	det	_	_
+26	sogenannten	sogenannt	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	28	amod	_	_
+27	"	"	PUNCT	$(	_	28	punct	_	_
+28	Verbrechen	Verbrechen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	30	obj	_	Entity=(e59)
+29	"	"	PUNCT	$(	_	28	punct	_	_
+30	begangen	begehen	VERB	VVPP	VerbForm=Part	18	advcl	_	_
+31	hatten	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	30	aux	_	_
+32	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 26
+# text = Vielleicht fragen Sie sich , wieso jemand ein Leben wie dieses wählt , unter der Fuchtel diskriminierender Gesetze , aus Mülltonnen zu essen , unter Brücken zu schlafen , hier und da Saisonjobs anzunehmen .
+1	Vielleicht	vielleicht	ADV	ADV	_	2	advmod	_	_
+2	fragen	fragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Entity=(e65-entity-2)
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	Entity=(e58)
+4	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+5	,	,	PUNCT	$,	_	12	punct	_	_
+6	wieso	wieso	ADV	PWAV	PronType=Int	12	advmod	_	_
+7	jemand	jemand	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	9	nsubj	_	Entity=(e31)
+8	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+10	wie	wie	ADP	NE	Case=Gen|Gender=Neut|Number=Sing	11	case	_	_
+11	dieses	dies	PRON	PDAT	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	12	obl	_	Entity=(e5)
+12	wählt	wählen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+13	,	,	PUNCT	$,	_	23	punct	_	_
+14	unter	unter	ADP	ADJD	_	16	case	_	_
+15	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Fuchtel	Fuchtel	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	23	obl	_	Entity=(e66-entity-16)
+17	diskriminierender	diskriminierend	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	18	amod	_	_
+18	Gesetze	Gesetz	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	23	obj	_	Entity=(e57)
+19	,	,	PUNCT	$,	_	23	punct	_	_
+20	aus	aus	ADP	APPR	_	21	case	_	_
+21	Mülltonnen	Mülltonnen	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	23	obl	_	Entity=(e51)
+22	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	23	mark	_	_
+23	essen	essen	VERB	VVINF	VerbForm=Inf	12	xcomp	_	_
+24	,	,	PUNCT	$,	_	28	punct	_	_
+25	unter	unter	ADP	ADJD	_	26	case	_	_
+26	Brücken	Brücke	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	28	obl	_	_
+27	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	28	mark	_	_
+28	schlafen	schlafen	VERB	VVINF	VerbForm=Inf	23	conj	_	_
+29	,	,	PUNCT	$,	_	30	punct	_	_
+30	hier	hier	ADV	ADV	_	28	conj	_	_
+31	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	34	cc	_	_
+32	da	da	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	34	advmod	_	_
+33	Saisonjobs	Saisonjob	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	34	obj	_	_
+34	anzunehmen	annehmen	VERB	VVIZU	VerbForm=Inf	2	conj	_	_
+35	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 27
+# text = Darauf gibt es so viele Antworten wie Menschen , die dieses Leben führen , aber Herumreisende antworten oft mit einem Wort : Freiheit .
+1	Darauf	darauf	ADV	PAV	_	2	advmod	_	Entity=(e65)
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+4	so	so	ADV	NN	Case=Gen|Gender=Neut|Number=Sing	2	advmod	_	_
+5	viele	viel	DET	NN	Case=Gen|Gender=Neut|Number=Plur	6	amod	_	_
+6	Antworten	antworten	NOUN	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	nsubj	_	_
+7	wie	wie	ADP	NE	Case=Gen|Gender=Neut|Number=Sing	8	case	_	_
+8	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nmod	_	_
+9	,	,	PUNCT	$,	_	13	punct	_	_
+10	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	13	nsubj	_	_
+11	dieses	dies	PRON	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	12	det	_	_
+12	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	Entity=(e5)
+13	führen	führen	VERB	VVINF	VerbForm=Inf	8	acl	_	_
+14	,	,	PUNCT	$,	_	17	punct	_	_
+15	aber	aber	CCONJ	KON	_	17	cc	_	_
+16	Herumreisende	Herumreisende	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	Entity=(e28)
+17	antworten	antworten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+18	oft	oft	ADV	CARD	NumType=Card	17	advmod	_	_
+19	mit	mit	ADP	CARD	NumType=Card	21	case	_	_
+20	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	21	det	_	_
+21	Wort	Wort	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	_
+22	:	:	PUNCT	$.	_	23	punct	_	_
+23	Freiheit	Freiheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	21	appos	_	Entity=(e46)
+24	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 28
+# text = Bis wir in einer Gesellschaft leben , wo jedem Menschen seine Würde bei der Arbeit garantiert wird , sodass sie arbeiten , um gut zu leben , und nicht nur um zu überleben , wird es immer auch jene geben , die die " offene Straße " aufsuchen : als Mittel zur Flucht , zur Befreiung und selbstverständlich zur Rebellion .
+1	Bis	bis	ADP	APPR	_	2	case	_	_
+2	wir	wir	PRON	ADJD	_	6	nsubj	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Gesellschaft	Gesellschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	Entity=(e40)
+6	leben	leben	VERB	VVINF	VerbForm=Inf	40	advcl	_	_
+7	,	,	PUNCT	$,	_	16	punct	_	_
+8	wo	wo	ADV	NE	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	16	advmod	_	_
+9	jedem	jed	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	16	iobj	_	_
+10	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	Entity=(e31)
+11	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	12	det:poss	_	_
+12	Würde	Würde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+13	bei	bei	ADP	APPR	_	15	case	_	_
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Arbeit	Arbeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	_
+16	garantiert	garantieren	VERB	VVPP	VerbForm=Part	6	acl	_	_
+17	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	16	aux:pass	_	_
+18	,	,	PUNCT	$,	_	21	punct	_	_
+19	sodass	sodass	SCONJ	KOUS	_	21	mark	_	_
+20	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	21	nsubj	_	Entity=(e31)
+21	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	16	advcl	_	_
+22	,	,	PUNCT	$,	_	26	punct	_	_
+23	um	um	ADP	KOUI	_	26	mark	_	_
+24	gut	gut	ADJ	ADJD	_	26	advmod	_	_
+25	zu	zu	PART	NN	Case=Nom|Number=Plur	26	mark	_	_
+26	leben	leben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+27	,	,	PUNCT	$,	_	33	punct	_	_
+28	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	33	cc	_	_
+29	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	advmod	_	_
+30	nur	nur	ADV	CARD	NumType=Card	33	advmod	_	_
+31	um	um	ADP	APPR	_	33	mark	_	_
+32	zu	zu	PART	NN	Case=Nom|Number=Plur	33	mark	_	_
+33	überleben	überleben	VERB	VVINF	VerbForm=Inf	26	conj	_	_
+34	,	,	PUNCT	$,	_	6	punct	_	_
+35	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux:pass	_	_
+36	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	40	expl	_	_
+37	immer	immer	ADV	ADV	_	40	advmod	_	_
+38	auch	auch	ADV	ADV	_	40	advmod	_	_
+39	jene	jen	PRON	KOUS	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	40	obj	_	Entity=(e28)
+40	geben	geben	VERB	VVINF	VerbForm=Inf	0	root	_	_
+41	,	,	PUNCT	$,	_	48	punct	_	_
+42	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	48	nsubj	_	_
+43	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+44	"	"	PUNCT	$(	_	46	punct	_	_
+45	offene	offen	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	46	amod	_	_
+46	Straße	Straße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	48	obj	_	Entity=(e6)
+47	"	"	PUNCT	$(	_	46	punct	_	_
+48	aufsuchen	aufsuchen	VERB	VVINF	VerbForm=Inf	40	acl	_	_
+49	:	:	PUNCT	$.	_	48	punct	_	_
+50	als	als	ADP	KOKOM	_	51	case	_	_
+51	Mittel	Mittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	40	obl	_	_
+52-53	zur	_	_	_	_	_	_	_
+52	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	54	case	_	_
+53	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	_	_
+54	Flucht	Flucht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	51	nmod	_	Entity=(e43)
+55	,	,	PUNCT	$,	_	58	punct	_	_
+56-57	zur	_	_	_	_	_	_	_
+56	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	58	case	_	_
+57	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	58	det	_	_
+58	Befreiung	Befreiung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	54	nmod	_	Entity=(e45)
+59	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	63	cc	_	_
+60	selbstverständlich	selbstverständlich	ADJ	ADJD	_	63	amod	_	_
+61-62	zur	_	_	_	_	_	_	_
+61	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	63	case	_	_
+62	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	63	det	_	_
+63	Rebellion	Rebellion	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	58	conj	_	Entity=(e67-entity-63)
+64	.	.	PUNCT	$.	_	40	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 29
+# text = Vielen Dank
+1	Vielen	viel	DET	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	amod	_	_
+2	Dank	Dank	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\n\n
+
+
+

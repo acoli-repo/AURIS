@@ -3,7 +3,7 @@ import numpy as np
 
 mode2description={
 	"corefud": "export to Coref-UD format, skip CoNLL-U annotations (to be inserted afterwards)",
-	"conll": "export to custom CoNLL format, using one word per line, sentence-level annotations are given as spans"
+	"tsv": "export to custom CoNLL format, using one utterance per line"
 }
 
 args=argparse.ArgumentParser(
@@ -61,7 +61,7 @@ if args.mode=="corefud":
 			word=row["WORD"]
 			coref="_"
 			if "COREF" in row and not f'{row["COREF"]}' in ["","nan","_"]:
-				aurisid=f"{args.file} {'_'.join(row['COREF'].lower().strip().split())}"
+				aurisid=f"{args.file} {'_'.join(str(row['COREF']).lower().strip().split())}"
 				if not aurisid in aurisid2cuid:
 					aurisid2cuid[aurisid]=f"e{len(aurisid2cuid)+1}"
 					coref=f"Entity=({aurisid2cuid[aurisid]}-entity-{wnr})"
@@ -70,48 +70,29 @@ if args.mode=="corefud":
 			line=[str(wnr),word]+["_"]*7+[coref]
 			print("\t".join(line))
 
-elif args.mode=="conll":
+elif args.mode=="tsv":
 	# custom conll export, for both word-level and sentence-level annotations
 
 	if not isinstance(word_level,pandas.core.frame.DataFrame):
-		sys.stderr.write(f"errors while reading {args.file}\n")
+		sys.stderr.write(f"errors while reading word-level annotations from {args.file}\n")
 		sys.stderr.write(log)
 		sys.exit(3)
 
-	# TODO sentence-level annotations are given as spans
-	sys.stderr.write("warning: exporting word-level annotations, only\n")
-#	if not isinstance(word_level,pandas.core.frame.DataFrame):
-#		sys.stderr.write(f"errors while reading {args.file}\n")
-#		sys.stderr.write(log)
-#		sys.exit(4)
+	if not isinstance(sentence_level,pandas.core.frame.DataFrame):
+		sys.stderr.write(f"errors while reading sentence-level annotations from {args.file}\n")
+		sys.stderr.write(log)
+		sys.exit(4)
 	
-	cols=list(word_level.to_dict().keys())
+	cols=list(sentence_level.to_dict().keys())
 	print("# "+"\t".join(cols))
 	print()
 
-
-
-	row2col2content=word_level.transpose().to_dict()
+	row2col2content=sentence_level.transpose().to_dict()
 	wnr=0
 	for row in sorted(row2col2content):
 		row=row2col2content[row]
-		if not "WORD" in row or str(row["WORD"])=='nan' or row["WORD"].split("#")[0].strip()=="":
-				if wnr>0:
-					print()
-					wnr=0
-				continue
-		wnr+=1
-		word=row["WORD"]
-		coref="_"
-		if "COREF" in row and not f'{row["COREF"]}' in ["","nan","_"]:
-				aurisid=f"{args.file} {'_'.join(row['COREF'].lower().strip().split())}"
-				if not aurisid in aurisid2cuid:
-					aurisid2cuid[aurisid]=f"e{len(aurisid2cuid)+1}"
-					coref=f"Entity=({aurisid2cuid[aurisid]}-entity-{wnr})"
-				else:
-					coref=f"Entity=({aurisid2cuid[aurisid]})"
-		line=[str(wnr),word]+["_"]*7+[coref]
-		print("\t".join(line))
+		vals=[str(v) if not str(v) in ["_","nan",""] else "_" for v in row.values() ]
+		print("\t".join(vals))
 
 else:
 	sys.stderr.write(f"ERROR: mode {args.mode} not supported yet, skipping {args.file}\n")

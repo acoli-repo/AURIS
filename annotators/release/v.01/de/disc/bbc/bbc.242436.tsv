@@ -1,0 +1,32 @@
+# ID	TEXT	MARKER	TARGET	RELATION
+1	Russlands Putin feuert Stabschef Sergei Ivanov	_	_	NoRel
+2	Der russische Präsident Vladimir Putin hat unerwarteterweise seinen Stabschef Sergei Ivanov entlassen .	(anders gesagt)	1	restatement
+3	Ivanov war viele Jahre Teil des engsten Vertrauenskreises von Putin .	(insgesamt)	1	broad
+4	Der 63 Jährige wurde zum zu dem Sonderbeauftragten für Umwelt und Transportangelegenheiten ernannt .	(anschließend)	2	after
+5	In einer Stellungnahme des Kreml lautet es , dass Putin ohne Angabe von Gründen &quot; die Entlassung Ivanovs von seinen Pflichten als Vorsitzender der russischen Präsidialverwaltung angeordnet habe &quot; .	(konkret)	2	specific
+6	Anton Vaino , der seit 2012 Ivanovs Stellvertreter war , wurde zu seinem Nachfolger ernannt .	(gleichzeitig)	4	synchrony
+7	Vaino , 44 , ist ehemaliger Diplomat .	(insgesamt)	6	broad
+8	1972 in der estnischen Hauptstadt Tallinn geboren , machte er seinen Abschluss am an dem renommierten Staatlichen Moskauer Institut für Internationale Beziehungen ( MGIMO ) und arbeitete in der Botschaft in Tokyo .	(zuvor)	7	before
+9	Auf der Website des Kreml heißt es ( auf Russisch ) , dass er später Protokollchef und Stabsleiter des Regierungspersonals war .	später	8	after
+10	Über seine Ernennung sagte er zu Putin :&quot; Danke für Ihr Vertrauen . &quot;	(gleichzeitig)	6	synchrony
+11	Ich denke , dass es die wichtigste Aufgabe der Regierung ist , Ihre Tätigkeit als Staatschef bezüglich Gesetzesentwürfen und Kontrollen zur zu der Umsetzung Ihrer Anweisungen zu unterstützen .	(außerdem)	10	conjunction
+12	Putin teilte dem russischen TV Sender am an dem Freitag mit , dass Ivanov darum gebeten habe , seinen Posten zu verlassen und Vaino als seinen Nachfolger empfohlen habe .	(außerdem)	5	conjunction
+13	Überzeugen die lächelnden Gesichter ?	_	12	hypophora
+14	Dieser Schritt hat Moskau geheimnisumwoben gemacht .	(also)	12	result
+15	Sergei Ivanov war lange Zeit einer der engsten Vertrauten Vladimir Putins und arbeitet wie er für den sowjetischen Geheimdienst , dem KGB .	(insgesamt)	12	broad
+16	Als Stabschef war er einer der mächtigsten Männer der Landes .	(außerdem)	15	conjunction
+17	Bei einem Treffen mit Präsident Putin , das im in dem Fernsehen ausgestrahlt wurde , behaupteten beide Männer , dass der Stabschef auf eigenen Wunsch zurücktritt .	(konkret)	12	specific
+18	Aber trotz des Lächelns für die Kameras , sind hier nur wenige davon überzeugt vor allem jetzt , kurz vor den Parlamentswahlen .	aber	17	contrast
+19	Liegt hier also die Folge einer Art Machtkampf vor ?	also	18	result
+20	Das weiß derzeit niemand .	_	19	answer
+21	Aber die offizielle Behauptung dass ein Mann , der einst als potenzieller Präsident angepriesen wurde , auf einmal die russische Umweltpolitik leiten möchte stieß auf große Skepsis .	aber	17	contrast
+22	In seinen Bemerkungen an Putin , die auf der Website des Kreml zitiert werden , sagte Ivanov &quot; es ist wahr , dass ich Sie Anfang 2012 in einem Gespräch gebeten habe , mir diesen sehr komplizierten Posten man könnte beinahe sagen beschwerlichen Posten vier Jahre lang anzuvertrauen .	(zuvor)	21	before
+23	Wie es sich herausstellt , bin ich seit vier Jahren und acht Monaten Vorsitzender der russischen Präsidialverwaltung .	(später)	22	after
+24	Ivanov nahm den Posten im in dem Dezember 2011 an .	Dezember 2011 (vorher)	23	before
+25	Zuvor war er stellvertretender Ministerpräsident und Verteidigungsminister .	zuvor	24	before
+26	Er ist Mitglied des russischen Sicherheitsrates und wie Putin ehemaliges Mitglied des Staatssicherheitsdienstes KGB .	(außerdem)	25	conjunction
+27	In den späten 1990er Jahren , als Putin Vorsitzender des Bundessicherheitsdienstes ( FSB ) war , der den KGB ersetzte , wurde Ivanov zu seinem Stellvertreter ernannt .	in den späten 1990er Jahren (zuvor)	25	before
+28	Als Putin an die Macht gelangte nannte er Ivanov als einen von fünf Leuten , denen er am an dem meisten vertraute .	als Putin an die Macht gelangte (danach)	27	after
+29	Einst wurde angenommen , dass Ivanov nach Putins zweiter Amtszeit Präsident von Russland werden könnte , da eine dritte Amtszeit Putins gegen die Verfassung verstoßen hätte .	einst	28	before
+30	Aber dieser Posten wurde von einem weiteren , nahestehenden Verbündeten Putins eingenommen , Dmitry Medvedev .	aber	29	contra-expectation
+31	Putin wurde Ministerpräsident , bevor er dreieinhalb Jahre später wieder zum zu dem Präsidenten wurde .	(später)	30	after

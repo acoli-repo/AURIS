@@ -1,0 +1,1033 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Heftige Regenfälle, Überschwemmung gibt Anlass zu Rettungen in Louisiana, Mississippi
+1	Heftige	Heftig	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	2	amod	_	_
+2	Regenfälle	Regenfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No|Entity=(e1-entity-2)
+3	,	,	PUNCT	$,	_	5	punct	_	_
+4	Überschwemmung	Überschwemmung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	Entity=(e2-entity-4)
+5	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+6	Anlass	Anlaß	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	_
+7	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	case	_	_
+8	Rettungen	Rettungen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	nmod	_	_
+9	in	in	ADP	APPR	_	10	case	_	_
+10	Louisiana	Louisiana	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No|Entity=(e3-entity-10)
+11	,	,	PUNCT	$,	_	12	punct	_	_
+12	Mississippi	Mississippi	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	appos	_	SpacesAfter=\n\n|Entity=(e4-entity-12)
+
+# newpar
+# sent_id = 2
+# text = Heftige Regenfälle und großflächige Überschwemmungen in Louisiana zwangen den Gouverneur dazu, am Freitag den Notstand auszurufen.
+1	Heftige	Heftig	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	2	amod	_	_
+2	Regenfälle	Regenfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	Entity=(e1)
+3	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	5	cc	_	_
+4	großflächige	großflächig	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	5	amod	_	_
+5	Überschwemmungen	Überschwemmung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	conj	_	Entity=(e2)
+6	in	in	ADP	APPR	_	7	case	_	_
+7	Louisiana	Louisiana	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	Entity=(e3)
+8	zwangen	zwingen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Gouverneur	Gouverneur	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	Entity=(e5-entity-10)
+11	dazu	dazu	ADV	PAV	_	8	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	18	punct	_	_
+13-14	am	_	_	_	_	_	_	_
+13	an	an	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	Entity=(e6-entity-15)
+16	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Notstand	Notstand	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+18	auszurufen	auszurufen	VERB	VVPP	VerbForm=Part	8	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 3
+# text = Es wird den ganzen Samstag über mit mehr Regenfällen gerechnet.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	_
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux:pass	_	_
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	ganzen	ganz	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	_
+5	Samstag	Samstag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	nsubj:pass	_	Entity=(e7-entity-5)
+6	über	über	ADP	FM	Foreign=Yes	9	case	_	_
+7	mit	mit	ADP	$(	_	9	case	_	_
+8	mehr	mehr	PRON	PIAT	Definite=Ind|PronType=Ind	9	det	_	_
+9	Regenfällen	Regenfall	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	obl	_	Entity=(e1)
+10	gerechnet	rechnen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Zahlreiche Flüsse im Südosten Louisianas und dem Süden des Mississippis überfluteten ihre Ufer und drohten mit großflächigen Überschwemmungen nach extremen Regenfällen, berichtete der Nationale Wetterdienst.
+1	Zahlreiche	zahlreich	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+2	Flüsse	Fluß	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	Entity=(e8-entity-2)
+3-4	im	_	_	_	_	_	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Südosten	Südosten	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	Entity=(e9-entity-5)
+6	Louisianas	Louisiana	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	5	appos	_	Entity=(e3)
+7	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	9	cc	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Süden	Süden	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	conj	_	Entity=(e10-entity-9)
+10	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Mississippis	Mississippis	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	Entity=(e4)
+12	überfluteten	überfluten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	14	det:poss	_	Entity=(e8)
+14	Ufer	Ufer	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	Entity=(e11-entity-14)
+15	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	16	cc	_	_
+16	drohten	drohen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	_
+17	mit	mit	ADP	CARD	NumType=Card	19	case	_	_
+18	großflächigen	großflächig	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	19	amod	_	_
+19	Überschwemmungen	Überschwemmung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	16	obl	_	Entity=(e2)
+20	nach	nach	ADP	ADJA	_	22	case	_	_
+21	extremen	extrem	ADJ	VVINF	VerbForm=Inf	22	amod	_	_
+22	Regenfällen	Regenfall	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No|Entity=(e1)
+23	,	,	PUNCT	$,	_	24	punct	_	_
+24	berichtete	berichten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	parataxis	_	_
+25	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	Nationale	National	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	27	amod	_	_
+27	Wetterdienst	Wetterdienst	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	SpaceAfter=No|Entity=(e12-entity-27)
+28	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Der Gouverneur von Louisiana John Bel Edwards teilte mit, dass Staatsbeamte im ständigen Kontakt mit den örtlichen Behörden stehen und Hilfe zu den betroffenen Gemeinden bereits unterwegs sei.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Gouverneur	Gouverneur	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+3	von	von	ADP	FM	Foreign=Yes	4	case	_	_
+4	Louisiana	Louisiana	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	Entity=(e3)
+5	John	John	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	4	flat	_	_
+6	Bel	Bel	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	4	flat	_	_
+7	Edwards	Edward	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	2	appos	_	Entity=(e5)
+8	teilte	teilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	mit	mit	ADP	CARD	NumType=Card	8	compound:prt	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	21	punct	_	_
+11	dass	dass	SCONJ	KOUS	_	21	mark	_	_
+12	Staatsbeamte	Staatsbeamte	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+13-14	im	_	_	_	_	_	_	_
+13	in	in	ADP	APPR	_	16	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	ständigen	ständig	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	16	amod	_	_
+16	Kontakt	Kontakt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	21	obl	_	_
+17	mit	mit	ADP	$(	_	20	case	_	_
+18	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+19	örtlichen	örtlich	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	20	amod	_	_
+20	Behörden	Behörde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	16	nmod	_	Entity=(e13-entity-20)
+21	stehen	stehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+22	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	30	cc	_	_
+23	Hilfe	Hilfe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	30	nsubj	_	_
+24	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	27	case	_	_
+25	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	27	det	_	_
+26	betroffenen	betroffen	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	27	amod	_	_
+27	Gemeinden	Gemeinde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	30	obl	_	Entity=(e14-entity-27)
+28	bereits	bereits	ADV	ADV	_	30	advmod	_	_
+29	unterwegs	unterwegs	ADV	ADV	_	30	advmod	_	_
+30	sei	sein	VERB	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	SpaceAfter=No
+31	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Mike Steele, ein Sprecher für das Office of Homeland Security and Emergency Preparedness des Gouverneurs, teilte mit, dass sich die Anfragen für Hochwasserfahrzeuge, Boote und Sandsäcke mehrten.
+1	Mike	Miken	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	Entity=(e15-entity-1)
+2	Steele	Steele	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	_
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Sprecher	Sprecher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+6	für	für	ADP	APPR	_	8	case	_	_
+7	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Office	Office	PROPN	NE	Foreign=Yes	5	nmod	_	Entity=(e16-entity-8)
+9	of	of	PROPN	NE	Foreign=Yes	8	flat	_	_
+10	Homeland	Homeland	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	_
+11	Security	Security	PROPN	NE	Foreign=Yes	8	flat	_	_
+12	and	and	CCONJ	NE	Foreign=Yes	13	cc	_	_
+13	Emergency	Emergency	PROPN	NE	Foreign=Yes	8	conj	_	_
+14	Preparedness	Preparedness	PROPN	NE	Foreign=Yes	13	flat	_	_
+15	des	der	DET	ART	Foreign=Yes	8	flat	_	_
+16	Gouverneurs	Gouverneur	NOUN	NE	Foreign=Yes	8	flat	_	SpaceAfter=No|Entity=(e5)
+17	,	,	PUNCT	$,	_	1	punct	_	_
+18	teilte	teilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+19	mit	mit	ADP	CARD	NumType=Card	18	compound:prt	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	31	punct	_	_
+21	dass	dass	SCONJ	KOUS	_	31	mark	_	_
+22	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	31	obj	_	_
+23	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	Anfragen	Anfrage	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	31	nsubj	_	Entity=(e17-entity-24)
+25	für	für	ADP	APPR	_	26	case	_	_
+26	Hochwasserfahrzeuge	Hochwasserfahrzeug	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	$,	_	28	punct	_	_
+28	Boote	Boot	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	26	conj	_	_
+29	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	30	cc	_	_
+30	Sandsäcke	Sandsack	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	26	conj	_	_
+31	mehrten	mehren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	ccomp	_	SpaceAfter=No
+32	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Steele sagte, dass allein die Gemeinde Tangipahoa zehntausend Sandsäcke angefordert hätte.
+1	Steele	Steel	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Entity=(e15)
+2	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	11	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	11	mark	_	_
+5	allein	allein	PRON	ADV	_	7	amod	_	_
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Gemeinde	Gemeinde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+8	Tangipahoa	Tangipahoa	PROPN	NE	Foreign=Yes	7	appos	_	Entity=(e18-entity-8)
+9	zehntausend	zehntausend	NUM	NE	Foreign=Yes	10	nummod	_	_
+10	Sandsäcke	Sandsack	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	angefordert	angefordern	VERB	VVPP	VerbForm=Part	2	ccomp	_	_
+12	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = Ein Überschwemmungswarnsystem wird über weite Teile im Süden Louisianas bis Samstag eingesetzt.
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Überschwemmungswarnsystem	Überschwemmungswarnsystem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	nsubj:pass	_	_
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	aux:pass	_	_
+4	über	über	ADP	FM	Foreign=Yes	6	case	_	_
+5	weite	weit	ADJ	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	6	amod	_	_
+6	Teile	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	obl	_	_
+7-8	im	_	_	_	_	_	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Süden	Süden	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	Entity=(e19-entity-9)
+10	Louisianas	Louisiana	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	Entity=(e3)
+11	bis	bis	ADP	APPR	_	12	case	_	_
+12	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	Entity=(e7)
+13	eingesetzt	einsetzen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Der Wetterdienst ließ verlautbaren, dass in diesem Gebiet zusätzliche 3 bis 5 Zoll an Regen fallen könnten.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Wetterdienst	Wetterdienst	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Entity=(e20-entity-2)
+3	ließ	lassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	verlautbaren	verlautbaren	VERB	VVINF	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	17	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	17	mark	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	diesem	dies	PRON	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	9	det	_	_
+9	Gebiet	Gebiet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	obl	_	Entity=(e19)
+10	zusätzliche	zusätzlich	ADJ	KON	_	14	amod	_	_
+11	3	3	NUM	CARD	NumType=Card	14	nummod	_	_
+12	bis	bis	ADP	KON	_	13	case	_	_
+13	5	5	NUM	CARD	NumType=Card	11	nmod	_	_
+14	Zoll	Zoll	NOUN	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	nsubj	_	_
+15	an	an	ADP	APPR	_	16	case	_	_
+16	Regen	Regen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	_
+17	fallen	fallen	VERB	VVINF	VerbForm=Inf	3	ccomp	_	_
+18	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Im Süden Alabamas wurde am Freitag ein Flutfrühwarnsystem eingesetzt, während es im Gebiet Mobile weiterhin regnete.
+1-2	Im	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Süden	Süden	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	Entity=(e21-entity-3)
+4	Alabamas	Alabama	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	Entity=(e22-entity-4)
+5	wurde	werden	AUX	KON	_	11	aux:pass	_	_
+6-7	am	_	_	_	_	_	_	_
+6	an	an	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	Entity=(e6)
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Flutfrühwarnsystem	Flutfrühwarnsystem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	nsubj:pass	_	_
+11	eingesetzt	einsetzen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	20	punct	_	_
+13	während	während	SCONJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	20	mark	_	_
+14	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+15-16	im	_	_	_	_	_	_	_
+15	in	in	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Gebiet	Gebiet	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	20	obl	_	_
+18	Mobile	mobil	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	17	appos	_	Entity=(e23-entity-18)
+19	weiterhin	weiterhin	ADV	ADV	_	20	advmod	_	_
+20	regnete	regnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Der Fluss Comite in der Nähe Baton Rouges und der Fluss Amite in der Nähe Denham Springs, die sich beide in Louisiana befinden, werden aller Wahrscheinlichkeit nach über das Wochenende Rekordpegel erreichen.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Fluss	Fluß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	34	nsubj	_	_
+3	Comite	Comite	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	Entity=(e24-entity-3)
+4	in	in	ADP	APPR	_	6	case	_	_
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Nähe	Nähe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
+7	Baton	Baton	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	6	appos	_	Entity=(e25-entity-7)
+8	Rouges	Rouges	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	7	flat	_	_
+9	und	und	CCONJ	NE	Foreign=Yes	11	cc	_	_
+10	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Fluss	Fluß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+12	Amite	Amite	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	11	appos	_	Entity=(e26-entity-12)
+13	in	in	ADP	APPR	_	15	case	_	_
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Nähe	Nähe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	_
+16	Denham	Denham	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	15	appos	_	Entity=(e27-entity-16)
+17	Springs	Spring	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	16	flat	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	24	punct	_	_
+19	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	24	nsubj	_	_
+20	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	24	expl:pv	_	_
+21	beide	beide	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	24	nsubj	_	Entity=(e28-entity-21)
+22	in	in	ADP	APPR	_	23	case	_	_
+23	Louisiana	Louisiana	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	24	obl	_	Entity=(e3)
+24	befinden	befinden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl	_	SpaceAfter=No
+25	,	,	PUNCT	$,	_	2	punct	_	_
+26	werden	werden	AUX	NN	Case=Gen|Gender=Fem|Number=Sing	34	aux:pass	_	_
+27	aller	alle	PRON	PIAT	Case=Gen|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	28	det	_	_
+28	Wahrscheinlichkeit	Wahrscheinlichkeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	34	obl	_	_
+29	nach	nach	ADP	ADJA	_	32	case	_	_
+30	über	über	ADP	NN	Case=Gen|Gender=Fem|Number=Sing	32	case	_	_
+31	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	32	det	_	_
+32	Wochenende	Wochenende	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	34	obl	_	Entity=(e29-entity-32)
+33	Rekordpegel	Rekordpegel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	32	appos	_	_
+34	erreichen	erreichen	VERB	VVFIN	VerbForm=Inf	0	root	_	SpaceAfter=No
+35	.	.	PUNCT	$.	_	34	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = Der Metereologe Alek Krautmann sagt, dass beide Flüsse viele Häuser in den Vorortgegenden nahe Baton Rouge überschwemmen könnten.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Metereologe	Metereologe	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	Alek	Alek	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	Entity=(e30-entity-3)
+4	Krautmann	Krautmann	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	_
+5	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	18	punct	_	_
+7	dass	dass	SCONJ	KOUS	_	18	mark	_	_
+8	beide	beide	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	9	det	_	_
+9	Flüsse	Fluß	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	Entity=(e31-entity-9)
+10	viele	viel	DET	NE	Case=Nom|Gender=Neut|Number=Sing	11	amod	_	_
+11	Häuser	Haus	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	18	nsubj	_	_
+12	in	in	ADP	APPR	_	14	case	_	_
+13	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	Vorortgegenden	Vorortgegende	NOUN	ADJA	Case=Dat|Gender=Masc|Number=Plur	18	obl	_	Entity=(e32-entity-14)
+15	nahe	nahe	ADP	CARD	NumType=Card	16	case	_	_
+16	Baton	Baton	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	14	nmod	_	Entity=(e25)
+17	Rouge	Rouge	PROPN	NE	Case=Dat|Number=Sing	16	flat	_	_
+18	überschwemmen	überschwemmen	VERB	VVINF	VerbForm=Inf	5	ccomp	_	_
+19	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = Er sagte auch, dass eine stromabwärts gerichtete Überschwemmung in Ascension Parish eine Gefahr darstellt, da diese über die getretenen Flüsse nur langsam in den Lake Maurepas fließen werden.
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Entity=(e30)
+2	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	auch	auch	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	15	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	15	mark	_	_
+6	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	stromabwärts	stromabwärts	ADV	ADV	_	8	advmod	_	_
+8	gerichtete	gerichtet	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	9	amod	_	_
+9	Überschwemmung	Überschwemmung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	Entity=(e33-entity-9)
+10	in	in	ADP	APPR	_	11	case	_	_
+11	Ascension	Ascension	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	Entity=(e34-entity-11)
+12	Parish	Parish	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	11	flat	_	_
+13	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Gefahr	Gefahr	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+15	darstellt	darstellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	29	punct	_	_
+17	da	da	SCONJ	KOUS	_	29	mark	_	_
+18	diese	dies	PRON	PDS	Case=Nom|Number=Plur|PronType=Dem	29	nsubj:pass	_	Entity=(e33)
+19	über	über	ADP	FM	Foreign=Yes	22	case	_	_
+20	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	getretenen	getreten	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	22	amod	_	_
+22	Flüsse	Fluß	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	29	obl	_	Entity=(e8)
+23	nur	nur	ADV	CARD	NumType=Card	29	advmod	_	_
+24	langsam	langsam	ADJ	ADJD	_	29	advmod	_	_
+25	in	in	ADP	APPR	_	27	case	_	_
+26	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Lake	Lake	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	29	obl	_	Entity=(e35-entity-27)
+28	Maurepas	Maurepas	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	27	flat	_	_
+29	fließen	fließen	VERB	VVINF	VerbForm=Inf	2	advcl	_	_
+30	werden	werden	AUX	NE	Case=Acc|Number=Plur	29	aux:pass	_	SpaceAfter=No
+31	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = Der Fluss Tickfaw, südlich der Mississippi Staatsgrenze in Liverpool, Louisiana, erreichte am Freitag bereits um 09.00 den höchsten Stand, der jemals aufgezeichnet wurde.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Fluss	Fluß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+3	Tickfaw	Tickfaw	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	SpaceAfter=No|Entity=(e36-entity-3)
+4	,	,	PUNCT	$,	_	7	punct	_	_
+5	südlich	südlich	ADP	ADJA	Case=Nom|Gender=Fem|Number=Sing|NumType=Card	7	case	_	_
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Mississippi	Mississippi	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	Entity=(e4)
+8	Staatsgrenze	Staatsgrenze	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	flat	_	_
+9	in	in	ADP	APPR	_	10	case	_	_
+10	Liverpool	Liverpool	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No|Entity=(e37-entity-10)
+11	,	,	PUNCT	$,	_	12	punct	_	_
+12	Louisiana	Louisiana	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	7	appos	_	SpaceAfter=No|Entity=(e3)
+13	,	,	PUNCT	$,	_	2	punct	_	_
+14	erreichte	erreichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15-16	am	_	_	_	_	_	_	_
+15	an	an	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obl	_	Entity=(e6)
+18	bereits	bereits	ADV	ADV	_	20	advmod	_	_
+19	um	um	ADP	APPR	_	20	case	_	_
+20	09.00	09.00	NUM	CARD	NumType=Card	14	obl	_	_
+21	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	höchsten	hoch	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	23	amod	_	_
+23	Stand	Stand	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No|Entity=(e38-entity-23)
+24	,	,	PUNCT	$,	_	27	punct	_	_
+25	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	27	nsubj:pass	_	_
+26	jemals	jemals	ADV	ADV	_	27	advmod	_	_
+27	aufgezeichnet	aufzeichnen	VERB	VVPP	VerbForm=Part	23	acl	_	_
+28	wurde	werden	AUX	KON	_	27	aux:pass	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Rettungsteams zupften noch immer Leute aus dem Flutwasser in den Bezirken Amite und Wilkinson im Südwesten von Mississippi.
+1	Rettungsteams	Rettungsteam	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	zupften	zupfen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	noch	noch	ADV	CARD	NumType=Card	2	advmod	_	_
+4	immer	immer	ADV	ADV	_	5	advmod	_	_
+5	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur	2	obj	_	_
+6	aus	aus	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Flutwasser	Flutwasser	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	Entity=(e39-entity-8)
+9	in	in	ADP	APPR	_	11	case	_	_
+10	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	det	_	_
+11	Bezirken	Bezirk	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	obl	_	_
+12	Amite	Amite	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	11	appos	_	Entity=(e40-entity-12)
+13	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	14	cc	_	_
+14	Wilkinson	Wilkinson	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	conj	_	Entity=(e41-entity-14)
+15-16	im	_	_	_	_	_	_	_
+15	in	in	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Südwesten	Südwesten	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	Entity=(e10)
+18	von	von	ADP	FM	Foreign=Yes	19	case	_	_
+19	Mississippi	Mississippi	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No|Entity=(e4)
+20	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Leroy Hansford, seine Frau und sein Stiefsohn befanden sich unter denjenigen, die am Freitag in der Nähe von Gloster gerettet wurden.
+1	Leroy	Leroy	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Entity=(e42-entity-1)
+2	Hansford	Hansford	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	_
+4	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	5	det:poss	_	Entity=(e42)
+5	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	Entity=(e43-entity-5)
+6	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	8	cc	_	_
+7	sein	sein	DET	PPOSAT	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes	8	det:poss	_	Entity=(e42)
+8	Stiefsohn	Stiefsohn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	Entity=(e44-entity-8)
+9	befanden	befinden	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	9	expl:pv	_	_
+11	unter	unter	ADP	ADJD	_	12	case	_	_
+12	denjenigen	derjenige	PRON	PDS	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	9	obl	_	SpaceAfter=No|Entity=(e45-entity-12)
+13	,	,	PUNCT	$,	_	23	punct	_	_
+14	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	23	nsubj:pass	_	_
+15-16	am	_	_	_	_	_	_	_
+15	an	an	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	23	obl	_	Entity=(e6)
+18	in	in	ADP	APPR	_	20	case	_	_
+19	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Nähe	Nähe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	obl	_	_
+21	von	von	ADP	FM	Foreign=Yes	22	case	_	_
+22	Gloster	Gloster	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	20	nmod	_	Entity=(e46-entity-22)
+23	gerettet	retten	VERB	VVPP	VerbForm=Part	12	acl	_	_
+24	wurden	werden	AUX	FM	Foreign=Yes	23	aux:pass	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Hansford, 62, sagt, dass Wasser von Beaver Creek, das normalerweise mehr als 400 Fuß von seinem Haus entfernt liegt, über Nacht stark anstieg.
+1	Hansford	Hansford	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No|Entity=(e42)
+2	,	,	PUNCT	$,	_	3	punct	_	_
+3	62	62	PROPN	CARD	NumType=Card	1	appos	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	1	punct	_	_
+5	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	28	punct	_	_
+7	dass	dass	SCONJ	KOUS	_	28	mark	_	_
+8	Wasser	Wasser	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	28	nsubj	_	Entity=(e47-entity-8)
+9	von	von	ADP	FM	Foreign=Yes	10	case	_	_
+10	Beaver	Beaver	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	8	nmod	_	Entity=(e48-entity-10)
+11	Creek	Creek	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	23	punct	_	_
+13	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	23	nsubj	_	_
+14	normalerweise	normalerweise	ADV	ADV	_	15	advmod	_	_
+15	mehr	mehr	ADV	ADV	_	23	advmod	_	_
+16	als	als	ADP	KOKOM	_	18	case	_	_
+17	400	400	NUM	CARD	NumType=Card	18	nummod	_	_
+18	Fuß	Fuß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	23	obl	_	_
+19	von	von	ADP	FM	Foreign=Yes	21	case	_	_
+20	seinem	sein	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	21	det:poss	_	Entity=(e42)
+21	Haus	Haus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	23	obl	_	Entity=(e49-entity-21)
+22	entfernt	entfernen	ADJ	ADJD	_	23	advmod	_	_
+23	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl	_	SpaceAfter=No
+24	,	,	PUNCT	$,	_	8	punct	_	_
+25	über	über	ADP	FM	Foreign=Yes	26	case	_	_
+26	Nacht	Nacht	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	28	nmod	_	_
+27	stark	stark	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	28	advmod	_	_
+28	anstieg	anstieg	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 18
+# text = Er sagte, dass ihn ein weiterer Stiefsohn, der in der Nähe wohnt, gewarnt hätte.
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Entity=(e42)
+2	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	16	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	16	mark	_	_
+5	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	Entity=(e42)
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	weiterer	weit	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	_
+8	Stiefsohn	Stiefsohn	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	14	punct	_	_
+10	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	14	nsubj	_	_
+11	in	in	ADP	APPR	_	13	case	_	_
+12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Nähe	Nähe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
+14	wohnt	wohnen	VERB	VVPP	VerbForm=Part	8	acl	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	8	punct	_	_
+16	gewarnt	warnen	VERB	VVPP	VerbForm=Part	2	ccomp	_	_
+17	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 19	1	&quot;	_	_	_	_	_	_
+# text = "Wir sind aufgewacht und das Wasser strömte und strömte herein," sagte Hansford.
+1	"	"	PUNCT	$(	_	2	punct	SpaceAfter=No
+2	Wir	wir	PRON	ADJD	_	4	nsubj	_	Entity=(e50-entity-2)
+3	sind	sein	AUX	ADJD	_	4	cop	_	_
+4	aufgewacht	aufgewachen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
+5	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	8	cc	_	_
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Wasser	Wasser	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	Entity=(e47)
+8	strömte	strömen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+9	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	10	cc	_	_
+10	strömte	strömen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+11	herein	herein	ADV	PTKVZ	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	4	punct	_	SpaceAfter=No
+13	"	"	PUNCT	$(	_	4	punct	_	_
+14	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	Hansford	Hansford	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No|Entity=(e42)
+16	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = Es erreichte meine Taille.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Entity=(e47)
+2	erreichte	erreichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	meine	mein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	4	det:poss	_	Entity=(e42)
+4	Taille	Taille	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No|Entity=(e51-entity-4)
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 21
+# text = Seine Frau sagte Hansford, dass sie in den 48 Jahren, in denen sie dort lebte, noch nie einen solchen Hochstand des Flusses gesehen hätte.
+1	Seine	sein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	2	det:poss	_	Entity=(e42)
+2	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	Entity=(e43)
+3	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	Hansford	Hansford	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No|Entity=(e42)
+5	,	,	PUNCT	$,	_	11	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	11	mark	_	_
+7	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	Entity=(e43)
+8	in	in	ADP	APPR	_	11	case	_	_
+9	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	det	_	_
+10	48	48	NUM	CARD	NumType=Card	11	nummod	_	_
+11	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	4	nmod	_	SpaceAfter=No|Entity=(e52-entity-11)
+12	,	,	PUNCT	$,	_	17	punct	_	_
+13	in	in	ADP	APPR	_	14	case	_	_
+14	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Rel	17	obl	_	_
+15	sie	sie	PRON	VVINF	VerbForm=Inf	17	nsubj	_	Entity=(e43)
+16	dort	dort	ADV	ADV	_	17	advmod	_	_
+17	lebte	leben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	26	punct	_	_
+19	noch	noch	ADV	CARD	NumType=Card	26	advmod	_	_
+20	nie	nie	ADV	ADV	_	26	advmod	_	_
+21	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	solchen	solch	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	23	amod	_	_
+23	Hochstand	Hochstand	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	26	iobj	_	_
+24	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Flusses	Fluß	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	Entity=(e48)
+26	gesehen	sehen	VERB	VVINF	VerbForm=Inf	3	ccomp	_	_
+27	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	aux	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 22
+# text = Hansford sagte, dass er und seine Familienmitglieder alle Behinderungen hätten und er der Einzige wäre, der schwimmen kann.
+1	Hansford	Hansford	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Entity=(e42)
+2	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	11	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	11	mark	_	_
+5	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	Entity=(e42)
+6	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	8	cc	_	_
+7	seine	sein	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Poss=Yes	8	det:poss	_	Entity=(e42)
+8	Familienmitglieder	Familienmitglieder	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	5	conj	_	Entity=(e53-entity-8)
+9	alle	alle	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
+10	Behinderungen	Behinderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+11	hätten	haben	VERB	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+12	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	15	cc	_	_
+13	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	Entity=(e42)
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Einzige	einzig	NOUN	ADJA	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	_
+16	wäre	sein	AUX	NN	Case=Acc|Gender=Fem|Number=Sing	15	cop	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	19	punct	_	_
+18	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	19	nsubj	_	_
+19	schwimmen	schwimmen	VERB	VVINF	VerbForm=Inf	15	acl	_	_
+20	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = Hansford sagte, dass Nothelfer alle drei in einem großen Militär-LKW gerettet hätten und sie zu der nächsten Feuerwache in Gloster gebracht hätten, wo sie bis zum Freitag untergebracht waren.
+1	Hansford	Hansford	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Entity=(e42)
+2	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	12	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	12	mark	_	_
+5	Nothelfer	Nothelfer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+6	alle	alle	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	12	obj	_	_
+7	drei	drei	NUM	CARD	NumType=Card	12	nummod	_	Entity=(e54-entity-7)
+8	in	in	ADP	APPR	_	11	case	_	_
+9	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	großen	groß	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	11	amod	_	_
+11	Militär-LKW	Militär-LKW	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	12	obl	_	_
+12	gerettet	retten	VERB	VVPP	VerbForm=Part	2	ccomp	_	_
+13	hätten	haben	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+14	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	22	cc	_	_
+15	sie	sie	PRON	VVINF	VerbForm=Inf	22	nsubj:pass	_	Entity=(e54)
+16	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	19	case	_	_
+17	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	nächsten	nah	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	19	amod	_	_
+19	Feuerwache	Feuerwache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	22	obl	_	Entity=(e55-entity-19)
+20	in	in	ADP	APPR	_	21	case	_	_
+21	Gloster	Gloster	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	22	obl	_	Entity=(e46)
+22	gebracht	bringen	VERB	VVPP	VerbForm=Part	12	conj	_	_
+23	hätten	haben	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	SpaceAfter=No
+24	,	,	PUNCT	$,	_	31	punct	_	_
+25	wo	wo	ADV	NE	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	31	advmod	_	_
+26	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	31	nsubj:pass	_	Entity=(e54)
+27	bis	bis	ADP	APPR	_	30	case	_	_
+28-29	zum	_	_	_	_	_	_	_
+28	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	30	case	_	_
+29	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	31	obl	_	Entity=(e6)
+31	untergebracht	unterbringen	VERB	VVPP	VerbForm=Part	2	acl	_	_
+32	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	31	aux:pass	_	SpaceAfter=No
+33	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 24
+# text = Krautmann sagte, dass die Überschwemmung "sich schnell ausgebreitet" hatte, da es weiterhin schwere Regenfälle gab und, dass die Behörden Evakuierungsanweisungen in Betracht zögen.
+1	Krautmann	Krautmann	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Entity=(e30)
+2	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	10	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	10	mark	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Überschwemmung	Überschwemmung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	Entity=(e47)
+7	"	"	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+8	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
+9	schnell	schnell	ADJ	ADV	_	10	advmod	_	_
+10	ausgebreitet	ausbreiten	VERB	VVPP	VerbForm=Part	12	ccomp	_	SpaceAfter=No
+11	"	"	PUNCT	$(	_	10	punct	_	_
+12	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	19	punct	_	_
+14	da	da	SCONJ	KOUS	_	19	mark	_	_
+15	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	expl	_	_
+16	weiterhin	weiterhin	ADV	ADV	_	19	advmod	_	_
+17	schwere	schwer	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	18	amod	_	_
+18	Regenfälle	Regenfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	nsubj	_	Entity=(e1)
+19	gab	gab	ADV	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	advcl	_	_
+20	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	28	cc	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	28	punct	_	_
+22	dass	dass	SCONJ	KOUS	_	28	mark	_	_
+23	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	_
+24	Behörden	Behörde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	28	nsubj	_	Entity=(e13)
+25	Evakuierungsanweisungen	Evakuierungsanweisungen	PROPN	NN	Case=Nom|Gender=Fem|Number=Plur	24	appos	_	_
+26	in	in	ADP	APPR	_	27	case	_	_
+27	Betracht	Betracht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	28	nmod	_	_
+28	zögen	zög	ADJ	NN	Case=Dat|Gender=Neut|Number=Sing	19	conj	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 25
+# text = Laut Krautmann meldete ein Beobachter in der Nähe von Livingstone von Mitternacht bis Freitag morgen von 13,75 Zoll Regen.
+1	Laut	laut	ADP	NN	Case=Nom|Gender=Masc|Number=Sing	2	case	_	_
+2	Krautmann	Krautmann	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	obl	_	Entity=(e30)
+3	meldete	melden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Beobachter	Beobachter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Nähe	Nähe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
+9	von	von	ADP	FM	Foreign=Yes	10	case	_	_
+10	Livingstone	Livingstone	PROPN	NE	Foreign=Yes	8	nmod	_	Entity=(e56-entity-10)
+11	von	von	ADP	FM	Foreign=Yes	12	case	_	_
+12	Mitternacht	Mitternacht	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
+13	bis	bis	ADP	APPR	_	14	case	_	_
+14	Freitag	Freitag	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	Entity=(e6)
+15	morgen	morgen	ADV	VVPP	VerbForm=Part	3	advmod	_	_
+16	von	von	ADP	FM	Foreign=Yes	18	case	_	_
+17	13,75	13,75	NUM	CARD	NumType=Card	18	nummod	_	_
+18	Zoll	Zoll	NOUN	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	obl	_	_
+19	Regen	Regen	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	18	appos	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 26
+# text = Krautmann sagte, dass der Boden durch die Regenfälle seit Mittwoch erheblich vollgesogen sei.
+1	Krautmann	Krautmann	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Entity=(e30)
+2	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	13	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	13	mark	_	_
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Boden	Boden	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	Entity=(e57-entity-6)
+7	durch	durch	ADP	APPR	_	9	case	_	_
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	Regenfälle	Regenfall	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	Entity=(e1)
+10	seit	seit	ADP	ADJA	Case=Acc|Gender=Fem|Number=Plur	11	case	_	_
+11	Mittwoch	Mittwoch	PROPN	KON	_	13	obl	_	Entity=(e58-entity-11)
+12	erheblich	erheblich	ADJ	ADJD	_	13	advmod	_	_
+13	vollgesogen	vollgesiehen	VERB	ADJD	_	2	ccomp	_	_
+14	sei	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 27
+# text = Die Behörden gaben an, dass schwere Regenfälle und Straßenüberschwemmungen die Rettung von Einwohnern aus ihren Häusern in Tangipahoa Parish und Unterrichtsausfall in fünf Schulbezirken verursachten.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Behörden	Behörde	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	Entity=(e13)
+3	gaben	geben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	an	an	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	26	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	26	mark	_	_
+7	schwere	schwer	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	8	amod	_	_
+8	Regenfälle	Regenfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	Entity=(e1)
+9	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	10	cc	_	_
+10	Straßenüberschwemmungen	Straßenüberschwemmung	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	8	conj	_	Entity=(e59-entity-10)
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Rettung	Rettung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	Entity=(e60-entity-12)
+13	von	von	ADP	FM	Foreign=Yes	14	case	_	_
+14	Einwohnern	Einwohner	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	nmod	_	Entity=(e61-entity-14)
+15	aus	aus	ADP	APPR	_	17	case	_	_
+16	ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Plur|Poss=Yes	17	det:poss	_	Entity=(e61)
+17	Häusern	Haus	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	12	nmod	_	Entity=(e62-entity-17)
+18	in	in	ADP	APPR	_	19	case	_	_
+19	Tangipahoa	Tangipahoa	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	17	nmod	_	Entity=(e18)
+20	Parish	Parish	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	19	flat	_	_
+21	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	22	cc	_	_
+22	Unterrichtsausfall	Unterrichtsausfall	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	19	conj	_	_
+23	in	in	ADP	APPR	_	25	case	_	_
+24	fünf	fünf	NUM	CARD	NumType=Card	25	nummod	_	_
+25	Schulbezirken	Schulbezirk	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	22	nmod	_	_
+26	verursachten	verursachen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 28
+# text = Der CBS-Tochtersender WWL berichtete, dass eine Beigeordnete in Tangipahoa 200 überschwemmte Häuser angab.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	CBS	CBS	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	5	amod	_	SpaceAfter=No
+3	-	-	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+4	Tochtersender	Tochtersender	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
+5	WWL	WWL	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Entity=(e63-entity-5)
+6	berichtete	berichten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	16	punct	_	_
+8	dass	dass	SCONJ	KOUS	_	16	mark	_	_
+9	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Beigeordnete	Beigeordneter	NOUN	NN	Case=Nom|Number=Plur	16	nsubj	_	_
+11	in	in	ADP	APPR	_	12	case	_	_
+12	Tangipahoa	Tangipahoa	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	16	obl	_	Entity=(e18)
+13	200	200	NUM	CARD	NumType=Card	15	nummod	_	_
+14	überschwemmte	überschwemmt	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	15	amod	_	_
+15	Häuser	Haus	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	16	nsubj	_	_
+16	angab	angeben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	ccomp	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 29
+# text = Die Einwohner wurden in zwei Kirchen evakuiert, die jetzt beide überschwemmt wurden.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Einwohner	Einwohner	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nsubj:pass	_	Entity=(e61)
+3	wurden	werden	AUX	FM	Foreign=Yes	7	aux:pass	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	zwei	zwei	NUM	NE	Case=Gen|Gender=Masc|Number=Sing	6	nummod	_	_
+6	Kirchen	Kirche	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	7	obl	_	Entity=(e64-entity-6)
+7	evakuiert	evakuieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	12	punct	_	_
+9	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	12	nsubj	_	_
+10	jetzt	jetzt	ADV	ADV	_	12	advmod	_	_
+11	beide	beide	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	12	nsubj:pass	_	Entity=(e64)
+12	überschwemmt	überschwemmen	VERB	VVPP	VerbForm=Part	7	acl	_	_
+13	wurden	werden	AUX	FM	Foreign=Yes	12	aux:pass	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 30
+# text = Der Vorsteher der Gemeinde Robby Miller sagte, dass die Behörden 72 Leute und sieben Haustiere gerettet hätten, die vom Hochwasser angespült wurden.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Vorsteher	Vorsteher	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Gemeinde	Gemeinde	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	Entity=(e18)
+5	Robby	Robby	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	Entity=(e65-entity-5)
+6	Miller	Miller	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	_
+7	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	17	punct	_	_
+9	dass	dass	SCONJ	KOUS	_	17	mark	_	_
+10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	Behörden	Behörde	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	Entity=(e13)
+12	72	72	NUM	CARD	NumType=Card	13	nummod	_	_
+13	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur	17	obj	_	_
+14	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	16	cc	_	_
+15	sieben	sieben	NUM	CARD	NumType=Card	16	nummod	_	_
+16	Haustiere	Haustier	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	conj	_	_
+17	gerettet	retten	VERB	VVPP	VerbForm=Part	7	ccomp	_	_
+18	hätten	haben	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	24	punct	_	_
+20	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	24	nsubj:pass	_	_
+21-22	vom	_	_	_	_	_	_	_
+21	von	von	ADP	FM	Foreign=Yes	23	case	_	_
+22	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
+23	Hochwasser	Hochwasser	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	24	obl	_	Entity=(e59)
+24	angespült	angespülen	VERB	VVPP	VerbForm=Part	7	acl	_	_
+25	wurden	werden	AUX	FM	Foreign=Yes	24	aux:pass	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 31
+# text = In den Städten Amite und Hammond wurden Notunterkünfte eingerichtet, um die Evakuierten zu beherbergen.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	Städten	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	obl	_	_
+4	Amite	Amite	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	Entity=(e40)
+5	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	6	cc	_	_
+6	Hammond	Hammond	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	Entity=(e66-entity-6)
+7	wurden	werden	AUX	FM	Foreign=Yes	9	aux:pass	_	_
+8	Notunterkünfte	Notunterkunft	NOUN	ADJA	Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+9	eingerichtet	einrichten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	15	punct	_	_
+11	um	um	ADP	KOUI	_	15	mark	_	_
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	Evakuierten	Evakuiert	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	Entity=(e61)
+14	zu	zu	PART	NN	Case=Acc|Gender=Fem|Number=Plur	15	mark	_	_
+15	beherbergen	beherbergen	VERB	VVINF	VerbForm=Inf	9	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 32	1	&quot;	_	_	_	_	_	_
+# text = "Sobald das Wasser anfängt zurückzugehen, werden sie wieder in ihre Häuser zurückgehen können," sagte er.
+1	"	"	PUNCT	$(	_	6	punct	SpaceAfter=No
+2	Sobald	sobald	SCONJ	KOUS	_	6	mark	_	_
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Wasser	Wasser	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	Entity=(e59)
+5	anfängt	anfängen	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advmod	_	_
+6	zurückzugehen	zurückzugehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	werden	werden	AUX	NN	Case=Nom|Gender=Fem|Number=Plur	14	aux	_	_
+9	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	Entity=(e61)
+10	wieder	wieder	ADV	NN	Case=Nom|Gender=Neut|Number=Plur	14	advmod	_	_
+11	in	in	ADP	APPR	_	13	case	_	_
+12	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Plur|Poss=Yes	13	det:poss	_	Entity=(e61)
+13	Häuser	Haus	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	14	obl	_	Entity=(e62)
+14	zurückgehen	zurückgehen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+15	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	18	punct	_	SpaceAfter=No
+17	"	"	PUNCT	$(	_	18	punct	_	_
+18	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	parataxis	_	_
+19	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	SpaceAfter=No|Entity=(e65)
+20	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 33
+# text = In der Stadt Hammond der Gemeinde Tangipahoa wurden fast zwei dutzend Straßen aufgrund des Hochwassers geschlossen und Sandsäcke für die Bewohner zur Mitnahme bereitgestellt, die hoffen, das Wasser aus ihren Häusern und Geschäften halten zu können.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	_
+4	Hammond	Hammond	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	appos	_	Entity=(e66)
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Gemeinde	Gemeinde	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+7	Tangipahoa	Tangipahoa	PROPN	NE	Foreign=Yes	6	appos	_	Entity=(e18)
+8	wurden	werden	AUX	NE	Foreign=Yes	16	aux:pass	_	_
+9	fast	fast	ADV	ADV	_	10	advmod	_	_
+10	zwei	zwei	NUM	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	nummod	_	_
+11	dutzend	dutzend	ADJ	ADJD	_	12	amod	_	_
+12	Straßen	Straße	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	nsubj:pass	_	_
+13	aufgrund	aufgrund	ADP	APPR	_	15	case	_	_
+14	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Hochwassers	Hochwasser	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	16	obl	_	Entity=(e59)
+16	geschlossen	schließen	VERB	VVPP	VerbForm=Part	0	root	_	_
+17	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	25	cc	_	_
+18	Sandsäcke	Sandsack	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	25	nsubj:pass	_	_
+19	für	für	ADP	APPR	_	21	case	_	_
+20	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	Bewohner	Bewohner	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	18	nmod	_	Entity=(e61)
+22-23	zur	_	_	_	_	_	_	_
+22	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	24	case	_	_
+23	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Mitnahme	Mitnahme	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	nmod	_	_
+25	bereitgestellt	bereitstellen	VERB	VVPP	VerbForm=Part	16	conj	_	SpaceAfter=No
+26	,	,	PUNCT	$,	_	28	punct	_	_
+27	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	28	nsubj	_	_
+28	hoffen	hoffen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	acl	_	SpaceAfter=No
+29	,	,	PUNCT	$,	_	37	punct	_	_
+30	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	31	det	_	_
+31	Wasser	Wasser	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	37	nsubj	_	Entity=(e59)
+32	aus	aus	ADP	APPR	_	34	case	_	_
+33	ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Plur|Poss=Yes	34	det:poss	_	_
+34	Häusern	Haus	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	37	obl	_	_
+35	und	und	CCONJ	NE	Foreign=Yes	36	cc	_	_
+36	Geschäften	Geschäft	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	34	conj	_	_
+37	halten	halten	VERB	VVINF	VerbForm=Inf	28	xcomp	_	_
+38	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	37	mark	_	_
+39	können	können	AUX	VMINF	VerbForm=Inf	37	aux	_	SpaceAfter=No
+40	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 34	1	&quot;	_	_	_	_	_	_
+# text = "Die letzte große Überschwemmung, die wir hatten, war im März," sagte Lacy Landrum von der Stadtverwaltung.
+1	"	"	PUNCT	$(	_	5	punct	SpaceAfter=No
+2	Die	der	PRON	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+3	letzte	letzt	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
+4	große	groß	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
+5	Überschwemmung	Überschwemmung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No|Entity=(e67-entity-5)
+6	,	,	PUNCT	$,	_	9	punct	_	_
+7	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	9	obj	_	_
+8	wir	wir	PRON	ADJD	_	9	nsubj	_	Entity=(e66)
+9	hatten	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	acl	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	5	punct	_	_
+11	war	sein	AUX	ADV	_	17	cop	_	_
+12-13	im	_	_	_	_	_	_	_
+12	in	in	ADP	APPR	_	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	März	März	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No|Entity=(e68-entity-14)
+15	,	,	PUNCT	$,	_	17	punct	_	SpaceAfter=No
+16	"	"	PUNCT	$(	_	17	punct	_	_
+17	sagte	sagen	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	amod	_	_
+18	Lacy	Lacy	PROPN	NE	Foreign=Yes	17	flat	_	Entity=(e69-entity-18)
+19	Landrum	Landrum	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	0	root	_	_
+20	von	von	ADP	FM	Foreign=Yes	22	case	_	_
+21	der	der	PRON	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Stadtverwaltung	Stadtverwaltung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No|Entity=(e70-entity-22)
+23	.	.	PUNCT	$.	_	19	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 35
+# text = Dies scheint ein ähnlicher Vorfall zu werden.
+1	Dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	_	Entity=(e2)
+2	scheint	scheinen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	ähnlicher	ähnlich	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	_
+5	Vorfall	Vorfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+6	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	7	mark	_	_
+7	werden	werden	VERB	NE	Case=Gen|Gender=Masc|Number=Plur	2	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 36
+# text = In Mississipp sagte der Notfallmanager Rupert Lacy des Harrison Countys, dass es an der Golfküste weiterhin regnete.
+1	In	in	ADP	APPR	_	2	case	_	_
+2	Mississipp	Mississipp	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	3	obl	_	Entity=(e4)
+3	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Notfallmanager	Notfallmanager	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+6	Rupert	Rupert	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	Entity=(e71-entity-6)
+7	Lacy	Lacy	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	flat	_	_
+8	des	d	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Harrison	Harrison	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	Entity=(e72-entity-9)
+10	Countys	Countys	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	18	punct	_	_
+12	dass	dass	SCONJ	KOUS	_	18	mark	_	_
+13	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+14	an	an	ADP	APPR	_	16	case	_	_
+15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Golfküste	Golfküste	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	Entity=(e73-entity-16)
+17	weiterhin	weiterhin	ADV	ADV	_	18	advmod	_	_
+18	regnete	regnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 37
+# text = Laut seinen Angaben sollen eine Handvoll Häuser am Donnerstag als überschwemmt gemeldet worden sein, aber am Freitag wurden bis jetzt keine gemeldet.
+1	Laut	laut	ADP	APPR	_	3	case	_	_
+2	seinen	sein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Poss=Yes	3	det:poss	_	Entity=(e71)
+3	Angaben	Angabe	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	obl	_	Entity=(e74-entity-3)
+4	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+5	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	Handvoll	Handvoll	ADJ	NN	Case=Nom|Gender=Fem|Number=Sing	7	amod	_	_
+7	Häuser	Haus	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	13	nsubj:pass	_	_
+8-9	am	_	_	_	_	_	_	_
+8	an	an	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Donnerstag	Donnerstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	Entity=(e75-entity-10)
+11	als	als	ADP	KOKOM	_	12	case	_	_
+12	überschwemmt	überschwemmt	ADJ	ADJD	_	13	amod	_	_
+13	gemeldet	melden	VERB	VVPP	VerbForm=Part	0	root	_	_
+14	worden	werden	AUX	NN	Case=Nom|Gender=Fem|Number=Plur	13	aux:pass	_	_
+15	sein	sein	AUX	VAINF	VerbForm=Inf	13	aux	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	25	punct	_	_
+17	aber	aber	CCONJ	KON	_	25	cc	_	_
+18-19	am	_	_	_	_	_	_	_
+18	an	an	ADP	APPR	_	20	case	_	_
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Freitag	Freitag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	25	obl	_	Entity=(e6)
+21	wurden	werden	AUX	FM	Foreign=Yes	25	aux:pass	_	_
+22	bis	bis	ADP	APPR	_	23	case	_	_
+23	jetzt	jetzt	ADV	ADV	_	25	advmod	_	_
+24	keine	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Neg|PronType=Neg	25	nmod	_	Entity=(e2)
+25	gemeldet	melden	ADJ	VVPP	VerbForm=Part	13	conj	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 38
+# text = Keith Townson, Manager bei Shopper Value Foods in Amite, lebt bereits seit 40 Jahren in der Gegend.
+1	Keith	Keith	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	Entity=(e76-entity-1)
+2	Townson	Townson	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	4	punct	_	_
+4	Manager	Manager	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+5	bei	bei	ADP	APPR	_	6	case	_	_
+6	Shopper	Shopper	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	Entity=(e77-entity-6)
+7	Value	Value	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	6	flat	_	_
+8	Foods	Food	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	6	flat	_	_
+9	in	in	ADP	APPR	_	10	case	_	_
+10	Amite	Amite	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No|Entity=(e40)
+11	,	,	PUNCT	$,	_	1	punct	_	_
+12	lebt	leben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	bereits	bereits	ADV	ADV	_	16	advmod	_	_
+14	seit	seit	ADP	ADJA	Case=Acc|Gender=Fem|Number=Plur	16	case	_	_
+15	40	40	NUM	CARD	NumType=Card	16	nummod	_	_
+16	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	12	obl	_	_
+17	in	in	ADP	APPR	_	19	case	_	_
+18	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Gegend	Gegend	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No|Entity=(e18)
+20	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 39	1	&quot;	_	_	_	_	_	_
+# text = "Ich habe Wasser an Orten gesehen, an denen ich es nie zuvor gesehen habe," sagte Townson, "und es kommt noch immer."
+1	"	"	PUNCT	$(	_	2	punct	SpaceAfter=No
+2	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	Entity=(e76)
+3	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	Wasser	Wasser	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	Entity=(e59)
+5	an	an	ADP	APPR	_	6	case	_	_
+6	Orten	Ort|Orten	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	obl	_	_
+7	gesehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	15	punct	_	_
+9	an	an	ADP	APPR	_	10	case	_	_
+10	denen	der	PRON	PRELS	Case=Dat|Number=Plur|PronType=Rel	15	obl	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	Entity=(e76)
+12	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	obj	_	Entity=(e59)
+13	nie	nie	ADV	ADV	_	14	advmod	_	_
+14	zuvor	zuvor	ADV	ADV	_	15	advmod	_	_
+15	gesehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	_
+16	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	19	punct	_	SpaceAfter=No
+18	"	"	PUNCT	$(	_	19	punct	_	_
+19	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+20	Townson	Townson	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	19	flat	_	SpaceAfter=No|Entity=(e76)
+21	,	,	PUNCT	$,	_	25	punct	_	_
+22	"	"	PUNCT	$(	_	25	punct	_	SpaceAfter=No
+23	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	25	cc	_	_
+24	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+25	kommt	kommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+26	noch	noch	ADV	CARD	NumType=Card	25	advmod	_	_
+27	immer	immer	ADV	ADV	_	25	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	7	punct	_	SpaceAfter=No
+29	"	"	PUNCT	$(	_	7	punct	_	SpacesAfter=\n\n
+
+
+

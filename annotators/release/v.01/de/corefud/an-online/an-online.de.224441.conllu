@@ -1,0 +1,543 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Golfer Langer erhält die Sportpyramide
+1	Golfer	Golfer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Langer	langer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	Entity=(e1-entity-2)
+3	erhält	erhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Sportpyramide	Sportpyramide	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpacesAfter=\n\n|Entity=(e2-entity-5)
+
+# newpar
+# sent_id = 2
+# text = Seine Erfahrungen auf dem Pferd sind überschaubar.
+1	Seine	sein	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Plur|Poss=Yes	2	det:poss	_	Entity=(e1)
+2	Erfahrungen	Erfahrung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+3	auf	auf	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Pferd	Pferd	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	Entity=(e3-entity-5)
+6	sind	sein	AUX	ADJD	_	7	cop	_	_
+7	überschaubar	überschaubar	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Am Ende eines Golfturniers in Südafrika suchte Bernhard Langer mit einigen Kollegen ein bisschen Abwechslung mit einem Ausritt am Strand.
+1-2	Am	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Ende	Ende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	obl	_	Entity=(e4-entity-3)
+4	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Golfturniers	Golfturnier	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	in	in	ADP	APPR	_	7	case	_	_
+7	Südafrika	Südafrika	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	Entity=(e5-entity-7)
+8	suchte	suchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	Bernhard	Bernhard	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	Entity=(e1)
+10	Langer	langer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	_
+11	mit	mit	ADP	$(	_	13	case	_	_
+12	einigen	einige	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+13	Kollegen	Kollege	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	_
+14	ein	ein	DET	PTKVZ	_	16	det	_	_
+15	bisschen	bissch	ADJ	PIS	Definite=Ind|PronType=Ind	16	amod	_	_
+16	Abwechslung	Abwechslung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+17	mit	mit	ADP	$(	_	19	case	_	_
+18	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Ausritt	Ausritt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	Entity=(e6-entity-19)
+20-21	am	_	_	_	_	_	_	_
+20	an	an	ADP	APPR	_	22	case	_	_
+21	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Strand	Strand	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No|Entity=(e7-entity-22)
+23	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Für den 58-Jährigen war es eine Premiere.
+1	Für	für	ADP	APPR	_	5	case	_	_
+2	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+3	58	58	NUM	CARD	NumType=Card	5	compound	_	SpaceAfter=No
+4	-	-	PUNCT	$(	_	3	punct	_	SpaceAfter=No
+5	Jährigen	jährigen	NOUN	ADJA	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	Entity=(e1)
+6	war	sein	AUX	ADV	_	9	cop	_	_
+7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Entity=(e6)
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Premiere	Premiere	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 5
+# text = CHIO: "Goldene Sportpyramide" für Bernhard Langer
+1	CHIO	CHIO	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|Entity=(e8-entity-1)
+2	:	:	PUNCT	$.	_	5	punct	_	_
+3	"	"	PUNCT	$(	_	5	punct	_	SpaceAfter=No
+4	Goldene	Goldene	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
+5	Sportpyramide	Sportpyramide	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No|Entity=(e2)
+6	"	"	PUNCT	$(	_	5	punct	_	_
+7	für	für	ADP	APPR	_	8	case	_	_
+8	Bernhard	Bernhard	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	5	nmod	_	Entity=(e1)
+9	Langer	langer	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	8	flat	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Nach einigen Minuten erinnerten sich die Pferde an ihren Feierabend, sie jagten im schnellen Galopp nach Hause zu den Futtertrögen.
+1	Nach	nach	ADP	APPR	_	3	case	_	_
+2	einigen	einige	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+3	Minuten	Minute	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	4	obl	_	_
+4	erinnerten	erinnern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	_
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	Pferde	Pferde	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	Entity=(e9-entity-7)
+8	an	an	ADP	APPR	_	10	case	_	_
+9	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	10	det:poss	_	Entity=(e9)
+10	Feierabend	Feierabend	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	13	punct	_	_
+12	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	Entity=(e9)
+13	jagten	jagen	ADJ	NN	Case=Gen|Number=Plur	4	conj	_	_
+14-15	im	_	_	_	_	_	_	_
+14	in	in	ADP	APPR	_	17	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	schnellen	schnell	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	17	amod	_	_
+17	Galopp	Galopp	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	Entity=(e10-entity-17)
+18	nach	nach	ADP	CARD	NumType=Card	19	case	_	_
+19	Hause	Haus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	nmod	_	_
+20	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	22	case	_	_
+21	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	Futtertrögen	Futtertrögen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No|Entity=(e11-entity-22)
+23	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Ein Kilometer bei diesem Tempo, ich habe Angst gehabt.
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Kilometer	Kilometer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	bei	bei	ADP	APPR	_	5	case	_	_
+4	diesem	dies	PRON	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
+5	Tempo	Tempo	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	2	nmod	_	SpaceAfter=No|Entity=(e10)
+6	,	,	PUNCT	$,	_	10	punct	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	Entity=(e1)
+8	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	Angst	Angst	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+10	gehabt	haben	VERB	VAPP	VerbForm=Part	2	acl	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 8	1	&quot;	_	_	_	_	_	_
+# text = "Es war kein gutes Erlebnis", sagt Langer.
+1	"	"	PUNCT	$(	_	6	punct	SpaceAfter=No
+2	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Entity=(e6)
+3	war	sein	AUX	ADV	_	6	cop	_	_
+4	kein	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	6	nmod	_	_
+5	gutes	gut	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	6	amod	_	_
+6	Erlebnis	Erlebnis	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	ccomp	_	SpaceAfter=No
+7	"	"	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	6	punct	_	_
+9	sagt	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	Langer	lange	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No|Entity=(e1)
+11	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Und damit endete die Reitkarriere dann auch schon wieder.
+1	Und	und	CCONJ	ADJD	_	3	cc	_	_
+2	damit	damit	ADV	PAV	_	3	advmod	_	_
+3	endete	enden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Reitkarriere	Reitkarrier	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	Entity=(e12-entity-5)
+6	dann	dann	ADV	ADV	_	3	advmod	_	_
+7	auch	auch	ADV	ADV	_	3	advmod	_	_
+8	schon	schon	ADV	ADV	_	3	advmod	_	_
+9	wieder	wieder	ADV	NN	Case=Nom|Gender=Neut|Number=Plur	3	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Am Samstag war Deutschlands bester Golfer aller Zeiten - 101 Turniersiege - wieder in der Nähe von Pferden.
+1-2	Am	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	7	nmod	_	Entity=(e13-entity-3)
+4	war	sein	AUX	ADV	_	7	cop	_	_
+5	Deutschlands	Deutschland	PROPN	NE	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	Entity=(e14-entity-5)
+6	bester	gut	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
+7	Golfer	Golfer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Entity=(e1)
+8	aller	alle	PRON	PIAT	Case=Gen|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	Zeiten	Zeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	12	compound	_	_
+10	-	-	PUNCT	$(	_	9	punct	_	_
+11	101	101	NUM	CARD	NumType=Card	12	nummod	_	_
+12	Turniersiege	Turniersieg	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	7	nmod	_	_
+13	-	-	PUNCT	$(	_	12	punct	_	_
+14	wieder	wieder	ADV	NN	Case=Nom|Gender=Neut|Number=Plur	12	advmod	_	_
+15	in	in	ADP	APPR	_	17	case	_	_
+16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Nähe	Nähe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	_
+18	von	von	ADP	FM	Foreign=Yes	19	case	_	_
+19	Pferden	Pferd	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	17	nmod	_	SpaceAfter=No|Entity=(e3)
+20	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Er ließ sich mit seiner Familie über die Anlage des ALRV führen, auf ein Pferd schwang er sich nicht mal zu Fotozwecken.
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Entity=(e1)
+2	ließ	lassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	mit	mit	ADP	$,	NumType=Card	6	case	_	_
+5	seiner	sein	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes	6	det:poss	_	Entity=(e1)
+6	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	Entity=(e15-entity-6)
+7	über	über	ADP	FM	Foreign=Yes	9	case	_	_
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Anlage	Anlage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	Entity=(e16-entity-9)
+10	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ALRV	ALRV	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	Entity=(e17-entity-11)
+12	führen	führen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	17	punct	_	_
+14	auf	auf	ADP	APPR	_	16	case	_	_
+15	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Pferd	Pferd	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	obl	_	Entity=(e3)
+17	schwang	schwingen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl	_	_
+18	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	Entity=(e1)
+19	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	17	obj	_	_
+20	nicht	nicht	PART	CARD	NumType=Card	21	advmod	_	_
+21	mal	mal	ADV	ADV	_	17	advmod	_	_
+22	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	23	case	_	_
+23	Fotozwecken	Fotozwecken	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	17	obl	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = Langer war das erste Mal in Aachen und damit auch beim CHIO.
+1	Langer	lang	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	5	amod	_	Entity=(e1)
+2	war	sein	AUX	ADV	_	5	cop	_	_
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+4	erste	erst	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	5	amod	_	_
+5	Mal	Mal	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+6	in	in	ADP	APPR	_	7	case	_	_
+7	Aachen	Aachen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	nmod	_	Entity=(e18-entity-7)
+8	und	und	CCONJ	NE	Case=Dat|Gender=Neut|Number=Sing	13	cc	_	_
+9	damit	damit	ADV	PAV	_	13	advmod	_	_
+10	auch	auch	ADV	ADV	_	13	advmod	_	_
+11-12	beim	_	_	_	_	_	_	_
+11	bei	bei	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	CHIO	CHIO	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No|Entity=(e8)
+14	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = Der Grund war durchaus überzeugend.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Grund	Grund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Entity=(e19-entity-2)
+3	war	sein	AUX	ADV	_	5	cop	_	_
+4	durchaus	durchaus	ADV	ADV	_	5	advmod	_	_
+5	überzeugend	überzeugend	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = Die deutsche Sporthilfe überreichte dem Mann aus Anhausen im Rahmen einer kleinen Gala die Goldene Sportpyramide.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	deutsche	deutsch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+3	Sporthilfe	Sporthilfe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	Entity=(e20-entity-3)
+4	überreichte	überreichen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Mann	Mann	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	iobj	_	Entity=(e1)
+7	aus	aus	ADP	APPR	_	8	case	_	_
+8	Anhausen	Anhausen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	Entity=(e21-entity-8)
+9-10	im	_	_	_	_	_	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Rahmen	Rahmen	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+12	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	kleinen	klein	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	14	amod	_	_
+14	Gala	Gala	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+15	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	Goldene	golden	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	17	amod	_	_
+17	Sportpyramide	Sportpyramide	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No|Entity=(e2)
+18	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = An Auszeichnungen mangelt es dem sympathischen Sportler nicht.
+1	An	an	ADP	APPR	_	2	case	_	_
+2	Auszeichnungen	Auszeichnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	_
+3	mangelt	mangeln	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	sympathischen	sympathisch	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	7	amod	_	_
+7	Sportler	Sportler	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	Entity=(e1)
+8	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Bundesverdienstkreuz, Silbernes Lorbeerblatt, Champions-Tour-Player of the year...
+1	Bundesverdienstkreuz	Bundesverdienstkreuz	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|Entity=(e22-entity-1)
+2	,	,	PUNCT	$,	_	3	punct	_	_
+3	Silbernes	silbern	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	Entity=(e23-entity-3)
+4	Lorbeerblatt	Lorbeerblatt	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	Champions	Champions	PROPN	NE	Case=Dat|Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No|Entity=(e24-entity-6)
+7	-	-	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+8	Tour	Tour	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	6	flat	_	SpaceAfter=No
+9	-	-	PUNCT	$(	_	10	punct	_	SpaceAfter=No
+10	Player	Player	PROPN	FM	Foreign=Yes	1	flat	_	_
+11	of	of	PROPN	NE	Foreign=Yes	1	flat	_	_
+12	the	the	PROPN	NN	Case=Acc|Gender=Neut|Number=Plur	1	flat	_	_
+13	year	year	PROPN	FM	Foreign=Yes	1	flat	_	SpaceAfter=No
+14	...	...	PUNCT	$(	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Selbst die britische Queen hat ihn schon geadelt.
+1	Selbst	selbst	ADV	ADV	_	4	advmod	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	britische	britisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
+4	Queen	Quee	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	Entity=(e25-entity-4)
+5	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	Entity=(e1)
+7	schon	schon	ADV	ADV	_	8	advmod	_	_
+8	geadelt	adeln	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 18
+# text = Langer ist der 18.
+1	Langer	lange	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Entity=(e1)
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	18	18	NUM	CARD	NumType=Card	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 19
+# text = Preisträger der Sportpyramide.
+1	Preisträger	Preisträger	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Sportpyramide	Sportpyramide	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No|Entity=(e2)
+4	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = In Aachen traf er am Samstag den ersten Preisträger Hans Günter Winkler.
+1	In	in	ADP	APPR	_	2	case	_	_
+2	Aachen	Aachen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	Entity=(e18)
+3	traf	treffen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Entity=(e1)
+5-6	am	_	_	_	_	_	_	_
+5	an	an	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	Entity=(e13)
+8	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	ersten	erst	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	10	amod	_	_
+10	Preisträger	Preisträger	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	Entity=(e26-entity-10)
+11	Hans	Hans	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	appos	_	_
+12	Günter	Günter	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	11	flat	_	_
+13	Winkler	Winkler	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	11	flat	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 21	1	&quot;	_	_	_	_	_	_
+# text = "Diese Auszeichnung bedeutet mir sehr viel", sagt Langer, "denn sie wird nicht nur für sportliche Erfolge, sondern auch für gesellschaftliches Engagement vergeben".
+1	"	"	PUNCT	$(	_	4	punct	SpaceAfter=No
+2	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	Auszeichnung	Auszeichnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	Entity=(e2)
+4	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+5	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	Entity=(e1)
+6	sehr	sehr	ADV	NN	Case=Dat|Gender=Neut|Number=Sing	7	advmod	_	_
+7	viel	viel	PRON	PIS	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	4	obj	_	SpaceAfter=No
+8	"	"	PUNCT	$(	_	4	punct	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	4	punct	_	_
+10	sagt	sagen	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	Langer	lange	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No|Entity=(e1)
+12	,	,	PUNCT	$,	_	21	punct	_	_
+13	"	"	PUNCT	$(	_	21	punct	_	SpaceAfter=No
+14	denn	denn	CCONJ	ADV	_	21	cc	_	_
+15	sie	sie	PRON	VVINF	VerbForm=Inf	21	nsubj	_	Entity=(e2)
+16	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	21	aux:pass	_	_
+17	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advmod	_	_
+18	nur	nur	ADV	CARD	NumType=Card	21	advmod	_	_
+19	für	für	ADP	APPR	_	21	case	_	_
+20	sportliche	sportlich	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	21	amod	_	_
+21	Erfolge	Erfolg	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	appos	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	28	punct	_	_
+23	sondern	sondern	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	28	cc	_	_
+24	auch	auch	ADV	ADV	_	28	advmod	_	_
+25	für	für	ADP	APPR	_	27	case	_	_
+26	gesellschaftliches	gesellschaftlich	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	27	amod	_	_
+27	Engagement	Engagement	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	28	nmod	_	_
+28	vergeben	vergeben	ADJ	VVINF	VerbForm=Inf	21	conj	_	SpaceAfter=No
+29	"	"	PUNCT	$(	_	21	punct	_	SpaceAfter=No
+30	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 22
+# text = Seit Jahrzehnten fördert Langer den Nachwuchs.
+1	Seit	seit	ADP	APPR	_	2	case	_	_
+2	Jahrzehnten	Jahrzehnt	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	3	obl	_	_
+3	fördert	fördern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Langer	langer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Entity=(e1)
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Nachwuchs	Nachwuchs	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 23
+# text = Und so gab er auch das Preisgeld von 25.000 Euro gleich weiter.
+1	Und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	3	cc	_	_
+2	so	so	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	3	advmod	_	_
+3	gab	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Entity=(e1)
+5	auch	auch	ADV	ADV	_	3	advmod	_	_
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Preisgeld	Preisgeld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	Entity=(e27-entity-7)
+8	von	von	ADP	FM	Foreign=Yes	10	case	_	_
+9	25.000	25.000	NUM	CARD	NumType=Card	10	nummod	_	_
+10	Euro	Euro	PROPN	NN	Case=Dat|Gender=Masc|Number=Plur	7	nmod	_	_
+11	gleich	gleich	ADJ	ADV	_	3	advmod	_	_
+12	weiter	weiter	ADV	ADV	_	3	compound:prt	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 24
+# text = Mit 15 weiteren herausragenden Sportlern wurde der zweifache US-Masterssieger am Samstag in die "Hall of Fame des deutschen Sports" aufgenommen.	1	--	_	_	_	_	_	_
+1	Mit	mit	ADP	APPR	_	5	case	_	_
+2	15	15	NUM	CARD	NumType=Card	5	nummod	_	_
+3	weiteren	weit	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	5	amod	_	_
+4	herausragenden	herausragend	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	5	amod	_	_
+5	Sportlern	Sportler	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	25	obl	_	Entity=(e28-entity-5)
+6	wurde	werden	AUX	ADV	_	25	aux:pass	_	_
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	zweifache	zweifach	ADJ	NN	Case=Gen|Gender=Fem|Number=Sing	9	amod	_	_
+9	US	US	PROPN	NE	Case=Gen|Number=Plur	6	nmod	_	SpaceAfter=No
+10	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+11	Masterssieger	Masterssieger	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	9	flat	_	Entity=(e1)
+12-13	am	_	_	_	_	_	_	_
+12	an	an	ADP	APPR	_	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	Entity=(e13)
+15	in	in	ADP	APPR	_	18	case	_	_
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	"	"	PUNCT	$(	_	18	punct	_	SpaceAfter=No
+18	Hall	Hall	PROPN	NE	Foreign=Yes	25	obl	_	Entity=(e29-entity-18)
+19	of	of	PROPN	NE	Foreign=Yes	18	flat	_	_
+20	Fame	Fame	PROPN	FM	Foreign=Yes	18	flat	_	_
+21	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	deutschen	deutsch	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing	23	amod	_	_
+23	Sports	Sports	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	18	flat	_	SpaceAfter=No
+24	"	"	PUNCT	$(	_	23	punct	_	_
+25	aufgenommen	aufnehmen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	25	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 25
+# text = Zu den Ausgezeichneten gehören die Leichtathleten Hartwig Gauder und Harald Schmitt, der Turner Eberhard Gienger, die Fechter Cornelia Hanisch, Alexander Pusch und Arnd Schmitt, der Ruderer Peter-Michael Kolbe, Bob-Fahrer Meinhard Nehmer, der Judoka Frank Wieneke, der Springreiter Alwin Schockemöhle und posthum der Handballer Erhard Wunderlich.
+1	Zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	3	case	_	_
+2	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Ausgezeichneten	ausgezeichnet	NOUN	ADJA	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	Entity=(e28)
+4	gehören	gehören	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	Leichtathleten	Leichtathlet	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+7	Hartwig	Hartwig	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	Entity=(e30-entity-7)
+8	Gauder	Gauder	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	flat	_	_
+9	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	10	cc	_	_
+10	Harald	Harald	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	Entity=(e31-entity-10)
+11	Schmitt	Schmitt	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	14	punct	_	_
+13	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Turner	Turner	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+15	Eberhard	Eberhard	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	14	appos	_	Entity=(e32-entity-15)
+16	Gienger	Gienger	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	15	flat	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	19	punct	_	_
+18	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	Fechter	Fechter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	conj	_	_
+20	Cornelia	Cornelia	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	19	appos	_	Entity=(e33-entity-20)
+21	Hanisch	Hanisch	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	20	flat	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	23	punct	_	_
+23	Alexander	Alexander	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	Entity=(e34-entity-23)
+24	Pusch	Pusch	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	23	flat	_	_
+25	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	26	cc	_	_
+26	Arnd	Arnd	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	Entity=(e35-entity-26)
+27	Schmitt	Schmitt	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	26	flat	_	SpaceAfter=No
+28	,	,	PUNCT	$,	_	30	punct	_	_
+29	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	Ruderer	Ruderer	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+31	Peter	Peter	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	30	appos	_	SpaceAfter=No|Entity=(e36-entity-31)
+32	-	-	PUNCT	$(	_	33	punct	_	SpaceAfter=No
+33	Michael	Michael	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	31	flat	_	_
+34	Kolbe	Kolbe	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	31	flat	_	SpaceAfter=No
+35	,	,	PUNCT	$,	_	36	punct	_	_
+36	Bob	Bob	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+37	-	-	PUNCT	$(	_	38	punct	_	SpaceAfter=No
+38	Fahrer	Fahrer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	36	flat	_	_
+39	Meinhard	Meinhard	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	36	appos	_	Entity=(e37-entity-39)
+40	Nehmer	Nehmer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	39	flat	_	SpaceAfter=No
+41	,	,	PUNCT	$,	_	43	punct	_	_
+42	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	43	det	_	_
+43	Judoka	Judoka	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+44	Frank	Frank	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	43	flat	_	Entity=(e38-entity-44)
+45	Wieneke	Wieneke	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	43	flat	_	SpaceAfter=No
+46	,	,	PUNCT	$,	_	48	punct	_	_
+47	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	Springreiter	Springreiter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+49	Alwin	Alwin	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	48	appos	_	Entity=(e39-entity-49)
+50	Schockemöhle	Schockemöhle	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	49	flat	_	_
+51	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	52	cc	_	_
+52	posthum	posthum	PROPN	ADJD	_	54	conj	_	_
+53	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	Handballer	Handballer	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+55	Erhard	Erhard	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	54	appos	_	Entity=(e40-entity-55)
+56	Wunderlich	Wunderlich	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	55	flat	_	SpaceAfter=No
+57	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 26
+# text = Viele dieser Sportlegenden waren am Samstag nach Aachen gekommen.
+1	Viele	viel	PRON	NE	Case=Nom|Number=Sing	10	nsubj	_	Entity=(e41-entity-1)
+2	dieser	dies	PRON	PDS	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	Sportlegenden	Sportlegende	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	Entity=(e28)
+4	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+5-6	am	_	_	_	_	_	_	_
+5	an	an	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	Entity=(e13)
+8	nach	nach	ADP	CARD	_	9	case	_	_
+9	Aachen	Aachen	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	Entity=(e18)
+10	gekommen	kommen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 27
+# text = Nach dem offiziellen Teil wanderte die illustre Gesellschaft ins Springstadion, wo der Lavazza-Preis lief.
+1	Nach	nach	ADP	APPR	_	4	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	offiziellen	offiziell	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	4	amod	_	_
+4	Teil	Teil	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	Entity=(e42-entity-4)
+5	wanderte	wandern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	illustre	illustr	ADJ	NE	Case=Nom|Number=Sing	8	amod	_	_
+8	Gesellschaft	Gesellschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	Entity=(e41)
+9-10	ins	_	_	_	_	_	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Springstadion	Springstadien	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No|Entity=(e43-entity-11)
+12	,	,	PUNCT	$,	_	18	punct	_	_
+13	wo	wo	ADV	NE	Case=Gen|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	18	advmod	_	_
+14	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Lavazza	Lavazza	PROPN	NN	Case=Gen|Gender=Fem|Number=Sing	18	nsubj	_	SpaceAfter=No
+16	-	-	PUNCT	$(	_	17	punct	_	SpaceAfter=No
+17	Preis	Preis	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	flat	_	Entity=(e44-entity-17)
+18	lief	laufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 28
+# text = Bernhard Langer hielt Abstand zu den großen Tieren.
+1	Bernhard	Bernhard	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Entity=(e1)
+2	Langer	langer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
+3	hielt	halten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	Abstand	Abstand	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+5	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	case	_	_
+6	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	8	det	_	_
+7	großen	groß	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Plur	8	amod	_	_
+8	Tieren	Tier	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No|Entity=(e3)
+9	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+
+

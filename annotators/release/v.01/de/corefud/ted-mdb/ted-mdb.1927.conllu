@@ -1,0 +1,2353 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Die Welt ist im Wandel .
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Welt	Welt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	Entity=(e1-entity-2)
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	im	_	_	_	_	_	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Wandel	Wandel	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+7	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Sie verändert sich wirklich tiefgreifend .
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Entity=(e1)
+2	verändert	verändern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	wirklich	wirklich	ADJ	ADV	_	2	advmod	_	_
+5	tiefgreifend	tiefgreifend	ADJ	ADJD	_	2	xcomp	_	_
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 3
+# text = Und ich befürchte , dass Investoren einigen der größten Veränderungen nicht genügend Aufmerksamkeit schenken .
+1	Und	und	CCONJ	ADJD	_	3	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Entity=(e2-entity-2)
+3	befürchte	befürchen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	,	,	PUNCT	$,	_	14	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	14	mark	_	_
+6	Investoren	Investor	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	Entity=(e3-entity-6)
+7	einigen	einige	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	14	iobj	_	_
+8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	größten	groß	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	10	amod	_	_
+10	Veränderungen	Veränderung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
+11	nicht	nicht	PART	CARD	NumType=Card	14	advmod	_	_
+12	genügend	genügend	ADJ	PIAT	Definite=Ind|PronType=Ind	13	amod	_	_
+13	Aufmerksamkeit	Aufmerksamkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+14	schenken	schenken	VERB	VVINF	VerbForm=Inf	3	ccomp	_	_
+15	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 4
+# text = Insbesondere wenn es um Nachhaltigkeit geht .
+1	Insbesondere	insbesondere	ADV	ADV	_	6	advmod	_	_
+2	wenn	wenn	SCONJ	VVFIN	_	6	mark	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	um	um	ADP	APPR	_	5	case	_	_
+5	Nachhaltigkeit	Nachhaltigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	Entity=(e4-entity-5)
+6	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 5
+# text = Mit Nachhaltigkeit meine ich die wirklich heißen Themen wie ökologische und soziale Fragen und grundlegende Unternehmensführung .
+1	Mit	mit	ADP	APPR	_	2	case	_	_
+2	Nachhaltigkeit	Nachhaltigkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	0	root	_	Entity=(e4)
+3	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	4	det:poss	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Entity=(e2)
+5	die	der	DET	ART	Case=Acc|Number=Plur|PronType=Art	8	det	_	_
+6	wirklich	wirklich	ADJ	ADV	_	7	advmod	_	_
+7	heißen	heiß	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	amod	_	_
+8	Themen	Thema	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	obj	_	Entity=(e5-entity-8)
+9	wie	wie	ADP	NN	Case=Nom|Gender=Neut|Number=Sing	13	case	_	_
+10	ökologische	ökologisch	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	13	amod	_	_
+11	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	12	cc	_	_
+12	soziale	sozial	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	_
+13	Fragen	Frage	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nmod	_	_
+14	und	und	CCONJ	NE	Foreign=Yes	16	cc	_	_
+15	grundlegende	grundlegend	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	16	amod	_	_
+16	Unternehmensführung	Unternehmensführung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	conj	_	_
+17	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 6
+# text = Es ist leichtsinnig , diese Dinge zu ignorieren , denn das kann künftige langfristige Renditen gefährden .
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	leichtsinnig	leichtsinnig	ADJ	ADJD	_	0	root	_	_
+4	,	,	PUNCT	$,	_	8	punct	_	_
+5	diese	dies	PRON	PDAT	Case=Acc|Gender=Neut|Number=Plur|PronType=Dem	8	nsubj	_	_
+6	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	Entity=(e5)
+7	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	8	mark	_	_
+8	ignorieren	ignorieren	VERB	VVINF	VerbForm=Inf	3	xcomp	_	Entity=(e6-entity-8)
+9	,	,	PUNCT	$,	_	16	punct	_	_
+10	denn	denn	CCONJ	KON	_	16	cc	_	_
+11	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	16	nsubj	_	Entity=(e6)
+12	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+13	künftige	künftig	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	15	amod	_	_
+14	langfristige	langfristig	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	15	amod	_	_
+15	Renditen	Rendit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
+16	gefährden	gefährden	VERB	VVINF	VerbForm=Inf	3	conj	_	_
+17	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Vielleicht sind Sie jetzt überrascht : Die ausgleichende Macht , die wirklich Einfluss auf Nachhaltigkeit hat , liegt bei institutionellen Investoren , den großen Investoren wie Pensionsfonds und Stiftungen .
+1	Vielleicht	vielleicht	ADV	ADV	_	5	advmod	_	_
+2	sind	sein	AUX	ADJD	_	5	cop	_	_
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	Entity=(e7-entity-3)
+4	jetzt	jetzt	ADV	ADV	_	5	advmod	_	_
+5	überrascht	überrascht	VERB	ADJD	_	0	root	_	_
+6	:	:	PUNCT	$.	_	9	punct	_	_
+7	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	ausgleichende	ausgleichend	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	9	amod	_	_
+9	Macht	Macht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	obj	_	Entity=(e8-entity-9)
+10	,	,	PUNCT	$,	_	13	punct	_	_
+11	die	der	DET	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	13	det	_	_
+12	wirklich	wirklich	ADJ	ADV	_	13	amod	_	_
+13	Einfluss	Einfluß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+14	auf	auf	ADP	APPR	_	15	case	_	_
+15	Nachhaltigkeit	Nachhaltigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	Entity=(e4)
+16	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+17	,	,	PUNCT	$,	_	18	punct	_	_
+18	liegt	liegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+19	bei	bei	ADP	APPR	_	21	case	_	_
+20	institutionellen	institutionell	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	21	amod	_	_
+21	Investoren	Investor	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	18	obl	_	Entity=(e9-entity-21)
+22	,	,	PUNCT	$,	_	25	punct	_	_
+23	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	großen	groß	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	25	amod	_	_
+25	Investoren	Investor	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	nsubj	_	_
+26	wie	wie	ADP	NN	Case=Gen|Gender=Masc|Number=Sing	27	case	_	_
+27	Pensionsfonds	Pensionsfonds	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+28	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	29	cc	_	_
+29	Stiftungen	Stiftung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	27	conj	_	_
+30	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 8
+# text = Ich glaube , dass nachhaltiges Investieren weniger kompliziert ist , als Sie denken , besser abschneidet , als Sie glauben , und wichtiger ist , als wir uns vorstellen können .
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Entity=(e2)
+2	glaube	glauben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	$,	_	8	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	8	mark	_	_
+5	nachhaltiges	nachhaltig	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	6	amod	_	_
+6	Investieren	investier	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	8	nsubj	_	_
+7	weniger	weniger	ADV	ADV	_	8	advmod	_	_
+8	kompliziert	komplizieren	ADJ	ADJD	_	2	ccomp	_	_
+9	ist	sein	AUX	ADJD	_	8	cop	_	_
+10	,	,	PUNCT	$,	_	13	punct	_	_
+11	als	als	SCONJ	KOUS	_	13	mark	_	_
+12	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	Entity=(e7)
+13	denken	denken	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+14	,	,	PUNCT	$,	_	16	punct	_	_
+15	besser	gut	ADJ	ADJD	_	16	advmod	_	_
+16	abschneidet	abschneiden	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+17	,	,	PUNCT	$,	_	20	punct	_	_
+18	als	als	SCONJ	KOUS	_	20	mark	_	_
+19	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	Entity=(e7)
+20	glauben	glauben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+21	,	,	PUNCT	$,	_	23	punct	_	_
+22	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	23	cc	_	_
+23	wichtiger	wichtig	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	20	conj	_	_
+24	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	20	cop	_	_
+25	,	,	PUNCT	$,	_	29	punct	_	_
+26	als	als	SCONJ	KOUS	_	29	mark	_	_
+27	wir	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	29	nsubj	_	Entity=(e10-entity-27)
+28	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	29	obj	_	_
+29	vorstellen	vorstellen	VERB	VVINF	VerbForm=Inf	2	advcl	_	_
+30	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+31	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 9
+# text = Halten wir uns einige bekannte Tatsachen vor Augen : Die Bevölkerung wächst und altert ; es gibt 7 Milliarden Menschen auf der Erde , und am Ende des Jahrhunderts werden es 10 Milliarden sein .
+1	Halten	halten	NOUN	ADJA	Case=Dat|Gender=Masc|Number=Plur	0	root	_	_
+2	wir	wir	PRON	ADJD	_	3	nsubj	_	Entity=(e11-entity-2)
+3	uns	wir	PRON	VVPP	VerbForm=Part	1	obj	_	_
+4	einige	einige	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	6	det	_	_
+5	bekannte	bekannt	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	6	amod	_	_
+6	Tatsachen	Tatsache	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+7	vor	vor	ADP	NE	Case=Acc|Gender=Fem|Number=Sing	8	case	_	_
+8	Augen	Auge	NOUN	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	nmod	_	_
+9	:	:	PUNCT	$.	_	12	punct	_	_
+10	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Bevölkerung	Bevölkerung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	Entity=(e12-entity-11)
+12	wächst	wachsen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+13	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	14	cc	_	_
+14	altert	altern	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+15	;	;	PUNCT	$.	_	17	punct	_	_
+16	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	expl	_	_
+17	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+18	7	7	NUM	CARD	NumType=Card	19	nummod	_	_
+19	Milliarden	Milliarde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	20	nmod	_	_
+20	Menschen	Mensch	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	17	nsubj	_	Entity=(e12)
+21	auf	auf	ADP	APPR	_	23	case	_	_
+22	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Erde	Erde	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	Entity=(e13-entity-23)
+24	,	,	PUNCT	$,	_	35	punct	_	_
+25	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	35	cc	_	_
+26-27	am	_	_	_	_	_	_	_
+26	an	an	ADP	APPR	_	28	case	_	_
+27	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	28	det	_	_
+28	Ende	Ende	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	35	obl	_	Entity=(e14-entity-28)
+29	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	30	det	_	_
+30	Jahrhunderts	Jahrhundert	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	Entity=(e15-entity-30)
+31	werden	werden	AUX	NE	Case=Gen|Gender=Masc|Number=Sing	35	aux	_	_
+32	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+33	10	10	NUM	CARD	NumType=Card	34	nummod	_	_
+34	Milliarden	Milliarde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	35	nmod	_	_
+35	sein	sein	AUX	VAINF	VerbForm=Inf	12	conj	_	_
+36	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 10
+# text = Wir verbrauchen die natürlichen Ressourcen schneller , als sie sich regenerieren können .
+1	Wir	wir	PRON	ADJD	_	2	nsubj	_	Entity=(e12)
+2	verbrauchen	verbrauchen	VERB	ADJA	Case=Dat|Gender=Masc|Number=Plur	0	root	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	natürlichen	natürlich	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	_
+5	Ressourcen	Ressource	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	Entity=(e16-entity-5)
+6	schneller	schnell	ADJ	ADJD	_	2	advmod	_	_
+7	,	,	PUNCT	$,	_	11	punct	_	_
+8	als	als	SCONJ	KOUS	_	11	mark	_	_
+9	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	Entity=(e16)
+10	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	_
+11	regenerieren	regenerieren	VERB	VVINF	VerbForm=Inf	2	advcl	_	_
+12	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+13	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 11
+# text = Und die Emissionen , die für den Klimawandel hauptverantwortlich sind , nehmen weiter zu .
+1	Und	und	CCONJ	ADJD	_	12	cc	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	Emissionen	Emission	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	Entity=(e17-entity-3)
+4	,	,	PUNCT	$,	_	9	punct	_	_
+5	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	9	nsubj	_	_
+6	für	für	ADP	APPR	_	8	case	_	_
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Klimawandel	Klimawandel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	Entity=(e18-entity-8)
+9	hauptverantwortlich	hauptverantwortlich	ADJ	ADJD	_	3	acl	_	_
+10	sind	sein	AUX	ADJD	_	9	cop	_	_
+11	,	,	PUNCT	$,	_	9	punct	_	_
+12	nehmen	nehmen	VERB	NE	NumType=Card	0	root	_	_
+13	weiter	weiter	ADV	ADV	_	12	advmod	_	_
+14	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	12	compound:prt	_	_
+15	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 12
+# text = Das sind ganz klar Umweltthemen und soziale Themen , aber das ist noch nicht alles .
+1	Das	der	PRON	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	nsubj	_	Entity=(e19-entity-1)
+2	sind	sein	AUX	ADJD	_	4	cop	_	_
+3	ganz	ganz	ADJ	ADV	_	4	advmod	_	_
+4	klar	klar	ADJ	ADJD	_	0	root	_	_
+5	Umweltthemen	Umweltthem	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+6	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	8	cc	_	_
+7	soziale	sozial	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	8	amod	_	_
+8	Themen	Them	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	conj	_	_
+9	,	,	PUNCT	$,	_	15	punct	_	_
+10	aber	aber	CCONJ	KON	_	15	cc	_	_
+11	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	nsubj	_	Entity=(e20-entity-11)
+12	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	noch	noch	ADV	NE	Case=Nom|Gender=Fem|Number=Sing	14	advmod	_	_
+14	nicht	nicht	PART	CARD	NumType=Card	15	advmod	_	_
+15	alles	alle	PRON	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	5	conj	_	_
+16	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 13
+# text = Es sind auch Wirtschaftsthemen .
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Entity=(e20)
+2	sind	sein	AUX	ADJD	_	4	cop	_	_
+3	auch	auch	ADV	ADV	_	4	advmod	_	_
+4	Wirtschaftsthemen	Wirtschaftsthem	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	_
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 14
+# text = Und deshalb sind sie für die Risiko- und Renditebewertung sehr wichtig .
+1	Und	und	CCONJ	ADJD	_	12	cc	_	_
+2	deshalb	deshalb	ADV	PAV	_	12	advmod	_	_
+3	sind	sein	AUX	ADJD	_	12	cop	_	_
+4	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	Entity=(e20)
+5	für	für	ADP	APPR	_	7	case	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	7	det	_	_
+7	Risiko	Risiko	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+8	-	-	PUNCT	$(	_	10	punct	_	_
+9	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	10	cc	_	_
+10	Renditebewertung	Renditebewertung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	Entity=(e21-entity-10)
+11	sehr	sehr	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	12	advmod	_	_
+12	wichtig	wichtig	ADJ	NE	Case=Acc|Gender=Neut|Number=Sing	0	root	_	_
+13	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 15
+# text = Sie sind sehr komplex und scheinen schwer verständlich , sodass die Versuchung groß sein kann , genau das hier zu tun : den Kopf in den Sand zu stecken und nicht darüber nachzudenken .
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	Entity=(e20)
+2	sind	sein	AUX	ADJD	_	4	cop	_	_
+3	sehr	sehr	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	4	advmod	_	_
+4	komplex	komplex	ADJ	ADJD	_	0	root	_	_
+5	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	6	cc	_	_
+6	scheinen	scheinen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+7	schwer	schwer	ADJ	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advmod	_	_
+8	verständlich	verständlich	ADJ	ADJD	_	6	xcomp	_	_
+9	,	,	PUNCT	$,	_	13	punct	_	_
+10	sodass	sodass	SCONJ	KOUS	_	13	mark	_	_
+11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Versuchung	Versuchung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+13	groß	groß	ADJ	ADJD	_	6	advcl	_	_
+14	sein	sein	AUX	VAINF	VerbForm=Inf	13	cop	_	_
+15	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+16	,	,	PUNCT	$,	_	21	punct	_	_
+17	genau	genau	ADV	ADV	_	21	advmod	_	_
+18	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	21	obj	_	Entity=(e22-entity-18)
+19	hier	hier	ADV	ADV	_	21	advmod	_	_
+20	zu	zu	PART	NN	Case=Nom|Number=Plur	21	mark	_	_
+21	tun	tun	VERB	VVINF	VerbForm=Inf	6	xcomp	_	_
+22	:	:	PUNCT	$.	_	21	punct	_	_
+23	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Kopf	Kopf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	29	obj	_	_
+25	in	in	ADP	APPR	_	27	case	_	_
+26	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Sand	Sand	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	29	obl	_	_
+28	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	29	mark	_	_
+29	stecken	stecken	VERB	VVINF	VerbForm=Inf	21	xcomp	_	Entity=(e23-entity-29)
+30	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	33	cc	_	_
+31	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	advmod	_	_
+32	darüber	darüber	ADV	PAV	_	33	advmod	_	_
+33	nachzudenken	nachzudenk	ADJ	VVINF	VerbForm=Inf	4	conj	_	_
+34	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 16
+# text = Tun Sie das möglichst nicht .
+1	Tun	Tun	PROPN	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	Entity=(e7)
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	Entity=(e23)
+4	möglichst	möglichst	NOUN	ADV	_	5	obj	_	_
+5	nicht	nicht	PART	CARD	NumType=Card	1	advmod	_	_
+6	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 17
+# text = Bitte zu Hause nicht nachmachen .
+1	Bitte	Bitte	PART	ADV	_	5	mark	_	_
+2	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	3	case	_	_
+3	Hause	Haus	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
+4	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advmod	_	_
+5	nachmachen	nachmachen	VERB	ADJA	Case=Dat|Gender=Neut|Number=Sing	0	root	_	_
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 18
+# text = ( Gelächter ) Aber ich frage mich wirklich , ob die Anlagestrategien von heute für die Zwecke von morgen geeignet sind .
+1	(	(	PUNCT	$(	_	2	punct	_	_
+2	Gelächter	Gelächter	NOUN	TRUNC	_	6	dep	_	_
+3	)	)	PUNCT	$(	_	2	punct	_	_
+4	Aber	aber	CCONJ	KON	_	6	cc	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Entity=(e2)
+6	frage	fragen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	obj	_	_
+8	wirklich	wirklich	ADV	ADV	_	6	advmod	_	_
+9	,	,	PUNCT	$,	_	20	punct	_	_
+10	ob	ob	SCONJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	mark	_	_
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	12	det	_	_
+12	Anlagestrategien	Anlagestrategie	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	20	nsubj	_	Entity=(e24-entity-12)
+13	von	von	ADP	FM	Foreign=Yes	14	case	_	_
+14	heute	heute	ADV	ADV	_	20	advmod	_	_
+15	für	für	ADP	APPR	_	17	case	_	_
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Zwecke	Zweck	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	nmod	_	Entity=(e25-entity-17)
+18	von	von	ADP	FM	Foreign=Yes	19	case	_	_
+19	morgen	morgen	ADV	VVPP	VerbForm=Part	17	nmod	_	_
+20	geeignet	geeignet	ADJ	ADJD	_	6	ccomp	_	_
+21	sind	sein	AUX	ADJD	_	20	cop	_	_
+22	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 19
+# text = Wir wissen , wenn Investoren sich ein Unternehmen anschauen und entscheiden , ob sie investieren , schauen sie sich Finanzdaten an .
+1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
+2	wissen	wissen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+3	,	,	PUNCT	$,	_	9	punct	_	_
+4	wenn	wenn	SCONJ	VVFIN	_	9	mark	_	_
+5	Investoren	Investor	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	Entity=(e3)
+6	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	9	iobj	_	_
+7	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Unternehmen	Unternehmen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+9	anschauen	anschauen	VERB	VVINF	VerbForm=Inf	2	advcl	_	_
+10	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	11	cc	_	_
+11	entscheiden	entscheiden	VERB	VVINF	VerbForm=Inf	9	conj	_	_
+12	,	,	PUNCT	$,	_	15	punct	_	_
+13	ob	ob	SCONJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	mark	_	_
+14	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	Entity=(e3)
+15	investieren	investieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+16	,	,	PUNCT	$,	_	17	punct	_	_
+17	schauen	schauen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+18	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	Entity=(e3)
+19	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	17	obj	_	_
+20	Finanzdaten	Finanzdat	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	obj	_	_
+21	an	an	ADP	PTKVZ	_	17	compound:prt	_	_
+22	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 20
+# text = Metriken wie Umsatzwachstum , Cashflow , Marktanteil , Bewertung -- Sie wissen schon , die wirklich attraktiven Sachen .
+1	Metriken	Metrik	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	11	dep	_	Entity=(e26-entity-1)
+2	wie	wie	ADP	NE	Case=Nom|Gender=Masc|Number=Sing	3	case	_	_
+3	Umsatzwachstum	Umsatzwachstum	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
+4	,	,	PUNCT	$,	_	5	punct	_	_
+5	Cashflow	Cashflow	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+6	,	,	PUNCT	$,	_	7	punct	_	_
+7	Marktanteil	Marktanteil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+8	,	,	PUNCT	$,	_	9	punct	_	_
+9	Bewertung	Bewertung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
+10	--	--	PUNCT	$(	_	3	punct	_	_
+11	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	Entity=(e7)
+12	wissen	wissen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	schon	schon	ADV	ADV	_	12	advmod	_	_
+14	,	,	PUNCT	$,	_	18	punct	_	_
+15	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	18	nsubj	_	_
+16	wirklich	wirklich	ADV	ADV	_	17	advmod	_	_
+17	attraktiven	attraktiv	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	18	amod	_	_
+18	Sachen	Sache	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	12	obj	_	Entity=(e26)
+19	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 21
+# text = Diese Dinge sind natürlich wichtig , aber sie sind nicht genug .
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	Dinge	Ding	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	Entity=(e26)
+3	sind	sein	AUX	ADJD	_	5	cop	_	_
+4	natürlich	natürlich	ADJ	ADJD	_	5	advmod	_	_
+5	wichtig	wichtig	ADJ	NE	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+6	,	,	PUNCT	$,	_	11	punct	_	_
+7	aber	aber	CCONJ	KON	_	11	cc	_	_
+8	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	Entity=(e26)
+9	sind	sein	AUX	ADJD	_	11	cop	_	_
+10	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advmod	_	_
+11	genug	genug	ADV	ADV	_	5	conj	_	_
+12	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 22
+# text = Anleger sollten auch auf Leistungsmetriken wie ESG achten : Umwelt , Soziales und Unternehmensführung .
+1	Anleger	Anleger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	Entity=(e3)
+2	sollten	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+3	auch	auch	ADV	ADV	_	8	advmod	_	_
+4	auf	auf	ADP	APPR	_	5	case	_	_
+5	Leistungsmetriken	Leistungsmetrik	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	obl	_	_
+6	wie	wie	ADP	NE	Case=Gen|Gender=Neut|Number=Sing	7	case	_	_
+7	ESG	ESG	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	Entity=(e27-entity-7)
+8	achten	achten	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+9	:	:	PUNCT	$.	_	10	punct	_	_
+10	Umwelt	Umwelt	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	8	appos	_	Entity=(e28-entity-10)
+11	,	,	PUNCT	$,	_	12	punct	_	_
+12	Soziales	Soziale	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	10	conj	_	Entity=(e29-entity-12)
+13	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	14	cc	_	_
+14	Unternehmensführung	Unternehmensführung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	conj	_	Entity=(e30-entity-14)
+15	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 23	1	&quot;	_	_	_	_	_	_
+# text = " Umwelt " umfasst Energieverbrauch , Wassernutzung , Abfall und Umweltverschmutzung , kurz : die effiziente Nutzung von Ressourcen .
+1	"	"	PUNCT	$(	_	2	punct	_
+2	Umwelt	umwelt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	Entity=(e28)
+3	"	"	PUNCT	$(	_	2	punct	_	_
+4	umfasst	umfassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Energieverbrauch	Energieverbrauch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	,	,	PUNCT	$,	_	7	punct	_	_
+7	Wassernutzung	Wassernutzung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
+8	,	,	PUNCT	$,	_	9	punct	_	_
+9	Abfall	Abfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+10	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	11	cc	_	_
+11	Umweltverschmutzung	Umweltverschmutzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	conj	_	_
+12	,	,	PUNCT	$,	_	13	punct	_	_
+13	kurz	kurz	ADJ	ADJD	_	5	conj	_	_
+14	:	:	PUNCT	$.	_	17	punct	_	_
+15	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	effiziente	effizient	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	17	amod	_	_
+17	Nutzung	Nutzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	appos	_	_
+18	von	von	ADP	FM	Foreign=Yes	19	case	_	_
+19	Ressourcen	Ressource	PROPN	NN	Case=Nom|Gender=Fem|Number=Plur	17	nmod	_	Entity=(e16)
+20	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 24	1	&quot;	_	_	_	_	_	_
+# text = " Soziales " beinhaltet Humankapital , Dinge wie Mitarbeiter-Engagement und Innovationsfähigkeit sowie Supply-Chain-Management und Arbeits- und Menschenrechte .
+1	"	"	PUNCT	$(	_	2	punct	_
+2	Soziales	Soziale	PROPN	NE	Foreign=Yes	4	nsubj	_	Entity=(e29)
+3	"	"	PUNCT	$(	_	2	punct	_	_
+4	beinhaltet	beinhalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Humankapital	Humankapital	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	Entity=(e31-entity-5)
+6	,	,	PUNCT	$,	_	7	punct	_	_
+7	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	conj	_	_
+8	wie	wie	ADP	NE	Case=Nom|Gender=Masc|Number=Sing	11	case	_	_
+9	Mitarbeiter	Mitarbeiter	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	11	compound	_	SpaceAfter=No
+10	-	-	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+11	Engagement	Engagement	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	_
+12	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	13	cc	_	_
+13	Innovationsfähigkeit	Innovationsfähigkeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	11	conj	_	_
+14	sowie	sowie	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	15	cc	_	_
+15	Supply	Supply	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+16	-	-	PUNCT	$(	_	17	punct	_	SpaceAfter=No
+17	Chain	Chain	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	15	flat	_	SpaceAfter=No
+18	-	-	PUNCT	$(	_	19	punct	_	SpaceAfter=No
+19	Management	Management	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	15	flat	_	Entity=(e32-entity-19)
+20	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	21	cc	_	_
+21	Arbeits	Arbeits	NOUN	TRUNC	_	15	conj	_	SpaceAfter=No
+22	-	-	PUNCT	$(	_	24	punct	_	_
+23	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	24	cc	_	_
+24	Menschenrechte	Menschenrecht	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	21	conj	_	_
+25	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 25	1	&quot;	_	_	_	_	_	_
+# text = " Unternehmensführung " bedeutet die Aufsicht über das Unternehmen durch den Vorstand und Investoren .
+1	"	"	PUNCT	$(	_	2	punct	_
+2	Unternehmensführung	Unternehmensführung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	Entity=(e30)
+3	"	"	PUNCT	$(	_	2	punct	_	_
+4	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Aufsicht	Aufsicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	obj	_	_
+7	über	über	ADP	FM	Foreign=Yes	9	case	_	_
+8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Unternehmen	Unternehmen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	Entity=(e33-entity-9)
+10	durch	durch	ADP	APPR	_	12	case	_	_
+11	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Vorstand	Vorstand	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	Entity=(e34-entity-12)
+13	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	14	cc	_	_
+14	Investoren	Investor	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	conj	_	_
+15	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 26
+# text = Ich habe zuvor gesagt , es geht um die wirklich heißen Dinge .
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Entity=(e2)
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	zuvor	zuvor	ADV	ADV	_	4	advmod	_	_
+4	gesagt	sagen	VERB	VVPP	VerbForm=Part	0	root	_	_
+5	,	,	PUNCT	$,	_	7	punct	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	um	um	ADP	APPR	_	12	case	_	_
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+10	wirklich	wirklich	ADJ	ADV	_	11	advmod	_	_
+11	heißen	heiß	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	amod	_	_
+12	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	obl	_	Entity=(e20)
+13	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 27
+# text = Aber ESG ist das Maß für Nachhaltigkeit , und nachhaltiges Investieren berücksichtigt ESG-Faktoren und finanzielle Faktoren beim Anlageprozess .
+1	Aber	aber	CCONJ	KON	_	5	cc	_	_
+2	ESG	ESG	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Entity=(e27)
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Maß	Maß	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	0	root	_	_
+6	für	für	ADP	APPR	_	7	case	_	_
+7	Nachhaltigkeit	Nachhaltigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
+8	,	,	PUNCT	$,	_	11	punct	_	_
+9	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	11	cc	_	_
+10	nachhaltiges	nachhaltig	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	11	amod	_	_
+11	Investieren	investier	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	conj	_	Entity=(e35-entity-11)
+12	berücksichtigt	berücksichtigen	ADJ	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	amod	_	_
+13	ESG	ESG	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No|Entity=(e27)
+14	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+15	Faktoren	Faktor	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	flat	_	_
+16	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	18	cc	_	_
+17	finanzielle	finanziell	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	18	amod	_	_
+18	Faktoren	Faktor	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	conj	_	_
+19-20	beim	_	_	_	_	_	_	_
+19	bei	bei	ADP	APPR	_	21	case	_	_
+20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Anlageprozess	Anlageprozeß	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	nmod	_	Entity=(e36-entity-21)
+22	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 28
+# text = Damit können künftige Risiken durch Minimierung von Schäden an Personen und am Planeten begrenzt und Kapital für die Nutzer bereitgestellt werden , die es für produktive und nachhaltige Ergebnisse einsetzen .
+1	Damit	damit	ADV	PAV	_	21	advmod	_	Entity=(e35)
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+3	künftige	künftig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	4	amod	_	_
+4	Risiken	Risiko	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	21	nsubj:pass	_	_
+5	durch	durch	ADP	APPR	_	6	case	_	_
+6	Minimierung	Minimierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	_
+7	von	von	ADP	FM	Foreign=Yes	8	case	_	_
+8	Schäden	Schaden	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	6	nmod	_	_
+9	an	an	ADP	APPR	_	10	case	_	_
+10	Personen	Person	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	nmod	_	_
+11	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	15	cc	_	_
+12-13	am	_	_	_	_	_	_	_
+12	an	an	ADP	APPR	_	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Planeten	Planeten	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	Entity=(e13)
+15	begrenzt	begrenzt	VERB	ADJD	_	6	conj	_	_
+16	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	17	cc	_	_
+17	Kapital	Kapital	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	conj	_	Entity=(e37-entity-17)
+18	für	für	ADP	APPR	_	20	case	_	_
+19	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Nutzer	Nutzer	NOUN	ADJA	_	21	obl	_	Entity=(e38-entity-20)
+21	bereitgestellt	bereitstellen	VERB	VVPP	VerbForm=Part	0	root	_	_
+22	werden	werden	AUX	NE	Case=Acc|Number=Plur	21	aux:pass	_	_
+23	,	,	PUNCT	$,	_	31	punct	_	_
+24	die	der	PRON	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	31	nsubj	_	_
+25	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	31	obj	_	Entity=(e37)
+26	für	für	ADP	APPR	_	30	case	_	_
+27	produktive	produktiv	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	30	amod	_	_
+28	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	29	cc	_	_
+29	nachhaltige	nachhaltig	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	27	conj	_	_
+30	Ergebnisse	Ergebnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	31	obl	_	_
+31	einsetzen	einsetzen	VERB	VVINF	VerbForm=Inf	21	acl	_	_
+32	.	.	PUNCT	$.	_	21	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 29
+# text = Wenn also Nachhaltigkeit heute ein Finanzthema ist , und es höchstwahrscheinlich immer relevanter wird , achtet der Privatsektor darauf 
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
+2	also	also	ADV	ADV	_	6	advmod	_	_
+3	Nachhaltigkeit	Nachhaltigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	Entity=(e4)
+4	heute	heute	ADV	ADV	_	3	advmod	_	_
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Finanzthema	Finanzthema	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+7	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+8	,	,	PUNCT	$,	_	11	punct	_	_
+9	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	11	cc	_	_
+10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	expl	_	Entity=(e4)
+11	höchstwahrscheinlich	höchstwahrscheinlich	ADJ	ADJD	_	6	conj	_	_
+12	immer	immer	ADV	ADV	_	13	advmod	_	_
+13	relevanter	relevant	ADJ	ADJD	_	14	xcomp	_	_
+14	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	,	,	PUNCT	$,	_	16	punct	_	_
+16	achtet	achten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	_
+17	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Privatsektor	Privatsektor	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	Entity=(e3)
+19	darauf	darauf	ADV	PAV	_	16	advmod	_	_
+20	?	?	PUNCT	$.	_	14	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 30
+# text = Wirklich cool ist , dass die meisten CEOs darauf achten .
+1	Wirklich	wirklich	ADV	ADV	_	2	advmod	_	_
+2	cool	cool	ADJ	ADJD	_	0	root	_	_
+3	ist	sein	AUX	ADJD	_	2	cop	_	_
+4	,	,	PUNCT	$,	_	10	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	10	mark	_	_
+6	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	8	det	_	_
+7	meisten	meist	DET	NN	Case=Dat|Gender=Masc|Number=Sing	8	amod	_	_
+8	CEOs	CEOs	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	10	nsubj	_	Entity=(e39-entity-8)
+9	darauf	darauf	ADV	PAV	_	10	advmod	_	_
+10	achten	achten	VERB	VVINF	VerbForm=Inf	2	csubj	_	_
+11	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 31
+# text = Sie begannen , Nachhaltigkeit nicht nur als wichtig , sondern als entscheidend für den Geschäftserfolg zu sehen .
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	Entity=(e39)
+2	begannen	beginnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	$,	_	8	punct	_	_
+4	Nachhaltigkeit	Nachhaltigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nsubj	_	Entity=(e4)
+5	nicht	nicht	PART	CARD	NumType=Card	6	advmod	_	_
+6	nur	nur	ADV	CARD	NumType=Card	8	advmod	_	_
+7	als	als	ADP	KOKOM	_	8	case	_	_
+8	wichtig	wichtig	ADJ	NE	Case=Acc|Gender=Neut|Number=Sing	2	xcomp	_	_
+9	,	,	PUNCT	$,	_	17	punct	_	_
+10	sondern	sondern	CCONJ	NN	Case=Dat|Gender=Neut|Number=Sing	17	cc	_	_
+11	als	als	ADP	KOKOM	_	17	case	_	_
+12	entscheidend	entscheidend	ADJ	ADJD	_	17	advmod	_	_
+13	für	für	ADP	APPR	_	15	case	_	_
+14	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Geschäftserfolg	Geschäftserfolg	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	Entity=(e40-entity-15)
+16	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	17	mark	_	_
+17	sehen	sehen	VERB	VVINF	VerbForm=Inf	8	conj	_	_
+18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 32
+# text = Ungefähr 80 % der CEOs weltweit sehen in Nachhaltigkeit die Wurzel für Innovations-Wachstum , was zu einem Wettbewerbsvorteil in ihren Branchen führt .
+1	Ungefähr	ungefähr	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	2	advmod	_	_
+2	80	80	NUM	CARD	NumType=Card	3	nummod	_	_
+3	%	%	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	Entity=(e41-entity-3)
+4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	CEOs	CEOs	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	Entity=(e39)
+6	weltweit	weltweit	ADJ	NN	Case=Nom|Gender=Neut|Number=Sing	7	advmod	_	_
+7	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	in	in	ADP	APPR	_	9	case	_	_
+9	Nachhaltigkeit	Nachhaltigkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Wurzel	Wurzel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	Entity=(e42-entity-11)
+12	für	für	ADP	APPR	_	15	case	_	_
+13	Innovations	Innovation	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	compound	_	SpaceAfter=No
+14	-	-	PUNCT	$(	_	13	punct	_	SpaceAfter=No
+15	Wachstum	Wachstum	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	_
+16	,	,	PUNCT	$,	_	24	punct	_	_
+17	was	was	PRON	NN	Case=Acc|Gender=Masc|Number=Sing	24	nsubj	_	_
+18	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	20	case	_	_
+19	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Wettbewerbsvorteil	Wettbewerbsvorteil	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	24	obl	_	_
+21	in	in	ADP	APPR	_	23	case	_	_
+22	ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Poss=Yes	23	det:poss	_	Entity=(e41)
+23	Branchen	Branche	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	24	obl	_	_
+24	führt	führen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	_
+25	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 33
+# text = Aber 93 % sehen ESG als die Zukunft oder als wichtig für die Zukunft ihres Unternehmens .
+1	Aber	aber	CCONJ	KON	_	4	cc	_	_
+2	93	93	NUM	CARD	NumType=Card	3	nummod	_	_
+3	%	%	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	nsubj	_	Entity=(e43-entity-3)
+4	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+5	ESG	ESG	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	Entity=(e27)
+6	als	als	ADP	KOKOM	_	8	case	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Zukunft	Zukunft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	Entity=(e44-entity-8)
+9	oder	oder	CCONJ	XY	_	5	cc	_	_
+10	als	als	ADP	KOKOM	_	11	case	_	_
+11	wichtig	wichtig	ADJ	NE	Case=Acc|Gender=Neut|Number=Sing	4	xcomp	_	_
+12	für	für	ADP	APPR	_	14	case	_	_
+13	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Zukunft	Zukunft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	Entity=(e44)
+15	ihres	ihr	DET	PPOSAT	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes	16	det:poss	_	Entity=(e43)
+16	Unternehmens	Unternehmen	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	Entity=(e33)
+17	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 34
+# text = Also die CEOs sehen das ganz klar .
+1	Also	also	ADV	ADV	_	4	advmod	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	CEOs	CEOs	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	Entity=(e39)
+4	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	das	der	DET	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	Entity=(e44)
+6	ganz	ganz	ADJ	ADV	_	7	advmod	_	_
+7	klar	klar	ADJ	ADJD	_	4	advmod	_	_
+8	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 35
+# text = Nachhaltigkeit bietet enorme Möglichkeiten .
+1	Nachhaltigkeit	Nachhaltigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	Entity=(e45-entity-1)
+2	bietet	bieten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	enorme	enorm	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	4	amod	_	_
+4	Möglichkeiten	Möglichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	obj	_	_
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 36
+# text = Wie nutzen Unternehmen ESG , um harte Geschäftsergebnisse zu erzielen 
+1	Wie	wie	ADV	NN	Case=Nom|Gender=Masc|Number=Plur	2	advmod	_	_
+2	nutzen	nutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Unternehmen	Unternehmen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	Entity=(e33)
+4	ESG	ESG	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	3	appos	_	Entity=(e27)
+5	,	,	PUNCT	$,	_	10	punct	_	_
+6	um	um	ADP	KOUI	_	10	mark	_	_
+7	harte	hart	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Plur	8	amod	_	_
+8	Geschäftsergebnisse	Geschäftsergebnis	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	obj	_	_
+9	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	mark	_	_
+10	erzielen	erzielen	VERB	VVINF	VerbForm=Inf	2	advcl	_	_
+11	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 37
+# text = Ein Beispiel geht uns besonders zu Herzen .
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Beispiel	Beispiel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	uns	wir	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	3	iobj	_	Entity=(e11)
+5	besonders	besonders	ADV	ADV	_	3	advmod	_	_
+6	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	7	case	_	_
+7	Herzen	Herz	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	3	obl	_	_
+8	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 38
+# text = Im Jahr 2012 hat State Street 54 Anwendungsprogramme in die Cloud-Umgebung migriert und weitere 85 Programme eingestellt .
+1-2	Im	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	Entity=(e46-entity-3)
+4	2012	2012	NUM	CARD	NumType=Card	3	nmod	_	_
+5	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+6	State	State	PROPN	NE	Foreign=Yes	5	nsubj	_	Entity=(e47-entity-6)
+7	Street	Street	PROPN	NE	Foreign=Yes	6	flat	_	_
+8	54	54	NUM	XY	NumType=Card	9	nummod	_	_
+9	Anwendungsprogramme	Anwendungsprogramm	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	15	obj	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Cloud	Cloud	PROPN	NE	Foreign=Yes	15	obl	_	SpaceAfter=No
+13	-	-	PUNCT	$(	_	14	punct	_	SpaceAfter=No
+14	Umgebung	Umgebung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	flat	_	Entity=(e48-entity-14)
+15	migriert	migrieren	VERB	VVPP	VerbForm=Part	0	root	_	_
+16	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	20	cc	_	_
+17	weitere	weit	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Plur	19	amod	_	_
+18	85	85	NUM	CARD	NumType=Card	19	nummod	_	_
+19	Programme	Programm	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	20	nsubj:pass	_	_
+20	eingestellt	einstellen	VERB	VVPP	VerbForm=Part	15	conj	_	_
+21	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 39
+# text = Wir virtualisierten die Arbeitsumgebungen und stellten zahlreiche Automatisierungsprojekte fertig .
+1	Wir	wir	PRON	ADJD	_	2	nsubj	_	Entity=(e47)
+2	virtualisierten	virtualisieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	Arbeitsumgebungen	Arbeitsumgebung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	obj	_	Entity=(e49-entity-4)
+5	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	6	cc	_	_
+6	stellten	stellen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+7	zahlreiche	zahlreich	ADJ	NN	Case=Acc|Gender=Fem|Number=Sing	8	amod	_	_
+8	Automatisierungsprojekte	Automatisierungsprojekt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	Entity=(e50-entity-8)
+9	fertig	fertig	ADJ	ADJD	_	6	xcomp	_	_
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 40
+# text = Diese Initiativen schaffen einen mobileren Arbeitsplatz und reduzieren unseren Immobilien-Bedarf .
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	2	det	_	_
+2	Initiativen	Initiative	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	Entity=(e51-entity-2)
+3	schaffen	schaffen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	mobileren	mobil	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	6	amod	_	_
+6	Arbeitsplatz	Arbeitsplatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+7	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	8	cc	_	_
+8	reduzieren	reduzieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	unseren	unser	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	10	det:poss	_	_
+10	Immobilien	Immobilie	NOUN	TRUNC	_	12	compound	_	SpaceAfter=No
+11	-	-	PUNCT	$(	_	10	punct	_	SpaceAfter=No
+12	Bedarf	bedarf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+13	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 41
+# text = Dadurch werden jährlich 23 Mio.
+1	Dadurch	dadurch	ADV	PAV	_	5	advmod	_	Entity=(e52-entity-1)
+2	werden	werden	AUX	NE	Case=Acc|Number=Plur	5	nsubj	_	_
+3	jährlich	jährlich	ADV	ADJD	_	4	advmod	_	_
+4	23	23	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Mio	Mio	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 42
+# text = Dollar an Betriebskosten gespart und die Emission von 100 000 Tonnen Kohlenstoff vermieden .
+1	Dollar	Dollar	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	an	an	ADP	APPR	_	3	case	_	_
+3	Betriebskosten	Betriebskost	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	obl	_	Entity=(e53-entity-3)
+4	gespart	sparen	VERB	VVPP	VerbForm=Part	0	root	_	_
+5	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	13	cc	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Emission	Emission	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+8	von	von	ADP	FM	Foreign=Yes	12	case	_	_
+9	100	100	NUM	CARD	NumType=Card	10	nummod	_	Entity=(e17)
+10	000	000	NUM	CARD	NumType=Card	11	nummod	_	_
+11	Tonnen	Tonne	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	compound	_	_
+12	Kohlenstoff	Kohlenstoff	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	obl	_	_
+13	vermieden	vermeiden	VERB	VVPP	VerbForm=Part	4	conj	_	_
+14	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 43
+# text = Das sind 21 000 Autos weniger auf den Straßen .
+1	Das	der	PRON	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	nsubj	_	Entity=(e54-entity-1)
+2	sind	sein	AUX	ADJD	_	9	cop	_	_
+3	21	21	NUM	CARD	NumType=Card	4	nummod	_	Entity=(e54)
+4	000	000	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Autos	Autos	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	9	nsubj	_	_
+6	weniger	weniger	ADV	ADV	_	9	advmod	_	_
+7	auf	auf	ADP	APPR	_	9	case	_	_
+8	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	Straßen	Straße	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	0	root	_	Entity=(e55-entity-9)
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 44
+# text = Genial , oder 
+1	Genial	genial	NOUN	ADJD	_	0	root	_	_
+2	,	,	PUNCT	$,	_	3	punct	_	_
+3	oder	oder	CCONJ	XY	_	4	cc	_	_
+4	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 45
+# text = Ein weiteres Beispiel ist Pentair .
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+2	weiteres	weit	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	3	amod	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+4	ist	sein	AUX	NN	Case=Nom|Gender=Masc|Number=Sing	5	cop	_	_
+5	Pentair	Pentair	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Entity=(e56-entity-5)
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 46
+# text = Pentair ist ein US-Mischkonzern .
+1	Pentair	Pentair	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Entity=(e56)
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	US	US	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|Entity=(e57-entity-4)
+5	-	-	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+6	Mischkonzern	Mischkonzern	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	_
+7	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 47
+# text = Vor etwa einem Jahrzehnt verkauften sie ihr Kerngeschäft , Heimwerker-Geräte , und investierten die Einnahmen ins Wassergeschäft .
+1	Vor	vor	ADP	ADJA	Case=Nom|Gender=Fem|Number=Sing	4	case	_	_
+2	etwa	etwa	ADV	ADV	_	4	advmod	_	_
+3	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Jahrzehnt	Jahrzehnt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
+5	verkauften	verkaufen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	Entity=(e56)
+7	ihr	ihr	DET	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	8	det:poss	_	Entity=(e56)
+8	Kerngeschäft	Kerngeschäft	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	Entity=(e58-entity-8)
+9	,	,	PUNCT	$,	_	12	punct	_	_
+10	Heimwerker	Heimwerker	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	compound	_	SpaceAfter=No
+11	-	-	PUNCT	$(	_	10	punct	_	SpaceAfter=No
+12	Geräte	Gerät	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	8	conj	_	_
+13	,	,	PUNCT	$,	_	15	punct	_	_
+14	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	15	cc	_	_
+15	investierten	investieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	Entity=(e59-entity-15)
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+17	Einnahmen	Einnahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	Entity=(e60-entity-17)
+18-19	ins	_	_	_	_	_	_	_
+18	in	in	ADP	APPR	_	20	case	_	_
+19	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Wassergeschäft	Wassergeschäft	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	nmod	_	Entity=(e61-entity-20)
+21	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 48
+# text = Das ist ein wirklich großer Einsatz .
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	Entity=(e59)
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+4	wirklich	wirklich	ADJ	ADV	_	5	advmod	_	_
+5	großer	groß	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+6	Einsatz	Einsatz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 49
+# text = Warum haben sie das getan 
+1	Warum	warum	ADV	PWAV	PronType=Int	5	advmod	_	_
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	Entity=(e56)
+4	das	der	DET	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	Entity=(e59)
+5	getan	tun	ADJ	VVPP	VerbForm=Part	0	root	_	_
+6	?	?	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 50
+# text = Die Heimwerker-Fans mögen entschuldigen , aber es gibt mehr Wachstum bei Wasser als bei Elektrowerkzeugen , und dieses Unternehmen hat die , wie sie es nennen , " neue Neue Welt " im Visier : Vier Milliarden Menschen aus der Mittelschicht , die Nahrung , Strom und Wasser brauchen .	1	--	_	_	_	_	_	_
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+2	Heimwerker	Heimwerker	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	compound	_	SpaceAfter=No
+3	-	-	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+4	Fans	Fan	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	Entity=(e62-entity-4)
+5	mögen	mög	ADJ	NN	Case=Dat|Gender=Masc|Number=Plur	6	advmod	_	_
+6	entschuldigen	entschuldigen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+7	,	,	PUNCT	$,	_	10	punct	_	_
+8	aber	aber	CCONJ	KON	_	10	cc	_	_
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	_
+10	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+11	mehr	mehr	ADV	ADV	_	10	advmod	_	_
+12	Wachstum	Wachstum	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	nsubj	_	_
+13	bei	bei	ADP	APPR	_	14	case	_	_
+14	Wasser	Wasser	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
+15	als	als	ADP	KOKOM	_	17	case	_	_
+16	bei	bei	ADP	APPR	_	17	case	_	_
+17	Elektrowerkzeugen	Elektrowerkzeug	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	obl	_	_
+18	,	,	PUNCT	$,	_	22	punct	_	_
+19	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	22	cc	_	_
+20	dieses	dies	PRON	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	21	det	_	_
+21	Unternehmen	Unternehmen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	22	nsubj	_	Entity=(e56)
+22	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+23	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+24	,	,	PUNCT	$,	_	28	punct	_	_
+25	wie	wie	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	28	advmod	_	_
+26	sie	sie	PRON	ADJA	Case=Acc|Gender=Fem|Number=Sing	28	nsubj	_	Entity=(e56)
+27	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	Entity=(e63-entity-27)
+28	nennen	nennen	NOUN	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	obj	_	_
+29	,	,	PUNCT	$,	_	33	punct	_	_
+30	"	"	PUNCT	$(	_	33	punct	_	_
+31	neue	neu	ADJ	ADJA	_	33	amod	_	_
+32	Neue	neu	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	33	amod	_	_
+33	Welt	Welt	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	52	nsubj	_	Entity=(e63)
+34	"	"	PUNCT	$(	_	33	punct	_	_
+35-36	im	_	_	_	_	_	_	_
+35	in	in	ADP	APPR	_	37	case	_	_
+36	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	37	det	_	_
+37	Visier	Visier	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	52	nmod	_	Entity=(e64-entity-37)
+38	:	:	PUNCT	$.	_	41	punct	_	_
+39	Vier	vier	NUM	CARD	NumType=Card	40	nummod	_	_
+40	Milliarden	Milliarde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	41	nmod	_	_
+41	Menschen	Mensch	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	52	nsubj	_	Entity=(e65-entity-41)
+42	aus	aus	ADP	APPR	_	44	case	_	_
+43	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	Mittelschicht	Mittelschicht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	41	nmod	_	Entity=(e66-entity-44)
+45	,	,	PUNCT	$,	_	47	punct	_	_
+46	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	Nahrung	Nahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	44	conj	_	_
+48	,	,	PUNCT	$,	_	49	punct	_	_
+49	Strom	Strom	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	44	conj	_	_
+50	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	51	cc	_	_
+51	Wasser	Wasser	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	44	conj	_	_
+52	brauchen	brauchen	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	xcomp	_	_
+53	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 51
+# text = Jetzt fragen Sie sich vielleicht , sind das denn nicht nur Einzelfälle 
+1	Jetzt	jetzt	ADV	ADV	_	2	advmod	_	_
+2	fragen	fragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	csubj	_	_
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	Entity=(e7)
+4	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+5	vielleicht	vielleicht	ADV	FM	Foreign=Yes	2	advmod	_	_
+6	,	,	PUNCT	$,	_	2	punct	_	_
+7	sind	sein	AUX	ADJD	_	12	cop	_	_
+8	das	der	DET	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	det	_	Entity=(e67-entity-8)
+9	denn	denn	NOUN	ADV	_	12	nsubj	_	_
+10	nicht	nicht	PART	CARD	NumType=Card	12	advmod	_	_
+11	nur	nur	ADV	CARD	NumType=Card	12	advmod	_	_
+12	Einzelfälle	Einzelfall	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+13	?	?	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 52
+# text = Ich meine , mal ehrlich , stehen Unternehmen , die Nachhaltigkeit berücksichtigen , finanziell tatsächlich gut da 
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Entity=(e2)
+2	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Poss=Yes	5	obj	_	_
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	mal	mal	ADV	ADV	_	5	advmod	_	_
+5	ehrlich	ehrlich	ADJ	ADJD	_	7	advmod	_	_
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	stehen	stehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	Unternehmen	Unternehmen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+9	,	,	PUNCT	$,	_	12	punct	_	_
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Nachhaltigkeit	Nachhaltigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	Entity=(e45)
+12	berücksichtigen	berücksichtig	ADJ	VVINF	VerbForm=Inf	7	conj	_	_
+13	,	,	PUNCT	$,	_	16	punct	_	_
+14	finanziell	finanziell	ADJ	ADJD	_	15	advmod	_	_
+15	tatsächlich	tatsächlich	ADJ	ADV	_	16	advmod	_	_
+16	gut	gut	ADJ	ADJD	_	7	conj	_	_
+17	da	da	ADV	ADV	_	7	advmod	_	_
+18	?	?	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 53
+# text = Die überraschende Antwort ist ja .
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	überraschende	überraschend	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+3	Antwort	Antwort	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	Entity=(e68-entity-3)
+4	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	ja	ja	ADV	ADV	_	6	advmod	_	_
+6	.	.	PUNCT	$.	_	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 54
+# text = Die Daten zeigen , dass Aktien mit besserer ESG-Leistung genauso gut abschneiden wie andere .
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	_
+2	Daten	Datum	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	Entity=(e69-entity-2)
+3	zeigen	zeigen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	,	,	PUNCT	$,	_	16	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	16	mark	_	_
+6	Aktien	Aktie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	16	nsubj	_	_
+7	mit	mit	ADP	ADJA	Case=Nom|Gender=Fem|Number=Plur	9	case	_	_
+8	besserer	gut	ADJ	ADJA	Case=Gen|Number=Plur	9	amod	_	_
+9	ESG	ESG	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No|Entity=(e27)
+10	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+11	Leistung	leistung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	flat	_	Entity=(e70-entity-11)
+12	genauso	genauso	ADV	ADV	_	13	advmod	_	_
+13	gut	gut	ADJ	ADJD	_	16	advmod	_	_
+14	abschneiden	abschneiden	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	16	nsubj	_	_
+15	wie	wie	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	16	case	_	_
+16	andere	ander	ADJ	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	3	ccomp	_	_
+17	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 55
+# text = In Blau sehen wir den MSCI World Index , ein Index für Großunternehmen aus entwickelten Märkten auf der ganzen Welt .
+1	In	in	ADP	APPR	_	2	case	_	_
+2	Blau	Blau	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
+3	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	wir	wir	PRON	ADJD	_	3	nsubj	_	Entity=(e11)
+5	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	MSCI	MSCI	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	Entity=(e71-entity-6)
+7	World	World	PROPN	NE	_	6	flat	_	_
+8	Index	Index	PROPN	NE	Case=Nom|Number=Sing	6	flat	_	_
+9	,	,	PUNCT	$,	_	11	punct	_	_
+10	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Index	Index	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+12	für	für	ADP	APPR	_	13	case	_	_
+13	Großunternehmen	Großunternehmen	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	11	nmod	_	_
+14	aus	aus	ADP	APPR	_	16	case	_	_
+15	entwickelten	entwickelt	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Plur	16	amod	_	_
+16	Märkten	Markt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	nmod	_	_
+17	auf	auf	ADP	APPR	_	20	case	_	_
+18	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	ganzen	ganz	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	20	amod	_	_
+20	Welt	Welt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	nmod	_	Entity=(e1)
+21	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 56
+# text = Und in Gold sehen wir die Teilmenge von Unternehmen mit der besten ESG-Leistung .
+1	Und	und	CCONJ	ADJD	_	4	cc	_	_
+2	in	in	ADP	APPR	_	3	case	_	_
+3	Gold	Gold	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
+4	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	wir	wir	PRON	ADJD	_	4	nsubj	_	Entity=(e11)
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Teilmenge	Teilmenge	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	Entity=(e72-entity-7)
+8	von	von	ADP	FM	Foreign=Yes	9	case	_	_
+9	Unternehmen	Unternehmen	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	7	nmod	_	_
+10	mit	mit	ADP	$(	_	13	case	_	_
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	besten	gut	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	13	amod	_	_
+13	ESG	ESG	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No|Entity=(e27)
+14	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+15	Leistung	Leistung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	flat	_	Entity=(e70)
+16	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 57
+# text = Seit über drei Jahren kein Leistungskompromiss .
+1	Seit	seit	ADP	APPR	_	4	case	_	_
+2	über	über	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	4	case	_	_
+3	drei	drei	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	0	root	_	_
+5	kein	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	6	nmod	_	_
+6	Leistungskompromiss	Leistungskompromiß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Entity=(e73-entity-6)
+7	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 58
+# text = Das ist doch okay , oder 
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	Entity=(e73)
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	doch	doch	ADV	ADV	_	4	advmod	_	_
+4	okay	Okay	ADJ	ADJD	_	0	root	_	_
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	oder	oder	CCONJ	XY	_	4	conj	_	_
+7	?	?	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 59
+# text = Aber wir wollen mehr .
+1	Aber	aber	CCONJ	KON	_	3	cc	_	_
+2	wir	wir	PRON	ADJD	_	3	nsubj	_	Entity=(e11)
+3	wollen	wollen	VERB	VMINF	VerbForm=Inf	0	root	_	_
+4	mehr	mehr	ADV	ADV	_	3	advmod	_	_
+5	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 60
+# text = Ich will mehr .
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Entity=(e2)
+2	will	wollen	VERB	NE	Case=Acc|Gender=Masc|Number=Plur	0	root	_	_
+3	mehr	mehr	ADV	ADV	_	2	advmod	_	_
+4	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 61
+# text = In einigen Fällen ist ESG ein Indikator für überdurchschnittliche Wertentwicklung .
+1	In	in	ADP	APPR	_	3	case	_	_
+2	einigen	einige	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	Fällen	Fall|Fällen	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	nmod	_	_
+4	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	ESG	ESG	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Entity=(e27)
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Indikator	Indikator	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+8	für	für	ADP	APPR	_	10	case	_	_
+9	überdurchschnittliche	überdurchschnittlich	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	10	amod	_	_
+10	Wertentwicklung	Wertentwicklung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	Entity=(e74-entity-10)
+11	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 62
+# text = In Blau sehen wir die Leistung der 500 größten globalen Unternehmen und in Gold sehen wir eine Teilmenge von Unternehmen mit guter Klimaschutzstrategie und Risikomanagement .
+1	In	in	ADP	APPR	_	2	case	_	_
+2	Blau	Blau	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
+3	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	wir	wir	PRON	ADJD	_	3	nsubj	_	Entity=(e11)
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Leistung	Leistung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	Entity=(e75-entity-6)
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+8	500	500	NUM	CARD	NumType=Card	11	nummod	_	_
+9	größten	groß	ADJ	ADJA	Case=Gen|Gender=Neut|Number=Plur	11	amod	_	_
+10	globalen	global	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	11	amod	_	_
+11	Unternehmen	Unternehmen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	Entity=(e76-entity-11)
+12	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	15	cc	_	_
+13	in	in	ADP	APPR	_	14	case	_	_
+14	Gold	Gold	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	_
+15	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+16	wir	wir	PRON	ADJD	_	15	nsubj	_	Entity=(e11)
+17	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Teilmenge	Teilmenge	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+19	von	von	ADP	FM	Foreign=Yes	20	case	_	_
+20	Unternehmen	Unternehmen	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	18	nmod	_	Entity=(e77-entity-20)
+21	mit	mit	ADP	$(	_	23	case	_	_
+22	guter	gut	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	23	amod	_	_
+23	Klimaschutzstrategie	Klimaschutzstrategie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	nmod	_	_
+24	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	25	cc	_	_
+25	Risikomanagement	Risikomanagement	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	23	conj	_	_
+26	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 63
+# text = Seit fast acht Jahren übertreffen sie die Wertentwicklung um rund zwei Drittel .
+1	Seit	seit	ADP	APPR	_	4	case	_	_
+2	fast	fast	ADV	ADV	_	3	advmod	_	_
+3	acht	acht	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	5	obl	_	_
+5	übertreffen	übertreffen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	Entity=(e77)
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Wertentwicklung	Wertentwicklung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	Entity=(e74)
+9	um	um	ADP	APPR	_	12	case	_	_
+10	rund	rund	ADV	ADV	_	11	advmod	_	_
+11	zwei	zwei	NUM	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	nummod	_	_
+12	Drittel	Drittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	obl	_	_
+13	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 64
+# text = Zugegeben , das ist eine Korrelation , kein Kausalzusammenhang .
+1	Zugegeben	Zugegeben	NOUN	VVPP	VerbForm=Part	0	root	_	_
+2	,	,	PUNCT	$,	_	6	punct	_	_
+3	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	6	nsubj	_	Entity=(e78-entity-3)
+4	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Korrelation	Korrelation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	acl	_	_
+7	,	,	PUNCT	$,	_	9	punct	_	_
+8	kein	kein	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	9	nmod	_	_
+9	Kausalzusammenhang	Kausalzusammenhang	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+10	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 65
+# text = Aber es macht deutlich , dass umweltorientierte Führung mit guten Renditen kompatibel ist .
+1	Aber	aber	CCONJ	KON	_	3	cc	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Entity=(e79-entity-2)
+3	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	deutlich	deutlich	ADJ	ADJD	_	3	advmod	_	_
+5	,	,	PUNCT	$,	_	12	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	12	mark	_	_
+7	umweltorientierte	umweltorientiert	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	8	amod	_	_
+8	Führung	Führung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	Entity=(e80-entity-8)
+9	mit	mit	ADP	$(	_	11	case	_	_
+10	guten	gut	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	11	amod	_	_
+11	Renditen	Rendit	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+12	kompatibel	kompatibel	ADJ	ADJD	_	3	ccomp	_	_
+13	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	12	cop	_	_
+14	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 66
+# text = Wenn die Erträge gleich oder besser sind , und es gut für den Planeten ist , sollte es nicht Standard sein 
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Erträge	Ertrag	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	Entity=(e81-entity-3)
+4	gleich	gleich	ADJ	ADV	_	17	advcl	_	_
+5	oder	oder	CCONJ	XY	_	6	cc	_	_
+6	besser	gut	ADJ	ADJD	_	4	conj	_	_
+7	sind	sein	AUX	ADJD	_	4	cop	_	_
+8	,	,	PUNCT	$,	_	4	punct	_	_
+9	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	11	cc	_	_
+10	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	Entity=(e80)
+11	gut	gut	ADJ	ADJD	_	4	conj	_	_
+12	für	für	ADP	APPR	_	14	case	_	_
+13	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Planeten	Planeten	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	Entity=(e13)
+15	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+16	,	,	PUNCT	$,	_	4	punct	_	_
+17	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux	_	_
+18	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	Entity=(e80)
+19	nicht	nicht	PART	CARD	NumType=Card	20	advmod	_	_
+20	Standard	Standard	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+21	sein	sein	AUX	VAINF	VerbForm=Inf	20	cop	_	_
+22	?	?	PUNCT	$.	_	20	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 67
+# text = Engagieren sich Investoren , insbesondere institutionelle Investoren 
+1	Engagieren	engagieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	1	obj	_	_
+3	Investoren	Investor	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
+4	,	,	PUNCT	$,	_	7	punct	_	_
+5	insbesondere	insbesondere	ADV	ADV	_	6	advmod	_	_
+6	institutionelle	institutionell	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	7	amod	_	_
+7	Investoren	Investor	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	conj	_	Entity=(e9)
+8	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 68
+# text = Nun , einige tun es , und ein paar sind wirkliche Vorreiter .
+1	Nun	nun	ADV	ADV	_	4	advmod	_	_
+2	,	,	PUNCT	$,	_	4	punct	_	_
+3	einige	einige	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	4	nsubj	_	Entity=(e82-entity-3)
+4	tun	tun	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	Entity=(e80)
+6	,	,	PUNCT	$,	_	12	punct	_	_
+7	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	12	cc	_	_
+8	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	paar	paar	PRON	PIAT	Definite=Ind|PronType=Ind	12	nsubj	_	Entity=(e83-entity-9)
+10	sind	sein	AUX	ADJD	_	12	cop	_	_
+11	wirkliche	wirklich	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	12	amod	_	_
+12	Vorreiter	Vorreiter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+13	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 69
+# text = Hesta .
+1	Hesta	Hesta	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Entity=(e84-entity-1)
+2	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 70
+# text = Hesta ist ein Pensionsfonds für Mitarbeiter im Gesundheitswesen und im öffentlichen Dienst in Australien , mit einem Vermögen von 22 Mrd.
+1	Hesta	Hesta	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Entity=(e84)
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Pensionsfonds	Pensionsfonds	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	0	root	_	_
+5	für	für	ADP	APPR	_	6	case	_	_
+6	Mitarbeiter	Mitarbeiter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	_
+7-8	im	_	_	_	_	_	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Gesundheitswesen	Gesundheitswese	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	Entity=(e85-entity-9)
+10	und	und	CCONJ	NE	Case=Dat|Gender=Neut|Number=Sing	14	cc	_	_
+11-12	im	_	_	_	_	_	_	_
+11	in	in	ADP	APPR	_	14	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	öffentlichen	öffentlich	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	14	amod	_	_
+14	Dienst	Dienst	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	conj	_	Entity=(e86-entity-14)
+15	in	in	ADP	APPR	_	16	case	_	_
+16	Australien	Australien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	Entity=(e87-entity-16)
+17	,	,	PUNCT	$,	_	20	punct	_	_
+18	mit	mit	ADP	$(	_	20	case	_	_
+19	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Vermögen	Vermögen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	14	nmod	_	_
+21	von	von	ADP	FM	Foreign=Yes	23	case	_	_
+22	22	22	NUM	CARD	NumType=Card	23	nummod	_	_
+23	Mrd	Mrd	NOUN	NN	Abbr=Yes|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 71
+# text = [ Dollar ] .
+1	[	[	PUNCT	$(	_	2	punct	_	_
+2	Dollar	Dollar	PROPN	NN	Gender=Masc	0	root	_	Entity=(e88-entity-2)
+3	]	]	PUNCT	$(	_	2	punct	_	_
+4	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 72
+# text = Sie glauben , dass ESG das Potenzial hat , Risiken und Erträge zu beeinflussen .
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	Entity=(e84)
+2	glauben	glauben	VERB	VVINF	VerbForm=Inf	0	root	_	_
+3	,	,	PUNCT	$,	_	8	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	8	mark	_	_
+5	ESG	ESG	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	Entity=(e27)
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Potenzial	Potenzial	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	Entity=(e89-entity-7)
+8	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+9	,	,	PUNCT	$,	_	10	punct	_	_
+10	Risiken	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	_
+11	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	12	cc	_	_
+12	Erträge	Ertrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	conj	_	_
+13	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	14	mark	_	_
+14	beeinflussen	beeinflussen	VERB	VVINF	VerbForm=Inf	8	xcomp	_	_
+15	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 73
+# text = Deshalb sehen sie es als ihre Pflicht an , das beim Investment mit einzubeziehen .
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	_
+2	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	Entity=(e84)
+4	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+5	als	als	ADP	KOKOM	_	7	case	_	_
+6	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	7	det:poss	_	Entity=(e84)
+7	Pflicht	Pflicht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	Entity=(e90-entity-7)
+8	an	an	ADP	PTKVZ	_	2	compound:prt	_	_
+9	,	,	PUNCT	$,	_	15	punct	_	_
+10	das	der	PRON	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	15	nsubj	_	Entity=(e27)
+11-12	beim	_	_	_	_	_	_	_
+11	bei	bei	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Investment	Investment	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	15	obl	_	Entity=(e91-entity-13)
+14	mit	mit	ADP	$(	_	15	case	_	_
+15	einzubeziehen	einzubeziehen	VERB	VVPP	VerbForm=Part	2	acl	_	_
+16	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 74
+# text = Im besten Interesse der Fondsmitglieder handeln , das ist ihre Kernaufgabe .
+1-2	Im	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	4	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+3	besten	gut	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	4	amod	_	_
+4	Interesse	Interesse	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	obl	_	Entity=(e92-entity-4)
+5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	6	det	_	_
+6	Fondsmitglieder	Fondsmitglieder	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	Entity=(e93-entity-6)
+7	handeln	handeln	VERB	VVINF	VerbForm=Inf	0	root	_	Entity=(e94-entity-7)
+8	,	,	PUNCT	$,	_	12	punct	_	_
+9	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	12	nsubj	_	Entity=(e94)
+10	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	12	det:poss	_	Entity=(e84)
+12	Kernaufgabe	Kernaufgabe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	_
+13	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 75
+# text = Man muss sie einfach lieben , die Australier , oder 
+1	Man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	5	nsubj	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	Entity=(e95-entity-3)
+4	einfach	einfach	ADJ	ADV	_	5	advmod	_	_
+5	lieben	lieben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	,	,	PUNCT	$,	_	8	punct	_	_
+7	die	der	DET	PRELS	Case=Nom|Number=Plur|PronType=Rel	8	det	_	_
+8	Australier	Australier	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	conj	_	Entity=(e95)
+9	,	,	PUNCT	$,	_	10	punct	_	_
+10	oder	oder	CCONJ	XY	_	8	cc	_	_
+11	?	?	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 76
+# text = CalPERS ist ein weiteres Beispiel .
+1	CalPERS	CalPERS	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	Entity=(e96-entity-1)
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+4	weiteres	weit	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	5	amod	_	_
+5	Beispiel	Beispiel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	0	root	_	_
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 77
+# text = CalPERS ist der Pensionsfonds für Angestellte im öffentlichen Dienst in Kalifornien .
+1	CalPERS	CalPERS	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	Entity=(e96)
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Pensionsfonds	Pensionsfonds	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+5	für	für	ADP	APPR	_	6	case	_	_
+6	Angestellte	Angestellte	NOUN	NN	Case=Nom|Number=Plur	4	nmod	_	_
+7-8	im	_	_	_	_	_	_	_
+7	in	in	ADP	APPR	_	10	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	öffentlichen	öffentlich	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	10	amod	_	_
+10	Dienst	Dienst	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	Entity=(e86)
+11	in	in	ADP	APPR	_	12	case	_	_
+12	Kalifornien	Kalifornien	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	nmod	_	Entity=(e97-entity-12)
+13	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 78
+# text = Mit einem Vermögen von 244 Mrd.
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Vermögen	Vermögen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	0	root	_	_
+4	von	von	ADP	FM	Foreign=Yes	6	case	_	_
+5	244	244	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Mrd	Mrd	NOUN	NN	Abbr=Yes|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 79
+# text = [ Dollar ] ist er der zweitgrößte in den USA und der sechstgrößte in der Welt .
+1	[	[	PUNCT	$(	_	2	punct	_	_
+2	Dollar	Dollar	PROPN	NN	Gender=Masc	7	nsubj	_	Entity=(e98-entity-2)
+3	]	]	PUNCT	$(	_	2	punct	_	_
+4	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	Entity=(e96)
+6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	zweitgrößte	zweitgroß	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	USA	USA	PROPN	NE	Case=Dat|Gender=Masc|Number=Plur	7	nmod	_	Entity=(e57)
+11	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	13	cc	_	_
+12	der	der	PRON	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	nsubj	_	_
+13	sechstgrößte	sechstgrößen	VERB	ADJA	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+14	in	in	ADP	APPR	_	16	case	_	_
+15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Welt	Welt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	Entity=(e1)
+17	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 80
+# text = Ihre Investitionen in Nachhaltigkeit liegen bei fast 100 % .
+1	Ihre	Ihr|ihr	DET	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes	2	det:poss	_	Entity=(e96)
+2	Investitionen	Investition	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	Entity=(e99-entity-2)
+3	in	in	ADP	APPR	_	4	case	_	_
+4	Nachhaltigkeit	Nachhaltigkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	Entity=(e45)
+5	liegen	liegen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	bei	bei	ADP	APPR	_	9	case	_	_
+7	fast	fast	ADV	ADV	_	8	advmod	_	_
+8	100	100	NUM	CARD	NumType=Card	9	nummod	_	_
+9	%	%	X	NN	Case=Acc|Gender=Neut|Number=Plur	5	obl	_	_
+10	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 81
+# text = Sie integrieren die ESG systematisch in den gesamten Fonds .
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	Entity=(e96)
+2	integrieren	integrieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	ESG	ESG	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	Entity=(e27)
+5	systematisch	systematisch	ADJ	ADJD	_	2	advmod	_	_
+6	in	in	ADP	APPR	_	9	case	_	_
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	gesamten	gesamt	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing	9	amod	_	_
+9	Fonds	Fonds	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	2	obl	_	Entity=(e100-entity-9)
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 82
+# text = Warum 
+1	Warum	warum	PROPN	PWAV	PronType=Int	0	root	_	_
+2	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 83
+# text = Sie glauben , es ist wichtig für größere langfristige Renditen , Punkt .
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	Entity=(e96)
+2	glauben	glauben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	$,	_	6	punct	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Entity=(e99)
+5	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	wichtig	wichtig	ADJ	NE	Case=Acc|Gender=Neut|Number=Sing	2	conj	_	_
+7	für	für	ADP	APPR	_	10	case	_	_
+8	größere	groß	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	10	amod	_	_
+9	langfristige	langfristig	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	10	amod	_	_
+10	Renditen	Rendit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	nmod	_	_
+11	,	,	PUNCT	$,	_	12	punct	_	_
+12	Punkt	Punkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	_
+13	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 84
+# text = Sie sagen : " Langfristige Wertschöpfung erfordert die effiziente Verwaltung dreier Formen des Kapitals : Finanzielles , personelles und physisches Kapital .
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	Entity=(e96)
+2	sagen	sagen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	:	:	PUNCT	$.	_	7	punct	_	_
+4	"	"	PUNCT	$(	_	7	punct	_	_
+5	Langfristige	langfristig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
+6	Wertschöpfung	Wertschöpfung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	erfordert	erfordern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	effiziente	effizient	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	10	amod	_	_
+10	Verwaltung	Verwaltung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	Entity=(e101-entity-10)
+11	dreier	dreier	NUM	ADJA	Case=Dat|Gender=Fem|Number=Sing|NumType=Card	12	nummod	_	_
+12	Formen	Form	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	nsubj	_	_
+13	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Kapitals	Kapital	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	Entity=(e37)
+15	:	:	PUNCT	$.	_	16	punct	_	_
+16	Finanzielles	Finanzielle	NOUN	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	12	appos	_	_
+17	,	,	PUNCT	$,	_	18	punct	_	_
+18	personelles	personell	ADJ	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	16	conj	_	_
+19	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	21	cc	_	_
+20	physisches	physisch	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	21	amod	_	_
+21	Kapital	Kapital	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	16	conj	_	_
+22	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 85
+# text = Deshalb ist uns ESG wichtig . "
+1	Deshalb	deshalb	ADV	PAV	_	5	advmod	_	_
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	uns	wir	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	5	iobj	_	Entity=(e11)
+4	ESG	ESG	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Entity=(e27)
+5	wichtig	wichtig	ADJ	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Entity=(e102-entity-5)
+6	.	.	PUNCT	$.	_	5	punct	_	_
+7	"	"	PUNCT	$(	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 86
+# text = Bestandteil meiner Arbeit ist , mit vielen Investoren zu sprechen .
+1	Bestandteil	Bestandteil	ADP	NN	Case=Nom|Gender=Masc|Number=Sing	3	case	_	_
+2	meiner	mein	DET	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes	3	det:poss	_	Entity=(e2)
+3	Arbeit	Arbeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	Entity=(e103-entity-3)
+4	ist	sein	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	,	,	PUNCT	$,	_	10	punct	_	_
+6	mit	mit	ADP	$(	_	8	case	_	_
+7	vielen	viel	DET	PIAT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	8	amod	_	_
+8	Investoren	Investor	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	obl	_	Entity=(e3)
+9	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	10	mark	_	_
+10	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	_
+11	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 87
+# text = Nicht alle sehen das genauso .
+1	Nicht	nicht	PART	TRUNC	NumType=Card	2	advmod	_	_
+2	alle	alle	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	3	nsubj	_	Entity=(e3)
+3	sehen	sehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	Entity=(e102)
+5	genauso	genauso	ADV	ADV	_	3	advmod	_	_
+6	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 88
+# text = Oft höre ich : " Wir sind verpflichtet , Gewinne zu maximieren , deshalb machen wir das hier nicht . "
+1	Oft	oft	ADV	ADV	_	2	advmod	_	_
+2	höre	hören	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Entity=(e2)
+4	:	:	PUNCT	$.	_	6	punct	_	_
+5	"	"	PUNCT	$(	_	6	punct	_	_
+6	Wir	wir	PRON	ADJD	_	8	nsubj	_	Entity=(e3)
+7	sind	sein	AUX	ADJD	_	8	cop	_	_
+8	verpflichtet	verpflichten	ADJ	VVPP	VerbForm=Part	2	parataxis	_	_
+9	,	,	PUNCT	$,	_	12	punct	_	_
+10	Gewinne	Gewinn	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+11	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	12	mark	_	_
+12	maximieren	maximieren	VERB	VVINF	VerbForm=Inf	8	xcomp	_	_
+13	,	,	PUNCT	$,	_	15	punct	_	_
+14	deshalb	deshalb	ADV	PAV	_	15	advmod	_	_
+15	machen	machen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+16	wir	wir	PRON	ADJD	_	15	nsubj	_	Entity=(e3)
+17	das	der	PRON	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	nsubj	_	Entity=(e104-entity-17)
+18	hier	hier	ADV	ADV	_	19	advmod	_	_
+19	nicht	nicht	PART	CARD	NumType=Card	15	advmod	_	_
+20	.	.	PUNCT	$.	_	2	punct	_	_
+21	"	"	PUNCT	$(	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 89
+# text = Oder : " Wir wollen mit dem Portfolio keine Grundsatzerklärungen abgeben . "
+1	Oder	oder	PROPN	NN	Case=Nom|Gender=Neut|Number=Plur	4	dep	_	_
+2	:	:	PUNCT	$.	_	4	punct	_	_
+3	"	"	PUNCT	$(	_	4	punct	_	_
+4	Wir	wir	PRON	NE	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	Entity=(e3)
+5	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+6	mit	mit	ADP	CARD	NumType=Card	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Portfolio	Portfolio	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	Entity=(e105-entity-8)
+9	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	10	nmod	_	_
+10	Grundsatzerklärungen	Grundsatzerklärung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	Entity=(e106-entity-10)
+11	abgeben	abgeben	VERB	VVINF	VerbForm=Inf	0	root	_	_
+12	.	.	PUNCT	$.	_	11	punct	_	_
+13	"	"	PUNCT	$(	_	11	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 90
+# text = Die folgende Aussage geht mir wirklich unter die Haut : " Wenn
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	folgende	folgend	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+3	Aussage	Aussage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	Entity=(e107-entity-3)
+4	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	Entity=(e2)
+6	wirklich	wirklich	ADJ	ADV	_	4	advmod	_	_
+7	unter	unter	ADP	ADJD	_	9	case	_	_
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Haut	Haut	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	obl	_	Entity=(e108-entity-9)
+10	:	:	PUNCT	$.	_	11	punct	_	_
+11	"	"	PUNCT	$(	_	4	punct	_	_
+12	Wenn	wenn	SCONJ	KON	_	4	mark	_	_
+
+# sent_id = 91	1	--	_	_	_	_	_	_
+# text = Sie das verändern wollen , verdienen Sie Geld und spenden Sie die Gewinne an Wohltätigkeitsorganisationen . "
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	Entity=(e109-entity-1)
+2	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	Entity=(e45)
+3	verändern	verändern	VERB	VVINF	VerbForm=Inf	0	root	_	_
+4	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	verdienen	verdienen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+7	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	Entity=(e109)
+8	Geld	Geld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+9	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	10	cc	_	_
+10	spenden	spenden	VERB	VVINF	VerbForm=Inf	6	conj	_	_
+11	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	Entity=(e109)
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	Gewinne	Gewinn	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	Entity=(e110-entity-13)
+14	an	an	ADP	APPR	_	15	case	_	_
+15	Wohltätigkeitsorganisationen	Wohltätigkeitsorganisation	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	nmod	_	_
+16	.	.	PUNCT	$.	_	3	punct	_	_
+17	"	"	PUNCT	$(	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 92
+# text = Da verdrehe ich die Augen .
+1	Da	da	ADV	ADV	_	2	advmod	_	Entity=(e107)
+2	verdrehe	verdrehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Entity=(e2)
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	5	det	_	_
+5	Augen	Auge	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	Entity=(e111-entity-5)
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 93
+# text = Lassen Sie mich eins ein für alle Mal klarstellen : Unternehmen und Investoren sind nicht alleine für das Schicksal des Planeten verantwortlich .
+1	Lassen	lassen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	Entity=(e7)
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	1	obj	_	Entity=(e2)
+4	eins	ein	DET	CARD	NumType=Card	1	xcomp	_	_
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	9	obj	_	_
+6	für	für	ADP	APPR	_	8	case	_	_
+7	alle	alle	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	8	det	_	_
+8	Mal	mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
+9	klarstellen	klarstellen	VERB	VVINF	VerbForm=Inf	1	xcomp	_	_
+10	:	:	PUNCT	$.	_	11	punct	_	_
+11	Unternehmen	Unternehmen	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	22	nsubj	_	Entity=(e33)
+12	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	13	cc	_	_
+13	Investoren	Investor	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	conj	_	Entity=(e3)
+14	sind	sein	AUX	ADJD	_	22	cop	_	_
+15	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advmod	_	_
+16	alleine	alleine	ADV	ADV	_	22	advmod	_	_
+17	für	für	ADP	APPR	_	19	case	_	_
+18	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+19	Schicksal	Schicksal	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	22	nmod	_	Entity=(e44)
+20	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Planeten	Planet	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	19	nmod	_	Entity=(e13)
+22	verantwortlich	verantwortlich	ADJ	ADJD	_	1	parataxis	_	_
+23	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 94
+# text = Sie haben nicht unbegrenzte soziale Verpflichtungen , und umsichtige Investitions- und Finanzierungstheorien sind nicht der Nachhaltigkeit untergeordnet .
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	Entity=(e112-entity-1)
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	nicht	nicht	PART	CARD	NumType=Card	6	advmod	_	_
+4	unbegrenzte	unbegrenzt	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	_
+5	soziale	sozial	ADJ	NN	Case=Dat|Gender=Masc|Number=Sing	6	amod	_	_
+6	Verpflichtungen	Verpflichtung	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	0	root	_	_
+7	,	,	PUNCT	$,	_	10	punct	_	_
+8	und	und	CCONJ	NE	Case=Dat|Gender=Neut|Number=Sing	10	cc	_	_
+9	umsichtige	umsichtig	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	10	amod	_	_
+10	Investitions	Investition	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	conj	_	SpaceAfter=No
+11	-	-	PUNCT	$(	_	13	punct	_	_
+12	und	und	CCONJ	NN	Case=Dat|Gender=Neut|Number=Sing	13	cc	_	_
+13	Finanzierungstheorien	Finanzierungstheorie	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	10	conj	_	Entity=(e113-entity-13)
+14	sind	sein	AUX	ADJD	_	18	aux:pass	_	_
+15	nicht	nicht	PART	NN	Case=Gen|Gender=Masc|Number=Plur	17	advmod	_	_
+16	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Nachhaltigkeit	Nachhaltigkeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	18	iobj	_	Entity=(e45)
+18	untergeordnet	untergeordnen	VERB	VVPP	VerbForm=Part	6	conj	_	_
+19	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 95
+# text = Aber sie sind kompatibel .
+1	Aber	aber	CCONJ	KON	_	4	cc	_	_
+2	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	Entity=(e114-entity-2)
+3	sind	sein	AUX	ADJD	_	4	cop	_	_
+4	kompatibel	kompatibel	ADJ	ADJD	_	0	root	_	_
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 96
+# text = Ich spreche hier also nicht über Kompromisse .
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Entity=(e2)
+2	spreche	sprechen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	hier	hier	ADV	ADV	_	2	advmod	_	Entity=(e115-entity-3)
+4	also	also	ADV	ADV	_	2	advmod	_	_
+5	nicht	nicht	PART	CARD	NumType=Card	2	advmod	_	_
+6	über	über	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	7	case	_	_
+7	Kompromisse	Kompromis	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	2	obl	_	_
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 97
+# text = Aber institutionelle Investoren sind der Schlüsselfaktor für Nachhaltigkeit .
+1	Aber	aber	CCONJ	KON	_	6	advmod	_	_
+2	institutionelle	institutionell	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	3	amod	_	_
+3	Investoren	Investor	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	Entity=(e9)
+4	sind	sein	AUX	ADJD	_	6	cop	_	_
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Schlüsselfaktor	Schlüsselfaktor	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+7	für	für	ADP	APPR	_	8	case	_	_
+8	Nachhaltigkeit	Nachhaltigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
+9	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 98
+# text = Warum sind sie der Schlüssel 
+1	Warum	warum	ADV	PWAV	PronType=Int	5	advmod	_	_
+2	sind	sein	AUX	ADJD	_	5	cop	_	_
+3	sie	sie	PRON	VVINF	VerbForm=Inf	5	nsubj	_	Entity=(e9)
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Schlüssel	Schlüssel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	?	?	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 99
+# text = Die Antwort ist ganz einfach : Sie haben das Geld .
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Antwort	Antwort	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	Entity=(e68)
+3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	ganz	ganz	ADJ	ADV	_	5	advmod	_	_
+5	einfach	einfach	ADJ	ADV	_	0	root	_	_
+6	:	:	PUNCT	$.	_	8	punct	_	_
+7	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	Entity=(e9)
+8	haben	haben	VERB	VAINF	VerbForm=Inf	5	parataxis	_	_
+9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Geld	Geld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	Entity=(e37)
+11	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 100
+# text = ( Gelächter ) Eine ganze Menge Geld .
+1	(	(	PUNCT	$(	_	2	punct	_	_
+2	Gelächter	Gelächter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	6	dep	_	_
+3	)	)	PUNCT	$(	_	2	punct	_	_
+4	Eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	ganze	ganz	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	_
+6	Menge	Menge	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
+7	Geld	Geld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 101
+# text = Ich meine , wirklich viel Geld .
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Entity=(e2)
+2	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Masc|Number=Plur|Poss=Yes	6	det:poss	_	_
+3	,	,	PUNCT	$,	_	5	punct	_	_
+4	wirklich	wirklich	ADV	ADV	_	5	advmod	_	_
+5	viel	viel	PRON	NE	Foreign=Yes	2	conj	_	_
+6	Geld	Geld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	0	root	_	Entity=(e37)
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 102
+# text = Der globale Aktienmarkt umfasst 55 Billionen Dollar .
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	globale	global	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+3	Aktienmarkt	Aktienmarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Entity=(e116-entity-3)
+4	umfasst	umfassen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	55	55	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Billionen	Billion	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+7	Dollar	Dollar	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	6	appos	_	Entity=(e117-entity-7)
+8	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 103
+# text = Der globale Rentenmarkt 78 Billionen Dollar .
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	globale	global	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
+3	Rentenmarkt	Rentenmarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Entity=(e118-entity-3)
+4	78	78	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Billionen	Billion	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+6	Dollar	Dollar	PROPN	NN	Case=Acc|Gender=Masc|Number=Plur	5	appos	_	Entity=(e119-entity-6)
+7	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 104
+# text = Das sind zusammen 133 Billionen .
+1	Das	der	PRON	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	nsubj	_	Entity=(e120-entity-1)
+2	sind	sein	AUX	ADJD	_	5	cop	_	_
+3	zusammen	zusammen	ADV	NN	Case=Dat|Gender=Masc|Number=Plur	4	advmod	_	_
+4	133	133	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Billionen	Billion	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	0	root	_	_
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 105
+# text = Das ist achteinhalb Mal das BIP der USA .
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	Entity=(e121-entity-1)
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	achteinhalb	achteinhalb	ADP	CARD	NumType=Card	4	case	_	_
+4	Mal	Mal	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	nmod	_	_
+5	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	BIP	BIP	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	Entity=(e122-entity-6)
+7	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	USA	USA	PROPN	NE	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	Entity=(e57)
+9	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 106
+# text = Das ist die größte Volkswirtschaft der Welt .
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	Entity=(e57)
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	größte	groß	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
+5	Volkswirtschaft	Volkswirtschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Entity=(e123-entity-5)
+6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Welt	Welt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	Entity=(e1)
+8	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 107
+# text = Das ist schon gigantisch viel Feuerkraft .
+1	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	Entity=(e121)
+2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	schon	schon	ADV	ADV	_	4	advmod	_	_
+4	gigantisch	gigantisch	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
+5	viel	viel	PRON	NN	Case=Nom|Gender=Fem|Number=Sing	6	det	_	_
+6	Feuerkraft	Feuerkraft	NOUN	VVFIN	VerbForm=Part	0	root	_	_
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 108
+# text = Damit können wir ganz anders an einige dringende Herausforderungen herangehen , wie frisches Wasser , saubere Luft , Nahrung für 10 Milliarden Münder .
+1	Damit	damit	ADV	PAV	_	10	advmod	_	Entity=(e121)
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+3	wir	wir	PRON	ADJD	_	10	nsubj	_	Entity=(e109)
+4	ganz	ganz	ADV	ADV	_	5	advmod	_	_
+5	anders	anders	ADV	ADV	_	10	advmod	_	_
+6	an	an	ADP	APPR	_	9	case	_	_
+7	einige	einige	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+8	dringende	dringend	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	9	amod	_	_
+9	Herausforderungen	Herausforderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obl	_	_
+10	herangehen	herangehen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+11	,	,	PUNCT	$,	_	14	punct	_	_
+12	wie	wie	ADP	NN	Case=Nom|Gender=Neut|Number=Sing	14	case	_	_
+13	frisches	frisches	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	14	amod	_	_
+14	Wasser	Wasser	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	obl	_	_
+15	,	,	PUNCT	$,	_	17	punct	_	_
+16	saubere	sauber	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	17	amod	_	_
+17	Luft	Luft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	conj	_	_
+18	,	,	PUNCT	$,	_	19	punct	_	_
+19	Nahrung	Nahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	conj	_	_
+20	für	für	ADP	APPR	_	23	case	_	_
+21	10	10	NUM	CARD	NumType=Card	22	nummod	_	_
+22	Milliarden	Milliarde	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	23	nmod	_	_
+23	Münder	Münder	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	19	nmod	_	Entity=(e12)
+24	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 109
+# text = Wenn nur institutionelle Anleger die ESG in ihre Investitionen integrieren .
+1	Wenn	wenn	SCONJ	KOUS	_	10	mark	_	_
+2	nur	nur	ADV	CARD	_	4	advmod	_	_
+3	institutionelle	institutionell	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	4	amod	_	_
+4	Anleger	Anleger	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	Entity=(e9)
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	ESG	ESG	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	Entity=(e27)
+7	in	in	ADP	APPR	_	9	case	_	_
+8	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes	9	det:poss	_	Entity=(e9)
+9	Investitionen	Investition	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obl	_	Entity=(e124-entity-9)
+10	integrieren	integrieren	VERB	VVINF	VerbForm=Inf	0	root	_	_
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 110
+# text = Was wäre , wenn sie diese Feuerkraft nutzten und mehr von ihrem Kapital in Unternehmen investierten , die am härtesten an der Lösung dieser Probleme arbeiten , oder sie zumindest nicht verschärfen 
+1	Was	was	PRON	FM	Foreign=Yes	0	root	_	Entity=(e125-entity-1)
+2	wäre	sein	AUX	NN	Foreign=Yes	1	cop	_	_
+3	,	,	PUNCT	$,	_	8	punct	_	_
+4	wenn	wenn	SCONJ	VVFIN	_	8	mark	_	_
+5	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	Entity=(e9)
+6	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	Feuerkraft	Feuerkraft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	Entity=(e124)
+8	nutzten	nutzen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	advcl	_	_
+9	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	16	cc	_	_
+10	mehr	mehr	ADV	ADV	_	16	advmod	_	_
+11	von	von	ADP	FM	Foreign=Yes	13	case	_	_
+12	ihrem	ihr	DET	PPOSAT	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes	13	det:poss	_	Entity=(e9)
+13	Kapital	Kapital	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	nmod	_	Entity=(e126-entity-13)
+14	in	in	ADP	APPR	_	15	case	_	_
+15	Unternehmen	Unternehmen	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	_
+16	investierten	investiert	ADJ	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	conj	_	_
+17	,	,	PUNCT	$,	_	27	punct	_	_
+18	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	27	nsubj	_	_
+19-20	am	_	_	_	_	_	_	_
+19	an	an	ADP	APPR	_	24	case	_	_
+20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+21	härtesten	hart	ADJ	NN	Case=Dat|Gender=Masc|Number=Sing	24	amod	_	_
+22	an	an	ADP	APPR	_	24	case	_	_
+23	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Lösung	Lösung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	27	obl	_	Entity=(e127-entity-24)
+25	dieser	dies	PRON	PDAT	Case=Gen|Gender=Neut|Number=Plur|PronType=Dem	26	det	_	_
+26	Probleme	Problem	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	24	nmod	_	Entity=(e128-entity-26)
+27	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	1	acl	_	_
+28	,	,	PUNCT	$,	_	33	punct	_	_
+29	oder	oder	CCONJ	XY	_	33	cc	_	_
+30	sie	sie	PRON	VVINF	VerbForm=Inf	33	nsubj	_	Entity=(e128)
+31	zumindest	zumindest	ADV	ADV	_	33	advmod	_	_
+32	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	advmod	_	_
+33	verschärfen	verschärfen	VERB	VVINF	VerbForm=Inf	27	conj	_	_
+34	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 111
+# text = Was haben wir davon , wenn wir arbeiten , sparen und investieren , nur um im Ruhestand eine Welt vorzufinden , die angespannter und unsicherer ist als jetzt 
+1	Was	was	PRON	FM	Foreign=Yes	2	obj	_	Entity=(e129-entity-1)
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	wir	wir	PRON	ADJD	_	2	nsubj	_	Entity=(e109)
+4	davon	davon	ADV	PAV	_	2	advmod	_	_
+5	,	,	PUNCT	$,	_	8	punct	_	_
+6	wenn	wenn	SCONJ	VVFIN	_	8	mark	_	_
+7	wir	wir	PRON	ADJD	_	8	nsubj	_	Entity=(e109)
+8	arbeiten	arbeit	ADJ	VVINF	VerbForm=Inf	2	advcl	_	_
+9	,	,	PUNCT	$,	_	10	punct	_	_
+10	sparen	spar	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	8	conj	_	_
+11	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	12	cc	_	_
+12	investieren	investi	ADJ	VVINF	VerbForm=Inf	8	conj	_	_
+13	,	,	PUNCT	$,	_	8	punct	_	_
+14	nur	nur	ADV	CARD	NumType=Card	21	advmod	_	_
+15	um	um	ADP	APPR	_	21	mark	_	_
+16-17	im	_	_	_	_	_	_	_
+16	in	in	ADP	APPR	_	18	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Ruhestand	Ruhestand	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	21	nmod	_	Entity=(e130-entity-18)
+19	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Welt	Welt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	nsubj	_	_
+21	vorzufinden	vorzufind	ADJ	VVINF	VerbForm=Inf	8	advcl	_	_
+22	,	,	PUNCT	$,	_	24	punct	_	_
+23	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	angespannter	angespannt	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	21	conj	_	_
+25	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	26	cc	_	_
+26	unsicherer	unsicher	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Plur	21	conj	_	_
+27	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	21	cop	_	_
+28	als	als	ADP	KOKOM	_	29	case	_	_
+29	jetzt	jetzt	ADV	ADV	_	8	nmod	_	_
+30	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 112
+# text = Wenn saubere Luft und frisches Wasser fehlen 
+1	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	_
+2	saubere	sauber	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	3	amod	_	_
+3	Luft	Luft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nsubj	_	_
+4	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	6	cc	_	_
+5	frisches	frisch	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	6	amod	_	_
+6	Wasser	Wasser	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	conj	_	_
+7	fehlen	fehlen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	?	?	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 113
+# text = Eine berechtigte Frage könnte sein : Und wenn das ganze Nachhaltigkeits-Risiko-Gerede übertrieben und nicht dringlich ist 
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	berechtigte	berechtigt	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+3	Frage	Frage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+4	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	sein	sein	AUX	VAINF	VerbForm=Inf	19	cop	_	_
+6	:	:	PUNCT	$.	_	19	punct	_	_
+7	Und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	19	cc	_	_
+8	wenn	wenn	SCONJ	VVFIN	_	16	mark	_	_
+9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+10	ganze	ganz	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	13	amod	_	_
+11	Nachhaltigkeits	Nachhaltigkeits	NOUN	TRUNC	_	13	compound	_	SpaceAfter=No
+12	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+13	Risiko	Risiko	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	16	nsubj	_	SpaceAfter=No
+14	-	-	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+15	Gerede	Gerede	PROPN	PIS	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	13	flat	_	Entity=(e131-entity-15)
+16	übertrieben	übertreiben	ADV	ADJD	_	19	advmod	_	_
+17	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	16	cc	_	_
+18	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advmod	_	_
+19	dringlich	dringlich	ADJ	ADJD	_	0	root	_	_
+20	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	19	cop	_	_
+21	?	?	PUNCT	$.	_	19	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 114
+# text = Wenn es nur etwas für tugendhafte Verbraucher oder eine reine Frage des Lebensstils ist 
+1	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	Entity=(e131)
+3	nur	nur	ADV	CARD	NumType=Card	7	advmod	_	_
+4	etwas	etwas	ADV	ADV	_	7	advmod	_	_
+5	für	für	ADP	APPR	_	7	case	_	_
+6	tugendhafte	tugendhaft	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	7	amod	_	_
+7	Verbraucher	Verbraucher	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	0	root	_	_
+8	oder	oder	CCONJ	XY	_	11	cc	_	_
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	reine	rein	ADJ	ADJD	_	11	amod	_	_
+11	Frage	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	_
+12	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Lebensstils	Lebensstil	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	Entity=(e132-entity-13)
+14	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	7	cop	_	_
+15	?	?	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 115
+# text = Präsident John F. Kennedy sagte dazu das einzig Richtige : " Aktionsprogramme bergen Risiken und Kosten , aber sie sind weit geringer als die langfristigen Risiken und Kosten der bequemen Untätigkeit . "
+1	Präsident	Präsident	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	John	John	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	Entity=(e133-entity-2)
+3	F.	F.	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
+4	Kennedy	Kennedy	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
+5	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	dazu	dazu	ADV	PAV	_	5	advmod	_	Entity=(e131)
+7	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+8	einzig	einzig	ADJ	ADV	_	9	amod	_	_
+9	Richtige	richtige	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	Entity=(e134-entity-9)
+10	:	:	PUNCT	$.	_	13	punct	_	_
+11	"	"	PUNCT	$(	_	13	punct	_	_
+12	Aktionsprogramme	Aktionsprogramm	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	13	nsubj	_	Entity=(e135-entity-12)
+13	bergen	bergen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+14	Risiken	Risiko	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	13	obj	_	_
+15	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	16	cc	_	_
+16	Kosten	Kosten	NOUN	NN	Case=Acc|Number=Plur	14	conj	_	_
+17	,	,	PUNCT	$,	_	22	punct	_	_
+18	aber	aber	CCONJ	KON	_	22	cc	_	_
+19	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	22	nsubj	_	Entity=(e135)
+20	sind	sein	AUX	ADJD	_	22	cop	_	_
+21	weit	weit	ADJ	NN	Case=Nom|Gender=Fem|Number=Plur	22	advmod	_	_
+22	geringer	gering	ADJ	ADJD	_	13	conj	_	_
+23	als	als	ADP	KOKOM	_	26	case	_	_
+24	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+25	langfristigen	langfristig	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	26	amod	_	_
+26	Risiken	Risiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	22	nmod	_	Entity=(e136-entity-26)
+27	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	28	cc	_	_
+28	Kosten	Kosten	NOUN	NN	Case=Acc|Number=Plur	26	conj	_	_
+29	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+30	bequemen	bequem	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	31	amod	_	_
+31	Untätigkeit	Untätigkeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	Entity=(e137-entity-31)
+32	.	.	PUNCT	$.	_	13	punct	_	_
+33	"	"	PUNCT	$(	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 116
+# text = Sicher gibt es ein Schätzrisiko , aber da dies alles auf breitem wissenschaftlichen Konsens beruht , ist die Chance , dass es nicht völlig falsch ist , höher als die Wahrscheinlichkeit , dass unser Haus abbrennt oder wir einem Autounfall haben .
+1	Sicher	sicher	ADV	ADV	_	2	advmod	_	_
+2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Schätzrisiko	Schätzrisiko	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+6	,	,	PUNCT	$,	_	15	punct	_	_
+7	aber	aber	CCONJ	KON	_	15	cc	_	_
+8	da	da	SCONJ	KOUS	_	15	mark	_	_
+9	dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	nsubj	_	Entity=(e138-entity-9)
+10	alles	alle	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	15	nsubj	_	_
+11	auf	auf	ADP	APPR	_	14	case	_	_
+12	breitem	breit	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	14	amod	_	_
+13	wissenschaftlichen	wissenschaftlich	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing	14	amod	_	_
+14	Konsens	Konsen	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_
+15	beruht	beruhen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+16	,	,	PUNCT	$,	_	2	punct	_	_
+17	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+18	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Chance	Chance	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nsubj	_	Entity=(e139-entity-19)
+20	,	,	PUNCT	$,	_	25	punct	_	_
+21	dass	dass	SCONJ	KOUS	_	25	mark	_	_
+22	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	Entity=(e138)
+23	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advmod	_	_
+24	völlig	völlig	ADJ	ADJD	_	25	advmod	_	_
+25	falsch	falsch	ADJ	ADJD	_	28	ccomp	_	_
+26	ist	sein	AUX	ADJD	_	25	cop	_	_
+27	,	,	PUNCT	$,	_	28	punct	_	_
+28	höher	hoch	ADJ	ADJD	_	19	acl	_	_
+29	als	als	ADP	KOKOM	_	31	case	_	_
+30	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	Wahrscheinlichkeit	Wahrscheinlichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	28	nmod	_	Entity=(e140-entity-31)
+32	,	,	PUNCT	$,	_	36	punct	_	_
+33	dass	dass	SCONJ	KOUS	_	36	mark	_	_
+34	unser	unser	PRON	NN	Case=Nom|Gender=Fem|Number=Sing	35	det:poss	_	Entity=(e109)
+35	Haus	Haus	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	36	obj	_	Entity=(e141-entity-35)
+36	abbrennt	abbrennen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	ccomp	_	Entity=(e142-entity-36)
+37	oder	oder	CCONJ	XY	_	41	cc	_	_
+38	wir	wir	PRON	ADJD	_	41	nsubj	_	Entity=(e109)
+39	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	Autounfall	Autounfall	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	41	obj	_	_
+41	haben	haben	VERB	VAINF	VerbForm=Inf	36	conj	_	Entity=(e143-entity-41)
+42	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 117
+# text = Nun , vielleicht nicht , wenn Sie in Boston leben .
+1	Nun	nun	ADV	ADV	_	0	root	_	_
+2	,	,	PUNCT	$,	_	4	punct	_	_
+3	vielleicht	vielleicht	ADV	FM	Foreign=Yes	4	advmod	_	_
+4	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advmod	_	_
+5	,	,	PUNCT	$,	_	10	punct	_	_
+6	wenn	wenn	SCONJ	VVFIN	_	10	mark	_	_
+7	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+8	in	in	ADP	APPR	_	9	case	_	_
+9	Boston	Boston	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	Entity=(e144-entity-9)
+10	leben	leben	VERB	VVINF	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+11	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 118
+# text = ( Gelächter ) Es ist doch so : Wir schließen Versicherungen ab , um für diese Fälle finanziell gerüstet zu sein , oder 
+1	(	(	PUNCT	$(	_	2	punct	_	_
+2	Gelächter	Gelächter	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	compound	_	_
+3	)	)	PUNCT	$(	_	2	punct	_	_
+4	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	doch	doch	ADV	ADV	_	7	advmod	_	_
+7	so	so	ADV	NN	Case=Nom|Gender=Fem|Number=Sing	8	advmod	_	_
+8	:	:	PUNCT	$.	_	9	punct	_	_
+9	Wir	wir	PRON	NN	Case=Acc|Gender=Neut|Number=Sing	10	nsubj	_	Entity=(e109)
+10	schließen	schließen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	Versicherungen	Versicherung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+12	ab	ab	ADP	PTKVZ	_	10	compound:prt	_	_
+13	,	,	PUNCT	$,	_	19	punct	_	_
+14	um	um	ADP	KOUI	_	19	mark	_	_
+15	für	für	ADP	APPR	_	17	case	_	_
+16	diese	dies	PRON	PDAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	17	det	_	_
+17	Fälle	Fall	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	obl	_	Entity=(e145-entity-17)
+18	finanziell	finanziell	ADJ	ADJD	_	19	advmod	_	_
+19	gerüstet	rüsten	VERB	VVPP	VerbForm=Part	10	advcl	_	_
+20	zu	zu	PART	NN	Case=Nom|Number=Plur	19	mark	_	_
+21	sein	sein	AUX	VAINF	VerbForm=Inf	19	aux	_	_
+22	,	,	PUNCT	$,	_	23	punct	_	_
+23	oder	oder	CCONJ	XY	_	24	cc	_	_
+24	?	?	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 119
+# text = Durch nachhaltiges Investieren tun wir zwei Dinge .
+1	Durch	durch	ADP	APPR	_	3	case	_	_
+2	nachhaltiges	nachhaltig	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	3	amod	_	_
+3	Investieren	investier	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	Entity=(e109)
+4	tun	tun	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	wir	wir	PRON	ADJD	_	4	nsubj	_	_
+6	zwei	zwei	NUM	NN	Case=Nom|Gender=Neut|Number=Sing	7	nummod	_	_
+7	Dinge	Ding	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	4	obj	_	Entity=(e109)
+8	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 120
+# text = Wir schaffen eine Versicherung , verringern die Gefahr für unseren Planeten und für unsere Wirtschaft , und gleichzeitig müssen wir kurzfristig nicht auf Leistung verzichten .
+1	Wir	wir	PRON	ADJD	_	2	nsubj	_	_
+2	schaffen	schaffen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Versicherung	Versicherung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	Entity=(e146-entity-4)
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	verringern	verringern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	Entity=(e12)
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	Entity=(e13)
+8	Gefahr	Gefahr	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	obj	_	_
+9	für	für	ADP	APPR	_	11	case	_	_
+10	unseren	unser	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	11	det:poss	_	Entity=(e12)
+11	Planeten	Planet	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	nmod	_	Entity=(e147-entity-11)
+12	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	15	cc	_	_
+13	für	für	ADP	APPR	_	15	case	_	_
+14	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	15	det:poss	_	_
+15	Wirtschaft	Wirtschaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	conj	_	_
+16	,	,	PUNCT	$,	_	25	punct	_	Entity=(e109)
+17	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	25	cc	_	_
+18	gleichzeitig	gleichzeitig	ADJ	ADJD	_	25	advmod	_	_
+19	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+20	wir	wir	PRON	ADJD	_	25	nsubj	_	_
+21	kurzfristig	kurzfristig	ADV	ADJD	_	25	advmod	_	_
+22	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	advmod	_	_
+23	auf	auf	ADP	APPR	_	24	case	_	_
+24	Leistung	Leistung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obl	_	Entity=(e148-entity-24)
+25	verzichten	verzichten	VERB	VVINF	VerbForm=Inf	2	conj	_	_
+26	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 121
+# text = [ Comic : " Was , wenn das alles bloß Schwindel ist und wir schaffen ohne Grund eine bessere Welt ? " ]
+1	[	[	PUNCT	$(	_	2	punct	_	_
+2	Comic	Comic	PROPN	NE	Case=Nom|Number=Sing	15	nsubj	_	_
+3	:	:	PUNCT	$.	_	15	punct	_	_
+4	"	"	PUNCT	$(	_	15	punct	_	_
+5	Was	was	PRON	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+6	,	,	PUNCT	$,	_	11	punct	_	_
+7	wenn	wenn	SCONJ	VVFIN	_	11	mark	_	_
+8	das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj	_	Entity=(e138)
+9	alles	alle	PRON	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	11	det	_	_
+10	bloß	bloßen	ADJ	ADV	_	11	amod	_	_
+11	Schwindel	Schwindel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	15	advcl	_	_
+12	ist	sein	AUX	NE	Case=Nom|Gender=Masc|Number=Sing	11	cop	_	_
+13	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	15	cc	_	_
+14	wir	wir	PRON	ADJD	_	15	nsubj	_	Entity=(e12)
+15	schaffen	schaffen	VERB	ADJD	_	0	root	_	_
+16	ohne	ohne	ADP	NN	Case=Acc|Gender=Masc|Number=Sing	17	case	_	_
+17	Grund	Grund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
+18	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	bessere	gut	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	20	amod	_	_
+20	Welt	Welt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+21	?	?	PUNCT	$.	_	20	punct	_	_
+22	"	"	PUNCT	$(	_	15	punct	_	_
+23	]	]	PUNCT	$(	_	15	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 122
+# text = Gut , er gefällt Ihnen .
+1	Gut	gut	NOUN	ADJD	_	4	dep	_	_
+2	,	,	PUNCT	$,	_	4	punct	_	_
+3	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Entity=(e148)
+4	gefällt	gefallen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	4	iobj	_	Entity=(e7)
+6	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 123
+# text = Ich mag ihn auch .
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Entity=(e2)
+2	mag	mögen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	Entity=(e148)
+4	auch	auch	ADV	ADV	_	2	advmod	_	_
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 124
+# text = ( Gelächter ) Ich mag ihn , weil er sich über beide Lager des Klimawandels lustig macht .
+1	(	(	PUNCT	$(	_	2	punct	_	_
+2	Gelächter	Gelächter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	compound	_	_
+3	)	)	PUNCT	$(	_	2	punct	_	_
+4	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Entity=(e2)
+5	mag	mögen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	Entity=(e148)
+7	,	,	PUNCT	$,	_	17	punct	_	_
+8	weil	weil	SCONJ	KOUS	_	17	mark	_	_
+9	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	Entity=(e148)
+10	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	17	obj	_	_
+11	über	über	ADP	FM	Foreign=Yes	13	case	_	_
+12	beide	beide	PRON	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	13	det	_	_
+13	Lager	Lager	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	17	obl	_	Entity=(e149-entity-13)
+14	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Klimawandels	Klimawandel	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	Entity=(e18)
+16	lustig	lustig	ADJ	ADJD	_	17	xcomp	_	_
+17	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+18	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 125
+# text = Ich wette , Sie erraten nicht , auf welcher Seite ich stehe .
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Entity=(e2)
+2	wette	wett	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	0	root	_	_
+3	,	,	PUNCT	$,	_	5	punct	_	_
+4	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	Entity=(e7)
+5	erraten	erraten	VERB	VVINF	VerbForm=Inf	2	conj	_	_
+6	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advmod	_	_
+7	,	,	PUNCT	$,	_	12	punct	_	_
+8	auf	auf	ADP	APPR	_	9	case	_	_
+9	welcher	welch	PRON	PRELS	Case=Dat|Gender=Fem|Number=Sing|PronType=Rel	12	obl	_	_
+10	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obj	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	Entity=(e2)
+12	stehe	stehen	VERB	VVFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+13	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+# newpar	1	--	_	_	_	_	_	_
+# sent_id = 126
+# text = Ich mag es besonders , weil er mich an Mark Twain erinnert , der sagte : " Plane für die Zukunft , denn dort wirst du den Rest deines Lebens verbringen . "
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Entity=(e2)
+2	mag	mögen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	Entity=(e148)
+4	besonders	besonders	ADV	ADV	_	2	advmod	_	_
+5	,	,	PUNCT	$,	_	12	punct	_	_
+6	weil	weil	SCONJ	KOUS	_	12	mark	_	_
+7	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	Entity=(e148)
+8	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	obj	_	Entity=(e2)
+9	an	an	ADP	APPR	_	10	case	_	_
+10	Mark	Mark	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	Entity=(e150-entity-10)
+11	Twain	Twain	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	10	flat	_	_
+12	erinnert	erinnern	VERB	VVPP	VerbForm=Part	2	advcl	_	_
+13	,	,	PUNCT	$,	_	15	punct	_	_
+14	der	der	PRON	PRELS	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	15	nsubj	_	_
+15	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl	_	_
+16	:	:	PUNCT	$.	_	18	punct	_	_
+17	"	"	PUNCT	$(	_	18	punct	_	_
+18	Plane	plan	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	parataxis	_	_
+19	für	für	ADP	APPR	_	21	case	_	_
+20	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Zukunft	Zukunft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	nmod	_	Entity=(e44)
+22	,	,	PUNCT	$,	_	31	punct	_	_
+23	denn	denn	CCONJ	KON	_	31	cc	_	_
+24	dort	dort	ADV	ADV	_	31	advmod	_	Entity=(e44)
+25	wirst	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	31	aux	_	_
+26	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|PronType=Prs	31	nsubj	_	_
+27	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Rest	Rest	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	31	obj	_	Entity=(e130)
+29	deines	dein	DET	PPOSAT	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes	30	amod	_	_
+30	Lebens	Leben	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	Entity=(e151-entity-30)
+31	verbringen	verbringen	VERB	VVFIN	VerbForm=Inf	18	conj	_	_
+32	.	.	PUNCT	$.	_	18	punct	_	_
+33	"	"	PUNCT	$(	_	18	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 127
+# text = Vielen Dank .
+1	Vielen	viel	DET	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	amod	_	_
+2	Dank	Dank	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+
+
+
