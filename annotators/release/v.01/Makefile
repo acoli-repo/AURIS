@@ -5,7 +5,7 @@ all:
 	 | tee make.log 1>&2
 
 refresh:
-	@for dir in */disc/ */corefud; do \
+	@for dir in */disc/ */corefud */paula; do \
 		if [ -e $$dir ]; then rm -rf $$dir; fi;\
 	done;\
 	make all
