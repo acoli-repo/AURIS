@@ -1,0 +1,128 @@
+# ID	TEXT	MARKER	TARGET	RELATION
+1	Die Welt ist im Wandel .	_	_	_
+2	Sie verändert sich wirklich tiefgreifend .	_	1	specific
+3	Und ich befürchte , dass Investoren einigen der größten Veränderungen nicht genügend Aufmerksamkeit schenken .	_	2	Conjunction
+4	Insbesondere wenn es um Nachhaltigkeit geht .	_	3	specific
+5	Mit Nachhaltigkeit meine ich die wirklich heißen Themen wie ökologische und soziale Fragen und grundlegende Unternehmensführung .	_	4	specific
+6	Es ist leichtsinnig , diese Dinge zu ignorieren , denn das kann künftige langfristige Renditen gefährden .	_	_	_
+7	Vielleicht sind Sie jetzt überrascht : Die ausgleichende Macht , die wirklich Einfluss auf Nachhaltigkeit hat , liegt bei institutionellen Investoren , den großen Investoren wie Pensionsfonds und Stiftungen .	_	_	_
+8	Ich glaube , dass nachhaltiges Investieren weniger kompliziert ist , als Sie denken , besser abschneidet , als Sie glauben , und wichtiger ist , als wir uns vorstellen können .	_	7	specific
+9	Halten wir uns einige bekannte Tatsachen vor Augen : Die Bevölkerung wächst und altert ; es gibt 7 Milliarden Menschen auf der Erde , und am Ende des Jahrhunderts werden es 10 Milliarden sein .	_	_	_
+10	Wir verbrauchen die natürlichen Ressourcen schneller , als sie sich regenerieren können .	_	_	_
+11	Und die Emissionen , die für den Klimawandel hauptverantwortlich sind , nehmen weiter zu .	_	10	Conjunction
+12	Das sind ganz klar Umweltthemen und soziale Themen , aber das ist noch nicht alles .	_	_	_
+13	Es sind auch Wirtschaftsthemen .	_	12	Conjunction
+14	Und deshalb sind sie für die Risiko- und Renditebewertung sehr wichtig .	_	13	result
+15	Sie sind sehr komplex und scheinen schwer verständlich , sodass die Versuchung groß sein kann , genau das hier zu tun : den Kopf in den Sand zu stecken und nicht darüber nachzudenken .	_	14	Conjunction
+16	Tun Sie das möglichst nicht .	_	15	Contrast
+17	Bitte zu Hause nicht nachmachen .	_	16	specific
+18	( Gelächter ) Aber ich frage mich wirklich , ob die Anlagestrategien von heute für die Zwecke von morgen geeignet sind .	_	_	_
+19	Wir wissen , wenn Investoren sich ein Unternehmen anschauen und entscheiden , ob sie investieren , schauen sie sich Finanzdaten an .	_	18	instance
+20	Metriken wie Umsatzwachstum , Cashflow , Marktanteil , Bewertung -- Sie wissen schon , die wirklich attraktiven Sachen .	_	_	_
+21	Diese Dinge sind natürlich wichtig , aber sie sind nicht genug .	_	_	_
+22	Anleger sollten auch auf Leistungsmetriken wie ESG achten : Umwelt , Soziales und Unternehmensführung .	_	21	causal|reason
+23	" Umwelt " umfasst Energieverbrauch , Wassernutzung , Abfall und Umweltverschmutzung , kurz : die effiziente Nutzung von Ressourcen .	_	_	_
+24	" Soziales " beinhaltet Humankapital , Dinge wie Mitarbeiter-Engagement und Innovationsfähigkeit sowie Supply-Chain-Management und Arbeits- und Menschenrechte .	_	23	Conjunction
+25	" Unternehmensführung " bedeutet die Aufsicht über das Unternehmen durch den Vorstand und Investoren .	_	24	Conjunction
+26	Ich habe zuvor gesagt , es geht um die wirklich heißen Dinge .	_	25	causal|result
+27	Aber ESG ist das Maß für Nachhaltigkeit , und nachhaltiges Investieren berücksichtigt ESG-Faktoren und finanzielle Faktoren beim Anlageprozess .	_	26	contra-expectation
+28	Damit können künftige Risiken durch Minimierung von Schäden an Personen und am Planeten begrenzt und Kapital für die Nutzer bereitgestellt werden , die es für produktive und nachhaltige Ergebnisse einsetzen .	_	_	_
+29	Wenn also Nachhaltigkeit heute ein Finanzthema ist , und es höchstwahrscheinlich immer relevanter wird , achtet der Privatsektor darauf ?	_	28	causal|result
+30	Wirklich cool ist , dass die meisten CEOs darauf achten .	_	29	Hypophora
+31	Sie begannen , Nachhaltigkeit nicht nur als wichtig , sondern als entscheidend für den Geschäftserfolg zu sehen .	_	30	specific
+32	Ungefähr 80 % der CEOs weltweit sehen in Nachhaltigkeit die Wurzel für Innovations-Wachstum , was zu einem Wettbewerbsvorteil in ihren Branchen führt .	_	31	specific
+33	Aber 93 % sehen ESG als die Zukunft oder als wichtig für die Zukunft ihres Unternehmens .	_	32	Contrast
+34	Also die CEOs sehen das ganz klar .	_	33	causal|result
+35	Nachhaltigkeit bietet enorme Möglichkeiten .	_	34	Contrast
+36	Wie nutzen Unternehmen ESG , um harte Geschäftsergebnisse zu erzielen ?	_	35	causal|result
+37	Ein Beispiel geht uns besonders zu Herzen .	_	36	Hypophora
+38	Im Jahr 2012 hat State Street 54 Anwendungsprogramme in die Cloud-Umgebung migriert und weitere 85 Programme eingestellt .	_	36	instance
+39	Wir virtualisierten die Arbeitsumgebungen und stellten zahlreiche Automatisierungsprojekte fertig .	_	38	specific
+40	Diese Initiativen schaffen einen mobileren Arbeitsplatz und reduzieren unseren Immobilien-Bedarf .	_	39	result
+41	Dadurch werden jährlich 23 Mio.	_	_	_
+42	Dollar an Betriebskosten gespart und die Emission von 100 000 Tonnen Kohlenstoff vermieden .	_	40	achievement
+43	Das sind 21 000 Autos weniger auf den Straßen .	_	42	Restatement
+44	Genial , oder ?	_	43	causal|result
+45	Ein weiteres Beispiel ist Pentair .	_	_	_
+46	Pentair ist ein US-Mischkonzern .	_	_	_
+47	Vor etwa einem Jahrzehnt verkauften sie ihr Kerngeschäft , Heimwerker-Geräte , und investierten die Einnahmen ins Wassergeschäft .	_	_	_
+48	Das ist ein wirklich großer Einsatz .	_	47	causal|result
+49	Warum haben sie das getan ?	_	_	_
+50	Die Heimwerker-Fans mögen entschuldigen , aber es gibt mehr Wachstum bei Wasser als bei Elektrowerkzeugen , und dieses Unternehmen hat die , wie sie es nennen , " neue Neue Welt " im Visier : Vier Milliarden Menschen aus der Mittelschicht , die Nahrung , Strom und Wasser brauchen .	_	49	reason
+51	Jetzt fragen Sie sich vielleicht , sind das denn nicht nur Einzelfälle ?	_	_	_
+52	Ich meine , mal ehrlich , stehen Unternehmen , die Nachhaltigkeit berücksichtigen , finanziell tatsächlich gut da ?	_	51	specific
+53	Die überraschende Antwort ist ja .	_	52	Hypophora
+54	Die Daten zeigen , dass Aktien mit besserer ESG-Leistung genauso gut abschneiden wie andere .	_	53	specific
+55	In Blau sehen wir den MSCI World Index , ein Index für Großunternehmen aus entwickelten Märkten auf der ganzen Welt .	_	_	_
+56	Und in Gold sehen wir die Teilmenge von Unternehmen mit der besten ESG-Leistung .	_	55	Conjunction
+57	Seit über drei Jahren kein Leistungskompromiss .	_	56	specific
+58	Das ist doch okay , oder ?	_	57	causal|result
+59	Aber wir wollen mehr .	_	58	Contrast
+60	Ich will mehr .	_	59	specific
+61	In einigen Fällen ist ESG ein Indikator für überdurchschnittliche Wertentwicklung .	_	_	_
+62	In Blau sehen wir die Leistung der 500 größten globalen Unternehmen und in Gold sehen wir eine Teilmenge von Unternehmen mit guter Klimaschutzstrategie und Risikomanagement .	_	61	instance
+63	Seit fast acht Jahren übertreffen sie die Wertentwicklung um rund zwei Drittel .	_	62	specific
+64	Zugegeben , das ist eine Korrelation , kein Kausalzusammenhang .	_	63	condition
+65	Aber es macht deutlich , dass umweltorientierte Führung mit guten Renditen kompatibel ist .	_	64	Contrast
+66	Wenn die Erträge gleich oder besser sind , und es gut für den Planeten ist , sollte es nicht Standard sein ?	_	_	_
+67	Engagieren sich Investoren , insbesondere institutionelle Investoren ?	_	66	specific
+68	Nun , einige tun es , und ein paar sind wirkliche Vorreiter .	_	67	Hypophora
+69	Hesta .	_	_	_
+70	Hesta ist ein Pensionsfonds für Mitarbeiter im Gesundheitswesen und im öffentlichen Dienst in Australien , mit einem Vermögen von 22 Mrd.	_	68	instance
+71	[ Dollar ] .	_	_	_
+72	Sie glauben , dass ESG das Potenzial hat , Risiken und Erträge zu beeinflussen .	_	70	Conjunction
+73	Deshalb sehen sie es als ihre Pflicht an , das beim Investment mit einzubeziehen .	_	72	result
+74	Im besten Interesse der Fondsmitglieder handeln , das ist ihre Kernaufgabe .	_	73	specific
+75	Man muss sie einfach lieben , die Australier , oder ?	_	74	causal|result
+76	CalPERS ist ein weiteres Beispiel .	_	_	_
+77	CalPERS ist der Pensionsfonds für Angestellte im öffentlichen Dienst in Kalifornien .	_	_	_
+78	Mit einem Vermögen von 244 Mrd.	_	_	_
+79	[ Dollar ] ist er der zweitgrößte in den USA und der sechstgrößte in der Welt .	_	77	Conjunction
+80	Ihre Investitionen in Nachhaltigkeit liegen bei fast 100 % .	_	79	specific
+81	Sie integrieren die ESG systematisch in den gesamten Fonds .	_	80	achievement
+82	Warum ?	_	_	_
+83	Sie glauben , es ist wichtig für größere langfristige Renditen , Punkt .	_	81	reason
+84	Sie sagen : " Langfristige Wertschöpfung erfordert die effiziente Verwaltung dreier Formen des Kapitals : Finanzielles , personelles und physisches Kapital .	_	83	specific
+85	Deshalb ist uns ESG wichtig . "	_	84	result
+86	Bestandteil meiner Arbeit ist , mit vielen Investoren zu sprechen .	_	_	_
+87	Nicht alle sehen das genauso .	_	86	contra-expectation
+88	Oft höre ich : " Wir sind verpflichtet , Gewinne zu maximieren , deshalb machen wir das hier nicht . "	_	87	specific
+89	Oder : " Wir wollen mit dem Portfolio keine Grundsatzerklärungen abgeben . "	_	88	Disjunction
+90	Die folgende Aussage geht mir wirklich unter die Haut : " Wenn	_	_	_
+91	Sie das verändern wollen , verdienen Sie Geld und spenden Sie die Gewinne an Wohltätigkeitsorganisationen . "	_	88	contra-expectation
+92	Da verdrehe ich die Augen .	_	91	causal|result
+93	Lassen Sie mich eins ein für alle Mal klarstellen : Unternehmen und Investoren sind nicht alleine für das Schicksal des Planeten verantwortlich .	_	_	_
+94	Sie haben nicht unbegrenzte soziale Verpflichtungen , und umsichtige Investitions- und Finanzierungstheorien sind nicht der Nachhaltigkeit untergeordnet .	_	93	reason
+95	Aber sie sind kompatibel .	_	94	Contrast
+96	Ich spreche hier also nicht über Kompromisse .	_	95	causal|result
+97	Aber institutionelle Investoren sind der Schlüsselfaktor für Nachhaltigkeit .	_	96	contra-expectation
+98	Warum sind sie der Schlüssel ?	_	97	causal|result
+99	Die Antwort ist ganz einfach : Sie haben das Geld .	_	_	_
+100	( Gelächter ) Eine ganze Menge Geld .	_	98	reason
+101	Ich meine , wirklich viel Geld .	_	99	favoured
+102	Der globale Aktienmarkt umfasst 55 Billionen Dollar .	_	101	instance
+103	Der globale Rentenmarkt 78 Billionen Dollar .	_	102	Conjunction
+104	Das sind zusammen 133 Billionen .	_	102	broad
+105	Das ist achteinhalb Mal das BIP der USA .	_	104	Similarity
+106	Das ist die größte Volkswirtschaft der Welt .	_	105	Restatement
+107	Das ist schon gigantisch viel Feuerkraft .	_	106	Restatement
+108	Damit können wir ganz anders an einige dringende Herausforderungen herangehen , wie frisches Wasser , saubere Luft , Nahrung für 10 Milliarden Münder .	_	_	_
+109	Wenn nur institutionelle Anleger die ESG in ihre Investitionen integrieren .	_	108	condition
+110	Was wäre , wenn sie diese Feuerkraft nutzten und mehr von ihrem Kapital in Unternehmen investierten , die am härtesten an der Lösung dieser Probleme arbeiten , oder sie zumindest nicht verschärfen ?	_	108	contra-expectation
+111	Was haben wir davon , wenn wir arbeiten , sparen und investieren , nur um im Ruhestand eine Welt vorzufinden , die angespannter und unsicherer ist als jetzt ?	_	110	Conjunction
+112	Wenn saubere Luft und frisches Wasser fehlen ?	_	111	Conjunction
+113	Eine berechtigte Frage könnte sein : Und wenn das ganze Nachhaltigkeits-Risiko-Gerede übertrieben und nicht dringlich ist ?	_	110	Contrast
+114	Wenn es nur etwas für tugendhafte Verbraucher oder eine reine Frage des Lebensstils ist ?	_	113	Conjunction
+115	Präsident John F. Kennedy sagte dazu das einzig Richtige : " Aktionsprogramme bergen Risiken und Kosten , aber sie sind weit geringer als die langfristigen Risiken und Kosten der bequemen Untätigkeit . "	_	_	_
+116	Sicher gibt es ein Schätzrisiko , aber da dies alles auf breitem wissenschaftlichen Konsens beruht , ist die Chance , dass es nicht völlig falsch ist , höher als die Wahrscheinlichkeit , dass unser Haus abbrennt oder wir einem Autounfall haben .	_	_	_
+117	Nun , vielleicht nicht , wenn Sie in Boston leben .	_	116	exception
+118	( Gelächter ) Es ist doch so : Wir schließen Versicherungen ab , um für diese Fälle finanziell gerüstet zu sein , oder ?	_	_	_
+119	Durch nachhaltiges Investieren tun wir zwei Dinge .	_	_	_
+120	Wir schaffen eine Versicherung , verringern die Gefahr für unseren Planeten und für unsere Wirtschaft , und gleichzeitig müssen wir kurzfristig nicht auf Leistung verzichten .	_	119	specific
+121	[ Comic : " Was , wenn das alles bloß Schwindel ist und wir schaffen ohne Grund eine bessere Welt ? " ]	_	_	_
+122	Gut , er gefällt Ihnen .	_	_	_
+123	Ich mag ihn auch .	_	122	Similarity
+124	( Gelächter ) Ich mag ihn , weil er sich über beide Lager des Klimawandels lustig macht .	_	123	specific
+125	Ich wette , Sie erraten nicht , auf welcher Seite ich stehe .	_	_	_
+126	Ich mag es besonders , weil er mich an Mark Twain erinnert , der sagte : " Plane für die Zukunft , denn dort wirst du den Rest deines Lebens verbringen . "	_	124	specific
+127	Vielen Dank .	_	_	_

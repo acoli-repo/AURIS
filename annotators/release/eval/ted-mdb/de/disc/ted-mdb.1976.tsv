@@ -1,0 +1,89 @@
+# ID	TEXT	MARKER	TARGET	RELATION
+1	Im All wimmelt es von Planeten .	_	_	_
+2	Ich will , dass wir in nur einem Jahrzehnt ein Weltraumteleskop bauen , das das Bild einer Erde im Orbit eines anderen Sterns erfassen und herausfinden kann , ob es dort Leben geben könnte .	_	1	Conjunction
+3	Meine Kollegen im NASA Jet Propulsion Laboratory in Princeton und ich arbeiten an einer Technologie , die in einigen Jahren genau dazu in der Lage sein wird .	_	2	result
+4	Astronomen glauben heute , dass jeder Stern in der Galaxis einen Planeten hat .	_	_	_
+5	Sie schätzen , dass bis zu ein Fünftel davon einen erdähnlichen Planeten hat , auf dem Leben möglich wäre .	_	4	specific
+6	Gesehen aber haben wir noch keinen ; wir haben sie nur indirekt erfasst .	_	5	contra-expectation
+7	Dies ist das berühmte NASA-Foto vom blass-blauen Punkt .	_	_	_
+8	Aufgenommen wurde es 1990 von der Raumsonde Voyager , als man sie beim Verlassen des Sonnensystems drehte , um aus einer Entfernung von 6 Mrd.	_	_	_
+9	km eine Foto von der Erde zu machen .	_	8	goal
+10	So ein Bild möchte ich von einem erdähnlichen Planeten eines anderen Sterns machen .	_	_	_
+11	Warum gibt es das noch nicht ?	_	10	contra-expectation
+12	Warum ist das schwer ?	_	11	Conjunction
+13	Stellen Sie sich vor , wir nähmen das Hubble Weltraumteleskop , drehten es um und setzten es in eine Umlaufbahn um den Mars .	_	_	_
+14	Wir würden vermutlich ein leicht unscharfes Bild der Erde sehen , weil wir ein recht kleines Teleskop in der Umlaufbahn des Mars sind .	_	13	result
+15	Nun gehen wir auf die 10-fache Distanz .	_	14	before
+16	Hier sind wir in der Umlaufbahn des Uranus .	_	15	result
+17	Das Bild ist kleiner , weniger detailliert , gröber .	_	_	_
+18	Man sieht den kleinen Mond noch .	_	17	contra-expectation
+19	Gehen wir wieder 10-mal so weit weg !	_	18	before
+20	Hier sind wir am Rand des Sonnensystems , im Kuipergürtel .	_	19	result
+21	Es gibt gar keine Auflösung mehr .	_	20	specific
+22	Die Erde ist nun Carl Sagans blass-blauer Punkt .	_	21	Similarity
+23	Wir entfernen uns wieder um das 10-Fache .	_	22	Conjunction
+24	Nun sind wir in der Oort ' schen Wolke außerhalb des Sonnensystems , und wir sehen , wie die Sonne langsam in unser Sichtfeld rückt , wo sich der Planet befindet .	_	23	result
+25	Und wieder 10-mal weiter weg .	_	24	Conjunction
+26	Nun sind wir bei Alpha Centauri , unserem nächsten Nachbarstern , und der Planet ist weg .	_	25	result
+27	Alles , was wir sehen , ist das große strahlende Bild des Sterns , der 10-Mrd.-mal heller leuchtet als der Planet , der in dem kleinen roten Kreis sein sollte .	_	26	Conjunction
+28	Das wollen wir sehen .	_	_	_
+29	Deshalb ist es so schwer !	_	27	result
+30	Das Licht vom Stern wird gebeugt , im Inneren des Teleskops gestreut , und erzeugt das sehr helle Bild , das den Planeten verblassen lässt .	_	29	specific
+31	Um den Planeten sichtbar zu machen , müssen wir etwas gegen all das Licht tun .	_	30	result
+32	Wir müssen es loswerden .	_	31	Restatement
+33	Viele meiner Kollegen arbeiten an tollen Technologien zu dem Zweck , aber ich möchte Ihnen heute die vorstellen , die ich am coolsten finde und die uns am ehesten innerhalb des nächsten Jahrzehnts eine Erde liefert .	_	_	_
+34	Vorgestellt wurde die Idee 1962 vom Vater des Weltraumteleskops , Lyman Spitzer .	_	33	specific
+35	Dazu angeregt hatte ihn eine Eklipse .	_	34	reason
+36	Sie kennen das alle : eine Sonnenfinsternis .	_	35	Restatement
+37	Der Mond hat sich vor die Sonne geschoben .	_	36	Restatement
+38	Er deckt den Großteils des Lichts ab und wir sehen um ihn herum eine matte Korona .	_	37	result
+39	Es ist wie wenn ich den Daumen hochhalte und den Strahler abblocke , der mich blendet : Ich kann Sie in der hinteren Reihe sehen .	_	38	Similarity
+40	Also , was passiert hier ?	_	_	_
+41	Nun , der Mond wirft einen Schatten auf die Erde .	_	39	reason
+42	Wir platzieren ein Teleskop oder eine Kamera in diesen Schatten , blicken zurück auf die Sonne , der Großteil des Lichts ist weg , und wir können die matte , feine Struktur in der Korona erkennen .	_	41	before
+43	Spitzer schlug vor , das im Weltraum nachzustellen .	_	_	_
+44	Wir bauen eine große Lichtblende , fliegen sie ins All , platzieren sie vor dem Stern , verdecken den Großteil des Lichts , fliegen ein Weltraumteleskop in den so erzeugten Schatten und " Zack ! " -- wir sehen Planeten .	_	43	specific
+45	Aussehen würde das ungefähr so : Da ist die große Lichtblende -- und es gibt keine Planeten .	_	44	specific
+46	Denn leider funktioniert das so nicht sehr gut , weil die Lichtwellen des Lichts und die Wellen um die Lichtblende gebeugt werden , auf dieselbe Weise wie im Teleskop .	_	45	reason
+47	Es ist wie Wasser , das einen Stein im Bach umfließt , und all das Licht zerstört den Schatten einfach .	_	_	_
+48	Es ist ein schlechter Schatten : Wir sehen keine Planeten .	_	47	causal|result
+49	Aber Spitzer kannte die Lösung .	_	48	contra-expectation
+50	Wenn wir die Kanten aufbrechen , sie weicher machen könnten , um die Beugung zu reduzieren , dann können wir einen Planeten sehen .	_	49	specific
+51	In den letzten , rund zehn Jahren haben wir genau dafür optimale Lösungen gefunden .	_	50	Conjunction
+52	Eine davon sieht ungefähr so aus : Wir nennen sie blütenförmige Sternenblende ( " Starshade " ) .	_	51	instance
+53	Wenn wir die Kanten der Blütenblätter genau richtig hinbekommen , regulieren wir ihre Form so , dass wir die Beugung reduzieren .	_	_	_
+54	Nun ist es ein toller Schatten .	_	53	result
+55	Er ist etwa 10-Mrd.-mal dunkler als zuvor , und wir erkennen die angestrahlten Planeten -- einfach so .	_	54	specific
+56	Sie muss natürlich größer sein als mein Daumen .	_	55	Conjunction
+57	Starshade ist halb so groß wie ein Fußballfeld .	_	56	specific
+58	Sie muss 50 000 Kilometer vom Teleskop wegfliegen , das exakt in ihrem Schatten bleiben muss , und dann können wir diese Planeten sehen .	_	57	Conjunction
+59	Das klingt schwierig , aber brillante Ingenieure , meine Kollegen bei JPL , haben ein fabelhaftes Design entwickelt , und das sieht so aus .	_	58	causal|result
+60	Sie ist anfangs um eine Nabe gewickelt .	_	_	_
+61	Sie trennt sich vom Teleskop .	_	60	before
+62	Die Blütenblätter entfalten sich -- öffnen sich .	_	61	before
+63	Das Teleskop dreht sich herum .	_	62	before
+64	Sie sehen , wie Starshade wendet und 50 000 Kilometer vom Teleskop wegfliegt .	_	63	result
+65	Sie wird sich vor den Stern platzieren und , einfach so , einen wunderbaren Schatten erzeugen .	_	64	before
+66	Zack , wir kriegen die Planeten in seiner Umlaufbahn .	_	65	result
+67	( Applaus ) Vielen Dank .	_	_	_
+68	Das ist kein Science-Fiction .	_	_	_
+69	Wir arbeiten seit 5 oder 6 Jahren daran .	_	68	specific
+70	Letzten Sommer haben wir einen coolen Test durchgeführt , in Kalifornien bei Northrop Grumman .	_	69	instance
+71	Dies sind vier Blütenblätter einer Starshade im kleinen Maßstab .	_	_	_
+72	Sie ist ca. halb so groß wie die , die Sie eben sahen .	_	_	_
+73	Hier entfalten sich die Blätter .	_	_	_
+74	Vier Studenten haben diese vier Blätter im Sommerpraktikum bei JPL gebaut .	_	73	specific
+75	Sie sehen , wie sie ausfahren .	_	_	_
+76	Die Blätter müssen sich richtig drehen .	_	75	before
+77	Das Gerüst der Blätter muss jedes Mal exakt zur selben Stelle ausfahren , auf ein Zehntel Millimeter genau .	_	76	Conjunction
+78	Wir haben den Test 16-mal ausgeführt , und 16-mal blieb es exakt an derselben Stelle stehen , auf ein Zehntel Millimeter genau .	_	77	specific
+79	Dies muss mit absoluter Präzision erfolgen , aber wenn es gelingt , diese Technologie zu bauen und ins All zu bringen , dann könnte man so etwas erblicken : Dies ist ein Bild eines unserer Nachbarsterne vom Hubble-Weltraumteleskop .	_	78	Conjunction
+80	Wenn wir ein ähnliches Weltraumteleskop , ein etwas größeres , dort hinausbringen und eine Blende davorfliegen könnten , dann sähen wir vielleicht so etwas ...	_	79	Conjunction
+81	Das ist ein Familienporträt des Sonnensystems -- aber nicht unseres ; wir hoffen auf ein anderes Sonnensystem -- , durch eine Blende gesehen , eine Starshade wie diese .	_	_	_
+82	Sie sehen Jupiter , Saturn , Uranus , Neptun und , direkt dort in der Mitte , neben dem Rest an Licht , ist der blass-blaue Punkt .	_	_	_
+83	Das ist die Erde .	_	_	_
+84	Das wollen wir sehen -- sehen , ob es Wasser gibt , Sauerstoff , Ozon , Dinge , die uns verraten , ob es dort Leben geben könnte .	_	_	_
+85	Für mich ist dies die coolste Wissenschaft .	_	84	causal|result
+86	Darum arbeite ich in diesem Feld , weil ich denke , das wird die Welt verändern .	_	_	_
+87	Wenn wir das sehen , wird das alles verändern .	_	86	specific
+88	Vielen Dank .	_	_	_

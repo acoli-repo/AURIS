@@ -65,12 +65,13 @@ update_corefud: check_xlsx
 				if [ -e $$tgt ]; then \
 					echo found 1>&2;\
 				else \
-					python3 ../../../scripts/auris2tsv.py corefud $$file \
-					| python3 ../../../scripts/align.py 100 $$ud=1 --=1 \
-					| perl -pe 's/[\t\?]*$$/\1/g; s/^[\t\?]*$$//g;'\
-					| cut -f 1-10,20 \
-					| perl -pe 's/\t([^\t]*)$$/|\1/g; s/_\|//g; s/\|_//g;'\
-					> $$tgt;\
+					(echo "# global.Entity = eid-etype-head-other"; \
+					 python3 ../../../scripts/auris2tsv.py corefud $$file \
+					 | python3 ../../../scripts/align.py 100 $$ud=1 --=1 \
+					 | perl -pe 's/[\t\?]*$$/\1/g; s/^[\t\?]*$$//g;'\
+					 | cut -f 1-10,20 \
+					 | perl -pe 's/\t([^\t]*)$$/|\1/g; s/_\|//g; s/\|_//g;'\
+					) > $$tgt;\
 					echo 'ok ('`cat $$tgt | egrep '^[0-9]' | wc -l`' tokens, '`cat $$tgt | egrep '^[*]' | wc -l` alignment errors')' 1>&2;\
 				fi;\
 			fi;\

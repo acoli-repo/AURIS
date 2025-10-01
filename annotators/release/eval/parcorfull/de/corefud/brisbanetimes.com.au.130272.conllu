@@ -3,19 +3,19 @@
 # newpar
 # sent_id = 1
 # text = Pokémon Go, eine Jagd nach Gesundheit und Glück, die sich lohnt
-1	Pokémon	Pokémon	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Entity=(e1-entity-1)
-2	Go	Go	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
+1	Pokémon	Pokémon	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	0	root	_	Entity=(e30-entity-1)
+2	Go	Go	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
 3	,	,	PUNCT	$,	_	5	punct	_	_
 4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	Jagd	Jagd	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	appos	_	Entity=(e2-entity-5)
+5	Jagd	Jagd	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	appos	_	_
 6	nach	nach	ADP	NE	Case=Acc|Gender=Fem|Number=Sing	7	case	_	_
-7	Gesundheit	Gesundheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	Entity=(e3-entity-7)
+7	Gesundheit	Gesundheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
 8	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	9	cc	_	_
-9	Glück	Glück	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	conj	_	SpaceAfter=No
+9	Glück	Glück	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	7	conj	_	_
 10	,	,	PUNCT	$,	_	13	punct	_	_
 11	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	13	nsubj	_	_
 12	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	13	obj	_	_
-13	lohnt	lohnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	SpacesAfter=\n\n
+13	lohnt	lohnen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_
 
 # newpar
 # sent_id = 2
@@ -23,20 +23,20 @@
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	faszinierend	faszinierend	ADJ	ADJD	_	4	advmod	_	_
-4	zuzusehen	zuzusehen	VERB	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+4	zuzusehen	zuzusehen	VERB	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 5	,	,	PUNCT	$,	_	10	punct	_	_
 6	wie	wie	SCONJ	NN	Case=Nom|Gender=Fem|Number=Sing	10	mark	_	_
 7	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
 8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Welt	Welt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
-10	verändert	verändern	VERB	VVPP	VerbForm=Part	4	advcl	_	SpaceAfter=No
-11	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+10	verändert	verändern	VERB	VVPP	VerbForm=Part	4	advcl	_	_
+11	.	.	PUNCT	$.	_	4	punct	_
 
 # newpar
 # sent_id = 3
 # text = Dass Teenager und Kind zum Spielen nicht mehr nach draußen gehen, sondern es vielmehr bevorzugen, ihre Freizeit damit zu verbringen, auf Bildschirme zu starren, wurde im letzten Jahrzehnt von vielen beklagt.
 1	Dass	daß	SCONJ	KOUS	_	12	mark	_	_
-2	Teenager	Teenager	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	Entity=(e4-entity-2)
+2	Teenager	Teenager	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	_
 3	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	4	cc	_	_
 4	Kind	Kind	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	conj	_	_
 5-6	zum	_	_	_	_	_	_	_
@@ -46,24 +46,24 @@
 8	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advmod	_	_
 9	mehr	mehr	ADV	ADV	_	8	advmod	_	_
 10	nach	nach	ADP	XY	NumType=Card	11	case	_	_
-11	draußen	draußen	ADV	ADV	_	12	advmod	_	Entity=(e5-entity-11)
-12	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	advcl	_	SpaceAfter=No
+11	draußen	draußen	ADV	ADV	_	12	advmod	_	_
+12	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	advcl	_	_
 13	,	,	PUNCT	$,	_	17	punct	_	_
 14	sondern	sondern	CCONJ	NN	Case=Nom|Gender=Masc|Number=Plur	17	cc	_	_
 15	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	expl	_	_
 16	vielmehr	vielmehr	ADV	CARD	NumType=Card	17	advmod	_	_
-17	bevorzugen	bevorzugen	VERB	NN	Case=Nom|Gender=Neut|Number=Plur	12	conj	_	SpaceAfter=No
+17	bevorzugen	bevorzugen	VERB	NN	Case=Nom|Gender=Neut|Number=Plur	12	conj	_	_
 18	,	,	PUNCT	$,	_	23	punct	_	_
-19	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	20	det:poss	_	Entity=(e4)
-20	Freizeit	Freizeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	Entity=(e6-entity-20)
+19	ihre	ihr	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	20	det:poss	_	_
+20	Freizeit	Freizeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
 21	damit	damit	ADV	PAV	_	23	advmod	_	_
 22	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	23	mark	_	_
-23	verbringen	verbringen	VERB	VVINF	VerbForm=Inf	12	xcomp	_	SpaceAfter=No
+23	verbringen	verbringen	VERB	VVINF	VerbForm=Inf	12	xcomp	_	_
 24	,	,	PUNCT	$,	_	28	punct	_	_
 25	auf	auf	ADP	APPR	_	26	case	_	_
-26	Bildschirme	Bildschirm	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	28	obl	_	Entity=(e7-entity-26)
+26	Bildschirme	Bildschirm	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	28	obl	_	_
 27	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	28	mark	_	_
-28	starren	starren	VERB	NN	Case=Gen|Gender=Masc|Number=Plur	23	xcomp	_	SpaceAfter=No
+28	starren	starren	VERB	NN	Case=Gen|Gender=Masc|Number=Plur	23	xcomp	_	_
 29	,	,	PUNCT	$,	_	12	punct	_	_
 30	wurde	werden	AUX	KON	_	37	aux:pass	_	_
 31-32	im	_	_	_	_	_	_	_
@@ -73,32 +73,32 @@
 34	Jahrzehnt	Jahrzehnt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	37	obl	_	_
 35	von	von	ADP	FM	Foreign=Yes	36	case	_	_
 36	vielen	viel	PRON	PIS	Case=Dat|Definite=Ind|Number=Plur|PronType=Ind	34	nmod	_	_
-37	beklagt	beklagen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-38	.	.	PUNCT	$.	_	37	punct	_	SpacesAfter=\n\n
+37	beklagt	beklagen	VERB	VVPP	VerbForm=Part	0	root	_	_
+38	.	.	PUNCT	$.	_	37	punct	_	_
 
 # newpar
 # sent_id = 4
 # text = Bei Pokemon Go geht es darum, Leute vom Sofa zu holen und aktiver werden zu lassen.
 1	Bei	bei	ADP	APPR	_	2	case	_	_
-2	Pokemon	Pokemon	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	Entity=(e1)
+2	Pokemon	Pokemon	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	Entity=(e30-entity-2)
 3	Go	Go	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	2	flat	_	_
 4	geht	gehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
-6	darum	darum	ADV	PAV	_	4	advmod	_	SpaceAfter=No
+6	darum	darum	ADV	PAV	_	4	advmod	_	_
 7	,	,	PUNCT	$,	_	8	punct	_	_
 8	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur	4	conj	_	_
 9-10	vom	_	_	_	_	_	_	_
 9	von	von	ADP	FM	Foreign=Yes	11	case	_	_
 10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
-11	Sofa	Sofa	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	Entity=(e8-entity-11)
+11	Sofa	Sofa	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	13	obl	_	_
 12	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	13	mark	_	_
 13	holen	holen	VERB	NN	Case=Acc|Gender=Fem|Number=Plur	8	acl	_	_
 14	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	15	cc	_	_
 15	aktiver	aktiv	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Plur	4	conj	_	_
 16	werden	werden	AUX	NE	Case=Gen|Gender=Masc|Number=Plur	18	aux:pass	_	_
 17	zu	zu	PART	NN	Case=Gen|Gender=Masc|Number=Sing	18	mark	_	_
-18	lassen	lassen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
-19	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+18	lassen	lassen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	_
+19	.	.	PUNCT	$.	_	4	punct	_
 
 # newpar
 # sent_id = 5
@@ -108,46 +108,46 @@
 3-4	am	_	_	_	_	_	_	_
 3	an	an	ADP	APPR	_	5	case	_	_
 4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	Bildschirm	Bildschirm	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	Entity=(e7)
-6	war	sein	AUX	ADV	_	0	root	_	_
+5	Bildschirm	Bildschirm	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	nmod	_	_
+6	war	sein	AUX	ADV	_	0	root	_	Entity=(e0-entity-6)
 7	anfangs	anfangs	ADV	ADV	_	10	advmod	_	_
 8	auf	auf	ADP	APPR	_	10	case	_	_
 9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	Fernseher	Fernseher	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|Entity=(e9-entity-10)
+10	Fernseher	Fernseher	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
 11	,	,	PUNCT	$,	_	14	punct	_	_
 12	dann	dann	ADV	ADV	_	14	advmod	_	_
 13	auf	auf	ADP	APPR	_	14	case	_	_
-14	Videospiele	Videospiel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	conj	_	Entity=(e10-entity-14)
+14	Videospiele	Videospiel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	conj	_	_
 15	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	19	cc	_	_
 16	zuletzt	zuletzt	ADV	ADV	_	19	advmod	_	_
 17	auf	auf	ADP	APPR	_	18	case	_	_
-18	Smartphones	Smartphones	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	19	obl	_	Entity=(e11-entity-18)
-19	beschränkt	beschränken	VERB	VVPP	VerbForm=Part	14	conj	_	SpaceAfter=No
-20	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+18	Smartphones	Smartphones	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	19	obl	_	_
+19	beschränkt	beschränken	VERB	VVPP	VerbForm=Part	14	conj	_	_
+20	.	.	PUNCT	$.	_	6	punct	_	_
 
 # newpar
 # sent_id = 6
 # text = Daher ist es toll zu sehen, dass sich Technologie und Aktivitäten im Freien nicht gegenseitig ausschließen.
-1	Daher	daher	ADV	PAV	_	4	advmod	_	_
+1	Daher	daher	ADV	PAV	_	4	advmod	_	Entity=(e0-entity-1)
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 4	toll	toll	ADJ	ADJD	_	6	advmod	_	_
 5	zu	zu	PART	NN	Case=Nom|Number=Plur	6	mark	_	_
-6	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	_
 7	,	,	PUNCT	$,	_	18	punct	_	_
-8	dass	dass	SCONJ	KOUS	_	18	mark	_	_
-9	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	18	obj	_	_
-10	Technologie	Technologie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	nsubj	_	_
+8	dass	dass	SCONJ	KOUS	_	18	mark	_	Entity=(e24-entity-8)
+9	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	18	obj	_	Entity=(e24-entity-9)
+10	Technologie	Technologie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	nsubj	_	Entity=(e24-entity-10)
 11	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	12	cc	_	_
 12	Aktivitäten	Aktivität	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	conj	_	_
 13-14	im	_	_	_	_	_	_	_
 13	in	in	ADP	APPR	_	15	case	_	_
 14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
-15	Freien	Freie	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	Entity=(e5)
-16	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advmod	_	_
-17	gegenseitig	gegenseitig	ADJ	ADJD	_	18	advmod	_	_
-18	ausschließen	ausschließen	VERB	VVINF	VerbForm=Inf	6	ccomp	_	SpaceAfter=No
-19	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+15	Freien	Freie	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	Entity=(e24-entity-15)
+16	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advmod	_	Entity=(e24-entity-16)
+17	gegenseitig	gegenseitig	ADJ	ADJD	_	18	advmod	_	Entity=(e24-entity-17)
+18	ausschließen	ausschließen	VERB	VVINF	VerbForm=Inf	6	ccomp	_	Entity=(e24-entity-18)
+19	.	.	PUNCT	$.	_	6	punct	_
 
 # newpar
 # sent_id = 7
@@ -155,49 +155,49 @@
 1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	beziehe	beziehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	_
-4	dabei	dabei	ADV	PAV	_	2	advmod	_	_
+4	dabei	dabei	ADV	PAV	_	2	advmod	_	Entity=(e24-entity-4)
 5	selbstverständlich	selbstverständlich	ADJ	ADV	_	2	advmod	_	_
 6	auf	auf	ADP	APPR	_	8	case	_	_
 7	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	8	det	_	_
-8	Pokémon	Pokémon	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	Entity=(e1)
-9	Go	Go	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	8	flat	_	SpaceAfter=No
-10	-	-	PUNCT	$(	_	11	punct	_	SpaceAfter=No
-11	Wahn	Wahn	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	flat	_	SpaceAfter=No
+8	Pokémon	Pokémon	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	2	obl	_	_
+9	Go	Go	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	8	flat	_	_
+10	-	-	PUNCT	$(	_	11	punct	_	_
+11	Wahn	Wahn	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	flat	_	_
 12	,	,	PUNCT	$,	_	14	punct	_	_
 13	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	App	App	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	SpaceAfter=No
+14	App	App	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
 15	,	,	PUNCT	$,	_	20	punct	_	_
 16	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	20	nsubj	_	_
 17	auf	auf	ADP	APPR	_	19	case	_	_
 18	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	19	det	_	_
-19	Charakteren	Charakter	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	20	obl	_	Entity=(e12-entity-19)
-20	beruht	beruhen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	SpaceAfter=No
+19	Charakteren	Charakter	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	20	obl	_	_
+20	beruht	beruhen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl	_	_
 21	,	,	PUNCT	$,	_	30	punct	_	_
 22	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	30	nsubj:pass	_	_
 23	zunächst	zunächst	ADV	ADV	_	30	advmod	_	_
 24	für	für	ADP	APPR	_	26	case	_	_
 25	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	26	det	_	_
-26	Videospiele	Videospiel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	30	obl	_	Entity=(e10)
+26	Videospiele	Videospiel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	30	obl	_	_
 27	in	in	ADP	APPR	_	29	case	_	_
 28	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	29	det	_	_
-29	1990ern	1990er	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	30	obl	_	Entity=(e13-entity-29)
+29	1990ern	1990er	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	30	obl	_	_
 30	erschaffen	erschaffen	VERB	VVINF	VerbForm=Part	2	acl	_	_
 31	wurden	werden	AUX	FM	Foreign=Yes	30	aux:pass	_	_
-32	(	(	PUNCT	$(	_	34	punct	_	SpaceAfter=No
+32	(	(	PUNCT	$(	_	34	punct	_	_
 33	später	spät	ADV	ADJD	_	34	advmod	_	_
 34	entstanden	entstehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	30	parataxis	_	_
-35	daraus	daraus	ADV	PAV	_	34	advmod	_	Entity=(e14-entity-35)
+35	daraus	daraus	ADV	PAV	_	34	advmod	_	_
 36	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
-37	Zeichentrickserie	Zeichentrickserie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	34	nsubj	_	SpaceAfter=No
+37	Zeichentrickserie	Zeichentrickserie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	34	nsubj	_	_
 38	,	,	PUNCT	$,	_	39	punct	_	_
 39	Spielkarten	Spielkart	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	37	conj	_	_
 40	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	42	cc	_	_
 41	andere	ander	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	42	amod	_	_
-42	Spin	Spin	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	37	conj	_	SpaceAfter=No
-43	-	-	PUNCT	$(	_	44	punct	_	SpaceAfter=No
-44	Offs	Offs	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	42	flat	_	SpaceAfter=No
-45	)	)	PUNCT	$(	_	34	punct	_	SpaceAfter=No
-46	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+42	Spin	Spin	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	37	conj	_	_
+43	-	-	PUNCT	$(	_	44	punct	_	_
+44	Offs	Offs	PROPN	NN	Case=Gen|Gender=Masc|Number=Sing	42	flat	_	_
+45	)	)	PUNCT	$(	_	34	punct	_	_
+46	.	.	PUNCT	$.	_	2	punct	_
 
 # newpar
 # sent_id = 8
@@ -206,32 +206,32 @@
 2	viele	viel	DET	NN	Case=Gen|Gender=Neut|Number=Plur	3	amod	_	_
 3	Phänomene	Phänomen	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	6	nsubj	_	_
 4	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
-5	Popkultur	Popkultur	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	Entity=(e15-entity-5)
+5	Popkultur	Popkultur	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
 6	sank	sinken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 7	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
 8	Interesse	Interesse	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
 9	vor	vor	ADP	NE	Case=Acc|Gender=Fem|Number=Sing	11	case	_	_
 10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	Veröffentlichung	Veröffentlichung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	Entity=(e16-entity-11)
+11	Veröffentlichung	Veröffentlichung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
 12	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	Spiels	Spiel	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	Entity=(e1)
+13	Spiels	Spiel	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	Entity=(e30-entity-13)
 14	in	in	ADP	APPR	_	16	case	_	_
 15	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
-16	USA	USA	PROPN	NE	Case=Dat|Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No|Entity=(e17-entity-16)
+16	USA	USA	PROPN	NE	Case=Dat|Gender=Masc|Number=Plur	6	obl	_	_
 17	,	,	PUNCT	$,	_	18	punct	_	_
-18	Australien	Australie	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	16	conj	_	Entity=(e18-entity-18)
+18	Australien	Australie	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	16	conj	_	_
 19	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	20	cc	_	_
-20	Neuseeland	Neuseeland	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	16	conj	_	Entity=(e19-entity-20)
+20	Neuseeland	Neuseeland	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	16	conj	_	_
 21	Anfang	Anfang	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	nmod	_	_
 22	Juli	Juli	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
-23	etwas	etwas	ADV	ADV	_	6	advmod	_	SpaceAfter=No
-24	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+23	etwas	etwas	ADV	ADV	_	6	advmod	_	_
+24	.	.	PUNCT	$.	_	6	punct	_
 
 # newpar
 # sent_id = 9
 # text = Die Markteinführung in anderen Ländern wurde durch die massive Nachfrage verschoben, die die Server überlastete.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Markteinführung	Markteinführung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj:pass	_	Entity=(e16)
+2	Markteinführung	Markteinführung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj:pass	_	_
 3	in	in	ADP	APPR	_	5	case	_	_
 4	anderen	ander	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Plur	5	amod	_	_
 5	Ländern	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	2	nmod	_	_
@@ -239,14 +239,14 @@
 7	durch	durch	ADP	APPR	_	10	case	_	_
 8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 9	massive	massiv	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	10	amod	_	_
-10	Nachfrage	Nachfrage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	Entity=(e20-entity-10)
-11	verschoben	verschieben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+10	Nachfrage	Nachfrage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	Entity=(e3-entity-10)
+11	verschoben	verschieben	VERB	VVPP	VerbForm=Part	0	root	_	_
 12	,	,	PUNCT	$,	_	16	punct	_	_
-13	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	16	nsubj	_	_
+13	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	16	nsubj	_	Entity=(e3-entity-13)
 14	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
-15	Server	Server	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	Entity=(e21-entity-15)
-16	überlastete	überlasten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl	_	SpaceAfter=No
-17	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n\n
+15	Server	Server	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+16	überlastete	überlasten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	acl	_	_
+17	.	.	PUNCT	$.	_	11	punct	_
 
 # newpar
 # sent_id = 10
@@ -255,163 +255,163 @@
 2	weniger	wenig	DET	PIAT	Definite=Ind|PronType=Ind	3	amod	_	_
 3	Tage	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
 4	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-5	Pokémon	Pokémon	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Entity=(e1)
+5	Pokémon	Pokémon	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Entity=(e30-entity-5)
 6	Go	Go	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	5	flat	_	_
 7	mehr	mehr	ADV	ADV	_	4	advmod	_	_
 8	Benutzer	Benutzer	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
 9	als	als	ADP	KOKOM	_	10	case	_	_
-10	Tinder	Tinder	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	Entity=(e22-entity-10)
+10	Tinder	Tinder	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
 11	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	14	cc	_	_
 12	fast	fast	ADV	ADV	_	13	advmod	_	_
 13	so	so	ADV	NE	Case=Dat|Number=Plur	14	advmod	_	_
 14	viele	viel	DET	NE	Case=Dat|Gender=Masc|Number=Sing	10	conj	_	_
 15	wie	wie	ADP	NE	Case=Dat|Gender=Masc|Number=Sing	16	case	_	_
-16	Twitter	Twitter	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No|Entity=(e23-entity-16)
-17	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+16	Twitter	Twitter	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	14	nmod	_	_
+17	.	.	PUNCT	$.	_	4	punct	_
 
 # newpar
 # sent_id = 11
-# text = Wie funktioniert es
+# text = Wie funktioniert es?
 1	Wie	wie	ADV	NE	Case=Nom|Gender=Neut|Number=Sing	2	advmod	_	_
 2	funktioniert	funktionieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	SpaceAfter=No|Entity=(e1)
-4	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Entity=(e30-entity-3)
+4	?	?	PUNCT	$.	_	2	punct	_
 
-# newpar	1	--	_	_	_	_	_	_
+# newpar	--	_
 # sent_id = 12
 # text = Kurz gesagt gehen die Spieler mit ihren Smartphones nach draußen und suchen nach Pokémons, die mit einem GPS nachverfolgt werden und, sobald sie einmal gefunden wurden, "fotografiert" (über einen Screenshot auf dem Handy) oder "gefangen genommen" werden können.
 1	Kurz	kurz	ADJ	ADJD	_	2	advmod	_	_
 2	gesagt	sagen	VERB	VVPP	VerbForm=Part	3	acl	_	_
 3	gehen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
-5	Spieler	Spieler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	Entity=(e24-entity-5)
+5	Spieler	Spieler	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 6	mit	mit	ADP	$(	_	8	case	_	_
-7	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	8	det:poss	_	Entity=(e24)
-8	Smartphones	Smartphon	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	Entity=(e25-entity-8)
+7	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	8	det:poss	_	_
+8	Smartphones	Smartphon	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	_
 9	nach	nach	ADP	NE	Case=Acc|Number=Plur	10	case	_	_
 10	draußen	draußen	ADV	ADV	_	3	advmod	_	_
 11	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	12	cc	_	_
 12	suchen	suchen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 13	nach	nach	ADP	CARD	_	14	case	_	_
-14	Pokémons	Pokémon	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No|Entity=(e12)
+14	Pokémons	Pokémon	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	12	obl	_	Entity=(e6-entity-14)
 15	,	,	PUNCT	$,	_	20	punct	_	_
-16	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	20	nsubj:pass	_	_
+16	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	20	nsubj:pass	_	Entity=(e6-entity-16)
 17	mit	mit	ADP	CARD	NumType=Card	19	case	_	_
 18	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	GPS	GPS	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_
 20	nachverfolgt	nachverfolgen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_
 21	werden	werden	AUX	NE	Case=Acc|Number=Plur	20	aux:pass	_	_
-22	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	27	cc	_	SpaceAfter=No
+22	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	27	cc	_	_
 23	,	,	PUNCT	$,	_	27	punct	_	_
 24	sobald	sobald	SCONJ	KOUS	_	27	mark	_	_
-25	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	27	nsubj:pass	_	Entity=(e12)
+25	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	27	nsubj:pass	_	Entity=(e6-entity-25)
 26	einmal	einmal	ADV	ADV	_	27	advmod	_	_
 27	gefunden	finden	VERB	VVPP	VerbForm=Part	20	conj	_	_
-28	wurden	werden	AUX	NE	Foreign=Yes	27	aux:pass	_	SpaceAfter=No
+28	wurden	werden	AUX	NE	Foreign=Yes	27	aux:pass	_	_
 29	,	,	PUNCT	$,	_	31	punct	_	_
-30	"	"	PUNCT	$(	_	31	punct	_	SpaceAfter=No
-31	fotografiert	fotografieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	SpaceAfter=No
+30	"	"	PUNCT	$(	_	31	punct	_	_
+31	fotografiert	fotografieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
 32	"	"	PUNCT	$(	_	31	punct	_	_
-33	(	(	PUNCT	$(	_	36	punct	_	SpaceAfter=No
+33	(	(	PUNCT	$(	_	36	punct	_	_
 34	über	über	ADP	FM	Foreign=Yes	36	case	_	_
 35	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	Screenshot	Screenshot	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	31	nmod	_	_
 37	auf	auf	ADP	APPR	_	39	case	_	_
 38	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	Handy	Handy	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No|Entity=(e25)
+39	Handy	Handy	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	36	nmod	_	_
 40	)	)	PUNCT	$(	_	36	punct	_	_
 41	oder	oder	CCONJ	XY	_	46	cc	_	_
-42	"	"	PUNCT	$(	_	46	punct	_	SpaceAfter=No
+42	"	"	PUNCT	$(	_	46	punct	_	_
 43	gefangen	fangen	ADJ	VVPP	VerbForm=Part	46	xcomp	_	_
-44	genommen	nehmen	VERB	VVPP	VerbForm=Part	46	xcomp	_	SpaceAfter=No
+44	genommen	nehmen	VERB	VVPP	VerbForm=Part	46	xcomp	_	_
 45	"	"	PUNCT	$(	_	44	punct	_	_
 46	werden	werden	VERB	NE	Case=Acc|Number=Plur	31	conj	_	_
-47	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	46	aux	_	SpaceAfter=No
-48	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+47	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	46	aux	_	_
+48	.	.	PUNCT	$.	_	3	punct	_
 
 # newpar
 # sent_id = 13
 # text = Eine Generation, die das Spiel spielte, als sie noch jünger war, schloss sich dem Wahn an und sprang für die Suche vom Sofa.
 1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Generation	Generatien	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	SpaceAfter=No|Entity=(e26-entity-2)
+2	Generation	Generatien	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	Entity=(e8-entity-2)
 3	,	,	PUNCT	$,	_	7	punct	_	_
-4	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	7	nsubj	_	_
+4	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	7	nsubj	_	Entity=(e8-entity-4)
 5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
-6	Spiel	Spiel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	Entity=(e14)
-7	spielte	spielen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl	_	SpaceAfter=No
+6	Spiel	Spiel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	Entity=(e30-entity-6)
+7	spielte	spielen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl	_	_
 8	,	,	PUNCT	$,	_	12	punct	_	_
 9	als	als	SCONJ	KOUS	_	12	mark	_	_
-10	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	Entity=(e26)
+10	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	Entity=(e8-entity-10)
 11	noch	noch	ADV	CARD	NumType=Card	12	advmod	_	_
 12	jünger	jüng	ADJ	NN	Case=Acc|Gender=Masc|Number=Plur	7	conj	_	_
-13	war	sein	AUX	ADV	_	12	cop	_	SpaceAfter=No
+13	war	sein	AUX	ADV	_	12	cop	_	_
 14	,	,	PUNCT	$,	_	2	punct	_	_
 15	schloss	schließen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 16	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	15	obj	_	_
 17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	Wahn	Wahn	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	iobj	_	Entity=(e27-entity-18)
+18	Wahn	Wahn	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	iobj	_	_
 19	an	an	ADP	PTKVZ	_	15	compound:prt	_	_
 20	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	21	cc	_	_
 21	sprang	springen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	conj	_	_
 22	für	für	ADP	APPR	_	24	case	_	_
 23	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	Suche	Suche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	Entity=(e2)
+24	Suche	Suche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	_
 25-26	vom	_	_	_	_	_	_	_
 25	von	von	ADP	FM	Foreign=Yes	27	case	_	_
 26	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	27	det	_	_
-27	Sofa	Sofa	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No|Entity=(e8)
-28	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n\n
+27	Sofa	Sofa	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	24	nmod	_	_
+28	.	.	PUNCT	$.	_	15	punct	_
 
-# newpar	1	--	_	_	_	_	_	_
+# newpar	--	_
 # sent_id = 14
 # text = In den USA führte das Spiel zu einem beträchtlichen Anstieg an Schritten, die die "durchschnittliche" Person jeden Tag zurücklegt.
 1	In	in	ADP	APPR	_	3	case	_	_
 2	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
-3	USA	USA	PROPN	NE	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	Entity=(e17)
+3	USA	USA	PROPN	NE	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	_
 4	führte	führen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
-6	Spiel	Spiel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	Entity=(e1)
+6	Spiel	Spiel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	Entity=(e30-entity-6)
 7	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	case	_	_
 8	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 9	beträchtlichen	beträchtlich	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	10	amod	_	_
 10	Anstieg	Anstieg	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
 11	an	an	ADP	APPR	_	12	case	_	_
-12	Schritten	Schritt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+12	Schritten	Schritt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	Entity=(e9-entity-12)
 13	,	,	PUNCT	$,	_	22	punct	_	_
-14	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	22	nsubj	_	_
+14	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	22	nsubj	_	Entity=(e9-entity-14)
 15	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-16	"	"	PUNCT	$(	_	17	punct	_	SpaceAfter=No
-17	durchschnittliche	durchschnittlich	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+16	"	"	PUNCT	$(	_	17	punct	_	_
+17	durchschnittliche	durchschnittlich	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	19	amod	_	_
 18	"	"	PUNCT	$(	_	17	punct	_	_
 19	Person	Person	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	22	obj	_	_
 20	jeden	jed	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	21	det	_	_
 21	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	nmod	_	_
-22	zurücklegt	zurücklegen	VERB	VVPP	VerbForm=Part	10	acl	_	SpaceAfter=No
-23	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+22	zurücklegt	zurücklegen	VERB	VVPP	VerbForm=Part	10	acl	_	_
+23	.	.	PUNCT	$.	_	4	punct	_
 
 # newpar
 # sent_id = 15
 # text = Cardiogram, eine App für Apple Watch, die 35.000 Benutzer nachverfolgt, teilte der Washington Post vor kurzem mit, dass innerhalb von zwei Tagen nach Markteinführung des Spiels, die Anzahl der nachverfolgten Leute, die jeden Tag 30 Minuten trainieren, von 45 Prozent auf 53 Prozent ansprang.
-1	Cardiogram	Cardiogram	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No|Entity=(e28-entity-1)
+1	Cardiogram	Cardiogram	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
 2	,	,	PUNCT	$,	_	4	punct	_	_
 3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	App	App	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
 5	für	für	ADP	APPR	_	6	case	_	_
 6	Apple	Apple	PROPN	NE	Case=Acc|Gender=Masc|Number=Plur	4	nmod	_	_
-7	Watch	Watch	PROPN	NE	Case=Nom|Number=Sing	6	flat	_	SpaceAfter=No|Entity=(e29-entity-7)
+7	Watch	Watch	PROPN	NE	Case=Nom|Number=Sing	6	flat	_	_
 8	,	,	PUNCT	$,	_	12	punct	_	_
 9	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	12	nsubj	_	_
 10	35.000	35.000	NUM	CARD	NumType=Card	11	nummod	_	_
-11	Benutzer	Benutzer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	Entity=(e30-entity-11)
-12	nachverfolgt	nachverfolgen	VERB	VVPP	VerbForm=Part	1	acl	_	SpaceAfter=No
+11	Benutzer	Benutzer	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+12	nachverfolgt	nachverfolgen	VERB	VVPP	VerbForm=Part	1	acl	_	_
 13	,	,	PUNCT	$,	_	1	punct	_	_
 14	teilte	teilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 15	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	Washington	Washington	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	14	iobj	_	Entity=(e31-entity-16)
+16	Washington	Washington	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	14	iobj	_	_
 17	Post	Post	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	16	flat	_	_
 18	vor	vor	ADP	NE	Case=Acc|Gender=Fem|Number=Sing	19	case	_	_
 19	kurzem	Kurz	NOUN	ADJA	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	_
-20	mit	mit	ADP	$(	_	14	compound:prt	_	SpaceAfter=No
+20	mit	mit	ADP	$(	_	14	compound:prt	_	_
 21	,	,	PUNCT	$,	_	51	punct	_	_
 22	dass	dass	SCONJ	KOUS	_	51	mark	_	_
 23	innerhalb	innerhalb	ADP	APPR	_	26	case	_	_
@@ -419,22 +419,22 @@
 25	zwei	zwei	NUM	NN	Case=Dat|Gender=Masc|Number=Plur	26	nummod	_	_
 26	Tagen	Tag	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	51	obl	_	_
 27	nach	nach	ADP	ADJA	_	28	case	_	_
-28	Markteinführung	Markteinführung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	51	obl	_	Entity=(e16)
+28	Markteinführung	Markteinführung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	51	obl	_	_
 29	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	30	det	_	_
-30	Spiels	Spiel	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	SpaceAfter=No|Entity=(e1)
+30	Spiels	Spiel	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	Entity=(e30-entity-30)
 31	,	,	PUNCT	$,	_	33	punct	_	_
 32	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
-33	Anzahl	Anzahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	28	conj	_	Entity=(e32-entity-33)
+33	Anzahl	Anzahl	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	28	conj	_	_
 34	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 35	nachverfolgten	nachverfolgt	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	36	amod	_	_
-36	Leute	Leute	NOUN	NN	Case=Gen|Number=Plur	33	nmod	_	SpaceAfter=No|Entity=(e30)
+36	Leute	Leute	NOUN	NN	Case=Gen|Number=Plur	33	nmod	_	Entity=(e10-entity-36)
 37	,	,	PUNCT	$,	_	43	punct	_	_
-38	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	43	nsubj	_	_
+38	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	43	nsubj	_	Entity=(e10-entity-38)
 39	jeden	jed	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	40	det	_	_
 40	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	43	obl	_	_
 41	30	30	NUM	CARD	NumType=Card	42	nummod	_	_
 42	Minuten	Minute	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	43	nmod	_	_
-43	trainieren	trainieren	VERB	VVINF	VerbForm=Inf	33	acl	_	SpaceAfter=No
+43	trainieren	trainieren	VERB	VVINF	VerbForm=Inf	33	acl	_	Entity=(e11-entity-43)
 44	,	,	PUNCT	$,	_	51	punct	_	_
 45	von	von	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	47	case	_	_
 46	45	45	NUM	CARD	NumType=Card	47	nummod	_	_
@@ -442,79 +442,79 @@
 48	auf	auf	ADP	APPR	_	50	case	_	_
 49	53	53	NUM	CARD	NumType=Card	50	nummod	_	_
 50	Prozent	Prozent	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	51	obl	_	_
-51	ansprang	anspringen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	ccomp	_	SpaceAfter=No
-52	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n\n
+51	ansprang	anspringen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	ccomp	_	_
+52	.	.	PUNCT	$.	_	14	punct	_
 
 # newpar
 # sent_id = 16
 # text = Das Unternehmen weiß nicht, wer davon Pokémon Go spielt - es sieht lediglich die Rohdaten zur Leistungssteigerung.
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
-2	Unternehmen	Unternehmen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	Entity=(e28)
+2	Unternehmen	Unternehmen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	Entity=(e12-entity-2)
 3	weiß	wissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advmod	_	SpaceAfter=No
+4	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advmod	_	_
 5	,	,	PUNCT	$,	_	6	punct	_	_
 6	wer	wer	PRON	PWS	Case=Nom|Gender=Masc|Number=Sing|PronType=Int	10	nsubj	_	_
-7	davon	davon	ADV	PAV	_	6	advmod	_	_
-8	Pokémon	Pokémon	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	6	appos	_	Entity=(e1)
+7	davon	davon	ADV	PAV	_	6	advmod	_	Entity=(e11-entity-7)
+8	Pokémon	Pokémon	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	6	appos	_	Entity=(e30-entity-8)
 9	Go	Go	PROPN	NE	Case=Dat|Number=Sing	8	flat	_	_
 10	spielt	spielen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
 11	-	-	PUNCT	$(	_	13	punct	_	_
-12	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	Entity=(e28)
+12	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	Entity=(e12-entity-12)
 13	sieht	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
 14	lediglich	lediglich	ADV	ADV	_	13	advmod	_	_
 15	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
-16	Rohdaten	Rohdat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	nsubj	_	Entity=(e33-entity-16)
+16	Rohdaten	Rohdat	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	nsubj	_	_
 17-18	zur	_	_	_	_	_	_	_
 17	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	19	case	_	_
 18	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	Leistungssteigerung	Leistungssteigerung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No|Entity=(e34-entity-19)
-20	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+19	Leistungssteigerung	Leistungssteigerung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	_
+20	.	.	PUNCT	$.	_	3	punct	_
 
-# newpar	1	--	_	_	_	_	_	_
-# sent_id = 17
+# newpar	--	_
+# sent_id = 17	*kann*					2	kann	_
 # text = Viele öffentliche Aufklärungskampagnen zur Gesundheit, die Leute dazu bringen wollen "sich 30 Minuten Zeit zu nehmen," "vom Sofa zu kommen" und "jeden Tag aktiv zu sein" stießen auf taube Ohren, weil viele öffentliche Botschaften zur Gesundheit langweilig sind und von Leuten kommen, die elend aussehen.
 1	Viele	viel	PRON	NN	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
 2	öffentliche	öffentlich	ADJ	NE	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
-3	Aufklärungskampagnen	Aufklärungskampagne	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	Entity=(e35-entity-3)
-4-5	zur	_	_	_	_	_	_	_
+3	Aufklärungskampagnen	Aufklärungskampagne	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+4-5	zur	_	_	_	_	_	_	_	_
 4	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	6	case	_	_
 5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	Gesundheit	Gesundheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No|Entity=(e3)
+6	Gesundheit	Gesundheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	_
 7	,	,	PUNCT	$,	_	11	punct	_	_
-8	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	9	det	_	_
-9	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur	11	nsubj	_	Entity=(e36-entity-9)
+8	die	der	DET	ART	Case=Nom|Number=Plur|PronType=Art	9	det	_	Entity=(e16-entity-8)
+9	Leute	Leute	NOUN	NN	Case=Nom|Number=Plur	11	nsubj	_	_
 10	dazu	dazu	ADV	PAV	_	11	advmod	_	_
 11	bringen	bringen	VERB	VVINF	VerbForm=Inf	19	xcomp	_	_
 12	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
-13	"	"	PUNCT	$(	_	14	punct	_	SpaceAfter=No
+13	"	"	PUNCT	$(	_	14	punct	_	_
 14	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	11	obj	_	_
 15	30	30	NUM	CARD	NumType=Card	16	nummod	_	_
 16	Minuten	Minute	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	compound	_	_
 17	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
 18	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	19	mark	_	_
-19	nehmen	nehmen	VERB	CARD	NumType=Card	37	xcomp	_	SpaceAfter=No
-20	,	,	PUNCT	$,	_	27	punct	_	SpaceAfter=No
+19	nehmen	nehmen	VERB	CARD	NumType=Card	37	xcomp	_	_
+20	,	,	PUNCT	$,	_	27	punct	_	_
 21	"	"	PUNCT	$(	_	27	punct	_	_
-22	"	"	PUNCT	$(	_	27	punct	SpaceAfter=No
+22	"	"	PUNCT	$(	_	27	punct	_
 23-24	vom	_	_	_	_	_	_	_	_
 23	von	von	ADP	FM	Foreign=Yes	25	case	_	_
 24	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	Sofa	Sofa	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	27	obl	_	Entity=(e8)
+25	Sofa	Sofa	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	27	obl	_	_
 26	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	27	mark	_	_
-27	kommen	kommen	VERB	VVINF	VerbForm=Inf	19	parataxis	_	SpaceAfter=No
+27	kommen	kommen	VERB	VVINF	VerbForm=Inf	19	parataxis	_	_
 28	"	"	PUNCT	$(	_	27	punct	_	_
 29	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	33	cc	_	_
-30	"	"	PUNCT	$(	_	32	punct	_	SpaceAfter=No
+30	"	"	PUNCT	$(	_	32	punct	_	_
 31	jeden	jed	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	32	det	_	_
 32	Tag	Tag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	33	nmod	_	_
 33	aktiv	aktiv	ADJ	ADJD	_	27	xcomp	_	_
 34	zu	zu	PART	NN	Case=Nom|Number=Plur	33	mark	_	_
-35	sein	sein	AUX	VAINF	VerbForm=Inf	33	cop	_	SpaceAfter=No
+35	sein	sein	AUX	VAINF	VerbForm=Inf	33	cop	_	_
 36	"	"	PUNCT	$(	_	27	punct	_	_
 37	stießen	stoßen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 38	auf	auf	ADP	APPR	_	40	case	_	_
 39	taube	taub	ADJ	NN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	40	amod	_	_
-40	Ohren	Ohr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	37	obl	_	SpaceAfter=No
+40	Ohren	Ohr	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	37	obl	_	_
 41	,	,	PUNCT	$,	_	49	punct	_	_
 42	weil	weil	SCONJ	KOUS	_	49	mark	_	_
 43	viele	viel	DET	NE	Case=Nom|Gender=Masc|Number=Sing	45	amod	_	_
@@ -523,18 +523,18 @@
 46-47	zur	_	_	_	_	_	_	_
 46	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	48	case	_	_
 47	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	48	det	_	_
-48	Gesundheit	Gesundheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	49	nmod	_	Entity=(e3)
+48	Gesundheit	Gesundheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	49	nmod	_	_
 49	langweilig	langweilig	ADJ	ADJD	_	37	advcl	_	_
 50	sind	sein	AUX	ADJD	_	49	cop	_	_
 51	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	54	cc	_	_
 52	von	von	ADP	FM	Foreign=Yes	53	case	_	_
 53	Leuten	Leute	NOUN	NN	Case=Dat|Number=Plur	54	obl	_	_
-54	kommen	kommen	VERB	VVINF	VerbForm=Inf	49	conj	_	SpaceAfter=No
+54	kommen	kommen	VERB	VVINF	VerbForm=Inf	49	conj	_	_
 55	,	,	PUNCT	$,	_	58	punct	_	_
-56	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	58	nsubj	_	_
+56	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	58	nsubj	_	Entity=(e18-entity-56)
 57	elend	elend	ADJ	ADJD	_	58	advmod	_	_
-58	aussehen	aussehen	VERB	VVFIN	VerbForm=Inf	37	acl	_	SpaceAfter=No
-59	.	.	PUNCT	$.	_	37	punct	_	SpacesAfter=\n\n
+58	aussehen	aussehen	VERB	VVFIN	VerbForm=Inf	37	acl	_	_
+59	.	.	PUNCT	$.	_	37	punct	_
 
 # newpar
 # sent_id = 18
@@ -544,63 +544,63 @@
 3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Bedeutung	Bedeutung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 5	von	von	ADP	FM	Foreign=Yes	6	case	_	_
-6	Sport	Sport	NOUN	NN	Foreign=Yes	4	nmod	_	Entity=(e37-entity-6)
+6	Sport	Sport	NOUN	NN	Foreign=Yes	4	nmod	_	_
 7	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advmod	_	_
 8	überbewertet	überbewerten	VERB	VVPP	VerbForm=Part	0	root	_	_
-9	werden	werden	AUX	NE	Case=Acc|Number=Plur	8	aux:pass	_	SpaceAfter=No
-10	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n
+9	werden	werden	AUX	NE	Case=Acc|Number=Plur	8	aux:pass	_	_
+10	.	.	PUNCT	$.	_	8	punct	_	_
 
 # newpar
 # sent_id = 19
 # text = Wer regelmäßig Sport treibt, reduziert seine Chancen, an Krebs oder Depressionen zu erkranken.
-1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	4	nsubj	_	Entity=(e36)
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	4	nsubj	_	_
 2	regelmäßig	regelmäßig	ADJ	ADJD	_	4	advmod	_	_
-3	Sport	Sport	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	4	obj	_	Entity=(e37)
-4	treibt	treiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	Sport	Sport	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	4	obj	_	_
+4	treibt	treiben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	,	,	PUNCT	$,	_	6	punct	_	_
 6	reduziert	reduziert	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	_
-7	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes	8	det:poss	_	Entity=(e36)
-8	Chancen	Chance	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	SpaceAfter=No|Entity=(e38-entity-8)
+7	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes	8	det:poss	_	_
+8	Chancen	Chance	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
 9	,	,	PUNCT	$,	_	11	punct	_	_
 10	an	an	ADP	APPR	_	11	case	_	_
 11	Krebs	Krebs	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
 12	oder	oder	CCONJ	XY	_	13	cc	_	_
 13	Depressionen	Depression	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	conj	_	_
 14	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	15	mark	_	_
-15	erkranken	erkranken	VERB	VVINF	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
-16	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+15	erkranken	erkranken	VERB	VVINF	VerbForm=Inf	6	xcomp	_	_
+16	.	.	PUNCT	$.	_	4	punct	_	_
 
 # newpar
 # sent_id = 20
 # text = Körperliche Betätigung hilft bei der Gewichtskontrolle, hohem Blutdruck, Diabetes und einer langen Liste an Vorteilen, die zu lange ist, um sie hier anzuführen.
 1	Körperliche	körperliche	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
-2	Betätigung	Betätigung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	Entity=(e37)
+2	Betätigung	Betätigung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
 3	hilft	helfen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	bei	bei	ADP	APPR	_	6	case	_	_
 5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	Gewichtskontrolle	Gewichtskontrolle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	Gewichtskontrolle	Gewichtskontrolle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
 7	,	,	PUNCT	$,	_	9	punct	_	_
 8	hohem	hoch	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	9	amod	_	_
-9	Blutdruck	Blutdruck	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+9	Blutdruck	Blutdruck	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	6	conj	_	_
 10	,	,	PUNCT	$,	_	11	punct	_	_
 11	Diabetes	Diabet	NOUN	NE	Case=Nom|Gender=Neut|Number=Sing	6	conj	_	_
 12	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	15	cc	_	_
 13	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 14	langen	lang	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	15	amod	_	_
-15	Liste	Liste	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	conj	_	Entity=(e39-entity-15)
+15	Liste	Liste	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	conj	_	_
 16	an	an	ADP	APPR	_	17	case	_	_
-17	Vorteilen	Vorteil	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	15	nmod	_	SpaceAfter=No
+17	Vorteilen	Vorteil	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	15	nmod	_	_
 18	,	,	PUNCT	$,	_	21	punct	_	_
 19	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	21	nsubj	_	_
 20	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	21	mark	_	_
 21	lange	lange	ADJ	ADV	_	3	acl	_	_
-22	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	21	cop	_	SpaceAfter=No
+22	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	21	cop	_	_
 23	,	,	PUNCT	$,	_	27	punct	_	_
 24	um	um	ADP	KOUI	_	27	mark	_	_
-25	sie	sie	PRON	NN	Case=Acc|Gender=Masc|Number=Plur	27	obj	_	Entity=(e39)
+25	sie	sie	PRON	NN	Case=Acc|Gender=Masc|Number=Plur	27	obj	_	_
 26	hier	hier	ADV	ADV	_	27	advmod	_	_
-27	anzuführen	anzuführen	VERB	VVINF	VerbForm=Inf	21	advcl	_	SpaceAfter=No
-28	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+27	anzuführen	anzuführen	VERB	VVINF	VerbForm=Inf	21	advcl	_	_
+28	.	.	PUNCT	$.	_	3	punct	_	_
 
 # newpar
 # sent_id = 21
@@ -609,30 +609,30 @@
 2	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 3	Wundervolle	Wundervolle	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 4	an	an	ADP	APPR	_	5	case	_	_
-5	Pokémon	Pokémon	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	Entity=(e1)
+5	Pokémon	Pokémon	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	_
 6	Go	Go	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	5	flat	_	_
-7	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	,	,	PUNCT	$,	_	14	punct	_	_
 9	dass	dass	SCONJ	KOUS	_	14	mark	_	_
-10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	Entity=(e1)
+10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
 11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	12	det	_	_
-12	Leute	Leute	NOUN	NN	Case=Acc|Number=Plur	14	obj	_	Entity=(e36)
+12	Leute	Leute	NOUN	NN	Case=Acc|Number=Plur	14	obj	_	_
 13	dazu	dazu	ADV	PAV	_	14	advmod	_	_
-14	bringt	bringen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	SpaceAfter=No
+14	bringt	bringen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
 15	,	,	PUNCT	$,	_	21	punct	_	_
 16	etwas	etwas	PRON	PIS	Definite=Ind|PronType=Ind	21	obj	_	_
 17-18	im	_	_	_	_	_	_	_
 17	in	in	ADP	APPR	_	19	case	_	_
 18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
-19	Freien	Freie	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	nmod	_	Entity=(e5)
+19	Freien	Freie	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	16	nmod	_	_
 20	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	21	mark	_	_
-21	tun	tun	VERB	VVINF	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
+21	tun	tun	VERB	VVINF	VerbForm=Inf	14	xcomp	_	_
 22	,	,	PUNCT	$,	_	26	punct	_	_
 23	dass	dass	SCONJ	KOUS	_	26	mark	_	_
-24	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	26	iobj	_	Entity=(e36)
+24	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	26	iobj	_	_
 25	Spaß	Spaß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	26	obj	_	_
-26	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	SpaceAfter=No
-27	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+26	macht	machen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
+27	.	.	PUNCT	$.	_	7	punct	_	_
 
 # newpar
 # sent_id = 22
@@ -642,18 +642,18 @@
 3	drei	drei	NUM	CARD	NumType=Card	4	nummod	_	_
 4	Säulen	Säule	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	nsubj:pass	_	_
 5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	Gesundheit	Gesundheit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	Entity=(e3)
+6	Gesundheit	Gesundheit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
 7	abgedeckt	abdecken	VERB	VVPP	VerbForm=Part	0	root	_	_
 8	-	-	PUNCT	$(	_	9	punct	_	_
-9	Bewegung	Bewegung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No|Entity=(e37)
+9	Bewegung	Bewegung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	_
 10	,	,	PUNCT	$,	_	12	punct	_	_
 11	frische	frisch	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	12	amod	_	_
 12	Luft	Luft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	conj	_	_
 13	und	und	CCONJ	NE	Foreign=Yes	14	cc	_	_
 14	Sonnenschein	Sonnenschein	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	9	conj	_	_
 15	sowie	sowie	CCONJ	NE	Case=Dat|Gender=Masc|Number=Sing	16	cc	_	_
-16	Spaß	Spaß	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
-17	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+16	Spaß	Spaß	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	7	conj	_	_
+17	.	.	PUNCT	$.	_	7	punct	_	_
 
 # newpar
 # sent_id = 23
@@ -663,11 +663,11 @@
 3	schließen	schließen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	auf	auf	ADP	APPR	_	6	case	_	_
 5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	Jagd	Jagd	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	Entity=(e2)
+6	Jagd	Jagd	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
 7	sogar	sogar	ADV	ADV	_	3	advmod	_	_
 8	neue	neu	ADJ	NN	Case=Gen|Gender=Fem|Number=Sing	9	amod	_	_
-9	Freundschaften	Freundschaft	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
-10	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+9	Freundschaften	Freundschaft	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	3	obj	_	_
+10	.	.	PUNCT	$.	_	3	punct	_	_
 
 # newpar
 # sent_id = 24
@@ -678,7 +678,7 @@
 4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
 5	auch	auch	ADV	ADV	_	3	advmod	_	_
 6	mürrische	mürrisch	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	7	amod	_	_
-7	Spielverderber	Spielverderber	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
+7	Spielverderber	Spielverderber	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 8	,	,	PUNCT	$,	_	14	punct	_	_
 9	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	14	nsubj	_	_
 10	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	_
@@ -686,29 +686,29 @@
 12	über	über	ADV	NN	Foreign=Yes	14	advmod	_	_
 13	etwas	etwas	ADV	PIS	Definite=Ind|PronType=Ind	14	advmod	_	_
 14	beschweren	beschweren	VERB	VVINF	VerbForm=Inf	7	acl	_	_
-15	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
-16	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+15	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+16	.	.	PUNCT	$.	_	3	punct	_	_
 
 # newpar
 # sent_id = 25
 # text = Und ja, jemand könnte gegen eine Tür laufen.
 1	Und	und	CCONJ	ADJD	_	9	cc	_	_
-2	ja	ja	PART	PTKANT	_	9	mark	_	SpaceAfter=No
+2	ja	ja	PART	PTKANT	_	9	mark	_	_
 3	,	,	PUNCT	$,	_	2	punct	_	_
 4	jemand	jemand	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	9	nsubj	_	_
 5	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
 6	gegen	gegen	ADP	APPR	_	8	case	_	_
 7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Tür	Tür	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
-9	laufen	laufen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
+9	laufen	laufen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+10	.	.	PUNCT	$.	_	9	punct	_
 
 # newpar
 # sent_id = 26
-# text = Was soll's
+# text = Was soll's?
 1	Was	was	PRON	FM	Foreign=Yes	2	nsubj	_	_
-2	soll's	soll's	X	PPER	Foreign=Yes	0	root	_	SpaceAfter=No
-3	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+2	soll's	soll's	X	PPER	Foreign=Yes	0	root	_	_
+3	?	?	PUNCT	$.	_	2	punct	_
 
 # newpar
 # sent_id = 27
@@ -718,42 +718,42 @@
 3	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
 4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	Durchbruch	Durchbruch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
-6	ereignet	ereignen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+6	ereignet	ereignen	VERB	VVPP	VerbForm=Part	0	root	_	_
+7	.	.	PUNCT	$.	_	6	punct	_
 
 # newpar
 # sent_id = 28
 # text = Auch wenn Smartphone-Apps wie Fitbit bereits früher unsere Aktivität nachverfolgen konnten, gaben sie uns keinen Grund, Sport zu treiben, wie es dieses Spiel tut.
 1	Auch	auch	ADV	ADV	_	12	advmod	_	_
 2	wenn	wenn	SCONJ	VVFIN	_	12	mark	_	_
-3	Smartphone	Smartphone	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
-4	-	-	PUNCT	$(	_	5	punct	_	SpaceAfter=No
-5	Apps	Apps	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	Entity=(e40-entity-5)
+3	Smartphone	Smartphone	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+4	-	-	PUNCT	$(	_	5	punct	_	_
+5	Apps	Apps	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	_
 6	wie	wie	ADP	NE	Case=Nom|Gender=Masc|Number=Sing	7	case	_	_
 7	Fitbit	Fitbit	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
 8	bereits	bereits	ADV	ADV	_	12	advmod	_	_
 9	früher	früh	ADJ	ADV	_	12	advmod	_	_
-10	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	11	det:poss	_	Entity=(e41-entity-10)
-11	Aktivität	Aktivität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	Entity=(e42-entity-11)
+10	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	11	det:poss	_	_
+11	Aktivität	Aktivität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
 12	nachverfolgen	nachverfolgen	VERB	VVINF	VerbForm=Inf	15	advcl	_	_
-13	konnten	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	SpaceAfter=No
+13	konnten	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
 14	,	,	PUNCT	$,	_	12	punct	_	_
 15	gaben	geben	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-16	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	Entity=(e40)
-17	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	15	iobj	_	Entity=(e41)
+16	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
+17	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	15	iobj	_	_
 18	keinen	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	19	nmod	_	_
-19	Grund	Grund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+19	Grund	Grund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
 20	,	,	PUNCT	$,	_	23	punct	_	_
-21	Sport	Sport	NOUN	NE	Case=Acc|Gender=Masc|Number=Sing	23	obj	_	Entity=(e37)
+21	Sport	Sport	NOUN	NE	Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
 22	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	23	mark	_	_
-23	treiben	treiben	VERB	VVINF	VerbForm=Inf	15	xcomp	_	SpaceAfter=No
+23	treiben	treiben	VERB	VVINF	VerbForm=Inf	15	xcomp	_	_
 24	,	,	PUNCT	$,	_	29	punct	_	_
 25	wie	wie	SCONJ	NN	Case=Nom|Gender=Neut|Number=Sing	29	mark	_	_
 26	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
 27	dieses	dies	PRON	PDAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	28	det	_	_
-28	Spiel	Spiel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	29	obj	_	Entity=(e1)
-29	tut	tun	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	SpaceAfter=No
-30	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n\n
+28	Spiel	Spiel	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	29	obj	_	_
+29	tut	tun	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+30	.	.	PUNCT	$.	_	15	punct	_	_
 
 # newpar
 # sent_id = 29
@@ -766,71 +766,71 @@
 6	verlieren	verlieren	VERB	VVINF	VerbForm=Inf	0	root	_	_
 7	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	14	cc	_	_
 8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	Verwendung	Verwendung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	nsubj:pass	_	Entity=(e43-entity-9)
+9	Verwendung	Verwendung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	nsubj:pass	_	_
 10	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	14	aux:pass	_	_
 11	mit	mit	ADP	ADJA	Case=Nom|Gender=Fem|Number=Plur	13	case	_	_
 12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
-14	nachlassen	nachlassen	VERB	VVINF	VerbForm=Inf	6	conj	_	SpaceAfter=No
-15	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+14	nachlassen	nachlassen	VERB	VVINF	VerbForm=Inf	6	conj	_	_
+15	.	.	PUNCT	$.	_	6	punct	_
 
 # newpar
 # sent_id = 30
 # text = Aufgrund von Pokemons Erfolg wird es jedoch mehr Spiele geben, die Apps und virtuelle Realität mit dem Aktivwerden in der realen Welt vereinen werden und dabei vielen Leuten auf der Jagd helfen werden, aktiver, fitter und gesünder zu sein.
 1	Aufgrund	aufgrund	ADP	ADV	_	3	case	_	_
 2	von	von	ADP	FM	Foreign=Yes	3	case	_	_
-3	Pokemons	Pokemons	PROPN	FM	Foreign=Yes	10	obl	_	Entity=(e1)
+3	Pokemons	Pokemons	PROPN	FM	Foreign=Yes	10	obl	_	_
 4	Erfolg	Erfolg	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	3	flat	_	_
 5	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
 7	jedoch	jedoch	ADV	ADV	_	10	advmod	_	_
-8	mehr	mehr	ADV	ADV	_	10	advmod	_	_
-9	Spiele	Spiel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	_
-10	geben	geben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	mehr	mehr	ADV	ADV	_	10	advmod	_	Entity=(e20-entity-8)
+9	Spiele	Spiel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	10	obj	_	Entity=(e20-entity-9)
+10	geben	geben	VERB	VVINF	VerbForm=Inf	0	root	_	_
 11	,	,	PUNCT	$,	_	13	punct	_	_
-12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
-13	Apps	Apps	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	Entity=(e40)
+12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	Entity=(e20-entity-12)
+13	Apps	Apps	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	_
 14	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	16	cc	_	_
 15	virtuelle	virtuell	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	16	amod	_	_
 16	Realität	Realität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	conj	_	_
 17	mit	mit	ADP	$(	_	19	case	_	_
 18	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
-19	Aktivwerden	Aktivwerde	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	24	obl	_	Entity=(e37)
+19	Aktivwerden	Aktivwerde	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	24	obl	_	_
 20	in	in	ADP	APPR	_	23	case	_	_
 21	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 22	realen	real	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	23	amod	_	_
-23	Welt	Welt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	nmod	_	Entity=(e5)
-24	vereinen	vereinen	VERB	ADJA	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	_
+23	Welt	Welt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	nmod	_	_
+24	vereinen	vereinen	VERB	ADJA	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	Entity=(e21-entity-24)
 25	werden	werden	AUX	NE	Case=Acc|Number=Plur	24	aux:pass	_	_
 26	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	33	cc	_	_
-27	dabei	dabei	ADV	PAV	_	33	advmod	_	_
+27	dabei	dabei	ADV	PAV	_	33	advmod	_	Entity=(e21-entity-27)
 28	vielen	viel	DET	PIAT	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	29	amod	_	_
 29	Leuten	Leute	NOUN	NN	Case=Dat|Number=Plur	33	iobj	_	_
 30	auf	auf	ADP	APPR	_	32	case	_	_
 31	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
-32	Jagd	Jagd	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	33	obl	_	Entity=(e2)
+32	Jagd	Jagd	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	33	obl	_	_
 33	helfen	helfen	VERB	VVINF	VerbForm=Inf	10	conj	_	_
-34	werden	werden	AUX	NE	Case=Gen|Gender=Masc|Number=Plur	33	aux:pass	_	SpaceAfter=No
+34	werden	werden	AUX	NE	Case=Gen|Gender=Masc|Number=Plur	33	aux:pass	_	_
 35	,	,	PUNCT	$,	_	36	punct	_	_
-36	aktiver	aktiv	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Plur	10	xcomp	_	SpaceAfter=No
+36	aktiver	aktiv	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Plur	10	xcomp	_	_
 37	,	,	PUNCT	$,	_	38	punct	_	_
 38	fitter	fitt	ADJ	NE	Case=Nom|Gender=Masc|Number=Sing	36	conj	_	_
 39	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	40	cc	_	_
 40	gesünder	gesünd	ADJ	ADV	_	36	conj	_	_
 41	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	36	mark	_	_
-42	sein	sein	AUX	VAINF	VerbForm=Inf	36	cop	_	SpaceAfter=No
-43	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
+42	sein	sein	AUX	VAINF	VerbForm=Inf	36	cop	_	_
+43	.	.	PUNCT	$.	_	10	punct	_
 
 # newpar
 # sent_id = 31
 # text = Lesen Sie Dr. Joes Blog auf www.drjoetoday.com
 1	Lesen	Lesen	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	2	dep	_	_
-2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	Entity=(e44-entity-2)
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
 3	Dr.	Dr.	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
-4	Joes	Joes	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	Entity=(e45-entity-4)
-5	Blog	Blog	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	Entity=(e46-entity-5)
+4	Joes	Joes	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	_
+5	Blog	Blog	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	flat	_	_
 6	auf	auf	ADP	APPR	_	7	case	_	_
-7	www.drjoetoday.com	www.drjoetoday.com	PROPN	NE	_	0	root	_	SpacesAfter=\n\n|Entity=(e47-entity-7)
+7	www.drjoetoday.com	www.drjoetoday.com	PROPN	NE	_	0	root	_
 
 
 

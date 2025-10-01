@@ -3,30 +3,30 @@
 # newpar
 # sent_id = 1
 # text = Assistenzärzte möchten weitere Streiks organisieren, nachdem sie Jeremy Hunts Vorschlag abgelehnt haben
-1	Assistenzärzte	Assistenzarzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	Entity=(e1-entity-1)
+1	Assistenzärzte	Assistenzarzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 2	möchten	mögen	AUX	ADJA	Case=Acc|Gender=Masc|Number=Sing	5	aux	_	_
 3	weitere	weit	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	4	amod	_	_
 4	Streiks	Streik	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
-5	organisieren	organisieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	organisieren	organisieren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	,	,	PUNCT	$,	_	12	punct	_	_
 7	nachdem	nachdem	SCONJ	CARD	NumType=Card	12	mark	_	_
-8	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	Entity=(e1)
-9	Jeremy	Jeremy	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	Entity=(e2-entity-9)
+8	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
+9	Jeremy	Jeremy	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	Entity=(e13-entity-9)
 10	Hunts	Hunts	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	_
-11	Vorschlag	Vorschlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	Entity=(e3-entity-11)
+11	Vorschlag	Vorschlag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	Entity=(e14-entity-11)
 12	abgelehnt	ablehnen	VERB	VVPP	VerbForm=Part	5	advcl	_	_
-13	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpacesAfter=\n\n
+13	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_
 
 # newpar
 # sent_id = 2
 # text = Die Minister hatten gehofft, den Streit über die Änderungen durch Annahme eines reformierten Vertrages mit den Funktionären der British Medical Association beenden zu können, aber 58 Prozent der 37.000 Assistenzärzte, die bei einer Wahl abstimmten, lehnten ihn ab.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	Minister	Minister	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	Entity=(e4-entity-2)
+2	Minister	Minister	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 3	hatten	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
-4	gehofft	hoffen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+4	gehofft	hoffen	VERB	VVPP	VerbForm=Part	0	root	_	_
 5	,	,	PUNCT	$,	_	23	punct	_	_
 6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	Streit	Streit	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	23	obj	_	Entity=(e5-entity-7)
+7	Streit	Streit	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
 8	über	über	ADP	FM	Foreign=Yes	10	case	_	_
 9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
 10	Änderungen	Änderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	nmod	_	_
@@ -34,37 +34,37 @@
 12	Annahme	Annahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	_
 13	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 14	reformierten	reformiert	ADJ	NN	Case=Gen|Gender=Fem|Number=Sing	15	amod	_	_
-15	Vertrages	Vertrag	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	Entity=(e3)
+15	Vertrages	Vertrag	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
 16	mit	mit	ADP	$(	_	18	case	_	_
 17	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
-18	Funktionären	Funktionär	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	Entity=(e6-entity-18)
+18	Funktionären	Funktionär	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	_
 19	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 20	British	British	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	22	amod	_	_
 21	Medical	Medical	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	22	amod	_	_
-22	Association	Association	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	Entity=(e7-entity-22)
+22	Association	Association	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
 23	beenden	beenden	VERB	VVINF	VerbForm=Inf	4	xcomp	_	_
 24	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	23	mark	_	_
-25	können	können	AUX	VMINF	VerbForm=Inf	23	aux	_	SpaceAfter=No
+25	können	können	AUX	VMINF	VerbForm=Inf	23	aux	_	_
 26	,	,	PUNCT	$,	_	40	punct	_	_
 27	aber	aber	CCONJ	KON	_	40	cc	_	_
 28	58	58	NUM	CARD	NumType=Card	29	nummod	_	_
-29	Prozent	Prozent	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	40	nsubj	_	Entity=(e1)
+29	Prozent	Prozent	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	40	nsubj	_	_
 30	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 31	37.000	37.000	NUM	CARD	NumType=Card	32	nummod	_	_
-32	Assistenzärzte	Assistenzarzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	29	nsubj	_	SpaceAfter=No|Entity=(e8-entity-32)
+32	Assistenzärzte	Assistenzarzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	29	nsubj	_	Entity=(e10-entity-32)
 33	,	,	PUNCT	$,	_	38	punct	_	_
-34	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	38	nsubj	_	_
+34	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	38	nsubj	_	Entity=(e10-entity-34)
 35	bei	bei	ADP	APPR	_	37	case	_	_
 36	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	Wahl	Wahl	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	38	obl	_	_
-38	abstimmten	abstimmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	32	acl	_	SpaceAfter=No
+38	abstimmten	abstimmen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	32	acl	_	_
 39	,	,	PUNCT	$,	_	38	punct	_	_
 40	lehnten	lehnen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
-41	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	obj	_	Entity=(e3)
-42	ab	ab	ADP	PTKVZ	_	40	compound:prt	_	SpaceAfter=No
-43	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+41	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	40	obj	_	Entity=(e14-entity-41)
+42	ab	ab	ADP	PTKVZ	_	40	compound:prt	_	_
+43	.	.	PUNCT	$.	_	4	punct	_	_
 
-# newpar	1	--	_	_	_	_	_	_
+# newpar	--				_
 # sent_id = 3
 # text = Im Juli hatte Hunt Pläne enthüllt, den Vertrag zwangsweise einzuführen und sagte, dass die NHS sich in einem "Niemandsland" befände und jede weitere Verzögerung für die Mitarbeiter und Patienten schädlich wäre.
 1-2	Im	_	_	_	_	_	_	_
@@ -72,25 +72,25 @@
 2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	Juli	Juli	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	_
 4	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
-5	Hunt	Hunt	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	Entity=(e2)
-6	Pläne	Plan	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	Entity=(e9-entity-6)
-7	enthüllt	enthüllen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	Hunt	Hunt	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	Pläne	Plan	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+7	enthüllt	enthüllen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	,	,	PUNCT	$,	_	12	punct	_	_
 9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	Vertrag	Vertrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	Entity=(e3)
+10	Vertrag	Vertrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
 11	zwangsweise	zwangsweise	ADV	ADV	_	12	advmod	_	_
 12	einzuführen	einführen	VERB	VVIZU	VerbForm=Inf	7	conj	_	_
 13	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	14	cc	_	_
-14	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	SpaceAfter=No
+14	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
 15	,	,	PUNCT	$,	_	25	punct	_	_
 16	dass	dass	SCONJ	KOUS	_	25	mark	_	_
 17	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	NHS	NHS	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	Entity=(e10-entity-18)
+18	NHS	NHS	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
 19	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	25	obj	_	_
 20	in	in	ADP	APPR	_	23	case	_	_
 21	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	23	det	_	_
-22	"	"	PUNCT	$(	_	23	punct	_	SpaceAfter=No
-23	Niemandsland	Niemandsland	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	25	obl	_	SpaceAfter=No
+22	"	"	PUNCT	$(	_	23	punct	_	_
+23	Niemandsland	Niemandsland	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	25	obl	_	_
 24	"	"	PUNCT	$(	_	23	punct	_	_
 25	befände	befänd	ADJ	NN	Case=Dat|Gender=Neut|Number=Sing	14	ccomp	_	_
 26	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	35	cc	_	_
@@ -99,33 +99,33 @@
 29	Verzögerung	verzögerung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	35	nsubj	_	_
 30	für	für	ADP	APPR	_	32	case	_	_
 31	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
-32	Mitarbeiter	Mitarbeiter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	35	nmod	_	Entity=(e11-entity-32)
+32	Mitarbeiter	Mitarbeiter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	35	nmod	_	_
 33	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	34	cc	_	_
 34	Patienten	Patient	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	32	conj	_	_
 35	schädlich	schädlich	ADJ	ADJD	_	25	conj	_	_
-36	wäre	sein	AUX	NN	Foreign=Yes	35	cop	_	SpaceAfter=No
-37	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+36	wäre	sein	AUX	NN	Foreign=Yes	35	cop	_	_
+37	.	.	PUNCT	$.	_	7	punct	_	_
 
 # newpar
 # sent_id = 4
 # text = Die ersten Assistenzärzte sollen einen neuen Vertrag erhalten, der Änderungen zu Nacht- und Wochenendarbeiten enthält, um die Pflege zu ungastlichen Uhrzeiten zu verbessern.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
 2	ersten	erst	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	3	amod	_	_
-3	Assistenzärzte	Assistenzarzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	Entity=(e12-entity-3)
+3	Assistenzärzte	Assistenzarzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
 4	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	neuen	neu	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
-7	Vertrag	Vertrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
-8	erhalten	erhalten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+7	Vertrag	Vertrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	Entity=(e1-entity-7)
+8	erhalten	erhalten	VERB	VVPP	VerbForm=Part	0	root	_	_
 9	,	,	PUNCT	$,	_	17	punct	_	_
-10	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	Entity=(e1-entity-10)
 11	Änderungen	Änderung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	_
 12	zu	zu	ADP	NE	Case=Nom|Gender=Masc|Number=Sing	13	case	_	_
-13	Nacht	Nacht	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+13	Nacht	Nacht	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	17	obl	_	_
 14	-	-	PUNCT	$(	_	16	punct	_	_
 15	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	16	cc	_	_
 16	Wochenendarbeiten	Wochenendarbeit	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_
-17	enthält	enthalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	SpaceAfter=No
+17	enthält	enthalten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
 18	,	,	PUNCT	$,	_	26	punct	_	_
 19	um	um	ADP	KOUI	_	26	mark	_	_
 20	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
@@ -134,64 +134,64 @@
 23	ungastlichen	ungastlich	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	24	amod	_	_
 24	Uhrzeiten	Uhrzeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	_
 25	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	26	mark	_	_
-26	verbessern	verbessern	VERB	VVINF	VerbForm=Inf	17	advcl	_	SpaceAfter=No
-27	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\n
+26	verbessern	verbessern	VERB	VVINF	VerbForm=Inf	17	advcl	_	_
+27	.	.	PUNCT	$.	_	8	punct	_
 
-# newpar	1	--	_	_	_	_	_	_
+# newpar	--	_
 # sent_id = 5
 # text = Dr Ellen McCourt, die Vorsitzende des BMA Kommittees für Assistenzärzte teilte letzte Nacht in einer Mitteilung mit: "Assistenzärzte haben zu dem vorgeschlagenen Vertrag nach wie vor ernsthafte Bedenken, insbesondere, dass es die derzeitige Belegschaftskrise anheizen und es verabsäumen wird, alle Ärzte gerecht zu behandeln."
 1	Dr	dr	PROPN	NE	Case=Nom|Number=Sing	12	nsubj	_	_
-2	Ellen	Ellen	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	Entity=(e13-entity-2)
-3	McCourt	McCourt	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	1	flat	_	SpaceAfter=No
+2	Ellen	Ellen	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	_
+3	McCourt	McCourt	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	1	flat	_	_
 4	,	,	PUNCT	$,	_	6	punct	_	_
 5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	Vorsitzende	Vorsitzende	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
 7	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
-8	BMA	BMA	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nmod	_	Entity=(e7)
-9	Kommittees	Kommittees	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	8	flat	_	Entity=(e14-entity-9)
+8	BMA	BMA	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nmod	_	_
+9	Kommittees	Kommittees	PROPN	NN	Case=Gen|Gender=Neut|Number=Sing	8	flat	_	_
 10	für	für	ADP	APPR	_	11	case	_	_
-11	Assistenzärzte	Assistenzarzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	Entity=(e15-entity-11)
+11	Assistenzärzte	Assistenzarzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	_
 12	teilte	teilt	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	14	amod	_	_
 13	letzte	letzt	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	14	amod	_	_
 14	Nacht	Nacht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	obj	_	_
 15	in	in	ADP	APPR	_	17	case	_	_
 16	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	Mitteilung	Mitteilung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	_
-18	mit	mit	ADP	$(	_	22	mark	_	SpaceAfter=No
+18	mit	mit	ADP	$(	_	22	mark	_	_
 19	:	:	PUNCT	$.	_	22	punct	_	_
-20	"	"	PUNCT	$(	_	22	punct	_	SpaceAfter=No
-21	Assistenzärzte	Assistenzarzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	Entity=(e15)
+20	"	"	PUNCT	$(	_	22	punct	_	_
+21	Assistenzärzte	Assistenzarzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	22	nsubj	_	_
 22	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 23	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	26	case	_	_
 24	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 25	vorgeschlagenen	vorgeschlagen	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	26	amod	_	_
-26	Vertrag	Vertrag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	22	obl	_	Entity=(e3)
+26	Vertrag	Vertrag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	22	obl	_	Entity=(e12-entity-26)
 27	nach	nach	ADP	CARD	_	22	compound:prt	_	_
 28	wie	wie	CCONJ	NE	Case=Dat|Gender=Masc|Number=Sing	31	cc	_	_
 29	vor	vor	ADP	NE	Case=Nom|Gender=Masc|Number=Sing	31	case	_	_
 30	ernsthafte	ernsthaft	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	31	amod	_	_
-31	Bedenken	Bedenken	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	40	obl	_	SpaceAfter=No
+31	Bedenken	Bedenken	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	40	obl	_	_
 32	,	,	PUNCT	$,	_	33	punct	_	_
-33	insbesondere	insbesondere	ADV	ADV	_	40	advmod	_	SpaceAfter=No
+33	insbesondere	insbesondere	ADV	ADV	_	40	advmod	_	_
 34	,	,	PUNCT	$,	_	40	punct	_	_
 35	dass	dass	SCONJ	KOUS	_	40	mark	_	_
-36	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	Entity=(e3)
+36	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	40	nsubj	_	Entity=(e12-entity-36)
 37	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	_
 38	derzeitige	derzeitig	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	39	amod	_	_
-39	Belegschaftskrise	Belegschaftskrise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	40	obj	_	Entity=(e16-entity-39)
+39	Belegschaftskrise	Belegschaftskrise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	40	obj	_	_
 40	anheizen	anheizen	VERB	NN	Case=Acc|Gender=Fem|Number=Plur	22	conj	_	_
 41	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	43	cc	_	_
-42	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	43	obj	_	_
+42	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	43	obj	_	Entity=(e12-entity-42)
 43	verabsäumen	verabsäumen	VERB	VVINF	VerbForm=Inf	22	conj	_	_
-44	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	SpaceAfter=No
+44	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	_
 45	,	,	PUNCT	$,	_	50	punct	_	_
 46	alle	alle	PRON	PIAT	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	47	det	_	_
 47	Ärzte	Arzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	50	obj	_	_
 48	gerecht	rechen	ADJ	ADJD	_	50	advmod	_	_
 49	zu	zu	PART	NN	Case=Nom|Number=Plur	50	mark	_	_
-50	behandeln	behandeln	VERB	VVINF	VerbForm=Inf	22	xcomp	_	SpaceAfter=No
-51	.	.	PUNCT	$.	_	22	punct	_	SpaceAfter=No
-52	"	"	PUNCT	$(	_	22	punct	_	SpacesAfter=\n\n
+50	behandeln	behandeln	VERB	VVINF	VerbForm=Inf	22	xcomp	_	_
+51	.	.	PUNCT	$.	_	22	punct	_	_
+52	"	"	PUNCT	$(	_	22	punct	_
 
 # newpar
 # sent_id = 6
@@ -199,23 +199,23 @@
 1	Bei	bei	ADP	APPR	_	4	case	_	_
 2	nur	nur	ADV	CARD	_	3	advmod	_	_
 3	acht	acht	NUM	CARD	NumType=Card	4	nummod	_	_
-4	Wochen	Woche	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	29	obl	_	SpaceAfter=No
+4	Wochen	Woche	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	29	obl	_	Entity=(e2-entity-4)
 5	,	,	PUNCT	$,	_	8	punct	_	_
-6	die	der	PRON	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	nsubj	_	_
+6	die	der	PRON	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	nsubj	_	Entity=(e2-entity-6)
 7	noch	noch	ADV	NE	Case=Nom|Gender=Fem|Number=Sing	8	advmod	_	_
-8	verbleiben	verbleiben	VERB	VVINF	VerbForm=Inf	4	acl	_	SpaceAfter=No
+8	verbleiben	verbleiben	VERB	VVINF	VerbForm=Inf	4	acl	_	_
 9	,	,	PUNCT	$,	_	20	punct	_	_
 10	bis	bis	SCONJ	KOUS	_	20	mark	_	_
 11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 12	erste	erst	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	13	amod	_	_
-13	Gruppe	Gruppe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	Entity=(e12)
+13	Gruppe	Gruppe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
 14	von	von	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	15	case	_	_
 15	Ärzten	Arzt	NOUN	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	nmod	_	_
 16	unter	unter	ADP	ADJD	_	19	case	_	_
 17	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 18	neuen	neu	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	19	amod	_	_
-19	Vertrag	Vertrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obl	_	Entity=(e3)
-20	fallen	fallen	VERB	VVINF	VerbForm=Inf	24	advcl	_	SpaceAfter=No
+19	Vertrag	Vertrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_
+20	fallen	fallen	VERB	VVINF	VerbForm=Inf	24	advcl	_	_
 21	,	,	PUNCT	$,	_	20	punct	_	_
 22	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
 23	Fortschritte	Fortschritte	NOUN	ADJA	Case=Nom|Gender=Fem|Number=Sing	24	nsubj:pass	_	_
@@ -225,8 +225,8 @@
 27	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
 28	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	29	obj	_	_
 29	läuft	laufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-30	aus	aus	ADP	PTKVZ	_	29	compound:prt	_	SpaceAfter=No
-31	.	.	PUNCT	$.	_	29	punct	_	SpacesAfter=\n\n
+30	aus	aus	ADP	PTKVZ	_	29	compound:prt	_	_
+31	.	.	PUNCT	$.	_	29	punct	_
 
 # newpar
 # sent_id = 7
@@ -234,19 +234,19 @@
 1	Bemühungen	Bemühung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
 2	seitens	seitens	ADP	ADJD	_	4	case	_	_
 3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
-4	BMA	BMA	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	Entity=(e7)
+4	BMA	BMA	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	1	nmod	_	_
 5-6	zur	_	_	_	_	_	_	_
 5	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	7	case	_	_
 6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Lösung	Lösung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	_
 8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
-9	Streitigkeiten	Streitigkeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	Entity=(e5)
+9	Streitigkeiten	Streitigkeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
 10	durch	durch	ADP	APPR	_	11	case	_	_
 11	Gespräche	Gespräch	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	7	nmod	_	_
 12	stießen	stoßen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 13	bei	bei	ADP	APPR	_	15	case	_	_
 14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	Regierung	Regierung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	Entity=(e17-entity-15)
+15	Regierung	Regierung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
 16	auf	auf	ADP	APPR	_	17	case	_	_
 17	Widerwillen	Widerwille	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	15	nmod	_	_
 18	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	20	obj	_	_
@@ -256,8 +256,8 @@
 22	manchmal	manchmal	ADV	ADV	_	25	advmod	_	_
 23	auf	auf	ADP	APPR	_	25	case	_	_
 24	ohrenbetäubendes	ohrenbetäubend	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	25	amod	_	_
-25	Schweigen	schweige	NOUN	VVINF	VerbForm=Inf	20	conj	_	SpaceAfter=No
-26	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
+25	Schweigen	schweige	NOUN	VVINF	VerbForm=Inf	20	conj	_	_
+26	.	.	PUNCT	$.	_	12	punct	_	_
 
 # newpar
 # sent_id = 8
@@ -266,81 +266,81 @@
 2	geschah	geschehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 4	eines	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
-5	Versprechens	Versprechen	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	14	iobj	_	SpaceAfter=No|Entity=(e18-entity-5)
+5	Versprechens	Versprechen	NOUN	NN	Case=Gen|Gender=Neut|Number=Sing	14	iobj	_	Entity=(e3-entity-5)
 6	,	,	PUNCT	$,	_	14	punct	_	_
-7	das	der	DET	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	12	det	_	_
-8	Jeremy	Jeremy	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	amod	_	Entity=(e2)
+7	das	der	DET	PRELS	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	12	det	_	Entity=(e3-entity-7)
+8	Jeremy	Jeremy	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	amod	_	Entity=(e13-entity-8)
 9	Hunt	Hunt	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	8	flat	_	_
 10	erst	erst	ADV	ADV	_	11	advmod	_	_
 11	letzten	letzt	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	12	amod	_	_
 12	Monat	Monat	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	14	obj	_	_
 13	darüber	darüber	ADV	PAV	_	14	advmod	_	_
 14	gemacht	machen	VERB	VVPP	VerbForm=Part	2	ccomp	_	_
-15	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	SpaceAfter=No
+15	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	_
 16	,	,	PUNCT	$,	_	21	punct	_	_
 17	dass	dass	SCONJ	KOUS	_	21	mark	_	_
-18	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	19	det:poss	_	_
+18	seine	sein	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	19	det:poss	_	Entity=(e13-entity-18)
 19	Tür	Tür	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
 20	immer	immer	ADV	ADV	_	21	advmod	_	_
 21	offenstehen	offenstehen	VERB	VVINF	VerbForm=Inf	14	ccomp	_	_
-22	würde	werden	AUX	NE	Case=Nom|Number=Sing	21	aux	_	SpaceAfter=No
-23	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+22	würde	werden	AUX	NE	Case=Nom|Number=Sing	21	aux	_	_
+23	.	.	PUNCT	$.	_	2	punct	_
 
-# newpar	1	--	_	_	_	_	_	_
-# sent_id = 9	1	&quot;	_	_	_	_	_	_
+# newpar	--	_
+# sent_id = 9	&quot;							_
 # text = "Jeremy Hunt muss jetzt handeln, die Aufzwingung aufheben und die Sorgen der Assistenzärzte ansprechen".
-1	"	"	PUNCT	$(	_	2	punct	SpaceAfter=No
-2	Jeremy	Jeremy	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Entity=(e2)
+1	"	"	PUNCT	$(	_	2	punct	_
+2	Jeremy	Jeremy	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Entity=(e13-entity-2)
 3	Hunt	Hunt	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
 4	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 5	jetzt	jetzt	ADV	ADV	_	6	advmod	_	_
-6	handeln	handeln	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|Entity=(e19-entity-6)
+6	handeln	handeln	VERB	VVINF	VerbForm=Inf	0	root	_	Entity=(e6-entity-6)
 7	,	,	PUNCT	$,	_	10	punct	_	_
 8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	Aufzwingung	Aufzwingung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	Entity=(e9)
+9	Aufzwingung	Aufzwingung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
 10	aufheben	aufheben	VERB	VVINF	VerbForm=Inf	6	conj	_	_
 11	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	16	cc	_	_
 12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
 13	Sorgen	Sorge|Sorgen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
 14	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	Assistenzärzte	Assistenzarzt	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	nmod	_	Entity=(e15)
-16	ansprechen	ansprechen	VERB	VVINF	VerbForm=Inf	6	conj	_	SpaceAfter=No
-17	"	"	PUNCT	$(	_	6	punct	_	SpaceAfter=No
-18	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+15	Assistenzärzte	Assistenzarzt	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	13	nmod	_	_
+16	ansprechen	ansprechen	VERB	VVINF	VerbForm=Inf	6	conj	_	_
+17	"	"	PUNCT	$(	_	6	punct	_	_
+18	.	.	PUNCT	$.	_	6	punct	_
 
 # newpar
 # sent_id = 10
 # text = Sollte er dies nicht tun, so haben es die Assistenzärzte deutlich gemacht, dass sie bereit sind, weitere Arbeitskampfmaßnahmen durchzuführen.
 1	Sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
-2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Entity=(e2)
-3	dies	dies	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	obj	_	Entity=(e19)
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Entity=(e13-entity-2)
+3	dies	dies	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	obj	_	Entity=(e6-entity-3)
 4	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advmod	_	_
-5	tun	tun	VERB	VVINF	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
+5	tun	tun	VERB	VVINF	VerbForm=Inf	13	xcomp	_	_
 6	,	,	PUNCT	$,	_	8	punct	_	_
 7	so	so	ADV	NE	Case=Nom|Gender=Neut|Number=Plur	8	advmod	_	_
 8	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
 9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
-11	Assistenzärzte	Assistenzarzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	Entity=(e15)
+11	Assistenzärzte	Assistenzarzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	Entity=(e7-entity-11)
 12	deutlich	deutlich	ADJ	ADJD	_	8	advmod	_	_
-13	gemacht	machen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+13	gemacht	machen	VERB	VVPP	VerbForm=Part	0	root	_	_
 14	,	,	PUNCT	$,	_	17	punct	_	_
 15	dass	dass	SCONJ	KOUS	_	17	mark	_	_
-16	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	Entity=(e15)
+16	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	Entity=(e7-entity-16)
 17	bereit	bereit	ADJ	ADJD	_	13	ccomp	_	_
-18	sind	sein	AUX	ADJD	_	17	cop	_	SpaceAfter=No
+18	sind	sein	AUX	ADJD	_	17	cop	_	_
 19	,	,	PUNCT	$,	_	22	punct	_	_
 20	weitere	weit	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	21	amod	_	_
 21	Arbeitskampfmaßnahmen	Arbeitskampfmaßnahmen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	22	obj	_	_
-22	durchzuführen	durchführen	VERB	VVIZU	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
-23	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n\n
+22	durchzuführen	durchführen	VERB	VVIZU	VerbForm=Inf	17	xcomp	_	_
+23	.	.	PUNCT	$.	_	13	punct	_
 
 # newpar
 # sent_id = 11
 # text = Der letzte Streik Ende April sah einen Aufschub von beinahe 13.000 Routineoperationen und 100.000 Terminen vor, da Krankenschwestern und Fachärzte einbezogen wurden, um Ärzten auf der Streikpostenkette Deckung zu gewähren.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	letzte	letzt	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	3	amod	_	_
-3	Streik	Streik	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Entity=(e20-entity-3)
+3	Streik	Streik	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 4	Ende	Ende	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	_
 5	April	April	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	3	appos	_	_
 6	sah	sehen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -353,35 +353,35 @@
 13	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	15	cc	_	_
 14	100.000	100.000	NUM	CARD	NumType=Card	15	nummod	_	_
 15	Terminen	Termin	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	conj	_	_
-16	vor	vor	ADP	NE	Case=Acc|Gender=Fem|Number=Sing	6	compound:prt	_	SpaceAfter=No
+16	vor	vor	ADP	NE	Case=Acc|Gender=Fem|Number=Sing	6	compound:prt	_	_
 17	,	,	PUNCT	$,	_	22	punct	_	_
 18	da	da	SCONJ	KOUS	_	22	mark	_	_
 19	Krankenschwestern	Krankenschwester	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	22	nsubj:pass	_	_
 20	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	21	cc	_	_
 21	Fachärzte	Facharzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	19	conj	_	_
 22	einbezogen	einbeziehen	VERB	VVPP	VerbForm=Part	6	advcl	_	_
-23	wurden	werden	AUX	NE	Foreign=Yes	22	aux:pass	_	SpaceAfter=No
+23	wurden	werden	AUX	NE	Foreign=Yes	22	aux:pass	_	_
 24	,	,	PUNCT	$,	_	32	punct	_	_
 25	um	um	ADP	KOUI	_	32	mark	_	_
 26	Ärzten	Arzt	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	32	iobj	_	_
 27	auf	auf	ADP	APPR	_	29	case	_	_
 28	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	Streikpostenkette	Streikpostenkette	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	32	obl	_	Entity=(e21-entity-29)
+29	Streikpostenkette	Streikpostenkette	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	32	obl	_	_
 30	Deckung	Deckung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	32	obj	_	_
 31	zu	zu	PART	NE	Case=Gen|Gender=Neut|Number=Sing	32	mark	_	_
-32	gewähren	währen	VERB	VVINF	VerbForm=Inf	22	advcl	_	SpaceAfter=No
-33	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+32	gewähren	währen	VERB	VVINF	VerbForm=Inf	22	advcl	_	_
+33	.	.	PUNCT	$.	_	6	punct	_
 
 # newpar
 # sent_id = 12
 # text = Die Minister hatten gehofft, den Streit über die Änderungen durch eine Annahme des reformierten Vertrages mit den Funktionären der British Medical Association beenden zu können.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	Minister	Minister	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	Entity=(e4)
+2	Minister	Minister	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 3	hatten	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
-4	gehofft	hoffen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+4	gehofft	hoffen	VERB	VVPP	VerbForm=Part	0	root	_	_
 5	,	,	PUNCT	$,	_	24	punct	_	_
 6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	Streit	Streit	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	24	obj	_	Entity=(e5)
+7	Streit	Streit	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
 8	über	über	ADP	FM	Foreign=Yes	10	case	_	_
 9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
 10	Änderungen	Änderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	24	obl	_	_
@@ -390,24 +390,24 @@
 13	Annahme	Annahme	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	_
 14	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 15	reformierten	reformiert	ADJ	NN	Case=Gen|Gender=Fem|Number=Sing	16	amod	_	_
-16	Vertrages	Vertrag	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	Entity=(e3)
+16	Vertrages	Vertrag	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
 17	mit	mit	ADP	$(	_	19	case	_	_
 18	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
-19	Funktionären	Funktionär	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	Entity=(e6)
+19	Funktionären	Funktionär	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	_
 20	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 21	British	British	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	23	amod	_	_
 22	Medical	Medical	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	23	amod	_	_
-23	Association	Association	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	Entity=(e7)
+23	Association	Association	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
 24	beenden	beenden	VERB	ADJA	Case=Gen|Gender=Fem|Number=Sing	4	xcomp	_	_
 25	zu	zu	PART	NN	Case=Gen|Gender=Fem|Number=Plur	24	mark	_	_
-26	können	können	AUX	VMINF	VerbForm=Inf	24	aux	_	SpaceAfter=No
-27	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+26	können	können	AUX	VMINF	VerbForm=Inf	24	aux	_	_
+27	.	.	PUNCT	$.	_	4	punct	_
 
 # newpar
 # sent_id = 13
 # text = Die BMA möchte eine bessere Wochendentlohnung für die 54.000 Assistenzärzte, die dem Vertrag unterliegen werden.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	BMA	BMA	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	Entity=(e7)
+2	BMA	BMA	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
 3	möchte	mögen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
 4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	bessere	gut	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	_
@@ -415,76 +415,76 @@
 7	für	für	ADP	APPR	_	10	case	_	_
 8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
 9	54.000	54.000	NUM	CARD	NumType=Card	10	nummod	_	_
-10	Assistenzärzte	Assistenzarzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No|Entity=(e15)
+10	Assistenzärzte	Assistenzarzt	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	Entity=(e8-entity-10)
 11	,	,	PUNCT	$,	_	15	punct	_	_
-12	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	15	nsubj:pass	_	_
+12	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	15	nsubj:pass	_	Entity=(e8-entity-12)
 13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	Vertrag	Vertrag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	iobj	_	Entity=(e3)
+14	Vertrag	Vertrag	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	iobj	_	_
 15	unterliegen	unterliegen	VERB	VVINF	VerbForm=Inf	10	acl	_	_
-16	werden	werden	AUX	NE	Case=Acc|Number=Plur	15	aux:pass	_	SpaceAfter=No
-17	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+16	werden	werden	AUX	NE	Case=Acc|Number=Plur	15	aux:pass	_	_
+17	.	.	PUNCT	$.	_	6	punct	_
 
 # newpar
 # sent_id = 14
 # text = Daniel Mortimer, Generaldirektor der NHS Mitarbeiter, forderte die Assistenzärzte dazu auf, den Streik zu beenden.
-1	Daniel	Daniel	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Entity=(e22-entity-1)
-2	Mortimer	Mortimer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
+1	Daniel	Daniel	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+2	Mortimer	Mortimer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
 3	,	,	PUNCT	$,	_	4	punct	_	_
 4	Generaldirektor	Generaldirektor	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-6	NHS	NHS	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	7	amod	_	Entity=(e10)
-7	Mitarbeiter	Mitarbeiter	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	NHS	NHS	PROPN	NE	Case=Gen|Gender=Fem|Number=Sing	7	amod	_	_
+7	Mitarbeiter	Mitarbeiter	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	_
 8	,	,	PUNCT	$,	_	1	punct	_	_
 9	forderte	fordern	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	det	_	_
-11	Assistenzärzte	Assistenzarzt	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	Entity=(e1)
+11	Assistenzärzte	Assistenzarzt	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	_
 12	dazu	dazu	ADV	PAV	_	9	advmod	_	_
-13	auf	auf	ADP	PTKVZ	_	9	compound:prt	_	SpaceAfter=No
+13	auf	auf	ADP	PTKVZ	_	9	compound:prt	_	_
 14	,	,	PUNCT	$,	_	18	punct	_	_
 15	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	Streik	Streik	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	Entity=(e23-entity-16)
+16	Streik	Streik	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
 17	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	18	mark	_	_
-18	beenden	beenden	VERB	VVINF	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
-19	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
+18	beenden	beenden	VERB	VVINF	VerbForm=Inf	9	xcomp	_	_
+19	.	.	PUNCT	$.	_	9	punct	_
 
-# newpar	1	--	_	_	_	_	_	_
+# newpar	--	_
 # sent_id = 15
 # text = Mortimer sagte: "Arbeitskampfmaßnahmen erreichen nichts der nur wenig, belasten aber bereits überbelastete Teams und Dienstleister und bereiten den Patienten, Pflegern und ihren Familien nur Sorgen, Not und Unterbrechung."
-1	Mortimer	Mortimer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	Entity=(e22)
-2	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+1	Mortimer	Mortimer	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	:	:	PUNCT	$.	_	6	punct	_	_
-4	"	"	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+4	"	"	PUNCT	$(	_	6	punct	_	_
 5	Arbeitskampfmaßnahmen	Arbeitskampfmaßnahmen	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 6	erreichen	erreichen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 7	nichts	nichts	PRON	CARD	NumType=Card	6	obj	_	_
 8	der	der	DET	PRELS	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
 9	nur	nur	ADV	CARD	NumType=Card	10	advmod	_	_
-10	wenig	wenig	ADJ	NN	Case=Acc|Gender=Neut|Number=Sing	12	advmod	_	SpaceAfter=No
+10	wenig	wenig	ADJ	NN	Case=Acc|Gender=Neut|Number=Sing	12	advmod	_	_
 11	,	,	PUNCT	$,	_	12	punct	_	_
 12	belasten	belasten	VERB	VVINF	VerbForm=Inf	16	acl	_	_
 13	aber	aber	ADV	ADV	_	16	advmod	_	_
 14	bereits	bereits	ADV	ADV	_	16	advmod	_	_
 15	überbelastete	überbelastet	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	16	amod	_	_
-16	Teams	Team	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	iobj	_	Entity=(e24-entity-16)
+16	Teams	Team	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	6	iobj	_	_
 17	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	18	cc	_	_
 18	Dienstleister	Dienstleister	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	conj	_	_
 19	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	20	cc	_	_
 20	bereiten	bereiten	VERB	VVINF	VerbForm=Inf	16	conj	_	_
 21	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
-22	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	20	iobj	_	SpaceAfter=No|Entity=(e11)
+22	Patienten	Patient	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	20	iobj	_	_
 23	,	,	PUNCT	$,	_	24	punct	_	_
-24	Pflegern	Pfleger	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	22	conj	_	_
+24	Pflegern	Pfleger	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	22	conj	_	Entity=(e9-entity-24)
 25	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	27	cc	_	_
-26	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	27	det:poss	_	_
+26	ihren	ihr	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	27	det:poss	_	Entity=(e9-entity-26)
 27	Familien	Familie	NOUN	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	conj	_	_
 28	nur	nur	ADV	CARD	_	29	advmod	_	_
-29	Sorgen	Sorge|Sorgen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	20	obj	_	SpaceAfter=No
+29	Sorgen	Sorge|Sorgen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	20	obj	_	_
 30	,	,	PUNCT	$,	_	31	punct	_	_
 31	Not	not	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	29	conj	_	_
 32	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	33	cc	_	_
-33	Unterbrechung	Unterbrechung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	29	conj	_	SpaceAfter=No
-34	.	.	PUNCT	$.	_	6	punct	_	SpaceAfter=No
-35	"	"	PUNCT	$(	_	6	punct	_	SpacesAfter=\n\n
+33	Unterbrechung	Unterbrechung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	29	conj	_	_
+34	.	.	PUNCT	$.	_	6	punct	_	_
+35	"	"	PUNCT	$(	_	6	punct	_
 
 # newpar
 # sent_id = 16
@@ -495,75 +495,75 @@
 4	zwei	zwei	NUM	NN	Case=Dat|Gender=Masc|Number=Plur	5	nummod	_	_
 5	Monaten	Monat	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	obl	_	_
 6	haben	haben	AUX	VAINF	VerbForm=Inf	13	aux	_	_
-7	wir	wir	PRON	ADJD	_	13	nsubj	_	Entity=(e10)
+7	wir	wir	PRON	ADJD	_	13	nsubj	_	_
 8	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
-10	Kommittee	Kommittee	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	iobj	_	Entity=(e14)
+10	Kommittee	Kommittee	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	13	iobj	_	_
 11	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
-12	Assistenzärzte	Assistenzarzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nmod	_	Entity=(e15)
+12	Assistenzärzte	Assistenzarzt	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	10	nmod	_	_
 13	gesprochen	sprechen	VERB	VVPP	VerbForm=Part	0	root	_	_
 14	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	31	cc	_	_
 15	mit	mit	ADP	$(	_	17	case	_	_
 16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
-17	Gesundheitsministerium	Gesundheitsministerium	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	31	obl	_	Entity=(e25-entity-17)
+17	Gesundheitsministerium	Gesundheitsministerium	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	31	obl	_	_
 18	sowie	sowie	CCONJ	NE	Case=Dat|Gender=Neut|Number=Sing	20	cc	_	_
 19	anderen	ander	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Plur	20	amod	_	_
 20	Ministerien	Ministerium	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	17	conj	_	_
 21	positiv	positiv	ADJ	ADJD	_	31	advmod	_	_
 22	auf	auf	ADP	APPR	_	24	case	_	_
 23	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
-24	Bedenken	Bedenken	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	31	obl	_	Entity=(e26-entity-24)
+24	Bedenken	Bedenken	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	31	obl	_	_
 25	hinsichtlich	hinsichtlich	ADP	APPR	_	27	case	_	_
 26	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 27	Vormundschaft	Vormundschaft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	nmod	_	_
 28	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	30	cc	_	_
 29	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	Whistleblowings	Whistleblowings	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	27	conj	_	_
-31	geantwortet	antworten	VERB	VVPP	VerbForm=Part	13	conj	_	SpaceAfter=No
-32	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n\n
+31	geantwortet	antworten	VERB	VVPP	VerbForm=Part	13	conj	_	_
+32	.	.	PUNCT	$.	_	13	punct	_
 
 # newpar
 # sent_id = 17
 # text = Die Arbeitgeber hofften, dass das fortgeführte positive Engagement zu anderen wichtigen Themen - wie Entsendung, Flexibilität bei Schulungen, zusätzliche Schulungen für diejenigen, die von einer beruflichen Auszeit zurückkehren, Schulungsksten, gegenseitige Anerkennung des Lehrplans, Fortbildungsurlaub und das geschlechtsspezifische Lohngefälle in der Medizin - ein Zeichen dafür waren, wie ernst es die Arbeitgeber, das Health Education England und das Gesundheitsministerium bezüglich der Einhaltung der Vereinbarungen mit der BMA im November, Februar und Mai waren.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
-2	Arbeitgeber	Arbeitgeber	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	Entity=(e27-entity-2)
-3	hofften	hoffen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	Arbeitgeber	Arbeitgeber	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	hofften	hoffen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	,	,	PUNCT	$,	_	9	punct	_	_
 5	dass	dass	SCONJ	KOUS	_	9	mark	_	_
 6	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 7	fortgeführte	fortgeführt	ADJ	ADJA	Case=Acc|Gender=Neut|Number=Sing	9	amod	_	_
 8	positive	positiv	ADJ	NN	Case=Acc|Gender=Neut|Number=Plur	9	amod	_	_
-9	Engagement	Engagement	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	ccomp	_	Entity=(e28-entity-9)
+9	Engagement	Engagement	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	ccomp	_	_
 10	zu	zu	ADP	NE	Case=Gen|Gender=Neut|Number=Sing	13	case	_	_
 11	anderen	ander	DET	ADJA	Case=Gen|Gender=Neut|Number=Plur	13	det	_	_
 12	wichtigen	wichtig	ADJ	ADJA	Case=Gen|Gender=Neut|Number=Plur	13	amod	_	_
 13	Themen	Thema	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	9	nmod	_	_
 14	-	-	PUNCT	$(	_	16	punct	_	_
 15	wie	wie	ADP	NN	Case=Gen|Gender=Fem|Number=Sing	16	case	_	_
-16	Entsendung	Entsendung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	Entsendung	Entsendung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nmod	_	_
 17	,	,	PUNCT	$,	_	18	punct	_	_
 18	Flexibilität	Flexibilität	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	conj	_	_
 19	bei	bei	ADP	APPR	_	20	case	_	_
-20	Schulungen	Schulung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	18	nmod	_	SpaceAfter=No
+20	Schulungen	Schulung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	18	nmod	_	_
 21	,	,	PUNCT	$,	_	23	punct	_	_
 22	zusätzliche	zusätzlich	ADJ	KON	_	23	amod	_	_
 23	Schulungen	Schulung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	13	conj	_	_
 24	für	für	ADP	APPR	_	25	case	_	_
-25	diejenigen	diejenigen	PRON	PDS	Case=Acc|Number=Plur|PronType=Dem	23	nmod	_	SpaceAfter=No
+25	diejenigen	diejenigen	PRON	PDS	Case=Acc|Number=Plur|PronType=Dem	23	nmod	_	_
 26	,	,	PUNCT	$,	_	32	punct	_	_
 27	die	der	PRON	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	nsubj	_	_
 28	von	von	ADP	FM	Foreign=Yes	31	case	_	_
 29	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 30	beruflichen	beruflich	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	31	amod	_	_
 31	Auszeit	Auszeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	32	obl	_	_
-32	zurückkehren	zurückkehren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl	_	SpaceAfter=No
+32	zurückkehren	zurückkehren	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	acl	_	_
 33	,	,	PUNCT	$,	_	34	punct	_	_
-34	Schulungsksten	Schulungskst	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
+34	Schulungsksten	Schulungskst	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	13	conj	_	_
 35	,	,	PUNCT	$,	_	37	punct	_	_
 36	gegenseitige	gegenseitig	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	37	amod	_	_
 37	Anerkennung	Anerkennung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	conj	_	_
 38	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
-39	Lehrplans	Lehrplan	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	SpaceAfter=No
+39	Lehrplans	Lehrplan	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
 40	,	,	PUNCT	$,	_	41	punct	_	_
 41	Fortbildungsurlaub	Fortbildungsurlaub	NOUN	NE	Case=Acc|Gender=Masc|Number=Sing	13	conj	_	_
 42	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	45	cc	_	_
@@ -577,39 +577,39 @@
 50	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	51	det	_	_
 51	Zeichen	Zeichen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	45	nmod	_	_
 52	dafür	dafür	PRON	PAV	_	51	nmod	_	_
-53	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	SpaceAfter=No
+53	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
 54	,	,	PUNCT	$,	_	56	punct	_	_
 55	wie	wie	ADV	NE	Case=Nom|Gender=Masc|Number=Sing	56	advmod	_	_
 56	ernst	ernsen	VERB	NE	Case=Nom|Gender=Masc|Number=Sing	3	parataxis	_	_
 57	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	56	nsubj	_	_
 58	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	59	det	_	_
-59	Arbeitgeber	Arbeitgeber	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	56	obj	_	SpaceAfter=No|Entity=(e27)
+59	Arbeitgeber	Arbeitgeber	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	56	obj	_	_
 60	,	,	PUNCT	$,	_	62	punct	_	_
 61	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	62	det	_	_
-62	Health	Health	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	56	conj	_	Entity=(e29-entity-62)
+62	Health	Health	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	56	conj	_	_
 63	Education	Education	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	62	flat	_	_
 64	England	England	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	62	flat	_	_
 65	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	67	cc	_	_
 66	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	67	det	_	_
-67	Gesundheitsministerium	Gesundheitsministerium	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	56	conj	_	Entity=(e25)
+67	Gesundheitsministerium	Gesundheitsministerium	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	56	conj	_	_
 68	bezüglich	bezüglich	ADP	APPR	_	70	case	_	_
 69	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	70	det	_	_
 70	Einhaltung	Einhaltung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	67	nmod	_	_
 71	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	72	det	_	_
-72	Vereinbarungen	Vereinbarung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	70	nmod	_	Entity=(e30-entity-72)
+72	Vereinbarungen	Vereinbarung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	70	nmod	_	_
 73	mit	mit	ADP	$(	_	75	case	_	_
 74	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	75	det	_	_
-75	BMA	BMA	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	70	nmod	_	Entity=(e7)
+75	BMA	BMA	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	70	nmod	_	_
 76-77	im	_	_	_	_	_	_	_
 76	in	in	ADP	APPR	_	78	case	_	_
 77	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	78	det	_	_
-78	November	November	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	70	nmod	_	SpaceAfter=No
+78	November	November	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	70	nmod	_	_
 79	,	,	PUNCT	$,	_	80	punct	_	_
 80	Februar	Februar	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	78	conj	_	_
 81	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	82	cc	_	_
 82	Mai	Mai	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	78	conj	_	_
-83	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	67	cop	_	SpaceAfter=No
-84	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+83	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	67	cop	_	_
+84	.	.	PUNCT	$.	_	3	punct	_
 
 
 

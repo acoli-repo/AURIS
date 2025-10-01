@@ -4,13 +4,13 @@
 # sent_id = 1
 # text = Queensferry Crossing: Brücke nun mit Fife verbunden
 1	Queensferry	Queensferry	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	amod	_	_
-2	Crossing	Crossing	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
+2	Crossing	Crossing	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
 3	:	:	PUNCT	$.	_	4	punct	_	_
-4	Brücke	Brücke	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Entity=(e1-entity-4)
+4	Brücke	Brücke	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 5	nun	nun	ADV	ADV	_	8	advmod	_	_
 6	mit	mit	ADP	ADJA	Case=Nom|Gender=Masc|Number=Plur	7	case	_	_
-7	Fife	Fife	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	obl	_	Entity=(e2-entity-7)
-8	verbunden	verbinden	VERB	VVPP	VerbForm=Part	4	acl	_	SpacesAfter=\n\n
+7	Fife	Fife	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	8	obl	_	_
+8	verbunden	verbinden	VERB	VVPP	VerbForm=Part	4	acl	_
 
 # newpar
 # sent_id = 2
@@ -18,19 +18,19 @@
 1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
 2	£	£	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 3	1,35	1,35	NUM	CARD	NumType=Card	4	nummod	_	_
-4	Mrd	Mrd	NOUN	NN	Abbr=Yes|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	$.	_	4	punct	_	_
+4	Mrd	Mrd	NOUN	NN	Abbr=Yes|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+5	.	.	PUNCT	$.	_	4	punct	_
 
 # sent_id = 3
 # text = teure Projekt soll bis Mai 2017 fertiggestellt werden
 1	teure	teuer	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	2	det:poss	_	_
-2	Projekt	Projekt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	Entity=(e3-entity-2)
+2	Projekt	Projekt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
 3	soll	sollen	AUX	NN	Case=Nom|Gender=Masc|Number=Plur	7	aux	_	_
 4	bis	bis	ADP	APPR	_	5	case	_	_
-5	Mai	Mai	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	Entity=(e4-entity-5)
+5	Mai	Mai	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
 6	2017	2017	NUM	CARD	NumType=Card	5	nmod	_	_
 7	fertiggestellt	fertigstellen	VERB	VVPP	VerbForm=Part	0	root	_	_
-8	werden	werden	AUX	NE	Case=Acc|Number=Plur	7	aux:pass	_	SpacesAfter=\n\n
+8	werden	werden	AUX	NE	Case=Acc|Number=Plur	7	aux:pass	_	_
 
 # newpar
 # sent_id = 4
@@ -38,64 +38,64 @@
 1	Ingenieure	Ingenieur	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
 2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
-4	Norddeck	Norddeck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	Entity=(e5-entity-4)
+4	Norddeck	Norddeck	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
 5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Queensferry	Queensferry	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	Entity=(e1)
+6	Queensferry	Queensferry	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 7	Crossings	Crossings	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	6	flat	_	_
 8	mit	mit	ADP	$(	_	10	case	_	_
 9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
-10	Viadukt	Viadukt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	Entity=(e6-entity-10)
-11	verbunden	verbunden	ADJ	VVPP	VerbForm=Part	0	root	_	Entity=(e7-entity-11)
+10	Viadukt	Viadukt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	_
+11	verbunden	verbunden	ADJ	VVPP	VerbForm=Part	0	root	_	Entity=(e0-entity-11)
 12	-	-	PUNCT	$(	_	13	punct	_	_
-13	was	was	PRON	NE	Foreign=Yes	14	nsubj	_	Entity=(e7)
-14	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	SpaceAfter=No
+13	was	was	PRON	NE	Foreign=Yes	14	nsubj	_	Entity=(e0-entity-13)
+14	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl	_	_
 15	,	,	PUNCT	$,	_	22	punct	_	_
 16	dass	dass	SCONJ	KOUS	_	22	mark	_	_
 17	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	Brücke	Brücke	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	Entity=(e1)
+18	Brücke	Brücke	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
 19	jetzt	jetzt	ADV	ADV	_	22	advmod	_	_
 20	mit	mit	ADP	ADJA	Case=Nom|Gender=Masc|Number=Plur	21	case	_	_
-21	Fife	Fife	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	22	nmod	_	Entity=(e2)
+21	Fife	Fife	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	22	nmod	_	_
 22	verbunden	verbinden	ADJ	VVPP	VerbForm=Part	14	ccomp	_	_
-23	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	22	cop	_	SpaceAfter=No
-24	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n\n
+23	ist	sein	AUX	NN	Case=Gen|Gender=Masc|Number=Plur	22	cop	_	_
+24	.	.	PUNCT	$.	_	11	punct	_
 
-# newpar	1	--	_	_	_	_	_	_
+# newpar	--	_
 # sent_id = 5
 # text = Es ist das erste von vier Verschließungen der "Deckgebläse", die sich der Fertigstellung um jeden der drei Türme der Brücke nähern.
-1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Entity=(e7)
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 4	erste	erst	NOUN	ADJA	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 5	von	von	ADP	NE	Case=Nom|Gender=Neut|Number=Sing	7	case	_	_
 6	vier	vier	NUM	NE	Case=Gen|Gender=Fem|Number=Sing	7	nummod	_	_
-7	Verschließungen	Verschließung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+7	Verschließungen	Verschließung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	Entity=(e1-entity-7)
 8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-9	"	"	PUNCT	$(	_	10	punct	_	SpaceAfter=No
-10	Deckgebläse	Deckgebläse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No|Entity=(e8-entity-10)
-11	"	"	PUNCT	$(	_	10	punct	_	SpaceAfter=No
+9	"	"	PUNCT	$(	_	10	punct	_	_
+10	Deckgebläse	Deckgebläse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	_
+11	"	"	PUNCT	$(	_	10	punct	_	_
 12	,	,	PUNCT	$,	_	24	punct	_	_
-13	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	24	nsubj	_	_
+13	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	24	nsubj	_	Entity=(e1-entity-13)
 14	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	24	obj	_	_
 15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	Fertigstellung	Fertigstellung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	nsubj	_	Entity=(e9-entity-16)
+16	Fertigstellung	Fertigstellung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	nsubj	_	_
 17	um	um	ADP	APPR	_	18	case	_	_
 18	jeden	jed	PRON	PIAT	Case=Gen|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	24	obl	_	_
 19	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
 20	drei	drei	NUM	CARD	NumType=Card	21	nummod	_	_
-21	Türme	Turm	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	Entity=(e10-entity-21)
+21	Türme	Turm	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
 22	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	Brücke	Brücke	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	Entity=(e1)
-24	nähern	nähern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	SpaceAfter=No
-25	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+23	Brücke	Brücke	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+24	nähern	nähern	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	acl	_	_
+25	.	.	PUNCT	$.	_	4	punct	_
 
 # newpar
 # sent_id = 6
 # text = Der Brückenabschnitt von Fife ist jetzt 600 Meter lang und wiegt 30.000 Tonnen.
 1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	Brückenabschnitt	Brückenabschnitt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Entity=(e11-entity-2)
+2	Brückenabschnitt	Brückenabschnitt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	Entity=(e2-entity-2)
 3	von	von	ADP	FM	Foreign=Yes	4	case	_	_
-4	Fife	Fife	PROPN	FM	Foreign=Yes	2	nmod	_	Entity=(e2)
+4	Fife	Fife	PROPN	FM	Foreign=Yes	2	nmod	_	_
 5	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
 6	jetzt	jetzt	ADV	ADV	_	9	advmod	_	_
 7	600	600	NUM	CARD	NumType=Card	8	nummod	_	_
@@ -104,13 +104,13 @@
 10	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	11	cc	_	_
 11	wiegt	wiegen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
 12	30.000	30.000	NUM	CARD	NumType=Card	13	nummod	_	_
-13	Tonnen	Tonne	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
-14	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
+13	Tonnen	Tonne	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+14	.	.	PUNCT	$.	_	9	punct	_
 
 # newpar
 # sent_id = 7
 # text = Er verfügt über 10.000 Tonnen Stahl und 20.000 Tonnen Beton sowie 46 Schrägseile.
-1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Entity=(e11)
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Entity=(e2-entity-1)
 2	verfügt	verfügen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	über	über	ADP	NE	Case=Nom|Gender=Fem|Number=Sing	6	case	_	_
 4	10.000	10.000	NUM	CARD	NumType=Card	5	nummod	_	_
@@ -122,8 +122,8 @@
 10	Beton	Beton	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	_
 11	sowie	sowie	CCONJ	NN	Case=Gen|Gender=Fem|Number=Sing	13	cc	_	_
 12	46	46	NUM	CARD	NumType=Card	13	nummod	_	_
-13	Schrägseile	Schrägseil	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	conj	_	SpaceAfter=No
-14	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+13	Schrägseile	Schrägseil	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	6	conj	_	_
+14	.	.	PUNCT	$.	_	2	punct	_
 
 # newpar
 # sent_id = 8
@@ -133,24 +133,24 @@
 3	1,35	1,35	NUM	CARD	NumType=Card	4	nummod	_	_
 4	Mrd.	Mrd.	NOUN	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	appos	_	_
 5	teure	teuer	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Plur	6	amod	_	_
-6	Projekt	Projekt	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	Entity=(e3)
+6	Projekt	Projekt	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
 7	soll	sollen	AUX	NN	Case=Nom|Gender=Masc|Number=Plur	11	aux	_	_
 8	bis	bis	ADP	APPR	_	9	case	_	_
-9	Mai	Mai	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	Entity=(e4)
+9	Mai	Mai	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obl	_	_
 10	2017	2017	NUM	CARD	NumType=Card	9	nmod	_	_
 11	fertiggestellt	fertigstellen	VERB	VVPP	VerbForm=Part	0	root	_	_
-12	werden	werden	AUX	NE	Case=Acc|Number=Plur	11	aux:pass	_	SpaceAfter=No
-13	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n\n
+12	werden	werden	AUX	NE	Case=Acc|Number=Plur	11	aux:pass	_	_
+13	.	.	PUNCT	$.	_	11	punct	_
 
 # newpar
 # sent_id = 9
 # text = Wirtschaftsminister Keith Brown stattete der Baustelle heute einen Besuch ab und war einer der Ersten, die vom Land auf die Brücke gingen.
-1	Wirtschaftsminister	Wirtschaftsminister	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	dep	_	_
-2	Keith	Keith	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	Entity=(e12-entity-2)
+1	Wirtschaftsminister	Wirtschaftsminister	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	dep	_	Entity=(e3-entity-1)
+2	Keith	Keith	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 3	Brown	Brown	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
 4	stattete	statten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Baustelle	Baustelle	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	Entity=(e13-entity-6)
+6	Baustelle	Baustelle	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 7	heute	heute	ADV	ADV	_	4	advmod	_	_
 8	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Besuch	Besuch	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
@@ -159,26 +159,26 @@
 12	war	sein	AUX	ADV	_	13	cop	_	_
 13	einer	ein	PRON	PIS	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	4	conj	_	_
 14	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
-15	Ersten	erst	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+15	Ersten	erst	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
 16	,	,	PUNCT	$,	_	24	punct	_	_
 17	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	24	nsubj	_	_
 18-19	vom	_	_	_	_	_	_	_
 18	von	von	ADP	FM	Foreign=Yes	20	case	_	_
 19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
-20	Land	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	24	obl	_	Entity=(e2)
+20	Land	Land	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	24	obl	_	_
 21	auf	auf	ADP	APPR	_	23	case	_	_
 22	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
-23	Brücke	Brücke	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	obl	_	Entity=(e1)
-24	gingen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	acl	_	SpaceAfter=No
-25	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+23	Brücke	Brücke	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	obl	_	_
+24	gingen	gehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	acl	_	_
+25	.	.	PUNCT	$.	_	4	punct	_
 
-# newpar	1	--	_	_	_	_	_	_
+# newpar	--	_
 # sent_id = 10
 # text = Er sagte: "Das ist ein historischer und symbolischer Moment beim Bau des Queensferry Crossings.
-1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Entity=(e12)
-2	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Entity=(e3-entity-1)
+2	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	:	:	PUNCT	$.	_	11	punct	_	_
-4	"	"	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+4	"	"	PUNCT	$(	_	11	punct	_	_
 5	Das	der	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj	_	_
 6	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
 7	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -189,11 +189,11 @@
 12-13	beim	_	_	_	_	_	_	_
 12	bei	bei	ADP	APPR	_	14	case	_	_
 13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	Bau	Bau	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	Entity=(e3)
+14	Bau	Bau	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	11	nmod	_	_
 15	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-16	Queensferry	Queensferry	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	Entity=(e1)
-17	Crossings	Crossings	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	16	appos	_	SpaceAfter=No
-18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+16	Queensferry	Queensferry	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	Crossings	Crossings	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	16	appos	_	_
+18	.	.	PUNCT	$.	_	2	punct	_
 
 # newpar
 # sent_id = 11
@@ -211,25 +211,25 @@
 11	Maße	Maß	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	_
 12	bei	bei	ADP	APPR	_	14	case	_	_
 13	diesem	dies	PRON	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	14	det	_	_
-14	Projekt	Projekt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	Entity=(e3)
+14	Projekt	Projekt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	_
 15	mit	mit	ADP	$(	_	19	case	_	_
 16	über	über	ADV	NE	Case=Nom|Gender=Fem|Number=Sing	17	advmod	_	_
 17	30.000	30.000	NUM	CARD	NumType=Card	18	nummod	_	_
 18	Tonnen	Tonne	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	nmod	_	_
-19	Beton	Beton	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nmod	_	_
+19	Beton	Beton	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nmod	_	Entity=(e4-entity-19)
 20	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	21	cc	_	_
-21	Stahl	Stahl	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+21	Stahl	Stahl	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	19	conj	_	_
 22	,	,	PUNCT	$,	_	30	punct	_	_
-23	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	30	nsubj:pass	_	_
+23	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	30	nsubj:pass	_	Entity=(e4-entity-23)
 24	alleine	alleine	ADV	ADV	_	30	advmod	_	_
 25	für	für	ADP	APPR	_	27	case	_	_
 26	diesen	dies	PRON	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	27	det	_	_
-27	Teil	Teil	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	30	obl	_	Entity=(e11)
+27	Teil	Teil	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	30	obl	_	_
 28	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
-29	Brücke	Brücke	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	Entity=(e1)
+29	Brücke	Brücke	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
 30	verwendet	verwenden	VERB	VVPP	VerbForm=Part	19	acl	_	_
-31	wurden	werden	AUX	NE	Foreign=Yes	30	aux:pass	_	SpaceAfter=No
-32	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+31	wurden	werden	AUX	NE	Foreign=Yes	30	aux:pass	_	_
+32	.	.	PUNCT	$.	_	4	punct	_
 
 # newpar
 # sent_id = 12
@@ -237,36 +237,36 @@
 1	Trotz	trotz	ADP	APPR	_	4	case	_	_
 2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	massiven	massiv	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	4	amod	_	_
-4	Größe	Größe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	nmod	_	Entity=(e14-entity-4)
+4	Größe	Größe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	nmod	_	_
 5	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	6	cc	_	_
 6	Gewichts	Gewicht	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	4	conj	_	_
 7	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	Brücke	Brücke	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No|Entity=(e1)
+8	Brücke	Brücke	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
 9	,	,	PUNCT	$,	_	4	punct	_	_
 10	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
 11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	Fertigstellung	Fertigstellung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	Entity=(e15-entity-12)
+12	Fertigstellung	Fertigstellung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
 13	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	Verschlusses	Verschluß	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	Entity=(e7)
+14	Verschlusses	Verschluß	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
 15	zwischen	zwischen	ADP	NN	Case=Dat|Gender=Masc|Number=Sing	17	case	_	_
 16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	Viadukt	Viadukt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	Entity=(e6)
+17	Viadukt	Viadukt	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	_
 18	und	und	CCONJ	NE	Case=Dat|Gender=Neut|Number=Sing	20	cc	_	_
 19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	20	det	_	_
-20	Brückendeck	Brückendeck	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	conj	_	Entity=(e5)
+20	Brückendeck	Brückendeck	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	17	conj	_	_
 21	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 22	heikle	heikel	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	23	amod	_	_
-23	Tätigkeit	Tätigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+23	Tätigkeit	Tätigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	Entity=(e5-entity-23)
 24	,	,	PUNCT	$,	_	28	punct	_	_
-25	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	28	det	_	_
+25	die	der	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	28	det	_	Entity=(e5-entity-25)
 26	extrem	extrem	ADJ	ADJD	_	27	advmod	_	_
 27	präzise	präzis	ADJ	NN	Case=Nom|Gender=Masc|Number=Sing	28	amod	_	_
-28	Toleranzen	Toleranz	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	32	obj	_	Entity=(e16-entity-28)
+28	Toleranzen	Toleranz	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	32	obj	_	_
 29	für	für	ADP	APPR	_	31	case	_	_
 30	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
-31	Passung	Passung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	28	nmod	_	Entity=(e17-entity-31)
-32	erfordern	erfordern	VERB	VVINF	VerbForm=Inf	23	acl	_	SpaceAfter=No
-33	.	.	PUNCT	$.	_	23	punct	_	SpacesAfter=\n\n
+31	Passung	Passung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	28	nmod	_	_
+32	erfordern	erfordern	VERB	VVINF	VerbForm=Inf	23	acl	_	_
+33	.	.	PUNCT	$.	_	23	punct	_
 
 # newpar
 # sent_id = 13
@@ -275,65 +275,65 @@
 2	sind	sein	AUX	ADJD	_	11	cop	_	_
 3	fast	fast	ADV	ADV	_	4	advmod	_	_
 4	79	79	NUM	CARD	NumType=Card	5	nummod	_	_
-5	%	%	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	_
+5	%	%	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	Entity=(e6-entity-5)
 6	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 7	gesamten	gesamt	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	8	amod	_	_
-8	Brückendecks	Brückendeck	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	Entity=(e18-entity-8)
+8	Brückendecks	Brückendeck	NOUN	NE	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
 9	an	an	ADP	APPR	_	11	case	_	_
-10	ihrem	ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	11	det:poss	_	_
+10	ihrem	ihr	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	11	det:poss	_	Entity=(e6-entity-10)
 11	Platz	Platz	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	_
 12	und	und	CCONJ	NE	Foreign=Yes	15	cc	_	_
 13	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 14	letzte	letzt	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	15	amod	_	_
-15	Abschnitt	Abschnitt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	Entity=(e19-entity-15)
+15	Abschnitt	Abschnitt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	11	conj	_	Entity=(e7-entity-15)
 16	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	Decks	Decks	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	Entity=(e18)
-18	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Entity=(e20-entity-18)
+17	Decks	Decks	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	bekommt	bekommen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Entity=(e7-entity-18)
 19	heute	heute	ADV	ADV	_	18	advmod	_	_
 20	in	in	ADP	APPR	_	21	case	_	_
-21	Rosyth	Rosyth	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	Entity=(e21-entity-21)
+21	Rosyth	Rosyth	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	_
 22	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	Betonguss	Betonguß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
 24	für	für	ADP	APPR	_	26	case	_	_
 25	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	_
-26	Deck	Decken	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	23	nmod	_	SpaceAfter=No|Entity=(e18)
+26	Deck	Decken	NOUN	NE	Case=Dat|Gender=Neut|Number=Sing	23	nmod	_	_
 27	,	,	PUNCT	$,	_	29	punct	_	_
-28	was	was	PRON	NN	Case=Gen|Gender=Fem|Number=Plur	29	nsubj	_	Entity=(e20)
-29	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl	_	SpaceAfter=No
+28	was	was	PRON	NN	Case=Gen|Gender=Fem|Number=Plur	29	nsubj	_	Entity=(e7-entity-28)
+29	bedeutet	bedeuten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl	_	_
 30	,	,	PUNCT	$,	_	35	punct	_	_
 31	dass	dass	SCONJ	KOUS	_	35	mark	_	_
 32	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	34	det	_	_
 33	gesamte	gesamt	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	34	amod	_	_
-34	Deck	Decken	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	Entity=(e18)
+34	Deck	Decken	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	Entity=(e8-entity-34)
 35	bereit	bereit	ADJ	ADJD	_	18	ccomp	_	_
-36	ist	sein	AUX	NN	Case=Nom|Gender=Masc|Number=Sing	35	cop	_	SpaceAfter=No
+36	ist	sein	AUX	NN	Case=Nom|Gender=Masc|Number=Sing	35	cop	_	_
 37	,	,	PUNCT	$,	_	43	punct	_	_
 38	auf	auf	ADP	APPR	_	40	case	_	_
 39	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
-40	Brücke	Brücke	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	43	obl	_	Entity=(e1)
+40	Brücke	Brücke	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	43	obl	_	_
 41	an	an	ADP	APPR	_	43	case	_	_
-42	seinen	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	43	det:poss	_	_
+42	seinen	sein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes	43	det:poss	_	Entity=(e8-entity-42)
 43	Platz	Platz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	35	conj	_	_
 44	gehoben	heben	ADJ	VVPP	VerbForm=Part	46	xcomp	_	_
 45	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	46	mark	_	_
-46	werden	werden	VERB	NE	Case=Acc|Number=Plur	43	appos	_	SpaceAfter=No
-47	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n\n
+46	werden	werden	VERB	NE	Case=Acc|Number=Plur	43	appos	_	_
+47	.	.	PUNCT	$.	_	18	punct	_
 
-# newpar	1	--	_	_	_	_	_	_
+# newpar	--	_
 # sent_id = 14
 # text = Michael Martin, Projektleiter von Forth Crossing Bridge Constructors sagte: "Der erste Verschluss stellt bei jedem Brückenprojekt einen erheblichen Meilenstein dar.
-1	Michael	Michael	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	Entity=(e22-entity-1)
-2	Martin	Martin	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
+1	Michael	Michael	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+2	Martin	Martin	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
 3	,	,	PUNCT	$,	_	4	punct	_	_
 4	Projektleiter	Projektleiter	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
 5	von	von	ADP	FM	Foreign=Yes	6	case	_	_
-6	Forth	Forth	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	Entity=(e23-entity-6)
+6	Forth	Forth	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	_
 7	Crossing	Crossing	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	flat	_	_
 8	Bridge	Bridge	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	6	flat	_	_
 9	Constructors	Constructor	PROPN	NE	Case=Dat|Number=Plur	1	flat	_	_
-10	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 11	:	:	PUNCT	$.	_	16	punct	_	_
-12	"	"	PUNCT	$(	_	16	punct	_	SpaceAfter=No
+12	"	"	PUNCT	$(	_	16	punct	_	_
 13	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 14	erste	erst	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Sing	15	amod	_	_
 15	Verschluss	Verschluß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
@@ -344,8 +344,8 @@
 20	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 21	erheblichen	erheblich	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	22	amod	_	_
 22	Meilenstein	Meilenstein	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	16	obj	_	_
-23	dar	dar	ADV	PTKVZ	_	16	compound:prt	_	SpaceAfter=No
-24	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
+23	dar	dar	ADV	PTKVZ	_	16	compound:prt	_	_
+24	.	.	PUNCT	$.	_	10	punct	_
 
 # newpar
 # sent_id = 15
@@ -353,30 +353,30 @@
 1	Bei	bei	ADP	APPR	_	4	case	_	_
 2	diesem	dies	PRON	PDAT	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
 3	fantastischen	fantastisch	ADJ	ADJA	Case=Dat|Gender=Neut|Number=Sing	4	amod	_	_
-4	Projekt	Projekt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	Entity=(e3)
+4	Projekt	Projekt	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
 5	stellt	stellen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	Verschluss	Verschluß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	Entity=(e7)
+7	Verschluss	Verschluß	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 8	zukunftsweisenden	zukunftsweisend	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	9	amod	_	_
-9	Hoch	hoch	NOUN	TRUNC	_	5	obj	_	SpaceAfter=No
+9	Hoch	hoch	NOUN	TRUNC	_	5	obj	_	_
 10	-	-	PUNCT	$(	_	12	punct	_	_
 11	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	12	cc	_	_
 12	Tiefbau	Tiefbau	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	conj	_	_
-13	dar	dar	ADV	PTKVZ	_	5	compound:prt	_	SpaceAfter=No
-14	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n\n
+13	dar	dar	ADV	PTKVZ	_	5	compound:prt	_	_
+14	.	.	PUNCT	$.	_	5	punct	_
 
 # newpar
 # sent_id = 16
 # text = Nach der Installation des letzten Straßendeckabschnitts und dessen Verbindung mit dem im Ausbau befindlichen Nordturmdeck, mussten wir sodann die noch bestehende Lücke auf der Nord- oder Landseite schließen.
 1	Nach	nach	ADP	APPR	_	3	case	_	_
 2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	Installation	Installation	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	31	obl	_	Entity=(e15)
+3	Installation	Installation	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	31	obl	_	_
 4	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	letzten	letzt	ADJ	ADJA	Case=Gen|Gender=Masc|Number=Sing	6	amod	_	_
-6	Straßendeckabschnitts	Straßendeckabschnitt	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	Entity=(e11)
+6	Straßendeckabschnitts	Straßendeckabschnitt	NOUN	NN	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 7	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	9	cc	_	_
-8	dessen	der	DET	PDAT	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	Entity=(e11)
-9	Verbindung	Verbindung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	Entity=(e7)
+8	dessen	der	DET	PDAT	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	Verbindung	Verbindung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	_
 10	mit	mit	ADP	$(	_	16	case	_	_
 11	dem	der	DET	PDS	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
 12-13	im	_	_	_	_	_	_	_
@@ -384,44 +384,44 @@
 13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Ausbau	Ausbau	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	15	nmod	_	_
 15	befindlichen	befindlich	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	16	amod	_	_
-16	Nordturmdeck	Nordturmdeck	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No|Entity=(e5)
+16	Nordturmdeck	Nordturmdeck	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	9	nmod	_	_
 17	,	,	PUNCT	$,	_	3	punct	_	_
 18	mussten	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	31	aux	_	_
-19	wir	wir	PRON	ADJD	_	31	nsubj	_	Entity=(e24-entity-19)
+19	wir	wir	PRON	ADJD	_	31	nsubj	_	_
 20	sodann	sodann	ADV	ADV	_	31	advmod	_	_
 21	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
 22	noch	noch	ADV	CARD	NumType=Card	23	advmod	_	_
 23	bestehende	bestehend	ADJ	ADJA	Case=Nom|Gender=Masc|Number=Plur	24	amod	_	_
-24	Lücke	Lücke	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	31	nsubj	_	Entity=(e25-entity-24)
+24	Lücke	Lücke	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	31	nsubj	_	_
 25	auf	auf	ADP	APPR	_	27	case	_	_
 26	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	Nord	Nord	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
+27	Nord	Nord	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	31	obl	_	_
 28	-	-	PUNCT	$(	_	30	punct	_	_
 29	oder	oder	CCONJ	XY	_	30	cc	_	_
-30	Landseite	Landseite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	27	conj	_	Entity=(e26-entity-30)
-31	schließen	schließen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No|Entity=(e17)
-32	.	.	PUNCT	$.	_	31	punct	_	SpacesAfter=\n\n
+30	Landseite	Landseite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	27	conj	_	_
+31	schließen	schließen	VERB	VVINF	VerbForm=Inf	0	root	_	Entity=(e10-entity-31)
+32	.	.	PUNCT	$.	_	31	punct	_	_
 
 # newpar
 # sent_id = 17
 # text = Dies wurde durch Ziehen der nördlichen Zubringerbrücke 700 Millimeter südlich erreicht.
-1	Dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj:pass	_	Entity=(e17)
+1	Dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj:pass	_	Entity=(e10-entity-1)
 2	wurde	werden	AUX	ADV	_	11	aux:pass	_	_
 3	durch	durch	ADP	APPR	_	4	case	_	_
-4	Ziehen	ziehen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	Entity=(e27-entity-4)
+4	Ziehen	ziehen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obl	_	Entity=(e11-entity-4)
 5	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 6	nördlichen	nördlich	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	7	amod	_	_
-7	Zubringerbrücke	Zubringerbrücke	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	Entity=(e6)
+7	Zubringerbrücke	Zubringerbrücke	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	_
 8	700	700	NUM	CARD	NumType=Card	9	nummod	_	_
 9	Millimeter	Millimeter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	nmod	_	_
-10	südlich	südlich	ADJ	ADJA	NumType=Card	11	advmod	_	_
-11	erreicht	erreichen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-12	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n\n
+10	südlich	südlich	ADJ	ADJA	NumType=Card	11	advmod	_	Entity=(e11-entity-10)
+11	erreicht	erreichen	VERB	VVPP	VerbForm=Part	0	root	_	_
+12	.	.	PUNCT	$.	_	11	punct	_
 
 # newpar
 # sent_id = 18
 # text = Dies war eine massive und gleichzeitig sehr heikle Tätigkeit.
-1	Dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	Entity=(e27)
+1	Dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	Entity=(e11-entity-1)
 2	war	sein	AUX	TRUNC	Case=Acc|Gender=Fem|Number=Sing	9	cop	_	_
 3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 4	massive	massiv	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	_
@@ -429,23 +429,23 @@
 6	gleichzeitig	gleichzeitig	ADJ	ADJD	_	8	advmod	_	_
 7	sehr	sehr	ADV	NN	Case=Acc|Gender=Fem|Number=Sing	8	advmod	_	_
 8	heikle	heikel	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	_
-9	Tätigkeit	Tätigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
-10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\n
+9	Tätigkeit	Tätigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
+10	.	.	PUNCT	$.	_	9	punct	_
 
 # newpar
 # sent_id = 19
 # text = Massiv, da das Viadukt 222 Meter lang ist, ca. 6.000 Tonnen wiegt und bei einer Steigung von ca. 3 % nach oben gezogen werden musste.
-1	Massiv	Massiv	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	27	dep	_	SpaceAfter=No
+1	Massiv	Massiv	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	27	dep	_	_
 2	,	,	PUNCT	$,	_	8	punct	_	_
 3	da	da	SCONJ	KOUS	_	8	mark	_	_
 4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
-5	Viadukt	Viadukt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	Entity=(e6)
+5	Viadukt	Viadukt	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
 6	222	222	NUM	CARD	NumType=Card	7	nummod	_	_
 7	Meter	Meter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	8	nmod	_	_
 8	lang	lang	ADJ	ADJD	_	1	advcl	_	_
-9	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No
+9	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 10	,	,	PUNCT	$,	_	15	punct	_	_
-11	ca	ca	ADV	NE	Case=Dat|Gender=Neut|Number=Sing	13	advmod	_	SpaceAfter=No
+11	ca	ca	ADV	NE	Case=Dat|Gender=Neut|Number=Sing	13	advmod	_	_
 12	.	.	PUNCT	$.	_	11	punct	_	_
 13	6.000	6.000	NUM	CARD	NumType=Card	14	nummod	_	_
 14	Tonnen	Tonne	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
@@ -455,7 +455,7 @@
 18	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	Steigung	Steigung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	27	obl	_	_
 20	von	von	ADP	FM	Foreign=Yes	24	case	_	_
-21	ca	ca	ADV	NE	Case=Dat|Gender=Neut|Number=Sing	23	advmod	_	SpaceAfter=No
+21	ca	ca	ADV	NE	Case=Dat|Gender=Neut|Number=Sing	23	advmod	_	_
 22	.	.	PUNCT	$.	_	21	punct	_	_
 23	3	3	NUM	CARD	NumType=Card	24	nummod	_	_
 24	%	%	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	19	nmod	_	_
@@ -463,23 +463,23 @@
 26	oben	oben	ADV	CARD	NumType=Card	27	advmod	_	_
 27	gezogen	ziehen	VERB	VVPP	VerbForm=Part	0	root	_	_
 28	werden	werden	AUX	NE	Case=Acc|Number=Plur	27	aux:pass	_	_
-29	musste	müssen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	aux	_	SpaceAfter=No
-30	.	.	PUNCT	$.	_	27	punct	_	SpacesAfter=\n\n
+29	musste	müssen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	aux	_	_
+30	.	.	PUNCT	$.	_	27	punct	_	_
 
 # newpar
 # sent_id = 20
 # text = Heikel, da die Toleranzen, auf die das Team hinarbeitet, winzig waren - auf jeder Seite betrugen sie nur einige Millimeter.
-1	Heikel	Heikel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	19	nsubj	_	SpaceAfter=No
+1	Heikel	Heikel	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	19	nsubj	_	_
 2	,	,	PUNCT	$,	_	14	punct	_	_
 3	da	da	SCONJ	KOUS	_	14	mark	_	_
 4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
-5	Toleranzen	Toleranz	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	SpaceAfter=No|Entity=(e16)
+5	Toleranzen	Toleranz	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	Entity=(e12-entity-5)
 6	,	,	PUNCT	$,	_	11	punct	_	_
 7	auf	auf	ADP	APPR	_	8	case	_	_
-8	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Rel	11	obl	_	_
+8	die	der	PRON	PRELS	Case=Acc|Number=Plur|PronType=Rel	11	obl	_	Entity=(e12-entity-8)
 9	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
-10	Team	Team	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	Entity=(e24)
-11	hinarbeitet	hinarbeiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	SpaceAfter=No
+10	Team	Team	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+11	hinarbeitet	hinarbeiten	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	_
 12	,	,	PUNCT	$,	_	13	punct	_	_
 13	winzig	winzig	ADJ	ADV	_	11	conj	_	_
 14	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
@@ -488,11 +488,11 @@
 17	jeder	jed	PRON	PIAT	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	18	det	_	_
 18	Seite	Seite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	_
 19	betrugen	betragen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-20	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	Entity=(e16)
+20	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	Entity=(e12-entity-20)
 21	nur	nur	ADV	CARD	NumType=Card	19	advmod	_	_
 22	einige	einige	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	23	det	_	_
-23	Millimeter	Millimeter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	obj	_	SpaceAfter=No
-24	.	.	PUNCT	$.	_	19	punct	_	SpacesAfter=\n\n
+23	Millimeter	Millimeter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	19	obj	_	_
+24	.	.	PUNCT	$.	_	19	punct	_
 
 # newpar
 # sent_id = 21
@@ -501,8 +501,8 @@
 2	verlief	verlaufen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	alles	alle	PRON	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	2	nsubj	_	_
 4	sehr	sehr	ADV	NN	Case=Acc|Gender=Neut|Number=Sing	5	advmod	_	_
-5	gut	gut	ADJ	ADJD	_	2	xcomp	_	SpaceAfter=No
-6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+5	gut	gut	ADJ	ADJD	_	2	xcomp	_	_
+6	.	.	PUNCT	$.	_	2	punct	_
 
 
 

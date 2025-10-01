@@ -3,145 +3,145 @@
 # newpar
 # sent_id = 1
 # text = Royal Bank of Scotland für Kunden außerhalb Schottlands nicht mehr verfügbar
-1	Royal	royal	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	Entity=(e1-entity-1)
+1	Royal	royal	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	Entity=(e12-entity-1)
 2	Bank	Bank	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	_
 3	of	of	PROPN	NE	Foreign=Yes	1	flat	_	_
 4	Scotland	Scotland	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
 5	für	für	ADP	APPR	_	6	case	_	_
-6	Kunden	Kunde	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	1	nmod	_	Entity=(e2-entity-6)
+6	Kunden	Kunde	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	1	nmod	_	_
 7	außerhalb	außerhalb	ADP	APPR	_	8	case	_	_
-8	Schottlands	Schottlands	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	Entity=(e3-entity-8)
+8	Schottlands	Schottlands	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
 9	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advmod	_	_
 10	mehr	mehr	ADV	ADV	_	9	advmod	_	_
-11	verfügbar	verfügbar	ADJ	ADJD	_	0	root	_	SpacesAfter=\n\n
+11	verfügbar	verfügbar	ADJ	ADJD	_	0	root	_
 
 # newpar
 # sent_id = 2
 # text = Die Marke RBS soll laut dem Vorstandschef der Bank nurmehr auf eine Backoffice-Rolle reduziert werden.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Marke	Marke	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nsubj:pass	_	_
-3	RBS	RBS	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	Entity=(e4-entity-3)
+3	RBS	RBS	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	_
 4	soll	sollen	AUX	NN	Case=Nom|Gender=Masc|Number=Plur	16	aux	_	_
 5	laut	laut	ADP	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	case	_	_
 6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	Vorstandschef	Vorstandschef	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	Entity=(e5-entity-7)
+7	Vorstandschef	Vorstandschef	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	_
 8	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	Bank	Bank	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	Entity=(e1)
+9	Bank	Bank	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
 10	nurmehr	nurmehr	ADV	ADV	_	16	advmod	_	_
 11	auf	auf	ADP	APPR	_	15	case	_	_
 12	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-13	Backoffice	Backoffice	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	compound	_	SpaceAfter=No
-14	-	-	PUNCT	$(	_	13	punct	_	SpaceAfter=No
+13	Backoffice	Backoffice	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	compound	_	_
+14	-	-	PUNCT	$(	_	13	punct	_	_
 15	Rolle	Rolle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
 16	reduziert	reduzieren	VERB	VVPP	VerbForm=Part	0	root	_	_
-17	werden	werden	AUX	NE	Case=Acc|Number=Plur	16	aux:pass	_	SpaceAfter=No
-18	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n\n
+17	werden	werden	AUX	NE	Case=Acc|Number=Plur	16	aux:pass	_	_
+18	.	.	PUNCT	$.	_	16	punct	_	_
 
 # newpar
 # sent_id = 3
 # text = Die Royal Bank of Scotland wird für Kunden außerhalb Schottlands nicht mehr verfügbar sein.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Royal	royal	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	Entity=(e1)
+2	Royal	royal	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	Entity=(e12-entity-2)
 3	Bank	Bank	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	_
 4	of	of	PROPN	NE	Foreign=Yes	2	flat	_	_
 5	Scotland	Scotland	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
 6	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
 7	für	für	ADP	APPR	_	8	case	_	_
-8	Kunden	Kunde	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	nmod	_	Entity=(e2)
+8	Kunden	Kunde	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	13	nmod	_	_
 9	außerhalb	außerhalb	ADP	APPR	_	10	case	_	_
-10	Schottlands	Schottlands	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	Entity=(e3)
+10	Schottlands	Schottlands	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
 11	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advmod	_	_
 12	mehr	mehr	ADV	ADV	_	11	advmod	_	_
 13	verfügbar	verfügbar	ADJ	ADJD	_	0	root	_	_
-14	sein	sein	AUX	VAINF	VerbForm=Inf	13	cop	_	SpaceAfter=No
-15	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n\n
+14	sein	sein	AUX	VAINF	VerbForm=Inf	13	cop	_	_
+15	.	.	PUNCT	$.	_	13	punct	_
 
 # newpar
 # sent_id = 4
 # text = Ross McEwan teilte der BBC Scotland mit, dass die Marke RBS mit den globalen Ambitionen der Bank verbunden waren.
-1	Ross	Roß	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	Entity=(e5)
+1	Ross	Roß	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 2	McEwan	McEwan	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	1	flat	_	_
 3	teilte	teilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	BBC	BBC	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	Entity=(e6-entity-5)
-6	Scotland	Scotland	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	_
-7	mit	mit	ADP	$(	_	3	compound:prt	_	SpaceAfter=No
+5	BBC	BBC	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	Scotland	Scotland	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	Entity=(e13-entity-6)
+7	mit	mit	ADP	$(	_	3	compound:prt	_	_
 8	,	,	PUNCT	$,	_	19	punct	_	_
 9	dass	dass	SCONJ	KOUS	_	19	mark	_	_
 10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	Marke	Marke	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
-12	RBS	RBS	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	11	appos	_	Entity=(e4)
+11	Marke	Marke	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	Entity=(e16-entity-11)
+12	RBS	RBS	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	11	appos	_	_
 13	mit	mit	ADP	$(	_	16	case	_	_
 14	den	der	DET	ART	Case=Dat|Number=Plur|PronType=Art	16	det	_	_
 15	globalen	global	ADJ	ADJA	Case=Dat|Gender=Masc|Number=Sing	16	amod	_	_
-16	Ambitionen	Ambition	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	19	nmod	_	Entity=(e7-entity-16)
+16	Ambitionen	Ambition	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	19	nmod	_	_
 17	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	Bank	Banken	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	Entity=(e1)
+18	Bank	Banken	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	Entity=(e12-entity-18)
 19	verbunden	verbunden	ADJ	VVPP	VerbForm=Part	3	ccomp	_	_
-20	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	SpaceAfter=No
-21	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+20	waren	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+21	.	.	PUNCT	$.	_	3	punct	_
 
 # newpar
 # sent_id = 5
 # text = Die Bank hat sich seitdem distanziert, als sie vor acht Jahren fast kollabierte und gerettet werden musste.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Bank	Bank	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	Entity=(e1)
+2	Bank	Bank	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	Entity=(e12-entity-2)
 3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 4	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
 5	seitdem	seitdem	ADV	NN	Case=Acc|Gender=Masc|Number=Plur	6	advmod	_	_
-6	distanziert	distanzieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	distanziert	distanzieren	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	,	,	PUNCT	$,	_	14	punct	_	_
 8	als	als	SCONJ	KOUS	_	14	mark	_	_
-9	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	Entity=(e1)
+9	sie	sie	PRON	ADJA	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	Entity=(e12-entity-9)
 10	vor	vor	ADP	NN	Case=Nom|Gender=Neut|Number=Plur	12	case	_	_
 11	acht	acht	NUM	CARD	NumType=Card	12	nummod	_	_
-12	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	14	obl	_	Entity=(e8-entity-12)
+12	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	14	obl	_	Entity=(e2-entity-12)
 13	fast	fast	ADV	ADV	_	14	advmod	_	_
 14	kollabierte	kollabieren	VERB	ADJA	Case=Acc|Gender=Fem|Number=Sing	6	advcl	_	_
 15	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	16	cc	_	_
 16	gerettet	retten	VERB	VVPP	VerbForm=Part	14	conj	_	_
 17	werden	werden	AUX	NE	Case=Acc|Number=Plur	14	aux:pass	_	_
-18	musste	müssen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	SpaceAfter=No
-19	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+18	musste	müssen	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	_
+19	.	.	PUNCT	$.	_	6	punct	_
 
-# newpar	1	--	_	_	_	_	_	_
+# newpar	--	_
 # sent_id = 6
 # text = In dieser Zeit haben Markenstrategen "RBS" dazu verwendet, andere Endverbraucherfinanzmarken zu schützen.
 1	In	in	ADP	APPR	_	3	case	_	_
 2	dieser	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
-3	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	Entity=(e8)
+3	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	Entity=(e2-entity-3)
 4	haben	haben	AUX	VAINF	VerbForm=Inf	10	aux	_	_
-5	Markenstrategen	Markenstrategen	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	Entity=(e9-entity-5)
-6	"	"	PUNCT	$(	_	7	punct	_	SpaceAfter=No
-7	RBS	RBS	PROPN	NN	Case=Nom|Number=Sing	5	appos	_	SpaceAfter=No|Entity=(e4)
+5	Markenstrategen	Markenstrategen	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+6	"	"	PUNCT	$(	_	7	punct	_	_
+7	RBS	RBS	PROPN	NN	Case=Nom|Number=Sing	5	appos	_	Entity=(e16-entity-7)
 8	"	"	PUNCT	$(	_	7	punct	_	_
-9	dazu	dazu	PRON	PAV	_	10	dep	_	Entity=(e10-entity-9)
-10	verwendet	verwenden	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	dazu	dazu	PRON	PAV	_	10	dep	_	_
+10	verwendet	verwenden	VERB	VVPP	VerbForm=Part	0	root	_	_
 11	,	,	PUNCT	$,	_	15	punct	_	_
 12	andere	ander	ADJ	PIS	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	13	amod	_	_
 13	Endverbraucherfinanzmarken	Endverbraucherfinanzmark	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
 14	zu	zu	PART	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	15	mark	_	_
-15	schützen	schützen	VERB	VVINF	VerbForm=Inf	10	xcomp	_	SpaceAfter=No|Entity=(e10)
-16	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n\n
+15	schützen	schützen	VERB	VVINF	VerbForm=Inf	10	xcomp	_	_
+16	.	.	PUNCT	$.	_	10	punct	_
 
 # newpar
 # sent_id = 7
 # text = Sie unterstützte den internationalen Sport mit Millionen Pfund an Sponsoring, vom Six Nations Rugby bis hin zum Wimbledon Sieger Andy Murray.
-1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Entity=(e4)
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Entity=(e12-entity-1)
 2	unterstützte	unterstützen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 4	internationalen	international	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	5	amod	_	_
-5	Sport	Sport	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	Entity=(e11-entity-5)
+5	Sport	Sport	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
 6	mit	mit	ADP	$(	_	8	case	_	_
 7	Millionen	Millione	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	8	nmod	_	_
 8	Pfund	Pfund	PROPN	NN	Gender=Neut	5	nmod	_	_
 9	an	an	ADP	APPR	_	10	case	_	_
-10	Sponsoring	Sponsoring	PROPN	NE	Foreign=Yes	2	obl	_	SpaceAfter=No|Entity=(e12-entity-10)
+10	Sponsoring	Sponsoring	PROPN	NE	Foreign=Yes	2	obl	_	_
 11	,	,	PUNCT	$,	_	14	punct	_	_
 12-13	vom	_	_	_	_	_	_	_
 12	von	von	ADP	FM	Foreign=Yes	14	case	_	_
 13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	Six	Sixen	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	Entity=(e13-entity-14)
+14	Six	Sixen	PROPN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
 15	Nations	Nation	PROPN	NN	Case=Dat|Gender=Neut|Number=Sing	14	flat	_	_
 16	Rugby	Rugby	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	14	flat	_	_
 17	bis	bis	ADP	APPR	_	21	case	_	_
@@ -149,11 +149,11 @@
 19-20	zum	_	_	_	_	_	_	_
 19	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	21	case	_	_
 20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	Wimbledon	Wimbledon	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	Entity=(e14-entity-21)
+21	Wimbledon	Wimbledon	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
 22	Sieger	Sieger	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	23	amod	_	_
 23	Andy	Andy	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	21	flat	_	_
-24	Murray	Murray	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	21	flat	_	SpaceAfter=No
-25	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+24	Murray	Murray	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	21	flat	_	_
+25	.	.	PUNCT	$.	_	2	punct	_
 
 # newpar
 # sent_id = 8
@@ -161,74 +161,74 @@
 1	Aber	aber	CCONJ	KON	_	7	cc	_	_
 2	jetzt	jetzt	ADV	ADV	_	7	advmod	_	_
 3	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
-4	sie	sie	PRON	VVINF	VerbForm=Inf	7	nsubj	_	Entity=(e4)
+4	sie	sie	PRON	VVINF	VerbForm=Inf	7	nsubj	_	Entity=(e12-entity-4)
 5	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
-6	dazu	dazu	PRON	PAV	_	7	dep	_	Entity=(e15-entity-6)
-7	entschieden	entschieden	VERB	ADJD	_	0	root	_	SpaceAfter=No
+6	dazu	dazu	PRON	PAV	_	7	dep	_	_
+7	entschieden	entschieden	VERB	ADJD	_	0	root	_	_
 8	,	,	PUNCT	$,	_	9	punct	_	_
 9	mehr	mehr	ADV	PIS	Definite=Ind|PronType=Ind	7	advmod	_	_
 10	nationale	national	ADJ	NN	Case=Nom|Gender=Fem|Number=Sing|NumType=Card	11	amod	_	_
-11	Marken	Marke	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	Entity=(e16-entity-11)
+11	Marken	Marke	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
 12	in	in	ADP	APPR	_	14	case	_	_
 13	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	Fokus	Fokus	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_
 15	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	16	mark	_	_
-16	rücken	rücken	VERB	VVINF	VerbForm=Inf	7	xcomp	_	SpaceAfter=No|Entity=(e15)
-17	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\n
+16	rücken	rücken	VERB	VVINF	VerbForm=Inf	7	xcomp	_	_
+17	.	.	PUNCT	$.	_	7	punct	_
 
 # newpar
 # sent_id = 9
 # text = Die Royal Bank of Scotland wird nur für Kunden in Schottland verfügbar sein, aber wird nicht initialisiert werden.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	Royal	royal	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	Entity=(e1)
+2	Royal	royal	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	Entity=(e12-entity-2)
 3	Bank	Bank	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	2	flat	_	_
 4	of	of	PROPN	NE	Foreign=Yes	2	flat	_	_
 5	Scotland	Scotland	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	flat	_	_
 6	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	aux	_	_
 7	nur	nur	ADV	CARD	_	12	advmod	_	_
 8	für	für	ADP	APPR	_	9	case	_	_
-9	Kunden	Kunde	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	nmod	_	Entity=(e17-entity-9)
+9	Kunden	Kunde	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	nmod	_	_
 10	in	in	ADP	APPR	_	11	case	_	_
-11	Schottland	Schottland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	Entity=(e3)
+11	Schottland	Schottland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	9	nmod	_	_
 12	verfügbar	verfügbar	ADJ	ADJD	_	0	root	_	_
-13	sein	sein	AUX	VAINF	VerbForm=Inf	12	cop	_	SpaceAfter=No
+13	sein	sein	AUX	VAINF	VerbForm=Inf	12	cop	_	_
 14	,	,	PUNCT	$,	_	18	punct	_	_
 15	aber	aber	CCONJ	KON	_	18	cc	_	_
 16	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	aux:pass	_	_
 17	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advmod	_	_
 18	initialisiert	initialisieren	VERB	VVPP	VerbForm=Part	12	conj	_	_
-19	werden	werden	AUX	NE	Case=Acc|Number=Plur	18	aux:pass	_	SpaceAfter=No
-20	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
+19	werden	werden	AUX	NE	Case=Acc|Number=Plur	18	aux:pass	_	_
+20	.	.	PUNCT	$.	_	12	punct	_
 
 # newpar
 # sent_id = 10
 # text = In England und Wales werden alle RSB Referenzen, der dezentrale Hauptsitz und die Börsennotierung zu NatWest wechseln.
 1	In	in	ADP	APPR	_	2	case	_	_
-2	England	England	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	Entity=(e18-entity-2)
+2	England	England	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	18	obl	_	_
 3	und	und	CCONJ	NE	Case=Gen|Gender=Masc|Number=Sing	4	cc	_	_
-4	Wales	Wales	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	2	conj	_	Entity=(e19-entity-4)
+4	Wales	Wales	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	2	conj	_	_
 5	werden	werden	AUX	NE	Case=Gen|Gender=Masc|Number=Plur	18	aux:pass	_	_
 6	alle	alle	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
-7	RSB	RSB	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	18	obj	_	Entity=(e20-entity-7)
-8	Referenzen	Referenz	PROPN	NN	Case=Gen|Gender=Fem|Number=Plur	7	flat	_	SpaceAfter=No
+7	RSB	RSB	PROPN	NE	Case=Gen|Gender=Masc|Number=Sing	18	obj	_	_
+8	Referenzen	Referenz	PROPN	NN	Case=Gen|Gender=Fem|Number=Plur	7	flat	_	_
 9	,	,	PUNCT	$,	_	12	punct	_	_
 10	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 11	dezentrale	dezentral	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	12	amod	_	_
-12	Hauptsitz	Hauptsitz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	Entity=(e21-entity-12)
+12	Hauptsitz	Hauptsitz	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
 13	und	und	CCONJ	NN	Case=Acc|Gender=Masc|Number=Sing	15	cc	_	_
 14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	Börsennotierung	Börsennotierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	Entity=(e22-entity-15)
+15	Börsennotierung	Börsennotierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	_
 16	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	17	case	_	_
-17	NatWest	NatWest	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	18	obl	_	Entity=(e23-entity-17)
-18	wechseln	wechseln	VERB	VVINF	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-19	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n\n
+17	NatWest	NatWest	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	18	obl	_	_
+18	wechseln	wechseln	VERB	VVINF	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	.	.	PUNCT	$.	_	18	punct	_
 
 # newpar
 # sent_id = 11
 # text = Die Marke Ulster Bank wird bereits für Kunden in der Republik Irland und Nordirland verwendet.
 1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Marke	Marke	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj:pass	_	_
-3	Ulster	Ulster	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	2	appos	_	Entity=(e24-entity-3)
+3	Ulster	Ulster	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	2	appos	_	_
 4	Bank	Bank	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	3	flat	_	_
 5	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	15	aux:pass	_	_
 6	bereits	bereits	ADV	ADV	_	11	advmod	_	_
@@ -237,24 +237,24 @@
 9	in	in	ADP	APPR	_	11	case	_	_
 10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Republik	Republik	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
-12	Irland	Irland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	11	appos	_	Entity=(e25-entity-12)
+12	Irland	Irland	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	11	appos	_	_
 13	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	14	cc	_	_
-14	Nordirland	Nordirland	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	12	conj	_	Entity=(e26-entity-14)
-15	verwendet	verwenden	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
-16	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n\n
+14	Nordirland	Nordirland	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	12	conj	_	_
+15	verwendet	verwenden	VERB	VVPP	VerbForm=Part	0	root	_	_
+16	.	.	PUNCT	$.	_	15	punct	_
 
 # newpar
 # sent_id = 12
 # text = Es gibt andere, kleinere Marken für das Privatkundengeschäft, die mehr Bedeutung erhalten werden - Coutts, Adam & Co, Drummond und Holt's Military Bank.
 1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
 2	gibt	geben	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	andere	ander	PRON	ADJA	Case=Acc|Gender=Fem|Number=Plur	6	det	_	SpaceAfter=No
+3	andere	ander	PRON	ADJA	Case=Acc|Gender=Fem|Number=Plur	6	det	_	_
 4	,	,	PUNCT	$,	_	6	punct	_	_
 5	kleinere	klein	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	6	amod	_	_
-6	Marken	Marke	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	Entity=(e27-entity-6)
+6	Marken	Marke	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	2	nsubj	_	Entity=(e4-entity-6)
 7	für	für	ADP	APPR	_	9	case	_	_
 8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
-9	Privatkundengeschäft	Privatkundengeschäft	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No|Entity=(e28-entity-9)
+9	Privatkundengeschäft	Privatkundengeschäft	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	_
 10	,	,	PUNCT	$,	_	14	punct	_	_
 11	die	der	PRON	PRELS	Case=Nom|Number=Plur|PronType=Rel	14	nsubj	_	_
 12	mehr	mehr	ADV	ADV	_	13	advmod	_	_
@@ -262,23 +262,23 @@
 14	erhalten	erhalten	VERB	VVINF	VerbForm=Inf	27	acl	_	_
 15	werden	werden	AUX	NE	Case=Acc|Number=Plur	17	aux:pass	_	_
 16	-	-	PUNCT	$(	_	17	punct	_	_
-17	Coutts	Coutt	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	27	compound	_	SpaceAfter=No
+17	Coutts	Coutt	NOUN	NE	Case=Nom|Gender=Masc|Number=Sing	27	compound	_	_
 18	,	,	PUNCT	$,	_	19	punct	_	_
 19	Adam	Adam	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	17	conj	_	_
 20	&	&	SYM	NE	_	21	cc	_	_
-21	Co	Co	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+21	Co	Co	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	19	conj	_	_
 22	,	,	PUNCT	$,	_	23	punct	_	_
 23	Drummond	Drummond	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	17	conj	_	_
 24	und	und	CCONJ	NE	Case=Nom|Gender=Masc|Number=Sing	25	cc	_	_
 25	Holt's	Holt's	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	17	conj	_	_
 26	Military	Military	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	25	flat	_	_
-27	Bank	Bank	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	9	appos	_	SpaceAfter=No
-28	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+27	Bank	Bank	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	9	appos	_	_
+28	.	.	PUNCT	$.	_	2	punct	_
 
 # newpar
 # sent_id = 13
 # text = McEwan wurde während einer Besichtigungstour von Kunden und Mitarbeitern in Inverness-shire interviewt.
-1	McEwan	McEwan	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	Entity=(e5)
+1	McEwan	McEwan	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	Entity=(e5-entity-1)
 2	wurde	werden	AUX	NE	Case=Nom|Gender=Masc|Number=Sing	12	aux:pass	_	_
 3	während	während	ADP	NN	Case=Gen|Gender=Masc|Number=Plur	5	case	_	_
 4	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -288,24 +288,24 @@
 8	und	und	CCONJ	NE	Case=Dat|Gender=Fem|Number=Sing	9	cc	_	_
 9	Mitarbeitern	Mitarbeiter	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	conj	_	_
 10	in	in	ADP	APPR	_	11	case	_	_
-11	Inverness-shire	Inverness-shire	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	Entity=(e29-entity-11)
-12	interviewt	interviewen	VERB	VVPP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-13	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\n
+11	Inverness-shire	Inverness-shire	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	12	obl	_	_
+12	interviewt	interviewen	VERB	VVPP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	.	.	PUNCT	$.	_	12	punct	_
 
-# newpar	1	--	_	_	_	_	_	_
+# newpar	--	_
 # sent_id = 14
 # text = Er teilte der BBC Scotland mit: "Die Marke RSB wird zu unserer Investorenmarke sowie zu der Marke, unter der unsere Mitarbeiter beschäftigt sein werden, da wir jetzt mehr zu einer Bank von Marken werden."
-1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Entity=(e5)
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Entity=(e5-entity-1)
 2	teilte	teilen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	BBC	BBC	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	iobj	_	Entity=(e6)
+4	BBC	BBC	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	2	iobj	_	Entity=(e13-entity-4)
 5	Scotland	Scotland	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	_
-6	mit	mit	ADP	$(	_	2	compound:prt	_	SpaceAfter=No
+6	mit	mit	ADP	$(	_	2	compound:prt	_	_
 7	:	:	PUNCT	$.	_	12	punct	_	_
-8	"	"	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+8	"	"	PUNCT	$(	_	12	punct	_	_
 9	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	Marke	Marke	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
-11	RSB	RSB	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	10	flat	_	Entity=(e4)
+10	Marke	Marke	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	Entity=(e16-entity-10)
+11	RSB	RSB	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	10	flat	_	_
 12	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	parataxis	_	_
 13	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	15	case	_	_
 14	unserer	unser	PRON	PPOSAT	Gender=Fem|Number=Sing|Poss=Yes	15	det:poss	_	_
@@ -313,144 +313,144 @@
 16	sowie	sowie	CCONJ	NN	Case=Gen|Gender=Masc|Number=Sing	19	cc	_	_
 17	zu	zu	ADP	NN	Case=Gen|Gender=Masc|Number=Sing	19	case	_	_
 18	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
-19	Marke	Marke	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+19	Marke	Marke	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	15	conj	_	Entity=(e6-entity-19)
 20	,	,	PUNCT	$,	_	25	punct	_	_
 21	unter	unter	ADP	NE	Case=Gen|Gender=Neut|Number=Sing	22	case	_	_
-22	der	der	PRON	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	obl	_	_
-23	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	24	det:poss	_	Entity=(e1)
-24	Mitarbeiter	Mitarbeiter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	25	obj	_	Entity=(e30-entity-24)
+22	der	der	PRON	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	obl	_	Entity=(e6-entity-22)
+23	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	24	det:poss	_	_
+24	Mitarbeiter	Mitarbeiter	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	25	obj	_	_
 25	beschäftigt	beschäftigen	VERB	VVPP	VerbForm=Part	19	acl	_	_
 26	sein	sein	AUX	VAINF	VerbForm=Inf	25	aux:pass	_	_
-27	werden	werden	AUX	NE	Case=Acc|Number=Plur	25	aux:pass	_	SpaceAfter=No
+27	werden	werden	AUX	NE	Case=Acc|Number=Plur	25	aux:pass	_	_
 28	,	,	PUNCT	$,	_	38	punct	_	_
 29	da	da	SCONJ	KOUS	_	38	mark	_	_
-30	wir	wir	PRON	ADJD	_	38	nsubj	_	Entity=(e1)
+30	wir	wir	PRON	ADJD	_	38	nsubj	_	_
 31	jetzt	jetzt	ADV	ADV	_	38	advmod	_	_
 32	mehr	mehr	ADV	ADV	_	35	advmod	_	_
 33	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	35	case	_	_
 34	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	Bank	Bank	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	38	xcomp	_	_
 36	von	von	ADP	FM	Foreign=Yes	37	case	_	_
-37	Marken	Marke	NOUN	NE	Case=Acc|Gender=Fem|Number=Plur	35	nmod	_	Entity=(e16)
-38	werden	werden	VERB	NE	Case=Acc|Number=Plur	12	advcl	_	SpaceAfter=No
-39	.	.	PUNCT	$.	_	12	punct	_	SpaceAfter=No
-40	"	"	PUNCT	$(	_	12	punct	_	SpacesAfter=\n\n
+37	Marken	Marke	NOUN	NE	Case=Acc|Gender=Fem|Number=Plur	35	nmod	_	_
+38	werden	werden	VERB	NE	Case=Acc|Number=Plur	12	advcl	_	_
+39	.	.	PUNCT	$.	_	12	punct	_	_
+40	"	"	PUNCT	$(	_	12	punct	_
 
 # newpar
 # sent_id = 15
 # text = Als die Bank selber zu einer globalen Marke wurde, wurde RBS zur globalen Marke.
 1	Als	als	SCONJ	KOUS	_	9	mark	_	_
 2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
-3	Bank	Bank	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	Entity=(e1)
+3	Bank	Bank	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
 4	selber	selber	ADV	NN	Case=Acc|Gender=Fem|Number=Sing	9	advmod	_	_
 5	zu	zu	ADP	NN	Case=Gen|Gender=Fem|Number=Plur	8	case	_	_
 6	einer	ein	DET	ART	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 7	globalen	global	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	8	amod	_	_
 8	Marke	Marke	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	9	xcomp	_	_
-9	wurde	werden	VERB	ADV	_	11	advcl	_	SpaceAfter=No
+9	wurde	werden	VERB	ADV	_	11	advcl	_	_
 10	,	,	PUNCT	$,	_	9	punct	_	_
 11	wurde	werden	AUX	KON	_	0	root	_	_
-12	RBS	RBS	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	11	xcomp	_	Entity=(e4)
+12	RBS	RBS	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	11	xcomp	_	Entity=(e16-entity-12)
 13-14	zur	_	_	_	_	_	_	_
 13	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	16	case	_	_
 14	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 15	globalen	global	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	16	amod	_	_
-16	Marke	Marke	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
-17	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n\n
+16	Marke	Marke	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+17	.	.	PUNCT	$.	_	11	punct	_
 
 # newpar
 # sent_id = 16
 # text = Ich sage jetzt, dass wir keine globalen Ziele, sondern lokale Ziele verfolgen.
-1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Entity=(e5)
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	sage	sagen	VERB	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
-3	jetzt	jetzt	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+3	jetzt	jetzt	ADV	ADV	_	2	advmod	_	_
 4	,	,	PUNCT	$,	_	14	punct	_	_
 5	dass	dass	SCONJ	KOUS	_	14	mark	_	_
-6	wir	wir	PRON	ADJD	_	14	nsubj	_	Entity=(e1)
+6	wir	wir	PRON	ADJD	_	14	nsubj	_	_
 7	keine	kein	PRON	PIAT	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|Polarity=Neg|PronType=Neg	9	nmod	_	_
 8	globalen	global	ADJ	ADJA	Case=Acc|Gender=Masc|Number=Sing	9	amod	_	_
-9	Ziele	Ziel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	SpaceAfter=No|Entity=(e7)
+9	Ziele	Ziel	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	_
 10	,	,	PUNCT	$,	_	14	punct	_	_
 11	sondern	sondern	CCONJ	NN	Case=Dat|Gender=Neut|Number=Plur	14	cc	_	_
 12	lokale	lokal	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Sing	13	amod	_	_
 13	Ziele	Ziele	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	_
-14	verfolgen	verfolgen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
-15	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n\n
+14	verfolgen	verfolgen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	_
+15	.	.	PUNCT	$.	_	2	punct	_
 
 # newpar
 # sent_id = 17
 # text = Jede dieser Marken wird in ihren eigenen Gemeinden für etwas vollkommen anderes stehen und unsere Mitarbeiter werden unter diesen Marken mit den Kunden arbeiten.
-1	Jede	jed	PRON	PIS	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	13	nsubj	_	_
+1	Jede	jed	PRON	PIS	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	13	nsubj	_	Entity=(e7-entity-1)
 2	dieser	dies	PRON	PDAT	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	3	det	_	_
-3	Marken	Marke	NOUN	NE	Case=Acc|Gender=Fem|Number=Plur	1	nmod	_	Entity=(e16)
+3	Marken	Marke	NOUN	NE	Case=Acc|Gender=Fem|Number=Plur	1	nmod	_	_
 4	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	aux:pass	_	_
 5	in	in	ADP	APPR	_	8	case	_	_
-6	ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Poss=Yes	8	det:poss	_	Entity=(e16)
+6	ihren	ihr	DET	PPOSAT	Case=Dat|Gender=Fem|Number=Plur|Poss=Yes	8	det:poss	_	Entity=(e7-entity-6)
 7	eigenen	eigen	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	8	amod	_	_
-8	Gemeinden	Gemeinde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	obl	_	Entity=(e31-entity-8)
+8	Gemeinden	Gemeinde	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	13	obl	_	_
 9	für	für	ADP	APPR	_	12	case	_	_
 10	etwas	etwas	ADV	PIAT	Definite=Ind|PronType=Ind	11	advmod	_	_
 11	vollkommen	vollkommen	ADJ	ADV	_	12	amod	_	_
 12	anderes	ander	PRON	PIS	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	13	obl	_	_
 13	stehen	stehen	VERB	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	24	cc	_	_
-15	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	16	det:poss	_	Entity=(e1)
-16	Mitarbeiter	Mitarbeiter	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	24	obj	_	Entity=(e30)
+15	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes	16	det:poss	_	_
+16	Mitarbeiter	Mitarbeiter	NOUN	NN	Case=Gen|Gender=Masc|Number=Plur	24	obj	_	_
 17	werden	werden	AUX	NE	Case=Gen|Gender=Masc|Number=Plur	24	aux:pass	_	_
 18	unter	unter	ADP	NE	Case=Gen|Gender=Neut|Number=Sing	20	case	_	_
 19	diesen	dies	PRON	PDAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
-20	Marken	Marke	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	24	obl	_	Entity=(e16)
+20	Marken	Marke	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	24	obl	_	_
 21	mit	mit	ADP	$(	_	23	case	_	_
 22	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
-23	Kunden	Kunde	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	24	obl	_	Entity=(e17)
-24	arbeiten	arbeiten	VERB	VVFIN	VerbForm=Inf	13	conj	_	SpaceAfter=No
-25	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n\n
+23	Kunden	Kunde	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	24	obl	_	_
+24	arbeiten	arbeiten	VERB	VVFIN	VerbForm=Inf	13	conj	_	_
+25	.	.	PUNCT	$.	_	13	punct	_
 
 # newpar
 # sent_id = 18
 # text = RBS hat bereits ausgesagt, dass es sein Six Nations Sponsoring nicht mehr fortführen wird und, dass es die Wahrnehmbarkeit der verschiedenen Marken in seinem Sport-Sponsoring erhöhen wird.
-1	RBS	RBS	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	Entity=(e4)
+1	RBS	RBS	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	Entity=(e16-entity-1)
 2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 3	bereits	bereits	ADV	ADV	_	4	advmod	_	_
-4	ausgesagt	ausgesagen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+4	ausgesagt	ausgesagen	VERB	VVPP	VerbForm=Part	0	root	_	_
 5	,	,	PUNCT	$,	_	14	punct	_	_
 6	dass	dass	SCONJ	KOUS	_	14	mark	_	_
-7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	Entity=(e4)
-8	sein	sein	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	9	det:poss	_	Entity=(e4)
-9	Six	Six	NOUN	NE	Foreign=Yes	14	nsubj	_	Entity=(e13)
+7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	Entity=(e16-entity-7)
+8	sein	sein	DET	PPOSAT	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes	9	det:poss	_	_
+9	Six	Six	NOUN	NE	Foreign=Yes	14	nsubj	_	_
 10	Nations	Nation	PROPN	NE	Foreign=Yes	9	appos	_	_
-11	Sponsoring	Sponsoring	PROPN	NE	Foreign=Yes	10	flat	_	Entity=(e32-entity-11)
+11	Sponsoring	Sponsoring	PROPN	NE	Foreign=Yes	10	flat	_	_
 12	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advmod	_	_
 13	mehr	mehr	ADV	ADV	_	12	advmod	_	_
 14	fortführen	fortführen	VERB	VVINF	VerbForm=Inf	4	ccomp	_	_
 15	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	14	aux:pass	_	_
-16	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	30	cc	_	SpaceAfter=No
+16	und	und	CCONJ	NN	Case=Acc|Gender=Fem|Number=Sing	30	cc	_	_
 17	,	,	PUNCT	$,	_	30	punct	_	_
 18	dass	dass	SCONJ	KOUS	_	30	mark	_	_
-19	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	Entity=(e4)
+19	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	Entity=(e16-entity-19)
 20	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	Wahrnehmbarkeit	Wahrnehmbarkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	30	obj	_	_
 22	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 23	verschiedenen	verschieden	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Sing	24	amod	_	_
-24	Marken	Marke	NOUN	NE	Case=Acc|Gender=Fem|Number=Plur	21	nmod	_	Entity=(e33-entity-24)
+24	Marken	Marke	NOUN	NE	Case=Acc|Gender=Fem|Number=Plur	21	nmod	_	_
 25	in	in	ADP	APPR	_	29	case	_	_
-26	seinem	sein	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	29	det:poss	_	Entity=(e4)
-27	Sport	Sport	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	29	compound	_	SpaceAfter=No
-28	-	-	PUNCT	$(	_	27	punct	_	SpaceAfter=No
-29	Sponsoring	Sponsoring	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	30	obl	_	Entity=(e34-entity-29)
+26	seinem	sein	DET	PPOSAT	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes	29	det:poss	_	Entity=(e16-entity-26)
+27	Sport	Sport	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	29	compound	_	_
+28	-	-	PUNCT	$(	_	27	punct	_	_
+29	Sponsoring	Sponsoring	NOUN	NE	Case=Dat|Gender=Masc|Number=Sing	30	obl	_	_
 30	erhöhen	erhöhen	VERB	VVINF	VerbForm=Inf	14	conj	_	_
-31	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	SpaceAfter=No
-32	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\n
+31	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux:pass	_	_
+32	.	.	PUNCT	$.	_	4	punct	_
 
-# newpar	1	--	_	_	_	_	_	_
-# sent_id = 19	1	&quot;	_	_	_	_	_	_
+# newpar	--	_
+# sent_id = 19	&quot;							_
 # text = "Es ist Zeit für uns, sich zur Bank der Marken zu entwickeln, denn wie konzentrieren wir uns im Inneren (wir haben gefragt) darauf, dies zu einer besseren Bank für Kunden zu machen?" sagte der Vorstandschef.
-1	"	"	PUNCT	$(	_	2	punct	SpaceAfter=No
+1	"	"	PUNCT	$(	_	2	punct	_
 2	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 3	ist	sein	AUX	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 4	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	43	obj	_	_
 5	für	für	ADP	APPR	_	6	case	_	_
-6	uns	wir	PRON	NE	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No|Entity=(e1)
+6	uns	wir	PRON	NE	Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	_
 7	,	,	PUNCT	$,	_	15	punct	_	_
 8	sich	er|es|sie	PRON	PRF	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	15	obj	_	_
 9-10	zur	_	_	_	_	_	_	_
@@ -458,27 +458,27 @@
 10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Bank	Bank	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
 12	der	der	DET	ART	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
-13	Marken	Marke	NOUN	NE	Case=Acc|Gender=Fem|Number=Plur	11	nmod	_	Entity=(e16)
+13	Marken	Marke	NOUN	NE	Case=Acc|Gender=Fem|Number=Plur	11	nmod	_	_
 14	zu	zu	PART	NN	Case=Acc|Gender=Masc|Number=Plur	15	mark	_	_
-15	entwickeln	entwickeln	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+15	entwickeln	entwickeln	VERB	VVINF	VerbForm=Inf	4	xcomp	_	_
 16	,	,	PUNCT	$,	_	19	punct	_	_
 17	denn	denn	CCONJ	KON	_	19	cc	_	_
 18	wie	wie	ADP	NN	Case=Dat|Gender=Fem|Number=Sing	19	case	_	_
 19	konzentrieren	konzentri	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Plur	4	conj	_	_
-20	wir	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	19	nsubj	_	Entity=(e1)
-21	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	19	obj	_	Entity=(e1)
+20	wir	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	19	nsubj	_	_
+21	uns	wir	PRON	ADJA	Case=Gen|Gender=Fem|Number=Sing	19	obj	_	_
 22-23	im	_	_	_	_	_	_	_
 22	in	in	ADP	APPR	_	24	case	_	_
 23	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	24	det	_	_
 24	Inneren	Innere	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	28	obl	_	_
-25	(	(	PUNCT	$(	_	28	punct	_	SpaceAfter=No
-26	wir	wir	PRON	ADJD	_	28	nsubj	_	Entity=(e35-entity-26)
+25	(	(	PUNCT	$(	_	28	punct	_	_
+26	wir	wir	PRON	ADJD	_	28	nsubj	_	_
 27	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	28	aux	_	_
-28	gefragt	fragen	VERB	VVPP	VerbForm=Part	30	acl	_	SpaceAfter=No
+28	gefragt	fragen	VERB	VVPP	VerbForm=Part	30	acl	_	_
 29	)	)	PUNCT	$(	_	28	punct	_	_
-30	darauf	darauf	PRON	PAV	_	40	obl	_	SpaceAfter=No|Entity=(e36-entity-30)
+30	darauf	darauf	PRON	PAV	_	40	obl	_	_
 31	,	,	PUNCT	$,	_	36	punct	_	_
-32	dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	36	nsubj	_	Entity=(e35)
+32	dies	dies	PRON	PDS	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	36	nsubj	_	_
 33	zu	zu	ADP	PIS	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	36	case	_	_
 34	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
 35	besseren	gut	ADJ	ADJA	Case=Dat|Gender=Fem|Number=Sing	36	amod	_	_
@@ -486,13 +486,13 @@
 37	für	für	ADP	APPR	_	38	case	_	_
 38	Kunden	Kunde	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	40	obl	_	_
 39	zu	zu	PART	NN	Case=Acc|Gender=Fem|Number=Plur	40	mark	_	_
-40	machen	machen	VERB	VVINF	VerbForm=Inf	19	xcomp	_	SpaceAfter=No|Entity=(e36)
-41	?	?	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+40	machen	machen	VERB	VVINF	VerbForm=Inf	19	xcomp	_	_
+41	?	?	PUNCT	$.	_	4	punct	_	_
 42	"	"	PUNCT	$(	_	4	punct	_	_
 43	sagte	sagen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 44	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
-45	Vorstandschef	Vorstandschef	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	43	nsubj	_	SpaceAfter=No|Entity=(e5)
-46	.	.	PUNCT	$.	_	43	punct	_	SpacesAfter=\n\n
+45	Vorstandschef	Vorstandschef	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	43	nsubj	_	_
+46	.	.	PUNCT	$.	_	43	punct	_	_
 
 # newpar
 # sent_id = 20
@@ -504,18 +504,18 @@
 5	Jahren	Jahr	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	7	nmod	_	_
 6	sehr	sehr	ADV	NN	Case=Dat|Gender=Neut|Number=Sing	7	advmod	_	_
 7	zynisch	zynisch	ADJ	ADJD	_	0	root	_	_
-8	gewesen	sein	AUX	VVINF	VerbForm=Inf	7	cop	_	SpaceAfter=No
+8	gewesen	sein	AUX	VVINF	VerbForm=Inf	7	cop	_	_
 9	,	,	PUNCT	$,	_	12	punct	_	_
 10	wenn	wenn	SCONJ	VVFIN	_	12	mark	_	_
-11	wir	wir	PRON	ADJD	_	12	nsubj	_	Entity=(e1)
+11	wir	wir	PRON	ADJD	_	12	nsubj	_	_
 12	gesagt	sagen	VERB	VVPP	VerbForm=Part	7	advcl	_	_
-13	hätten	haben	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	SpaceAfter=No
+13	hätten	haben	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
 14	,	,	PUNCT	$,	_	23	punct	_	_
 15	dass	dass	SCONJ	KOUS	_	23	mark	_	_
-16	wir	wir	PRON	ADJD	_	23	nsubj	_	Entity=(e1)
+16	wir	wir	PRON	ADJD	_	23	nsubj	_	_
 17	für	für	ADP	APPR	_	19	case	_	_
-18	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	19	det:poss	_	Entity=(e1)
-19	Kunden	Kunde	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	23	obl	_	Entity=(e17)
+18	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes	19	det:poss	_	_
+19	Kunden	Kunde	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	23	obl	_	_
 20	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
 21	tolle	toll	ADJ	ADJA	Case=Nom|Gender=Fem|Number=Sing	22	amod	_	_
 22	Bank	Bank	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	nsubj:pass	_	_
@@ -523,18 +523,18 @@
 24	werden	werden	AUX	NE	Case=Acc|Number=Plur	23	aux:pass	_	_
 25	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	28	cc	_	_
 26	diese	dies	PRON	PDS	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	27	det	_	_
-27	Marken	Marke	NOUN	NE	Case=Acc|Gender=Fem|Number=Plur	28	obj	_	Entity=(e16)
+27	Marken	Marke	NOUN	NE	Case=Acc|Gender=Fem|Number=Plur	28	obj	_	_
 28	lanciert	lanciert	VERB	VVPP	VerbForm=Part	23	conj	_	_
-29	hätten	haben	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	28	aux	_	SpaceAfter=No
-30	.	.	PUNCT	$.	_	23	punct	_	SpacesAfter=\n\n
+29	hätten	haben	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	28	aux	_	_
+30	.	.	PUNCT	$.	_	23	punct	_
 
 # newpar
 # sent_id = 21
 # text = Aber mit unserer Arbeit, dem Fokus auf Kundenbedürfnisse und nicht unsere eigenen, denke ich, wird man viele Veränderungen sehen.
 1	Aber	aber	CCONJ	KON	_	15	advmod	_	_
 2	mit	mit	ADP	ADJA	Case=Nom|Gender=Fem|Number=Plur	4	case	_	_
-3	unserer	unser	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	4	amod	_	Entity=(e1)
-4	Arbeit	Arbeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No|Entity=(e37-entity-4)
+3	unserer	unser	ADJ	ADJA	Case=Gen|Gender=Fem|Number=Plur	4	amod	_	_
+4	Arbeit	Arbeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	15	obl	_	_
 5	,	,	PUNCT	$,	_	7	punct	_	_
 6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	Fokus	Fokus	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	4	conj	_	_
@@ -542,39 +542,39 @@
 9	Kundenbedürfnisse	Kundenbedürfnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	7	nmod	_	_
 10	und	und	CCONJ	NN	Case=Acc|Gender=Neut|Number=Plur	13	cc	_	_
 11	nicht	nicht	PART	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advmod	_	_
-12	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	13	det:poss	_	Entity=(e1)
-13	eigenen	eigen	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	4	conj	_	SpaceAfter=No
+12	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes	13	det:poss	_	_
+13	eigenen	eigen	ADJ	ADJA	Case=Nom|Gender=Neut|Number=Plur	4	conj	_	_
 14	,	,	PUNCT	$,	_	4	punct	_	_
 15	denke	denken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	advcl	_	_
-16	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	SpaceAfter=No|Entity=(e5)
+16	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
 17	,	,	PUNCT	$,	_	15	punct	_	_
 18	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
 19	man	man	PRON	PIS	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	22	nsubj	_	_
 20	viele	viel	DET	NN	Case=Dat|Gender=Fem|Number=Sing	21	amod	_	_
 21	Veränderungen	Veränderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	22	obj	_	_
-22	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
-23	.	.	PUNCT	$.	_	22	punct	_	SpacesAfter=\n\n
+22	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+23	.	.	PUNCT	$.	_	22	punct	_
 
 # newpar
 # sent_id = 22
 # text = Wir können diese Marken wieder lancieren, daher denke ich, dass die Zeit gekommen ist.
-1	Wir	wir	PRON	ADJD	_	6	nsubj	_	Entity=(e1)
+1	Wir	wir	PRON	ADJD	_	6	nsubj	_	_
 2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 3	diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
-4	Marken	Marke	NOUN	NE	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	Entity=(e16)
+4	Marken	Marke	NOUN	NE	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
 5	wieder	wieder	ADV	NN	Case=Gen|Gender=Neut|Number=Sing	6	advmod	_	_
-6	lancieren	lancieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	lancieren	lancieren	VERB	VVINF	VerbForm=Inf	0	root	_	_
 7	,	,	PUNCT	$,	_	9	punct	_	_
 8	daher	daher	ADV	PAV	_	9	advmod	_	_
 9	denke	denken	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
-10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	SpaceAfter=No|Entity=(e5)
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 11	,	,	PUNCT	$,	_	15	punct	_	_
 12	dass	dass	SCONJ	KOUS	_	15	mark	_	_
 13	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	Zeit	Zeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
 15	gekommen	kommen	VERB	VVPP	VerbForm=Part	9	ccomp	_	_
-16	ist	sein	AUX	ADJD	_	15	aux	_	SpaceAfter=No
-17	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\n
+16	ist	sein	AUX	ADJD	_	15	aux	_	_
+17	.	.	PUNCT	$.	_	6	punct	_
 
 
 

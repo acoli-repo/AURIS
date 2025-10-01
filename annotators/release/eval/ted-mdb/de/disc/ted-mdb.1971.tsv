@@ -1,0 +1,25 @@
+# ID	TEXT	MARKER	TARGET	RELATION
+1	Ich bin in Sierra Leone geboren und aufgewachsen , einem kleinen und sehr schönen Land in Westafrika , einem Land reich sowohl an Bodenschätzen als auch an kreativen Talenten .	_	_	_
+2	Allerdings ist Sierra Leone berüchtigt für einen jahrzehntelangen Rebellenkrieg in den 90ern , in dem ganze Dörfer niedergebrannt wurden .	_	1	contra-expectation
+3	Schätzungsweise 8 000 Männern , Frauen und Kindern wurden in dieser Zeit Arme und Beine amputiert .	_	2	Synchrony
+4	Meine Familie und ich brachten uns vor einem dieser Angriffe in Sicherheit , als ich 12 war .	_	3	Conjunction
+5	In diesem Moment nahm ich mir vor , alles zu tun , um sicherzustellen , dass meine eigenen Kinder nicht dasselbe erleben müssen , was wir erlebt haben .	_	4	Synchrony
+6	Vielmehr sollten sie Teil von einem Sierra Leone sein , in dem Krieg und Amputationen nicht als Strategie zur Machtgewinnung genutzt werden .	_	5	specific
+7	Ich beobachtete Menschen , die ich kannte , liebte , wie sie sich von dieser Verwüstung erholten , aber eine Sache quälte mich zutiefst , und zwar , dass viele der Amputierten in diesem Land nicht ihre Prothesen benutzten .	_	_	_
+8	Der Grund , wie ich später herausfand , waren die Prothesenschäfte , die Schmerzen verursachten , weil sie nicht gut passten .	_	7	reason
+9	Der Prothesenschaft ist der Teil , in welchen der Amputierte seinen Stumpf steckt , der mit der eigentlichen Prothese verbunden ist .	_	_	_
+10	Selbst in den Industrieländern dauert es drei Wochen bis hin zu Jahren , bis sich ein Patient an den Schaft gewöhnt , wenn überhaupt .	_	_	_
+11	Prothesenbauer benutzen immer noch konventionelle Methoden , wie Pressen und Gießen , um Unibody-Prothesenschäfte herzustellen .	_	10	reason
+12	Solche Schäfte üben oft unerträglichen Druck auf die Glieder der Patienten aus und verursachen Druckwunden und Blasen .	_	11	specific
+13	Ganz gleich , wie leistungsfähig die Knöchelprothese ist , wenn der Prothesenschaft unbequem ist , werden Sie die Prothese nicht nutzen , und das ist heutzutage einfach inakzeptabel .	_	12	specific
+14	Damals , als ich Professor Hugh Herr vor zweieinhalb Jahren traf , und er mich fragte , ob ich eine Lösung für dieses Problem hätte , sagte ich : " Nein , noch nicht , aber ich würde sie liebend gerne finden . "	_	_	_
+15	Also habe ich für meine Doktorarbeit am MIT Media Lab maßgefertige Prothesenschäfte entworfen , schnell und günstig , mit mehr Tragekomfort als herkömmliche Prothesen .	_	14	result
+16	Mittels Magnetresonanztomografie ( MRT ) erfasste ich die genaue Form der Anatomie des Patienten , benutzte die Berechnungstechnologie FEM , um besser vorherzusehen , welche inneren Belastungen bei normaler Nutzung entstehen , und lies danach einen Prothesenschaft herstellen .	_	15	before
+17	Wir benutzen 3D-Drucker , um Prothesenschäfte aus mehreren Materialen herzustellen , die den Druck dort verringern , wo es die Anatomie des Patienten nötig macht .	_	16	specific
+18	Kurz gesagt , wir benutzen Daten , um neuartige Schäfte schnell und günstig herzustellen .	_	17	broad
+19	In einem Versuch , den wir vor kurzem am Media Lab durchführten , hat einer unserer Patienten , ein US-Veteran , der seit über 20 Jahren amputiert ist und schon dutzende Prothesen getragen hat , Folgendes über unsere ausgedruckten Prothesen gesagt : " Sie ist so weich , als würde man auf Kissen laufen , und verdammt sexy . "	_	18	instance
+20	( Lachen ) Heutzutage sollten Behinderungen niemanden mehr daran hindern , ein sinnsvolles Leben zu führen .	_	_	_
+21	Meine Hoffnung und mein Wunsch ist es , dass die Werkzeuge und Prozesse , die wir in unserer Forschungsgruppe entwickeln , genutzt werden können , um hochfunktionale Prothesen herzustellen , für die , die sie brauchen .	_	20	Conjunction
+22	Für mich ist es ein Anfang , um die Seelen derer zu heilen , die vom Krieg und Krankheiten betroffen sind , ist für mich komfortable und erschwingliche Schnittstellen für ihre Körper herzustellen .	_	21	Conjunction
+23	Ob in Sierra Leone oder in Boston , ich hoffe , dass dies nicht nur ihren Sinn für menschliches Können wiederherstellt , sondern verändert .	_	22	Conjunction
+24	Vielen Dank	_	_	_
