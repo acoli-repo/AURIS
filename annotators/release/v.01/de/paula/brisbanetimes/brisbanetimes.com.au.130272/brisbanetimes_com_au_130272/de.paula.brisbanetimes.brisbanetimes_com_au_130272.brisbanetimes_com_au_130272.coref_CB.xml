@@ -1,15 +1,14 @@
 <?xml version="1.0" standalone="no"?>
-				<!DOCTYPE paula SYSTEM "paula_feat.dtd">
-				<paula version="1.1">
-				<header paula_id="de.paula.brisbanetimes.brisbanetimes_com_au_130272.brisbanetimes_com_au_130272.coref.CB"/>
-				<featList xmlns:xlink="http://www.w3.org/1999/xlink" type="CB" xml:base="de.paula.brisbanetimes.brisbanetimes_com_au_130272.brisbanetimes_com_au_130272.coref_seg">
-				<feat xlink:href="#markable_23" value="CB"/> <!-- Spiels -->
-				<feat xlink:href="#markable_27" value="CB"/> <!-- Markteinführung -->
-				<feat xlink:href="#markable_30" value="CB"/> <!-- Pokémon -->
-				<feat xlink:href="#markable_33" value="CB"/> <!-- es -->
-				<feat xlink:href="#markable_53" value="CB"/> <!-- Spiels -->
-				<feat xlink:href="#markable_56" value="CB"/> <!-- Unternehmen -->
-				<feat xlink:href="#markable_68" value="CB"/> <!-- Sport -->
-				<feat xlink:href="#markable_71" value="CB"/> <!-- Betätigung -->
-			</featList>
-		</paula>
+<!DOCTYPE paula SYSTEM "paula_feat.dtd">
+<paula version="1.1">
+	<header paula_id="de.paula.brisbanetimes.brisbanetimes_com_au_130272.brisbanetimes_com_au_130272.coref.CB"/>
+	<featList xmlns:xlink="http://www.w3.org/1999/xlink" type="CB" xml:base="de.paula.brisbanetimes.brisbanetimes_com_au_130272.brisbanetimes_com_au_130272.coref_seg.xml">
+		<feat xlink:href="#markable_23" value="CB"/> <!-- Spiels -->
+		<feat xlink:href="#markable_27" value="CB"/> <!-- Markteinführung -->
+		<feat xlink:href="#markable_30" value="CB"/> <!-- Pokémon -->
+		<feat xlink:href="#markable_33" value="CB"/> <!-- es -->
+		<feat xlink:href="#markable_53" value="CB"/> <!-- Spiels -->
+		<feat xlink:href="#markable_56" value="CB"/> <!-- Unternehmen -->
+		<feat xlink:href="#markable_68" value="CB"/> <!-- Sport -->
+		<feat xlink:href="#markable_71" value="CB"/> <!-- Betätigung -->
+	</featList></paula>

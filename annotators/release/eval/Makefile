@@ -1,4 +1,33 @@
-all: coref.log ted-mdb.log
+all: eval.md
+
+eval.md: coref.log ted-mdb.log
+	(cat coref.log \
+	| perl -pe 's/([a-z])\n/\1\t/g;' \
+	| egrep 'Recall|^eval' \
+	| sed s/'\.conllu\t.*'// \
+	| perl -pe 's/\n/\t/g; s/^eval/\neval/g;' \
+	| egrep -m 1 '^eval' \
+	| cut -f 2,4,6,8,10,12,14 \
+	| perl -pe 's/(\t|.$$)/ (p\/r\/f)\1/g; s/\t/\t| /g; s/([^\n]*)/| file\t| \1 |/;';\
+	echo -n '|';\
+	for nr in 0 2 4 6 8 10 12 14; do \
+		echo -n ' ---\t|';\
+	done;\
+	cat coref.log \
+	| perl -pe 's/([a-z])\n/\1\t/g;' \
+	| egrep 'Recall|^eval' \
+	| sed s/'\.conllu\t.*'// \
+	| perl -pe 's/\n/\t/g; s/^eval/\neval/g;' \
+	| sort -u \
+	| cut -f 1,3,5,7,9,11,13,15 \
+	| sed -e s/'Recall: '//g \
+		  -e s/' *Precision:  *'/'\/'/g \
+		  -e s/' *F1:  *'/'\/'/g \
+	| cut -f 2- -d ' ' \
+	| sed -e s/'  *'/'\t'/g \
+	      -e s/'\t'/'\t| '/g \
+	      -e s/'.*\t.*'/'| & |'/g;\
+	) | tee eval.md
 
 ted-mdb:
 	@if [ ! -e ted-mdb ]; then \
@@ -53,6 +82,8 @@ ted-mdb.log: ted-mdb
 		echo eval $$version ted_mdb 1>&2;\
 		echo eval $$version ted_mdb | sed s/'.'/'='/g 1>&2;\
 		echo;\
+		echo src $$SRC 1>&2;\
+		echo tgt $$TGT 1>&2;\
 		python3 ../../../scripts/compare-discourse.py -s $$SRC -t $$TGT --id_col 0 --tgt_col 3 --rel_col 4 1>&2;\
 		echo 1>&2;\
 		echo 1>&2;\
@@ -100,7 +131,7 @@ coref.log: parcorfull
 	\
 	# eval coref \
 	mkdir -p $$tmp;\
-	for lang in parcorfull/*/; do \
+	(for lang in parcorfull/*/; do \
 		lang=`echo $$lang | cut -f 2 -d /`;\
 		files=`find parcorfull/$$lang | grep 'conllu$$' | sed s/'.*\/'//g | sort -u`;\
 		for file in $$files; do \
@@ -120,11 +151,12 @@ coref.log: parcorfull
 			echo >> $$tmp/pcf.conllu;\
 			echo >> $$tmp/pcf.conllu;\
 		done;\
-	done;\
-	for release in $$tmp/v*conllu; do \
+	 done;\
+	 for release in $$tmp/v*conllu; do \
 		echo eval $$release 1>&2;\
 		python3 ../../../scripts/corefud-scorer/corefud-scorer.py $$tmp/pcf.conllu $$release 1>&2;\
 		echo 1>&2;\
-	done 2>&1 | \
+	 done;\
+	) 2>&1 | \
 	tee coref.log;\
 	rm -rf $$tmp;\

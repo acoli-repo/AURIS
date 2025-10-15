@@ -1,8 +1,23 @@
 # build different output formats from xslx sources
 
+PEPPER = $$(cd ../../../ >/dev/null; pwd)/scripts/pepper
+
 all: 
 	@make disc corefud paula 2>&1 \
 	 | tee make.log 1>&2
+
+pepper: paula
+	@if [ ! -e $(PEPPER)/pepper.sh ]; then \
+		echo "Please install https://corpus-tools.org/archive-2015-2025/pepper/ such that $(PEPPER) contains the exectutable pepper.sh" 1>&2;\
+		exit 1;\
+	fi;\
+	PEPPER_CONF=`pwd`/pepper.conf;\
+	cd $(PEPPER); \
+	./pepper.sh $$PEPPER_CONF
+
+
+# ANNATTO: no paula support/relANNIS export anymore
+
 
 refresh:
 	@for dir in */disc/ */corefud */paula; do \
@@ -99,6 +114,9 @@ update_paula: check_xlsx
 					python3 ../../../scripts/auris2paula.py -c $$ud $$file $$tgt $$lang; \
 					find $$tgt | grep '\.xml' | wc -l | sed s/'$$'/' files'/ 1>&2;\
 				fi;\
+				for data_dir in $$tgt/*/; do \
+					cp ../../../scripts/paula*dtd $$data_dir ;\
+				done;\
 			fi;\
 		fi;\
 	done;\

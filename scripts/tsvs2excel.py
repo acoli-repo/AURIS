@@ -125,6 +125,12 @@ if args.sentences!=None:
 											sys.stderr.write(f"warning: discourse relation {rel} is not covered by the mapping\n")
 							transformed_rel="|".join(sorted(set(transformed_rel)))
 
+							# ad hoc fix, these are the only occurrences observed
+							if transformed_rel=="causal|result":
+								transformed_rel="result"
+							if transformed_rel=="causal|reason":
+								transformed_rel="reason"
+
 							if transformed_rel=="":
 								comment_pre+="\n"+f"(unmappable relation)"
 								transformed_rel=relation_pre
