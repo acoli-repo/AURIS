@@ -1,5 +1,4 @@
-import sys,os,re,argparse,pandas,math,traceback
-import numpy as np
+import sys,os,re,argparse,traceback
 import auris
 
 args=argparse.ArgumentParser(description="""Convert/export from AURIS files into PAULA format. Note that we provide document-level annosets only, as annofeats and corpus-level annosets are optional, cf. https://korpling.github.io/paula-xml/unpublished/corpus-structure.html.""")
@@ -50,13 +49,12 @@ anno_set=os.path.join(args.tgt,f"{docname}.anno.xml")
 with open(anno_set, "wt") as anno_set:
 
 	anno_set.write(f"""<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-		<!DOCTYPE paula SYSTEM "paula_struct.dtd">
-
-		<paula version="1.0">
-		<header paula_id="{docname}.anno" />
-		<structList xmlns:xlink="http://www.w3.org/1999/xlink" type="annoSet">
+<!DOCTYPE paula SYSTEM "paula_struct.dtd">
+<paula version="1.0">
+	<header paula_id="{docname}.anno" />
+	<structList xmlns:xlink="http://www.w3.org/1999/xlink" type="annoSet">
 		""")
-	
+
 	anno_struct_nr=1
 	rel_nr=1
 
@@ -69,7 +67,7 @@ with open(anno_set, "wt") as anno_set:
 	# <struct id="anno_1">
 	# <rel id="rel_{anno_struct}" xlink:href="mycorpus.doc1.anno_feat.xml" />
 	# </struct>
-	# 
+	#
 	# don't forget to upddate anno_struct_nr and rel_nr
 
 	# text and tok
@@ -80,32 +78,32 @@ with open(anno_set, "wt") as anno_set:
 	anno_struct_nr+=1
 
 	text_xml=os.path.join(args.tgt,f"{docname}.text.xml")
-	anno_set.write(f"""<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(text_xml)}" />
+	anno_set.write(f"""\t<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(text_xml)}" />
 		""")
 	rel_nr+=1
 
 	with open(text_xml,"wt") as output:
 		output.write(f"""<?xml version="1.0" standalone="no"?>
-			<!DOCTYPE paula SYSTEM "paula_text.dtd">
-			<paula version="1.1">
-			<header paula_id="{docname}.text" type="text"/>
-			<body>{text}</body>
-			</paula>\n""")
+<!DOCTYPE paula SYSTEM "paula_text.dtd">
+<paula version="1.1">
+	<header paula_id="{docname}.text" type="text"/>
+	<body>{text}</body>
+</paula>\n""")
 
 
 	# sentence2word2tokid
 	s2w2tokid={}
 	tok_xml=os.path.join(args.tgt,f"{docname}.tok.xml")
-	anno_set.write(f"""<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(tok_xml)}" />
+	anno_set.write(f"""\t<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(tok_xml)}" />
 		""")
 	rel_nr+=1
 
 	with open(tok_xml,"wt") as output:
 		output.write(f"""<?xml version="1.0" standalone="no"?>
-			<!DOCTYPE paula SYSTEM "paula_mark.dtd">
-			<paula version="1.1">
-			<header paula_id="{docname}.tok"/>
-			<markList xmlns:xlink="http://www.w3.org/1999/xlink" type="tok" xml:base="{os.path.basename(text_xml)}">\n""")
+<!DOCTYPE paula SYSTEM "paula_mark.dtd">
+<paula version="1.1">
+	<header paula_id="{docname}.tok"/>
+	<markList xmlns:xlink="http://www.w3.org/1999/xlink" type="tok" xml:base="{os.path.basename(text_xml)}">\n""")
 		nr=0
 		for s,w2start_end in s2w2start_end.items():
 			s2w2tokid[s]={}
@@ -114,11 +112,11 @@ with open(anno_set, "wt") as anno_set:
 				tokid=f"tok_{nr}"
 				s2w2tokid[s][w]=tokid
 				output.write(f"""\t\t\t\t<mark id="{tokid}" xlink:href="#xpointer(string-range(//body,'',{start+1},{end-start}))"/> <!-- {"_".join(parsed[s].get_words()[w-1]["WORD"].split("-"))} -->\n""")
-		output.write("\t\t\t</markList>\n\t\t</paula>")
+		output.write("\t\t\t</markList>\n</paula>\n")
 
 	anno_set.write("""</struct>
-		""");
-		
+		""")
+
 	# coref
 	#######
 
@@ -130,28 +128,28 @@ with open(anno_set, "wt") as anno_set:
 	# note: our annotations are actually directly over tokens, but as current coref visualizations has separate markables as basis,
 	#	   we encode them in this way.
 	coref_seg_xml=os.path.join(args.tgt,f"{docname}.coref_seg.xml")
-	anno_set.write(f"""<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(coref_seg_xml)}" />
+	anno_set.write(f"""\t<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(coref_seg_xml)}" />
 		""")
 	rel_nr+=1
 
 	coref_xml=os.path.join(args.tgt,f"{docname}.coref.xml")
-	anno_set.write(f"""<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(coref_xml)}" />
+	anno_set.write(f"""\t<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(coref_xml)}" />
 		""")
 	rel_nr+=1
 	with open(coref_seg_xml,"wt") as output:
 		corefid2last_mention={}
 		output.write(f"""<?xml version="1.0" standalone="no"?>
-			<!DOCTYPE paula SYSTEM "paula_mark.dtd">
-			<paula version="1.1">
-			<header paula_id="{docname}.coref_seg"/>
-			<markList xmlns:xlink="http://www.w3.org/1999/xlink" type="mark" xml:base="{docname}.tok.xml">\n""")
+<!DOCTYPE paula SYSTEM "paula_mark.dtd">
+<paula version="1.1">
+	<header paula_id="{docname}.coref_seg"/>
+	<markList xmlns:xlink="http://www.w3.org/1999/xlink" type="mark" xml:base="{docname}.tok.xml">\n""")
 
 		with open(coref_xml,"wt") as rels:
 			rels.write(f"""<?xml version="1.0" standalone="no"?>
-				<!DOCTYPE paula SYSTEM "paula_rel.dtd">
-				<paula version="1.1">
-				<header paula_id="{docname}.coref"/>
-				<relList xmlns:xlink="http://www.w3.org/1999/xlink" type="coref" xml:base="{docname}.coref_seg">\n""")
+<!DOCTYPE paula SYSTEM "paula_rel.dtd">
+<paula version="1.1">
+	<header paula_id="{docname}.coref"/>
+	<relList xmlns:xlink="http://www.w3.org/1999/xlink" type="coref" xml:base="{docname}.coref_seg.xml">\n""")
 
 			relnr=0
 			mnr=0
@@ -162,30 +160,30 @@ with open(anno_set, "wt") as anno_set:
 						tokid=s2w2tokid[snr][wnr+1]
 						mnr+=1
 						mid=f"markable_{mnr}"
-						output.write(f"""\t\t\t\t<mark id="{mid}" xlink:href="#{tokid}"/> <!-- {"_".join(w["WORD"].split("-"))} -->\n""")
+						output.write(f"""\t\t<mark id="{mid}" xlink:href="#{tokid}"/> <!-- {"_".join(w["WORD"].split("-"))} -->\n""")
 						if corefid in corefid2last_mention:
 							relnr+=1
 							relid=f"rel_{relnr}"
-							rels.write(f"""\t\t\t\t<rel id="{relid}" xlink:href="#{mid}" target="#{corefid2last_mention[corefid]}"/>\n""")
+							rels.write(f"""\t\t<rel id="{relid}" xlink:href="#{mid}" target="#{corefid2last_mention[corefid]}"/>\n""")
 						corefid2last_mention[corefid]=mid
-		
-			output.write(f"""\t\t\t</markList>\n\t\t\t</paula>\n""")
-			rels.write(f"""\t\t\t</relList>\n\t\t\t</paula>\n""")
+
+			output.write(f"""\t</markList>\n</paula>\n""")
+			rels.write(f"""\t</relList>\n</paula>\n""")
 
 	# coref feats
 	for feat in ["GR","NP_TYPE","REF","IS","CB"]:
 		feat_xml=os.path.join(args.tgt,f"{docname}.coref_{feat}.xml")
 
-		anno_set.write(f"""<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(feat_xml)}" />
-			""")
+		anno_set.write(f"""\t<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(feat_xml)}" />
+		""")
 		rel_nr+1
 
 		with open(feat_xml,"wt") as output:
 			output.write(f"""<?xml version="1.0" standalone="no"?>
-				<!DOCTYPE paula SYSTEM "paula_feat.dtd">
-				<paula version="1.1">
-				<header paula_id="{docname}.coref.{feat}"/>
-				<featList xmlns:xlink="http://www.w3.org/1999/xlink" type="{feat}" xml:base="{docname}.coref_seg">\n""")
+<!DOCTYPE paula SYSTEM "paula_feat.dtd">
+<paula version="1.1">
+	<header paula_id="{docname}.coref.{feat}"/>
+	<featList xmlns:xlink="http://www.w3.org/1999/xlink" type="{feat}" xml:base="{docname}.coref_seg.xml">\n""")
 			mnr=0
 			for snr,s in enumerate(parsed):
 				for wnr,w in enumerate(s.get_words()):
@@ -193,11 +191,11 @@ with open(anno_set, "wt") as anno_set:
 						mnr+=1
 						mid=f"markable_{mnr}"
 						if feat in w and not str(w[feat]) in ["", "_", "???", "!!!", "nan"]:
-							output.write(f"""\t\t\t\t<feat xlink:href="#{mid}" value="{w[feat]}"/> <!-- {"_".join(w["WORD"].split("-"))} -->\n""")
-			output.write("""\t\t\t</featList>\n\t\t</paula>\n""")
+							output.write(f"""\t\t<feat xlink:href="#{mid}" value="{w[feat]}"/> <!-- {"_".join(w["WORD"].split("-"))} -->\n""")
+			output.write("""\t</featList></paula>\n""")
 
 	anno_set.write("""</struct>
-		""");
+		""")
 
 	# discourse
 	###########
@@ -208,70 +206,70 @@ with open(anno_set, "wt") as anno_set:
 
 	# sentence-level markables
 	sent_xml=os.path.join(args.tgt,f"{docname}.sent_seg.xml") # this is not from a concrete example, just as a general markup file
-	anno_set.write(f"""<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(sent_xml)}" />
+	anno_set.write(f"""\t<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(sent_xml)}" />
 		""")
 	rel_nr+=1
 
 	with open(sent_xml,"wt") as output:
 		output.write(f"""<?xml version="1.0" standalone="no"?>
-			<!DOCTYPE paula SYSTEM "paula_mark.dtd">
-			<paula version="1.1">
-			<header paula_id="{docname}.sent_seg"/>
-			<markList xmlns:xlink="http://www.w3.org/1999/xlink" type="sent" xml:base="{docname}.tok.xml">\n""")
+<!DOCTYPE paula SYSTEM "paula_mark.dtd">
+<paula version="1.1">
+	<header paula_id="{docname}.sent_seg"/>
+	<markList xmlns:xlink="http://www.w3.org/1999/xlink" type="sent" xml:base="{docname}.tok.xml">\n""")
 		for nr,(s,w2tokid) in enumerate(s2w2tokid.items()):
 			sid=f"sent_{s+1}"
 			if len(w2tokid)==1:
-				output.write("""\t\t\t\t<mark id="{sid}" xlink:href="#{w2tokid.values().next()}"/> <!-- {"_".join(parsed[s].get_words()[0]["WORD"].split("-"))} -->\n""")
+				output.write("""\t\t<mark id="{sid}" xlink:href="#{w2tokid.values().next()}"/> <!-- {"_".join(parsed[s].get_words()[0]["WORD"].split("-"))} -->\n""")
 			elif len(w2tokid)>1:
 				start=w2tokid[min(w2tokid)]
 				end=w2tokid[max(w2tokid)]
-				output.write(f"""\t\t\t\t<mark id="{sid}" xlink:href="#xpointer(id('{start})/range-to(id({end})))"/> <!-- {"_".join(parsed[s].get_words()[0]["WORD"].split("-"))} ... {"_".join(parsed[s].get_words()[-1]["WORD"].split("-"))} -->\n""")
-		output.write("\t\t\t</markList>\n\t\t</paula>")
+				output.write(f"""\t\t<mark id="{sid}" xlink:href="#xpointer(id('{start}')/range-to(id('{end}')))"/> <!-- {"_".join(parsed[s].get_words()[0]["WORD"].split("-"))} ... {"_".join(parsed[s].get_words()[-1]["WORD"].split("-"))} -->\n""")
+		output.write("\t</markList>\n</paula>\n")
 
 	# sentence-level annotations (feats only)
 	for feat in ["MARKER","RELATION"]:
 		if len([ s.get_annos()[feat] for s in parsed if feat in s.get_annos()]) > 0:
 			feat_xml=os.path.join(args.tgt,f"{docname}.disc.{feat}.xml")
-			anno_set.write(f"""<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(feat_xml)}" />
-				""")
+			anno_set.write(f"""\t<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(feat_xml)}" />
+		""")
 			rel_nr+=1
 
 			with open(feat_xml,"wt") as output:
 				output.write(f"""<?xml version="1.0" standalone="no"?>
-					<!DOCTYPE paula SYSTEM "paula_feat.dtd">
-					<paula version="1.1">
-					<header paula_id="{docname}.disc.{feat}"/>
-					<featList xmlns:xlink="http://www.w3.org/1999/xlink" type="{feat}" xml:base="{docname}.sent_seg">\n""")
+<!DOCTYPE paula SYSTEM "paula_feat.dtd">
+<paula version="1.1">
+	<header paula_id="{docname}.disc.{feat}"/>
+	<featList xmlns:xlink="http://www.w3.org/1999/xlink" type="{feat}" xml:base="{docname}.sent_seg.xml">\n""")
 				for s,sentence in enumerate(parsed):
 					sid=f"sent_{s+1}"
 					if feat in sentence.get_annos():
-						output.write(f"""\t\t\t\t<feat xlink:href="#{sid}" value="{sentence.get_annos()[feat]}"/> <!-- {"_".join(parsed[s].get_words()[0]["WORD"].split("-"))} ... {"_".join(parsed[s].get_words()[-1]["WORD"].split("-"))} -->\n""")
-				output.write("\t\t\t</featList>\n\t\t</paula>")
+						output.write(f"""\t\t<feat xlink:href="#{sid}" value="{sentence.get_annos()[feat]}"/> <!-- {"_".join(parsed[s].get_words()[0]["WORD"].split("-"))} ... {"_".join(parsed[s].get_words()[-1]["WORD"].split("-"))} -->\n""")
+				output.write("\t</featList>\n</paula>\n")
 
 	# discourse relations 
 	if len([ s.get_annos()["TARGET"] for s in parsed if "TARGET" in s.get_annos()]) > 0:
 		discourse_xml=os.path.join(args.tgt,f"{docname}.disc.discourse.xml")
 		discourse_RELATION_xml=os.path.join(args.tgt,f"{docname}.disc.discourse_RELATION.xml")
-		anno_set.write(f"""<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(discourse_xml)}" />
-			""")
+		anno_set.write(f"""\t<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(discourse_xml)}" />
+		""")
 		rel_nr+=1
-		anno_set.write(f"""<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(discourse_RELATION_xml)}" />
-			""")
+		anno_set.write(f"""\t<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(discourse_RELATION_xml)}" />
+		""")
 		rel_nr+=1
 
 		with open(discourse_xml,"wt") as output:
 			output.write(f"""<?xml version="1.0" standalone="no"?>
-				<!DOCTYPE paula SYSTEM "paula_rel.dtd">
-				<paula version="1.1">
-				<header paula_id="{docname}.disc.discourse"/>
-				<relList xmlns:xlink="http://www.w3.org/1999/xlink" type="discourse" xml:base="{docname}.sent_seg">\n""")
+<!DOCTYPE paula SYSTEM "paula_rel.dtd">
+<paula version="1.1">
+	<header paula_id="{docname}.disc.discourse"/>
+	<relList xmlns:xlink="http://www.w3.org/1999/xlink" type="discourse" xml:base="{docname}.sent_seg.xml">\n""")
 
 			with open(discourse_RELATION_xml,"wt") as rels:
 				rels.write(f"""<?xml version="1.0" standalone="no"?>
-					<!DOCTYPE paula SYSTEM "paula_feat.dtd">
-					<paula version="1.1">
-					<header paula_id="{docname}.disc.discourse_RELATION"/>
-					<featList xmlns:xlink="http://www.w3.org/1999/xlink" type="RELATION" xml:base="{docname}.disc.discourse.xml">\n""")
+<!DOCTYPE paula SYSTEM "paula_feat.dtd">
+<paula version="1.1">
+	<header paula_id="{docname}.disc.discourse_RELATION"/>
+	<featList xmlns:xlink="http://www.w3.org/1999/xlink" type="RELATION" xml:base="{docname}.disc.discourse.xml">\n""")
 
 				relnr=0
 				for snr,s in enumerate(parsed):
@@ -282,15 +280,15 @@ with open(anno_set, "wt") as anno_set:
 							tid=f"sent_{tnr+1}"
 							relnr+=1
 							relid=f"rel_{relnr}"
-							output.write(f"""\t\t\t\t<rel id="{relid}" xlink:href="#{sid}" target="#{tid}"/>\n""")
+							output.write(f"""\t\t<rel id="{relid}" xlink:href="#{sid}" target="#{tid}"/>\n""")
 
 
 							if "RELATION" in s.get_annos():
-								rels.write(f"""\t\t\t\t<feat xlink:href="#{relid}" value="{s.get_annos()["RELATION"]}"/>\n""")
+								rels.write(f"""\t\t<feat xlink:href="#{relid}" value="{s.get_annos()["RELATION"]}"/>\n""")
 
 						except Exception:
 							traceback.print_exc()
 							sys.stderr.write(f"""while looking for TARGET {s.get_annos()["TARGET"]} and RELATION {s.get_annos()["RELATION"]}\n""")
-				output.write(f"""\t\t\t</relList>\n\t\t</paula>\n""")
-				rels.write(f"""\t\t\t</featList>\n\t\t</paula>\n""")
-	anno_set.write("</struct></structList></paula>")
+				output.write(f"""\t</relList>\n</paula>\n""")
+				rels.write(f"""\t</featList>\n</paula>\n""")
+	anno_set.write("</struct>\n\t</structList>\n</paula>\n")
