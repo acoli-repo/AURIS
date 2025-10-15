@@ -6,7 +6,13 @@ all:
 	@make disc corefud paula 2>&1 \
 	 | tee make.log 1>&2
 
-pepper: paula
+pepper.conf:
+	@if [ ! -e pepper.conf ]; then \
+		PWD=`pwd | sed s/'[ \/]'/'\\\&'/g`;\
+		sed s/'[$$]PWD'/$$PWD/g pepper.conf_template | tee pepper.conf;\
+	fi;
+
+pepper: pepper.conf paula
 	@if [ ! -e $(PEPPER)/pepper.sh ]; then \
 		echo "Please install https://corpus-tools.org/archive-2015-2025/pepper/ such that $(PEPPER) contains the exectutable pepper.sh" 1>&2;\
 		exit 1;\

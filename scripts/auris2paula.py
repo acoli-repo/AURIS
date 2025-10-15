@@ -274,6 +274,7 @@ with open(anno_set, "wt") as anno_set:
 	<featList xmlns:xlink="http://www.w3.org/1999/xlink" type="RELATION" xml:base="{docname}.disc.discourse.xml">\n""")
 
 				relnr=0
+				pairs=[] # to spot direct cycles, indirect cycles are preserved
 				for snr,s in enumerate(parsed):
 					sid=f"sent_{snr+1}"
 					if "TARGET" in s.get_annos():
@@ -282,11 +283,16 @@ with open(anno_set, "wt") as anno_set:
 							tid=f"sent_{tnr+1}"
 							relnr+=1
 							relid=f"rel_{relnr}"
-							output.write(f"""\t\t<rel id="{relid}" xlink:href="#{sid}" target="#{tid}"/>\n""")
+							pair=" ".join(sorted([sid,tid]))
+							if pair in pairs:
+								sys.stderr.write("warning: cycle detected for "+pair+", skipping\n")
+							else:
+								output.write(f"""\t\t<rel id="{relid}" xlink:href="#{sid}" target="#{tid}"/>\n""")
+								if "RELATION" in s.get_annos():
+									rels.write(f"""\t\t<feat xlink:href="#{relid}" value="{s.get_annos()["RELATION"]}"/>\n""")
+							pairs.append(pair)
 
 
-							if "RELATION" in s.get_annos():
-								rels.write(f"""\t\t<feat xlink:href="#{relid}" value="{s.get_annos()["RELATION"]}"/>\n""")
 
 						except Exception:
 							traceback.print_exc()
