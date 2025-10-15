@@ -111,8 +111,8 @@ with open(anno_set, "wt") as anno_set:
 				nr+=1
 				tokid=f"tok_{nr}"
 				s2w2tokid[s][w]=tokid
-				output.write(f"""\t\t\t\t<mark id="{tokid}" xlink:href="#xpointer(string-range(//body,'',{start+1},{end-start}))"/> <!-- {"_".join(parsed[s].get_words()[w-1]["WORD"].split("-"))} -->\n""")
-		output.write("\t\t\t</markList>\n</paula>\n")
+				output.write(f"""\t\t<mark id="{tokid}" xlink:href="#xpointer(string-range(//body,'',{start+1},{end-start}))"/> <!-- {"_".join(parsed[s].get_words()[w-1]["WORD"].split("-"))} -->\n""")
+		output.write("\t</markList>\n</paula>\n")
 
 	anno_set.write("""</struct>
 		""")
