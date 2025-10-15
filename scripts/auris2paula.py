@@ -1,4 +1,4 @@
-import sys,os,re,argparse,traceback
+import sys,os,re,argparse,traceback,html
 import auris
 
 args=argparse.ArgumentParser(description="""Convert/export from AURIS files into PAULA format. Note that we provide document-level annosets only, as annofeats and corpus-level annosets are optional, cf. https://korpling.github.io/paula-xml/unpublished/corpus-structure.html.""")
@@ -32,10 +32,12 @@ for snr,sentence in enumerate(parsed):
 	s2w2start_end[snr]={}
 	for wnr,word in enumerate(sentence.get_words()):
 		if "WORD" in word:
-			s2w2start_end[snr][wnr+1]=(len(text),len(text)+len(word["WORD"]))
+			s2w2start_end[snr][wnr+1]=(len(html.unescape(text)),len(html.unescape(text))+len(html.unescape(word["WORD"])))
 			text+=word["WORD"]
 			text+=" "
 	text+="\n"
+if "abcnews" in args.tgt:
+	print(text)
 
 #############
 # spell out #
