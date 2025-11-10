@@ -9,3 +9,5 @@
 	```
 	$> make
 	```
+
+ NB: for multilingual wikihow corpus, cf. https://github.com/veronica320/wikihow-GOSC?tab=readme-ov-file
