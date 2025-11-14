@@ -13,15 +13,10 @@
 	- Guideline version: [v.0.1](https://github.com/acoli-repo/AURIS/blob/main/guidelines/v.0.1/draft-0.1-2023-05-22.pdf)
 	- marginally adjusted 2025-11-14
 	- sentence splitting not checked
-- ted-mdb.2009.eu-cc
+- ted-mdb.2009
 	- tokens 1-470 initially annotated SoSe 2023 for COREF + IS by EU as part of a seminar/excercise
 	- Guideline version: [v.0.1](https://github.com/acoli-repo/AURIS/blob/main/guidelines/v.0.1/draft-0.1-2023-05-22.pdf)
 	- 2025-11-14 revised and extended by CC, CB annotation added
-	- sentence splitting not checked
-- ted-mdb.2009.ps
-	- initially annotated SoSe 2023 for COREF + IS by EU as part of a seminar/excercise with CC
-	- Guideline version: [v.0.1](https://github.com/acoli-repo/AURIS/blob/main/guidelines/v.0.1/draft-0.1-2023-05-22.pdf)
-	- **not** verified
 	- sentence splitting not checked
 
 	
