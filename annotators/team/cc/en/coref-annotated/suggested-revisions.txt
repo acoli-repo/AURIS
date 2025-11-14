@@ -1,0 +1,52 @@
+schema revisions
+
+EVENT as new IS status?
+so far, events not previously mentioned are REFERENTIAL (otherwise, they aren't annotated)
+
+REF=PRED also if the identity of two previously mentioned entities is asserted, e.g., "
+The book of the genealogy of Jesus Christ (jesus). ...
+Mary (...) shall bring forth a son(marys_child). ...
+He named him(marys_child) Jesus(jesus)."
+
+annotate SIT if reported speech alludes to a situational reference:
+
+he said to them, “Brood of vipers! ... [D]o not think to say to yourselves, ‘We have Abraham as our father.’ For I say to you that God is able to raise up children to Abraham from these stones."
+
+for "these stones", this is interpretable only in combination with a deictic reference, so it also must be ACTIVATED (even though no there is no deixis at the text level)
+
+in general, we have a problem with meta levels, esp. for reported speech
+
+
+note that automated pre-annotation may be incorrect if the referent occurs more than once in the last utterance. we will only evaluate its last mention
+
+correction filters:
+- TYPE+subsequent mention => REFERENTIAL
+
+if there is ambiguity between expletive pronoun and cataphoric event anaphor, annotate expletive pronoun
+
+"[F]or _it_ is written, 'He will put his angels in charge of you.'"
+
+However, only if the expletive reading is possible, so 
+
+"[F]or _this_ is written through the prophet, 'You Bethlehem, land of Judah, are in no way least among the princes of Judah.'"
+
+CAT+REFERENTIAL
+
+when annotating "IDIOM" (for non-literal expressions, e.g., proverbs, metaphors, etc.), always add the non-idiomatic reading as a comment, e.g., "in _charge_ of you" (pre-annotated as possessive NP) => COMMENT "~ responsible for". Prefer an explanation without referring expressions
+
+when direct quotes are reported and it is not clear whether the original author referred to the same individuals as the person quoting, add a comment who is asserting an identification
+
+"Jesus said to him [the devil], 'Again, it is written, 'You shall not test the Lord, your God.'"
+
+You -> Devil "in Jesus' interpretation"
+Lord -> Jesus "in Jesus' interpretation"
+
+The substitution principle must be applicable to nominal expressions and proper names.
+
+proper names are always UNIQ
+
+if proverbs or metaphorical expressions (or anything else annotated as IDIOM) contain coreferential relations between their parts, annotate IDIOM, but assign an identity nevertheless.
+
+"You are the *salt* of the earth, but when the *salt* has lost its flavor ..."
+
+CBs for group references? ( > b.MAT)
