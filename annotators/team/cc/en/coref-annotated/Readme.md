@@ -1,0 +1,13 @@
+- b.MAT.1-5
+	- initially annotated SoSe 2023
+	- revised and extended 2025-11-14
+	- sentence splitting not checked
+- ted-mdb.1927
+	- initially annotated SoSe 2023
+	- marginally adjusted 2025-11-14
+	- sentence splitting not checked
+- ted-mdb.1971
+	- initially annotated SoSe 2023
+	- marginally adjusted 2025-11-14
+	- sentence splitting not checked
+	
