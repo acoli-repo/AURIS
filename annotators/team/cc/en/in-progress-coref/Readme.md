@@ -11,3 +11,5 @@
 			- annotated winter 2023-2024 in class by CC+FB+JC
 		- doyle_bask.14.cc2.xlsx
 			- annotated winter 2023-2024 in class by CC+FB+JC
+		- doyle_bask.14.cc3.xlsx
+			- annotation example used in class, saved May 16, 2024, excerpt, only
