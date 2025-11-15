@@ -1,0 +1,13 @@
+- doyle_bask.14.FB_WiP.xlsx
+	- annotated winter 2023-2024 by FB, incomplete
+	- word level: COREF + IS
+	- word level: [v.0.1b](https://github.com/acoli-repo/AURIS/blob/main/guidelines/v.0.1b-excerpt/merged.pdf) ~ [v.0.2](https://github.com/acoli-repo/AURIS/blob/main/guidelines/v.0.2/word-level-excerpt.pdf)
+	- not checked yet
+	- sentence boundaries may be incorrect
+- doyle_bask.14.FB_WiP_cc.xlsx
+	- annotated winter 2023-2024 by FB + moderated in class, incomplete
+	- word level: COREF + IS
+	- word level: [v.0.1b](https://github.com/acoli-repo/AURIS/blob/main/guidelines/v.0.1b-excerpt/merged.pdf) ~ [v.0.2](https://github.com/acoli-repo/AURIS/blob/main/guidelines/v.0.2/word-level-excerpt.pdf)
+	- not checked yet
+	- sentence boundaries may be incorrect
+	- check whether there are actually differences with doyle_bask.14.FB_WiP.xlsx

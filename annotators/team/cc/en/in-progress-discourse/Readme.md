@@ -1,0 +1,3 @@
+- doyle.bask.14
+	- WiSe 2023, partially annotated, CC
+	- guidelines [v.0.2](https://github.com/acoli-repo/AURIS/blob/main/guidelines/v.0.2/sentence-level-excerpt.pdf)
