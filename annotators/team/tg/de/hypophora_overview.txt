@@ -1,0 +1,106 @@
+confusion Hypophora
+
+
+Guidelines:
+
+Hypophora is used when the utterance represents an answer to a rhetorical question presented in the anchor. If there is a semantic discourse relation connecting the situation described with another anchor in the discourse, annotate this as the relation of the question (the anchor of `Hypophora`). The diagnostic criterion is that the anchor has the form of a question, that the answer is immediately provided by the speaker and that no answer from the addressee is expected. 
+
+- (48.1) How can we turn this situation around? **[HYPOPHORA]** Reform starts in the Pentagon. (Prasad et al. 2017, p. 11)
+
+Note that this also includes reported answers as in (48.2).
+
+- (48.2) But can Mr. Hahn carry it off? **[HYPOPHORA]** In this instance, industry observers say, he is entering uncharted waters. (PDTB3, wsj 0100)
+
+> **Note**: AURIS dialog relations are only to be annotated if they occur after turn-taking and no other discourse relation applies. Dialog relations do not apply when the subsequent text relates to a question in other ways – for example, in the case of rhetorical questions that are posed for dramatic effect or to make an assertion, rather than to elicit an answer (Webber et al. 2019a, p.9). Rhetorical questions are excluded from this group and to be annoted as `Hypophora`, instead.
+
+
+Belege
+
+CC: 
+teddy-4929.example (1x)
+9 go	So how did these solitary creatures go from wild predator to naval officer to sofa sidekick ?	how	10	Hypophora
+10	trace	The domestication of the modern house cat can be traced back to more than 10,000 years ago in the Fertile Crescent , at the start of the Neolithic era .	(so)	8	specific
+
+
+TG: 
+ted-mdb.1927  (15x)
+29	_	Wenn also Nachhaltigkeit heute ein Finanzthema ist , und es höchstwahrscheinlich immer relevanter wird , achtet der Privatsektor darauf ?	Wenn also	27	Hypophora
+30	_	Wirklich cool ist , dass die meisten CEOs darauf achten .	(ja)	29	answer
+
+36	_	Wie nutzen Unternehmen ESG , um harte Geschäftsergebnisse zu erzielen ?	Wie	33	hypophora
+37	_	Ein Beispiel geht uns besonders zu Herzen .	ein beispiel	36	instance
+
+43	_	Das sind 21 000 Autos weniger auf den Straßen .	(anders gesagt)	42	Restatement
+44	_	Genial , oder ?	Genial, oder?	43	hypophora
+
+49	_	Warum haben sie das getan ?	Warum	47	hypophora
+50	_	Die Heimwerker-Fans mögen entschuldigen , aber es gibt mehr Wachstum bei Wasser als bei Elektrowerkzeugen , und dieses Unternehmen hat die , wie sie es nennen , " neue Neue Welt " im Visier : Vier Milliarden Menschen aus der Mittelschicht , die Nahrung , Strom und Wasser brauchen .	(weil)	49	reason
+51	_	Jetzt fragen Sie sich vielleicht , sind das denn nicht nur Einzelfälle ?	jetzt fragen Sie sich vielleicht	45	hypophora
+52	_	Ich meine , mal ehrlich , stehen Unternehmen , die Nachhaltigkeit berücksichtigen , finanziell tatsächlich gut da ?	mal ehrlich	51	Hypophora
+53	_	Die überraschende Antwort ist ja .	ja	52	answer
+
+57	_	Seit über drei Jahren kein Leistungskompromiss .	(kurz gesagt)	56	broad
+58	_	Das ist doch okay , oder ?	Das ist doch okay, oder?	57	hypophora
+
+66	_	Wenn die Erträge gleich oder besser sind , und es gut für den Planeten ist , sollte es nicht Standard sein ?	wenn … sollte	65	hypophora
+67	_	Engagieren sich Investoren , insbesondere institutionelle Investoren ?	_	66	hypophora
+68	_	Nun , einige tun es , und ein paar sind wirkliche Vorreiter .	(ja)	67	answer
+
+74	_	Im besten Interesse der Fondsmitglieder handeln , das ist ihre Kernaufgabe .	(um)	73	goal
+75	_	Man muss sie einfach lieben , die Australier , oder ?	oder?	74	hypophora
+
+82	_	Warum ?	warum	83	hypophora
+83	_	Sie glauben , es ist wichtig für größere langfristige Renditen , Punkt .	(weil)	81	reason
+
+98	_	Warum sind sie der Schlüssel ?	warum	98	hypohora
+99	_	Die Antwort ist ganz einfach : Sie haben das Geld .	(weil)	97	reason
+
+110	_	Was wäre , wenn sie diese Feuerkraft nutzten und mehr von ihrem Kapital in Unternehmen investierten , die am härtesten an der Lösung dieser Probleme arbeiten , oder sie zumindest nicht verschärfen ?	was wäre, wenn	109	hypophora
+
+118	_	( Gelächter ) Es ist doch so : Wir schließen Versicherungen ab , um für diese Fälle finanziell gerüstet zu sein , oder ?	oder?	116	hypophora
+119	_	Durch nachhaltiges Investieren tun wir zwei Dinge .	durch	120	means
+120	_	Wir schaffen eine Versicherung , verringern die Gefahr für unseren Planeten und für unsere Wirtschaft , und gleichzeitig müssen wir kurzfristig nicht auf Leistung verzichten .	(nämlich)	119	specific
+121	_	[ Comic : " Was , wenn das alles bloß Schwindel ist und wir schaffen ohne Grund eine bessere Welt ? " ]	was, wenn	120	hypophora
+122	_	Gut , er gefällt Ihnen .	gut	121	feedback
+
+124	_	( Gelächter ) Ich mag ihn , weil er sich über beide Lager des Klimawandels lustig macht .	(genauer gesagt)	123	specific
+125	_	Ich wette , Sie erraten nicht , auf welcher Seite ich stehe .	ich wette	124	hypophora
+
+
+ted-mdb.1971 (none)
+
+ted-mdb.1976 (2x)
+10	_	So ein Bild möchte ich von einem erdähnlichen Planeten eines anderen Sterns machen .	so	7	Similarity
+11	_	Warum gibt es das noch nicht ?	warum	30	Hypophora
+12	_	Warum ist das schwer ?	(anders gefragt)	11	restatement
+
+40	_	Also , was passiert hier ?	was	41	Hypophora
+41	_	Nun , der Mond wirft einen Schatten auf die Erde .	(kurz gesagt)	40	broad
+
+
+ted-mdb.1978 (2x)
+36	_	Was uns dazu bringt , Dinge zu tun , uns weiter voran zu treiben , ist den Beinahe-Erfolg zu schätzen .	(und)	35	Conjunction
+37	_	Wie oft haben wir etwas als einen Klassiker , ein Meisterwerk angesehen , während sein Schöpfer es als hoffnungslos unfertig ansieht , von Schwierigkeiten und Fehlern durchzogen , mit anderen Worten , ein Beinahe-Erfolg ?	wie	36	hypophora
+38	_	Elizabeth Murray hat mich mit der Ansicht über ihre früheren Gemälde überrascht .	(damit)	7	achievement
+
+48	_	Wie viele Erfinder und verborgene Unternehmer leben dieses Phänomen ?	wie	47	hypophora
+49	_	Wir sehen es auch am Leben des unbezwingbaren Arktis-Forschers Ben Saunders , der mir erzählte , dass seine Triumphe nicht bloß das Ergebnis einer großartigen Leistung sind , sondern der Antrieb , der durch eine Reihe von Beinahe-Erfolgen entsteht .	(zum Beispiel)	48	instance
+
+
+ted-mdb.2009 (1x)
+26	_	Vielleicht fragen Sie sich , wieso jemand ein Leben wie dieses wählt , unter der Fuchtel diskriminierender Gesetze , aus Mülltonnen zu essen , unter Brücken zu schlafen , hier und da Saisonjobs anzunehmen .	vielleicht	27	hypophora
+27	_	Darauf gibt es so viele Antworten wie Menschen , die dieses Leben führen , aber Herumreisende antworten oft mit einem Wort : Freiheit .	[der Grund ist]	26	reason
+
+
+ted-mdb.2150 (4x)
+34	_	Und sogar eine ganze Gruppe rund um Drogen und Witze .	und sogar	33	instance
+35	_	Wie cool ist das denn ?	wie cool	34	hypophora
+36	_	Auch die Fußballmannschaft " Flamengo " ist vertreten .	auch 	34	Conjunction
+
+40	_	Vielleicht reichhaltiger als alles , was wir je zuvor hatten .	vielleicht (sogar)	39	specific
+41	_	Was können wir damit anfangen ?	was	39	hypophora
+42	_	Ich denke , als Erstes sollten wir versuchen zu verstehen : Ist diese Trennung ein soziales Konzept ?	als erstes	41	goal
+
+53	_	Was ist also eine Stadt ?	was ist also	55	hypophora
+54	_	Jemand könnte sagen , ein geografisches Gebiet , eine Reihe von Straßen und Gebäuden .	jemand könnte sagen	53	Hypophora
+55	_	Ich glaube aber , eine Stadt ist die Summe der Beziehungen der Leute , die dort leben .	aber	54	contra-expectation
