@@ -72,7 +72,7 @@ Such information may be either `KNOWN` or `NOVEL`, it can thus be combined with 
 
 	> Note: Annotators should first annotate all content words in the current sentence according to the `KNOWN`-`NOVEL` dichotomy. The annotation of `COUNTER` should be nested inside the annotation of earlier `KNOWN` or `NOVEL` annotations, if possible.
 
-	> Note: Annotators should annotate `COUNTER` if and only if either the clause contains a discourse marker such as *however*, *although*, *nevertheless* (or an equivalent, e.g., German *allerdings*, *jedoch*, *dennoch*, *trotzdem*, *nichtsdestotrotz*), or if the clause could be reformulated in a way that it contains *however* or an an equivalent and may still occur naturally at the current position in text.
+	> Note: Annotators should annotate `COUNTER` in a sentence if and only if either the clause contains a discourse marker such as *however*, *although*, *nevertheless* (or an equivalent, e.g., German *allerdings*, *jedoch*, *dennoch*, *trotzdem*, *nichtsdestotrotz*), or if the clause could be reformulated in a way that it contains *however* or an an equivalent and may still occur naturally at the current position in text. Note that the `COUNTER` annotation pertains to the contrasted information, not the discourse marker itself.
 
 
 ## Examples
