@@ -255,13 +255,15 @@ txt/bibl:
 		for xml in $$lang/*.xml; do \
 			if [ ! -e txt/`basename $$lang` ] ; then mkdir -p txt/`basename $$lang`; fi; \
 			basename=`basename $$lang`_`basename $$xml | cut -f 1 -d '.' | cut -f 1 -d '_'`;\
-			for book in GEN PSA MAT ACT; do \
+			for book in GEN.1 GEN.2 GEN.3 GEN.4 GEN.5 GEN.6 GEN.7 GEN.8 GEN.9 GEN.10 GEN.11 \
+						MAT.1 MAT.2 MAT.3 MAT.4 MAT.5 \
+						ACT.1 ACT.2 ACT.3 ACT.4 ACT.5 ACT.6; do \
 				tgt=txt/`basename $$lang`/bibl.$$basename.$$book.txt;\
 				echo $$xml '>' $$tgt 1>&2; \
 				cat $$xml \
 				| iconv -f utf-8 -t utf-8 -c \
 				| perl -pe 's/\s+/ /g; s/<seg/\n<seg/g; s/<\/seg>/\n/g; ' \
-				| grep -a '<seg[^>]*id="b.'$$book \
+				| grep -a -e '<seg[^>]*id="b.'$$book'\.' \
 				| perl -pe 's/<[^>]*>//g; s/<.*//g; s/.*>//g; s/ +/ /;' \
 				| egrep -a . \
 				> $$tgt;\
