@@ -55,8 +55,8 @@ update-ready-for-annotation: update-conllu
 				   | sort -u`;\
 			for file in $$FILES; do \
 				#echo  $$lang: $$file 1>&2;\
-				disc=`find discourse_pre/$$lang/ | grep 'tsv$$' | grep -m 1 '/'$$file`;\
-				ref=`find refexp/$$lang/ | grep -m 1 '/'$$file`;\
+				disc=`find discourse_pre/$$lang/ | grep 'tsv$$' | grep -m 1 '/'$$file'\.'`;\
+				ref=`find refexp/$$lang/ | grep -m 1 '/'$$file'\.'`;\
 				path=`if [ ! dirname $$disc 2>/dev/null ]; then dirname $$ref; fi | sed s/'^[^\/]*\/'//`;\
 				path=ready-for-annotation/$$lang/$$path;\
 				if [ ! -e $$path ]; then mkdir -p $$path; fi;\
@@ -263,7 +263,7 @@ txt/bibl:
 				cat $$xml \
 				| iconv -f utf-8 -t utf-8 -c \
 				| perl -pe 's/\s+/ /g; s/<seg/\n<seg/g; s/<\/seg>/\n/g; ' \
-				| grep -a -e '<seg[^>]*id="b.'$$book'\.' \
+				| grep -a -e '<seg[^>]*id="b.'$$book'[^0-9]' \
 				| perl -pe 's/<[^>]*>//g; s/<.*//g; s/.*>//g; s/ +/ /;' \
 				| egrep -a . \
 				> $$tgt;\
