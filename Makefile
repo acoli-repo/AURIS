@@ -21,7 +21,7 @@ stats:
 				| grep /$$lang/ \
 				| cut -f 5 -d / \
 				| sort -u \
-				| grep -v raw `;\
+				| grep -v raw`;\
 			for stat in $$status; do \
 				annotators=`find $$SRCDIR \
 							| grep $$file'$$' \
