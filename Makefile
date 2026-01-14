@@ -4,22 +4,24 @@ all: ready-for-annotation
 
 # generates statistics
 stats:
-	@SRCDIR=annotators/;\
+	@SRCDIR=annotators/team;\
 	IFS=$$'\n';\
 	files=$$(for file in `find $$SRCDIR | grep '\.xlsx$$'`; do basename $$file; done | sort -u);\
 	for file in $$files; do \
 		freq=`find $$SRCDIR \
 			| grep $$file'$$' \
 			| wc -l`;\
-		status=`find $$SRCDIR \
-			| grep $$file'$$' \
-			| cut -f 5 -d / \
-			| sort -u`;\
 		langs=`find $$SRCDIR \
 			| grep $$file'$$' \
 			| cut -f 4 -d / \
 			| sort -u`;\
 		for lang in $$langs; do \
+			status=`find $$SRCDIR \
+				| grep $$file'$$' \
+				| grep /$$lang/ \
+				| cut -f 5 -d / \
+				| sort -u \
+				| grep -v raw `;\
 			for stat in $$status; do \
 				annotators=`find $$SRCDIR \
 							| grep $$file'$$' \
