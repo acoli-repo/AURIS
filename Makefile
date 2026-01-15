@@ -6,7 +6,7 @@ all: ready-for-annotation
 stats:
 	@SRCDIR=annotators/team;\
 	IFS=$$'\n';\
-	files=$$(for file in `find $$SRCDIR | grep '\.xlsx$$'`; do basename $$file; done | sort -u);\
+	files=$$(for file in `find $$SRCDIR | grep '\.xlsx$$'`; do basename $$file; done | sort -u | grep -v cost_annotation_times.xlsx);\
 	for file in $$files; do \
 		freq=`find $$SRCDIR \
 			| grep $$file'$$' \
@@ -26,7 +26,7 @@ stats:
 				annotators=`find $$SRCDIR \
 							| grep $$file'$$' \
 							| grep /$$lang/ \
-							| cut -f 2-3 -d / \
+							| cut -f 3 -d / \
 							| sort -u`;\
 				echo $$file'	'$$lang'	'$$status'	'$$annotators;\
 			done;\
