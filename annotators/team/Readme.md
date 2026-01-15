@@ -16,6 +16,8 @@ Contributors (to annotated data and/or the guidelines, either as part of their c
 - VH Victor Hesse (en; Coref, IS, no CB; Apr - Aug 2025, student)
 - LH Lisa Huber (de, fr; Coref, Apr - Aug 2024; student)
 - EU Elena Utummi (en; Coref, Oct 2023 - Aug 2024; student)
-- PS Patrick Sachse (en; Coref, IS; Apr-Auf 2023; student)
+- FB (en; Coref, Oct 2023 - Apr 2024; student)
+- JC (en; Coref, Oct 2023 - Apr 2024; student)
+- PS Patrick Sachse (en; Coref, IS; Apr-Aug 2023; student)
 
 
