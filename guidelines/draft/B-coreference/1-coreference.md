@@ -185,6 +185,14 @@ In spreadsheet-based annotations, some of the values are automatically suggested
 
 	> (13.e) *Max Müller, \[the greatest center forward of all time\]<sub>NM</sub>, is generally seen as ...*
 
+ 	Note one exception: Do *not* annotate expressions as `PRED` if a copular or identificational construction asserts identity between two already discourse-established referents rather than introducing a non-referring predicate (e.g. identify, turn out to be, X is Y!), as illustrated in (13.f). In such cases, both NPs remain referential and a coreference relation is established.
+  
+  	> (13.f) *\[Der Mörder\]<sub>m</sub> muss durch das Fenster gekommen sein.*\
+			 *…*\
+			 *Ach \[Peter\]<sub>p</sub>, da bist du ja.*\
+			 *…*\
+			 *\[Peter\]<sub>p</sub> ist \[der Mörder\]<sub>m</sub>!*
+
 7. `IDIOM`: Non-referring expression: apparent referring expressions (e.g., definite NPs) in fixed, conventionalized idioms and corresponding collocations:
 
 	> (14.a) *jemandem auf die <ins>Nerven</ins> gehen* (German, "to annoy someone")
