@@ -13,8 +13,8 @@ AURIS is designed to build on and complement CoNLL-U corpora, and uses a CoNLL f
 
 - [`txt/`](txt): Plain text files (input to pre-annotation)
 - [`ready-for-annotation/`](ready-for-annotation/): Spreadsheet (Excel) files with pre-annotation
-- [`annotators/`](annotators/): annotations by individual annotators, and their reports/logs. Note that this data is heterogeneous
-- [`release/`](release/) [**NOT YET**]: directory that should contain consolidated annotations. This is the consolidated output from `annotators/`.
+- [`annotators/`](annotators/): annotations by individual annotators, and their reports/logs. Note that any data not integrated in `annotators/team` is heterogeneous and considered unreliable
+- [`annotators/release/`](annotators/release/) [**NOT YET**]: directory that should contain consolidated annotations. This is the consolidated output from `annotators/`.
 
 ### For annotators
 
@@ -22,24 +22,27 @@ For the language `LANG` (say, English, i.e., `en`) you are working with, create 
 
 ### For text providers
 
-- To add texts to the corpus, deposit them as plain text in `txt/$lang`, with `$lang` being the BCP47 identifier for your language (e.g., `en` for English) and run `make`. Note that only data from supported languages will be processed.
+- To add texts to the corpus, deposit them as plain text in `txt/$lang`, with `$lang` being the BCP47 identifier for your language (e.g., `en` for English) and run `make`. Note that only data from supported languages will be processed. **Please observe the naming conventions for files** below. 
 
 - Spreadsheet files are built from plain text with 
 
-		make update
+		make
 
 	(see [`Makefile`](Makefile))
 
-Auxiliary files produced during pre-annotation
+The following auxiliary files produced during pre-annotation:
 
 - [`conllu/`](conllu): Syntactically annotated files from `txt/` (automatically parsed, UD compliant)
 - [`refexp/`](refexp): "Raw" word-level TSV/CoNLL files with automated (static) pre-annotation, input to manual annotation
 - [`discourse_pre/`](discourse_pre): "Raw" sentence-level TSV files with automated (static) pre-annotation, input to manual annotation
 
-Legacy data:
+#### Naming conventions for files
 
-- [`is/`](is): Older manual annotations for coreference and information status, Excel format
-- [`discourse_annotated/`](is): Older manual annotations for coreference and information status, Excel format
+We posit some file naming conventions, so that we can reconstruct a language-independent text ID. This will be used by `make stats` to track annotation progress across languages. If this is not observed, cross-linguistic file mapping will fail.
+
+- a human-readable label identifying the source, consisting of arbitrary sequences of lower-case ASCII characters (`a-z`) separated by `-`
+- this sequence can be followed or interrupted by numerical IDs, separated by `-` or `.`
+- for language-specific metadata, use the separator `_`, anything between `_` and the next `.` or `-` will be considered to not be part of the text id, but treated like a comment.
 
 ### For developers
 
@@ -56,6 +59,15 @@ Legacy data:
 	- **IN PROGRESS** for Italian, using [UD 2.5 ISDT model](https://lindat.mff.cuni.cz/repository/xmlui/handle/11234/1-3131)
 - `make update-discourse_pre` seems to be blocked occasionally, esp., for longer files. When building new files for `ready-for-annotation`, these must be manually (timeout is implemented, but doesn't seem to grasp) terminated. As a possible workaround, start multiple `make update-discourse_pre` (resp. `make update`, etc.) threads shortly one after another. They are set up in a way that they don't overwrite each other's output, but skip files into which another instance is already writing into. 
 - Current setup was developed under and tested within Ubuntu 22.04L.
+
+## For corpus maintainers
+
+For tracking annotation progress, you can get aggregate statistics about the status of the `team` annotation my calling `make stats`. This will update [stats.md](stats.md). Texts are ranked by (approximate) maturity of annotations and cross-linguistic coverage.
+
+More fine-grained information is available on the command line with `make plain_stats`, which allows filtering for annotations, languages or annotators using standard shell tools such as `grep` and `cut`.
+
+Both scripts only evaluate the folder structure under `annotators/team`.
+
 
 ## Known Issues
 

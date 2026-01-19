@@ -2,8 +2,8 @@ SHELL=bash
 
 all: ready-for-annotation
 
-# generates statistics
-stats:
+# generates statistics for command-line post-processing
+plain_stats:
 	@SRCDIR=annotators/team;\
 	IFS=$$'\n';\
 	files=$$(for file in `find $$SRCDIR | grep '\.xlsx$$'`; do basename $$file; done | sort -u | grep -v cost_annotation_times.xlsx);\
@@ -35,8 +35,13 @@ stats:
 		#find $$SRCDIR \
 		#| grep $$file'$$';\
 		#echo;\
-	done | \
-	sort -b -u
+	done \
+	| sort -b -u
+
+stats:
+	@make plain_stats \
+	| python3 scripts/stats2md.py \
+	| tee stats.md
 
 update: update-conllu
 	if [ -e ready-for-annotation ]; then rm -rf ready-for-annotation; fi;
