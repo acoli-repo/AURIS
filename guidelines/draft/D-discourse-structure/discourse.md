@@ -634,6 +634,11 @@ If a series of instances is provided, do not connect each of them with the `set`
 - (41.b) [He could hide his hound , but he could not hush it s voice , and hence came those cries which even in daylight were not pleasant to hear .]INSTANCE/ANCHOR(conjunction)
 - (41.c) On an emergency he could keep the hound in the out house at Merripit , but it was always a risk , [and it was only on the supreme day , which he regarded as the end of all his efforts , that he dared do it .]CONJUNCTION (Doyle, Baskerville)
 
+- (42.a) [A river went out of Eden to water the garden ; and from there it was parted , and became four heads .]ANCHOR(set)
+- (42.b) [ The name of the first is Pishon : ... ]INSTANCE
+- (42.c) [ The name of the second river is Gihon : ...]CONJUNCTION
+- (42-d) [ The name of the third river is Hiddekel : ...]CONJUNCTION
+- (42.e) [ The fourth river is the Euphrates .]CONJUNCTION (Genesis, World English Bible)
 
 ### 1.9.6 `Elaboration`
 
@@ -889,6 +894,19 @@ In an entity relation, the utterance provides further description about some ent
 If an entity relation holds between the utterance and several candidate anchors (as in ex. 56.2), annotate the relation to the closest anchor candidate:
 
 - (56.2) HOLIDAY ADS: Seagram will run two interactive ads in December magazines promoting its Chivas Regal and Crown Royal brands. The Chivas ad illustrates – via a series of pullouts – the wild reactions from the pool man, gardener and others if not given Chivas for Christmas. The three-page Crown Royal ad features a black-and-white shot of a boring holiday party – and a set of colorful stickers with which readers can dress it up. **[EntRel]** Both ads were designed by Omnicom’s DDB Needham agency. (PDTB2, 0989)
+
+### 1.11.4 other non-relations: `NoRel`
+
+In addition to the cases mentioned above, there may be other cases of `NoRel`, e.g., if two parts of a text are not actually part of the same text, but alternatives to each other, e.g., as result of a compilation in which incompatible versions are preserved. Example (57) is from Genesis
+
+- (57.a) God blessed the seventh day , and made it holy , because he rested in it from all his work which he had created and made .
+- (57.b) [This is the history of the generations of the heavens and of the earth when they were created , in the day that Yahweh God made the earth and the heavens .]NoRel
+- (57.c) No plant of the field was yet in the earth , and no herb of the field had yet sprung up ; for Yahweh God had not caused it to rain on the earth . (Genesis, World English Bible)
+
+Note that (57.c) comes *after* plants (and everying else) had been created, indicating that (57.b) starts a completely independent textual witness (and an incompatible version) of the creation story.
+
+In such cases, annotators can leave the TARGET column empty.
+
 
 ## 1.12 Troubleshooting
 
