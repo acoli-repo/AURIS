@@ -15,30 +15,36 @@
  | ted-mdb.1971 | cc vr | cc tg |  |  |
 |  | annotated-coref | annotated-discourse |  |  |
 |  |  | experimental-other |  |  |
+ | bibl.gen.4 | cc |  | gm |  |
+|  | annotated-discourse |  | annotated-coref |  |
+ | bibl.gen.3 | cc |  | gm |  |
+|  | annotated-discourse |  | annotated-coref |  |
  | augsburger-allgemeine.de.44740 | vr | tg |  |  |
 |  | annotated-other | annotated-both |  |  |
  | an-online.de.224441 | vr | tg |  |  |
 |  | annotated-other | annotated-both |  |  |
  | abcnews.199762 | vr | tg |  |  |
 |  | annotated-other | annotated-both |  |  |
+ | bibl.gen.5 | cc |  | gm |  |
+|  | annotated-discourse |  | in-progress-coref |  |
  | doyle.14 | cc fb jc lk ps |  |  |  |
 |  | final-coref |  |  |  |
 |  | annotated-discourse |  |  |  |
 |  | in-progress-coref |  |  |  |
- | bibl.en.gen.1 | cc ps |  |  |  |
+ | bibl.gen.1 | cc ps |  |  |  |
 |  | final-coref |  |  |  |
 |  | annotated-discourse |  |  |  |
- | bibl.en.act.6 | ps |  |  |  |
+ | bibl.act.6 | ps |  |  |  |
 |  | final-coref |  |  |  |
- | bibl.en.act.5 | ps |  |  |  |
+ | bibl.act.5 | ps |  |  |  |
 |  | final-coref |  |  |  |
- | bibl.en.act.4 | ps |  |  |  |
+ | bibl.act.4 | ps |  |  |  |
 |  | final-coref |  |  |  |
- | bibl.en.act.3 | ps |  |  |  |
+ | bibl.act.3 | ps |  |  |  |
 |  | final-coref |  |  |  |
- | bibl.en.act.2 | ps |  |  |  |
+ | bibl.act.2 | ps |  |  |  |
 |  | final-coref |  |  |  |
- | bibl.en.act.1 | ps |  |  |  |
+ | bibl.act.1 | ps |  |  |  |
 |  | final-coref |  |  |  |
  | rotkaeppchen-026 |  | lh tg |  | lh |
 |  |  | in-progress-coref |  | in-progress-coref |
@@ -89,21 +95,15 @@
 |  |  | annotated-coref |  |  |
  | ted-mdb.1927-sentences |  | tg |  |  |
 |  |  | annotated-coref |  |  |
- | bibl.it.gen.4 |  |  | gm |  |
-|  |  |  | annotated-coref |  |
- | bibl.it.gen.3 |  |  | gm |  |
-|  |  |  | annotated-coref |  |
- | bibl.en.mat.5 | cc |  |  |  |
+ | bibl.mat.5 | cc |  |  |  |
 |  | annotated-coref |  |  |  |
- | bibl.en.mat.4 | cc |  |  |  |
+ | bibl.mat.4 | cc |  |  |  |
 |  | annotated-coref |  |  |  |
- | bibl.en.mat.3 | cc |  |  |  |
+ | bibl.mat.3 | cc |  |  |  |
 |  | annotated-coref |  |  |  |
- | bibl.en.mat.2 | cc |  |  |  |
+ | bibl.mat.2 | cc |  |  |  |
 |  | annotated-coref |  |  |  |
- | bibl.en.mat.1 | cc |  |  |  |
-|  | annotated-coref |  |  |  |
- | bibl.en.gen.2 | cc |  |  |  |
+ | bibl.mat.1 | cc |  |  |  |
 |  | annotated-coref |  |  |  |
  | ted-mdb.1978 |  | cc tg |  |  |
 |  |  | annotated-discourse |  |  |
@@ -111,17 +111,11 @@
  | ted-mdb.1976 |  | cc tg |  |  |
 |  |  | annotated-discourse |  |  |
 |  |  | experimental-other |  |  |
- | bibl.en.gen.5 | cc |  |  |  |
-|  | annotated-discourse |  |  |  |
- | bibl.en.gen.4 | cc |  |  |  |
-|  | annotated-discourse |  |  |  |
- | bibl.en.gen.3 | cc |  |  |  |
+ | bibl.gen.2 | cc |  |  |  |
 |  | annotated-discourse |  |  |  |
  | teddy-953 | vr |  |  |  |
 |  | annotated-other |  |  |  |
  | doyle.02.conllu | ps |  |  |  |
 |  | in-progress-coref |  |  |  |
- | bibl.it.gen.5 |  |  | gm |  |
-|  |  |  | in-progress-coref |  |
  | froschkg-001 |  | tg |  |  |
 |  |  | in-progress-other |  |  |
