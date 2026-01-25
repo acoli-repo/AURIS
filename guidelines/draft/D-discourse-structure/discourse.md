@@ -20,7 +20,9 @@ There is an exception for attribution verbs, for which the main clause of the at
 
 > Note that these guidelines are partially based on the Penn Discourse Treebank, which also accounts for intrasentential discourse relations. We thus still include examples of intrasentential relations in the definition of discourse relations. In the future, these are to be replaced by real-world intersentential corpus examples. 
 
-The Goal of the annotation is to annotate every sentence with one **discourse relation**. It is neither required nor expected that the annotation of discourse relations leads to a tree structure. The refer to the sentence that is annotated as the **utterance**, the sentence that it is linked to by the discourse relation as the **(contextual) anchor**. If a discourse relation is indicated by an explicit discourse marker, this is syntactically integrated with the utterance. Accordingly, the applicability of a discourse relation can be tested by means of a paraphrase or substitution test where a diagnostic discourse marker is inserted: If the insertion of a diagnostic discourse marker does not change the meaning of the utterance in its context, the corresponding discourse relation can be annotated. A list of diagnostic markers is provided in an appendix.
+The Goal of the annotation is to annotate every sentence with one **discourse relation**. (If the first sentence of a text excerpt relates to a context that is not part of the file, it may be left unannotated.) It is neither required nor expected that the annotation of discourse relations leads to a tree structure. The refer to the sentence that is annotated as the **utterance**, the sentence that it is linked to by the discourse relation as the **(contextual) anchor**. If a discourse relation is indicated by an explicit discourse marker, this is syntactically integrated with the utterance. Accordingly, the applicability of a discourse relation can be tested by means of a paraphrase or substitution test where a diagnostic discourse marker is inserted: If the insertion of a diagnostic discourse marker does not change the meaning of the utterance in its context, the corresponding discourse relation can be annotated. A list of diagnostic markers is provided in an appendix.
+
+> Note: The marker insertion test should be done in the original context. If no viable marker can be found, however, this may be because the content between utterance and anchor obfuscates the relationship. In this case, it is admitted to test for discourse markers that would be felicituous in case the utterance would immediately follow its anchor.
 
 The order of anchor and utterance is flexible, but in many cases, the anchor precedes the utterance. For implicit discourse markers, the anchor should generally precede the utterance, explicit discourse can be used by the speaker to underline that the anchor follows the utterance. A notable special case is the first part of a paired discourse marker, such as *On the one hand ... . On the other hand ...*. Here, the first utterance, marked with *on the one hand*, takes the second as its anchor, whereas the second takes the first as its anchor. If an utterance carries more than one explicit discourse marker, we annotate the first discourse marker, only.
 
@@ -279,10 +281,10 @@ The top level of the hierarchy follows PDTB2, the middle level represents SemAF 
 | &nbsp; - `goal`                    | _in order to_                                                  |
 | &nbsp; - `enablement`              | _for that purpose_, _therefore_                                |
 | **TEMPORAL**                       |                                                                |
-| - `Synchrony`                      | _while_, _when_                                                |
+| - `Synchrony`                      | _while_, _when_, _now_, _in this moment_                       |
 | - `Asynchrony`                     |                                                                |
 | &nbsp; - `before`                  | _before (that)_                                                |
-| &nbsp; - `after`                   | _after (that)_, _then_ (temporally)                            |
+| &nbsp; - `after`                   | _after (that)_, _next_, _then_ (temporally)                    |
 | **EXPANSION**                      |                                                                |
 | - `Manner`                         |                                                                |
 | &nbsp; - `means`                   | (intrasentential: _by_, _the manner of/in which/by which_      |
@@ -327,6 +329,12 @@ Discourse relations concerned with highlighting differences between the situatio
 `Concession` is used when an causal relation expected from one of the arguments is cancelled or denied by the situation described in the other. Concession is related to CONTRAST in that it highlights a difference between utterance and anchor. Semantically, the connective indicates that one of the sentences describes a situation A which causes C, while the other asserts (or implies) ¬C. Alternatively, one sentences denotes a fact that triggers a set of potential consequences, while the other denies one or more of them (cf. Bunt & Prasad 2016, Prasad et al. 2007, p.32,34; Webber et al. 2019a, p.24). Diagnostic discourse markers (either at the `expectation-raiser` or the `contra-expectation` argument) are _although_ or _even though_, a diagnostic discourse marker at `contra-expectation` is _however_. Note that _but_, taken as diagnostic discourse marker of `Contrast` is usually also applicable to `Concession`. Annotate `Concession` for cases in which `however` can be used in place of `but`.
 
 > Note that concessive connectives can also be used in a rhetorical or pragmatic way where their semantic conditions do not hold. Such cases of "apparent Concession" are included here, as well, but MUST be documented in comments. This includes cases in which the speech act associated with the `expectation-raiser` is cancelled or denied by the `contra-expectation` or its speech act. So far, this has been observed for `contra-expectation`, only (Webber et al., 2019, p.24, PDTB3 Comparison.Concession+SpeechAct).
+
+> Note that concessions can hold not only between utterances, but also, between (speech) acts. In the following, the concession is between direct speech and the (continuation of) the movement, not with the statement that the movement began. This can be lexicalized with the marker sequence _however, now_
+
+- (19.a) So as the fog bank flowed onward we fell back before it until we were half a mile from the house (...).
+- (19.b) **[Concession]** "We are going too far , " said Holmes . (Doyle, Baskerville)
+
 
 #### `expectation-raiser`
 
@@ -397,6 +405,12 @@ The `reason` relation also includes epistemic, rhetorical or pragmatic uses of c
 - (24.6) Mrs Yeargin is lying. **[Implicit = because]** They found students in an advanced class a year earlier who said she gave them similar help. (PDTB2, 0044)
 - (24.7) And until last Friday, it seemed those efforts were starting to pay off. **[Implicit=because]** “Some of those folks were coming back,” says Leslie Quick Jr., chairman, of discount brokers Quick & Reilly Group Inc. (PDTB3, wsj 1866)
 
+AURIS: Note that our understanding of `reason` also includes *possible reasons* (non-conditional, which cannot be paraphrased by *if*, but must be paraphrased by _perhaps (because)_:
+
+- (25.a) Stapleton was talking with animation , but the baronet looked pale and distrait .
+- (25.b) **Perhaps** the thought of that lonely walk across the ill omened moor was weighing heavily upon his mind . (Doyle, Baskerville)
+
+
 #### `result`
 
 The situation described in the utterance is interpreted as the result (effect) of the situation presented in the anchor. A diagnostic discourse marker is _as a result_ (cf. PDTB Result, Prasad et al. 2007, p.26,29; Webber et al. 2019a, p.20).
@@ -414,6 +428,11 @@ Likewise, `result` is to be used when the anchor is the reason for the speaker t
 - (25.4) *Surviving scandal has become a rite of political passage at a time when a glut of scandal has blunted this town’s sensibility. **[implicit=so]** Let the president demand strict new ethics rules.* (PDTB3, wsj 0909)
 
 > Note: PDTB3 introduced Cause/negative-result for intrasentential relations, specifically for the English construction _too X to Y_ (Webber et al. 2019a, p.18,20). This does not seem to be relevant for intersentential relations. 
+
+In AURIS, we include cases in which the utterance is an explicit question for the result. The actual result is in the answer. In the example below, this is illustrated by the usage of the causal marker _so_:
+
+- (26.a) "You have saved my life . ..."
+- (26.b) So ! Now , if you will help me up . **[RESULT]** What do you propose to do ?" (Doyle, Baskerville)
 
 #### `cause`
 
@@ -444,6 +463,21 @@ The utterance represents a `condition`, an unrealized situation which, when real
 The anchor represents a condition, i.e., an unrealized situation which, when realized, would lead to the `consequence` described in the utterance. As for the logical relation between condition and consequence, the same conditions hold as described above (cf. Bunt & Prasad 2016). A diagnostic paraphrase is _under this condition_, possible discourse markers are _then_ and _so_ (which can also be used for temporal and causal relations).
 
 - (27) *“I’ve heard that there is $40 billion taken in nationwide by boiler rooms every year,” Mr. McClelland says. “**If that’s true [So]**, Orange County has to be at least 10% of that.”* (PDTB2, 1568)
+
+In AURIS, consequences also includes questions for possible consequences: 
+
+- (28.a) " It 's moving towards us , Watson . "
+- (28.b) *[consequence]* " Is that serious ? " (Doyle, Baskerville)
+
+#### `cause`
+
+If the direction of causality is unclear or both directions are equally plausible, annotate `cause` (not `Cause`)
+
+- (29.a) He dropped on his knees and clapped his ear to the ground .
+- (29.b) **[cause]** "Thank God , I think that I hear him coming ." (Doyle, Baskerville)
+
+Wanting to hear him coming is the reason for clapping his ear to the ground. Actually hearing him is the result of clapping his ear to the ground.
+
 
 ### 1.7.3 `Negative Condition`
 
@@ -497,6 +531,8 @@ The utterance describes a situation that enables the goal (purpose) described in
 - (32.1) *Then, in late-afternoon trading, hundred-thousand-share buy orders for UAL hit the market, including a 200,000-share order through Bear Stearns that seemed to spark UAL’s late price surge. **Almost simultaneously**, PaineWebber began a very visible buy program for dozens of stocks.* (PDTB3, wsj 1208)
 - (32.2) *The parishioners of St. Michael and All Angels stop to chat at the church door, as members here always have. **[Implicit=while]** In the tower, five men and women pull rhythmically on ropes attached to the same five bells that first sounded here in 1614.* (PDTB3, wsj 0089)
 
+In AURIS, we consider _now_ to be a discourse marker for events synchronous with the narrated time.
+
 ### 1.8.2 Asynchrony
 
 The utterance stands in a temporal order with the situation described in the anchor (Bunt & Prasad 2016, Prasad et al. 2007, p.27).
@@ -545,6 +581,13 @@ In `Restatement`, the utterance describes the same situation as the anchor, but 
 - (37.3) *But the battle is more than Justin bargained for. **[implicit=indeed]** ”I had no idea I was getting in so deep,” says Mr. Kaye, who founded Justin in 1982.* (PDTB3, wsj 2418)
 - (37.4) *When the consumer had no more money and remembered the policy, he would learn at the company’s headquarters about the so-called policy surrender value coefficient. **In other words,** he did not receive what he had paid.* (Żurowski et al. 2023, p.486)
 
+
+In AURIS, `Restatement` also includes cases where a qualitative assessment of the previously presented situation is given
+
+- (38.a) As her beautiful head fell upon her chest [I saw the clear red weal of a whiplash across her neck]ANCHOR .
+- (38.b) ["The brute !"]RESTATEMENT cried Holmes .
+
+
 ### 1.9.4 `Exception`
 
 In `Exception`, the `regular` evokes a set of circumstances in which the described situation holds, while the `exception` indicates one or more instances where it doesn't (Bunt & Prasad 2016; Webber et al. 2019a, p.27).
@@ -585,6 +628,13 @@ The utterance provides one or more instances of the circumstances described by t
 - (41.3) *And regional offices were “egregiously overstaffed,” he claims. **[Implicit=for example]** One office had 19 people doing the work of three, ...* (PDTB3, wsj 0305)
 - (41.4) *So far, the mega-issues are a hit with investors. **[Implicit, For example]** Earlier this year, Tata Iron & Steel Co.’s offer of $355 million of convertible debentures was oversubscribed.* (Prasad et al. 2017, p.8)
 
+If a series of instances is provided, do not connect each of them with the `set` anchor, but only the first. Connect all that follows with `Conjunction` to the preceding instance. Note that this can be made explicit with `and`.
+
+- (41.a) [Well , I do not know that this place contains any secret which we have not already fathomed .]ANCHOR(set)
+- (41.b) [He could hide his hound , but he could not hush it s voice , and hence came those cries which even in daylight were not pleasant to hear .]INSTANCE/ANCHOR(conjunction)
+- (41.c) On an emergency he could keep the hound in the out house at Merripit , but it was always a risk , [and it was only on the supreme day , which he regarded as the end of all his efforts , that he dared do it .]CONJUNCTION (Doyle, Baskerville)
+
+
 ### 1.9.6 `Elaboration`
 
 Both sentences describe the same situation, but in less or more detail (Bunt & Prasad 2016; PDTB3 Level-of-Detail in Webber et al. 2019a, p.27). 
@@ -595,6 +645,12 @@ The utterance describes the same situation as the anchor, but the anchor provide
 		
 - (42.1) *If the contract is as successful as some expect, it may do much to restore confidence in futures trading in Hong Kong. **[Implicit = Overall,]]** “The contract is definitely important to the exchange,” says Robert Gilmore, executive director of the Securities and Futures Commission.* (PDTB2, 0700)
 - (42.2) *Many modern scriptwriters seem to be incapable of writing drama, or anything else, without foul-mouthed cursing. Sex and violence are routinely included even when they are irrelevant to the script, and high-tech special effects are continually substituted for good plot and character development. **In short**, we have a movie and television industry that is either incapable or petrified of making a movie unless it carries a PG-13 or R rating.* (PDTB3, wsj 0911)
+
+In AURIS, `broad` is also used for a qualitative assessment of a preceding event. This can correlate with the usage of _finally_:
+
+- (43.a) [" It 's dead , whatever it is , " said Holmes .]ANCHOR
+- (43.b) [" We 've laid the family ghost once and forever . "]BROAD
+
 
 #### `specific`
 
@@ -791,6 +847,13 @@ We do not consider attribution a discourse relation in its own right. However, a
 
 Note that example (49) originally had a *paragraph break* between the attribution sentence and the statement.
 
+In other cases, this may arise as result of a segmentation error:
+
+- (50.a) "You say , Watson , that the lady is not there ?"
+- (50.b) **[Attribution]** Holmes *asked*, when I had finished my report . (Doyle, Baskerville)
+
+The discourse markers of attribution are verbs of attribution.
+
 > Prefer `Attribution` over `EntRel`: Annotate `Attribution` for attribution verbs separated from their statements, including examples with coreferent entities (as in 49).
 
 ### 1.11.2 Syntactic Fragments: `Fragment`
@@ -801,6 +864,12 @@ In syntactic preprocessing, parser errors can occur that lead to the splitting o
 [Unsinkable Sam , he rode to Gibraltar with the rescued crew and served as a ship cat on three more vessels – one of which also sank before retiring to the Belfast Home for Sailors]ANCHOR .`
 
 The fragment that contains the main predicate is to be given annotations that apply to the complete sentence.
+
+In reported speech, a single utterance may be broken into multiple syntactic sentences, e.g.,
+
+- (52.a) " [My God !]FRAGMENT " he whispered .
+- (52.b) " [What was it ?]ANCHOR" (Doyle, Baskerville)
+
 
 ### 1.11.3 Entity Relations: `EntRel`
 
