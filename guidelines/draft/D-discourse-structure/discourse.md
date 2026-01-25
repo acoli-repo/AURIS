@@ -910,18 +910,32 @@ In such cases, annotators can leave the TARGET column empty.
 
 ## 1.12 Troubleshooting
 
-- pairwise discourse markers: Annotate independently. As both parts refer to each other, this creates a cycle in the annotation.
+### utterances without anchors
+
+Not every text we work with is complete. If an utterance is interpreted to be linked with an element outside the current text (excerpt), annotate 0 as anchor. This will often occur at the beginning of excerpted texts.
+
+If an utterance shows no discourse linking (`NoRel`), annotate TARGET as `_`
+
+### pairwise discourse markers
+
+Annotate independently. As both parts refer to each other, this creates a cycle in the annotation. 
 
 	- (57.1) **On the one hand**, Mr. Front says, it would be misguided to sell into “a classic panic.” **On the other hand**, it’s not necessarily a good time to jump in and buy. (PDTB2, 2415)
 
-- discourse markers of attribution verbs: If a discourse marker is (correctly or not) attached to an attribution verb, but the main predicate of an utterance is a dependent of the attribution verb, this discourse marker is taken to refer to the main predicate. The primary discourse marker is identified by means of the following preferences:
+If there are contextual clues to link the first utterance to anything else in preceding discourse, annotate as such to avoid cycles in annotation.
+
+### discourse markers of attribution verbs
+
+If a discourse marker is (correctly or not) attached to an attribution verb, but the main predicate of an utterance is a dependent of the attribution verb, this discourse marker is taken to refer to the main predicate. The primary discourse marker is identified by means of the following preferences:
 
 	- MAIN CLAUSE > DEPENDENT CLAUSE > DEPENDENT of DEPENDENT CLAUSE
 	- within a clause: first > second 
 
 	- (57.1') **On the one hand**, Mr. Front says, it would be misguided to sell into “a classic panic.” 
 
-- Apparent cases of multiple utterance. In the following example, utterances 4.-7. constitute an elaboration of 3. However, we adopt the SDRT view on such constellations, that is, if 4 elaborates 3 and 5 elaborates 3, a narration relation hold between 4 and 5. Because we annotate the closest anchor for each utterance, only the narration is to be annotated, but not the elaboration. (Note that these are SDRT relations, but the argumentation holds for ISO 24617-8 labels, as well.)
+### multiple utterances as TARGET
+
+Apparent cases of multiple utterance: In the following example, utterances 4.-7. constitute an elaboration of 3. However, we adopt the SDRT view on such constellations, that is, if 4 elaborates 3 and 5 elaborates 3, a narration relation hold between 4 and 5. Because we annotate the closest anchor for each utterance, only the narration is to be annotated, but not the elaboration. (Note that these are SDRT relations, but the argumentation holds for ISO 24617-8 labels, as well.)
 
 	(57.2) 
 		1. Legal controversies in America have a way of assuming a symbolic significance far exceeding what is involved in the particular case. 
@@ -932,7 +946,9 @@ In such cases, annotators can leave the TARGET column empty.
 		6. Few now recall the actual outcome:
 		7. Scopes was convicted and fined $100, and his conviction was reversed on appeal because the fine was excessive under Tennessee law. (PDTB2, 0946)
 
-- multiple clauses as anchors: In AURIS, the anchor must be a single utterance (resp., its main predicate). If a discourse connective seems to take a _sequence_ of utterances as anchors, chose the closest candidate anchor with which a relation can be established. However, plausibility overrides proximity. In the example below, the third sentence _could_ is in a contrast relation with the first as well as the second. However, the second seems to elaborate with anecdotal evidence on the first, so the main reason for surprisal in the third utterance is not the karaoke ban, but the general poor condition. So, annotate 1 as an anchor. (The situation may be different if karaoke is the main topic of the article.)
+### multiple clauses as anchors
+
+In AURIS, the anchor must be a single utterance (resp., its main predicate). If a discourse connective seems to take a _sequence_ of utterances as anchors, chose the closest candidate anchor with which a relation can be established. However, plausibility overrides proximity. In the example below, the third sentence _could_ is in a contrast relation with the first as well as the second. However, the second seems to elaborate with anecdotal evidence on the first, so the main reason for surprisal in the third utterance is not the karaoke ban, but the general poor condition. So, annotate 1 as an anchor. (The situation may be different if karaoke is the main topic of the article.)
 
 	- (57.3) 
 		1. Here in this new center for Japanese assembly plants just across the border from San Diego, turnover is dizzying, infrastructure shoddy, bureaucracy intense. 
@@ -941,7 +957,9 @@ In such cases, annotators can leave the TARGET column empty.
 
 	> Note: This is different from PDTB, where, instead, a minimality principle applies.
 
-- attribution: As defined by Prasad et al. (2007, p.40), attribution is "a relation of “ownership” between abstract objects and individuals or agents. That is, attribution has to do with ascribing beliefs and assertions expressed in text to the agent(s) holding or making them". If a the main clause of an utterance expresses an attribution, with a statement in a dependent clause or direct speech annotated as part of the same utterance, then the main predicate of the utterance is to be taken from the statement, not the attribution verb. If an utterance consists of an attribution verb only, without including the reported statement, the main predicate is the attribution verb.
+### attribution
+
+As defined by Prasad et al. (2007, p.40), attribution is "a relation of “ownership” between abstract objects and individuals or agents. That is, attribution has to do with ascribing beliefs and assertions expressed in text to the agent(s) holding or making them". If a the main clause of an utterance expresses an attribution, with a statement in a dependent clause or direct speech annotated as part of the same utterance, then the main predicate of the utterance is to be taken from the statement, not the attribution verb. If an utterance consists of an attribution verb only, without including the reported statement, the main predicate is the attribution verb.
 
 	> Note: We rely on an existing pre-annotation for sentence (utterances) here. If utterances are to be manually segmented, then attribution and statement should be put in distinct utterances if and only if the statement is a complete sentence. Normally, this occurs with direct speech only. Also, reported statements interrupted by an attribution verb should not be segmented, then.
 
@@ -955,3 +973,7 @@ In such cases, annotators can leave the TARGET column empty.
 
 	- (57.5) _Advocates said_ the 90-cent-an-hour rise, to $4.25 an hour by April 1991, is too small for the working poor, while opponents argued that the increase will still hurt small business and cost many thousands of jobs. (PDTB2 0098) 
 
+
+### Other remarks
+
+> Note (CC): It seems to me that I sometimes conflated TARGET and ANCHOR in this text, Needs to be consolidated.
