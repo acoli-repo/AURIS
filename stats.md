@@ -25,8 +25,9 @@
 |  | final-coref |  |  |  |
 |  | annotated-discourse |  |  |  |
 |  | in-progress-coref |  |  |  |
- | bibl.en.gen.1 | ps |  |  |  |
+ | bibl.en.gen.1 | cc ps |  |  |  |
 |  | final-coref |  |  |  |
+|  | annotated-discourse |  |  |  |
  | bibl.en.act.6 | ps |  |  |  |
 |  | final-coref |  |  |  |
  | bibl.en.act.5 | ps |  |  |  |
@@ -102,12 +103,20 @@
 |  | annotated-coref |  |  |  |
  | bibl.en.mat.1 | cc |  |  |  |
 |  | annotated-coref |  |  |  |
+ | bibl.en.gen.2 | cc |  |  |  |
+|  | annotated-coref |  |  |  |
  | ted-mdb.1978 |  | cc tg |  |  |
 |  |  | annotated-discourse |  |  |
 |  |  | experimental-other |  |  |
  | ted-mdb.1976 |  | cc tg |  |  |
 |  |  | annotated-discourse |  |  |
 |  |  | experimental-other |  |  |
+ | bibl.en.gen.5 | cc |  |  |  |
+|  | annotated-discourse |  |  |  |
+ | bibl.en.gen.4 | cc |  |  |  |
+|  | annotated-discourse |  |  |  |
+ | bibl.en.gen.3 | cc |  |  |  |
+|  | annotated-discourse |  |  |  |
  | teddy-953 | vr |  |  |  |
 |  | annotated-other |  |  |  |
  | doyle.02.conllu | ps |  |  |  |
