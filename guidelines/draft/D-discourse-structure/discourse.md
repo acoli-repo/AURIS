@@ -680,6 +680,13 @@ The anchor describes a way in which the achievement described in the utterance c
 - (45.1) *McCaw is offering $125 a share for 22 million LIN shares, **thereby** challenging LIN’s proposal to spin off its television properties, pay shareholders a $20-a-share special dividend and combine its cellular-telephone operations with BellSouth’s cellular business.* (PDTB3, wsj 2443, INTRASENTENTIAL)
 - (45.2) *Long-debated proposals to simplify the more than 150 civil penalties **[Implicit=thereby]** and make them fairer and easier to administer are in the House tax bill.* (PDTB3, wsj 0293)
 
+Although PDTB does not provide such instances, `Manner` relations can occur between sentences, cf. (46).
+
+- (46.a) [God said , "Let there be an expanse in the middle of the waters , and let it divide the waters from the waters ."]ANCHOR
+- (46.b) [God made the expanse , and divided the waters which were under the expanse from the waters which were above the expanse ; and it was so.]ACHIEVEMENT
+
+(Note that God creates by only saying things.)
+
 ### 1.9.8 `Substitution`
 
 Two mutually exclusive alternatives are evoked in the discourse but only one is taken, the other is ruled out. A diagnostic discourse marker is the connective _instead_ (PDTB2 chosen alternative, Prasad et al. 2007, p.36; Webber et al. 2019a, p.29-30). To some extent, the same discourse markers can be used for `Substitution` and `Exception`, the difference is that `Exception` is an observation and grounded in facts, whereas `Substitution` involves a conscious choice or preference.
