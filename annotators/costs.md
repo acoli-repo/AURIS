@@ -18,6 +18,13 @@
 - discourse relations
 	- v.0.2
 		- jc: 60 min für 23 sätze ~ 460 tokens, d.h. 7.7 tokens/min
+	- v.0.2
+		- cc: en/GEN (discourse only) 24.6±5.4 tokens / min
+			- en/GEN.4 697 tok / 27 min
+			- en/GEN.3 681 tok / 35 min
+			- en/GEN.2 697 tok / 31 min
+			- en/GEN.1 900 tok / 28 min
+			- note: GEN annotation seems to be simpler than usual, because most things are just `after`, as they are reported, but not explained)
 
 
-teddy: 3760 sätze, 73391 tokens ~ 20 tokens
+
