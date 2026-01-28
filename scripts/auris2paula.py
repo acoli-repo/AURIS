@@ -15,7 +15,7 @@ parser=auris.AURISParser(args.lang)
 parsed=parser.parse(args.xlsx,conllu=args.conllu)
 parsed.print_words()
 
-docname=re.sub(r"[\\/]",".",re.sub(r"[^a-zA-Z0-9/\\]+","_",args.tgt).strip("_")).strip(".")+"."+re.sub(r"[^a-zA-Z0-9]+","_",re.sub(r"\.xlsx$","",os.path.basename(args.xlsx))).strip("_")
+docname=re.sub(r"[\\/]", ".", re.sub(r"paula.", "", re.sub(r"[^a-zA-Z0-9\-/\\]+", "_", args.tgt).strip("_"))).strip(".") + "." + re.sub(r"[^a-zA-Z0-9\-]+", "_", re.sub(r"\.xlsx$", "", os.path.basename(args.xlsx))).strip("_")
 
 ############################
 # in-memory representation #
@@ -36,24 +36,22 @@ for snr,sentence in enumerate(parsed):
 			text+=word["WORD"]
 			text+=" "
 	text+="\n"
-if "abcnews" in args.tgt:
-	print(text)
 
 #############
 # spell out #
 #############
-args.tgt=os.path.join(args.tgt,re.sub(r"[^a-zA-Z0-9]+","_",re.sub(r"\.xlsx$","",os.path.basename(args.xlsx))).strip("_"))
+args.tgt=os.path.join(args.tgt,re.sub(r"[^a-zA-Z0-9\-]+","_",re.sub(r"\.xlsx$","",os.path.basename(args.xlsx))).strip("_"))
 if os.path.exists(args.tgt):
 	raise Exception(f"ERROR: found target directory {args.tgt}, skipping {args.xlsx}")
 os.makedirs(args.tgt)
 
-anno_set=os.path.join(args.tgt,f"{docname}.anno.xml")
+anno_set=os.path.join(args.tgt,f"auris.{docname}.anno.xml")
 with open(anno_set, "wt") as anno_set:
 
 	anno_set.write(f"""<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE paula SYSTEM "paula_struct.dtd">
 <paula version="1.0">
-	<header paula_id="{docname}.anno" />
+	<header paula_id="auris.{docname}.anno" />
 	<structList xmlns:xlink="http://www.w3.org/1999/xlink" type="annoSet">
 		""")
 
@@ -79,7 +77,7 @@ with open(anno_set, "wt") as anno_set:
 		""")
 	anno_struct_nr+=1
 
-	text_xml=os.path.join(args.tgt,f"{docname}.text.xml")
+	text_xml=os.path.join(args.tgt,f"auris.{docname}.text.xml")
 	anno_set.write(f"""\t<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(text_xml)}" />
 		""")
 	rel_nr+=1
@@ -88,14 +86,14 @@ with open(anno_set, "wt") as anno_set:
 		output.write(f"""<?xml version="1.0" standalone="no"?>
 <!DOCTYPE paula SYSTEM "paula_text.dtd">
 <paula version="1.1">
-	<header paula_id="{docname}.text" type="text"/>
+	<header paula_id="auris.{docname}.text" type="text"/>
 	<body>{text}</body>
 </paula>\n""")
 
 
 	# sentence2word2tokid
 	s2w2tokid={}
-	tok_xml=os.path.join(args.tgt,f"{docname}.tok.xml")
+	tok_xml=os.path.join(args.tgt,f"auris.{docname}.tok.xml")
 	anno_set.write(f"""\t<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(tok_xml)}" />
 		""")
 	rel_nr+=1
@@ -104,7 +102,7 @@ with open(anno_set, "wt") as anno_set:
 		output.write(f"""<?xml version="1.0" standalone="no"?>
 <!DOCTYPE paula SYSTEM "paula_mark.dtd">
 <paula version="1.1">
-	<header paula_id="{docname}.tok"/>
+	<header paula_id="auris.{docname}.tok"/>
 	<markList xmlns:xlink="http://www.w3.org/1999/xlink" type="tok" xml:base="{os.path.basename(text_xml)}">\n""")
 		nr=0
 		for s,w2start_end in s2w2start_end.items():
@@ -129,12 +127,12 @@ with open(anno_set, "wt") as anno_set:
 	# coref markables and relations
 	# note: our annotations are actually directly over tokens, but as current coref visualizations has separate markables as basis,
 	#	   we encode them in this way.
-	coref_seg_xml=os.path.join(args.tgt,f"{docname}.coref_seg.xml")
+	coref_seg_xml=os.path.join(args.tgt,f"auris-coref.{docname}.coref_seg.xml")
 	anno_set.write(f"""\t<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(coref_seg_xml)}" />
 		""")
 	rel_nr+=1
 
-	coref_xml=os.path.join(args.tgt,f"{docname}.coref.xml")
+	coref_xml=os.path.join(args.tgt,f"auris-coref.{docname}.coref.xml")
 	anno_set.write(f"""\t<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(coref_xml)}" />
 		""")
 	rel_nr+=1
@@ -143,15 +141,15 @@ with open(anno_set, "wt") as anno_set:
 		output.write(f"""<?xml version="1.0" standalone="no"?>
 <!DOCTYPE paula SYSTEM "paula_mark.dtd">
 <paula version="1.1">
-	<header paula_id="{docname}.coref_seg"/>
-	<markList xmlns:xlink="http://www.w3.org/1999/xlink" type="mark" xml:base="{docname}.tok.xml">\n""")
+	<header paula_id="auris-coref.{docname}.coref_seg"/>
+	<markList xmlns:xlink="http://www.w3.org/1999/xlink" type="mark" xml:base="auris.{docname}.tok.xml">\n""")
 
 		with open(coref_xml,"wt") as rels:
 			rels.write(f"""<?xml version="1.0" standalone="no"?>
 <!DOCTYPE paula SYSTEM "paula_rel.dtd">
 <paula version="1.1">
-	<header paula_id="{docname}.coref"/>
-	<relList xmlns:xlink="http://www.w3.org/1999/xlink" type="coref" xml:base="{docname}.coref_seg.xml">\n""")
+	<header paula_id="auris-coref.{docname}.coref"/>
+	<relList xmlns:xlink="http://www.w3.org/1999/xlink" type="coref" xml:base="auris-coref.{docname}.coref_seg.xml">\n""")
 
 			relnr=0
 			mnr=0
@@ -174,7 +172,7 @@ with open(anno_set, "wt") as anno_set:
 
 	# coref feats
 	for feat in ["GR","NP_TYPE","REF","IS","CB"]:
-		feat_xml=os.path.join(args.tgt,f"{docname}.coref_{feat}.xml")
+		feat_xml=os.path.join(args.tgt,f"auris-coref.{docname}.coref_{feat}.xml")
 
 		anno_set.write(f"""\t<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(feat_xml)}" />
 		""")
@@ -184,8 +182,8 @@ with open(anno_set, "wt") as anno_set:
 			output.write(f"""<?xml version="1.0" standalone="no"?>
 <!DOCTYPE paula SYSTEM "paula_feat.dtd">
 <paula version="1.1">
-	<header paula_id="{docname}.coref.{feat}"/>
-	<featList xmlns:xlink="http://www.w3.org/1999/xlink" type="{feat}" xml:base="{docname}.coref_seg.xml">\n""")
+	<header paula_id="auris-coref.{docname}.coref.{feat}"/>
+	<featList xmlns:xlink="http://www.w3.org/1999/xlink" type="{feat}" xml:base="auris-coref.{docname}.coref_seg.xml">\n""")
 			mnr=0
 			for snr,s in enumerate(parsed):
 				for wnr,w in enumerate(s.get_words()):
@@ -207,7 +205,7 @@ with open(anno_set, "wt") as anno_set:
 	anno_struct_nr+=1
 
 	# sentence-level markables
-	sent_xml=os.path.join(args.tgt,f"{docname}.sent_seg.xml") # this is not from a concrete example, just as a general markup file
+	sent_xml=os.path.join(args.tgt,f"auris-disc.{docname}.sent_seg.xml") # this is not from a concrete example, just as a general markup file
 	anno_set.write(f"""\t<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(sent_xml)}" />
 		""")
 	rel_nr+=1
@@ -216,8 +214,8 @@ with open(anno_set, "wt") as anno_set:
 		output.write(f"""<?xml version="1.0" standalone="no"?>
 <!DOCTYPE paula SYSTEM "paula_mark.dtd">
 <paula version="1.1">
-	<header paula_id="{docname}.sent_seg"/>
-	<markList xmlns:xlink="http://www.w3.org/1999/xlink" type="sent" xml:base="{docname}.tok.xml">\n""")
+	<header paula_id="auris-disc.{docname}.sent_seg"/>
+	<markList xmlns:xlink="http://www.w3.org/1999/xlink" type="sent" xml:base="auris.{docname}.tok.xml">\n""")
 		for nr,(s,w2tokid) in enumerate(s2w2tokid.items()):
 			sid=f"sent_{s+1}"
 			if len(w2tokid)==1:
@@ -231,7 +229,7 @@ with open(anno_set, "wt") as anno_set:
 	# sentence-level annotations (feats only)
 	for feat in ["MARKER","RELATION"]:
 		if len([ s.get_annos()[feat] for s in parsed if feat in s.get_annos()]) > 0:
-			feat_xml=os.path.join(args.tgt,f"{docname}.disc.{feat}.xml")
+			feat_xml=os.path.join(args.tgt,f"auris-disc.{docname}.disc.{feat}.xml")
 			anno_set.write(f"""\t<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(feat_xml)}" />
 		""")
 			rel_nr+=1
@@ -240,8 +238,8 @@ with open(anno_set, "wt") as anno_set:
 				output.write(f"""<?xml version="1.0" standalone="no"?>
 <!DOCTYPE paula SYSTEM "paula_feat.dtd">
 <paula version="1.1">
-	<header paula_id="{docname}.disc.{feat}"/>
-	<featList xmlns:xlink="http://www.w3.org/1999/xlink" type="{feat}" xml:base="{docname}.sent_seg.xml">\n""")
+	<header paula_id="auris-disc.{docname}.disc.{feat}"/>
+	<featList xmlns:xlink="http://www.w3.org/1999/xlink" type="{feat}" xml:base="auris-disc.{docname}.sent_seg.xml">\n""")
 				for s,sentence in enumerate(parsed):
 					sid=f"sent_{s+1}"
 					if feat in sentence.get_annos():
@@ -250,8 +248,8 @@ with open(anno_set, "wt") as anno_set:
 
 	# discourse relations 
 	if len([ s.get_annos()["TARGET"] for s in parsed if "TARGET" in s.get_annos()]) > 0:
-		discourse_xml=os.path.join(args.tgt,f"{docname}.disc.discourse.xml")
-		discourse_RELATION_xml=os.path.join(args.tgt,f"{docname}.disc.discourse_RELATION.xml")
+		discourse_xml=os.path.join(args.tgt,f"auris-disc.{docname}.disc.discourse.xml")
+		discourse_RELATION_xml=os.path.join(args.tgt,f"auris-disc.{docname}.disc.discourse_RELATION.xml")
 		anno_set.write(f"""\t<rel id="rel_{rel_nr}" xlink:href="{os.path.basename(discourse_xml)}" />
 		""")
 		rel_nr+=1
@@ -263,15 +261,15 @@ with open(anno_set, "wt") as anno_set:
 			output.write(f"""<?xml version="1.0" standalone="no"?>
 <!DOCTYPE paula SYSTEM "paula_rel.dtd">
 <paula version="1.1">
-	<header paula_id="{docname}.disc.discourse"/>
-	<relList xmlns:xlink="http://www.w3.org/1999/xlink" type="discourse" xml:base="{docname}.sent_seg.xml">\n""")
+	<header paula_id="auris-disc.{docname}.disc.discourse"/>
+	<relList xmlns:xlink="http://www.w3.org/1999/xlink" type="discourse" xml:base="auris-disc.{docname}.sent_seg.xml">\n""")
 
 			with open(discourse_RELATION_xml,"wt") as rels:
 				rels.write(f"""<?xml version="1.0" standalone="no"?>
 <!DOCTYPE paula SYSTEM "paula_feat.dtd">
 <paula version="1.1">
-	<header paula_id="{docname}.disc.discourse_RELATION"/>
-	<featList xmlns:xlink="http://www.w3.org/1999/xlink" type="RELATION" xml:base="{docname}.disc.discourse.xml">\n""")
+	<header paula_id="auris-disc.{docname}.disc.discourse_RELATION"/>
+	<featList xmlns:xlink="http://www.w3.org/1999/xlink" type="RELATION" xml:base="auris-disc.{docname}.disc.discourse.xml">\n""")
 
 				relnr=0
 				pairs=[] # to spot direct cycles, indirect cycles are preserved
@@ -279,7 +277,10 @@ with open(anno_set, "wt") as anno_set:
 					sid=f"sent_{snr+1}"
 					if "TARGET" in s.get_annos():
 						try:
-							tnr=[tnr for tnr,t in enumerate(parsed) if "ID" in t.get_annos() and str(t.get_annos()["ID"]).strip()==str(s.get_annos()["TARGET"]).strip()][0]
+							tnr = next((tnr for tnr, t in enumerate(parsed) if "ID" in t.get_annos() and str(t.get_annos()["ID"]).strip()==str(s.get_annos()["TARGET"]).strip()), None)
+							if tnr is None:
+								continue
+
 							tid=f"sent_{tnr+1}"
 							relnr+=1
 							relid=f"rel_{relnr}"
@@ -290,9 +291,7 @@ with open(anno_set, "wt") as anno_set:
 								output.write(f"""\t\t<rel id="{relid}" xlink:href="#{sid}" target="#{tid}"/>\n""")
 								if "RELATION" in s.get_annos():
 									rels.write(f"""\t\t<feat xlink:href="#{relid}" value="{s.get_annos()["RELATION"]}"/>\n""")
-							pairs.append(pair)
-
-
+								pairs.append(pair)
 
 						except Exception:
 							traceback.print_exc()

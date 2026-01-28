@@ -2,9 +2,12 @@
 /udpipe
 /conll-rdf
 /conll-merge
+/pepper
+
 /txt/bibl
 /txt/doyle
 .*
+!.gitignore
 *.ps
 *.ttl
 /discourse_pre
@@ -15,3 +18,4 @@ mini.*
 /preanno/parcor/parcor-full
 *.log
 *-link
+__pycache__/

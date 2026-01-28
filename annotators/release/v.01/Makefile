@@ -1,10 +1,14 @@
 # build different output formats from xslx sources
 
-PEPPER = $$(cd ../../../ >/dev/null; pwd)/scripts/pepper
+PEPPER = $$(cd ../../../ >/dev/null; pwd)/pepper
 
-all: 
+all:
 	@make disc corefud paula 2>&1 \
 	 | tee make.log 1>&2
+
+clean:
+	@ANNIS_DIR=`sed -nr 's/.*<exporter name="ANNISExporter" .*path="(.*)".*>/\1/p' pepper.conf`;\
+	rm -rf de/paula/ $(ANNIS_DIR) annis-zip-tmp/ annis.zip pepper.conf
 
 pepper.conf:
 	@if [ ! -e pepper.conf ]; then \
@@ -13,14 +17,28 @@ pepper.conf:
 	fi;
 
 pepper: pepper.conf paula
-	@if [ ! -e $(PEPPER)/pepper.sh ]; then \
-		echo "Please install https://corpus-tools.org/archive-2015-2025/pepper/ such that $(PEPPER) contains the exectutable pepper.sh" 1>&2;\
-		exit 1;\
+	@PEPPER_CONF=`pwd`/pepper.conf;\
+	if command -v pepper >/dev/null 2>&1; then \
+		PEPPER_CMD=pepper;\
+	else \
+		PEPPER_CMD=$(PEPPER)/pepper.sh;\
+		if [ ! -e $$PEPPER_CMD ]; then \
+			echo "Please install https://corpus-tools.org/archive-2015-2025/pepper/ such that $(PEPPER) contains the exectutable pepper.sh" 1>&2;\
+			exit 1;\
+		else \
+			cd $(PEPPER);\
+		fi;\
 	fi;\
-	PEPPER_CONF=`pwd`/pepper.conf;\
-	cd $(PEPPER); \
-	./pepper.sh $$PEPPER_CONF
+	$$PEPPER_CMD $$PEPPER_CONF
 
+annis.zip: pepper
+	@EXPORT_DIR=`sed -nr 's/.*<exporter name="ANNISExporter" .*path="(.*)".*>/\1/p' pepper.conf`;\
+	mkdir -p annis-zip-tmp/auris/annis;\
+	cp -r de/export/* annis-zip-tmp/auris/annis/;\
+	cd annis-zip-tmp/;\
+	zip -r ../annis.zip auris;\
+	cd ..;\
+	rm -r annis-zip-tmp
 
 # ANNATTO: no paula support/relANNIS export anymore
 
@@ -112,8 +130,8 @@ update_paula: check_xlsx
 			else \
 				dir=`dirname $$file | cut -f 1 -d /`/paula/`dirname $$file | cut -f 3- -d /`;\
 				if [ ! -e $$dir ]; then mkdir -p $$dir; fi;\
-				tgt=$$dir/`basename $$file | sed s/'\.xlsx$$'//`;\
-				echo -n $$file'+'$$ud '>' $$tgt' ' 1>&2;\
+				tgt=$$dir/`basename $$file | sed s/'\.xlsx$$'// | sed s/'\.'/_/g`;\
+				echo -n $$file' + '$$ud '>' $$tgt' ' 1>&2;\
 				if [ -e $$tgt ]; then \
 					echo found 1>&2;\
 				else \

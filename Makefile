@@ -303,6 +303,7 @@ conll-rdf:
 	if [ ! -e conll-rdf ]; then \
 		git clone https://github.com/acoli-repo/conll-rdf.git;\
 		cd conll-rdf;\
+		sed -i 's/\/bin\/bash/\/usr\/bin\/env bash/' run.sh;\
 		#./compile.sh;\
 	fi;
 
