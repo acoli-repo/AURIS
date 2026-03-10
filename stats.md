@@ -15,6 +15,10 @@
  | ted-mdb.1971 | cc vr | cc tg |  |  |
 |  | annotated-coref | annotated-discourse |  |  |
 |  |  | experimental-other |  |  |
+ | doyle.14 | cc fb jc lk ps | cc lk tg |  |  |
+|  | final-coref | in-progress-discourse |  |  |
+|  | annotated-discourse |  |  |  |
+|  | in-progress-coref |  |  |  |
  | bibl.gen.4 | cc |  | gm |  |
 |  | annotated-discourse |  | annotated-coref |  |
  | bibl.gen.3 | cc |  | gm |  |
@@ -27,10 +31,6 @@
 |  | annotated-other | annotated-both |  |  |
  | bibl.gen.5 | cc |  | gm |  |
 |  | annotated-discourse |  | in-progress-coref |  |
- | doyle.14 | cc fb jc lk ps |  |  |  |
-|  | final-coref |  |  |  |
-|  | annotated-discourse |  |  |  |
-|  | in-progress-coref |  |  |  |
  | bibl.gen.1 | cc ps |  |  |  |
 |  | final-coref |  |  |  |
 |  | annotated-discourse |  |  |  |
