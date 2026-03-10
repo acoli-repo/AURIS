@@ -1,7 +1,5 @@
 # Augsburg Manual for the Annotation of Reference and Information Structure (AURIS)
 
-test
-
 At the moment, we provide an annotation manual, only, as well as build scripts. In the longer run, we aim to develop a corpus with corresponding annotations.
 
 AURIS is designed to build on and complement CoNLL-U corpora, and uses a CoNLL format. Moreover, it is designed to be used with conventional spreadsheet software and provides pre-annotation scripts and Excel-style formulas to facilitate annotation.
