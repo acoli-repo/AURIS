@@ -24,19 +24,9 @@ Data folders adopt the following organization:
 - third level: format, i.e., `disc` and `coref` for native TSV formats for discourse and coreference annotations, `corefud` for CorefUD, `xlsx` for the native spreadsheet format (identical to `disc` and `coref` in content)
 - fourth (and deeper) levels: directories that represent different sources of information
 
-## TODO
+## TODOS
 
-- [x] create an initial release
-- [ ] check version number ! (guidelines are v0.2!) what does the paper say?
-- [ ] guidelines
-- [ ] integrate as subtree into AURIS_internal
-- [ ] synchronize with AURIS_internal
-- [ ] routine to update from AURIS_internal
-- [ ] cleanse and sync scripts/ and Makefile
-- [ ] cleanse and sync conllu/
-- [ ] cleanse txt/
-- [ ] LICENSE
-- [ ] make public
+see issues
 
 ## Source data
 
