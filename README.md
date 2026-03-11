@@ -2,7 +2,7 @@
 
 > Note: This is the release repository. **Please do not directly push into this repository.** Active development takes place under the private repository https://github.com/acoli-repo/AURIS_internal. Please contact [@chiarcos](https://github.com/chiarcos) or the [Chair for Applied Computational Linguistics (ACoLi) at the University of Augsburg, Germany](https://www.uni-augsburg.de/de/fakultaet/philhist/professuren/angewandte-computerlinguistik/) to request access to [AURIS_internal](https://github.com/acoli-repo/AURIS_internal).
 
-AURIS is designed to build on and complement CoNLL-U corpora, and uses a custom CoNLL format. Moreover, it is designed to be used with conventional spreadsheet software and provides pre-annotation scripts and Excel-style formulas to facilitate annotation. All AURIS texts are multilingual in the sense that we have translations into 5-70 different languages. Release v.01 comprises the German subset, only.
+AURIS is designed to build on and complement CoNLL-U corpora, and uses a custom CoNLL format. Moreover, it is designed to be used with conventional spreadsheet software and provides pre-annotation scripts and Excel-style formulas to facilitate annotation. All AURIS texts are multilingual in the sense that we have translations into at least 5 different languages, at least, with priority currently given to German, English, and Romance languages. Release v.01 comprises the German subset, only.
 
 ## Content 
 
