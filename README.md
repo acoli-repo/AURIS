@@ -4,20 +4,6 @@
 
 AURIS is designed to build on and complement CoNLL-U corpora, and uses a custom CoNLL format. Moreover, it is designed to be used with conventional spreadsheet software and provides pre-annotation scripts and Excel-style formulas to facilitate annotation. All AURIS texts are multilingual in the sense that we have translations into 5-70 different languages. Release v.01 comprises the German subset, only.
 
-## TODO
-
-- [ ] create an initial release
-- [ ] check version number ! (guidelines are v0.2!) what does the paper say?
-- [ ] guidelines
-- [ ] integrate as subtree into AURIS_internal
-- [ ] synchronize with AURIS_internal
-- [ ] routine to update from AURIS_internal
-- [ ] cleanse and sync scripts/ and Makefile
-- [ ] cleanse and sync conllu/
-- [ ] cleanse txt/
-- [ ] LICENSE
-- [ ] make public
-
 ## Content 
 
 - Guidelines: [guidelines`](guidelines)
@@ -37,6 +23,20 @@ Data folders adopt the following organization:
 - second level: language, e.g., `de` for German ([`v.01/de`](v.01/de), [`eval/ted-mdb/de`](eval/ted-mdb/de), etc.)
 - third level: format, i.e., `disc` and `coref` for native TSV formats for discourse and coreference annotations, `corefud` for CorefUD, `xlsx` for the native spreadsheet format (identical to `disc` and `coref` in content)
 - fourth (and deeper) levels: directories that represent different sources of information
+
+## TODO
+
+- [x] create an initial release
+- [ ] check version number ! (guidelines are v0.2!) what does the paper say?
+- [ ] guidelines
+- [ ] integrate as subtree into AURIS_internal
+- [ ] synchronize with AURIS_internal
+- [ ] routine to update from AURIS_internal
+- [ ] cleanse and sync scripts/ and Makefile
+- [ ] cleanse and sync conllu/
+- [ ] cleanse txt/
+- [ ] LICENSE
+- [ ] make public
 
 ## Source data
 
