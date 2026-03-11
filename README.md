@@ -15,7 +15,7 @@ AURIS is designed to build on and complement CoNLL-U corpora, and uses a custom 
 	- [`txt/`](txt) source text with sentence splits, multilingual
 	- [`conllu/`](conllu) automatically parsed with UDpipe v.1, UD 2.5 models, selected languages
 - Release data
-	- [`v.01/`](v.01) AURIS v.01, 2025-03-06
+	- [`v0.2/`](v0.2) AURIS v0.2, published 2026-03-06
 		- German subset only, coref and discourse
 - External evaluation data
 	- [`eval/ted-mdb/`](eval/ted-mdb) TED-MDB data, converted to AURIS formats
@@ -23,8 +23,8 @@ AURIS is designed to build on and complement CoNLL-U corpora, and uses a custom 
 
 Data folders adopt the following organization:
 
-- first level: corpus/release, e.g., [`v.01/`](v.01/), [`eval/ted-mdb/`](eval/ted-mdb), [`eval/parcorfull/`](eval/parcorfull)
-- second level: language, e.g., `de` for German ([`v.01/de`](v.01/de), [`eval/ted-mdb/de`](eval/ted-mdb/de), etc.)
+- first level: corpus/release, e.g., [`v0.2/`](v0.2/), [`eval/ted-mdb/`](eval/ted-mdb), [`eval/parcorfull/`](eval/parcorfull)
+- second level: language, e.g., `de` for German ([`v.01/de`](v0.2/de), [`eval/ted-mdb/de`](eval/ted-mdb/de), etc.)
 - third level: format, i.e., `disc` and `coref` for native TSV formats for discourse and coreference annotations, `corefud` for CorefUD, `xlsx` for the native spreadsheet format (identical to `disc` and `coref` in content)
 - fourth (and deeper) levels: directories that represent different sources of information
 
@@ -39,3 +39,7 @@ ACoLi is designed to complement and enrich existing annotations. It overlaps (an
 - TED-MDB corpus (https://github.com/MurathanKurfali/Ted-MDB-Annotations), i.e., ted-mdb.1927, ted-mdb.1971, ted-mdb.1976, ted-mdb.1978, ted-mdb.2009, ted-mdb.2150
 - ParCor-News: News texts from WMT17
 
+## History
+
+- 2023-2025 AURIS v0.1 development: initial guideline development and annotation experiments
+- 2026-03-06: AURIS v0.2 initial data release
