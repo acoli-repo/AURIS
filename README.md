@@ -30,7 +30,7 @@ Data folders adopt the following organization:
 
 ## TODOS
 
-see issues
+- see [issue #1](https://github.com/acoli-repo/AURIS/issues/1)
 
 ## Source data
 
@@ -41,5 +41,7 @@ ACoLi is designed to complement and enrich existing annotations. It overlaps (an
 
 ## History
 
-- 2023-2025 AURIS v0.1 development: initial guideline development and annotation experiments
-- 2026-03-06: AURIS v0.2 initial data release
+- 2026-03-06 AURIS v0.2 initial data release
+- 2024-12-15 AURIS v0.2 guidelines, for coreference, information status and discourse
+- 2024-11-18 AURIS v0.1 guidelines for discourse
+- 2023-05-22 AURIS v0.1 guidelines, for coreference and information status
