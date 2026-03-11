@@ -8,12 +8,14 @@ AURIS is designed to build on and complement CoNLL-U corpora, and uses a custom 
 
 ## Content 
 
-- Guidelines: [guidelines`](guidelines)
+- Documentation
+	- [`guidelines/`](guidelines) annotation guidelines
+	- [`doc/`](doc) associated publications
 - Source data:
-	- [`txt`](txt) source text with sentence splits, multilingual
-	- [`conllu`](conllu) automatically parsed with UDpipe v.1, UD 2.5 models, selected languages
+	- [`txt/`](txt) source text with sentence splits, multilingual
+	- [`conllu/`](conllu) automatically parsed with UDpipe v.1, UD 2.5 models, selected languages
 - Release data
-	- [`v.01`](v.01) AURIS v.01, 2025-03-06
+	- [`v.01/`](v.01) AURIS v.01, 2025-03-06
 		- German subset only, coref and discourse
 - External evaluation data
 	- [`eval/ted-mdb/`](eval/ted-mdb) TED-MDB data, converted to AURIS formats
